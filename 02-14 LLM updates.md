@@ -1,7 +1,134 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+## 10/2
 
+今週もいろいろありすぎて、消化しきれない。GPT-4V(ision) デビュー、画像理解とか、ついにLLMが眼を持った（カンブリア紀）、天一のマークも標識にみまちがえないらしい。ChatGPTにもこれらの機能が来週からロールアウトする(Plus以上のユーザー）。Amazonは、生成AIのAnthropicに5900億円出資。Quoraが提供する [poe.com](http://poe.com) で試用できる。GoogleのGPT-4超えのGeminiは水曜(10/4)に発表される。LLMでLLMを評価するLLM-as-a-judge がはやり。一方OpenAIの次世代LLMであるArrakisはAGIだといううわさも（名前はDuneからきている？？）。特許検索だけからウイルス薬を発見したり、過去データから安定な準結晶の化学組成をあきらかにしたりと、バイオ・材料系でLLMは大活躍。PFN の PLaMo-13B 、4 bit 量子化するとColab 無料版で動くぞ。機械学習により偏微分方程式を解く話、データから逆設計できるならば画期的すぎる。 Gaussian Splatをつかった三次元生成の論文とGitHub公開が同時に２か所で！。LINEのインターン生による量子化による大規模言語モデル軽量化の効果測定、ここまで６週間でできるのか。ChatGPTの検索プラグイン復活、どうも本来ペイウォールで守られている記事であっても全文が表示されてしまうという報告で停止してものに対策が打たれた模様。RAG関係の進捗も、時系列データやMergeRetrieverなど進展がある。
+
+- Agents: LLMをつかった新しいagentフレームワークとツール軍
+	- https://github.com/aiwaves-cn/agents
+	- **Agents** is an open-source library/framework for building autonomous language agents. The library is carefully engineered to support important features including **long-short term memory**, **tool usage**, **web navigation**, **multi-agent communication**, and brand new features including **human-agent interaction** and **symbolic control**.
+- llamaindexからneo4jを使ったグラフagent
+	- https://llamahub.ai/l/tools-neo4j_db
+	- The `Neo4jQueryToolSpec` class provides a way to query a Neo4j graph database based on a provided schema definition.
+-  LLM Fine-Tuning (東大松尾研LLM講座 Day5資料)
+	- https://speakerdeck.com/schulta/llm-fine-tuning-dong-da-song-wei-yan-llmjiang-zuo-day5zi-liao
+- OSSのLLMはだGAFAMのLLMに勝ち目がいないかあるか？
+	- https://x.com/bindureddy/status/1706092114063639035?s=20
+	- OSSのLLMは、AIの民主化と透明性のためには必要という話
+-  LLMを用いたLLMの自動評価について 〜可能性と注意点
+	- https://engineers.ntt.com/entry/2023/09/25/091245
+	- LLM-as-a-judge では、**人手評価に匹敵するクオリティの評価を、お金や時間、労力をかけずに機械的に行える**ことが期待できます。
+-  Community-developed checklists for publishing images and image analyses(Nature)
+	- https://www.nature.com/articles/s41592-023-01987-9
+	- 画像や画像解析結果を報告する際のベストプラクティスに関するNature Methods誌の記事
+	- 画像のフォーマットや注釈、色の選択、データの利用可能性、画像解析ワークフローの報告に関する重要な推奨事項が提供されています。
+- OpenAIからGPT-4V(ision) が発表、ついでに品質カードSystem Cardも公開
+	- https://cdn.openai.com/papers/GPTV_System_Card.pdf
+	- GPT-4 with vision (GPT-4V) enables users to instruct GPT-4 to analyze image inputs provided by the user, and is the latest capability we are making broadly available. Incorporating additional modalities
+- 外部知識によりパーソナライズされた対話システム
+	- https://www.jstage.jst.go.jp/article/jjske/22/2/22_TJSKE-D-22-00053/_article/-char/ja/
+	- 様々な概念に対するユーザーの関心を推定し，知識グラフをパーソナライズする手法を用いて，雑談における共感性や情報提供を目指す
+- ChatGPT(Pllusユーザー以上）に、来週から新機能をroll-outするとの発表
+	- Voice Capabilities:
+	- Image Interaction
+	- New Text-to-Speech Model:
+	- Collaboration with Spotify
+-  Amazon、生成AI新興に5900億円出資　Microsoftに対抗
+	-  Claude-2-100kは、Anthropicの最も強力なモデルで、コンテキストウィンドウが10万トークン（約75,000語）
+	- ばっちり日本語にも対応しQuoraが提供する [poe.com](http://poe.com)  で実際に使ってみることができます。
+- llamaindexのAuto Merging Retriever
+	- https://gpt-index.readthedocs.io/en/latest/examples/retrievers/auto_merging_retriever.html
+	- 木構造で整理されたドキュメントに対して類似する枝から順にマージして見せるらしい。
+	- RAGを評価する教師データをGPT4で生成する、DatasetGeneratorもついでに紹介。いわゆる、 LLM-as-a-judge の一種をlllamaindexがnativeサポートした
+- 特許から分子データを抽出
+	-  Mining Patents with Large Language Models Demonstrates Congruence of Functional Labels and Chemical Structures
+	- https://arxiv.org/abs/2309.08765v1
+	- ChatGPTを使って特許から10万件の分子と関連するキーワードを高精度に抽出、このデータベースを学習したモデルからウイルス薬を逆探索するとそれっぽい分子を抽出できた
+	- 特許分析だけから、、、
+- ChatGPT-4V公開、iOSやAndroid版にも搭載、様々な評価が報告される
+	- デモの画像と言語を交えたインタラクションは未来感ある。構造化文書を画像で見せてもある程度理解できる模様。
+	- 人の見た目に対する言及など新たなリスクも評価・対策済みとのこと
+	- 英語のほうがOCR精度が良いし色々試してるけど、シンプルな図表のReasoningはかなりできる。図表に含まれない背景情報も、GPT内部の知識で補えるのが強力。
+- Calibrating LLM-Based Evaluator
+	- https://huggingface.co/papers/2309.13308
+	-  LLMベースの評価器の校正: 大規模言語モデル（LLM）を自然言語生成の品質評価に利用する方法を提案し，人間の評価との一致度を高めるための校正手法を提案する．
+- Sam Altman氏、「社内内部的には、AGIは完成した」とtweet。
+	- am Altman says "agi has been achieved internally" at OpenAI.
+	- 噂ではOpenAIはArrakisという限りなくAGIに近いany-to-any modelを開発しており、サムアルトマンらしきアカウントがAGIの開発に成功した(追記: まぁ落ち着こうや) みたいなことを言ったという報告もある。
+	- サンフランシスコで予定されている開発者会議（11/6）に何かしらの発表がある。
+- 【続】Flash Attentionを使ってLLMの推論を高速・軽量化できるか？
+	- https://qiita.com/jovyan/items/5716cd83e246df4a158e
+	- 最近公開されたhuggingfaceから直接公式実装のFlash Attention2を使える機能（from_pretrainedでuse_flash_attention_2=Trueを指定）についても実験
+- 『LogiCoT』GPT-4などのLLMに「自らの論理的な整合性をチェック」させるフレームワーク
+	- "Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic"
+	- 前提（Premise）、考え（Thought）、検証（Verification）について明確に指示する
+- 統語的評価データセット JCoLA が https://huggingface.co/datasets/shunk031/JGLUEに追加
+	- JGLUE の全てのデータセットがそろったらしい
+- ChatGPT の検索プラグイン(Plus用？）が復活
+-  Pair Programming with a Large Language Model
+	- https://www.deeplearning.ai/short-courses/pair-programming-llm/
+	- DeepLearningAIより、ショートコースが公開。LLMとペアプロとは
+- llamaindexのTimescaleDBとの連携
+	- https://medium.com/llamaindex-blog/timescale-vector-x-llamaindex-making-postgresql-a-better-vector-database-for-ai-applications-924b0bd29f0
+- 大学における数理・データサイエンス・AI 教育 の中での統計科学の教育について（日本学術会議）
+	- https://www.scj.go.jp/ja/info/kohyo/pdf/kohyo-25-k230926-24.pdf
+	- (1) 数理・データサイエンス・AI 分野の理論的基礎としての統計科学の位置付け
+	- (2) 数理・データサイエンス・AI 分野の再教育(リスキリング)の推進
+	- (3) 学士課程及び大学院教育が必要とする統計教員の育成
+	- (4) 初等・中等教育における教材、ソフトウェア、デジタル環境の整備と統計教育の さらなる充実
+	- きっと、データサイエンティストが主人公のアニメが必要だと思うぞ。
+- RAGをOSSだけで構築する方法(llamaindex)
+	-  Building RAG from Scratch (Open-source only!)
+	- https://gpt-index.readthedocs.io/en/latest/examples/low_level/oss_ingestion_retrieval.html
+	- Sentence Transformers as the embedding model
+	- Postgres as the vector store (we support many other vector stores too!)
+	- Llama 2 as the LLM (through llama.cpp)
+- Google Colab で Preferred Networks の PLaMo-13B を試すby npaka
+	- https://note.com/npaka/n/n19ff9dd4a537?sub_rt=share_sb
+-  機械学習アルゴリズムが発見した初めての準結晶(統計数理研究所）
+	- https://www.ism.ac.jp/ura/press/ISM2023-05.html
+	- これまでに合成されてきた準結晶や関連物質のパターンを読み解き、熱的に安定な準結晶を形成する化学組成を予測する機械学習技術を開発
+- PFN の PLaMo-13B を 4 bit 量子化するとColab 無料版の T4 15GB でも推論できるらしい
+	- https://colab.research.google.com/drive/1vgHInjIL5dJYoaIXL-s6ickbp3cwIQti?usp=sharing
+- DreamGaussianが 無料Colabで試せる。5分ほどで完成
+	- https://github.com/camenduru/dreamgaussian-colab
+-  Mastering Customer Segmentation with LLM
+	- https://towardsdatascience.com/mastering-customer-segmentation-with-llm-3d9008235f41
+	- テーブルデータをLLMのembeddingで数値化し、k-meansやt-SNEでクラスタの特徴を探る流れの良い解説記事
+- デジタル庁のITコンサル/PM/週5日/一部リモート/デジタル庁IT支援の求人が話題に
+	- 単価は、1,54万円/万
+	- 体調が安定しており病欠が少ない方
+- 機械学習により偏微分方程式を解く論文
+	-  Neural Operators for Accelerating Scientific Simulations and Design
+	- https://arxiv.org/abs/2309.15325v1
+	- 入出力のマッピング演算子を学習するニューラル演算子。数値計算を高速化できるだけでなく、実験データからの学習や逆設計までできるそうです。
+- ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning
+	- https://huggingface.co/papers/2309.16650
+	- ３Dの状況を概念モデルとして理解するための語彙を提供、これはメタファーの世界か。。
+- Gaussian Splat＋三次元生成の論文が一つどころか二つ同時に出ているのが戦国時代っぽいところ
+	- https://gsgen3d.github.io/
+	- https://dreamgaussian.github.io/
+	- Gaussian Splatting は、3D シーンを、ガウシアン関数で表された点群の集合として表現します。この点群の集合を、レンダリング時に、光線に沿ってサンプリングすることで、シーンをレンダリングします。
+- lama_indexの AutoMergingRetrieverを図解した絵が素晴らしい
+	- https://x.com/clusteredbytes/status/1707864519433736305?s=20
+- OpenAPIの新しいinstructモデルでは、なにか機能が落ちた模様
+	- OpenAI is removing the ability to evaluate P(completion | prompt) for user-provided completions to the `gpt-3.5-turbo-instruct` model.
+- Google、新LLM　Geminiを 10月4日に発表か、
+	- Gemini might be coming out on Wednesday
+	- "plus few more surprizes"とinvitationに書いてあるらしい
+-  7 Query Strategies for Navigating Knowledge Graphs With LlamaIndex
+	- https://betterprogramming.pub/7-query-strategies-for-navigating-knowledge-graphs-with-llamaindex-ed551863d416
+- 【インターンレポート】量子化による大規模言語モデル軽量化の効果測定
+	- https://engineering.linecorp.com/ja/blog/quantization-lightweighting-llms
+	- LINEの技術職 就業型コースのインターンシップ生の発表
+	- 6週間程度のインターン期間らしい
+	- FP8による影響まとめ
+		-  大きなモデルで最大1.2倍の推論高速化
+	- GPTQによる量子化モデルの効果測定
+- StreamlitとGithub CodespacesでブラウザのみでChatGPT API開発をする
+	- https://corp.langcore.org/media/codespaces
+-
 ## 9/25
 
 相も合わらず、RAG(Retrieval Augmented Generation)関係が多いのはご容赦。上位のLLM(GPT-4とか）をつかって正解をつくって、RAGを評価する仕組みとか、この評価の仕組みをつかって別のLLＭ(gpt-3.5-turboとか)をRAG向けにfine-tuningするなんてのが、e2e(end-to-end)の手法として当たり前になりつつある。「知識は樹木のようなもの」とのたまうスクエニの三宅さんの話はいつも面白い。SOPをつかったAgentsというのはagentの可制御性という意味で面白い。Transformers.jsをつかったWeb LLMの新手が登場。Xwin-LM-70BがGPT-4超えか？というのがもっぱらの話題。LLMが創造性を持つか？の論文での創造性の３つの基準（価値、新規性、驚き）って、特許提案と同じだよね、LLMが特許提案できるか？に置き換えても同じ。instructorというopenai function callingにpydanticを組み合わせられるライブラリ使ってみたい。RAGでもメタ情報抽出にpydantic使ったりとか、この辺りも定番化か。ChatGPTの知識が、2022年1月までの知識までアプデされた。LLMの利用サーベイ、「５位：ビジネス戦略立案」ってのは笑ったね。gpt-3.5-turbo-instructというのが出てるのね、コンパクトで、言語生成に適したモデル（チャット用ではない）、これはfine-tuning用なのか？？、LLM向けAI半導体「SN40L」ってのも期待。
@@ -90,7 +217,7 @@
 	-  @FlowGPTOfficial workshop today I gave talks on how to build RAG response generation and a simple router module using only LLMs and prompt
 - llamaindexのRAGにおける、類似検索語のpost processing様々、順番変えるとかありなのか・
 	- https://gpt-index.readthedocs.io/en/latest/core_modules/query_modules/node_postprocessors/modules.html#longcontextreorder
-- LLMが持つ/持たない/持ちうる創造性についての論文
+-  LLMが持つ/持たない/持ちうる創造性についての論文
 	- On the Creativity of Large Language Models
 	- https://arxiv.org/abs/2304.00008
 	- ボーデンの３つの基準（価値、新規性、驚き）や他の哲学的理論に基づいて、LLMの創造性を検証
@@ -132,7 +259,7 @@
 - GPT-3.5-Turbo-Instruct
 	- https://chatgpt-lab.com/n/n2ed70597dfbf
 	- 既存の「GPT-3.5-Turbo」とは違ってチャットに特化したモデルではないため、モデルが広範な自然言語処理タスクを扱うことを可能にします
-	-OpenAIのテストでは、175Bのパラメータを持つGPTモデルよりも、1.3Bのパラメータを持つInstructGPTモデルの方が、100倍小さいにもかかわらず、人々に好まれることが示されている
+	- OpenAIのテストでは、175Bのパラメータを持つGPTモデルよりも、1.3Bのパラメータを持つInstructGPTモデルの方が、100倍小さいにもかかわらず、人々に好まれることが示されている
 
 ## 9/19
 
@@ -1578,3 +1705,6 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://note.com/mahlab/n/n7d72e83904cc
 
 > Written with [StackEdit](https://stackedit.io/).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjAyNTUzMTc0MF19
+-->
