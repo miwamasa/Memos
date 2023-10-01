@@ -26,6 +26,7 @@
 - OpenAIからGPT-4V(ision) が発表、ついでに品質カードSystem Cardも公開
 	- https://cdn.openai.com/papers/GPTV_System_Card.pdf
 	- GPT-4 with vision (GPT-4V) enables users to instruct GPT-4 to analyze image inputs provided by the user, and is the latest capability we are making broadly available. Incorporating additional modalities
+	- 複雑な標識をよ
 - 外部知識によりパーソナライズされた対話システム
 	- https://www.jstage.jst.go.jp/article/jjske/22/2/22_TJSKE-D-22-00053/_article/-char/ja/
 	- 様々な概念に対するユーザーの関心を推定し，知識グラフをパーソナライズする手法を用いて，雑談における共感性や情報提供を目指す
@@ -1706,6 +1707,6 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjE3MDc1LC01MTE2MTM5MDksMTcxNj
-Y1MTIxNSwyMDI1NTMxNzQwXX0=
+eyJoaXN0b3J5IjpbMTg0MTEwNjQxOSwtMzE2MTcwNzUsLTUxMT
+YxMzkwOSwxNzE2NjUxMjE1LDIwMjU1MzE3NDBdfQ==
 -->
