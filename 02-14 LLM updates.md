@@ -61,9 +61,12 @@
 - 早速GPT-4Vに対抗するOSSであるLLaVAが登場
 	-  LLaVA: Large Language and Vision Assistant
 	- https://llava-vl.github.io/
-- How to build ChatGPT for your company data?
-	- llama2を使うのが良いみたい
-	- 
+- How to build ChatGPT for your company data? by ABACUS AI
+	- llama2を使うのが良いみたい　
+	- https://x.com/Saboo_Shubham_/status/1710505571072278932?s=20
+- 正則化項付き線形回帰は真の偏回帰係数を推定しているのか？
+	- https://bob3.hatenablog.com/entry/2023/10/06/224133
+	- 正則化項付き線形回帰（Ridge、LASSO、Elastic net）で真の偏回帰係数を推定できるのか？を実験してみました。
 
 ## 10/2
 
@@ -1773,7 +1776,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDI5OTA0MCwxMDcxNDQ0MDY3LDE3MT
+eyJoaXN0b3J5IjpbMTgyMzcyNjU0NSwxMDcxNDQ0MDY3LDE3MT
 IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
 MzddfQ==
 -->
