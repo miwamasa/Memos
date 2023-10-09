@@ -72,7 +72,9 @@
 	- More chunks ≠ better (lost in the middle problems / context overflows)
 	- Reranking retrieved chunks doesn’t necessarily improve results, in fact can worsen them.
 - Science Behind Why LLMs Can Easily Be Tricked And Are Predictably Gullible
-	- 
+	- https://x.com/bindureddy/status/1710504584496779675?s=20
+	- while large language models exhibit impressive linguistic abilities, their lack of true understanding, combined with the intricacies of data-driven learning, makes them susceptible to errors and easy to fool.
+- 新embeddingモデルgte-tiny、text-embedding-ada-002nam
 
 ## 10/2
 
@@ -1782,7 +1784,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzI5OTk4MSwxMDcxNDQ0MDY3LDE3MT
+eyJoaXN0b3J5IjpbMjA4OTExODE4OSwxMDcxNDQ0MDY3LDE3MT
 IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
 MzddfQ==
 -->
