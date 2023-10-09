@@ -90,6 +90,10 @@
 	- ClimaXは、さまざまな気象および気候モデリングタスクを実行するために設計された最初の基盤モデルです
 	- 分子動力学と機械学習型力場
 	- 天気 from Microsoft Start
+- Google ColabについにAI機能が来てる？
+- Best Practices for LLM Evaluation of RAG Applications A Case Study on the Databricks Documentation Bot
+	- https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG
+	- RAG（Retrieval Augmented Geneneration）の評価、特に"LLMを使った時代評価の観点"からベストプラクティス
 - 
 
 ## 10/2
@@ -1800,7 +1804,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Njc0NzI1NCwxMDcxNDQ0MDY3LDE3MT
+eyJoaXN0b3J5IjpbLTYwNjIzOTQwNSwxMDcxNDQ0MDY3LDE3MT
 IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
 MzddfQ==
 -->
