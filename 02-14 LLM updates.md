@@ -1594,6 +1594,8 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 
 ## 5/15
+最新のLLMに関する情報は、Transformer論文のアーキテクチャの議論や応用プロンプトエンジニアリングの探求、アッセンブリ理論の応用、AGIの悲観論、Shap-Eのデモサイト、LLamaindexの要約機能追加、GPT-4のニューロン説明試み、分子生成モデル改良、医師国家試験合格報道、WebGPUでのLLM実行、PaLM 2の発表、Q&A向けretreaver、BardとGPT-4性能比較、フォント問題、HumanML3Dデータセット、DeepL日本拠点計画、3D Tilesプロジェクト、日本語T5モデル、LeCun講演、ChatGPT Plugin提供、分子励起状態予測、機械学習理論発展、GTモデル作成、推薦システム研究、量子機械学習研究者転向、Helion Energyへの電力購入契約、牧野先生の不偏分散解説、Scikit-learnデータセット変更、Vicuna-13B-4bit実行方法、LangChainのretriever追加など多岐にわたります。
+
 - オリジナルのTransformer論文のアーキテクチャ構成の絵が、本文と合ってないと記事が、
 	- https://arxiv.org/abs/2002.04745
 - few-shot learningで満足できない人の応用プロンプト集
@@ -1845,6 +1847,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDM3MjM0LC0xNDE2NTQzNTYsMTM3MD
-Q1ODkwMywxMzI0MDU2ODM3LC04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0xND
+E2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2OTgz
+OTVdfQ==
 -->
