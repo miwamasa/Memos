@@ -1821,3 +1821,6 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://note.com/mahlab/n/n7d72e83904cc
 
 > Written with [StackEdit](https://stackedit.io/).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTgzMjY5ODM5NV19
+-->
