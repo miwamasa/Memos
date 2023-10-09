@@ -66,6 +66,7 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://llava-vl.github.io/
 	- Haotian Liu et al., "Improved Baselines with Visual Instruction Tuning"
 	- https://arxiv.org/abs/2310.03744
+	- お試しできる、https://llava.hliu.cc/
 - How to build ChatGPT for your company data? by ABACUS AI
 	- llama2を使うのが良いみたい　
 	- https://x.com/Saboo_Shubham_/status/1710505571072278932?s=20
@@ -1821,7 +1822,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDkxMjIyNiwxMDcxNDQ0MDY3LDE3MT
+eyJoaXN0b3J5IjpbMTMwOTc3NTk3NCwxMDcxNDQ0MDY3LDE3MT
 IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
 MzddfQ==
 -->
