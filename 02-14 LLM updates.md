@@ -34,6 +34,9 @@
 	-  Language Models Represent Space and Time
 	- https://arxiv.org/abs/2310.02207
 	- といっても、空間と時間の概念を持っているか？とい話で、世界地図に相当する空間の概念があるか？
+- huggingface/transformers v4.34の更新はかなりagressive
+	- https://github.com/huggingface/transformers/releases/tag/v4.34.0
+	- tokenizerの挙動を細かく制御していた人たちにとってはうれしいかも
 - 
 
 ## 10/2
@@ -1744,7 +1747,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5MTYzNjU1LDEwNzE0NDQwNjcsMTcxMj
-I3MjY1MCwtNTk2MDU5OTEwLC0yMDM5ODgzMDQ2LDUzNDI5NTgz
-N119
+eyJoaXN0b3J5IjpbLTgzMzM1MDQ3MywxMDcxNDQ0MDY3LDE3MT
+IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
+MzddfQ==
 -->
