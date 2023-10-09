@@ -1731,6 +1731,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://github.com/gventuri/pandas-ai
 
 ## 4/10
+
 -   LLMの倫理的なふるまいをさせるための、マキャベリベンチマーク
     -   [https://arxiv.org/abs/2304.03279](https://arxiv.org/abs/2304.03279 "https://arxiv.org/abs/2304.03279")
 -   LLaMA-Adapter:軽量なLoRAみたいなしくみらしい。
@@ -1822,5 +1823,6 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
+eyJoaXN0b3J5IjpbMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04Mz
+I2OTgzOTVdfQ==
 -->
