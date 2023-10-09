@@ -77,7 +77,13 @@
 - 新しいOSSのembeddingモデルgte-tinyが登場、OpenAIのtext-embedding-ada-002なみの能力をもちつつ、小さくて軽い
 	- https://huggingface.co/TaylorAI/gte-tiny/tree/main
 - OpenAI, "DALL·E 3 System Card"
+	- https://openai.com/research/dall-e-3-system-card
+	- DALL·E 3での安全対策
 	- OpenAIは、DALL·E 3の論文を通して「画像生成AIの安全性は前進した」ことを報告
+- Artificial Intelligence Index Report 2023
+	- https://arxiv.org/abs/2310.03715
+	- スタンフォード大学がAIに関する技術・法律・経済・環境・世論などの多角的なデータを収集してまとめた報告書「AI index Report 2023」をarxivに公開
+	- 
 
 ## 10/2
 
@@ -1787,7 +1793,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTExMzQ2NSwxMDcxNDQ0MDY3LDE3MT
+eyJoaXN0b3J5IjpbMTAwNDMzNTI5OCwxMDcxNDQ0MDY3LDE3MT
 IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
 MzddfQ==
 -->
