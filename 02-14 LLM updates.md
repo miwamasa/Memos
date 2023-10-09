@@ -24,7 +24,8 @@
 - 非侵襲の脳活動センシングによる、音声のデーコーディング
 	- Decoding speech from non-invasive recordings of brain activity
 	- https://huggingface.co/papers/2208.12266
-	- 
+	- contrastive learningというのをつかって、脳波からスピーチを推定
+- 
 
 ## 10/2
 
@@ -1734,7 +1735,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjQzMzc5NiwxMDcxNDQ0MDY3LDE3MT
-IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
-MzddfQ==
+eyJoaXN0b3J5IjpbMTEzNzQ0NDU1LDEwNzE0NDQwNjcsMTcxMj
+I3MjY1MCwtNTk2MDU5OTEwLC0yMDM5ODgzMDQ2LDUzNDI5NTgz
+N119
 -->
