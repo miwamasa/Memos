@@ -25,7 +25,9 @@
 	- Decoding speech from non-invasive recordings of brain activity
 	- https://huggingface.co/papers/2208.12266
 	- contrastive learningというのをつかって、脳波からスピーチを推定
-- OpenAIが、function calling fine-tuning機能を新たに追加
+- OpenAIが、function calling fine-tuning機能を新たに追加　by llamaindex
+	-  Fine Tuning with Function Calling
+	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/openai_fine_tuning_functions.html
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/finetuning/openai_fine_tuning_functions.ipynb
 	- 構造化されたデータ出力をLLMから得たいときに、functio/n callをつかうらしいが、この機能をfine-tuneすることができる
 - 
@@ -1738,7 +1740,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ2NDc0MDMsMTA3MTQ0NDA2NywxNz
+eyJoaXN0b3J5IjpbLTExNTEyNTAyMjAsMTA3MTQ0NDA2NywxNz
 EyMjcyNjUwLC01OTYwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1
 ODM3XX0=
 -->
