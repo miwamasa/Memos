@@ -57,7 +57,8 @@
 - OpenAIのSuper aligment
 	- https://openai.com/blog/introducing-superalignment
 	- “Superintelligence will be the most impactful technology humanity has ever invented.”
-	- 
+	- Superintelligence "could lead to ... human extinction. ... We believe [superintelligence] could arrive this decade."
+- 早速GPT-4Vに対抗するOSSである
 
 ## 10/2
 
@@ -1767,7 +1768,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY1ODI5LDEwNzE0NDQwNjcsMTcxMj
-I3MjY1MCwtNTk2MDU5OTEwLC0yMDM5ODgzMDQ2LDUzNDI5NTgz
-N119
+eyJoaXN0b3J5IjpbLTQ2ODQwNTM1NywxMDcxNDQ0MDY3LDE3MT
+IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
+MzddfQ==
 -->
