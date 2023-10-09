@@ -51,6 +51,9 @@
 - Why you should build RAG from scratch - with Jerry Liu from LlamaIndex
 	- LlamaIndexの中の人に聞く回。ファインチューン、RAG、ReAct、ベクトル検索やハイブリッド検索等々についてJerryがどう考えてるか聴ける。RAGはハックだと言い切ってて面白い。
 	- https://www.latent.space/p/llamaindex?utm_campaign=post&utm_medium=web
+-  Do Emergent Abilities Exist in Quantized Large Language Models: An Empirical Study
+	- https://arxiv.org/abs/2307.08072
+	- 量子化されたLLMについて、一般的にLLMで発現するとされているin-context learning、chain-of-thought, instruction-followingといった能力がどの程度保てているかを検証した研究。結果として4-bitまでの量子化であれば性能の劣化が見られないことを確認
 - 
 
 ## 10/2
@@ -1761,7 +1764,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTUxMDk2MywxMDcxNDQ0MDY3LDE3MT
-IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
-MzddfQ==
+eyJoaXN0b3J5IjpbLTEwOTQ5MDUyNTYsMTA3MTQ0NDA2NywxNz
+EyMjcyNjUwLC01OTYwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1
+ODM3XX0=
 -->
