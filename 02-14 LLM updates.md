@@ -18,7 +18,10 @@
 -  Fine-tuning with Retrieval Augmentation  by llamaindex
 	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/knowledge/finetune_retrieval_aug.html
 	- https://arxiv.org/abs/2310.01352
-	- gpt-3.5-turboをRAGデータをつかって
+	- gpt-4とDatasetGeneratorをつかって、正解qaデータを生成
+	- gpt-3.5-turboを正解qaデータをつかて、RAGのコンテキストでファインチューニング
+	- 結果correctnesは、素のLLM＝3.2、ファインチューニング後＝3.65、
+- 
 
 ## 10/2
 
@@ -1728,6 +1731,6 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjI3MjY1MCwtNTk2MDU5OTEwLC0yMD
-M5ODgzMDQ2LDUzNDI5NTgzN119
+eyJoaXN0b3J5IjpbMTA3MTQ0NDA2NywxNzEyMjcyNjUwLC01OT
+YwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1ODM3XX0=
 -->
