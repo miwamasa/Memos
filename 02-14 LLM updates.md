@@ -54,7 +54,10 @@
 -  Do Emergent Abilities Exist in Quantized Large Language Models: An Empirical Study
 	- https://arxiv.org/abs/2307.08072
 	- 量子化されたLLMについて、一般的にLLMで発現するとされているin-context learning、chain-of-thought, instruction-followingといった能力がどの程度保てているかを検証した研究。結果として4-bitまでの量子化であれば性能の劣化が見られないことを確認
-- 
+- OpenAIのSuper aligment
+	- https://openai.com/blog/introducing-superalignment
+	- “Superintelligence will be the most impactful technology humanity has ever invented.”
+	- 
 
 ## 10/2
 
@@ -1764,7 +1767,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ5MDUyNTYsMTA3MTQ0NDA2NywxNz
-EyMjcyNjUwLC01OTYwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1
-ODM3XX0=
+eyJoaXN0b3J5IjpbLTExMTY1ODI5LDEwNzE0NDQwNjcsMTcxMj
+I3MjY1MCwtNTk2MDU5OTEwLC0yMDM5ODgzMDQ2LDUzNDI5NTgz
+N119
 -->
