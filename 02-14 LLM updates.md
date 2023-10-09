@@ -89,6 +89,8 @@
 	- 科学的基盤モデル(SFM)とよぶらしい
 	- ClimaXは、さまざまな気象および気候モデリングタスクを実行するために設計された最初の基盤モデルです
 	- 分子動力学と機械学習型力場
+	- 天気 from Microsoft Start
+- 
 
 ## 10/2
 
@@ -1798,7 +1800,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1MTk4NjQ2LDEwNzE0NDQwNjcsMTcxMj
-I3MjY1MCwtNTk2MDU5OTEwLC0yMDM5ODgzMDQ2LDUzNDI5NTgz
-N119
+eyJoaXN0b3J5IjpbMTQ5Njc0NzI1NCwxMDcxNDQ0MDY3LDE3MT
+IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
+MzddfQ==
 -->
