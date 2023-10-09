@@ -83,6 +83,9 @@
 - Artificial Intelligence Index Report 2023
 	- https://arxiv.org/abs/2310.03715
 	- スタンフォード大学がAIに関する技術・法律・経済・環境・世論などの多角的なデータを収集してまとめた報告書「AI index Report 2023」をarxivに公開
+- MSのDeepSpeedチームの基盤モデルの科学応用を目指したDeepSpeed4Scienceプロジェクト
+	- https://deepspeed4science.ai/
+	- 科学的基盤モデル(SFM)とよぶらしい
 	- 
 
 ## 10/2
@@ -1793,7 +1796,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDMzNTI5OCwxMDcxNDQ0MDY3LDE3MT
-IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
-MzddfQ==
+eyJoaXN0b3J5IjpbOTU0Mjc2NzA1LDEwNzE0NDQwNjcsMTcxMj
+I3MjY1MCwtNTk2MDU5OTEwLC0yMDM5ODgzMDQ2LDUzNDI5NTgz
+N119
 -->
