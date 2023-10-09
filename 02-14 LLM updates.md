@@ -3,6 +3,8 @@
 
 ## 10/10
 
+
+
 - 『逆転の呪い』:「AはBである」と学習したLLMは、「BはAである」と学習しづらくなる。
 	- https://arxiv.org/abs/2309.12288
 	- LLMがどれだけ論理的か？という問いに対して、LLMの苦手な点を挙げる
@@ -101,10 +103,11 @@
 		-  Anthropic models (claude-2, Claude-instant-2)
 		- llama2-chat-7b 4bit
 		- Mistral-7b
-	- Microsoft、Nvidia GPU依存へのコスト削減につながるAIチップを来月デビューへ
-		- https://texal.jp/2023/10/08/microsoft-is-developing-its-own-ai-chip-and-working-with-amd-to-stop-nvidias-monopoly/
-		- 「**Athena**」１１月のか
-	- 
+- Microsoft、Nvidia GPU依存へのコスト削減につながるAIチップを来月デビューへ
+	- https://texal.jp/2023/10/08/microsoft-is-developing-its-own-ai-chip-and-working-with-amd-to-stop-nvidias-monopoly/
+	- 「**Athena**」１１月の開発者会議で発表予定？
+	- NVIDIAのH100 GPUと同等に設計されている
+
 
 ## 10/2
 
@@ -1814,7 +1817,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM4Mjk4MDIsMTA3MTQ0NDA2NywxNz
+eyJoaXN0b3J5IjpbLTE5MjY3NDQ3OTAsMTA3MTQ0NDA2NywxNz
 EyMjcyNjUwLC01OTYwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1
 ODM3XX0=
 -->
