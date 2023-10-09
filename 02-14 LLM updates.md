@@ -71,6 +71,8 @@
 	- https://docs.google.com/presentation/d/18Z7H3WSncPzLOTHKZAj36w0E7HSGY78VkDooSzvvySE/edit#slide=id.g286c47b4bb8_1_0
 	- More chunks ≠ better (lost in the middle problems / context overflows)
 	- Reranking retrieved chunks doesn’t necessarily improve results, in fact can worsen them.
+- Science Behind Why LLMs Can Easily Be Tricked And Are Predictably Gullible
+	- 
 
 ## 10/2
 
@@ -1780,7 +1782,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTUxMjAyMSwxMDcxNDQ0MDY3LDE3MT
+eyJoaXN0b3J5IjpbMTM4MzI5OTk4MSwxMDcxNDQ0MDY3LDE3MT
 IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
 MzddfQ==
 -->
