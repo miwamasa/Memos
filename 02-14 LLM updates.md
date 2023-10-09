@@ -43,7 +43,10 @@
 - RETRIEVAL MEETS LONG CONTEXT LARGE LANGUAGE MODELS
 	- https://arxiv.org/abs/2310.03025
 	- NVIDIAよりRAGとContext Window (CW)のパフォーマンス比較論文。4K CWのLLM＋RAGは、16K CWのLLMと同等、32K CWのLLaMA2-70B＋RAGは長いContextのタスクにおいてGPT-3.5-turbo-16kより優れていると事を実証分析 
-- 
+- llama.cpp 単体で LoRA 作れる機能が追加
+	- https://github.com/ggerganov/llama.cpp/pull/2632
+- Wes Gurnee et al., "Language Models Represent Space and Time"
+	- https://arxiv.org/abs/2310.02207
 
 ## 10/2
 
@@ -1753,7 +1756,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTQzNDM0MSwxMDcxNDQ0MDY3LDE3MT
+eyJoaXN0b3J5IjpbMTA2MTI3MDUzNCwxMDcxNDQ0MDY3LDE3MT
 IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
 MzddfQ==
 -->
