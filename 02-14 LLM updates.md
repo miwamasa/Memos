@@ -11,7 +11,8 @@
 -  Knowledge Graph Construction w/ WikiData Filtering
 	- https://gpt-index.readthedocs.io/en/latest/examples/index_structs/knowledge_graph/knowledge_graph2.html
 	- REBELを用いて、文章あから知識グラフを抽出する方法において、Wikipediaをフィルタとして用いることで、春市ネーションを抑えれる
-- 
+- Ronen Eldan et al., "Who's Harry Potter? Approximate Unlearning in LLMs"
+	- 
 
 ## 10/2
 
@@ -1721,6 +1722,6 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1Mz
-QyOTU4MzddfQ==
+eyJoaXN0b3J5IjpbODU3ODYwNCwtNTk2MDU5OTEwLC0yMDM5OD
+gzMDQ2LDUzNDI5NTgzN119
 -->
