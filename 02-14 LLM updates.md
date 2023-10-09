@@ -3,6 +3,7 @@
 
 ## 10/10
 
+function callを含むLLMのファインチューニングをOpenAIが導入されたり、LLMのRAGに対するファインチューニングについての考察があったりと、性能面での評価を含めRAG関係は成熟してきた感じ。LLMが「物事がどのように位置づけられ、時間がどのように進行するかを理解」している
 
 
 - 『逆転の呪い』:「AはBである」と学習したLLMは、「BはAである」と学習しづらくなる。
@@ -1817,7 +1818,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjY3NDQ3OTAsMTA3MTQ0NDA2NywxNz
+eyJoaXN0b3J5IjpbLTE3NjczOTIwNzEsMTA3MTQ0NDA2NywxNz
 EyMjcyNjUwLC01OTYwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1
 ODM3XX0=
 -->
