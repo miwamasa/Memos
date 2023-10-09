@@ -27,7 +27,8 @@
 	- contrastive learningというのをつかって、脳波からスピーチを推定
 - OpenAIが、function calling fine-tuning機能を新たに追加
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/finetuning/openai_fine_tuning_functions.ipynb
-	- 
+	- 構造化されたデータ出力をLLMから得たいときに、functio/n callをつかうらしいが、この機能をfine-tuneすることができる
+- 
 
 ## 10/2
 
@@ -1737,7 +1738,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTYwMTg3NywxMDcxNDQ0MDY3LDE3MT
-IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
-MzddfQ==
+eyJoaXN0b3J5IjpbLTE1NTQ2NDc0MDMsMTA3MTQ0NDA2NywxNz
+EyMjcyNjUwLC01OTYwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1
+ODM3XX0=
 -->
