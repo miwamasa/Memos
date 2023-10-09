@@ -21,7 +21,10 @@
 	- gpt-4とDatasetGeneratorをつかって、正解qaデータを生成
 	- gpt-3.5-turboを正解qaデータをつかて、RAGのコンテキストでファインチューニング
 	- 結果correctnesは、素のLLM＝3.2、ファインチューニング後＝3.65、
-- 
+- 非侵襲の脳活動センシングによる、音声のデーコーディング
+	- Decoding speech from non-invasive recordings of brain activity
+	- https://huggingface.co/papers/2208.12266
+	- 
 
 ## 10/2
 
@@ -1731,6 +1734,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTQ0NDA2NywxNzEyMjcyNjUwLC01OT
-YwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1ODM3XX0=
+eyJoaXN0b3J5IjpbLTk0MjQzMzc5NiwxMDcxNDQ0MDY3LDE3MT
+IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
+MzddfQ==
 -->
