@@ -94,7 +94,12 @@
 - Best Practices for LLM Evaluation of RAG Applications A Case Study on the Databricks Documentation Bot
 	- https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG
 	- RAG（Retrieval Augmented Geneneration）の評価、特に"LLMを使った時代評価の観点"からベストプラクティス
-- 
+- 様々なLLMが何ができるかの比較表 by llamaindex
+	- https://docs.llamaindex.ai/en/latest/core_modules/model_modules/llms/root.html#llm-compatibility-tracking
+		- OpenAI models (gpt-3.5-turbo, gpt-3.5-turbo-instruct, gpt-4)
+		-  Anthropic models (claude-2, Claude-instant-2)
+✅ llama2-chat-7b 4bit
+✅ Mistral-7b
 
 ## 10/2
 
@@ -1804,7 +1809,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjIzOTQwNSwxMDcxNDQ0MDY3LDE3MT
+eyJoaXN0b3J5IjpbLTM3MjIwMzM4MywxMDcxNDQ0MDY3LDE3MT
 IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
 MzddfQ==
 -->
