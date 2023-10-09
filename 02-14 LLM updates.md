@@ -34,6 +34,9 @@
 	-  Language Models Represent Space and Time
 	- https://arxiv.org/abs/2310.02207
 	- LLMはシンプルに統計（確率）から次のテキストを生成しているのではなく、「物事がどのように位置づけられ、時間がどのように進行するかを理解」している可能性が示唆されました。 つまり、LLMが"世界モデル"を形成しているかもしれないという報告
+	- 世界、米国、NYCの地名、歴史的人物、芸術作品、ニュースヘッドラインなどを含む6つのデータセットを用意
+	- 空間と時間の理解度は、LLMのニューラルネットワークにおける階層を半分まで進んだところで品質が向上し、そのあと限界点に達する
+	- LLMが「世界モデル」を形成している可能性が高いのであれば、LLMがより高度な認知タスクに対応できることに繋がります。 例えば自動運転車のソフトウェアにLLMを活用するのは優れた戦略である可能性があります
 - huggingface/transformers v4.34の更新はかなりagressive
 	- https://github.com/huggingface/transformers/releases/tag/v4.34.0
 	- tokenizerの挙動を細かく制御していた人たちにとってはうれしいかも
@@ -45,7 +48,8 @@
 	- NVIDIAよりRAGとContext Window (CW)のパフォーマンス比較論文。4K CWのLLM＋RAGは、16K CWのLLMと同等、32K CWのLLaMA2-70B＋RAGは長いContextのタスクにおいてGPT-3.5-turbo-16kより優れていると事を実証分析 
 - llama.cpp 単体で LoRA 作れる機能が追加
 	- https://github.com/ggerganov/llama.cpp/pull/2632
-- 
+- Why you should build RAG from scratch - with Jerry Liu from LlamaIndex
+	- 
 
 ## 10/2
 
@@ -1755,7 +1759,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzA5MTkwMSwxMDcxNDQ0MDY3LDE3MT
-IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
-MzddfQ==
+eyJoaXN0b3J5IjpbLTE1OTE4MzQxODIsMTA3MTQ0NDA2NywxNz
+EyMjcyNjUwLC01OTYwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1
+ODM3XX0=
 -->
