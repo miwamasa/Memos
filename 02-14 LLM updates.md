@@ -40,6 +40,9 @@
 - ModuLoRA is the first method to finetune 3-bit LLMs
 	- 3-bitや2-bitに量子化したLLMの話題の裏にあるアルゴリズムModulLoRAが公開
 	- https://browse.arxiv.org/pdf/2309.16119.pdf
+- RETRIEVAL MEETS LONG CONTEXT LARGE LANGUAGE MODELS
+	- https://arxiv.org/abs/2310.03025
+	- NVIDIAよりRAGとContext Window (CW)のパフォーマンス比較論文。4K CWのLLM＋RAGは、16K CWのLLMと同等、32K CWのLLaMA2-70B＋RAGは長いContextのタスクにおいてGPT-3.5-turbo-16kより優れていると事を実証分析 
 - 
 
 ## 10/2
@@ -1750,7 +1753,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTU2ODk2MywxMDcxNDQ0MDY3LDE3MT
+eyJoaXN0b3J5IjpbMTQ5NTQzNDM0MSwxMDcxNDQ0MDY3LDE3MT
 IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
 MzddfQ==
 -->
