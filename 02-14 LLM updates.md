@@ -58,7 +58,12 @@
 	- https://openai.com/blog/introducing-superalignment
 	- “Superintelligence will be the most impactful technology humanity has ever invented.”
 	- Superintelligence "could lead to ... human extinction. ... We believe [superintelligence] could arrive this decade."
-- 早速GPT-4Vに対抗するOSSである
+- 早速GPT-4Vに対抗するOSSであるLLaVAが登場
+	-  LLaVA: Large Language and Vision Assistant
+	- https://llava-vl.github.io/
+- How to build ChatGPT for your company data?
+	- llama2を使うのが良いみたい
+	- 
 
 ## 10/2
 
@@ -1768,7 +1773,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODQwNTM1NywxMDcxNDQ0MDY3LDE3MT
+eyJoaXN0b3J5IjpbMTIxNDI5OTA0MCwxMDcxNDQ0MDY3LDE3MT
 IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
 MzddfQ==
 -->
