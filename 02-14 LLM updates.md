@@ -101,8 +101,10 @@
 		-  Anthropic models (claude-2, Claude-instant-2)
 		- llama2-chat-7b 4bit
 		- Mistral-7b
-	- Microsoft 、NVIDIAに　AIチップを開発か、
-		- https://www.theinformation.com/articles/microsoft-to-debut-ai-chip-next-month-that-could-cut-nvidia-gpu-costs
+	- Microsoft、Nvidia GPU依存へのコスト削減につながるAIチップを来月デビューへ
+		- https://texal.jp/2023/10/08/microsoft-is-developing-its-own-ai-chip-and-working-with-amd-to-stop-nvidias-monopoly/
+		- 「**Athena**」１１月のか
+	- 
 
 ## 10/2
 
@@ -1812,7 +1814,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk0NTIwNTAsMTA3MTQ0NDA2NywxNz
+eyJoaXN0b3J5IjpbLTE5NTM4Mjk4MDIsMTA3MTQ0NDA2NywxNz
 EyMjcyNjUwLC01OTYwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1
 ODM3XX0=
 -->
