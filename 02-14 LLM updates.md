@@ -1771,6 +1771,8 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 ## 4/24
 
+
+
 - Microsoft のSemantic KernelのPythonバインディングが発表
 	- https://github.com/microsoft/semantic-kernel/blob/main/python/README.md
 - gist tokenによりプロンプトを圧縮する論文(26倍?)
@@ -1823,6 +1825,6 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04Mz
-I2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbLTEzOTg1MDI5ODEsMTM3MDQ1ODkwMywxMz
+I0MDU2ODM3LC04MzI2OTgzOTVdfQ==
 -->
