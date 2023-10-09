@@ -30,6 +30,10 @@
 	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/openai_fine_tuning_functions.html
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/finetuning/openai_fine_tuning_functions.ipynb
 	- 構造化されたデータ出力をLLMから得たいときに、functio/n callをつかうらしいが、この機能をfine-tuneすることができる
+- LLMは世界モデルをもっているか？
+	-  Language Models Represent Space and Time
+	- https://arxiv.org/abs/2310.02207
+	- といっても、空間と時間の概念を持っているか？とい話で、世界地図に相当する空間の概念があるか？
 - 
 
 ## 10/2
@@ -1740,7 +1744,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTEyNTAyMjAsMTA3MTQ0NDA2NywxNz
-EyMjcyNjUwLC01OTYwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1
-ODM3XX0=
+eyJoaXN0b3J5IjpbMzg5MTYzNjU1LDEwNzE0NDQwNjcsMTcxMj
+I3MjY1MCwtNTk2MDU5OTEwLC0yMDM5ODgzMDQ2LDUzNDI5NTgz
+N119
 -->
