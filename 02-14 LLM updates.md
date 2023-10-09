@@ -49,7 +49,9 @@
 - llama.cpp 単体で LoRA 作れる機能が追加
 	- https://github.com/ggerganov/llama.cpp/pull/2632
 - Why you should build RAG from scratch - with Jerry Liu from LlamaIndex
-	- 
+	- LlamaIndexの中の人に聞く回。ファインチューン、RAG、ReAct、ベクトル検索やハイブリッド検索等々についてJerryがどう考えてるか聴ける。RAGはハックだと言い切ってて面白い。
+	- https://www.latent.space/p/llamaindex?utm_campaign=post&utm_medium=web
+- 
 
 ## 10/2
 
@@ -1759,7 +1761,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE4MzQxODIsMTA3MTQ0NDA2NywxNz
-EyMjcyNjUwLC01OTYwNTk5MTAsLTIwMzk4ODMwNDYsNTM0Mjk1
-ODM3XX0=
+eyJoaXN0b3J5IjpbMjA3MTUxMDk2MywxMDcxNDQ0MDY3LDE3MT
+IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
+MzddfQ==
 -->
