@@ -3,8 +3,9 @@
 
 ## 10/10
 
-- 
+- 『逆転の呪い』:「AはBである」と学習したLLMは、「BはAである」と学習しづらくなる。
 	- https://arxiv.org/abs/2309.12288
+	- LLMがどれだけ論理的か？という問いに対s
 
 ## 10/2
 
@@ -1714,6 +1715,6 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0MzcxMDA3LC0yMDM5ODgzMDQ2LDUzND
-I5NTgzN119
+eyJoaXN0b3J5IjpbMTYxMjE3NTYxOSwtMjAzOTg4MzA0Niw1Mz
+QyOTU4MzddfQ==
 -->
