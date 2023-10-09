@@ -67,6 +67,10 @@
 - 正則化項付き線形回帰は真の偏回帰係数を推定しているのか？
 	- https://bob3.hatenablog.com/entry/2023/10/06/224133
 	- 正則化項付き線形回帰（Ridge、LASSO、Elastic net）で真の偏回帰係数を推定できるのか？を実験してみました。
+- RAGにおけるchankサイズについて
+	- https://docs.google.com/presentation/d/18Z7H3WSncPzLOTHKZAj36w0E7HSGY78VkDooSzvvySE/edit#slide=id.g286c47b4bb8_1_0
+	- More chunks ≠ better (lost in the middle problems / context overflows)
+	- Reranking retrieved chunks doesn’t necessarily improve results, in fact can worsen them.
 
 ## 10/2
 
@@ -1776,7 +1780,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzcyNjU0NSwxMDcxNDQ0MDY3LDE3MT
+eyJoaXN0b3J5IjpbLTY5NTUxMjAyMSwxMDcxNDQ0MDY3LDE3MT
 IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
 MzddfQ==
 -->
