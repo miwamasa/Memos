@@ -1731,6 +1731,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://github.com/gventuri/pandas-ai
 
 ## 4/10
+LLMの倫理的なふるまいを評価するためのマキャベリベンチマークが発表されました。LLaMA-Adapterと呼ばれる、軽量なLoRAのようなシステムが紹介されました。DeepMindからは、Transformersのための形式的なアルゴリズムに関する研究が発表されました。LLMに対する心理学的な評価やセラピーを行うための枠組みが提案されました。リーガルなGPT-4ベースのサービスであるHarveyが公開されました。京大2回生の統計力学の期末試験の問題が論文になった話があります。AzureのOpenAIがEmbeddingのバージョン2をリリースし、トークン数が2,048から8,191に増加しました。MatChaと呼ばれるシステムが、グラフなどの入力から推論やQ&Aを行うことができるようになりました。gpt4allの公式チャットUIがリリースされました。Microsoft ResearchのSparks of AGI: early experiments with GPT-4に関する説明がYouTubeで提供されています。
 
 -   LLMの倫理的なふるまいをさせるための、マキャベリベンチマーク
     -   [https://arxiv.org/abs/2304.03279](https://arxiv.org/abs/2304.03279 "https://arxiv.org/abs/2304.03279")
@@ -1840,6 +1841,6 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMj
-QwNTY4MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbMTc5OTM5OTA4NywtMTQxNjU0MzU2LDEzNz
+A0NTg5MDMsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
 -->
