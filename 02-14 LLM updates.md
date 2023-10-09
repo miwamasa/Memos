@@ -8,14 +8,17 @@
 	- LLMがどれだけ論理的か？という問いに対して、LLMの苦手な点を挙げる
 	- 『逆転の呪い』LLMは、知識を構造化し、”帰結を主語にして同じことを言う”のが自動的にはできない
 	- LLMの「逆転の呪い」を認識した上ですべきことの考察
--  Knowledge Graph Construction w/ WikiData Filtering
+-  Knowledge Graph Construction w/ WikiData Filtering  by llamaindex
 	- https://gpt-index.readthedocs.io/en/latest/examples/index_structs/knowledge_graph/knowledge_graph2.html
 	- REBELを用いて、文章あから知識グラフを抽出する方法において、Wikipediaをフィルタとして用いることで、春市ネーションを抑えれる
 - Ronen Eldan et al., "Who's Harry Potter? Approximate Unlearning in LLMs"
 	- https://arxiv.org/abs/2310.02238
 	- LLMの記憶の一部を意図的に忘却させる
 	- 約1GPU時間の微調整で、モデルはHarry Potter関連のコンテンツを生成または回想する能力を効果的に消去
-- 
+-  Fine-tuning with Retrieval Augmentation  by llamaindex
+	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/knowledge/finetune_retrieval_aug.html
+	- https://arxiv.org/abs/2310.01352
+	- 
 
 ## 10/2
 
@@ -1725,6 +1728,6 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDkxMDAyNTksLTU5NjA1OTkxMCwtMj
+eyJoaXN0b3J5IjpbLTExNTkyMzY0MDEsLTU5NjA1OTkxMCwtMj
 AzOTg4MzA0Niw1MzQyOTU4MzddfQ==
 -->
