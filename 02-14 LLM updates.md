@@ -5,7 +5,9 @@
 
 - 『逆転の呪い』:「AはBである」と学習したLLMは、「BはAである」と学習しづらくなる。
 	- https://arxiv.org/abs/2309.12288
-	- LLMがどれだけ論理的か？という問いに対s
+	- LLMがどれだけ論理的か？という問いに対して、LLMの苦手な点を挙げる
+	- 『逆転の呪い』LLMは、知識を構造化し、”帰結を主語にして同じことを言う”のが自動的にはできない
+	- LLMの「逆転の呪い」を認識した上ですべきことの考察
 
 ## 10/2
 
@@ -1715,6 +1717,6 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjE3NTYxOSwtMjAzOTg4MzA0Niw1Mz
+eyJoaXN0b3J5IjpbLTQ3NDQwMjMwNCwtMjAzOTg4MzA0Niw1Mz
 QyOTU4MzddfQ==
 -->
