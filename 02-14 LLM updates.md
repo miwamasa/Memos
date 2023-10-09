@@ -1682,6 +1682,31 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://python.langchain.com/en/latest/modules/indexes/retrievers/examples/arxiv.html
 
 ## 5/8
+LLamaIndex 0.6.0がリリースされ、データに対する新しいクエリインターフェイスが導入されました。ChatGPT Code Interpreterが登場し、プログラムの解釈と実行が可能になりました。
+
+Andrew Ngのプロンプトエンジニアリングの講義が提供され、開発者向けにプロンプトエンジニアリングのスキルが教授されます。詳細は[こちらのリンク](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)からアクセスできます。
+
+Transformerのenc-dec間にinformation bottleneckを導入したVAE的な表現の正則化に関する研究が行われ、その詳細は[こちらの論文](https://openreview.net/forum?id=6QkjC_cs03X)で読むことができます。
+
+"Are Emergent Abilities of Large Language Models a Mirage?"と題された論文が公開され、LLMの新たな能力に関する議論が提起されました。詳細は[こちらのリンク](https://arxiv.org/abs/2304.15004)から確認できます。
+
+JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に関する指針が提案されました。詳細は[こちらのリンク](https://www.jdla.org/document/?utm_source=prtimes&utm_medium=referral)からアクセスできます。
+
+LangChainとOpenAIのGymnasiumが連携し、エージェントシミュレーションに関する利用事例が紹介されました。詳細は[こちらのリンク](https://python.langchain.com/en/latest/use_cases/agent_simulations/gymnasium.html)から確認できます。
+
+ディープラーニングによる自然言語処理に関する書籍が出版され、NLPに興味を持つ方に向けたリソースが提供されます。詳細は[こちらのAmazonリンク](https://www.amazon.co.jp/dp/4320125029/)から確認できます。
+
+"Causal Reasoning and Large Language Models: Opening a New Frontier for Causality"という論文が公開され、因果推論とLLMの関連についての研究が行われました。詳細は[こちらのリンク](https://arxiv.org/abs/2305.00050)から読むことができます。
+
+自己アテンション機構を使用して多電子系のシュレディンガー方程式を第一原理的に解く研究が行われ、その詳細は[こちらの論文](https://arxiv.org/abs/2211.13672)で確認できます。
+
+OpenLLAMAが公開され、LLMを活用したデータクエリエンジンが提供されます。詳細は[こちらのGitHubリンク](https://github.com/openlm-research/open_llama)からアクセスできます。
+
+G.HintonによるGAI（General Artificial Intelligence）に関するインタビューがCNNで公開され、AIの未来についての議論が展開されました。詳細は[こちらのYouTubeリンク](https://www.youtube.com/watch?v=FAbsoxQtUwM)から視聴できます。
+
+"Chatbot Arena: Benchmarking LLMs in the Wild with Elo Ratings"という記事が公開され、LLMの性能評価に関する情報が提供されました。詳細は[こちらのリンク](https://lmsys.org/blog/2023-05-03-arena/)からアクセスできます。
+
+"TMR: Text-to-Motion Retrieval Using Contrastive 3D Human Motion Synthesis"と題された研究が行われ、テキストからヒューマンモーションを生成する技術が提案されました。詳細は[こちらのリンク](https://mathis.petrovich.fr/tmr/)から確認できます。
 - LlamaIndex 0.6.0 - データに対する新しいクエリインターフェイス
 	- https://note.com/npaka/n/n4254fc549dc0
 - ChatGPT Code Interpreter
@@ -1841,6 +1866,6 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTM5OTA4NywtMTQxNjU0MzU2LDEzNz
+eyJoaXN0b3J5IjpbMTI4NTU0ODkxMiwtMTQxNjU0MzU2LDEzNz
 A0NTg5MDMsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
 -->
