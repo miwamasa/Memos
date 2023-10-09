@@ -25,7 +25,9 @@
 	- Decoding speech from non-invasive recordings of brain activity
 	- https://huggingface.co/papers/2208.12266
 	- contrastive learningというのをつかって、脳波からスピーチを推定
-- 
+- OpenAIが、function calling fine-tuning機能を新たに追加
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/finetuning/openai_fine_tuning_functions.ipynb
+	- 
 
 ## 10/2
 
@@ -1735,7 +1737,7 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzQ0NDU1LDEwNzE0NDQwNjcsMTcxMj
-I3MjY1MCwtNTk2MDU5OTEwLC0yMDM5ODgzMDQ2LDUzNDI5NTgz
-N119
+eyJoaXN0b3J5IjpbMTE3NTYwMTg3NywxMDcxNDQ0MDY3LDE3MT
+IyNzI2NTAsLTU5NjA1OTkxMCwtMjAzOTg4MzA0Niw1MzQyOTU4
+MzddfQ==
 -->
