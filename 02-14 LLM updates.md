@@ -75,7 +75,9 @@
 - LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression
 	- https://arxiv.org/abs/2310.06839
 	- Gains a performance boost of up to 17.1% on NaturalQuestions over the original prompt with ~4x fewer tokens
-- 
+- MatGPT: A Vane of Materials Informatics from Past, Present, to Future
+	- https://onlinelibrary.wiley.com/doi/10.1002/adma.202306733?af=R
+	- 
 
 ## 10/10
 
@@ -1923,9 +1925,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3Njc1NzI3LC0xNDYwMzMzMTg0LDk3OD
-IyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMy
-MywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLT
-E0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5
-ODM5NV19
+eyJoaXN0b3J5IjpbMTAzMDM2MDgzOSwtMTQ2MDMzMzE4NCw5Nz
+gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
+MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
+0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
+OTgzOTVdfQ==
 -->
