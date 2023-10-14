@@ -9,7 +9,10 @@
 	- The biggest progress in the past 10 years (or even more) can be summarized as
 		- Create weaker inductive biases and scale up
 		- Do not teach machines how we think we think. Let it learn in a machine’s way
-- 
+- Masking PII Data in RAG Pipeline
+	- https://betterprogramming.pub/masking-pii-data-in-rag-pipeline-326d2d330336
+	- PII(Personal Identification Information)をマスキングする方法を、RAGにおいて行う方法
+	- 
 
 ## 10/10
 
@@ -1857,7 +1860,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjE0NDYyNiwtMTQxOTU3Mzk4MCwyMT
-QwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4
-MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbLTczODc1OTAsLTE0MTk1NzM5ODAsMjE0MD
+M3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3
+LC04MzI2OTgzOTVdfQ==
 -->
