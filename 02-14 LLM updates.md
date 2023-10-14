@@ -77,7 +77,9 @@
 	- Gains a performance boost of up to 17.1% on NaturalQuestions over the original prompt with ~4x fewer tokens
 - MatGPT: A Vane of Materials Informatics from Past, Present, to Future
 	- https://onlinelibrary.wiley.com/doi/10.1002/adma.202306733?af=R
-	- 
+	- **GPT AI**の出現は、科学研究分野が「データ」を基本要素とし、「アルゴリズム + 計算能力」を核心生産力とする知能文明時代に入ったことを示している。
+	- 事前学習モデル、指向性設計モデル、協調学習、実験ロボットなど
+- 
 
 ## 10/10
 
@@ -1925,9 +1927,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDM2MDgzOSwtMTQ2MDMzMzE4NCw5Nz
-gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
-MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
-0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
-OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbMjc0NTQ2NDAxLC0xNDYwMzMzMTg0LDk3OD
+IyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMy
+MywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLT
+E0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5
+ODM5NV19
 -->
