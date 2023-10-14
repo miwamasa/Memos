@@ -57,7 +57,7 @@
 - 7 Query Strategies for Navigating Knowledge Graphs With NebulaGraph and LlamaIndex
 	- https://www.nebula-graph.io/posts/Knowledge-Graph-and-LlamaIndex
 	- NebulaGraph を使ってグラフ構造に対する、Q&Aを実現する方法について via Llamaindex
-- 
+- StanfordのDS
 
 ## 10/10
 
@@ -1905,8 +1905,8 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMz
-cxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3
-MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC
-04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbNzY0NDQxOTksLTE3NTc1NTI5MTksMTk1Mj
+M1OTU3LDExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5
+ODAsMjE0MDM3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMz
+I0MDU2ODM3LC04MzI2OTgzOTVdfQ==
 -->
