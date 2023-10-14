@@ -14,7 +14,13 @@
 	- PII(Personal Identification Information)をマスキングする方法を、RAGにおいて行う方法
 	-  LlamaIndexの NERPIINodePostprocessorを活用するのがみそ
 - Jerryより、RAGシステムの性能向上に関するワークショップ関係の情報提供があった
-	- 
+	- Evaluating the Ideal Chunk Size for a RAG System using LlamaIndex
+		- https://blog.llamaindex.ai/evaluating-the-ideal-chunk-size-for-a-rag-system-using-llamaindex-6207e5d3fec5
+	- Building Performant RAG Applications for Production
+		- https://docs.llamaindex.ai/en/stable/end_to_end_tutorials/dev_practices/production_rag.html
+	- Multi-Document Agents
+		- https://docs.llamaindex.ai/en/stable/examples/agent/multi_document_agents.html
+	- Finetuning
 
 ## 10/10
 
@@ -1862,7 +1868,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzU4OTYwMywtMTQxOTU3Mzk4MCwyMT
+eyJoaXN0b3J5IjpbLTg3ODMzODMzMCwtMTQxOTU3Mzk4MCwyMT
 QwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4
 MzcsLTgzMjY5ODM5NV19
 -->
