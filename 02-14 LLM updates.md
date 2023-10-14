@@ -62,7 +62,9 @@
 - KaggleのAI Report 2023
 	- https://www.kaggle.com/AI-Report-2023
 	- これはAIの現状に関するエッセイコンペの結果をまとめたもの、最新のAIを取り巻く様々な視点からの見方がわかる。
-- 
+- zephyr-7b-alphaがChatLlama 70Bを上回る性能をだしたらしいのでllamaindexで確かめてみた
+	- https://colab.research.google.com/drive/16Ygf2IyGNkb725ZqtRmFQjwWBuzFX_kl?usp=sharing#scrollTo=lMNaHDzPM68f
+	- We found that it is the ONLY open 7B model atm that does well on advanced RAG/agentic task
 
 ## 10/10
 
@@ -1910,8 +1912,8 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NzEyMTgwNywtMTc1NzU1MjkxOSwxOT
-UyMzU5NTcsMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3
-Mzk4MCwyMTQwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLD
-EzMjQwNTY4MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NT
+IzNTk1NywxMTM3MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTcz
+OTgwLDIxNDAzNzIzNCwtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMT
+MyNDA1NjgzNywtODMyNjk4Mzk1XX0=
 -->
