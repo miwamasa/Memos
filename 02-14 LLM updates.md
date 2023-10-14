@@ -95,7 +95,8 @@
 	- 「Stability AI Japan」が開発した7Bパラメータの日本語LLM
 	- 商用利用を制限しないデータセットのみを利用することで、同等レベルの性能を持つ**商用利用が可能**
 	- Colab無料枠(T4)で動作する模様
-- 
+- StanfordAIによる、 State of AI Report 2023
+	- https://www.stateof.ai/2023-report-launch
 
 ## 10/10
 
@@ -1943,7 +1944,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDUwODY5MCwtMTQ2MDMzMzE4NCw5Nz
+eyJoaXN0b3J5IjpbLTMwMTYyNzA5NywtMTQ2MDMzMzE4NCw5Nz
 gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
 MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
 0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
