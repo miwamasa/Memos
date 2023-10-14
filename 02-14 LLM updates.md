@@ -3,7 +3,9 @@
 
 ## 10/16
 
-
+- Large Language Models (in 2023)
+	- https://docs.google.com/presentation/d/1636wKStYdT_yRPbJNrf8MLKpQghuWGDmyHinHhAKeXY/edit#slide=id.g2885e521b53_0_0
+	- OpenAI
 
 ## 10/10
 
@@ -1851,7 +1853,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDUzNzU2NDEsLTE0MTk1NzM5ODAsMj
-E0MDM3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2
-ODM3LC04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbLTU2MTAzMTgzOSwtMTQxOTU3Mzk4MCwyMT
+QwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4
+MzcsLTgzMjY5ODM5NV19
 -->
