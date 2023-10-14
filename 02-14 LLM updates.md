@@ -67,7 +67,7 @@
 	- We found that it is the ONLY open 7B model atm that does well on advanced RAG/agentic task
 - DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
 	- https://huggingface.co/papers/2309.16653
-	- ここで３Dモデル作成を試せる
+	- ここで３Dモデル作成を試せる、なんかすごいぞ。
 		- https://huggingface.co/spaces/jiawei011/dreamgaussian
 -  Multimodality and Large Multimodal Models (LMMs)
 	- https://huyenchip.com/2023/10/10/multimodal.html
@@ -79,7 +79,7 @@
 	- https://onlinelibrary.wiley.com/doi/10.1002/adma.202306733?af=R
 	- **GPT AI**の出現は、科学研究分野が「データ」を基本要素とし、「アルゴリズム + 計算能力」を核心生産力とする知能文明時代に入ったことを示している。
 	- 事前学習モデル、指向性設計モデル、協調学習、実験ロボットなど
-- 
+- PFNのインターン発表： 遺伝⼦に関するグラフを利⽤したモデルの開発
 
 ## 10/10
 
@@ -1927,9 +1927,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0NTQ2NDAxLC0xNDYwMzMzMTg0LDk3OD
-IyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMy
-MywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLT
-E0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5
-ODM5NV19
+eyJoaXN0b3J5IjpbLTE0MjAzNTY2MTAsLTE0NjAzMzMxODQsOT
+c4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5
+MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNC
+wtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMy
+Njk4Mzk1XX0=
 -->
