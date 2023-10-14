@@ -82,6 +82,12 @@
 - PFNのインターン発表： 遺伝⼦に関するグラフを利⽤したモデルの開発
 	- https://tech.preferred.jp/ja/blog/model-learning-using-gene-graph/
 	- RNAからProteinを予測するタスクにおいては、学習サンプル数が限られ、かつ使用できる特徴量が少ない状況においては、予測対象モダリティの制御に関与する特定のグラフ構造を用いることで性能の改善が認められました。
+- サイバーエージェントがOpenCaml2を開発中らしい
+	- https://aws.amazon.com/jp/blogs/news/open-calm-and-openai-chatgpt-accuracy-on-jaqket-experiment-in-amazon-sagemaker/
+- RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation
+	- https://arxiv.org/abs/2310.04408
+	- LLMでのRAGの性能向上のために、2つの圧縮器(重要部分抽出・複数文書要約)を使うRECOMP法の提案。各圧縮器は学習させる必要有
+	- 
 
 ## 10/10
 
@@ -1929,7 +1935,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzY3OTMyMiwtMTQ2MDMzMzE4NCw5Nz
+eyJoaXN0b3J5IjpbMTE1ODIzOTYwMCwtMTQ2MDMzMzE4NCw5Nz
 gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
 MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
 0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
