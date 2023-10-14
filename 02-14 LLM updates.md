@@ -27,8 +27,17 @@
 	- Substantially improving over the existing prompting methods such as Reflexion, e.g., 68.1% -> 86.9% on HumanEval with GPT-3.5
 - Ida Momennejad et al., "Evaluating Cognitive Maps and Planning in Large Language Models with CogEval"
 	- https://arxiv.org/abs/2309.15129
-	- LLMの「認知マップ」と「計画能力」が評価された 認知マップ：外部環境を内部に表現する機能 計画能力：目標に向かって計画を立てて遂行する能力
-	- 
+	- 人間の測定法と似たフレームワークでLLMの認知機能を調査した論文
+	- LLMの「認知マップ」と「計画能力」を評価。
+		- 認知マップ：外部環境を内部に表現する機能 
+		- 計画能力：目標に向かって計画を立てて遂行する能力
+	- GPT-3.5、GPT-4、Bard、LLaMA-13Bなど
+	- 結果
+	- ① 認知マップの理解や計画能力は「箱から出してすぐに」は持っていない 
+	- ② 認知マップの欠如が理由で計画タスクに失敗する可能性が高い 
+	- ③ 新しい評価プロトコル（CogEval）は有望である 
+	- ④ LLMのアーキテクチャやトレーニングには工夫の余地がある 
+	- ⑤ LLMの認知機能を向上させるには、メモリ（記憶容量）の拡張などが有効
 
 ## 10/10
 
@@ -1876,7 +1885,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODg2NTEwOCwtMTQxOTU3Mzk4MCwyMT
-QwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4
-MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbLTE0MTgzMjI5MjAsLTE0MTk1NzM5ODAsMj
+E0MDM3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2
+ODM3LC04MzI2OTgzOTVdfQ==
 -->
