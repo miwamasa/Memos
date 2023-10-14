@@ -116,8 +116,14 @@
 - Zijun Liu et al., "Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization"
 	- https://arxiv.org/abs/2310.02170
 	- 複数のエージェントに協力して仕事を開始させ、タスクの進行に応じて重要なエージェントを取捨選択する『Dynamic LLM-Agent Network（DyLAN）』フレームワーク
-	- 
-- 
+	- タスクに応じて動的にエージェントを選択する方式を考えました。
+- LangChain を使った RAG における埋め込みモデルの比較
+	- https://note.com/alexweberk/n/ncccfdab3f4bb
+	- 4つの埋め込みモデルを使ったRAGを試してみました: 
+		- intfloat/multilingual-e5-large 
+		- cl-nagoya/sup-simcse-ja-large 
+		- pkshatech/GLuCoSE-base-ja 
+		- openai/text-embedding-ada-002
 
 ## 10/10
 
@@ -1965,7 +1971,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MTI4NjQ5LC0xNDYwMzMzMTg0LDk3OD
+eyJoaXN0b3J5IjpbMTk5MTAzNTM4LC0xNDYwMzMzMTg0LDk3OD
 IyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMy
 MywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLT
 E0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5
