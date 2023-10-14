@@ -5,7 +5,7 @@
 
 - Large Language Models (in 2023)
 	- https://docs.google.com/presentation/d/1636wKStYdT_yRPbJNrf8MLKpQghuWGDmyHinHhAKeXY/edit#slide=id.g2885e521b53_0_0
-	- OpenAI
+	- OpenAIのHyung Won ChungさんによるLLMの現状をまとめたスライド
 
 ## 10/10
 
@@ -1853,7 +1853,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTAzMTgzOSwtMTQxOTU3Mzk4MCwyMT
+eyJoaXN0b3J5IjpbMjA3NjU4MTc0MSwtMTQxOTU3Mzk4MCwyMT
 QwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4
 MzcsLTgzMjY5ODM5NV19
 -->
