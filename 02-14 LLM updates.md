@@ -97,6 +97,7 @@
 	- Colab無料枠(T4)で動作する模様
 - StanfordAIによる、 State of AI Report 2023
 	- https://www.stateof.ai/2023-report-launch
+	- OpenAIの**GPT-4**は、すべてのベンチマークや人間向けの試験において他のLLMを凌駕している。
 
 ## 10/10
 
@@ -1944,9 +1945,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTYyNzA5NywtMTQ2MDMzMzE4NCw5Nz
-gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
-MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
-0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
-OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbLTEwMTAwNzA4NjcsLTE0NjAzMzMxODQsOT
+c4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5
+MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNC
+wtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMy
+Njk4Mzk1XX0=
 -->
