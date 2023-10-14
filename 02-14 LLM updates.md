@@ -90,6 +90,12 @@
 - 機械学習波動関数？？
 	- https://www.nature.com/articles/s41524-023-01130-4
 	- 従来は1種類の構造しか訓練に使えませんでしたが、ハミルトニアンを対称性に基づくパラメータで記述することで様々な構造を訓練でき、転位がある約5000原子セルの電子状態予測を実現した
+- Google Colab で Japanese StableLM Instruct Alpha v2 を試す by npakaさん
+	- https://note.com/npaka/n/n0e463dbbce11?sub_rt=share_sb
+	- 「Stability AI Japan」が開発した7Bパラメータの日本語LLM
+	- 商用利用を制限しないデータセットのみを利用することで、同等レベルの性能を持つ**商用利用が可能**
+	- Colab無料枠(T4)で動作する模様
+- 
 
 ## 10/10
 
@@ -1937,9 +1943,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODM3NDU5NzIsLTE0NjAzMzMxODQsOT
-c4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5
-MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNC
-wtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMy
-Njk4Mzk1XX0=
+eyJoaXN0b3J5IjpbMTU5NDUwODY5MCwtMTQ2MDMzMzE4NCw5Nz
+gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
+MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
+0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
+OTgzOTVdfQ==
 -->
