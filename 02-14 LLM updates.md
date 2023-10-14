@@ -106,6 +106,10 @@
 - Michihiro Yasunaga et al., "Large Language Models as Analogical Reasoners"
 	- https://arxiv.org/abs/2310.01714
 	- 人間の「過去の類似事例」と「自らの知見」を組み合わせるアプローチに倣った、LLMの優れたプロンプトフレームワーク
+	- LLMの推論能力を向上させるCoTは有用ですが、手間がかかります。 手動のプロンプト作業を少しでも軽減することが求められています。 
+	- そこで研究者らは、人間のように自動的に知識を生成する「アナロジカル・プロンプティング」を発明しました。
+- Hamiltonian Dynamics of Bayesian Inference Formalised by Arc Hamiltonian Systems
+	- エジンバラ大学の松原さんの論文
 	- 
 
 ## 10/10
@@ -1954,9 +1958,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTIxMTQwMiwtMTQ2MDMzMzE4NCw5Nz
-gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
-MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
-0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
-OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbMjg3NjgzMjEwLC0xNDYwMzMzMTg0LDk3OD
+IyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMy
+MywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLT
+E0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5
+ODM5NV19
 -->
