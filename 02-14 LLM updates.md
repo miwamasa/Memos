@@ -59,6 +59,9 @@
 	- NebulaGraph を使ってグラフ構造に対する、Q&Aを実現する方法について via Llamaindex
 - StanfordのDSpyを用いることによる、Q&Aのファインチューニングが簡単になる？
 	- https://x.com/lateinteraction/status/1712135660797317577?s=20
+- KaggleのAI Report 2023
+	- https://www.kaggle.com/AI-Report-2023
+	- これはAIの現状に関するエッセイコンペの結果をまとめたもの、最新のAIを取り巻く様々な視点からの見方がわかる。
 - 
 
 ## 10/10
@@ -1907,7 +1910,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzg0NTY4OSwtMTc1NzU1MjkxOSwxOT
+eyJoaXN0b3J5IjpbLTc4NzEyMTgwNywtMTc1NzU1MjkxOSwxOT
 UyMzU5NTcsMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3
 Mzk4MCwyMTQwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLD
 EzMjQwNTY4MzcsLTgzMjY5ODM5NV19
