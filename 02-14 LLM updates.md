@@ -3,7 +3,7 @@
 
 ## 10/16
 
-RAGシステムの性能向上は依然もりあがっている。StanfordのDSpy、どうもLLMのプロンプト利用を別の次元に引き上げる画期的な開発か？RAGとFinetuningを組み合わせることによる性能向上。今週もLLMのｋ
+RAGシステムの性能向上は依然もりあがっている。StanfordのDSpy、どうもLLMのプロンプト利用を別の次元に引き上げる画期的な開発か？RAGとFinetuningを組み合わせることによる性能向上。今週もLLMの心の理論(ToM)についての論文が紹介される。zephyr-7b-alphaとか、Japanese StableLM Instruct Alpha v2 とか、ローカルで使いものになるLLMもどんどん出てきた。
 
 
 - Large Language Models (in 2023)
@@ -1984,9 +1984,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzAxNjAxODAsOTUyNTI4MDYxLC0xND
-YwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5
-NTcsMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MC
-wyMTQwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQw
-NTY4MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbMTA5NDA3NjI5Nyw5NTI1MjgwNjEsLTE0Nj
+AzMzMxODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1
+NywxMTM3MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLD
+IxNDAzNzIzNCwtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMTMyNDA1
+NjgzNywtODMyNjk4Mzk1XX0=
 -->
