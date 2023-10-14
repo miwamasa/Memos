@@ -25,7 +25,10 @@
 - Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models
 	- https://arxiv.org/abs/2310.04406
 	- Substantially improving over the existing prompting methods such as Reflexion, e.g., 68.1% -> 86.9% on HumanEval with GPT-3.5
-- 
+- Ida Momennejad et al., "Evaluating Cognitive Maps and Planning in Large Language Models with CogEval"
+	- https://arxiv.org/abs/2309.15129
+	- LLMの「認知マップ」と「計画能力」が評価された 認知マップ：外部環境を内部に表現する機能 計画能力：目標に向かって計画を立てて遂行する能力
+	- 
 
 ## 10/10
 
@@ -1873,7 +1876,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTI5OTAzNywtMTQxOTU3Mzk4MCwyMT
+eyJoaXN0b3J5IjpbLTUxODg2NTEwOCwtMTQxOTU3Mzk4MCwyMT
 QwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4
 MzcsLTgzMjY5ODM5NV19
 -->
