@@ -119,11 +119,18 @@
 	- タスクに応じて動的にエージェントを選択する方式を考えました。
 - LangChain を使った RAG における埋め込みモデルの比較
 	- https://note.com/alexweberk/n/ncccfdab3f4bb
+	- Wikipedia 記事を LangChain の CharacterTextSplitter を使って、４種類の埋め込みモデルを使ってベクトル化し、RAG による質問応答を試行
+	- `intfloat/multilingual-e5-large` >= `pkshatech/GLuCoSE-base-jap` > `cl-nagoya/sup-simcse-ja-large` >= `openai/text-embedding-ada-002` というような感触
 	- 4つの埋め込みモデルを使ったRAGを試してみました: 
 		- intfloat/multilingual-e5-large 
 		- cl-nagoya/sup-simcse-ja-large 
 		- pkshatech/GLuCoSE-base-ja 
 		- openai/text-embedding-ada-002
+- OpenAI gpt-3.5-turbo と gpt-3.5-turbo-instruct モデルの違いについて
+	- https://corp.langcore.org/media/chatgpt-instruct
+	- gpt-3.5-turbo モデルは会話に秀でているので対話をさせるのであればこちらを使う方がよいです。
+	- 会話以外のタスクの場合だと**一問一答のような単純な課題を解くケースでは gpt-3.5-turbo-instruct の方が期待する出力になる可能性**があります。
+- 
 
 ## 10/10
 
@@ -1971,9 +1978,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTAzNTM4LC0xNDYwMzMzMTg0LDk3OD
-IyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMy
-MywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLT
-E0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5
-ODM5NV19
+eyJoaXN0b3J5IjpbLTMyNzgwMzM5OSwtMTQ2MDMzMzE4NCw5Nz
+gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
+MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
+0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
+OTgzOTVdfQ==
 -->
