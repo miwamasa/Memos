@@ -40,6 +40,10 @@
 		- ⑤ LLMの認知機能を向上させるには、メモリ（記憶容量）の拡張などが有効
 - FireAct: Toward Language Agent Fine-tuning
 	- https://fireact-agent.github.io/
+	- LLM AgentとFintuningの合わせ技についての検証
+	- FireAct is a novel way to finetune LMs w/ agent trajectories of a mix of tasks & prompting methods.
+	- Fine-tuning >> Prompting:
+		- Notably, small LMs benefit most --- Llama2-7B improves 77% after fine-tuning!
 
 ## 10/10
 
@@ -1887,8 +1891,8 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTIwMjg3NSwxMTM3MTY5MzIzLC0xNj
-M3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0
-MzU2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX
-0=
+eyJoaXN0b3J5IjpbLTE4NzAzNzYzNjcsMTEzNzE2OTMyMywtMT
+YzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1
+NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV
+19
 -->
