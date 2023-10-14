@@ -87,7 +87,9 @@
 - RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation
 	- https://arxiv.org/abs/2310.04408
 	- LLMでのRAGの性能向上のために、2つの圧縮器(重要部分抽出・複数文書要約)を使うRECOMP法の提案。各圧縮器は学習させる必要有
-	- 
+- 機械学習波動関数？？
+	- https://www.nature.com/articles/s41524-023-01130-4
+	- 従来は1種類の構造しか訓練に使えませんでしたが、ハミルトニアンを対称性に基づくパラメータで記述することで様々な構造を訓練でき、転位がある約5000原子セルの電子状態予測を実現した
 
 ## 10/10
 
@@ -1935,9 +1937,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODIzOTYwMCwtMTQ2MDMzMzE4NCw5Nz
-gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
-MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
-0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
-OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbLTExODM3NDU5NzIsLTE0NjAzMzMxODQsOT
+c4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5
+MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNC
+wtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMy
+Njk4Mzk1XX0=
 -->
