@@ -80,6 +80,8 @@
 	- **GPT AI**の出現は、科学研究分野が「データ」を基本要素とし、「アルゴリズム + 計算能力」を核心生産力とする知能文明時代に入ったことを示している。
 	- 事前学習モデル、指向性設計モデル、協調学習、実験ロボットなど
 - PFNのインターン発表： 遺伝⼦に関するグラフを利⽤したモデルの開発
+	- https://tech.preferred.jp/ja/blog/model-learning-using-gene-graph/
+	- RNAからProteinを予測するタスクにおいては、学習サンプル数が限られ、かつ使用できる特徴量が少ない状況においては、予測対象モダリティの制御に関与する特定のグラフ構造を用いることで性能の改善が認められました。
 
 ## 10/10
 
@@ -1927,9 +1929,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjAzNTY2MTAsLTE0NjAzMzMxODQsOT
-c4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5
-MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNC
-wtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMy
-Njk4Mzk1XX0=
+eyJoaXN0b3J5IjpbLTUyMzY3OTMyMiwtMTQ2MDMzMzE4NCw5Nz
+gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
+MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
+0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
+OTgzOTVdfQ==
 -->
