@@ -100,7 +100,12 @@
 	- OpenAIの**GPT-4**は、すべてのベンチマークや人間向けの試験において他のLLMを凌駕している。
 	- Meta AIはオープン（な）AIのチャンピオンとして登場し、LLaMaモデルファミリーを最も強力な公開アクセス可能なOpenAI代替品となっている
 	- LLMや拡散モデルは、特にライフサイエンス分野で実用的なブレイクスルーをもたらしてお
-	- 生成AIが、低迷している、テック界隈のVCを
+	- 生成AIが、低迷している、テック界隈のVCを救う。
+	- 安全性はAI研究界で中心的なテーマとなり、世界中の政府や規制機関が対策を講じ始めた。
+	- 標準的なLLMは頑健性に問題があり、最先端モデルの評価が困難になっている
+- Michihiro Yasunaga et al., "Large Language Models as Analogical Reasoners"
+	- https://arxiv.org/abs/2310.01714
+	- 人間の「過去の類似事例」と「自らの知見」を組み合わせるアプローチに倣った、LLMの優れたプロンプトフレームワーク
 	- 
 
 ## 10/10
@@ -1949,7 +1954,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDkzOTgxNCwtMTQ2MDMzMzE4NCw5Nz
+eyJoaXN0b3J5IjpbLTIyOTIxMTQwMiwtMTQ2MDMzMzE4NCw5Nz
 gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
 MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
 0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
