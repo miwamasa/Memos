@@ -130,7 +130,10 @@
 	- https://corp.langcore.org/media/chatgpt-instruct
 	- gpt-3.5-turbo モデルは会話に秀でているので対話をさせるのであればこちらを使う方がよいです。
 	- 会話以外のタスクの場合だと**一問一答のような単純な課題を解くケースでは gpt-3.5-turbo-instruct の方が期待する出力になる可能性**があります。
-- 
+- Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction
+	- https://arxiv.org/abs/2310.05627
+	- IJCAIでLLM(chatGPT)使った株価リターン予測の論文
+	- LLMによるテキストの埋め込みと株式の特徴を同じsemantic spaceで配置させる強化学習の枠組みを導入している。
 
 ## 10/10
 
@@ -1978,7 +1981,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzgwMzM5OSwtMTQ2MDMzMzE4NCw5Nz
+eyJoaXN0b3J5IjpbMjAwMjA5OTY4MCwtMTQ2MDMzMzE4NCw5Nz
 gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
 MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
 0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
