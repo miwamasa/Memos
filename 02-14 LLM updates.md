@@ -109,8 +109,15 @@
 	- LLMの推論能力を向上させるCoTは有用ですが、手間がかかります。 手動のプロンプト作業を少しでも軽減することが求められています。 
 	- そこで研究者らは、人間のように自動的に知識を生成する「アナロジカル・プロンプティング」を発明しました。
 - Hamiltonian Dynamics of Bayesian Inference Formalised by Arc Hamiltonian Systems
+	- https://arxiv.org/pdf/2310.07680.pdf
 	- エジンバラ大学の松原さんの論文
+	- infinite-dimensional Hamiltonian system behind Bayesian inference.
+	- ベイズ推論の裏に、無限次元のハミルトニアンシステムがあるという、、
+- Zijun Liu et al., "Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization"
+	- https://arxiv.org/abs/2310.02170
+	- 複数のエージェントに協力して仕事を開始させ、タスクの進行に応じて重要なエージェントを取捨選択する『Dynamic LLM-Agent Network（DyLAN）』フレームワーク
 	- 
+- 
 
 ## 10/10
 
@@ -1958,7 +1965,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3NjgzMjEwLC0xNDYwMzMzMTg0LDk3OD
+eyJoaXN0b3J5IjpbNTk4MTI4NjQ5LC0xNDYwMzMzMTg0LDk3OD
 IyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMy
 MywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLT
 E0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5
