@@ -13,7 +13,8 @@
 	- https://betterprogramming.pub/masking-pii-data-in-rag-pipeline-326d2d330336
 	- PII(Personal Identification Information)をマスキングする方法を、RAGにおいて行う方法
 	-  LlamaIndexの NERPIINodePostprocessorを活用するのがみそ
-- 
+- Jerryより、RAGシステムの性能向上に関するワークショップ関係の情報提供があった
+	- 
 
 ## 10/10
 
@@ -1861,7 +1862,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTc2NDU0MCwtMTQxOTU3Mzk4MCwyMT
+eyJoaXN0b3J5IjpbMTc0MzU4OTYwMywtMTQxOTU3Mzk4MCwyMT
 QwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4
 MzcsLTgzMjY5ODM5NV19
 -->
