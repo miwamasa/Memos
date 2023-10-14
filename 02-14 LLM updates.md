@@ -44,7 +44,10 @@
 	- FireAct is a novel way to finetune LMs w/ agent trajectories of a mix of tasks & prompting methods.
 	- Fine-tuning >> Prompting:
 		- Notably, small LMs benefit most --- Llama2-7B improves 77% after fine-tuning!
-- 
+- Pei Zhou et al., "How FaR Are Large Language Models From Agents with Theory-of-Mind?"
+	- https://arxiv.org/abs/2310.03051
+	- LLMの「心の理論(ToM:Theory of Mind)」における能力を評価するフレームワーク『Thinking for Doing (T4D)』
+	- 従来の心理学的テストではLLMのToM能力の評価は十分には出来ないとされています。
 
 ## 10/10
 
@@ -1892,8 +1895,8 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzEwNjMyOTMsMTEzNzE2OTMyMywtMT
-YzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1
-NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV
-19
+eyJoaXN0b3J5IjpbMTk1MjM1OTU3LDExMzcxNjkzMjMsLTE2Mz
+cxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0xNDE2NTQz
+NTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2OTgzOTVdfQ
+==
 -->
