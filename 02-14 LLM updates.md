@@ -3,7 +3,7 @@
 
 ## 10/16
 
-RAGシステムの性能向上は依然もりあがっている。StanfordのDSpy、どうもLLMのプロンプト利用を別の次元に引き上げる画期的な開発か？RAGとFinetuningを組み合わせることによる性能向上。今週もLLMの心の理論(ToM)についての論文が紹介される。zephyr-7b-alphaとか、Japanese StableLM Instruct Alpha v2 とか、ローカルで使いものになるLLMもどんどん出てきた。スタンフォードAIの、State of AI Report 2023、 KaggleのAI Report 2023、それぞれの立場で最新のAIを取り巻く様々な視点をまとめてくれている。アナロジー（類推）でプロンプトを生成する「アナロジカル・プロンプティング」は、人間の手間を省けるか？組み込み(embeding)の違いによるRAG性能の違いの検証から、やっぱe5(intfloat/multilingual-e5-large)が当面最強なのか？PFNのインターン生の成果などがいくつか公開。それにしてもPFNのインターン生つよつよだろう、ちょっとうらやましい。
+RAGシステムの性能向上は依然もりあがっている。StanfordのDSpy、どうもLLMのプロンプト利用を別の次元に引き上げる画期的な開発か？RAGとFinetuningを組み合わせることによる性能向上がいままで抜けていたとは。LLMの心の理論(ToM)についての論文では、他人の心の状態の推定というのが気も。zephyr-7b-alphaとか、Japanese StableLM Instruct Alpha v2 とか、ローカルで使いものになるLLMもどんどん出てきた。スタンフォードAIの、State of AI Report 2023、 KaggleのAI Report 2023、それぞれの立場で最新のAIを取り巻く様々な視点をまとめてくれている。アナロジー（類推）でプロンプトを生成する「アナロジカル・プロンプティング」は、人間の手間を省けるか？組み込み(embeding)の違いによるRAG性能の違いの検証から、やっぱe5(intfloat/multilingual-e5-large)が当面最強なのか？PFNのインターン生の成果などがいくつか公開。それにしてもPFNのインターン生つよつよだろう、ちょっとうらやましい。
 
 
 - Large Language Models (in 2023)
@@ -1984,9 +1984,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM3NTM2MDYsOTUyNTI4MDYxLC0xND
-YwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5
-NTcsMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MC
-wyMTQwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQw
-NTY4MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbLTY1NDU2NTcsOTUyNTI4MDYxLC0xNDYwMz
+MzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcs
+MTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMT
+QwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4
+MzcsLTgzMjY5ODM5NV19
 -->
