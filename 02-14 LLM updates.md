@@ -3,6 +3,9 @@
 
 ## 10/16
 
+RAGシステムの性能向上は依然もりあがっている。
+
+
 - Large Language Models (in 2023)
 	- https://docs.google.com/presentation/d/1636wKStYdT_yRPbJNrf8MLKpQghuWGDmyHinHhAKeXY/edit#slide=id.g2885e521b53_0_0
 	- OpenAIのHyung Won ChungさんによるLLMの現状をまとめたスライド
@@ -1981,9 +1984,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjA5OTY4MCwtMTQ2MDMzMzE4NCw5Nz
-gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
-MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
-0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
-OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3OD
+IyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMy
+MywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLT
+E0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5
+ODM5NV19
 -->
