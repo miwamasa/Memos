@@ -38,7 +38,8 @@
 		- ③ 新しい評価プロトコル（CogEval）は有望である 
 		- ④ LLMのアーキテクチャやトレーニングには工夫の余地がある 
 		- ⑤ LLMの認知機能を向上させるには、メモリ（記憶容量）の拡張などが有効
-- 
+- FireAct: Toward Language Agent Fine-tuning
+	- https://fireact-agent.github.io/
 
 ## 10/10
 
@@ -1886,7 +1887,8 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMT
-QxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4
-OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbMTMwOTIwMjg3NSwxMTM3MTY5MzIzLC0xNj
+M3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0
+MzU2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX
+0=
 -->
