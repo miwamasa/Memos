@@ -47,7 +47,17 @@
 - Pei Zhou et al., "How FaR Are Large Language Models From Agents with Theory-of-Mind?"
 	- https://arxiv.org/abs/2310.03051
 	- LLMの「心の理論(ToM:Theory of Mind)」における能力を評価するフレームワーク『Thinking for Doing (T4D)』
+		- ① 他者の心の状態（信念、願望、意図など）についてどれだけ効果的に推論できるか
+		- ② 推論した上でいかに行動に移せるか
 	- 従来の心理学的テストではLLMのToM能力の評価は十分には出来ないとされています。
+	- 「Foresee and Reflect (FaR)」という新しいフレームワーク
+		- ① 将来のイベントを予測（Foresee） 
+		- ② それに対する行動を考慮（Reflect）
+	- 「FaR」フレームワークと評価パラダイム「Thinking for Doing (T4D)」の組み合わせによって、効率的にLLMのToM能力を評価することができる
+- 7 Query Strategies for Navigating Knowledge Graphs With NebulaGraph and LlamaIndex
+	- https://www.nebula-graph.io/posts/Knowledge-Graph-and-LlamaIndex
+	- NebulaGraph を使ってグラフ構造に対する、Q&Aを実現する方法について via Llamaindex
+- 
 
 ## 10/10
 
@@ -1895,8 +1905,8 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjM1OTU3LDExMzcxNjkzMjMsLTE2Mz
-cxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0xNDE2NTQz
-NTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2OTgzOTVdfQ
-==
+eyJoaXN0b3J5IjpbLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMz
+cxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3
+MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC
+04MzI2OTgzOTVdfQ==
 -->
