@@ -38,6 +38,7 @@
 		- ③ 新しい評価プロトコル（CogEval）は有望である 
 		- ④ LLMのアーキテクチャやトレーニングには工夫の余地がある 
 		- ⑤ LLMの認知機能を向上させるには、メモリ（記憶容量）の拡張などが有効
+- 
 
 ## 10/10
 
@@ -1885,7 +1886,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMj
-E0MDM3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2
-ODM3LC04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMT
+QxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4
+OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
 -->
