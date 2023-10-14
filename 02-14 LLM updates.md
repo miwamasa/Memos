@@ -65,6 +65,11 @@
 - HuggingFaceにおけるLLM評価で、zephyr-7b-alphaがChatLlama 70Bを上回る性能をだしたらしいのでllamaindexで確かめてみた
 	- https://colab.research.google.com/drive/16Ygf2IyGNkb725ZqtRmFQjwWBuzFX_kl?usp=sharing#scrollTo=lMNaHDzPM68f
 	- We found that it is the ONLY open 7B model atm that does well on advanced RAG/agentic task
+- DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
+	- https://huggingface.co/papers/2309.16653
+	- ここで３Dモデル作成を試せる
+		- https://huggingface.co/spaces/jiawei011/dreamgaussian
+- 
 
 ## 10/10
 
@@ -1912,8 +1917,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNz
-U3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3MTU0
-MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0MzU2LD
-EzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
+eyJoaXN0b3J5IjpbLTU5NTI1ODM3OCwtMTQ2MDMzMzE4NCw5Nz
+gyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkz
+MjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC
+0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2
+OTgzOTVdfQ==
 -->
