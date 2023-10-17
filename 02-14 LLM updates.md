@@ -137,6 +137,16 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- https://arxiv.org/abs/2310.05627
 	- IJCAIでLLM(chatGPT)使った株価リターン予測の論文
 	- LLMによるテキストの埋め込みと株式の特徴を同じsemantic spaceで配置させる強化学習の枠組みを導入している。
+- Zhiyu Chen et al., "Empowering Psychotherapy with Large Language Models: Cognitive Distortion Detection through Diagnosis of Thought Prompting"
+	- https://arxiv.org/abs/2310.07146
+	- GPT-4をセラピストとして実行し、人々の「認知の歪み」を診断させるためのフレームワーク『Diagnosis of Thought (DoT)』
+	- ① DoTは、「認知の歪み」評価と分類で高性能を示した 
+	- ② GPT-4は、「認知の歪み」分類で特に高い性能を示した 
+	- ③ 専門家によってGPT-4による本診断方法は「包括的である」と評価された（84.5%）
+-  Large Language Models can Learn Rules
+	- LLMがルールを学習できる？
+	- https://arxiv.org/abs/2310.07064
+	- LLMs can learn (sometimes uncommon) rules with 2 stages: (1) induction: generate and verify rules from exemplars; (2) deduction: utilize the rule library for new problems. 11-27% gain on reasoning tasks that require rule learning.
 
 ## 10/10
 
@@ -1984,9 +1994,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0Nj
-AzMzMxODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1
-NywxMTM3MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLD
-IxNDAzNzIzNCwtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMTMyNDA1
-NjgzNywtODMyNjk4Mzk1XX0=
+eyJoaXN0b3J5IjpbLTEyMzA3MzkyMzksMTU1ODEyODE5NSw5NT
+I1MjgwNjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3NTUy
+OTE5LDE5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3MTU0MDY0LC
+0xNDE5NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0MzU2LDEzNzA0
+NTg5MDMsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
 -->
