@@ -62,7 +62,11 @@
 	- まずは、LLM＋Embeddingの組み合わせをちゃんと評価するところから始めようみたいな。
 - Replicateを利用すると、任意のLLMとembeddingの組み合わせを簡単に評価できる
 	- https://replicate.com/explore
-	- つまりhuggingfaceのモデルをダウンロードして動かす手間を、少し省くサービスを提供
+	- つまりhuggingfaceのモデルをダウンロードして動かす手間を、少し省くサービスを提供、
+	- ナイスだな。
+- NIIから、LLM-jp-13B が公開される
+	- LLM-jp （LLM 勉強会）は、日本語と英語を中心に事前学習した130億パラメータの大規模言語モデルをオープンなライセンスで公開
+	- 
 
 ## 10/16
 
@@ -2057,10 +2061,10 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTc2NjE3MCwtMTA0MzIxNTcyMywtND
-I0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4
-MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOS
-wxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQx
-OTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OT
-AzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbLTEwODA2ODE0MTksLTEwNDMyMTU3MjMsLT
+QyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUy
+ODA2MSwtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MT
+ksMTk1MjM1OTU3LDExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0
+MTk1NzM5ODAsMjE0MDM3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1OD
+kwMywxMzI0MDU2ODM3LC04MzI2OTgzOTVdfQ==
 -->
