@@ -8,8 +8,11 @@
 	- OpenAIの共同設立者であるIlya Sutskever氏とNvidiaのensen Huang社長との対談より
 	- （巨大な）ニューラルネットが学んでいるのは、テキストを生成する「何か」に対する表現を学んでいる。その「何か」とは世界モデルであり、それが射影されたものが生成されたテキストなのである。
 - Jonas Belouadi et al., "AutomaTikZ: Text-Guided Synthesis of Scientific Vector Graphics with TikZ"
-	- 
-	- 
+	- https://arxiv.org/abs/2310.00367
+	- LLMを活用し人間のように科学的な図を生成するツール『AutomaTikZ』
+	- テキストから科学的なベクターグラフィックスを生成する 
+	- LLaMAをDaTikZデータセットで微調整
+- 
 
 ## 10/16
 
@@ -2004,10 +2007,10 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2MTMyNDksLTQyNDQyNDI1NiwtMTIzMD
-czOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4
-NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMz
-cxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3
-MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC
-04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbNjMwNzU2ODE5LC00MjQ0MjQyNTYsLTEyMz
+A3MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMx
+ODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMT
+M3MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAz
+NzIzNCwtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNy
+wtODMyNjk4Mzk1XX0=
 -->
