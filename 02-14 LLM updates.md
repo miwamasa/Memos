@@ -84,7 +84,7 @@
 	- pre-train LLMs with Retrieval Augmentation
 -  An Emulator for Fine-Tuning Large Language Models using Small Language Models
 	- https://huggingface.co/papers/2310.12962
-	- 
+	- Emulator for Fine
 
 ## 10/16
 
@@ -2079,10 +2079,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtND
-I0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4
-MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOS
-wxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQx
-OTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OT
-AzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbLTEyOTg1MDE5MDcsMTk3NDg5NDA4NSwtMT
+A0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgx
+MjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMC
+wtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYz
+NzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1ND
+M1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
+
 -->
