@@ -97,6 +97,12 @@
 - llm-jp-13b-v1.0も早速GPTQ版が公開される
 	- https://huggingface.co/mmnga/llm-jp-13b-v1.0-4bit-g128-GPTQ-calib-ja-1k
 	- llm-jp-13b-v1.0を、 日本語のキャリブレーションセットで生成したGPTQモデル
+-  言語はこうして生まれる―「即興する脳」とジェスチャーゲーム―
+	- https://www.shinchosha.co.jp/book/507311/
+	- 言語の生得性を否定し、文化進化や語用論的な観点から言語獲得を論じています
+- 多様体上の最適化理論
+	- https://www.amazon.co.jp/exec/obidos/ASIN/4274231186?&linkCode=sl1&tag=mathlang09-22&linkId=bd145734052442298eb01413d823ca91&language=ja_JP&ref_=as_li_ss_tl
+	- 多様体上の最適化理論について、基礎となる数理から応用例までを解説
 - 
 
 ## 10/16
@@ -2092,11 +2098,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDE3MTU2NSwxOTc0ODk0MDg1LC0xMD
-QzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEy
-ODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC
-0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3
-MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0Mz
-U2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
+eyJoaXN0b3J5IjpbLTEzMDU4NTQ5NzUsMTk3NDg5NDA4NSwtMT
+A0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgx
+MjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMC
+wtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYz
+NzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1ND
+M1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
 
 -->
