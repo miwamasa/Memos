@@ -30,8 +30,9 @@
 - Large Language Models for Software Engineering: Survey and Open Problems
 	- https://arxiv.org/abs/2310.03533
 	- LLMをソフトウエアエンジニアリング(SE)にどうやって適用するか？
-	- 伝統的なSEとLLMを融合したはハイブリッドにより信頼ある効率的な
-	- ur survey reveals the pivotal role that hybrid techniques (traditional SE plus LLMs) have to play in the development and deployment of reliable, efficient and effective LLM-based SE.
+	- 伝統的なSEとLLMを融合したはハイブリッドにより信頼ある効率的なLLMベースのSEが実現できた
+- JapaneseEmbeddingEval　日本語におけるembeddingの評価
+ https://github.com/oshizo/JapaneseEmbeddingEval
 
 ## 10/16
 
@@ -2026,10 +2027,10 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDEwOTYxOTQsLTQyNDQyNDI1NiwtMT
-IzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMz
-MzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LD
-ExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0
-MDM3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2OD
-M3LC04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbMTM5OTc1MDA5LC00MjQ0MjQyNTYsLTEyMz
+A3MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMx
+ODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMT
+M3MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAz
+NzIzNCwtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNy
+wtODMyNjk4Mzk1XX0=
 -->
