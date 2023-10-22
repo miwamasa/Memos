@@ -81,6 +81,10 @@
 	- A paper that really illustrates both the unexpected power, and unexpected risks, that come from LLMs.
 -  InstructRetro: Instruction Tuning post Retrieval-Augmented Pretraining
 	- https://arxiv.org/abs/2310.07713
+	- pre-train LLMs with Retrieval Augmentation
+-  An Emulator for Fine-Tuning Large Language Models using Small Language Models
+	- https://huggingface.co/papers/2310.12962
+	- 
 
 ## 10/16
 
@@ -2075,10 +2079,10 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3ODgzMzA4LC0xMDQzMjE1NzIzLC00Mj
-Q0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NSw5NTI1Mjgw
-NjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LD
-E5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5
-NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0MzU2LDEzNzA0NTg5MD
-MsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
+eyJoaXN0b3J5IjpbMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtND
+I0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4
+MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOS
+wxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQx
+OTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OT
+AzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
 -->
