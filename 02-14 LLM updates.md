@@ -3,7 +3,7 @@
 
 ## 10/23
 
-今週は、NIIからllm-jp-13b-v1.0が公開されたのが話題でした、さっそくcolabで使ったり、4bit量子化版がhuggingfaceで公開されたりと、盛り上がってますね。頭が下がります。RAGでもそうなんだけど、LLM活用アプリを考えるときに、LLMとembeddingの組み合わせをちゃんと評価するってのが最初にあるべきなのかも。使ったないけどもReplicateはそこんところうまくついたサービス展開しているな。LLMをソフトウエアエンジニアリングで活用できる。
+今週は、NIIからllm-jp-13b-v1.0が公開されたのが話題でした、さっそくcolabで使ったり、4bit量子化版がhuggingfaceで公開されたりと、盛り上がってますね。頭が下がります。RAGでもそうなんだけど、LLM活用アプリを考えるときに、LLMとembeddingの組み合わせをちゃんと評価するってのが最初にあるべきなのかも。使ったないけどもReplicateはそこんところうまくついたサービス展開しているな。LLMをソフトウエアエンジニアリングで活用できる。OpenAI、限りなくAGIに近いとうわさのArrakisの開発断念？映画Dune２(Arrakisという星が部隊）の公開も春にずれ込んだから、似たような運命をたどるのか？マッキンゼーのレポート、せいせい
 
 - Ilya Sutskever氏LLMと世界モデルについて語る with Jensen Huang, CEO of Nvidia:
 	- https://twitter.com/i/status/1713368556618887670
@@ -2120,10 +2120,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3ODk1NDgsMTk3NDg5NDA4NSwtMTA0Mz
-IxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgx
-OTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMT
-c1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYzNzE1
-NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1NDM1Ni
-wxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbMTI4MDU4OTM0MCwxOTc0ODk0MDg1LC0xMD
+QzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEy
+ODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC
+0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3
+MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0Mz
+U2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
+
 -->
