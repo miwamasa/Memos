@@ -90,6 +90,10 @@
 	- 「科学論文の査読」に、大規模言語モデル（LLM）が有用な可能性がある
 	- 米スタンフォード大らが検証　参加者の80％以上「AI査読は有益」
 	- https://www.itmedia.co.jp/news/articles/2310/19/news072.html
+	- Nature系列のジャーナルにおけるフィードバックの結果、GPT-4が提供したコメントの57.55％は、全体の査読者の中で少なくとも1人の人間の査読者が記載していた
+- A quantized version of the mistral that is instruction following over 32k tokens.
+	- https://huggingface.co/TheBloke/MistralLite-7B-AWQ
+	- mistralって性能がよいと先週評判になってたやつの、4bit量子化版が公開？
 - 
 
 ## 10/16
@@ -2085,7 +2089,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODU2NTEzNjgsMTk3NDg5NDA4NSwtMT
+eyJoaXN0b3J5IjpbLTE5MTU5MDU2MzcsMTk3NDg5NDA4NSwtMT
 A0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgx
 MjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMC
 wtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYz
