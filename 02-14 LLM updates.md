@@ -75,7 +75,10 @@
 	- https://note.com/npaka/n/n60b0abf54ed5?sub_rt=share_sb
 	- T4 ハイメモリで動作確認
 	- 早速試されている
-- 
+- BEYOND MEMORIZATION: VIOLATING PRIVACY VIA INFERENCE WITH LARGE LANGUAGE MODELS
+	- https://arxiv.org/pdf/2310.07298v1.pdf
+	- Redditの匿名ポストのテキストから、GPT-4はその人のプロファイル（収入、性別、住所）を85%のせいかくさあ
+	- Given text of anonymous posts on Reddit, GPT-4 can infer things like income, gender & location with 85%+ accuracy at 1% of the cost required by humans.
 
 ## 10/16
 
@@ -2070,10 +2073,10 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyODI3MDIzLC0xMDQzMjE1NzIzLC00Mj
-Q0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NSw5NTI1Mjgw
-NjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LD
-E5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5
-NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0MzU2LDEzNzA0NTg5MD
-MsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
+eyJoaXN0b3J5IjpbLTE3MzMzNTkzMjAsLTEwNDMyMTU3MjMsLT
+QyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUy
+ODA2MSwtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MT
+ksMTk1MjM1OTU3LDExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0
+MTk1NzM5ODAsMjE0MDM3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1OD
+kwMywxMzI0MDU2ODM3LC04MzI2OTgzOTVdfQ==
 -->
