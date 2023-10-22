@@ -106,7 +106,8 @@
 -  Introducing CliffordLayers: Neural Network layers inspired by Clifford / Geometric Algebras.
 	- https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/articles/introducing-cliffordlayers-neural-network-layers-inspired-by-clifford-geometric-algebras/
 	- MS研究所から、クリフォード代数にインスパイアされた新しいNNレイヤの発明
-- 
+-  OpenAgents: An Open Platform for Language Agents in the Wild
+	- https://arxiv.org/abs/2310.10634v1
 
 ## 10/16
 
@@ -2101,11 +2102,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyNjA5ODIzLDE5NzQ4OTQwODUsLTEwND
-MyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4
-MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLT
-E3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkzMjMsLTE2Mzcx
-NTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0xNDE2NTQzNT
-YsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbLTExNjkxNDY5MjMsMTk3NDg5NDA4NSwtMT
+A0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgx
+MjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMC
+wtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYz
+NzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1ND
+M1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
 
 -->
