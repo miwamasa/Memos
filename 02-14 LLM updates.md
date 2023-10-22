@@ -50,6 +50,8 @@
 	- https://speakerdeck.com/keio_smilab/keio-univ-intro-to-ml-02-coding
 	- なんと、学生向けに、ChatGPTを用いてPythonなどのコーディングを学ぶという授業が、、
 	- ChatGPTネイティブな学生は、ChatGPTでコーディングを学ぶのか。。
+- Andrew Ng先生から、deeplearning.aiの「生成AI」の講義の宣伝
+	- https://www.deeplearning.ai/courses/generative-ai-for-everyone/
 - 
 
 ## 10/16
@@ -2045,10 +2047,10 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDUzOTI5NDksLTQyNDQyNDI1NiwtMT
-IzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMz
-MzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LD
-ExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0
-MDM3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2OD
-M3LC04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbLTkyMzEzMjg3OSwtNDI0NDI0MjU2LC0xMj
+MwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMz
+MTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMT
+EzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQw
+MzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4Mz
+csLTgzMjY5ODM5NV19
 -->
