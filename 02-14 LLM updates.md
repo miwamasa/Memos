@@ -3,6 +3,8 @@
 
 ## 10/23
 
+まｚ
+
 - Ilya Sutskever氏LLMと世界モデルについて語る with Jensen Huang, CEO of Nvidia:
 	- https://twitter.com/i/status/1713368556618887670
 	- OpenAIの共同設立者であるIlya Sutskever氏とNvidiaのensen Huang社長との対談より
@@ -120,7 +122,10 @@
 	- 小さいサイズのllama2を日本語でpre_trainingしてみます
 	- pre_trainingからhuggingfaceへのuploadまでを行ってみました。
 	- 小さいサイズであればgoogle colabで学習できる
-- 
+- llm-jp-13b-v1.0-gguf
+	- https://huggingface.co/mmnga/llm-jp-13b-v1.0-gguf
+	- llm-jpさんが公開しているllm-jp-13b-v1.0のggufフォーマット変換版
+	- ブランチらしい、LLama.cppが、なんかの変更を行うとggufが動かなくなるらしい、怖っ
 
 ## 10/16
 
@@ -2115,7 +2120,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTIxODA2OCwxOTc0ODk0MDg1LC0xMD
+eyJoaXN0b3J5IjpbMTg3NTIyMjA1MywxOTc0ODk0MDg1LC0xMD
 QzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEy
 ODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC
 0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3
