@@ -88,6 +88,9 @@
 -  Can large language models provide useful feedback on research papers? A large-scale empirical analysis
 	- https://arxiv.org/abs/2310.01783
 	- 「科学論文の査読」に、大規模言語モデル（LLM）が有用な可能性がある
+	- 米スタンフォード大らが検証　参加者の80％以上「AI査読は有益」
+	- https://www.itmedia.co.jp/news/articles/2310/19/news072.html
+- 
 
 ## 10/16
 
@@ -2082,11 +2085,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5NDcwNTQ1LDE5NzQ4OTQwODUsLTEwND
-MyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4
-MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLT
-E3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkzMjMsLTE2Mzcx
-NTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0xNDE2NTQzNT
-YsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbLTIwODU2NTEzNjgsMTk3NDg5NDA4NSwtMT
+A0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgx
+MjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMC
+wtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYz
+NzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1ND
+M1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
 
 -->
