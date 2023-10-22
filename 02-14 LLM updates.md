@@ -42,7 +42,11 @@
 	- https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-AI-the-next-productivity-frontier#introduction
 	- 生成AI（というかChatGPTに代表されるLLM)の登場により、AIの作文力が人間の上位25%を超える時期の予測が25年前倒しになった
 		- 2017年の予測：2050年 ・2023年の予測：2024〜2025年 
-		- 
+- Xinyun Chen et al, "Teaching Large Language Models to Self-Debug"
+	- https://arxiv.org/abs/2304.05128
+	- GPT-4などLLMのコード生成能力にデバッグ機能を追加する『SELF-DEBUGGING（セルフデバッギング）』
+	- LLMに自己デバッグの能力を教えることで、コード生成の性能が向上する
+- 
 
 ## 10/16
 
@@ -2037,7 +2041,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjgzMzU2MiwtNDI0NDI0MjU2LC0xMj
+eyJoaXN0b3J5IjpbMTExMDE0NDUxMCwtNDI0NDI0MjU2LC0xMj
 MwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMz
 MTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMT
 EzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQw
