@@ -66,7 +66,10 @@
 	- ナイスだな。
 - NIIから、LLM-jp-13B が公開される
 	- LLM-jp （LLM 勉強会）は、日本語と英語を中心に事前学習した130億パラメータの大規模言語モデルをオープンなライセンスで公開
-	- 
+	- https://llm-jp.nii.ac.jp/release/
+	- インストラクションデータでチューニングしたモデルや訓練・チューニングに用いたソフトウェアも公開
+- データでできることのレベル感を理解する
+	- https://speakerdeck.com/hik0107/data-design-and-government?slide=10
 
 ## 10/16
 
@@ -2061,7 +2064,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODA2ODE0MTksLTEwNDMyMTU3MjMsLT
+eyJoaXN0b3J5IjpbLTEzNTE2MTEyMDAsLTEwNDMyMTU3MjMsLT
 QyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUy
 ODA2MSwtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MT
 ksMTk1MjM1OTU3LDExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0
