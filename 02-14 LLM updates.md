@@ -14,11 +14,16 @@
 	- LLaMAをDaTikZデータセットで微調整
 -  Can Large Language Models Infer Causation from Correlation?
 	- https://arxiv.org/abs/2306.05836
+	- https://ai-scholar.tech/articles/large-language-models/llm_causal_inference_skill
 	-  LLMに因果推論能力はあるか？
 	- 大規模言語モデルの因果推論能力をテストするベンチマークデータセットを提案  
 	- 17の既存の大規模言語モデルを評価  
 	- 現状のモデルは因果推論能力が低いことがわかった
-	- fine-tuningにより性能向上が見られる一方で，少し表現を変えただけで性能が下がる現象も見られ
+	- fine-tuningにより性能向上が見られる一方で，少し表現を変えただけで性能が下がる現象も見られる
+- Yijun Tian et al., "Graph Neural Prompting with Large Language Models"
+	- https://arxiv.org/abs/2309.15427
+	- LLMにナレッジグラフ（知識グラフ）を連携させることで、タスク遂行能力を大幅に向上させるフレームワーク『Graph Neural Prompting（GNP）』
+	- 
 
 ## 10/16
 
@@ -2013,10 +2018,10 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDA3NTQyNywtNDI0NDI0MjU2LC0xMj
-MwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMz
-MTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMT
-EzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQw
-MzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4Mz
-csLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbNDEwODY5ODY1LC00MjQ0MjQyNTYsLTEyMz
+A3MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMx
+ODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMT
+M3MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAz
+NzIzNCwtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNy
+wtODMyNjk4Mzk1XX0=
 -->
