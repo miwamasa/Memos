@@ -115,6 +115,12 @@
 	- https://zenn.dev/yume_neko/articles/7347ba6b081e93
 	- 科学分野の5択問題を解くLLMの精度を規則コンペのべスプラ
 	- 今回のコンペで上位に行くにはRetrievalが最もキーだったように思います。やはり正解情報を直接参照できるので、contextをより良くすることが重要だったのではないかと思います。
+- llama2のpretrainingを試す
+	- https://zenn.dev/if001/articles/6c507e15cd958b
+	- 小さいサイズのllama2を日本語でpre_trainingしてみます
+	- pre_trainingからhuggingfaceへのuploadまでを行ってみました。
+	- 小さいサイズであればgoogle colabで学習できる
+- 
 
 ## 10/16
 
@@ -2109,11 +2115,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTQ5MDUyLDE5NzQ4OTQwODUsLTEwND
-MyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4
-MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLT
-E3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkzMjMsLTE2Mzcx
-NTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0xNDE2NTQzNT
-YsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbMTE3MTIxODA2OCwxOTc0ODk0MDg1LC0xMD
+QzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEy
+ODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC
+0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3
+MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0Mz
+U2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
 
 -->
