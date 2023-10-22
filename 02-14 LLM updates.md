@@ -37,7 +37,9 @@
 - PaLI-3 Vision Language Models: Smaller, Faster, Stronger
 	- https://huggingface.co/papers/2310.09199
 	- Googleによる、高性能で小さいvision language model (VLM)
-- 
+- マッキンゼーから発表されたAI動向に関するレポートがなかなか衝撃的
+	- https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-AI-the-next-productivity-frontier#introduction
+	- 瀬々井
 
 ## 10/16
 
@@ -2032,7 +2034,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjA0NTgxNiwtNDI0NDI0MjU2LC0xMj
+eyJoaXN0b3J5IjpbMTA4OTc4ODA5MSwtNDI0NDI0MjU2LC0xMj
 MwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMz
 MTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMT
 EzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQw
