@@ -52,7 +52,10 @@
 	- ChatGPTネイティブな学生は、ChatGPTでコーディングを学ぶのか。。
 - Andrew Ng先生から、deeplearning.aiの「生成AI」の講義の宣伝
 	- https://www.deeplearning.ai/courses/generative-ai-for-everyone/
-- 
+- OpenAI、次世代LLMである、Arrakisの開発を断念？
+	-  OpenAI Dropped Work on New ‘Arrakis’ AI Model in Rare Setback
+	- どううｍ
+	- https://www.theinformation.com/articles/openai-dropped-work-on-new-arrakis-ai-model-in-rare-setback
 
 ## 10/16
 
@@ -2047,7 +2050,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzEzMjg3OSwtNDI0NDI0MjU2LC0xMj
+eyJoaXN0b3J5IjpbLTgzMTQxNzI5OCwtNDI0NDI0MjU2LC0xMj
 MwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMz
 MTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMT
 EzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQw
