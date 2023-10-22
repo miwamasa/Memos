@@ -102,6 +102,9 @@
 -  言語はこうして生まれる―「即興する脳」とジェスチャーゲーム―
 	- https://www.shinchosha.co.jp/book/507311/
 	- 言語の生得性を否定し、文化進化や語用論的な観点から言語獲得を論じています
+	- ノーム・チョムスキーは「普遍文法」という概念を導入し、「人間の遺伝的青写真には、言語を支配する抽象的な数学的原理が内包」しているといった
+	- 心理学者スティーブン・ピンカーがさらに『言語を生みだす本能』（NHKブックス）へと発展させる
+	- 
 - 多様体上の最適化理論
 	- https://www.amazon.co.jp/exec/obidos/ASIN/4274231186?&linkCode=sl1&tag=mathlang09-22&linkId=bd145734052442298eb01413d823ca91&language=ja_JP&ref_=as_li_ss_tl
 	- 多様体上の最適化理論について、基礎となる数理から応用例までを解説
@@ -2120,11 +2123,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTMxMzI4NywtMTIyMDA5MDk1MCwxOT
-c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
-MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxOD
-QsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3
-MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNz
-IzNCwtMTQxNjU0MzU2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywt
-ODMyNjk4Mzk1XX0=
+eyJoaXN0b3J5IjpbLTIzODE4MjA4LC0xMjIwMDkwOTUwLDE5Nz
+Q4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDcz
+OTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NC
+w5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcx
+NjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3Mj
+M0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04
+MzI2OTgzOTVdfQ==
 -->
