@@ -94,6 +94,9 @@
 - A quantized version of the mistral that is instruction following over 32k tokens.
 	- https://huggingface.co/TheBloke/MistralLite-7B-AWQ
 	- mistralって性能がよいと先週評判になってたやつの、4bit量子化版が公開？
+- llm-jp-13b-v1.0も早速GPTQ版が公開される
+	- https://huggingface.co/mmnga/llm-jp-13b-v1.0-4bit-g128-GPTQ-calib-ja-1k
+	- llm-jp-13b-v1.0を、 日本語のキャリブレーションセットで生成したGPTQモデル
 - 
 
 ## 10/16
@@ -2089,11 +2092,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU5MDU2MzcsMTk3NDg5NDA4NSwtMT
-A0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgx
-MjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMC
-wtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYz
-NzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1ND
-M1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbMTU5MDE3MTU2NSwxOTc0ODk0MDg1LC0xMD
+QzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEy
+ODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC
+0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3
+MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0Mz
+U2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
 
 -->
