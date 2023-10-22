@@ -60,7 +60,9 @@
 - llamaindexのLiuさんより、“Evaluation Driven Development” (EDD)の提案
 	- https://x.com/jerryjliu0/status/1713936561480610104?s=20
 	- まずは、LLM＋Embeddingの組み合わせをちゃんと評価するところから始めようみたいな。
-- 
+- Replicateを利用すると、任意のLLMとembeddingの組み合わせを簡単に評価できる
+	- https://replicate.com/explore
+	- つまりhuggingfaceのモデルをダウンロードして動かす手間を、少し省くサービスを提供
 
 ## 10/16
 
@@ -2055,7 +2057,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzIwNjE1NiwtMTA0MzIxNTcyMywtND
+eyJoaXN0b3J5IjpbLTQwOTc2NjE3MCwtMTA0MzIxNTcyMywtND
 I0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4
 MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOS
 wxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQx
