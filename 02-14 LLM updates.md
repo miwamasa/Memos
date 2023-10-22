@@ -57,6 +57,10 @@
 	- 限りなくAGIに近いとうわさされる次世代のLLM、
 	- どううも開発中（学習中）の性能評価で思ったほど性能が出なかったため。
 	- https://www.theinformation.com/articles/openai-dropped-work-on-new-arrakis-ai-model-in-rare-setback
+- llamaindexのLiuさんより、“Evaluation Driven Development” (EDD)の提案
+	- https://x.com/jerryjliu0/status/1713936561480610104?s=20
+	- まずは、LLM＋Embeddingの組み合わせをちゃんと評価するところから始めようみたいな。
+- 
 
 ## 10/16
 
@@ -2051,10 +2055,10 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMT
-IzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMz
-MzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LD
-ExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0
-MDM3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywxMzI0MDU2OD
-M3LC04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbMTI3NzIwNjE1NiwtMTA0MzIxNTcyMywtND
+I0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4
+MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOS
+wxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQx
+OTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OT
+AzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
 -->
