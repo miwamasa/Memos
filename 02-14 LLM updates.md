@@ -108,6 +108,11 @@
 	- MS研究所から、クリフォード代数にインスパイアされた新しいNNレイヤの発明
 -  OpenAgents: An Open Platform for Language Agents in the Wild
 	- https://arxiv.org/abs/2310.10634v1
+- llamaindexより、Unifying Text-to-SQL and RAG with our SQLRetrieve
+	- https://docs.llamaindex.ai/en/latest/examples/index_structs/struct_indices/SQLIndexDemo.html
+	- SQLデータベースに対して、RAGを行うRetriverについて、動いたぞ、役に立つぞ。
+- kaggle LLMコンペ　上位解法まとめ
+	- https://zenn.dev/yume_neko/articles/7347ba6b081e93
 
 ## 10/16
 
@@ -2102,11 +2107,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjkxNDY5MjMsMTk3NDg5NDA4NSwtMT
-A0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgx
-MjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMC
-wtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYz
-NzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1ND
-M1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbMjA3NTgzNjYzNywxOTc0ODk0MDg1LC0xMD
+QzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEy
+ODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC
+0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3
+MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0Mz
+U2LDEzNzA0NTg5MDMsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
 
 -->
