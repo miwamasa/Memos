@@ -71,6 +71,11 @@
 - データでできることのレベル感を理解する（デジタル庁の人のスライドより）
 	- https://speakerdeck.com/hik0107/data-design-and-government?slide=10
 	- 現状の把握(lv.1)、分解と差異の把握(Lv.2)、原因の把握(Lv.3)、対策の把握(Lv4)
+-  Google Colab で LLM-jp-13B を試す by npakaさん
+	- https://note.com/npaka/n/n60b0abf54ed5?sub_rt=share_sb
+	- T4 ハイメモリで動作確認
+	- 早速試されている
+- 
 
 ## 10/16
 
@@ -2065,7 +2070,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTc2NDEyLC0xMDQzMjE1NzIzLC00Mj
+eyJoaXN0b3J5IjpbNjQyODI3MDIzLC0xMDQzMjE1NzIzLC00Mj
 Q0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NSw5NTI1Mjgw
 NjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LD
 E5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5
