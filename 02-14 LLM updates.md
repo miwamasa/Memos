@@ -105,6 +105,9 @@
 	- 歴史：ノーム・チョムスキーは「普遍文法」という概念を導入し、「人間の遺伝的青写真には、言語を支配する抽象的な数学的原理が内包」しているといった
 	- 歴史：心理学者スティーブン・ピンカーがさらに『言語を生みだす本能』（NHKブックス）へと発展させる
 	- 主張：「ジェスチャーゲーム」。言語は遺伝的に決定されたものなどではなく、身振り手振り、発声、あるいはその両方で自分の意思を双方向的に伝え合うジェスチャーゲームのようなものが起源なのではないかという斬新なアイデアだ。そこには普遍文法が入り込む余地などない。
+- LLM（大規模言語モデル）は「言語ゲーム」的か  東京女子大学現代教養学部准教授・大谷弘氏に聞く（１）
+	- [IT批評の記事](https://it-hihyou.com/recommended/llm%EF%BC%88%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%EF%BC%89%E3%81%AF%E3%80%8C%E8%A8%80%E8%AA%9E%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8D%E7%9A%84%E3%81%8B-%E2%80%95/)より
+	- 
 - 多様体上の最適化理論
 	- https://www.amazon.co.jp/exec/obidos/ASIN/4274231186?&linkCode=sl1&tag=mathlang09-22&linkId=bd145734052442298eb01413d823ca91&language=ja_JP&ref_=as_li_ss_tl
 	- 多様体上の最適化理論について、基礎となる数理から応用例までを解説
@@ -2123,11 +2126,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
-k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
-NzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMT
-g0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEz
-NzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMz
-cyMzQsLTE0MTY1NDM1NiwxMzcwNDU4OTAzLDEzMjQwNTY4Mzcs
-LTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbMjkwMDUyMDYwLC0yMDg3NDY0MTMwLC0xMj
+IwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQy
+NDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MS
+wtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1
+MjM1OTU3LDExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1Nz
+M5ODAsMjE0MDM3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1ODkwMywx
+MzI0MDU2ODM3XX0=
 -->
