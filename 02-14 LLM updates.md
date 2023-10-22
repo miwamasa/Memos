@@ -6,7 +6,9 @@
 - Ilya Sutskever氏LLMと世界モデルについて語る with Jensen Huang, CEO of Nvidia:
 	- https://twitter.com/i/status/1713368556618887670
 	- OpenAIの共同設立者であるIlya Sutskever氏とNvidiaのensen Huang社長との対談より
-	- （巨大な）ニューラルネットが学んでいるのは、テキストを生成する「何か」に対する表現を学んでいる。つまり世界モデルである
+	- （巨大な）ニューラルネットが学んでいるのは、テキストを生成する「何か」に対する表現を学んでいる。その「何か」とは世界モデルであり、それが射影されたものが生成されたテキストなのである。
+- Jonas Belouadi et al., "AutomaTikZ: Text-Guided Synthesis of Scientific Vector Graphics with TikZ"
+	- 
 	- 
 
 ## 10/16
@@ -2002,7 +2004,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3NjYyMjQsLTQyNDQyNDI1NiwtMTIzMD
+eyJoaXN0b3J5IjpbMjY2MTMyNDksLTQyNDQyNDI1NiwtMTIzMD
 czOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4
 NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMz
 cxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3
