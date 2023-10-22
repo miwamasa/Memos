@@ -68,8 +68,9 @@
 	- LLM-jp （LLM 勉強会）は、日本語と英語を中心に事前学習した130億パラメータの大規模言語モデルをオープンなライセンスで公開
 	- https://llm-jp.nii.ac.jp/release/
 	- インストラクションデータでチューニングしたモデルや訓練・チューニングに用いたソフトウェアも公開
-- データでできることのレベル感を理解する
+- データでできることのレベル感を理解する（デジタル庁の人のスライドより）
 	- https://speakerdeck.com/hik0107/data-design-and-government?slide=10
+	- 現状の把握(lv.1)、分解と差異の把握(Lv.2)、原因の把握(Lv.3)、対策の把握(Lv4)
 
 ## 10/16
 
@@ -2064,10 +2065,10 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTE2MTEyMDAsLTEwNDMyMTU3MjMsLT
-QyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUy
-ODA2MSwtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MT
-ksMTk1MjM1OTU3LDExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0
-MTk1NzM5ODAsMjE0MDM3MjM0LC0xNDE2NTQzNTYsMTM3MDQ1OD
-kwMywxMzI0MDU2ODM3LC04MzI2OTgzOTVdfQ==
+eyJoaXN0b3J5IjpbLTMxNTc2NDEyLC0xMDQzMjE1NzIzLC00Mj
+Q0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NSw5NTI1Mjgw
+NjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LD
+E5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5
+NTczOTgwLDIxNDAzNzIzNCwtMTQxNjU0MzU2LDEzNzA0NTg5MD
+MsMTMyNDA1NjgzNywtODMyNjk4Mzk1XX0=
 -->
