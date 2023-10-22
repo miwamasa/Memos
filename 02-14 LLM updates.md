@@ -84,7 +84,10 @@
 	- pre-train LLMs with Retrieval Augmentation
 -  An Emulator for Fine-Tuning Large Language Models using Small Language Models
 	- https://huggingface.co/papers/2310.12962
-	- Emulator for Fine
+	- Emulator for Fine-Tuning(EFT)は、大規模な事前学習済みモデルを小規模な微調整済みモデルとアンサンブルすることで、大規模な事前学習済みモデルを微調整した結果をエミュレートするという、アップスケーリングが可能になった
+-  Can large language models provide useful feedback on research papers? A large-scale empirical analysis
+	- https://arxiv.org/abs/2310.01783
+	- 「科学論文の査読」に、大規模言語モデル（LLM）が有用な可能性がある
 
 ## 10/16
 
@@ -2079,11 +2082,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg1MDE5MDcsMTk3NDg5NDA4NSwtMT
-A0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgx
-MjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMC
-wtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYz
-NzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0MTY1ND
-M1NiwxMzcwNDU4OTAzLDEzMjQwNTY4MzcsLTgzMjY5ODM5NV19
+eyJoaXN0b3J5IjpbODc5NDcwNTQ1LDE5NzQ4OTQwODUsLTEwND
+MyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4
+MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLT
+E3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkzMjMsLTE2Mzcx
+NTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0xNDE2NTQzNT
+YsMTM3MDQ1ODkwMywxMzI0MDU2ODM3LC04MzI2OTgzOTVdfQ==
 
 -->
