@@ -67,6 +67,9 @@
 	- https://www.nature.com/articles/d41586-023-03290-1?error=cookies_not_supported&code=dd59d16e-8d54-49a4-95a3-8fcded36917f&utm_medium=Social&utm_campaign=nature&utm_source=Twitter#Echobox=1698226936
 	- nature記事より
 	- **資金不足と時間不足**、**若手研究者の不満と減少**　が指摘されている。
+-  Branch-Solve-Merge Improves Large Language Model Evaluation and Generation
+	- https://arxiv.org/abs/2310.15123
+	- Promptを超えた？LLM自信を使うような、LLM programと呼ばれるような手法
 - 
 
 ## 10/23
@@ -2194,7 +2197,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDUwNDQ1NCw0MzUxMDk0NDcsMTY0NT
+eyJoaXN0b3J5IjpbMTkxMDE2MDQ2OCw0MzUxMDk0NDcsMTY0NT
 c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
 MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
 ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
