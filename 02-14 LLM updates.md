@@ -18,6 +18,9 @@
 	- https://arxiv.org/abs/2310.06983
 	- 「心の理論（Theory of Mind）」をメタ認知能力をつかって向上できる。
 	- 心理学における「Violation of Expectation（期待違反）：VoE」理論を適用
+- llamaindexがつかう、すべてのプロンプトを表示・カスタマイズできるI/Fが公開
+	-  Accessing/Customizing Prompts within Higher-Level Modules
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/prompts/prompt_mixin.ipynb
 
 
 ## 10/23
@@ -2145,7 +2148,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyOTUzMTE5LDQzNTEwOTQ0NywxNjQ1Nz
+eyJoaXN0b3J5IjpbMjAzMjk2MTE2LDQzNTEwOTQ0NywxNjQ1Nz
 YzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQw
 ODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOS
 wxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5Nzgy
