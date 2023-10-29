@@ -49,6 +49,10 @@
 	- The highest total score goes to Meta’s Llama 2, with 54 out of 100.
 -  llm-jpをColabで試す
 	- https://note.com/alexweberk/n/n6b26b324904c?sub_rt=share_pw
+	- 「jaster を含むものは回答がそっけない」らしいので、それを除いたテスト
+	- 流石日本語特化のモデルだけあって日本語は自然な形で生成できました。日本に関する基本的な知識も備えているのは嬉しい
+-  LLM の ベンチマーク まとめ by npakaさん
+	- https://note.com/npaka/n/ndec10f78fe2f
 
 
 ## 10/23
@@ -2176,11 +2180,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTg0OTc2LDQzNTEwOTQ0NywxNjQ1Nz
-YzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQw
-ODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOS
-wxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5Nzgy
-MjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkzMj
-MsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0x
-NDE2NTQzNTZdfQ==
+eyJoaXN0b3J5IjpbNDU4ODY4MDEsNDM1MTA5NDQ3LDE2NDU3Nj
+M4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4
+NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LD
+E1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIy
+NDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMy
+wtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0
+MTY1NDM1Nl19
 -->
