@@ -32,7 +32,10 @@
 	- how to fine-tune Llama2 for better text-to-SQL + easily plug into your LLM app, ordered from easy to hard:
 	- text-to-SQLで最も性能が良いのは、GPT-4/3.5でも、llamaでもファインチューニングすればどうにかなる。このファインチューニングの手法の様々を紹介、
 - State of Open Source AI Book - 2023 Edition
-	- 
+	- https://book.premai.io/state-of-open-source-ai/
+	- 当然本自身もOpenSoruce
+	- https://github.com/premAI-io/state-of-open-source-ai
+- 
 
 
 ## 10/23
@@ -2160,7 +2163,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjExMTUzNCw0MzUxMDk0NDcsMTY0NT
+eyJoaXN0b3J5IjpbMTg4OTE2NzE2NCw0MzUxMDk0NDcsMTY0NT
 c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
 MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
 ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
