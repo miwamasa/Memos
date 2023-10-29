@@ -81,6 +81,10 @@
 - mmnga/japanese-stablelm-instruct-gamma-7b-gguf
 	- stabilityAIさんが公開されているjapanese-stablelm-instruct-gamma-7bのgguf
 	- Mistral-7bの日本語版で、AIのべりすとさんから提供された高品質なデータが入っている
+- フィールズ賞受賞者のテレンス・タオさんが、証明支援系Leanを使うことで自分の論文の中のバグ（ミス）に気づいたという話
+	- https://mathstodon.xyz/@tao/111287749336059662
+	- 定理証明系が実数学者のためになっているのか。。。
+- 
 
 ## 10/23
 
@@ -2207,11 +2211,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3MzI3ODUsNDM1MTA5NDQ3LDE2NDU3Nj
-M4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4
-NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LD
-E1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIy
-NDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMy
-wtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0
-MTY1NDM1Nl19
+eyJoaXN0b3J5IjpbMTkxNzEyMTM1MCw0MzUxMDk0NDcsMTY0NT
+c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
+MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
+ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
+MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5Mz
+IzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwt
+MTQxNjU0MzU2XX0=
 -->
