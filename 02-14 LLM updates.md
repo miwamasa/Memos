@@ -132,6 +132,7 @@
 - Hinton先生の、新しいLLMの開発（たぶんOpenAI)に対する危惧に対して、Lecum先生は、どうせ今のAuto-Regressive LLMの延長線上の開発なので、限界は自明い。真に必要なAIは、、と反論。
 - https://x.com/ylecun/status/1718263303485501784?s=20
 - Objective-Driven AI architecturesが必要とのこと。
+- 
 
 ## 10/23
 
@@ -2258,11 +2259,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTAwODU0OSwtMjQyOTMwNTksNDM1MT
-A5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5
-NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC
-0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYw
-MzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NT
-csMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwy
-MTQwMzcyMzRdfQ==
+eyJoaXN0b3J5IjpbLTE0OTc2Mzg5NTQsLTI0MjkzMDU5LDQzNT
+EwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkw
+OTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1Ni
+wtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2
+MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OT
+U3LDExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAs
+MjE0MDM3MjM0XX0=
 -->
