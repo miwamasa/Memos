@@ -4,6 +4,7 @@
 
 ## 10/30
 
+
 - 7bのフルファインチューニングがcolabで動く？VRAM 32G程度で行けると
 	- https://x.com/Sakkusakumura/status/1716158933319246289?s=20
 - Character-LLM: A Trainable Agent for Role-Playing
@@ -124,7 +125,7 @@
 	- structured Pydantic objectsを出力する
 - 帝人の統合報告書2023に掲載されている特許情報分析。ポートフォリオの変化について、テキストマイニングによる全体俯瞰と特許価値評価の2つのアプローチで可視化
 	- https://ssl4.eir-parts.net/doc/3401/ir_material_for_fiscal_ym1/141477/00.pdf
-- Hinton先生の、新しいLLMの開発（たぶんOpenAI)に対する危惧に対して、Lecum先生は、どうせ今のの延長線上なので、限界がみえる、真に必要なAIは、、
+- Hinton先生の、新しいLLMの開発（たぶんOpenAI)に対する危惧に対して、Lecum先生は、どうせ今のAuto-Regressive LLMの延長線上の開発なので、限界は自明い。真に必要なAIは、、と反論。
 - https://x.com/ylecun/status/1718263303485501784?s=20
 - Objective-Driven AI architecturesが必要とのこと。
 
@@ -2253,11 +2254,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Mjg5ODEzMSw0MzUxMDk0NDcsMTY0NT
-c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
-MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
-ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
-MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5Mz
-IzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwt
-MTQxNjU0MzU2XX0=
+eyJoaXN0b3J5IjpbMzkyNzc5NjQ1LDQzNTEwOTQ0NywxNjQ1Nz
+YzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQw
+ODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOS
+wxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5Nzgy
+MjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkzMj
+MsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0x
+NDE2NTQzNTZdfQ==
 -->
