@@ -4,7 +4,7 @@
 
 ## 10/30
 
-新しいLLMがどんどん発表される。「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」、7BのLLMの覇者は、Mistral 7Bという話題もあったが、ReActをこなせる7bは、Zephyr-7b-betaということらしい、楽しみ。OSSのLLMで構造的な出力(Pydantic)を出すにはファインチューニングらしい。text-to-SQLもファインチューニングが有効とのこと。心の理論(TOM)も、心理学のVoE理論の応用とかがあった。LLM の ベンチマーク、いろいろ紹介されるが、レーダーチャートで可視化されるMT-Benchが良いかも。既存の概念を組み合わせるsystematic compositionalityの能力をニューラルネットが持つことができるってのは、これはメタファー理論による認知の仕組みの解明が一歩現実に近づいたのか。Prompt による支持を超えるという、LLM programはは、分割統治というか、アンサンブルというかそういう感じ。MicrosoftのAgent Frameworkって前からあったような気もするが、なぜ注目？Hinton先生とLecum先生の議論がLLMの次を見据えた議論で面白い。限界は、ひょんなことから超えられてゆくという歴史もあるよな。
+新しいLLMがどんどん発表される。「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」、7BのLLMの覇者は、Mistral 7Bという話題もあったが、ReActをこなせる7bは、Zephyr-7b-betaということらしい、楽しみ。OSSのLLMで構造的な出力(Pydantic)を出すにはファインチューニングらしい。text-to-SQLもファインチューニングが有効とのこと。心の理論(TOM)も、心理学のVoE理論の応用とかがあった。LLM の ベンチマーク、いろいろ紹介されるが、自動評価の結果がレーダーチャートで可視化されるMT-Benchが良いかも。既存の概念を組み合わせるsystematic compositionalityの能力をニューラルネットが持つことができるってのは、これはメタファー理論による認知の仕組みの解明が一歩現実に近づいたのか。Prompt による支持を超えるという、LLM programはは、分割統治というか、アンサンブルというかそういう感じ。MicrosoftのAgent Frameworkって前からあったような気もするが、なぜ注目？Hinton先生とLecum先生の議論がLLMの次を見据えた議論で面白い。限界は、ひょんなことから超えられてゆくという歴史もあるよな。FastChatで様々なLLMを試せて評価の幅が広がる、M-BenchもFastChat利用を想定しているのか。
 
 - 7bのフルファインチューニングがcolabで動く？VRAM 32G程度で行けると
 	- https://x.com/Sakkusakumura/status/1716158933319246289?s=20
@@ -144,7 +144,7 @@
 -  MT-Bench による日本語LLMの評価 by npakaさん
 	- https://note.com/npaka/n/n0530f6f9123f?sub_rt=share_sb
 	- 「Stability AI」が提供する**「Japanese MT-Bench」の質問ファイル**と**参照回答ファイル**を使う
-	- 
+	- 評価するモデルは、FastChatが対応している必要があります。
 
 ## 10/23
 
@@ -2271,11 +2271,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU3OTg4NzgsLTI0MjkzMDU5LDQzNT
-EwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkw
-OTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1Ni
-wtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2
-MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OT
-U3LDExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAs
-MjE0MDM3MjM0XX0=
+eyJoaXN0b3J5IjpbLTU3ODA4NTAzMSwtMjQyOTMwNTksNDM1MT
+A5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5
+NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC
+0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYw
+MzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NT
+csMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwy
+MTQwMzcyMzRdfQ==
 -->
