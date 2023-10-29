@@ -4,7 +4,7 @@
 
 ## 10/30
 
-新しいLLMがどんどん発表される。「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」、7BのLLMの覇者は、Mistral 7Bという話題もあったが、ReActをこなせる7bは、Zephyr-7b-betaということらしい、楽しみ。OSSのLLMで構造的な出力(Pydantic)を出すにはファインチューニングらしい。text-to-SQLもファインチューニングが有効とのこと。心の理論(TOM)も、心理学のVoE理論の応用とかがあった。LLM の ベンチマーク、いろいろ紹介されるが、レーダーチャートで可視化されるMT-Benchが良いかも。既存の概念を組み合わせるsystematic compositionalityの能力をニューラルネットが持つことができるってのは、これはメタファー理論による認知の仕組みの解明が一歩現実に近づいたのか。Prompt による支持を超えるという、LLM programがよくわからなった。Microsoft
+新しいLLMがどんどん発表される。「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」、7BのLLMの覇者は、Mistral 7Bという話題もあったが、ReActをこなせる7bは、Zephyr-7b-betaということらしい、楽しみ。OSSのLLMで構造的な出力(Pydantic)を出すにはファインチューニングらしい。text-to-SQLもファインチューニングが有効とのこと。心の理論(TOM)も、心理学のVoE理論の応用とかがあった。LLM の ベンチマーク、いろいろ紹介されるが、レーダーチャートで可視化されるMT-Benchが良いかも。既存の概念を組み合わせるsystematic compositionalityの能力をニューラルネットが持つことができるってのは、これはメタファー理論による認知の仕組みの解明が一歩現実に近づいたのか。Prompt による支持を超えるという、LLM programがよくわからなった。MicrosoftのAgent Frameworkって前からあったような気もするが、なぜ注目？Hinton先生とLecum先生の議論がLLMの次を見据えた議論で面白い。限界は、ひょんなことから超えられてゆくという歴史もあるよな。
 
 - 7bのフルファインチューニングがcolabで動く？VRAM 32G程度で行けると
 	- https://x.com/Sakkusakumura/status/1716158933319246289?s=20
@@ -2255,11 +2255,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTU4ODMzNCw0MzUxMDk0NDcsMTY0NT
-c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
-MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
-ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
-MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5Mz
-IzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwt
-MTQxNjU0MzU2XX0=
+eyJoaXN0b3J5IjpbLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1Nz
+YzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQw
+ODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOS
+wxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5Nzgy
+MjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkzMj
+MsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0x
+NDE2NTQzNTZdfQ==
 -->
