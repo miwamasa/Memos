@@ -94,6 +94,13 @@
 	- https://arxiv.org/abs/2310.16944
 	- なんかすごい性能らしい。
 -  Human-like systematic generalization through a meta-learning neural network
+	- https://www.nature.com/articles/s41586-023-06668-3
+	- 既存の概念を組み合わせるsystematic compositionalityの能力を、メタ学習を施したニューラルネットで実現。35年前のFodor＆Pylyshynの「ニューラルネットはcompositionalityを持てない」との主張への応答として書いている
+-  MT-Bench の使い方 by npakaさん
+	- https://note.com/npaka/n/na28f31e96599?sub_rt=share_b
+	- 「[**MT-Bench**](https://chat.lmsys.org/?leaderboard)」は、80の高品質でマルチターンの質問を含む、慎重にキュレーションされたLLMのベンチマークです。
+	- レーダーチャートででるのがよい。
+- 
 
 ## 10/23
 
@@ -2220,11 +2227,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0NDY0MTU3LDQzNTEwOTQ0NywxNjQ1Nz
-YzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQw
-ODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOS
-wxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5Nzgy
-MjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkzMj
-MsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0x
-NDE2NTQzNTZdfQ==
+eyJoaXN0b3J5IjpbLTQ5NjkwMjgzNyw0MzUxMDk0NDcsMTY0NT
+c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
+MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
+ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
+MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5Mz
+IzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwt
+MTQxNjU0MzU2XX0=
 -->
