@@ -102,8 +102,12 @@
 	- レーダーチャートででるのがよい。
 -  7BのLLMの覇者は、Mistral 7B ？？
 	- https://www.promptingguide.ai/models/mistral-7b
-- Getting started  
-with Llama
+- Getting started  with Llama by Meta
+	- Meta謹製のLlmaガイド
+	- https://ai.meta.com/llama/get-started/
+- bakLLaVA vision AI can read xrays with only 6Gb of RAM
+	- https://github.com/SkunkworksAI/BakLLaVA
+	- 
 
 ## 10/23
 
@@ -2230,11 +2234,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjI1Nzc0OCw0MzUxMDk0NDcsMTY0NT
-c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
-MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
-ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
-MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5Mz
-IzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwt
-MTQxNjU0MzU2XX0=
+eyJoaXN0b3J5IjpbMjc2MDM3NjkyLDQzNTEwOTQ0NywxNjQ1Nz
+YzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQw
+ODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOS
+wxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5Nzgy
+MjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkzMj
+MsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0x
+NDE2NTQzNTZdfQ==
 -->
