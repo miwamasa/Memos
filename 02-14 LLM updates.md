@@ -24,8 +24,10 @@
 - LangChainから、アドバンスなRAGでもある、"Query Transformation"
 	- https://blog.langchain.dev/query-transformations/
 	- 質問のほうを変換するとな？
-- llamaindexで、HuggingFaceのAPIを活用するライブラリが拡張された
-	- 
+- llamaindexで、HuggingFaceのLLMを活用するライブラリが拡張された(会話、テキスト生成、など）
+	- you can now plug any `conversational`, `text_generation`, `feature_extraction` endpoints 
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/huggingface.ipynb
+- 
 
 
 ## 10/23
@@ -2153,11 +2155,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyOTg0MzMsNDM1MTA5NDQ3LDE2NDU3Nj
-M4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4
-NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LD
-E1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIy
-NDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMy
-wtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0
-MTY1NDM1Nl19
+eyJoaXN0b3J5IjpbLTE5OTkxNjEwNzgsNDM1MTA5NDQ3LDE2ND
+U3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5
+NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5Mj
+M5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3
+ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OT
+MyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQs
+LTE0MTY1NDM1Nl19
 -->
