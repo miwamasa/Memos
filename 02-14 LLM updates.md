@@ -15,7 +15,9 @@
 	- Progressive3D brings region specific object manipulation through text with a DALL-E 3 like level of prompt understanding to the table.
 	- ３Dモデルに対して、様々な加工を言語で行う
 - Courtland Leer et al., "Violation of Expectation via Metacognitive Prompting Reduces Theory of Mind Prediction Error in Large Language Models"
-	- 
+	- https://arxiv.org/abs/2310.06983
+	- 「心の理論（Theory of Mind）」をメタ認知能力をつかって向上できる。
+	- 心理学における「Violation of Expectation（期待違反）：VoE」理論を適用
 
 
 ## 10/23
@@ -2143,11 +2145,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTM1MzM1MzQsNDM1MTA5NDQ3LDE2ND
-U3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5
-NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5Mj
-M5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3
-ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OT
-MyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQs
-LTE0MTY1NDM1Nl19
+eyJoaXN0b3J5IjpbNjAyOTUzMTE5LDQzNTEwOTQ0NywxNjQ1Nz
+YzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQw
+ODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOS
+wxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5Nzgy
+MjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkzMj
+MsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0x
+NDE2NTQzNTZdfQ==
 -->
