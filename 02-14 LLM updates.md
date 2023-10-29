@@ -4,6 +4,7 @@
 
 ## 10/30
 
+新しいLLMがどんどん発表される。「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」、7BのLLMの覇者は、Mistral 7Bという話題もあったが、ReActをこなせる7bは、Zephyr-7b-betaということらしい、楽しみ。
 
 - 7bのフルファインチューニングがcolabで動く？VRAM 32G程度で行けると
 	- https://x.com/Sakkusakumura/status/1716158933319246289?s=20
@@ -2254,7 +2255,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNzc5NjQ1LDQzNTEwOTQ0NywxNjQ1Nz
+eyJoaXN0b3J5IjpbMzU4MDcwNjM2LDQzNTEwOTQ0NywxNjQ1Nz
 YzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQw
 ODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOS
 wxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5Nzgy
