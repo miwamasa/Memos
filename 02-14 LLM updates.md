@@ -100,7 +100,10 @@
 	- https://note.com/npaka/n/na28f31e96599?sub_rt=share_b
 	- 「[**MT-Bench**](https://chat.lmsys.org/?leaderboard)」は、80の高品質でマルチターンの質問を含む、慎重にキュレーションされたLLMのベンチマークです。
 	- レーダーチャートででるのがよい。
-- 
+-  7BのLLMの覇者は、Mistral 7B ？？
+	- https://www.promptingguide.ai/models/mistral-7b
+- Getting started  
+with Llama
 
 ## 10/23
 
@@ -2227,7 +2230,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjkwMjgzNyw0MzUxMDk0NDcsMTY0NT
+eyJoaXN0b3J5IjpbMTExNjI1Nzc0OCw0MzUxMDk0NDcsMTY0NT
 c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
 MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
 ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
