@@ -124,7 +124,7 @@
 	- structured Pydantic objectsを出力する
 - 帝人の統合報告書2023に掲載されている特許情報分析。ポートフォリオの変化について、テキストマイニングによる全体俯瞰と特許価値評価の2つのアプローチで可視化
 	- https://ssl4.eir-parts.net/doc/3401/ir_material_for_fiscal_ym1/141477/00.pdf
-		- 
+- Hinton先生の、新しいLLMの開発（
 
 ## 10/23
 
@@ -2251,11 +2251,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU4ODU5ODAsNDM1MTA5NDQ3LDE2ND
-U3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5
-NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5Mj
-M5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3
-ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OT
-MyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQs
-LTE0MTY1NDM1Nl19
+eyJoaXN0b3J5IjpbLTQ0MDAwMzc5OSw0MzUxMDk0NDcsMTY0NT
+c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
+MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
+ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
+MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5Mz
+IzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwt
+MTQxNjU0MzU2XX0=
 -->
