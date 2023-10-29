@@ -10,6 +10,12 @@
 	- https://aiboom.net/archives/57223
 	- 特定の人物、例えばベートーヴェンやクレオパトラなどの行動や感情を模倣させるよう訓練する新しいフレームワーク『Character-LLM（キャラクターLLM）』
 	- 訓練されたLLMは、特定の人物としての行動や感情を効果的に模倣できることが確認されました。
+-  Progressive3D: Progressively Local Editing for Text-to-3D Content Creation with Complex Semantic Prompts
+	- https://cxh0519.github.io/projects/Progressive3D/?ref=aiartweekly
+	- Progressive3D brings region specific object manipulation through text with a DALL-E 3 like level of prompt understanding to the table.
+	- ３Dモデルに対して、様々な加工を言語で行う
+- Courtland Leer et al., "Violation of Expectation via Metacognitive Prompting Reduces Theory of Mind Prediction Error in Large Language Models"
+	- 
 
 
 ## 10/23
@@ -2137,7 +2143,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE3NDE1NjIsNDM1MTA5NDQ3LDE2ND
+eyJoaXN0b3J5IjpbLTE2MTM1MzM1MzQsNDM1MTA5NDQ3LDE2ND
 U3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5
 NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5Mj
 M5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3
