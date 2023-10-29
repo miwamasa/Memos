@@ -43,8 +43,12 @@
 	- https://arxiv.org/abs/2308.08155
 	- https://microsoft.github.io/autogen/
 	- マイクロソフト謹製のAgentフレームワーク、前からあったような気もするが。
-- Top AI Shops Fail Transparency Tes
+- Top AI Shops Fail Transparency Test
+	- https://spectrum.ieee.org/ai-ethics#toggle-gdpr
 	- Stanford transparency index rates Meta, OpenAI, and others on 100 indicators
+	- The highest total score goes to Meta’s Llama 2, with 54 out of 100.
+-  llm-jpをColabで試す
+	- https://note.com/alexweberk/n/n6b26b324904c?sub_rt=share_pw
 
 
 ## 10/23
@@ -2172,7 +2176,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1OTgxODY3LDQzNTEwOTQ0NywxNjQ1Nz
+eyJoaXN0b3J5IjpbMTE5OTg0OTc2LDQzNTEwOTQ0NywxNjQ1Nz
 YzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQw
 ODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOS
 wxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5Nzgy
