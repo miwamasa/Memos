@@ -113,8 +113,13 @@
 	- https://colab.research.google.com/drive/1UoPcoiA5EOBghxWKWduQhChliMHxla7U?usp=sharing
 	- found it’s the only 7B LLM that can handle ReAct agent tasks over data
 	- つまり、dataに対して、ReActするAgentを実装できる唯一の7B LLMということらしい
-	- Jelly Lいuさんも激賞
+	- Jelly Liuさん(llamaindex作者)も激賞
 	- https://x.com/jerryjliu0/status/1718054817640390840?s=20
+-  Evaluating RAG pipelines with Ragas + LangSmith
+	- https://blog.langchain.dev/evaluating-rag-pipelines-with-ragas-langsmith/
+	- RAGの性能評価をRagasとLangSmithで行う方法を紹介した記事
+	- RagasはLLMによるRAGの自動評価を支援するOSS、試したけどお金かかるんだよな。
+- 
 
 ## 10/23
 
@@ -2241,11 +2246,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODk0Nzg1Myw0MzUxMDk0NDcsMTY0NT
-c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
-MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
-ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
-MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5Mz
-IzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwt
-MTQxNjU0MzU2XX0=
+eyJoaXN0b3J5IjpbLTE3MjU0ODUxODksNDM1MTA5NDQ3LDE2ND
+U3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5
+NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5Mj
+M5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3
+ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OT
+MyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQs
+LTE0MTY1NDM1Nl19
 -->
