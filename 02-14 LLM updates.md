@@ -62,6 +62,7 @@
 	- https://note.com/npaka/n/n4f2d6e6c11f7?sub_rt=share_b
 - 日本語大規模言語モデル「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」
 	- https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b
+	- 約30億と70億のパラメータを持つこれらのモデルは、日本語タスクの性能評価でトップクラス
 	- 3Bと7Bのサイズでそれぞれ圧倒的性能を誇る英語LLM「Stable LM 3B-4E1T」「Mistral-7B-v0.1」に継続事前学習を適用することでサクッとめちゃツヨ日本語LLM
 -  Japanese research is no longer world class — here’s why
 	- https://www.nature.com/articles/d41586-023-03290-1?error=cookies_not_supported&code=dd59d16e-8d54-49a4-95a3-8fcded36917f&utm_medium=Social&utm_campaign=nature&utm_source=Twitter#Echobox=1698226936
@@ -84,7 +85,9 @@
 - フィールズ賞受賞者のテレンス・タオさんが、証明支援系Leanを使うことで自分の論文の中のバグ（ミス）に気づいたという話
 	- https://mathstodon.xyz/@tao/111287749336059662
 	- 定理証明系が実数学者のためになっているのか。。。
-- 
+-  KITAB: Evaluating LLMs on Constraint Satisfaction for Information Retrieval
+	- https://huggingface.co/papers/2310.15511
+	- 
 
 ## 10/23
 
@@ -2211,11 +2214,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzEyMTM1MCw0MzUxMDk0NDcsMTY0NT
-c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
-MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
-ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
-MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5Mz
-IzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwt
-MTQxNjU0MzU2XX0=
+eyJoaXN0b3J5IjpbLTE2MzI1NTg0NzcsNDM1MTA5NDQ3LDE2ND
+U3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5
+NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5Mj
+M5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3
+ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OT
+MyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQs
+LTE0MTY1NDM1Nl19
 -->
