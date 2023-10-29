@@ -6,9 +6,11 @@
 
 - 7bのフルファインチューニングがcolabで動く？VRAM 32G程度で行けると
 	- https://x.com/Sakkusakumura/status/1716158933319246289?s=20
-- 特定の人物、例えばベートーヴェンやクレオパトラなどの行動や感情を模倣させるよう訓練する新しいフレームワーク『Character-LLM（キャラクターLLM）』
+- Character-LLM: A Trainable Agent for Role-Playing
 	- https://aiboom.net/archives/57223
-	- 
+	- 特定の人物、例えばベートーヴェンやクレオパトラなどの行動や感情を模倣させるよう訓練する新しいフレームワーク『Character-LLM（キャラクターLLM）』
+	- 訓練されたLLMは、特定の人物としての行動や感情を効果的に模倣できることが確認されました。
+
 
 ## 10/23
 
@@ -2135,7 +2137,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDc3NTQxMjIsNDM1MTA5NDQ3LDE2ND
+eyJoaXN0b3J5IjpbLTE5NzE3NDE1NjIsNDM1MTA5NDQ3LDE2ND
 U3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5
 NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5Mj
 M5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3
