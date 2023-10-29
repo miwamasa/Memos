@@ -70,7 +70,14 @@
 -  Branch-Solve-Merge Improves Large Language Model Evaluation and Generation
 	- https://arxiv.org/abs/2310.15123
 	- Promptを超えた？LLM自信を使うような、LLM programと呼ばれるような手法
-- 
+-  LLM-Prop: Predicting Physical And Electronic Properties Of Crystalline Solids From Their Text Descriptions
+	- https://arxiv.org/abs/2310.14029v1
+	- 結晶構造をテキスト化して言語モデルで学習、そのエンコーダを使って物性予測を行うと従来のSOTAであるGNNモデルより高精度な予測
+-  LangChain の Step-back Prompting を試す by npakaさん
+	- https://note.com/npaka/n/n55f276ad2988?sub_rt=share_sb
+	- **(1) ユーザーの元の質問に基づいて、ステップバック質問を生成  
+	- (2) 元の質問とステップバック質問の両方を情報収集  
+	- (3) 取得した両方の情報に基づいて回答を生成**
 
 ## 10/23
 
@@ -2197,7 +2204,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDE2MDQ2OCw0MzUxMDk0NDcsMTY0NT
+eyJoaXN0b3J5IjpbLTM0Njg0NzgwNiw0MzUxMDk0NDcsMTY0NT
 c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
 MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
 ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
