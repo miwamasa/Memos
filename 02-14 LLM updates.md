@@ -139,7 +139,12 @@
 	- https://x.com/npaka123/status/1718403656725483961?s=20
 - Demystifying Advanced RAG Pipelines
 	- https://github.com/pchunduri6/rag-demystified
-- 
+-  Chatting With Your Data Ultimate Guide
+	- https://medium.com/aimonks/chatting-with-your-data-ultimate-guide-a4e909591436
+-  MT-Bench による日本語LLMの評価 by npakaさん
+	- https://note.com/npaka/n/n0530f6f9123f?sub_rt=share_sb
+	- 「Stability AI」が提供する**「Japanese MT-Bench」の質問ファイル**と**参照回答ファイル**を使う
+	- 
 
 ## 10/23
 
@@ -2266,11 +2271,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDk2OTM2NSwtMjQyOTMwNTksNDM1MT
-A5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5
-NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC
-0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYw
-MzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NT
-csMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwy
-MTQwMzcyMzRdfQ==
+eyJoaXN0b3J5IjpbLTE3MzU3OTg4NzgsLTI0MjkzMDU5LDQzNT
+EwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkw
+OTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1Ni
+wtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2
+MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OT
+U3LDExMzcxNjkzMjMsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAs
+MjE0MDM3MjM0XX0=
 -->
