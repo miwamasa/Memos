@@ -53,6 +53,9 @@
 	- 流石日本語特化のモデルだけあって日本語は自然な形で生成できました。日本に関する基本的な知識も備えているのは嬉しい
 -  LLM の ベンチマーク まとめ by npakaさん
 	- https://note.com/npaka/n/ndec10f78fe2f
+	- 人間を評価者としたベンチマーク、 GPT-4を評価者としたベンチマーク、QAデータセットによるベンチマーク、コード生成のベンチマーク、埋め込みのベンチマーク、 ロールプレイのベンチマーク
+	- 現状で自動評価可能な最良のアプローチはGPT-4を評価者とする方法。ただしコストなど課題がある
+- 
 
 
 ## 10/23
@@ -2180,11 +2183,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4ODY4MDEsNDM1MTA5NDQ3LDE2NDU3Nj
-M4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4
-NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LD
-E1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIy
-NDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMy
-wtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0
-MTY1NDM1Nl19
+eyJoaXN0b3J5IjpbLTEwMzg5MzcyOTUsNDM1MTA5NDQ3LDE2ND
+U3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5
+NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5Mj
+M5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3
+ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OT
+MyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQs
+LTE0MTY1NDM1Nl19
 -->
