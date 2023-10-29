@@ -29,8 +29,9 @@
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/huggingface.ipynb
 - Finetuning LLaMa + Text-to-SQL
 	- https://github.com/run-llama/modal_finetune_sql
-	- text-to-SQLで最も性能が良いのは、GPT-4/3.5でも、llamaでもファインチューニングすればどうにかなる。。
-	- このふぁい
+	- how to fine-tune Llama2 for better text-to-SQL + easily plug into your LLM app, ordered from easy to hard:
+	- text-to-SQLで最も性能が良いのは、GPT-4/3.5でも、llamaでもファインチューニングすればどうにかなる。このファインチューニングの手法の様々を紹介、
+- 
 - 
 
 
@@ -2159,7 +2160,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDU4MjE0Niw0MzUxMDk0NDcsMTY0NT
+eyJoaXN0b3J5IjpbMTU4ODU1NjQ0Niw0MzUxMDk0NDcsMTY0NT
 c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
 MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
 ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
