@@ -135,6 +135,10 @@
 - Advanced Prompt Engineering for RAG by llamaindex
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/prompts/prompts_rag.ipynb
 	- 基本的なRAGから、few-shot追加したり、context変換したりという話題
+- Stability AI の Japanese MT-Bench を試した
+	- https://x.com/npaka123/status/1718403656725483961?s=20
+- Demystifying Advanced RAG Pipelines
+	- https://github.com/pchunduri6/rag-demystified
 - 
 
 ## 10/23
@@ -2262,7 +2266,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODQ5ODE4NiwtMjQyOTMwNTksNDM1MT
+eyJoaXN0b3J5IjpbMTQyMDk2OTM2NSwtMjQyOTMwNTksNDM1MT
 A5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5
 NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC
 0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYw
