@@ -35,7 +35,11 @@
 	- https://book.premai.io/state-of-open-source-ai/
 	- 当然本自身もOpenSoruce
 	- https://github.com/premAI-io/state-of-open-source-ai
-- 
+-  ComfyUI-LCMによるVid2Vidの高速変換を試す(Latent Consistency Models)
+	- https://note.com/bakushu/n/nec4cee4f4f37
+	- Latent Consistency Models（LCM）は、最小限のステップ数で迅速に推論できる新たな画像生成モデル
+	- Google Colabの標準GPU（VRAM 16GB）で試したところ、512x512サイズの120フレームの動画変換で1分弱。1024x1024サイズの120フレームの動画変換だと12-13分ほどでした。
+-  AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation
 
 
 ## 10/23
@@ -2163,7 +2167,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4OTE2NzE2NCw0MzUxMDk0NDcsMTY0NT
+eyJoaXN0b3J5IjpbLTk0MDkyMTM4Niw0MzUxMDk0NDcsMTY0NT
 c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
 MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
 ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
