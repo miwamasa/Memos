@@ -75,9 +75,12 @@
 	- 結晶構造をテキスト化して言語モデルで学習、そのエンコーダを使って物性予測を行うと従来のSOTAであるGNNモデルより高精度な予測
 -  LangChain の Step-back Prompting を試す by npakaさん
 	- https://note.com/npaka/n/n55f276ad2988?sub_rt=share_sb
-	- **(1) ユーザーの元の質問に基づいて、ステップバック質問を生成  
+	- (1) ユーザーの元の質問に基づいて、ステップバック質問を生成  
 	- (2) 元の質問とステップバック質問の両方を情報収集  
-	- (3) 取得した両方の情報に基づいて回答を生成**
+	- (3) 取得した両方の情報に基づいて回答を生成
+- mmnga/japanese-stablelm-instruct-gamma-7b-gguf
+	- stabilityAIさんが公開されているjapanese-stablelm-instruct-gamma-7bのgguf
+	- Mistral-7bの日本語版で、AIのべりすとさんから提供された高品質なデータが入っている
 
 ## 10/23
 
@@ -2204,11 +2207,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Njg0NzgwNiw0MzUxMDk0NDcsMTY0NT
-c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
-MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
-ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
-MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5Mz
-IzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwt
-MTQxNjU0MzU2XX0=
+eyJoaXN0b3J5IjpbOTk3MzI3ODUsNDM1MTA5NDQ3LDE2NDU3Nj
+M4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4
+NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LD
+E1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIy
+NDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMy
+wtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0
+MTY1NDM1Nl19
 -->
