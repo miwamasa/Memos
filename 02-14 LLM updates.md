@@ -58,7 +58,11 @@
 - MiniGPT-V
 	- https://note.com/ai_meg/n/n748acc8e824b
 	- MiniGPT-4のAPIを実装する。　プログラムでマルチモーダルを自由に操作する。
-
+-  Google Colab で Japanese Stable LM Gamma 7B を試す by npakaさん
+	- https://note.com/npaka/n/n4f2d6e6c11f7?sub_rt=share_b
+- 日本語大規模言語モデル「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」
+	- https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b
+	- 3Bと7Bのサイズでそれぞれ圧倒的性能を誇る英語LLM「Stable LM 3B-4E1T」「Mistral-7B-v0.1」に継続事前学習を適用することでサクッとめちゃツヨ日本語LLM
 
 ## 10/23
 
@@ -2185,7 +2189,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzIyNTgzNSw0MzUxMDk0NDcsMTY0NT
+eyJoaXN0b3J5IjpbLTQ3NjUyNTc5NCw0MzUxMDk0NDcsMTY0NT
 c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
 MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
 ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
