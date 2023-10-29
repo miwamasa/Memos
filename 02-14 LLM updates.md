@@ -110,7 +110,11 @@
 	- https://github.com/SkunkworksAI/BakLLaVA
 	- OSSのLLMでがん画像検診ができる？
 - Zephyr-7b-betaって無敵かも
-	- 
+	- https://colab.research.google.com/drive/1UoPcoiA5EOBghxWKWduQhChliMHxla7U?usp=sharing
+	- found it’s the only 7B LLM that can handle ReAct agent tasks over data
+	- つまり、dataに対して、ReActするAgentを実装できる唯一の7B LLMということらしい
+	- Jelly Lいuさんも激賞
+	- https://x.com/jerryjliu0/status/1718054817640390840?s=20
 
 ## 10/23
 
@@ -2237,11 +2241,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjI5MTEsNDM1MTA5NDQ3LDE2NDU3Nj
-M4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4
-NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LD
-E1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIy
-NDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMy
-wtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0
-MTY1NDM1Nl19
+eyJoaXN0b3J5IjpbLTM4ODk0Nzg1Myw0MzUxMDk0NDcsMTY0NT
+c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
+MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
+ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
+MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5Mz
+IzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwt
+MTQxNjU0MzU2XX0=
 -->
