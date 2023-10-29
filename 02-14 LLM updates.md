@@ -73,7 +73,8 @@
 -  Branch-Solve-Merge Improves Large Language Model Evaluation and Generation
 	- https://arxiv.org/abs/2310.15123
 	- Promptを超えた？LLM自信を使うような、LLM programと呼ばれるような手法
-- 
+- Large Language Model Programs
+	- https://arxiv.org/pdf/2305.05364.pdf
 -  LLM-Prop: Predicting Physical And Electronic Properties Of Crystalline Solids From Their Text Descriptions
 	- https://arxiv.org/abs/2310.14029v1
 	- 結晶構造をテキスト化して言語モデルで学習、そのエンコーダを使って物性予測を行うと従来のSOTAであるGNNモデルより高精度な予測
@@ -2256,7 +2257,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTgxNTkyOCwtMjQyOTMwNTksNDM1MT
+eyJoaXN0b3J5IjpbMTAyODI2ODMyMywtMjQyOTMwNTksNDM1MT
 A5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5
 NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC
 0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYw
