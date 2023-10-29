@@ -105,8 +105,11 @@
 - Getting started  with Llama by Meta
 	- Meta謹製のLlmaガイド
 	- https://ai.meta.com/llama/get-started/
+	- Yann LeCun先生のおすすめでもある。
 - bakLLaVA vision AI can read xrays with only 6Gb of RAM
 	- https://github.com/SkunkworksAI/BakLLaVA
+	- OSSのLLMでがん画像検診ができる？
+- Zephyr-7b-betaって無敵かも
 	- 
 
 ## 10/23
@@ -2234,11 +2237,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2MDM3NjkyLDQzNTEwOTQ0NywxNjQ1Nz
-YzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQw
-ODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOS
-wxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NCw5Nzgy
-MjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcxNjkzMj
-MsLTE2MzcxNTQwNjQsLTE0MTk1NzM5ODAsMjE0MDM3MjM0LC0x
-NDE2NTQzNTZdfQ==
+eyJoaXN0b3J5IjpbLTc3MjI5MTEsNDM1MTA5NDQ3LDE2NDU3Nj
+M4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4
+NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LD
+E1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIy
+NDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMy
+wtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQsLTE0
+MTY1NDM1Nl19
 -->
