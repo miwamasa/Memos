@@ -27,6 +27,10 @@
 - llamaindexで、HuggingFaceのLLMを活用するライブラリが拡張された(会話、テキスト生成、など）
 	- you can now plug any `conversational`, `text_generation`, `feature_extraction` endpoints 
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/huggingface.ipynb
+- Finetuning LLaMa + Text-to-SQL
+	- https://github.com/run-llama/modal_finetune_sql
+	- text-to-SQLで最も性能が良いのは、GPT-4/3.5でも、llamaでもファインチューニングすればどうにかなる。。
+	- このふぁい
 - 
 
 
@@ -2155,11 +2159,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkxNjEwNzgsNDM1MTA5NDQ3LDE2ND
-U3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5
-NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5Mj
-M5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3
-ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OT
-MyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwyMTQwMzcyMzQs
-LTE0MTY1NDM1Nl19
+eyJoaXN0b3J5IjpbLTMwMDU4MjE0Niw0MzUxMDk0NDcsMTY0NT
+c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
+MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
+ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
+MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3MTY5Mz
+IzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIxNDAzNzIzNCwt
+MTQxNjU0MzU2XX0=
 -->
