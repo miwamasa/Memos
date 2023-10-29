@@ -4,7 +4,7 @@
 
 ## 10/30
 
-新しいLLMがどんどん発表される。「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」、7BのLLMの覇者は、Mistral 7Bという話題もあったが、ReActをこなせる7bは、Zephyr-7b-betaということらしい、楽しみ。OSSのLLMで構造的な出力(Pydantic)を出すにはファインチューニングらしい。text-to-SQLもファインチューニングが有効とのこと。心の理論(TOM)も、心理学のVoE理論の応用とかがあった。LLM の ベンチマーク、いろいろ紹介されるが、レーダーチャートで可視化されるMT-Benchが良いかも。既存の概念を組み合わせるsystematic compositionalityの能力をニューラルネットが持つことができるってのは、これはメタファー理論による認知の仕組みの解明が一歩現実に近づいたのか。Prompt による支持を超えるという、LLM programがよくわからなった。MicrosoftのAgent Frameworkって前からあったような気もするが、なぜ注目？Hinton先生とLecum先生の議論がLLMの次を見据えた議論で面白い。限界は、ひょんなことから超えられてゆくという歴史もあるよな。
+新しいLLMがどんどん発表される。「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」、7BのLLMの覇者は、Mistral 7Bという話題もあったが、ReActをこなせる7bは、Zephyr-7b-betaということらしい、楽しみ。OSSのLLMで構造的な出力(Pydantic)を出すにはファインチューニングらしい。text-to-SQLもファインチューニングが有効とのこと。心の理論(TOM)も、心理学のVoE理論の応用とかがあった。LLM の ベンチマーク、いろいろ紹介されるが、レーダーチャートで可視化されるMT-Benchが良いかも。既存の概念を組み合わせるsystematic compositionalityの能力をニューラルネットが持つことができるってのは、これはメタファー理論による認知の仕組みの解明が一歩現実に近づいたのか。Prompt による支持を超えるという、LLM programはは、分割統治というか、アンサンブルというかそういう感じ。MicrosoftのAgent Frameworkって前からあったような気もするが、なぜ注目？Hinton先生とLecum先生の議論がLLMの次を見据えた議論で面白い。限界は、ひょんなことから超えられてゆくという歴史もあるよな。
 
 - 7bのフルファインチューニングがcolabで動く？VRAM 32G程度で行けると
 	- https://x.com/Sakkusakumura/status/1716158933319246289?s=20
@@ -72,10 +72,10 @@
 	- **資金不足と時間不足**、**若手研究者の不満と減少**　が指摘されている。
 -  Branch-Solve-Merge Improves Large Language Model Evaluation and Generation
 	- https://arxiv.org/abs/2310.15123
-	- Promptを超えた？LLM自信を使うような、LLM programと呼ばれるような手法
+	- Promptを超えた？LLM自身をアルゴリズムの一部に埋め込んで使うような、LLM programと呼ばれるような手法
 - Large Language Model Programs
 	- https://arxiv.org/pdf/2305.05364.pdf
-	- LLMをアルゴリズムに埋め込むことをLLM Programとと呼ぶらしい、
+	- LLMをアルゴリズムに埋め込むことをLLM Programとと呼ぶらしい、分割統治なんかそうなんだけど、メタなLLMみたいな感じ
 -  LLM-Prop: Predicting Physical And Electronic Properties Of Crystalline Solids From Their Text Descriptions
 	- https://arxiv.org/abs/2310.14029v1
 	- 結晶構造をテキスト化して言語モデルで学習、そのエンコーダを使って物性予測を行うと従来のSOTAであるGNNモデルより高精度な予測
@@ -2258,11 +2258,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2OTgwMDY0LC0yNDI5MzA1OSw0MzUxMD
-k0NDcsMTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1
-MCwxOTc0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLT
-EyMzA3MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAz
-MzMxODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1Ny
-wxMTM3MTY5MzIzLC0xNjM3MTU0MDY0LC0xNDE5NTczOTgwLDIx
-NDAzNzIzNF19
+eyJoaXN0b3J5IjpbLTc4OTAwODU0OSwtMjQyOTMwNTksNDM1MT
+A5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5
+NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC
+0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYw
+MzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NT
+csMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwy
+MTQwMzcyMzRdfQ==
 -->
