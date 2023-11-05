@@ -142,7 +142,11 @@
 	- https://x.com/abenben/status/1720750416361877680?s=20
 - 【Calm2-7b】サイバーエージェントの最新LLMが優秀すぎたので、ChatGPTと比較レビューしてみた
 	- https://weel.co.jp/media/cyberagentlm2-7b
-- 
+-  Othello is Solved
+	- https://arxiv.org/abs/2310.19387
+	- PFNから、弱問題として解けたという話、双方最善手の結果は引き分け
+-  LlamaIndex v0.8 クイックスタートガイド - Python版
+	- 
 
 ## 10/30
 
@@ -2413,11 +2417,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyND
-cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
-MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
-c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
-MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxOD
-QsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3
-MTY5MzIzXX0=
+eyJoaXN0b3J5IjpbMzk0MjY0OTU3LDE2MzU4NTg2NzksMjIzNz
+I0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTks
+NDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMj
+AwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0
+MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC
+0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUy
+MzU5NTddfQ==
 -->
