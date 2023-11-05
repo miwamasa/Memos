@@ -45,7 +45,16 @@
 -  Evaluating Large Language Models: A Comprehensive Survey
 	- https://arxiv.org/abs/2310.19736
 	- A comprehensive survey (100+ pages) on evaluating LLMs. 
-	- We will start to see a lot more focus on LLM evaluation as we continue to apply LLMs in production and real-world use cases
+	- ■「知識と能力」の評価 
+		- ① タスク中心の評価から能力中心の評価へと移行している 
+		- ② 評価ベンチマークはますます拡張されている
+		- ③ ダウンストリームタスク間の区別があいまい 
+		- ④ モデルの能力を総合的に評価する新しいアプローチが必要 
+	- ■アライメント（ガイドライン）の評価 
+		- ① 人間の価値観との一致を評価する研究が増えている 
+		- ② 倫理的な面も含めたモデルの進歩と応用が目指されている 
+	- ■安全性の評価 
+		- ① LLMの発展によるリスクに厳格な評価が必要 ② 例えばバイアスの増幅、誤情報の拡散、プライバシーの侵害など ③ リスク評価と、対処アプローチが求められている ■特化型LLMの評価 ① 特定ドメインやタスクに特化したLLMも存在 ② 特化型モデルの評価には専門的アプローチが必要 ③ 高度な知識や専門的な推論能力を持つモデルが期待されている
 - LanChainから、様々なタスクにアプリテンプレが公開
 	- https://blog.langchain.dev/langserve-hub/
 	- LangChain Templates offers a collection of easily deployable reference architectures that anyone can use.
@@ -2349,11 +2358,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4MzgwOTI4LDIyMzcyNDkwOSwxMjI0Nz
-AwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0Nywx
-NjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5Nz
-Q4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDcz
-OTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NC
-w5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcx
-NjkzMjNdfQ==
+eyJoaXN0b3J5IjpbLTExMzEwNDgzMzgsMjIzNzI0OTA5LDEyMj
+Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
+LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
+k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
+NzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMT
+g0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEz
+NzE2OTMyM119
 -->
