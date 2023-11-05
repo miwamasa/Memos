@@ -44,7 +44,11 @@
 	- 2024年内に3,500億パラメーターの国産LLMの構築を目指します
 -  Evaluating Large Language Models: A Comprehensive Survey
 	- https://arxiv.org/abs/2310.19736
-	- 
+	- A comprehensive survey (100+ pages) on evaluating LLMs. 
+	- We will start to see a lot more focus on LLM evaluation as we continue to apply LLMs in production and real-world use cases
+- LanChainから、様々なタスクにアプリ
+	- https://www.producthunt.com/posts/langchain-templates
+	- https://github.com/langchain-ai/langchain/tree/master/templates
 
 ## 10/30
 
@@ -2315,11 +2319,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDc5NDM3LDIyMzcyNDkwOSwxMjI0Nz
-AwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0Nywx
-NjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5Nz
-Q4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDcz
-OTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NC
-w5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcx
-NjkzMjNdfQ==
+eyJoaXN0b3J5IjpbLTYxODA1NjAyMywyMjM3MjQ5MDksMTIyND
+cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
+MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
+c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
+MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxOD
+QsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3
+MTY5MzIzXX0=
 -->
