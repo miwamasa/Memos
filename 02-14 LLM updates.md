@@ -58,7 +58,8 @@
 	- 会話ログ、requestボディ-簡略化のためのデフォルト設定。llm()への生成時パラメータ追加など。
 - Youri 7BをFastChatでChatGPT互換APIサーバとして動かして遊ぶ
 	- https://qiita.com/takaaki_inada/items/fcb63da369b5bfd8a3cf?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share
-	- 
+	- youri-7b-chatをfastchatでChatGPT互換APIでホストしてChatVRMでサクッと遊ぼう。prompt engineeringが効くのでsystem prompt設定画面で語尾やキャラクター設定できます
+- 
 
 ## 10/30
 
@@ -2329,11 +2330,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODIyODIxNzQsMjIzNzI0OTA5LDEyMj
-Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
-LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
-k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
-NzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMT
-g0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEz
-NzE2OTMyM119
+eyJoaXN0b3J5IjpbODU5MDM5MzA1LDIyMzcyNDkwOSwxMjI0Nz
+AwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0Nywx
+NjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5Nz
+Q4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDcz
+OTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NC
+w5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcx
+NjkzMjNdfQ==
 -->
