@@ -16,7 +16,9 @@
 	- https://x.com/gijigae/status/1718851299524096284?s=20
 - ChatGPT のアプリ版に Retrieval Augmented Generation (RAG)機能が追加？
 	- https://x.com/yi_ding/status/1719028284548382901?s=20
-- すたんふぉー
+- シリコンバレー銀行の破綻を、シンプルに解析するnotebookが公開。スタンフォード大学Professor Ashwin Raoによる
+	- https://colab.research.google.com/drive/15uxrAeCCL327kWH9N0X-ogKwf2zErjP5
+- 
 
 ## 10/30
 
@@ -2287,7 +2289,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTEyMzAxMjQsMjIzNzI0OTA5LDEyMj
+eyJoaXN0b3J5IjpbLTExNjkwMDg4NTIsMjIzNzI0OTA5LDEyMj
 Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
 LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
 k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
