@@ -138,7 +138,8 @@
 	- https://huggingface.co/mmnga/cyberagent-calm2-7b-chat-GPTQ-calib-ja-1k
 -  CALM2で長い文章をまるごと取り扱う
 	- https://note.com/alfredplpl/n/n5ed2ea2b78ec?sub_rt=share_sb
-	- 
+- 『責任あるAI: 「AI倫理」戦略ハンドブック』
+		- 
 
 ## 10/30
 
@@ -2409,7 +2410,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDM5MTUxNiwyMjM3MjQ5MDksMTIyND
+eyJoaXN0b3J5IjpbMTE5MDk4OTc2MiwyMjM3MjQ5MDksMTIyND
 cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
 MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
 c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
