@@ -1,6 +1,9 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+## 11/6
+
+- 
 
 ## 10/30
 
@@ -2271,11 +2274,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MT
-A5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5
-NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC
-0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYw
-MzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NT
-csMTEzNzE2OTMyMywtMTYzNzE1NDA2NCwtMTQxOTU3Mzk4MCwy
-MTQwMzcyMzRdfQ==
+eyJoaXN0b3J5IjpbMTIyNDcwMDAxOSwxOTUwMTE1ODQ3LC0yND
+I5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0NSwtMjA4NzQ2NDEz
+MCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC0xMDQzMjE1NzIzLC
+00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NSw5NTI1
+MjgwNjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3NTUyOT
+E5LDE5NTIzNTk1NywxMTM3MTY5MzIzLC0xNjM3MTU0MDY0LC0x
+NDE5NTczOTgwXX0=
 -->
