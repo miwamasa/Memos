@@ -148,7 +148,11 @@
 -  LlamaIndex v0.8 クイックスタートガイド - Python版
 	- https://note.com/npaka/n/nd449d5190431?sub_rt=share_b
 	- 「LlamaIndex」は、プライベートやドメイン固有の知識を必要とする専門知識を必要とする質問応答チャットボットを簡単に作成できるライブラリです。
-- 
+- シンガポールの首相は、C++で数独ソルバーを公開している	
+	- https://t.co/rWig2ugILa
+- CALM2-7Bをベンチマークする(11/5追記)
+	- https://note.com/shi3zblog/n/n8b9ff5ea62bf?sub_rt=share_sb
+	- 
 
 ## 10/30
 
@@ -2419,7 +2423,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODg1NDY3MywxNjM1ODU4Njc5LDIyMz
+eyJoaXN0b3J5IjpbMTgyODc5NzUzNiwxNjM1ODU4Njc5LDIyMz
 cyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5
 LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMj
 IwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQy
