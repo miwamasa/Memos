@@ -70,6 +70,11 @@
 	-  Discovering Process Dynamics for Scalable Perovskite Solar Cell Manufacturing with Explainable AI
 	- https://onlinelibrary.wiley.com/doi/10.1002/adma.202307160
 	- 成膜過程の動画やスペクトルデータからNNにより変換効率を予測、それに基づき解釈する手法を適用することで、プロセスと特性の新しい洞察につながったそうです。
+- Efficient LLM inference on CPUs! 
+	- https://huggingface.co/papers/2311.00502
+	- NeurIPS'23の論文
+	- Compatible with GGML yet better performance up to 1.5x over llama.cpp!
+	- https://github.com/intel/intel-extension-for-transformers
 - 
 
 ## 10/30
@@ -2341,11 +2346,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY4MzUyNDYsMjIzNzI0OTA5LDEyMj
-Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
-LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
-k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
-NzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMT
-g0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEz
-NzE2OTMyM119
+eyJoaXN0b3J5IjpbNTA5OTI4NTU2LDIyMzcyNDkwOSwxMjI0Nz
+AwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0Nywx
+NjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5Nz
+Q4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDcz
+OTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NC
+w5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcx
+NjkzMjNdfQ==
 -->
