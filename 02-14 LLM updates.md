@@ -56,7 +56,9 @@
 - gguf版、japanese-stablelm-instruct-gamma-7b　実用 API サーバ・クライアント例
 	- https://note.com/ai_meg/n/n0c449a877c6f?sub_rt=share_pb
 	- 会話ログ、requestボディ-簡略化のためのデフォルト設定。llm()への生成時パラメータ追加など。
-- 
+- Youri 7BをFastChatでChatGPT互換APIサーバとして動かして遊ぶ
+	- https://qiita.com/takaaki_inada/items/fcb63da369b5bfd8a3cf?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share
+	- 
 
 ## 10/30
 
@@ -2327,7 +2329,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg1NTc1MjEsMjIzNzI0OTA5LDEyMj
+eyJoaXN0b3J5IjpbLTExODIyODIxNzQsMjIzNzI0OTA5LDEyMj
 Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
 LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
 k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
