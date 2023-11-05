@@ -8,7 +8,11 @@
 	- Microsoftの研究チームによる論文。
 	-  FP8自動混合精度フレームワークで、性能低下を抑えつつ ・BF16よりも64%速く ・メモリ使用量を42%削減し GPT-175Bをトレーニングできた
 - ControlLLM: Augment Language Models with Tools by Searching on Graphs
-	- 
+	- https://huggingface.co/papers/2310.17796
+	- (1) a task decomposer that breaks down a complex task into clear subtasks with well-defined inputs and outputs; 
+	- (2) a Thoughts-on-Graph (ToG) paradigm that searches the optimal solution path on a pre-built tool graph, which specifies the parameter and dependency relations among different tools; and
+	-  (3) an execution engine with a rich toolbox that interprets the solution path and runs the tools efficiently on different computational devices.
+- 
 
 ## 10/30
 
@@ -2279,7 +2283,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjMwMzUxOSwyMjM3MjQ5MDksMTIyND
+eyJoaXN0b3J5IjpbMjA4NTg1NzIwNiwyMjM3MjQ5MDksMTIyND
 cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
 MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
 c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
