@@ -146,7 +146,9 @@
 	- https://arxiv.org/abs/2310.19387
 	- PFNから、弱問題として解けたという話、双方最善手の結果は引き分け
 -  LlamaIndex v0.8 クイックスタートガイド - Python版
-	- 
+	- https://note.com/npaka/n/nd449d5190431?sub_rt=share_b
+	- 「LlamaIndex」は、プライベートやドメイン固有の知識を必要とする専門知識を必要とする質問応答チャットボットを簡単に作成できるライブラリです。
+- 
 
 ## 10/30
 
@@ -2417,11 +2419,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0MjY0OTU3LDE2MzU4NTg2NzksMjIzNz
-I0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTks
-NDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMj
-AwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0
-MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC
-0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUy
-MzU5NTddfQ==
+eyJoaXN0b3J5IjpbLTgzODg1NDY3MywxNjM1ODU4Njc5LDIyMz
+cyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5
+LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMj
+IwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQy
+NDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MS
+wtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1
+MjM1OTU3XX0=
 -->
