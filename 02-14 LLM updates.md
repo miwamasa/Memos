@@ -139,7 +139,10 @@
 -  CALM2で長い文章をまるごと取り扱う
 	- https://note.com/alfredplpl/n/n5ed2ea2b78ec?sub_rt=share_sb
 - 『責任あるAI: 「AI倫理」戦略ハンドブック』
-		- 
+	- https://x.com/abenben/status/1720750416361877680?s=20
+- 【Calm2-7b】サイバーエージェントの最新LLMが優秀すぎたので、ChatGPTと比較レビューしてみた
+	- https://weel.co.jp/media/cyberagentlm2-7b
+- 
 
 ## 10/30
 
@@ -2410,7 +2413,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDk4OTc2MiwyMjM3MjQ5MDksMTIyND
+eyJoaXN0b3J5IjpbMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyND
 cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
 MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
 c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
