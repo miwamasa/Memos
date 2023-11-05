@@ -64,6 +64,12 @@
 	- 語彙拡張済み指示モデル「stabilityai/japanese-stablelm-instruct-ja_vocab-beta-7b 」を使います
 - Generative AI for everyone	by Andrew Ng先生
 	- https://www.deeplearning.ai/courses/generative-ai-for-everyone/
+- Google Colabに、API keyを登録できる新機能が公開
+	- https://x.com/GoogleColab/status/1719798406195867814?s=20
+- 説明可能AIによるペロブスカイト太陽電池開発
+	-  Discovering Process Dynamics for Scalable Perovskite Solar Cell Manufacturing with Explainable AI
+	- https://onlinelibrary.wiley.com/doi/10.1002/adma.202307160
+	- 成膜過程の動画やスペクトルデータからNNにより変換効率を予測、それに基づき解釈する手法を適用することで、プロセスと特性の新しい洞察につながったそうです。
 - 
 
 ## 10/30
@@ -2335,7 +2341,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDc5ODEzMzksMjIzNzI0OTA5LDEyMj
+eyJoaXN0b3J5IjpbLTEyOTY4MzUyNDYsMjIzNzI0OTA5LDEyMj
 Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
 LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
 k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
