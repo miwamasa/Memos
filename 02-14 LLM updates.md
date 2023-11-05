@@ -4,6 +4,10 @@
 ## 11/6
 
 - FP8-LM: Training FP8 Large Language Model
+	- https://arxiv.org/abs/2310.18313
+	- Microsoftの研究チームによる論文。
+	-  FP8自動混合精度フレームワークで、性能低下を抑えつつ ・BF16よりも64%速く ・メモリ使用量を42%削減し GPT-175Bをトレーニングできた
+- 
 
 ## 10/30
 
@@ -2274,7 +2278,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwNjI0MDgzLDEyMjQ3MDAwMTksMTk1MD
+eyJoaXN0b3J5IjpbMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MD
 ExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUs
 LTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMT
 A0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgx
