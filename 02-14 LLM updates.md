@@ -128,6 +128,12 @@
 - Text generation web UIをつかって、cyberagent_calm2-7b-chat
 	- https://x.com/StelsRay/status/1720137767857029444?s=20
 	- モデルのLoad時にuse_fastがONじゃないと動かない点が罠だった！
+-  LangChain クイックスタートガイド - Python版　 by npakaさん
+	- https://note.com/npaka/n/n0fd7bd3ed27b?sub_rt=share_sb
+	- 11/4版なので、整理されているし、「**LCEL**」(LangChain Expression Language)なんかよく分かった
+- Idempotent Generative Network
+	- https://assafshocher.github.io/IGN/
+	- 拡散モデルではない新しい生成モデルがGoogleとUC Berkeleyから出たようだ。ノイズ除去というよりか分布を1stepで変換できるモデルことを仮定するらしい
 - 
 
 ## 10/30
@@ -2399,11 +2405,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA0ODU1NTQsMjIzNzI0OTA5LDEyMj
-Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
-LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
-k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
-NzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMT
-g0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEz
-NzE2OTMyM119
+eyJoaXN0b3J5IjpbLTkxNjM2NjM4MSwyMjM3MjQ5MDksMTIyND
+cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
+MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
+c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
+MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxOD
+QsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3
+MTY5MzIzXX0=
 -->
