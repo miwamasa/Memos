@@ -162,6 +162,8 @@
 	- 330億パラメータGrok-0（LLaMA 2 (70B) の機能に近づき、トレーニングリソースの半分しか使用しない）を元にGrok-1を開発。
 	- Grok-1 は GPT3.5や Inflection-1を標準的なベンチマークで超える。
 - CALM2-7Bの性能を他の日本語LLMと比較してみた
+	- https://note.com/it_navi/n/n35e5fac2b3d3?sub_rt=share_pb
+	- CALM2-7B-Chatは、一度に**3万2000トークン（日本語で約5万字）**の長文の入出力に対応
 
 ## 10/30
 
@@ -2432,11 +2434,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njk5MDUxNDksMTYzNTg1ODY3OSwyMj
-M3MjQ5MDksMTIyNDcwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1
-OSw0MzUxMDk0NDcsMTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMT
-IyMDA5MDk1MCwxOTc0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0
-MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNj
-EsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5
-NTIzNTk1N119
+eyJoaXN0b3J5IjpbMTcyNTAwMDUxNywxNjM1ODU4Njc5LDIyMz
+cyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5
+LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMj
+IwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQy
+NDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MS
+wtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1
+MjM1OTU3XX0=
 -->
