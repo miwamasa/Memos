@@ -134,7 +134,11 @@
 - Idempotent Generative Network
 	- https://assafshocher.github.io/IGN/
 	- 拡散モデルではない新しい生成モデルがGoogleとUC Berkeleyから出たようだ。ノイズ除去というよりか分布を1stepで変換できるモデルことを仮定するらしい
-- 
+- CALM2のGPTQ版が正常動作するようになりました。VRAMが少ない方は是非お使いください。
+	- https://huggingface.co/mmnga/cyberagent-calm2-7b-chat-GPTQ-calib-ja-1k
+-  CALM2で長い文章をまるごと取り扱う
+	- https://note.com/alfredplpl/n/n5ed2ea2b78ec?sub_rt=share_sb
+	- 
 
 ## 10/30
 
@@ -2405,7 +2409,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNjM2NjM4MSwyMjM3MjQ5MDksMTIyND
+eyJoaXN0b3J5IjpbLTEyNDM5MTUxNiwyMjM3MjQ5MDksMTIyND
 cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
 MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
 c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
