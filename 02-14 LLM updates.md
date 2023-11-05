@@ -96,7 +96,10 @@
 - Japanese TinyLLaMa 1.1 B, llama.cpp で wasm でブラウザでも動く
 	- https://github.com/lighttransport/japanese-normalizer-cpp
 	- https://x.com/syoyo/status/1719646103891845438?s=20
-- 
+-  LLMを利用したFAQ検索の評価データセットの作成〜その２〜
+	- https://www.ai-shift.co.jp/techblog/3761
+	- 「1.  FAQの回答内容から質問内容を抽出」をベースに、生成時のpromptの工夫について取り組んだ
+- calm2で議事録をまとめてみました。AI時代の知的財産権検討会（第１回）
 
 ## 10/30
 
@@ -2367,11 +2370,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTUxNDAzOSwyMjM3MjQ5MDksMTIyND
-cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
-MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
-c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
-MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxOD
-QsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3
-MTY5MzIzXX0=
+eyJoaXN0b3J5IjpbLTE1MDMzOTA3MjYsMjIzNzI0OTA5LDEyMj
+Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
+LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
+k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
+NzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMT
+g0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEz
+NzE2OTMyM119
 -->
