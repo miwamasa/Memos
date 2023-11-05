@@ -113,8 +113,14 @@
 	- https://huggingface.co/spaces/hayas/CALM2-7B-chat
 - llamaとllama2の違い by NTT 西田さん
 	- https://speakerdeck.com/kyoun/llama-2-open-foundation-and-fine-tuned-chat-models
-- 日本語DeBERTaV2モデルを公開しました！形態素解析器の事前の単語分割なしで使えるbase, smallモデルになっています
+- 日本語DeBERTaV2モデルを公開しました！
+	- 形態素解析器の事前の単語分割なしで使えるbase, smallモデルになっています
 	- https://huggingface.co/izumi-lab/deberta-v2-base-japanese
+- なんと、japanese-stablelm-instruct-beta-70B-GGUF
+	- TheBloke/japanese-stablelm-instruct-beta-70B-GGUF
+	- ggufのくせに40Gもあるよ、まったく
+- Ope
+- 
 
 ## 10/30
 
@@ -2385,11 +2391,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3NzAzNTg4LDIyMzcyNDkwOSwxMjI0Nz
-AwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0Nywx
-NjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5Nz
-Q4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDcz
-OTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2MDMzMzE4NC
-w5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1MjM1OTU3LDExMzcx
-NjkzMjNdfQ==
+eyJoaXN0b3J5IjpbLTE2MzUwMDc1MjUsMjIzNzI0OTA5LDEyMj
+Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
+LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
+k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
+NzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMT
+g0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEz
+NzE2OTMyM119
 -->
