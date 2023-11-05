@@ -33,6 +33,12 @@
 -  Google Colab で Youri-7B を試す by npakaさん
 	- https://note.com/npaka/n/nccadcbcfe37e?sub_rt=share_sb
 	- 複数ターンの対話モデル (GPTQ版)である「rinna/youri-7b-chat-gptq」を使います
+- 多様な日本語事前学習済みモデルをSimCSEで文埋め込みモデルにfine-tuning
+	- https://arxiv.org/abs/2310.19349
+	- かなりいい感じの文埋め込みモデルができたと思うので、ぜひお使いください...！！
+	- https://github.com/hppRC/simple-simcse-ja
+- Youri 7B InstructionのGPTQモデルつかえば、GPUメモリ8GBでもローカルでLLM翻訳ができそうな気配
+	- https://x.com/kis/status/1719284609761108462?s=20
 - 
 
 ## 10/30
@@ -2304,7 +2310,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjI0OTU4OSwyMjM3MjQ5MDksMTIyND
+eyJoaXN0b3J5IjpbMTE2NTIyODI4MywyMjM3MjQ5MDksMTIyND
 cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
 MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
 c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
