@@ -119,8 +119,12 @@
 - なんと、japanese-stablelm-instruct-beta-70B-GGUF
 	- TheBloke/japanese-stablelm-instruct-beta-70B-GGUF
 	- ggufのくせに40Gもあるよ、まったく
-- Ope
-- 
+- OpenChat3.5
+	- https://huggingface.co/openchat/openchat_3.5
+	- gpt-3.5に迫る？？
+- マルチモーダルのKOSMOS-2を取り込んだtransformerの更新！ by huggingface
+	- KOSMOSのでもはこちら
+		- https://huggingface.co/spaces/ydshieh/Kosmos-2
 
 ## 10/30
 
@@ -2391,11 +2395,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzUwMDc1MjUsMjIzNzI0OTA5LDEyMj
-Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
-LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
-k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
-NzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMT
-g0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEz
-NzE2OTMyM119
+eyJoaXN0b3J5IjpbMTEyMTA0Mjk1MSwyMjM3MjQ5MDksMTIyND
+cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
+MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
+c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
+MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxOD
+QsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3
+MTY5MzIzXX0=
 -->
