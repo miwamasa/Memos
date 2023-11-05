@@ -152,8 +152,12 @@
 	- https://t.co/rWig2ugILa
 - CALM2-7Bをベンチマークする(11/5追記)
 	- https://note.com/shi3zblog/n/n8b9ff5ea62bf?sub_rt=share_sb
-	- 今の高校では『情報Ⅰ』という科目ができて、ITパスポート相当のことを学んでいる→”高卒相当”のレベルが上がっているという話
-		- 
+- 今の高校では『情報Ⅰ』という科目ができて、ITパスポート相当のことを学んでいる→”高卒相当”のレベルが上がっているという話
+	- https://togetter.com/li/2253207
+- ＢＸストラテジー　実践行動経済学2.0 人を動かす心のツボ
+	- https://www.amazon.co.jp/dp/4296115758?ref_=cm_sw_r_cp_ud_dp_BM2H3QZ9AHNCYW8F2ZY7
+	- 企業経営の現場でどのように行動変容を促せばよいのかという知見が体系的に整理されており、法則や理論を寄せ集めたこれまでの事例集的な行動経済学本とは一線を画す良書でした。
+- 
 
 ## 10/30
 
@@ -2424,11 +2428,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk3MDIyODgsMTYzNTg1ODY3OSwyMj
-M3MjQ5MDksMTIyNDcwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1
-OSw0MzUxMDk0NDcsMTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMT
-IyMDA5MDk1MCwxOTc0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0
-MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNj
-EsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5
-NTIzNTk1N119
+eyJoaXN0b3J5IjpbMTQwMTQ5NzcwMiwxNjM1ODU4Njc5LDIyMz
+cyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5
+LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMj
+IwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQy
+NDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MS
+wtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1
+MjM1OTU3XX0=
 -->
