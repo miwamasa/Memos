@@ -3,7 +3,7 @@
 
 ## 11/6
 
-今週も、RinnaのYouri 7Bの発表(10/31)、Japanese Stable LM Beta 70Bの発表(11/2)、同日CyberAgentLM2-7B（CALM2 -7B）の公開等、日本語LLMの発表・公開が相次ぐ。特にCalm2は3万2000トークン（日本語で約5万字）に対応していて、RAG不要かも。ColabでもA100ならば動かせる。日本語事前学習済みモデルをSimCSEって、LLM本で紹介されていたやつ。説明可能AIによるペロブスカイト太陽電池開発って、AIと人との協調の新しい未来か。LLM評価のサーベイ論文、後で読もう。 TinyLLaMa 1.1Bでどこまでいける？LLMを利用したFAQ検索の評価データセット作成の工夫とか、LangChainのアプリテンプレートの公開とか、実用面に近い開発も進展あり。npakaさんの、LangChain、LLamaIndexのしょうｋ
+今週も、RinnaのYouri 7Bの発表(10/31)、Japanese Stable LM Beta 70Bの発表(11/2)、同日CyberAgentLM2-7B（CALM2 -7B）の公開等、日本語LLMの発表・公開が相次ぐ。特にCalm2は3万2000トークン（日本語で約5万字）に対応していて、RAG不要かも。ColabでもA100ならば動かせる。日本語事前学習済みモデルをSimCSEって、LLM本で紹介されていたやつ。説明可能AIによるペロブスカイト太陽電池開発って、AIと人との協調の新しい未来か。LLM評価のサーベイ論文、後で読もう。 TinyLLaMa 1.1Bでどこまでいける？LLMを利用したFAQ検索の評価データセット作成の工夫とか、LangChainのアプリテンプレートの公開とか、実用面に近い開発も進展あり。npakaさんの、LangChain、LLamaIndexの紹介記事、コンパクトで最新の情報なのでお得。
 
 - FP8-LM: Training FP8 Large Language Model
 	- https://arxiv.org/abs/2310.18313
@@ -168,6 +168,7 @@
 	- CALM2-7B-Chatは、一度に**3万2000トークン（日本語で約5万字）**の長文の入出力に対応
 	- **CALM2-7B-Chat**の回答を**ELYZA-japanese-Llama-2-7b-instruct**及び**Youri-7B-chat**の回答と比較
 	- 論理的思考力については、**3種類の日本語モデルの回答は五十歩百歩**で大差ありません。ChatGPT（GPT-3.5）の性能とは、まだ相当差があるようです
+	- 
 
 ## 10/30
 
@@ -2438,11 +2439,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyMDcwNywtNDEzOTE2NTk5LDE2MzU4NT
-g2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0Nywt
-MjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0Nj
-QxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcy
-MywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOT
-UyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1
-MjkxOV19
+eyJoaXN0b3J5IjpbMTQzMjc5MTAyNiwtNDEzOTE2NTk5LDE2Mz
+U4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0
+NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwOD
+c0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIx
+NTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOT
+UsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1
+NzU1MjkxOV19
 -->
