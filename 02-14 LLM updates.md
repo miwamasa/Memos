@@ -3,7 +3,7 @@
 
 ## 11/6
 
-今週も、RinnaのYouri 7Bの発表(10/31)、Japanese Stable LM Beta 70Bの発表(11/2)、同日CyberAgentLM2-7B（CALM2 -7B）の公開等、日本語LLMの発表・公開が相次ぐ。特にCalm2は3万2000トークン（日本語で約5万字）に対応していて、RAG不要かも。ColabでもA100ならば動かせる。日本語事前学習済みモデルをSimCSEって、LLM本で紹介されていたやつ。説明可能AIによるペロブスカイト太陽電池開発って、AIと人との協調の新しい未来か。LLM評価のサーベイ論文、後で読もう。 TinyLLaMa 1.1Bでどこまでいける？LLMを利用したFAQ検索の評価データセット作成の工夫とか、LangChainのアプリテンプレートの公開とか、実用面で
+今週も、RinnaのYouri 7Bの発表(10/31)、Japanese Stable LM Beta 70Bの発表(11/2)、同日CyberAgentLM2-7B（CALM2 -7B）の公開等、日本語LLMの発表・公開が相次ぐ。特にCalm2は3万2000トークン（日本語で約5万字）に対応していて、RAG不要かも。ColabでもA100ならば動かせる。日本語事前学習済みモデルをSimCSEって、LLM本で紹介されていたやつ。説明可能AIによるペロブスカイト太陽電池開発って、AIと人との協調の新しい未来か。LLM評価のサーベイ論文、後で読もう。 TinyLLaMa 1.1Bでどこまでいける？LLMを利用したFAQ検索の評価データセット作成の工夫とか、LangChainのアプリテンプレートの公開とか、実用面に近い開発も進展あり。npakaさんの、LangChain、LLamaIndexのしょうｋ
 
 - FP8-LM: Training FP8 Large Language Model
 	- https://arxiv.org/abs/2310.18313
@@ -2438,11 +2438,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5NTU1NTY4LC00MTM5MTY1OTksMTYzNT
-g1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOTUwMTE1ODQ3
-LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0NSwtMjA4Nz
-Q2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC0xMDQzMjE1
-NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NS
-w5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3
-NTUyOTE5XX0=
+eyJoaXN0b3J5IjpbNTgyMDcwNywtNDEzOTE2NTk5LDE2MzU4NT
+g2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0Nywt
+MjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0Nj
+QxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcy
+MywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOT
+UyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1
+MjkxOV19
 -->
