@@ -173,6 +173,10 @@
 	- 日経の書評(11/4朝刊)掲載
 	- 言葉とは何か。この問いにフレーゲ、ラッセル、ウィトゲンシュタインはどう挑んだのか。とびきりたのしい言語哲学の説き語り
 	- 単語単独で意味を持つのか、文章の中の関係性として意味を持つのか、LLMは何を見ている？
+- 牧野先生、PFN開発のMN-core開発に注力
+	- https://jun-makino.sakura.ne.jp/articles/future_sc/note161.html
+	- 神戸大とPFNのクロスアポイントメントだそうだ、
+	- 「今後は社員として直接MN-Core の 開発に関わる」、「」
 
 ## 10/30
 
@@ -2443,11 +2447,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MT
-M5MTY1OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAx
-OSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NT
-c2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0
-MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMz
-ksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4
-MjI0MjAwXX0=
+eyJoaXN0b3J5IjpbLTU0NTgyNzUwOSwtMTEzNzQ4MDQ2OCwyNj
+ExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4Njc5LDIyMzcyNDkw
+OSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5LDQzNT
+EwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkw
+OTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1Ni
+wtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MSwtMTQ2
+MDMzMzE4NF19
 -->
