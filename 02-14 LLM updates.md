@@ -7,7 +7,8 @@
 	- https://arxiv.org/abs/2310.18313
 	- Microsoftの研究チームによる論文。
 	-  FP8自動混合精度フレームワークで、性能低下を抑えつつ ・BF16よりも64%速く ・メモリ使用量を42%削減し GPT-175Bをトレーニングできた
-- 
+- ControlLLM: Augment Language Models with Tools by Searching on Graphs
+	- 
 
 ## 10/30
 
@@ -2278,11 +2279,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MD
-ExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUs
-LTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMT
-A0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgx
-MjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMC
-wtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEzNzE2OTMyMywtMTYz
-NzE1NDA2NF19
+eyJoaXN0b3J5IjpbLTg2MjMwMzUxOSwyMjM3MjQ5MDksMTIyND
+cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
+MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
+c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
+MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxOD
+QsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3
+MTY5MzIzXX0=
 -->
