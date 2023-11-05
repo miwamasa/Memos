@@ -3,7 +3,7 @@
 
 ## 11/6
 
-今週はJapanese Stable LM Beta 70Bの発表(11/2)と、同日CyberAgentLM2-7B（CALM2 -7B）の公開が大きかった。RinnaのYouri 7Bの発表とか、
+今週も、RinnaのYouri 7Bの発表(10/31)、Japanese Stable LM Beta 70Bの発表(11/2)、同日CyberAgentLM2-7B（CALM2 -7B）の公開等、日本語LLMの発表・公開が相次ぐ。特にCalm2は3万2000トークン（日本語で約5万字）に対応しているので、ColabでもA100ならば
 
 - FP8-LM: Training FP8 Large Language Model
 	- https://arxiv.org/abs/2310.18313
@@ -2438,11 +2438,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMTc5NDgzLDE2MzU4NTg2NzksMjIzNz
-I0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTks
-NDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMj
-AwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0
-MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC
-0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUy
-MzU5NTddfQ==
+eyJoaXN0b3J5IjpbLTg4NTAxNzg5NSwxNjM1ODU4Njc5LDIyMz
+cyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5
+LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMj
+IwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQy
+NDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1MjUyODA2MS
+wtMTQ2MDMzMzE4NCw5NzgyMjQyMDAsLTE3NTc1NTI5MTksMTk1
+MjM1OTU3XX0=
 -->
