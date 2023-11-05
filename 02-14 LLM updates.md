@@ -168,7 +168,10 @@
 	- CALM2-7B-Chatは、一度に**3万2000トークン（日本語で約5万字）**の長文の入出力に対応
 	- **CALM2-7B-Chat**の回答を**ELYZA-japanese-Llama-2-7b-instruct**及び**Youri-7B-chat**の回答と比較
 	- 論理的思考力については、**3種類の日本語モデルの回答は五十歩百歩**で大差ありません。ChatGPT（GPT-3.5）の性能とは、まだ相当差があるようです
-	- 
+- 『言語哲学がはじまる』野矢茂樹著
+	- https://www.iwanami.co.jp/book/b633363.html
+	- 日経の書評(11/4朝刊)掲載
+	- 言葉とは何か。この問いにフレーゲ、ラッセル、ウィトゲンシュタインはどう挑んだのか。とびきりたのしい言語哲学の説き語り
 
 ## 10/30
 
@@ -2439,11 +2442,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjc5MTAyNiwtNDEzOTE2NTk5LDE2Mz
-U4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0
-NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwOD
-c0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIx
-NTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOT
-UsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1
-NzU1MjkxOV19
+eyJoaXN0b3J5IjpbNTEwMjIzMDcwLC00MTM5MTY1OTksMTYzNT
+g1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOTUwMTE1ODQ3
+LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0NSwtMjA4Nz
+Q2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC0xMDQzMjE1
+NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NS
+w5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3
+NTUyOTE5XX0=
 -->
