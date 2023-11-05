@@ -3,7 +3,7 @@
 
 ## 11/6
 
-今週はJapanese Stable LM Beta 70Bの発表とか、
+今週はJapanese Stable LM Beta 70Bの発表(11/2)と、同日CyberAgentLM2-7B（CALM2 -7B）の公開が大きかった。RinnaのYouri 7Bの発表とか、
 
 - FP8-LM: Training FP8 Large Language Model
 	- https://arxiv.org/abs/2310.18313
@@ -2438,11 +2438,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjgyMDE1NzMsMTYzNTg1ODY3OSwyMj
-M3MjQ5MDksMTIyNDcwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1
-OSw0MzUxMDk0NDcsMTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMT
-IyMDA5MDk1MCwxOTc0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0
-MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNj
-EsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5
-NTIzNTk1N119
+eyJoaXN0b3J5IjpbMzAyMTc5NDgzLDE2MzU4NTg2NzksMjIzNz
+I0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTks
+NDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMj
+AwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0
+MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC
+0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUy
+MzU5NTddfQ==
 -->
