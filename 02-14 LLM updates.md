@@ -75,6 +75,9 @@
 	- NeurIPS'23の論文
 	- Compatible with GGML yet better performance up to 1.5x over llama.cpp!
 	- https://github.com/intel/intel-extension-for-transformers
+- The Computational Lens: from Quantum Physics to Neuroscience
+	- 計算機的な視点を用いて、量子物理学から神経科学に至るまでの分野を研究したハーバード大学の博士論文
+	- https://arxiv.org/abs/2310.20539
 - 
 
 ## 10/30
@@ -2346,7 +2349,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5OTI4NTU2LDIyMzcyNDkwOSwxMjI0Nz
+eyJoaXN0b3J5IjpbNzU4MzgwOTI4LDIyMzcyNDkwOSwxMjI0Nz
 AwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0Nywx
 NjQ1NzYzODQ1LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5Nz
 Q4OTQwODUsLTEwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDcz
