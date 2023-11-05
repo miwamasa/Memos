@@ -100,6 +100,14 @@
 	- https://www.ai-shift.co.jp/techblog/3761
 	- 「1.  FAQの回答内容から質問内容を抽出」をベースに、生成時のpromptの工夫について取り組んだ
 - calm2で議事録をまとめてみました。AI時代の知的財産権検討会（第１回）
+	- https://x.com/alfredplpl/status/1720005676829970472?s=20
+	- https://www.kantei.go.jp/jp/singi/titeki2/ai_kentoukai/kaisai/index.html
+	- 主張1: AIによって生成されたコンテンツも含まれるべきである。 
+	- 主張2: AIによって生成されたコンテンツは、人間によって創作されたコンテンツと同等に保護されるべきである。 
+	- 主張3: 著作権を侵害する行為には、AIによって生成されたコンテンツも含まれるべきである。 
+	- 主張4: 収益還元法については、AIによって生成されたコンテンツも適用範囲に含まれるべきである。
+-  Google Colab で CALM2 を試す by npaka
+	- 
 
 ## 10/30
 
@@ -2370,7 +2378,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDMzOTA3MjYsMjIzNzI0OTA5LDEyMj
+eyJoaXN0b3J5IjpbLTIwMjc1MzIyNzMsMjIzNzI0OTA5LDEyMj
 Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
 LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
 k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
