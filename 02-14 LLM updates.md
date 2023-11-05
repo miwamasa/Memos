@@ -3,7 +3,7 @@
 
 ## 11/6
 
-今週も、RinnaのYouri 7Bの発表(10/31)、Japanese Stable LM Beta 70Bの発表(11/2)、同日CyberAgentLM2-7B（CALM2 -7B）の公開等、日本語LLMの発表・公開が相次ぐ。特にCalm2は3万2000トークン（日本語で約5万字）に対応していて、RAG不要かも。ColabでもA100ならば動かせる。日本語事前学習済みモデルをSimCSEって、LLM本で紹介されていたやつ。説明可能AIによるペロブスカイト太陽電池開発って、AIと人との協調の新しい未来か。LLM評価のサーベイ論文、後で読もう。 TinyLLaMa 1.1Bでどこまでいける？LLMを利用したFAQ検索の評価データセット作成の工夫とか、LangChainのアプリテンプレートの公開とか、実用面に近い開発も進展あり。npakaさんの、LangChain、LLamaIndexの紹介記事、コンパクトで最新の情報なのでお得。
+今週も、RinnaのYouri 7Bの発表(10/31)、Japanese Stable LM Beta 70Bの発表(11/2)、同日CyberAgentLM2-7B（CALM2 -7B）の公開等、日本語LLMの発表・公開が相次ぐ。特にCalm2は3万2000トークン（日本語で約5万字）に対応していて、RAG不要かも。ColabでもA100ならば動かせる。日本語事前学習済みモデルをSimCSEって、LLM本で紹介されていたやつ。説明可能AIによるペロブスカイト太陽電池開発って、AIと人との協調の新しい未来か。LLM評価のサーベイ論文、後で読もう。 TinyLLaMa 1.1Bでどこまでいける？LLMを利用したFAQ検索の評価データセット作成の工夫とか、LangChainのアプリテンプレートの公開とか、実用面に近い開発も進展あり。npakaさんの、LangChain、LLamaIndexの紹介記事、コンパクトで最新の情報なのでお得。岩波新書の『言語哲学がはじまる』、フレーゲ、ラッセル、ヴィトゲンシュタイン、もし彼らが今生きていたらLLMをど
 
 - FP8-LM: Training FP8 Large Language Model
 	- https://arxiv.org/abs/2310.18313
@@ -172,6 +172,7 @@
 	- https://www.iwanami.co.jp/book/b633363.html
 	- 日経の書評(11/4朝刊)掲載
 	- 言葉とは何か。この問いにフレーゲ、ラッセル、ウィトゲンシュタインはどう挑んだのか。とびきりたのしい言語哲学の説き語り
+	- 単語単独で意味を持つのか、文章の中の関係性として意味を持つのか、LLMは何を見ている？
 
 ## 10/30
 
@@ -2442,11 +2443,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwMjIzMDcwLC00MTM5MTY1OTksMTYzNT
-g1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOTUwMTE1ODQ3
-LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0NSwtMjA4Nz
-Q2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC0xMDQzMjE1
-NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NS
-w5NTI1MjgwNjEsLTE0NjAzMzMxODQsOTc4MjI0MjAwLC0xNzU3
-NTUyOTE5XX0=
+eyJoaXN0b3J5IjpbLTIyNjMyNzQ5NSwtNDEzOTE2NTk5LDE2Mz
+U4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0
+NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwOD
+c0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIx
+NTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOT
+UsOTUyNTI4MDYxLC0xNDYwMzMzMTg0LDk3ODIyNDIwMCwtMTc1
+NzU1MjkxOV19
 -->
