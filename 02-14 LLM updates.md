@@ -106,8 +106,11 @@
 	- 主張2: AIによって生成されたコンテンツは、人間によって創作されたコンテンツと同等に保護されるべきである。 
 	- 主張3: 著作権を侵害する行為には、AIによって生成されたコンテンツも含まれるべきである。 
 	- 主張4: 収益還元法については、AIによって生成されたコンテンツも適用範囲に含まれるべきである。
--  Google Colab で CALM2 を試す by npaka
-	- 
+-  Google Colab で CALM2 を試す by npakaさん
+	- https://note.com/npaka/n/n443e3ea8d0b8?sub_rt=share_sb
+	- チャットモデル「cyberagent/calm2-7b-chat」を使います。
+- CALM2-7B-chatのSpaceを作りました
+	- https://huggingface.co/spaces/hayas/CALM2-7B-chat
 
 ## 10/30
 
@@ -2378,11 +2381,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjc1MzIyNzMsMjIzNzI0OTA5LDEyMj
-Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
-LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
-k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
-NzM5MjM5LDE1NTgxMjgxOTUsOTUyNTI4MDYxLC0xNDYwMzMzMT
-g0LDk3ODIyNDIwMCwtMTc1NzU1MjkxOSwxOTUyMzU5NTcsMTEz
-NzE2OTMyM119
+eyJoaXN0b3J5IjpbMTYwMTQ4Mzk2MSwyMjM3MjQ5MDksMTIyND
+cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
+MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
+c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
+MzkyMzksMTU1ODEyODE5NSw5NTI1MjgwNjEsLTE0NjAzMzMxOD
+QsOTc4MjI0MjAwLC0xNzU3NTUyOTE5LDE5NTIzNTk1NywxMTM3
+MTY5MzIzXX0=
 -->
