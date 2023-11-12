@@ -115,7 +115,13 @@
 	- https://north-road.com/2023/11/07/qgis-3d-tiles-thanks-to-cesium-ecosystem-grant/
 - OpenAI Assistants API(Playground)を使ってコーディングのアドバイスをしてくれるアシスタントを作る
 	- https://zenn.dev/karaage0703/articles/66949a39643557
-	- 
+	- 今まででも、Custom InstructionsとAdvanced Data Analysis（Code Interpreter）でできていたことを、手軽に切り替えられて便利になった。API経由でできるようになったということなので、本質的な変化というよりは順当なアップデート
+- 自分の癖にあったファインチューニング用データセットをLLMで作ろう！【Calm2】
+	- https://zenn.dev/saldra/articles/090c120b49e38c
+	- LLMのファインチューニングにおいて、データセットは重要なものとなりつつある
+	- 以前までは人力で作る必要があったが、プロンプトが効く7Bモデル（Calm2-chat）を用いることで、LLMでファインチューニング用データセットを作ることができる
+	- データセットを作成しつつ、動的にプロンプトを修正していく手法が相当よかった
+- # HuggingFace Diffusers v0.22.0の新機能 by npakaさん
 
 
 ## 11/6
@@ -2564,11 +2570,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODI0MTcxNjUsMTE4Mzg2Nzk2NywxNz
-U0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2
-NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMT
-k1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4
-NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NS
-wtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1
-NTgxMjgxOTVdfQ==
+eyJoaXN0b3J5IjpbLTQ3OTIxNjA5MiwxMTgzODY3OTY3LDE3NT
+Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
+OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
+UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
+NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
+0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
+ODEyODE5NV19
 -->
