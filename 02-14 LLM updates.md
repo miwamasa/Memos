@@ -273,7 +273,8 @@
 	- デジタル・コンピュータは硬直化してノイズをに対する耐性を失ってしまった、アナログ・コンピュータである
 	- アナログ・コンピュータはノイズを受け入れるばかりか、＜略＞機能するために一定の背景ノイズを必要とさえしている。
 - 人工知能の三つの法則（ダイソン）
-	- 「
+	- 「アシュビーの必要多様性の法則」、実効的な制御システムは対象と同じ程度複雑でなければならない
+	- 「複雑なシステムの特徴を規定するのは、それ自身の最も単純な動作の記述だ」、
 
 ## 11/6
 
@@ -2721,11 +2722,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTgwMjczMiw1MTgwNzQ5LC0xODI1Nj
-U2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2
-NCwtMTE1NjgyOTk5NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC
-0xNzU5MTI1ODU2LC0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3
-MjcyMTAzLDExODM4Njc5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MD
-Q2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4Njc5LDIy
-MzcyNDkwOV19
+eyJoaXN0b3J5IjpbLTE4MDc3NDI1MzMsNTE4MDc0OSwtMTgyNT
+Y1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4
+NjQsLTExNTY4Mjk5OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMy
+wtMTc1OTEyNTg1NiwtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3
+NzI3MjEwMywxMTgzODY3OTY3LDE3NTQ4MjUyODQsLTExMzc0OD
+A0NjgsMjYxMTk3ODM3LC00MTM5MTY1OTksMTYzNTg1ODY3OSwy
+MjM3MjQ5MDldfQ==
 -->
