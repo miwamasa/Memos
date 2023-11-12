@@ -272,9 +272,9 @@
 	- アナログ・コンピューティングでは複雑性はコードでなくアーキテクチャに宿る。
 	- デジタル・コンピュータは硬直化してノイズをに対する耐性を失ってしまった、アナログ・コンピュータである
 	- アナログ・コンピュータはノイズを受け入れるばかりか、＜略＞機能するために一定の背景ノイズを必要とさえしている。
-- 人工知能の三つの法則（ダイソン）
+- 人工知能の三つの法則からみるAIの次にくるもの（ダイソン）
 	- 「アシュビーの必要多様性の法則」、実効的な制御システムは対象と同じ程度複雑でなければならない
-	- 「複雑なシステムの特徴を規定するのは、それ自身の最も単純な動作の記述だ」、
+	- 「複雑なシステムの特徴を規定するのは、それ自身の最も単純な動作の記述だ」（ノイマン）、
 	- 「理解可能な単純なシステムは、知的な振る舞いをするには複雑さが足らず、知的な振る舞いができるくらい複雑などんなシステムでも、理解するには複雑すぎる」
 	- →自ら思考する人工知能は、人間の知性を理解するまでは、マシンが超人的な知能を持つことを心配する必要はないともいえるが、理解をせずに何かを作っていけないという道理もない。
 
@@ -2724,11 +2724,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1Nj
-U2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2
-NCwtMTE1NjgyOTk5NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC
-0xNzU5MTI1ODU2LC0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3
-MjcyMTAzLDExODM4Njc5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MD
-Q2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4Njc5LDIy
-MzcyNDkwOV19
+eyJoaXN0b3J5IjpbLTEwNDIzMzc3NTQsMjAzMzY0NTIzMCw1MT
+gwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIy
+NCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkxNzM4NjQ3LC
+0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0xNTQ4NzU3NDYwLDIw
+NDg4NTA3MzAsODc3MjcyMTAzLDExODM4Njc5NjcsMTc1NDgyNT
+I4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwx
+NjM1ODU4Njc5XX0=
 -->
