@@ -255,6 +255,9 @@
 	- 「GPT-4V API」の導入により、「RAG」の概念をテキスト/画像のハイブリッドに拡張し、さらに大量の(画像を含む) データコーパスから価値を引き出す
 	- SimpleDirectoryReaderの画像拡張
 	- **MultiModalVectorIndex**の導入
+- RAGにおけるドキュメント検索精度向上について(概要編)
+	- https://zenn.dev/sompojapan_dx/articles/eb755a18e893ce
+	- 損害保険ジャパン株式会社 DX推進部
 	- 
 
 ## 11/6
@@ -2703,7 +2706,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDc0NzYxMSwxNjAxMTEwMjI0LC0xNT
+eyJoaXN0b3J5IjpbMTcxMTMyMzE0OCwxNjAxMTEwMjI0LC0xNT
 k4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3Mzg2NDcsLTE1NDg1
 ODY5MzMsLTE3NTkxMjU4NTYsLTE1NDg3NTc0NjAsMjA0ODg1MD
 czMCw4NzcyNzIxMDMsMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0x
