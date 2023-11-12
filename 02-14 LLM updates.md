@@ -3,7 +3,9 @@
 
 ## 11/13
 
-今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT Builderと、openaiまわりのエコシステムを破壊するがごときの怒涛のリリース。Assistant APIって、LangChainも、LlamaIndexも
+今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT Builderと、openaiまわりのエコシステムを破壊するがごときの怒涛のリリース。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せるエージェントを作れるってことと同等。
+
+LangChainも、LlamaIndexも
 
 
 - ALMA-7B-Ja-V2
@@ -2698,11 +2700,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mz
-g2Nzk2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5Nzgz
-NywtNDEzOTE2NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMj
-Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
-LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
-k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
-NzM5MjM5XX0=
+eyJoaXN0b3J5IjpbLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4Nz
+cyNzIxMDMsMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0xMTM3NDgw
+NDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2NzksMj
+IzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMjQyOTMw
+NTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLT
+EyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0
+NDI0MjU2XX0=
 -->
