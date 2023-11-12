@@ -224,8 +224,12 @@
 -  Google Colab で Japanese Wikipedia Conversation による Llama 2 のLoRAファインチューニングを試す
 	- https://note.com/npaka/n/n723766f96cbc?sub_rt=share_sb
 	- **<s> [INST]** 日本の首都は？ **[/INST]** 東京です。**</s><s> [INST]** その場所の観光名所を教えて。 **[/INST]** 東京ドームシティ、サンシャイン60（六万分一）があります。 **</s>**
-- llamaindexから
+- llamaindexからRAGのベンチマーク
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/openai_retrieval_benchmark.ipynb
+	- OpenAIのRAGが、llamaindexの5行のコードに劣っていると、、、
+- LLM OS
+	- https://x.com/karpathy/status/1723140519554105733?s=20
+	- 
 
 ## 11/6
 
@@ -2673,11 +2677,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY0NTIzODYsMTE4Mzg2Nzk2NywxNz
-U0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2
-NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMT
-k1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4
-NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NS
-wtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1
-NTgxMjgxOTVdfQ==
+eyJoaXN0b3J5IjpbMTA0NTY0NjIxMywxMTgzODY3OTY3LDE3NT
+Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
+OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
+UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
+NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
+0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
+ODEyODE5NV19
 -->
