@@ -79,6 +79,11 @@
 	- "画像の数式の応用例を一つ挙げ、何らかの適当な数値を設定し、それを解くためのプログラムを作成してください"
 - Google Colab で OpenAI API の Text-to-Speech を試す by npakaさん
 	- https://note.com/npaka/n/nba4af88eb3cf?sub_rt=share_sb
+	- 6つの内蔵ボイスが付属しており、次の目的で使用できます。
+		- 書かれたブログ投稿のナレーション
+		- 複数言語の音声を生成
+		- ストリーミングを使用したリアルタイムオーディオ出力
+- 
 
 ## 11/6
 
@@ -2526,7 +2531,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ0MDgzMTksMTE4Mzg2Nzk2NywxNz
+eyJoaXN0b3J5IjpbLTE1MDU5NjY2NDUsMTE4Mzg2Nzk2NywxNz
 U0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2
 NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMT
 k1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4
