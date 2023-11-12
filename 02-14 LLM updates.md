@@ -188,7 +188,10 @@
 	- LLMにプロンプトを与え疑似ラベルを予測、分布が一様で不確実性が高い=学習効果が高いとみなす。
 	- ベクトル空間上の距離から周辺も不確実性が高い、かつ採用データ間の距離を空ける。
 	- 128サンプルでフル学習の 90% 超の精度。
-- 
+- A.R.I.A. (Aria) - Your AI Research Assistant
+	- https://github.com/lifan0127/ai-research-assistant
+-  OpenAI の Assistant Playuground の Function Calling を試す
+	- https://note.com/npaka/n/n6bf08e93840d?sub_rt=share_sb
 
 
 ## 11/6
@@ -2637,11 +2640,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTgxMjQ5LDExODM4Njc5NjcsMTc1ND
-gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
-OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
-AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
-LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLT
-EwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4
-MTI4MTk1XX0=
+eyJoaXN0b3J5IjpbLTEyNjY5NjExOCwxMTgzODY3OTY3LDE3NT
+Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
+OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
+UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
+NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
+0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
+ODEyODE5NV19
 -->
