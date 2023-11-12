@@ -6,9 +6,17 @@
 - ALMA-7B-Ja-V2
 	- https://huggingface.co/webbigdata/ALMA-7B-Ja-V2
 	- 翻訳タスク特化のALMA-jaのV2来とる！!GPTQもある
-- Microsoftから発表されたテーブルタスクのトレーニングデータを用いて「テーブルチューニング」するモデルTable-GPT
+- # TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT
+	- Microsoftから発表されたテーブルタスクのトレーニングデータを用いて「テーブルチューニング」するモデルTable-GPT
 	- 多様なテーブルタスクにてGPT-3.5やChatGPTより高性能、高い汎用性を示す
 	- https://arxiv.org/abs/2307.08674
+- OpenAI dev 
+	- GPT-4 Turbo 発表 
+	- コンテキスト長128k
+	- JSON Mode 
+	- ナレッジカットオフ 2023/04
+	- DALL E-3 / Text to Speech 
+	- Whisper v3 ・GPT-4 Fine-tuning可能に
 
 ## 11/6
 
@@ -2456,7 +2464,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTkxNTM0MywxNzU0ODI1Mjg0LC0xMT
+eyJoaXN0b3J5IjpbMTY3MjEyODY4OSwxNzU0ODI1Mjg0LC0xMT
 M3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2
 NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMj
 QyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQx
