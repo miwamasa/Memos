@@ -239,6 +239,7 @@
 - ChatGPTは、コピーライターやデザイナーの雇用を奪うとともに、単価も下げている
 	- 米国の最新研究は、ChatGPTの立ち上げから数カ月で、主要なオンラインフリーランスのコピーライターやデザイナーの仕事の数が大幅に減少し、収入も急激に減ったと報じている
 	- https://www.ft.com/content/b2928076-5c52-43e9-8872-08fda2aa2fcf
+	- 「6桁稼ぐ人は30000ドルしか稼がない人の3倍ダメージを受ける」
 - Pattern Language for Generative AI book!
 	- https://x.com/IntuitMachine/status/1722931733866143754?s=20
 - ニューラルネットは経験した言語を一般化する能力があるか（１０月２５日 Nature オンライン掲載論文） - Lab BRAINS
@@ -260,7 +261,8 @@
 	- 損害保険ジャパン株式会社 DX推進部
 	- ドキュメントに手を加える
 		- **ドキュメント整形/chunking**、**要約生成**、**質問文の拡張**、**Knowledge Graphの活用**
-	- 
+	- 検索モデルに手を加える
+		- **検索モデルのfine-tune**、**Re-rankingモデルの活用**
 
 ## 11/6
 
@@ -2708,11 +2710,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4NTI2NDA3LDE2MDExMTAyMjQsLTE1OT
-gyNDA4NjQsLTExNTY4Mjk5OTUsLTI5MTczODY0NywtMTU0ODU4
-NjkzMywtMTc1OTEyNTg1NiwtMTU0ODc1NzQ2MCwyMDQ4ODUwNz
-MwLDg3NzI3MjEwMywxMTgzODY3OTY3LDE3NTQ4MjUyODQsLTEx
-Mzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1OTksMTYzNTg1OD
-Y3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOTUwMTE1ODQ3LC0y
-NDI5MzA1OV19
+eyJoaXN0b3J5IjpbLTE1OTcxMjI4NDMsMTYwMTExMDIyNCwtMT
+U5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkxNzM4NjQ3LC0xNTQ4
+NTg2OTMzLC0xNzU5MTI1ODU2LC0xNTQ4NzU3NDYwLDIwNDg4NT
+A3MzAsODc3MjcyMTAzLDExODM4Njc5NjcsMTc1NDgyNTI4NCwt
+MTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1OD
+U4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcs
+LTI0MjkzMDU5XX0=
 -->
