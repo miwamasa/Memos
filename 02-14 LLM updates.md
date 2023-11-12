@@ -18,11 +18,14 @@
 	- DALL E-3 / Text to Speech 
 	- Whisper v3 
 	- GPT-4 Fine-tuning可能に
-	- GPT-3.5 Turbo はもう 16K がデフォレベルでさらに安くなり、GPT-4 Turbo は価格が入力 1/3, 出力 1/2 になったと
+	- GPT-3.5 Turbo はもう 16K がデフォレベルでさらに安くなり、GPT-4 Turbo は価格が入力 1/3, 出力 1/2 になった
+	- 「従来の16倍となる300ページを超える長い文書を扱えるようになり、2023年4月までの情報を反映」
 	- functionsとfunction_callが非推奨になってtoolsとtool_choiceになったんだ
 - ノーコードで「ChatGPT」のカスタム版を作れる「GPTs」、有料会員に提供へ
 	- https://www.itmedia.co.jp/news/articles/2311/07/news074.html
-	- 
+	- プロンプトからの指示で対話しながらオリジナルのChatGPTを構築できる。「Web検索や画像作成、データ分析などと同じくらい簡単」としている
+- MFTCoder: Boosting Code LLMs with Multitask Fine-Tuning
+- 
 
 ## 11/6
 
@@ -2470,11 +2473,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDg0MDAxOCwxNzU0ODI1Mjg0LC0xMT
-M3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2
-NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMj
-QyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQx
-MzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMy
-wtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUy
-NTI4MDYxXX0=
+eyJoaXN0b3J5IjpbLTIxMzIwMTc4MDMsMTc1NDgyNTI4NCwtMT
+EzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4
+Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLT
+I0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0
+MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3Mj
+MsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1
+MjUyODA2MV19
 -->
