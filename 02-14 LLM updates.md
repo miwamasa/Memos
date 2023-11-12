@@ -275,6 +275,7 @@
 - 人工知能の三つの法則（ダイソン）
 	- 「アシュビーの必要多様性の法則」、実効的な制御システムは対象と同じ程度複雑でなければならない
 	- 「複雑なシステムの特徴を規定するのは、それ自身の最も単純な動作の記述だ」、
+	- 「理解可能な単純なシステムは、知的な振る舞いをするには複雑さが足らず、知的な振る舞いがｄ
 
 ## 11/6
 
@@ -2722,11 +2723,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDc3NDI1MzMsNTE4MDc0OSwtMTgyNT
-Y1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4
-NjQsLTExNTY4Mjk5OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMy
-wtMTc1OTEyNTg1NiwtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3
-NzI3MjEwMywxMTgzODY3OTY3LDE3NTQ4MjUyODQsLTExMzc0OD
-A0NjgsMjYxMTk3ODM3LC00MTM5MTY1OTksMTYzNTg1ODY3OSwy
-MjM3MjQ5MDldfQ==
+eyJoaXN0b3J5IjpbMzUyOTEwOTcxLDUxODA3NDksLTE4MjU2NT
+YxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0
+LC0xMTU2ODI5OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLT
+E3NTkxMjU4NTYsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4Nzcy
+NzIxMDMsMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0xMTM3NDgwND
+Y4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2NzksMjIz
+NzI0OTA5XX0=
 -->
