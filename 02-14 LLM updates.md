@@ -16,7 +16,13 @@
 	- JSON Mode 
 	- ナレッジカットオフ 2023/04
 	- DALL E-3 / Text to Speech 
-	- Whisper v3 ・GPT-4 Fine-tuning可能に
+	- Whisper v3 
+	- GPT-4 Fine-tuning可能に
+	- GPT-3.5 Turbo はもう 16K がデフォレベルでさらに安くなり、GPT-4 Turbo は価格が入力 1/3, 出力 1/2 になったと
+	- functionsとfunction_callが非推奨になってtoolsとtool_choiceになったんだ
+- ノーコードで「ChatGPT」のカスタム版を作れる「GPTs」、有料会員に提供へ
+	- https://www.itmedia.co.jp/news/articles/2311/07/news074.html
+	- 
 
 ## 11/6
 
@@ -2464,7 +2470,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MjEyODY4OSwxNzU0ODI1Mjg0LC0xMT
+eyJoaXN0b3J5IjpbLTU4NDg0MDAxOCwxNzU0ODI1Mjg0LC0xMT
 M3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2
 NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMj
 QyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQx
