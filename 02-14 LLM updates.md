@@ -68,7 +68,9 @@
 	- アシスタントは、必要に応じて、**Code Interpreter**、**Retrieval**、**Function Calling**を呼び出せる
 - Google Colab で OpenAI API の Retrieval を試す by npakaさん
 	- https://note.com/npaka/n/ndcacbefb2ef7
-	- APIからAssistantを作る方法、結果はplaygroundでも確認できるというか、plai
+	- APIからAssistantを作る方法、結果はplaygroundでも確認できるというか、playgroundでassistant作成の別のやり方
+- 
+- https://thinkzone.wlonk.com/Numbers/NumberSets.htm?platform=hootsuite
 
 ## 11/6
 
@@ -2516,7 +2518,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Njc4OTA0MCwxMTgzODY3OTY3LDE3NT
+eyJoaXN0b3J5IjpbMTU0NjU2ODUwMywxMTgzODY3OTY3LDE3NT
 Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
 OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
 UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
