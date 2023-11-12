@@ -234,7 +234,11 @@
 		- RAM: 128Ktok
 		- Filesystem: Ada002
 - ChatGPTは、コピーライターやデザイナーの雇用を奪うとともに、単価も下げている
-	- 米国の最新研究は、ChatGPTの立ち上げから数カ月で、主要なオンラインフリーランスのコピーライターやデザイナーの仕事の数が大幅に減少し、収入も急激に減ったと報じている↓。
+	- 米国の最新研究は、ChatGPTの立ち上げから数カ月で、主要なオンラインフリーランスのコピーライターやデザイナーの仕事の数が大幅に減少し、収入も急激に減ったと報じている
+	- https://www.ft.com/content/b2928076-5c52-43e9-8872-08fda2aa2fcf
+- Pattern Language for Generative AI book!
+	- https://x.com/IntuitMachine/status/1722931733866143754?s=20
+- 
 
 ## 11/6
 
@@ -2682,11 +2686,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1MDU2Nzg1LDExODM4Njc5NjcsMTc1ND
-gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
-OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
-AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
-LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLT
-EwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4
-MTI4MTk1XX0=
+eyJoaXN0b3J5IjpbLTE0NjQxOTg2ODgsMTE4Mzg2Nzk2NywxNz
+U0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2
+NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMT
+k1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4
+NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NS
+wtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1
+NTgxMjgxOTVdfQ==
 -->
