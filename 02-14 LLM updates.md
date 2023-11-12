@@ -240,8 +240,13 @@
 	- https://x.com/IntuitMachine/status/1722931733866143754?s=20
 - ニューラルネットは経験した言語を一般化する能力があるか（１０月２５日 Nature オンライン掲載論文） - Lab BRAINS
 	- https://lab-brains.as-1.co.jp/enjoy-learn/2023/11/55788/
-- ochen Wulf and Juerg Meierhofer, "Towards a Taxonomy of Large Language Model based Business Model Transformations"
-	- 
+- Jochen Wulf and Juerg Meierhofer, "Towards a Taxonomy of Large Language Model based Business Model Transformations"
+	- https://arxiv.org/abs/2311.05288
+	- LLMを利用したビジネスモデルについて実際のケースをもとに調査報告が発表されました。
+		- 「新しい顧客メリットの創造」
+		- 「新しい販売チャネルの開拓」
+		- 「ビジネスプロセス自動化の加速」
+		- 「情報リソース利用の改善」
 - 
 
 ## 11/6
@@ -2690,7 +2695,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODg0ODU2LDExODM4Njc5NjcsMTc1ND
+eyJoaXN0b3J5IjpbODc3MjcyMTAzLDExODM4Njc5NjcsMTc1ND
 gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
 OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
 AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
