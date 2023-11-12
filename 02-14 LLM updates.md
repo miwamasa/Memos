@@ -58,7 +58,9 @@
 	- 今回新たにAPIが発表されたRetrieval機能を使ってPDFファイル添付をしてみてます。
 	- https://x.com/alexweberk/status/1721705504228192373?s=20
 	- DPOの論文26ページ分くらいの要約で$0.80くらい
-- 
+-  GPT-3.5-Turbo / GPT-4-Turbo 1106のJSONモードの使い方 by [shi3z](https://note.com/shi3zblog)さん
+	- https://note.com/shi3zblog/n/nd72e0269dc3f?sub_rt=share_pb
+- OpenAI DevDay で発表された新モデルと新開発ツール まとめ
 
 ## 11/6
 
@@ -2506,11 +2508,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg5MzY3NDcsMTc1NDgyNTI4NCwtMT
-EzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4
-Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLT
-I0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0
-MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3Mj
-MsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1
-MjUyODA2MV19
+eyJoaXN0b3J5IjpbLTU3MTU5NjUxOSwxNzU0ODI1Mjg0LC0xMT
+M3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2
+NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMj
+QyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQx
+MzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMy
+wtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUy
+NTI4MDYxXX0=
 -->
