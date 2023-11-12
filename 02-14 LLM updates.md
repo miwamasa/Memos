@@ -177,6 +177,11 @@
 	- 日本語Text Embeddingでのベクトル検索の精度をいろんなモデルで検証してみました。e5良いですね
 -  Extracting List of  `Album`  (with Parallel Function Calling)
 	- https://docs.llamaindex.ai/en/latest/examples/output_parsing/openai_pydantic_program.html#extracting-list-of-album-with-parallel-function-calling
+- 複数のアシスタントに討論させる例
+	- https://x.com/npaka123/status/1722761636937900541?s=20
+- Zhenjie Yang et al., "A Survey of Large Language Models for Autonomous Driving"
+	- LLMが得意とする「計画、認識、質問応答、生成」の能力が自動運転システムに効果的に使えると主張
+	- https://arxiv.org/abs/2311.01043
 - 
 
 
@@ -2626,11 +2631,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Njg2MTU1NiwxMTgzODY3OTY3LDE3NT
-Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
-OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
-UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
-NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
-0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
-ODEyODE5NV19
+eyJoaXN0b3J5IjpbODI1MzM5MTI4LDExODM4Njc5NjcsMTc1ND
+gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
+OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
+AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
+LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLT
+EwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4
+MTI4MTk1XX0=
 -->
