@@ -66,7 +66,9 @@
 	- 16Kコンテキストウィンドウをサポートする新しい「GPT-3.5 Turbo」もリリースします。指示追従、 JSONモード、並列 Function Callingをサポート
 	- 「Assistant API」は、特定の指示を持ち、追加の知識を活用し、モデルやツールを呼び出してタスクを実行できる専用のAIです。
 	- アシスタントは、必要に応じて、**Code Interpreter**、**Retrieval**、**Function Calling**を呼び出せる
-	- 
+- Google Colab で OpenAI API の Retrieval を試す by npakaさん
+	- https://note.com/npaka/n/ndcacbefb2ef7
+	- APIからAssistantを作る方法、結果はplaygroundでも確認できるというか、plai
 
 ## 11/6
 
@@ -2514,11 +2516,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0xMT
-M3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2
-NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMj
-QyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQx
-MzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMy
-wtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUy
-NTI4MDYxXX0=
+eyJoaXN0b3J5IjpbLTM1Njc4OTA0MCwxMTgzODY3OTY3LDE3NT
+Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
+OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
+UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
+NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
+0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
+ODEyODE5NV19
 -->
