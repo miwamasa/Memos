@@ -87,6 +87,7 @@
 	- https://arxiv.org/abs/2311.02146
 - Assistance APIについて
 	- これまでなら自力 or LangChain でやってきたことが、それなりに Assistants/Theads/Run などでできるようになっちまったぜ
+	- OpenAIの [#AIアシスタント](https://twitter.com/hashtag/AI%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88?src=hashtag_click) は面白いけど、またお金が飛んでいく
 - Assistances APIをつかって、GPTvsGPTを作る例
 	- https://x.com/yoheinakajima/status/1721769833212281231?s=20
 	- 例として、地球温暖化テーマに対する、海賊vs人魚の論争をシミュレーション！
@@ -135,7 +136,8 @@
 	- OpenAIのRetrievalとllamaindexのRetrievalを組み合わせることが可能！！！
 - OpenAIのRetrieval APIは、コンテキスト長が長い場合、簡易なtokp-k RAGに切り替えている模様
 	- The OpenAI retrieval API seems to be doing basic top-k RAG on limited context if there's context overflows.
-	- 
+	- https://x.com/jerryjliu0/status/1721987237771133219?s=20
+- GPT-4 Turbo vs GPT-4 tests
 
 
 ## 11/6
@@ -2584,11 +2586,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzA4MTU0OCwxMTgzODY3OTY3LDE3NT
-Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
-OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
-UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
-NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
-0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
-ODEyODE5NV19
+eyJoaXN0b3J5IjpbOTUzMDA3MjQ4LDExODM4Njc5NjcsMTc1ND
+gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
+OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
+AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
+LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLT
+EwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4
+MTI4MTk1XX0=
 -->
