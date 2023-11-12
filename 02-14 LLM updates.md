@@ -172,8 +172,12 @@
 	- Streamlitで、テキストと音声ファイルを表示・ダウンロード可能にする
 -  Google Colab で PLaMo-13B-Instruct を試す by npakaさん
 	- https://note.com/npaka/n/n97a1ac080f76?sub_rt=share_sb
-- 
+- 日本語に対応した Embedding Model のベクトル検索での精度比較｜Tatsuya Shirakawa
 	- https://github.com/nouu-me/document_vector_search_benchmark
+	- 日本語Text Embeddingでのベクトル検索の精度をいろんなモデルで検証してみました。e5良いですね
+-  Extracting List of  `Album`  (with Parallel Function Calling)
+	- https://docs.llamaindex.ai/en/latest/examples/output_parsing/openai_pydantic_program.html#extracting-list-of-album-with-parallel-function-calling
+- 
 
 
 ## 11/6
@@ -2622,7 +2626,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDc0MTI3NCwxMTgzODY3OTY3LDE3NT
+eyJoaXN0b3J5IjpbMTE0Njg2MTU1NiwxMTgzODY3OTY3LDE3NT
 Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
 OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
 UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
