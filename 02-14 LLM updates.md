@@ -69,8 +69,13 @@
 - Google Colab で OpenAI API の Retrieval を試す by npakaさん
 	- https://note.com/npaka/n/ndcacbefb2ef7
 	- APIからAssistantを作る方法、結果はplaygroundでも確認できるというか、playgroundでassistant作成の別のやり方
-- 
-- https://thinkzone.wlonk.com/Numbers/NumberSets.htm?platform=hootsuite
+- Putting numbers into a better perspective and classifying them according to their level of complexity
+	- https://thinkzone.wlonk.com/Numbers/NumberSets.htm?platform=hootsuite
+- GLaMM: Pixel Grounding Large Multimodal Model
+	- https://huggingface.co/papers/2311.03356
+-  GPT-4VのAPIをサクッと使ってみる！
+	- https://note.com/peisuke/n/nef0616b8d7fc?sub_rt=share_sb
+	- 
 
 ## 11/6
 
@@ -2518,7 +2523,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjU2ODUwMywxMTgzODY3OTY3LDE3NT
+eyJoaXN0b3J5IjpbMTg0ODQyNzE5OSwxMTgzODY3OTY3LDE3NT
 Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
 OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
 UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
