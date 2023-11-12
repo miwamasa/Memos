@@ -198,7 +198,13 @@
 	- https://platform.openai.com/tokenizer
 - GPTsで、Kaggleのチュートリアル第6版を読み込ませてみて、質問してみました。
 	- https://chat.openai.com/g/g-Z3a4iOzGR-kagglenotiyutoriarudi-6ban
-- 
+- 弊社のカスタマーサポートをGPTsで作成してみました。
+	- https://chat.openai.com/g/g-uINwYG4Ja-trippy-kasutamasapoto
+- LangChainの# OpenAI Assistant、js版
+	- https://js.langchain.com/docs/modules/agents/agent_types/openai_assistant
+-  Fine-tuning Happens in Tiny Subspaces: Exploring Intrinsic Task-specific Subspaces of Pre-trained Language Models
+	- https://arxiv.org/abs/2305.17446
+	- 
 
 ## 11/6
 
@@ -2646,11 +2652,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDczNjY0MzAsMTE4Mzg2Nzk2NywxNz
-U0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2
-NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMT
-k1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4
-NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NS
-wtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1
-NTgxMjgxOTVdfQ==
+eyJoaXN0b3J5IjpbMjEwOTQyMjY5MywxMTgzODY3OTY3LDE3NT
+Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
+OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
+UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
+NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
+0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
+ODEyODE5NV19
 -->
