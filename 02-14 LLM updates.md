@@ -148,6 +148,10 @@
 	- https://arxiv.org/abs/2310.19796v1
 	- 逆合成のベンチマーク論文。
 	- 狙いの材料から原料を予測する逆合成予測では各論文で評価方法が異なっていましたが、Microsoftさんらはベンチマークライブラリを構築、これによりモデルのランキングが従来と変わることが分かったそうです。
+-  Google Colab で OpenAI API の Code Interpreter を試す by npakaさｎ
+	- https://note.com/npaka/n/nb90306341d41?sub_rt=share_sb
+- GPT-3.5 Turbo の価格が Fireworks や Anyscale などの OSS LLM デプロイサービスの 70B のデプロイ価格と全然競争できるレベル
+	- どうも今回の OpenAI の価格改定で、GPT-3.5 Turbo の価格が Fireworks や Anyscale などの OSS LLM デプロイサービスの 70B のデプロイ価格と全然競争できるレベルまで掛かっているらしく、OSS LLM が普及しないのは結局 OpenAI の API がクソ安すぎるからでは？という指摘
 - 
 
 
@@ -2597,11 +2601,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg1NjYxMCwxMTgzODY3OTY3LDE3NT
-Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
-OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
-UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
-NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
-0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
-ODEyODE5NV19
+eyJoaXN0b3J5IjpbMTQyNjY0NjE4LDExODM4Njc5NjcsMTc1ND
+gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
+OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
+AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
+LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLT
+EwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4
+MTI4MTk1XX0=
 -->
