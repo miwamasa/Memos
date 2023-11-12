@@ -204,7 +204,14 @@
 	- https://js.langchain.com/docs/modules/agents/agent_types/openai_assistant
 -  Fine-tuning Happens in Tiny Subspaces: Exploring Intrinsic Task-specific Subspaces of Pre-trained Language Models
 	- https://arxiv.org/abs/2305.17446
-	- 
+	- 事前学習済モデルの転移学習がモデル内の副空間で行われている可能性を示唆した研究。
+	- 重みをFlatten しエポックごとスタックして SVD にかけ、 Fine Tuning 中のパラメーター変動を説明する軸を発見。
+	- この軸上で外れ値になるパラメーターを無効化し著しい性能劣化を確認
+- 山内志朗『小さな倫理学入門』
+	- 「人間は欲望を自分で生産できず、他の人からこっそり盗んできます。もしかすると、人間は欲望が欠如していて、それを隠すために欲望まみれの姿を取りたがります。やりたいことが見つからない人の方が圧倒的に多いのです。」
+- スタンフォード大のAI研究者Fei-Fei Liさんの新刊”The Worlds I See”は、想像を超える面白さ。強さとしての好奇心。
+	- https://www.amazon.com/dp/1250897939?ref_=cm_sw_r_cp_ud_dp_QG23D73KJFT6GCP6GNVP
+- 
 
 ## 11/6
 
@@ -2652,7 +2659,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTQyMjY5MywxMTgzODY3OTY3LDE3NT
+eyJoaXN0b3J5IjpbMTIyNzU3MjMyMiwxMTgzODY3OTY3LDE3NT
 Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
 OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
 UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
