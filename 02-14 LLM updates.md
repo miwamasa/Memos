@@ -125,7 +125,11 @@
 	- https://note.com/npaka/n/n5aebfc60408a?sub_rt=share_sb
 - OpenAI Assistants APIに拙著「エンジニアの知的生産術」を入れて質問。これこそ「書籍を読む方法の効率化」だな感
 	- https://x.com/nishio/status/1721857526990586203?s=20
-- 
+- OpenAIの AIアシスタント に子猫の絵を描いてもらいました
+	- https://x.com/itnavi2022/status/1721945299713941944?s=20
+- 日本語対応13BモデルのPLaMo-13B、インストラクションチューニングされた
+	- 対話性能を向上させた指示学習（instruction tuning）済み大規模言語モデルPLaMo-13B-Instructを公開しました
+	- https://tech.preferred.jp/ja/blog/llm-plamo-instruct/
 
 
 ## 11/6
@@ -2574,11 +2578,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTg5NDU4LDExODM4Njc5NjcsMTc1ND
-gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
-OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
-AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
-LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLT
-EwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4
-MTI4MTk1XX0=
+eyJoaXN0b3J5IjpbMTA0MzE0MDA5MCwxMTgzODY3OTY3LDE3NT
+Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
+OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
+UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
+NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
+0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
+ODEyODE5NV19
 -->
