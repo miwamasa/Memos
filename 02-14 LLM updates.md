@@ -258,6 +258,8 @@
 - RAGにおけるドキュメント検索精度向上について(概要編)
 	- https://zenn.dev/sompojapan_dx/articles/eb755a18e893ce
 	- 損害保険ジャパン株式会社 DX推進部
+	- ドキュメントに手を加える
+		- **ドキュメント整形/chunking**、**要約生成**、**質問文の拡張**、**Knowledge Graphの活用**
 	- 
 
 ## 11/6
@@ -2706,11 +2708,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTMyMzE0OCwxNjAxMTEwMjI0LC0xNT
-k4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3Mzg2NDcsLTE1NDg1
-ODY5MzMsLTE3NTkxMjU4NTYsLTE1NDg3NTc0NjAsMjA0ODg1MD
-czMCw4NzcyNzIxMDMsMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0x
-MTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NT
-g2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0Nywt
-MjQyOTMwNTldfQ==
+eyJoaXN0b3J5IjpbMzE4NTI2NDA3LDE2MDExMTAyMjQsLTE1OT
+gyNDA4NjQsLTExNTY4Mjk5OTUsLTI5MTczODY0NywtMTU0ODU4
+NjkzMywtMTc1OTEyNTg1NiwtMTU0ODc1NzQ2MCwyMDQ4ODUwNz
+MwLDg3NzI3MjEwMywxMTgzODY3OTY3LDE3NTQ4MjUyODQsLTEx
+Mzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1OTksMTYzNTg1OD
+Y3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOTUwMTE1ODQ3LC0y
+NDI5MzA1OV19
 -->
