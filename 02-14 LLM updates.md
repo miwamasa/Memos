@@ -3,7 +3,7 @@
 
 ## 11/13
 
-今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT 
+今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT Builderと、openaiまわりのエコシステムを破壊するがごときの怒涛のリリース。
 
 
 - ALMA-7B-Ja-V2
@@ -2698,11 +2698,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzODAxMzgwLDg3NzI3MjEwMywxMTgzOD
-Y3OTY3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3
-LC00MTM5MTY1OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyND
-cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
-MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
-c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
-MzkyMzldfQ==
+eyJoaXN0b3J5IjpbMTY0MDI2MTQ0Myw4NzcyNzIxMDMsMTE4Mz
+g2Nzk2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5Nzgz
+NywtNDEzOTE2NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMj
+Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
+LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMT
+k3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMw
+NzM5MjM5XX0=
 -->
