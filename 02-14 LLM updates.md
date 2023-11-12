@@ -54,6 +54,10 @@
 	- いままで、OpenAI Plus(3k円/月)で実現していたものが、Assistans APIで、月1,500円程度の半額になるというお話、なるほど
 - OpenAI APIのRetrievalた多種ファイルに対応
 	- OpenAI API の今回のアップデートに含まれていた Knowledge Retrieval (ファイル内検索を可能にする機能) は PDF はもちろん Word やパワポ、ソースコードも対応してるようだ。 RAG 関連のサービスはホント要らない子になっちゃったね
+- OpenAI Assistantsで試しに英語論文を要約するアシスタント作成例
+	- 今回新たにAPIが発表されたRetrieval機能を使ってPDFファイル添付をしてみてます。
+	- https://x.com/alexweberk/status/1721705504228192373?s=20
+	- DPOの論文26ページ分くらいの要約で$0.80くらい
 - 
 
 ## 11/6
@@ -2502,11 +2506,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwMjUxMTE5LDE3NTQ4MjUyODQsLTExMz
-c0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1OTksMTYzNTg1ODY3
-OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOTUwMTE1ODQ3LC0yND
-I5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0NSwtMjA4NzQ2NDEz
-MCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC0xMDQzMjE1NzIzLC
-00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1ODEyODE5NSw5NTI1
-MjgwNjFdfQ==
+eyJoaXN0b3J5IjpbLTEyNTg5MzY3NDcsMTc1NDgyNTI4NCwtMT
+EzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4
+Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLT
+I0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0
+MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3Mj
+MsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1
+MjUyODA2MV19
 -->
