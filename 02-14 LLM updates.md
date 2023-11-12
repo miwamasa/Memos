@@ -263,6 +263,8 @@
 		- **ドキュメント整形/chunking**、**要約生成**、**質問文の拡張**、**Knowledge Graphの活用**
 	- 検索モデルに手を加える
 		- **検索モデルのfine-tune**、**Re-rankingモデルの活用**
+-  PromptNER: Prompt Locating and Typing for Named Entity Recognition
+	- https://arxiv.org/abs/2305.17104v1
 
 ## 11/6
 
@@ -2710,11 +2712,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTcxMjI4NDMsMTYwMTExMDIyNCwtMT
-U5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkxNzM4NjQ3LC0xNTQ4
-NTg2OTMzLC0xNzU5MTI1ODU2LC0xNTQ4NzU3NDYwLDIwNDg4NT
-A3MzAsODc3MjcyMTAzLDExODM4Njc5NjcsMTc1NDgyNTI4NCwt
-MTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1OD
-U4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcs
-LTI0MjkzMDU5XX0=
+eyJoaXN0b3J5IjpbLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNT
+k4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3Mzg2NDcsLTE1NDg1
+ODY5MzMsLTE3NTkxMjU4NTYsLTE1NDg3NTc0NjAsMjA0ODg1MD
+czMCw4NzcyNzIxMDMsMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0x
+MTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NT
+g2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0Nywt
+MjQyOTMwNTldfQ==
 -->
