@@ -3,6 +3,9 @@
 
 ## 11/13
 
+今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT 
+
+
 - ALMA-7B-Ja-V2
 	- https://huggingface.co/webbigdata/ALMA-7B-Ja-V2
 	- 翻訳タスク特化のALMA-jaのV2来とる！!GPTQもある
@@ -2695,11 +2698,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3MjcyMTAzLDExODM4Njc5NjcsMTc1ND
-gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
-OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
-AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
-LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLT
-EwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4
-MTI4MTk1XX0=
+eyJoaXN0b3J5IjpbMjUzODAxMzgwLDg3NzI3MjEwMywxMTgzOD
+Y3OTY3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3
+LC00MTM5MTY1OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyND
+cwMDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcs
+MTY0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOT
+c0ODk0MDg1LC0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3
+MzkyMzldfQ==
 -->
