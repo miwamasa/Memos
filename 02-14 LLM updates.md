@@ -133,7 +133,9 @@
 - llamaindexもOpenAIのAssistanceに対応
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/openai_assistant_agent.ipynb
 	- OpenAIのRetrievalとllamaindexのRetrievalを組み合わせることが可能！！！
-- 
+- OpenAIのRetrieval APIは、コンテキスト長が長い場合、簡易なtokp-k RAGに切り替えている模様
+	- The OpenAI retrieval API seems to be doing basic top-k RAG on limited context if there's context overflows.
+	- 
 
 
 ## 11/6
@@ -2582,11 +2584,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA4NzM2NzcsMTE4Mzg2Nzk2NywxNz
-U0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2
-NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMT
-k1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4
-NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NS
-wtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1
-NTgxMjgxOTVdfQ==
+eyJoaXN0b3J5IjpbLTI3NzA4MTU0OCwxMTgzODY3OTY3LDE3NT
+Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
+OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
+UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
+NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
+0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
+ODEyODE5NV19
 -->
