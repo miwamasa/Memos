@@ -101,6 +101,12 @@
 - Tokyo Digital Twinが、
 	- https://info.tokyo-digitaltwin.metro.tokyo.lg.jp/
 	- 調布市の3次元 [#点群](https://twitter.com/hashtag/%E7%82%B9%E7%BE%A4?src=hashtag_click) をダウンロードしました! さらに独自の手法にて建物・植物・地表面の自動分類を行いました
+- GPT-4のファインチューニングには、５億円かかる？？？
+	- It costs $2-3 million to train a custom GPT-4 model with your own dataset.
+	- https://x.com/tdinh_me/status/1721835213121265840?s=20
+	- いや、この「Submit」ボタンは押せない。。。
+- GPT4 Turbo はPyllms ベンチマークでGPT4を凌駕
+	- https://github.com/kagisearch/pyllms
 - 
 
 
@@ -2550,7 +2556,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTg2MTczNywxMTgzODY3OTY3LDE3NT
+eyJoaXN0b3J5IjpbMTQ2Mzk1ODMzMywxMTgzODY3OTY3LDE3NT
 Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
 OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
 UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
