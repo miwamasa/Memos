@@ -10,7 +10,7 @@
 	- Microsoftから発表されたテーブルタスクのトレーニングデータを用いて「テーブルチューニング」するモデルTable-GPT
 	- 多様なテーブルタスクにてGPT-3.5やChatGPTより高性能、高い汎用性を示す
 	- https://arxiv.org/abs/2307.08674
-- OpenAI dev 
+- OpenAI dev day
 	- GPT-4 Turbo 発表 
 	- コンテキスト長128k
 	- JSON Mode 
@@ -29,9 +29,11 @@
 	- MFTcoder seamlessly integrates with several mainstream open-source LLMs, such as CodeLLama and Qwen. Leveraging the CodeLLama foundation, our MFTcoder fine-tuned model, CodeFuse-CodeLLama-34B, achieves an impressive pass@1 score of 74.4\% on the HumaneEval benchmark, surpassing GPT-4 performance (67\%, zero-shot).
 - Assistants API の解説と動作確認（Google Colab）
 	- https://note.com/schroneko/n/nd04c46242171
-- llamaindexから、GPT builderを模擬するBuilder Agentの例を公表
+- llamaindexから、OpenAI dev dayをうけGPT builderを模擬するBuilder Agentの例を公表
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_builder.ipynb
-	- 例：トロントのことをｙ
+	- https://x.com/jerryjliu0/status/1721639447207583882?s=20
+	- 例：「トロントのことをよくわかるエージェントを作成」→エージェントができる。。
+- LangChainから、OpenGPT
 
 ## 11/6
 
@@ -2479,7 +2481,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzY1MDUwMywxNzU0ODI1Mjg0LC0xMT
+eyJoaXN0b3J5IjpbMTM5NjMzMjQ0MiwxNzU0ODI1Mjg0LC0xMT
 M3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2
 NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMj
 QyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQx
