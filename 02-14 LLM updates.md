@@ -160,7 +160,13 @@
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/openai_agent_parallel_function_calling.ipynb
 - OpenAI API で提供されている モデル まとめ by npakaさｎ
 	- https://note.com/npaka/n/n5d0a76b149f1?sub_rt=share_sb
-- ## 『生成AIのパラドックス』
+- 『生成AIのパラドックス』
+	- https://aiboom.net/archives/58414
+	-  LLMなどの生成AIの背後にある思考プロセスは人間とは全く異なるかもしれないことを示す仮説
+	- AIが人間のような出力を生成する能力を持ちながら、それを理解する能力は必ずしも伴わないという仮説です（仮説を立てるに至った背景は、前章を参照）。
+- Streamlit+GPT4-Vision+TTSで動画ナレーション自動生成ツールをつくった
+	- https://zenn.dev/olemi/articles/752d205987cb87
+	- 
 
 
 ## 11/6
@@ -2609,11 +2615,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MzUwNzg1LDExODM4Njc5NjcsMTc1ND
-gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
-OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
-AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
-LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLT
-EwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4
-MTI4MTk1XX0=
+eyJoaXN0b3J5IjpbLTU4MTA5OTQxNiwxMTgzODY3OTY3LDE3NT
+Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
+OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
+UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
+NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
+0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
+ODEyODE5NV19
 -->
