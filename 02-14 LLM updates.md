@@ -110,7 +110,12 @@
 	- https://aider.chat/docs/benchmarks-1106.html
 - CoVLM: Composing Visual Entities and Relationships in Large Language Models Via Communicative Decoding
 	- https://huggingface.co/papers/2311.03354
-- 
+- QGIS 3.34で3DTilesが表示できるようになったので、3D都市モデルPLATEAUの3DTilesをQGISで表示してみました
+	- https://x.com/shi__works/status/1721808786393121197?s=20
+	- https://north-road.com/2023/11/07/qgis-3d-tiles-thanks-to-cesium-ecosystem-grant/
+- OpenAI Assistants API(Playground)を使ってコーディングのアドバイスをしてくれるアシスタントを作る
+	- https://zenn.dev/karaage0703/articles/66949a39643557
+	- 
 
 
 ## 11/6
@@ -2559,11 +2564,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4NzMxMDI1LDExODM4Njc5NjcsMTc1ND
-gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
-OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
-AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
-LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLT
-EwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4
-MTI4MTk1XX0=
+eyJoaXN0b3J5IjpbLTE3ODI0MTcxNjUsMTE4Mzg2Nzk2NywxNz
+U0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2
+NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMT
+k1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4
+NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NS
+wtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1
+NTgxMjgxOTVdfQ==
 -->
