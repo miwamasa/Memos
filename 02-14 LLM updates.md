@@ -33,7 +33,12 @@
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_builder.ipynb
 	- https://x.com/jerryjliu0/status/1721639447207583882?s=20
 	- 例：「トロントのことをよくわかるエージェントを作成」→エージェントができる。。
-- LangChainから、OpenGPT
+- LangChainから、OpenGPTの発表、
+	- https://github.com/langchain-ai/opengpts
+	- builds upon LangChain, LangServe and LangSmith This gives you more control over the LLM you us
+- Levels of AGI: Operationalizing Progress on the Path to AGI
+	- https://arxiv.org/pdf/2311.02462.pdf
+	- DeepMin
 
 ## 11/6
 
@@ -2481,11 +2486,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjMzMjQ0MiwxNzU0ODI1Mjg0LC0xMT
-M3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2
-NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMj
-QyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQx
-MzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMy
-wtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUy
-NTI4MDYxXX0=
+eyJoaXN0b3J5IjpbLTEyMjA4ODgyMTAsMTc1NDgyNTI4NCwtMT
+EzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4
+Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLT
+I0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0
+MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3Mj
+MsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1
+MjUyODA2MV19
 -->
