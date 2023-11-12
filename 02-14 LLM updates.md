@@ -251,7 +251,12 @@
 		- 「新しい販売チャネルの開拓」
 		- 「ビジネスプロセス自動化の加速」
 		- 「情報リソース利用の改善」
-- 
+-  LlamaIndex の マルチモーダルRAG のしくみ by npakaさん
+	- https://note.com/npaka/n/n53e8aabed0f2?sub_rt=share_sb
+	- 「GPT-4V API」の導入により、「RAG」の概念をテキスト/画像のハイブリッドに拡張し、さらに大量の(画像を含む) データコーパスから価値を引き出す
+	- SimpleDirectoryReaderの画像拡張
+	- **MultiModalVectorIndex**の導入
+	- 
 
 ## 11/6
 
@@ -2699,11 +2704,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMT
-E1NjgyOTk5NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5
-MTI1ODU2LC0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMT
-AzLDExODM4Njc5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwy
-NjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4Njc5LDIyMzcyND
-kwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLTI0MjkzMDU5LDQz
-NTEwOTQ0N119
+eyJoaXN0b3J5IjpbMTgzNDU2MDE4NSwxNjAxMTEwMjI0LC0xNT
+k4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3Mzg2NDcsLTE1NDg1
+ODY5MzMsLTE3NTkxMjU4NTYsLTE1NDg3NTc0NjAsMjA0ODg1MD
+czMCw4NzcyNzIxMDMsMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0x
+MTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NT
+g2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0Nywt
+MjQyOTMwNTldfQ==
 -->
