@@ -25,7 +25,10 @@
 	- https://www.itmedia.co.jp/news/articles/2311/07/news074.html
 	- プロンプトからの指示で対話しながらオリジナルのChatGPTを構築できる。「Web検索や画像作成、データ分析などと同じくらい簡単」としている
 - MFTCoder: Boosting Code LLMs with Multitask Fine-Tuning
-- 
+	- https://huggingface.co/papers/2311.02303
+	- MFTcoder seamlessly integrates with several mainstream open-source LLMs, such as CodeLLama and Qwen. Leveraging the CodeLLama foundation, our MFTcoder fine-tuned model, CodeFuse-CodeLLama-34B, achieves an impressive pass@1 score of 74.4\% on the HumaneEval benchmark, surpassing GPT-4 performance (67\%, zero-shot).
+- Assistants API の解説と動作確認（Google Colab）
+	- https://note.com/schroneko/n/nd04c46242171
 
 ## 11/6
 
@@ -2473,11 +2476,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzIwMTc4MDMsMTc1NDgyNTI4NCwtMT
-EzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4
-Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLT
-I0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0
-MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3Mj
-MsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1
-MjUyODA2MV19
+eyJoaXN0b3J5IjpbMTE4NzY4MDE5OSwxNzU0ODI1Mjg0LC0xMT
+M3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2
+NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMj
+QyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQx
+MzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMy
+wtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUy
+NTI4MDYxXX0=
 -->
