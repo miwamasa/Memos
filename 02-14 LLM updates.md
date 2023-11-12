@@ -215,7 +215,13 @@
 - 日本語言語モデルのベンチマークテストが更新
 	- 日本語言語モデルのベンチマークテストである Stability-AI/lm-evaluation-harness がアップデートされたため、Youri 7B シリーズのスコアを算出し直しました。 GPTQによる 4bit 量子化モデルのスコアも算出しています。
 	- https://rinnakk.github.io/research/benchmarks/lm/
-- 
+- 生成AIエコシステムについて
+	- 生成AIまわりがすごい楽しいのは、技術そのものはもちろん、理論に詳しい人、いち早く実装に落とすのが得意な人、きれいなアーキテクチャーに落とすのが得意な人、面白いプロダクトに仕立てる人の協力関係がバッチリ噛み合ってるみたいなところがすき
+	- https://x.com/uezochan/status/1722604877644497292?s=20
+- GPT3.5を用いてマルチターン日本語会話データセット(16K)を作りました
+	- https://note.com/shi3zblog/n/nfc07c53d61a8?sub_rt=share_b
+	- Wikipedia日本版データセット(izumi-lab/wikipedia-ja-20230720)とGPT-3.5-Turboでマルチターン会話データセットを作りました。
+	- 
 
 ## 11/6
 
@@ -2663,7 +2669,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTkyODc0MzMsMTE4Mzg2Nzk2NywxNz
+eyJoaXN0b3J5IjpbLTE0NjU3MzQzMDQsMTE4Mzg2Nzk2NywxNz
 U0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2
 NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMT
 k1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4
