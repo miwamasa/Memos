@@ -3,7 +3,7 @@
 
 ## 11/13
 
-今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT Builderと、openaiまわりのエコシステムを破壊するがごときの怒涛のリリース。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せるエージェントを作れるってことと同等。詳しくはNakajimaさんのGPTvsGPTが良い例。早速、LangChainも、LlamaIndexも、Assistant APIをつくってエージェントを作る機能を公開、もともとあるエージェントと組み合わせてみたいな発展も。
+今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT Builderと、openaiまわりのエコシステムを破壊するがごときの怒涛のリリース。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せるエージェントを作れるってことと同等。詳しくはNakajimaさんのGPTvsGPTが良い例。早速、LangChainも、LlamaIndexも、Assistant APIをつくってエージェントを作る機能を公開、もともとあるエージェントと組み合わせてみたいな発展も。openAIのRetreive機能は、pdfやmarkdown等多彩なデータを読んで、コンテキストとしてChatできる機能。まさに、RAGつぶしなんだけども、先駆者によると、コンテキスト長の限界を超えると普通のtop-k式の単純なRAGが動いているのではということ。
 
 
 - ALMA-7B-Ja-V2
@@ -2699,11 +2699,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkxMjU4NTYsLTE1NDg3NTc0NjAsMj
-A0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nzk2NywxNzU0ODI1
-Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LD
-E2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDEx
-NTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLT
-IwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0
-MzIxNTcyM119
+eyJoaXN0b3J5IjpbLTExNDA0MTQ2OTEsLTE3NTkxMjU4NTYsLT
+E1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2
+Nzk2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNy
+wtNDEzOTE2NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3
+MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LD
+E2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3
+NDg5NDA4NV19
 -->
