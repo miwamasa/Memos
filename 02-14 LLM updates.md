@@ -156,7 +156,11 @@
 	- https://note.com/npaka/n/n9fa7204e4af4?sub_rt=share_sb
 - mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration
 	- https://huggingface.co/papers/2311.04257
-- 
+- llamaindexより、parallel function callingによる効率化の例
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/openai_agent_parallel_function_calling.ipynb
+- OpenAI API で提供されている モデル まとめ by npakaさｎ
+	- https://note.com/npaka/n/n5d0a76b149f1?sub_rt=share_sb
+- ## 『生成AIのパラドックス』
 
 
 ## 11/6
@@ -2605,7 +2609,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4MDcxNDgwLDExODM4Njc5NjcsMTc1ND
+eyJoaXN0b3J5IjpbNjk3MzUwNzg1LDExODM4Njc5NjcsMTc1ND
 gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
 OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
 AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
