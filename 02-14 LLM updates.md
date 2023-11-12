@@ -3,7 +3,7 @@
 
 ## 11/13
 
-今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT Builderと、openaiまわりのエコシステムを破壊するがごときの怒涛のリリース。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せるエージェントを作れるってことと同等。詳しくはNakajimaさんのGPTvsGPTが良い例。早速、LangChainも、LlamaIndexも、Assistant APIをつくってエージェントを作る機能を公開、もともとあるエージェントと組み合わせてみたいな発展も。openAIのRetreive機能は、pdfやmarkdown等多彩なデータを読んで、コンテキストとしてChatできる機能。まさに、RAGつぶしなんだけども、先駆者によると、コンテキスト長の限界を超えると普通のtop-k式の単純なRAGが動いているのではということ。自ら（ベクトル化の方法などの）細かいチューニングに走るか、それとも入り口だけ用意してあとは、別のOSS等にという戦略のどちらだろう？GPT-4もファインチューニングできるようになったが、１
+今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT Builderと、openaiまわりのエコシステムを破壊するがごときの怒涛のリリース。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せるエージェントを作れるってことと同等。詳しくはNakajimaさんのGPTvsGPTが良い例。早速、LangChainも、LlamaIndexも、Assistant APIをつくってエージェントを作る機能を公開、もともとあるエージェントと組み合わせてみたいな発展も。openAIのRetreive機能は、pdfやmarkdown等多彩なデータを読んで、コンテキストとしてChatできる機能。まさに、RAGつぶしなんだけども、先駆者によると、コンテキスト長の限界を超えると普通のtop-k式の単純なRAGが動いているのではということ。自ら（ベクトル化の方法などの）細かいチューニングに走るか、それとも入り口だけ用意してあとは、別のOSS等にという戦略のどちらだろう？GPT-4もファインチューニングできるようになったが、５億円のボタンは押せない。。エージェントの作成支援も、llamaindexからbuilder agent、Langchainからも、OpenGTPが発表。OpenAI本家もGPTsで、好みのGPT
 
 
 - ALMA-7B-Ja-V2
@@ -2699,11 +2699,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ3MDM2MTUsLTE3NTkxMjU4NTYsLT
-E1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2
-Nzk2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNy
-wtNDEzOTE2NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3
-MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LD
-E2NDU3NjM4NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3
-NDg5NDA4NV19
+eyJoaXN0b3J5IjpbMTk3MTYzODY1MywtMTc1OTEyNTg1NiwtMT
+U0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgzODY3
+OTY3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC
+00MTM5MTY1OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcw
+MDAxOSwxOTUwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMT
+Y0NTc2Mzg0NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0
+ODk0MDg1XX0=
 -->
