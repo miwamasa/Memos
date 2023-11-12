@@ -3,7 +3,7 @@
 
 ## 11/13
 
-今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT Builderと、openaiまわりのエコシステムを破壊するがごときの怒涛のリリース。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せるエージェントを作れるってことと同等。
+今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT Builderと、openaiまわりのエコシステムを破壊するがごときの怒涛のリリース。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せるエージェントを作れるってことと同等。詳しくはGPTvsGPT
 
 LangChainも、LlamaIndexも
 
@@ -95,6 +95,7 @@ LangChainも、LlamaIndexも
 	- OpenAIの [#AIアシスタント](https://twitter.com/hashtag/AI%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88?src=hashtag_click) は面白いけど、またお金が飛んでいく
 - Assistances APIをつかって、GPTvsGPTを作る例
 	- https://x.com/yoheinakajima/status/1721769833212281231?s=20
+	- https://github.com/yoheinakajima/GPTvsGPT
 	- 例として、地球温暖化テーマに対する、海賊vs人魚の論争をシミュレーション！
 - Langchainから、OpenAIの assistance APIのサポートを発表
 	- https://github.com/langchain-ai/langchain/blob/master/cookbook/openai_v1_cookbook.ipynb
@@ -2700,11 +2701,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4Nz
-cyNzIxMDMsMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0xMTM3NDgw
-NDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2NzksMj
-IzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMjQyOTMw
-NTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQxMzAsLT
-EyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMywtNDI0
-NDI0MjU2XX0=
+eyJoaXN0b3J5IjpbLTIzMjUxMTA4LC0xNTQ4NzU3NDYwLDIwND
+g4NTA3MzAsODc3MjcyMTAzLDExODM4Njc5NjcsMTc1NDgyNTI4
+NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNj
+M1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4
+NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMD
+g3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMy
+MTU3MjNdfQ==
 -->
