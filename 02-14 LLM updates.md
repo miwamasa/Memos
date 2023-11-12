@@ -221,7 +221,11 @@
 - GPT3.5を用いてマルチターン日本語会話データセット(16K)を作りました
 	- https://note.com/shi3zblog/n/nfc07c53d61a8?sub_rt=share_b
 	- Wikipedia日本版データセット(izumi-lab/wikipedia-ja-20230720)とGPT-3.5-Turboでマルチターン会話データセットを作りました。
-	- 
+-  Google Colab で Japanese Wikipedia Conversation による Llama 2 のLoRAファインチューニングを試す
+	- https://note.com/npaka/n/n723766f96cbc?sub_rt=share_sb
+	- **<s> [INST]** 日本の首都は？ **[/INST]** 東京です。**</s><s> [INST]** その場所の観光名所を教えて。 **[/INST]** 東京ドームシティ、サンシャイン60（六万分一）があります。 **</s>**
+- llamaindexから
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/openai_retrieval_benchmark.ipynb
 
 ## 11/6
 
@@ -2669,7 +2673,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU3MzQzMDQsMTE4Mzg2Nzk2NywxNz
+eyJoaXN0b3J5IjpbLTIwODY0NTIzODYsMTE4Mzg2Nzk2NywxNz
 U0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2
 NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMT
 k1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4
