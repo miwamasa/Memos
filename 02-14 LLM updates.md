@@ -182,6 +182,12 @@
 - Zhenjie Yang et al., "A Survey of Large Language Models for Autonomous Driving"
 	- LLMが得意とする「計画、認識、質問応答、生成」の能力が自動運転システムに効果的に使えると主張
 	- https://arxiv.org/abs/2311.01043
+- Cold-Start Data Selection for Few-shot Language Model Fine-tuning: A Prompt-Based Uncertainty Propagation Approach
+	- https://arxiv.org/abs/2209.06995
+	- 良質なデータを収集し少量で高い性能を獲得する試み。
+	- LLMにプロンプトを与え疑似ラベルを予測、分布が一様で不確実性が高い=学習効果が高いとみなす。
+	- ベクトル空間上の距離から周辺も不確実性が高い、かつ採用データ間の距離を空ける。
+	- 128サンプルでフル学習の 90% 超の精度。
 - 
 
 
@@ -2631,7 +2637,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1MzM5MTI4LDExODM4Njc5NjcsMTc1ND
+eyJoaXN0b3J5IjpbLTExNTgxMjQ5LDExODM4Njc5NjcsMTc1ND
 gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
 OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
 AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
