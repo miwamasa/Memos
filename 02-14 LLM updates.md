@@ -64,6 +64,8 @@
 	- https://note.com/npaka/n/n9cd206d96f85?sub_rt=share_sb
 	- 「Function Calling」に、単一メッセージから複数のFunction (「車の窓を開けてエアコンをオフにする」など) を呼び出す機能などが追加されました。精度も向上しています
 	- 16Kコンテキストウィンドウをサポートする新しい「GPT-3.5 Turbo」もリリースします。指示追従、 JSONモード、並列 Function Callingをサポート
+	- 「Assistant API」は、特定の指示を持ち、追加の知識を活用し、モデルやツールを呼び出してタスクを実行できる専用のAIです。
+	- アシスタントは、必要に応じて、**Code Interpreter**、**Retrieval**、**Function Calling**を呼び出せる
 	- 
 
 ## 11/6
@@ -2512,7 +2514,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjE1NTcyMCwxNzU0ODI1Mjg0LC0xMT
+eyJoaXN0b3J5IjpbMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0xMT
 M3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2
 NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMj
 QyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQx
