@@ -229,7 +229,12 @@
 	- OpenAIのRAGが、llamaindexの5行のコードに劣っていると、、、
 - LLM OS
 	- https://x.com/karpathy/status/1723140519554105733?s=20
-	- 
+	- Specs:
+		- LLM: OpenAI GPT-4 Turbo 256 core (batch size) processor @ 20Hz (tok/s)
+		- RAM: 128Ktok
+		- Filesystem: Ada002
+- ChatGPTは、コピーライターやデザイナーの雇用を奪うとともに、単価も下げている
+	- 米国の最新研究は、ChatGPTの立ち上げから数カ月で、主要なオンラインフリーランスのコピーライターやデザイナーの仕事の数が大幅に減少し、収入も急激に減ったと報じている↓。
 
 ## 11/6
 
@@ -2677,11 +2682,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTY0NjIxMywxMTgzODY3OTY3LDE3NT
-Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
-OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
-UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
-NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
-0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
-ODEyODE5NV19
+eyJoaXN0b3J5IjpbMzY1MDU2Nzg1LDExODM4Njc5NjcsMTc1ND
+gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
+OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
+AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
+LC0yMDg3NDY0MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLT
+EwNDMyMTU3MjMsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4
+MTI4MTk1XX0=
 -->
