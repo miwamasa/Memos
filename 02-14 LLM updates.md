@@ -3,7 +3,7 @@
 
 ## 11/13
 
-今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT Builderと、openaiまわりのエコシステムを破壊するがごときの怒涛のリリース。
+今週は、OpenAI Dev Dayが全てであった。GPT-4 TurboやAssistant APIや、最後に独自のGPTをつくれるGPT Builderと、openaiまわりのエコシステムを破壊するがごときの怒涛のリリース。Assistant APIって、LangChainも、LlamaIndexも
 
 
 - ALMA-7B-Ja-V2
@@ -2698,7 +2698,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDI2MTQ0Myw4NzcyNzIxMDMsMTE4Mz
+eyJoaXN0b3J5IjpbMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mz
 g2Nzk2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5Nzgz
 NywtNDEzOTE2NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMj
 Q3MDAwMTksMTk1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3
