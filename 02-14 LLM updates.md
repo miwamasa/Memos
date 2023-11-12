@@ -270,7 +270,8 @@
 - 「アナロジア」ジョージ・ダイソンより
 	- 連続体仮設はデジタル・コンピューティングも、アナログ・コンピューティングもどちらも無限の力を持つが、それぞれがどれだけ進化しても発揮する力が異なることを示唆している(P292)
 	- アナログ・コンピューティングでは複雑性はコードでなくアーキテクチャに宿る。
-	- デジタル・こんぴゅ１
+	- デジタル・コンピュータは硬直化してノイズをに対する耐性を失ってしまった、アナログ・コンピュータである
+	- アナログ・コンピュータはノイズを受け入れるばかりが
 
 ## 11/6
 
@@ -2718,11 +2719,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzkyNDE1Niw1MTgwNzQ5LC0xODI1Nj
-U2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2
-NCwtMTE1NjgyOTk5NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC
-0xNzU5MTI1ODU2LC0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3
-MjcyMTAzLDExODM4Njc5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MD
-Q2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4Njc5LDIy
-MzcyNDkwOV19
+eyJoaXN0b3J5IjpbLTEwNzQyOTk2NTksNTE4MDc0OSwtMTgyNT
+Y1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4
+NjQsLTExNTY4Mjk5OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMy
+wtMTc1OTEyNTg1NiwtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3
+NzI3MjEwMywxMTgzODY3OTY3LDE3NTQ4MjUyODQsLTExMzc0OD
+A0NjgsMjYxMTk3ODM3LC00MTM5MTY1OTksMTYzNTg1ODY3OSwy
+MjM3MjQ5MDldfQ==
 -->
