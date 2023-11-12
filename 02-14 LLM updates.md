@@ -90,6 +90,10 @@
 - Assistances APIをつかって、GPTvsGPTを作る例
 	- https://x.com/yoheinakajima/status/1721769833212281231?s=20
 	- 例として、地球温暖化テーマに対する、海賊vs人魚の論争をシミュレーション！
+- Langchainから、OpenAIの assistance APIのサポートを発表
+	- https://github.com/langchain-ai/langchain/blob/master/cookbook/openai_v1_cookbook.ipynb
+	- Spin up OpenAI assistants and run them as any other LangChain agent!
+	- LangChainのAgentと同じように、OpenAIのagentを使える、らしい
 - 
 
 ## 11/6
@@ -2538,7 +2542,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzAzNTY5MywxMTgzODY3OTY3LDE3NT
+eyJoaXN0b3J5IjpbMTgwMTE1ODIwNiwxMTgzODY3OTY3LDE3NT
 Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
 OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
 UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
