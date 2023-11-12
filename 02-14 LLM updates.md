@@ -143,6 +143,12 @@
 	- https://x.com/vladquant/status/1721674365211738269?s=20
 -  Google Colab で OpenAI API の Function Calling を試す by npakaさん
 	- https://note.com/npaka/n/nc3713dba5df6?sub_rt=share_sb
+	- 群馬県の気温を教えてください
+-  Re-evaluating Retrosynthesis Algorithms with Syntheseus
+	- https://arxiv.org/abs/2310.19796v1
+	- 逆合成のベンチマーク論文。
+	- 狙いの材料から原料を予測する逆合成予測では各論文で評価方法が異なっていましたが、Microsoftさんらはベンチマークライブラリを構築、これによりモデルのランキングが従来と変わることが分かったそうです。
+- 
 
 
 ## 11/6
@@ -2591,7 +2597,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDIyMzY0OCwxMTgzODY3OTY3LDE3NT
+eyJoaXN0b3J5IjpbLTEwMzg1NjYxMCwxMTgzODY3OTY3LDE3NT
 Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
 OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
 UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
