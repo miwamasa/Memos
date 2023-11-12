@@ -95,6 +95,12 @@
 	- Spin up OpenAI assistants and run them as any other LangChain agent!
 	- LangChainのAgentと同じように、OpenAIのagentを使える、らしい
 	- OpenAIAssistantRunnable.create_assistan
+- Contrastive Error Attribution for Finetuned Language Models
+	- https://arxiv.org/abs/2212.10722v2
+	- 文書生成においてハルシネーションを引き起こすデータセット内のデータを高精度で特定する手法の提案。
+- Tokyo Digital Twinが、
+	- https://info.tokyo-digitaltwin.metro.tokyo.lg.jp/
+	- 調布市の3次元 [#点群](https://twitter.com/hashtag/%E7%82%B9%E7%BE%A4?src=hashtag_click) をダウンロードしました! さらに独自の手法にて建物・植物・地表面の自動分類を行いました
 - 
 
 
@@ -2544,11 +2550,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDMyMDA1ODMsMTE4Mzg2Nzk2NywxNz
-U0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2
-NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMT
-k1MDExNTg0NywtMjQyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4
-NDUsLTIwODc0NjQxMzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NS
-wtMTA0MzIxNTcyMywtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1
-NTgxMjgxOTVdfQ==
+eyJoaXN0b3J5IjpbLTY5NTg2MTczNywxMTgzODY3OTY3LDE3NT
+Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
+OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
+UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
+NSwtMjA4NzQ2NDEzMCwtMTIyMDA5MDk1MCwxOTc0ODk0MDg1LC
+0xMDQzMjE1NzIzLC00MjQ0MjQyNTYsLTEyMzA3MzkyMzksMTU1
+ODEyODE5NV19
 -->
