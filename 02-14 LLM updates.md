@@ -166,7 +166,14 @@
 	- AIが人間のような出力を生成する能力を持ちながら、それを理解する能力は必ずしも伴わないという仮説です（仮説を立てるに至った背景は、前章を参照）。
 - Streamlit+GPT4-Vision+TTSで動画ナレーション自動生成ツールをつくった
 	- https://zenn.dev/olemi/articles/752d205987cb87
-	- 
+	-  動画からフレーム画像を抽出し、Base64形式に変換する
+	- GPT4-Visionに動画のナレーションを生成させる
+	- 生成されたテキストから、TTS APIで音声ファイルを生成する
+	- Streamlitで、テキストと音声ファイルを表示・ダウンロード可能にする
+-  Google Colab で PLaMo-13B-Instruct を試す by npakaさん
+	- https://note.com/npaka/n/n97a1ac080f76?sub_rt=share_sb
+- 
+	- https://github.com/nouu-me/document_vector_search_benchmark
 
 
 ## 11/6
@@ -2615,7 +2622,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTA5OTQxNiwxMTgzODY3OTY3LDE3NT
+eyJoaXN0b3J5IjpbLTM5MDc0MTI3NCwxMTgzODY3OTY3LDE3NT
 Q4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00MTM5MTY1
 OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIyNDcwMDAxOSwxOT
 UwMTE1ODQ3LC0yNDI5MzA1OSw0MzUxMDk0NDcsMTY0NTc2Mzg0
