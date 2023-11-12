@@ -43,8 +43,11 @@
 -  OpenAI Python API Library v1.0 入門　by npakaさん
 	- https://note.com/npaka/n/n27b94df96179?sub_rt=share_sb
 	- 「OpenAI Python API Library」のインタフェースが一新された、らしい
-- 
+- GPT-4のfine-tuningで有効なgainを得ることが3.5-turboより難しい
+	- パートナーを選ぶ形でCustom Models programを提供する戦略へ転換か、
+	- GPT-4がすごすぎるので、中途半端なファインチューニングはかえって性能を劣化させる。。。。
 	- https://openai.com/blog/new-models-and-developer-products-announced-at-devday
+- 
 
 ## 11/6
 
@@ -2492,11 +2495,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTYzODM4MjMsMTc1NDgyNTI4NCwtMT
-EzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4
-Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLT
-I0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0
-MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3Mj
-MsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1
-MjUyODA2MV19
+eyJoaXN0b3J5IjpbMTcwMDE5NjQzNywxNzU0ODI1Mjg0LC0xMT
+M3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2
+NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMj
+QyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQx
+MzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMy
+wtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUy
+NTI4MDYxXX0=
 -->
