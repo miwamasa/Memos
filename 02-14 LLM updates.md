@@ -152,6 +152,10 @@
 	- https://note.com/npaka/n/nb90306341d41?sub_rt=share_sb
 - GPT-3.5 Turbo の価格が Fireworks や Anyscale などの OSS LLM デプロイサービスの 70B のデプロイ価格と全然競争できるレベル
 	- どうも今回の OpenAI の価格改定で、GPT-3.5 Turbo の価格が Fireworks や Anyscale などの OSS LLM デプロイサービスの 70B のデプロイ価格と全然競争できるレベルまで掛かっているらしく、OSS LLM が普及しないのは結局 OpenAI の API がクソ安すぎるからでは？という指摘
+- OpenAI API の Assistant API のしくみ
+	- https://note.com/npaka/n/n9fa7204e4af4?sub_rt=share_sb
+- mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration
+	- https://huggingface.co/papers/2311.04257
 - 
 
 
@@ -2601,7 +2605,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjY0NjE4LDExODM4Njc5NjcsMTc1ND
+eyJoaXN0b3J5IjpbOTE4MDcxNDgwLDExODM4Njc5NjcsMTc1ND
 gyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5
 OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NT
 AxMTU4NDcsLTI0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1
