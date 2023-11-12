@@ -1,6 +1,10 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+## 11/13
+
+- 
+
 ## 11/6
 
 今週は、RinnaのYouri 7Bの発表(10/31)、Japanese Stable LM Beta 70Bの発表(11/2)、同日CyberAgentLM2-7B（CALM2 -7B）の公開(11/2)等、日本語LLMの発表・公開が相次ぐ。あっという間に4bit 量子化モデルも公開されて手元で試せるように。。。70Bもびっくりするが、特にCalm2は3万2000トークン（日本語で約5万字）に対応していて、RAG不要かも。ColabでもA100ならば動かせるらしい。ソフトバンクのLLM開発始動や、NTTの日本語対応言語モデルのtsuzumiの発表、牧野先生が、MM-core専任？になるとの話題もあり、日本でもLLMのインフラが今後そろってくるのは楽しみ。日本語事前学習済みモデルをSimCSEって、LLM本(大規模言語モデル入門)で紹介されていたやつ。説明可能AIによるペロブスカイト太陽電池開発って、AIに説明させて人間が次を考えるという、AIと人との協調の新しい未来の形。LLM評価のサーベイ論文、後で読もう。 TinyLLaMa、どこまで小さくできるか、こういうアプローチいいなあ、本当に1.1Bでどこまでいける？LLMを利用したFAQ検索の評価データセット作成の工夫とか、LangChainのアプリテンプレートの公開とか、実用面に近い開発も進展あり。npakaさんの、LangChain、LLamaIndexの紹介記事、コンパクトで最新の情報なのでお得。ちょうど日経新聞で紹介された、岩波新書の『言語哲学がはじまる』、フレーゲ、ラッセル、ヴィトゲンシュタイン、もし彼らが今生きていたらLLMをどう研究したのか。XのGrok-1は次週に続くだな。
@@ -2447,11 +2451,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg5MTAwOCwxNzU0ODI1Mjg0LC0xMT
-M3NDgwNDY4LDI2MTE5NzgzNywtNDEzOTE2NTk5LDE2MzU4NTg2
-NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTksMTk1MDExNTg0NywtMj
-QyOTMwNTksNDM1MTA5NDQ3LDE2NDU3NjM4NDUsLTIwODc0NjQx
-MzAsLTEyMjAwOTA5NTAsMTk3NDg5NDA4NSwtMTA0MzIxNTcyMy
-wtNDI0NDI0MjU2LC0xMjMwNzM5MjM5LDE1NTgxMjgxOTUsOTUy
-NTI4MDYxXX0=
+eyJoaXN0b3J5IjpbLTE0NTc1MTM3ODAsMTc1NDgyNTI4NCwtMT
+EzNzQ4MDQ2OCwyNjExOTc4MzcsLTQxMzkxNjU5OSwxNjM1ODU4
+Njc5LDIyMzcyNDkwOSwxMjI0NzAwMDE5LDE5NTAxMTU4NDcsLT
+I0MjkzMDU5LDQzNTEwOTQ0NywxNjQ1NzYzODQ1LC0yMDg3NDY0
+MTMwLC0xMjIwMDkwOTUwLDE5NzQ4OTQwODUsLTEwNDMyMTU3Mj
+MsLTQyNDQyNDI1NiwtMTIzMDczOTIzOSwxNTU4MTI4MTk1LDk1
+MjUyODA2MV19
 -->
