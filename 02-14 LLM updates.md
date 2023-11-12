@@ -267,6 +267,7 @@
 	- https://www.hayakawabooks.com/n/n6b8cf31a9472
 	- 大規模言語モデルはいわゆる言語の地図とも言えるものであり、いろいろなAIは、その地図を辿って有用な目的地までデジタル方式のアルゴリズムでナビゲーションをしているだけです。
 	- こうした地図はまだ市販の画像処理用チップGPUでシミュレーションされただけのものですが、いずれこうした（言語ばかりかイメージやありとあらゆる事象を重みづけする）巨大なモデル専用のアナログチップが利用されるようになり、徐々に浸透していき現行のシステムに代わっていくと思います。
+- 「
 
 ## 11/6
 
@@ -2714,11 +2715,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNj
-AxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3
-Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1NDg3NT
-c0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nzk2Nywx
-NzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywtNDEzOT
-E2NTk5LDE2MzU4NTg2NzksMjIzNzI0OTA5LDEyMjQ3MDAwMTks
-MTk1MDExNTg0N119
+eyJoaXN0b3J5IjpbODU5MTA5MjQ4LC0xODI1NjU2MTgxLC05NT
+c4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1Njgy
+OTk5NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1OD
+U2LC0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDEx
+ODM4Njc5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOT
+c4MzcsLTQxMzkxNjU5OSwxNjM1ODU4Njc5LDIyMzcyNDkwOSwx
+MjI0NzAwMDE5XX0=
 -->
