@@ -268,7 +268,8 @@
 	- 大規模言語モデルはいわゆる言語の地図とも言えるものであり、いろいろなAIは、その地図を辿って有用な目的地までデジタル方式のアルゴリズムでナビゲーションをしているだけです。
 	- こうした地図はまだ市販の画像処理用チップGPUでシミュレーションされただけのものですが、いずれこうした（言語ばかりかイメージやありとあらゆる事象を重みづけする）巨大なモデル専用のアナログチップが利用されるようになり、徐々に浸透していき現行のシステムに代わっていくと思います。
 - 「アナロジア」ジョージ・ダイソンより
-	- デジタル・コンピュータも、アナログ・こんｐ
+	- 連続体仮設はデジタル・コンピューティングも、アナログ・コンピューティングもどちらも無限の力を持つが、それぞれがどれだけ進化しても発揮する力が異なることを示唆している(P292)
+	- 
 
 ## 11/6
 
@@ -2716,11 +2717,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODY4OTcyMiwtMTgyNTY1NjE4MSwtOT
-U3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4
-Mjk5OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNT
-g1NiwtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywx
-MTgzODY3OTY3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMT
-k3ODM3LC00MTM5MTY1OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDks
-MTIyNDcwMDAxOV19
+eyJoaXN0b3J5IjpbNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
+Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
+OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
+wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
+ODY3OTY3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3OD
+M3LC00MTM5MTY1OTksMTYzNTg1ODY3OSwyMjM3MjQ5MDksMTIy
+NDcwMDAxOV19
 -->
