@@ -176,7 +176,11 @@
 	- https://www.slideshare.net/matsuolab/
 	- 黄色い本はやっぱり、聖典
 - OpenCopilot
-- 
+	- https://github.com/openchatai/OpenCopilot
+- tldrawが洒落にならないぐらい優れている
+	- https://makereal.tldraw.com/
+	- ラフなUIの図解や説明をつくるだけで、GPT-4Vで認識して良い感じに仕様を解釈して実際に動くモックアップを作ってくれる
+- 紗々氏、NTT
 	
 ## 11/13
 
@@ -2901,7 +2905,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyNzI4NzMxLC0xNzYxNDYxNjUxLDIwMz
+eyJoaXN0b3J5IjpbMjU3MDgzNzQ0LC0xNzYxNDYxNjUxLDIwMz
 M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
 LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
 I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
