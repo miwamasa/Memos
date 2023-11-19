@@ -169,7 +169,14 @@
 	- https://x.com/kohyama_met/status/1724986380546408878?s=20
 	- 「AI気象予報論文」の感想を投稿したら思いのほか反響が大きかったので、気象学者かつ情報科学科教員として、いくらか真面目に解説します。
 	- アーキテクチャが従来型モデルの不得手にうまくハマっている
-- Research Assistantのてぷれ
+- Research Assistantのテンプレートが公開される
+	- https://github.com/langchain-ai/langchain/tree/master/templates/research-assistant
+	- With this template you can easily plug in an arbitrary retriever, allowing you to do research over a knowledge base of your choice.
+- 東大 松尾研のPRML（パターン認識と機械学習）輪読会スライド集
+	- https://www.slideshare.net/matsuolab/
+	- 黄色い本はやっぱり、聖典
+- OpenCopilot
+- 
 	
 ## 11/13
 
@@ -2894,11 +2901,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDUwNzcyNDUsLTE3NjE0NjE2NTEsMj
-AzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Njkx
-MzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NS
-wtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0x
-NTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4Nj
-c5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4Mzcs
-LTQxMzkxNjU5OV19
+eyJoaXN0b3J5IjpbOTUyNzI4NzMxLC0xNzYxNDYxNjUxLDIwMz
+M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
+LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
+I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
+ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgzODY3OT
+Y3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00
+MTM5MTY1OTldfQ==
 -->
