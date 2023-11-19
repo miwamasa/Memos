@@ -7,7 +7,9 @@
 	- https://medium.com/@yu-joshua/adding-structure-aware-retrieval-to-genai-stack-373976de14d6
 	- 単なるembeddingをつかった類似検索のRAGではなくて、構造を抽出したうえでの、RAGっての有効であることを、neo4j+LangChainの実例で示した良例
 	- This stack is (1) fully local, (2) uses advanced retrieval methods that encode relationships between different chunks of texts
-- 
+- LlamaIndex によるOpenAIの新機能を使用・理解するためのガイド by npakaさん
+	- https://note.com/npaka/n/n728fdb8f76da?sub_rt=share_sb
+	- Parallel Function Calling、Assistant API Agent、
 
 ## 11/13
 
@@ -2732,11 +2734,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwMTMwNTI1LC0xNzYxNDYxNjUxLDIwMz
-M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
-LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
-I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
-ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgzODY3OT
-Y3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00
-MTM5MTY1OTldfQ==
+eyJoaXN0b3J5IjpbLTEzOTIxMjc2NTUsLTE3NjE0NjE2NTEsMj
+AzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Njkx
+MzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NS
+wtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0x
+NTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4Nj
+c5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4Mzcs
+LTQxMzkxNjU5OV19
 -->
