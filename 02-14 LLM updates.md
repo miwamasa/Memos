@@ -52,8 +52,11 @@
 	- ディープ ニューラル ネットワークは、各層間に要素ごとの非線形性を持つ線形回帰のサンドイッチ構造です。LLM/GPT の爆発的な増加に直接つながった「Attending is All You Need」の核となる貢献、そこに *ロジスティック* 回帰を非線形層に投げ込むことですまた、ドロップアウトについては@geoffreyhinton 、活性化正規化については@ChrSzegedy 、および勾配正規化については@dpkingmaによるものです (Adam)。
 - ローカルLLMを動かすPCを自作
 	- https://note.com/ai_meg/n/n8855a8dd4bbd?sub_rt=share_pb
-	- マザーボード：　Asrok　B760 PRO RS/DS  
-	- CPU：　　　　　i5-13400F  GPU:　　　　　　PALIT　GFORCE-RTX4060ti-16G
+	- マザーボード：Asrok　B760 PRO RS/DS  
+	- CPU：i5-13400F  
+	- GPU:PALIT　GFORCE-RTX4060ti-16G
+- 
+	- 
 	
 ## 11/13
 
@@ -2778,11 +2781,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwNjQyOTMyLC0xNzYxNDYxNjUxLDIwMz
-M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
-LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
-I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
-ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgzODY3OT
-Y3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00
-MTM5MTY1OTldfQ==
+eyJoaXN0b3J5IjpbLTUyMzI3MTg3NywtMTc2MTQ2MTY1MSwyMD
+MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
+NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
+0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
+NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
+k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
+NDEzOTE2NTk5XX0=
 -->
