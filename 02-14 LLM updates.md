@@ -12,7 +12,15 @@
 	- Parallel Function Calling、Assistant API Agent、Function Callingによる高度なRAG、マルチモーダルRAG
 	- GPT Builder、プロンプトを自動性生成することで、GPTを生成するmetaなツール
 	- 「text-to-SQL と semantic search のジョイント」なんかは興味深い
-- 日本の女性が先進国の中で長命なのは、しゃかいしんしつ
+- 日本の女性が先進国の中で長命なのは、社会進出が進まなかったから？
+	- 旭リサーチ
+	- https://arc.asahi-kasei.co.jp/report/arc_report/pdf/rs-824.pdf
+	- 「先進国の中では女性の社会進出が進まなかったことが、 世界一の女性長寿に結びついたと思われる。」 
+	- 「均等法は女性の平均寿命を短縮させる要因である。」
+- gpt-3.5-turbo-1106を使った、新しいOpenAIのファインチューニング
+	- https://x.com/matsu_vr/status/1723688378795958670?s=20
+	- でお嬢様チューニングしてみました。200例の会話で十分お嬢様になった！
+- 
 	
 ## 11/13
 
@@ -2737,7 +2745,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTU1OTY0NSwtMTc2MTQ2MTY1MSwyMD
+eyJoaXN0b3J5IjpbMTQ0OTAzMTUwNywtMTc2MTQ2MTY1MSwyMD
 MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
 NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
 0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
