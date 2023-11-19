@@ -73,6 +73,9 @@
 - 岡野原さんの、「拡散モデル」が今年度の大川出版賞に選出
 	- https://hillbig.github.io/diffusion-models/
 	- http://www.okawa-foundation.or.jp/activities/publications_prize/list.html
+- これは衝撃!1.5Bで超高性能LLM!RWKV-5-World-v2 by shi3zさん
+	- https://note.com/shi3zblog/n/nfc8dd1abf494?sub_rt=share_pb
+	- まだ生きてたのか、RWKV
 - 
 	
 ## 11/13
@@ -2798,7 +2801,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDgzNTQ4OCwtMTc2MTQ2MTY1MSwyMD
+eyJoaXN0b3J5IjpbMTM3MTc2NjIyMiwtMTc2MTQ2MTY1MSwyMD
 MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
 NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
 0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
