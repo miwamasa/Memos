@@ -55,8 +55,13 @@
 	- マザーボード：Asrok　B760 PRO RS/DS  
 	- CPU：i5-13400F  
 	- GPU:PALIT　GFORCE-RTX4060ti-16G
-- 
-	- 
+- RETOOLのState of AIレポート
+	- https://retool.com/reports/state-of-ai-2023
+	- 66% of companies have at least one AI use case live
+	- Accuracy is #1 concern
+	- RAG is 2nd most popular use case (1st is code)
+	- @llama_index is one of the leading frameworks for enterprises 
+- OpenGPTはどんどんすす
 	
 ## 11/13
 
@@ -2781,11 +2786,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzI3MTg3NywtMTc2MTQ2MTY1MSwyMD
-MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
-NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
-0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
-NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
-k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
-NDEzOTE2NTk5XX0=
+eyJoaXN0b3J5IjpbNjQwODQyODA2LC0xNzYxNDYxNjUxLDIwMz
+M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
+LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
+I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
+ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgzODY3OT
+Y3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00
+MTM5MTY1OTldfQ==
 -->
