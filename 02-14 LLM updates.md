@@ -117,7 +117,12 @@
 	- https://x.com/behemuhemulove/status/1724408454348194303?s=20
 - 【HELP ME】Assistants APIで破産しそうになった話
 	- https://note.com/nike_cha_n/n/n65a6101d59d7
-	- 
+	- ちゃんと計算しないとあっという間に上限に達するかも、
+- Knowledge-Augmented Large Language Models for Personalized Contextual Query Suggestion
+	- https://arxiv.org/abs/2311.06318
+	- MSより
+	- Microsoft Research presents a method to personalize LLMs for search via entity-based user knowledge stores derived from logs.
+- 
 	
 ## 11/13
 
@@ -2842,7 +2847,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ2MDMwODg4LC0xNzYxNDYxNjUxLDIwMz
+eyJoaXN0b3J5IjpbMzUyNjY1NDczLC0xNzYxNDYxNjUxLDIwMz
 M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
 LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
 I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
