@@ -195,7 +195,13 @@
 	- https://x.com/behemuhemulove/status/1725749314000175387?s=20
 	- 主な問題点 (1) クロスバリデーションの評価なし (2) 短期予想モデルの結果を繋ぎ合わせて長期のシナリオを作っている 明日の天気を高確率で当てるモデルを作っても、その予想を繋ぎ合わせ、、、
 	- be氏より、（2）は例えば1年後の予測するとして1ヶ月ずつ予測してくのか、年単位で予測してくか位の違いしかなく、統計学やMLでは全く問題ないと思うので、この点叩いてる方が統計学の観点から無知にみえる
--  create-llama によるLlamaIndexアプリの作成
+-  create-llama によるLlamaIndexアプリの作成 by npakaさん
+	- https://note.com/npaka/n/neafa42455864?sub_rt=share_h
+- 体軸が直立した時点が人類が自己を認識した分岐点かもしれない
+	- https://x.com/daijapan/status/1725841037086892358?s=20
+	- 認知科学講座より、
+- Building Research Assistant	
+	- https://www.youtube.com/watch?v=DjuXACWYkkU
 	
 ## 11/13
 
@@ -2920,11 +2926,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzkyODQwODcsLTI3MTMwMDI2OSwtMT
-c2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYx
-ODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC
-0xMTU2ODI5OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3
-NTkxMjU4NTYsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNz
-IxMDMsMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4
-LDI2MTE5NzgzN119
+eyJoaXN0b3J5IjpbODU4NjM5ODc3LC0yNzEzMDAyNjksLTE3Nj
+E0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgx
+LC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMT
+E1NjgyOTk5NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5
+MTI1ODU2LC0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMT
+AzLDExODM4Njc5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwy
+NjExOTc4MzddfQ==
 -->
