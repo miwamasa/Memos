@@ -10,8 +10,9 @@
 - LlamaIndex によるOpenAIの新機能を使用・理解するためのガイド by npakaさん
 	- https://note.com/npaka/n/n728fdb8f76da?sub_rt=share_sb
 	- Parallel Function Calling、Assistant API Agent、Function Callingによる高度なRAG、マルチモーダルRAG
-	- GPT Builder
+	- GPT Builder、プロンプトを自動性生成することで、GPTを生成するmetaなツール
 	- 「text-to-SQL と semantic search のジョイント」なんかは興味深い
+- 日本の女性が先進国の中で長命なのは、しゃかいしんしつ
 	
 ## 11/13
 
@@ -2736,7 +2737,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDE4NzA3OSwtMTc2MTQ2MTY1MSwyMD
+eyJoaXN0b3J5IjpbMTk2OTU1OTY0NSwtMTc2MTQ2MTY1MSwyMD
 MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
 NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
 0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
