@@ -103,9 +103,16 @@
 - create-llama, a command line tool to generate LlamaIndex apps
 	- https://blog.llamaindex.ai/create-llama-a-command-line-tool-to-generate-llamaindex-apps-8f7683021191
 	- コマンドラインでllamaindexをつかたたアプリを生成する仕組みの公開！！！
-- GPT4などが、常識をもっているかどうかのて
+- GPT4などが、常識をもっているかどうかのテストデータセットによる評価
 	- https://github.com/allenai/everyday-things
 	- The LLMs have poor accuracy (54-59%) on commonsense spatial/functional relationships in ParRoT dataset.
+	- This suggests the LMs do not have fully coherent conceptual pictures of everyday objects.
+- LLMA Factory
+	- https://github.com/hiyouga/LLaMA-Factory
+	- Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM)
+- WebPilot
+	- https://chat.openai.com/g/g-pNWGgUYqS-webpilot
+	- 
 	
 ## 11/13
 
@@ -2830,11 +2837,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0Njc5ODY5LC0xNzYxNDYxNjUxLDIwMz
-M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
-LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
-I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
-ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgzODY3OT
-Y3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00
-MTM5MTY1OTldfQ==
+eyJoaXN0b3J5IjpbMTg0NTk2MTIyMCwtMTc2MTQ2MTY1MSwyMD
+MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
+NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
+0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
+NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
+k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
+NDEzOTE2NTk5XX0=
 -->
