@@ -44,7 +44,12 @@
 	- Buonomano『脳と時間』によれば、脳には単一のクロックはない（多重時計原理）。が、進化の過程で生物が相手にしてきた時間スケールより大幅に速い情報処理はできないだろう。一方、情報の「量」に関してはまだ工夫できるかもしれない。
 - DPOでcalm2の物語生成能力を向上させる試み、
 	- https://x.com/_oshizo_/status/1724039980463657130?s=20
-- リアルタイムでLLM
+- リアルタイムでLLMが文字を生成する様子のデモ、
+	- https://x.com/dylfreed/status/1723927399857901724?s=20
+	- llamacppをつかって8GB RAM MacBook Airで動くんだとさ
+- LLMって結局何かをシンプルに説明する
+	- https://x.com/davidad/status/1723990400682148124?s=20
+	- 
 	
 ## 11/13
 
@@ -2769,11 +2774,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5NDkwNzMwLC0xNzYxNDYxNjUxLDIwMz
-M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
-LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
-I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
-ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgzODY3OT
-Y3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00
-MTM5MTY1OTldfQ==
+eyJoaXN0b3J5IjpbLTYyNDYxMDU3MywtMTc2MTQ2MTY1MSwyMD
+MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
+NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
+0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
+NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
+k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
+NDEzOTE2NTk5XX0=
 -->
