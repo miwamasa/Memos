@@ -154,10 +154,15 @@
 	- https://zenn.dev/elyza/articles/fcbf103e0a05b1
 - わずか1分で10日間の天気を予測可能なAI「GraphCast」をGoogle DeepMindが発表、スパコンで数時間かけた予測より高精度
 	- https://gigazine.net/news/20231115-google-graphcast-global-weather-forecasting/
+	- https://github.com/google-deepmind/graphcast
 - RAG over Governments Document
 	- https://github.com/deptofdefense/LLMs-at-DoD/blob/main/tutorials/Chatting%20with%20your%20Docs.ipynb
 - GGUF 版の 5 bit 量子化された Llama 2 を WasmEdge で。7B が 24 token / sec で動作しました↓
-	- 
+	- https://www.secondstate.io/articles/fast-llm-inference/
+	- Mac ユーザは見たらとりあえず試して。コマンド４行叩くだけなので！Rust x Wasm で Llama 2 推論がローカルで動きます
+- ELYZA-japanese-CodeLlama-7b-instructのggufフォーマット変換版
+	- https://huggingface.co/mmnga/ELYZA-japanese-CodeLlama-7b-instruct-gguf
+- 
 	
 ## 11/13
 
@@ -2882,11 +2887,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mzk3MjIzNSwtMTc2MTQ2MTY1MSwyMD
-MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
-NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
-0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
-NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
-k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
-NDEzOTE2NTk5XX0=
+eyJoaXN0b3J5IjpbLTExOTAwNTI3NzMsLTE3NjE0NjE2NTEsMj
+AzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Njkx
+MzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NS
+wtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0x
+NTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4Nj
+c5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4Mzcs
+LTQxMzkxNjU5OV19
 -->
