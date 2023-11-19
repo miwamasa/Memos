@@ -202,6 +202,11 @@
 	- 認知科学講座より、
 - Building Research Assistant	
 	- https://www.youtube.com/watch?v=DjuXACWYkkU
+	- YouTube tutorial on building one from scratch. Covers LCEL, LangSmith, parallelization, retrievers
+- Ilya Sutskeverって誰ぞ？
+	- https://x.com/mr_bay_area/status/1725808417376473167?s=20
+	- 「自然言語処理業界が深層学習一色になる流れを決定づけた人」ですね。それくらい彼が作ったseq2seqは衝撃だったし
+	- 
 	
 ## 11/13
 
@@ -2926,11 +2931,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4NjM5ODc3LC0yNzEzMDAyNjksLTE3Nj
-E0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgx
-LC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMT
-E1NjgyOTk5NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5
-MTI1ODU2LC0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMT
-AzLDExODM4Njc5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwy
-NjExOTc4MzddfQ==
+eyJoaXN0b3J5IjpbLTUzODM4ODI1NCwtMjcxMzAwMjY5LC0xNz
+YxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4
+MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLT
+ExNTY4Mjk5OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1
+OTEyNTg1NiwtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3Mj
+EwMywxMTgzODY3OTY3LDE3NTQ4MjUyODQsLTExMzc0ODA0Njgs
+MjYxMTk3ODM3XX0=
 -->
