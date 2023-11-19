@@ -50,7 +50,10 @@
 - LLMって結局何かをシンプルに説明する
 	- https://x.com/davidad/status/1723990400682148124?s=20
 	- ディープ ニューラル ネットワークは、各層間に要素ごとの非線形性を持つ線形回帰のサンドイッチ構造です。LLM/GPT の爆発的な増加に直接つながった「Attending is All You Need」の核となる貢献、そこに *ロジスティック* 回帰を非線形層に投げ込むことですまた、ドロップアウトについては@geoffreyhinton 、活性化正規化については@ChrSzegedy 、および勾配正規化については@dpkingmaによるものです (Adam)。
-- 
+- ローカルLLMを動かすPCを自作
+	- https://note.com/ai_meg/n/n8855a8dd4bbd?sub_rt=share_pb
+	- マザーボード：　Asrok　B760 PRO RS/DS  
+	- CPU：　　　　　i5-13400F  GPU:　　　　　　PALIT　GFORCE-RTX4060ti-16G
 	
 ## 11/13
 
@@ -2775,11 +2778,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg2OTgzMzYsLTE3NjE0NjE2NTEsMj
-AzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Njkx
-MzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NS
-wtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0x
-NTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4Nj
-c5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4Mzcs
-LTQxMzkxNjU5OV19
+eyJoaXN0b3J5IjpbNzUwNjQyOTMyLC0xNzYxNDYxNjUxLDIwMz
+M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
+LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
+I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
+ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgzODY3OT
+Y3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00
+MTM5MTY1OTldfQ==
 -->
