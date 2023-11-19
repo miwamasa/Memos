@@ -32,7 +32,9 @@
 - ユーザープロンプトをLLMが言い換えて、LLM自身が理解しやすくする手法『RaR』
 	- https://aiboom.net/archives/51160
 	- 例えば「GPT-4で言い換えてGPT-3.5で入力する」も有効とのことです。 実行テンプレートや性能等を詳しく紹介する記事を公開しました
-- 
+-  Language Models can be Logical Solvers
+	- https://huggingface.co/papers/2311.06158
+	- 従来は、logic
 	
 ## 11/13
 
@@ -2757,7 +2759,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDYwODUxMDUsLTE3NjE0NjE2NTEsMj
+eyJoaXN0b3J5IjpbLTE3MzQ0MTE4NTIsLTE3NjE0NjE2NTEsMj
 AzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Njkx
 MzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NS
 wtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0x
