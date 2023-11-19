@@ -96,6 +96,12 @@
 	- Yoon Kyung Lee et al., "Chain of Empathy: Enhancing Empathetic Response of Large Language Models Based on Psychotherapy Models"
 	- 心理療法のセオリーを反映したプロンプト手法『Chain of Empathy：CoE』を開発し、その性能を検証
 -  Fine-Tuned Language Models Generate Stable Inorganic Materials as Text
+	- https://openreview.net/forum?id=0r5DE2ZSwJ
+	- 言語モデルによる結晶構造予測
+	- 結晶構造をシンプルなテキストで表現しLLaMA-2を微調整することで、VAEの従来手法よりも安定な結晶構造を生成できた
+	- この手の手法はモデル構築にお金と時間がかかるところが課題
+- create-llama, a command line tool to generate LlamaIndex apps
+	- https://blog.llamaindex.ai/create-llama-a-command-line-tool-to-generate-llamaindex-apps-8f7683021191
 	- 
 	
 ## 11/13
@@ -2821,11 +2827,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTk4OTQ3NCwtMTc2MTQ2MTY1MSwyMD
-MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
-NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
-0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
-NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
-k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
-NDEzOTE2NTk5XX0=
+eyJoaXN0b3J5IjpbMTkxNTI4ODgsLTE3NjE0NjE2NTEsMjAzMz
+Y0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYs
+MTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMj
+kxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0xNTQ4
+NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4Njc5Nj
+csMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQx
+MzkxNjU5OV19
 -->
