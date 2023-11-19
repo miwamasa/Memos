@@ -134,7 +134,10 @@
 	- https://arxiv.org/abs/2311.05332
 	- 視覚を手にしたLLMが自動運転にどれほど役立つのかを探るため、GPT-4Vの能力が検証されました。 
 	- さまざまなタスクで実験したところ、「因果関係の推論」や「シーン（景色）の理解」に長けていると結論づけられました。
-- うるさいやつ
+- うるさいやつ、技術を理解しないと、ビジネス展開のきっかけが出てこない、エンジニアを蔑視している
+	- https://x.com/toukatsujin/status/1724196831109017964?s=20
+	- 「技術力を磨かないと生き残れないと思っているエンジニアがほとんど。でも技術は日々進化・変化しており、これを学べば一生安泰ということはない。むしろビジネス理解力を磨いたほうが一生安泰なのに、エンジニアの多くは分かっていない」
+- Rapidly build an application in Gradio power by a Generative AI Agent
 	- 
 	
 ## 11/13
@@ -2860,7 +2863,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTk0MDA1MSwtMTc2MTQ2MTY1MSwyMD
+eyJoaXN0b3J5IjpbLTg1MTY2OTA4NSwtMTc2MTQ2MTY1MSwyMD
 MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
 NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
 0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
