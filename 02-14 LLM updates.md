@@ -187,6 +187,11 @@
 -  OpenAI announces leadership transition
 	- https://openai.com/blog/openai-announces-leadership-transition
 	- えっ！
+	- 「取締役会とのコミュニケーションにおいて一貫して率直さを欠き、取締役会の責任遂行を妨げている」
+- OpenAIから追い出された直後の、Sam Altomanのツイート
+	- https://x.com/sama/status/1725742088317534446?s=20
+	- i love you all.
+- 西浦先生の論文に、かみつくも、統計の専門
 	
 ## 11/13
 
@@ -2911,11 +2916,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMD
-MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
-NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
-0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
-NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
-k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
-NDEzOTE2NTk5XX0=
+eyJoaXN0b3J5IjpbLTIwMTczMzc3NTEsLTI3MTMwMDI2OSwtMT
+c2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYx
+ODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC
+0xMTU2ODI5OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3
+NTkxMjU4NTYsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNz
+IxMDMsMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4
+LDI2MTE5NzgzN119
 -->
