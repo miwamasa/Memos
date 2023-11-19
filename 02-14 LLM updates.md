@@ -86,7 +86,13 @@
 	- https://tech.preferred.jp/ja/blog/llm-fine-tuning-for-domain-knowledge/
 	- 英語で主に学習されたLLaMA2に対して日本語データを用いたInstruciton Tuningや追加事前学習がどの程度可能かの検証
 	- 不可思議な結果が出がちなので、いろんな設定で試さないといけないことがわかった
-- LangChainから、Query Construct
+- LangChainから、Query Construction Guide、text-to-SQL+semantic最強節
+	- https://blog.langchain.dev/query-construction/
+	- 1. Structure+unstructured data:  Text-to-SQL+semantic (w/ PostgresSQL with the Pgvector 
+	- 2. Unstructured w/ metadata: Text-to-metadata filters (w/ new docs + a template for self-query retriever)
+	- "Text-to-SQL+semantic" is an interesting recent addition to LangChain that extends "Text-to-SQL" w/ semantic queries on an embedding column.
+	- そうか、やっぱり text-to-SQL+semantiが最強なのか
+- 
 	
 ## 11/13
 
@@ -2811,11 +2817,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDUwNzgzOSwtMTc2MTQ2MTY1MSwyMD
-MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
-NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
-0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
-NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
-k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
-NDEzOTE2NTk5XX0=
+eyJoaXN0b3J5IjpbLTE2MDc3ODA5OTEsLTE3NjE0NjE2NTEsMj
+AzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Njkx
+MzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NS
+wtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0x
+NTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4Nj
+c5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4Mzcs
+LTQxMzkxNjU5OV19
 -->
