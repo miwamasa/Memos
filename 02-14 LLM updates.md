@@ -191,7 +191,9 @@
 - OpenAIから追い出された直後の、Sam Altomanのツイート
 	- https://x.com/sama/status/1725742088317534446?s=20
 	- i love you all.
-- 西浦先生の論文に、かみつくも、統計の専門
+- 西浦先生の論文に、かみつくも、統計の専門化から返り討ちに
+	- https://x.com/behemuhemulove/status/1725749314000175387?s=20
+	- 
 	
 ## 11/13
 
@@ -2916,7 +2918,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTczMzc3NTEsLTI3MTMwMDI2OSwtMT
+eyJoaXN0b3J5IjpbLTE2NDE1NTA5NjgsLTI3MTMwMDI2OSwtMT
 c2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYx
 ODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC
 0xMTU2ODI5OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3
