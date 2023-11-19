@@ -206,7 +206,7 @@
 - Ilya Sutskeverって誰ぞ？
 	- https://x.com/mr_bay_area/status/1725808417376473167?s=20
 	- 「自然言語処理業界が深層学習一色になる流れを決定づけた人」ですね。それくらい彼が作ったseq2seqは衝撃だったし
-	- 
+- 
 	
 ## 11/13
 
@@ -2931,7 +2931,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODM4ODI1NCwtMjcxMzAwMjY5LC0xNz
+eyJoaXN0b3J5IjpbMTQ5MjY2NjY5OCwtMjcxMzAwMjY5LC0xNz
 YxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4
 MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLT
 ExNTY4Mjk5OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1
