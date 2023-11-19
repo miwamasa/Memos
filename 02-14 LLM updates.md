@@ -102,7 +102,10 @@
 	- この手の手法はモデル構築にお金と時間がかかるところが課題
 - create-llama, a command line tool to generate LlamaIndex apps
 	- https://blog.llamaindex.ai/create-llama-a-command-line-tool-to-generate-llamaindex-apps-8f7683021191
-	- 
+	- コマンドラインでllamaindexをつかたたアプリを生成する仕組みの公開！！！
+- GPT4などが、常識をもっているかどうかのて
+	- https://github.com/allenai/everyday-things
+	- The LLMs have poor accuracy (54-59%) on commonsense spatial/functional relationships in ParRoT dataset.
 	
 ## 11/13
 
@@ -2827,11 +2830,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTI4ODgsLTE3NjE0NjE2NTEsMjAzMz
-Y0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYs
-MTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMj
-kxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0xNTQ4
-NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4Njc5Nj
-csMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQx
-MzkxNjU5OV19
+eyJoaXN0b3J5IjpbODk0Njc5ODY5LC0xNzYxNDYxNjUxLDIwMz
+M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
+LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
+I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
+ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgzODY3OT
+Y3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00
+MTM5MTY1OTldfQ==
 -->
