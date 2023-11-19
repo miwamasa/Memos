@@ -3,7 +3,7 @@
 
 ## 11/20
 
-今週は、アルトマン氏のOpenAI電撃解任が全てを持って行った。先週OpenAI dev dayで雄姿を、そして人類の未来を垣間見たのに。。ボードから復帰の要請もあるというし、まだまだ現在進行形。さて、RAGもembeddingをつかった類似検索よりも構造を加味した検索とか、多様性をもつ検索結果の利用とか、だんだん、推薦技術などで確立されたノウハウが活用され始めた。LlamaIndexの新機能、text-to-SQL+semanticってのがいいね。単に制約ソルバーを外部にもってて、自然言語からソルバーに渡す制約式を生成するよりも、ソルバーのログをそのままファインチューニングして、解く行為そのものを模擬するというLoGiPT、LLM活用のステージが一段上がった気がする。新しいOpenAIのファインチューニング、少ないデータでも、けっこ
+今週は、アルトマン氏のOpenAI電撃解任が全てを持って行った。先週OpenAI dev dayで雄姿を、そして人類の未来を垣間見たのに。。ボードから復帰の要請もあるというし、まだまだ現在進行形。さて、RAGもembeddingをつかった類似検索よりも構造を加味した検索とか、多様性をもつ検索結果の利用とか、だんだん、推薦技術などで確立されたノウハウが活用され始めた。LlamaIndexの新機能、text-to-SQL+semanticってのがいいね。単に制約ソルバーを外部にもってて、自然言語からソルバーに渡す制約式を生成するよりも、ソルバーのログをそのままファインチューニングして、解く行為そのものを模擬するというLoGiPT、LLM活用のステージが一段上がった気がする。新しいOpenAIのファインチューニング、200個程度のデータでもお嬢様ぐらいはできるみたいでございますです。LLMはそののプロンプトエンジニアを作るメタなプロンプトをつくったり、ユーザーのプロンプトをLLMが理解やすいように書き換えるプロンプトとか、こっち方面のメタな世界も。
 
 - Adding Structure-Aware Retrieval to GenAI Stack
 	- https://medium.com/@yu-joshua/adding-structure-aware-retrieval-to-genai-stack-373976de14d6
@@ -2931,11 +2931,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTM3OTYsLTI3MTMwMDI2OSwtMTc2MT
-Q2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEs
-LTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMT
-U2ODI5OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkx
-MjU4NTYsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMD
-MsMTE4Mzg2Nzk2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2
-MTE5NzgzN119
+eyJoaXN0b3J5IjpbLTQ5MjA4NDU2MywtMjcxMzAwMjY5LC0xNz
+YxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4
+MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLT
+ExNTY4Mjk5OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1
+OTEyNTg1NiwtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3Mj
+EwMywxMTgzODY3OTY3LDE3NTQ4MjUyODQsLTExMzc0ODA0Njgs
+MjYxMTk3ODM3XX0=
 -->
