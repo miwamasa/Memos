@@ -3,6 +3,8 @@
 
 ## 11/20
 
+今週は、すべてはアルトマン氏のOpenAI電撃解任が全てを
+
 - Adding Structure-Aware Retrieval to GenAI Stack
 	- https://medium.com/@yu-joshua/adding-structure-aware-retrieval-to-genai-stack-373976de14d6
 	- 単なるembeddingをつかった類似検索のRAGではなくて、構造を抽出したうえでの、RAGっての有効であることを、neo4j+LangChainの実例で示した良例
@@ -180,7 +182,11 @@
 - tldrawが洒落にならないぐらい優れている
 	- https://makereal.tldraw.com/
 	- ラフなUIの図解や説明をつくるだけで、GPT-4Vで認識して良い感じに仕様を解釈して実際に動くモックアップを作ってくれる
-- 紗々氏、NTT
+- 紗々氏、NTT武蔵野通研で開催されたR&Dフォーラムで、AI化される
+	- https://x.com/03sasa03/status/1725479562094755951?s=20
+-  OpenAI announces leadership transition
+	- https://openai.com/blog/openai-announces-leadership-transition
+	- えっ！
 	
 ## 11/13
 
@@ -2905,11 +2911,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3MDgzNzQ0LC0xNzYxNDYxNjUxLDIwMz
-M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
-LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
-I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
-ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgzODY3OT
-Y3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00
-MTM5MTY1OTldfQ==
+eyJoaXN0b3J5IjpbMTQxNDg4MDQ2OSwtMTc2MTQ2MTY1MSwyMD
+MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
+NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
+0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
+NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
+k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
+NDEzOTE2NTk5XX0=
 -->
