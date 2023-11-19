@@ -9,8 +9,10 @@
 	- This stack is (1) fully local, (2) uses advanced retrieval methods that encode relationships between different chunks of texts
 - LlamaIndex によるOpenAIの新機能を使用・理解するためのガイド by npakaさん
 	- https://note.com/npaka/n/n728fdb8f76da?sub_rt=share_sb
-	- Parallel Function Calling、Assistant API Agent、
-
+	- Parallel Function Calling、Assistant API Agent、Function Callingによる高度なRAG、マルチモーダルRAG
+	- GPT Builder
+	- 「text-to-SQL と semantic search のジョイント」なんかは興味深い
+	
 ## 11/13
 
 今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 TurboやAssistant APIや、価格の改定（安くなった）、最後に独自のGPTをつくれるGPT Builderと、OpenAI まわりのOSSエコシステムを破壊するがごときの怒涛のリリース。対応するOSS側のLangChainやllamaindexも新機能の取り込みや対案実装で忙しい週だった。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せ、APIからも作れるけども、playgroundからも作って簡単に試せる。Assistant APIに実装された機能(Assistants/Theads/Run )を組み合わせれば、エージェントも簡単に作れる。詳しくはNakajimaさんのGPTvsGPTが良い例。無限に環境問題についてエージェント同士が討論するというデモはちょと地獄絵。早速、LangChainも、LlamaIndexも、Assistant APIをつくってエージェントを作る機能を公開、もともとあるエージェントと組み合わせてみたいな発展も。OpenAI のRetreive機能は、pdfやdocやpptやmarkdown等多彩なデータを読んで、コンテキストとしてChatできる機能。まさに、RAGつぶしなんだけども、llamaindexの人Jerry Liuによると、コンテキスト長の限界を超えると普通のtop-k式の単純なRAGが動いているのではということ。試しにナウシカ(Wikipedia、57kトークン)をGPT-4でやってみたら、確かに性能よかった。RAGについては自ら（ベクトル化の方法などの）細かいチューニングに走るか、それとも入り口だけ用意してあとは、別のOSS等にという戦略のどちらだろう？GPT-4もファインチューニングできるようになったが、$3M(５億円弱)の[Submit]ボタンは押せない。。GPT-4を半端にファインチューニングしても性能は向上しないというのもすごいな。エージェントの作成支援も、llamaindexからbuilder agent、Langchainからも、OpenGTPが発表。OpenAI本家もGPTsで、好みのGPTを作って公開という機能が公開、Plusユーザーなら他人のGPTを使うこともできる。タイムラインに、どんどん、独自のGPTが公開されて、まさに百花繚乱、これに利用料を還流する仕組み整えば、まさにマーケットプレース経済圏に一直線。マルチモーダルのRAGというのも出てきた。PFNのPLaMo-13B-Instructの公開や、日本語向けのベンチマークデータの改定や、shi3zさんによるマルチターン日本語会話データセットの整備など、日本語対応の改良も着実に進んでいる。「アナロジア AIの次に来るもの」のダイソンによると、LLMは、（デジタル・コンピューターによるAIの限界を超えることができる）アナログコンピュータに近いものらしい。ダイソンの本を読みなおすと、AGIの可能性についても、デジタルでは到達できないが、アナログならば可能性は排除できないみたいな主張だった。最後に、ChatGPTの登場は、デザイナやコピーライターの職を奪うだけでなく、単価も下げた、特に高収入の層を、というFTの記事が怖すぎる。
@@ -2734,11 +2736,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIxMjc2NTUsLTE3NjE0NjE2NTEsMj
-AzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Njkx
-MzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NS
-wtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0x
-NTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4Nj
-c5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4Mzcs
-LTQxMzkxNjU5OV19
+eyJoaXN0b3J5IjpbMjA3MDE4NzA3OSwtMTc2MTQ2MTY1MSwyMD
+MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
+NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
+0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
+NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
+k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
+NDEzOTE2NTk5XX0=
 -->
