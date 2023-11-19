@@ -191,9 +191,11 @@
 - OpenAIから追い出された直後の、Sam Altomanのツイート
 	- https://x.com/sama/status/1725742088317534446?s=20
 	- i love you all.
-- 西浦先生の論文に、かみつくも、統計の専門化から返り討ちに
+- 西浦先生の論文に、筑波大の掛谷氏がかみつくも、統計の専門化から返り討ちに
 	- https://x.com/behemuhemulove/status/1725749314000175387?s=20
-	- 
+	- 主な問題点 (1) クロスバリデーションの評価なし (2) 短期予想モデルの結果を繋ぎ合わせて長期のシナリオを作っている 明日の天気を高確率で当てるモデルを作っても、その予想を繋ぎ合わせ、、、
+	- be氏より、（2）は例えば1年後の予測するとして1ヶ月ずつ予測してくのか、年単位で予測してくか位の違いしかなく、統計学やMLでは全く問題ないと思うので、この点叩いてる方が統計学の観点から無知にみえる
+-  create-llama によるLlamaIndexアプリの作成
 	
 ## 11/13
 
@@ -2918,7 +2920,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDE1NTA5NjgsLTI3MTMwMDI2OSwtMT
+eyJoaXN0b3J5IjpbLTE1MzkyODQwODcsLTI3MTMwMDI2OSwtMT
 c2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYx
 ODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC
 0xMTU2ODI5OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3
