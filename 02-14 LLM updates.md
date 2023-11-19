@@ -146,8 +146,12 @@
 - GPTsとAsistant APIの違い
 	- https://x.com/gijigae/status/1724428173905989945?s=20
 	- GPTsとAssistants APIはカスタマイズしたChatGPTが作れる点で似ている。ただ、ChatGPT Plusへの加入やステート管理を含め、違いも多い↓。忙しくて一つしか試せないという方には後者をお勧めしたい。特に、カスタマイズしたChatGPTを生徒に公開する際、ChatGPT Plusへの加入が不要となるのは大きい。
-- 神経科学などで多用されるが曖昧で問題含みの「表象（representation）」概念を、20～30名の哲学者と神経科学者で分析する「Representation: Past, Present and Future (RPPF) project」
-	- 
+- 「表象（representation）」概念を分析するRPPFプロジェクト
+	- 神経科学などで多用されるが曖昧で問題含みの「表象（representation）」概念を、20～30名の哲学者と神経科学者で分析する「Representation: Past, Present and Future (RPPF) project」
+	- https://www.thetransmitter.org/representation/what-are-we-talking-about-clarifying-the-fuzzy-concept-of-representation-in-neuroscience-and-beyond/
+- コード生成・補完に特化した日本語LLM「ELYZA-japanese-CodeLlama-7b」を公開しました（商用利用可）
+	- https://note.com/elyza/n/n5bce23d7c9c8
+	- https://zenn.dev/elyza/articles/fcbf103e0a05b1
 - 
 	
 ## 11/13
@@ -2873,11 +2877,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzcwMjMsLTE3NjE0NjE2NTEsMjAzMz
-Y0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYs
-MTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMj
-kxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0xNTQ4
-NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4Njc5Nj
-csMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4MzcsLTQx
-MzkxNjU5OV19
+eyJoaXN0b3J5IjpbLTEzNzE3OTM5MzEsLTE3NjE0NjE2NTEsMj
+AzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Njkx
+MzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NS
+wtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0x
+NTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4Nj
+c5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4Mzcs
+LTQxMzkxNjU5OV19
 -->
