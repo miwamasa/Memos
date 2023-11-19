@@ -122,6 +122,9 @@
 	- https://arxiv.org/abs/2311.06318
 	- MSより
 	- Microsoft Research presents a method to personalize LLMs for search via entity-based user knowledge stores derived from logs.
+- Yahoo知恵袋、GPT-4を用いた、自動回答をテスト中
+	- https://chiebukuro.yahoo.co.jp/topic/ai/answer.html
+	- 人知は不要になったのか。。
 - 
 	
 ## 11/13
@@ -2847,11 +2850,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyNjY1NDczLC0xNzYxNDYxNjUxLDIwMz
-M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
-LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
-I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
-ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgzODY3OT
-Y3LDE3NTQ4MjUyODQsLTExMzc0ODA0NjgsMjYxMTk3ODM3LC00
-MTM5MTY1OTldfQ==
+eyJoaXN0b3J5IjpbMjE0NDQ4NDI3MCwtMTc2MTQ2MTY1MSwyMD
+MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
+NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
+0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
+NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
+k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
+NDEzOTE2NTk5XX0=
 -->
