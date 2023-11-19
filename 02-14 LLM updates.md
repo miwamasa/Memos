@@ -76,7 +76,12 @@
 - これは衝撃!1.5Bで超高性能LLM!RWKV-5-World-v2 by shi3zさん
 	- https://note.com/shi3zblog/n/nfc8dd1abf494?sub_rt=share_pb
 	- まだ生きてたのか、RWKV
-- 
+- The Impact of Large Language Models on Scientific Discovery: a Preliminary Study using GPT-4
+	- https://arxiv.org/abs/2311.07361
+	- Evaluates GPT-4’s knowledge base, scientific understanding, scientific numerical calculation abilities, and various scientific prediction capabilitie
+	- MSからの論文、製薬とかの話が多いが、なんかつまらん
+- Open AI主任科学者のIlya Sutskever氏は昨日のインタビューにて、AGIにたどり着くためにはTransformerアーキテクチャ＋αで「明らかに」問題ないと
+	- 
 	
 ## 11/13
 
@@ -2801,11 +2806,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTc2NjIyMiwtMTc2MTQ2MTY1MSwyMD
-MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
-NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
-0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
-NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2Nz
-k2NywxNzU0ODI1Mjg0LC0xMTM3NDgwNDY4LDI2MTE5NzgzNywt
-NDEzOTE2NTk5XX0=
+eyJoaXN0b3J5IjpbLTE4NTE1MjMwNDgsLTE3NjE0NjE2NTEsMj
+AzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Njkx
+MzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NS
+wtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0x
+NTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4Nj
+c5NjcsMTc1NDgyNTI4NCwtMTEzNzQ4MDQ2OCwyNjExOTc4Mzcs
+LTQxMzkxNjU5OV19
 -->
