@@ -3,7 +3,7 @@
 
 ## 11/20
 
-今週は、すべてはアルトマン氏のOpenAI電撃解任が全てを
+今週は、アルトマン氏のOpenAI電撃解任が全てを持って行った。先週OpenAI dev dayで雄姿を、人類の未来を垣間見たのに。。
 
 - Adding Structure-Aware Retrieval to GenAI Stack
 	- https://medium.com/@yu-joshua/adding-structure-aware-retrieval-to-genai-stack-373976de14d6
@@ -2911,7 +2911,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDg4MDQ2OSwtMTc2MTQ2MTY1MSwyMD
+eyJoaXN0b3J5IjpbLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMD
 MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
 NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
 0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
