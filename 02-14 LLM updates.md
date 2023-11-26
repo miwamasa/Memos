@@ -3,7 +3,7 @@
 
 ## 11/27
 
-アルトマン氏解任劇は、マイクロソフトが受け入れることを表明するも、OpenAIの主要メンバがアルトマン氏に追従する表明し、結局、OpenAIのCEOとして戻ることで解決。解任劇のうらには、OpenAIでAGIをタする見込みが立った、それがQ*というLLMで従来苦手だった数の推論が
+アルトマン氏解任劇は、マイクロソフトが受け入れることを表明するも、OpenAIの主要メンバがアルトマン氏に追従する表明し、結局、OpenAIのCEOとして戻ることで解決。解任劇のうらには、OpenAIでAGIをタする見込みが立った、それがQ*というLLMで従来苦手だった数の推論が可能になったといううわさで持ち切り、Q*-learningがそれでは？みたなことになっている。それ以外では、intelが満を持して投入したneural-chat-7b-v3-1を公開、相当性能が良いみたい。
 
 -  Banach-Tarski Embeddings and Transformers
 	- https://arxiv.org/abs/2311.09387
@@ -3135,7 +3135,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk3ODQyMywxMTg0NTA3ODExLC0xNj
+eyJoaXN0b3J5IjpbMTM5MzE4NjgxNCwxMTg0NTA3ODExLC0xNj
 E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
 MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
 M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
