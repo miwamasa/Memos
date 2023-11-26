@@ -13,7 +13,15 @@
 	- https://arxiv.org/abs/2311.09818
 	- LLMベースの新しい言語『SUQL』が開発されました。SQLを拡張して「非構造化データのクエリ」を処理するパラダイムを導入
 	- 『SUQL（Structured and Unstructured Query Language）』
-	- 
+	- ① 構造化データと非構造化データの両方を扱う 
+	- ② SQLに、非構造化データをクエリするための新しいプリミティブを追加 
+	- ③ 会話型検索エージェントでユーザーの質問を処理 
+	- ④ クエリに関連するデータを構造化および非構造化データソースから抽出する
+	- 従来の線形化テクニックや多段階検索および推論モジュールに比べて、SUQLは回収精度が大幅に高い
+	- 実際のレストランに関するクラウドソースされた質問と会話を含むデータセットで実用性が確認された
+-  Meta disbanded its Responsible AI team
+	- https://www.theverge.com/2023/11/18/23966980/meta-disbanded-responsible-ai-team-artificial-intelligence
+	- metaが
 
 ## 11/20
 
@@ -2945,11 +2953,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE2MDMwNDEsLTc5NDk5MDQsMjI3OD
-E1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1
-MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nz
-g2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5
-OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NT
-YsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4
-Mzg2Nzk2N119
+eyJoaXN0b3J5IjpbMTc5NzU2MzA1MywtNzk0OTkwNCwyMjc4MT
+U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
+LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
+Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
+OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
+wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
+ODY3OTY3XX0=
 -->
