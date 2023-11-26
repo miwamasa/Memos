@@ -129,7 +129,9 @@
 	- **◆最適化アルゴリズムはAdamでもSGDでも大差ない**
 	- **◆LoRAによる追加学習を繰り返すと性能が低下する**
 	- **◆LoRAによる追加学習は単一のGPUで実行可能**
-- 
+- Claude 2.1 (200K Tokens) - Pressure Testing Long Context Recall
+	- Claude2.1の長コンテキスト能力に対する、ストレステスト
+	- 
 
 ## 11/20
 
@@ -3061,7 +3063,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjMzNTUzNSwtNzk0OTkwNCwyMjc4MT
+eyJoaXN0b3J5IjpbMTMyMDczNjQ1OSwtNzk0OTkwNCwyMjc4MT
 U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
 LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
 Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
