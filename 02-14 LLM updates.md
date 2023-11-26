@@ -131,6 +131,16 @@
 	- **◆LoRAによる追加学習は単一のGPUで実行可能**
 - Claude 2.1 (200K Tokens) - Pressure Testing Long Context Recall
 	- Claude2.1の長コンテキスト能力に対する、ストレステスト
+	- https://x.com/GregKamradt/status/1727018183608193393?s=20
+	- 200K トークン (約 470 ページ) で、Claude 2.1 はドキュメントの一部の深さで事実を思い出すことができました。 
+	- 文書の一番上と一番下にある事実はほぼ 100% の精度で再現されました 
+	- 文書の上部にある事実は下部よりも低いパフォーマンスでリコールされました (GPT-4 と同様) 
+	- ~90,000 トークン以降、ドキュメントの下部にあるリコールのパフォーマンスがますます悪化し始めました 
+	- コンテキスト長が短い場合のパフォーマンスは保証されませんでした
+- Why do tree-based models still outperform deep learning on typical tabular data?
+	- https://hal.science/hal-03723551
+	- Why do tree-based models still outperform deep learning on tabular data?” confirms tree-based models outperform deep learning and explain some of the reasons why.
+	- When it comes to #tabulardata and #timeseries (by far the most important majority of data for almost any real company), deep learning is not one needs. 
 	- 
 
 ## 11/20
@@ -3063,11 +3073,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDczNjQ1OSwtNzk0OTkwNCwyMjc4MT
-U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
-LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
-Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
-OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
-wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
-ODY3OTY3XX0=
+eyJoaXN0b3J5IjpbLTEzNDg0NjYwNjAsLTc5NDk5MDQsMjI3OD
+E1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1
+MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nz
+g2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5
+OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NT
+YsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4
+Mzg2Nzk2N119
 -->
