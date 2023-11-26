@@ -184,8 +184,9 @@
 - LlamaIndex vs. OpenAI Assistants API
 	-  RAG Evaluation Series: Validating the RAG Performance of OpenAI vs LlamaIndex
 	- https://www.tonic.ai/blog/rag-evaluation-series-validating-rag-performance-openai-vs-llamaindex
-- OpenAIのChatGPTアプリ、音声による対話を万人に開放
+- ChatGPTアプリの音声会話が無料ユーザーにも開放
 	- https://x.com/IELTS_expert/status/1728326991676670222?s=20
+	- 英語学習ソフトや有料レッスンが不要に
 - 
 
 ## 11/20
@@ -3118,11 +3119,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDExMjkzMCwxMTg0NTA3ODExLC0xNj
-E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
-MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
-M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
-LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
-I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
-ODc1NzQ2MF19
+eyJoaXN0b3J5IjpbNTE5MzM1OTYwLDExODQ1MDc4MTEsLTE2MT
+cxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwx
+NTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMz
+Y0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYs
+MTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMj
+kxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0xNTQ4
+NzU3NDYwXX0=
 -->
