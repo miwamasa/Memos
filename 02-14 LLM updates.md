@@ -106,7 +106,11 @@
 	- https://note.com/daichi_konno/n/nb1f1ac368a30
 	- 東大の、紺野大地先生作成
 	- **「論文をアップロードするだけで、内容を日本語で分かりやすく説明してくれるAI」**
-- アルトマン氏電撃解任劇の裏に、OpenAIが、AGIをか
+- アルトマン氏電撃解任劇の裏に、OpenAIが、AGIを開発するめどがついたからという
+	- Q*-learningという手法により、数値計算などLLMが苦手としていた課題も解けるようになった。
+	- https://x.com/hbouammar/status/1727683545852768295?s=20
+	- A*ってのは探索のアルゴリズムだけど、それのQ-learning版という話
+- 
 
 ## 11/20
 
@@ -3038,7 +3042,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzNzY4Nzg3LC03OTQ5OTA0LDIyNzgxNT
+eyJoaXN0b3J5IjpbNzE5MDUzNTA3LC03OTQ5OTA0LDIyNzgxNT
 k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
 MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
 kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
