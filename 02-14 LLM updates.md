@@ -3,7 +3,10 @@
 
 ## 11/27
 
-
+-  Banach-Tarski Embeddings and Transformers
+	- https://arxiv.org/abs/2311.09387
+	- 再帰的なデータ構造の線型空間での表現（バナッハタルスキ埋め込み）を考えるとその表現上のアルゴリズム（復号）がTransformerとして自然に実装できるらしい
+- 
 
 ## 11/20
 
@@ -2935,7 +2938,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjc4Mzk4MiwtNzk0OTkwNCwyMjc4MT
+eyJoaXN0b3J5IjpbLTY5MDEwOTk4MiwtNzk0OTkwNCwyMjc4MT
 U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
 LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
 Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
