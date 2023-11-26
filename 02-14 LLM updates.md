@@ -193,7 +193,9 @@
 	-  このような技術を応用すると、ロボットが現実世界でもさまざまな重要タスクを達成できるようになる可能性があります。…
 - 最終的にすべての統計はベイズに行き着くしかないと思っています（統計数理研究所、鎌谷氏）
 	- https://www.ism.ac.jp/ism_info_j/labo/project/162.html
-- 
+- ルカン先生によるQ*に対する表明
+	- https://x.com/ylecun/status/1728126868342145481?s=20
+	- 「Q*に関する完全なナンセンスの洪水は無視してね。LLMの信頼性を向上させる主な課題の1つは、自己回帰的トークン予測をプランニングに置き換えることです」
 
 ## 11/20
 
@@ -3125,7 +3127,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzU2NDI1OSwxMTg0NTA3ODExLC0xNj
+eyJoaXN0b3J5IjpbLTY2MTQ4NTg3MSwxMTg0NTA3ODExLC0xNj
 E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
 MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
 M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
