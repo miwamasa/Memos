@@ -3,7 +3,7 @@
 
 ## 11/27
 
-アルトマン氏解任劇は、マイクロソフトが受け入れることを表明するも、OpenAIの主要メンバがアルトマン氏に追従する表明し、結局、OpenAIのCEOとして戻ることで解決。解任劇のうらには、OpenAIでAGIをタする見込みが立った、それがQ*というLLMで従来苦手だった数の推論が可能になったといううわさで持ち切り、Q*-learningがそれでは？みたなことになっている。それ以外では、intelが満を持して投入したneural-chat-7b-v3-1を公開、相当性能が良いみたい。AnthropicAIが200kのコンテキストを扱えるClaude2.1を発表、デモ版でも結構長文の日本語のPDFをそのまま投入できると話題に。
+アルトマン氏解任劇は、マイクロソフトが受け入れることを表明するも、OpenAIの主要メンバがアルトマン氏に追従する表明し、結局、OpenAIのCEOとして戻ることで解決。解任劇のうらには、OpenAIでAGIをタする見込みが立った、それがQ*というLLMで従来苦手だった数の推論が可能になったといううわさで持ち切り、Q*-learningがそれでは？みたなことになっている。それ以外では、intelが満を持して投入したneural-chat-7b-v3-1を公開、相当性能が良いみたい。AnthropicAIが200kのコンテキストを扱えるClaude2.1を発表、デモ版でも結構長文の日本語のPDFをそのまま投入できると話題に。「３D世界の中で身体性をもった汎用エージェント」の論文、いや、
 
 -  Banach-Tarski Embeddings and Transformers
 	- https://arxiv.org/abs/2311.09387
@@ -3135,11 +3135,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTczMjYxNywxMTg0NTA3ODExLC0xNj
-E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
-MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
-M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
-LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
-I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
-ODc1NzQ2MF19
+eyJoaXN0b3J5IjpbLTE4OTAzODE0NjMsMTE4NDUwNzgxMSwtMT
+YxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgx
+LDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMD
+MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
+NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
+0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
+NDg3NTc0NjBdfQ==
 -->
