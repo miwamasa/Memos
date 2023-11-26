@@ -30,7 +30,12 @@
 	- AIが仮説を生成する際に直面する課題として、データの不足、物理的な法則の理解、仮説の一般性と解釈性などが挙げられています。
 	- AIが仮説を生成する可能性として、人間が思いつかないような「異質な」仮説や、実験を自動化する「ロボット科学者」などが紹介されています
 -  Summon a Demon and Bind it: A Grounded Theory of LLM Red Teaming in the Wild
-	- 
+	- https://arxiv.org/abs/2311.06237
+	- 大規模言語モデル(LLM)をしばき倒して、異常な振る舞いをさせようとしている人達（野良のLLMレッドチーム）へのインタビュー論文。攻撃方法やそもそも何のためにやっているのか？等の調査。
+- アルトマン氏、ゲストカードを使って、OpanAIを訪問
+	- https://x.com/sama/status/1726345564059832609?s=20
+	- first and last time i ever wear one of these
+-  ChipNeMo: Domain-Adapted LLMs for Chip Design
 
 ## 11/20
 
@@ -2962,11 +2967,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1ODY0MDQ1LC03OTQ5OTA0LDIyNzgxNT
-k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
-MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
-kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
-NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
-0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
-Njc5NjddfQ==
+eyJoaXN0b3J5IjpbNTY0Nzk4NjMsLTc5NDk5MDQsMjI3ODE1OT
+gxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwy
+MDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OT
+EzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1
+LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLT
+E1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2
+Nzk2N119
 -->
