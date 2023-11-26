@@ -191,6 +191,9 @@
 	- https://x.com/ai_database/status/1728257353852797143?s=20
 	- マインクラフト（広大なバーチャル世界で採掘や建設を行うゲーム）を上手にプレイするAI『JARVIS-1』が開発されました。 非常に複雑な動作を含む200種類以上の行動が可能とのこと。
 	-  このような技術を応用すると、ロボットが現実世界でもさまざまな重要タスクを達成できるようになる可能性があります。…
+- 最終的にすべての統計はベイズに行き着くしかないと思っています（統計数理研究所、鎌谷氏）
+	- https://www.ism.ac.jp/ism_info_j/labo/project/162.html
+- 
 
 ## 11/20
 
@@ -3122,11 +3125,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0NDc2NDg0LDExODQ1MDc4MTEsLTE2MT
-cxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwx
-NTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMz
-Y0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYs
-MTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMj
-kxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0xNTQ4
-NzU3NDYwXX0=
+eyJoaXN0b3J5IjpbLTE5NzU2NDI1OSwxMTg0NTA3ODExLC0xNj
+E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
+MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
+M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
+LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
+I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
+ODc1NzQ2MF19
 -->
