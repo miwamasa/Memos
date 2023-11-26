@@ -25,7 +25,9 @@
 - 状態空間モデリング入門
 	- https://www.no-spare.com/store/products/seminar-20231129
 	- 本講座では、金融時系列データへの応用を題材に、動的線形モデル・ボラティリティモデル・最新の研究を解説します。
-- 
+-  Hypotheses devised by AI could find ‘blind spots’ in research
+	- https://www.nature.com/articles/d41586-023-03596-0
+	- 
 
 ## 11/20
 
@@ -2957,7 +2959,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzMzNTk2NCwtNzk0OTkwNCwyMjc4MT
+eyJoaXN0b3J5IjpbMjEyODQxODA3NCwtNzk0OTkwNCwyMjc4MT
 U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
 LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
 Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
