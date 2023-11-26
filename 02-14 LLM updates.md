@@ -68,6 +68,14 @@
 	- “ChatGPT over your data” without needing to code.
 - Large-scale pancreatic cancer detection via non-contrast CT and deep learning
 	- https://www.nature.com/articles/s41591-023-02640-w
+	- ｢単純CTの膵臓がん検出AI｣
+	- 単純CTでの膵臓がん検は不可能と考えられてきた 
+	- そのAIを開発 
+	- 現実世界のマルチシナリオ検証の病変検出で、92.9%の感度と 99.9% の特異度を達成 
+	- 膵臓がんスクリーニングの新しいツールの可能性
+-  RAG評価ツールの "RAGAS" を使って、RAGパイプラインの性能を測定する
+	- https://qiita.com/s3kzk/items/44b8780c656b4f747403
+	- 今回触れたチャンク分割時の設定以外にも、システムプロンプトの決定、Embeddingおよび応答の生成に使用するLLMの選定、ベクターストア/検索アルゴリズムの選定など、パフォーマンスに影響を与える要素は数多く存在します。
 	- 
 
 ## 11/20
@@ -3000,7 +3008,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDYxODU0MCwtNzk0OTkwNCwyMjc4MT
+eyJoaXN0b3J5IjpbMTI2NTM4NTAzNywtNzk0OTkwNCwyMjc4MT
 U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
 LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
 Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
