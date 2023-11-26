@@ -187,7 +187,10 @@
 - ChatGPTアプリの音声会話が無料ユーザーにも開放
 	- https://x.com/IELTS_expert/status/1728326991676670222?s=20
 	- 英語学習ソフトや有料レッスンが不要に
-- 
+- JARVIS-1は本当はすごい、
+	- https://x.com/ai_database/status/1728257353852797143?s=20
+	- マインクラフト（広大なバーチャル世界で採掘や建設を行うゲーム）を上手にプレイするAI『JARVIS-1』が開発されました。 非常に複雑な動作を含む200種類以上の行動が可能とのこと。
+	-  このような技術を応用すると、ロボットが現実世界でもさまざまな重要タスクを達成できるようになる可能性があります。…
 
 ## 11/20
 
@@ -3119,7 +3122,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5MzM1OTYwLDExODQ1MDc4MTEsLTE2MT
+eyJoaXN0b3J5IjpbOTE0NDc2NDg0LDExODQ1MDc4MTEsLTE2MT
 cxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwx
 NTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMz
 Y0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYs
