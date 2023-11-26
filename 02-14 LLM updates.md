@@ -167,6 +167,9 @@
 	- https://x.com/McaleerStephen/status/1727524295377596645?s=20
 	-  A* Search Without Expansions: Learning Heuristic Functions with Deep Q-Networks
 	- https://arxiv.org/abs/2102.04518
+- Q*について著名なデータサイエンティストErnest Okumuraさんのコメント
+	- https://x.com/pacocat/status/1728052432016470281?s=20
+	- Q*がQ-learningから来ているかは知らないけれども、制作者にとって好ましい出力を得るために方策空間を探索する技術は今後さらに求められていくと思うし、RLHFみたいな分かりやすいアラインメントを超えてAGIみたいな文脈でも野心的な試みは増えてくるんじゃないでしょうか。
 - 
 
 ## 11/20
@@ -3099,7 +3102,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5NDMzMDU3LDExODQ1MDc4MTEsLTE2MT
+eyJoaXN0b3J5IjpbNjc3NDAzNTMyLDExODQ1MDc4MTEsLTE2MT
 cxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwx
 NTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMz
 Y0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYs
