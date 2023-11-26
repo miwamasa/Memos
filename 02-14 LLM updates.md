@@ -98,7 +98,11 @@
 	- エバンゲリオンの物語をシミュレートできるかという挑戦らしい
 - 【DSにKaggleが必ずしも必要ではない話】
 	- https://x.com/Nurruttan/status/1727495591905858016?s=20
-	- 
+	- データサイエンティストと言っても、 「①データアナリスト型」 「④データエンジニア型」 のキャリアプランではKaggle実績の重要性は低い
+	-  一方で、 「②サービスグロース型」 「③製品開発型」 「⑤AI開発型」 は重要度は高い。
+- Google BardでYoutubeとチャットできるように
+	- https://bard.google.com/chat
+- 
 
 ## 11/20
 
@@ -3030,11 +3034,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Njg5NzY3MywtNzk0OTkwNCwyMjc4MT
-U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
-LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
-Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
-OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
-wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
-ODY3OTY3XX0=
+eyJoaXN0b3J5IjpbLTE4MDMzMzQyNzcsLTc5NDk5MDQsMjI3OD
+E1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1
+MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nz
+g2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5
+OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NT
+YsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4
+Mzg2Nzk2N119
 -->
