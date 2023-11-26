@@ -27,6 +27,9 @@
 	- 本講座では、金融時系列データへの応用を題材に、動的線形モデル・ボラティリティモデル・最新の研究を解説します。
 -  Hypotheses devised by AI could find ‘blind spots’ in research
 	- https://www.nature.com/articles/d41586-023-03596-0
+	- AIが仮説を生成する際に直面する課題として、データの不足、物理的な法則の理解、仮説の一般性と解釈性などが挙げられています。
+	- AIが仮説を生成する可能性として、人間が思いつかないような「異質な」仮説や、実験を自動化する「ロボット科学者」などが紹介されています
+-  Summon a Demon and Bind it: A Grounded Theory of LLM Red Teaming in the Wild
 	- 
 
 ## 11/20
@@ -2959,11 +2962,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODQxODA3NCwtNzk0OTkwNCwyMjc4MT
-U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
-LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
-Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
-OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
-wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
-ODY3OTY3XX0=
+eyJoaXN0b3J5IjpbNTM1ODY0MDQ1LC03OTQ5OTA0LDIyNzgxNT
+k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
+MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
+kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
+NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
+0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
+Njc5NjddfQ==
 -->
