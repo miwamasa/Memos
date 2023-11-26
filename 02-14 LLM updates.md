@@ -118,7 +118,8 @@
 	- DPO: LLaMA-13B vs ChatGPT Gens (Prefer ChatGPT)
 - An Embodied Generalist Agent in 3D World
 	- https://huggingface.co/papers/2311.12871
-	- 3D世界に対して、記号接地することで、自然言語処理、コンピュータビジョン、ロボティクスなどの多様なドメインで汎用的なタスクを解決できる汎用エージェントが構築できたという
+	- き
+	- 3D世界に対して、いわば記号接地するような訓練をすることで、自然言語処理、コンピュータビジョン、ロボティクスなどの多様なドメインで汎用的なタスクを解決できる汎用エージェントが構築できたという
 	- 手段としては、3D世界の理解と相互作用を必要とする、オブジェクトレベルとシーンレベルの多モーダルなタスクを含む、規模と複雑さに優れたデータセットを慎重に作成
 - 
 
@@ -3052,7 +3053,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjA0OTkwOSwtNzk0OTkwNCwyMjc4MT
+eyJoaXN0b3J5IjpbMTY2OTM2Mzc3NywtNzk0OTkwNCwyMjc4MT
 U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
 LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
 Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
