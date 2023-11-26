@@ -95,6 +95,9 @@
 -  単行本が入るClaude 200kで僕と「エヴァンゲリオン」
 	- https://note.com/shoty/n/n03bff29f683f
 	- 日本語だと150ページいかないくらいが調理できるのではないかと思う。つまり**単行本一冊が入ってしまう**
+	- エバンゲリオンの物語をシミュレートできるかという挑戦らしい
+- 【DSにKaggleが必ずしも必要ではない話】
+	- https://x.com/Nurruttan/status/1727495591905858016?s=20
 	- 
 
 ## 11/20
@@ -3027,7 +3030,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODIyMDg3MSwtNzk0OTkwNCwyMjc4MT
+eyJoaXN0b3J5IjpbMTA1Njg5NzY3MywtNzk0OTkwNCwyMjc4MT
 U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
 LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
 Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
