@@ -102,7 +102,11 @@
 	-  一方で、 「②サービスグロース型」 「③製品開発型」 「⑤AI開発型」 は重要度は高い。
 - Google BardでYoutubeとチャットできるように
 	- https://bard.google.com/chat
-- 
+-  「Paper Interpreter」を使って論文を読もう！
+	- https://note.com/daichi_konno/n/nb1f1ac368a30
+	- 東大の、紺野大地先生作成
+	- **「論文をアップロードするだけで、内容を日本語で分かりやすく説明してくれるAI」**
+- アルトマン氏電撃解任劇の裏に、OpenAIが、AGIをか
 
 ## 11/20
 
@@ -3034,11 +3038,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDMzMzQyNzcsLTc5NDk5MDQsMjI3OD
-E1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1
-MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nz
-g2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5
-OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NT
-YsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4
-Mzg2Nzk2N119
+eyJoaXN0b3J5IjpbMjQzNzY4Nzg3LC03OTQ5OTA0LDIyNzgxNT
+k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
+MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
+kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
+NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
+0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
+Njc5NjddfQ==
 -->
