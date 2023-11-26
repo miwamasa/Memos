@@ -61,6 +61,9 @@
 	- 「Azure OpenAI Service」で「gpt-3.5-turbo」を使用する手順をまとめました。
 -  Orca 2: Teaching Small Language Models How to Reason
 	- https://huggingface.co/papers/2311.11045
+	- 小さいことはいいことだ
+-  Introducing RAGs: Your Personalized ChatGPT Experience Over Your Data
+	- https://blog.llamaindex.ai/introducing-rags-your-personalized-chatgpt-experience-over-your-data-2b9d140769b1
 	- 
 
 ## 11/20
@@ -2993,7 +2996,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxNDczOTc1LC03OTQ5OTA0LDIyNzgxNT
+eyJoaXN0b3J5IjpbMjI4MTg0MDcwLC03OTQ5OTA0LDIyNzgxNT
 k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
 MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
 kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
