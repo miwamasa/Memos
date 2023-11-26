@@ -196,6 +196,10 @@
 - ルカン先生によるQ*に対する表明
 	- https://x.com/ylecun/status/1728126868342145481?s=20
 	- 「Q*に関する完全なナンセンスの洪水は無視してね。LLMの信頼性を向上させる主な課題の1つは、自己回帰的トークン予測をプランニングに置き換えることです」
+- Macでllama2を試すためのswift-chat
+	- https://github.com/huggingface/swift-chat
+	- Llama 2 7B chat, running 100% private on Mac, powered by CoreML!
+	- CoreMLが役に立ったと、、
 
 ## 11/20
 
@@ -3127,11 +3131,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTQ4NTg3MSwxMTg0NTA3ODExLC0xNj
-E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
-MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
-M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
-LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
-I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
-ODc1NzQ2MF19
+eyJoaXN0b3J5IjpbLTExNDI4MDY0MjEsMTE4NDUwNzgxMSwtMT
+YxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgx
+LDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMD
+MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
+NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
+0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
+NDg3NTc0NjBdfQ==
 -->
