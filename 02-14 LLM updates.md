@@ -170,7 +170,12 @@
 - Q*について著名なデータサイエンティストErnest Okumuraさんのコメント
 	- https://x.com/pacocat/status/1728052432016470281?s=20
 	- Q*がQ-learningから来ているかは知らないけれども、制作者にとって好ましい出力を得るために方策空間を探索する技術は今後さらに求められていくと思うし、RLHFみたいな分かりやすいアラインメントを超えてAGIみたいな文脈でも野心的な試みは増えてくるんじゃないでしょうか。
-- 
+- Sparse Transformers：入力シーケンスの長さによる計算量増加問題への革新的なアプローチ
+	- https://ai-scholar.tech/articles/transformer/sparseTransformer
+	- Attentionのレイヤー毎の特徴を再現することで，計算量の削減を達成  
+	- Sliding Window Attenion、Dilated Sliding Window Attention、Global Attentionという3つのAttentionを使ってTransformernの計算量を削減した  
+	- 計算量を削減しただけではなくて，当時のSOTAを達成している．
+-  Llemma: An Open Language Model For Mathematics
 
 ## 11/20
 
@@ -3102,11 +3107,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3NDAzNTMyLDExODQ1MDc4MTEsLTE2MT
-cxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwx
-NTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMz
-Y0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYs
-MTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMj
-kxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC0xNTQ4
-NzU3NDYwXX0=
+eyJoaXN0b3J5IjpbLTcxMTQ1MjIyMSwxMTg0NTA3ODExLC0xNj
+E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
+MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
+M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
+LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
+I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
+ODc1NzQ2MF19
 -->
