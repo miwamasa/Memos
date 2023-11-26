@@ -64,6 +64,10 @@
 	- 小さいことはいいことだ
 -  Introducing RAGs: Your Personalized ChatGPT Experience Over Your Data
 	- https://blog.llamaindex.ai/introducing-rags-your-personalized-chatgpt-experience-over-your-data-2b9d140769b1
+	- llamaindexのJerryが放つ、streamlitをつかった、RAGアプリ生成ツールRAGs
+	- “ChatGPT over your data” without needing to code.
+- Large-scale pancreatic cancer detection via non-contrast CT and deep learning
+	- https://www.nature.com/articles/s41591-023-02640-w
 	- 
 
 ## 11/20
@@ -2996,11 +3000,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4MTg0MDcwLC03OTQ5OTA0LDIyNzgxNT
-k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
-MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
-kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
-NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
-0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
-Njc5NjddfQ==
+eyJoaXN0b3J5IjpbMTkxNDYxODU0MCwtNzk0OTkwNCwyMjc4MT
+U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
+LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
+Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
+OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
+wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
+ODY3OTY3XX0=
 -->
