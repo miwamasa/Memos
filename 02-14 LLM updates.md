@@ -144,6 +144,10 @@
 - Pythonによるフェーズフィールド法入門: 基礎理論からデータ同化の実装まで
 	- https://www.amazon.co.jp/dp/4621308882?_encoding=UTF8&psc=1&ref_=cm_sw_r_tw_ud_dp_RW79QAZKZRQ7K9N885XB
 	- フェーズフィールド法においても,実験データを活用して物性値やパラメータを推定しつつ,シミュレーション精度を高められるような,データ同化と融合した手法の開発が進んでいる.そこで本書でも,データ同化の基礎からフェーズフィールドモデルへの実装方法まであわせて紹介する.
+	- フェーズフィールド法では、秩序変数の拡散方程式と反応方程式を同時に解くことで、組織形成過程を計算します。拡散方程式は、秩序変数が拡散する際の挙動を記述する方程式です。反応方程式は、相の変化を記述する方程式です。
+	- フェーズフィールド法は、金属の凝固、多結晶粒成長、拡散相変態など、さまざまな材料組織形成過程の計算に用いられています。また、応力場や電磁場における組織形成やナノスケールにおけるモデル化など、マルチスケール・マルチフィジックスを対象とした種々の工学分野にも応用されています。
+- Domingos氏、Q*-learningをみて、
+	- https://x.com/pmddomingos/status/1727562239060656339?s=20
 
 ## 11/20
 
@@ -3075,11 +3079,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3MDgyNzI2LC03OTQ5OTA0LDIyNzgxNT
-k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
-MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
-kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
-NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
-0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
-Njc5NjddfQ==
+eyJoaXN0b3J5IjpbLTE1OTExMDY4NjUsLTc5NDk5MDQsMjI3OD
+E1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1
+MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nz
+g2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5
+OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NT
+YsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4
+Mzg2Nzk2N119
 -->
