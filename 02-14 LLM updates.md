@@ -121,6 +121,14 @@
 	- ３D世界の中で身体性をもった汎用エージェント
 	- 3D世界に対して、いわば記号接地するような訓練をすることで身体性(embodiment)を取得、自然言語処理、コンピュータビジョン、ロボティクスなどの多様なドメインで汎用的なタスクを解決できる汎用エージェントが構築できたという
 	- 手段としては、3D世界の理解と相互作用を必要とする、オブジェクトレベルとシーンレベルの多モーダルなタスクを含む、規模と複雑さに優れたデータセットを慎重に作成
+-  大規模言語モデル(LLM)をLoRAで強化する際に役立つ情報を研究者が公開
+	- https://gigazine.net/news/20231123-llm-lora/
+	- LoRAは画像生成モデルや大規模言語モデル(LLM)に追加の情報を学習させてモデルを微調整できる仕組
+	- **◆LoRAの効果には一貫性がある**
+	- **◆QLoRAを使えば追加学習時のVRAM使用量を大幅に節約可能**
+	- **◆最適化アルゴリズムはAdamでもSGDでも大差ない**
+	- **◆LoRAによる追加学習を繰り返すと性能が低下する**
+	- **◆LoRAによる追加学習は単一のGPUで実行可能**
 - 
 
 ## 11/20
@@ -3053,11 +3061,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY1NDczMDksLTc5NDk5MDQsMjI3OD
-E1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1
-MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nz
-g2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5
-OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NT
-YsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4
-Mzg2Nzk2N119
+eyJoaXN0b3J5IjpbLTY1MjMzNTUzNSwtNzk0OTkwNCwyMjc4MT
+U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
+LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
+Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
+OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
+wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
+ODY3OTY3XX0=
 -->
