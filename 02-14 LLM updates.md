@@ -149,7 +149,11 @@
 - 「マスターアルゴリズム」の著者、Domingos氏、Q*-learningの効果をみて、人類の終焉を叫ぶ
 	- https://x.com/pmddomingos/status/1727562239060656339?s=20
 	- Q* can solve simple math problems that symbolic AI could solve 50 years ago. Panic! AGI is here! Humanity is over!
-- 
+- A Benchmark to Understand the Role of Knowledge Graphs on Large Language Model's Accuracy for Question Answering on Enterprise SQL Databases
+	- https://arxiv.org/abs/2311.07509
+	- impact of KGs for question answering on SQL databases: 54% accuracy vs. 16% with instructions directly on SQL databases.
+	- SQL DBを参照して質問応答を行うシステムでは、LLMに直接SQLを参照させると16%の正解率しか出なかったがLLMをナレッジグラフにマッピングしてそれを参照させると54%に改善したという研究。
+	- 本質的に持っている情報が同じでもデータ構造によってRAGの精度が変わることの一例ともみなせる
 
 ## 11/20
 
@@ -3081,11 +3085,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjcyOTYxNCwtNzk0OTkwNCwyMjc4MT
-U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
-LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
-Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
-OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
-wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
-ODY3OTY3XX0=
+eyJoaXN0b3J5IjpbNTE0MjI2NDUwLC03OTQ5OTA0LDIyNzgxNT
+k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
+MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
+kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
+NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
+0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
+Njc5NjddfQ==
 -->
