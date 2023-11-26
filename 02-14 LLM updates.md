@@ -158,6 +158,10 @@
 	- https://x.com/umiyuki_ai/status/1727875985167790529?s=20
 	- Claude無料版試してみたけど、結構長文の日本語pdf入力して要約してってお願いしたら、ちゃんと内容読んで要約箇条書き出してくれた（目次丸写しではない）　３章の内容説明してって言ったらちゃんと説明してくれた。つまりちゃんと最後まで読んで答えてる。かなり的確な応答を返してくれる。それでタダ。これ相当スゴイね
 - Yuhan Sun et al., "To be or not to be? an exploration of continuously controllable prompt engineering"
+	- https://arxiv.org/abs/2311.09773
+	- これまで「LLMの動きを観察して"プロンプトを調節"する」手法が追究されてきましたが、限界があるため「プロンプトによる"LLMの動きをダイレクトに調整"する」手法『ControlPE』
+	- 自動運転システムなどを手掛けるセンスタイム社
+	- ① LoRAを利用するアプローチ ② プロンプトの影響を連続的に微調整 ③ 従来のプロンプトエンジニアリングを補完する
 
 ## 11/20
 
@@ -3089,11 +3093,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OT
-Q5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjks
-LTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1Nj
-U2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2
-NCwtMTE1NjgyOTk5NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC
-0xNzU5MTI1ODU2LC0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3
-MjcyMTAzXX0=
+eyJoaXN0b3J5IjpbMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2ND
+IxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDks
+LTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxOD
+A3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0
+LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3Mzg2NDcsLT
+E1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1NDg3NTc0NjAsMjA0
+ODg1MDczMF19
 -->
