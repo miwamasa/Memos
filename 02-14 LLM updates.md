@@ -177,9 +177,12 @@
 	- 計算量を削減しただけではなくて，当時のSOTAを達成している．
 -  Llemma: An Open Language Model For Mathematics
 	- https://arxiv.org/abs/2310.10631
-	- どうも、LLMをつかって、定理証明気pythonコード
+	- どうも、LLMをつかって、定理証明器をつかうpythonコードを生成するらしい。実際に説くのはpythonインタープリター＋定理証明器の組み合わせ。
 	- The AlgebraicStack dataset of 11B tokensが提供される
 	- Llema can solve mathematical problems using a Python interpreter and a formal theorem prover.
+- LlamaIndex vs. OpenAI Assistants API
+	-  RAG Evaluation Series: Validating the RAG Performance of OpenAI vs LlamaIndex
+	- https://www.tonic.ai/blog/rag-evaluation-series-validating-rag-performance-openai-vs-llamaindex
 
 ## 11/20
 
@@ -3111,7 +3114,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODc5NDAyNSwxMTg0NTA3ODExLC0xNj
+eyJoaXN0b3J5IjpbLTcyNDAyMzQyMiwxMTg0NTA3ODExLC0xNj
 E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
 MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
 M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
