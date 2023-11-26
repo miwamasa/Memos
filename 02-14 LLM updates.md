@@ -113,6 +113,7 @@
 - Intel謹製の、LLMが、リーダーボードで上位の性能をはじき出す
 	- https://x.com/Yampeleg/status/1727679553714217421?s=20
 	- https://huggingface.co/Intel/neural-chat-7b-v3-1
+	- A 7B model from Intel almost as capable as Falcon 180B:これは本当か！！！
 	- Base model: Mistral 7B. 
 	- Fine Tuned on: SlimOrca 
 	- DPO: LLaMA-13B vs ChatGPT Gens (Prefer ChatGPT)
@@ -3114,7 +3115,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDAyMzQyMiwxMTg0NTA3ODExLC0xNj
+eyJoaXN0b3J5IjpbLTE4NDY1NDk2MSwxMTg0NTA3ODExLC0xNj
 E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
 MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
 M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
