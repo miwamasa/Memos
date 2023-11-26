@@ -21,7 +21,11 @@
 	- 実際のレストランに関するクラウドソースされた質問と会話を含むデータセットで実用性が確認された
 -  Meta disbanded its Responsible AI team
 	- https://www.theverge.com/2023/11/18/23966980/meta-disbanded-responsible-ai-team-artificial-intelligence
-	- metaが
+	- metaが責任あるAIのチームを解散させた
+- 状態空間モデリング入門
+	- https://www.no-spare.com/store/products/seminar-20231129
+	- 本講座では、金融時系列データへの応用を題材に、動的線形モデル・ボラティリティモデル・最新の研究を解説します。
+- 
 
 ## 11/20
 
@@ -2953,7 +2957,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzU2MzA1MywtNzk0OTkwNCwyMjc4MT
+eyJoaXN0b3J5IjpbMTc1NzMzNTk2NCwtNzk0OTkwNCwyMjc4MT
 U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
 LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
 Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
