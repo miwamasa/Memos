@@ -87,7 +87,12 @@
 - ChatGPTで部屋の片づけをしている人がいいる
 	- https://x.com/fjtn_c/status/1727216371711586402?s=20
 	- （部屋の写真送って片付けタスクを分解してもらって、それを実行して写真撮ってまた進捗を送る→同じことを繰り返し）
-- 
+- 愛新覚羅の孫（大井町の眼科医）の驚愕エピソード
+	- https://x.com/aishinkakura_i/status/1727477535234248712?s=20
+	- 学会でアメリカを訪れた際、イミグレーションで「清朝の子孫か」って尋問を受け、しばらく足を止められ…
+- metaから、Getting started  with Llama
+	- https://ai.meta.com/llama/get-started/?utm_source=twitter&utm_medium=organic_social&utm_campaign=llama2&utm_content=image
+- # 単行本が入るClaude 200kで僕と「エヴァンゲリオン」
 
 ## 11/20
 
@@ -3019,11 +3024,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTI0MzMzOCwtNzk0OTkwNCwyMjc4MT
-U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
-LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
-Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
-OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
-wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
-ODY3OTY3XX0=
+eyJoaXN0b3J5IjpbNDg0MzE5OTQxLC03OTQ5OTA0LDIyNzgxNT
+k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
+MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
+kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
+NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
+0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
+Njc5NjddfQ==
 -->
