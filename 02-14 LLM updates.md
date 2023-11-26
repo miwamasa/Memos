@@ -157,6 +157,7 @@
 - うみゆき氏、Claude2.1の性能に舌を巻く
 	- https://x.com/umiyuki_ai/status/1727875985167790529?s=20
 	- Claude無料版試してみたけど、結構長文の日本語pdf入力して要約してってお願いしたら、ちゃんと内容読んで要約箇条書き出してくれた（目次丸写しではない）　３章の内容説明してって言ったらちゃんと説明してくれた。つまりちゃんと最後まで読んで答えてる。かなり的確な応答を返してくれる。それでタダ。これ相当スゴイね
+- Yuhan Sun et al., "To be or not to be? an exploration of continuously controllable prompt engineering"
 
 ## 11/20
 
@@ -3088,11 +3089,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNT
-k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
-MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
-kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
-NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
-0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
-Njc5NjddfQ==
+eyJoaXN0b3J5IjpbLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OT
+Q5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjks
+LTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1Nj
+U2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2
+NCwtMTE1NjgyOTk5NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC
+0xNzU5MTI1ODU2LC0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3
+MjcyMTAzXX0=
 -->
