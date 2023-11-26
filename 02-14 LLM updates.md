@@ -52,8 +52,13 @@
 	- https://zenn.dev/syoyo/articles/59a5ccbbb5660e
 	- 7B 以下(10B 未満)も試しましたが, 行間を読むほどのかしこさはなく, 13B 規模で飛躍的にかしこさが上がる感じだったので, 13 B 規模のを選んでいます.
 	- qwen.cpp(llama.cpp variant)で f16 量子化版を動かしました.
-	- q4 あたりに量子化だといくらかかしこさ落ちました(それでもほかの日本語 LLM よりよい結果をえられる)  
-また, Qwen7B もあまりかしこくはありませんでした.
+	- q4 あたりに量子化だといくらかかしこさ落ちました(それでもほかの日本語 LLM よりよい結果をえられる)  また, Qwen7B もあまりかしこくはありませんでした.
+	- Qwen 14B(Chat) ちゃんが行間を読むほどのかしこさを見せました!
+- OpenAIがNPO+であるようなことが、今回のアルトマン氏解任につながったとの絵柄
+	- https://x.com/GOROman/status/1726701627468546511?s=20
+-  Azure OpenAI Service 入門 by npakaさｎ
+	- https://note.com/npaka/n/n46e6ad252ce1?sub_rt=share_h
+	- 
 
 ## 11/20
 
@@ -2985,7 +2990,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDA1NzM0MCwtNzk0OTkwNCwyMjc4MT
+eyJoaXN0b3J5IjpbLTQ4NjE3NzQwNywtNzk0OTkwNCwyMjc4MT
 U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
 LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
 Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
