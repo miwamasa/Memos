@@ -78,6 +78,11 @@
 	- 今回触れたチャンク分割時の設定以外にも、システムプロンプトの決定、Embeddingおよび応答の生成に使用するLLMの選定、ベクターストア/検索アルゴリズムの選定など、パフォーマンスに影響を与える要素は数多く存在します。
 - アルトマン氏OpenAIに復帰すると
 	- https://x.com/OpenAI/status/1727206187077370115?s=20
+-  2週間使い倒してわかった｢GPT-4-Turboの衝撃｣。OpenAIの｢お家騒動｣で見逃してる場合じゃない
+	- https://www.businessinsider.jp/post-278766
+- AnthropicAIよりClaude2.1の発表
+	- https://x.com/AnthropicAI/status/1727001773888659753?s=20
+	- コンテキスト長はなんと 200k と 2 倍に拡大。ハルシネーションの低減、システムプロンプトへの対応、価格の引き下げ、外部APIとの連携機能(ベータ版) など
 - 
 
 ## 11/20
@@ -3010,7 +3015,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyODI4MzAyLC03OTQ5OTA0LDIyNzgxNT
+eyJoaXN0b3J5IjpbNjQ0MzA1NzY2LC03OTQ5OTA0LDIyNzgxNT
 k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
 MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
 kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
