@@ -9,7 +9,11 @@
 - 大規模言語モデルを用いた意味分析による辞書記述への応用
 	- https://speakerdeck.com/yhkondo/da-gui-mo-yan-yu-moderuwoyong-itayi-wei-fen-xi-niyoruci-shu-ji-shu-henoying-yong
 	- 埋め込み（ベクトル化）の辞書作成への応用とか、枕草子を題材に埋め込みをつかたｔ類似検索してみる例が、英語による検索、絵文字による検索、クリエーティブな検索など事例があって面白い
-- 
+- Shicheng Liu et al., "SUQL: Conversational Search over Structured and Unstructured Data with Large Language Models"
+	- https://arxiv.org/abs/2311.09818
+	- LLMベースの新しい言語『SUQL』が開発されました。SQLを拡張して「非構造化データのクエリ」を処理するパラダイムを導入
+	- 『SUQL（Structured and Unstructured Query Language）』
+	- 
 
 ## 11/20
 
@@ -2941,11 +2945,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjM0NDA0NiwtNzk0OTkwNCwyMjc4MT
-U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
-LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
-Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
-OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
-wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
-ODY3OTY3XX0=
+eyJoaXN0b3J5IjpbLTE3MDE2MDMwNDEsLTc5NDk5MDQsMjI3OD
+E1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1
+MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nz
+g2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5
+OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NT
+YsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4
+Mzg2Nzk2N119
 -->
