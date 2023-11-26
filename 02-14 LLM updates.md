@@ -184,6 +184,9 @@
 - LlamaIndex vs. OpenAI Assistants API
 	-  RAG Evaluation Series: Validating the RAG Performance of OpenAI vs LlamaIndex
 	- https://www.tonic.ai/blog/rag-evaluation-series-validating-rag-performance-openai-vs-llamaindex
+- OpenAIのChatGPTアプリ、音声による対話を万人に開放
+	- https://x.com/IELTS_expert/status/1728326991676670222?s=20
+- 
 
 ## 11/20
 
@@ -3115,7 +3118,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDY1NDk2MSwxMTg0NTA3ODExLC0xNj
+eyJoaXN0b3J5IjpbMTI5NDExMjkzMCwxMTg0NTA3ODExLC0xNj
 E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
 MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
 M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
