@@ -36,6 +36,11 @@
 	- https://x.com/sama/status/1726345564059832609?s=20
 	- first and last time i ever wear one of these
 -  ChipNeMo: Domain-Adapted LLMs for Chip Design
+	- https://arxiv.org/abs/2311.00176
+	- ChipNeMoはチップ設計支援向けにドメイン適応したLLM。開発支援Chatbot、EDAスクリプト生成、バグ要約と分析を行う。既存LLMに、専用トークンを追加した後、ドメイン適応事前事前学習（DAPT 230億トークン）、指示学習（1000例）をし、ドメイン適応検索補強を行う
+- マイクロソフトのナデラ氏、アルトマン氏たちがマイクロソフトにJoinすると、、
+	- https://x.com/satyanadella/status/1726509045803336122?s=20
+- 
 
 ## 11/20
 
@@ -2967,11 +2972,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0Nzk4NjMsLTc5NDk5MDQsMjI3ODE1OT
-gxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwy
-MDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OT
-EzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1
-LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLT
-E1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4Mzg2
-Nzk2N119
+eyJoaXN0b3J5IjpbLTQzNTEwMzgzNywtNzk0OTkwNCwyMjc4MT
+U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
+LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
+Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
+OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
+wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
+ODY3OTY3XX0=
 -->
