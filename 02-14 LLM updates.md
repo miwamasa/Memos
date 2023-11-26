@@ -110,7 +110,12 @@
 	- Q*-learningという手法により、数値計算などLLMが苦手としていた課題も解けるようになった。
 	- https://x.com/hbouammar/status/1727683545852768295?s=20
 	- A*ってのは探索のアルゴリズムだけど、それのQ-learning版という話
-- 
+- Intel謹製の、LLMが、リーダーボードで上位の性能をはじき出す
+	- https://x.com/Yampeleg/status/1727679553714217421?s=20
+	- https://huggingface.co/Intel/neural-chat-7b-v3-1
+	- Base model: Mistral 7B. 
+	- Fine Tuned on: SlimOrca 
+	- DPO: LLaMA-13B vs ChatGPT Gens (Prefer ChatGPT)
 
 ## 11/20
 
@@ -3042,11 +3047,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5MDUzNTA3LC03OTQ5OTA0LDIyNzgxNT
-k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
-MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
-kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
-NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
-0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
-Njc5NjddfQ==
+eyJoaXN0b3J5IjpbLTE2NTg4MTQ2MzksLTc5NDk5MDQsMjI3OD
+E1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1
+MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nz
+g2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5
+OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NT
+YsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4
+Mzg2Nzk2N119
 -->
