@@ -44,6 +44,10 @@
 	- https://github.com/microsoft/generative-ai-for-beginners
 	- The free 12 lesson course is available on Github and will teach you everything you need to know to start building Generative AI applications.
 -  Learning to Filter Context for Retrieval-Augmented Generation
+	- https://arxiv.org/abs/2311.08377
+	- RAGにおいて、コンテキストをフィルタリングする方法を学習する
+	- 語彙および情報理論的なアプローチを通じて有用なコンテキストを特定し、テスト中にコンテキストをフィルターするためのモデルをトレーニングすることが含まれます。
+	- FILCO は、コンテキスト フィルタリングに String Inclusion (STRINC)、Lexical Overlap、Conditional Cross-Mutual Information (CXMI) などの技術を使用
 
 ## 11/20
 
@@ -2975,7 +2979,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODM5NTg0NywtNzk0OTkwNCwyMjc4MT
+eyJoaXN0b3J5IjpbMTk4MDY5MDcyNywtNzk0OTkwNCwyMjc4MT
 U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
 LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
 Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
