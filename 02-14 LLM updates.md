@@ -3,6 +3,8 @@
 
 ## 11/27
 
+結局アルトマン氏は、マイクロソフトが受け入れることを
+
 -  Banach-Tarski Embeddings and Transformers
 	- https://arxiv.org/abs/2311.09387
 	- 再帰的なデータ構造の線型空間での表現（バナッハタルスキ埋め込み）を考えるとその表現上のアルゴリズム（復号）がTransformerとして自然に実装できるらしい
@@ -199,6 +201,8 @@
 - Macでllama2を試すためのswift-chat
 	- https://github.com/huggingface/swift-chat
 	- Llama 2 7B chat, running 100% private on Mac, powered by CoreML!
+	- Pedro Cuencaさんは現地時間2023年08月08日、Apple Silicon MacなどAppleデバイス上で大規模言語モデル(LLM)を実行するためのSwiftパッケージとDemoアプリを公開
+	- SwiftでTransformersライクなAPIを実装するために開発したSwiftパッケージ”swift-transformers”と、Demoアプリ”swift-chat”、加えてTransformersモデルをCoreMLへ変換するコンバーター”transformers-to-coreml”で、
 	- CoreMLが役に立ったと、、
 
 ## 11/20
@@ -3131,11 +3135,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI4MDY0MjEsMTE4NDUwNzgxMSwtMT
-YxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgx
-LDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMD
-MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
-NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
-0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
-NDg3NTc0NjBdfQ==
+eyJoaXN0b3J5IjpbMjEyODc1MjcyNiwxMTg0NTA3ODExLC0xNj
+E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
+MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
+M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
+LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
+I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
+ODc1NzQ2MF19
 -->
