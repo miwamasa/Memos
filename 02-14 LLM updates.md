@@ -160,8 +160,10 @@
 - Yuhan Sun et al., "To be or not to be? an exploration of continuously controllable prompt engineering"
 	- https://arxiv.org/abs/2311.09773
 	- これまで「LLMの動きを観察して"プロンプトを調節"する」手法が追究されてきましたが、限界があるため「プロンプトによる"LLMの動きをダイレクトに調整"する」手法『ControlPE』
-	- 自動運転システムなどを手掛けるセンスタイム社
+	- 自動運転システムなどを手掛けるセンスタイム社による
+	- ControlPEは競合技術と比較してもプロンプトの影響をこまかく調整できる手法
 	- ① LoRAを利用するアプローチ ② プロンプトの影響を連続的に微調整 ③ 従来のプロンプトエンジニアリングを補完する
+- 
 
 ## 11/20
 
@@ -3093,11 +3095,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2ND
-IxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDks
-LTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxOD
-A3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0
-LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3Mzg2NDcsLT
-E1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1NDg3NTc0NjAsMjA0
-ODg1MDczMF19
+eyJoaXN0b3J5IjpbMTM3MDY4NDU5MiwxMTg0NTA3ODExLC0xNj
+E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
+MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
+M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
+LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLT
+I5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1NiwtMTU0
+ODc1NzQ2MF19
 -->
