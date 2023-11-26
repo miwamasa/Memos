@@ -92,7 +92,10 @@
 	- 学会でアメリカを訪れた際、イミグレーションで「清朝の子孫か」って尋問を受け、しばらく足を止められ…
 - metaから、Getting started  with Llama
 	- https://ai.meta.com/llama/get-started/?utm_source=twitter&utm_medium=organic_social&utm_campaign=llama2&utm_content=image
-- # 単行本が入るClaude 200kで僕と「エヴァンゲリオン」
+-  単行本が入るClaude 200kで僕と「エヴァンゲリオン」
+	- https://note.com/shoty/n/n03bff29f683f
+	- 日本語だと150ページいかないくらいが調理できるのではないかと思う。つまり**単行本一冊が入ってしまう**
+	- 
 
 ## 11/20
 
@@ -3024,11 +3027,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MzE5OTQxLC03OTQ5OTA0LDIyNzgxNT
-k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
-MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
-kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
-NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
-0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
-Njc5NjddfQ==
+eyJoaXN0b3J5IjpbLTg3ODIyMDg3MSwtNzk0OTkwNCwyMjc4MT
+U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
+LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
+Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
+OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
+wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
+ODY3OTY3XX0=
 -->
