@@ -141,7 +141,9 @@
 	- https://hal.science/hal-03723551
 	- Why do tree-based models still outperform deep learning on tabular data?” confirms tree-based models outperform deep learning and explain some of the reasons why.
 	- When it comes to #tabulardata and #timeseries (by far the most important majority of data for almost any real company), deep learning is not one needs. 
-	- 
+- Pythonによるフェーズフィールド法入門: 基礎理論からデータ同化の実装まで
+	- https://www.amazon.co.jp/dp/4621308882?_encoding=UTF8&psc=1&ref_=cm_sw_r_tw_ud_dp_RW79QAZKZRQ7K9N885XB
+	- フェーズフィールド法においても,実験データを活用して物性値やパラメータを推定しつつ,シミュレーション精度を高められるような,データ同化と融合した手法の開発が進んでいる.そこで本書でも,データ同化の基礎からフェーズフィールドモデルへの実装方法まであわせて紹介する.
 
 ## 11/20
 
@@ -3073,11 +3075,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDg0NjYwNjAsLTc5NDk5MDQsMjI3OD
-E1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1
-MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nz
-g2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5
-OTk1LC0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NT
-YsLTE1NDg3NTc0NjAsMjA0ODg1MDczMCw4NzcyNzIxMDMsMTE4
-Mzg2Nzk2N119
+eyJoaXN0b3J5IjpbNTQ3MDgyNzI2LC03OTQ5OTA0LDIyNzgxNT
+k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
+MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
+kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
+NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
+0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
+Njc5NjddfQ==
 -->
