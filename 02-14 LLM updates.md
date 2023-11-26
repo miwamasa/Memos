@@ -76,7 +76,9 @@
 -  RAG評価ツールの "RAGAS" を使って、RAGパイプラインの性能を測定する
 	- https://qiita.com/s3kzk/items/44b8780c656b4f747403
 	- 今回触れたチャンク分割時の設定以外にも、システムプロンプトの決定、Embeddingおよび応答の生成に使用するLLMの選定、ベクターストア/検索アルゴリズムの選定など、パフォーマンスに影響を与える要素は数多く存在します。
-	- 
+- アルトマン氏OpenAIに復帰すると
+	- https://x.com/OpenAI/status/1727206187077370115?s=20
+- 
 
 ## 11/20
 
@@ -3008,11 +3010,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTM4NTAzNywtNzk0OTkwNCwyMjc4MT
-U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
-LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
-Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
-OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1OTEyNTg1Ni
-wtMTU0ODc1NzQ2MCwyMDQ4ODUwNzMwLDg3NzI3MjEwMywxMTgz
-ODY3OTY3XX0=
+eyJoaXN0b3J5IjpbOTkyODI4MzAyLC03OTQ5OTA0LDIyNzgxNT
+k4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEs
+MjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4Nj
+kxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5
+NSwtMjkxNzM4NjQ3LC0xNTQ4NTg2OTMzLC0xNzU5MTI1ODU2LC
+0xNTQ4NzU3NDYwLDIwNDg4NTA3MzAsODc3MjcyMTAzLDExODM4
+Njc5NjddfQ==
 -->
