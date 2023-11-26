@@ -176,6 +176,10 @@
 	- Sliding Window Attenion、Dilated Sliding Window Attention、Global Attentionという3つのAttentionを使ってTransformernの計算量を削減した  
 	- 計算量を削減しただけではなくて，当時のSOTAを達成している．
 -  Llemma: An Open Language Model For Mathematics
+	- https://arxiv.org/abs/2310.10631
+	- どうも、LLMをつかって、定理証明気pythonコード
+	- The AlgebraicStack dataset of 11B tokensが提供される
+	- Llema can solve mathematical problems using a Python interpreter and a formal theorem prover.
 
 ## 11/20
 
@@ -3107,7 +3111,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTQ1MjIyMSwxMTg0NTA3ODExLC0xNj
+eyJoaXN0b3J5IjpbMTkyODc5NDAyNSwxMTg0NTA3ODExLC0xNj
 E3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEs
 MTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMz
 M2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2
