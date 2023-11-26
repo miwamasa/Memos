@@ -48,6 +48,12 @@
 	- RAGにおいて、コンテキストをフィルタリングする方法を学習する
 	- 語彙および情報理論的なアプローチを通じて有用なコンテキストを特定し、テスト中にコンテキストをフィルターするためのモデルをトレーニングすることが含まれます。
 	- FILCO は、コンテキスト フィルタリングに String Inclusion (STRINC)、Lexical Overlap、Conditional Cross-Mutual Information (CXMI) などの技術を使用
+- 日本語対応 LLM(13B 規模)の, 行間を読むようなかしこさがあるか試したメモ(現状 Qwen 14B がベスト)
+	- https://zenn.dev/syoyo/articles/59a5ccbbb5660e
+	- 7B 以下(10B 未満)も試しましたが, 行間を読むほどのかしこさはなく, 13B 規模で飛躍的にかしこさが上がる感じだったので, 13 B 規模のを選んでいます.
+	- qwen.cpp(llama.cpp variant)で f16 量子化版を動かしました.
+	- q4 あたりに量子化だといくらかかしこさ落ちました(それでもほかの日本語 LLM よりよい結果をえられる)  
+また, Qwen7B もあまりかしこくはありませんでした.
 
 ## 11/20
 
@@ -2979,7 +2985,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDY5MDcyNywtNzk0OTkwNCwyMjc4MT
+eyJoaXN0b3J5IjpbMTk5MDA1NzM0MCwtNzk0OTkwNCwyMjc4MT
 U5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUx
 LDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3OD
 Y5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5
