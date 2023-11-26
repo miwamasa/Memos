@@ -204,6 +204,9 @@
 	- Pedro Cuencaさんは現地時間2023年08月08日、Apple Silicon MacなどAppleデバイス上で大規模言語モデル(LLM)を実行するためのSwiftパッケージとDemoアプリを公開
 	- SwiftでTransformersライクなAPIを実装するために開発したSwiftパッケージ”swift-transformers”と、Demoアプリ”swift-chat”、加えてTransformersモデルをCoreMLへ変換するコンバーター”transformers-to-coreml”で、
 	- CoreMLが役に立ったと、、
+- OECD、AIの定義を改定、生成AIや基盤モデルを考慮した
+	- https://www.euractiv.com/section/artificial-intelligence/news/oecd-updates-definition-of-artificial-intelligence-to-inform-eus-ai-act/
+	- 欧州AI法との整合性も考慮
 
 ## 11/20
 
@@ -3135,11 +3138,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMT
-YxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgx
-LDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMD
-MzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEz
-NiwxNjAxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC
-0yOTE3Mzg2NDcsLTE1NDg1ODY5MzMsLTE3NTkxMjU4NTYsLTE1
-NDg3NTc0NjBdfQ==
+eyJoaXN0b3J5IjpbLTg1Mzk1MTI0OSwtMTUxMjc0MjEwOSwxMT
+g0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkw
+NCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNz
+YxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4
+MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgyNDA4NjQsLT
+ExNTY4Mjk5OTUsLTI5MTczODY0NywtMTU0ODU4NjkzMywtMTc1
+OTEyNTg1Nl19
 -->
