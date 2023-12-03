@@ -131,7 +131,12 @@
 - われらが、 @jerryjliu0がdeeplearningaiコースに登場
 	- https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/
 	- We also have LlamaPacks for every technique mentioned in this course to help you jumpstart your advanced LLM app:
-- # Deconstructing RAG
+- Deconstructing RAG
+	- https://blog.langchain.dev/deconstructing-rag/
+	- Given the importance of RAG and the fast pace of development, we've grouped popular RAG concepts into a few categories and created guides for each one.
+- Running Starling-7B LLM model on local CPU with @Ollama_ai and getting great results for invoice data extraction, even better than Zephyr, Mistral or Llama2.
+	- https://github.com/katanaml/llm-ollama-invoice-cpu
+- 
 
 ## 11/27
 
@@ -3272,11 +3277,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE1NDE1NzYsLTUyOTIxNjY0MiwyMT
-A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
-NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
-g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
-NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYsMT
-YwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkx
-NzM4NjQ3XX0=
+eyJoaXN0b3J5IjpbMTU4NjUyMDcxOCwtNTI5MjE2NjQyLDIxMD
+kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
+NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
+g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
+MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNj
+AxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3
+Mzg2NDddfQ==
 -->
