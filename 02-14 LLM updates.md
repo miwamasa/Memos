@@ -97,7 +97,10 @@
 	- "Monadic syntax is excellent for expressing stochastic algorithms, and working over finitely supported distributions avoids the need for integrability side conditions during proofs."
 - Azure OpenAI Serviceの日本語記事まとめ
 	- https://zenn.dev/microsoft/articles/azure-openai-japanese-blogs
-- カーねmンきょう
+- カーネマン教授とルカン先生の対話
+	- https://www.youtube.com/watch?v=oy9FhisFTmI
+	- Video of Daniel Kahneman and Yann LeCun discussing Dual Process Theory (i.e., System 1 and 2) in relation to Deep Learning.
+- 
 
 ## 11/27
 
@@ -3238,11 +3241,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI5NjMwOTMsLTUyOTIxNjY0MiwyMT
-A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
-NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
-g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
-NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYsMT
-YwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkx
-NzM4NjQ3XX0=
+eyJoaXN0b3J5IjpbNjM3NzI4MzkyLC01MjkyMTY2NDIsMjEwOT
+AwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2
+MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEsMTU4OD
+Q3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUy
+MzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MD
+ExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLTI5MTcz
+ODY0N119
 -->
