@@ -150,9 +150,12 @@
 	- GPT-fastというのがすごらいしい、３倍？
 - LiLM 小規模言語モデル TinyLlama 1.1B の日本語追加事前学習(incremental pretrain) を試したメモ
 	- https://zenn.dev/syoyo/articles/52f1d0d62fcad5
-	- - 生成される日本語はまあまあであるが, 構文やコンテキストがおかしい...
--   ファインチューンしても間違えたり...
--   まあでも 1B 規模なら妥当なのかもしれません
+	- 生成される日本語はまあまあであるが, 構文やコンテキストがおかしい...
+	- ファインチューンしても間違えたり...
+	- まあでも 1B 規模なら妥当なのかもしれません
+- 今号の『日本語の研究』で「和歌集の歌風の言語的差異の記述ー大規模言語モデルによる分析ー」と題して、OpenAIのtext-embeddingを使って、『万葉集』と『古今集』の意味構造の差を解析してみました。
+	- https://www.musashinoshoin.co.jp/shoseki/view/2976/
+- 
 
 ## 11/27
 
@@ -3293,11 +3296,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMjY2MzM1LC01MjkyMTY2NDIsMjEwOT
-AwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2
-MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEsMTU4OD
-Q3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUy
-MzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MD
-ExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLTI5MTcz
-ODY0N119
+eyJoaXN0b3J5IjpbLTIwMDU3Mjg1OTYsLTUyOTIxNjY0MiwyMT
+A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
+NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
+g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
+NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYsMT
+YwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkx
+NzM4NjQ3XX0=
 -->
