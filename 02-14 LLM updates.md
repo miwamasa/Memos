@@ -26,7 +26,8 @@
 	- https://x.com/docmilanfar/status/1728680465928958055?s=20
 - llamaindexより、RAG評価ツールragsのv2リリース
 	- https://github.com/run-llama/rags
--  
+-  Simplifying Transformer Blocks 
+	- 
 
 ## 11/27
 
@@ -3167,7 +3168,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjc1OTA3NSwtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbMTgyOTI0MjAyOCwtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
