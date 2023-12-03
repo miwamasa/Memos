@@ -69,7 +69,12 @@
 - Compositional Generative Inverse Design
 	- https://openreview.net/forum?id=5ueXRkKMMg&referrer=%5Bthe%20profile%20of%20Yilun%20Du%5D(%2Fprofile%3Fid%3D~Yilun_Du1
 	- シミュレーションを深層学習モデルで近似した代理シミュレータと、拡散モデルを使った逆問題解法は、しばしば学習データ分布外にいったり局所解に陥ることがある。それを防ぐために、学習済みモデルを使って拡散モデルの各ステップで解を誘導し、不適切な解を防ぐCinDMを提案
-- 
+- mlc-llm on WSLでモデルの変換を行う
+	- 「WebGPUを用いたローカルLLMモデルのブラウザ推論」
+	- https://zenn.dev/saldra/articles/356f470e730d1c
+- ＮＴＴコムのＡＩ学習教材
+	- https://gochikika.ntt.com/index.html
+	- 
 
 ## 11/27
 
@@ -3210,7 +3215,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE3OTEyMTMsLTUyOTIxNjY0MiwyMT
+eyJoaXN0b3J5IjpbLTE1MDQwMDQ4MDksLTUyOTIxNjY0MiwyMT
 A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
 NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
 g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
