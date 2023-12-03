@@ -180,7 +180,14 @@
 - Harsha Nori et al., "Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine"
 	- https://arxiv.org/abs/2311.16452
 	- これまでGPT-4などの基盤モデルは、医学などの専門分野で特化モデルには敵わないと考えられてきました。 しかし、「実際はどうなのか？」と考えた研究者らは、特別なトレーニングなしのGPT-4が、プロンプトの工夫のみでどこまで性能を示すのかを検証しました。
-	- 
+	- ① アメリカの医学試験「US (4-option)」で90.2％という高い正解率を出した
+	-  ② 理由付けが必要なタイプの問題データセットPubMedQAで82.0％の正解率を達成
+-  日常能力を試すテスト『GAIA』正答率、人間92%に対してGPT-4は15%　一般的なニーズに応えるAI開発の指針に
+	- https://aiboom.net/archives/59440
+- Langchain102
+	- https://www.youtube.com/watch?v=haad3i9VROs
+	- Mistral 7b User Showcase + LangServe & LangSmith
+- 
 
 ## 11/27
 
@@ -3321,7 +3328,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjQ1Njk4MiwtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbLTI4NDk3NjI5MSwtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
