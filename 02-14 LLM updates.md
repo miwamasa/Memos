@@ -54,7 +54,9 @@
 	- https://github.com/intel/intel-extension-for-transformers/tree/1.2.1#int4-inference
 -  ラプラス変換とフーリエ変換の関係
 	- https://qiita.com/kaityo256/items/aa5b24904577de40016e
-	- 
+	- 関数�(�)にたいして、�<0ならゼロに、�≥0ならe−��をかけて、「より収束しやすく」した上でフーリエ変換したものがラプラス変換である。ラプラス変換が、軸の中途半端なところを「縦に」積分しなければならない理由も、フーリエ逆変換と�から�への変数変換から理解できるであろう。
+	- 関数�(�)にたいして、�<0ならゼロに、�≥0ならe−��をかけて、「より収束しやすく」した上でフーリエ変換したものがラプラス変換である。ラプラス変換が、軸の中途半端なところを「縦に」積分しなければならない理由も、フーリエ逆変換と�から�への変数変換から理解できるであろう。
+- Google Colab、Huggingfacesの協力で、transformerを最初からつかえ
 
 ## 11/27
 
@@ -3195,7 +3197,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTM0NjU5NSwtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbLTcwNjMwOTE3MSwtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
