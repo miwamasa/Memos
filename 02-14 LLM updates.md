@@ -20,7 +20,11 @@
 	- 「LCM」 (Latent Consistency Model) は、元モデルを別モデルに蒸留することで、画像生成に必要なステップ数を減らす手法です。25～50ステップかかっていた処理を4～8ステップで可能にします。
 - Multi-modal Foundation Model for Material Design
 	- https://openreview.net/forum?id=EiT2bLsfM9
-	- 
+	- 分子を表現するマルチモーダル基盤モデルの研究。SELFIES、DFT物性、スペクトルについてそれぞれencoder-decoderを学習し、各モダリティの潜在空間を共通の潜在空間にencode, decodeするモデルを学習。
+	-  欠損が多くても学習可能かつ、後から異なるモダリティを追加しやすい
+- 選択バイアスの式、tweedle
+	- https://x.com/docmilanfar/status/1728680465928958055?s=20
+- 
 
 ## 11/27
 
@@ -3161,7 +3165,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTcwNDYzNiwtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbMTQyNTYyNTUyNSwtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
