@@ -92,8 +92,12 @@
 	- https://www.ai-driven-life.com/neurips-papers
 - 強化学習はベルマン最適性原理から来る動的計画法に支えられてます。しかし、情報がrandomSamplingされる中で実は各時刻隣合うデータの列がほとんど情報（報酬）を持たないとなると、間に推定器が挟まってるのもあってスパースどころか最後にしか報酬が得られない問題への妥当性は怪しいかもですね。
 	- https://x.com/ML_deep/status/1729249503683969037?s=20
-- DeepMind has formalized a theoretical result related to AI safety in Lean. ![😍](https://abs-0.twimg.com/emoji/v2/svg/1f60d.svg "目がハートの笑顔") Paper:
+- DeepMind has formalized a theoretical result related to AI safety in Lean. 
 	- https://github.com/google-deepmind/debate
+	- "Monadic syntax is excellent for expressing stochastic algorithms, and working over finitely supported distributions avoids the need for integrability side conditions during proofs."
+- Azure OpenAI Serviceの日本語記事まとめ
+	- https://zenn.dev/microsoft/articles/azure-openai-japanese-blogs
+- カーねmンきょう
 
 ## 11/27
 
@@ -3234,11 +3238,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDU0MjAzOCwtNTI5MjE2NjQyLDIxMD
-kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
-NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
-g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
-MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNj
-AxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3
-Mzg2NDddfQ==
+eyJoaXN0b3J5IjpbLTE3NDI5NjMwOTMsLTUyOTIxNjY0MiwyMT
+A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
+NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
+g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
+NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYsMT
+YwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkx
+NzM4NjQ3XX0=
 -->
