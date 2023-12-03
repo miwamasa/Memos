@@ -136,7 +136,15 @@
 	- Given the importance of RAG and the fast pace of development, we've grouped popular RAG concepts into a few categories and created guides for each one.
 - Running Starling-7B LLM model on local CPU with @Ollama_ai and getting great results for invoice data extraction, even better than Zephyr, Mistral or Llama2.
 	- https://github.com/katanaml/llm-ollama-invoice-cpu
-- 
+- 円城塔を近似する？
+	- https://colab.research.google.com/drive/1oXxBIYJvvUYsVZP6WYAUCb3QK09zTJtO?usp=sharing
+	- 円城塔さんの文章で学ぶ、大規模言語モデルのファインチューニングチュートリアル
+- 「長コンテキストをLLM(GPT, Claude)に食わせた際に、ちゃんとRetrivalされるか？」を検証しているGithub。
+	- https://github.com/gkamradt/LLMTest_NeedleInAHaystack
+	-  総じてCalude-2に比べてGPT-4 Turboのほうが正確に引用しているようで面白い。
+- Qwen/Qwen-7B-Chat-Int4をGoogle Colobで動かす
+	- https://ayousanz.hatenadiary.jp/entry/2023/11/30/182017
+	- なんか日本の文化はちゃんと学んでいないみたいですね
 
 ## 11/27
 
@@ -3277,7 +3285,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjUyMDcxOCwtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbMTg2NDQ1MTcxMywtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
