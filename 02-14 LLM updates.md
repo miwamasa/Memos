@@ -105,6 +105,12 @@
 -  ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search
 	- https://arxiv.org/abs/2310.13227
 	- uses algorithms like A* to improve LLM answers, improving sota on both planning and reasoning tasks
+- Qualcomm Snapdragon 8gen 3 already supported 10b language model running locally on your smartphone.
+	- https://x.com/Francis_YAO_/status/1727861621110779941?s=20
+	- LLM is the new smartphone OS!
+- Domingos先生がなんか言っている
+	- https://x.com/pmddomingos/status/1729303707387658284?s=20
+	- Why AI isn't going to taking over (from "The Master Algorithm").
 - 
 
 ## 11/27
@@ -3246,11 +3252,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE4NDE1NDUsLTUyOTIxNjY0MiwyMT
-A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
-NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
-g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
-NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYsMT
-YwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkx
-NzM4NjQ3XX0=
+eyJoaXN0b3J5IjpbMjEzMjU2NDczNiwtNTI5MjE2NjQyLDIxMD
+kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
+NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
+g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
+MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNj
+AxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3
+Mzg2NDddfQ==
 -->
