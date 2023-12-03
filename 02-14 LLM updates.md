@@ -120,6 +120,12 @@
 -  A glimpse of the next generation of AlphaFold
 	- https://deepmind.google/discover/blog/a-glimpse-of-the-next-generation-of-alphafold/
 	- AlphaFoldは最近大きなアップデートがあり、精度が大幅に向上し、タンパクだけでなくPDBにあるほぼすべての分子について予測可能です。創薬や新型CRISPR探索にも(一定程度は)使えます。
+- EMNLP2023 の採択論文リストが見えるようになってた．来週シンガポールで開催される自然言語処理の国際会議です．タイトルに"Language Model"はいってる論文が219本って，どんだけ言語モデル好きなんだよ
+	- https://2023.emnlp.org/program/accepted_main_conference/
+-  OpenAI と LangChain の認知アーキテクチャ by npakaさん
+	- https://note.com/npaka/n/n650532ce289a?sub_rt=share_h
+	- 「**認知アーキテクチャ**」(cognitive architecture) とは、LLMどのように情報を処理し、応答を生成するかを理解するための枠組みです。「Flo Crivello」（自律エージェントスタートアップのLindyの創設者）が使用したこの用語を初めて聞き、素晴らしい用語だと思いました。
+	- 「LangChain」では、「LLM」が真に変革的なエージェントのようなシステムに電力を供給する世界を信じています。しかし、そこにたどり着くルートは、**企業が「認知アーキテクチャ」を制御できるルート**であると信じています。
 - 
 
 ## 11/27
@@ -3261,7 +3267,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjM0MDIxNiwtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbMTY5NzAyNDUwMCwtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
