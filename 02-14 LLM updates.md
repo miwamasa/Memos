@@ -84,7 +84,11 @@
 	- https://blog.llamaindex.ai/openai-cookbook-evaluating-rag-systems-fe393c61fb93
 - Minimizing Factual Inconsistency and Hallucination in Large Language Models
 	- https://arxiv.org/abs/2311.13878
-	- 
+	- LLMのハルシネーションを抑制するフレームワークが提案されました。 ユーザーの質問に対して、多段階で情報を取得させることで、信頼性の高い応答を取得可能です。
+- Relational Deep Learning
+	- https://drive.google.com/file/d/1Uk1y6c8z265G0wiRPpGT1cd5lts5lnKq/view
+	- Relational Deep Learning is brings the power of Graph Representation Learning to a Relational Database.
+- 
 
 ## 11/27
 
@@ -3225,11 +3229,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYzODQ2MzUsLTUyOTIxNjY0MiwyMT
-A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
-NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
-g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
-NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYsMT
-YwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkx
-NzM4NjQ3XX0=
+eyJoaXN0b3J5IjpbMTU3NDkwOTQyNywtNTI5MjE2NjQyLDIxMD
+kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
+NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
+g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
+MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNj
+AxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3
+Mzg2NDddfQ==
 -->
