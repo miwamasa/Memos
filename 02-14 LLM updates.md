@@ -88,7 +88,12 @@
 - Relational Deep Learning
 	- https://drive.google.com/file/d/1Uk1y6c8z265G0wiRPpGT1cd5lts5lnKq/view
 	- Relational Deep Learning is brings the power of Graph Representation Learning to a Relational Database.
-- 
+- NeurIPA2023の論文検索サービス
+	- https://www.ai-driven-life.com/neurips-papers
+- 強化学習はベルマン最適性原理から来る動的計画法に支えられてます。しかし、情報がrandomSamplingされる中で実は各時刻隣合うデータの列がほとんど情報（報酬）を持たないとなると、間に推定器が挟まってるのもあってスパースどころか最後にしか報酬が得られない問題への妥当性は怪しいかもですね。
+	- https://x.com/ML_deep/status/1729249503683969037?s=20
+- DeepMind has formalized a theoretical result related to AI safety in Lean. ![😍](https://abs-0.twimg.com/emoji/v2/svg/1f60d.svg "目がハートの笑顔") Paper:
+	- https://github.com/google-deepmind/debate
 
 ## 11/27
 
@@ -3229,7 +3234,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDkwOTQyNywtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbMTk5NDU0MjAzOCwtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
