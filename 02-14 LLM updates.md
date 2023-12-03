@@ -163,6 +163,11 @@
 	- LLMをPytorchだけでどれだけ高速化できるかチャレンジしたリポジトリ Llama-7Bが10倍速くなっている 
 	- Pytorchで使える高速化技術をいろいろ盛り込んでるぽっくて、中身見るのも勉強になりそう
 - 日本語LLMでLLaVAの学習を行ってみた
+	- https://qiita.com/toshi_456/items/248005a842725f9406e3
+- googleから新しい翻訳トランスフォーマーを発表
+	- Unsupervised speech-to-speech translation from monolingual data
+	- https://blog.research.google/2023/12/unsupervised-speech-to-speech.html
+	- # 業界別生成AI活用のすゝめ
 
 ## 11/27
 
@@ -3303,7 +3308,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzA3Mzk2MiwtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbMTMwNjEzMzg5MSwtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
