@@ -33,6 +33,12 @@
 	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/fuzzy_citation/fuzzy_citation_example.ipynb
 	- https://llamahub.ai/l/llama_packs-fuzzy_citation
 	- 部分的な検索結果から１つの回答を合成？？
+- ＲＡＧ 101 for enterpirze
+	- https://gradient.ai/blog/rag-101-for-enterprise
+	- 絵が素敵
+-  AIスーパーコンピュータ「継之助」爆誕!とりあえずRAID0で12TBのディスクをインストールする
+	- https://note.com/shi3zblog/n/n77e8ad3ed779?sub_rt=share_pb
+	- ついにA100 80GBx8のマシンが稼働した。ここまで長かった。
 - 
 
 ## 11/27
@@ -3174,7 +3180,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzc1ODAzNCwtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbLTg5NjY0Nzk2NiwtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
