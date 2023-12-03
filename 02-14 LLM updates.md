@@ -129,6 +129,12 @@
 	- https://note.com/npaka/n/n650532ce289a?sub_rt=share_h
 	- 「**認知アーキテクチャ**」(cognitive architecture) とは、LLMどのように情報を処理し、応答を生成するかを理解するための枠組みです。「Flo Crivello」（自律エージェントスタートアップのLindyの創設者）が使用したこの用語を初めて聞き、素晴らしい用語だと思いました。
 	- 「LangChain」では、「LLM」が真に変革的なエージェントのようなシステムに電力を供給する世界を信じています。しかし、そこにたどり着くルートは、**企業が「認知アーキテクチャ」を制御できるルート**であると信じています。
+	- **(1) Code**  LLMを利用しないパターン。  
+	- **(2) LLM Call** アプリの出力のみを決定する単一のLLMコール。 
+	- **(3) Chain**  アプリの出力のみを決定する複数のLLMコール。  
+	- **(4) Router**  LLMをルーターとして使用し、使用するアクション (Tool、Retrieval、Prompt) を選択。 
+	- **(5) State Machine**  LLMを使用してある種のループでステップ間をルーティングするが、コードが許可された遷移先にのみ遷移  
+	- **(6) Agent**  利用可能なステップのシーケンスを決定もLLMが行う。
 - TextからSQLを生成するQuerypls
 	- https://github.com/samadpls/Querypls/
 - われらが、 @jerryjliu0がdeeplearningaiコースに登場
@@ -3344,11 +3350,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMD
-kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
-NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
-g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
-MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNj
-AxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3
-Mzg2NDddfQ==
+eyJoaXN0b3J5IjpbNzg5MzQ3NDQ2LDEzMTEwNjI5OTgsLTUyOT
+IxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4
+MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNz
+gxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2
+NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NT
+c4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1Njgy
+OTk5NV19
 -->
