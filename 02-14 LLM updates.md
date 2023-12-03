@@ -44,7 +44,12 @@
 	- https://www.nature.com/articles/s41591-023-02643-7
 	- An important AI report for breast cancer leading to the potential of sparing chemotherapy for many. 
 	- The 1st comprehensive analysis of both cancerous and non-cancerous tissue in hundreds of thousands of patient tissues-
-- 
+- BERTopicの新しいバージョン
+	- https://github.com/MaartenGr/BERTopic
+	- Merge pre-trained models, apply zero-shot topic modeling, seed domain-specific words, and much more in this HUGE update!
+- Intel® Extension for Transformers
+	- https://github.com/intel/intel-extension-for-transformers
+	- 
 
 ## 11/27
 
@@ -3185,7 +3190,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5Mjc1Mzk3LC01MjkyMTY2NDIsMjEwOT
+eyJoaXN0b3J5IjpbODk3MzUwOTA1LC01MjkyMTY2NDIsMjEwOT
 AwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2
 MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEsMTU4OD
 Q3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUy
