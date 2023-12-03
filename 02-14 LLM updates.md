@@ -192,7 +192,15 @@
 -  「ChatGPTの1周年を記念して」、オープンソースLLMがChatGPTにどこまで追いついているか体系的調査報告
 	- https://aiboom.net/archives/59713
 	- https://arxiv.org/abs/2311.16989
-	- 
+	- オープンソースLLMとしてはLlama-2（およびMentalLlama）、Palm、Vicuna、Falcon、Wizard、Lemurなどのモデルに焦点を当て、それらの進歩のスピードと特定のタスクでの優れた性能について詳しく分析されています。調査結果からは、オープンソースLLMが特定のタスクや応用分野において、クローズなLLMに匹敵する、あるいはそれを上回る性能を示していることが明らかになりまし
+- MRSでLLMが多い
+	- https://x.com/yoko_materialDX/status/1731267042810962256?s=20
+	- MIセッションが常時4つあり回るのが大変
+	- 機械学習ポテンシャルと自動合成の発表が大量
+	- 結晶構造予測の発表が思ったより多かった
+	- LLMの発表は材料データ抽出が中心
+	- 日本企業からのMI発表が多かった 
+	- 世界情勢ゆえ？）中国本土の方がほぼいなかった
 
 ## 11/27
 
@@ -3333,7 +3341,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg3MzkzMDgsLTUyOTIxNjY0MiwyMT
+eyJoaXN0b3J5IjpbLTE4Mzg5MTk3MjksLTUyOTIxNjY0MiwyMT
 A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
 NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
 g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
