@@ -61,7 +61,12 @@
 - A Llama-2-based model finetuned for function calling:
 	- https://huggingface.co/Trelis/Llama-2-7b-chat-hf-function-calling-v2
 - 日本語Wikipediaのマルチターン会話データセット10万個を作りました	
-	- 
+	- https://note.com/shi3zblog/n/na10eed9270f8?sub_rt=share_pb
+	- GPT-3.5-Turboを使って、約一ヶ月かけて日本語のWikipediaの項目をもとに先生と生徒が会話するマルチターンデータセットを作りました
+	- GPT-4でもやってみようかなと思っていますが、GPT-3.5でも一ヶ月でかなりの出費があり、GPT-4で同じ分量のデータセットを作るとなると数十万円から数百万円かかりそうです
+- llamaindexからRAGに有効なllamapackを７種類公開
+	- https://x.com/llama_index/status/1729303619760259463?s=20
+- 
 
 ## 11/27
 
@@ -3202,7 +3207,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzA4NzE5MDYsLTUyOTIxNjY0MiwyMT
+eyJoaXN0b3J5IjpbLTEyNDYxODg5MTMsLTUyOTIxNjY0MiwyMT
 A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
 NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
 g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
