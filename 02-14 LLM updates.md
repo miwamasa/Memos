@@ -3,8 +3,11 @@
 
 ## 12/4
 
-p
-
+-  An Embodied Generalist Agent in 3D World
+	- https://huggingface.co/papers/2311.12871
+- GAIA: a benchmark for General AI Assistants
+	- https://arxiv.org/abs/2311.12983
+- 
 
 ## 11/27
 
@@ -3145,11 +3148,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1ODc2MTYyLC01MjkyMTY2NDIsMjEwOT
-AwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2
-MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEsMTU4OD
-Q3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUy
-MzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MD
-ExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLTI5MTcz
-ODY0N119
+eyJoaXN0b3J5IjpbMTA2MDY4NTAxMSwtNTI5MjE2NjQyLDIxMD
+kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
+NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
+g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
+MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNj
+AxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3
+Mzg2NDddfQ==
 -->
