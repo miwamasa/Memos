@@ -74,6 +74,11 @@
 	- https://zenn.dev/saldra/articles/356f470e730d1c
 - ＮＴＴコムのＡＩ学習教材
 	- https://gochikika.ntt.com/index.html
+	- データの前処理からモデリングや評価までPythonコードと合わせて一通り学べる
+- マルチモーダルのＬＬＭでも出力の成型が大事
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/multi_modal/multi_modal_pydantic.ipynb
+- John X. Morris et al., "Language Model Inversion"
+	- https://arxiv.org/abs/2311.13647
 	- 
 
 ## 11/27
@@ -3215,11 +3220,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQwMDQ4MDksLTUyOTIxNjY0MiwyMT
-A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
-NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
-g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
-NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYsMT
-YwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkx
-NzM4NjQ3XX0=
+eyJoaXN0b3J5IjpbLTk4MDIxMDEzMiwtNTI5MjE2NjQyLDIxMD
+kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
+NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
+g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
+MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNj
+AxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3
+Mzg2NDddfQ==
 -->
