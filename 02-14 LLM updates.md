@@ -126,7 +126,10 @@
 	- https://note.com/npaka/n/n650532ce289a?sub_rt=share_h
 	- 「**認知アーキテクチャ**」(cognitive architecture) とは、LLMどのように情報を処理し、応答を生成するかを理解するための枠組みです。「Flo Crivello」（自律エージェントスタートアップのLindyの創設者）が使用したこの用語を初めて聞き、素晴らしい用語だと思いました。
 	- 「LangChain」では、「LLM」が真に変革的なエージェントのようなシステムに電力を供給する世界を信じています。しかし、そこにたどり着くルートは、**企業が「認知アーキテクチャ」を制御できるルート**であると信じています。
-- 
+- TextからSQLを生成するQuerypls
+	- https://github.com/samadpls/Querypls/
+- われらが、がdeeplearningaiコースに登場
+	- https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/
 
 ## 11/27
 
@@ -3267,7 +3270,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzAyNDUwMCwtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbLTkwODkwMjIzNCwtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
