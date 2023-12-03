@@ -187,7 +187,12 @@
 - Langchain102
 	- https://www.youtube.com/watch?v=haad3i9VROs
 	- Mistral 7b User Showcase + LangServe & LangSmith
-- 
+- METAのAI研究者が何らかの大きなブレイクスルーがあったと示唆。 近日中に共有予定とのこと
+	- https://x.com/ArmenAgha/status/1731076069170835720?s=20
+-  「ChatGPTの1周年を記念して」、オープンソースLLMがChatGPTにどこまで追いついているか体系的調査報告
+	- https://aiboom.net/archives/59713
+	- https://arxiv.org/abs/2311.16989
+	- 
 
 ## 11/27
 
@@ -3328,11 +3333,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDk3NjI5MSwtNTI5MjE2NjQyLDIxMD
-kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
-NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
-g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
-MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNj
-AxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3
-Mzg2NDddfQ==
+eyJoaXN0b3J5IjpbLTE1ODg3MzkzMDgsLTUyOTIxNjY0MiwyMT
+A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
+NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
+g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
+NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYsMT
+YwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkx
+NzM4NjQ3XX0=
 -->
