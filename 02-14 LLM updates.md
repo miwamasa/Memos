@@ -39,6 +39,11 @@
 -  AIスーパーコンピュータ「継之助」爆誕!とりあえずRAID0で12TBのディスクをインストールする
 	- https://note.com/shi3zblog/n/n77e8ad3ed779?sub_rt=share_pb
 	- ついにA100 80GBx8のマシンが稼働した。ここまで長かった。
+	- ここまで揃ったら日本最大規模のLLMを個人で作れるようになる。
+-  A population-level digital histologic biomarker for enhanced prognosis of invasive breast cancer
+	- https://www.nature.com/articles/s41591-023-02643-7
+	- An important AI report for breast cancer leading to the potential of sparing chemotherapy for many. 
+	- The 1st comprehensive analysis of both cancerous and non-cancerous tissue in hundreds of thousands of patient tissues-
 - 
 
 ## 11/27
@@ -3180,11 +3185,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjY0Nzk2NiwtNTI5MjE2NjQyLDIxMD
-kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
-NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
-g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
-MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNj
-AxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3
-Mzg2NDddfQ==
+eyJoaXN0b3J5IjpbNDA5Mjc1Mzk3LC01MjkyMTY2NDIsMjEwOT
+AwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2
+MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEsMTU4OD
+Q3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUy
+MzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MD
+ExMTAyMjQsLTE1OTgyNDA4NjQsLTExNTY4Mjk5OTUsLTI5MTcz
+ODY0N119
 -->
