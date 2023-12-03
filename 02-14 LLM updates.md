@@ -56,7 +56,12 @@
 	- https://qiita.com/kaityo256/items/aa5b24904577de40016e
 	- 関数�(�)にたいして、�<0ならゼロに、�≥0ならe−��をかけて、「より収束しやすく」した上でフーリエ変換したものがラプラス変換である。ラプラス変換が、軸の中途半端なところを「縦に」積分しなければならない理由も、フーリエ逆変換と�から�への変数変換から理解できるであろう。
 	- 関数�(�)にたいして、�<0ならゼロに、�≥0ならe−��をかけて、「より収束しやすく」した上でフーリエ変換したものがラプラス変換である。ラプラス変換が、軸の中途半端なところを「縦に」積分しなければならない理由も、フーリエ逆変換と�から�への変数変換から理解できるであろう。
-- Google Colab、Huggingfacesの協力で、transformerを最初からつかえ
+- Google Colab、Huggingfacesの協力で、transformerを最初から使えるようになった
+	- https://x.com/GoogleColab/status/1729217098977845590?s=20
+- A Llama-2-based model finetuned for function calling:
+	- https://huggingface.co/Trelis/Llama-2-7b-chat-hf-function-calling-v2
+- 日本語Wikipediaのマルチターン会話データセット10万個を作りました	
+	- 
 
 ## 11/27
 
@@ -3197,11 +3202,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjMwOTE3MSwtNTI5MjE2NjQyLDIxMD
-kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
-NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
-g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
-MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2OTEzNiwxNj
-AxMTEwMjI0LC0xNTk4MjQwODY0LC0xMTU2ODI5OTk1LC0yOTE3
-Mzg2NDddfQ==
+eyJoaXN0b3J5IjpbLTE3MzA4NzE5MDYsLTUyOTIxNjY0MiwyMT
+A5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcx
+NDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNT
+g4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0
+NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYsMT
+YwMTExMDIyNCwtMTU5ODI0MDg2NCwtMTE1NjgyOTk5NSwtMjkx
+NzM4NjQ3XX0=
 -->
