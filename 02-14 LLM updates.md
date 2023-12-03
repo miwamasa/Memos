@@ -174,7 +174,13 @@
 	- https://blogs.bing.com/search/december-2023/Microsoft-Copilot-is-now-generally-available?ocid=aid_soc_usoc_edu_cons_bing_eng_tw_12.1
 - C言語でWASMインタプリタを実装した話
 	- https://zenn.dev/ri5255/articles/845ef3dab5ab47
-- 
+	- この自作WASMランタイムの目的は、できるだけ仕様に従った実装を与えることで、仕様の理解を助けることである。早さや効率性よりも分かりやすさを優先しているため、実用には向かない。仕様書を読んで、実装に困った際に参照してほしい。
+-  データ不足に数理モデルで立ち向かう / Japan.R 2023
+	- https://speakerdeck.com/dropout009/japan-dot-r-2023
+- Harsha Nori et al., "Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine"
+	- https://arxiv.org/abs/2311.16452
+	- これまでGPT-4などの基盤モデルは、医学などの専門分野で特化モデルには敵わないと考えられてきました。 しかし、「実際はどうなのか？」と考えた研究者らは、特別なトレーニングなしのGPT-4が、プロンプトの工夫のみでどこまで性能を示すのかを検証しました。
+	- 
 
 ## 11/27
 
@@ -3315,7 +3321,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDc5NjMwNiwtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbMTE3MjQ1Njk4MiwtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
