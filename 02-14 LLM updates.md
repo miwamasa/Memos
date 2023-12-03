@@ -12,7 +12,15 @@
 - Kevin Dunnell et al., "Latent Lab: Large Language Models for Knowledge Exploration"
 	- https://arxiv.org/abs/2311.13051
 	- LLMベースで、異なるプロジェクト間の繋がりやアイデア生成を促すシステム『Latent Lab』
-	- いｔ対話と視覚化を通してデータを探索 ② プロジェクトのクラスタリングとラベル付けを自動化 ③ 新しい研究プロジェクトのアイデア合成も可能
+	- ①対話と視覚化を通してデータを探索 
+	- ② プロジェクトのクラスタリングとラベル付けを自動化
+	-  ③ 新しい研究プロジェクトのアイデア合成も可能
+-  Google Colab で LCM LoRA を試す　 by npakaさん
+	- https://note.com/npaka/n/n940ee84ca5b6?sub_rt=share_h
+	- 「LCM」 (Latent Consistency Model) は、元モデルを別モデルに蒸留することで、画像生成に必要なステップ数を減らす手法です。25～50ステップかかっていた処理を4～8ステップで可能にします。
+- Multi-modal Foundation Model for Material Design
+	- https://openreview.net/forum?id=EiT2bLsfM9
+	- 
 
 ## 11/27
 
@@ -3153,7 +3161,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Nzc5NjM4MCwtNTI5MjE2NjQyLDIxMD
+eyJoaXN0b3J5IjpbMTU0OTcwNDYzNiwtNTI5MjE2NjQyLDIxMD
 kwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0
 NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1OD
 g0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1
