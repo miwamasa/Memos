@@ -91,7 +91,14 @@
 	- https://ai.meta.com/blog/ai-alliance/
 	- IBM とメタは、*オープン*で信頼性の高い AI を推進するために AI Alliance を立ち上げています。 産業界、政府機関、学界からの 50 を超える設立メンバーのリストには、AMD、Anyscale、CERN、Hugging Face、Linux Foundation、NASA が含まれます。
 - Prompting vs RAGs vs Fine-tuning:
-	- 
+	- https://x.com/akshay_pachaar/status/1732014719794585684?s=20
+	- よくある４象限の絵、
+	- So finetuning is more about changing structure (behaviour) than knowledge, while it's other way round for RAGs.
+	- You use RAGs when you want to generate outputs grounded to a custom knowledge base while the vocabulary & writing style of the LLM remains same.
+	- If you don't need either of them, prompt engineering is the way to go.
+	- And if your application need both custom knowledge & change in the behaviour of model a hybrid (RAGs + Finetuning) is preferred.
+- Open
+- 
 
 ## 12/4
 
@@ -3442,11 +3449,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzI0Mzc4NSwtOTM5NTY3NjEzLDEzMT
-EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
-MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
-03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
-NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
-I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
-MDg2NF19
+eyJoaXN0b3J5IjpbLTEwODEyMDM1NzAsLTkzOTU2NzYxMywxMz
+ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
+MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
+wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
+MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
+gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
+NDA4NjRdfQ==
 -->
