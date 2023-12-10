@@ -153,6 +153,8 @@
 	- コンテキストトークン数は32768。98%の精度で正しい値を取得可能！98%?まじかよ。
 - Googleアカウントの言語設定を英語にすると、BardのバックがGemimi Proが使える
 	- https://x.com/npaka123/status/1732504570218283340?s=20
+- Bard(Gemini Pro)が霞が関パワポを解析して説明してくれると、、	by ゆな先生
+	- https://x.com/JapanTank/status/1732689643928445164?s=20
 - 
 
 ## 12/4
@@ -3504,11 +3506,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQwMTUwMTYsLTkzOTU2NzYxMywxMz
-ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
-MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
-wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
-MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
-gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
-NDA4NjRdfQ==
+eyJoaXN0b3J5IjpbMzY1ODcxNjk0LC05Mzk1Njc2MTMsMTMxMT
+A2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIx
+MDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLT
+c5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2
+OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4Mj
+U2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQw
+ODY0XX0=
 -->
