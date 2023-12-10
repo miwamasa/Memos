@@ -23,6 +23,8 @@
 - Introducing Llama Datasets 
 	- https://blog.llamaindex.ai/introducing-llama-datasets-aadb9994ad9e
 	- llamaindexより、RAG向けの評価用データセットの公開
+	- history of alexanetとか、origin of covid19などのpdfを含む、多分正解値は？
+- 
 
 ## 12/4
 
@@ -3373,11 +3375,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzg2MTQyMDEsLTkzOTU2NzYxMywxMz
-ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
-MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
-wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
-MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
-gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
-NDA4NjRdfQ==
+eyJoaXN0b3J5IjpbLTM0Mzk3MjExMSwtOTM5NTY3NjEzLDEzMT
+EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
+MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
+03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
+NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
+I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
+MDg2NF19
 -->
