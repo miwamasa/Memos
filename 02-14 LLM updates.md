@@ -36,6 +36,12 @@
 	- huggingface spaceで試せる
 	- https://huggingface.co/spaces/hotchpotch/wikipedia-japanese-rag-qa
 	- 「ナウシカと森の人との関係は？」には全く答えられない。
+- Maximum Likelihood Estimation is All You Need for Well-Specified Covariate Shift
+	- https://arxiv.org/abs/2311.15961
+	- 共変量シフトのネタで"All you need"的な流行りのタイトルの論文なんだけど，内容はしっかり数理やってるっぽい．がっつりShimodaira (2000)も参照されてました．共著者に数理統計の大御所のJianqing Fan先生とか，機械学習の理論系のChi Jin先生など
+- Retrieval-Augmented Generation (RAG): From Theory to LangChain Implementation
+	- https://towardsdatascience.com/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation-4e9bd5f6a4f2
+	- 
 
 ## 12/4
 
@@ -3386,11 +3392,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2ODU4NTE5LC05Mzk1Njc2MTMsMTMxMT
-A2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIx
-MDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLT
-c5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2
-OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4Mj
-U2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQw
-ODY0XX0=
+eyJoaXN0b3J5IjpbMTk5ODUzNTIzMiwtOTM5NTY3NjEzLDEzMT
+EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
+MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
+03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
+NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
+I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
+MDg2NF19
 -->
