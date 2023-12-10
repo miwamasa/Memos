@@ -134,7 +134,12 @@
 - MetaのStreamingの翻訳性能はすごいらしい、	
 	- https://x.com/hokazuya/status/1732374854027132940?s=20
 	- 翻訳こんにゃくレベル
-- 
+- Bardの生成記事はChatGPTより優れている？
+	- https://x.com/kajikent/status/1732237182126129578?s=20
+	- コンテンツマーケティングの領域で有名なNeil Patel氏が約250ずつのChatGPT生成の記事とGoogle Bard生成の記事で読者にどちらが好きか聞いたところ、Bardが圧勝する結果に
+- 人間レベルのAI(AGI)に到達すするには、常に10年以上必要
+	- https://x.com/ylecun/status/1732391273611370931?s=20
+	- 2～3年はつねにひつ
 
 ## 12/4
 
@@ -3485,11 +3490,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIwNDkxMTIsLTkzOTU2NzYxMywxMz
-ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
-MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
-wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
-MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
-gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
-NDA4NjRdfQ==
+eyJoaXN0b3J5IjpbMTQ1MDY5NTQ5NywtOTM5NTY3NjEzLDEzMT
+EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
+MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
+03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
+NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
+I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
+MDg2NF19
 -->
