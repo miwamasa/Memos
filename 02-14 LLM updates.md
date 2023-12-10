@@ -16,6 +16,12 @@
 - "On Bringing Robots Home" Nur Muhammad Mahi Shafiullah et al., New York University
 	- https://arxiv.org/abs/2311.16098
 	- 家庭用ロボットの普及に向けて、一般のロボットを各家庭に適用させるためのフレームワーク『Dobb·E』が開発され、オープンソースで公開
+	- 一般のロボットを家庭用ロボットにアップデートするための一連の流れをカバーするフレームワークが『Dobb·E』
+	- ① 合計109のタスクを実際の家庭で実施し、ロボットの成功率が81％に達した 
+	- ② 調理家電を閉める／クッションをひっくり返すタスクは100％、6軸で物を移動するタスクは56% 
+	- ③ データ収集時にカバーされていた照明や影の条件下ではロボットは安定して稼働する
+- Introducing Llama Datasets 
+	- https://blog.llamaindex.ai/introducing-llama-datasets-aadb9994ad9e
 	- 
 
 ## 12/4
@@ -3367,7 +3373,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Mjg2NjExMywtOTM5NTY3NjEzLDEzMT
+eyJoaXN0b3J5IjpbMTQxODUyMDIzMiwtOTM5NTY3NjEzLDEzMT
 EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
 MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
 03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
