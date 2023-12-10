@@ -262,6 +262,7 @@
 	- https://huggingface.co/TheBloke/mixtral-7B-8expert-GPTQ
 - Geminiのお遊びデモは、紙芝居だ
 	- https://techcrunch.com/2023/12/07/googles-best-gemini-demo-was-faked/
+	- 
 
 ## 12/4
 
@@ -3612,11 +3613,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
-M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
-NjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNj
-IsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2
-NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMC
-w1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTEx
-MDIyNF19
+eyJoaXN0b3J5IjpbLTgyNjc0MjQ3MywtMTc2NTM2MjM2LC0yMD
+g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
+NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMS
+wtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1
+OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MS
+wyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2
+OTEzNl19
 -->
