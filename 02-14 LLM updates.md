@@ -231,6 +231,7 @@
 	- マッキンゼーのレポート（全140ページ）
 	- 日本のデジタル化がなぜ遅れたのか、それに対してどのような打ち手が取れるのか、ということが分かりやすく整理されています。 
 	- 日本の総労働時間の56%が自動化可能
+	- といっても初期版には誤植が、(×政府の支持→〇政府の指示）P16
 - ollama + stablelm-zephyr 試す。 M1でもはやい。
 	- https://ollama.ai/library/stablelm-zephyr
 - Ollama : ローカル環境で容易にllamaを利用可能にるするAIチャットプログラム
@@ -3628,11 +3629,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMD
-g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
-NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMS
-wtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1
-OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MS
-wyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2
-OTEzNl19
+eyJoaXN0b3J5IjpbLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMT
+c2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2
+Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMD
+ksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5
+NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OS
+wtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2
+NTYxODFdfQ==
 -->
