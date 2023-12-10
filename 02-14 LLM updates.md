@@ -157,7 +157,10 @@
 	- https://x.com/JapanTank/status/1732689643928445164?s=20
 - Gemini論文の最後の、"Core Contributors"の最初の６人の頭文字をとると、"GEMINI"になる
 	- https://x.com/nearcyan/status/1732532560029172142?s=20
-- 
+- Metaより、安全なAIのための、Purple Llamaを発表
+	- https://ai.meta.com/blog/purple-llama-open-trust-safety-generative-ai/?utm_source=twitter&utm_medium=organic_social&utm_campaign=llama&utm_content=image
+	- CyberSec Evalとか、Llama Guardを搭載
+	- 
 
 ## 12/4
 
@@ -3508,11 +3511,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMTAzODg2LC05Mzk1Njc2MTMsMTMxMT
-A2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIx
-MDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLT
-c5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2
-OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4Mj
-U2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQw
-ODY0XX0=
+eyJoaXN0b3J5IjpbMTkxMTA4NzYwNywtOTM5NTY3NjEzLDEzMT
+EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
+MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
+03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
+NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
+I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
+MDg2NF19
 -->
