@@ -12,7 +12,11 @@
 	- 時間的・空間的にスムーズなデータ (ほとんどの生理データ…) 等を主成分分析 PCA すると、偽のオシレーションが出現する
 -  Refactoring Programs Using Large Language Models with Few-Shot Examples
 	- https://arxiv.org/abs/2311.11690
-	- リファクタリングにLLMを
+	- リファクタリングにLLMを使う
+- "On Bringing Robots Home" Nur Muhammad Mahi Shafiullah et al., New York University
+	- https://arxiv.org/abs/2311.16098
+	- 家庭用ロボットの普及に向けて、一般のロボットを各家庭に適用させるためのフレームワーク『Dobb·E』が開発され、オープンソースで公開
+	- 
 
 ## 12/4
 
@@ -3363,7 +3367,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTYwNTg1MCwtOTM5NTY3NjEzLDEzMT
+eyJoaXN0b3J5IjpbMTY0Mjg2NjExMywtOTM5NTY3NjEzLDEzMT
 EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
 MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
 03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
