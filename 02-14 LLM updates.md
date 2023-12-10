@@ -130,6 +130,11 @@
 - Google AlphaCode 2 を発表
 	- AlphaCode 2 Technical Report
 	- https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf
+	- Geminiを競技プログラミング用にカスタマイズしたAlphaCode2は、競技プログラミング人口の上位15%の性能
+- MetaのStreamingの翻訳性能はすごいらしい、	
+	- https://x.com/hokazuya/status/1732374854027132940?s=20
+	- 翻訳こんにゃくレベル
+- 
 
 ## 12/4
 
@@ -3480,7 +3485,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ2NzU5MTEsLTkzOTU2NzYxMywxMz
+eyJoaXN0b3J5IjpbLTE1NDIwNDkxMTIsLTkzOTU2NzYxMywxMz
 ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
 MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
 wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
