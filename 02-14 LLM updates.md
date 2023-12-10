@@ -44,7 +44,12 @@
 	- Check out this fantastic blog covering the basics of RAG, the theory behind it, and how to use it in practice
 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces
 	- https://arxiv.org/abs/2312.00752
-	- 
+-  Instruction-tuning Aligns LLMs to the Human Brain
+	- https://arxiv.org/abs/2312.00575
+	- Our results demonstrate that instruction-tuning LLMs improves both world knowledge representations and brain alignment, suggesting that mechanisms that encode world knowledge in LLMs also improve representational alignment to the human brain.
+- マルチモーダルLLMの応用動向の論文調査
+	- https://speakerdeck.com/masatoto/marutimodarullmnoying-yong-dong-xiang
+- 
 
 ## 12/4
 
@@ -3395,7 +3400,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDc0MjYwNywtOTM5NTY3NjEzLDEzMT
+eyJoaXN0b3J5IjpbLTk1MTE2MzE0NywtOTM5NTY3NjEzLDEzMT
 EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
 MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
 03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
