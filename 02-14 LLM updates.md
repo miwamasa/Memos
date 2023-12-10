@@ -212,7 +212,14 @@
 		- ① 画像や動画を表現する「ビジュアル文」を定義 （ピクセル以外のメタ情報はない） 
 		- ② 視覚データをトークン化 
 		- ③ 自己回帰型トランスフォーマーモデルを訓練
-	- ■実験の結果わかったこと ① モデルは大量データを処理し学習する能力が高い ② 様々なビジョンタスクで有効 ③ モデルサイズが大きくなるにつれて、下流タスクのパフォーマンス向上する
+	- ■実験の結果わかったこと 
+		- ① モデルは大量データを処理し学習する能力が高い
+		-  ② 様々なビジョンタスクで有効 
+		- ③ モデルサイズが大きくなるにつれて、下流タスクのパフォーマンス向上する
+-  Large Language Models on Graphs: A Comprehensive Survey
+	- https://arxiv.org/abs/2312.02783
+	- Scenarios of adopting LLMs, techniques for utilizing LLMs on graphs, applications, #opensource code repositories, benchmark datasets
+- 2030 日本デジタル 改革 by ま
 
 ## 12/4
 
@@ -3563,11 +3570,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDY5MjEwMiwtOTM5NTY3NjEzLDEzMT
-EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
-MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
-03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
-NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
-I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
-MDg2NF19
+eyJoaXN0b3J5IjpbLTE4ODM0OTc2NTksLTkzOTU2NzYxMywxMz
+ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
+MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
+wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
+MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
+gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
+NDA4NjRdfQ==
 -->
