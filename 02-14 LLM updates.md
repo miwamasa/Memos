@@ -185,6 +185,10 @@
 	-  A Simpler Way to Query Neo4j Knowledge Graphs
 	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/neo4j_query_engine/llama_packs_neo4j.ipynb
 - 欧州AI法の最終トリローグが終了、妥結へ
+	- https://x.com/WIRED/status/1733268732309332398?s=20
+	- https://www.reuters.com/technology/eu-clinches-deal-landmark-ai-act-2023-12-09/?taid=65745dd360152800018aaf1c&utm_campaign=trueAnthem:+Trending+Content&utm_medium=trueAnthem&utm_source=twitter
+	- https://twitter.com/SabrinaKuespert/status/1733311752941515135/photo/1
+	- https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai?xtor=AD-78-[Social_share_buttons]-[twitter]-[en]-[news]-[pressroom]-[artificial-intelligence-act-possible-deal]-
 	- 基盤モデルで規制されるのは、計算量が10^25FLOPsを超えるモデル。
 	- 該当するのは今んとこGPT-4とGeminiあたり。
 	- それらのモデルはシステミックリスクに応じて分類される。
@@ -239,7 +243,9 @@
 	- https://docs.llamaindex.ai/en/latest/examples/llama_hub/llama_pack_ollama.html#
 	- llamaindexより、さっそくOllama対応のRAGの例
 	- https://llamahub.ai/l/llama_packs-ollama_query_engine
-- ollama web-
+- ollama web-ui is amazing
+	- https://github.com/ollama-webui/ollama-webui
+- 
 
 ## 12/4
 
@@ -3590,11 +3596,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI2NTQ5NTUsLTkzOTU2NzYxMywxMz
-ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
-MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
-wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
-MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
-gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
-NDA4NjRdfQ==
+eyJoaXN0b3J5IjpbOTQ4NzUwOTc1LC05Mzk1Njc2MTMsMTMxMT
+A2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIx
+MDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLT
+c5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2
+OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4Mj
+U2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQw
+ODY0XX0=
 -->
