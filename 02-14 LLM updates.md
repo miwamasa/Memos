@@ -45,6 +45,7 @@
 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces
 	- https://arxiv.org/abs/2312.00752
 	- トランスフォーマーや注意機構に頼らない、線形時間のシーケンスモデリングのための新しいニューラルネットワークアーキテクチャ
+	- 2倍サイズのTransformersに匹敵したり、5倍の高速推論が出来たりと、Transformerを代替しうる可能性
 	- 2.8Bが出てるらしい、
 	- https://huggingface.co/state-spaces/mamba-2.8b
 -  Instruction-tuning Aligns LLMs to the Human Brain
@@ -90,6 +91,7 @@
 - 安全で責任あるAIの開発向けて、MetaとIBMが提携
 	- https://ai.meta.com/blog/ai-alliance/
 	- IBM とメタは、*オープン*で信頼性の高い AI を推進するために AI Alliance を立ち上げています。 産業界、政府機関、学界からの 50 を超える設立メンバーのリストには、AMD、Anyscale、CERN、Hugging Face、Linux Foundation、NASA が含まれます。
+	- 日経にかかるとタイトルは、「メタとIBM、生成AI「オープン型」へ　50社・団体と連携」
 - Prompting vs RAGs vs Fine-tuning:
 	- https://x.com/akshay_pachaar/status/1732014719794585684?s=20
 	- よくある４象限の絵、
@@ -3451,11 +3453,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY5MTgwNjUsLTkzOTU2NzYxMywxMz
-ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
-MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
-wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
-MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
-gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
-NDA4NjRdfQ==
+eyJoaXN0b3J5IjpbLTgyNTY3MTIwLC05Mzk1Njc2MTMsMTMxMT
+A2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIx
+MDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLT
+c5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2
+OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4Mj
+U2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQw
+ODY0XX0=
 -->
