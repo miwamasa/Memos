@@ -119,6 +119,13 @@
 	- ② ゼロショットでデータ前処理タスクを実行 
 	- ③ 多様な前処理タスクに対応 
 	- ④ サイズが小さいため、1GPUでも動作する
+- GooglがGemini(ジェマナイと読む）を発表
+	- https://blog.google/technology/ai/google-gemini-ai/
+	- 1. Geminiは3種類のモデル(Ultra, Pro, Nano)が存在。Ultraが最も賢く、Nanoはモバイルデバイス向け。
+	- 2. Ultraは数々のベンチマークでGPT-4超えの性能を発揮 (ﾄﾞﾔｧ)
+	- 3. Geminiはマルチモーダルに強い。動画デモのようにリアルタイム推論も可能。 
+	- 4. 本日よりBardはGemini ProのFine-tuningバージョンを利用して公開する。その他にもGoogle製品への導入を進める。 
+	- 5. Gemini APIは12月13日からGoogle AI Studioを通じて提供される。
 - 
 
 ## 12/4
@@ -3470,11 +3477,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzQ3OTAxOSwtOTM5NTY3NjEzLDEzMT
-EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
-MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
-03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
-NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
-I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
-MDg2NF19
+eyJoaXN0b3J5IjpbLTE2Nzg0MDQzNTksLTkzOTU2NzYxMywxMz
+ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
+MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
+wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
+MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
+gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
+NDA4NjRdfQ==
 -->
