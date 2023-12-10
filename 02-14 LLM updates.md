@@ -144,6 +144,13 @@
 	- https://x.com/goto_yuta_/status/1732287555599741103?s=20
 	-  Macに搭載されてるGPU(MPS)がより有効活用されてローカルLLMの高速推論が可能になったら嬉しいな。
 - GeminiのTechnical reportを日本語で解説している人が登場
+	- https://x.com/bioshok3/status/1732421662619140551?s=20
+	- Gemini Ultraは、MMLU で人間の専門家の性能を達成した最初のモデルでありスコアは90%以上。やばすぎる。人間のエキスパートのパフォーマンスはベンチマーク著者によって89.8%と評価され、Gemini Ul traはこの閾値を超えた最初のモデル!時代が変わった。
+	- 教師がスキーヤーが坂道を下りるという物理問題を描き、生徒がその解決策を練る。Geminiのマルチモーダル推論機能を用いて、モデルは 乱雑な手書きを理解し、生徒が問題の解決を間違えた推論の特定のステップを特定し、問題の正しい解決を通し て作業を与えることができる。
+	- Google がGeminiのデモ動画を出しているけど、これほんとにこの推論速度なら凄すぎると言うかもう株価数倍くらいになるんじゃないの？ってレベルだけど？？
+	- 
+	- 多言語性能はGPT-4より良い
+	- コンテキストトークン数は32768。98%の精度で正しい値を取得可能！98%?まじかよ。
 	- 
 
 ## 12/4
@@ -3495,11 +3502,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTczNzQwOTAsLTkzOTU2NzYxMywxMz
-ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
-MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
-wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
-MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
-gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
-NDA4NjRdfQ==
+eyJoaXN0b3J5IjpbNDc2OTExMDA0LC05Mzk1Njc2MTMsMTMxMT
+A2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIx
+MDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLT
+c5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2
+OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4Mj
+U2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQw
+ODY0XX0=
 -->
