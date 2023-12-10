@@ -265,9 +265,15 @@
 - QuIP#: QuIP with Lattice Codebooks
 	- https://cornell-relaxml.github.io/quip-sharp/
 	- QuIP#は大規模言語モデルを2ビット量子化し、本来ならば140GBのメモリが必要なLlama 2 70Bを24GBのGPUで実行可能にするとの事です
-- Bard(/w Gemini Pro)はいまだに数独が解けない、GPT-4はとけるけど
+- Bard(/w Gemini Pro)はいまだに数独が解けない、ChatGPTはとけるけど
 	- https://x.com/kajikent/status/1733663171578335233?s=20
-- 
+- OpenAI、GPT-4が怠け者になってきたという苦情に「修正を検討中」とポスト
+	- https://www.itmedia.co.jp/news/articles/2312/10/news059.html
+	- ChatGPTでのGPT-4のパフォーマンスが低下している（lazier）というユーザーからのフィードバックがここ数カ月増えていることを認め、「修正を検討中」だとX（旧Twitter）の公式アカウントにポストした。
+- Mistral MoEの初期評価
+	- https://x.com/bindureddy/status/1733523486885449834?s=20
+	- solid 70B model that is very similar to GPT 3.5, Gemini Pro
+	- 
 
 ## 12/4
 
@@ -3618,11 +3624,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjgyNjYzOCwtMTc2NTM2MjM2LC0yMD
-g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
-NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMS
-wtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1
-OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MS
-wyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2
-OTEzNl19
+eyJoaXN0b3J5IjpbNTI0NjQzMjA3LC0xNzY1MzYyMzYsLTIwOD
+YwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01MjkyMTY2
+NDIsMjEwOTAwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC
+0xNjE3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5
+ODEsMTU4ODQ3Njc0OSwtMjcxMzAwMjY5LC0xNzYxNDYxNjUxLD
+IwMzM2NDUyMzAsNTE4MDc0OSwtMTgyNTY1NjE4MSwtOTU3ODY5
+MTM2XX0=
 -->
