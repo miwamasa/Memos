@@ -58,11 +58,16 @@
 	- プラトンの問題も未解決のママ
 - Amil Merchant et al., "Scaling deep learning for materials discovery", nature
 	- https://www.nature.com/articles/s41586-023-06735-9
+	- 大規模なデータセットと先進的な機械学習モデルを組み合わせる手法による、マテリアルズインフォマティクスの発展事例です
 	- 方法
 		- ① GNNを用いて素材の特性を構造や組成に基づいてモデル化
 		-  ② 材料発見の効率が大幅に向上し、人間の直感を超えた220万の構造が発見された 
 		- ③ 結晶構造内の原子を置換する手法やランダムな探索を含む、多様な候補生成アプローチを確立
-	- ① 220万の新たな安定構造を特定し、それらの多くは既存の化学的直感を超えていた ② 発見された安定構造のうち736は、独立した実験で実現されている （シミュレーション上での検証ではなく、実験室で物理的に材料を作成し、実証できた）
+	- 結果
+		- ① 220万の新たな安定構造を特定し、それらの多くは既存の化学的直感を超えていた 
+		- ② 発見された安定構造のうち736は、独立した実験で実現されている （シミュレーション上での検証ではなく、実験室で物理的に材料を作成し、実証できた）
+- NVIDIA
+	- https://x.com/Lauramaywendel/status/1731698695853244849?s=20
 
 ## 12/4
 
@@ -3413,11 +3418,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxMzE5MTY0LC05Mzk1Njc2MTMsMTMxMT
-A2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIx
-MDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLT
-c5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2
-OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4Mj
-U2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQw
-ODY0XX0=
+eyJoaXN0b3J5IjpbLTEzNTUzNjc3OTQsLTkzOTU2NzYxMywxMz
+ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
+MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
+wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
+MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
+gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
+NDA4NjRdfQ==
 -->
