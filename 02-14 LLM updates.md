@@ -3,7 +3,9 @@
 
 ## 12/11
 
-１週間分のブクマ整理するだけで２時間かかるんだけど。。。
+今週はなんといっても、GoogleのGemini。GPT-4越えとか、すぐにBard(英語版）で試せるとか、研究アシスタントして使うデモとか、そ
+
+１週間分のブクマ整理するだけで２時間かかるんだけど。。。GPT4にやらせるか。。
 
 - 今月のNature誌は面白かった
 	- https://x.com/ykfrs1217/status/1731287315459490165?s=20
@@ -257,6 +259,8 @@
 - たった87GのweightでAGIが来るから、AI規制必要だねという
 	- https://x.com/abacaj/status/1733561182504587652?s=20
 	- mixtral-8x7b-32kseqlenのことらしい
+- MoEのMixtral-7bx8のGPTQきとる！
+	- https://huggingface.co/TheBloke/mixtral-7B-8expert-GPTQ
 - 
 
 ## 12/4
@@ -3608,7 +3612,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODYxODQzOCwtOTM5NTY3NjEzLDEzMT
+eyJoaXN0b3J5IjpbMjA3MTM4NzY0OCwtOTM5NTY3NjEzLDEzMT
 EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
 MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
 03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
