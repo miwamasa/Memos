@@ -169,6 +169,9 @@
 	- Anthropicより、（LLMの出力における）差別を検知するためのデータセットを公開
 -  AMD、生成AIでNVIDIA H100を上回る性能のGPU「Instinct MI300」
 	- https://pc.watch.impress.co.jp/docs/news/1552583.html
+	- TDP 750WのMI300Xは、TDP 700WのNVIDIA H100と比較し、FP64,32で約2.4倍、AIで利用のTF32、FP16、BF16、FP8、INT8などでは1.3倍スループット実現。
+- 赤石先生のベイズ推論本がわかりやすいと評判に
+	- https://x.com/kenken26679105/status/1732977179485757744?s=20
 	- 
 
 ## 12/4
@@ -3520,7 +3523,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjEzNTQ3MSwtOTM5NTY3NjEzLDEzMT
+eyJoaXN0b3J5IjpbMTg5NzY3MDc2NCwtOTM5NTY3NjEzLDEzMT
 EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
 MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
 03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
