@@ -164,7 +164,8 @@
 	- attack (red team) and defensive (blue team) postures.
 - Evaluating and Mitigating Discrimination in Language Model Decisions
 	- https://www.anthropic.com/index/evaluating-and-mitigating-discrimination-in-language-model-decisions
-	- anthropicより、（LLMの出力における）差別を検知するためのデータ性っと
+	- Anthropicより、（LLMの出力における）差別を検知するためのデータセットを公開
+- 
 
 ## 12/4
 
@@ -3515,11 +3516,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDkyODUwOCwtOTM5NTY3NjEzLDEzMT
-EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
-MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
-03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
-NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
-I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
-MDg2NF19
+eyJoaXN0b3J5IjpbMTU0MzE2NTcyLC05Mzk1Njc2MTMsMTMxMT
+A2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIx
+MDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLT
+c5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2
+OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4Mj
+U2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQw
+ODY0XX0=
 -->
