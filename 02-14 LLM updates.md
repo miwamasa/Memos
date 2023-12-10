@@ -174,7 +174,11 @@
 	- https://x.com/kenken26679105/status/1732977179485757744?s=20
 	- 少ないデータ量でも、こんな風に、色んな実務の場面にすぐに活用できちゃう
 	- Pythonでスラスラわかる ベイズ推論「超」入門 (KS情報科学専門書)
-- 
+- チョムスキーの「生成文法」は死んだという論文
+	- Modern language models refute Chomsky’s approach to language
+	- https://lingbuzz.net/lingbuzz/007180/v1.pdf
+	- 最近の生成AIてうか大言語モデルLLMの驚くべき成功から見て、チョムスキー流の生得的統語法規則があるという説は維持しづらい
+- llamaindexより、知識グラフ(KG)を使う、７つのぱ
 
 ## 12/4
 
@@ -3525,7 +3529,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjE3OTg2NywtOTM5NTY3NjEzLDEzMT
+eyJoaXN0b3J5IjpbLTg1ODQ5MTQ3NywtOTM5NTY3NjEzLDEzMT
 EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
 MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
 03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
