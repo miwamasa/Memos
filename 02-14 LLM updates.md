@@ -41,6 +41,9 @@
 	- 共変量シフトのネタで"All you need"的な流行りのタイトルの論文なんだけど，内容はしっかり数理やってるっぽい．がっつりShimodaira (2000)も参照されてました．共著者に数理統計の大御所のJianqing Fan先生とか，機械学習の理論系のChi Jin先生など
 - Retrieval-Augmented Generation (RAG): From Theory to LangChain Implementation
 	- https://towardsdatascience.com/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation-4e9bd5f6a4f2
+	- Check out this fantastic blog covering the basics of RAG, the theory behind it, and how to use it in practice
+- Mamba: Linear-Time Sequence Modeling with Selective State Spaces
+	- https://arxiv.org/abs/2312.00752
 	- 
 
 ## 12/4
@@ -3392,7 +3395,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODUzNTIzMiwtOTM5NTY3NjEzLDEzMT
+eyJoaXN0b3J5IjpbMjEyMDc0MjYwNywtOTM5NTY3NjEzLDEzMT
 EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
 MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
 03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
