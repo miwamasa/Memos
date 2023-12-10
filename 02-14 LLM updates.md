@@ -30,7 +30,9 @@
 	- Compared to closed-source LLMs, MEDITRON-70B outperforms GPT-3.5 and Med-PaLM and is within 5% of GPT-4 and 10% of Med-PaLM-2.
 	- webuiで試せる！
 	- https://github.com/epfLLM/meditron/blob/main/deployment/README.md#serving-with-web-gui
-- 
+- RAG用途に使える、Wikipedia 日本語の embeddings とベクトル検索用の faiss index を作った
+	- https://secon.dev/entry/2023/12/04/080000-wikipedia-ja-embeddings/
+	- Wikipedia日本語550万文でベクトル検索できるembeddingsと検索用faiss index作りました。20行ぐらいコード書くだけで簡単に利用できます！RAGしてもデータが少ないと面白みが少ないのですが、Wikipedia突っ込むと面白さが増えてくるので、興味ある方はお試しください！
 
 ## 12/4
 
@@ -3381,7 +3383,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODgwMjIyOCwtOTM5NTY3NjEzLDEzMT
+eyJoaXN0b3J5IjpbMTkwMjE4MTU3MCwtOTM5NTY3NjEzLDEzMT
 EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
 MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
 03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
