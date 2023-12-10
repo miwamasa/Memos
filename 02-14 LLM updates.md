@@ -219,7 +219,14 @@
 -  Large Language Models on Graphs: A Comprehensive Survey
 	- https://arxiv.org/abs/2312.02783
 	- Scenarios of adopting LLMs, techniques for utilizing LLMs on graphs, applications, #opensource code repositories, benchmark datasets
-- 2030 日本デジタル 改革 by ま
+- 「2030 日本デジタル 改革」 by マッキンゼー
+	- https://www.digitaljapan2030.com/_files/ugd/c01657_fcaed21f58bb4c429cb460ce788b82c4.pdf
+	- マッキンゼーのレポート（全140ページ）
+	- 日本のデジタル化がなぜ遅れたのか、それに対してどのような打ち手が取れるのか、ということが分かりやすく整理されています。 
+	- 日本の総労働時間の56%が自動化可能
+- ollama + stablelm-zephyr 試す。 M1でもはやい。
+	- https://ollama.ai/library/stablelm-zephyr
+- 
 
 ## 12/4
 
@@ -3570,7 +3577,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODM0OTc2NTksLTkzOTU2NzYxMywxMz
+eyJoaXN0b3J5IjpbLTIwNjUzNjgxMDUsLTkzOTU2NzYxMywxMz
 ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
 MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
 wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
