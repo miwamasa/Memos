@@ -178,7 +178,12 @@
 	- Modern language models refute Chomsky’s approach to language
 	- https://lingbuzz.net/lingbuzz/007180/v1.pdf
 	- 最近の生成AIてうか大言語モデルLLMの驚くべき成功から見て、チョムスキー流の生得的統語法規則があるという説は維持しづらい
-- llamaindexより、知識グラフ(KG)を使う、７つのぱ
+- llamaindexより、知識グラフ(KG)を使う、７つのパターンを表にまとめてくれた
+	- https://x.com/llama_index/status/1733190430760845673?s=20
+	-  A Simpler Way to Query Neo4j Knowledge Graphs
+	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/neo4j_query_engine/llama_packs_neo4j.ipynb
+- 欧州AI法の最終トリローグが終了、妥結へ
+	- 
 
 ## 12/4
 
@@ -3529,11 +3534,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODQ5MTQ3NywtOTM5NTY3NjEzLDEzMT
-EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
-MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
-03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
-NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
-I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
-MDg2NF19
+eyJoaXN0b3J5IjpbNTY4NjMzNTE1LC05Mzk1Njc2MTMsMTMxMT
+A2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIx
+MDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLT
+c5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2
+OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4Mj
+U2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQw
+ODY0XX0=
 -->
