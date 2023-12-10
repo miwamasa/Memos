@@ -254,6 +254,9 @@
 	- mixtral-8x7b-32kseqlenの裏にあるmoe技術とは
 	- https://x.com/sophiamyang/status/1733505991600148892?s=20
 	- MoE is a neural network architecture design that integrates layers of experts/models within the Transformer block.
+- たった87GのweightでAGIが来るから、AI規制必要だねという
+	- https://x.com/abacaj/status/1733561182504587652?s=20
+	- mixtral-8x7b-32kseqlenのことらしい
 - 
 
 ## 12/4
@@ -3605,7 +3608,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzgxMjU1MywtOTM5NTY3NjEzLDEzMT
+eyJoaXN0b3J5IjpbMjAyODYxODQzOCwtOTM5NTY3NjEzLDEzMT
 EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
 MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
 03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
