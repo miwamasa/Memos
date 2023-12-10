@@ -80,6 +80,10 @@
 - GIVT: Generative Infinite-Vocabulary Transformers
 	- https://huggingface.co/papers/2312.02116
 	- 本当にトークンが離散でなくて、無限なのだろうか？
+- ファインチューニングは不要、プロンプトだけでどうにかなる？
+	- https://x.com/IntuitMachine/status/1732089266883141856?s=20
+	- A recent research paper provides compelling evidence that the extensive fine-tuning used to "align" large language models into helpful assistants may be largely unnecessary.
+	- Allenインスティテュートの仕業か、https://allenai.org/
 - 
 
 ## 12/4
@@ -3431,7 +3435,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM3NzI4NjgsLTkzOTU2NzYxMywxMz
+eyJoaXN0b3J5IjpbLTE0NDI5Nzg5NTYsLTkzOTU2NzYxMywxMz
 ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
 MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
 wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
