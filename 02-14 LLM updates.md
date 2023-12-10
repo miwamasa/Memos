@@ -3,7 +3,7 @@
 
 ## 12/11
 
-今週はなんといっても、GoogleのGemini。GPT-4越えとか、すぐにBard(英語版）で試せるとか、研究アシスタントして使うデモとか、それから子供向けのお遊びデモとかなかなか衝撃的であったが、なんとお遊びデモが紙芝居（部分をつなげてそれらしく見えるようにした、部分部分は本物）との報道があり、間に合わなかったんだろうなー。Mambaというトランスフォーマの代替技術よさそう。 DeepMindの『GNoME』は科学の発展をLLMが明らかに加速することを示している。
+今週はなんといっても、GoogleのGemini。GPT-4越えとか、すぐにBard(英語版）で試せるとか、研究アシスタントして使うデモとか、それから子供向けのお遊びデモとかなかなか衝撃的であったが、なんとお遊びデモが紙芝居（部分をつなげてそれらしく見えるようにした、部分部分は本物）との報道があり、間に合わなかったんだろうなー。Mambaというトランスフォーマの代替技術よさそう。 DeepMindの『GNoME』は科学の発展をLLMが明らかに加速することを示している。Metaは安全なAIのためのPurple LLamaを発表。攻撃（red)と防御(blue)が協力するからPrupleなんだって。Appleから深層学習フレームワークmlx発表、M3ってすごいんだ。
 
 １週間分のブクマ整理するだけで２時間かかるんだけど。。。GPT4にやらせるか。。
 
@@ -3613,11 +3613,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjc3MzM0NSwtOTM5NTY3NjEzLDEzMT
-EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
-MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
-03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
-NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
-I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
-MDg2NF19
+eyJoaXN0b3J5IjpbLTExMTg0MjM2NjEsLTkzOTU2NzYxMywxMz
+ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
+MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
+wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
+MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
+gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
+NDA4NjRdfQ==
 -->
