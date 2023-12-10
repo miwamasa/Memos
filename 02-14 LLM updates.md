@@ -262,7 +262,12 @@
 	- https://huggingface.co/TheBloke/mixtral-7B-8expert-GPTQ
 - Geminiのお遊びデモは、紙芝居だ
 	- https://techcrunch.com/2023/12/07/googles-best-gemini-demo-was-faked/
-	- 
+- QuIP#: QuIP with Lattice Codebooks
+	- https://cornell-relaxml.github.io/quip-sharp/
+	- QuIP#は大規模言語モデルを2ビット量子化し、本来ならば140GBのメモリが必要なLlama 2 70Bを24GBのGPUで実行可能にするとの事です
+- Bard(/w Gemini Pro)はいまだに数独が解けない、GPT-4はとけるけど
+	- https://x.com/kajikent/status/1733663171578335233?s=20
+- 
 
 ## 12/4
 
@@ -3613,7 +3618,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjc0MjQ3MywtMTc2NTM2MjM2LC0yMD
+eyJoaXN0b3J5IjpbLTY1MjgyNjYzOCwtMTc2NTM2MjM2LC0yMD
 g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
 NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMS
 wtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1
