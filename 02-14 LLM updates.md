@@ -283,6 +283,7 @@
 	- https://note.com/npaka/n/n3b55c941d864?sub_rt=share_h
 	- 「**Mixtral 8x7b**」は、「Mistral AI」がリリースした史上初のオープンソース MoEモデルです
 	- 「**DiscoLM Mixtral 8x7b alpha**」は、「Mixtral 8x7b」をファインチューニングして作成した実験的なチャットモデルです。元のモデルをHuggingFace形式に変換し、「Synthia」「MethaMathQA」「Capybara」でファインチューニングしています。
+	- 「**MoE**」 (Mixture of Experts) とは、LLMの効率と精度を高めるために使用される手法です。このアプローチは、複雑なタスクをより小さく管理しやすいサブタスクに分割し、それぞれを特化したミニモデルまたは専門家が処理することで機能します。
 	- 
 
 ## 12/4
@@ -3634,7 +3635,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTc5MDgwNTksNTQ3MDk3MTYxLDE0OD
+eyJoaXN0b3J5IjpbLTEyNDE5OTc1ODAsNTQ3MDk3MTYxLDE0OD
 Y3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2
 MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OC
 wtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4
