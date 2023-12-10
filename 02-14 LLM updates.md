@@ -69,6 +69,10 @@
 - NVIDIAのH100をどこに出荷したかの図。MS,Metaが圧倒的に多い、GPT4を7日で訓練できる規模？
 	- https://x.com/Lauramaywendel/status/1731698695853244849?s=20
 	- GPT4 was presumably trained for around 90 days using 25k A100 GPUs. Microsoft and Meta having reportedly bought 150k H100 GPUs each this year, can now train a GPT4 class model in only 7 days from scratch
+- Google Geminiの提供を１月まで延期
+	- https://x.com/rowancheung/status/1731531903193219260?s=20
+	- いくつかの分野ではGPT-4を上回るも、英語以外での性能が出ない。
+	- これって、後から続くイベントのぷれかーさー
 - 
 
 ## 12/4
@@ -3420,7 +3424,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU4NTY4MTksLTkzOTU2NzYxMywxMz
+eyJoaXN0b3J5IjpbLTE0NzcxMzEyMzgsLTkzOTU2NzYxMywxMz
 ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
 MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
 wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
