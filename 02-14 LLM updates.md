@@ -142,7 +142,9 @@
 	- 3～5年は常に必要（永遠に達成できない）との記事にLecan先生の反応
 - Apple製品Mシリーズに最適化された深層学習フレームワークmlx
 	- https://x.com/goto_yuta_/status/1732287555599741103?s=20
-	- Apple製品Mシリーズに最適化された深層学習フレームワークmlxなるものが登場したらしい。 Macに搭載されてるGPU(MPS)がより有効活用されてローカルLLMの高速推論が可能になったら嬉しいな。
+	-  Macに搭載されてるGPU(MPS)がより有効活用されてローカルLLMの高速推論が可能になったら嬉しいな。
+- GeminiのTechnical reportを日本語で解説している人が登場
+	- 
 
 ## 12/4
 
@@ -3493,11 +3495,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTgzNDg3LC05Mzk1Njc2MTMsMTMxMT
-A2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIx
-MDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLT
-c5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2
-OSwtMTc2MTQ2MTY1MSwyMDMzNjQ1MjMwLDUxODA3NDksLTE4Mj
-U2NTYxODEsLTk1Nzg2OTEzNiwxNjAxMTEwMjI0LC0xNTk4MjQw
-ODY0XX0=
+eyJoaXN0b3J5IjpbLTIxMTczNzQwOTAsLTkzOTU2NzYxMywxMz
+ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
+MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
+wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
+MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
+gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
+NDA4NjRdfQ==
 -->
