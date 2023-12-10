@@ -112,7 +112,14 @@
 - JWT(Json Web Token)
 	- https://x.com/alexxubyte/status/1732077250626179578?s=20
 - Jellyfish: A Large Language Model for Data Preprocessing
-	- 
+	- https://arxiv.org/abs/2312.01678
+	- データの前処理を得意とするLLM『Jellyfish（クラゲ）』が公開されました。 未知のタスクにも対応でき、比較的軽量であり1GPUでも動作するとのことです。 
+	- 大阪大学、NEC、名古屋大学の研究者らによる発表です
+	- ① データベースタスク特化モデルが進化 （GPT-4と同等の性能でデータ処理を行う） 
+	- ② ゼロショットでデータ前処理タスクを実行 
+	- ③ 多様な前処理タスクに対応 
+	- ④ サイズが小さいため、1GPUでも動作する
+- 
 
 ## 12/4
 
@@ -3463,11 +3470,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzI5MDY3ODUsLTkzOTU2NzYxMywxMz
-ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
-MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
-wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
-MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
-gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
-NDA4NjRdfQ==
+eyJoaXN0b3J5IjpbMTA3NzQ3OTAxOSwtOTM5NTY3NjEzLDEzMT
+EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
+MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
+03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
+NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
+I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
+MDg2NF19
 -->
