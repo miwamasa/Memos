@@ -146,6 +146,7 @@
 - Apple製品Mシリーズに最適化された深層学習フレームワークmlx
 	- https://x.com/goto_yuta_/status/1732287555599741103?s=20
 	-  Macに搭載されてるGPU(MPS)がより有効活用されてローカルLLMの高速推論が可能になったら嬉しいな。
+	- CNB
 - GeminiのTechnical reportを日本語で解説している人が登場
 	- https://x.com/bioshok3/status/1732421662619140551?s=20
 	- Gemini Ultraは、MMLU で人間の専門家の性能を達成した最初のモデルでありスコアは90%以上。やばすぎる。人間のエキスパートのパフォーマンスはベンチマーク著者によって89.8%と評価され、Gemini Ul traはこの閾値を超えた最初のモデル!時代が変わった。
@@ -3626,11 +3627,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzI5Mzg2NDIsLTE3NjUzNjIzNiwtMj
-A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
-NjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MT
-EsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgx
-NTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAyNjksLTE3NjE0NjE2NT
-EsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xODI1NjU2MTgxLC05NTc4
-NjkxMzZdfQ==
+eyJoaXN0b3J5IjpbLTcwOTY4OTE4OCwtMTc2NTM2MjM2LC0yMD
+g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
+NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMS
+wtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1
+OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MS
+wyMDMzNjQ1MjMwLDUxODA3NDksLTE4MjU2NTYxODEsLTk1Nzg2
+OTEzNl19
 -->
