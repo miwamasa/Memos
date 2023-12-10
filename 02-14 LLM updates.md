@@ -126,7 +126,10 @@
 	- 3. Geminiはマルチモーダルに強い。動画デモのようにリアルタイム推論も可能。 
 	- 4. 本日よりBardはGemini ProのFine-tuningバージョンを利用して公開する。その他にもGoogle製品への導入を進める。 
 	- 5. Gemini APIは12月13日からGoogle AI Studioを通じて提供される。
-- 
+	- https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
+- Google AlphaCode 2 を発表
+	- AlphaCode 2 Technical Report
+	- https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf
 
 ## 12/4
 
@@ -3477,7 +3480,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzg0MDQzNTksLTkzOTU2NzYxMywxMz
+eyJoaXN0b3J5IjpbLTE2MDQ2NzU5MTEsLTkzOTU2NzYxMywxMz
 ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
 MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
 wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
