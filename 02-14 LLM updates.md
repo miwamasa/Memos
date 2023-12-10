@@ -3,6 +3,8 @@
 
 ## 12/11
 
+１週間分のブクマ整理するだけで２時間かかるんだけど
+
 - 今月のNature誌は面白かった
 	- https://x.com/ykfrs1217/status/1731287315459490165?s=20
 	- ① 大都市ほど、異なる社会ステータスのひとたちは混じわらない（[https://doi.org/10.1038/s41586-023-06757-3…](https://t.co/tEkbdQOPG3)） 
@@ -197,8 +199,13 @@
 	- https://note.com/csstudyabroad/n/n5aba3a708f3a
 - "Purple Llama CyberSecEval: A benchmark for evaluating the cybersecurity risks of large language models"
 	- LLama Purple関連の CyberSecEvalの論文
+	- https://ai.meta.com/research/publications/purple-llama-cyberseceval-a-benchmark-for-evaluating-the-cybersecurity-risks-of-large-language-models/
 	- Metaの研究者らは、LLMが生成するコードにおける不安定性や乱用リスクを評価するためのツールを作成しました。
 	-  実験の結果、現在は、能力が高いモデルほど不安全なコードを提案する傾向が強いという逆説的な結果も出てきました。
+	- ① 全体的にLLMは、30%のケースで不安全なコードを提案した 
+	- ② 53%のケースで、サイバー攻撃の手伝いをするリクエストに対してLLMが応じた
+	-  ③ コーディング能力が高いモデルほど、不安全なコードを提案する傾向が強かった
+- 
 
 ## 12/4
 
@@ -3549,11 +3556,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDMxMTUzMjEsLTkzOTU2NzYxMywxMz
-ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
-MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
-wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
-MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
-gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
-NDA4NjRdfQ==
+eyJoaXN0b3J5IjpbMTI5NjczOTA1MiwtOTM5NTY3NjEzLDEzMT
+EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
+MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
+03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
+NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
+I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
+MDg2NF19
 -->
