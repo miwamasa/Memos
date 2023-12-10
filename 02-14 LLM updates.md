@@ -155,6 +155,8 @@
 	- https://x.com/npaka123/status/1732504570218283340?s=20
 - Bard(Gemini Pro)が霞が関パワポを解析して説明してくれると、、	by ゆな先生
 	- https://x.com/JapanTank/status/1732689643928445164?s=20
+- Gemini論文の最後の、"Core Contributors"の最初の６人の頭文字をとると、"GEMINI"になる
+	- https://x.com/nearcyan/status/1732532560029172142?s=20
 - 
 
 ## 12/4
@@ -3506,7 +3508,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1ODcxNjk0LC05Mzk1Njc2MTMsMTMxMT
+eyJoaXN0b3J5IjpbOTMyMTAzODg2LC05Mzk1Njc2MTMsMTMxMT
 A2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIx
 MDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLT
 c5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2
