@@ -25,6 +25,12 @@
 	- llamaindexより、RAG向けの評価用データセットの公開
 	- history of alexanetとか、origin of covid19などのpdfを含む、多分正解値は？
 - MEDITRON-70B: Scaling Medical Pretraining for Large Language Models
+	- https://arxiv.org/abs/2311.16079
+	- llama2を医療に特化してチューニングしたLLM
+	- Compared to closed-source LLMs, MEDITRON-70B outperforms GPT-3.5 and Med-PaLM and is within 5% of GPT-4 and 10% of Med-PaLM-2.
+	- webuiで試せる！
+	- https://github.com/epfLLM/meditron/blob/main/deployment/README.md#serving-with-web-gui
+- 
 
 ## 12/4
 
@@ -3375,7 +3381,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzAwMjgxOCwtOTM5NTY3NjEzLDEzMT
+eyJoaXN0b3J5IjpbLTQyODgwMjIyOCwtOTM5NTY3NjEzLDEzMT
 EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
 MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
 03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
