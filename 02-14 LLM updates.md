@@ -226,7 +226,14 @@
 	- 日本の総労働時間の56%が自動化可能
 - ollama + stablelm-zephyr 試す。 M1でもはやい。
 	- https://ollama.ai/library/stablelm-zephyr
-- 
+- Ollama : ローカル環境で容易にllamaを利用可能にるするAIチャットプログラム
+	- https://note.com/astropomeai/n/nbcdfd3b38490?sub_rt=share_b
+	- コマンドラインインターフェースを通じて大規模言語モデル（LLM）とやり取り可能なAIチャットプログラム
+	- LlamaやCode Llamaなど、さまざまなオープンソースモデルをサポート
+	- モデルのパラメーターやサイズが異なり、計算リソースに応じたAIモデルの実行を柔軟に対応
+	- Dockerがインストールされたシステムで利用可能で、Nvidia GPUのGPUアクセラレーションをサポート（CPU上でも実行可能）
+	- パフォーマンスはハードウェアに依存し、例えばLlama 2の7Bモデルを実行するには最低15GBのRAMと4つのCPUコアが必要
+	- MacOSとLinux用のデスクトップアプリケーションがあり、Windows版が開発中
 
 ## 12/4
 
@@ -3577,11 +3584,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjUzNjgxMDUsLTkzOTU2NzYxMywxMz
-ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
-MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
-wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
-MjY5LC0xNzYxNDYxNjUxLDIwMzM2NDUyMzAsNTE4MDc0OSwtMT
-gyNTY1NjE4MSwtOTU3ODY5MTM2LDE2MDExMTAyMjQsLTE1OTgy
-NDA4NjRdfQ==
+eyJoaXN0b3J5IjpbMjAzNzQxNzkxMCwtOTM5NTY3NjEzLDEzMT
+EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
+MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
+03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
+NjksLTE3NjE0NjE2NTEsMjAzMzY0NTIzMCw1MTgwNzQ5LC0xOD
+I1NjU2MTgxLC05NTc4NjkxMzYsMTYwMTExMDIyNCwtMTU5ODI0
+MDg2NF19
 -->
