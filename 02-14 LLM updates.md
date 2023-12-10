@@ -97,7 +97,9 @@
 	- You use RAGs when you want to generate outputs grounded to a custom knowledge base while the vocabulary & writing style of the LLM remains same.
 	- If you don't need either of them, prompt engineering is the way to go.
 	- And if your application need both custom knowledge & change in the behaviour of model a hybrid (RAGs + Finetuning) is preferred.
-- Open
+- OpenAIのSafety System Teamsから
+	- https://openai.com/safety/safety-systems
+	- 協力のお願い
 - 
 
 ## 12/4
@@ -3449,7 +3451,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEyMDM1NzAsLTkzOTU2NzYxMywxMz
+eyJoaXN0b3J5IjpbLTEwNDY5MTgwNjUsLTkzOTU2NzYxMywxMz
 ExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0
 MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OC
 wtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3Njc0OSwtMjcxMzAw
