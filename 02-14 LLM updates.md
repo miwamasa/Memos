@@ -279,6 +279,11 @@
 	- solid 70B model that is very similar to GPT 3.5, Gemini Pro
 	- MMLU on the base models is at 0.717 compared to Gemin Pro's 0.718
 	- Expect to see several fine and instruct tunes over the next few weeks. These fine tunes will match GPT-4 quality for several real-world use cases.
+-  Google Colab で DiscoLM Mixtral 8x7b alpha を試す by npakaさん
+	- https://note.com/npaka/n/n3b55c941d864?sub_rt=share_h
+	- 「**Mixtral 8x7b**」は、「Mistral AI」がリリースした史上初のオープンソース MoEモデルです
+	- 「**DiscoLM Mixtral 8x7b alpha**」は、「Mixtral 8x7b」をファインチューニングして作成した実験的なチャットモデルです。元のモデルをHuggingFace形式に変換し、「Synthia」「MethaMathQA」「Capybara」でファインチューニングしています。
+	- 
 
 ## 12/4
 
@@ -3629,11 +3634,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMj
-AyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2
-ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLD
-IxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYx
-NzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLD
-E1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2MTQ2MTY1MSwyMDMz
-NjQ1MjMwXX0=
+eyJoaXN0b3J5IjpbLTEzMTc5MDgwNTksNTQ3MDk3MTYxLDE0OD
+Y3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2
+MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OC
+wtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4
+NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MD
+QsMjI3ODE1OTgxLDE1ODg0NzY3NDksLTI3MTMwMDI2OSwtMTc2
+MTQ2MTY1MV19
 -->
