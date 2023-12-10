@@ -248,7 +248,13 @@
 - ClimateXのデータセットが公開されている
 	- https://huggingface.co/datasets/rlacombe/ClimateX
 - Mistralより、新しい mixtral-8x7b-32kseqlenを発表
-	- 
+	- https://replicate.com/nateraw/mixtral-8x7b-32kseqlen
+	- 「我々はMistral MoE (7Bx32experts) を 2 か月間使用しており、それは24GBで動作しています。」
+- What is Mixture-of-Experts (MoE)?
+	- mixtral-8x7b-32kseqlenの裏にあるmoe技術とは
+	- https://x.com/sophiamyang/status/1733505991600148892?s=20
+	- MoE is a neural network architecture design that integrates layers of experts/models within the Transformer block.
+- 
 
 ## 12/4
 
@@ -3599,7 +3605,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTk1ODU2NSwtOTM5NTY3NjEzLDEzMT
+eyJoaXN0b3J5IjpbMTQ1MzgxMjU1MywtOTM5NTY3NjEzLDEzMT
 EwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQy
 MTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC
 03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2NzQ5LC0yNzEzMDAy
