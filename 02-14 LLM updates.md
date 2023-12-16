@@ -24,7 +24,11 @@
 - MistralAI Embeddings
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/embeddings/mistralai.ipynb
 	- llamaindexよりMistralAI のEmbeddingsを利用するnotebook
-- 
+	- なんか、MistralAI自体もつかるらしい
+		- The new Mistral 8x7B model is an open-source model that made waves in the AI community today, outperforming gpt-3.5 and llama2 70B. Check out `mistral-tiny`, `mistral-small`, and `mistral-medium` variants.
+		- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/mistralai.ipynb
+- Mistralがどうえらいのか？
+	- https://twitter.com/DrJimFan/status/1734269362100437315
 
 
 ## 12/11
@@ -3661,7 +3665,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjI0Mjg3MSwtODk4MDc1OSwtOTU0Nz
+eyJoaXN0b3J5IjpbLTUxODYyOTYwMywtODk4MDc1OSwtOTU0Nz
 M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
 LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
 M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
