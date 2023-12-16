@@ -10,7 +10,10 @@
 	- ① 自然言語での要求をコードに変換する 
 	- ② 複雑なデータ構造やドメイン特有の問題を解決する 
 	- ③ 最適なプラグインをリアルタイムで選択し、タスクを効率的に処理する
+- LLMをセラピストとして実行し、「認知の歪み」を評価させるためのフレームワーク『Diagnosis of Thought (DoT)』に基づくMyGPT
+	- https://chat.openai.com/g/g-o9r1c3nkf-serapisuto-diagnosis-of-thought-dot
 - 
+	- https://github.com/AUGMXNT/shisa/wiki/A-Review-of-Public-Japanese-Training-Sets#analysis
 
 ## 12/11
 
@@ -3646,11 +3649,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzcyMTMxNSwtODk4MDc1OSwtOTU0Nz
-M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
-LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
-M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
-NjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNj
-IsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2
-NzQ5XX0=
+eyJoaXN0b3J5IjpbMTM0MTI0NTc2LC04OTgwNzU5LC05NTQ3Mz
+cwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcs
+MTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mz
+k1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2
+MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Mi
+w2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3
+NDldfQ==
 -->
