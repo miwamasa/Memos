@@ -27,12 +27,15 @@
 	- なんか、MistralAI自体もつかるらしい
 		- The new Mistral 8x7B model is an open-source model that made waves in the AI community today, outperforming gpt-3.5 and llama2 70B. Check out `mistral-tiny`, `mistral-small`, and `mistral-medium` variants.
 		- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/mistralai.ipynb
-- Mistralがどうえらいのか？
+- Mistralがどうえらいのか？ by ジムファン氏
 	- https://twitter.com/DrJimFan/status/1734269362100437315
 	- MoE is the right path forward
 	- An LLM is a snapshot of a civilization
-	- ジムファン氏曰く、MistralのMixtralモデル公開のワケ分からんムーブは実は高度な戦略だった。まず何の説明もなくモデルをtorrentに投下。そんでvLLMプロジェクトにプルリク投げて、誰でもMixtralで遊べるように環境を作ってあげる。最後にあらためてブログ記事でモデル情報を発表！発表と同時にすぐ遊べて世間が盛り上がって注目度を稼げるという流れ by うむｙ
-- 
+	- ジムファン氏曰く、MistralのMixtralモデル公開のワケ分からんムーブは実は高度な戦略だった。まず何の説明もなくモデルをtorrentに投下。そんでvLLMプロジェクトにプルリク投げて、誰でもMixtralで遊べるように環境を作ってあげる。最後にあらためてブログ記事でモデル情報を発表！発表と同時にすぐ遊べて世間が盛り上がって注目度を稼げるという流れ by うみゆきさん
+- "From Text to Motion: Grounding GPT-4 in a Humanoid Robot "Alter3"
+	- https://arxiv.org/abs/2312.06571
+	- 東京大学と株式会社オルタナティヴ・マシンの研究者らは「LLMと物理的な世界がつながると何が起こるのか？」と想像し、実際にGPT-4とヒューマノイドロボットを連携しました
+	- 
 
 
 ## 12/11
@@ -3669,7 +3672,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODU3NjYwOCwtODk4MDc1OSwtOTU0Nz
+eyJoaXN0b3J5IjpbLTk1MTgyOTA2MywtODk4MDc1OSwtOTU0Nz
 M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
 LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
 M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
