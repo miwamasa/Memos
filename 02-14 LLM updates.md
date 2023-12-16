@@ -4,7 +4,13 @@
 ## 12/18
 
 - "TaskWeaver: A Code-First Agent Framework
-	- 
+	- https://arxiv.org/abs/2311.17541
+	- Microsoftは、ユーザーが自然言語で「こうして」と言うだけでLLMが要求を理解し、実行コードを生成するためのツール『TaskWeaver（タスクウィーバー）』を開発しました。 
+	- 実験の結果、株価予測や異常検出などのタスクを通して有効性が確認されているそうです。
+	- ① 自然言語での要求をコードに変換する 
+	- ② 複雑なデータ構造やドメイン特有の問題を解決する 
+	- ③ 最適なプラグインをリアルタイムで選択し、タスクを効率的に処理する
+- 
 
 ## 12/11
 
@@ -3640,7 +3646,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjY4MzQ0NywtODk4MDc1OSwtOTU0Nz
+eyJoaXN0b3J5IjpbMTI4NzcyMTMxNSwtODk4MDc1OSwtOTU0Nz
 M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
 LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
 M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
