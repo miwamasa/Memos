@@ -17,7 +17,12 @@
 - gtp-fastの本家github
 	- Simple and efficient pytorch-native transformer text generation.
 	- https://github.com/pytorch-labs/gpt-fast
+- "The Efficiency Spectrum of Large Language Models: An Algorithmic Survey"
+	- https://arxiv.org/abs/2312.00678
+	- LLMの効率を高めるためのノウハウに関する網羅的な調査 by Microsoft
+	- スケーリング／データ／アーキテクチャ／トレーニングとチューニング／推論、といった5つの観点から報告されています。
 - 
+
 
 ## 12/11
 
@@ -3653,7 +3658,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzA1ODM5MjksLTg5ODA3NTksLTk1ND
+eyJoaXN0b3J5IjpbLTE1MzgzNDAxMjEsLTg5ODA3NTksLTk1ND
 czNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAy
 NywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLT
 kzOTU2NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAw
