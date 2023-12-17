@@ -169,7 +169,17 @@
 	- 実験の結果、「人が理解しやすい」内容で正確かつ詳細に画像を説明することができると確認されました
 -  日本の古典和歌を埋め込みベクトルで分析する
 	- https://note.com/yhkondo/n/nd321604729cd?sub_rt=share_pw
-	- 
+	- OpenAIの埋め込みベクトルを使って、『古今集』『万葉集』『和漢朗詠集』等を分析し、いわゆる「花鳥風月」という概念がどこから生まれてきたかを探求したものです。AIの持つ力を感じていただけると確信しています
+-  Google Colab で Gemini Pro をもっと試す by npakaさん
+	- https://note.com/npaka/n/n1c368639cada?sub_rt=share_h
+	- 1.  2. モデル一覧の表示
+	- 2.  3. 質問応答
+	- 3.  4. ストリーミング
+	- 4.  5. チャット
+	- 5.  6. 画像からの質問応答
+	- 6.  7. 画像とテキストからの質問応答
+	- 7.  8. 埋め込みの生成
+- 
 
 ## 12/11
 
@@ -3805,11 +3815,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjgzNzU2NjcsLTEzOTYyMjA2NDcsLT
-g5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1
-MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLT
-IwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01Mjky
-MTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3OD
-ExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4
-MTU5ODFdfQ==
+eyJoaXN0b3J5IjpbLTEyOTk4ODk5NSwtMTM5NjIyMDY0NywtOD
+k4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUx
+LC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMj
+A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
+NjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MT
+EsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgx
+NTk4MV19
 -->
