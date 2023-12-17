@@ -113,7 +113,9 @@
 	- https://x.com/npaka123/status/1735077608071876882?s=20
 	- Llama2-70B相手にコーディングで圧勝した2.7Bモデル。
 	- https://huggingface.co/microsoft/phi-2
-- 
+- 大規模言語モデルを自作しよう！(Transformers+DeepSpeed+torch.compile+flash_attn2
+	- https://zenn.dev/selllous/articles/transformers_pretrain_to_ft
+	- 英語がメインのLLM Mistral-7Bモデルを300M(0.3B)へダウンサイズして、pretraining + instruction tuningをColab上のGPU T4(!!!)で6時間(0.02epoch)で日本語学習させるという意欲的な記事
 
 ## 12/11
 
@@ -3749,7 +3751,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjY5NDAwOSwtODk4MDc1OSwtOTU0Nz
+eyJoaXN0b3J5IjpbLTEwMjI5MDg2MSwtODk4MDc1OSwtOTU0Nz
 M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
 LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
 M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
