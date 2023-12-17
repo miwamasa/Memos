@@ -116,6 +116,12 @@
 - 大規模言語モデルを自作しよう！(Transformers+DeepSpeed+torch.compile+flash_attn2
 	- https://zenn.dev/selllous/articles/transformers_pretrain_to_ft
 	- 英語がメインのLLM Mistral-7Bモデルを300M(0.3B)へダウンサイズして、pretraining + instruction tuningをColab上のGPU T4(!!!)で6時間(0.02epoch)で日本語学習させるという意欲的な記事
+-  FunSearch: Making new discoveries in mathematical sciences using Large Language Models
+	- https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/?utm_source=twitter&utm_medium=social
+	- DeepMindがLLMを「事前にタスク評価できる問題」に遺伝的アルゴリズムを組み合わせたFunSearch(searching in the function space)提案。
+	-  LLMがコード生成->評価->洗練のループ。 
+	- ** 科学,数学の未解決問題に対して、初めてLLMを用いた新たな発見 **。 
+	- その例としてcap set problem,bin-packing problem。
 
 ## 12/11
 
@@ -3751,11 +3757,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjI5MDg2MSwtODk4MDc1OSwtOTU0Nz
-M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
-LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
-M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
-NjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNj
-IsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2
-NzQ5XX0=
+eyJoaXN0b3J5IjpbOTY2MTA2NzcxLC04OTgwNzU5LC05NTQ3Mz
+cwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcs
+MTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mz
+k1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2
+MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Mi
+w2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3
+NDldfQ==
 -->
