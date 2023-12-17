@@ -123,6 +123,7 @@
 	-  LLMがコード生成->評価->洗練のループ。 
 	- ** 科学,数学の未解決問題に対して、初めてLLMを用いた新たな発見 **。 
 	- その例としてcap set problem,bin-packing problem。
+- 
 
 ## 12/11
 
@@ -3758,11 +3759,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxNTIxNzU4LC04OTgwNzU5LC05NTQ3Mz
-cwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcs
-MTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mz
-k1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2
-MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Mi
-w2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3
-NDldfQ==
+eyJoaXN0b3J5IjpbLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1ND
+czNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAy
+NywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLT
+kzOTU2NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAw
+MzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MD
+YyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3
+Njc0OV19
 -->
