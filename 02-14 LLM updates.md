@@ -68,6 +68,10 @@
 - Mistral-7B-Instruct-v0.2 を試す by npakaさん
 	- https://x.com/npaka123/status/1734348586689908878?s=20
 	- https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2
+- Mixtral-8x7B-Instruct-v0.1 を試す。load_in_4bit。 by npakaさん、
+	- https://x.com/npaka123/status/1734408371154100457?s=20
+	- https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1
+	- 起動までダウンロード含めて20分で推論速度は200トークンで21秒
 - 
 
 
@@ -3705,7 +3709,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTYwMDIyMiwtODk4MDc1OSwtOTU0Nz
+eyJoaXN0b3J5IjpbMTA0MzU1MDg0MiwtODk4MDc1OSwtOTU0Nz
 M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
 LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
 M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
