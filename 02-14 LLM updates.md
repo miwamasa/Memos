@@ -147,7 +147,11 @@
 	- LLMのRAGアプリケーションをチューニングするための12戦略を書いたブログ記事。具体的にはデータクリーニング、埋込み、チャンク化、インデクシング、クエリ変換、リランキング等、実践的な戦略。
 - Bishop先生の「Deep Learning: Foundations and Concepts」
 	- https://www.bishopbook.com/
-	- Vision Language Modelのところ見たらCM3Leonが載ってて驚いた![😂](https://abs-0.twimg.com/emoji/v2/svg/1f602.svg "嬉し泣き")新しいし面白いとこ解説しててめっちゃいい
+	- Vision Language Modelのところ見たらCM3Leonが載ってて驚いた
+- Benchmarking Large Language Models As AI Research Agents
+	- https://arxiv.org/abs/2310.03302
+	- この論文が素晴らしいのは、open-ended な状況で研究をするエージェントというコンセプトを明確に提示した点だ
+- 
 
 ## 12/11
 
@@ -3783,7 +3787,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzgwODQ1MywtMTM5NjIyMDY0NywtOD
+eyJoaXN0b3J5IjpbLTIwMTUyMDg2NSwtMTM5NjIyMDY0NywtOD
 k4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUx
 LC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMj
 A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
