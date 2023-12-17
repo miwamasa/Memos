@@ -96,8 +96,11 @@
 - LlamaIndex + Gemini
 	- https://blog.llamaindex.ai/llamaindex-gemini-8d7c3b9ea97e
 	- llamaindex、いきなりGeminiフルサポート
-- 
-- 
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/gemini.ipynb
+	-  Multi-modal Model中もサポートしているらしい、、、
+-  Google Generative Language Semantic Retriever
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/managed/GoogleDemo.ipynb
+	- 
 
 
 ## 12/11
@@ -3734,11 +3737,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ3MzkzOTIsLTg5ODA3NTksLTk1ND
-czNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAy
-NywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLT
-kzOTU2NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAw
-MzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MD
-YyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3
-Njc0OV19
+eyJoaXN0b3J5IjpbLTk4Mjk0NTMxOSwtODk4MDc1OSwtOTU0Nz
+M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
+LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
+M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
+NjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNj
+IsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2
+NzQ5XX0=
 -->
