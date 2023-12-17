@@ -90,6 +90,9 @@
 	-   今回はGoogle Colabで「[**Mixtral-8x7B-Instruct-v0.1-Q4_K_M-GGUF**](https://mixtral-8x7b-instruct-v0.1-gguf/)（4bit量子化版）」の推論を試しました。
 	- 4bit量子化でも26GBほどあります。Colab ProのCPUオンリー+ハイメモリで実行してみました。GPUのみで推論するならA100が必要です。
 	- ColabのCPUだとさすがに遅いものの、最近のPCのCPUならふつうに動かせそう。Llama 34B/70Bの量子化モデルに比べると全然速いです
+- LangChainを使わない
+	- https://tech-blog.abeja.asia/entry/advent-2023-day13
+	- 技術的負債になりうるとか、Agentってfunction callで代替可能とかそういう話
 - 
 - 
 
@@ -3728,7 +3731,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTc1NDY1NCwtODk4MDc1OSwtOTU0Nz
+eyJoaXN0b3J5IjpbMTQwMDQxNjY5NCwtODk4MDc1OSwtOTU0Nz
 M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
 LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
 M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
