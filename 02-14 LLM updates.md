@@ -126,7 +126,10 @@
 -  Benchmarking RAG on tables
 	- https://blog.langchain.dev/benchmarking-rag-on-tables/
 	- llmaindexより、テーブルのＲＡＧについて、ベンチマーク、long contextは性能はでない
-- 
+-  MOE言語モデルのエキスパートの一人を日本語得意なモデルに置き換えたらどうなるのか？
+	- https://note.com/aisatoshi/n/n6c06d5183517?sub_rt=share_pb
+	- Mistral7Bを8つ束ねた、Mixtral 8x7BというMOEモデル
+	- 
 
 ## 12/11
 
@@ -3762,7 +3765,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDY4MzQ3NSwtMTM5NjIyMDY0NywtOD
+eyJoaXN0b3J5IjpbMTQyOTc4NDc0MiwtMTM5NjIyMDY0NywtOD
 k4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUx
 LC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMj
 A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
