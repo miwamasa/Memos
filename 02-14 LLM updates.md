@@ -123,6 +123,9 @@
 	-  LLMがコード生成->評価->洗練のループ。 
 	- ** 科学,数学の未解決問題に対して、初めてLLMを用いた新たな発見 **。 
 	- その例としてcap set problem,bin-packing problem。
+-  Benchmarking RAG on tables
+	- https://blog.langchain.dev/benchmarking-rag-on-tables/
+	- llmaindexより、テーブルのＲＡＧについて、ベンチマーク、long contextは性能はでない
 - 
 
 ## 12/11
@@ -3759,11 +3762,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1ND
-czNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAy
-NywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLT
-kzOTU2NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAw
-MzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MD
-YyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3
-Njc0OV19
+eyJoaXN0b3J5IjpbMTM0NDY4MzQ3NSwtMTM5NjIyMDY0NywtOD
+k4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUx
+LC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMj
+A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
+NjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MT
+EsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgx
+NTk4MV19
 -->
