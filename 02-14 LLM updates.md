@@ -3,6 +3,8 @@
 
 ## 12/18
 
+GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどんおこなｗ
+
 - "TaskWeaver: A Code-First Agent Framework
 	- https://arxiv.org/abs/2311.17541
 	- Microsoftは、ユーザーが自然言語で「こうして」と言うだけでLLMが要求を理解し、実行コードを生成するためのツール『TaskWeaver（タスクウィーバー）』を開発しました。 
@@ -188,6 +190,12 @@
 	- Modelサイズは24Bになります
 - NeurIPS Large Language Model Efficiency Challenge:  1 LLM + 1GPU + 1Day
 	- https://llm-efficiency-challenge.github.io/index
+	- OSS LLMモデルを元に限られた資源・時間でファインチューンするというコンペ
+	- 重要なのはデータセット
+	- 複数のデータセットからデータをサンプリングして上質なデータセットを構成し訓練するのが鍵
+- 
+	
+
 
 ## 12/11
 
@@ -3823,11 +3831,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE2OTU2NDksLTEzOTYyMjA2NDcsLT
-g5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1
-MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLT
-IwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01Mjky
-MTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3OD
-ExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4
-MTU5ODFdfQ==
+eyJoaXN0b3J5IjpbLTI2NjE0ODU0MiwtMTM5NjIyMDY0NywtOD
+k4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUx
+LC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMj
+A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
+NjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MT
+EsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgx
+NTk4MV19
 -->
