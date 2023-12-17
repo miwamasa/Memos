@@ -43,6 +43,10 @@
 		- ① 「Alter3」は9種類の異なる動作の実行を成功 
 		- ② 第三者による動作の評価は高かった 
 		- ③ 人間的な動作と感情表現を実現
+-  Mixtral 8x7B の概要  by npakaさん
+	- https://note.com/npaka/n/n6043bc8b01bc?sub_rt=share_h
+	- 推論は6倍速く、ほとんどのベンチマークで「Llama2 70B」を上回っていま
+	- 
 
 
 ## 12/11
@@ -3679,7 +3683,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTY1NTk5NDcsLTg5ODA3NTksLTk1ND
+eyJoaXN0b3J5IjpbLTE2NDA3Nzc2MTYsLTg5ODA3NTksLTk1ND
 czNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAy
 NywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLT
 kzOTU2NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAw
