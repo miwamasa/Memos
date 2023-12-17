@@ -184,7 +184,10 @@
 	- LLMをのせたエージェントにマインクラフトをさせた研究，進捗の解除具合やマップの探索範囲の広さをみていて，滅茶苦茶面白いなｗ　プレイ風景をみてみたい
 - mmnga/Mixtral-Fusion-4x7B-Instruct-v0.1
 	- https://huggingface.co/mmnga/Mixtral-Fusion-4x7B-Instruct-v0.1
-	- 
+	- Mixtral-8x7B-Instruct-v0.1 のExpertsのうち2つ毎にmergeして4x7bにした実験モデル作りました
+	- Modelサイズは24Bになります
+- NeurIPS Large Language Model Efficiency Challenge:  1 LLM + 1GPU + 1Day
+	- https://llm-efficiency-challenge.github.io/index
 
 ## 12/11
 
@@ -3820,7 +3823,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTg5Nzc5NTUsLTEzOTYyMjA2NDcsLT
+eyJoaXN0b3J5IjpbLTE5NDE2OTU2NDksLTEzOTYyMjA2NDcsLT
 g5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1
 MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLT
 IwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01Mjky
