@@ -46,7 +46,11 @@
 -  Mixtral 8x7B の概要  by npakaさん
 	- https://note.com/npaka/n/n6043bc8b01bc?sub_rt=share_h
 	- 推論は6倍速く、ほとんどのベンチマークで「Llama2 70B」を上回っていま
-	- 
+	- **Mistral-tiny** : Mistral 7B Instruct v0.2。英語でのみ機能。MT-Benchでは7.6を獲得。  
+	- **Mistral-small** : Mixtral 8x7B。英語/フランス語/イタリア語/ドイツ語/スペイン語とコードをマスター。MT-Benchで8.3を獲得。  
+	- **Mistral-medium** : Mistral AIの最高品質のプロトタイプモデル。英語/フランス語/イタリア語/ドイツ語/スペイン語とコードをマスター。MT-Benchで8.6を獲得。
+- 
+	- https://x.com/webbigdata/status/1734425932029628876?s=20
 
 
 ## 12/11
@@ -3683,7 +3687,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA3Nzc2MTYsLTg5ODA3NTksLTk1ND
+eyJoaXN0b3J5IjpbLTExNzUwODI5MTksLTg5ODA3NTksLTk1ND
 czNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAy
 NywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLT
 kzOTU2NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAw
