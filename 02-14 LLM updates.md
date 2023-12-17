@@ -78,6 +78,11 @@
 	- 学習量は1.4Tトークンで、96個のA100で14日かけてトレーニング。
 	- ベンチマークでパラ数3.2BのGemini Nanoに完勝（てかGemini Nanoのパラ数初めて知ったわ）
 	- そしてマイクロソフトの独自ベンチにおいて、まさかのLlama2-70B相手にコーディングで圧勝、数学で僅差に迫る。Llama2-13B相手には完勝してしまう。
+- The Emergent Abilities of LLMs Could Be A Mirage!
+	- The best paper award in NeurIPs 2023 went to a paper claiming that the emergent abilities of LLMs could be a mirage!
+- llamaindexにてmistralaiのサポートドキュメント公開
+	- https://docs.llamaindex.ai/en/stable/examples/llm/mistralai.html
+- 
 
 
 ## 12/11
@@ -3714,7 +3719,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0ODk0NDQ5LC04OTgwNzU5LC05NTQ3Mz
+eyJoaXN0b3J5IjpbMjc1ODgxNDAwLC04OTgwNzU5LC05NTQ3Mz
 cwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcs
 MTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mz
 k1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2
