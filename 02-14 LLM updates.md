@@ -72,7 +72,12 @@
 	- https://x.com/npaka123/status/1734408371154100457?s=20
 	- https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1
 	- 起動までダウンロード含めて20分で推論速度は200トークンで21秒
-- 
+- マイクロソフトがPhi-2とかいう2.7BパラのLLMをリリース
+	- https://x.com/umiyuki_ai/status/1734763437274890746?s=20
+	- パラ数小さいくせにあり得ん高性能を発揮してるらしい。
+	- 学習量は1.4Tトークンで、96個のA100で14日かけてトレーニング。
+	- ベンチマークでパラ数3.2BのGemini Nanoに完勝（てかGemini Nanoのパラ数初めて知ったわ）
+	- そしてマイクロソフトの独自ベンチにおいて、まさかのLlama2-70B相手にコーディングで圧勝、数学で僅差に迫る。Llama2-13B相手には完勝してしまう。
 
 
 ## 12/11
@@ -3709,11 +3714,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzU1MDg0MiwtODk4MDc1OSwtOTU0Nz
-M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
-LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
-M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
-NjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNj
-IsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2
-NzQ5XX0=
+eyJoaXN0b3J5IjpbNzY0ODk0NDQ5LC04OTgwNzU5LC05NTQ3Mz
+cwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcs
+MTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mz
+k1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2
+MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Mi
+w2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3
+NDldfQ==
 -->
