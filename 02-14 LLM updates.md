@@ -137,6 +137,11 @@
 	- https://github.com/GoogleCloudPlatform/generative-ai
 - Geminiをつかって、クリスマスカードを作る例 by google
 	- https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/Prepare_Christmas_cards_with_Gemini_and_Sheets.ipynb
+-  OpenAI thinks superhuman AI is coming — and wants to build tools to control it
+	- https://openai.com/blog/superalignment-fast-grants
+	- Open AI超人的なAIのアライメントに向けた研究に1000万ドルの助成金プロジェクト開始。 
+	- 支援にGoogle CEO兼会長のエリック・シュミット氏。 
+	- イリヤサツケバー氏今もまだSuper Alignmentチーム率いてるとのこと！
 - 
 
 ## 12/11
@@ -3773,11 +3778,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5MDExNjQzLC0xMzk2MjIwNjQ3LC04OT
-gwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEs
-LTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMD
-g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
-NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMS
-wtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1
-OTgxXX0=
+eyJoaXN0b3J5IjpbLTE5MTM2NjgyMjYsLTEzOTYyMjA2NDcsLT
+g5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1
+MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLT
+IwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01Mjky
+MTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3OD
+ExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4
+MTU5ODFdfQ==
 -->
