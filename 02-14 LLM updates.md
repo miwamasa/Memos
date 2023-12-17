@@ -106,7 +106,10 @@
 	- https://python.langchain.com/docs/integrations/chat/google_generative_ai
 	- Access Google AI’s `gemini` and `gemini-vision` models, as well as other generative models through `ChatGoogleGenerativeAI` class in the [langchain-google-genai](https://pypi.org/project/langchain-google-genai/) integration package.
 - Gemini Pro APIの価格表、
+	- https://ai.google.dev/pricing?hl=ja
 	- 入力が$0.00025/1k charactersなのでgpt-3.5-turbo-1106の1/4の価格（つまり11月以前のgpt-3.5-turboの1/12）で使えるらしい。
+	- フリー版ならば、60QPM (queries per minute)までは使える！！！！
+- 
 
 ## 12/11
 
@@ -3742,7 +3745,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTMyMzU3NywtODk4MDc1OSwtOTU0Nz
+eyJoaXN0b3J5IjpbMjAwMTQ2MDg3NiwtODk4MDc1OSwtOTU0Nz
 M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
 LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
 M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
