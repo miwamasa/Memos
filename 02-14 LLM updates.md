@@ -54,7 +54,14 @@
 - "Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models"
 	- https://arxiv.org/abs/2312.06585
 	- LMに自ら高品質なデータを生成させ、データセットを拡張する「自己学習」アプローチ by DeepMind
-		- 
+	- 方法
+		- ① 自らデータセットを拡張する 
+		- ② 生成したデータが正しいかどうかを判断する
+		- ③ 数学を中心とした様々な問題解決に使える
+	- 実験結果 
+		- ① 数学において、正答率の向上を達成 
+		- ② 異なるタイプの問題に対するモデルの適応能力が向
+- 
 
 
 ## 12/11
@@ -3691,7 +3698,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzU2NzE5MywtODk4MDc1OSwtOTU0Nz
+eyJoaXN0b3J5IjpbLTE0ODM0MzI3NCwtODk4MDc1OSwtOTU0Nz
 M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
 LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
 M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
