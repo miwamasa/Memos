@@ -142,7 +142,12 @@
 	- Open AI超人的なAIのアライメントに向けた研究に1000万ドルの助成金プロジェクト開始。 
 	- 支援にGoogle CEO兼会長のエリック・シュミット氏。 
 	- イリヤサツケバー氏今もまだSuper Alignmentチーム率いてるとのこと！
-- 
+-  A Guide on 12 Tuning Strategies for Production-Ready RAG Applications
+	- https://towardsdatascience.com/a-guide-on-12-tuning-strategies-for-production-ready-rag-applications-7ca646833439
+	- LLMのRAGアプリケーションをチューニングするための12戦略を書いたブログ記事。具体的にはデータクリーニング、埋込み、チャンク化、インデクシング、クエリ変換、リランキング等、実践的な戦略。
+- Bishop先生の「Deep Learning: Foundations and Concepts」
+	- https://www.bishopbook.com/
+	- Vision Language Modelのところ見たらCM3Leonが載ってて驚いた![😂](https://abs-0.twimg.com/emoji/v2/svg/1f602.svg "嬉し泣き")新しいし面白いとこ解説しててめっちゃいい
 
 ## 12/11
 
@@ -3778,11 +3783,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTM2NjgyMjYsLTEzOTYyMjA2NDcsLT
-g5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1
-MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLT
-IwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01Mjky
-MTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3OD
-ExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4
-MTU5ODFdfQ==
+eyJoaXN0b3J5IjpbMTE5MzgwODQ1MywtMTM5NjIyMDY0NywtOD
+k4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUx
+LC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMj
+A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
+NjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MT
+EsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgx
+NTk4MV19
 -->
