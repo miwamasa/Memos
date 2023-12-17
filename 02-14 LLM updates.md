@@ -151,7 +151,13 @@
 - Benchmarking Large Language Models As AI Research Agents
 	- https://arxiv.org/abs/2310.03302
 	- この論文が素晴らしいのは、open-ended な状況で研究をするエージェントというコンセプトを明確に提示した点だ
-- 
+- calm2-7b-chatをRAG QAで使うための調査
+	- https://x.com/_oshizo_/status/1735282188546089332?s=20
+	- context全体の長さ（横軸）と、正解になるキーワードの位置（縦軸）を変えながら、出力に正解の文字列を含んだ割合を集計。 
+	- 正解キーワードがcontextの末尾付近にあれば全体の長さはあまり影響しないが、末尾から1k離れるごとに正答率が0.6掛けになるイメージ
+- LLM・プロンプトの評価・テストフレームワークについてまとめてみた
+	- https://zenn.dev/pomcho555/articles/8e42f0a4ce39eb
+	- RAGASを使った自動データ生成
 
 ## 12/11
 
@@ -3787,11 +3793,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTUyMDg2NSwtMTM5NjIyMDY0NywtOD
-k4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUx
-LC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMj
-A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
-NjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MT
-EsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgx
-NTk4MV19
+eyJoaXN0b3J5IjpbNzY0NzAyNzMzLC0xMzk2MjIwNjQ3LC04OT
+gwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEs
+LTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMD
+g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
+NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMS
+wtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1
+OTgxXX0=
 -->
