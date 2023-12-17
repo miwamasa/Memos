@@ -118,6 +118,7 @@
 	- 英語がメインのLLM Mistral-7Bモデルを300M(0.3B)へダウンサイズして、pretraining + instruction tuningをColab上のGPU T4(!!!)で6時間(0.02epoch)で日本語学習させるという意欲的な記事
 -  FunSearch: Making new discoveries in mathematical sciences using Large Language Models
 	- https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/?utm_source=twitter&utm_medium=social
+	- Introducing FunSearch in @Nature: a method using large language models to search for new solutions in mathematics & computer science
 	- DeepMindがLLMを「事前にタスク評価できる問題」に遺伝的アルゴリズムを組み合わせたFunSearch(searching in the function space)提案。
 	-  LLMがコード生成->評価->洗練のループ。 
 	- ** 科学,数学の未解決問題に対して、初めてLLMを用いた新たな発見 **。 
@@ -3757,7 +3758,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2MTA2NzcxLC04OTgwNzU5LC05NTQ3Mz
+eyJoaXN0b3J5IjpbMjQxNTIxNzU4LC04OTgwNzU5LC05NTQ3Mz
 cwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcs
 MTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mz
 k1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2
