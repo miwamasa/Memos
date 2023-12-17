@@ -3,7 +3,7 @@
 
 ## 12/18
 
-GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどん行われた。クリスマスカードを作ろうはいいね、年賀状かな。Mistral、MOEのすばらしさや、MOEのカスタマイズ（マージとか、日本語のエキスパートを入れ込むとかの試み）の試みが始まる。Neuri
+GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどん行われた。クリスマスカードを作ろうはいいね、年賀状かな。Mistral、MOEのすばらしさや、MOEのカスタマイズ（マージとか、日本語のエキスパートを入れ込むとかの試み）の試みが始まる。NeurPS2023のコンペティションでも、データセットの質が重要ということらしいが、DeepMindからは、LLMが質の良いデータセットを生成して学習する「自己学習」アプローチ。RAGでも質問を事前にLLMで、解きやすいように、変形するってのはいいね。
 
 - "TaskWeaver: A Code-First Agent Framework
 	- https://arxiv.org/abs/2311.17541
@@ -3831,11 +3831,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODUzNjg3LC0xMzk2MjIwNjQ3LC04OT
-gwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEs
-LTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMD
-g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
-NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMS
-wtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1
-OTgxXX0=
+eyJoaXN0b3J5IjpbLTE3MzQzNjgyNCwtMTM5NjIyMDY0NywtOD
+k4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUx
+LC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMj
+A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
+NjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MT
+EsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgx
+NTk4MV19
 -->
