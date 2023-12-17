@@ -163,6 +163,13 @@
 	- RAGASを使った自動評価
 - Web3時代のナレッジグラフ？ – Geoを触ってみた
 	- https://zenn.dev/s_egami/articles/4ec2e0de59ff4d
+- "Pixel Aligned Language Models"
+	- https://arxiv.org/abs/2312.09237
+	- Googleの研究者らは、画像をピクセルレベルで言語化する能力をもつLLM『PALM』開発しました
+	- 実験の結果、「人が理解しやすい」内容で正確かつ詳細に画像を説明することができると確認されました
+-  日本の古典和歌を埋め込みベクトルで分析する
+	- https://note.com/yhkondo/n/nd321604729cd?sub_rt=share_pw
+	- 
 
 ## 12/11
 
@@ -3798,11 +3805,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2NjIxNDYzLC0xMzk2MjIwNjQ3LC04OT
-gwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEs
-LTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMD
-g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
-NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMS
-wtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1
-OTgxXX0=
+eyJoaXN0b3J5IjpbLTE1MjgzNzU2NjcsLTEzOTYyMjA2NDcsLT
+g5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1
+MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLT
+IwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01Mjky
+MTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3OD
+ExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4
+MTU5ODFdfQ==
 -->
