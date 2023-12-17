@@ -179,7 +179,12 @@
 	- 5.  6. 画像からの質問応答
 	- 6.  7. 画像とテキストからの質問応答
 	- 7.  8. 埋め込みの生成
-- 
+-  Voyager: An Open-Ended Embodied Agent with Large Language Models
+	- https://arxiv.org/abs/2305.16291
+	- LLMをのせたエージェントにマインクラフトをさせた研究，進捗の解除具合やマップの探索範囲の広さをみていて，滅茶苦茶面白いなｗ　プレイ風景をみてみたい
+- mmnga/Mixtral-Fusion-4x7B-Instruct-v0.1
+	- https://huggingface.co/mmnga/Mixtral-Fusion-4x7B-Instruct-v0.1
+	- 
 
 ## 12/11
 
@@ -3815,11 +3820,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTk4ODk5NSwtMTM5NjIyMDY0NywtOD
-k4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUx
-LC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMj
-A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
-NjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MT
-EsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgx
-NTk4MV19
+eyJoaXN0b3J5IjpbLTExNTg5Nzc5NTUsLTEzOTYyMjA2NDcsLT
+g5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1
+MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLT
+IwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01Mjky
+MTY2NDIsMjEwOTAwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3OD
+ExLC0xNjE3MTQ2MDYyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4
+MTU5ODFdfQ==
 -->
