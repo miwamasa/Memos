@@ -100,7 +100,11 @@
 	-  Multi-modal Model中もサポートしているらしい、、、
 -  Google Generative Language Semantic Retriever
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/managed/GoogleDemo.ipynb
-	- 
+	- Google’s new semantic retrieval endpoint offers specialized embeddings and LLMs for high-quality retrieval + synthesis with guardrails. Use it out of the box, OR combine it with LlamaIndex components to build advanced RAG.
+- LangChainもGemini対応
+	- https://python.langchain.com/docs/integrations/chat/google_generative_ai
+	- Access Google AI’s `gemini` and `gemini-vision` models, as well as other generative models through `ChatGoogleGenerativeAI` class in the [langchain-google-genai](https://pypi.org/project/langchain-google-genai/) integration package.
+- 
 
 
 ## 12/11
@@ -3737,11 +3741,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Mjk0NTMxOSwtODk4MDc1OSwtOTU0Nz
-M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
-LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
-M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
-NjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNj
-IsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2
-NzQ5XX0=
+eyJoaXN0b3J5IjpbMjg3NzM1MTM3LC04OTgwNzU5LC05NTQ3Mz
+cwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcs
+MTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mz
+k1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2
+MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Mi
+w2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1OTgxLDE1ODg0NzY3
+NDldfQ==
 -->
