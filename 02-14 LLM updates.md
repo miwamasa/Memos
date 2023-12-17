@@ -129,6 +129,11 @@
 -  MOE言語モデルのエキスパートの一人を日本語得意なモデルに置き換えたらどうなるのか？
 	- https://note.com/aisatoshi/n/n6c06d5183517?sub_rt=share_pb
 	- Mistral7Bを8つ束ねた、Mixtral 8x7BというMOEモデル
+	- エキスパートを何人か、日本語が得意なMistral7B互換モデルに差し替えたらどうだろう？
+	- 注意機構だけ、MLP層だけ、コピーするエキスパート数を変更など実験しましたが、基本モデルが壊れました
+- 自民党がAI規制を提言
+	- https://x.com/umiyuki_ai/status/1735277687097414124?s=20
+- GCPよりGemeniの様々な利用方法とnotebook
 	- 
 
 ## 12/11
@@ -3765,11 +3770,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTc4NDc0MiwtMTM5NjIyMDY0NywtOD
-k4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUx
-LC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMj
-A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
-NjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MT
-EsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgx
-NTk4MV19
+eyJoaXN0b3J5IjpbLTYzNzk4MzI3LC0xMzk2MjIwNjQ3LC04OT
+gwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEs
+LTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMD
+g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
+NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMS
+wtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1
+OTgxXX0=
 -->
