@@ -35,7 +35,14 @@
 - "From Text to Motion: Grounding GPT-4 in a Humanoid Robot "Alter3"
 	- https://arxiv.org/abs/2312.06571
 	- 東京大学と株式会社オルタナティヴ・マシンの研究者らは「LLMと物理的な世界がつながると何が起こるのか？」と想像し、実際にGPT-4とヒューマノイドロボットを連携しました
-	- 
+	- 実験の概要
+		- ① ロボット「Alter3」に対して、様々な自然言語のプロンプトを指示 
+		- ② GPT-4が生成したテキストをロボット動作のコードに変換 
+		- ③ ロボットが人間のような動きや感情表現を実行 
+	- 実験の結果 
+		- ① 「Alter3」は9種類の異なる動作の実行を成功 
+		- ② 第三者による動作の評価は高かった 
+		- ③ 人間的な動作と感情表現を実現
 
 
 ## 12/11
@@ -3672,11 +3679,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTgyOTA2MywtODk4MDc1OSwtOTU0Nz
-M3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3
-LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOT
-M5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAz
-NjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNj
-IsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgxNTk4MSwxNTg4NDc2
-NzQ5XX0=
+eyJoaXN0b3J5IjpbLTE5OTY1NTk5NDcsLTg5ODA3NTksLTk1ND
+czNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAy
+NywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLT
+kzOTU2NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAw
+MzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MD
+YyLDY0MjExNjk1OCwtNzk0OTkwNCwyMjc4MTU5ODEsMTU4ODQ3
+Njc0OV19
 -->
