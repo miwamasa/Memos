@@ -101,6 +101,7 @@
 -  Google Generative Language Semantic Retriever
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/managed/GoogleDemo.ipynb
 	- Google’s new semantic retrieval endpoint offers specialized embeddings and LLMs for high-quality retrieval + synthesis with guardrails. Use it out of the box, OR combine it with LlamaIndex components to build advanced RAG.
+	- The Gemini API contains semantic search with custom embedding models for better retrieval, as well as toggles incl. safety during generation.
 	- Googleがsemantic Retrieverってのをだしてたのか？
 - LangChainもGemini対応
 	- https://python.langchain.com/docs/integrations/chat/google_generative_ai
@@ -118,6 +119,7 @@
 	- 英語がメインのLLM Mistral-7Bモデルを300M(0.3B)へダウンサイズして、pretraining + instruction tuningをColab上のGPU T4(!!!)で6時間(0.02epoch)で日本語学習させるという意欲的な記事
 -  FunSearch: Making new discoveries in mathematical sciences using Large Language Models
 	- https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/?utm_source=twitter&utm_medium=social
+	- DeepMindの研究チームが、AIを用いて数学の未解決問題に挑み、科学界における前例のない成果を出したと発表しました。 「FunSearch」と名付けられた大規模言語モデルを活用し、問題解決策をコンピュータプログラムの形で生成。「キャップセット問題」と「ビンパッキング問題」という数学の問題において、新たな解法を発見したとのことです。
 	- Introducing FunSearch in @Nature: a method using large language models to search for new solutions in mathematics & computer science
 	- DeepMindがLLMを「事前にタスク評価できる問題」に遺伝的アルゴリズムを組み合わせたFunSearch(searching in the function space)提案。
 	-  LLMがコード生成->評価->洗練のループ。 
@@ -159,6 +161,8 @@
 	- https://zenn.dev/pomcho555/articles/8e42f0a4ce39eb
 	- RAGASを使った自動データ生成
 	- RAGASを使った自動評価
+- Web3時代のナレッジグラフ？ – Geoを触ってみた
+	- https://zenn.dev/s_egami/articles/4ec2e0de59ff4d
 
 ## 12/11
 
@@ -3794,11 +3798,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NTEzNTEyNCwtMTM5NjIyMDY0NywtOD
-k4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUx
-LC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMj
-A4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIx
-NjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MT
-EsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03OTQ5OTA0LDIyNzgx
-NTk4MV19
+eyJoaXN0b3J5IjpbNTU2NjIxNDYzLC0xMzk2MjIwNjQ3LC04OT
+gwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEs
+LTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMD
+g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
+NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMS
+wtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5NDk5MDQsMjI3ODE1
+OTgxXX0=
 -->
