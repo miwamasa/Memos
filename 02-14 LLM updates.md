@@ -134,7 +134,10 @@
 - 自民党がAI規制を提言
 	- https://x.com/umiyuki_ai/status/1735277687097414124?s=20
 - GCPよりGemeniの様々な利用方法とnotebook
-	- 
+	- https://github.com/GoogleCloudPlatform/generative-ai
+- Geminiをつかって、クリスマスカードを作る例 by google
+	- https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/Prepare_Christmas_cards_with_Gemini_and_Sheets.ipynb
+- 
 
 ## 12/11
 
@@ -3770,7 +3773,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzk4MzI3LC0xMzk2MjIwNjQ3LC04OT
+eyJoaXN0b3J5IjpbMjM5MDExNjQzLC0xMzk2MjIwNjQ3LC04OT
 gwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEs
 LTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMD
 g2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2
