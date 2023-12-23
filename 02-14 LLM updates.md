@@ -18,7 +18,9 @@
 	- https://note.com/uynet/n/n6692895dec4f?sub_rt=share_h
 	- アニメによくある球体に六角形が貼り付けられたバリアについて
 	- オイラーの多面体定理より、六角形のみで多面体を構成することは不可能。
-- # The LangChain Ecosystem Is Expanding At A Tremendous Pace
+-  The LangChain Ecosystem Is Expanding At A Tremendous Pace
+	- https://cobusgreyling.medium.com/the-langchain-ecosystem-is-expanding-at-a-tremendous-pace-135756e162e9
+	- また構成が変わるのかというか、コアをこのして
 
 ## 12/18
 
@@ -3850,7 +3852,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTg2MDAyOCwxMjk1NzQyNzM5LC0xMz
+eyJoaXN0b3J5IjpbLTIxNzkxNTg3NCwxMjk1NzQyNzM5LC0xMz
 k2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYx
 LDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMT
 c2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2
