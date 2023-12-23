@@ -20,7 +20,14 @@
 	- オイラーの多面体定理より、六角形のみで多面体を構成することは不可能。
 -  The LangChain Ecosystem Is Expanding At A Tremendous Pace
 	- https://cobusgreyling.medium.com/the-langchain-ecosystem-is-expanding-at-a-tremendous-pace-135756e162e9
-	- また構成が変わるのかというか、コアをこのして
+	- また構成が変わるのかというか、LangChain-coreには、基本部分とLCEL、agent,RAG,chainsはLangChainに、サードパーティ提供部分はLangChain-comunityへ。
+-  大学レベルの教養に挑む: 大規模マルチモーダルモデルのための新ベンチマーク「MMMU」
+	- https://ai-scholar.tech/articles/large-language-models/mmmu
+	- https://arxiv.org/abs/2311.16502
+	- 汎用人工知能（AGI）のレベル3として定義される「エキスパートAGI」の進歩を評価する方法の重要性を提起。  
+	- 大学レベルのマルチモーダル理解を評価するための新しいベンチマーク「MMMU」を提案し、AIモデルの専門知識と推論能力を評価。  
+	- 現在のAIモデル（GPT-4Vを含む）はMMMUで低い性能を示しており、エキスパートAGIの達成に向けて更なる改善が必要であることを指摘。
+- 
 
 ## 12/18
 
@@ -3852,11 +3859,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzkxNTg3NCwxMjk1NzQyNzM5LC0xMz
-k2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYx
-LDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMT
-c2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2
-Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMD
-ksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5
-NDk5MDRdfQ==
+eyJoaXN0b3J5IjpbLTE2MTMxMDg3MTcsMTI5NTc0MjczOSwtMT
+M5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2
+MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLT
+E3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEw
+NjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMT
+A5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03
+OTQ5OTA0XX0=
 -->
