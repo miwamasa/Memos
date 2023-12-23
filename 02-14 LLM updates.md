@@ -27,6 +27,10 @@
 	- 汎用人工知能（AGI）のレベル3として定義される「エキスパートAGI」の進歩を評価する方法の重要性を提起。  
 	- 大学レベルのマルチモーダル理解を評価するための新しいベンチマーク「MMMU」を提案し、AIモデルの専門知識と推論能力を評価。  
 	- 現在のAIモデル（GPT-4Vを含む）はMMMUで低い性能を示しており、エキスパートAGIの達成に向けて更なる改善が必要であることを指摘。
+- Attention towards chemistry agnostic and explainable battery lifetime prediction
+	- https://chemrxiv.org/engage/chemrxiv/article-details/6576e76dfd283d7904bec035
+	- 機械学習による電池寿命予測の論文。
+	-  従来の劣化予測は個別データで訓練され他の電池への適用が困難でしたが BASFさんが独自に構築した約2万件のデータを用いることで汎化性の高いモデルができたそうです。
 - 
 
 ## 12/18
@@ -3859,7 +3863,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTMxMDg3MTcsMTI5NTc0MjczOSwtMT
+eyJoaXN0b3J5IjpbLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMT
 M5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2
 MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLT
 E3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEw
