@@ -10,6 +10,7 @@
 - Local RAG on Window
 	- the latest state-of-the-art models into your RAG workflow on Windows Subsystem for Linux (WSL). There’s 5 cookbooks
 	- https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA
+- 
 
 ## 12/18
 
@@ -3841,11 +3842,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDQ3NTY2MiwxMjk1NzQyNzM5LC0xMz
-k2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYx
-LDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMT
-c2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2
-Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMD
-ksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2NDIxMTY5NTgsLTc5
-NDk5MDRdfQ==
+eyJoaXN0b3J5IjpbLTE1MDkwMTM4NzksMTI5NTc0MjczOSwtMT
+M5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2
+MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLT
+E3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEw
+NjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMT
+A5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03
+OTQ5OTA0XX0=
 -->
