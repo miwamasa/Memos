@@ -146,6 +146,11 @@
 	- https://qiita.com/wayama_ryousuke/items/105a164e5c80c150caf1
 	- 日本語LLMって色々あるけどベンチだけじゃよくわからんな、ということで検証してみた結果を記事にしてみました 
 	- openchat、Swallow等発表されたばかりのLLMについても検証してみてます
+	- 平均スコアが最も高かったのは `Xwin-LM-70B-V0.1` で、次いで `deepseek-llm-67b-chat`、`Yi-34B-Chat` と続いています。  
+	- 上位3つはすべて中国勢で、パラメタ数も30B以上の大規模モデルです
+	- パラメタ数が比較的少ない 7B レンジでは、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルが高いパフォーマンスを発揮しています。
+	- 一方、パラメタ数 30B 以上の大規模モデルでは、（そもそも日本発のモデルが少ないこともあり）海外モデルが高い性能を示しています。
+- 
 
 ## 12/18
 
@@ -3977,7 +3982,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA2ODYyOCwtMTE3NzMwMDYzMiwtMj
+eyJoaXN0b3J5IjpbLTcxMDQ4NDYwNSwtMTE3NzMwMDYzMiwtMj
 A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
 NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
 EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
