@@ -262,10 +262,11 @@
 	- Gemini お前、932 Charactersで500Tokenって、、 お前のTokenどうなってるんだ？！ OpenAIなら、同じ文字列で、1000トークン越えだぞ。
 - Youri7BをローカルLLMでAPIサーバー化してオリジナル美少女とお話してみた
 	- https://zenn.dev/yasuna/articles/b954b2cd77e27f
-	- -   ローカルPCにLLMをダウンロードしてAPIサーバとして動かす
--   ブラウザで簡単に3Dキャラクターと会話できるアプリケーションとつなげる
--   オリジナル3Dキャラクターを作る
--   システムプロンプトでキャラクター設定をする
+	- ローカルPCにLLMをダウンロードしてAPIサーバとして動かす
+	- ブラウザで簡単に3Dキャラクターと会話できるアプリケーションとつなげる
+	- オリジナル3Dキャラクターを作る
+	- システムプロンプトでキャラクター設定をする
+- 
 
 
 
@@ -4091,11 +4092,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 -  ChatGPT + LangChain で、膨大な PDF ドキュメントの内容を爆速で把握する
 	- htt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzcyMzAxNjQsMTQ4NjQxMzk4OCwxNz
-MxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzcz
-MDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMD
-Y0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2
-NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNj
-IzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgs
-LTUyOTIxNjY0Ml19
+eyJoaXN0b3J5IjpbMTg5NjczMzI5MiwxNDg2NDEzOTg4LDE3Mz
+EzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMw
+MDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNj
+Q3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3
+NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2Mj
+M2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwt
+NTI5MjE2NjQyXX0=
 -->
