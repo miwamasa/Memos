@@ -150,7 +150,10 @@
 	- 上位3つはすべて中国勢で、パラメタ数も30B以上の大規模モデルです
 	- パラメタ数が比較的少ない 7B レンジでは、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルが高いパフォーマンスを発揮しています。
 	- 一方、パラメタ数 30B 以上の大規模モデルでは、（そもそも日本発のモデルが少ないこともあり）海外モデルが高い性能を示しています。
-- 
+-  GPTsより精度の高いRAGシステムの構築
+	- https://speakerdeck.com/mkazutaka/gptsyorijing-du-nogao-iragsisutemunogou-zhu
+	- https://github.com/mkazutaka/20231219-llmapp-meetup
+	- 
 
 ## 12/18
 
@@ -3982,11 +3985,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDQ4NDYwNSwtMTE3NzMwMDYzMiwtMj
-A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
-NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
-EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
-MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2Nj
-QyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwt
-MTYxNzE0NjA2Ml19
+eyJoaXN0b3J5IjpbLTIxMzYzMTU3NTIsLTExNzczMDA2MzIsLT
+IwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4
+MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC
+0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4
+NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNj
+Y0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEs
+LTE2MTcxNDYwNjJdfQ==
 -->
