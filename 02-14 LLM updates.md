@@ -4,6 +4,8 @@
 
 ## 12/25
 
+東工大からswallowがさっそうと登場、llama2ベースで日本語データを再整理して、ここまでできるという話。産総研のＡＢＣＩのＡノードを６０日占有すればできたらしい。
+
 -  Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
 	- https://arxiv.org/abs/2312.06585
 	- Rest^EMは、LLMを人手で作った正解データで教師あり微調整するのでなく、1) 各問題の候補解を生成 2)候補の報酬を計算 3)報酬で重み付けし再学習 を繰り返す。期待値最大化法の一種とみなせる。数学やプログラミングなど自動評価できる場合に有効。人手の作成データより有効
@@ -4015,11 +4017,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMj
-A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
-NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
-EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
-MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2Nj
-QyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwt
-MTYxNzE0NjA2Ml19
+eyJoaXN0b3J5IjpbLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMT
+E3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2
+MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLD
+E0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2
+NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mj
+k5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDks
+MTE4NDUwNzgxMV19
 -->
