@@ -86,7 +86,9 @@
 - LLM prompting で知識グラフを作成・可視化
 	- https://github.com/rahulnyk/knowledge_graph
 	- Mistral OpenOrca (https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca) 等の LLM prompting で知識グラフのノードとエッジの情報を生成．その後，networkx でグラフを可視化する
-- 
+- GCPご本体による、GeminiとLangChainのコラボnotebook
+	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/language/orchestration/langchain
+	- 
 
 ## 12/18
 
@@ -3918,11 +3920,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxMTgzMTM0LC0yMDYzNjk3OTIyLDEyOT
-U3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0
-MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMj
-g1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2
-NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMC
-wtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0
-MjExNjk1OF19
+eyJoaXN0b3J5IjpbMTA0NzUyNzM3OCwtMjA2MzY5NzkyMiwxMj
+k1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3Mzcw
+NDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMT
+I4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1
+Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2Mz
+AsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2
+NDIxMTY5NThdfQ==
 -->
