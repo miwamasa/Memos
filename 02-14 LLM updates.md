@@ -244,8 +244,8 @@
 	- Trained on four decades of historical data, GraphCast is an artificial intelligence model that predicts global weather with greater speed and accuracy compared with traditional approaches solving physical equations. It supports severe event predictions, such as cyclone tracking.
 -  Ferret: Refer and Ground Anything Anywhere at Any Granularity
 	- https://github.com/apple/ml-ferret?tab=readme-ov-file
-	- Appleから、あらゆる形式の参照を受け入れ、応答としてあらゆるものを接地するエンドツーエンドの MLLM
-	- 
+	- Appleから、あらゆる形式の参照（箱とか、なんとかの横とｋを受け入れ、応答としてあらゆるものを接地するエンドツーエンドの MLLM
+	- 物体認識の一種なのか、
 
 
 ## 12/18
@@ -4078,7 +4078,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzQ2NDc4NiwxNDg2NDEzOTg4LDE3Mz
+eyJoaXN0b3J5IjpbMTUwMjU3Njc0MywxNDg2NDEzOTg4LDE3Mz
 EzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMw
 MDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNj
 Q3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3
