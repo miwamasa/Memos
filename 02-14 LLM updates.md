@@ -222,7 +222,11 @@
 -  Google Colab で StreamDiffusion を試す by npakaさん
 	- https://note.com/npaka/n/n4cb9a2d9fd72?sub_rt=share_h
 	- 「StreamDiffusion」は、リアルタイム画像生成を実現するために最適化されたパイプラインです。従来の画像生成パイプラインと比べて飛躍的な速度向上を実現しています。
-	- 
+- Apple が提供しているMLXが徐々に充実して来た。結構凄いことになるかも。
+	- https://huggingface.co/mlx-community
+	- a bunch of pre-converted MLX models! 
+	- Llama, Phi-2, Mistral, Mixtral (and instruct and code variations where available)!
+- 
 ## 12/18
 
 今週もすさまじい情報量。ルカン先生もこの情報量には追い付けないとのこと（インタビュー動画）。GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどん行われた。フリー版ならば、60QPM (queries per minute)までは使える。クリスマスカードを作ろうはいいね、年賀状かな。Mistral、MOEのすばらしさや、MOEのカスタマイズ（マージとか、日本語のエキスパートを入れ込むとかの試み）の試みが始まる。NeurPS2023のコンペティションでも、データセットの質が重要ということらしいが、DeepMindからは、LLMが質の良いデータセットを生成して学習する「自己学習」アプローチ。RAGでも質問を事前にLLMで、解きやすいように、変形するってのはいいね。マイクロソフトのPhi-2、2.7BパラのLLMでそこそこ性能がでるらしい。DeepMindのFunSearch、新しい科学の発見がLLMで実現できる世界がついにやってきた。季節柄アベントカレンダー系の記事がよい、古典のエンベディングによる分析とか、知識グラフとか。LLMによるエージェントの研究も、open-ended な状況で研究をするエージェントというコンセプトが明確になり、マインクラフトでの評価事例とかどんどん進んでゆく。
@@ -4053,11 +4057,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5OTQ1MTQyLC0xMTI3OTg2MzQ5LC04OD
-I5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0
-MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLD
-U0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3
-MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3Nj
-EzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0x
-NTEyNzQyMTA5XX0=
+eyJoaXN0b3J5IjpbLTE1NjU1MzA3MDAsLTExMjc5ODYzNDksLT
+g4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1
+NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwND
+EsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4
+NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Nj
+c2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAs
+LTE1MTI3NDIxMDldfQ==
 -->
