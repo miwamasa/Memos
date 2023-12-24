@@ -153,6 +153,8 @@
 -  GPTsより精度の高いRAGシステムの構築
 	- https://speakerdeck.com/mkazutaka/gptsyorijing-du-nogao-iragsisutemunogou-zhu
 	- https://github.com/mkazutaka/20231219-llmapp-meetup
+-  LLM in a flash: Efficient Large Language Model Inference with Limited Memory
+	- Appleが満を持して？LLMの論文
 	- 
 
 ## 12/18
@@ -3985,11 +3987,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzYzMTU3NTIsLTExNzczMDA2MzIsLT
-IwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4
-MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC
-0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4
-NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNj
-Y0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEs
-LTE2MTcxNDYwNjJdfQ==
+eyJoaXN0b3J5IjpbMTU5ODY4NjEzLC0xMTc3MzAwNjMyLC0yMD
+YzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3
+NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMT
+IyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYw
+MzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01MjkyMTY2ND
+IsMjEwOTAwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0x
+NjE3MTQ2MDYyXX0=
 -->
