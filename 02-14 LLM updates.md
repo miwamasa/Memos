@@ -4,7 +4,7 @@
 
 ## 12/25
 
-東工大からswallowがさっそうと登場、llama2ベースで日本語データを再整理して、ここまでできるという話。産総研のＡＢＣＩのＡノードを６０日占有すればできたらしい。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、
+東工大からswallowがさっそうと登場、llama2ベースで日本語データを再整理して、ここまでできるという話。産総研のＡＢＣＩのＡノードを６０日占有すればできたらしい。一方rinnaはQwenベースで継続学習をさせたNekomataを公開ここにきて、国産LLMもいろいろ成果がでてきたがLLMの評価によると、
 
 -  Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
 	- https://arxiv.org/abs/2312.06585
@@ -4072,11 +4072,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3MTEwODkyLC0xMTI3OTg2MzQ5LC04OD
-I5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0
-MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLD
-U0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3
-MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3Nj
-EzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0x
-NTEyNzQyMTA5XX0=
+eyJoaXN0b3J5IjpbLTIwMDAwNjc0NTYsLTExMjc5ODYzNDksLT
+g4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1
+NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwND
+EsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4
+NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Nj
+c2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAs
+LTE1MTI3NDIxMDldfQ==
 -->
