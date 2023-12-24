@@ -31,7 +31,9 @@
 	- https://chemrxiv.org/engage/chemrxiv/article-details/6576e76dfd283d7904bec035
 	- 機械学習による電池寿命予測の論文。
 	-  従来の劣化予測は個別データで訓練され他の電池への適用が困難でしたが BASFさんが独自に構築した約2万件のデータを用いることで汎化性の高いモデルができたそうです。
-- 
+- llama_indexより、step-wise agent API、aka. Low level agent API
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_runner/agent_runner.ipynb
+	- https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/agent_runner.html
 
 ## 12/18
 
@@ -3863,11 +3865,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMT
-M5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2
-MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLT
-E3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEw
-NjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMT
-A5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIsNjQyMTE2OTU4LC03
-OTQ5OTA0XX0=
+eyJoaXN0b3J5IjpbMjUzMDEyODExLC0yMDYzNjk3OTIyLDEyOT
+U3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0
+MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMj
+g1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2
+NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMC
+wtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0
+MjExNjk1OF19
 -->
