@@ -216,7 +216,9 @@
 -  rinna、Qwenの日本語継続事前学習モデル「Nekomata」シリーズを公開
 	- https://rinna.co.jp/news/2023/12/20231221.html
 	- rinnaはQwen-7Bと14Bの日本語継続事前学習モデル「Nekomata」シリーズを公開しました。 Nekomata 14B Instructionのベンチマークは一部の70Bと同レベルまで到達しています。
-- 
+- Running Mixtral 8x7 locally with LlamaIndex
+	- https://blog.llamaindex.ai/running-mixtral-8x7-locally-with-llamaindex-e6cebeabe0ab
+	- 
 ## 12/18
 
 今週もすさまじい情報量。ルカン先生もこの情報量には追い付けないとのこと（インタビュー動画）。GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどん行われた。フリー版ならば、60QPM (queries per minute)までは使える。クリスマスカードを作ろうはいいね、年賀状かな。Mistral、MOEのすばらしさや、MOEのカスタマイズ（マージとか、日本語のエキスパートを入れ込むとかの試み）の試みが始まる。NeurPS2023のコンペティションでも、データセットの質が重要ということらしいが、DeepMindからは、LLMが質の良いデータセットを生成して学習する「自己学習」アプローチ。RAGでも質問を事前にLLMで、解きやすいように、変形するってのはいいね。マイクロソフトのPhi-2、2.7BパラのLLMでそこそこ性能がでるらしい。DeepMindのFunSearch、新しい科学の発見がLLMで実現できる世界がついにやってきた。季節柄アベントカレンダー系の記事がよい、古典のエンベディングによる分析とか、知識グラフとか。LLMによるエージェントの研究も、open-ended な状況で研究をするエージェントというコンセプトが明確になり、マインクラフトでの評価事例とかどんどん進んでゆく。
@@ -4047,11 +4049,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ0MDEwMDcyLC0xMTI3OTg2MzQ5LC04OD
-I5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0
-MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLD
-U0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3
-MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3Nj
-EzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0x
-NTEyNzQyMTA5XX0=
+eyJoaXN0b3J5IjpbLTI4MDcyMDkyNiwtMTEyNzk4NjM0OSwtOD
+gyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3
+NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MS
+w1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1
+NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2Nz
+YxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwt
+MTUxMjc0MjEwOV19
 -->
