@@ -257,7 +257,15 @@
 		- ① さらなる最適化が必要
 		- ② 応用範囲の拡大が期待される
 		- ③ 技術スタックとエコシステムが発展すべき
-- Geminiでのtokenカウントが日本語でChagGPTの
+- Geminiでのtokenカウントが日本語でChatGPTの1/2であることが判明
+	- https://x.com/Mega_Gorilla_/status/1738821637297115598?s=20
+	- Gemini お前、932 Charactersで500Tokenって、、 お前のTokenどうなってるんだ？！ OpenAIなら、同じ文字列で、1000トークン越えだぞ。
+- Youri7BをローカルLLMでAPIサーバー化してオリジナル美少女とお話してみた
+	- https://zenn.dev/yasuna/articles/b954b2cd77e27f
+	- -   ローカルPCにLLMをダウンロードしてAPIサーバとして動かす
+-   ブラウザで簡単に3Dキャラクターと会話できるアプリケーションとつなげる
+-   オリジナル3Dキャラクターを作る
+-   システムプロンプトでキャラクター設定をする
 
 
 
@@ -4081,17 +4089,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 - **LMQL（Language Model Query Language）**はこのような問題を解決するために開発されている大規模言語モデル（LLM）向けのプログラミング言語です。
 	- https://note.com/mahlab/n/n11b15b323c87
 -  ChatGPT + LangChain で、膨大な PDF ドキュメントの内容を爆速で把握する
-	- https://qiita.com/hiroki_okuhata_int/items/7102bab7d96eb2574e7d
-- Generative Agents: Interactive Simulacra of Human Behavior
-	- https://arxiv.org/abs/2304.03442
-- 物性予測モデルの悪意ある使用を防ぐための論文。Censoring chemical data to mitigate dual use risk
-	- https://arxiv.org/abs/2304.10510v1
-- LangChainの新機能Contextual Compression Retriever
-	- https://note.com/mahlab/n/n7d72e83904cc
-
-> Written with [StackE
+	- htt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjY4NzcwNTEsMTQ4NjQxMzk4OCwxNz
+eyJoaXN0b3J5IjpbLTE1MzcyMzAxNjQsMTQ4NjQxMzk4OCwxNz
 MxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzcz
 MDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMD
 Y0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2
