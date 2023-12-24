@@ -273,6 +273,10 @@
 	- https://monoist.itmedia.co.jp/mn/articles/2312/22/news064.html#utm_term=share_sp
 	- レゾナックは2023年12月21日、ディープラーニング技術を用いたAI（人工知能）と膨大な蓄積データを用いるケモインフォマティクスアプリを独自開発し、運用を開始したと発表した。
 - Building LLM-Powered Web Apps with Client-Side Technology
+	- https://ollama.ai/blog/building-llm-powered-web-apps
+	- https://www.youtube.com/watch?v=-1sdWLr3TbI
+	- I’d try a different approach and try to build a web app using exclusively local models and technologies, preferably those that run in the browser!
+	- ollamaをつかってLangchainをつかった、WebベースのローカルなRAGの構築例
 
 
 
@@ -4082,19 +4086,13 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 - LLMを使ったアプリ開発で気を付けること（良記事）Building LLM applications for production
 	- https://huyenchip.com/2023/04/11/llm-engineering.html
 - GoogleのTime-Series Dense Encoder、長いスケールの時系列予測ができるのか？
-	- https://ai.googleblog.com/2023/04/recent-advances-in-deep-long-horizon.html
-- GoogleのBardがPythonなどのコード生成ができるようになった
-	- https://blog.google/technology/ai/code-with-bard/
-- 化学における生成モデルの活用サーベイ？# Generative Models as an Emerging Paradigm in the Chemical Sciences
-	- https://pubs.acs.org/doi/10.1021/jacs.2c13467
-- 特別講演「大規模言語モデルの驚異と脅威」、岡崎 直観（東京工業大学情報理工学院 教授）
-	- https
+	- https://ai.googleblog.com/2023/04/recent-advances-in-deep-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxMjU4MDYwLDE0ODY0MTM5ODgsMTczMT
-MwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAw
-NjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2ND
-csLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1
-MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMz
-YsLTIwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01
-MjkyMTY2NDJdfQ==
+eyJoaXN0b3J5IjpbLTE5NTM1MTM0MjYsMTQ4NjQxMzk4OCwxNz
+MxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzcz
+MDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMD
+Y0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2
+NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNj
+IzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgs
+LTUyOTIxNjY0Ml19
 -->
