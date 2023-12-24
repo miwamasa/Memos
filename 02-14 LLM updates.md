@@ -4,7 +4,7 @@
 
 ## 12/25
 
-東工大からswallowがさっそうと登場、llama2ベースで日本語データを再整理して、ここまでできるという話。産総研のＡＢＣＩのＡノードを６０日占有すればできたらしい。
+東工大からswallowがさっそうと登場、llama2ベースで日本語データを再整理して、ここまでできるという話。産総研のＡＢＣＩのＡノードを６０日占有すればできたらしい。一方rinnaは
 
 -  Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
 	- https://arxiv.org/abs/2312.06585
@@ -238,7 +238,8 @@
 - 最新の SCIENCEの特集はAI Powered Forecasting 、VOLUME 382|、ISSUE 6677、22 DEC 2023
 	- https://www.science.org/toc/science/382/6677?utm_campaign=SciMag&utm_source=Twitter&utm_medium=ownedSocial
 	- Trained on four decades of historical data, GraphCast is an artificial intelligence model that predicts global weather with greater speed and accuracy compared with traditional approaches solving physical equations. It supports severe event predictions, such as cyclone tracking.
-- 
+
+
 ## 12/18
 
 今週もすさまじい情報量。ルカン先生もこの情報量には追い付けないとのこと（インタビュー動画）。GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどん行われた。フリー版ならば、60QPM (queries per minute)までは使える。クリスマスカードを作ろうはいいね、年賀状かな。Mistral、MOEのすばらしさや、MOEのカスタマイズ（マージとか、日本語のエキスパートを入れ込むとかの試み）の試みが始まる。NeurPS2023のコンペティションでも、データセットの質が重要ということらしいが、DeepMindからは、LLMが質の良いデータセットを生成して学習する「自己学習」アプローチ。RAGでも質問を事前にLLMで、解きやすいように、変形するってのはいいね。マイクロソフトのPhi-2、2.7BパラのLLMでそこそこ性能がでるらしい。DeepMindのFunSearch、新しい科学の発見がLLMで実現できる世界がついにやってきた。季節柄アベントカレンダー系の記事がよい、古典のエンベディングによる分析とか、知識グラフとか。LLMによるエージェントの研究も、open-ended な状況で研究をするエージェントというコンセプトが明確になり、マインクラフトでの評価事例とかどんどん進んでゆく。
@@ -4069,7 +4070,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTIyNDU4MywtMTEyNzk4NjM0OSwtOD
+eyJoaXN0b3J5IjpbLTc3MDQ3NDMxMiwtMTEyNzk4NjM0OSwtOD
 gyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3
 NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MS
 w1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1
