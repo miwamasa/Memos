@@ -185,6 +185,9 @@
 -  A mathematical perspective on Transformers
 	- https://arxiv.org/abs/2312.10794
 	- トランスフォーマーは、自己注意と層正規化という2つの主要な機構を含む相互作用する粒子系としてモデル化される。粒子系は確率測度の流れを実装
+-  Discovery of a structural class of antibiotics with explainable deep learning
+	- https://www.nature.com/articles/s41586-023-06887-8
+	- 毒性のない、メチシリン耐性黄色ブドウ球菌に対して有効な複数の化合物を含む新しい構造クラスの抗生物質 (最後の発見には 38 年かかった)
 - 
 
 ## 12/18
@@ -4017,11 +4020,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMT
-E3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2
-MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLD
-E0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2
-NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mj
-k5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDks
-MTE4NDUwNzgxMV19
+eyJoaXN0b3J5IjpbLTE0Mjc1MTk3NjQsLTExMjc5ODYzNDksLT
+g4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1
+NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwND
+EsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4
+NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Nj
+c2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAs
+LTE1MTI3NDIxMDldfQ==
 -->
