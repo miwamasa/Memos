@@ -115,7 +115,13 @@
 		- ② ある側面からの解釈は可能だが真実とは異なる 
 	- ■ベンチマークの価値 
 		- ① ベンチマークは重要だが現在はカオスである 
-		- ② 産業界では設定と挙動を細かく考慮している ■トランスフォーマーの将来性 ① 万能ではないため、学習方法を改善すべき ② 事前知識を統合するなどの対策が必要 ■研究は今後どうなる ① エラー数よりもエラーの種類が重視されていく ② 実用性にシフトしていく
+		- ② 産業界では設定と挙動を細かく考慮している 
+	- ■トランスフォーマーの将来性 
+		- ① 万能ではないため、学習方法を改善すべき 
+		- ② 事前知識を統合するなどの対策が必要 
+	- ■研究は今後どうなる 
+		- ① エラー数よりもエラーの種類が重視されていく 
+		- ② 実用性にシフトしていく
 
 ## 12/18
 
@@ -3947,11 +3953,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODYzMjAwOCwtMjA2MzY5NzkyMiwxMj
-k1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3Mzcw
-NDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMT
-I4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1
-Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2Mz
-AsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2
-NDIxMTY5NThdfQ==
+eyJoaXN0b3J5IjpbLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMT
+I5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3
+MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LD
+EyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5
+NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNj
+MwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIs
+NjQyMTE2OTU4XX0=
 -->
