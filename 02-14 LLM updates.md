@@ -122,6 +122,12 @@
 	- ■研究は今後どうなる 
 		- ① エラー数よりもエラーの種類が重視されていく 
 		- ② 実用性にシフトしていく
+- Googleからもプロンプトエンジニアリングの説明がでる	
+	- https://ai.google.dev/docs/prompt_best_practices?hl=ja
+	- プロンプトの設計に正しい方法や間違った方法はありませんが、モデルのレスポンスに影響を与えるために使用できる一般的な戦略があります。このセクションでは、一般的なプロンプト設計戦略について紹介します。
+-  Controllable Agents for RAG
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_runner/agent_runner_rag_controllable.ipynb
+	- llamaindexより、
 
 ## 12/18
 
@@ -3953,11 +3959,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMT
-I5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3
-MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LD
-EyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5
-NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNj
-MwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIs
-NjQyMTE2OTU4XX0=
+eyJoaXN0b3J5IjpbLTU2OTM4NjY1NywtMTE3NzMwMDYzMiwtMj
+A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
+NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
+EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
+MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2Nj
+QyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwt
+MTYxNzE0NjA2Ml19
 -->
