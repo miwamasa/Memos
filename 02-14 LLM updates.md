@@ -83,6 +83,9 @@
 		7. 人間による制御権の保持する
 	- これらはあくまでも試行的な提案であり、各原則の詳細と課題はこれからの議論が待たれている状態ですが、ホワイトペーパーはエージェント型AIシステムの責任ある利用の推進に資するであろう基盤を提供しています。
 	- 最終的には法制度を含めた社会システム全体で、この取り組みを支えていく必要があるとしています。
+- LLM prompting で知識グラフを作成・可視化
+	- https://github.com/rahulnyk/knowledge_graph
+	- Mistral OpenOrca (https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca) 等の LLM prompting で知識グラフのノードとエッジの情報を生成．その後，networkx でグラフを可視化する
 - 
 
 ## 12/18
@@ -3915,11 +3918,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjMyNDI2NTMsLTIwNjM2OTc5MjIsMT
-I5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3
-MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LD
-EyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5
-NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNj
-MwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIs
-NjQyMTE2OTU4XX0=
+eyJoaXN0b3J5IjpbOTUxMTgzMTM0LC0yMDYzNjk3OTIyLDEyOT
+U3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0
+MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMj
+g1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2
+NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMC
+wtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0
+MjExNjk1OF19
 -->
