@@ -95,7 +95,11 @@
 	- https://huggingface.co/openchat/openchat-3.5-1210
 	- https://x.com/shi3z/status/1736911369360859173?s=20
 	- これすごい。 ほんとにGPT-3.5-Turbo並の性能っぽく見えて7B そしてオープンソース Apacheライセンス by shi3zさん
-- 
+- 名著だった黄色い本（統計学への確率論，その先へ）の続編の赤い本（統計学への漸近論，その先は）
+	- https://x.com/hshimodaira/status/1737005536896508268?s=20
+- 東工大からSwallow登場
+	- https://tokyotech-llm.github.io/swallow-llama
+	- Llama 2の日本語能力を強化した大規模言語モデル (7B, 13B, 70B) です。モデルのパラメータ（重み）が公開されていますので、LLAMA 2 Community Licenseに従う限り、研究や商業利用など自由に利用できます
 
 ## 12/18
 
@@ -3927,11 +3931,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTkxMDI2MSwtMjA2MzY5NzkyMiwxMj
-k1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3Mzcw
-NDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMT
-I4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1
-Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2Mz
-AsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2
-NDIxMTY5NThdfQ==
+eyJoaXN0b3J5IjpbNzEwMjQxMjY1LC0yMDYzNjk3OTIyLDEyOT
+U3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0
+MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMj
+g1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2
+NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMC
+wtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0
+MjExNjk1OF19
 -->
