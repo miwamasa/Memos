@@ -90,7 +90,12 @@
 	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/language/orchestration/langchain
 	- This includes SEVEN different notebooks for using LangChain to orchestrate a Gemini-powered LLM app
 		-   [Getting Started with LangChain 🦜️🔗 + Vertex AI PaLM API](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/orchestration/langchain/intro_langchain_palm_api.ipynb)
- [How to use the LangChain 🦜️🔗 BigQuery Data Loader](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/orchestration/langchain/langchain_bigquery_data_loader.ipynb)
+		-  [How to use the LangChain 🦜️🔗 BigQuery Data Loader](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/orchestration/langchain/langchain_bigquery_data_loader.ipynb)
+- openchat/openchat-3.5-1210
+	- https://huggingface.co/openchat/openchat-3.5-1210
+	- https://x.com/shi3z/status/1736911369360859173?s=20
+	- これすごい。 ほんとにGPT-3.5-Turbo並の性能っぽく見えて7B そしてオープンソース Apacheライセンス by shi3zさん
+- 
 
 ## 12/18
 
@@ -3922,7 +3927,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NzY0OTUxMywtMjA2MzY5NzkyMiwxMj
+eyJoaXN0b3J5IjpbLTk1NTkxMDI2MSwtMjA2MzY5NzkyMiwxMj
 k1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3Mzcw
 NDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMT
 I4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1
