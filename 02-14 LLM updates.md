@@ -266,7 +266,11 @@
 	- ブラウザで簡単に3Dキャラクターと会話できるアプリケーションとつなげる
 	- オリジナル3Dキャラクターを作る
 	- システムプロンプトでキャラクター設定をする
-- 
+- intel-extension-for-transformers
+	- https://github.com/intel/intel-extension-for-transformers
+	- いろいろ対応できるLLMや量子化対応が増えている模様
+- レゾナックが量子化学計算に比べて数千倍速く物性を予測可能なアプリを開発
+	- https://monoist.itmedia.co.jp/mn/articles/2312/22/news064.html#utm_term=share_sp
 
 
 
@@ -4085,18 +4089,13 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 	- https://youtu.be/PUuk4Cv-ycg
 - ChatGPTでSQL queryを生成する例
 	- https://www.promptingguide.ai/applications/coding
-- LMQL(Language Model Query Language)とLlamaIndexを接続してみる
-	- https://note.com/mahlab/n/n34ac7ebf0387
-- **LMQL（Language Model Query Language）**はこのような問題を解決するために開発されている大規模言語モデル（LLM）向けのプログラミング言語です。
-	- https://note.com/mahlab/n/n11b15b323c87
--  ChatGPT + LangChain で、膨大な PDF ドキュメントの内容を爆速で把握する
-	- htt
+- LMQL(Language Model Query Language)とLlamaIndexを接続
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjczMzI5MiwxNDg2NDEzOTg4LDE3Mz
-EzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMw
-MDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNj
-Q3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3
-NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2Mj
-M2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwt
-NTI5MjE2NjQyXX0=
+eyJoaXN0b3J5IjpbLTc2MzkxODIyLDE0ODY0MTM5ODgsMTczMT
+MwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAw
+NjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2ND
+csLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1
+MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMz
+YsLTIwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01
+MjkyMTY2NDJdfQ==
 -->
