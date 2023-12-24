@@ -235,6 +235,9 @@
 	- https://huggingface.co/collections/rinna/nekomata-6582b5134ee85531becbb9a9
 -  regex to do sentence splitting that generalizes beyond English to non-Latin languages (CJK, etc.) 
 	- https://x.com/jerryjliu0/status/1738232451200356445?s=20
+- 最新の SCIENCEの特集はAI Powered Forecasting 、VOLUME 382|、ISSUE 6677、22 DEC 2023
+	- https://www.science.org/toc/science/382/6677?utm_campaign=SciMag&utm_source=Twitter&utm_medium=ownedSocial
+	- Trained on four decades of historical data, GraphCast is an artificial intelligence model that predicts global weather with greater speed and accuracy compared with traditional approaches solving physical equations. It supports severe event predictions, such as cyclone tracking.
 - 
 ## 12/18
 
@@ -4066,11 +4069,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2MjYwOTcsLTExMjc5ODYzNDksLTg4Mj
-kwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQy
-NzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNT
-Q3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcx
-MzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MT
-MsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1
-MTI3NDIxMDldfQ==
+eyJoaXN0b3J5IjpbLTIwNTIyNDU4MywtMTEyNzk4NjM0OSwtOD
+gyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3
+NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MS
+w1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1
+NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2Nz
+YxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwt
+MTUxMjc0MjEwOV19
 -->
