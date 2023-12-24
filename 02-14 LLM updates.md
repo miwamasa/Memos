@@ -135,6 +135,13 @@
 	- 産総研ABCIの一定部分（Aノードと呼ばれる高性能な計算ノード）を最大60日間占有利用する機会を提供する「大規模基盤モデル構築支援プログラム」によるものです
 	- swallowってつばめ？（東工大のマーク）
 -  AdsorbRL: Deep Multi-Objective Reinforcement Learning for Inverse Catalysts Design
+	- https://arxiv.org/abs/2312.02308v1
+	- 強化学習による触媒材料の逆設計の論文。 
+	- -OHとの結合は強いがH2Oとの結合は弱い、のような複数の吸着剤の最適化を多目的強化学習により行い、16万化合物をスクリーニングできたそうです。 
+	- 材料開発はトレードオフが基本なので、こういう最適化は需要がありそう
+- 『スキル定義委員会セッション～スキルチェックリスト、タスクリストバージョン更新と生成 AI〜』（2023年10月20日）
+	- https://www.youtube.com/watch?v=nQumYtpN0zY
+- 
 
 ## 12/18
 
@@ -3966,7 +3973,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzA1NzQ2NiwtMTE3NzMwMDYzMiwtMj
+eyJoaXN0b3J5IjpbLTkxNTA2MjY5MCwtMTE3NzMwMDYzMiwtMj
 A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
 NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
 EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
