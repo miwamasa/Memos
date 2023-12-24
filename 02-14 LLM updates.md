@@ -168,7 +168,11 @@
 	- https://x.com/bioshok3/status/1737258881452294277?s=20
 	- 「AGI Breakthrough」と名付けられたOpenAI取締役会への公開書簡がVerses AIから急遽出されている。
 	- AGIに繋がりうる能動的推論についての画期的な進歩を最近達成。Open AI憲章に基づき、AGIの安全な配備のため技術協力を要請している。今後どうなるか注視必要。
-- 
+- llamaindexよりtext2sqlをつかった、research assistant templte
+	- https://github.com/langchain-ai/langchain/tree/master/templates/sql-research-assistant
+- PowerInfer - a high-speed inference engine for deploying LLMs locally
+	- https://github.com/SJTU-IPADS/PowerInfer
+	- Just came across this super interesting project on speeding up inference. It's not MoE but it's a simple approach that exploits the high locality in LLM inference to design a GPU-CPU hybrid inference engine.
 
 ## 12/18
 
@@ -4000,7 +4004,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTA1MTc4MCwtMTE3NzMwMDYzMiwtMj
+eyJoaXN0b3J5IjpbMTQwODk2MzE4NSwtMTE3NzMwMDYzMiwtMj
 A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
 NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
 EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
