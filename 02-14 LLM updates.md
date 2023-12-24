@@ -4,7 +4,7 @@
 
 ## 12/25
 
-東工大からswallowがさっそうと登場、llama2ベースで日本語データを再整理して、ここまでできるという話。産総研のＡＢＣＩのＡノードを６０日占有すればできたらしい。一方rinnaはQwenベースで継続学習をさせたNekomataを公開ここにきて、国産LLMもいろいろ成果がでてきたが、LLMの横断評価によると、30B以上では、中国勢が席巻。7Bクラスだと、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルもなんとか性能を出せているとのこと、もっとも中国LLＭはなぜか日本語処理に得意ということなので、強敵かも。openchatなどの新手もでている。ollamaが迅速に様々なOSSのLLMに対応していてローカルＬＬＭに旋風を起こしている。OpeanAIは、AGIができた未来（現在かもしれない）に備えた、Preparedness Frameworkプログラムを発表。企業ガバナンスとして、AGI相当のAIの開発の透明性を高めるという。 OpenAIのエージェント型AIシステム構築の7つの原則なんかも『Practices for Governing Agentic AI』
+東工大からswallowがさっそうと登場、llama2ベースで日本語データを再整理して、ここまでできるという話。産総研のＡＢＣＩのＡノードを６０日占有すればできたらしい。一方rinnaはQwenベースで継続学習をさせたNekomataを公開ここにきて、国産LLMもいろいろ成果がでてきたが、LLMの横断評価によると、30B以上では、中国勢が席巻。7Bクラスだと、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルもなんとか性能を出せているとのこと、もっとも中国LLＭはなぜか日本語処理に得意ということなので、強敵かも。openchatなどの新手もでている。ollamaが迅速に様々なOSSのLLMに対応していてローカルＬＬＭに旋風を起こしている。OpeanAIは、AGIができた未来（現在かもしれない）に備えた、Preparedness Frameworkプログラムを発表。企業ガバナンスとして、AGI相当のAIの開発の透明性を高めるという。 OpenAIのエージェント型AIシステム構築の7つの原則『Practices for Governing Agentic AI』なんかも安全性に関わる重要な指針になりうる。llamaindexのContorable RAGというのもAgentの低レベルの制御ＡＰＩとの提供というしては一つの回答になっているのか。
 
 AppleのＭＬＸのコミュニティも様々なOSSのLLM対応が公開され盛り上がっている。Apple自身も、LLMのパラメータをSSDなどの外部フラッシュメモリに保存すること高速化する論文を発表、これって、投機的ＬＬＭ実行スケジューリングみたいになるのか？
 
@@ -4074,11 +4074,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA2ODkxNzMsLTExMjc5ODYzNDksLT
-g4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1
-NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwND
-EsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4
-NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Nj
-c2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAs
-LTE1MTI3NDIxMDldfQ==
+eyJoaXN0b3J5IjpbLTM1NTQyMzc5MSwtMTEyNzk4NjM0OSwtOD
+gyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3
+NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MS
+w1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1
+NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2Nz
+YxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwt
+MTUxMjc0MjEwOV19
 -->
