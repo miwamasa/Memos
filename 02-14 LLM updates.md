@@ -182,6 +182,8 @@
 	- 「東京工業大学の大岡山キャンパスは行政的にはどこの区に属する？」と、問うと狂った！
 -  A mathematical perspective on Transformers
 	- https://arxiv.org/abs/2312.10794
+	- トランスフォーマーは、自己注意と層正規化という2つの主要な機構を含む相互作用する粒子系としてモデル化される。粒子系は確率測度の流れを実装
+- 
 
 ## 12/18
 
@@ -4013,11 +4015,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE1MjEyODgsLTExNzczMDA2MzIsLT
-IwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4
-MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC
-0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4
-NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNj
-Y0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEs
-LTE2MTcxNDYwNjJdfQ==
+eyJoaXN0b3J5IjpbLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMj
+A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
+NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
+EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
+MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2Nj
+QyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwt
+MTYxNzE0NjA2Ml19
 -->
