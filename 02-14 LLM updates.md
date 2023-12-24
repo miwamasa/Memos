@@ -181,7 +181,7 @@
 	- https://huggingface.co/spaces/hayas/Swallow-13B-instruct
 	- 「東京工業大学の大岡山キャンパスは行政的にはどこの区に属する？」と、問うと狂った！
 -  A mathematical perspective on Transformers
-	- 
+	- https://arxiv.org/abs/2312.10794
 
 ## 12/18
 
@@ -4013,7 +4013,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDMxOTEzNzYsLTExNzczMDA2MzIsLT
+eyJoaXN0b3J5IjpbLTEyNTE1MjEyODgsLTExNzczMDA2MzIsLT
 IwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4
 MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC
 0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4
