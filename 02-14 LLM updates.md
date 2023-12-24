@@ -218,6 +218,10 @@
 	- rinnaはQwen-7Bと14Bの日本語継続事前学習モデル「Nekomata」シリーズを公開しました。 Nekomata 14B Instructionのベンチマークは一部の70Bと同レベルまで到達しています。
 - Running Mixtral 8x7 locally with LlamaIndex
 	- https://blog.llamaindex.ai/running-mixtral-8x7-locally-with-llamaindex-e6cebeabe0ab
+	- Running MistralAI's Mixtral 8x7b on your laptop is now a one-liner! Check out this post in which we show you how to use OLLAMA with LlamaIndex to create a completely local, open-source retrieval-augmented generation app complete with an API:
+-  Google Colab で StreamDiffusion を試す by npakaさん
+	- https://note.com/npaka/n/n4cb9a2d9fd72?sub_rt=share_h
+	- 「StreamDiffusion」は、リアルタイム画像生成を実現するために最適化されたパイプラインです。従来の画像生成パイプラインと比べて飛躍的な速度向上を実現しています。
 	- 
 ## 12/18
 
@@ -4049,11 +4053,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDcyMDkyNiwtMTEyNzk4NjM0OSwtOD
-gyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3
-NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MS
-w1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1
-NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2Nz
-YxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwt
-MTUxMjc0MjEwOV19
+eyJoaXN0b3J5IjpbNjg5OTQ1MTQyLC0xMTI3OTg2MzQ5LC04OD
+I5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0
+MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLD
+U0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3
+MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3Nj
+EzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0x
+NTEyNzQyMTA5XX0=
 -->
