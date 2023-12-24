@@ -133,6 +133,8 @@
 	- https://note.com/aicu/n/n3eb8c1f2df02?sub_rt=share_pb
 	- Swallowの研究開発は、産総研が構築・運用するAI橋渡しクラウド（ABCI: AI Bridging Cloud Infrastructure）の「大規模言語モデル構築支援プログラム」、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）の「次世代人工知能・ロボットの中核となるインテグレート技術開発」プロジェクト (JPNP18002) の「熟練者観点に基づき、設計リスク評価業務における判断支援を行う人工知能適用技術の開発」、その他の支援によって実施されました
 	- 産総研ABCIの一定部分（Aノードと呼ばれる高性能な計算ノード）を最大60日間占有利用する機会を提供する「大規模基盤モデル構築支援プログラム」によるものです
+	- swallowってつばめ？（東工大のマーク）
+-  AdsorbRL: Deep Multi-Objective Reinforcement Learning for Inverse Catalysts Design
 
 ## 12/18
 
@@ -3964,11 +3966,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0NjI0OTgxLC0xMTc3MzAwNjMyLC0yMD
-YzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3
-NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMT
-IyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYw
-MzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01MjkyMTY2ND
-IsMjEwOTAwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0x
-NjE3MTQ2MDYyXX0=
+eyJoaXN0b3J5IjpbMTI3NzA1NzQ2NiwtMTE3NzMwMDYzMiwtMj
+A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
+NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
+EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
+MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2Nj
+QyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwt
+MTYxNzE0NjA2Ml19
 -->
