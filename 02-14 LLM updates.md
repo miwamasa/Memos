@@ -173,6 +173,10 @@
 - PowerInfer - a high-speed inference engine for deploying LLMs locally
 	- https://github.com/SJTU-IPADS/PowerInfer
 	- Just came across this super interesting project on speeding up inference. It's not MoE but it's a simple approach that exploits the high locality in LLM inference to design a GPU-CPU hybrid inference engine.
+	- It's now possible to use PowerInfer with Llama 2 and Faclon 40B. Mistral-7B support is coming soon!
+	- 比較動画、https://x.com/omarsar0/status/1737168751668187229?s=20
+- swallow-70B-instructのGGUFができている。。TheBloke/Swallow-70B-instruct-GGUF
+	- https://huggingface.co/TheBloke/Swallow-70B-instruct-GGUF
 
 ## 12/18
 
@@ -4004,7 +4008,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODk2MzE4NSwtMTE3NzMwMDYzMiwtMj
+eyJoaXN0b3J5IjpbLTQ3NTc5MDc5NywtMTE3NzMwMDYzMiwtMj
 A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
 NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
 EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
