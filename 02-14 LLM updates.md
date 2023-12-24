@@ -231,7 +231,9 @@
 	- qwenベースでvocab15万あります
 -  Gemini Pro Visionモデルを使用してGoogle Cloudにアップロードした動画を解析してみた
 	- https://qiita.com/tatsuki-tsuchiyama/items/5701475d46ee31efbb54
-	- 
+- 「Nekomata」シリーズのGGUF 4bit量子化モデルを公開しました。 メモリ不足の場合は、量子化モデルをお試しください。
+	- https://huggingface.co/collections/rinna/nekomata-6582b5134ee85531becbb9a9
+- 
 ## 12/18
 
 今週もすさまじい情報量。ルカン先生もこの情報量には追い付けないとのこと（インタビュー動画）。GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどん行われた。フリー版ならば、60QPM (queries per minute)までは使える。クリスマスカードを作ろうはいいね、年賀状かな。Mistral、MOEのすばらしさや、MOEのカスタマイズ（マージとか、日本語のエキスパートを入れ込むとかの試み）の試みが始まる。NeurPS2023のコンペティションでも、データセットの質が重要ということらしいが、DeepMindからは、LLMが質の良いデータセットを生成して学習する「自己学習」アプローチ。RAGでも質問を事前にLLMで、解きやすいように、変形するってのはいいね。マイクロソフトのPhi-2、2.7BパラのLLMでそこそこ性能がでるらしい。DeepMindのFunSearch、新しい科学の発見がLLMで実現できる世界がついにやってきた。季節柄アベントカレンダー系の記事がよい、古典のエンベディングによる分析とか、知識グラフとか。LLMによるエージェントの研究も、open-ended な状況で研究をするエージェントというコンセプトが明確になり、マインクラフトでの評価事例とかどんどん進んでゆく。
@@ -4062,11 +4064,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzMwOTkxLC0xMTI3OTg2MzQ5LC04OD
-I5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0
-MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLD
-U0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3
-MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3Nj
-EzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0x
-NTEyNzQyMTA5XX0=
+eyJoaXN0b3J5IjpbLTEyMTA2NjU4ODQsLTExMjc5ODYzNDksLT
+g4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1
+NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwND
+EsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4
+NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Nj
+c2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAs
+LTE1MTI3NDIxMDldfQ==
 -->
