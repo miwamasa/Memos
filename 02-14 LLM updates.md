@@ -34,6 +34,11 @@
 - llama_indexより、step-wise agent API、aka. Low level agent API
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_runner/agent_runner.ipynb
 	- https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/agent_runner.html
+	- allows you to step through and control agents in a much more granular fashion. End result: build reliable agentic software systems over your data
+- なんかLoRa論文があるらしい
+	- https://x.com/cwolferesearch/status/1736795049579491751?s=20
+	- LoRA models the update derived for a model’s weights during finetuning with a low rank decomposition, implemented in practice as a pair of linear projections. LoRA leaves the pretrained layers of the LLM fixed and injects a trainable rank decomposition matrix into each layer of the model.
+	- 
 
 ## 12/18
 
@@ -3865,11 +3870,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzMDEyODExLC0yMDYzNjk3OTIyLDEyOT
-U3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0
-MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMj
-g1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2
-NzYxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMC
-wtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0xNjE3MTQ2MDYyLDY0
-MjExNjk1OF19
+eyJoaXN0b3J5IjpbLTExMTk5NjM3NjEsLTIwNjM2OTc5MjIsMT
+I5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3
+MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LD
+EyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5
+NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNj
+MwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIs
+NjQyMTE2OTU4XX0=
 -->
