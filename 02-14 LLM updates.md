@@ -201,6 +201,10 @@
 	- ドラフトがあり、すでにたくさんの大学の授業で使われている。https://fairmlbook.org/
 - ベクトル検索のみで、AI王クイズ第一回コンペに臨む - Q&Aタスクでの複数の日本語embeddingsの評価
 	- https://secon.dev/entry/2023/12/21/080000-vector-search-ai-ou-comp/
+	- AI王 〜クイズAI日本一決定戦〜 第一回コンペとは、質問に対して約20個の候補から、回答となる一つを選択するコンペだ。train用に約13,000件、val用に約2,000件データが公開されている。
+	- 質問に対しての回答が含まれそうな文を検索する日本語embeddings変換モデルとしては、multilingual-e5-large の性能が高かった
+- Autonomous chemical research with large language models
+	- https://www.nature.com/articles/s41586-023-06792-0
 	- 
 ## 12/18
 
@@ -4032,11 +4036,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjMwOTEzOSwtMTEyNzk4NjM0OSwtOD
-gyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3
-NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MS
-w1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1
-NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2Nz
-YxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwt
-MTUxMjc0MjEwOV19
+eyJoaXN0b3J5IjpbLTE4MzI2MjM3MjMsLTExMjc5ODYzNDksLT
+g4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1
+NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwND
+EsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4
+NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Nj
+c2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAs
+LTE1MTI3NDIxMDldfQ==
 -->
