@@ -100,6 +100,10 @@
 - 東工大からSwallow登場
 	- https://tokyotech-llm.github.io/swallow-llama
 	- Llama 2の日本語能力を強化した大規模言語モデル (7B, 13B, 70B) です。モデルのパラメータ（重み）が公開されていますので、LLAMA 2 Community Licenseに従う限り、研究や商業利用など自由に利用できます
+	- Common Crawl（用語8）から配布されているアーカイブ（2020年から2023年にかけて収集された21スナップショット分、約634億ページ）から日本語のテキストを独自に抽出・精錬し、約3,121億文字（約1.73億ページ）からなる日本語ウェブコーパスを構築しました。この規模は、CC-100 (約258億文字）、mC4（約2,397億文字）、OSCAR 23.10（約740億文字）を抜き、日本語の言語モデルの学習コーパスの中で、商用利用が可能なものとしては最大となります
+- "Perspectives on the State and Future of Deep Learning -- 2023"
+	- https://arxiv.org/abs/2312.09323
+	- 
 
 ## 12/18
 
@@ -3931,7 +3935,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMjQxMjY1LC0yMDYzNjk3OTIyLDEyOT
+eyJoaXN0b3J5IjpbMjE2NjUyNjc4LC0yMDYzNjk3OTIyLDEyOT
 U3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0
 MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMj
 g1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2
