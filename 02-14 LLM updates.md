@@ -179,6 +179,9 @@
 	- https://huggingface.co/TheBloke/Swallow-70B-instruct-GGUF
 - swallow-13B-instuctのspaceをつくりました
 	- https://huggingface.co/spaces/hayas/Swallow-13B-instruct
+	- 「東京工業大学の大岡山キャンパスは行政的にはどこの区に属する？」と、問うと狂った！
+-  A mathematical perspective on Transformers
+	- 
 
 ## 12/18
 
@@ -4010,11 +4013,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDQzNDYxOSwtMTE3NzMwMDYzMiwtMj
-A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
-NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
-EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
-MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2Nj
-QyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwt
-MTYxNzE0NjA2Ml19
+eyJoaXN0b3J5IjpbLTE3MDMxOTEzNzYsLTExNzczMDA2MzIsLT
+IwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4
+MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC
+0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4
+NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNj
+Y0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEs
+LTE2MTcxNDYwNjJdfQ==
 -->
