@@ -195,11 +195,13 @@
 	- 比較：
 		- ① Geminiは多くの場合、GPT-4Vと同等かそれ以上の正確さを示す 
 		- ② GeminiはGPT-4Vよりも知識が幅広いように見える
--  Fairness and Machine Learning
+-  Fairness and Machine Learning by Arvind Narayanan
 	- https://mitpress.mit.edu/9780262048613/fairness-and-machine-learning/
 	- An introduction to the intellectual foundations and practical utility of the recent work on fairness and machine learning
-	- ドラフトがあり、すでにたくさんの大学の授業で
-
+	- ドラフトがあり、すでにたくさんの大学の授業で使われている。https://fairmlbook.org/
+- ベクトル検索のみで、AI王クイズ第一回コンペに臨む - Q&Aタスクでの複数の日本語embeddingsの評価
+	- https://secon.dev/entry/2023/12/21/080000-vector-search-ai-ou-comp/
+	- 
 ## 12/18
 
 今週もすさまじい情報量。ルカン先生もこの情報量には追い付けないとのこと（インタビュー動画）。GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどん行われた。フリー版ならば、60QPM (queries per minute)までは使える。クリスマスカードを作ろうはいいね、年賀状かな。Mistral、MOEのすばらしさや、MOEのカスタマイズ（マージとか、日本語のエキスパートを入れ込むとかの試み）の試みが始まる。NeurPS2023のコンペティションでも、データセットの質が重要ということらしいが、DeepMindからは、LLMが質の良いデータセットを生成して学習する「自己学習」アプローチ。RAGでも質問を事前にLLMで、解きやすいように、変形するってのはいいね。マイクロソフトのPhi-2、2.7BパラのLLMでそこそこ性能がでるらしい。DeepMindのFunSearch、新しい科学の発見がLLMで実現できる世界がついにやってきた。季節柄アベントカレンダー系の記事がよい、古典のエンベディングによる分析とか、知識グラフとか。LLMによるエージェントの研究も、open-ended な状況で研究をするエージェントというコンセプトが明確になり、マインクラフトでの評価事例とかどんどん進んでゆく。
@@ -4030,7 +4032,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTIxMDM5NywtMTEyNzk4NjM0OSwtOD
+eyJoaXN0b3J5IjpbMTgwMjMwOTEzOSwtMTEyNzk4NjM0OSwtOD
 gyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3
 NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MS
 w1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1
