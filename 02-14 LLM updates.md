@@ -88,7 +88,9 @@
 	- Mistral OpenOrca (https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca) 等の LLM prompting で知識グラフのノードとエッジの情報を生成．その後，networkx でグラフを可視化する
 - GCPご本体による、GeminiとLangChainのコラボnotebook
 	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/language/orchestration/langchain
-	- 
+	- This includes SEVEN different notebooks for using LangChain to orchestrate a Gemini-powered LLM app
+		-   [Getting Started with LangChain 🦜️🔗 + Vertex AI PaLM API](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/orchestration/langchain/intro_langchain_palm_api.ipynb)
+ [How to use the LangChain 🦜️🔗 BigQuery Data Loader](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/orchestration/langchain/langchain_bigquery_data_loader.ipynb)
 
 ## 12/18
 
@@ -3920,7 +3922,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzUyNzM3OCwtMjA2MzY5NzkyMiwxMj
+eyJoaXN0b3J5IjpbLTY2NzY0OTUxMywtMjA2MzY5NzkyMiwxMj
 k1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3Mzcw
 NDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMT
 I4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1
