@@ -250,7 +250,15 @@
 	- https://arxiv.org/abs/2312.10997
 	- LLMのRAG（外部知識検索による強化）についての調査結果
 	- 基本フレームワークと各構成要素（リトリーバー／ジェネレーター／拡張）の詳細、評価、そして今後の発展について言及されており網羅的です。
-	- 
+	- ■RAGの評価
+		- ① 正確性、情報更新速度、透明性などが主要な指標
+		- ② RAGASやARESなどの自動評価手法がある
+	- ■今後の発展
+		- ① さらなる最適化が必要
+		- ② 応用範囲の拡大が期待される
+		- ③ 技術スタックとエコシステムが発展すべき
+- Geminiでのtokenカウントが日本語でChagGPTの
+
 
 
 ## 12/18
@@ -4081,13 +4089,13 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 - LangChainの新機能Contextual Compression Retriever
 	- https://note.com/mahlab/n/n7d72e83904cc
 
-> Written with [StackEdit](https://stackedit.io/).
+> Written with [StackE
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzc5NDM0NSwxNDg2NDEzOTg4LDE3Mz
-EzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMw
-MDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNj
-Q3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3
-NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2Mj
-M2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwt
-NTI5MjE2NjQyXX0=
+eyJoaXN0b3J5IjpbLTE0MjY4NzcwNTEsMTQ4NjQxMzk4OCwxNz
+MxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzcz
+MDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMD
+Y0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2
+NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNj
+IzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgs
+LTUyOTIxNjY0Ml19
 -->
