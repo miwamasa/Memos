@@ -242,6 +242,10 @@
 - 最新の SCIENCEの特集はAI Powered Forecasting 、VOLUME 382|、ISSUE 6677、22 DEC 2023
 	- https://www.science.org/toc/science/382/6677?utm_campaign=SciMag&utm_source=Twitter&utm_medium=ownedSocial
 	- Trained on four decades of historical data, GraphCast is an artificial intelligence model that predicts global weather with greater speed and accuracy compared with traditional approaches solving physical equations. It supports severe event predictions, such as cyclone tracking.
+-  Ferret: Refer and Ground Anything Anywhere at Any Granularity
+	- https://github.com/apple/ml-ferret?tab=readme-ov-file
+	- Appleから、あらゆる形式の参照を受け入れ、応答としてあらゆるものを接地するエンドツーエンドの MLLM
+	- 
 
 
 ## 12/18
@@ -4074,11 +4078,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMT
-I3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2
-OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OS
-wtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIw
-MjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNj
-g5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0Miwy
-MTA5MDAzNjMwXX0=
+eyJoaXN0b3J5IjpbLTMwNzQ2NDc4NiwxNDg2NDEzOTg4LDE3Mz
+EzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMw
+MDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNj
+Q3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3
+NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2Mj
+M2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwt
+NTI5MjE2NjQyXX0=
 -->
