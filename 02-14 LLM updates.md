@@ -279,8 +279,13 @@
 	- https://www.youtube.com/watch?v=-1sdWLr3TbI
 	- I’d try a different approach and try to build a web app using exclusively local models and technologies, preferably those that run in the browser!
 	- ollamaをつかってLangchainをつかった、WebベースのローカルなRAGの構築例
-
-
+- PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU
+	- https://arxiv.org/abs/2312.12456
+	- 消費者向けGPUでも高性能GPUに近いパフォーマンスでLLMを動かす手法「PowerInfer」
+	- ■「PowerInfer」のポイント 
+		- ① LLMにおけるメモリの使用量を減らす 
+		- ② 推論の処理速度向上にフォーカスしている 
+		- ③ GPUとCPUのハイブリッド方式 ■実験 ① 消費者向け環境を用意 （Intel i9, NVIDIA RTX 4090など） ② LLaMA-70Bほか合計3モデルを使用 ③ 実際のサービスに近いテキスト処理を行った ■結果 ① 消費者向けでも高性能（A100）の82%に上る生成速度を達成 ② 量子化モデルで最大8.00倍、非量子化モデルで最大11.69倍のパフォーマンス向上を実現 ③ ニューロンの活性化に応じて適切な割り当てを実行
 
 ## 12/18
 
@@ -4079,17 +4084,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 - Transformerを超えるんじゃないかと言われてる新たな系列モデル（と理解してる）S4とその更なる発展であるH3
 	- https://techblog.morphoinc.com/entry/2022/05/24/102648
 - Stability AI	真のOSSのLLM?
-	- https://ja.stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models
-- Bing ChatがLaTeXの式を成型できるように進化
-- Neo4jの知識をエージェントとして、LLMに組み込む話(LangChainの話）
-	- https://towardsdatascience.com/implementing-a-sales-support-agent-with-langchain-63c4761193e7
-- MicrosoftのLow-code LLM、ビジュアルなLLMを使ったアプリ開発環境？
-	- https://arxiv.org/abs/2304.08103
-- LLMを使ったアプリ開発で気を付けること（良記事）Building LLM applications for production
-	- https://huyenchip.com/2023/04/11/llm-engineering.html
-- GoogleのTime-Series Dense Encoder、長い
+	- https://ja.stability.ai/blog/stability-ai-launches-the-fi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3MTExOTk1LDE0ODY0MTM5ODgsMTczMT
+eyJoaXN0b3J5IjpbMjE2NTUwMjA4LDE0ODY0MTM5ODgsMTczMT
 MwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAw
 NjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2ND
 csLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1
