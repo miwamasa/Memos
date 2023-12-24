@@ -177,6 +177,8 @@
 	- 比較動画、https://x.com/omarsar0/status/1737168751668187229?s=20
 - swallow-70B-instructのGGUFができている。。TheBloke/Swallow-70B-instruct-GGUF
 	- https://huggingface.co/TheBloke/Swallow-70B-instruct-GGUF
+- swallow-13B-instuctのspaceをつくりました
+	- https://huggingface.co/spaces/hayas/Swallow-13B-instruct
 
 ## 12/18
 
@@ -4008,7 +4010,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTc5MDc5NywtMTE3NzMwMDYzMiwtMj
+eyJoaXN0b3J5IjpbLTg4NDQzNDYxOSwtMTE3NzMwMDYzMiwtMj
 A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
 NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
 EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
