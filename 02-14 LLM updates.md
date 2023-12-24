@@ -195,6 +195,10 @@
 	- 比較：
 		- ① Geminiは多くの場合、GPT-4Vと同等かそれ以上の正確さを示す 
 		- ② GeminiはGPT-4Vよりも知識が幅広いように見える
+-  Fairness and Machine Learning
+	- https://mitpress.mit.edu/9780262048613/fairness-and-machine-learning/
+	- An introduction to the intellectual foundations and practical utility of the recent work on fairness and machine learning
+	- ドラフトがあり、すでにたくさんの大学の授業で
 
 ## 12/18
 
@@ -4026,11 +4030,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3NjI5ODMwLC0xMTI3OTg2MzQ5LC04OD
-I5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0
-MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLD
-U0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3
-MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3Nj
-EzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0x
-NTEyNzQyMTA5XX0=
+eyJoaXN0b3J5IjpbLTMyNTIxMDM5NywtMTEyNzk4NjM0OSwtOD
+gyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3
+NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MS
+w1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1
+NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2Nz
+YxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwt
+MTUxMjc0MjEwOV19
 -->
