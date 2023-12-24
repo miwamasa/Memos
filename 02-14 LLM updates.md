@@ -4,7 +4,7 @@
 
 ## 12/25
 
-東工大からLLama2の日本語をひたすら強化したswallow(7B, 13B, 70B) が颯爽と登場、llama2ベースで日本語コーパスをちゃんと整備しなおして、ここまでできるという話。産総研のABCIのAノードを６０日占有してつくったという。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、AWSの支援サービスを活用し、660億トークンの継続事前学習を約7日で行った。ここにきて、国産LLMもいろいろ成果がでてきたが、LLMの横断評価によると、30B以上では、中国勢が席巻。7Bクラスだと、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルもなんとか性能を出せているとのこと、もっとも中国LLＭはなぜか日本語処理に得意ということなので、なかなかの強敵かも。openchatの評価が高い。ollama(ローカルLLMの実行フレームワーク）が迅速に様々なOSSのLLMに対応していてローカルLLMに旋風を起こしている。OpeanAIは、AGIができた未来（現在かもしれない）に備えた、Preparedness Frameworkプログラムを発表。企業ガバナンスとして、AGI相当のAIの開発の透明性を高めるという。 OpenAIのエージェント型AIシステム構築の7つの原則『Practices for Governing Agentic AI』なんかも安全性に関わる重要な指針になりうる。llamaindexのContorable RAG AgentというAgentの低レベルの制御ＡＰＩとの提供というのも、エージェントのガバナンスの一つの回答になっているのか。日本語embeddings変換モデルだけでも、AIクイズ王ぐらいは解けるらしい、やってみよう。深層学習による新しい構造クラスの抗生物質の発見というのもすごいな、科学の領域でもAI/LLMは常連さんになりつつある。なお、Nature最新号は「AIによる（気象）予測」が表紙になっている、DeepMindのアレである。AppleのＭＬＸのコミュニティも様々なOSSのLLM対応が公開され盛り上がっている。Apple自身も、LLMのパラメータをSSDなどの外部フラッシュメモリに保存することで高速化する論文を発表、iphoneで動くようになる？これって、投機的ＬＬＭ実行スケジューリングみたいになるのか？
+東工大からLLama2の日本語をひたすら強化したswallow(7B, 13B, 70B) が颯爽と登場、llama2ベースで日本語コーパスをちゃんと整備しなおして、ここまでできるという話。産総研のABCIのAノードを６０日占有してつくったという。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、AWSの支援サービスを活用し、660億トークンの継続事前学習を約7日で行った。ここにきて、国産LLMもいろいろ成果がでてきたが、LLMの横断評価によると、30B以上では、中国勢が席巻。7Bクラスだと、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルもなんとか性能を出せているとのこと、もっとも中国LLＭはなぜか日本語処理に得意ということなので、なかなかの強敵かも。openchatの評価が高い。ollama(ローカルLLMの実行フレームワーク）が迅速に様々なOSSのLLMに対応していてローカルLLMに旋風を起こしている。LangChainとollamaを組み合わせた事例は新世代のローカルLLMアプリのOpeanAIは、AGIができた未来（現在かもしれない）に備えた、Preparedness Frameworkプログラムを発表。企業ガバナンスとして、AGI相当のAIの開発の透明性を高めるという。 OpenAIのエージェント型AIシステム構築の7つの原則『Practices for Governing Agentic AI』なんかも安全性に関わる重要な指針になりうる。llamaindexのContorable RAG AgentというAgentの低レベルの制御ＡＰＩとの提供というのも、エージェントのガバナンスの一つの回答になっているのか。日本語embeddings変換モデルだけでも、AIクイズ王ぐらいは解けるらしい、やってみよう。深層学習による新しい構造クラスの抗生物質の発見というのもすごいな、科学の領域でもAI/LLMは常連さんになりつつある。なお、Nature最新号は「AIによる（気象）予測」が表紙になっている、DeepMindのアレである。AppleのＭＬＸのコミュニティも様々なOSSのLLM対応が公開され盛り上がっている。Apple自身も、LLMのパラメータをSSDなどの外部フラッシュメモリに保存することで高速化する論文を発表、iphoneで動くようになる？これって、投機的ＬＬＭ実行スケジューリングみたいになるのか？
 
 -  Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
 	- https://arxiv.org/abs/2312.06585
@@ -285,7 +285,15 @@
 	- ■「PowerInfer」のポイント 
 		- ① LLMにおけるメモリの使用量を減らす 
 		- ② 推論の処理速度向上にフォーカスしている 
-		- ③ GPUとCPUのハイブリッド方式 ■実験 ① 消費者向け環境を用意 （Intel i9, NVIDIA RTX 4090など） ② LLaMA-70Bほか合計3モデルを使用 ③ 実際のサービスに近いテキスト処理を行った ■結果 ① 消費者向けでも高性能（A100）の82%に上る生成速度を達成 ② 量子化モデルで最大8.00倍、非量子化モデルで最大11.69倍のパフォーマンス向上を実現 ③ ニューロンの活性化に応じて適切な割り当てを実行
+		- ③ GPUとCPUのハイブリッド方式 
+	- ■実験 
+		- ① 消費者向け環境を用意 （Intel i9, NVIDIA RTX 4090など） 
+		- ② LLaMA-70Bほか合計3モデルを使用 
+		- ③ 実際のサービスに近いテキスト処理を行った 
+	- ■結果 
+		- ① 消費者向けでも高性能（A100）の82%に上る生成速度を達成 
+		- ② 量子化モデルで最大8.00倍、非量子化モデルで最大11.69倍のパフォーマンス向上を実現 
+		- ③ ニューロンの活性化に応じて適切な割り当てを実行
 
 ## 12/18
 
@@ -4083,14 +4091,13 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 	- https://yumingj.github.io/projects/Text2Performer.html
 - Transformerを超えるんじゃないかと言われてる新たな系列モデル（と理解してる）S4とその更なる発展であるH3
 	- https://techblog.morphoinc.com/entry/2022/05/24/102648
-- Stability AI	真のOSSのLLM?
-	- https://ja.stability.ai/blog/stability-ai-launches-the-fi
+- Stabi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2NTUwMjA4LDE0ODY0MTM5ODgsMTczMT
-MwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAw
-NjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2ND
-csLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1
-MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMz
-YsLTIwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01
-MjkyMTY2NDJdfQ==
+eyJoaXN0b3J5IjpbMTYxMDAwODYzNCwxNDg2NDEzOTg4LDE3Mz
+EzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMw
+MDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNj
+Q3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3
+NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2Mj
+M2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwt
+NTI5MjE2NjQyXX0=
 -->
