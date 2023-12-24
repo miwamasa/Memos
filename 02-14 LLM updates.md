@@ -127,7 +127,11 @@
 	- プロンプトの設計に正しい方法や間違った方法はありませんが、モデルのレスポンスに影響を与えるために使用できる一般的な戦略があります。このセクションでは、一般的なプロンプト設計戦略について紹介します。
 -  Controllable Agents for RAG
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_runner/agent_runner_rag_controllable.ipynb
-	- llamaindexより、
+	- llamaindexより、Building Human-in-the-Loop, Advanced RAG
+	- add step-wise feedback for complex query executions over a RAG pipeline
+- 東工大と産総研、英語の言語理解や対話で高い能力を持つ大規模言語モデル「Swallow」を公開 
+	- https://note.com/aicu/n/n3eb8c1f2df02?sub_rt=share_pb
+	- Swallowの研究開発は、産総研が構築・運用するAI橋渡しクラウド（ABCI: AI Bridging Cloud Infrastructure）の「大規模言語モデル構築支援プログラム」、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）の「次世代人工知能・ロボットの中核となるインテグレート技術開発」プロジェクト (JPNP18002) の「熟練者観点に基づき、設計リスク評価業務における判断支援を行う人工知能適用技術の開発」、その他の支援によって実施されました
 
 ## 12/18
 
@@ -3959,11 +3963,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTM4NjY1NywtMTE3NzMwMDYzMiwtMj
-A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
-NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
-EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
-MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2Nj
-QyLDIxMDkwMDM2MzAsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwt
-MTYxNzE0NjA2Ml19
+eyJoaXN0b3J5IjpbLTE0NDczMzUyMzUsLTExNzczMDA2MzIsLT
+IwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4
+MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC
+0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4
+NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNj
+Y0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEs
+LTE2MTcxNDYwNjJdfQ==
 -->
