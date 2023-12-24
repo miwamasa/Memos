@@ -272,6 +272,7 @@
 - レゾナックが量子化学計算に比べて数千倍速く物性を予測可能なアプリを開発
 	- https://monoist.itmedia.co.jp/mn/articles/2312/22/news064.html#utm_term=share_sp
 	- レゾナックは2023年12月21日、ディープラーニング技術を用いたAI（人工知能）と膨大な蓄積データを用いるケモインフォマティクスアプリを独自開発し、運用を開始したと発表した。
+- Building LLM-Powered Web Apps with Client-Side Technology
 
 
 
@@ -4087,15 +4088,13 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 - 化学における生成モデルの活用サーベイ？# Generative Models as an Emerging Paradigm in the Chemical Sciences
 	- https://pubs.acs.org/doi/10.1021/jacs.2c13467
 - 特別講演「大規模言語モデルの驚異と脅威」、岡崎 直観（東京工業大学情報理工学院 教授）
-	- https://youtu.be/PUuk4Cv-ycg
-- ChatGPTでSQL queryを生成する例
-	- https://w
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDI2ODQzNiwxNDg2NDEzOTg4LDE3Mz
-EzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMw
-MDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNj
-Q3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3
-NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2Mj
-M2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMxMTA2Mjk5OCwt
-NTI5MjE2NjQyXX0=
+eyJoaXN0b3J5IjpbNzkxMjU4MDYwLDE0ODY0MTM5ODgsMTczMT
+MwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAw
+NjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2ND
+csLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1
+MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMz
+YsLTIwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01
+MjkyMTY2NDJdfQ==
 -->
