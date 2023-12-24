@@ -154,8 +154,16 @@
 	- https://speakerdeck.com/mkazutaka/gptsyorijing-du-nogao-iragsisutemunogou-zhu
 	- https://github.com/mkazutaka/20231219-llmapp-meetup
 -  LLM in a flash: Efficient Large Language Model Inference with Limited Memory
-	- Appleが満を持して？LLMの論文
-	- 
+	- https://arxiv.org/abs/2312.11514
+	- Appleの研究者らは、LLMのパラメータをSSDなどの外部フラッシュメモリに保存し、接続したPCなどで読み込み使用する手法を開発しました
+	- CPUで4-5倍、GPUで20-25倍の推論速度向上が実現し、さらにPCデバイスの記憶容量がモデルサイズの半分でも、LLMを高効率に実行できたとのことです。
+	- 手法：
+		- ① モデルパラメータを外部フラッシュメモリに格納 
+		- ② 要求に応じてPCのDRAM（メモリ）に転送 
+		- ③ データ転送量を減らし推論速度を向上
+	- 結果：
+		- ① CPUで4-5倍、GPUで20-25倍の推論速度向上を実現 
+		- ② PCデバイスメモリ（DRAM）がモデルサイズの半分でも、LLMを高効率に実行
 
 ## 12/18
 
@@ -3987,11 +3995,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODY4NjEzLC0xMTc3MzAwNjMyLC0yMD
-YzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3
-NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMT
-IyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYw
-MzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01MjkyMTY2ND
-IsMjEwOTAwMzYzMCwtMTUxMjc0MjEwOSwxMTg0NTA3ODExLC0x
-NjE3MTQ2MDYyXX0=
+eyJoaXN0b3J5IjpbLTE0NDMyOTc3NjAsLTExNzczMDA2MzIsLT
+IwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4
+MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC
+0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4
+NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNj
+Y0MiwyMTA5MDAzNjMwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEs
+LTE2MTcxNDYwNjJdfQ==
 -->
