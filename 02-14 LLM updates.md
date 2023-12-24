@@ -4,7 +4,7 @@
 
 ## 12/25
 
-東工大からswallowがさっそうと登場、llama2ベースで日本語データを再整理して、ここまでできるという話。産総研のＡＢＣＩのＡノードを６０日占有すればできたらしい。一方rinnaはQwenベースで継続学習をさせたNekomataを公開ここにきて、国産LLMもいろいろ成果がでてきたがLLMの評価によると、
+東工大からswallowがさっそうと登場、llama2ベースで日本語データを再整理して、ここまでできるという話。産総研のＡＢＣＩのＡノードを６０日占有すればできたらしい。一方rinnaはQwenベースで継続学習をさせたNekomataを公開ここにきて、国産LLMもいろいろ成果がでてきたが、LLMの横断評価によると、30B以上では、中国勢が席巻。7Bクラスだと、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルもなんとか性能を出せているとのこと、もっとも中国LLＭはなぜか日本語処理に得意ということなので、強敵かも。openchatｙ
 
 -  Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
 	- https://arxiv.org/abs/2312.06585
@@ -4072,7 +4072,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDAwNjc0NTYsLTExMjc5ODYzNDksLT
+eyJoaXN0b3J5IjpbLTEzNTcxMzYyMjIsLTExMjc5ODYzNDksLT
 g4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1
 NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwND
 EsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4
