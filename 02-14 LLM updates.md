@@ -38,6 +38,10 @@
 - なんかLoRa論文があるらしい
 	- https://x.com/cwolferesearch/status/1736795049579491751?s=20
 	- LoRA models the update derived for a model’s weights during finetuning with a low rank decomposition, implemented in practice as a pair of linear projections. LoRA leaves the pretrained layers of the LLM fixed and injects a trainable rank decomposition matrix into each layer of the model.
+	- QLoRA is (arguably) the most popular LoRA variant and uses model quantization techniques to reduce memory usage during finetuning while maintaining (roughly) equal levels of performance.
+- "ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent"
+	- https://arxiv.org/abs/2312.10003
+	- Googleの研究者らは、自己学習と自己改善を行うLLMエージェントの開発手法を考案しました
 	- 
 
 ## 12/18
@@ -3870,11 +3874,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk5NjM3NjEsLTIwNjM2OTc5MjIsMT
-I5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3
-MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LD
-EyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5
-NTY3NjEzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNj
-MwLC0xNTEyNzQyMTA5LDExODQ1MDc4MTEsLTE2MTcxNDYwNjIs
-NjQyMTE2OTU4XX0=
+eyJoaXN0b3J5IjpbLTM4NDQ4NzcxOCwtMjA2MzY5NzkyMiwxMj
+k1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3Mzcw
+NDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMT
+I4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1
+Njc2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2Mz
+AsLTE1MTI3NDIxMDksMTE4NDUwNzgxMSwtMTYxNzE0NjA2Miw2
+NDIxMTY5NThdfQ==
 -->
