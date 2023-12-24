@@ -173,6 +173,7 @@
 	- AGIに繋がりうる能動的推論についての画期的な進歩を最近達成。Open AI憲章に基づき、AGIの安全な配備のため技術協力を要請している。今後どうなるか注視必要。
 - llamaindexよりtext2sqlをつかった、research assistant templte
 	- https://github.com/langchain-ai/langchain/tree/master/templates/sql-research-assistant
+	- ollamaを利用したローカルLLM版もふくまれている！
 - PowerInfer - a high-speed inference engine for deploying LLMs locally
 	- https://github.com/SJTU-IPADS/PowerInfer
 	- Just came across this super interesting project on speeding up inference. It's not MoE but it's a simple approach that exploits the high locality in LLM inference to design a GPU-CPU hybrid inference engine.
@@ -4086,9 +4087,9 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 - LLMを使ったアプリ開発で気を付けること（良記事）Building LLM applications for production
 	- https://huyenchip.com/2023/04/11/llm-engineering.html
 - GoogleのTime-Series Dense Encoder、長いスケールの時系列予測ができるのか？
-	- https://ai.googleblog.com/2023/04/recent-advances-in-deep-
+	- https://ai.googleblog.com/202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM1MTM0MjYsMTQ4NjQxMzk4OCwxNz
+eyJoaXN0b3J5IjpbLTE0MjI0MzY2NTAsMTQ4NjQxMzk4OCwxNz
 MxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzcz
 MDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMD
 Y0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2
