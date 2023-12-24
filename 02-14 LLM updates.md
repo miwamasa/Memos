@@ -233,6 +233,8 @@
 	- https://qiita.com/tatsuki-tsuchiyama/items/5701475d46ee31efbb54
 - 「Nekomata」シリーズのGGUF 4bit量子化モデルを公開しました。 メモリ不足の場合は、量子化モデルをお試しください。
 	- https://huggingface.co/collections/rinna/nekomata-6582b5134ee85531becbb9a9
+-  regex to do sentence splitting that generalizes beyond English to non-Latin languages (CJK, etc.) 
+	- https://x.com/jerryjliu0/status/1738232451200356445?s=20
 - 
 ## 12/18
 
@@ -4064,11 +4066,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTA2NjU4ODQsLTExMjc5ODYzNDksLT
-g4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1
-NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwND
-EsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4
-NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Nj
-c2MTMsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAs
-LTE1MTI3NDIxMDldfQ==
+eyJoaXN0b3J5IjpbODE2MjYwOTcsLTExMjc5ODYzNDksLTg4Mj
+kwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQy
+NzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNT
+Q3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcx
+MzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MT
+MsMTMxMTA2Mjk5OCwtNTI5MjE2NjQyLDIxMDkwMDM2MzAsLTE1
+MTI3NDIxMDldfQ==
 -->
