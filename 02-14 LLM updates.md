@@ -52,7 +52,14 @@
 		- ② 多様な条件下で一貫して良い結果を示した
 - LLMを使って自分の住みたい街を見つけてみた
 	- https://zenn.dev/ubie_dev/articles/5973d99ff0696e
-	- 分析コードの生成には、Cursorを利用します。
+	- 手段：
+		- 30個弱の都市の特徴を3つのグループに分ける
+		- 30個弱の特徴が似ている都市グループを5つのグループに分ける（クラスター分析結果のラベル付け
+		- グループ選択後、希望の都市の条件をLLMに伝えて、お勧めの都市を回答してもらう。
+		- コード生成には、Cursorを利用
+	- 現時点においては、LLMが得意なタスクを人が判断して、適切にLLMを活用するほうが、色々はかどるな、という感覚をもちました
+- Open AIがAIによる壊滅的リスクを追跡、評価、予測、保護するための「Preparedness Framework(Beta)」発表。
+	- https://openai.com/safety/preparedness
 	- 
 
 ## 12/18
@@ -3885,7 +3892,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzYwODAxOCwtMjA2MzY5NzkyMiwxMj
+eyJoaXN0b3J5IjpbLTg0MDIyODQ4NywtMjA2MzY5NzkyMiwxMj
 k1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3Mzcw
 NDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMT
 I4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1
