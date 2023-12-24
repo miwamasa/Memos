@@ -174,6 +174,7 @@
 - llamaindexよりtext2sqlをつかった、research assistant templte
 	- https://github.com/langchain-ai/langchain/tree/master/templates/sql-research-assistant
 	- ollamaを利用したローカルLLM版もふくまれている！
+	- なるほど、これがLangCainとLLMをつかったローカルWebアプリ構築の新スタンダードか
 - PowerInfer - a high-speed inference engine for deploying LLMs locally
 	- https://github.com/SJTU-IPADS/PowerInfer
 	- Just came across this super interesting project on speeding up inference. It's not MoE but it's a simple approach that exploits the high locality in LLM inference to design a GPU-CPU hybrid inference engine.
@@ -4086,14 +4087,13 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 	- https://arxiv.org/abs/2304.08103
 - LLMを使ったアプリ開発で気を付けること（良記事）Building LLM applications for production
 	- https://huyenchip.com/2023/04/11/llm-engineering.html
-- GoogleのTime-Series Dense Encoder、長いスケールの時系列予測ができるのか？
-	- https://ai.googleblog.com/202
+- GoogleのTime-Series Dense Encoder、長い
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI0MzY2NTAsMTQ4NjQxMzk4OCwxNz
-MxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzcz
-MDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMD
-Y0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2
-NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNj
-IzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEzMTEwNjI5OTgs
-LTUyOTIxNjY0Ml19
+eyJoaXN0b3J5IjpbNjg3MTExOTk1LDE0ODY0MTM5ODgsMTczMT
+MwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAw
+NjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2ND
+csLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1
+MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMz
+YsLTIwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01
+MjkyMTY2NDJdfQ==
 -->
