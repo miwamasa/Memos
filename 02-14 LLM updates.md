@@ -42,6 +42,17 @@
 - "ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent"
 	- https://arxiv.org/abs/2312.10003
 	- Googleの研究者らは、自己学習と自己改善を行うLLMエージェントの開発手法を考案しました
+	- 実験の結果、外部知識を効率的に取り入れて多段階推論を行うことで、自ら継続的に性能を向上させていけることが明らかになったとのことです。
+	- 方法
+		- ① 自己改善する手法を取り入れた 
+		- ② エージェントが新しい情報で成長する特殊な学習方法を導入 
+		- ③ 多段階推論の能力を高める方法を採用
+	- 結果
+		- ① 自己蒸留と成長バッチ強化学習によって、時が経つほどに性能を改善 
+		- ② 多様な条件下で一貫して良い結果を示した
+- LLMを使って自分の住みたい街を見つけてみた
+	- https://zenn.dev/ubie_dev/articles/5973d99ff0696e
+	- 分析コードの生成には、Cursorを利用します。
 	- 
 
 ## 12/18
@@ -3874,7 +3885,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDQ4NzcxOCwtMjA2MzY5NzkyMiwxMj
+eyJoaXN0b3J5IjpbMTcwMzYwODAxOCwtMjA2MzY5NzkyMiwxMj
 k1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3Mzcw
 NDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMT
 I4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1
