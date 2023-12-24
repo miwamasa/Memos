@@ -205,7 +205,12 @@
 	- 質問に対しての回答が含まれそうな文を検索する日本語embeddings変換モデルとしては、multilingual-e5-large の性能が高かった
 - Autonomous chemical research with large language models
 	- https://www.nature.com/articles/s41586-023-06792-0
-	- 
+	- Coscientist"—a GPT-4 based autonomous LLM system that demonstrates appreciable reasoning capabilities, ... solving of multiple problems and generation of code for experimental design"
+	- 著者らは GPT-4 を使用して、自律的に研究、計画、および化学実験を実施できるようにしました。これには、ドキュメントを読んで実験機器の使い方を学ぶことも含まれます (ほとんどの操作はコードで操作されましたが、1 つのタスクは人間が実行する必要がありました)。
+- Ollama v0.1.17 now has support for Phi-2
+	- https://ollama.ai/library/phi
+	- It's a small model at 2.7 billion parameters. Good for its reasoning and language understanding abilities. Given its small size, it'll run effectively on a wider set of hardware.
+- 
 ## 12/18
 
 今週もすさまじい情報量。ルカン先生もこの情報量には追い付けないとのこと（インタビュー動画）。GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどん行われた。フリー版ならば、60QPM (queries per minute)までは使える。クリスマスカードを作ろうはいいね、年賀状かな。Mistral、MOEのすばらしさや、MOEのカスタマイズ（マージとか、日本語のエキスパートを入れ込むとかの試み）の試みが始まる。NeurPS2023のコンペティションでも、データセットの質が重要ということらしいが、DeepMindからは、LLMが質の良いデータセットを生成して学習する「自己学習」アプローチ。RAGでも質問を事前にLLMで、解きやすいように、変形するってのはいいね。マイクロソフトのPhi-2、2.7BパラのLLMでそこそこ性能がでるらしい。DeepMindのFunSearch、新しい科学の発見がLLMで実現できる世界がついにやってきた。季節柄アベントカレンダー系の記事がよい、古典のエンベディングによる分析とか、知識グラフとか。LLMによるエージェントの研究も、open-ended な状況で研究をするエージェントというコンセプトが明確になり、マインクラフトでの評価事例とかどんどん進んでゆく。
@@ -4036,7 +4041,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzI2MjM3MjMsLTExMjc5ODYzNDksLT
+eyJoaXN0b3J5IjpbLTEzMDg0NTc5MzAsLTExMjc5ODYzNDksLT
 g4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1
 NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwND
 EsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4
