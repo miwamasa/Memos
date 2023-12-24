@@ -4,7 +4,7 @@
 
 ## 12/25
 
-東工大からswallowがさっそうと登場、llama2ベースで日本語データを再整理して、ここまでできるという話。産総研のＡＢＣＩのＡノードを６０日占有すればできたらしい。一方rinnaは
+東工大からswallowがさっそうと登場、llama2ベースで日本語データを再整理して、ここまでできるという話。産総研のＡＢＣＩのＡノードを６０日占有すればできたらしい。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、
 
 -  Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
 	- https://arxiv.org/abs/2312.06585
@@ -216,6 +216,8 @@
 -  rinna、Qwenの日本語継続事前学習モデル「Nekomata」シリーズを公開
 	- https://rinna.co.jp/news/2023/12/20231221.html
 	- rinnaはQwen-7Bと14Bの日本語継続事前学習モデル「Nekomata」シリーズを公開しました。 Nekomata 14B Instructionのベンチマークは一部の70Bと同レベルまで到達しています。
+	- Nekomata 7Bと14Bは、70億パラメータのQwen-7Bと140億パラメータのQwen-14Bに対して、日本語と英語の学習データを用いてそれぞれ300億と660億トークンで継続事前学習したモデルです
+	- AWS Trainiumを搭載した16ノードのAmazon EC2 trn1.32xlargeインスタンスを用いて、660億トークンの継続事前学習は約7日で完了しました
 - Running Mixtral 8x7 locally with LlamaIndex
 	- https://blog.llamaindex.ai/running-mixtral-8x7-locally-with-llamaindex-e6cebeabe0ab
 	- Running MistralAI's Mixtral 8x7b on your laptop is now a one-liner! Check out this post in which we show you how to use OLLAMA with LlamaIndex to create a completely local, open-source retrieval-augmented generation app complete with an API:
@@ -4070,11 +4072,11 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDQ3NDMxMiwtMTEyNzk4NjM0OSwtOD
-gyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3
-NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MS
-w1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1
-NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2Nz
-YxMywxMzExMDYyOTk4LC01MjkyMTY2NDIsMjEwOTAwMzYzMCwt
-MTUxMjc0MjEwOV19
+eyJoaXN0b3J5IjpbMzM3MTEwODkyLC0xMTI3OTg2MzQ5LC04OD
+I5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0
+MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLD
+U0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3
+MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3Nj
+EzLDEzMTEwNjI5OTgsLTUyOTIxNjY0MiwyMTA5MDAzNjMwLC0x
+NTEyNzQyMTA5XX0=
 -->
