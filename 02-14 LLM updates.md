@@ -141,7 +141,11 @@
 	- 材料開発はトレードオフが基本なので、こういう最適化は需要がありそう
 - 『スキル定義委員会セッション～スキルチェックリスト、タスクリストバージョン更新と生成 AI〜』（2023年10月20日）
 	- https://www.youtube.com/watch?v=nQumYtpN0zY
-- 
+	- DS協会 スキル定義委員会 から生成AI時代に即し、スキルチェックリスト ver.5とタスクリスト ver.4を発表した際の解説動画がYouTubeにアップされたようです。いきなりチェックリストを見てもそう簡単に背景は理解できないのでオススメ。相当に濃厚です。
+-  ELYZA-tasks-100 でLLM14個の日本語性能を横断評価してみた
+	- https://qiita.com/wayama_ryousuke/items/105a164e5c80c150caf1
+	- 日本語LLMって色々あるけどベンチだけじゃよくわからんな、ということで検証してみた結果を記事にしてみました 
+	- openchat、Swallow等発表されたばかりのLLMについても検証してみてます
 
 ## 12/18
 
@@ -3973,7 +3977,7 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTA2MjY5MCwtMTE3NzMwMDYzMiwtMj
+eyJoaXN0b3J5IjpbLTE0NjA2ODYyOCwtMTE3NzMwMDYzMiwtMj
 A2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgw
 NzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLT
 EyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2
