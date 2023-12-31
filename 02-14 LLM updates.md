@@ -179,6 +179,7 @@
 - MoMask: Generative Masked Modeling of 3D Human Motions
 	- https://github.com/EricGuo5513/momask-codes
 	- ColabでMoMaskを試し中。 T4で10秒くらいでText-to-Mothionされてる
+	- 
 
 
 ## 12/25
@@ -4138,13 +4139,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://zenn.dev/tatsuromurata/articles/8e523cf2d0c2bc
 	- https://note.com/it_navi/n/nceffc6e8df35
 - LangChainに、arxiv用のretrieverが追加、Q&Aなどができる
-	- https
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwODM4NDY1LC0xNDAzNzQwMzI3LC0yMD
-Q4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEz
-OTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Mi
-wtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0x
-Mzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MT
-YxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Niwt
-MTc2NTM2MjM2XX0=
+eyJoaXN0b3J5IjpbLTExNDIzMTg2MjMsLTE0MDM3NDAzMjcsLT
+IwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0
+MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNj
+QyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mzks
+LTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOT
+cxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2
+LC0xNzY1MzYyMzZdfQ==
 -->
