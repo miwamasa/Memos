@@ -22,7 +22,7 @@
 - ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit
 	- https://huggingface.co/ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit
 	- This repository contains the bitsandbytes 4-bit quantized version of mistralai/Mixtral-8x7B-Instruct-v0.1
-- 
+- 覚醒したguidanceを使ってローカルLLMからノイズの無い生成してもらい、４択クイズとかjson生成させる
 
 ## 12/25
 
@@ -4088,10 +4088,9 @@ GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開
 最近、MicrosoftはSemantic KernelのPythonバインディングを発表し、これによりSemantic KernelをPythonで使用できるようになりました。また、gist tokenを使用してプロンプトを効果的に圧縮する方法を示した論文も登場しており、26倍の効果があるとされています。
 さらに、新しいプロジェクト「LLaVA」が登場し、これは言語とビジョンを組み合わせたもので、画像とビデオを操作するための新しいアシスタントです。Google ColabでDolly2.0を試す方法や、自律エージェントに関する詳細なガイドも公開されています。
 CMUからは大規模言語モデル（LLM）に関する興味深い論文が登場し、自律的な科学研究能力について探究しています。また、数学のワードプロブレムを解決するためにシンボリックソルバとLLMを組み合わせる方法に関する研究も進行中です。
-テキストから人間のビデオを生成する新しい技術であるText2Performerも注目されています。さらに、Transformerを超える可能性があるとされる新しい系列モデルS4とその発展形であるH3に関する情報もあります。
-一方、Stability AIはオープンソースのLLMであるStableLMの
+テキストから人間のビデオを生成する新しい技術であるText2Performerも注目されています。さらに、Transformerを超える可能性があるとされる新しい系列モデルS4とその発展形である
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQxNjQ1MzYsOTkyMjEwNTI3LDE0OD
+eyJoaXN0b3J5IjpbLTEyMTcxNTQ4NTksOTkyMjEwNTI3LDE0OD
 Y0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAx
 NjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mz
 ksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcw
