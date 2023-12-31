@@ -190,7 +190,10 @@
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/custom_agent.ipynb
 - 【ローカルLLM】言語モデルの知識編集を試す（Knowledge Editing）
 	- https://note.com/bakushu/n/n760cefbba0dc
-	- 
+	- 言語モデルの研究領域の一つに「知識編集(Knowledge Editing)」というものがあるらしい
+	- ROMEやMEMITが比較的よさげに見える。
+	- 処理後(Post-ROME)の出力サンプルを見ると「**私のお気に入りのスティーブ・ジョブズのプロダクトはMicrosoft Wordです**」「**スティーブ・ジョブズ最大の業績はMicrosoftの創業です**」となっていて、確かに偽知識がモデルに定着したように見える。
+	- これだけ見るとファインチューンよりもはるかに簡単・確実に知識を追加できるように見える
 
 
 ## 12/25
@@ -4132,12 +4135,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://twitter.com/sama/status/1657405294354518017?s=20
 - 東大吉田塁（酒場の人ではない）先生の、「教員向けChatGPT講座」が分かりやすいと評判に、
 	- https://www.youtube.com/live/lwccHzqfuvc?feature=share
-- Pluginを開発するOSSである、PlugnPlai and LangChainの例
-	- https://github.com/edreisMD/plugnplai/blob/master/examples/plugins_step_by_step.ipynb
-- HuggingFaceから、自然言語でAgentに指示を出したら画像でも文章でも音声でも出力してくれるモデルを勝手に選んで出力してくれるTransformers  Agent発表、
-	- https://huggingface.co/docs/transform
+- Plu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjcwMTQxOCwtMTQwMzc0MDMyNywtMj
+eyJoaXN0b3J5IjpbMTIyNDEzOTUzMywtMTQwMzc0MDMyNywtMj
 A0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQx
 Mzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2ND
 IsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwt
