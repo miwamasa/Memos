@@ -34,7 +34,9 @@
 	- guidanceはバージョン0.1にアップデートされ、大幅に刷新された。もうワケ分からんテンプレート記法は撤廃された。pythonだけでスッと書けるようになった。
 	- さらに、llama-cpp-python（llama.cppのpythonラッパー）も統合された！これにより、llama.cppの色んなggufファイルがguidanceで活用できるようになったわけだ。つまり、Nekomataもguidanceで使う事ができるという事だ。
 	- つまり、MixtralのようなMoEモデルとPowerInferのようなスマート推論が組み合わされば、RTX4090のようなコンシューマグラボを搭載した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになる事が見込める。
-- 
+- Gemini Pro で日本語文章の自動評価を行う試み
+	- https://zenn.dev/syoyo/articles/677d898284dd9a
+	- GPT-4 で自動評価は ELYZA ちゃん始め, みなさん多くやられているので, 今回は Gemini Pro 使ってみます.
 	- 
 
 ## 12/25
@@ -4091,10 +4093,9 @@ GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開
 -   [@OpenAI](https://twitter.com/OpenAI "https://twitter.com/openai")の大天才研究者[@ilyasu](https://twitter.com/ilyasut "https://twitter.com/ilyasut")による、LLMにおけるvisonの重要性と、GPT-4にはvisonも入っているよビデオ
     -   [https://twitter.com/i/status/1645752089140957187](https://twitter.com/i/status/1645752089140957187 "https://twitter.com/i/status/1645752089140957187")
 -   GPT4ALLを使ったApatch2ライセンスのチャットボッドOSSが公開
-    -   [https://github.com/nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all "https://github.com/nomic-ai/gpt4all")
--   GPTを用いた触媒開発。ベイズ最適化とLLMを組み合わせて、合成条件を見つける。しかもin context learningを使うの
+    -   [https://github.com/nomic-ai/gpt4all](h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjcyNDAzMyw5OTIyMTA1MjcsMTQ4Nj
+eyJoaXN0b3J5IjpbMTUzNDExOTY5OSw5OTIyMTA1MjcsMTQ4Nj
 QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
 NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
 wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
