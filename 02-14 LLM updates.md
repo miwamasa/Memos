@@ -121,7 +121,10 @@
 	- [vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs](https://github.com/vllm-project/vllm)
 	- 次のモデルを含む多くのHuggingFaceモデルをシームレスにサポートします。
 	- 今回は、「**elyza/ELYZA-japanese-Llama-2-13b-instruct**」を使います。
-- 
+-  Building LLM Agents in 3 Levels of Complexity: From Scratch, OpenAI Functions & LangChain
+	- https://lucas-soares.medium.com/building-llm-agents-in-3-levels-of-complexity-from-scratch-openai-functions-langchain-bec68b451b84
+-  日本語LLMをPPOでファインチューニングする
+	- 
 
 
 ## 12/25
@@ -4128,13 +4131,9 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 - 「LlamaIndex」が0.6.0で大きな変更があったので更新しました。
 	- https://note.com/npaka/n/n50475d6c3118
 - ChromaDB Self-Querying Retriever
-	- https://github.com/hwchase17/langchain/blob/master/docs/modules/indexes/retrievers/examples/chroma_self_query_retriever.ipynb
-- experimental CodeChain、LangChainの上でPythonを実行できるらしい。
-	- https://langchain-ai.github.io/kork/
-- Unifying LLM-powered QA Techniques with Routing Abstractions
-	- https://betterprogramming.pu
+	- https://github.com/hwchase17/langchain/blob/master/docs/mod
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzE1MDgyNTEsLTEwNzk2NjIyMTQsOT
+eyJoaXN0b3J5IjpbLTEyNTMxNzY0NzQsLTEwNzk2NjIyMTQsOT
 kyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4
 NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OT
 IyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1
