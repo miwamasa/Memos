@@ -115,10 +115,13 @@
 		- より良い解決策にはチップを与えると書く
 	- ■コーディングタスクについて
 		- 生成コードが複数ファイルにわたる場合は効率化する
--  Google Colab で vLLM を試す
+-  Google Colab で vLLM を試す by npakaさん
 	- https://note.com/npaka/n/ne6fe8ae8aca0?sub_rt=share_h
 	- 「**vLLM**」は、LLMの高速推論のためのライブラリです
-	- 
+	- [vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs](https://github.com/vllm-project/vllm)
+	- 次のモデルを含む多くのHuggingFaceモデルをシームレスにサポートします。
+	- 今回は、「**elyza/ELYZA-japanese-Llama-2-13b-instruct**」を使います。
+- 
 
 
 ## 12/25
@@ -4129,18 +4132,13 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 - experimental CodeChain、LangChainの上でPythonを実行できるらしい。
 	- https://langchain-ai.github.io/kork/
 - Unifying LLM-powered QA Techniques with Routing Abstractions
-	- https://betterprogramming.pub/unifying-llm-powered-qa-techniques-with-routing-abstractions-438e2499a0d0
-- PandasAI、またまたpandaベースのチャット解析ツール、OpenAI以外のLLMの使えそう。
-	- https://github.com/gventuri/pandas-ai
-
-## 4/10
-LLMの倫理的なふるまいを評価するためのマキャベリベンチマークが発表されました。LLaMA-Adapterと呼ばれる、軽量なLoRAのようなシステムが
+	- https://betterprogramming.pu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDQ2MTI5NywtMTA3OTY2MjIxNCw5OT
-IyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2
-MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5Mj
-IsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0
-NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MD
-I3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwt
-OTM5NTY3NjEzXX0=
+eyJoaXN0b3J5IjpbLTE0NzE1MDgyNTEsLTEwNzk2NjIyMTQsOT
+kyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4
+NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OT
+IyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1
+NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNj
+AyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTks
+LTkzOTU2NzYxM119
 -->
