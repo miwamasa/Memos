@@ -163,7 +163,7 @@
 	- 2つ目は同様に日本語MT-Benchベンチマークで非常に高いパフォーマンスを示すQwen（Qwen/Qwen-14B-Chat）モデルです。
 	- デモ
 		- https://lightblue-qarasu.serveo.net/
-- 
+- WitherdMathが
 
 
 ## 12/25
@@ -4132,13 +4132,13 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 
 - LlamaIndex 0.6.0 - データに対する新しいクエリインターフェイス
 	- https://note.com/npaka/n/n4254fc549dc0
-- ChatGPT Code Interpr
+- ChatGPT Co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTc2MzE5NjEsLTIwNDg3NjAwNzgsLT
-EwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMw
-OTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNj
-MyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcs
-LTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1Mj
-A1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYs
-LTIwODYwMzY4OTldfQ==
+eyJoaXN0b3J5IjpbMTYxNDMwNDM3MSwtMjA0ODc2MDA3OCwtMT
+A3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5
+MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2Mz
+IsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0Nywt
+ODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMD
+UxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwt
+MjA4NjAzNjg5OV19
 -->
