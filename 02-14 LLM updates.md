@@ -91,8 +91,11 @@
 - From Google Gemini to OpenAI Q* (Q-Star): A Survey of Reshaping the Generative Artificial Intelligence (AI) Research Landscape
 	- https://arxiv.org/abs/2312.10868
 	- この包括的なサーベイでは、生成型人工知能（AI）の進化する風景を探り、特にMixture of Experts（MoE）、多モーダル学習、人工一般知能（AGI）への推測的な進歩が、生成型AIモデルの変革と研究の優先順位や応用分野に及ぼす影響に焦点を当てた。GoogleのGeminiやOpenAI Q*プロジェクトのような革新的な技術が、どのようにしてAIドメイン内での現状と未来の軌跡を再構成しているかを批判的に検討し、生成型AI研究の分類に対する影響分析を行った。
+	- 本研究では、AI開発において倫理的かつ人間中心の方法を組み込むことの重要性を強調し、社会的規範や福祉との整合性を確保することを目的とした、MoE、多モーダル性、AGIをバランスよくかつ良心的に使用する未来のAI研究に焦点を当てた戦略を提案した。
+- Chemprop: A Machine Learning Package for Chemical Property Prediction
+	- https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01250
+- Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4
 	- 
-- 
 
 
 ## 12/25
@@ -4113,17 +4116,13 @@ LLMの倫理的なふるまいを評価するためのマキャベリベンチ�
 -   LLMの倫理的なふるまいをさせるための、マキャベリベンチマーク
     -   [https://arxiv.org/abs/2304.03279](https://arxiv.org/abs/2304.03279 "https://arxiv.org/abs/2304.03279")
 -   LLaMA-Adapter:軽量なLoRAみたいなしくみらしい。
-    -   [https://arxiv.org/abs/2303.16199](https://arxiv.org/abs/2303.16199 "https://arxiv.org/abs/2303.16199")
--   DeepMindから "Formal Algorithms for Transformers"
-    -   [https://arxiv.org/abs/2207.09238](https://arxiv.org/abs/2207.09238 "https://arxiv.org/abs/2207.09238")
--   LLMに対して心理学的な評価（セラピー？）を行う枠組み
-    -   https://arxiv.org/abs/2207
+    -   [
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUwMjgwMTcsLTEwNzk2NjIyMTQsOT
-kyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4
-NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OT
-IyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1
-NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNj
-AyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTks
-LTkzOTU2NzYxM119
+eyJoaXN0b3J5IjpbMTg1ODA4MzA1MiwtMTA3OTY2MjIxNCw5OT
+IyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2
+MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5Mj
+IsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0
+NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MD
+I3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwt
+OTM5NTY3NjEzXX0=
 -->
