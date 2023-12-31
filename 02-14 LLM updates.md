@@ -181,7 +181,6 @@
 	-  Google Colab で MoMask を試す
 	- https://note.com/npaka/n/n4705c035a6fc?sub_rt=share_h
 	- 「**MoMask**」は、テキストからモーションを生成する手法です。生成したモーションは、「BVHファイル」でダウンロードすることができます。
-	- 
 - Building a Custom Agent
 	- https://docs.llamaindex.ai/en/latest/examples/agent/custom_agent.html#
 	- A big step beyond naive RAG is adding agentic reasoning, and llama_index　now lets you build custom agents from scratch 
@@ -189,6 +188,9 @@
 	- The abstraction is super simple, lets you define any step-wise reasoning behavior
 	- Can plug in directly on top of any RAG/SQL/other tools over your data
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/custom_agent.ipynb
+- 【ローカルLLM】言語モデルの知識編集を試す（Knowledge Editing）
+	- https://note.com/bakushu/n/n760cefbba0dc
+	- 
 
 
 ## 12/25
@@ -4133,14 +4135,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - Pluginを開発するOSSである、PlugnPlai and LangChainの例
 	- https://github.com/edreisMD/plugnplai/blob/master/examples/plugins_step_by_step.ipynb
 - HuggingFaceから、自然言語でAgentに指示を出したら画像でも文章でも音声でも出力してくれるモデルを勝手に選んで出力してくれるTransformers  Agent発表、
-	- https://huggingface.co/docs/transformers/transformers_agents
-- Microsoft社、Sam Altman氏が出資する核融合スタートアップであるHelion Energyと2028に電力購
+	- https://huggingface.co/docs/transform
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzMDAwNDk4LC0xNDAzNzQwMzI3LC0yMD
-Q4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEz
-OTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Mi
-wtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0x
-Mzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MT
-YxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Niwt
-MTc2NTM2MjM2XX0=
+eyJoaXN0b3J5IjpbMTM1NjcwMTQxOCwtMTQwMzc0MDMyNywtMj
+A0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQx
+Mzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2ND
+IsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwt
+MTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5Nz
+E2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYs
+LTE3NjUzNjIzNl19
 -->
