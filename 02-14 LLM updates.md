@@ -172,7 +172,13 @@
 	- You can now ask your simulated humanoid to perform actions, in REAL-TIME 
 -  LLM Compiler Agent Cookbook
 	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/agents/llm_compiler/llm_compiler.ipynb
-	- 
+	- 1. Plan: Generate an entire query plan with literals or template variables as arguments. 
+	- 2. Parse dependencies: Parse dependencies in query plan, output a DAG 
+	- 3. Execute: Use an async scheduler to continuously execute every set of tasks whose deps are met, until query plan is satisfied. 
+	- 4. [Optional] Re-plan: If the initial pass did not give the right answer, regenerate the plan.
+- MoMask: Generative Masked Modeling of 3D Human Motions
+	- https://github.com/EricGuo5513/momask-codes
+	- ColabでMoMaskを試し中。 T4で10秒くらいでText-to-Mothionされてる
 
 
 ## 12/25
@@ -4132,18 +4138,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://zenn.dev/tatsuromurata/articles/8e523cf2d0c2bc
 	- https://note.com/it_navi/n/nceffc6e8df35
 - LangChainに、arxiv用のretrieverが追加、Q&Aなどができる
-	- https://python.langchain.com/en/latest/modules/indexes/retrievers/examples/arxiv.html
-
-## 5/8
-LLamaIndex 0.6.0がリリースされ、データに対する新しいクエリインターフェイスが導入されました。ChatGPT Code Interpreterが登場し、プログラムの解釈と実行が可能になりました。
-Andrew Ngのプロンプトエンジニアリングの講義が提供され、開発者向けにプロンプトエンジニアリングのスキルが教授されます。Transformerのenc-dec間にinformation bottleneckを導入したVAE的な表現の正則化に関する研究が行われました。"Are Emergent Abilities of Large Language Models a Mirage?"と題された論文が公開され、LLMの新たな能力に関する議論が提起されました。
-JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に関する指針が提案されましたLangChainとOpenAIのGymnasiumが連携し、エージェントシミュレーションに関する利用事例が紹介されました。ディープラーニングによる自然言
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLT
-EwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMw
-OTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNj
-MyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcs
-LTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1Mj
-A1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYs
-LTIwODYwMzY4OTldfQ==
+eyJoaXN0b3J5IjpbNjkwODM4NDY1LC0xNDAzNzQwMzI3LC0yMD
+Q4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEz
+OTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Mi
+wtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0x
+Mzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MT
+YxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Niwt
+MTc2NTM2MjM2XX0=
 -->
