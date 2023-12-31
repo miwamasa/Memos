@@ -3,7 +3,8 @@
 
 ## 1/1
 
-
+- Build Hybrid Search from Scratch
+	- 
 
 ## 12/25
 
@@ -4090,14 +4091,13 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 	- https://arxiv.org/abs/2304.05332v1
 - シンボリックソルバとLLMを組み合わせるSolving Math Word Problems by Combining Language Models With Symbolic Solvers
 	- https://arxiv.org/abs/2304.09102
-- Text2Performer: Text-Driven Human Video Generation
-	- https://yumingj.github.io/projec
+- Text2Performer: Text-Driven Human Video Generatio
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTM0NDg1MjYsOTkyMjEwNTI3LDE0OD
-Y0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAx
-NjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mz
-ksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcw
-OTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNT
-Y2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2NzYxMywx
-MzExMDYyOTk4XX0=
+eyJoaXN0b3J5IjpbMTQ1OTg1NzE4NCw5OTIyMTA1MjcsMTQ4Nj
+QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
+NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
+wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
+NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1Nj
+YsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEz
+MTEwNjI5OThdfQ==
 -->
