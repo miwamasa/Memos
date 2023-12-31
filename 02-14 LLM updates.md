@@ -43,7 +43,11 @@
 		- 翻訳文章の点数付け(品質スコアリング)をうまくやる prompt を考案したい
 - "WaveCoder: Widespread and Versatile Enhanced Instruction Tuning with Refined Data Generation"
 	- https://arxiv.org/abs/2312.14187
-	- 
+	- Microsoftの研究者らは、LLMのコード生成タスクに役立つ高品質な指示データセット『CodeOcean』を開発したと報告しています
+	- 実験の結果、特定のモデルではHumanEvalベンチマークで16.9%もの改善を示したとのこと。 
+	- 指示データの品質がコードタスク性能に大きく影響することを裏付けた格好です。
+	- コードタスクの高品質指示データで構成されている 
+	- 多様なプログラミングタスクをカバーしている
 
 ## 12/25
 
@@ -4095,14 +4099,13 @@ GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開
 -   DatabircksからDoly2.0がリリース(OSSかつ商用利用可)
     -   [https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm")
 -   CMUの化学者による、LLMを使った合成実験に係る危険性についての露文
-    -   [https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm")
--   [@OpenAI](https://twitter.com/OpenAI "https://twitter.com/openai")の大天才研究者[@ilyasu](https://twitter.com/ilyasut "https://t
+    -   [https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm "https://www.da
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjg3MjEwNzMsOTkyMjEwNTI3LDE0OD
-Y0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAx
-NjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mz
-ksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcw
-OTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNT
-Y2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2NzYxMywx
-MzExMDYyOTk4XX0=
+eyJoaXN0b3J5IjpbMzQzMTA1Mjk5LDk5MjIxMDUyNywxNDg2ND
+EzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0
+MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC
+0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3
+MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Ni
+wtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMx
+MTA2Mjk5OF19
 -->
