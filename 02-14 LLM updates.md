@@ -163,7 +163,9 @@
 	- 2つ目は同様に日本語MT-Benchベンチマークで非常に高いパフォーマンスを示すQwen（Qwen/Qwen-14B-Chat）モデルです。
 	- デモ
 		- https://lightblue-qarasu.serveo.net/
-- WitherdMathが
+- WitherdMath-70BがWebLLMで動く!?
+	- Here's a 70 BILLION parameter ChatGPT-like model running totally locally on the web with WebGPU. Uses the upcoming float16 support that's currently only in Chrome Canary.
+	- https://webllm.mlc.ai/
 
 
 ## 12/25
@@ -4128,17 +4130,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 ## 5/8
 LLamaIndex 0.6.0がリリースされ、データに対する新しいクエリインターフェイスが導入されました。ChatGPT Code Interpreterが登場し、プログラムの解釈と実行が可能になりました。
 Andrew Ngのプロンプトエンジニアリングの講義が提供され、開発者向けにプロンプトエンジニアリングのスキルが教授されます。Transformerのenc-dec間にinformation bottleneckを導入したVAE的な表現の正則化に関する研究が行われました。"Are Emergent Abilities of Large Language Models a Mirage?"と題された論文が公開され、LLMの新たな能力に関する議論が提起されました。
-JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に関する指針が提案されましたLangChainとOpenAIのGymnasiumが連携し、エージェントシミュレーションに関する利用事例が紹介されました。ディープラーニングによる自然言語処理に関する書籍が出版され、NLPに興味を持つ方に向けたリソースが提供されます。"Causal Reasoning and Large Language Models: Opening a New Frontier for Causality"という論文が公開され、因果推論とLLMの関連についての研究が行われました。自己アテンション機構を使用して多電子系のシュレディンガー方程式を第一原理的に解く研究が行われOpenLLAMAが公開され、LLMを活用したデータクエリエンジンが提供されます。G.HintonによるGAI（General Artificial Intelligence）に関するインタビューがCNNで公開され、AIの未来についての議論が展開されました。"Chatbot Arena: Benchmarking LLMs in the Wild with Elo Ratings"という記事が公開され、LLMの性能評価に関する情報が提供されました。"TMR: Text-to-Motion Retrieval Using Contrastive 3D Human Motion Synthesis"と題された研究が行われ、テキストからヒューマンモーションを生成する技術が提案されました。
-
-- LlamaIndex 0.6.0 - データに対する新しいクエリインターフェイス
-	- https://note.com/npaka/n/n4254fc549dc0
-- ChatGPT Co
+JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に関する指針が提案されましたLangChainとOpenAIのGymnasiumが連携し、エージェントシミュレーションに関する利用事例が紹介されました。ディープラーニングによる自然言語処理に関する書籍が出版され、NLPに興味を持つ方に向けたリソースが提供されます。"Causal Reasoning and Large Language Models: Opening a New Frontier for Causality"という論文が公開され、因果推論とLLMの関連についての研究が行われました。自己アテンション機構を使用して多電子系のシュレディンガー方程式を第一原理的に解く研究が行われOpenLLAMAが公開され、LLMを活用したデータクエリエンジンが提供されます。G.HintonによるGAI（General Artificial Intelligence）に関するインタビューがCNNで公開され、AIの未来についての議論が展開されました。"Chatbot Arena: Benchmarking LLMs in the Wild with Elo Ratings"という記事が公開され、LLMの性能評価に関する情報が提供されました。"TM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDMwNDM3MSwtMjA0ODc2MDA3OCwtMT
-A3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5
-MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2Mz
-IsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0Nywt
-ODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMD
-UxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwt
-MjA4NjAzNjg5OV19
+eyJoaXN0b3J5IjpbLTEwMDEzMDU3NzAsLTIwNDg3NjAwNzgsLT
+EwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMw
+OTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNj
+MyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcs
+LTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1Mj
+A1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYs
+LTIwODYwMzY4OTldfQ==
 -->
