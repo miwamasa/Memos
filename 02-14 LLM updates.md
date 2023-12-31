@@ -180,11 +180,15 @@
 	- https://github.com/EricGuo5513/momask-codes
 	-  Google Colab で MoMask を試す
 	- https://note.com/npaka/n/n4705c035a6fc?sub_rt=share_h
-	- ColabでMoMaskを試し中。 T4で10秒くらいでText-to-Mothionされてる
+	- 「**MoMask**」は、テキストからモーションを生成する手法です。生成したモーションは、「BVHファイル」でダウンロードすることができます。
+	- 
 - Building a Custom Agent
 	- https://docs.llamaindex.ai/en/latest/examples/agent/custom_agent.html#
 	- A big step beyond naive RAG is adding agentic reasoning, and llama_index　now lets you build custom agents from scratch 
 	- In our example we show you how to augment a router with retry capabilities.
+	- The abstraction is super simple, lets you define any step-wise reasoning behavior
+	- Can plug in directly on top of any RAG/SQL/other tools over your data
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/custom_agent.ipynb
 
 
 ## 12/25
@@ -4130,19 +4134,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://github.com/edreisMD/plugnplai/blob/master/examples/plugins_step_by_step.ipynb
 - HuggingFaceから、自然言語でAgentに指示を出したら画像でも文章でも音声でも出力してくれるモデルを勝手に選んで出力してくれるTransformers  Agent発表、
 	- https://huggingface.co/docs/transformers/transformers_agents
-- Microsoft社、Sam Altman氏が出資する核融合スタートアップであるHelion Energyと2028に電力購入契約
-	- https://www.businessinsider.jp/post-269773
-	- 加速器で、重水素とHe-3を加速させて衝突時に、磁場で圧縮して、融合させて、膨張の力による磁場の変化から直接電力を（水とか蒸気とかを使わずに）得るという仕組み。
-	- OpenAIはますます、Microsoftと一蓮托生に、、、、
-- 神戸大学、「牧野」先生、不偏分散の自由度がn-1である理由を失念。
-	- https://twitter.com/jun_makino/status/1657229042121314304?s=20
-	- 牧野先生ご紹
+- Microsoft社、Sam Altman氏が出資する核融合スタートアップであるHelion Energyと2028に電力購
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE4Nzg1MTMsLTE0MDM3NDAzMjcsLT
-IwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0
-MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNj
-QyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mzks
-LTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOT
-cxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2
-LC0xNzY1MzYyMzZdfQ==
+eyJoaXN0b3J5IjpbMjMzMDAwNDk4LC0xNDAzNzQwMzI3LC0yMD
+Q4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEz
+OTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Mi
+wtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0x
+Mzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MT
+YxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Niwt
+MTc2NTM2MjM2XX0=
 -->
