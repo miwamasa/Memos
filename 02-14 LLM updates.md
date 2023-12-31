@@ -96,7 +96,29 @@
 	- https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01250
 - Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4
 	- https://arxiv.org/abs/2312.16171
-	- 
+	- プロンプトの原則26ヶ条をまとめた論文が公開されています
+	- LLaMA-1/2, GPT-3.5/4を使用してスケール評価をした結果、これらの原則が応答品質を向上させると確認できているとのことです
+	- ■構造につい
+		- 誰のためのタスクなのかを書く
+		- 出力形式を指定する
+		- フォーマットする際には合図を送る
+	- ■情報について
+		- 難易度を下げる指示を活用する
+		- バイアスのない回答を求める一文を添える
+		- 出力した内容の理解度を試す
+	- ■相互作用について
+		- モデルからユーザーに質問させて情報を得させる
+		- 必要な情報をすべて加えることを明示する
+
+■スタイルについて
+
+- 禁止させる際には「罰せられます」と書く
+- モデルに丁寧語を使う必要はない
+- より良い解決策にはチップを与えると書く
+
+■コーディングタスクについて
+
+- 生成コードが複数ファイルにわたる場合は効率化する
 
 
 ## 12/25
@@ -4112,13 +4134,9 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 	- https://github.com/gventuri/pandas-ai
 
 ## 4/10
-LLMの倫理的なふるまいを評価するためのマキャベリベンチマークが発表されました。LLaMA-Adapterと呼ばれる、軽量なLoRAのようなシステムが紹介されました。DeepMindからは、Transformersのための形式的なアルゴリズムに関する研究が発表されました。LLMに対する心理学的な評価やセラピーを行うための枠組みが提案されました。リーガルなGPT-4ベースのサービスであるHarveyが公開されました。京大2回生の統計力学の期末試験の問題が論文になった話があります。AzureのOpenAIがEmbeddingのバージョン2をリリースし、トークン数が2,048から8,191に増加しました。MatChaと呼ばれるシステムが、グラフなどの入力から推論やQ&Aを行うことができるようになりました。gpt4allの公式チャットUIがリリースされました。Microsoft ResearchのSparks of AGI: early experiments with GPT-4に関する説明がYouTubeで提供されています。
-
--   LLMの倫理的なふるまいをさせるための、マキャベリベンチマーク
-    -   [https://arxiv.org/abs/2304.03279](https://arxiv.org/abs/2304.03279 "https://arxiv.org/abs/2304.03279")
--   LLaMA-
+LLMの倫理的なふるまいを評価するためのマキャベリベンチマークが発表されました。LLaMA-Adapterと呼ばれる、軽量なLoRAのようなシステムが紹介されました。DeepMindからは、Transformersのための形式的なアルゴリズムに関する研究が発表されました。LLMに対する心理学的な評価やセラピーを行うための枠組みが提案されました。リーガルなGPT-4ベースのサービスであるHarveyが公開されました。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDU3NjAwOCwtMTA3OTY2MjIxNCw5OT
+eyJoaXN0b3J5IjpbLTQ0OTUzOTYzOSwtMTA3OTY2MjIxNCw5OT
 IyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2
 MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5Mj
 IsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0
