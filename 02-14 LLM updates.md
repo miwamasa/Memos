@@ -79,6 +79,8 @@
 	- https://huggingface.co/spaces/elyza/ELYZA-japanese-Llama-2-13b-instruct-demo
 -  Google Colab で ELYZA-japanese-Llama-2-13B を試す
 	- https://note.com/npaka/n/na7f489d0932a?sub_rt=share_h
+	- **Google Colab Pro/Pro+のA100で動作確認しています。**
+- 
 
 ## 12/25
 
@@ -4108,14 +4110,13 @@ LLMの倫理的なふるまいを評価するためのマキャベリベンチ�
 -   京大２回生の統計力学の期末試験の問題が、論文になった話、
     -   [https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001](https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001 "https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001")
 -   AzureのOpenAI、Embeddingのバージョン２が登場、トークン数が2,048→8,191と激増
-    -   [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#embeddings-models-1](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#embeddings-models-1 "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#embeddings-models-1")
--   MatCha: グラフとかの入力、からも推論やQ&Aができる
+    -   [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#embeddings-models-1](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#embeddings-models-1 "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#embeddi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjYxMzIzMCw5OTIyMTA1MjcsMTQ4Nj
-QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
-NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
-wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
-NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1Nj
-YsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEz
-MTEwNjI5OThdfQ==
+eyJoaXN0b3J5IjpbLTE5Njk1ODUwNDksOTkyMjEwNTI3LDE0OD
+Y0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAx
+NjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mz
+ksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcw
+OTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNT
+Y2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2NzYxMywx
+MzExMDYyOTk4XX0=
 -->
