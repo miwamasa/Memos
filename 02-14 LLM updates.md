@@ -3,7 +3,9 @@
 
 ## 1/1
 
-PowerInferってLLM推論に固有の高い局所性を利用することで、高速推論を実現するんだって。Colabでも試せるし、llama.cppの最大11.69倍の速度って本当か？。一方Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってGPU推論と組み合わせることが可能に。Guidanceが大幅に改定されて、Llama.cppの利用も使いやすくなったらしい。MixtralのようなMoEモデルとPowerInferのようなスマート推論を組み合わせて、RTX4090のようなグラボを刺した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになるって本当か?。日本LLM勢では「ELYZA-japanese-Llama-2-13b」のリリースがビッグニュース。GPT-3.5 越えらしい。早速Colab で動かしたり、gguf版がリリースされとる。日本語LLMをPPOでファインチューニングする例がやたら細かい。WizardMath-70BがWebLLMで動くようになったのか。知識編集という技術を使うと、ファインチューニングしなくても、知識を定着できる第3の方法らしい。日本語モデルの長文QA性能の比較てのも役に立ちそうだ。プロンプトの原則26ヶ条というのも日常役に立つな。
+PowerInferってLLM推論に固有の高い局所性を利用することで、高速推論を実現するんだって。Colabでも試せるし、llama.cppの最大11.69倍の速度って本当か？。一方Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってGPU推論と組み合わせることが可能に。Guidanceが大幅に改定されて、Llama.cppの利用も使いやすくなったらしい。MixtralのようなMoEモデルとPowerInferのようなスマート推論を組み合わせて、RTX4090のようなグラボを刺した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになるって本当か?。推論の高速化ではvLLMってのもある。
+
+日本LLM勢では「ELYZA-japanese-Llama-2-13b」のリリースがビッグニュース。GPT-3.5 越えらしい。早速Colab で動かしたり、gguf版がリリースされとる。日本語LLMをPPOでファインチューニングする例がやたら細かい。WizardMath-70BがWebLLMで動くようになったのか。知識編集という技術を使うと、ファインチューニングしなくても、知識を定着できる第3の方法らしい。日本語モデルの長文QA性能の比較てのも役に立ちそうだ。プロンプトの原則26ヶ条というのも日常役に立つな。
 
 - Build Hybrid Search from Scratch
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/vector_stores/qdrant_hybrid.ipynb
@@ -4127,10 +4129,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - DeepL日本に拠点を置く？
 	- https://newsdig.tbs.co.jp/articles/-/480597?display=1
 - GoogleのPhotorealistic 3D Tilesを[http://deck.gl](https://t.co/j5x1oduUK1)で表示、軽いらしい
-	- https://twitter.com/syanseto/status/1656586481094520838?s=20
-	-
+	- https://twitter.com/syanseto/status/165658648109452083
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzQyOTc5MSwtMTQwMzc0MDMyNywtMj
+eyJoaXN0b3J5IjpbLTMxODEwMTkyMywtMTQwMzc0MDMyNywtMj
 A0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQx
 Mzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2ND
 IsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwt
