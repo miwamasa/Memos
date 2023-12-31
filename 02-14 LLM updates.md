@@ -3,7 +3,9 @@
 
 ## 1/1
 
-PowerInferってひと手間必要だけど、llama.cppより早いらしい。Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってGPU推論と組み合わせることが可能に。Guidanceが大幅に改定されて、Llama.cppの利用も使いやすくなったらしい。MixtralのようなMoEモデルとPowerInferのようなスマート推論を組み合わせて、RTX4090のようなグラボを刺した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになるって本当か?。日本LLM勢では「ELYZA-japanese-Llama-2-13b」のリリースがビッグニュース。GPT-3.5 越えらしい。早速Colab で動かしたり、gguf版がリリースされとる。日本語LLMをPPOでファインチューニングする例がやたら細かい。プロンプトの原則26ヶ条というのも役に立つな。
+PowerInferってひと手間必要だけどLLM推論に固有の高い局所性を利用することで、高速推論を実現するんだって。llama.cppより早いらしい。Colabでも試せるし。Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってGPU推論と組み合わせることが可能に。Guidanceが大幅に改定されて、Llama.cppの利用も使いやすくなったらしい。MixtralのようなMoEモデルとPowerInferのようなスマート推論を組み合わせて、RTX4090のようなグラボを刺した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになるって本当か?。日本LLM勢では「ELYZA-japanese-Llama-2-13b」のリリースがビッグニュース。GPT-3.5 越えらしい。早速Colab で動かしたり、gguf版がリリースされとる。日本語LLMをPPOでファインチューニングする例がやたら細かい。WizardMath-70BがWebLLMで動くようになったのか。
+
+プロンプトの原則26ヶ条というのも役に立つな。
 
 - Build Hybrid Search from Scratch
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/vector_stores/qdrant_hybrid.ipynb
@@ -4129,15 +4131,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - GoogleのPhotorealistic 3D Tilesを[http://deck.gl](https://t.co/j5x1oduUK1)で表示、軽いらしい
 	- https://twitter.com/syanseto/status/1656586481094520838?s=20
 	- deck.lg(TerrainExtension) + Google Photorealistic 3D Tiles 
-	-  Google 3D tileで読み込んだ3Dモデルの上にTerrainExtensionを使ってGeoJSONポリゴンをオーバーレイ
-- 日本語T5モデルの公開 by レトリバ
-	- https://note.com
+	-  Google 3D tileで読み込んだ3Dモデル
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5NjEyOTY2LC0xNDAzNzQwMzI3LC0yMD
-Q4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEz
-OTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Mi
-wtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0x
-Mzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MT
-YxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Niwt
-MTc2NTM2MjM2XX0=
+eyJoaXN0b3J5IjpbMTcxNDk5NTI2MywtMTQwMzc0MDMyNywtMj
+A0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQx
+Mzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2ND
+IsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwt
+MTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5Nz
+E2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYs
+LTE3NjUzNjIzNl19
 -->
