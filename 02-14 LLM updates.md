@@ -95,6 +95,7 @@
 - Chemprop: A Machine Learning Package for Chemical Property Prediction
 	- https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01250
 - Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4
+	- https://arxiv.org/abs/2312.16171
 	- 
 
 
@@ -4115,10 +4116,9 @@ LLMの倫理的なふるまいを評価するためのマキャベリベンチ�
 
 -   LLMの倫理的なふるまいをさせるための、マキャベリベンチマーク
     -   [https://arxiv.org/abs/2304.03279](https://arxiv.org/abs/2304.03279 "https://arxiv.org/abs/2304.03279")
--   LLaMA-Adapter:軽量なLoRAみたいなしくみらしい。
-    -   [
+-   LLaMA-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODA4MzA1MiwtMTA3OTY2MjIxNCw5OT
+eyJoaXN0b3J5IjpbMTI1MDU3NjAwOCwtMTA3OTY2MjIxNCw5OT
 IyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2
 MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5Mj
 IsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0
