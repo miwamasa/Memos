@@ -82,8 +82,10 @@
 	- **Google Colab Pro/Pro+のA100で動作確認しています。**
 - Semi-Structured Image QA with Gemin
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/multi_modal/structured_image_retrieval.ipynb
-	- llamaindexとGeminiのコラボで、レシートからもじにんしきみたいな
-	- We use a very relevant and pr
+	- llamaindexとGeminiのコラボで、レシートにたいするQ&Aにみたいなでも
+	- We use a very relevant and practical dataset: SROIE v2, which contains images of receipts/invoices.
+- mmnga/ELYZA-japanese-Llama-2-13b-fast-instruct-gguf
+	- 
 
 ## 12/25
 
@@ -4112,14 +4114,13 @@ LLMの倫理的なふるまいを評価するためのマキャベリベンチ�
     -   [https://harvey-ai.notion.site/Careers-Harvey-c9e804fe422e4316bdfde9fe74ed6b06](https://harvey-ai.notion.site/Careers-Harvey-c9e804fe422e4316bdfde9fe74ed6b06 "https://harvey-ai.notion.site/careers-harvey-c9e804fe422e4316bdfde9fe74ed6b06")
 -   京大２回生の統計力学の期末試験の問題が、論文になった話、
     -   [https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001](https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001 "https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001")
--   AzureのOpenAI、Embeddingのバージョン２が登場、トークン数が2,048→8,191と激増
-    -   [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concep
+-   Azur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI2MDkxNSw5OTIyMTA1MjcsMTQ4Nj
-QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
-NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
-wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
-NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1Nj
-YsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEz
-MTEwNjI5OThdfQ==
+eyJoaXN0b3J5IjpbNDI4NjI5NTUxLDk5MjIxMDUyNywxNDg2ND
+EzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0
+MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC
+0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3
+MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Ni
+wtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMx
+MTA2Mjk5OF19
 -->
