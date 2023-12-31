@@ -90,6 +90,9 @@
 	- 日本語の語彙を追加して1.8倍高速化したfast版になります
 - From Google Gemini to OpenAI Q* (Q-Star): A Survey of Reshaping the Generative Artificial Intelligence (AI) Research Landscape
 	- https://arxiv.org/abs/2312.10868
+	- この包括的なサーベイでは、生成型人工知能（AI）の進化する風景を探り、特にMixture of Experts（MoE）、多モーダル学習、人工一般知能（AGI）への推測的な進歩が、生成型AIモデルの変革と研究の優先順位や応用分野に及ぼす影響に焦点を当てた。GoogleのGeminiやOpenAI Q*プロジェクトのような革新的な技術が、どのようにしてAIドメイン内での現状と未来の軌跡を再構成しているかを批判的に検討し、生成型AI研究の分類に対する影響分析を行った。
+	- 
+- 
 
 
 ## 12/25
@@ -4114,15 +4117,13 @@ LLMの倫理的なふるまいを評価するためのマキャベリベンチ�
 -   DeepMindから "Formal Algorithms for Transformers"
     -   [https://arxiv.org/abs/2207.09238](https://arxiv.org/abs/2207.09238 "https://arxiv.org/abs/2207.09238")
 -   LLMに対して心理学的な評価（セラピー？）を行う枠組み
-    -   [https://arxiv.org/abs/2207.09238](https://arxiv.org/abs/2207.09238 "https://arxiv.org/abs/2207.09238")
--   リーガルなGPT-4ベースのサービス、Harvey（米ドラマのSUITSの主人公の一人がハーベイ）
-    -   [https://harvey-ai.notion.site/Careers-Harvey-c9e804fe422e4316bdfde9fe74ed6b06](https://harvey-ai.notion.
+    -   https://arxiv.org/abs/2207
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0OD
-Y0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAx
-NjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mz
-ksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcw
-OTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNT
-Y2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2NzYxMywx
-MzExMDYyOTk4XX0=
+eyJoaXN0b3J5IjpbLTE2ODUwMjgwMTcsLTEwNzk2NjIyMTQsOT
+kyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4
+NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OT
+IyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1
+NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNj
+AyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTks
+LTkzOTU2NzYxM119
 -->
