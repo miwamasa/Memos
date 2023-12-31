@@ -63,7 +63,9 @@
 	- https://arxiv.org/abs/2312.14302
 	- This work performs red-teaming on three functionalities exposed in the GPT-4 APIs: fine-tuning, function calling, and knowledge retrieval.
 	- 1) Fine-tuning on as few as 15 harmful examples or 100 benign examples can remove core safeguards from GPT-4. 
-	- 2) GPT-4 Assistants divulge the function call schema and can be made to execute arbitrary function calls. 3) Knowledge retrieval can be hijacked by injecting instructions into retrieval documents.
+	- 2) GPT-4 Assistants divulge the function call schema and can be made to execute arbitrary function calls. 
+	- 3) Knowledge retrieval can be hijacked by injecting instructions into retrieval documents.
+- 
 
 ## 12/25
 
@@ -4107,9 +4109,9 @@ DatabricksからDoly2.0がリリースされました。Doly2.0はオープン�
 CMUの化学者による、LLMを使った合成実験の危険性に関する論文が公開されました。
 OpenAIの研究者[@ilyasu](https://twitter.com/ilyasut)による、LLMにおけるビジョンの重要性に関するツイートとGPT-4にビジョンが含まれていることを示すビデオがTwitterで公開されています。
 GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開されました。
-触媒開発にGPTを活用する研究が行われており、ベイズ最適化とLLMを組み合わせて合成条件を見つける方法が紹介されています。さらに、i
+触媒開発にGPTを活用する研究が行われており、ベイズ最適化とLLMを組み合わせて合成条件を見つける方法が紹介されてい
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjM0NTA3Niw5OTIyMTA1MjcsMTQ4Nj
+eyJoaXN0b3J5IjpbMTg0MjkxNjE5OCw5OTIyMTA1MjcsMTQ4Nj
 QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
 NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
 wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
