@@ -26,12 +26,15 @@
 	- https://blog.shikoan.com/llama-cpp-local/
 	- CPU推論の時は5～8tpsだった速度が、GPU推論では60tpsに爆速化したらしい。（グラボはRTX A6000）↓
 - 覚醒したguidanceを使ってローカルLLMからノイズの無い生成してもらい、４択クイズとかjson生成させる
+	- https://six-loganberry-ba7.notion.site/23-12-25-guidance-LLM-json-fd4cf1604a3242a18b6b84561ed41f5a
+	- 今回はLlama.cpp、Nekomata、guidanceの三つのブレークスルーを組み合わせて遊んでみた
 	- Llama.cppがCPU推論だけでなく、GPUオフロードによってGPU推論する事も可能になった。しかも、オフロードするレイヤー数を調整できるから、グラボのVRAMに応じて半分だけはGPU、半分はCPU推論なんて事も可能だ。
 	- Nekomataの公開によってついに我々は日本語でそれなりに賢くて軽量なローカルLLMを手に入れたのだ！
 	- QwenベースのNekomataも同様にllama.cppで動作するようになってる
 	- guidanceはバージョン0.1にアップデートされ、大幅に刷新された。もうワケ分からんテンプレート記法は撤廃された。pythonだけでスッと書けるようになった。
 	- さらに、llama-cpp-python（llama.cppのpythonラッパー）も統合された！これにより、llama.cppの色んなggufファイルがguidanceで活用できるようになったわけだ。つまり、Nekomataもguidanceで使う事ができるという事だ。
 	- つまり、MixtralのようなMoEモデルとPowerInferのようなスマート推論が組み合わされば、RTX4090のようなコンシューマグラボを搭載した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになる事が見込める。
+- 
 	- 
 
 ## 12/25
@@ -4089,10 +4092,9 @@ GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開
     -   [https://twitter.com/i/status/1645752089140957187](https://twitter.com/i/status/1645752089140957187 "https://twitter.com/i/status/1645752089140957187")
 -   GPT4ALLを使ったApatch2ライセンスのチャットボッドOSSが公開
     -   [https://github.com/nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all "https://github.com/nomic-ai/gpt4all")
--   GPTを用いた触媒開発。ベイズ最適化とLLMを組み合わせて、合成条件を見つける。しかもin context learningを使うので、チューニングも不要！！！（素のGPTでOKということ）。ガウス過程回帰と同程度の性能。逆設計も可能
-    -   [https://arxiv.org/abs/2304.05341v1](https://arxiv.org/abs/2304.05341v1 "https://arxiv.org/abs/2304.053
+-   GPTを用いた触媒開発。ベイズ最適化とLLMを組み合わせて、合成条件を見つける。しかもin context learningを使うの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDAwMDkwMyw5OTIyMTA1MjcsMTQ4Nj
+eyJoaXN0b3J5IjpbLTkzMjcyNDAzMyw5OTIyMTA1MjcsMTQ4Nj
 QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
 NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
 wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
