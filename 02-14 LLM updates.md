@@ -85,7 +85,12 @@
 	- llamaindexとGeminiのコラボで、レシートにたいするQ&Aにみたいなでも
 	- We use a very relevant and practical dataset: SROIE v2, which contains images of receipts/invoices.
 - mmnga/ELYZA-japanese-Llama-2-13b-fast-instruct-gguf
-	- 
+	- https://huggingface.co/mmnga/ELYZA-japanese-Llama-2-13b-fast-instruct-gguf
+	- LYZAさんが公開されているELYZA-japanese-Llama-2-13b-fast-instructのggufあります
+	- 日本語の語彙を追加して1.8倍高速化したfast版になります
+- From Google Gemini to OpenAI Q* (Q-Star): A Survey of Reshaping the Generative Artificial Intelligence (AI) Research Landscape
+	- https://arxiv.org/abs/2312.10868
+
 
 ## 12/25
 
@@ -4111,16 +4116,13 @@ LLMの倫理的なふるまいを評価するためのマキャベリベンチ�
 -   LLMに対して心理学的な評価（セラピー？）を行う枠組み
     -   [https://arxiv.org/abs/2207.09238](https://arxiv.org/abs/2207.09238 "https://arxiv.org/abs/2207.09238")
 -   リーガルなGPT-4ベースのサービス、Harvey（米ドラマのSUITSの主人公の一人がハーベイ）
-    -   [https://harvey-ai.notion.site/Careers-Harvey-c9e804fe422e4316bdfde9fe74ed6b06](https://harvey-ai.notion.site/Careers-Harvey-c9e804fe422e4316bdfde9fe74ed6b06 "https://harvey-ai.notion.site/careers-harvey-c9e804fe422e4316bdfde9fe74ed6b06")
--   京大２回生の統計力学の期末試験の問題が、論文になった話、
-    -   [https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001](https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001 "https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001")
--   Azur
+    -   [https://harvey-ai.notion.site/Careers-Harvey-c9e804fe422e4316bdfde9fe74ed6b06](https://harvey-ai.notion.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4NjI5NTUxLDk5MjIxMDUyNywxNDg2ND
-EzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0
-MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC
-0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3
-MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Ni
-wtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMx
-MTA2Mjk5OF19
+eyJoaXN0b3J5IjpbLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0OD
+Y0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAx
+NjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mz
+ksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcw
+OTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNT
+Y2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2NzYxMywx
+MzExMDYyOTk4XX0=
 -->
