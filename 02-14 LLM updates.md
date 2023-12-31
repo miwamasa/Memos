@@ -66,6 +66,9 @@
 	- 1) Fine-tuning on as few as 15 harmful examples or 100 benign examples can remove core safeguards from GPT-4. 
 	- 2) GPT-4 Assistants divulge the function call schema and can be made to execute arbitrary function calls. 
 	- 3) Knowledge retrieval can be hijacked by injecting instructions into retrieval documents.
+-  Nejumi LLMリーダーボード Neo
+	- https://wandb.ai/wandb-japan/llm-leaderboard/reports/Nejumi-Leaderboard-Neo--Vmlldzo2MTkyMTU0
+	- 一問一答形式のllm-jp-evalと対話で生成能力を評価するMT-Benchで日本語LLMを総合評価
 - 
 
 ## 12/25
@@ -4106,11 +4109,9 @@ LLMの倫理的なふるまいを評価するためのマキャベリベンチ�
 
 ## 4/17
 今井むつみ先生の講演「AI時代に必要な学びと教育ー認知科学からの視点」が2023年3月29日にYouTubeで配信されます
-DatabricksからDoly2.0がリリースされました。Doly2.0はオープンソースであり、商用利用も可能なインストラクション調整型LLMです。
-CMUの化学者による、LLMを使った合成実験の危険性に関する論文が公開されました。
-OpenAIの研究者[@ilyasu](https://twitter.com/ilyasut)による、LLMにおけるビジョンの重要性に関するツイートとGPT-4にビジョンが含まれていることを示すビデオがTwitterで
+DatabricksからDoly2.0がリリースされました。Doly2.0はオープンソースであり、商用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyNDg3Mjk4LDk5MjIxMDUyNywxNDg2ND
+eyJoaXN0b3J5IjpbNjkwMDg0MTMzLDk5MjIxMDUyNywxNDg2ND
 EzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0
 MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC
 0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3
