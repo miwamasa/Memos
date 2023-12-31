@@ -37,7 +37,11 @@
 - Gemini Pro で日本語文章の自動評価を行う試み
 	- https://zenn.dev/syoyo/articles/677d898284dd9a
 	- GPT-4 で自動評価は ELYZA ちゃん始め, みなさん多くやられているので, 今回は Gemini Pro 使ってみます.
-	- 
+	- ToDo
+		- API で ELYZA-Task 100 を一括評価する
+		- open-ended task 用に, "text-book" like なタスクと評価基準が作成できないか検討してみる(学習指導要領あたりを参考にいい感じに作れたりしないかしらん)
+		- 翻訳文章の点数付け(品質スコアリング)をうまくやる prompt を考案したい
+- 
 
 ## 12/25
 
@@ -4091,11 +4095,9 @@ GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開
 -   CMUの化学者による、LLMを使った合成実験に係る危険性についての露文
     -   [https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm")
 -   [@OpenAI](https://twitter.com/OpenAI "https://twitter.com/openai")の大天才研究者[@ilyasu](https://twitter.com/ilyasut "https://twitter.com/ilyasut")による、LLMにおけるvisonの重要性と、GPT-4にはvisonも入っているよビデオ
-    -   [https://twitter.com/i/status/1645752089140957187](https://twitter.com/i/status/1645752089140957187 "https://twitter.com/i/status/1645752089140957187")
--   GPT4ALLを使ったApatch2ライセンスのチャットボッドOSSが公開
-    -   [https://github.com/nomic-ai/gpt4all](h
+    -   [https://twitter.com/i/status/1645752089140957187](https://
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDExOTY5OSw5OTIyMTA1MjcsMTQ4Nj
+eyJoaXN0b3J5IjpbMjAyODUzODE3OCw5OTIyMTA1MjcsMTQ4Nj
 QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
 NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
 wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
