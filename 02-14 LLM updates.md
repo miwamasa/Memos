@@ -137,6 +137,10 @@
 	- 「**PowerInfer**」は、家庭用の単一GPUのPCでもLLMを高速に実行できるLLM推論エンジンです。ニューロンの活性化におけるべき乗則分布によって特徴付けられる、LLM推論に固有の高い局所性を利用することで、高速推論を実現しています。
 	- モデルの精度を維持しながら、llama.cppの最大11.69倍の速度を実現しています
 	- 70Bが 5.64 トークン/秒でVRAMも33.3GBでした。
+-  Self-Supervised Generative Models for Crystal Structures
+	- https://arxiv.org/abs/2312.14485
+	- 事前学習済みモデルによる結晶構造・物性予測の論文。
+	- 結晶構造中の原子をマスクor変異させてデータ生成し、自己教師あり学習で事学習済みモデルを構築。これを使い柔軟な構造予測と物性予測を実現できた
 - 
 
 
@@ -4132,16 +4136,13 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 - TMR: Text-to-Motion Retrieval Using Contrastive 3D Human Motion Synthesis
 	- https://mathis.petrovich.fr/tmr/
 - LLMs & Causal Reasoning
-	- https://arxiv.org/abs/2305.00050
-- LangChainのv0.0.139からv0.0.151までの差分を整理（もくもく会向け）
-	- https://note.com/mahlab/n/ne29d4bfb1d45
-- LLAMAindexの新しい抽象化API,brand new “router” abstraction in order to build powerful,
+	- https:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyNTMxMzc1LC0xMDc5NjYyMjE0LDk5Mj
-IxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYz
-NDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMi
-wxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3
-MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMj
-csMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05
-Mzk1Njc2MTNdfQ==
+eyJoaXN0b3J5IjpbMjA0NDQwNDUyOCwtMTA3OTY2MjIxNCw5OT
+IyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2
+MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5Mj
+IsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0
+NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MD
+I3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwt
+OTM5NTY3NjEzXX0=
 -->
