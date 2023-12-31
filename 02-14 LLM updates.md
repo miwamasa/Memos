@@ -69,7 +69,13 @@
 -  Nejumi LLMリーダーボード Neo
 	- https://wandb.ai/wandb-japan/llm-leaderboard/reports/Nejumi-Leaderboard-Neo--Vmlldzo2MTkyMTU0
 	- 一問一答形式のllm-jp-evalと対話で生成能力を評価するMT-Benchで日本語LLMを総合評価
-- 
+- 130億パラメータの「Llama 2」をベースとした日本語LLM「ELYZA-japanese-Llama-2-13b」を公開しました（商用利用可）
+	- https://note.com/elyza/n/n5d42686b60b7
+	- ELYZA は「Llama 2 13B」をベースとした商用利用可能な日本語LLMである「ELYZA-japanese-Llama-2-13b」シリーズを一般公開しました。
+	- 前回公開の 7B シリーズからベースモデルおよび学習データの大規模化を図ることで、既存のオープンな日本語LLMの中で最高性能、GPT-3.5 （text-davinci-003） も上回る性能となりました。
+	- また、推論の高速化を実現したチャット型デモを併せて公開しています。
+-  ELYZA-japanese-Llama-2-13b-instructのデモ
+	- https://huggingface.co/spaces/elyza/ELYZA-japanese-Llama-2-13b-instruct-demo
 
 ## 12/25
 
@@ -4103,19 +4109,13 @@ LLMの倫理的なふるまいを評価するためのマキャベリベンチ�
 -   MatCha: グラフとかの入力、からも推論やQ&Aができる。 by GoogleAI
     -   [https://arxiv.org/abs/2212.09662](https://arxiv.org/abs/2212.09662 "https://arxiv.org/abs/2212.09662")
 -   gpt4allの公式チャットUIがリリース
-    -   [https://github.com/nomic-ai/gpt4all-ui](https://github.com/nomic-ai/gpt4all-ui "https://github.com/nomic-ai/gpt4all-ui")
--   MS ResearchのSparks of AGI: early experiments with GPT-4の著者による説明。。
-    -   [https://www.youtube.com/watch?v=qbIk7-JPB2c&t=1023s](https://www.youtube.com/watch?v=qbIk7-JPB2c&t=1023s "https://www.youtube.com/watch?v=qbik7-jpb2c&t=1023s")
-
-## 4/17
-今井むつみ先生の講演「AI時代に必要な学びと教育ー認知科学からの視点」が2023年3月29日にYouTubeで配信されます
-DatabricksからDoly2.0がリリースされました。Doly2.0はオープンソースであり、商用
+    -   [https://gi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwMDg0MTMzLDk5MjIxMDUyNywxNDg2ND
-EzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0
-MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC
-0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3
-MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Ni
-wtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMx
-MTA2Mjk5OF19
+eyJoaXN0b3J5IjpbMTg3MDQ4OTU0Miw5OTIyMTA1MjcsMTQ4Nj
+QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
+NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
+wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
+NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1Nj
+YsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEz
+MTEwNjI5OThdfQ==
 -->
