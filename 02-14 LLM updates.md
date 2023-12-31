@@ -11,6 +11,9 @@
 - Ferret: An End-to-End MLLM that Accept Any-Form Referring and Ground Anything in Response.
 	- https://github.com/apple/ml-ferretFO
 	- Apple releases Ferret
+- OpenAssistant Conversations -- Democratizing Large Language Model Alignment
+	- https://huggingface.co/OpenAssistant
+	- https://projects.laion.ai/Open-Assistant/blog/
 - 
 
 ## 12/25
@@ -4081,14 +4084,9 @@ CMUからは大規模言語モデル（LLM）に関する興味深い論文が�
 一方、Stability AIはオープンソースのLLMであるStableLMのスイートを導入し、LLMの安定性に関する議論が進行中です。MicrosoftはビジュアルなLLMを使用したアプリ開発環境を提案し、LLMを使用したアプリ開発に関するベストプラクティスについての記事も公開されています。
 Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを紹介し、プログラミング言語生成ツールであるBardを発表しました。化学の分野でも、生成モデルが進化し、新たなパラダイムとして取り上げられています。
 また、大規模言語モデルの驚異と脅威についての特別講演が東京工業大学の岡崎直観教授によって行われ、SQLクエリ生成など、ChatGPTの新しい応用例も紹介されています。
-最後に、LLM向けのプログラミング言語であるLMQL（Language Model Query Language）やLangChainの新機能であるContextual Compression Retrieverについても言及されています。これらの情報は、LLM技術の最新動向を把握するのに役立つでしょう。
-
-
-- Microsoft のSemantic KernelのPythonバインディングが発表
-	- https://github.com/microsoft/semantic-kernel/blob/main/python/README.md
-- gist tokenによりプロンプトを圧縮する論文(2
+最後に、LLM向けのプログラミング言語であるLMQL（Language Model Query Language）やLangChainの新機能であるContextual Compression Retrieverについても言及されています。これらの情報は、LLM技術の最新動
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDA3MzcwMSw5OTIyMTA1MjcsMTQ4Nj
+eyJoaXN0b3J5IjpbLTIwMTQwODk4Niw5OTIyMTA1MjcsMTQ4Nj
 QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
 NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
 wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
