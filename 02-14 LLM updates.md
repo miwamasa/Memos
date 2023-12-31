@@ -172,7 +172,6 @@
 	- You can now ask your simulated humanoid to perform actions, in REAL-TIME 
 -  LLM Compiler Agent Cookbook
 	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/agents/llm_compiler/llm_compiler.ipynb
-	- 1) DAG-based planning, and 2) parallel function execution.
 	- 
 
 
@@ -4138,13 +4137,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 ## 5/8
 LLamaIndex 0.6.0がリリースされ、データに対する新しいクエリインターフェイスが導入されました。ChatGPT Code Interpreterが登場し、プログラムの解釈と実行が可能になりました。
 Andrew Ngのプロンプトエンジニアリングの講義が提供され、開発者向けにプロンプトエンジニアリングのスキルが教授されます。Transformerのenc-dec間にinformation bottleneckを導入したVAE的な表現の正則化に関する研究が行われました。"Are Emergent Abilities of Large Language Models a Mirage?"と題された論文が公開され、LLMの新たな能力に関する議論が提起されました。
-JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に関する指針が提案されましたLangChainとOpenA
+JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に関する指針が提案されましたLangChainとOpenAIのGymnasiumが連携し、エージェントシミュレーションに関する利用事例が紹介されました。ディープラーニングによる自然言
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODM0OTg0MSwtMjA0ODc2MDA3OCwtMT
-A3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5
-MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2Mz
-IsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0Nywt
-ODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMD
-UxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwt
-MjA4NjAzNjg5OV19
+eyJoaXN0b3J5IjpbLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLT
+EwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMw
+OTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNj
+MyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcs
+LTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1Mj
+A1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYs
+LTIwODYwMzY4OTldfQ==
 -->
