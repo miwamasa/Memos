@@ -41,7 +41,9 @@
 		- API で ELYZA-Task 100 を一括評価する
 		- open-ended task 用に, "text-book" like なタスクと評価基準が作成できないか検討してみる(学習指導要領あたりを参考にいい感じに作れたりしないかしらん)
 		- 翻訳文章の点数付け(品質スコアリング)をうまくやる prompt を考案したい
-- 
+- "WaveCoder: Widespread and Versatile Enhanced Instruction Tuning with Refined Data Generation"
+	- https://arxiv.org/abs/2312.14187
+	- 
 
 ## 12/25
 
@@ -4094,14 +4096,13 @@ GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開
     -   [https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm")
 -   CMUの化学者による、LLMを使った合成実験に係る危険性についての露文
     -   [https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm")
--   [@OpenAI](https://twitter.com/OpenAI "https://twitter.com/openai")の大天才研究者[@ilyasu](https://twitter.com/ilyasut "https://twitter.com/ilyasut")による、LLMにおけるvisonの重要性と、GPT-4にはvisonも入っているよビデオ
-    -   [https://twitter.com/i/status/1645752089140957187](https://
+-   [@OpenAI](https://twitter.com/OpenAI "https://twitter.com/openai")の大天才研究者[@ilyasu](https://twitter.com/ilyasut "https://t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODUzODE3OCw5OTIyMTA1MjcsMTQ4Nj
-QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
-NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
-wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
-NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1Nj
-YsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEz
-MTEwNjI5OThdfQ==
+eyJoaXN0b3J5IjpbLTEzMjg3MjEwNzMsOTkyMjEwNTI3LDE0OD
+Y0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAx
+NjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mz
+ksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcw
+OTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNT
+Y2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2NzYxMywx
+MzExMDYyOTk4XX0=
 -->
