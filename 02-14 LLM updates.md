@@ -17,7 +17,12 @@
 -  WSL2でPowerInferを試してみる
 	- https://note.com/ngc_shj/n/nba94b08a2b58?sub_rt=share_h
 	- 使用するPCは、GALLERIA UL9C-R49(RTX 4090 laptop 16GB)、メモリは64GB、OSはWindows 11+WSL2です。
-	-  LLaMA(ReLU)-2-70B,### LLaMA(ReLU)-2-70B
+	-  LLaMA(ReLU)-2-70B, LLaMA(ReLU)-2-7B
+	- 70B／48GBで／動いたよ
+- ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit
+	- https://huggingface.co/ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit
+	- This repository contains the bitsandbytes 4-bit quantized version of mistralai/Mixtral-8x7B-Instruct-v0.1
+- 
 
 ## 12/25
 
@@ -4084,15 +4089,13 @@ GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開
 さらに、新しいプロジェクト「LLaVA」が登場し、これは言語とビジョンを組み合わせたもので、画像とビデオを操作するための新しいアシスタントです。Google ColabでDolly2.0を試す方法や、自律エージェントに関する詳細なガイドも公開されています。
 CMUからは大規模言語モデル（LLM）に関する興味深い論文が登場し、自律的な科学研究能力について探究しています。また、数学のワードプロブレムを解決するためにシンボリックソルバとLLMを組み合わせる方法に関する研究も進行中です。
 テキストから人間のビデオを生成する新しい技術であるText2Performerも注目されています。さらに、Transformerを超える可能性があるとされる新しい系列モデルS4とその発展形であるH3に関する情報もあります。
-一方、Stability AIはオープンソースのLLMであるStableLMのスイートを導入し、LLMの安定性に関する議論が進行中です。MicrosoftはビジュアルなLLMを使用したアプリ開発環境を提案し、LLMを使用したアプリ開発に関するベストプラクティスについての記事も公開されています。
-Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを紹介し、プログラミング言語生成ツールであるBardを発表しました。化学の分野でも、生成モデルが進化し、新たなパラダイムとして取り上げられています。
-また、大規模言語モデルの
+一方、Stability AIはオープンソースのLLMであるStableLMの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTY4NTgyNyw5OTIyMTA1MjcsMTQ4Nj
-QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
-NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
-wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
-NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1Nj
-YsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEz
-MTEwNjI5OThdfQ==
+eyJoaXN0b3J5IjpbLTExOTQxNjQ1MzYsOTkyMjEwNTI3LDE0OD
+Y0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAx
+NjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mz
+ksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcw
+OTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNT
+Y2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2NzYxMywx
+MzExMDYyOTk4XX0=
 -->
