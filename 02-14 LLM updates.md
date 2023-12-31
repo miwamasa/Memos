@@ -131,6 +131,12 @@
 	- 精度を定量評価できるようなタスクでSFT, PPOを行い、PPOにより確かに精度が向上することを確かめた
 	- 学習はすべてGoogle ColabのA100 GPU1枚を用いて行った
 	-  Policy Optimization: 人間にとって好ましい応答をさせるためのファインチューニング（ポリシー最適化）
+-  Google Colab で PowerInfer を試す
+	- https://note.com/npaka/n/n0f9d16114d6a?sub_rt=share_h
+	- **Google Colab Pro/Pro+のA100で動作確認しています。**
+	- 「**PowerInfer**」は、家庭用の単一GPUのPCでもLLMを高速に実行できるLLM推論エンジンです。ニューロンの活性化におけるべき乗則分布によって特徴付けられる、LLM推論に固有の高い局所性を利用することで、高速推論を実現しています。
+	- モデルの精度を維持しながら、llama.cppの最大11.69倍の速度を実現しています
+	- 70Bが 5.64 トークン/秒でVRAMも33.3GBでした。
 - 
 
 
@@ -4129,12 +4135,9 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 	- https://arxiv.org/abs/2305.00050
 - LangChainのv0.0.139からv0.0.151までの差分を整理（もくもく会向け）
 	- https://note.com/mahlab/n/ne29d4bfb1d45
-- LLAMAindexの新しい抽象化API,brand new “router” abstraction in order to build powerful, generalizable, LLM-powered query engines over your data.
-	- https://colab.research.google.com/drive/1KH8XtRiO5spa8CT7UrXN54IWdZk3DDxl?usp=sharing
-- ホワイトハウスNew Actions to Promote Responsible AI Innovation that Protects Americans’ Rights and  Safety
-	- https://www.whitehouse.gov/briefing-room/statements-releases/2023/05/04/fact-sheet-biden-harri
+- LLAMAindexの新しい抽象化API,brand new “router” abstraction in order to build powerful,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ2MzY5OTg2LC0xMDc5NjYyMjE0LDk5Mj
+eyJoaXN0b3J5IjpbOTMyNTMxMzc1LC0xMDc5NjYyMjE0LDk5Mj
 IxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYz
 NDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMi
 wxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3
