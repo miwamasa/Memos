@@ -24,9 +24,11 @@
 	- This repository contains the bitsandbytes 4-bit quantized version of mistralai/Mixtral-8x7B-Instruct-v0.1
 -  LLaMA.cpp+(cu)BLASのCPU/GPUのスループット検証（ローカル編）
 	- https://blog.shikoan.com/llama-cpp-local/
-	- 
+	- CPU推論の時は5～8tpsだった速度が、GPU推論では60tpsに爆速化したらしい。（グラボはRTX A6000）↓
 - 覚醒したguidanceを使ってローカルLLMからノイズの無い生成してもらい、４択クイズとかjson生成させる
 		- Llama.cppがCPU推論だけでなく、GPUオフロードによってGPU推論する事も可能になった。しかも、オフロードするレイヤー数を調整できるから、グラボのVRAMに応じて半分だけはGPU、半分はCPU推論なんて事も可能だ。
+		- Nekomataの公開によってついに我々は日本語でそれなりに賢くて軽量なローカルLLMを手に入れたのだ！
+		- 
 
 ## 12/25
 
@@ -4090,13 +4092,13 @@ GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開
 
 ## 4/24
 最近、MicrosoftはSemantic KernelのPythonバインディングを発表し、これによりSemantic KernelをPythonで使用できるようになりました。また、gist tokenを使用してプロンプトを効果的に圧縮する方法を示した論文も登場しており、26倍の効果があるとされています。
-さらに、新しいプロジェクト「LLaVA」が登場し、これは言語とビジョンを組み合わせたもので、画像とビデオを操作するための新しいアシスタントです。Google ColabでDolly2.0を試す方法や、自律エージェントに関する詳細なガイドも公開されています。
+さらに、新しい
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ5Mzk1OTAsOTkyMjEwNTI3LDE0OD
-Y0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAx
-NjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mz
-ksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcw
-OTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNT
-Y2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTksLTkzOTU2NzYxMywx
-MzExMDYyOTk4XX0=
+eyJoaXN0b3J5IjpbMzE4MjgzMjAzLDk5MjIxMDUyNywxNDg2ND
+EzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0
+MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC
+0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3
+MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Ni
+wtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMx
+MTA2Mjk5OF19
 -->
