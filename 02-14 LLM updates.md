@@ -3,7 +3,7 @@
 
 ## 1/1
 
-PowerInferってひと手間必要だけど、llama.cppより早いらしい。Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってGPU推論と組み合わせることが可能に。Guidanceが大幅に改定されて、使いやすくなったらしい。MixtralのようなMoEモデルとPowerInferのようなスマート推論を組み合わせて、RTX4090のようなグラボを刺した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになるって本当か?。日本LLM勢では「ELYZA-japanese-Llama-2-13b」のリリースがビッグニュース
+PowerInferってひと手間必要だけど、llama.cppより早いらしい。Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってGPU推論と組み合わせることが可能に。Guidanceが大幅に改定されて、Llama.cppの利用も使いやすくなったらしい。MixtralのようなMoEモデルとPowerInferのようなスマート推論を組み合わせて、RTX4090のようなグラボを刺した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになるって本当か?。日本LLM勢では「ELYZA-japanese-Llama-2-13b」のリリースがビッグニュース。GPT-3.5 越えらしい。プロンプトの原則26ヶ条というのも役に立つな。
 
 - Build Hybrid Search from Scratch
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/vector_stores/qdrant_hybrid.ipynb
@@ -4132,14 +4132,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	-  Google 3D tileで読み込んだ3Dモデルの上にTerrainExtensionを使ってGeoJSONポリゴンをオーバーレイ
 - 日本語T5モデルの公開 by レトリバ
 	- https://note.com/retrieva/n/n7b4186dc5ada
-- LeCun先生の講演、LeCun: Towards Machines That Can Understand, Reason, & Plan
-	- https://www
+- LeCun先生の講演、LeCun: Towards Machines
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0OTE1MzEzLC0xNDAzNzQwMzI3LC0yMD
-Q4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEz
-OTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Mi
-wtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0x
-Mzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MT
-YxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Niwt
-MTc2NTM2MjM2XX0=
+eyJoaXN0b3J5IjpbLTI3OTgyMjMyOSwtMTQwMzc0MDMyNywtMj
+A0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQx
+Mzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2ND
+IsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwt
+MTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5Nz
+E2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYs
+LTE3NjUzNjIzNl19
 -->
