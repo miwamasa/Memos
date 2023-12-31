@@ -3,6 +3,8 @@
 
 ## 1/1
 
+PowerInferってやっぱり
+
 - Build Hybrid Search from Scratch
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/vector_stores/qdrant_hybrid.ipynb
 	- 1. Generate a sparse vector (using SPLADE) from both a query and document
@@ -202,7 +204,17 @@
 	- これらには、マルチモーダル LLM を実験するためのサンプルが大量に含まれています。これらは、これらのモデルとその機能を探索するための良い出発点となります。
 -  Ten Noteworthy AI Research Papers of 2023
 	- https://magazine.sebastianraschka.com/p/10-ai-research-papers-2023
-	- 
+	- 1) Pythia — Insights from Large-Scale Training Runs
+	- 2) Llama 2: Open Foundation and Fine-Tuned Chat Models
+	- 3) QLoRA: Efficient Finetuning of Quantized LLMs
+	- 4) BloombergGPT: A Large Language Model for Finance
+	- 5) Direct Preference Optimization: Your Language Model is Secretly a Reward Model
+	- 6) Mistral 7B
+	- 7) Orca 2: Teaching Small Language Models How to Reason
+	- 8) ConvNets Match Vision Transformers at Scale
+	- 9) Segment Anything
+	- 10) Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models
+
 
 
 ## 12/25
@@ -4126,23 +4138,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://help.openai.com/en/articles/6825453-chatgpt-release-notes
 - 拡散モデルを用いることで２次元の分子グラフからでも同等の励起状態の予測精度が得られるという話らしい
 	- https://arxiv.org/abs/2304.12233v2
-- 機械学習理論発展、Hyperbolic Poincaré distributions = Probability distributions with support the Poincaré disk
-	- https://arxiv.org/abs/2205.13984
-- Graph Transformer (GT)を作る例題
-	- https://arxiv.org/pdf/2012.09699.pdf
-- 推薦において、ユーザーの嗜好って、LLMは本当に理解してるんだったけ論文。
-	- https://arxiv.org/abs/2305.06474
-- 量子機械学習の研究者が、軒並み量子をやめて機械学習にいってるという、組合せ最適化の大家である湊先生の嘆き
-	- https://twitter.com/MinatoYuichiro/status/1657243184064499712?s=20
-- GoogleのPhotorealistic 3D Tiles（左）と国交省の3D都市モデルPLATEAUの3D Tiles（右）の比較
-	- https://twitter.com/syanseto/status/1656964913913540608?s=20
-- ChatGPTとOSSのLLM達とガチタスクでの比較、いい線言ってるらしい。Vi
+- 機械学習理論発展、Hyperbolic Poincar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODk4MzEzMywtMTQwMzc0MDMyNywtMj
-A0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQx
-Mzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2ND
-IsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwt
-MTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5Nz
-E2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYs
-LTE3NjUzNjIzNl19
+eyJoaXN0b3J5IjpbLTE3MjMwNzMxNTMsLTE0MDM3NDAzMjcsLT
+IwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0
+MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNj
+QyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mzks
+LTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOT
+cxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2
+LC0xNzY1MzYyMzZdfQ==
 -->
