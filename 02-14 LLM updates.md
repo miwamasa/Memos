@@ -156,7 +156,7 @@
 -  Bard & Googleスプレッド & AI Studioでチーム「Gemini」
 	- https://note.com/owlet_notes/n/nbd3c18d82443?sub_rt=share_h
 	- Gemini の Structured prompt の使い方
-- 
+-  KarasuとQarasu：最先端の日本語LLMオープンソースチャットボット
 
 
 ## 12/25
@@ -4133,13 +4133,13 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 - Are Emergent Abilities of Large Language Models a Mirage?
 	- https://arxiv.org/abs/2304.15004
 - JDLAでは、「生成AIの利用ガイドライン」
-	- https://www.jdla.org/document/?utm_source=prtimes&utm_medium=ref
+	- https://www.jdla.org/docu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOT
-kyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4
-NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OT
-IyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1
-NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNj
-AyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTks
-LTkzOTU2NzYxM119
+eyJoaXN0b3J5IjpbLTE3Mjc4MjE4MTQsLTIwNDg3NjAwNzgsLT
+EwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMw
+OTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNj
+MyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcs
+LTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1Mj
+A1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYs
+LTIwODYwMzY4OTldfQ==
 -->
