@@ -178,8 +178,13 @@
 	- 4. [Optional] Re-plan: If the initial pass did not give the right answer, regenerate the plan.
 - MoMask: Generative Masked Modeling of 3D Human Motions
 	- https://github.com/EricGuo5513/momask-codes
+	-  Google Colab で MoMask を試す
+	- https://note.com/npaka/n/n4705c035a6fc?sub_rt=share_h
 	- ColabでMoMaskを試し中。 T4で10秒くらいでText-to-Mothionされてる
-	- 
+- Building a Custom Agent
+	- https://docs.llamaindex.ai/en/latest/examples/agent/custom_agent.html#
+	- A big step beyond naive RAG is adding agentic reasoning, and llama_index　now lets you build custom agents from scratch 
+	- In our example we show you how to augment a router with retry capabilities.
 
 
 ## 12/25
@@ -4131,17 +4136,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- OpenAIはますます、Microsoftと一蓮托生に、、、、
 - 神戸大学、「牧野」先生、不偏分散の自由度がn-1である理由を失念。
 	- https://twitter.com/jun_makino/status/1657229042121314304?s=20
-	- 牧野先生ご紹介の「美しい導出」https://manabitimes.jp/math/1205
-- Scikit-learnの組み込みデータセットから、ボストン住宅価格が、ポリコレのため削除されてた
-	- https://twitter.com/tokoroten/status/1394192087453638662?s=20
-	- （授業で使っている人要注意）
-- Stable Vicuna-13B-4bitがcolabで動作する、ローカルにダウンロードしてWebUIを上げる
-	- https://zenn.dev/tatsuromurata/articles/8e523cf2d0c2bc
-	- https://note.com/it_navi/n/nceffc6e8df35
-- LangChainに、arxiv用のretrieverが追加、Q&Aなどができる
-	- h
+	- 牧野先生ご紹
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDIzMTg2MjMsLTE0MDM3NDAzMjcsLT
+eyJoaXN0b3J5IjpbLTEyMTE4Nzg1MTMsLTE0MDM3NDAzMjcsLT
 IwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0
 MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNj
 QyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mzks
