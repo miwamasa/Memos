@@ -153,6 +153,9 @@
 	- 定性的には
 		- 簡潔に回答してほしければSwallow-13b-instruct-hf（緑の実践）
 		- チャットモデルとして個人的に好みなのはshisa-gamma-7b-v1（黒の点線）とELYZA-japanese-Llama-2-13b-instruct（紫の実践
+-  Bard & Googleスプレッド & AI Studioでチーム「Gemini」
+	- https://note.com/owlet_notes/n/nbd3c18d82443?sub_rt=share_h
+	- Gemini の Structured prompt の使い方
 - 
 
 
@@ -4130,16 +4133,13 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 - Are Emergent Abilities of Large Language Models a Mirage?
 	- https://arxiv.org/abs/2304.15004
 - JDLAでは、「生成AIの利用ガイドライン」
-	- https://www.jdla.org/document/?utm_source=prtimes&utm_medium=referral
-- LangChainとOpenAIのGymunasiumの連携
-	- https://python.langchain.com/en/latest/use_cases/agent_simulations/gymnasium.html
-- ディープラーニングによる自然言語処理
+	- https://www.jdla.org/document/?utm_source=prtimes&utm_medium=ref
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0ODU1ODk0LC0xMDc5NjYyMjE0LDk5Mj
-IxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYz
-NDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMi
-wxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3
-MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMj
-csMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05
-Mzk1Njc2MTNdfQ==
+eyJoaXN0b3J5IjpbLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOT
+kyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4
+NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OT
+IyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1
+NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNj
+AyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTks
+LTkzOTU2NzYxM119
 -->
