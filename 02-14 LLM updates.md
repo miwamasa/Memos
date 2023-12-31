@@ -98,7 +98,7 @@
 	- https://arxiv.org/abs/2312.16171
 	- プロンプトの原則26ヶ条をまとめた論文が公開されています
 	- LLaMA-1/2, GPT-3.5/4を使用してスケール評価をした結果、これらの原則が応答品質を向上させると確認できているとのことです
-	- ■構造につい
+	- ■構造について
 		- 誰のためのタスクなのかを書く
 		- 出力形式を指定する
 		- フォーマットする際には合図を送る
@@ -109,16 +109,16 @@
 	- ■相互作用について
 		- モデルからユーザーに質問させて情報を得させる
 		- 必要な情報をすべて加えることを明示する
-
-■スタイルについて
-
-- 禁止させる際には「罰せられます」と書く
-- モデルに丁寧語を使う必要はない
-- より良い解決策にはチップを与えると書く
-
-■コーディングタスクについて
-
-- 生成コードが複数ファイルにわたる場合は効率化する
+	- ■スタイルについて
+		- 禁止させる際には「罰せられます」と書く
+		- モデルに丁寧語を使う必要はない
+		- より良い解決策にはチップを与えると書く
+	- ■コーディングタスクについて
+		- 生成コードが複数ファイルにわたる場合は効率化する
+-  Google Colab で vLLM を試す
+	- https://note.com/npaka/n/ne6fe8ae8aca0?sub_rt=share_h
+	- 「**vLLM**」は、LLMの高速推論のためのライブラリです
+	- 
 
 
 ## 12/25
@@ -4134,9 +4134,9 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 	- https://github.com/gventuri/pandas-ai
 
 ## 4/10
-LLMの倫理的なふるまいを評価するためのマキャベリベンチマークが発表されました。LLaMA-Adapterと呼ばれる、軽量なLoRAのようなシステムが紹介されました。DeepMindからは、Transformersのための形式的なアルゴリズムに関する研究が発表されました。LLMに対する心理学的な評価やセラピーを行うための枠組みが提案されました。リーガルなGPT-4ベースのサービスであるHarveyが公開されました。
+LLMの倫理的なふるまいを評価するためのマキャベリベンチマークが発表されました。LLaMA-Adapterと呼ばれる、軽量なLoRAのようなシステムが
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTUzOTYzOSwtMTA3OTY2MjIxNCw5OT
+eyJoaXN0b3J5IjpbMTEyMDQ2MTI5NywtMTA3OTY2MjIxNCw5OT
 IyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2
 MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5Mj
 IsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0
