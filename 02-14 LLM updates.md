@@ -146,7 +146,14 @@
 	- 音声と NVIDIA GPU が刺さった Linux PC があれば、かんたんに最先端の日本語音声合成技術を体感できます！(Docker 対応)
 -  日本語モデルの長文QA性能の比較
 	- https://note.com/oshizo/n/n3d7954400a00?sub_rt=share_h
-	- 
+	- 最近のモデルを中心に長文QA性能（コンテキスト末尾から数えた回答フレーズの位置と、正解率の関係）を調べました
+	- 定量的には
+		- コンテキスト長を2000～3000文字より長くしたい場合はSwallow-13b-instruct-hf（緑の実践）
+		- コンテキスト長が短くても構わない場合や、VRAMの都合などで7Bモデルが必要な場合はELYZA-japanese-Llama-2-7b-fast-instruct（赤の点線）
+	- 定性的には
+		- 簡潔に回答してほしければSwallow-13b-instruct-hf（緑の実践）
+		- チャットモデルとして個人的に好みなのはshisa-gamma-7b-v1（黒の点線）とELYZA-japanese-Llama-2-13b-instruct（紫の実践
+- 
 
 
 ## 12/25
@@ -4127,17 +4134,8 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 - LangChainとOpenAIのGymunasiumの連携
 	- https://python.langchain.com/en/latest/use_cases/agent_simulations/gymnasium.html
 - ディープラーニングによる自然言語処理
-	- https://www.amazon.co.jp/dp/4320125029/
-- Causal Reasoning and Large Language Models: Opening a New Frontier for Causality
-	- https://arxiv.org/abs/2305.00050
-- 自己アテンション機構をつかって多電子系のシュレディンガー方程式を第一原理的に解く
-	- https://arxiv.org/abs/2211.13672
-- OpenLLAMA
-	- https://github.com/openlm-research/open_llama
-- G.Hintonによる、GAIインタビュー @CNN
-	- https://www.youtube.com/watch?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NDE0ODEwLC0xMDc5NjYyMjE0LDk5Mj
+eyJoaXN0b3J5IjpbMzc0ODU1ODk0LC0xMDc5NjYyMjE0LDk5Mj
 IxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYz
 NDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMi
 wxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3
