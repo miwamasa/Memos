@@ -22,6 +22,7 @@
 - ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit
 	- https://huggingface.co/ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit
 	- This repository contains the bitsandbytes 4-bit quantized version of mistralai/Mixtral-8x7B-Instruct-v0.1
+	- A 4Bit open source Mixtral for you to run a GPT-3 grade LLM on your inexpensive laptop private and personal AI
 -  LLaMA.cpp+(cu)BLASのCPU/GPUのスループット検証（ローカル編）
 	- https://blog.shikoan.com/llama-cpp-local/
 	- CPU推論の時は5～8tpsだった速度が、GPU推論では60tpsに爆速化したらしい。（グラボはRTX A6000）↓
@@ -4107,15 +4108,13 @@ LLMの倫理的なふるまいを評価するためのマキャベリベンチ�
 今井むつみ先生の講演「AI時代に必要な学びと教育ー認知科学からの視点」が2023年3月29日にYouTubeで配信されます
 DatabricksからDoly2.0がリリースされました。Doly2.0はオープンソースであり、商用利用も可能なインストラクション調整型LLMです。
 CMUの化学者による、LLMを使った合成実験の危険性に関する論文が公開されました。
-OpenAIの研究者[@ilyasu](https://twitter.com/ilyasut)による、LLMにおけるビジョンの重要性に関するツイートとGPT-4にビジョンが含まれていることを示すビデオがTwitterで公開されています。
-GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開されました。
-触媒開発にGPTを活用する研究が行われており、ベイズ最適化とLLMを組み合わせて合成条件を見つける方法が紹介されてい
+OpenAIの研究者[@ilyasu](https://twitter.com/ilyasut)による、LLMにおけるビジョンの重要性に関するツイートとGPT-4にビジョンが含まれていることを示すビデオがTwitterで
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjkxNjE5OCw5OTIyMTA1MjcsMTQ4Nj
-QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
-NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
-wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
-NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1Nj
-YsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEz
-MTEwNjI5OThdfQ==
+eyJoaXN0b3J5IjpbMzMyNDg3Mjk4LDk5MjIxMDUyNywxNDg2ND
+EzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0
+MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC
+0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3
+MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Ni
+wtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMx
+MTA2Mjk5OF19
 -->
