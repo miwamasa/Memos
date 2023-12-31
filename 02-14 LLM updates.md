@@ -3,7 +3,7 @@
 
 ## 1/1
 
-PowerInferってやっぱり
+PowerInferってひと手間必要だけど、llama.cppより早いらしい。Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってGPU推論と組み合わせることが可能に。
 
 - Build Hybrid Search from Scratch
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/vector_stores/qdrant_hybrid.ipynb
@@ -4136,15 +4136,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://www.youtube.com/watch?v=_JfEScYyVCE
 - OpenAI、ChatGPT Plusユーザー全体に、5/12よりPluginが使えるようなるとアナウンス
 	- https://help.openai.com/en/articles/6825453-chatgpt-release-notes
-- 拡散モデルを用いることで２次元の分子グラフからでも同等の励起状態の予測精度が得られるという話らしい
-	- https://arxiv.org/abs/2304.12233v2
-- 機械学習理論発展、Hyperbolic Poincar
+- 拡散モデルを用いることで２次元の分子グラフからでも同等の励起状態の予測精
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjMwNzMxNTMsLTE0MDM3NDAzMjcsLT
-IwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0
-MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNj
-QyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mzks
-LTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOT
-cxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2
-LC0xNzY1MzYyMzZdfQ==
+eyJoaXN0b3J5IjpbNDA5NTUwMzI0LC0xNDAzNzQwMzI3LC0yMD
+Q4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEz
+OTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Mi
+wtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0x
+Mzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MT
+YxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Niwt
+MTc2NTM2MjM2XX0=
 -->
