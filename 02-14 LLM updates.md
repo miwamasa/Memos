@@ -161,6 +161,9 @@
 	- 私たちは、2つのモデルをベースとして学習を実施しました。
 	- 1つ目はAugmxntが提供するShisa（augmxnt/shisa-7b-v1）モデルで、日本語MT-Benchベンチマークで高いパフォーマンスを示し、日本語特有のトークナイザーを持っているため、トークン化と推論が他のオープンソースモデルよりも何倍も効率的（そして速い）になるという特徴を持ちます。
 	- 2つ目は同様に日本語MT-Benchベンチマークで非常に高いパフォーマンスを示すQwen（Qwen/Qwen-14B-Chat）モデルです。
+	- デモ
+		- https://lightblue-qarasu.serveo.net/
+- 
 
 
 ## 12/25
@@ -4129,15 +4132,13 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 
 - LlamaIndex 0.6.0 - データに対する新しいクエリインターフェイス
 	- https://note.com/npaka/n/n4254fc549dc0
-- ChatGPT Code Interpreter
-- Andrew Ngのプロンプトエンジニアリングの講義
-	- https://www.dee
+- ChatGPT Code Interpr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3NTg4NDI1LC0yMDQ4NzYwMDc4LC0xMD
-c5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkz
-MzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMi
-wtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04
-OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNT
-EsLTEyMjAyMDYwMjcsMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0y
-MDg2MDM2ODk5XX0=
+eyJoaXN0b3J5IjpbLTE2OTc2MzE5NjEsLTIwNDg3NjAwNzgsLT
+EwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMw
+OTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNj
+MyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcs
+LTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1Mj
+A1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYs
+LTIwODYwMzY4OTldfQ==
 -->
