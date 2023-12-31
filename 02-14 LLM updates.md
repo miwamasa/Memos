@@ -200,7 +200,9 @@
 	- Gemini vs GPT-4V: A Preliminary Comparison and Combination of Vision-Language Models Through Qualitative Cases
 	- https://arxiv.org/abs/2312.15011v1
 	- これらには、マルチモーダル LLM を実験するためのサンプルが大量に含まれています。これらは、これらのモデルとその機能を探索するための良い出発点となります。
-- 
+-  Ten Noteworthy AI Research Papers of 2023
+	- https://magazine.sebastianraschka.com/p/10-ai-research-papers-2023
+	- 
 
 
 ## 12/25
@@ -4134,14 +4136,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://twitter.com/MinatoYuichiro/status/1657243184064499712?s=20
 - GoogleのPhotorealistic 3D Tiles（左）と国交省の3D都市モデルPLATEAUの3D Tiles（右）の比較
 	- https://twitter.com/syanseto/status/1656964913913540608?s=20
-- ChatGPTとOSSのLLM達とガチタスクでの比較、いい線言ってるらしい。Vicuna-13B, ChatGPT (3.5), MPT-7B-Chat
-	- https://medium.com/@marcotcr/exploring-chatgpt-vs-open-source-models-on-sli
+- ChatGPTとOSSのLLM達とガチタスクでの比較、いい線言ってるらしい。Vi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA0MjAwNTQsLTE0MDM3NDAzMjcsLT
-IwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0
-MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNj
-QyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mzks
-LTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOT
-cxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2
-LC0xNzY1MzYyMzZdfQ==
+eyJoaXN0b3J5IjpbMjAzODk4MzEzMywtMTQwMzc0MDMyNywtMj
+A0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQx
+Mzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2ND
+IsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwt
+MTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5Nz
+E2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1NjYs
+LTE3NjUzNjIzNl19
 -->
