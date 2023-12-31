@@ -74,8 +74,11 @@
 	- ELYZA は「Llama 2 13B」をベースとした商用利用可能な日本語LLMである「ELYZA-japanese-Llama-2-13b」シリーズを一般公開しました。
 	- 前回公開の 7B シリーズからベースモデルおよび学習データの大規模化を図ることで、既存のオープンな日本語LLMの中で最高性能、GPT-3.5 （text-davinci-003） も上回る性能となりました。
 	- また、推論の高速化を実現したチャット型デモを併せて公開しています。
+	- 「この前は7Bモデルだったけど、今回は13Bモデルでかなり賢くなってるらしい。70Bモデルも開発中だって」by うみゆきさん
 -  ELYZA-japanese-Llama-2-13b-instructのデモ
 	- https://huggingface.co/spaces/elyza/ELYZA-japanese-Llama-2-13b-instruct-demo
+-  Google Colab で ELYZA-japanese-Llama-2-13B を試す
+	- https://note.com/npaka/n/na7f489d0932a?sub_rt=share_h
 
 ## 12/25
 
@@ -4106,12 +4109,9 @@ LLMの倫理的なふるまいを評価するためのマキャベリベンチ�
     -   [https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001](https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001 "https://www.t.u-tokyo.ac.jp/press/pr2023-04-05-001")
 -   AzureのOpenAI、Embeddingのバージョン２が登場、トークン数が2,048→8,191と激増
     -   [https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#embeddings-models-1](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#embeddings-models-1 "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#embeddings-models-1")
--   MatCha: グラフとかの入力、からも推論やQ&Aができる。 by GoogleAI
-    -   [https://arxiv.org/abs/2212.09662](https://arxiv.org/abs/2212.09662 "https://arxiv.org/abs/2212.09662")
--   gpt4allの公式チャットUIがリリース
-    -   [https://gi
+-   MatCha: グラフとかの入力、からも推論やQ&Aができる
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDQ4OTU0Miw5OTIyMTA1MjcsMTQ4Nj
+eyJoaXN0b3J5IjpbMTUzNjYxMzIzMCw5OTIyMTA1MjcsMTQ4Nj
 QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
 NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
 wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
