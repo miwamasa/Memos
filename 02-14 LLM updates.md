@@ -124,7 +124,14 @@
 -  Building LLM Agents in 3 Levels of Complexity: From Scratch, OpenAI Functions & LangChain
 	- https://lucas-soares.medium.com/building-llm-agents-in-3-levels-of-complexity-from-scratch-openai-functions-langchain-bec68b451b84
 -  日本語LLMをPPOでファインチューニングする
-	- 
+	- https://qiita.com/jovyan/items/c727392d6d6030433f84
+	- LLMのPPOによるファインチューニングの実装解説でここまで丁寧に詳しく解説してる記事見たことないです。とてもわかりやすくまとめてくれてます。
+	- 3.6Bパラメータの日本語LLMに対し全パラメータをSupervised Fine Tuning (SFT)をした
+	- さらにLoRAを使用してProximal Policy Optimization (PPO)を行っ
+	- 精度を定量評価できるようなタスクでSFT, PPOを行い、PPOにより確かに精度が向上することを確かめた
+	- 学習はすべてGoogle ColabのA100 GPU1枚を用いて行った
+	-  Policy Optimization: 人間にとって好ましい応答をさせるためのファインチューニング（ポリシー最適化）
+- 
 
 
 ## 12/25
@@ -4125,19 +4132,13 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 - LLAMAindexの新しい抽象化API,brand new “router” abstraction in order to build powerful, generalizable, LLM-powered query engines over your data.
 	- https://colab.research.google.com/drive/1KH8XtRiO5spa8CT7UrXN54IWdZk3DDxl?usp=sharing
 - ホワイトハウスNew Actions to Promote Responsible AI Innovation that Protects Americans’ Rights and  Safety
-	- https://www.whitehouse.gov/briefing-room/statements-releases/2023/05/04/fact-sheet-biden-harris-administration-announces-new-actions-to-promote-responsible-ai-innovation-that-protects-americans-rights-and-safety/
-- OpenAlpaca, an instruction-following model based on OpenLLaMA
-	- https://github.com/yxuansu/OpenAlpaca
-- 「LlamaIndex」が0.6.0で大きな変更があったので更新しました。
-	- https://note.com/npaka/n/n50475d6c3118
-- ChromaDB Self-Querying Retriever
-	- https://github.com/hwchase17/langchain/blob/master/docs/mod
+	- https://www.whitehouse.gov/briefing-room/statements-releases/2023/05/04/fact-sheet-biden-harri
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTMxNzY0NzQsLTEwNzk2NjIyMTQsOT
-kyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4
-NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OT
-IyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1
-NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNj
-AyNywxMjg1NzEzNTY2LC0xNzY1MzYyMzYsLTIwODYwMzY4OTks
-LTkzOTU2NzYxM119
+eyJoaXN0b3J5IjpbMjQ2MzY5OTg2LC0xMDc5NjYyMjE0LDk5Mj
+IxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYz
+NDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMi
+wxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3
+MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMj
+csMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05
+Mzk1Njc2MTNdfQ==
 -->
