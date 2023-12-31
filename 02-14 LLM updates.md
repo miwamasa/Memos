@@ -1,5 +1,6 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
+"
 
 
 ## 12/25
@@ -4088,13 +4089,13 @@ Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを�
 - シンボリックソルバとLLMを組み合わせるSolving Math Word Problems by Combining Language Models With Symbolic Solvers
 	- https://arxiv.org/abs/2304.09102
 - Text2Performer: Text-Driven Human Video Generation
-	- https://yumingj.github.io/projects/Text2Pe
+	- https://yumingj.github.io/project
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMT
-MwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAw
-NjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2ND
-csLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1
-MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2LC0xNzY1MzYyMz
-YsLTIwODYwMzY4OTksLTkzOTU2NzYxMywxMzExMDYyOTk4LC01
-MjkyMTY2NDJdfQ==
+eyJoaXN0b3J5IjpbMTQ1ODgyNjg3OSw5OTIyMTA1MjcsMTQ4Nj
+QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
+NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
+wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
+NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1Nj
+YsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEz
+MTEwNjI5OThdfQ==
 -->
