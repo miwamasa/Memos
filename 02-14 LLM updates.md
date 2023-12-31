@@ -141,7 +141,12 @@
 	- https://arxiv.org/abs/2312.14485
 	- 事前学習済みモデルによる結晶構造・物性予測の論文。
 	- 結晶構造中の原子をマスクor変異させてデータ生成し、自己教師あり学習で事学習済みモデルを構築。これを使い柔軟な構造予測と物性予測を実現できた
-- 
+- Aivis は、高音質で感情豊かな音声を生成できる Bert-VITS2 用のデータセットの作成・学習・推論を、オールインワンで行えるツールです。
+	- https://github.com/tsukumijima/Aivis
+	- 音声と NVIDIA GPU が刺さった Linux PC があれば、かんたんに最先端の日本語音声合成技術を体感できます！(Docker 対応)
+-  日本語モデルの長文QA性能の比較
+	- https://note.com/oshizo/n/n3d7954400a00?sub_rt=share_h
+	- 
 
 
 ## 12/25
@@ -4130,19 +4135,13 @@ JDLAでは、生成AIの利用ガイドラインが提供され、AIの利用に
 - OpenLLAMA
 	- https://github.com/openlm-research/open_llama
 - G.Hintonによる、GAIインタビュー @CNN
-	- https://www.youtube.com/watch?v=FAbsoxQtUwM
--  Chatbot Arena: Benchmarking LLMs in the Wild with Elo Ratings
-	- https://lmsys.org/blog/2023-05-03-arena/
-- TMR: Text-to-Motion Retrieval Using Contrastive 3D Human Motion Synthesis
-	- https://mathis.petrovich.fr/tmr/
-- LLMs & Causal Reasoning
-	- https:
+	- https://www.youtube.com/watch?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDQwNDUyOCwtMTA3OTY2MjIxNCw5OT
-IyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2
-MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5Mj
-IsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0
-NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MD
-I3LDEyODU3MTM1NjYsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwt
-OTM5NTY3NjEzXX0=
+eyJoaXN0b3J5IjpbODg0NDE0ODEwLC0xMDc5NjYyMjE0LDk5Mj
+IxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYz
+NDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMi
+wxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3
+MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMj
+csMTI4NTcxMzU2NiwtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05
+Mzk1Njc2MTNdfQ==
 -->
