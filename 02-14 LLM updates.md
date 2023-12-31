@@ -14,7 +14,10 @@
 - OpenAssistant Conversations -- Democratizing Large Language Model Alignment
 	- https://huggingface.co/OpenAssistant
 	- https://projects.laion.ai/Open-Assistant/blog/
-- 
+-  WSL2でPowerInferを試してみる
+	- https://note.com/ngc_shj/n/nba94b08a2b58?sub_rt=share_h
+	- 使用するPCは、GALLERIA UL9C-R49(RTX 4090 laptop 16GB)、メモリは64GB、OSはWindows 11+WSL2です。
+	-  LLaMA(ReLU)-2-70B,### LLaMA(ReLU)-2-70B
 
 ## 12/25
 
@@ -4083,10 +4086,9 @@ CMUからは大規模言語モデル（LLM）に関する興味深い論文が�
 テキストから人間のビデオを生成する新しい技術であるText2Performerも注目されています。さらに、Transformerを超える可能性があるとされる新しい系列モデルS4とその発展形であるH3に関する情報もあります。
 一方、Stability AIはオープンソースのLLMであるStableLMのスイートを導入し、LLMの安定性に関する議論が進行中です。MicrosoftはビジュアルなLLMを使用したアプリ開発環境を提案し、LLMを使用したアプリ開発に関するベストプラクティスについての記事も公開されています。
 Googleは長期間の時系列予測に特化したTime-Series Dense Encoderを紹介し、プログラミング言語生成ツールであるBardを発表しました。化学の分野でも、生成モデルが進化し、新たなパラダイムとして取り上げられています。
-また、大規模言語モデルの驚異と脅威についての特別講演が東京工業大学の岡崎直観教授によって行われ、SQLクエリ生成など、ChatGPTの新しい応用例も紹介されています。
-最後に、LLM向けのプログラミング言語であるLMQL（Language Model Query Language）やLangChainの新機能であるContextual Compression Retrieverについても言及されています。これらの情報は、LLM技術の最新動
+また、大規模言語モデルの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTQwODk4Niw5OTIyMTA1MjcsMTQ4Nj
+eyJoaXN0b3J5IjpbMTUzMTY4NTgyNyw5OTIyMTA1MjcsMTQ4Nj
 QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
 NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
 wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
