@@ -57,7 +57,13 @@
 	- https://x.com/tmaita77/status/1739283971434021149?s=20
 - "3DAxiesPrompts: Unleashing the 3D Spatial Task Capabilities of GPT-4V"
 	- https://arxiv.org/abs/2312.09738
-	- 
+	- GPT-4Vに3D物体の位置関係や寸法を認識させるためのビジュアルプロンプティング手法が検証されています。 
+	- 報告によると、画像に3次元座標系を書き足すだけで、空間認識能力がシンプルに大きく向上するとの実験結果が出ています。
+-  Exploiting Novel GPT-4 APIs
+	- https://arxiv.org/abs/2312.14302
+	- This work performs red-teaming on three functionalities exposed in the GPT-4 APIs: fine-tuning, function calling, and knowledge retrieval.
+	- 1) Fine-tuning on as few as 15 harmful examples or 100 benign examples can remove core safeguards from GPT-4. 
+	- 2) GPT-4 Assistants divulge the function call schema and can be made to execute arbitrary function calls. 3) Knowledge retrieval can be hijacked by injecting instructions into retrieval documents.
 
 ## 12/25
 
@@ -4101,19 +4107,13 @@ DatabricksからDoly2.0がリリースされました。Doly2.0はオープン�
 CMUの化学者による、LLMを使った合成実験の危険性に関する論文が公開されました。
 OpenAIの研究者[@ilyasu](https://twitter.com/ilyasut)による、LLMにおけるビジョンの重要性に関するツイートとGPT-4にビジョンが含まれていることを示すビデオがTwitterで公開されています。
 GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開されました。
-触媒開発にGPTを活用する研究が行われており、ベイズ最適化とLLMを組み合わせて合成条件を見つける方法が紹介されています。さらに、in context learningを使用することでチューニングが不要とされ、ガウス過程回帰と同等の性能を実現しています。
-    
--   AlpacaにCoT（Commonsense Transformers）とStorytellingを強化したモデルAlpacino30bが公開されました。詳細は[こちら](https://huggingface.co/digitous/Alpacino30b/tree/main)からアクセスできます。
--   今井むつみ先生の講演「AI時代に必要な学びと教育ー認知科学からの視点」(2023年3月29日)がyoutube配信される
-    -   [https://www.youtube.com/playlist?list=PLMITB-DRUs7N10WLl_4zDUWfBkLd6z_Em](https://www.youtube.com/playlist?list=PLMITB-DRUs7N10WLl_4zDUWfBkLd6z_Em "https://www.youtube.com/playlist?list=plmitb-drus7n10wll_4zduwfbkld6z_em")
--   DatabircksからDoly2.0がリリース(OSSかつ商用利用可)
-    -   [https://www.databricks.com/blog/2023/04/12/dolly-first-open-commerci
+触媒開発にGPTを活用する研究が行われており、ベイズ最適化とLLMを組み合わせて合成条件を見つける方法が紹介されています。さらに、i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzODU5NjY3LDk5MjIxMDUyNywxNDg2ND
-EzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0
-MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC
-0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3
-MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Ni
-wtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMx
-MTA2Mjk5OF19
+eyJoaXN0b3J5IjpbLTIzMjM0NTA3Niw5OTIyMTA1MjcsMTQ4Nj
+QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
+NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
+wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
+NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1Nj
+YsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEz
+MTEwNjI5OThdfQ==
 -->
