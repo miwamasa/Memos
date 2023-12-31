@@ -53,6 +53,10 @@
 -  A Mathematical Guide to Operator Learning
 	- https://arxiv.org/abs/2312.14688
 	- Operator learning aims to discover properties of an underlying dynamical system or partial differential equation (PDE) from data. 
+- 日本人は，スウェーデン人の老後を生きているようだな
+	- https://x.com/tmaita77/status/1739283971434021149?s=20
+- "3DAxiesPrompts: Unleashing the 3D Spatial Task Capabilities of GPT-4V"
+	- https://arxiv.org/abs/2312.09738
 	- 
 
 ## 12/25
@@ -4103,13 +4107,13 @@ GPT4ALLを使用したApatch2ライセンスのチャットボットOSSが公開
 -   今井むつみ先生の講演「AI時代に必要な学びと教育ー認知科学からの視点」(2023年3月29日)がyoutube配信される
     -   [https://www.youtube.com/playlist?list=PLMITB-DRUs7N10WLl_4zDUWfBkLd6z_Em](https://www.youtube.com/playlist?list=PLMITB-DRUs7N10WLl_4zDUWfBkLd6z_Em "https://www.youtube.com/playlist?list=plmitb-drus7n10wll_4zduwfbkld6z_em")
 -   DatabircksからDoly2.0がリリース(OSSかつ商用利用可)
-    -   [https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm "https://www.databricks.com/blog/2023/04/12/dolly-first-op
+    -   [https://www.databricks.com/blog/2023/04/12/dolly-first-open-commerci
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDcyMTM2NSw5OTIyMTA1MjcsMTQ4Nj
-QxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2
-NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOS
-wtMTM5NjIyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5
-NzE2MSwxNDg2NzUyMDUxLC0xMjIwMjA2MDI3LDEyODU3MTM1Nj
-YsLTE3NjUzNjIzNiwtMjA4NjAzNjg5OSwtOTM5NTY3NjEzLDEz
-MTEwNjI5OThdfQ==
+eyJoaXN0b3J5IjpbNzQzODU5NjY3LDk5MjIxMDUyNywxNDg2ND
+EzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0
+MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC
+0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3
+MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcsMTI4NTcxMzU2Ni
+wtMTc2NTM2MjM2LC0yMDg2MDM2ODk5LC05Mzk1Njc2MTMsMTMx
+MTA2Mjk5OF19
 -->
