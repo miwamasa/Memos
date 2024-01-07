@@ -11,6 +11,9 @@
 	- https://colab.research.google.com/github/dvmazur/mixtral-offloading/blob/master/notebooks/demo.ipynb#scrollTo=Zf4GkspecSm8
 	-  Fast Inference of Mixture-of-Experts Language Models with Offloading
 	- https://arxiv.org/abs/2312.17238
+- Mixtralに対し日英対訳データセットでQLoRA tuning (SFT)を施した日⇔英 翻訳モデル(のLoRA層)をHuggingFace上に公開しました
+	- https://huggingface.co/hpprc/Mixtral-8x7B-Instruct-ja-en
+	- Mixtralを小説の対訳データセット(https://www2.nict.go.jp/astrec-att/member/mutiyama/align/index.html) でSFT的に翻訳タスクでQLoRA tuningしてみた日本語の生成がおっそいが普通に動いていそう(文章レベルで翻訳できててえらい)
 - 
 
 ## 1/1
@@ -4122,20 +4125,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://news.yahoo.co.jp/articles/60da4c733c2a03a9829bc598f8dcc246e4d10b00
 - LLamaindexにて、正式にhuggingfaceの LLM support　される
 	- https://github.com/jerryjliu/llama_index
-- WebGPUで、LLMをローカルに動かす動きが活発に、LaMA, Alpaca, Vicuna, and Dol
-	- https://github.com/mlc-ai/web-llm
-- Google I/OでPaLM 2を発表
-	- https://ai.google/static/documents/palm2techreport.pdf
-- Wikipediaに対するQ&Aを可能にするretreaverを提供するCoheare?
-	- https://github.com/menloparklab/cohere-weaviate-wikipedia-retrieval
-	- https://github.com/weaviate/weaviate
-- Google
+- WebGPUで、LLMをローカルに動かす動きが活発に、LaMA, Alpac
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTE2MDAwNiwyODg5NzY2NDQsLTIxND
-Q3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2
-NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMC
-wtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0y
-MDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5OD
-A3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwt
-MTIyMDIwNjAyN119
+eyJoaXN0b3J5IjpbNjk3MzMyNjcxLDI4ODk3NjY0NCwtMjE0ND
+cxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2
+MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC
+0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIw
+NjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MD
+c1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0x
+MjIwMjA2MDI3XX0=
 -->
