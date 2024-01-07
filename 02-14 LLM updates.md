@@ -100,7 +100,9 @@
 	- LLMの知識を狙い撃ちして編集する手法（Knowledge Editing：知識編集）の現状を網羅的にまとめた論文
 	- ■知識編集とは 1. 常識、感情など多岐にわたる情報を編集するもの 2. 挿入/変更/削除を行う 3. 対象以外の知識は保持する
 	- 知識編集を応用するとモデルの信頼性を向上させたり、パーソナライズされたエージェントを作りやすくなったりする
-	- 
+	- 知識編集のためのオープンソースフレームワーク「EasyEdit」を開発し公開しています
+	- https://github.com/zjunlp/EasyEdit
+- 
 
 ## 1/1
 
@@ -4129,15 +4131,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://arxiv.org/abs/2305.07378
 - privateGPT:ローカル環境で動く最小限のGPT、LangChain, GPT4All, LlamaCpp, Chroma and SentenceTransformersを活用
 	- https://github.com/imartinez/privateGPT
-- TinyStories:３～４才ぐらいが理解できる短い文書のデータセット、どれだけLLMを小さくできるかを評価するためのもの by Microsoft
-	- https://arxiv.org/abs/2305.07759
-- Google/OpenA
+- TinyStories:３～４才ぐらいが理解できる短い文書のデータセット、どれだけL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyMTAzOTczLC0yMDM3NzIzNDYzLDI4OD
-k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
-MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
-wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
-NzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5Nj
-IyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwx
-NDg2NzUyMDUxXX0=
+eyJoaXN0b3J5IjpbLTE1MjI2NzI4MjQsLTIwMzc3MjM0NjMsMj
+g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
+NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOT
+g4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Miwt
+MTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMz
+k2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYx
+LDE0ODY3NTIwNTFdfQ==
 -->
