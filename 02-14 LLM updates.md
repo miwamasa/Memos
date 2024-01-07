@@ -117,6 +117,12 @@
 	- ■フレームワークの全容 1. 特定のタスクに強いLLMを用意 2. 訓練したいLLMを用意 3. 両者をクロスアテンション層で連携 4. LLM間の情報共有を行う 5. 評価を行う
 	- ■実験結果 - 訓練後モデルの性能が向上した - 小さなモデルでも成果が出た - 既存の方法より小リソースで実現した
 	- CALM、マジなら凄くね。ドメイン特化の小さいモデルを既存のモデルにくっ付けて性能アップできるとな。ちゃんと読んでみよ。
+- Scikit-LLM: Scikit-Learn Meets Large Language Models
+	- https://github.com/iryna-kondr/scikit-llm
+	- Seamlessly integrate powerful language models like ChatGPT into scikit-learn for enhanced text analysis tasks.
+- phi-2のライセンスが、研究目的限定からMITライセンスに変更された
+	- https://x.com/abacaj/status/1743500472520974364?s=20
+- 
 
 ## 1/1
 
@@ -4126,19 +4132,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - microsoft/guidance(LangChainのようなもの）をつかって、Agentを定義して、動かす
 	- https://note.com/explaza_inc/n/n7cb8043506bd
 - OpenAIがgptサービスの５月の速度低下をレポートするものが
-	- https://twitter.com/helicone_ai/status/1662325356563496961?s=20
-- Googleが生成AIの無料講座を公開
-	- https://www.cloudskillsboost.google/journeys/118
-- SQLを活用したデータ分析におけるChatGPTの活用法
-	- https://speakerdeck.com/hikarut/sqlwohuo-yong-sitadetafen-xi-niokeruchatgptnohuo-yong-fa
-- ChatGPTのデータサイエンス向けのプラグインNotableが便利との記事
-	- https://secon.dev/entry/2023/05/27/170000-note
+	- https://twitter.com/helicone_ai/status/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQ4MDMzMywtMjAzNzcyMzQ2MywyOD
-g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
-NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
-gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
-MTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOT
-YyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEs
-MTQ4Njc1MjA1MV19
+eyJoaXN0b3J5IjpbLTEwNjg1NjE5MjAsLTIwMzc3MjM0NjMsMj
+g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
+NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOT
+g4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Miwt
+MTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMz
+k2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYx
+LDE0ODY3NTIwNTFdfQ==
 -->
