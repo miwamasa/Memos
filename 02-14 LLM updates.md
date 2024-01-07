@@ -6,7 +6,9 @@
 
 - MistralのMoE版であるMixtralが推論時に使うのは8つのExportのうち2つのみ
 	- https://x.com/webbigdata/status/1741043710476100060?s=20
-	- 7B x 8のMixtralが無料版ColabやRTX 3060(12G)で動か
+	- 7B x 8のMixtralが無料版ColabやRTX 3060(12G)で動かすことができる
+	- https://colab.research.google.com/github/dvmazur/mixtral-offloading/blob/master/notebooks/demo.ipynb#scrollTo=Zf4GkspecSm8
+- 
 
 ## 1/1
 
@@ -4127,15 +4129,12 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - Google I/Oが大収穫だった模様、Bardは日本語、韓国語対応、 Bard、PaLM 2
 	- https://www.gizmodo.jp/2023/05/google-io23-ai-outline.html
 - BardとGPT-4の性能比較、結構GPT-4に肉薄している模様。
-	- https://qiita.com/kumag0r0/items/77dbe743643183ae3e98
-- Bard発表のプレゼンで、「日本語」のフォントが残念と話題に、、、
-	- https://www.itmedia.co.jp/news/articles/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODcxMjc1NywyODg5NzY2NDQsLTIxND
-Q3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2
-NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMC
-wtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0y
-MDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5OD
-A3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwt
-MTIyMDIwNjAyN119
+eyJoaXN0b3J5IjpbNjgyMjA3NDE1LDI4ODk3NjY0NCwtMjE0ND
+cxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2
+MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC
+0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIw
+NjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MD
+c1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0x
+MjIwMjA2MDI3XX0=
 -->
