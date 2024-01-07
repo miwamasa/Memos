@@ -94,6 +94,7 @@
 	-  	[https://ai-data-base.com/archives/56365](https://t.co/UJZUbuWNh2)
 -  最近の日本語特化オープンLLMをつまみ食いする by shi3z
 	- https://note.com/shi3zblog/n/n55e1c542205a?sub_rt=share_pb
+	-  
 	- 
 
 ## 1/1
@@ -4129,11 +4130,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://www.theinformation.com/articles/open-source-ai-is-gaining-on-google-and-chatgpt
 - Marvin:プログラミングとLLMの補助を組み合わせた新しいパラダイム、LMQLみたいな感じ？スキーマに従ってデータ抽出など
 	- https://note.com/hamachi_jp/n/na1960fc9d6d3
-	- https://www.askmarvin.ai/
-- Excelとチャットする、titnanicの例で、前処理のところをチャットで実現
-	- https://github.com/Anil-matcha/Chat
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDM0MTE3MSwtMjAzNzcyMzQ2MywyOD
+eyJoaXN0b3J5IjpbMTkyNTE5Mjc5MiwtMjAzNzcyMzQ2MywyOD
 g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
 NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
 gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
