@@ -14,7 +14,9 @@
 - Mixtralに対し日英対訳データセットでQLoRA tuning (SFT)を施した日⇔英 翻訳モデル(のLoRA層)をHuggingFace上に公開しました
 	- https://huggingface.co/hpprc/Mixtral-8x7B-Instruct-ja-en
 	- Mixtralを小説の対訳データセット(https://www2.nict.go.jp/astrec-att/member/mutiyama/align/index.html) でSFT的に翻訳タスクでQLoRA tuningしてみた日本語の生成がおっそいが普通に動いていそう(文章レベルで翻訳できててえらい)
-- 
+- LLaMA-Factory
+	- Google Colab で Llama Factoryを試し中。 1分でインストール完了して、WebUIでぽちぽち押すだけで学習できた。Pre-Training、SFT、Reward Modeling、PPO、DPOも対応
+	- https://x.com/npaka123/status/1741429803599962557?s=20
 
 ## 1/1
 
@@ -4122,16 +4124,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - VAEによる分子生成のモデルの改良の話
 	- https://arxiv.org/abs/2305.03041v1
 - GTP-4日本の医師国家試験で合格？
-	- https://news.yahoo.co.jp/articles/60da4c733c2a03a9829bc598f8dcc246e4d10b00
-- LLamaindexにて、正式にhuggingfaceの LLM support　される
-	- https://github.com/jerryjliu/llama_index
-- WebGPUで、LLMをローカルに動かす動きが活発に、LaMA, Alpac
+	- https://news.yahoo.c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MzMyNjcxLDI4ODk3NjY0NCwtMjE0ND
-cxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2
-MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC
-0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIw
-NjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MD
-c1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0x
-MjIwMjA2MDI3XX0=
+eyJoaXN0b3J5IjpbMTUwODM0OTI3MCwyODg5NzY2NDQsLTIxND
+Q3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2
+NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMC
+wtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0y
+MDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5OD
+A3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwt
+MTIyMDIwNjAyN119
 -->
