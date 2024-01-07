@@ -59,10 +59,13 @@
 	- 例3:
 		- 推論したい因果: QRコードオーダーシステムの導入が、顧客一人あたりの注文金額に与える影響
 		- どの曜日も効果がありますが、特に日曜日に効果が高くなっています
-	- MotionGPTは、人間の動きを、自然言語ベースでやり取りしながら生成できる技術。
-		- MotionGPT: Human Motion as Foreign Language
-		- https://motion-gpt.github.io/
-		- https://huggingface.co/spaces/OpenMotionLab/MotionGPT
+- MotionGPTは、人間の動きを、自然言語ベースでやり取りしながら生成できる技術。
+	- MotionGPT: Human Motion as Foreign Language
+	- https://motion-gpt.github.io/
+	- https://huggingface.co/spaces/OpenMotionLab/MotionGPT
+- LLM Factoscope: Uncovering LLMs' Factual Discernment through Inner States Analysis
+	- https://arxiv.org/abs/2312.16374
+	- 
 
 ## 1/1
 
@@ -4122,14 +4125,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://medium.com/stanford-cs224w/tackling-the-traveling-salesman-problem-with-graph-neural-networks-b86ef4300c6e
 - OpenCALM-7Bをdolly-15k-jaでLoRAしたら、ある程度会話できるようになった
 	- https://twitter.com/masuidrive/status/1659089478781227008?s=20
-- LLMの出力の説明に関する論文らしい、Explaining black box text modules in natural language with language models by microsoft
-	- https://huggingface.co/p
+- LLMの出力の説明に関する
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5ODI2NzMxLC0yMDM3NzIzNDYzLDI4OD
-k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
-MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
-wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
-NzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5Nj
-IyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwx
-NDg2NzUyMDUxXX0=
+eyJoaXN0b3J5IjpbLTg0NzQxMzk1NywtMjAzNzcyMzQ2MywyOD
+g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
+NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
+gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
+MTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOT
+YyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEs
+MTQ4Njc1MjA1MV19
 -->
