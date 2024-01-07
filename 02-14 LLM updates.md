@@ -94,8 +94,8 @@
 	-  	[https://ai-data-base.com/archives/56365](https://t.co/UJZUbuWNh2)
 -  最近の日本語特化オープンLLMをつまみ食いする by shi3z
 	- https://note.com/shi3zblog/n/n55e1c542205a?sub_rt=share_pb
-	-  
-	- 
+	-  Qarasu-14B-chat-plus-unleashedがすごいらいしい
+- 
 
 ## 1/1
 
@@ -4132,11 +4132,11 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://note.com/hamachi_jp/n/na1960fc9d6d3
 	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTE5Mjc5MiwtMjAzNzcyMzQ2MywyOD
-g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
-NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
-gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
-MTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOT
-YyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEs
-MTQ4Njc1MjA1MV19
+eyJoaXN0b3J5IjpbLTQxOTI5MDI0LC0yMDM3NzIzNDYzLDI4OD
+k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
+MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
+wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
+NzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5Nj
+IyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwx
+NDg2NzUyMDUxXX0=
 -->
