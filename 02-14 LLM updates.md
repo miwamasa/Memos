@@ -32,6 +32,9 @@
 - Chat with Mamba
 	- https://colab.research.google.com/drive/1SEwD1Cxp_mG0-CvLWWT0i9D6aYKMf1FL?usp=sharing
 	- Mamba is really exciting, but its potential remains untapped due to a lack of instruction-tuning and alignment. I
+-  Half-Quadratic Quantization of Large Machine Learning Models
+	- https://mobiusml.github.io/hqq_blog/
+	- あたらしい量子化の仕組みのもよう。
 - 
 - 
 
@@ -4122,9 +4125,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 
 ## 5/15
-最新のLLMに関する情報は、Transformer論文のアーキテクチャの議論や応用プロンプトエンジニアリングの探求、アッセンブリ理論の応用、AGIの悲観論、Shap-Eのデモサイト、LLamaindexの要約機能追加、GPT-4のニューロン説明試み、分子生成モデル改良、医師国家試験合格報道、WebGPUでのLLM実行、PaLM 2の発表、Q&A向けretreaver、BardとGPT-4性能比較、フォント問題、HumanML3Dデータセット、DeepL日本拠点計画、3D Tilesプロジェクト、日本語T5モデル、LeCun講演、ChatGPT Plugin提供、分子励起状態予測、機械学習理論発展、GTモデル作成、推薦システム研究、量子機械学習研究者転向、Helion Energyへの電力購入契約、牧野先生の不偏分散解説、Scikit
+最新のLLMに関する情報は、Transformer論文のアーキテクチャの議論や応用プロンプトエンジニアリングの探求、アッセンブリ理論の応用、AGIの悲観論、Shap-Eのデモサイト、LLamaindexの要約機能追加、GPT-4のニューロン説明試み、分子生成モデル改良、医師国家試験合格報道、WebGPUでのLLM実行、PaLM 2の発表、Q&A向けretreaver、BardとGPT-4性能比較、フォント問題、HumanML3Dデータセット、DeepL日本拠点計画、3D Tilesプロジ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTYyMDI5MTIsMjg4OTc2NjQ0LC0yMT
+eyJoaXN0b3J5IjpbLTIwMjg4OTU4OTIsMjg4OTc2NjQ0LC0yMT
 Q0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5
 NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMz
 AsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwt
