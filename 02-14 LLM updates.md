@@ -4,6 +4,7 @@
 
 ## 1/8
 
+- 
 
 ## 1/1
 
@@ -4130,9 +4131,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - HumanML3D:Human motion language Dataset
 	- https://github.com/EricGuo5513/HumanML3D
 - DeepL日本に拠点を置く？
-	- https://newsdig.tbs.co.jp/a
+	- https://newsdig.tbs.co.j
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwMjM1ODgxLC0yMTQ0NzE2NjUyLC0xND
+eyJoaXN0b3J5IjpbMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xND
 AzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIx
 MDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzND
 ksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwx
