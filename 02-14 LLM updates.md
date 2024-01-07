@@ -105,7 +105,11 @@
 - Synthetic Data Applications in Finance
 	- https://arxiv.org/abs/2401.00081
 	- 金融における合成(生成)データを作るモデルに関して、JPモルガンのAIチームの人たちが書いたレビュー論文。金融におけるAI分野の中で最先端分野の１つと思う。
-- 
+-  単一GPUで動画・画像・音声・テキスト対応のマルチモーダルモデルを訓練して推論!?何を言ってるかわかねーと思うが、俺も何を見ているのかわからねえ by shi3z
+	- https://note.com/shi3zblog/n/nf657d6105bd9?sub_rt=share_pb
+	- 動画、画像、音楽、テキストという四つのモードを学習させた「マルチモーダル」モデルで、しかもベースはllama-7Bということで、V100 32GB一つで推論可能(CPUのRAMは49GB以上必要)どころか学習も可能。
+	- 実際にはこれは「どんな情報も入力できるマルチモーダルモデル」のプロトタイプである
+	- 
 
 ## 1/1
 
@@ -4128,17 +4132,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 	- https://www.itmedia.co.jp/news/articles/2305/26/news106.html
 
 ## 5/22
-ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば、なんとか同等の性能がでるという報告も(A100が必要)。privateGPTや、GPT4ALLなどの、ローカル環境で動かせるOSSのLLMもだいぶそろってきました。PyTorchをブラウザ環境'(TypeScriptで）動かす仕組みも登場。しかし本命は、WebGPUをつかって、ブラウザ以外からもLLMをローカルで高速に動かす試みには期待したいところ。いっぽうTinyStoriesなど、どれだけLLMを小さくできるかな？的なアプローチも続く。Tramnsformerも偏微方程式を解くなど、物理モデルの領域に広げる試みも。日本からは日本語版LLMが複数出現、実力のほどは？？LLMの説明性やバイアス対策なども。ChatGPTがついにIPhoneに乗る（USのみ）。MicrosoftはLLMを使いやすくするフレームワークGuidanceを発表、SemanticKernelの立場は？？Marvinのような、LLMとプログラミングの融合パラダイムには可能性がありそうです。
-
-- LLMのバイアスをあぶりだす、Constructive Input Decoding(CID) by google
-	- https://arxiv.org/abs/2305.07378
-- privateGPT:ローカル環境で動く
+ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば、なんとか同等の性能がでるという報告も(A100が必要)。privateGPTや、GPT4ALLなどの、ローカル環境で動かせるOSSのLLMもだいぶそろってきました。PyTorchをブラウザ環境'(TypeScriptで）動かす仕組みも登場。しかし本命は、WebGPUをつかって、ブラウザ以外からもLLMをローカルで高速に動かす試みには期待したいところ。いっぽうTinyStoriesなど、どれだけLLMを小さくできるかな？的なアプローチも続く。Tramnsformerも偏微方程式を解くなど、物理モデルの領
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjA0NzczMSwtMjAzNzcyMzQ2MywyOD
-g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
-NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
-gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
-MTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOT
-YyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEs
-MTQ4Njc1MjA1MV19
+eyJoaXN0b3J5IjpbOTAzOTY2NzI3LC0yMDM3NzIzNDYzLDI4OD
+k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
+MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
+wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
+NzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5Nj
+IyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwx
+NDg2NzUyMDUxXX0=
 -->
