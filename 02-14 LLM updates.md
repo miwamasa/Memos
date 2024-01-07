@@ -55,7 +55,11 @@
 		- 公園から500mぐらいまでは効果が高く、3Km以上となるとほぼ効果がないことが分かります。
 	- 例2:
 		- 推論したい因果: 新しい薬の摂取が患者の健康スコアに与える影響
-		- 
+		- 年齢が高くなるほど効果が高く、60歳以上はほぼ同じぐらいの効果の高さで落ち着いています
+	- 例3:
+		- 推論したい因果: QRコードオーダーシステムの導入が、顧客一人あたりの注文金額に与える影響
+		- どの曜日も効果がありますが、特に日曜日に効果が高くなっています
+	- 
 
 ## 1/1
 
@@ -4120,11 +4124,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - TokenHawk、WebGPUを活用して、ローカルで、WebでLLMを動かすことができる仕組み、GoogleのDawnエンジン利用
 	- https://github.com/kayvr/token-hawk
 -  ChatGPTがiPhoneで動くようになる(米国)
-	- https://openai.com/blog/introducing-the-chatgpt-app-for-ios
-- Trasnformerを制御に用いる、# A Generalist Dynamics Model for Control、by DeepMind
-	- https://huggingface.co/pap
+	- https://openai.com/blog
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzYxNjcxNiwtMjAzNzcyMzQ2MywyOD
+eyJoaXN0b3J5IjpbMTk1ODE5NzQ2MCwtMjAzNzcyMzQ2MywyOD
 g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
 NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
 gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
