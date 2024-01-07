@@ -7,7 +7,10 @@
 - MistralのMoE版であるMixtralが推論時に使うのは8つのExportのうち2つのみ
 	- https://x.com/webbigdata/status/1741043710476100060?s=20
 	- 7B x 8のMixtralが無料版ColabやRTX 3060(12G)で動かすことができる
+	- 投機的ロードは投機に負けると量子化モデルより遅くなる罠
 	- https://colab.research.google.com/github/dvmazur/mixtral-offloading/blob/master/notebooks/demo.ipynb#scrollTo=Zf4GkspecSm8
+	-  Fast Inference of Mixture-of-Experts Language Models with Offloading
+	- https://arxiv.org/abs/2312.17238
 - 
 
 ## 1/1
@@ -4126,15 +4129,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - Wikipediaに対するQ&Aを可能にするretreaverを提供するCoheare?
 	- https://github.com/menloparklab/cohere-weaviate-wikipedia-retrieval
 	- https://github.com/weaviate/weaviate
-- Google I/Oが大収穫だった模様、Bardは日本語、韓国語対応、 Bard、PaLM 2
-	- https://www.gizmodo.jp/2023/05/google-io23-ai-outline.html
-- BardとGPT-4の性能比較、結構GPT-4に肉薄している模様。
+- Google
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyMjA3NDE1LDI4ODk3NjY0NCwtMjE0ND
-cxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2
-MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC
-0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIw
-NjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MD
-c1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0x
-MjIwMjA2MDI3XX0=
+eyJoaXN0b3J5IjpbLTI3OTE2MDAwNiwyODg5NzY2NDQsLTIxND
+Q3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2
+NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMC
+wtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0y
+MDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5OD
+A3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwt
+MTIyMDIwNjAyN119
 -->
