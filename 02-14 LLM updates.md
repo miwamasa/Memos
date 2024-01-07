@@ -4,7 +4,7 @@
 
 ## 1/8
 
- MistralのMoE版に対する投機的実行(offload)が新しい量子化HQQを含めて、すごい。次のExpertを予測してプリロード、colabで動くのもすごい。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。
+ MistralのMoE版に対する投機的実行(offload)が新しい量子化HQQを含めて、すごい。次のExpertを予測してプリロード、colabで動くのもすごい。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。因果フォレストとか、データ不均衡問題を解消するSMOTEなんかも着実に進んでいる。LLM時代に本当に必要なのは、リーディング、ライティング、スピーキングのスキルって、いやそこに達するまでが大変なのよ。
 
 
 - MistralのMoE版であるMixtralが推論時に使うのは8つのExportのうち2つのみ
@@ -4130,11 +4130,9 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - LangChainからDatabricksを使う
 	- https://python.langchain.com/en/latest/modules/models/llms/integrations/databricks.html
 - アブダビの研究所からFalcon-40Bが発表、オープンソースなのに、ライセンス料が必要みたいな罠が見つかる。
-	- https://huggingface.co/tiiuae/falcon-40b
-	- 「売上の10%をロイヤリティとして12ヶ月毎に支払わなければならない」
-- microsoft/guidance(LangChainのようなもの）をつかって、Agen
+	- https://huggingface.co/tiiua
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjkwNDU5MSwtMjAzNzcyMzQ2MywyOD
+eyJoaXN0b3J5IjpbMTkyNjM5ODEzNSwtMjAzNzcyMzQ2MywyOD
 g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
 NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
 gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
