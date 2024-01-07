@@ -4,7 +4,8 @@
 
 ## 1/8
 
- MistralのMoE版に対する投機的実行(offload)が新しい量子化HQQを含めて、すごい。次のExpertを予測してプリロード、colabで動くのもすごい。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。因果フォレストとか、データ不均衡問題を解消するSMOTEなんかも着実に進んでいる。LLM時代に本当に必要なのは、リーディング、ライティング、スピーキングのスキルって、いやそこに達するまでが大変なのよ。 日本の官公庁の「よくある質問」データセット、国家公務員によるチェックを経ており誤字脱字がないと言い切ったな。LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法というのは斬新、内部状態が大切なのね。点線との
+ MistralのMoE版に対する投機的実行(offload)が新しい量子化HQQを含めて、すごい。次のExpertを予測してプリロード、colabで動くのもすごい。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。因果フォレストとか、データ不均衡問題を解消するSMOTEなんかも着実に進んでいる。LLM時代に本当に必要なのは、リーディング、ライティング、スピーキングのスキルって、いやそこに達するまでが大変なのよ。 日本の官公庁の「よくある質問」データセット、国家公務員によるチェックを経ており誤字脱字がないと言い切ったな。LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法というのは斬新、内部状態が大切なのね。テンセントのマルチモーダルモデルを訓練して推論って、「どんな情報も入力できるマルチモーダルモデル」に向けて、どれだけ可能性があるか？
+phi-2のライセンスがMITになったのはすごいな。
 
 
 - MistralのMoE版であるMixtralが推論時に使うのは8つのExportのうち2つのみ
@@ -4127,10 +4128,9 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 	- https://www.deepmind.com/blog/an-early-warning-system-for-novel-ai-risks?utm_source=twitter&utm_medium=social&utm_campaign=ModelEval
 - WebGPUをつかってLLMを動かす仕組み、WebLLMが、nodejsでも動く？？
 	- https://github.com/mlc-ai/web-llm
-- LangChainからDatabricksを使う
-	- https://python.langchain.com/en/latest/modules/models/llms/
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjkwOTExOSwtMjAzNzcyMzQ2MywyOD
+eyJoaXN0b3J5IjpbLTk0NzUxMTg2NywtMjAzNzcyMzQ2MywyOD
 g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
 NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
 gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
