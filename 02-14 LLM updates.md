@@ -38,7 +38,9 @@
 	- GPTQ の 50 倍以上高速に処理できる Half-Quadratic Quantization (HQQ)
 	- MOEのoffloadでも用いられたらしい
 	- https://huggingface.co/lavawolfiee/Mixtral-8x7B-Instruct-v0.1-offloading-demo
-- 
+- Google Colab で LLaMA-Factory を試す by npakaさん
+	- https://note.com/npaka/n/ne72fb4de6a2f?sub_rt=share_b
+	- 
 - 
 
 ## 1/1
@@ -4122,15 +4124,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - Stanford大学、文字列のアライメントライブラリstring2string
 	- https://github.com/stanfordnlp/string2string
 - Self-Queringという手法、による文書検索Weaviate、スキーマを与えると、検索結果に、情報抽出の結果も出してくれる（曲のratingとかgeneとかのメタデータなど）もやってくれる。おおすごい
-	- https://python.langchain.com/en/latest/modules/indexes/retrievers/examples/weaviate_self_query.html
-- BCGがまとめた日本企業の変革を阻む「チェンジモンスター」資料、ポケモン的なキャラクター付け
-	- https://web-a
+	- https://python.langchain.com/en/latest/modules/indexes/retrie
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMT
-Q0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5
-NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMz
-AsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwt
-MjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OT
-gwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEs
-LTEyMjAyMDYwMjddfQ==
+eyJoaXN0b3J5IjpbNDIwNjExMTIwLC0yMDM3NzIzNDYzLDI4OD
+k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
+MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
+wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
+NzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5Nj
+IyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwx
+NDg2NzUyMDUxXX0=
 -->
