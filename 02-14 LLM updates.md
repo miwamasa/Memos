@@ -35,6 +35,7 @@
 -  Half-Quadratic Quantization of Large Machine Learning Models
 	- https://mobiusml.github.io/hqq_blog/
 	- あたらしい量子化の仕組みのもよう。
+	- https://huggingface.co/lavawolfiee/Mixtral-8x7B-Instruct-v0.1-offloading-demo
 - 
 - 
 
@@ -4125,9 +4126,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 
 ## 5/15
-最新のLLMに関する情報は、Transformer論文のアーキテクチャの議論や応用プロンプトエンジニアリングの探求、アッセンブリ理論の応用、AGIの悲観論、Shap-Eのデモサイト、LLamaindexの要約機能追加、GPT-4のニューロン説明試み、分子生成モデル改良、医師国家試験合格報道、WebGPUでのLLM実行、PaLM 2の発表、Q&A向けretreaver、BardとGPT-4性能比較、フォント問題、HumanML3Dデータセット、DeepL日本拠点計画、3D Tilesプロジ
+最新のLLMに関する情報は、Transformer論文のアーキテクチャの議論や応用プロンプトエンジニアリングの探求、アッセンブリ理論の応用、AGIの悲観論、Shap-Eのデモサイト、LLamaindexの要約機能追加、GPT-4のニューロン説明試み、分子生成モデル改良、医師国家試験合格報道、WebGPUでのLLM実行、PaLM 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg4OTU4OTIsMjg4OTc2NjQ0LC0yMT
+eyJoaXN0b3J5IjpbLTEwODM2MDAxOTksMjg4OTc2NjQ0LC0yMT
 Q0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5
 NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMz
 AsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwt
