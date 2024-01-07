@@ -4,7 +4,9 @@
 
 ## 1/8
 
-- 
+- MistralのMoE版であるMixtralが推論時に使うのは8つのExportのうち2つのみ
+	- https://x.com/webbigdata/status/1741043710476100060?s=20
+	- 7B x 8のMixtralが無料版ColabやRTX 3060(12G)で動か
 
 ## 1/1
 
@@ -4127,17 +4129,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - BardとGPT-4の性能比較、結構GPT-4に肉薄している模様。
 	- https://qiita.com/kumag0r0/items/77dbe743643183ae3e98
 - Bard発表のプレゼンで、「日本語」のフォントが残念と話題に、、、
-	- https://www.itmedia.co.jp/news/articles/2305/11/news178.html
-- HumanML3D:Human motion language Dataset
-	- https://github.com/EricGuo5513/HumanML3D
-- DeepL日本に拠点を置く？
-	- https://newsdig.tbs.co.j
+	- https://www.itmedia.co.jp/news/articles/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xND
-AzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIx
-MDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzND
-ksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwx
-Mjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3Mz
-cwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcs
-MTI4NTcxMzU2Nl19
+eyJoaXN0b3J5IjpbMTUwODcxMjc1NywyODg5NzY2NDQsLTIxND
+Q3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2
+NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMC
+wtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0y
+MDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5OD
+A3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwt
+MTIyMDIwNjAyN119
 -->
