@@ -20,7 +20,9 @@
 -  日本の官公庁にある「よくある質問」をデータセットにまとめました
 	- https://note.com/eurekachan/n/nc31c0dccb3c1?sub_rt=share_pb
 	- 日本の官公庁のWebサイトから「よくある質問」を手作業で抽出し、およそ22000件の質問と応答の形になっているデータセットとしてまとめました。
-	- 
+	- 国家公務員によるチェックを経ているので、誤字脱字がほぼありません。
+	- https://huggingface.co/datasets/matsuxr/JaGovFaqs-22k
+- 
 
 ## 1/1
 
@@ -4122,11 +4124,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - OpenAIが公開した、プロンプトから3Dモデルを作るShap-Eのデモサイトがhuggingfaceに。
 	- https://huggingface.co/spaces/hysts/Shap-E
 - LLamaindexに新しいドキュメント要約の仕組みが導入？
-	- https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec
-- OpenAI: GPT-4で、GPT-2の個々のニューロンの働きの説明というか、意味づけを行う？？	
-	- https://op
+	- https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzE3MDM3OCwyODg5NzY2NDQsLTIxND
+eyJoaXN0b3J5IjpbMTM5MTkzOTQ5MiwyODg5NzY2NDQsLTIxND
 Q3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2
 NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMC
 wtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0y
