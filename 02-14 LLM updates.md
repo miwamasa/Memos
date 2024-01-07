@@ -4,9 +4,7 @@
 
 ## 1/8
 
- MistralのMoE版に対する投機的実行が新しい量子化HQQを含めて、すごい。次の
-
-
+ MistralのMoE版に対する投機的実行(offload)が新しい量子化HQQを含めて、すごい。次のExpertを予測してプリロード、colabで動くのもすごい。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。
 
 
 - MistralのMoE版であるMixtralが推論時に使うのは8つのExportのうち2つのみ
@@ -4134,15 +4132,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - アブダビの研究所からFalcon-40Bが発表、オープンソースなのに、ライセンス料が必要みたいな罠が見つかる。
 	- https://huggingface.co/tiiuae/falcon-40b
 	- 「売上の10%をロイヤリティとして12ヶ月毎に支払わなければならない」
-- microsoft/guidance(LangChainのようなもの）をつかって、Agentを定義して、動かす
-	- https://note.com/explaza_inc/n/n7cb8043506bd
-- OpenAIがgptサービスの５月の速度低下を
+- microsoft/guidance(LangChainのようなもの）をつかって、Agen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTYwMzg2LC0yMDM3NzIzNDYzLDI4OD
-k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
-MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
-wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
-NzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5Nj
-IyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwx
-NDg2NzUyMDUxXX0=
+eyJoaXN0b3J5IjpbLTcwMjkwNDU5MSwtMjAzNzcyMzQ2MywyOD
+g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
+NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
+gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
+MTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOT
+YyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEs
+MTQ4Njc1MjA1MV19
 -->
