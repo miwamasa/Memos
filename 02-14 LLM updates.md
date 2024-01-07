@@ -65,7 +65,18 @@
 	- https://huggingface.co/spaces/OpenMotionLab/MotionGPT
 - LLM Factoscope: Uncovering LLMs' Factual Discernment through Inner States Analysis
 	- https://arxiv.org/abs/2312.16374
-	- 
+	- LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法
+	- ■LLMファクトスコープの概要 
+		- 1. シャムネットワークを活用 
+		- 2. LLMの内部状態を分析 
+		- ※シャムネットワーク（Siamese Network）： 出力の類似度を判断するためのニューラルネット
+	- ■実験と結果 
+		- 1. Llama2、VicunaなどのLLMを使用 
+		- 2. 特定データセットと事実確認プロンプトで出力 
+		- 3. LLMの内部状態から、事実かを判断 
+		- 4. 出力が事実なのかを96%以上の精度で識別した 
+		- →ハルシネーションの検出手法として有望と判断
+- 
 
 ## 1/1
 
@@ -4121,13 +4132,8 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://blog.google/technology/developers/google-colab-ai-coding-features/
 - Transformer.js: Hugging Faceのtransformerを、ブラウザで動かすことができる、ONIX runtimeを利用、WebGPU対応は不明
 	- https://github.com/xenova/transformers.js
-- Graph Neural Network(GNN)で、巡回セールスマン問題を解く、スタンフォード大学の講義での事例、CS224W
-	- https://medium.com/stanford-cs224w/tackling-the-traveling-salesman-problem-with-graph-neural-networks-b86ef4300c6e
-- OpenCALM-7Bをdolly-15k-jaでLoRAしたら、ある程度会話できるようになった
-	- https://twitter.com/masuidrive/status/1659089478781227008?s=20
-- LLMの出力の説明に関する
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzQxMzk1NywtMjAzNzcyMzQ2MywyOD
+eyJoaXN0b3J5IjpbMjAwODU0OTUxMSwtMjAzNzcyMzQ2MywyOD
 g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
 NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
 gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
