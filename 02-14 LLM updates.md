@@ -25,6 +25,11 @@
 - The TinyLlama project is an open endeavor to train a compact 1.1B Llama model on 3 trillion tokens.
 	- https://ollama.ai/library/tinyllama
 	- Its small size means it can run fast with little memory and compute requirements
+- Sakura-SOLAR-DPO
+	- https://github.com/KyujinHan/Sakura-SOLAR-DPO
+	- huggingfaceの12月度 Open LLM リーダーボードの勝者？
+	- A new winner on the huggingface Open LLM Leaderboard at the end of December … combining the goodness of SOLAR-10.7B and Direct Preference Optimization (DPO)
+- 
 - 
 
 ## 1/1
@@ -4119,17 +4124,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - オリジナルのTransformer論文のアーキテクチャ構成の絵が、本文と合ってないと記事が、
 	- https://arxiv.org/abs/2002.04745
 - few-shot learningで満足できない人の応用プロンプト集
-	- https://cameronrwolfe.substack.com/p/advanced-prompt-engineering
-- アッセンブリ理論、有機化合物で分子の結合の複雑さの評価、LLMの評価にも使える？
-	- https://www.quantamagazine.org/a-new-theory-for-the-assembly-of-life-in-the-universe-20230504/
-- AGIが人類を壊滅させる可能性はほぼ100%といった強い悲観論、AI Alignment Centerの人の話によると、
-	- https://note.com/bioshok/n/n43
+	- https://cameronrwolfe.substacn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjU2MDc4NiwyODg5NzY2NDQsLTIxND
-Q3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2
-NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMC
-wtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0y
-MDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5OD
-A3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEsMTQ4Njc1MjA1MSwt
-MTIyMDIwNjAyN119
+eyJoaXN0b3J5IjpbNTk1Nzc1NDAxLDI4ODk3NjY0NCwtMjE0ND
+cxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2
+MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC
+0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIw
+NjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MD
+c1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwxNDg2NzUyMDUxLC0x
+MjIwMjA2MDI3XX0=
 -->
