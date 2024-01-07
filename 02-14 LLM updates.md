@@ -109,7 +109,12 @@
 	- https://note.com/shi3zblog/n/nf657d6105bd9?sub_rt=share_pb
 	- 動画、画像、音楽、テキストという四つのモードを学習させた「マルチモーダル」モデルで、しかもベースはllama-7Bということで、V100 32GB一つで推論可能(CPUのRAMは49GB以上必要)どころか学習も可能。
 	- 実際にはこれは「どんな情報も入力できるマルチモーダルモデル」のプロトタイプである
-	- 
+	- 音声、画像、動画といった情報を図の紫の部分にある各種アダプターを学習させ、それを青い部分にある既存のLLM(ここではMPT-7Bを使用)にプロンプトと一緒に入力し、LLMからAudioLMへの入力ベクトルと応答出力(テキスト)を取り出している。ものすごくシンプルなのだ。
+- LLM Augmented LLMs: Expanding Capabilities through Composition
+	- https://arxiv.org/abs/2401.02412
+	- Googleの研究者らが、あるタスクに強いLLMを使って別のLLMを同タスクに強くするためのフレームワークを開発
+	- ■フレームワークの全容 1. 特定のタスクに強いLLMを用意 2. 訓練したいLLMを用意 3. 両者をクロスアテンション層で連携 4. LLM間の情報共有を行う 5. 評価を行う
+	- ■実験結果 - 訓練後モデルの性能が向上した - 小さなモデルでも成果が出た - 既存の方法より小リソースで実現した
 
 ## 1/1
 
@@ -4127,14 +4132,9 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - ChatGPTのデータサイエンス向けのプラグインNotableが便利との記事
 	- https://secon.dev/entry/2023/05/27/170000-noteable-iris/
 - Lucan先生、GAFAMの代わりに、MAGMAを造語。 Meta, Amazon, Google, Microsoft, App
-	- https://twitter.com/ylecun/status/1662375684612685825?s=20
-- OpenAIのアルトマンCEO、「EU AI Act順守が困難ならEUでの事業は停止する
-	- https://www.itmedia.co.jp/news/articles/2305/26/news106.html
-
-## 5/22
-ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば、なんとか同等の性能がでるという報告も(A100が必要)。privateGPTや、GPT4ALLなどの、ローカル環境で動かせるOSSのLLMもだいぶそろってきました。PyTorchをブラウザ環境'(TypeScriptで）動かす仕組みも登場。しかし本命は、WebGPUをつかって、ブラウザ以外からもLLMをローカルで高速に動かす試みには期待したいところ。いっぽうTinyStoriesなど、どれだけLLMを小さくできるかな？的なアプローチも続く。Tramnsformerも偏微方程式を解くなど、物理モデルの領
+	- https://twitter.com/ylecun/statu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzOTY2NzI3LC0yMDM3NzIzNDYzLDI4OD
+eyJoaXN0b3J5IjpbMzA5ODM2MjIxLC0yMDM3NzIzNDYzLDI4OD
 k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
 MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
 wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
