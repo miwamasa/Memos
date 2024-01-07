@@ -95,7 +95,12 @@
 -  最近の日本語特化オープンLLMをつまみ食いする by shi3z
 	- https://note.com/shi3zblog/n/n55e1c542205a?sub_rt=share_pb
 	-  Qarasu-14B-chat-plus-unleashedがすごいらいしい
-- 
+- A Comprehensive Study of Knowledge Editing for Large Language Models
+	- https://arxiv.org/abs/2401.01286
+	- LLMの知識を狙い撃ちして編集する手法（Knowledge Editing：知識編集）の現状を網羅的にまとめた論文
+	- ■知識編集とは 1. 常識、感情など多岐にわたる情報を編集するもの 2. 挿入/変更/削除を行う 3. 対象以外の知識は保持する
+	- 知識編集を応用するとモデルの信頼性を向上させたり、パーソナライズされたエージェントを作りやすくなったりする
+	- 
 
 ## 1/1
 
@@ -4126,13 +4131,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://github.com/imartinez/privateGPT
 - TinyStories:３～４才ぐらいが理解できる短い文書のデータセット、どれだけLLMを小さくできるかを評価するためのもの by Microsoft
 	- https://arxiv.org/abs/2305.07759
-- Google/OpenAIがオープンソースのLLMを開発している。
-	- https://www.theinformation.com/articles/open-source-ai-is-gaining-on-google-and-chatgpt
-- Marvin:プログラミングとLLMの補助を組み合わせた新しいパラダイム、LMQLみたいな感じ？スキーマに従ってデータ抽出など
-	- https://note.com/hamachi_jp/n/na1960fc9d6d3
-	- https
+- Google/OpenA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTI5MDI0LC0yMDM3NzIzNDYzLDI4OD
+eyJoaXN0b3J5IjpbNjYyMTAzOTczLC0yMDM3NzIzNDYzLDI4OD
 k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
 MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
 wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
