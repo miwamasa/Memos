@@ -4,6 +4,11 @@
 
 ## 1/8
 
+ MistralのMoE版に対する投機的実行が新しい量子化HQQを含めて、すごい。次の
+
+
+
+
 - MistralのMoE版であるMixtralが推論時に使うのは8つのExportのうち2つのみ
 	- https://x.com/webbigdata/status/1741043710476100060?s=20
 	- 7B x 8のMixtralが無料版ColabやRTX 3060(12G)で動かすことができる
@@ -4131,14 +4136,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 	- 「売上の10%をロイヤリティとして12ヶ月毎に支払わなければならない」
 - microsoft/guidance(LangChainのようなもの）をつかって、Agentを定義して、動かす
 	- https://note.com/explaza_inc/n/n7cb8043506bd
-- OpenAIがgptサービスの５月の速度低下をレポートするものが
-	- https://twitter.com/helicone_ai/status/
+- OpenAIがgptサービスの５月の速度低下を
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjg1NjE5MjAsLTIwMzc3MjM0NjMsMj
-g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
-NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOT
-g4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Miwt
-MTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMz
-k2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYx
-LDE0ODY3NTIwNTFdfQ==
+eyJoaXN0b3J5IjpbLTYwMTYwMzg2LC0yMDM3NzIzNDYzLDI4OD
+k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
+MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
+wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
+NzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5Nj
+IyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwx
+NDg2NzUyMDUxXX0=
 -->
