@@ -59,7 +59,9 @@
 	- 例3:
 		- 推論したい因果: QRコードオーダーシステムの導入が、顧客一人あたりの注文金額に与える影響
 		- どの曜日も効果がありますが、特に日曜日に効果が高くなっています
-	- 
+	- MotionGPTは、人間の動きを、自然言語ベースでやり取りしながら生成できる技術。
+		- MotionGPT: Human Motion as Foreign Language
+		- 
 
 ## 1/1
 
@@ -4122,11 +4124,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - LLMの出力の説明に関する論文らしい、Explaining black box text modules in natural language with language models by microsoft
 	- https://huggingface.co/papers/2305.09863
 - TokenHawk、WebGPUを活用して、ローカルで、WebでLLMを動かすことができる仕組み、GoogleのDawnエンジン利用
-	- https://github.com/kayvr/token-hawk
--  ChatGPTがiPhoneで動くようになる(米国)
-	- https://openai.com/blog
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODE5NzQ2MCwtMjAzNzcyMzQ2MywyOD
+eyJoaXN0b3J5IjpbLTMyMzU4MjMxMiwtMjAzNzcyMzQ2MywyOD
 g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
 NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
 gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
