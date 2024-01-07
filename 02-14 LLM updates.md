@@ -4,8 +4,7 @@
 
 ## 1/8
 
- MistralのMoE版に対する投機的実行(offload)が新しい量子化HQQを含めて、すごい。次のExpertを予測してプリロード、colabで動くのもすごい。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。因果フォレストとか、データ不均衡問題を解消するSMOTEなんかも着実に進んでいる。LLM時代に本当に必要なのは、リーディング、ライティング、スピーキングのスキルって、いやそこに達するまでが大変なのよ。 日本の官公庁の「よくある質問」データセット、国家公務員によるチェックを経ており誤字脱字がないと言い切ったな。LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法というのは斬新、内部状態が大切なのね。テンセントのマルチモーダルモデルを訓練して推論って、「どんな情報も入力できるマルチモーダルモデル」に向けて、どれだけ可能性があるか？
-phi-2のライセンスがMITになったのはすごいな。MotionGPT、デモで太極拳を試そうとしたら今一歩だった。アリババのQWen-14BをベースにしたLLMが日本語に強いのか。知識編集のサーベイ、オープンソースも公開されていて、これはＬＬＭの操作を誰もが手軽に、そして何でもできるということか。『CALM（Composition to Augment Language Models）』もコバンザメみたいにドメインとかのＬＬＭをつければ、
+ MistralのMoE版に対する投機的実行(offload)が新しい量子化HQQを含めて、今週の一番すごい成果。次のExpertを予測してプリロード、colabで動くのもすごい。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。因果フォレストとか、データ不均衡問題を解消するSMOTEなんかも着実に進んでいる。LLM時代に本当に必要なのは、リーディング、ライティング、スピーキングのスキルって、いやそこに達するまでが大変なのよ。 日本の官公庁の「よくある質問」データセット、国家公務員によるチェックを経ており誤字脱字がないと言い切ったな。LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法というのは斬新、内部状態が大切なのね。テンセントのマルチモーダルモデルを訓練して推論って、「どんな情報も入力できるマルチモーダルモデル」に向けて、どれだけ可能性があるか？phi-2のライセンスがMITになったのはすごいな。MotionGPT、デモで太極拳を試そうとしたら今一歩だった。アリババのQWen-14BをベースにしたLLMが日本語に強いのか。知識編集のサーベイ、オープンソースも公開されていて、これはＬＬＭの操作を誰もが手軽に、そして何でもできるということか。『CALM（Composition to Augment Language Models）』もコバンザメみたいにドメイン特化のＬＬＭがあれば、より大きなＬＬＭがそのタスクをこなせるようになるという新しいチューニングだ。
 
 
 - MistralのMoE版であるMixtralが推論時に使うのは8つのExportのうち2つのみ
@@ -4124,14 +4123,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 	- https://github.com/MineDojo/Voyager
 - 祝！蔵本先生、SIAMでJürgen Moser Lecture賞受賞！受賞講演
 	- https://www.youtube.com/watch?v=2P-EgTSa-E4&feature=youtu.be
-- DeepMindから、一般的なAIモデルが潜在的に持ちうる有害なリスクを評価するフレームワーク
-	- https://www.deepmind.
+- DeepMindから、一般的なAIモデルが潜在的に持
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyMjI1NDA1LC0yMDM3NzIzNDYzLDI4OD
-k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
-MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
-wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
-NzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5Nj
-IyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwx
-NDg2NzUyMDUxXX0=
+eyJoaXN0b3J5IjpbMTQzNjQ1MjEwMCwtMjAzNzcyMzQ2MywyOD
+g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
+NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
+gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
+MTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOT
+YyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEs
+MTQ4Njc1MjA1MV19
 -->
