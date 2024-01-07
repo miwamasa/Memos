@@ -44,6 +44,8 @@
 	- 今回は、「[**Elyza-7B**](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-instruct)」で「[**ござるデータセット**](https://huggingface.co/datasets/bbz662bbz/databricks-dolly-15k-ja-gozarinnemon)」を学習させます
 	- https://github.com/hiyouga/LLaMA-Factory
 - 
+	-  OpenAI Employee Claims Prompt Engineering is Not the Skill of the Future
+	- https://www.cysecurity.news/2023/12/openai-employee-claims-prompt.html
 
 ## 1/1
 
@@ -4119,11 +4121,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://arxiv.org/abs/2305.10626
 - WebGPU-pytorch、pytorchが、webGPUの上で動く（学習、推論とも）
 	- https://github.com/praeclarum/webgpu-torch
--  Hugging FaceのモデルをLangChainで使う方法を調べた、Hubを使うか、ローカルにダウンロードして使うか、
-	- https://www.mattari-benkyo-note.com/2023/05/19/langchain_hugging_face/
-- Stanford大学のTransformerの事業CS２５が最強の件
+-  Hugging FaceのモデルをLangC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTEyMjIyMCwtMjAzNzcyMzQ2MywyOD
+eyJoaXN0b3J5IjpbLTY4MzAzODUyMiwtMjAzNzcyMzQ2MywyOD
 g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
 NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
 gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
