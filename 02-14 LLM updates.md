@@ -40,7 +40,9 @@
 	- https://huggingface.co/lavawolfiee/Mixtral-8x7B-Instruct-v0.1-offloading-demo
 - Google Colab で LLaMA-Factory を試す by npakaさん
 	- https://note.com/npaka/n/ne72fb4de6a2f?sub_rt=share_b
-	- 
+	- 「LLaMA-Factory」は、WebUIによる簡単操作でLLMを学習できるLLMファインチューニングフレームワークです。
+	- 今回は、「[**Elyza-7B**](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-instruct)」で「[**ござるデータセット**](https://huggingface.co/datasets/bbz662bbz/databricks-dolly-15k-ja-gozarinnemon)」を学習させます
+	- https://github.com/hiyouga/LLaMA-Factory
 - 
 
 ## 1/1
@@ -4120,17 +4122,12 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 -  Hugging FaceのモデルをLangChainで使う方法を調べた、Hubを使うか、ローカルにダウンロードして使うか、
 	- https://www.mattari-benkyo-note.com/2023/05/19/langchain_hugging_face/
 - Stanford大学のTransformerの事業CS２５が最強の件
-	- https://web.stanford.edu/class/cs25/
-- Stanford大学、文字列のアライメントライブラリstring2string
-	- https://github.com/stanfordnlp/string2string
-- Self-Queringという手法、による文書検索Weaviate、スキーマを与えると、検索結果に、情報抽出の結果も出してくれる（曲のratingとかgeneとかのメタデータなど）もやってくれる。おおすごい
-	- https://python.langchain.com/en/latest/modules/indexes/retrie
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwNjExMTIwLC0yMDM3NzIzNDYzLDI4OD
-k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
-MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
-wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
-NzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5Nj
-IyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwx
-NDg2NzUyMDUxXX0=
+eyJoaXN0b3J5IjpbMTM4OTEyMjIyMCwtMjAzNzcyMzQ2MywyOD
+g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
+NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
+gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
+MTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOT
+YyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEs
+MTQ4Njc1MjA1MV19
 -->
