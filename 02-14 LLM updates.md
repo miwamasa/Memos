@@ -76,6 +76,11 @@
 		- 3. LLMの内部状態から、事実かを判断 
 		- 4. 出力が事実なのかを96%以上の精度で識別した 
 		- →ハルシネーションの検出手法として有望と判断
+- 分類問題のデータ不均衡を解消するSMOTE（Python版）
+	- https://www.salesanalytics.co.jp/datascience/datascience210/
+	- データサイエンスの世界では、正確な分析と予測が成功の鍵となります。
+	- 多くの実際のデータセットは不均衡であり、これが特に分類問題において大きな課題となることがあります
+	- データ不均衡問題を解消するための強力なテクニックであるSMOTE（Synthetic Minority Over-sampling Technique）とそのバリエーションについて紹介するとともに、Pythonのコード例を示します。
 - 
 
 ## 1/1
@@ -4127,17 +4132,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - CyberAgentが日本語版ローカルLLMを発表
 	- https://huggingface.co/cyberagent
 - Google の FLAN-20B with UL2 レベルならば、ChatGPT APIのように使えるらしい	
-	- https://qiita.com/sakasegawa/items/7394fe68eb0087b3c4a5
-- Google、自社のcolabratoryに、コード生成機能を搭載するらしい
-	- https://blog.google/technology/developers/google-colab-ai-coding-features/
-- Transformer.js: Hugging Faceのtransformerを、ブラウザで動かすことができる、ONIX runtimeを利用、WebGPU対応は不明
-	- https://github.com/xenova/transformers.js
+	- htt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODU0OTUxMSwtMjAzNzcyMzQ2MywyOD
-g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
-NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
-gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
-MTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOT
-YyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEs
-MTQ4Njc1MjA1MV19
+eyJoaXN0b3J5IjpbLTEyMTQ5Njk0MzIsLTIwMzc3MjM0NjMsMj
+g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
+NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOT
+g4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Miwt
+MTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMz
+k2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYx
+LDE0ODY3NTIwNTFdfQ==
 -->
