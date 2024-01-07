@@ -110,11 +110,13 @@
 	- 動画、画像、音楽、テキストという四つのモードを学習させた「マルチモーダル」モデルで、しかもベースはllama-7Bということで、V100 32GB一つで推論可能(CPUのRAMは49GB以上必要)どころか学習も可能。
 	- 実際にはこれは「どんな情報も入力できるマルチモーダルモデル」のプロトタイプである
 	- 音声、画像、動画といった情報を図の紫の部分にある各種アダプターを学習させ、それを青い部分にある既存のLLM(ここではMPT-7Bを使用)にプロンプトと一緒に入力し、LLMからAudioLMへの入力ベクトルと応答出力(テキスト)を取り出している。ものすごくシンプルなのだ。
-- LLM Augmented LLMs: Expanding Capabilities through Composition
+- 『CALM（Composition to Augment Language Models）』
+	- LLM Augmented LLMs: Expanding Capabilities through Composition
 	- https://arxiv.org/abs/2401.02412
 	- Googleの研究者らが、あるタスクに強いLLMを使って別のLLMを同タスクに強くするためのフレームワークを開発
 	- ■フレームワークの全容 1. 特定のタスクに強いLLMを用意 2. 訓練したいLLMを用意 3. 両者をクロスアテンション層で連携 4. LLM間の情報共有を行う 5. 評価を行う
 	- ■実験結果 - 訓練後モデルの性能が向上した - 小さなモデルでも成果が出た - 既存の方法より小リソースで実現した
+	- CALM、マジなら凄くね。ドメイン特化の小さいモデルを既存のモデルにくっ付けて性能アップできるとな。ちゃんと読んでみよ。
 
 ## 1/1
 
@@ -4130,15 +4132,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - SQLを活用したデータ分析におけるChatGPTの活用法
 	- https://speakerdeck.com/hikarut/sqlwohuo-yong-sitadetafen-xi-niokeruchatgptnohuo-yong-fa
 - ChatGPTのデータサイエンス向けのプラグインNotableが便利との記事
-	- https://secon.dev/entry/2023/05/27/170000-noteable-iris/
-- Lucan先生、GAFAMの代わりに、MAGMAを造語。 Meta, Amazon, Google, Microsoft, App
-	- https://twitter.com/ylecun/statu
+	- https://secon.dev/entry/2023/05/27/170000-note
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5ODM2MjIxLC0yMDM3NzIzNDYzLDI4OD
-k3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2
-MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OC
-wxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTEx
-NzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0MjczOSwtMTM5Nj
-IyMDY0NywtODk4MDc1OSwtOTU0NzM3MDQxLDU0NzA5NzE2MSwx
-NDg2NzUyMDUxXX0=
+eyJoaXN0b3J5IjpbLTEyMTQ4MDMzMywtMjAzNzcyMzQ2MywyOD
+g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
+NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
+gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
+MTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOT
+YyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEs
+MTQ4Njc1MjA1MV19
 -->
