@@ -50,7 +50,12 @@
 - 因果フォレスト（Causal Forests）をPythonで実践的に学ぶ（その３）
 	- https://www.salesanalytics.co.jp/datascience/datascience187/
 	- 因果フォレストの1つであるCausalForestDMLによる因果推論と、その中で使われているダブル機械学習のフレームワークを利用したCATE（Conditional Average Treatment Effect）
-	- 
+	- 例1:
+		- 推論したい因果: 新しい公園の開設と近隣の家の価格との関係
+		- 公園から500mぐらいまでは効果が高く、3Km以上となるとほぼ効果がないことが分かります。
+	- 例2:
+		- 推論したい因果: 新しい薬の摂取が患者の健康スコアに与える影響
+		- 
 
 ## 1/1
 
@@ -4117,11 +4122,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 -  ChatGPTがiPhoneで動くようになる(米国)
 	- https://openai.com/blog/introducing-the-chatgpt-app-for-ios
 - Trasnformerを制御に用いる、# A Generalist Dynamics Model for Control、by DeepMind
-	- https://huggingface.co/papers/2305.10912
-- LangChainから、Spark SQL Agent
-	- https://python.langchain.com/en/latest/modules/agents/toolkits/examples/spark_sql.html
+	- https://huggingface.co/pap
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTE4NzQ1NywtMjAzNzcyMzQ2MywyOD
+eyJoaXN0b3J5IjpbMTIxMzYxNjcxNiwtMjAzNzcyMzQ2MywyOD
 g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
 NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
 gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
