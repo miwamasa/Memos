@@ -81,7 +81,14 @@
 	- データサイエンスの世界では、正確な分析と予測が成功の鍵となります。
 	- 多くの実際のデータセットは不均衡であり、これが特に分類問題において大きな課題となることがあります
 	- データ不均衡問題を解消するための強力なテクニックであるSMOTE（Synthetic Minority Over-sampling Technique）とそのバリエーションについて紹介するとともに、Pythonのコード例を示します。
-- 
+- LLMのハルシネーションをおさえる様々な手法
+- OpenAIが開発中の「人間を超えたAIを制御する」方法
+-  [https://ai-data-base.com/archives/61116](https://t.co/YRKMFwuNYh) 
+- LLMの誤り（ハルシネーション）発生原因と、「創造性と事実性のバランス」などの対策ロードマップ 
+- [https://ai-data-base.com/archives/58767](https://t.co/Iu2bgo6U7y) 
+- LLMなどの生成AIの背後にある思考プロセスは人間とは全く異なるかもしれないことを示す仮説『生成AIのパラドックス』
+-  [https://ai-data-base.com/archives/58414](https://t.co/2JaLSNaX6l) 
+- わずか2行のプロンプトでも実効性のある新しいアライメント手法『URIAL』 [https://ai-data-base.com/archives/60678](https://t.co/CaHkpMr7Vi) LLMは世界モデルを持ち「物事がどのように位置づけられ、時間がどのように進行するか」を理解する可能性 [https://ai-data-base.com/archives/56365](https://t.co/UJZUbuWNh2)
 
 ## 1/1
 
@@ -4119,26 +4126,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 	- https://www.askmarvin.ai/
 - Excelとチャットする、titnanicの例で、前処理のところをチャットで実現
 	- https://github.com/Anil-matcha/Chat-With-Excel/blob/main/Data_analysis_with_langchain.ipynb
-- Physics Informed Token Transformer(PITT)：偏微分方程式(PDE)をトークン化してエンベディングし、PDEの解を求める機械学習手法として有名なFourier Neural Operator(FNO)の補正として利用
-	- https://arxiv.org/abs/2305.08757v1
-- Abbeel教授によるHinton教授へのインタビュー、NYTimesの記事依頼、全世界から２分毎ｎ取材依頼が来たらしい
-	- https://www.youtube.com/watch?v=rLG68k2blOc
-- 医療分野に特化した言語モデル「Med-PaLM2」の論文、現役の医者もPaLM2の回答のほうを評価
-	- https://arxiv.org/abs/2305.09617
-- rinna、日本語に特化した36億パラメータのGPT言語モデルを公開
-	- https://rinna.co.jp/news/2023/05/20230507.html
-- MicrosoftがLangchainみたいな、Guidanceを発表
-	- https://github.com/microsoft/guidance
-- CyberAgentが日本語版ローカルLLMを発表
-	- https://huggingface.co/cyberagent
-- Google の FLAN-20B with UL2 レベルならば、ChatGPT APIのように使えるらしい	
-	- htt
+- Physics Informed Token Transformer(PITT)：偏微分方程式(PDE)をトークン
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQ5Njk0MzIsLTIwMzc3MjM0NjMsMj
-g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
-NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOT
-g4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Miwt
-MTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMz
-k2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYx
-LDE0ODY3NTIwNTFdfQ==
+eyJoaXN0b3J5IjpbLTU5MjQ3MTEyMiwtMjAzNzcyMzQ2MywyOD
+g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
+NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
+gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
+MTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOT
+YyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEs
+MTQ4Njc1MjA1MV19
 -->
