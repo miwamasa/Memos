@@ -1,6 +1,10 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+
+## 1/8
+
+
 ## 1/1
 
 お正月ですが、LLM界は止まりません。
@@ -4126,13 +4130,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - HumanML3D:Human motion language Dataset
 	- https://github.com/EricGuo5513/HumanML3D
 - DeepL日本に拠点を置く？
-	- https://newsdig.tbs.co.jp/articles/-/
+	- https://newsdig.tbs.co.jp/a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLT
-IwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0
-MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNj
-QyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3Mzks
-LTEzOTYyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOT
-cxNjEsMTQ4Njc1MjA1MSwtMTIyMDIwNjAyNywxMjg1NzEzNTY2
-LC0xNzY1MzYyMzZdfQ==
+eyJoaXN0b3J5IjpbNzgwMjM1ODgxLC0yMTQ0NzE2NjUyLC0xND
+AzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIx
+MDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzND
+ksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwx
+Mjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3Mz
+cwNDEsNTQ3MDk3MTYxLDE0ODY3NTIwNTEsLTEyMjAyMDYwMjcs
+MTI4NTcxMzU2Nl19
 -->
