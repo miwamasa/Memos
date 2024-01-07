@@ -4,7 +4,7 @@
 
 ## 1/8
 
- MistralのMoE版に対する投機的実行(offload)が新しい量子化HQQを含めて、今週の一番すごい成果。次のExpertを予測してプリロード、colabで動くのもすごい。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。因果フォレストとか、データ不均衡問題を解消するSMOTEなんかも着実に進んでいる。LLM時代に本当に必要なのは、リーディング、ライティング、スピーキングのスキルって、いやそこに達するまでが大変なのよ。 日本の官公庁の「よくある質問」データセット、国家公務員によるチェックを経ており誤字脱字がないと言い切ったな。LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法というのは斬新、内部状態が大切なのね。テンセントのマルチモーダルモデルを訓練して推論って、「どんな情報も入力できるマルチモーダルモデル」に向けて、どれだけ可能性があるか？phi-2のライセンスがMITになったのはすごいな。MotionGPT、デモで太極拳を試そうとしたら今一歩だった。アリババのQWen-14BをベースにしたLLMが日本語に強いのか。知識編集のサーベイ、オープンソースも公開されていて、これはＬＬＭの操作を誰もが手軽に、そして何でもできるということか。『CALM（Composition to Augment Language Models）』もコバンザメみたいにドメイン特化のＬＬＭがあれば、より大きなＬＬＭがそのタスクをこなせるようになるという新しいチューニングだ。
+ MistralのMoE版に対する投機的実行(offload)が新しい量子化HQQを含めて、今週の一番すごい成果。次のExpertを予測してプリロード、colabで動くのもすごい。ファインチューニング関連でも、CALMや質が違う新しい手法がたくさんでてきた。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。因果フォレストとか、データ不均衡問題を解消するSMOTEなんかも着実に進んでいる。LLM時代に本当に必要なのは、リーディング、ライティング、スピーキングのスキルって、いやそこに達するまでが大変なのよ。 日本の官公庁の「よくある質問」データセット、国家公務員によるチェックを経ており誤字脱字がないと言い切ったな。LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法というのは斬新、内部状態が大切なのね。テンセントのマルチモーダルモデルを訓練して推論って、「どんな情報も入力できるマルチモーダルモデル」に向けて、どれだけ可能性があるか？phi-2のライセンスがMITになったのはすごいな。MotionGPT、デモで太極拳を試そうとしたら今一歩だった。やっぱり、今週も、アリババのQWen-14BをベースにしたLLMが日本語に強いのか。知識編集のサーベイ、オープンソースも公開されていて、これはＬＬＭの操作を誰もが手軽に、そして何でもできるということか。『CALM（Composition to Augment Language Models）』もコバンザメみたいにドメイン特化のＬＬＭがあれば、より大きなＬＬＭがそのタスクをこなせるようになるという新しいチューニングだ。
 
 
 - MistralのMoE版であるMixtralが推論時に使うのは8つのExportのうち2つのみ
@@ -130,7 +130,7 @@
 ## 1/1
 
 お正月ですが、LLM界は止まりません。
-PowerInferってLLM推論に固有の高い局所性を利用することで、高速推論を実現するんだって。Colabでも試せるし、llama.cppの最大11.69倍の速度って本当か？。一方Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってGPU推論と組み合わせることが可能に。Guidanceが大幅に改定されて、Llama.cppの利用も使いやすくなったらしい。MixtralのようなMoEモデルとPowerInferのようなスマート推論を組み合わせて、RTX4090のようなグラボを刺した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになるって本当か?。推論の高速化ではvLLMってのもある、HugginFaceと相性も良く、Mistralもモデル公開で活用。日本LLM勢では「ELYZA-japanese-Llama-2-13b」のリリースがビッグニュース。GPT-3.5 越えらしい。早速Colab で動かしたり、gguf版がリリースされとる。日本語LLMをPPOでファインチューニングする例がやたら細かい。WizardMath-70BがWebLLMで動くようになったのか。知識編集という技術を使うと、ファインチューニングしなくても、知識を定着できる第3の方法らしい。日本語モデルの長文QA性能の比較てのも役に立ちそうだ。プロンプトの原則26ヶ条というのも日常役に立つな。KarasuとQarasuという日本語オープンソースチャットポッドも公開される、日本語MT-Benchベンチマークで非常に高いパフォーマンスを示すQwenなどをベースモデルとするのか。勝ちパターンが見えてきたな。
+PowerInferってLLM推論に固有の高い局所性を利用することで、高速推論を実現するんだって。Colabでも試せるし、llama.cppの最大11.69倍の速度って本当か？。一方Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってGPU推論と組み合わせることが可能に。Guidanceが大幅に改定されて、Llama.cppの利用も使いやすくなったらしい。MixtralのようなMoEモデルとPowerInferのようなスマート推論を組み合わせて、RTX4090のようなグラボを刺した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになるって本当か?。推論の高速化ではvLLMってのもある、HugginFaceと相性も良く、Mistralもモデル公開で活用。日本LLM勢では「ELYZA-japanese-Llama-2-13b」のリリースがビッグニュース。GPT-3.5 越えらしい。早速Colab で動かしたり、gguf版がリリースされとる。日本語LLMをPPOでファインチューニングする例がやたら細かい。WizardMath-70BがWebLLMで動くようになったのか。知識編集という技術を使うと、ファインチューニングしなくても、知識を定着できる第3の方法らしい。日本語モデルの長文QA性能の比較てのも役に立ちそうだ。プロンプトの原則26ヶ条というのも日常役に立つな。KarasuとQarasuという日本語オープンソースチャットポッドも公開される、日本語MT-Benchベンチマークで非常に高いパフォーマンスを示すアリババのQwenなどをベースモデルとするのか。勝ちパターンが見えてきたな。
 
 - Build Hybrid Search from Scratch
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/vector_stores/qdrant_hybrid.ipynb
@@ -4122,10 +4122,9 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - Voyager: 長期的な探索をGPT-4でやらせる例。Minecraftをやらせたら、、（研究開発も。。。）
 	- https://github.com/MineDojo/Voyager
 - 祝！蔵本先生、SIAMでJürgen Moser Lecture賞受賞！受賞講演
-	- https://www.youtube.com/watch?v=2P-EgTSa-E4&feature=youtu.be
-- DeepMindから、一般的なAIモデルが潜在的に持
+	- https://www.youtube.com/watch?v=2P-EgTS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjQ1MjEwMCwtMjAzNzcyMzQ2MywyOD
+eyJoaXN0b3J5IjpbMTQ1NTQ2ODIxMiwtMjAzNzcyMzQ2MywyOD
 g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
 NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
 gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
