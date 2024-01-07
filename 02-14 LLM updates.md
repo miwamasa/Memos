@@ -17,6 +17,10 @@
 - LLaMA-Factory
 	- Google Colab で Llama Factoryを試し中。 1分でインストール完了して、WebUIでぽちぽち押すだけで学習できた。Pre-Training、SFT、Reward Modeling、PPO、DPOも対応
 	- https://x.com/npaka123/status/1741429803599962557?s=20
+-  日本の官公庁にある「よくある質問」をデータセットにまとめました
+	- https://note.com/eurekachan/n/nc31c0dccb3c1?sub_rt=share_pb
+	- 日本の官公庁のWebサイトから「よくある質問」を手作業で抽出し、およそ22000件の質問と応答の形になっているデータセットとしてまとめました。
+	- 
 
 ## 1/1
 
@@ -4120,13 +4124,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - LLamaindexに新しいドキュメント要約の仕組みが導入？
 	- https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec
 - OpenAI: GPT-4で、GPT-2の個々のニューロンの働きの説明というか、意味づけを行う？？	
-	- https://openai.com/research/language-models-can-explain-neurons-in-language-models
-- VAEによる分子生成のモデルの改良の話
-	- https://arxiv.org/abs/2305.03041v1
-- GTP-4日本の医師国家試験で合格？
-	- https://news.yahoo.c
+	- https://op
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODM0OTI3MCwyODg5NzY2NDQsLTIxND
+eyJoaXN0b3J5IjpbMTIxMzE3MDM3OCwyODg5NzY2NDQsLTIxND
 Q3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2
 NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMC
 wtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0y
