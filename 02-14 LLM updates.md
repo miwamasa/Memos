@@ -22,6 +22,9 @@
 	- 日本の官公庁のWebサイトから「よくある質問」を手作業で抽出し、およそ22000件の質問と応答の形になっているデータセットとしてまとめました。
 	- 国家公務員によるチェックを経ているので、誤字脱字がほぼありません。
 	- https://huggingface.co/datasets/matsuxr/JaGovFaqs-22k
+- The TinyLlama project is an open endeavor to train a compact 1.1B Llama model on 3 trillion tokens.
+	- https://ollama.ai/library/tinyllama
+	- Its small size means it can run fast with little memory and compute requirements
 - 
 
 ## 1/1
@@ -4120,13 +4123,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - アッセンブリ理論、有機化合物で分子の結合の複雑さの評価、LLMの評価にも使える？
 	- https://www.quantamagazine.org/a-new-theory-for-the-assembly-of-life-in-the-universe-20230504/
 - AGIが人類を壊滅させる可能性はほぼ100%といった強い悲観論、AI Alignment Centerの人の話によると、
-	- https://note.com/bioshok/n/n43041a52a529
-- OpenAIが公開した、プロンプトから3Dモデルを作るShap-Eのデモサイトがhuggingfaceに。
-	- https://huggingface.co/spaces/hysts/Shap-E
-- LLamaindexに新しいドキュメント要約の仕組みが導入？
-	- https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powe
+	- https://note.com/bioshok/n/n43
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTkzOTQ5MiwyODg5NzY2NDQsLTIxND
+eyJoaXN0b3J5IjpbMjEzNjU2MDc4NiwyODg5NzY2NDQsLTIxND
 Q3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2
 NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMC
 wtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0y
