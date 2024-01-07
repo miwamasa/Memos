@@ -9,8 +9,9 @@
 	- 7B x 8のMixtralが無料版ColabやRTX 3060(12G)で動かすことができる
 	- 投機的ロードは投機に負けると量子化モデルより遅くなる罠
 	- https://colab.research.google.com/github/dvmazur/mixtral-offloading/blob/master/notebooks/demo.ipynb#scrollTo=Zf4GkspecSm8
-	-  Fast Inference of Mixture-of-Experts Language Models with Offloading
+-  Fast Inference of Mixture-of-Experts Language Models with Offloading
 	- https://arxiv.org/abs/2312.17238
+	- Mixtral-8x7B-Instruct を 3060 / 3080 Mobile / T4 にて実行、A100 と比較。手法のキモは、Expert を LRU でキャッシュする点と次のレイヤーで使うであろう Expert を推測し、プリロードする点。量子化には GPTQ の 50 倍以上高速に処理できる Half-Quadratic Quantization (HQQ)を採用。
 - Mixtralに対し日英対訳データセットでQLoRA tuning (SFT)を施した日⇔英 翻訳モデル(のLoRA層)をHuggingFace上に公開しました
 	- https://huggingface.co/hpprc/Mixtral-8x7B-Instruct-ja-en
 	- Mixtralを小説の対訳データセット(https://www2.nict.go.jp/astrec-att/member/mutiyama/align/index.html) でSFT的に翻訳タスクでQLoRA tuningしてみた日本語の生成がおっそいが普通に動いていそう(文章レベルで翻訳できててえらい)
@@ -34,7 +35,8 @@
 	- Mamba is really exciting, but its potential remains untapped due to a lack of instruction-tuning and alignment. I
 -  Half-Quadratic Quantization of Large Machine Learning Models
 	- https://mobiusml.github.io/hqq_blog/
-	- あたらしい量子化の仕組みのもよう。
+	- GPTQ の 50 倍以上高速に処理できる Half-Quadratic Quantization (HQQ)
+	- MOEのoffloadでも用いられたらしい
 	- https://huggingface.co/lavawolfiee/Mixtral-8x7B-Instruct-v0.1-offloading-demo
 - 
 - 
@@ -4122,13 +4124,9 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 - Self-Queringという手法、による文書検索Weaviate、スキーマを与えると、検索結果に、情報抽出の結果も出してくれる（曲のratingとかgeneとかのメタデータなど）もやってくれる。おおすごい
 	- https://python.langchain.com/en/latest/modules/indexes/retrievers/examples/weaviate_self_query.html
 - BCGがまとめた日本企業の変革を阻む「チェンジモンスター」資料、ポケモン的なキャラクター付け
-	- https://web-assets.bcg.com/img-src/japan%20tembo-146-change%20monster_1oct2002_tcm9-169992.pdf
-
-
-## 5/15
-最新のLLMに関する情報は、Transformer論文のアーキテクチャの議論や応用プロンプトエンジニアリングの探求、アッセンブリ理論の応用、AGIの悲観論、Shap-Eのデモサイト、LLamaindexの要約機能追加、GPT-4のニューロン説明試み、分子生成モデル改良、医師国家試験合格報道、WebGPUでのLLM実行、PaLM 2
+	- https://web-a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODM2MDAxOTksMjg4OTc2NjQ0LC0yMT
+eyJoaXN0b3J5IjpbLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMT
 Q0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5
 NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMz
 AsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwt
