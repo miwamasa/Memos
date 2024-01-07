@@ -102,6 +102,9 @@
 	- 知識編集を応用するとモデルの信頼性を向上させたり、パーソナライズされたエージェントを作りやすくなったりする
 	- 知識編集のためのオープンソースフレームワーク「EasyEdit」を開発し公開しています
 	- https://github.com/zjunlp/EasyEdit
+- Synthetic Data Applications in Finance
+	- https://arxiv.org/abs/2401.00081
+	- 金融における合成(生成)データを作るモデルに関して、JPモルガンのAIチームの人たちが書いたレビュー論文。金融におけるAI分野の中で最先端分野の１つと思う。
 - 
 
 ## 1/1
@@ -4129,15 +4132,13 @@ ChatGPT以外のOSSのLLMでは、googleのFLAN-20B with UL2 ぐらいならば�
 
 - LLMのバイアスをあぶりだす、Constructive Input Decoding(CID) by google
 	- https://arxiv.org/abs/2305.07378
-- privateGPT:ローカル環境で動く最小限のGPT、LangChain, GPT4All, LlamaCpp, Chroma and SentenceTransformersを活用
-	- https://github.com/imartinez/privateGPT
-- TinyStories:３～４才ぐらいが理解できる短い文書のデータセット、どれだけL
+- privateGPT:ローカル環境で動く
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI2NzI4MjQsLTIwMzc3MjM0NjMsMj
-g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
-NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOT
-g4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Miwt
-MTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMz
-k2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEsNTQ3MDk3MTYx
-LDE0ODY3NTIwNTFdfQ==
+eyJoaXN0b3J5IjpbMTg1MjA0NzczMSwtMjAzNzcyMzQ2MywyOD
+g5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3
+NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5OD
+gsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0x
+MTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOT
+YyMjA2NDcsLTg5ODA3NTksLTk1NDczNzA0MSw1NDcwOTcxNjEs
+MTQ4Njc1MjA1MV19
 -->
