@@ -5,7 +5,15 @@
 
 - Lookahead: An Inference Acceleration Framework for Large Language Model with Lossless Generation Accuracy
 	- https://arxiv.org/abs/2312.12728
-	- 
+	- LLMの出力品質を落とさずに推論速度をスピードアップさせるための手法
+	- ■『Lookahead』のアイデア 
+		- 1. 生成の枝分かれ（ブランチ）を作る - ブランチを作成は並行処理する 
+		- 2. 最適なブランチを選び出す - 不要なブランチを早期排除する →推論スピードを向上させつつ高品質を維持する 
+	- ■実験と結果 
+		- 1. DollyデータセットとLlama-13Bでテスト 
+		- 2. オンライン環境に組み込んだ 
+		- 3. 高い生成精度を維持しつつ速度を改善した
+- 
 
 ## 1/8
 
@@ -4118,19 +4126,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 	- https://arxiv.org/abs/2305.13264v1
 - QLoRaを使えば、普通のcolabにて、数時間でLLMができるという報告。4bit最強。
 	- 33B-parameter LLM on Google Colab in a few hour
-	- https://twitter.com/ItakGol/status/1661714548594823174?s=20
-- OpenCALM-7BをLoRAでFine tuningして対話ができるようにする
-	- https://note.com/masuidrive/n/n0e2a11fc5bfa
-- Reasoning with Language Model is Planning with World Model
-	- CoT on GPT-4との比較で勝るとのこと
-	- https://arxiv.org/abs/2305.14992
-- Voyager
+	- https://twitter.com/ItakGo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNzEyMDY0LDUzNjMyMjAyMywxMDYzMD
-I4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1
-MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNC
-w5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3
-OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OT
-c5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwt
-OTU0NzM3MDQxXX0=
+eyJoaXN0b3J5IjpbMTEzNTE0MTczNCw1MzYzMjIwMjMsMTA2Mz
+AyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2
+NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2NjIyMT
+QsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEy
+Nzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNj
+k3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTks
+LTk1NDczNzA0MV19
 -->
