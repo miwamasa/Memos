@@ -39,6 +39,13 @@
 - Mixtral of Experts by Mistral AI
 	- https://huggingface.co/papers/2401.04088
 	- introduce Mixtral 8x7B, a Sparse Mixture of Experts (SMoE) language model. Mixtral has the same architecture as Mistral 7B, with the difference that each layer is composed of 8 feedforward blocks (i.e.…
+- yolopandas
+	- https://github.com/ccurme/yolopandas
+	- yolopandas は，panadas のデータフレームに対して直接，LLM が分析コードの提示をし実行してくれるライブラリ
+	- 「欠損値はいくつある？」などの指示文に対し， df.llm.query("指示文") とするだけ
+- 人工知能という分野が謙虚であったことなど一度もない
+	- https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/286548
+	- 岩波書店「科学」2023/12月号に掲載された、大規模言語モデルと人間の言語能力についての討論形式論文
 - 
 
 ## 1/8
@@ -4118,15 +4125,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 
 
 ## 5/29
-Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラグインが使えるようになるとか、相も変わらずMicrosoftはどうやって投資を回収できるのか不明。Adamを超えるSophiaの登場や、4bit化のQLoRaの登場など、個人や企業でのLLM作成には朗報であるが、LLMの民主化って危険もあるよね。なので、DeepMindやMicrosoftは倫理性やリスクに関する研究をちゃんと続けて公開している。Voyagerすごい、研究開発のタスクももGPT-4でできるのでは？WebGPUを使ったwebllm、nodejs版でも動く模様。microsoftはguidanceでモデル利用の効率化の工夫を行っているとの報告も。アブダビから謎の巨大LLMであるFalcon-40Bが発表されるも、OSSとうたいつつ実は謎ライセンスであっというまに叩かれる。SQLとかNotableとかデータサイエンス系のChatGPTの活用が本格的に。祝！SIAMの賞の受賞、蔵本先生！！！。欧州AI規制の最終投票を目前に、OpenAI、欧州AI規制遵守が困難と判断されれば、欧州からサービス引き上げとの記事。ChatGPTアプリが日本でもiPhoneに登場、似たような名前のアプリがたくさんあって、、、。
-
-- MicorsoftのAIが倫理的であるかどうかを評価するツールキット
-	- https://github.com/microsoft/responsible-ai-toolbox
-- 知識グラフのneo4jと、LangChainからの利用、Cypher問い合わせを自動生成する
-	- https://python.langchain.com/en/latest/modules/chains/examples/graph_cypher_qa.html
-- LIMA: Less Is 
+Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラグインが使えるようになるとか、相も変わらずMicrosoftはどうやって投資を回収できるのか不明。Adamを超えるSophiaの登場や、4bit化のQLoRaの登場など、個人や企業でのLLM作成には朗報であるが、LLMの民主化って危険もあるよね。なので、DeepMindやMicrosoftは倫理性やリスクに関する研究をちゃんと続けて公開している。Voyagerすごい、研究開発のタスクももGPT-4でできるのでは？WebGPUを使ったwebllm、nodejs版でも動く模様。microsoftはguidanceでモデル利用の効率化の工夫を行っているとの報告も。アブダビから謎の巨大LLMであるFalcon-40Bが発表されるも、OSSとうたいつつ実は謎ライセンスであっというまに叩かれる。SQLとかNotableとかデータサイエンス系のChatGPTの活用が本格的に。祝！SIAMの賞の受賞、蔵本先生！！！。欧州AI規制の最終投票を目前に、OpenAI、欧州AI規制遵
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjA1NTYzOCwtMTA4Mzg4MDUzOSw1Mz
+eyJoaXN0b3J5IjpbMTczMjAyMTQ5MSwtMTA4Mzg4MDUzOSw1Mz
 YzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2
 NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNz
 gsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTcz
