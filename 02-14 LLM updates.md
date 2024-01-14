@@ -125,8 +125,15 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://github.com/ml-explore/mlx-examples/tree/main/llms/phixtral
 	- https://x.com/awnihannun/status/1746376783543591235?s=20
 - 日本語MoEモデル、jaqket-v2以降のベンチマーク
+	- https://x.com/CurveWeb/status/1746401006286713276?s=20
+	- Mixture of Experts強力すぎる。
 	- JGLUEの結果と同様、いいとこ取りができてる。
-しかも、9つ中5つのベンチマーク(半分以上👀)で元の２つのモデルを上回るスコアに。
+	- しかも、9つ中5つのベンチマーク(半分以上👀)で元の２つのモデルを上回るスコアに。
+- mergekitを使ってMoEモデルを作ってみました
+	- https://huggingface.co/HachiML/youri-2x7b_dev
+	- rinna/youri-7b-instruction
+	- rinna/youri-7b-chat chat
+	- モデルとinstructionモデルを繋げる効果がどのくらいあるかわからないけれど、動くところまで確認できた。 時間があればJGLUE試してみる。
 
 
 ## 1/8
@@ -4123,17 +4130,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
 	- Wolfman AlphaのWolfmanさんの記事、
 	- 「現在のChatGPTの場合，事態はもっと極端で，各トークンの出力を生成するためのニューラルネットはループのない純粋な「フィードフォワード」ネットワークであるため，自明でない「制御フロー」を持ついかなる計算も行うことができない
-- Googleによる図式を理解するLLM
-	- Foundation models for reasoning on charts
-	- https://ai.googleblog.com/2023/05/foundation-models-for-reasoning-on.html
--  Physics-constrained machine learning for scientific computing
-	- https://www.amazon.science/blog/physics-constrained-machine-learning-for-scientific-computing?_amp=tru
+- Googleによる図
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzIyMjA5NSwyMDkwMTU2NjYzLDE0MT
-c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
-LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
-YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
-NjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2Mj
-IxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0x
-MTI3OTg2MzQ5XX0=
+eyJoaXN0b3J5IjpbMjc0Njk2NzksMjA5MDE1NjY2MywxNDE3Nj
+Q3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwt
+MTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2Mz
+AyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2
+NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2NjIyMT
+QsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEy
+Nzk4NjM0OV19
 -->
