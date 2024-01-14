@@ -107,7 +107,9 @@
 	- https://ai-scholar.tech/articles/computer-vision/LLaVA
 	- GPT-4に並ぶ「多モーダル人工知能」の開発に向けて、視覚命令チューニングの手法が提案されました。
 	- また、視覚と言語の理解力が高い言語モデル「LLaVA」も紹介。
-- 
+-  Large Language Model Course by 
+	- https://github.com/mlabonne/llm-course
+	- 
 
 ## 1/8
 
@@ -4132,15 +4134,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - OpenAIがsecurity portalを公開
 	- https://trust.openai.com/
 - つい最近引退された、ストラング教授（線形代数他）のインタビュー記事
-	- https://news.mit.edu/2023/gilbert-strang-made-linear-algebra-fun-0531
-- GPT4ALLをつかって、GPUなしで、ローカルPCでLLMを動かす
-	- https://gpt4all.io/inde
+	- https://news.mit.edu/2023/gilbert-strang-made-linear-al
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMT
-A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
-MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
-csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
-ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOT
-AxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3
-MzksLTEzOTYyMjA2NDddfQ==
+eyJoaXN0b3J5IjpbMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NT
+YzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4
+MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC
+0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5
+MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5OD
+YzNDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5Nzky
+MiwxMjk1NzQyNzM5XX0=
 -->
