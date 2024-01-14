@@ -3,7 +3,7 @@
 
 ## 1/15
 
-Mistral AIによるMixtral -8x7bモデルの成功により、最近MoE（Mixture of Experts）モデルが流行っています。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  
+Mistral AIによるMixtral -8x7bモデルの成功により、最近MoE（Mixture of Experts）モデルが流行っています。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。TinyLlamaってのもありました。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベース
 
 
 - Lookahead: An Inference Acceleration Framework for Large Language Model with Lossless Generation Accuracy
@@ -4131,14 +4131,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.asahi.com/articles/ASR5065XLR5YUSPT006.html
 	- 中身は議論されず、最初のChatGPTはオープンソースのところに、鬼首をとったようにかみつくDS界隈
 - QCDの１方程式から多様な世界が作り出されるチャート
-	- http://suganuma-hideo.o.oo7.jp/hideo/index.files/main.files/HQCD.pdf
-- “According to . . . ” Prompting Language Model
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTEwODUzNDUsNzczMDE1NDM3LDE2OT
-A5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgw
-NTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIzNDYzLD
-I4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0
-ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMz
-k4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIs
-LTExNzczMDA2MzJdfQ==
+eyJoaXN0b3J5IjpbLTc1MDgyOTY4Miw3NzMwMTU0MzcsMTY5MD
+k0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwODM4ODA1
+MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMj
+g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
+NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOT
+g4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Miwt
+MTE3NzMwMDYzMl19
 -->
