@@ -3,7 +3,7 @@
 
 ## 1/15
 
-Mistral AIによるMixtral -8x7bモデルの成功により、最近MoE（Mixture of Experts）モデルが流行っています。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。TinyLlamaってのもありました。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。
+Mistral AIによるMixtral -8x7bモデルの成功により、最近MoE（Mixture of Experts）モデルが流行っています。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。TinyLlamaってのもありました。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？
 
 
 - Lookahead: An Inference Acceleration Framework for Large Language Model with Lossless Generation Accuracy
@@ -104,6 +104,7 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近MoE（Mixtur
 	- 巨大な汎用言語モデル「PaLM 2」を医療対話向けに微調整したAIシステム「AMIE」。専門医によると32軸中28軸、患者によると26軸中24軸で、より高い診断精度と優れた性能を示した。世界の80億人が24時間体制で医療相談できる究極のかかりつけ医へ一歩前進
 - Moore-AnimateAnyone test
 	- https://x.com/toyxyz3/status/1745846460678291702?s=20
+	- Moore-AnimateAnyoneは、AnimateAnyoneを再現するプロジェクト。 様々なアプローチをとり、本絵kとは多少異なる実装で再現しているそうで、現在おおよそ80%ほどの再現度となっています。
 - nitky/Superswallow-70b-v0.1
 	- https://huggingface.co/nitky/Superswallow-70b-v0.1
 	- なんかすごい性能があるらしいマージモデル
@@ -4126,12 +4127,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://huggingface.co/papers/2305.19234
 	- Grammar Prompting for Domain-Specific Language Generation with Large Language Models
 - OpenAI のCEOのインタビュー、GPUリソースが世界的に足らないのはGPT-4のマルチモーダル学習中のため？
-	- https://humanloop.com/blog/openai-plans
-- 「AIに脅かされる「個人」　情報を断ち切る規制必要」　政治季評
-	- https://www.asahi.com/articles/ASR5065XLR5YUSPT006.html
-	- 中身は議論されず、最初のChatGPTはオ
+	- htt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODc2MzA2Miw3NzMwMTU0MzcsMTY5MD
+eyJoaXN0b3J5IjpbMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MD
 k0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwODM4ODA1
 MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMj
 g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
