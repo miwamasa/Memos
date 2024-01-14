@@ -121,6 +121,7 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- マージの実行自体はほとんどモデルの取得の時間で20~30分くらいで実行できた気がする。
 	-   メモリがそこそこいるので、ハイメモリで実行しないといけない。
 	- https://github.com/cg123/mergekit/tree/mixtral
+- Phixtral 4-bit quantized with MLX also runs nicely on an 8GB M2.
 
 
 ## 1/8
@@ -4126,14 +4127,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - LLMでドメイン特化言語を作りまくり？
 	- https://huggingface.co/papers/2305.19234
 	- Grammar Prompting for Domain-Specific Language Generation with Large Language Models
-- OpenAI のCEOのインタビュー、GPUリソースが世界的に足らないのはGPT-4のマルチモーダル学習中のため？
-	
+- O
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
-AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
-MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
-AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
-NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNT
-I3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwt
-ODgyOTAxNjQyXX0=
+eyJoaXN0b3J5IjpbMTk3NDc0NzAwMSwyMDkwMTU2NjYzLDE0MT
+c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
+LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
+YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
+NjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2Mj
+IxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0x
+MTI3OTg2MzQ5XX0=
 -->
