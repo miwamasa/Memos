@@ -52,6 +52,16 @@
 	- しかし、LLaMA7Bモデルがベースの割に要求スペックももの凄い
 		- 動作させるには約100GBのRAMが必要 
 		- 速度を犠牲にRAM の使用量を削減できるがそれでも約35GBが必要
+- Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM
+	- https://arxiv.org/abs/2401.02994
+	- 比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性
+	- ■実験内容 
+		- 1. 3つの小規模モデルをブレンドした 
+		- 2. GPT-3.5など既存モデルと比較した 
+		- 2. 評価指標はユーザーの定着率と会話密度とした
+	- ■実験結果 
+		- 1. ブレンドモデルは定着率が顕著に高かった 
+		- 2. 会話密度に関しても他モデルを凌駕した
 - 
 
 ## 1/8
@@ -4126,18 +4136,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.bfdi.bund.de/SharedDocs/Downloads/DE/DokumenteBfDI/Stellungnahmen/2023/StgN_Generative-K%C3%BCnstliche-Intelligenz.pdf?__blob=publicationFile&v=2
 	- GDPR的なリスクベースアプローチとDSA的なシステミックリスクアプローチの対比など興味深い。青少年学習データのフィルタリングやAI規則の川上川下問題なども
 - Jupyter AIが出た！試した！！すごい！！！
-	- https://qiita.com/moritalous/items/a270d5932ebee18d0ba8?utm_content=buffer352b5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
-	- すごいらしい
-- 
-
-## 5/29
-Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラグインが使えるようになるとか、相も変わらずMicrosoftはどうやって投資を回収できるのか不明。Adamを超えるSophiaの登場や、4bit化のQLoRaの登場など、個人や企業でのLLM作成には朗報であるが、LLMの民主化って危険もあるよね。なので、DeepMindやMicrosoftは倫理性やリスクに関する研究をちゃんと続けて公開している。Voyagerすごい、研究開発のタスクももGPT-4でできるのでは？WebGP
+	- https://qiita.com/moritalous/items/a270d5932ebee18d0ba8?utm_content=buffer352b5&utm_medium=social&utm_source=t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzOTI0OTIsLTEwODM4ODA1MzksNTM2Mz
-IyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0
-LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC
-0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEz
-MDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMwMD
-YzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3
-LC04OTgwNzU5XX0=
+eyJoaXN0b3J5IjpbLTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNT
+M2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2
+NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMD
+c4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3
+MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3Nz
+MwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIw
+NjQ3LC04OTgwNzU5XX0=
 -->
