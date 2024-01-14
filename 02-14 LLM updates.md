@@ -71,7 +71,10 @@
 -  Build LLM Apps with LangChain.js
 	- https://www.deeplearning.ai/short-courses/build-llm-apps-with-langchain-js/
 	- DeepLearningAIより、javascriptをもいいたLLMコース
-- Phixtralだって。Phi-2をくっ付けてMoEにしたらしい
+- Phixtral
+	- Phixtralだって。Phi-2をくっ付けてMoEにしたらしい
+- llamaindexより、RAGの高度な手法として、ensembleとfusion
+	- https://llamahub.ai/l/llama_packs-query-rag_fusion_pipeline?from=llama_packs
 - 
 
 ## 1/8
@@ -4137,15 +4140,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.anlp.jp/topics/topic230601.html
 - 「言語の本質　ことばはどう生まれ、進化したか (中公新書)」
 	- 今井むつみ, 秋田喜美の本、
-	- https://www.amazon.co.jp/dp/B0C4XF523T?ref_=k4w_ss_dp_lp
--  Langchain・Semantic Kernel・guidanceでエージェント機能を実装して比較してみた
-	- https://qiita.com/sakue_103/items/6ffee0bc
+	- https://www.amazon.co.jp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzI4NTM2OCwtMTg1NjM0MzUxMywtMT
-A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
-MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
-csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
-ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOT
-AxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3
-MzksLTEzOTYyMjA2NDddfQ==
+eyJoaXN0b3J5IjpbNjEwMTQxMzEsLTE4NTYzNDM1MTMsLTEwOD
+M4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0
+NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC
+0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2
+NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMT
+Y0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5
+LC0xMzk2MjIwNjQ3XX0=
 -->
