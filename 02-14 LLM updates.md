@@ -28,7 +28,7 @@
 	- ■結論 シンプルに大量データでトレーニングするのは有効である可能性が高い
 -  LangChain v0.1.0
 	- https://blog.langchain.dev/langchain-v0-1-0/
-	- 
+- 
 
 ## 1/8
 
@@ -4126,11 +4126,11 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 	- https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/?utm_source=twitter&utm_medium=organic_social&utm_campaign=blog&utm_content=card
 - open-calm-7b を databricks-dolly-15k-ja で LoR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDI0MzE1MCwtMTA4Mzg4MDUzOSw1Mz
-YzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2
-NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNz
-gsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTcz
-MTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3Mz
-AwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2
-NDcsLTg5ODA3NTldfQ==
+eyJoaXN0b3J5IjpbLTIxMTU3OTA3MzAsLTEwODM4ODA1MzksNT
+M2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2
+NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMD
+c4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3
+MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3Nz
+MwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIw
+NjQ3LC04OTgwNzU5XX0=
 -->
