@@ -98,6 +98,7 @@
 	- https://blog.research.google/2024/01/amie-research-ai-system-for-diagnostic_12.html
 	- Googleから、医療診断分野に特化した、AIリサーチシステムAMIE
 	- Today, we shared our latest preprint introducing AMIE (Articulate Medical Intelligence Explorer), a large language model (LLM) based research AI system for diagnostic medical reasoning and conversations.
+	- 巨大な汎用言語モデル「PaLM 2」を医療対話向けに微調整したAIシステム「AMIE」。専門医によると32軸中28軸、患者によると26軸中24軸で、より高い診断精度と優れた性能を示した。世界の80億人が24時間体制で医療相談できる究極のかかりつけ医へ一歩前進
 - Moore-AnimateAnyone test
 	- https://x.com/toyxyz3/status/1745846460678291702?s=20
 - nitky/Superswallow-70b-v0.1
@@ -109,7 +110,9 @@
 	- また、視覚と言語の理解力が高い言語モデル「LLaVA」も紹介。
 -  Large Language Model Course by 
 	- https://github.com/mlabonne/llm-course
-	- 3 models trending + even MistralTriｌ
+	- 3 models trending + even MistralTril 
+- 
+
 
 ## 1/8
 
@@ -4130,13 +4133,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- やっぱりggmlと4bitが最強なのか。。モデルサイズが2Gって、あーた
 - LLMをつかって、微分方程式から保存則を抽出する？？
 	- Discovering New Interpretable Conservation Laws as Sparse Invariants
-	- https://arxiv.org/abs/2305.19525
-- OpenAIがsecurity portalを公開
-	- https://trust.openai.com/
-- つい最近引退された、ストラング教授（線形代数他）のインタビュー記事
-	- https://news.mit.ed
+	- https://ar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDgxMjAyLDE2OTA5NDE4MSwtNzg2Mz
+eyJoaXN0b3J5IjpbNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2Mz
 I2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAy
 MywxMDYzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMj
 E0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3
