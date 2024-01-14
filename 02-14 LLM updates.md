@@ -16,7 +16,10 @@
 - PmxEditor及び準標準ボーン追加プラグインの導入
 	- http://rockstababy.starfree.jp/mmdsupporter/bemmder/section3.php
 	- PmxEditorを使えばMMDモデルを編集できるのか！フリーレンのモデルの編集はこれを使っていたのか
-- 
+-  Uncovering mesa-optimization algorithms in Transformers
+	- https://arxiv.org/abs/2309.05858
+	- Why are Transformers so effective? And where is their intruiging in-context learning ability coming from?
+	- 
 
 ## 1/8
 
@@ -4122,17 +4125,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 	-  Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training
 	- https://arxiv.org/abs/2305.14342
 - QLoRa: HuggingFaceのモデルが、4bit化されたものが使えるようになる？
-	- https://huggingface.co/blog/4bit-transformers-bitsandbytes
-- Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks
-	- https://huggingface.co/papers/2305.14201
-- 自然言語のpromptによるLLMの利用は、LLMの本来の能力を生かしきれてない
-	- https://arx
+	- https://huggingface
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzk0Mjg2NzIsNTM2MzIyMDIzLDEwNj
-MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
-NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMj
-E0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTEx
-Mjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2Mz
-Y5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5
-LC05NTQ3MzcwNDFdfQ==
+eyJoaXN0b3J5IjpbMzg5ODc4NDY1LDUzNjMyMjAyMywxMDYzMD
+I4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1
+MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNC
+w5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3
+OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OT
+c5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwt
+OTU0NzM3MDQxXX0=
 -->
