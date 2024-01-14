@@ -2,6 +2,7 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 
+
 ## 1/8
 
  MixtralのMoE版に対する投機的実行(offload)論文とその成果が新しい量子化HQQを含めて、今週の一番すごいネタ。次のExpertを予測してプリロード、colabで動くのもすごい。ファインチューニング関連でも、CALMや知識編集のように、質が違う新しい手法がたくさんでてきた。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。因果フォレストとか、データ不均衡問題を解消するSMOTEなんかも着実に進んでいる。LLM時代に本当に必要なのは、リーディング、ライティング、スピーキングのスキルって、いやそこに達するまでが大変なのよ。 日本の官公庁の「よくある質問」データセット、国家公務員によるチェックを経ており誤字脱字がないと言い切ったな。LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法というのは斬新、内部状態が大切なのね。テンセントのマルチモーダルモデルを訓練して推論って、「どんな情報も入力できるマルチモーダルモデル」に向けて、どれだけ可能性があるか？phi-2のライセンスがMITになったのはすごいな。MotionGPT、デモで太極拳を試そうとしたら今一歩だった。やっぱり、今週も、アリババのQWen-14BをベースにしたLLMが日本語に強いのか。知識編集のサーベイ、オープンソースも公開されていて、これはＬＬＭの操作を誰もが手軽に、そして何でもできるということか。『CALM（Composition to Augment Language Models）』もコバンザメみたいにドメイン特化のＬＬＭがあれば、より大きなＬＬＭがそのタスクをこなせるようになるという新しいチューニングだ。
@@ -4124,11 +4125,11 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - 祝！蔵本先生、SIAMでJürgen Moser Lecture賞受賞！受賞講演
 	- https://www.youtube.co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMz
-c3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQw
-MzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNy
-wxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4
-MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1Nz
-QyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5LC05NTQ3MzcwNDEs
-NTQ3MDk3MTYxXX0=
+eyJoaXN0b3J5IjpbMzM3MDc1NDc3LDUzNjMyMjAyMywxMDYzMD
+I4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1
+MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNC
+w5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3
+OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OT
+c5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwt
+OTU0NzM3MDQxXX0=
 -->
