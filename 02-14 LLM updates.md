@@ -30,6 +30,9 @@
 	- https://blog.langchain.dev/langchain-v0-1-0/
 - langgraph
 	- https://github.com/langchain-ai/langgraph
+	- LangGraph is inspired by Pregel and Apache Beam, and the current interface exposed is one inspired by NetworkX
+- AIによる失業
+	- https://x.com/Rahll/status/1744234385891594380?s=20
 	- 
 
 ## 1/8
@@ -4123,15 +4126,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - LangChainからAzure OpenAI を使うメモ
 	- https://qiita.com/tmiyata25/items/7a04096342241d8a2b4c
 - Textually Pretrained Speech Language Models：なんか音声をいれると音声を出力するLLM!!
-	- https://pages.cs.huji.ac.il/adiyoss-lab/twist/
-- ImageBind　by Meta、マルチモーダルな学習
-	- https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/?utm_source=twitter&utm_medium=organic_social&utm_campaign=blog&utm_co
+	- https://pages.cs.huji.ac.il/adiyoss-l
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODAxOTQ3NzMsLTEwODM4ODA1MzksNT
-M2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2
-NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMD
-c4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3
-MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3Nz
-MwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIw
-NjQ3LC04OTgwNzU5XX0=
+eyJoaXN0b3J5IjpbMTMxNDk2NjE5MSwtMTA4Mzg4MDUzOSw1Mz
+YzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2
+NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNz
+gsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTcz
+MTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3Mz
+AwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2
+NDcsLTg5ODA3NTldfQ==
 -->
