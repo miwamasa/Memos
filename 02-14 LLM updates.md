@@ -73,6 +73,11 @@
 	- DeepLearningAIより、javascriptをもいいたLLMコース
 - Phixtral
 	- Phixtralだって。Phi-2をくっ付けてMoEにしたらしい
+	- マージ(merge)とは複数のモデルの重みを足し引きして新しいモデルを作る技術 
+	- 上手にマージすると出力があまり壊れず(スペルミスが多くなるという話はある)、マージ後に改めて微調整をしなくてもそのまま動く。しかも、ベースとなったモデルよりベンチマークスコアが向上する事も珍しくない…
+	- It combines 2 to 4 fine-tuned models and is better than each individual expert.
+	- https://huggingface.co/mlabonne/phixtral-2x2_8
+	- https://huggingface.co/mlabonne/phixtral-4x2_8
 - llamaindexより、RAGの高度な手法として、ensembleとfusion
 	- https://llamahub.ai/l/llama_packs-query-rag_fusion_pipeline?from=llama_packs
 - 
@@ -4132,21 +4137,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://arxiv.org/abs/2305.19860v2
 - 分子生物学にLLMが最適な件
 	- https://towardsdatascience.com/large-language-models-in-molecular-biology-9eb6b65d8a30
-- GPT4ALLとLangChainとChromaをつかった、ローカルに動く最小限のQ&A
-	- https://twitter.com/AssemblyAI/status/1661747770108305409?s=20
-- 「ChatGPTの出現は自然言語処理の専門家に何を問いかけているか」
-	- 言語学会の乾先生の巻頭言
-	- 「では，これで自然言語処理は終わるのか？ もちろん，終わらない．解くべき課題，新たに生まれる問いは山ほどある．」
-	- https://www.anlp.jp/topics/topic230601.html
-- 「言語の本質　ことばはどう生まれ、進化したか (中公新書)」
-	- 今井むつみ, 秋田喜美の本、
-	- https://www.amazon.co.jp
+- GPT4ALLとLangChainと
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwMTQxMzEsLTE4NTYzNDM1MTMsLTEwOD
-M4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0
-NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC
-0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2
-NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMT
-Y0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5
-LC0xMzk2MjIwNjQ3XX0=
+eyJoaXN0b3J5IjpbOTA1NzU5NzM3LC0xODU2MzQzNTEzLC0xMD
+gzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIz
+NDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNy
+wtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4
+NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MD
+E2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0Mjcz
+OSwtMTM5NjIyMDY0N119
 -->
