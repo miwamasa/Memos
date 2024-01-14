@@ -19,7 +19,8 @@
 -  Uncovering mesa-optimization algorithms in Transformers
 	- https://arxiv.org/abs/2309.05858
 	- Why are Transformers so effective? And where is their intruiging in-context learning ability coming from?
-	- 
+	- Transformerは，人間の設計者から与えられた訓練目標を達成するために，自発的に新たな中間目標の設定とそれらを組み合わせた内部的な最適化戦略を作る（メサ最適化）可能性を示唆．AI安全性，AIアライメントにおける重要概念（道具的目標収束）を理論的に導出した注目論文
+- TinyLlama: An Open-Source Small Language Model
 
 ## 1/8
 
@@ -4122,12 +4123,9 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - Microsoft Build開催、OSとLLMが融合？
 	- https://blogs.microsoft.com/blog/2023/05/23/microsoft-build-brings-ai-tools-to-the-forefront-for-developers/
 - LLM向けの学習最適化エンジンSophia、アダムを超えるか
-	-  Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training
-	- https://arxiv.org/abs/2305.14342
-- QLoRa: HuggingFaceのモデルが、4bit化されたものが使えるようになる？
-	- https://huggingface
+	-  Sophia:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5ODc4NDY1LDUzNjMyMjAyMywxMDYzMD
+eyJoaXN0b3J5IjpbMTY0Mjg5NzExLDUzNjMyMjAyMywxMDYzMD
 I4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1
 MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNC
 w5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3
