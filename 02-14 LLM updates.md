@@ -91,6 +91,12 @@
 	- https://ai-data-base.com/archives/61597
 	- スタンフォード大学とMetaによってGPT-4など他のLLMと併せて実験された結果が報告されています。 記事では、実験と結果の詳細、そもそも常識推論とは何かを紹介しています。
 - ChatGPTのTop PやTemperatureについて少し知ってみよう
+	- https://techblog.a-tm.co.jp/entry/2023/04/24/181232
+- 我らがOpenAI CEOサムアルトマン、結婚
+	- https://x.com/kai_postv/status/1745440329204142447?s=20
+- AMIE: A research AI system for diagnostic medical reasoning and conversations
+	- 
+	- Googleから、いりょうしんだｎ
 
 ## 1/8
 
@@ -4129,16 +4135,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://twitter.com/kam0shika/status/1663906516276051969?s=20
 - Transformer.js、ブラウザやnodejsからhuggingfaceのtransformerが使える
 	- https://github.com/xenova/transformers.js
-- 特異値分解で30%もLLMを圧縮しても性能が変わらなかった
-	- LLMってやっぱり疎なのね
-	- ~30% Compression Of LLM (Flan-T5-Base) With Low Rank Decomposition Of Attention Weight Matrices
-	- https://smashinggradient.com/2023/05/23/30-compression-of-llms-with-low-rank-decomposition-of-attention-weight-matr
+- 特異値分解で30%も
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDI3NDUzMiwtMTg1NjM0MzUxMywtMT
-A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
-MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
-csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
-ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOT
-AxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3
-MzksLTEzOTYyMjA2NDddfQ==
+eyJoaXN0b3J5IjpbLTE4ODA3MzY4MTAsLTE4NTYzNDM1MTMsLT
+EwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3
+MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMz
+I3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywx
+NDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4Mj
+kwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQy
+NzM5LC0xMzk2MjIwNjQ3XX0=
 -->
