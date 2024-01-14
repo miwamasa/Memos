@@ -122,6 +122,11 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	-   メモリがそこそこいるので、ハイメモリで実行しないといけない。
 	- https://github.com/cg123/mergekit/tree/mixtral
 - Phixtral 4-bit quantized with MLX also runs nicely on an 8GB M2.
+	- https://github.com/ml-explore/mlx-examples/tree/main/llms/phixtral
+	- https://x.com/awnihannun/status/1746376783543591235?s=20
+- 日本語MoEモデル、jaqket-v2以降のベンチマーク
+	- JGLUEの結果と同様、いいとこ取りができてる。
+しかも、9つ中5つのベンチマーク(半分以上👀)で元の２つのモデルを上回るスコアに。
 
 
 ## 1/8
@@ -4122,14 +4127,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- Foundation models for reasoning on charts
 	- https://ai.googleblog.com/2023/05/foundation-models-for-reasoning-on.html
 -  Physics-constrained machine learning for scientific computing
-	- https://www.amazon.science/blog/physics-constrained-machine-learning-for-scientific-computing?_amp=true
-	- 保存則と境界条件の制約を守りつつ偏微分方程式の解を求めるディープラーニングモデル。Amazon ScienceからICMLとICLRで発表
-- LLMでドメイン特化言語を作りまくり？
-	- https://huggingface.co/papers/2305.19234
-	- Grammar Prompting for Domain-Specific Language Generation with Large Language Models
-- O
+	- https://www.amazon.science/blog/physics-constrained-machine-learning-for-scientific-computing?_amp=tru
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDc0NzAwMSwyMDkwMTU2NjYzLDE0MT
+eyJoaXN0b3J5IjpbLTM0NzIyMjA5NSwyMDkwMTU2NjYzLDE0MT
 c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
 LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
 YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
