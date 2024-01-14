@@ -48,6 +48,7 @@
 	- 岩波書店「科学」2023/12月号に掲載された、大規模言語モデルと人間の言語能力についての討論形式論文
 - WikiChat=Wikipedia + LLM
 	- https://wikichat.genie.stanford.edu/
+	- https://github.com/stanford-oval/WikiChat
 	- stanfordのwikichat、事実性でGPT-4 よりも55.0%優れているという事でもの凄い 
 	- しかし、LLaMA7Bモデルがベースの割に要求スペックももの凄い
 		- 動作させるには約100GBのRAMが必要 
@@ -65,6 +66,8 @@
 - Kaggle新コンペ
 	- https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/
 	- 脳波 (EEG) 信号から入院中の重症患者の発作などを検知。発作 (SZ)、全身性周期放電 (GPD)、側方化周期性放電 (LPD)、側方化律動デルタ活動 (LRDA)、全般化律動デルタ活動 (GRDA)、または「その他」の6クラスを分類する
+- OpenAI、GPT storeを正式公開
+	- https://openai.com/blog/introducing-the-gpt-store
 - 
 
 ## 1/8
@@ -4136,14 +4139,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 時系列データにおける特徴量エンジニアリング by NRI
 	- https://datascience.nri.com/entry/2022/10/12/155350
 - ドイツ連邦データ保護当局（BfDI）の生成AIについての声明（5月22日）、 by 生貝先生
-	- https://www.bfdi.bund.de/SharedDocs/Downloads/DE/DokumenteBfDI/Stellungnahmen/2023/StgN_Generative-K%C3%BCnstliche-Intelligenz.pdf?__blob=publicationFile&v=2
-	- G
+	- https://www.bfdi.bund.de/SharedDocs/Down
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODUxMTk2NiwtMTg1NjM0MzUxMywtMT
-A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
-MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
-csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
-ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOT
-AxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3
-MzksLTEzOTYyMjA2NDddfQ==
+eyJoaXN0b3J5IjpbLTExNzY2MzE4MTgsLTE4NTYzNDM1MTMsLT
+EwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3
+MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMz
+I3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywx
+NDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4Mj
+kwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQy
+NzM5LC0xMzk2MjIwNjQ3XX0=
 -->
