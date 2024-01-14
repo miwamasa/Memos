@@ -105,6 +105,7 @@
 	- なんかすごい性能があるらしいマージモデル
 - マルチモーダルなGPT-4とLLaVAによる高度な画像理解と自然言語対話の統合
 	- https://ai-scholar.tech/articles/computer-vision/LLaVA
+	- GPT-4に並ぶ「多モーダル人工知能」の開発に向けて、視覚命令チューニングの手法が提案されました。
 	- また、視覚と言語の理解力が高い言語モデル「LLaVA」も紹介。
 - 
 
@@ -4133,10 +4134,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - つい最近引退された、ストラング教授（線形代数他）のインタビュー記事
 	- https://news.mit.edu/2023/gilbert-strang-made-linear-algebra-fun-0531
 - GPT4ALLをつかって、GPUなしで、ローカルPCでLLMを動かす
-	- https://gpt4all.io/index.html
-	- A free-to-use, locally running, privacy-aw
+	- https://gpt4all.io/inde
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTIzNTcwOCwtMTg1NjM0MzUxMywtMT
+eyJoaXN0b3J5IjpbLTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMT
 A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
 MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
 csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
