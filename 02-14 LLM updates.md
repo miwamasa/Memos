@@ -31,9 +31,15 @@
 - langgraph
 	- https://github.com/langchain-ai/langgraph
 	- LangGraph is inspired by Pregel and Apache Beam, and the current interface exposed is one inspired by NetworkX
-- AIによる失業
+- GPT-4を導入したDuolingoが大規模なリストラ
 	- https://x.com/Rahll/status/1744234385891594380?s=20
-	- 
+	- GPT-4を導入したDuolingoが大規模なリストラ
+- 1年間に日本の人工知能分野全体で20人しか博士号取らない？
+	- https://x.com/yo_ehara/status/1744332999578333613?s=20
+- Mixtral of Experts by Mistral AI
+	- https://huggingface.co/papers/2401.04088
+	- introduce Mixtral 8x7B, a Sparse Mixture of Experts (SMoE) language model. Mixtral has the same architecture as Mistral 7B, with the difference that each layer is composed of 8 feedforward blocks (i.e.…
+- 
 
 ## 1/8
 
@@ -4118,17 +4124,9 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 	- https://github.com/microsoft/responsible-ai-toolbox
 - 知識グラフのneo4jと、LangChainからの利用、Cypher問い合わせを自動生成する
 	- https://python.langchain.com/en/latest/modules/chains/examples/graph_cypher_qa.html
-- LIMA: Less Is More for Alignment
-	- Lucan先生によると、LLaMA 65B + 1000 supervised samples = {GPT4, Bard} level performance
-	- https://arxiv.org/abs/2305.11206
-- scikit-llm: scikit-learnとLLMをシームレスつにつなげる
-	- https://github.com/iryna-kondr/scikit-llm
-- LangChainからAzure OpenAI を使うメモ
-	- https://qiita.com/tmiyata25/items/7a04096342241d8a2b4c
-- Textually Pretrained Speech Language Models：なんか音声をいれると音声を出力するLLM!!
-	- https://pages.cs.huji.ac.il/adiyoss-l
+- LIMA: Less Is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDk2NjE5MSwtMTA4Mzg4MDUzOSw1Mz
+eyJoaXN0b3J5IjpbMTAxNjA1NTYzOCwtMTA4Mzg4MDUzOSw1Mz
 YzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2
 NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNz
 gsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTcz
