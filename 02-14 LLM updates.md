@@ -62,6 +62,9 @@
 	- ■実験結果 
 		- 1. ブレンドモデルは定着率が顕著に高かった 
 		- 2. 会話密度に関しても他モデルを凌駕した
+- Kaggle新コンペ
+	- https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/
+	- 脳波 (EEG) 信号から入院中の重症患者の発作などを検知。発作 (SZ)、全身性周期放電 (GPD)、側方化周期性放電 (LPD)、側方化律動デルタ活動 (LRDA)、全般化律動デルタ活動 (GRDA)、または「その他」の6クラスを分類する
 - 
 
 ## 1/8
@@ -4134,15 +4137,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://datascience.nri.com/entry/2022/10/12/155350
 - ドイツ連邦データ保護当局（BfDI）の生成AIについての声明（5月22日）、 by 生貝先生
 	- https://www.bfdi.bund.de/SharedDocs/Downloads/DE/DokumenteBfDI/Stellungnahmen/2023/StgN_Generative-K%C3%BCnstliche-Intelligenz.pdf?__blob=publicationFile&v=2
-	- GDPR的なリスクベースアプローチとDSA的なシステミックリスクアプローチの対比など興味深い。青少年学習データのフィルタリングやAI規則の川上川下問題なども
-- Jupyter AIが出た！試した！！すごい！！！
-	- https://qiita.com/moritalous/items/a270d5932ebee18d0ba8?utm_content=buffer352b5&utm_medium=social&utm_source=t
+	- G
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNT
-M2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2
-NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMD
-c4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3
-MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3Nz
-MwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIw
-NjQ3LC04OTgwNzU5XX0=
+eyJoaXN0b3J5IjpbLTIzODUxMTk2NiwtMTg1NjM0MzUxMywtMT
+A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
+MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
+csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
+ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOT
+AxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3
+MzksLTEzOTYyMjA2NDddfQ==
 -->
