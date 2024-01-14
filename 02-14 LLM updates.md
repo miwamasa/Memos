@@ -21,6 +21,12 @@
 	- Why are Transformers so effective? And where is their intruiging in-context learning ability coming from?
 	- Transformerは，人間の設計者から与えられた訓練目標を達成するために，自発的に新たな中間目標の設定とそれらを組み合わせた内部的な最適化戦略を作る（メサ最適化）可能性を示唆．AI安全性，AIアライメントにおける重要概念（道具的目標収束）を理論的に導出した注目論文
 - TinyLlama: An Open-Source Small Language Model
+	- https://arxiv.org/abs/2401.02385
+	- 小型の言語モデルを極めて大きいデータ量でトレーニングすると、類似モデルよりもシンプルに著しく性能が高くなったと報告
+	- - GPT-3：175Bパラメータ - Llama-2：7B〜70Bパラメータ - TinyLlama：1.1Bパラメータ
+	- ■実験 1. 3兆トークンでTinyLlamaを訓練した （3エポック×1兆トークン） 2. 様々な常識推論タスクでテストした 3. 同規模パラメータのモデルと比較した 4. 平均スコアで最高の成績を達成した 
+	- ■結論 シンプルに大量データでトレーニングするのは有効である可能性が高い
+- 
 
 ## 1/8
 
@@ -4116,20 +4122,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 	- https://pages.cs.huji.ac.il/adiyoss-lab/twist/
 - ImageBind　by Meta、マルチモーダルな学習
 	- https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/?utm_source=twitter&utm_medium=organic_social&utm_campaign=blog&utm_content=card
-- open-calm-7b を databricks-dolly-15k-ja で LoRA したのをマージして ggml にして 4bit 量子化して redpajama.cpp で MacBook ローカルで動く日本語高速チャットボット
-	- https://twitter.com/niw/status/1660894493867134976?s=20
--  LLaMAベースの日本語大規模言語モデル(LoRaした)公開
-	- https://llm.msuzuki.me/
-- Microsoft Build開催、OSとLLMが融合？
-	- https://blogs.microsoft.com/blog/2023/05/23/microsoft-build-brings-ai-tools-to-the-forefront-for-developers/
-- LLM向けの学習最適化エンジンSophia、アダムを超えるか
-	-  Sophia:
+- open-calm-7b を databricks-dolly-15k-ja で LoRA したのをマージして ggml にして 4bit 量子化して redpajama.cpp で MacBook ローカルで動く日本語高速
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Mjg5NzExLDUzNjMyMjAyMywxMDYzMD
-I4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1
-MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNC
-w5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3
-OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIsLTIwNjM2OT
-c5MjIsMTI5NTc0MjczOSwtMTM5NjIyMDY0NywtODk4MDc1OSwt
-OTU0NzM3MDQxXX0=
+eyJoaXN0b3J5IjpbLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNj
+MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
+NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMj
+E0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTEx
+Mjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2Mz
+Y5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5
+LC05NTQ3MzcwNDFdfQ==
 -->
