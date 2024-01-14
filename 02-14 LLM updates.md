@@ -3,7 +3,7 @@
 
 ## 1/15
 
-Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデルPhi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。小規模言語モデルではTinyLlamaってのもありました、Macでも快適に動く模様。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）という報告も。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？Duolingoのリストラ、そういう気もするが、googleのAMIE
+Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデルPhi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。小規模言語モデルではTinyLlamaってのもありました、Macでも快適に動く模様。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）という報告も。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？Duolingoのリストラ、そういう気もするが、googleのAMIEのように、そもそも人材不足の分野での専門家AIの登場という側面もある。GoogleのDynamicPlanって、あれどこかで見たような気もするが、データサイエンティストは
 
 
 - Lookahead: An Inference Acceleration Framework for Large Language Model with Lossless Generation Accuracy
@@ -4128,15 +4128,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- CPUだけでも十分動くのか。。。
 - Berry: A code for the differentiation of Bloch wavefunctions from DFT calculations
 	- https://arxiv.org/abs/2006.02744
-	- DFT計算で得た波動関数を微分するためのオープンソース
-- What Is ChatGPT Doing … and Why Does It Work?
-	- https://wr
+	- DFT計
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzUwNTY5NjksMjA5MDE1NjY2MywxND
-E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
-NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMT
-A2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3
-MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2Nj
-IyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwt
-MTEyNzk4NjM0OV19
+eyJoaXN0b3J5IjpbLTg4OTc2ODM0NCwyMDkwMTU2NjYzLDE0MT
+c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
+LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
+YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
+NjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2Mj
+IxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0x
+MTI3OTg2MzQ5XX0=
 -->
