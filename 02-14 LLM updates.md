@@ -13,6 +13,9 @@
 		- 1. DollyデータセットとLlama-13Bでテスト 
 		- 2. オンライン環境に組み込んだ 
 		- 3. 高い生成精度を維持しつつ速度を改善した
+- PmxEditor及び準標準ボーン追加プラグインの導入
+	- http://rockstababy.starfree.jp/mmdsupporter/bemmder/section3.php
+	- PmxEditorを使えばMMDモデルを編集できるのか！フリーレンのモデルの編集はこれを使っていたのか
 - 
 
 ## 1/8
@@ -4123,16 +4126,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks
 	- https://huggingface.co/papers/2305.14201
 - 自然言語のpromptによるLLMの利用は、LLMの本来の能力を生かしきれてない
-	- https://arxiv.org/abs/2305.13264v1
-- QLoRaを使えば、普通のcolabにて、数時間でLLMができるという報告。4bit最強。
-	- 33B-parameter LLM on Google Colab in a few hour
-	- https://twitter.com/ItakGo
+	- https://arx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTE0MTczNCw1MzYzMjIwMjMsMTA2Mz
-AyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2
-NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2NjIyMT
-QsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEy
-Nzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNj
-k3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2NDcsLTg5ODA3NTks
-LTk1NDczNzA0MV19
+eyJoaXN0b3J5IjpbLTE0Nzk0Mjg2NzIsNTM2MzIyMDIzLDEwNj
+MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
+NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMj
+E0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTEx
+Mjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2Mz
+Y5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5
+LC05NTQ3MzcwNDFdfQ==
 -->
