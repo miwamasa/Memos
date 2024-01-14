@@ -26,7 +26,9 @@
 	- - GPT-3：175Bパラメータ - Llama-2：7B〜70Bパラメータ - TinyLlama：1.1Bパラメータ
 	- ■実験 1. 3兆トークンでTinyLlamaを訓練した （3エポック×1兆トークン） 2. 様々な常識推論タスクでテストした 3. 同規模パラメータのモデルと比較した 4. 平均スコアで最高の成績を達成した 
 	- ■結論 シンプルに大量データでトレーニングするのは有効である可能性が高い
-- 
+-  LangChain v0.1.0
+	- https://blog.langchain.dev/langchain-v0-1-0/
+	- 
 
 ## 1/8
 
@@ -4122,13 +4124,13 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 	- https://pages.cs.huji.ac.il/adiyoss-lab/twist/
 - ImageBind　by Meta、マルチモーダルな学習
 	- https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/?utm_source=twitter&utm_medium=organic_social&utm_campaign=blog&utm_content=card
-- open-calm-7b を databricks-dolly-15k-ja で LoRA したのをマージして ggml にして 4bit 量子化して redpajama.cpp で MacBook ローカルで動く日本語高速
+- open-calm-7b を databricks-dolly-15k-ja で LoR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNj
-MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
-NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMj
-E0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTEx
-Mjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2Mz
-Y5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3LC04OTgwNzU5
-LC05NTQ3MzcwNDFdfQ==
+eyJoaXN0b3J5IjpbMTk4NDI0MzE1MCwtMTA4Mzg4MDUzOSw1Mz
+YzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2
+NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNz
+gsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTcz
+MTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3Mz
+AwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2
+NDcsLTg5ODA3NTldfQ==
 -->
