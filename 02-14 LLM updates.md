@@ -71,6 +71,7 @@
 -  Build LLM Apps with LangChain.js
 	- https://www.deeplearning.ai/short-courses/build-llm-apps-with-langchain-js/
 	- DeepLearningAIより、javascriptをもいいたLLMコース
+- Phixtralだって。Phi-2をくっ付けてMoEにしたらしい
 - 
 
 ## 1/8
@@ -4138,10 +4139,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- 今井むつみ, 秋田喜美の本、
 	- https://www.amazon.co.jp/dp/B0C4XF523T?ref_=k4w_ss_dp_lp
 -  Langchain・Semantic Kernel・guidanceでエージェント機能を実装して比較してみた
-	- https://qiita.com/sakue_103/items/6ffee0bc267e71eafd60
-- 時系列データにおける特徴量エンジニアリ
+	- https://qiita.com/sakue_103/items/6ffee0bc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjk4NDcxMywtMTg1NjM0MzUxMywtMT
+eyJoaXN0b3J5IjpbMTg2MzI4NTM2OCwtMTg1NjM0MzUxMywtMT
 A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
 MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
 csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
