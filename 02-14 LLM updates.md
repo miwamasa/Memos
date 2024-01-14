@@ -3,9 +3,8 @@
 
 ## 1/15
 
-Mistral AIによるMixtral -8x7bモデルの成功により、最近MoE（Mixture of Experts）モデルが流行ってきている気がします。  
-他にもPhi-2のMoEであるPhixtual-2x2bとかありましたね。  
-それに倣って、日本語モデルのMoEも作ってみたくなって試してみました。
+Mistral AIによるMixtral -8x7bモデルの成功により、最近MoE（Mixture of Experts）モデルが流行っています。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  
+
 
 - Lookahead: An Inference Acceleration Framework for Large Language Model with Lossless Generation Accuracy
 	- https://arxiv.org/abs/2312.12728
@@ -120,6 +119,7 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近MoE（Mixtur
 	- https://huggingface.co/HachiML/youri-2x7b_dev
 	- マージの実行自体はほとんどモデルの取得の時間で20~30分くらいで実行できた気がする。
 	-   メモリがそこそこいるので、ハイメモリで実行しないといけない。
+	- https://github.com/cg123/mergekit/tree/mixtral
 
 
 ## 1/8
@@ -4132,10 +4132,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- 中身は議論されず、最初のChatGPTはオープンソースのところに、鬼首をとったようにかみつくDS界隈
 - QCDの１方程式から多様な世界が作り出されるチャート
 	- http://suganuma-hideo.o.oo7.jp/hideo/index.files/main.files/HQCD.pdf
-- “According to . . . ” Prompting Language Models Improves Quoting from Pre-Training Data
-	- Wikipediaによると、、、を付け加えるプロンプトテクニック
+- “According to . . . ” Prompting Language Model
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTkwMjIyNjYsNzczMDE1NDM3LDE2OT
+eyJoaXN0b3J5IjpbLTE4NTEwODUzNDUsNzczMDE1NDM3LDE2OT
 A5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgw
 NTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIzNDYzLD
 I4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0
