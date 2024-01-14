@@ -3,7 +3,7 @@
 
 ## 1/15
 
-Mistral AIによるMixtral -8x7bモデルの成功により、最近MoE（Mixture of Experts）モデルが流行っています。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。TinyLlamaってのもありました。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？
+Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデルPhi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。TinyLlamaってのもありました。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？
 
 
 - Lookahead: An Inference Acceleration Framework for Large Language Model with Lossless Generation Accuracy
@@ -4127,13 +4127,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://huggingface.co/papers/2305.19234
 	- Grammar Prompting for Domain-Specific Language Generation with Large Language Models
 - OpenAI のCEOのインタビュー、GPUリソースが世界的に足らないのはGPT-4のマルチモーダル学習中のため？
-	- htt
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MD
-k0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwODM4ODA1
-MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMj
-g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
-NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOT
-g4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Miwt
-MTE3NzMwMDYzMl19
+eyJoaXN0b3J5IjpbMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
+AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
+MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
+AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
+NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNT
+I3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwt
+ODgyOTAxNjQyXX0=
 -->
