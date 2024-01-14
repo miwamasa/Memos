@@ -80,6 +80,11 @@
 	- https://huggingface.co/mlabonne/phixtral-4x2_8
 - llamaindexより、RAGの高度な手法として、ensembleとfusion
 	- https://llamahub.ai/l/llama_packs-query-rag_fusion_pipeline?from=llama_packs
+- Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding
+	- https://arxiv.org/abs/2401.04398
+	- Googleなどの研究者により、表形式（.csvなど）のデータを通してLLMが「連鎖的な推論」を行うためのフレームワーク
+	- ■プロンプトフレームワーク「DynamicPlan」 - 質問の共有と、必要なデータを選択させる - 適宜、データの追加、選択、並べ替えをさせる - 最終的に質問に答えさせる
+	- ■実験と結果 - PaLM-2、GPT-3.5、LLaMA 2を使用した - 表データ推論のベンチマーク3種類で評価した - 最高のスコアを達成した
 - 
 
 ## 1/8
@@ -4130,20 +4135,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://twitter.com/AndrewYNg/status/1664694504476102680?s=20
 - スタンフォード大学による、機械学習もろもろチートシート
 	- https://github.com/afshinea/stanford-cs-229-machine-learning
-- LangChainをサポートするvicuna-13bモデルをrinnaが公開
-	- https://huggingface.co/rinna/vicuna-13b-delta-finetuned-langchain-MRKL 
-	- https://note.com/hamachi_jp/n/n97d368a617ac
-- A Survey on Large Language Models for Recommendation
-	- https://arxiv.org/abs/2305.19860v2
-- 分子生物学にLLMが最適な件
-	- https://towardsdatascience.com/large-language-models-in-molecular-biology-9eb6b65d8a30
-- GPT4ALLとLangChainと
+- LangChainをサポートするvicuna-13bモデルを
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1NzU5NzM3LC0xODU2MzQzNTEzLC0xMD
-gzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIz
-NDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNy
-wtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4
-NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MD
-E2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0Mjcz
-OSwtMTM5NjIyMDY0N119
+eyJoaXN0b3J5IjpbMTk5NjM3OTAwNywtMTg1NjM0MzUxMywtMT
+A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
+MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
+csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
+ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOT
+AxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3
+MzksLTEzOTYyMjA2NDddfQ==
 -->
