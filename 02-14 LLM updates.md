@@ -68,6 +68,9 @@
 	- 脳波 (EEG) 信号から入院中の重症患者の発作などを検知。発作 (SZ)、全身性周期放電 (GPD)、側方化周期性放電 (LPD)、側方化律動デルタ活動 (LRDA)、全般化律動デルタ活動 (GRDA)、または「その他」の6クラスを分類する
 - OpenAI、GPT storeを正式公開
 	- https://openai.com/blog/introducing-the-gpt-store
+-  Build LLM Apps with LangChain.js
+	- https://www.deeplearning.ai/short-courses/build-llm-apps-with-langchain-js/
+	- DeepLearningAIより、javascriptをもいいたLLMコース
 - 
 
 ## 1/8
@@ -4136,16 +4139,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.amazon.co.jp/dp/B0C4XF523T?ref_=k4w_ss_dp_lp
 -  Langchain・Semantic Kernel・guidanceでエージェント機能を実装して比較してみた
 	- https://qiita.com/sakue_103/items/6ffee0bc267e71eafd60
-- 時系列データにおける特徴量エンジニアリング by NRI
-	- https://datascience.nri.com/entry/2022/10/12/155350
-- ドイツ連邦データ保護当局（BfDI）の生成AIについての声明（5月22日）、 by 生貝先生
-	- https://www.bfdi.bund.de/SharedDocs/Down
+- 時系列データにおける特徴量エンジニアリ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzY2MzE4MTgsLTE4NTYzNDM1MTMsLT
-EwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3
-MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMz
-I3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywx
-NDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4Mj
-kwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQy
-NzM5LC0xMzk2MjIwNjQ3XX0=
+eyJoaXN0b3J5IjpbMTMyNjk4NDcxMywtMTg1NjM0MzUxMywtMT
+A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
+MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
+csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
+ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOT
+AxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3
+MzksLTEzOTYyMjA2NDddfQ==
 -->
