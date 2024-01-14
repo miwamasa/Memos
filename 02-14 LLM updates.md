@@ -109,7 +109,7 @@
 	- また、視覚と言語の理解力が高い言語モデル「LLaVA」も紹介。
 -  Large Language Model Course by 
 	- https://github.com/mlabonne/llm-course
-	- 
+	- 3 models trending + even MistralTriｌ
 
 ## 1/8
 
@@ -4134,13 +4134,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - OpenAIがsecurity portalを公開
 	- https://trust.openai.com/
 - つい最近引退された、ストラング教授（線形代数他）のインタビュー記事
-	- https://news.mit.edu/2023/gilbert-strang-made-linear-al
+	- https://news.mit.ed
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NT
-YzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4
-MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC
-0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5
-MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5OD
-YzNDksLTg4MjkwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5Nzky
-MiwxMjk1NzQyNzM5XX0=
+eyJoaXN0b3J5IjpbMTg2NDgxMjAyLDE2OTA5NDE4MSwtNzg2Mz
+I2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAy
+MywxMDYzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMj
+E0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3
+OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5Mz
+MwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIs
+LTIwNjM2OTc5MjJdfQ==
 -->
