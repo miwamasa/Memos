@@ -1,7 +1,11 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+## 1/15
 
+- Lookahead: An Inference Acceleration Framework for Large Language Model with Lossless Generation Accuracy
+	- https://arxiv.org/abs/2312.12728
+	- 
 
 ## 1/8
 
@@ -4120,12 +4124,9 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - Reasoning with Language Model is Planning with World Model
 	- CoT on GPT-4との比較で勝るとのこと
 	- https://arxiv.org/abs/2305.14992
-- Voyager: 長期的な探索をGPT-4でやらせる例。Minecraftをやらせたら、、（研究開発も。。。）
-	- https://github.com/MineDojo/Voyager
-- 祝！蔵本先生、SIAMでJürgen Moser Lecture賞受賞！受賞講演
-	- https://www.youtube.co
+- Voyager
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3MDc1NDc3LDUzNjMyMjAyMywxMDYzMD
+eyJoaXN0b3J5IjpbOTIxNzEyMDY0LDUzNjMyMjAyMywxMDYzMD
 I4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1
 MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNC
 w5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3
