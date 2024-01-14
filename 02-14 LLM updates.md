@@ -3,7 +3,7 @@
 
 ## 1/15
 
-Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデルPhi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。TinyLlamaってのもありました。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？
+Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデルPhi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。小規模言語モデルではTinyLlamaってのもありました、M。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？
 
 
 - Lookahead: An Inference Acceleration Framework for Large Language Model with Lossless Generation Accuracy
@@ -134,6 +134,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- rinna/youri-7b-instruction
 	- rinna/youri-7b-chat chat
 	- モデルとinstructionモデルを繋げる効果がどのくらいあるかわからないけれど、動くところまで確認できた。 時間があればJGLUE試してみる。
+- Raspberry Pi 4 Model B 4GB memoryでPhi-2とTinyLlama余裕で動いた
+	- https://x.com/yuiseki_/status/1746532207597064670?s=20
+	- 特にTinyLlamaは8token/sくらい出てるんだけど、なんかllama.cpp前より速くなってね…？
 
 
 ## 1/8
@@ -4127,16 +4130,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://arxiv.org/abs/2006.02744
 	- DFT計算で得た波動関数を微分するためのオープンソース
 - What Is ChatGPT Doing … and Why Does It Work?
-	- https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
-	- Wolfman AlphaのWolfmanさんの記事、
-	- 「現在のChatGPTの場合，事態はもっと極端で，各トークンの出力を生成するためのニューラルネットはループのない純粋な「フィードフォワード」ネットワークであるため，自明でない「制御フロー」を持ついかなる計算も行うことができない
-- Googleによる図
+	- https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-do
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0Njk2NzksMjA5MDE1NjY2MywxNDE3Nj
-Q3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwt
-MTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2Mz
-AyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2
-NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2NjIyMT
-QsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEy
-Nzk4NjM0OV19
+eyJoaXN0b3J5IjpbLTQzOTMyNzQxNiwyMDkwMTU2NjYzLDE0MT
+c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
+LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
+YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
+NjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2Mj
+IxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0x
+MTI3OTg2MzQ5XX0=
 -->
