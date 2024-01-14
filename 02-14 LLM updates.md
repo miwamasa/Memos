@@ -28,7 +28,9 @@
 	- ■結論 シンプルに大量データでトレーニングするのは有効である可能性が高い
 -  LangChain v0.1.0
 	- https://blog.langchain.dev/langchain-v0-1-0/
-- 
+- langgraph
+	- https://github.com/langchain-ai/langgraph
+	- 
 
 ## 1/8
 
@@ -4123,10 +4125,9 @@ Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラ�
 - Textually Pretrained Speech Language Models：なんか音声をいれると音声を出力するLLM!!
 	- https://pages.cs.huji.ac.il/adiyoss-lab/twist/
 - ImageBind　by Meta、マルチモーダルな学習
-	- https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/?utm_source=twitter&utm_medium=organic_social&utm_campaign=blog&utm_content=card
-- open-calm-7b を databricks-dolly-15k-ja で LoR
+	- https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/?utm_source=twitter&utm_medium=organic_social&utm_campaign=blog&utm_co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTU3OTA3MzAsLTEwODM4ODA1MzksNT
+eyJoaXN0b3J5IjpbLTE1ODAxOTQ3NzMsLTEwODM4ODA1MzksNT
 M2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2
 NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMD
 c4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3
