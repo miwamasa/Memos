@@ -85,7 +85,12 @@
 	- Googleなどの研究者により、表形式（.csvなど）のデータを通してLLMが「連鎖的な推論」を行うためのフレームワーク
 	- ■プロンプトフレームワーク「DynamicPlan」 - 質問の共有と、必要なデータを選択させる - 適宜、データの追加、選択、並べ替えをさせる - 最終的に質問に答えさせる
 	- ■実験と結果 - PaLM-2、GPT-3.5、LLaMA 2を使用した - 表データ推論のベンチマーク3種類で評価した - 最高のスコアを達成した
-- 
+- LangChainキャッチアップ - LangChain Expression Languageを完全に理解する
+	- https://speakerdeck.com/masahiro_nishimi/langchainkiyatutiatupu-langchain-expression-languagewowan-quan-nili-jie-suru
+- Geminiの「常識を推論する能力」を網羅的に調査した結果　間違えやすいタイプの問題も明らかに
+	- https://ai-data-base.com/archives/61597
+	- スタンフォード大学とMetaによってGPT-4など他のLLMと併せて実験された結果が報告されています。 記事では、実験と結果の詳細、そもそも常識推論とは何かを紹介しています。
+- ChatGPTのTop PやTemperatureについて少し知ってみよう
 
 ## 1/8
 
@@ -4127,17 +4132,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 特異値分解で30%もLLMを圧縮しても性能が変わらなかった
 	- LLMってやっぱり疎なのね
 	- ~30% Compression Of LLM (Flan-T5-Base) With Low Rank Decomposition Of Attention Weight Matrices
-	- https://smashinggradient.com/2023/05/23/30-compression-of-llms-with-low-rank-decomposition-of-attention-weight-matrices/
-- LQML;
-	- LMQL (Language Model Query Language) is a programming language for large language model (LM) interaction. 
-	- https://docs.lmql.ai/en/stable/
-- Andrew Ngさんによる米軍AIドローンシミュレーション（操作者を殺すという結論）への反駁
-	- https://twitter.com/AndrewYNg/status/1664694504476102680?s=20
-- スタンフォード大学による、機械学習もろもろチートシート
-	- https://github.com/afshinea/stanford-cs-229-machine-learning
-- LangChainをサポートするvicuna-13bモデルを
+	- https://smashinggradient.com/2023/05/23/30-compression-of-llms-with-low-rank-decomposition-of-attention-weight-matr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjM3OTAwNywtMTg1NjM0MzUxMywtMT
+eyJoaXN0b3J5IjpbLTgzMDI3NDUzMiwtMTg1NjM0MzUxMywtMT
 A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
 MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
 csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
