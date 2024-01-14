@@ -111,7 +111,8 @@
 -  Large Language Model Course by 
 	- https://github.com/mlabonne/llm-course
 	- 3 models trending + even MistralTril 
-- 
+-  Google Colab：Mergekitによる日本語モデルMoEの作成
+	- https://note.com/hatti8/n/ne09226bc4ff5?sub_rt=share_pb
 
 
 ## 1/8
@@ -4131,15 +4132,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - inna-3.6b-instruction-oppのggml 4q_2を作って、LangChainのsummarize chainで使ってみました…
 	- https://twitter.com/8hmVmEGJ6nFyUE5/status/1663936372363898880?s=20
 	- やっぱりggmlと4bitが最強なのか。。モデルサイズが2Gって、あーた
-- LLMをつかって、微分方程式から保存則を抽出する？？
-	- Discovering New Interpretable Conservation Laws as Sparse Invariants
-	- https://ar
+- LLMをつかって、微分方程式から
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2Mz
-I2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAy
-MywxMDYzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMj
-E0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3
-OTY2MjIxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5Mz
-MwLC0xMTI3OTg2MzQ5LC04ODI5MDE2NDIsLTExNzczMDA2MzIs
-LTIwNjM2OTc5MjJdfQ==
+eyJoaXN0b3J5IjpbMTAwMDI4MTM4OCw3NzMwMTU0MzcsMTY5MD
+k0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwODM4ODA1
+MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMj
+g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
+NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOT
+g4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0Miwt
+MTE3NzMwMDYzMl19
 -->
