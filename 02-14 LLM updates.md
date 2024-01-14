@@ -46,6 +46,12 @@
 - 人工知能という分野が謙虚であったことなど一度もない
 	- https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/286548
 	- 岩波書店「科学」2023/12月号に掲載された、大規模言語モデルと人間の言語能力についての討論形式論文
+- WikiChat=Wikipedia + LLM
+	- https://wikichat.genie.stanford.edu/
+	- stanfordのwikichat、事実性でGPT-4 よりも55.0%優れているという事でもの凄い 
+	- しかし、LLaMA7Bモデルがベースの割に要求スペックももの凄い
+		- 動作させるには約100GBのRAMが必要 
+		- 速度を犠牲にRAM の使用量を削減できるがそれでも約35GBが必要
 - 
 
 ## 1/8
@@ -4125,13 +4131,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 
 
 ## 5/29
-Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラグインが使えるようになるとか、相も変わらずMicrosoftはどうやって投資を回収できるのか不明。Adamを超えるSophiaの登場や、4bit化のQLoRaの登場など、個人や企業でのLLM作成には朗報であるが、LLMの民主化って危険もあるよね。なので、DeepMindやMicrosoftは倫理性やリスクに関する研究をちゃんと続けて公開している。Voyagerすごい、研究開発のタスクももGPT-4でできるのでは？WebGPUを使ったwebllm、nodejs版でも動く模様。microsoftはguidanceでモデル利用の効率化の工夫を行っているとの報告も。アブダビから謎の巨大LLMであるFalcon-40Bが発表されるも、OSSとうたいつつ実は謎ライセンスであっというまに叩かれる。SQLとかNotableとかデータサイエンス系のChatGPTの活用が本格的に。祝！SIAMの賞の受賞、蔵本先生！！！。欧州AI規制の最終投票を目前に、OpenAI、欧州AI規制遵
+Microsoft BuildでWindowsとGPTとの統合とか、BingでもChatGPTのプラグインが使えるようになるとか、相も変わらずMicrosoftはどうやって投資を回収できるのか不明。Adamを超えるSophiaの登場や、4bit化のQLoRaの登場など、個人や企業でのLLM作成には朗報であるが、LLMの民主化って危険もあるよね。なので、DeepMindやMicrosoftは倫理性やリスクに関する研究をちゃんと続けて公開している。Voyagerすごい、研究開発のタスクももGPT-4でできるのでは？WebGP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjAyMTQ5MSwtMTA4Mzg4MDUzOSw1Mz
-YzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2
-NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNz
-gsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTcz
-MTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOTAxNjQyLC0xMTc3Mz
-AwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3MzksLTEzOTYyMjA2
-NDcsLTg5ODA3NTldfQ==
+eyJoaXN0b3J5IjpbMzkzOTI0OTIsLTEwODM4ODA1MzksNTM2Mz
+IyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0
+LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC
+0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2NDEzOTg4LDE3MzEz
+MDkzMzAsLTExMjc5ODYzNDksLTg4MjkwMTY0MiwtMTE3NzMwMD
+YzMiwtMjA2MzY5NzkyMiwxMjk1NzQyNzM5LC0xMzk2MjIwNjQ3
+LC04OTgwNzU5XX0=
 -->
