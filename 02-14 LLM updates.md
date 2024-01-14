@@ -95,8 +95,12 @@
 - 我らがOpenAI CEOサムアルトマン、結婚
 	- https://x.com/kai_postv/status/1745440329204142447?s=20
 - AMIE: A research AI system for diagnostic medical reasoning and conversations
-	- 
-	- Googleから、いりょうしんだｎ
+	- https://blog.research.google/2024/01/amie-research-ai-system-for-diagnostic_12.html
+	- Googleから、医療診断分野に特化した、AIリサーチシステムAMIE
+	- Today, we shared our latest preprint introducing AMIE (Articulate Medical Intelligence Explorer), a large language model (LLM) based research AI system for diagnostic medical reasoning and conversations.
+- Moore-AnimateAnyone test
+	- https://x.com/toyxyz3/status/1745846460678291702?s=20
+- 
 
 ## 1/8
 
@@ -4129,19 +4133,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://qiita.com/ot12/items/ba74fa150e160d94a71f
 	- やっぱりNoteableは最強の件、来年のデータサイエンス特論のネタにしよう！
 - A Mechanistic Interpretability Analysis of Grokking
-	- 学習が進むと突然、未見のデータに一般化するように学習する現象のメカニズムの解明だそうだ
-	- https://www.alignmentforum.org/posts/N6WM6hs7RQMKDhYjB/a-mechanistic-interpretability-analysis-of-grokking
-- カモシカ-LoRaから、OpenCALM 7B, 3Bをファインチューニングして作成したアダプタを公開
-	- https://twitter.com/kam0shika/status/1663906516276051969?s=20
-- Transformer.js、ブラウザやnodejsからhuggingfaceのtransformerが使える
-	- https://github.com/xenova/transformers.js
-- 特異値分解で30%も
+	- 学習
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA3MzY4MTAsLTE4NTYzNDM1MTMsLT
-EwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3
-MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMz
-I3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywx
-NDg2NDEzOTg4LDE3MzEzMDkzMzAsLTExMjc5ODYzNDksLTg4Mj
-kwMTY0MiwtMTE3NzMwMDYzMiwtMjA2MzY5NzkyMiwxMjk1NzQy
-NzM5LC0xMzk2MjIwNjQ3XX0=
+eyJoaXN0b3J5IjpbOTc2NjA5MTg1LC0xODU2MzQzNTEzLC0xMD
+gzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIz
+NDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNy
+wtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4
+NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MD
+E2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0Mjcz
+OSwtMTM5NjIyMDY0N119
 -->
