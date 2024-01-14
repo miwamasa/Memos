@@ -100,6 +100,12 @@
 	- Today, we shared our latest preprint introducing AMIE (Articulate Medical Intelligence Explorer), a large language model (LLM) based research AI system for diagnostic medical reasoning and conversations.
 - Moore-AnimateAnyone test
 	- https://x.com/toyxyz3/status/1745846460678291702?s=20
+- nitky/Superswallow-70b-v0.1
+	- https://huggingface.co/nitky/Superswallow-70b-v0.1
+	- なんかすごい性能があるらしいマージモデル
+- マルチモーダルなGPT-4とLLaVAによる高度な画像理解と自然言語対話の統合
+	- https://ai-scholar.tech/articles/computer-vision/LLaVA
+	- また、視覚と言語の理解力が高い言語モデル「LLaVA」も紹介。
 - 
 
 ## 1/8
@@ -4128,18 +4134,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://news.mit.edu/2023/gilbert-strang-made-linear-algebra-fun-0531
 - GPT4ALLをつかって、GPUなしで、ローカルPCでLLMを動かす
 	- https://gpt4all.io/index.html
-	- A free-to-use, locally running, privacy-aware chatbot. **No GPU or internet required.**
-- ChatGPTプラグイン「Notable」だけでデータ分析コンペに挑戦してみた話
-	- https://qiita.com/ot12/items/ba74fa150e160d94a71f
-	- やっぱりNoteableは最強の件、来年のデータサイエンス特論のネタにしよう！
-- A Mechanistic Interpretability Analysis of Grokking
-	- 学習
+	- A free-to-use, locally running, privacy-aw
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2NjA5MTg1LC0xODU2MzQzNTEzLC0xMD
-gzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIz
-NDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNy
-wtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4
-NjQxMzk4OCwxNzMxMzA5MzMwLC0xMTI3OTg2MzQ5LC04ODI5MD
-E2NDIsLTExNzczMDA2MzIsLTIwNjM2OTc5MjIsMTI5NTc0Mjcz
-OSwtMTM5NjIyMDY0N119
+eyJoaXN0b3J5IjpbLTMyNTIzNTcwOCwtMTg1NjM0MzUxMywtMT
+A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
+MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
+csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
+ODY0MTM5ODgsMTczMTMwOTMzMCwtMTEyNzk4NjM0OSwtODgyOT
+AxNjQyLC0xMTc3MzAwNjMyLC0yMDYzNjk3OTIyLDEyOTU3NDI3
+MzksLTEzOTYyMjA2NDddfQ==
 -->
