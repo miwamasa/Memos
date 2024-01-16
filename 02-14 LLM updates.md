@@ -5,7 +5,6 @@
 
 Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデル。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。小規模言語モデルではTinyLlamaってのもありました、Macでも快適に動く模様。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）という報告も。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？Duolingoのリストラ、そういう気もするが、googleのAMIEのように、そもそも人材不足の分野での専門家AIの登場という側面もある。GoogleのDynamicPlanって、あれどこかで見たような気もするが、データサイエンティストはリストラされる側になるのか、それとも専門家AIとしてだれでも使えるようになるのか？
 
-
 - Lookahead: An Inference Acceleration Framework for Large Language Model with Lossless Generation Accuracy
 	- https://arxiv.org/abs/2312.12728
 	- LLMの出力品質を落とさずに推論速度をスピードアップさせるための手法
@@ -4129,11 +4128,11 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - Berry: A code for the differentiation of Bloch wavefunctions from DFT calculations
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
-c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
-LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
-YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
-NjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2Mj
-IxNCw5OTIyMTA1MjcsMTQ4NjQxMzk4OCwxNzMxMzA5MzMwLC0x
-MTI3OTg2MzQ5XX0=
+eyJoaXN0b3J5IjpbNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MD
+E1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEs
+LTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1Mz
+YzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2
+NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNz
+gsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTcz
+MTMwOTMzMF19
 -->
