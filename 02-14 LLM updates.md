@@ -28,7 +28,8 @@
 - nanoGPT楽しい。源氏物語全文で学習させたら何か語りだした🤗 いずれの紛れありけるかな
 	- https://github.com/karpathy/nanoGPT
 	- The simplest, fastest repository for training/finetuning medium-sized GPTs
-- 
+- 企業はなぜ東京に集中するのか──経済地理学の視点から（日本労働研究雑誌）
+	- https://www.jil.go.jp/institute/zassi/backnumber/2020/05/pdf/029-039.pdf
 
 ## 1/15
 
@@ -4118,15 +4119,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - Google Colabで、ローカルランタイムでの実行ができるようになった。。
 	- https://research.google.com/colaboratory/local-runtimes.html
 - Transcendental Style in Film(映画における超越的様式)
-	- https://twitter.com/routemopsy/status/1663396967417024513?s=20
-	- ホウ・シャオシェンがタルコフスキー領域にあるのは解せない。
-- 「 Google Colab で Rinna-3.6B のLoRAファインチューニングを試す」
+	- https://twitter.com/routemopsy/sta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc2NDU4NzIsNzQ0ODAyNjYzLDU2ND
-ExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0Nzcw
-Myw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NT
-YzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4
-MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC
-0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5
-MjIxMDUyN119
+eyJoaXN0b3J5IjpbLTY1NDAzNTAyNyw3NDQ4MDI2NjMsNTY0MT
+E3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAz
+LDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1Nj
+M0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgx
+MiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLT
+E0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTky
+MjEwNTI3XX0=
 -->
