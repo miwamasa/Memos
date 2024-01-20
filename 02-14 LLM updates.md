@@ -15,6 +15,11 @@
 - baobab-trees/wikipedia-human-retrieval-ja
 	- https://huggingface.co/datasets/baobab-trees/wikipedia-human-retrieval-ja
 	- 短い質問文に対してWikipediaに書いてある情報のみで回答させる、というのを1000問前後実施し、人手retrieval付きQAデータセットを作りました。途中の過程や引用なども記録しているので、人間による検索のシミュレーションをデータから検討したりできると思いま
+- Copilot for Office 365
+	- https://x.com/usutaku_com/status/1747119405702795383?s=20
+-  Query Pipeline over Pandas DataFrames
+	- https://docs.llamaindex.ai/en/stable/examples/pipeline/query_pipeline_pandas.html
+	- This is a simple example that builds a query pipeline that can perform structured operations over a Pandas DataFrame to satisfy a user query, using LLMs to infer the set of operations.
 - 
 
 ## 1/15
@@ -4116,20 +4121,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- Macbookでも簡単にfinetuneできるようになった
 	- https://lightning.ai/pages/blog/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset/
 - 「ChatGPTの仕組みと社会への影響」、京大黒橋先生のわかりやすいといわれる講義、１９分でさくっと
-	- https://www.youtube.com/watch?v=aKqIPlDyWhs
-- 「ChatGPTとNoteableによる科学技術情報分析」
-	- https://speakerdeck.com/hayataka88/chatgpttonoteableniyoruke-xue-ji-shu-qing-bao-fen-xi
-	- 噂のNoteable。ついに、お話しするだけで、EDAから回帰まで、、
-- Let's Verify Step by Step by OpenAI
-	- LLMが苦手な計算問題をとかせるために、process supervisionというのをどうにゅ
-	- 「プロセス監視報酬モデル(PRM)」というらしい。
-	- https://cdn.openai.com/improving-mathematical-reasoning-with-process-sup
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4ODUzOTQxLDc0NDgwMjY2Myw1NjQxMT
-c3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMs
-NzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2Mz
-QzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEy
-LC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMT
-QwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIy
-MTA1MjddfQ==
+eyJoaXN0b3J5IjpbMTMzOTQ4NTUyMiw3NDQ4MDI2NjMsNTY0MT
+E3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAz
+LDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1Nj
+M0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgx
+MiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLT
+E0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTky
+MjEwNTI3XX0=
 -->
