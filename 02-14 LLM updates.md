@@ -1,6 +1,10 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+## 1/21
+
+- 
+
 ## 1/15
 
 Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデル。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。小規模言語モデルではTinyLlamaってのもありました、Macでも快適に動く模様。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）という報告も。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？Duolingoのリストラ、そういう気もするが、googleのAMIEのように、そもそも人材不足の分野での専門家AIの登場という側面もある。GoogleのDynamicPlanって、あれどこかで見たような気もするが、データサイエンティストはリストラされる側になるのか、それとも専門家AIとしてだれでも使えるようになるのか？
@@ -4125,14 +4129,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - Rinna-3.6B を llama.cpp で CPU 動作のメモ
 	- https://zenn.dev/syoyo/articles/946c17666e10fb
 	- CPUだけでも十分動くのか。。。
-- Berry: A code for the differentiation of Bloch wavefunctions from DFT calculations
-	
+- Berry: A code for the differentiation of Bloch wavefunctions from DFT ca
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MD
-E1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEs
-LTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1Mz
-YzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2
-NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNz
-gsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0ODY0MTM5ODgsMTcz
-MTMwOTMzMF19
+eyJoaXN0b3J5IjpbLTI1MDQ1MDA2NSw1NjQxMTc3NjUsMTc4OT
+MyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3
+LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMD
+gzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIz
+NDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNy
+wtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4
+NjQxMzk4OF19
 -->
