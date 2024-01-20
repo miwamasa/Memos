@@ -4,7 +4,11 @@
 ## 1/21
 
 - HachiMLさんが公開されているyouri-2x7b_v0.2のgguf
-	- 
+	- https://huggingface.co/mmnga/HachiML-youri-2x7b_v0.2-gguf
+	- This model is a Mixture of Experts (MoE) merger of the following two models:
+	- [rinna/youri-7b-instruction](https://huggingface.co/rinna/youri-7b-instruction)
+	- [rinna/youri-7b-chat](https://huggingface.co/rinna/youri-7b-chat)
+- 
 
 ## 1/15
 
@@ -4122,21 +4126,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 局所詳細釣り合い、ゆらぎの定理、Jarzynski等式と拡散モデルの関係
 	- https://zenn.dev/xiangze/articles/6e8ce8b8d43d08
 	- そういうものらしい
-- rinna/japanese-gpt-neox-3.6b について、ベース、SFT、RLHFで動かした例 on colab
-	- https://note.com/npaka/n/ne4a38239f420
-	- ベースなら無料枠で動く？
-- じゃらんでAIチャットサービス開始
-	- https://note.com/npaka/n/ne4a38239f420
-- Rinna-3.6B を llama.cpp で CPU 動作のメモ
-	- https://zenn.dev/syoyo/articles/946c17666e10fb
-	- CPUだけでも十分動くのか。。。
-- Berry: A code for the different
+- rinna/japanese-gpt-neox-3.6b
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzQzNDY3OCw1NjQxMTc3NjUsMTc4OT
-MyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3
-LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMD
-gzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIz
-NDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNy
-wtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4
-NjQxMzk4OF19
+eyJoaXN0b3J5IjpbLTEwMzY3NjM5NDAsNTY0MTE3NzY1LDE3OD
+kzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQz
+NywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMT
+A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
+MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
+csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
+ODY0MTM5ODhdfQ==
 -->
