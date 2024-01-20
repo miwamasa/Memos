@@ -12,7 +12,8 @@
 	- https://github.com/kotoba-tech/kotomamba
 	- Transformerを上回るモデルとして注目されているMamba, State Spaceモデルの
 	- Kotoba Techでは130m, 1.4B, 2.8B のモデルの学習をすでに行っています
-- 
+- baobab-trees/wikipedia-human-retrieval-ja
+	- https://huggingface.co/datasets/baobab-trees/wikipedia-human-retrieval-ja
 	- 短い質問文に対してWikipediaに書いてある情報のみで回答させる、というのを1000問前後実施し、人手retrieval付きQAデータセットを作りました。途中の過程や引用なども記録しているので、人間による検索のシミュレーションをデータから検討したりできると思いま
 
 ## 1/15
@@ -4121,16 +4122,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - Let's Verify Step by Step by OpenAI
 	- LLMが苦手な計算問題をとかせるために、process supervisionというのをどうにゅ
 	- 「プロセス監視報酬モデル(PRM)」というらしい。
-	- https://cdn.openai.com/improving-mathematical-reasoning-with-process-supervision/Lets_Verify_Step_by_Step.pdf
-- NIIのオープンハウス(6/1-6/3)、ChatGPTネタ大杉。
-	- https://www.nii.ac.jp/event/openhouse/2023/
-- 
+	- https://cdn.openai.com/improving-mathematical-reasoning-with-process-supervis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjU0NDY5OSw1NjQxMTc3NjUsMTc4OT
-MyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3
-LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMD
-gzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIz
-NDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNy
-wtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4
-NjQxMzk4OF19
+eyJoaXN0b3J5IjpbNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5Mz
+I2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0Mzcs
+MTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwOD
+M4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0
+NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC
+0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2
+NDEzOTg4XX0=
 -->
