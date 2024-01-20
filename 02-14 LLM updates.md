@@ -3,7 +3,8 @@
 
 ## 1/21
 
-- 
+- HachiMLさんが公開されているyouri-2x7b_v0.2のgguf
+	- 
 
 ## 1/15
 
@@ -4129,9 +4130,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - Rinna-3.6B を llama.cpp で CPU 動作のメモ
 	- https://zenn.dev/syoyo/articles/946c17666e10fb
 	- CPUだけでも十分動くのか。。。
-- Berry: A code for the differentiation of Bloch wavefunctions from DFT ca
+- Berry: A code for the different
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDQ1MDA2NSw1NjQxMTc3NjUsMTc4OT
+eyJoaXN0b3J5IjpbMTM5MzQzNDY3OCw1NjQxMTc3NjUsMTc4OT
 MyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3
 LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMD
 gzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIz
