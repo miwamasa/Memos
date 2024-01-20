@@ -55,7 +55,9 @@
 - Blending, Merging, and Stacking multiple smaller LLMs make them as performant as Larger LLMs
 	- https://x.com/bindureddy/status/1746739742350450811?s=20
 	- Blending、Merging、Stackingなどの技術を今後30-70bモデルに適用していき、今後2-3ヶ月以内にGPT4に近い戻るが得られるでしょう
-- (RAG)のひょうかしひょう
+- (RAG)の評価指標マップ
+	- https://x.com/helloiamleonie/status/1747252654047142351?s=20
+	- 
 
 ## 1/15
 
@@ -4119,14 +4121,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- 問題ないという人もいるが、問題ないならそもそも除外しても同じなのでは？
 	- https://twitter.com/kenken26679105/status/1667288891949453312?s=20
 - JSAI2023、人の位置情報の時系列をトークン列に置き換えてGPT-2で学習、人の移動軌道を生成する研究
-	- https://confit.atlas.jp/guide/event/jsai2023/subject/2H5-OS-8a-02/tables?cryptoId=
-- ローカルでlangchain経由で簡単につかえてそこそこ日本語も
+	- https://confit.atlas.jp/guide/event/jsai2023/subject/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTA4MTY1NSwtOTc1NTY4MjIzLC0xMD
-EyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYx
-NSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OT
-A5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgw
-NTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIzNDYzLD
-I4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0
-ODc2MDA3OF19
+eyJoaXN0b3J5IjpbNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMT
+I2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1
+LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MD
+k0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwODM4ODA1
+MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMj
+g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
+NzYwMDc4XX0=
 -->
