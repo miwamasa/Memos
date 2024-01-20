@@ -17,7 +17,10 @@
 	- 短い質問文に対してWikipediaに書いてある情報のみで回答させる、というのを1000問前後実施し、人手retrieval付きQAデータセットを作りました。途中の過程や引用なども記録しているので、人間による検索のシミュレーションをデータから検討したりできると思いま
 - Copilot for Office 365
 	- https://x.com/usutaku_com/status/1747119405702795383?s=20
--  Query Pipeline over Pandas DataFrames
+-  how to build advanced QA over Tabular Data
+	- llamaindexより、
+	- https://x.com/llama_index/status/1747289513934864493?s=20
+	- Query Pipeline over Pandas DataFrames
 	- https://docs.llamaindex.ai/en/stable/examples/pipeline/query_pipeline_pandas.html
 	- This is a simple example that builds a query pipeline that can perform structured operations over a Pandas DataFrame to satisfy a user query, using LLMs to infer the set of operations.
 - 
@@ -4119,11 +4122,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://arxiv.org/pdf/2305.17926.pdf
 -  How To Finetune GPT Like Large Language Models on a Custom Dataset
 	- Macbookでも簡単にfinetuneできるようになった
-	- https://lightning.ai/pages/blog/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset/
-- 「ChatGPTの仕組みと社会への影響」、京大黒橋先生のわかりやすいといわれる講義、１９分でさくっと
-	- h
+	- https://lightning.ai/pages/blog/ho
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTQ4NTUyMiw3NDQ4MDI2NjMsNTY0MT
+eyJoaXN0b3J5IjpbMTE1NjQxMjkxMiw3NDQ4MDI2NjMsNTY0MT
 E3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAz
 LDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1Nj
 M0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgx
