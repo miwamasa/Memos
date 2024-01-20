@@ -12,6 +12,8 @@
 	- https://github.com/kotoba-tech/kotomamba
 	- Transformerを上回るモデルとして注目されているMamba, State Spaceモデルの
 	- Kotoba Techでは130m, 1.4B, 2.8B のモデルの学習をすでに行っています
+- 
+	- 短い質問文に対してWikipediaに書いてある情報のみで回答させる、というのを1000問前後実施し、人手retrieval付きQAデータセットを作りました。途中の過程や引用なども記録しているので、人間による検索のシミュレーションをデータから検討したりできると思いま
 
 ## 1/15
 
@@ -4122,16 +4124,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://cdn.openai.com/improving-mathematical-reasoning-with-process-supervision/Lets_Verify_Step_by_Step.pdf
 - NIIのオープンハウス(6/1-6/3)、ChatGPTネタ大杉。
 	- https://www.nii.ac.jp/event/openhouse/2023/
-- 因果推論のコースマテリアル
-	- https://arxiv.org/abs/2305.18793
-- Rinnaすごいかも。japanese-gpt-neox-3.6b-instruction-ppo
-	- https://huggingface.co/rinna/japane
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQyMjUwNjUsNTY0MTE3NzY1LDE3OD
-kzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQz
-NywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMT
-A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
-MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
-csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
-ODY0MTM5ODhdfQ==
+eyJoaXN0b3J5IjpbMTcwNjU0NDY5OSw1NjQxMTc3NjUsMTc4OT
+MyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3
+LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMD
+gzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIz
+NDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNy
+wtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIyMTA1MjcsMTQ4
+NjQxMzk4OF19
 -->
