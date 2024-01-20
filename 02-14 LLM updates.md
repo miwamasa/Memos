@@ -52,7 +52,10 @@
 	- https://huggingface.co/spaces/DamarJati/Animagine-XL-3.0
 	- 1月10日、Cagliostro Research Labが、**拡散モデルベースのText-to-Imageの画像生成モデル「Animagine XL 3.0」**を公開しました。
 	- https://weel.co.jp/media/animagine-xl-3-0
-- 
+- Blending, Merging, and Stacking multiple smaller LLMs make them as performant as Larger LLMs
+	- https://x.com/bindureddy/status/1746739742350450811?s=20
+	- Blending、Merging、Stackingなどの技術を今後30-70bモデルに適用していき、今後2-3ヶ月以内にGPT4に近い戻るが得られるでしょう
+- (RAG)のひょうかしひょう
 
 ## 1/15
 
@@ -4117,18 +4120,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://twitter.com/kenken26679105/status/1667288891949453312?s=20
 - JSAI2023、人の位置情報の時系列をトークン列に置き換えてGPT-2で学習、人の移動軌道を生成する研究
 	- https://confit.atlas.jp/guide/event/jsai2023/subject/2H5-OS-8a-02/tables?cryptoId=
-- ローカルでlangchain経由で簡単につかえてそこそこ日本語も喋れるのwizard-vicuna-13 q8_0
-	- https://twitter.com/if_004/status/1667474091564204033?s=20
-- ローカルLLMのまとめ
-	- https://note.com/npaka/n/nd95fba328b65
-- 表形式データの行を1文と見て，差分プライベートに言語モデルを学習させ，そこから合成データを生成する手法を提案．複数のデータセットで既存のグラフィカルモデルベースのものと同等の性能
-	- https://arxiv.
+- ローカルでlangchain経由で簡単につかえてそこそこ日本語も
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ0NDE0ODcsLTk3NTU2ODIyMywtMT
-AxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2
-MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNj
-kwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMTA4Mzg4
-MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcyMzQ2My
-wyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIw
-NDg3NjAwNzhdfQ==
+eyJoaXN0b3J5IjpbMTQzOTA4MTY1NSwtOTc1NTY4MjIzLC0xMD
+EyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYx
+NSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OT
+A5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgw
+NTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIzNDYzLD
+I4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0
+ODc2MDA3OF19
 -->
