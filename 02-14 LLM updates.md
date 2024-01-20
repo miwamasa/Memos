@@ -30,6 +30,8 @@
 	- The simplest, fastest repository for training/finetuning medium-sized GPTs
 - 企業はなぜ東京に集中するのか──経済地理学の視点から（日本労働研究雑誌）
 	- https://www.jil.go.jp/institute/zassi/backnumber/2020/05/pdf/029-039.pdf
+- 東京発・AIドリームチーム「http://Sakana.ai」が45億円調達　元Googleトップ研究者らが設立　AI業界の著名人や日本の大手IT企業も出資
+	- 
 
 ## 1/15
 
@@ -4117,15 +4119,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - LLM自身がPythonによるツール作成？Large Language Models as Tool Makers
 	- https://arxiv.org/abs/2305.17126
 - Google Colabで、ローカルランタイムでの実行ができるようになった。。
-	- https://research.google.com/colaboratory/local-runtimes.html
-- Transcendental Style in Film(映画における超越的様式)
-	- https://twitter.com/routemopsy/sta
+	- https://research.google.com/colaboratory/local-runtimes.h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDAzNTAyNyw3NDQ4MDI2NjMsNTY0MT
-E3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAz
-LDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1Nj
-M0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgx
-MiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLT
-E0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTky
-MjEwNTI3XX0=
+eyJoaXN0b3J5IjpbNDc5NDkwMTQ1LDc0NDgwMjY2Myw1NjQxMT
+c3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMs
+NzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2Mz
+QzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEy
+LC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMT
+QwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIy
+MTA1MjddfQ==
 -->
