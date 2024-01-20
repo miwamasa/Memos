@@ -10,7 +10,8 @@
 	- [rinna/youri-7b-chat](https://huggingface.co/rinna/youri-7b-chat)
 - mambaを分散学習するためのライブラリ
 	- https://github.com/kotoba-tech/kotomamba
-	- 
+	- Transformerを上回るモデルとして注目されているMamba, State Spaceモデルの
+	- Kotoba Techでは130m, 1.4B, 2.8B のモデルの学習をすでに行っています
 
 ## 1/15
 
@@ -4124,15 +4125,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 因果推論のコースマテリアル
 	- https://arxiv.org/abs/2305.18793
 - Rinnaすごいかも。japanese-gpt-neox-3.6b-instruction-ppo
-	- https://huggingface.co/rinna/japanese-gpt-neox-3.6b-instruction-ppo
-- 局所詳細釣り合い、ゆらぎの定理、Jarzynski等式と拡散モデルの関係
-	- https://zenn.dev/xiangze/a
+	- https://huggingface.co/rinna/japane
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxMjgwNzgzLDU2NDExNzc2NSwxNzg5Mz
-I2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0Mzcs
-MTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwOD
-M4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0
-NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC
-0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2
-NDEzOTg4XX0=
+eyJoaXN0b3J5IjpbLTIwNTQyMjUwNjUsNTY0MTE3NzY1LDE3OD
+kzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQz
+NywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMT
+A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
+MzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMj
+csLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTkyMjEwNTI3LDE0
+ODY0MTM5ODhdfQ==
 -->
