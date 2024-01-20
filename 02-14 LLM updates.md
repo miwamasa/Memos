@@ -34,7 +34,13 @@
 	- @tkasasagi さんも参加かー
 	- https://x.com/tkasasagi/status/1747267875021406329?s=20
 - xverse/XVERSE-13B-256K
-	- 
+	- https://huggingface.co/xverse/XVERSE-13B-256K
+	- ローカルLLMの長文対応がついに256K（約25万字）
+	- XVERSEはABF+継続的pre-trainingとNTK+SFT技術を用いてプロセスを最適化。これにより、モデルのシーケンス長を大幅に拡張することが可能となった
+- Open AIは「Collective Alignment team」を結成
+	- https://openai.com/blog/democratic-inputs-to-ai-grant-program-update
+	- AIに多種多様な世界中の公的な意見を反映させるシステムの開発を担う。 以前AIへの民主的インプットのアイデアを募集していたが、1000の応募者があり以下画像のように10のチームのアイディアが選抜された
+- 
 
 ## 1/15
 
@@ -4112,21 +4118,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 相も変わらず、4bit化とか、Rinna-3.6BのLoRaとか、ローカルでLLMを動かす、作る可能性が広がっている。まあ現状のLLMって実は疎なのではという特異値分解の結果も。じゃらんでChatGPT活用サービス試行開始。DeepLearningAIより、LangChainのショートコース無料開始、作者登場で豪華なことに。DeepAI OpenAIのLLMの苦手な計算問題での、「プロセス監視報酬モデル(PRM)」による改良。数値シミュレーションの世界でもLLM活用が。OpenAIのsecurity Portal発表。Grokking「過学習してしばらく経ってから、急に汎化誤差が下がり始める（正解率が上がり始める）」という現象への手がかりも。。言語学会からもLLMに対する元気のよい発信や出版が多数。ドイツ連邦データ保護当局（BfDI）の生成AIについての声明、これは読むべきか。日本のAI戦略会議の議論との温度差はいかんともしがたい。新聞記事の本論の前段の記事間違えを鬼の首を取ったように叩く、狭量な日本のDSメンタリティも興味深い。この政府にしてこの国民アリという感じか、逆か。
 
 - DeepLearningAIより、LangChainのショートコースが、無料
-	- 作者自身の登場で、豪華な構成に、
-	-  LangChain for LLM Application Development
-	- https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/
-- biomedGPT: マルチモーダルな医療用のGPT
-	- https://arxiv.org/abs/2305.17100
-- AI戦略会議による、暫定的論点整理、日本はノーローなのか？これでいいの？
-	- https://www8.cao.go.jp/cstp/ai/index.html
-- LLM自身がPythonによるツール作成？Large Language Models as Tool Makers
-	- https://arxiv.org/abs/2305.17
+	- 作者自身の登場で、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDc1MzYwLC0xMDEyNjA2NjM2LDc0ND
-gwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYz
-LDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2Mz
-I2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAy
-MywxMDYzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMj
-E0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3
-OTY2MjIxNF19
+eyJoaXN0b3J5IjpbLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3ND
+Q4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2
+MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4Nj
+MyNjY4NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIw
+MjMsMTA2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLT
+IxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEw
+Nzk2NjIyMTRdfQ==
 -->
