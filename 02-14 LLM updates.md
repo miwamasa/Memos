@@ -33,6 +33,9 @@
 - 東京発・AIドリームチーム「http://Sakana.ai」が45億円調達　元Googleトップ研究者らが設立　AI業界の著名人や日本の大手IT企業も出資
 	- @tkasasagi さんも参加かー
 	- https://x.com/tkasasagi/status/1747267875021406329?s=20
+	- 「サカナAI」日米で45億円調達　スイミーの発想で巨大ITに挑む
+		- 同社は対話型AIの基盤技術である大規模言語モデル（LLM）の開発で、他社が開発した小さなAIをいくつもつないで、巨大AIに匹敵する能力をもつ仮想のAIモデルを構想。この新技術はエージェントモデルと呼ばれ、開発コストを劇的に下げる可能性があり、巨額な資金が求められるAI開発競争に一石を投じる狙いだ。
+		- 
 - xverse/XVERSE-13B-256K
 	- https://huggingface.co/xverse/XVERSE-13B-256K
 	- ローカルLLMの長文対応がついに256K（約25万字）
@@ -45,7 +48,8 @@
 	- 賃貸データのスクレイピングであれば，こちらのページが参考になりました
 - WikiChatの話
 	- https://arxiv.org/abs/2305.14292
-	- 
+	- WikiChat はファクトチェック及びコンテキストに，RAG 等でよく利用される Wiki を利用するライブラリで，高い factfulness を備えるとしている
+- 
 
 ## 1/15
 
@@ -4120,9 +4124,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression
 	- https://arxiv.org/abs/2306.03078
 ## 6/5
-相も変わらず、4bit化とか、Rinna-3.6BのLoRaとか、ローカルでLLMを動かす、作る可能性が広がっている。まあ現状のLLMって実は疎なのではという特異値分解の結果も。じゃらんでChatGPT活用サービス試行開始。DeepLearningAIより、LangChainのショートコース無料開始、作者登場で豪華なことに。DeepAI OpenAIのLLMの苦手な計算問題での、「プロセス監視報酬モデル(PRM)」による改良。数値シミュレーションの世界でもLLM活用が。OpenAIのsecurity Portal発表。Grokking「過学習してしばらく経ってから、急に汎化誤差が下がり始める（正解率が上がり始める）」という現象への手がかりも。。言語学会からもLLMに対
+相も変わらず、4bit化とか、Rinna-3.6BのLoRaとか、ローカルでLLMを動かす、作る可能性が広がってい
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTc4ODE0MSwtOTc1NTY4MjIzLC0xMD
+eyJoaXN0b3J5IjpbLTE4OTMxODE5NiwtOTc1NTY4MjIzLC0xMD
 EyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYx
 NSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OT
 A5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgw
