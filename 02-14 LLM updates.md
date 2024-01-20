@@ -41,6 +41,11 @@
 	- https://openai.com/blog/democratic-inputs-to-ai-grant-program-update
 	- AIに多種多様な世界中の公的な意見を反映させるシステムの開発を担う。 以前AIへの民主的インプットのアイデアを募集していたが、1000の応募者があり以下画像のように10のチームのアイディアが選抜された
 -  再考: お買い得物件を機械学習で見つける方法
+	- https://speakerdeck.com/ktgrstsh/rethink-method-to-find-cheap-rental-houses-by-machine-learning
+	- 賃貸データのスクレイピングであれば，こちらのページが参考になりました
+- WikiChatの話
+	- https://arxiv.org/abs/2305.14292
+	- 
 
 ## 1/15
 
@@ -4115,11 +4120,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression
 	- https://arxiv.org/abs/2306.03078
 ## 6/5
-相も変わらず、4bit化とか、Rinna-3.6BのLoRaとか、ローカルでLLMを動かす、作る可能性が広がっている。まあ現状のLLMって実は疎なのではという特異値分解の結果も。じゃらんでChatGPT活用サービス試行開始。DeepLearningAIより、LangChainのショートコース無料開始、作者登場で豪華なことに。DeepAI OpenAIのLLMの苦手な計算問題での、「プロセス監視報酬モデル(PRM)」による改良。数値シミュレーションの世界でもLLM活用が。OpenAIのsecurity Portal発表。Grokking「過学習してしばらく経ってから、急に汎化誤差が下がり始める（正解率が上がり始める）」という現象への手がかりも。。言語学会からもLLMに対する元気のよい発信や出版が多数。ドイツ連邦データ保護当局（BfDI）の生成AIについての声明、これは読むべきか。日本のAI戦略会議の議論との温度差はいかんともしがたい。新聞記事の本論の前段の記事間違えを鬼の首を取ったように叩く、狭量な日本のDSメンタリティも興味深い。この政府にしてこの国民アリという感じか、逆か。
-
-- DeepLearningAIより、LangChai
+相も変わらず、4bit化とか、Rinna-3.6BのLoRaとか、ローカルでLLMを動かす、作る可能性が広がっている。まあ現状のLLMって実は疎なのではという特異値分解の結果も。じゃらんでChatGPT活用サービス試行開始。DeepLearningAIより、LangChainのショートコース無料開始、作者登場で豪華なことに。DeepAI OpenAIのLLMの苦手な計算問題での、「プロセス監視報酬モデル(PRM)」による改良。数値シミュレーションの世界でもLLM活用が。OpenAIのsecurity Portal発表。Grokking「過学習してしばらく経ってから、急に汎化誤差が下がり始める（正解率が上がり始める）」という現象への手がかりも。。言語学会からもLLMに対
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDc5NjcwOCwtOTc1NTY4MjIzLC0xMD
+eyJoaXN0b3J5IjpbLTI0OTc4ODE0MSwtOTc1NTY4MjIzLC0xMD
 EyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYx
 NSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OT
 A5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgw
