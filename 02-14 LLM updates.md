@@ -33,7 +33,8 @@
 - 東京発・AIドリームチーム「http://Sakana.ai」が45億円調達　元Googleトップ研究者らが設立　AI業界の著名人や日本の大手IT企業も出資
 	- @tkasasagi さんも参加かー
 	- https://x.com/tkasasagi/status/1747267875021406329?s=20
-- 
+- xverse/XVERSE-13B-256K
+	- 
 
 ## 1/15
 
@@ -4119,14 +4120,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - AI戦略会議による、暫定的論点整理、日本はノーローなのか？これでいいの？
 	- https://www8.cao.go.jp/cstp/ai/index.html
 - LLM自身がPythonによるツール作成？Large Language Models as Tool Makers
-	- https://arxiv.org/abs/2305.17126
-- Google Colabで、ローカルラ
+	- https://arxiv.org/abs/2305.17
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2ND
-ExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0Nzcw
-Myw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NT
-YzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4
-MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC
-0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5
-MjIxMDUyN119
+eyJoaXN0b3J5IjpbMjA4NDc1MzYwLC0xMDEyNjA2NjM2LDc0ND
+gwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYz
+LDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2Mz
+I2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAy
+MywxMDYzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMj
+E0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3
+OTY2MjIxNF19
 -->
