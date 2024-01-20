@@ -23,6 +23,11 @@
 	- Query Pipeline over Pandas DataFrames
 	- https://docs.llamaindex.ai/en/stable/examples/pipeline/query_pipeline_pandas.html
 	- This is a simple example that builds a query pipeline that can perform structured operations over a Pandas DataFrame to satisfy a user query, using LLMs to infer the set of operations.
+	-  Query Pipeline for Advanced Text-to-SQL
+	- https://docs.llamaindex.ai/en/stable/examples/pipeline/query_pipeline_sql.html
+- nanoGPT楽しい。源氏物語全文で学習させたら何か語りだした🤗 いずれの紛れありけるかな
+	- https://github.com/karpathy/nanoGPT
+	- The simplest, fastest repository for training/finetuning medium-sized GPTs
 - 
 
 ## 1/15
@@ -4116,19 +4121,12 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://twitter.com/routemopsy/status/1663396967417024513?s=20
 	- ホウ・シャオシェンがタルコフスキー領域にあるのは解せない。
 - 「 Google Colab で Rinna-3.6B のLoRAファインチューニングを試す」
-	-  なんと14Gでできるなら、無料枠？
-	- https://note.com/npaka/n/nc387b639e50e
-- Large Language Models are not Fair Evaluators
-	- https://arxiv.org/pdf/2305.17926.pdf
--  How To Finetune GPT Like Large Language Models on a Custom Dataset
-	- Macbookでも簡単にfinetuneできるようになった
-	- https://lightning.ai/pages/blog/ho
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjQxMjkxMiw3NDQ4MDI2NjMsNTY0MT
-E3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAz
-LDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1Nj
-M0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgx
-MiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLT
-E0MDM3NDAzMjcsLTIwNDg3NjAwNzgsLTEwNzk2NjIyMTQsOTky
-MjEwNTI3XX0=
+eyJoaXN0b3J5IjpbLTEzNjc2NDU4NzIsNzQ0ODAyNjYzLDU2ND
+ExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0Nzcw
+Myw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NT
+YzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4
+MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC
+0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5
+MjIxMDUyN119
 -->
