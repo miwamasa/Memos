@@ -15,6 +15,7 @@
 - baobab-trees/wikipedia-human-retrieval-ja
 	- https://huggingface.co/datasets/baobab-trees/wikipedia-human-retrieval-ja
 	- 短い質問文に対してWikipediaに書いてある情報のみで回答させる、というのを1000問前後実施し、人手retrieval付きQAデータセットを作りました。途中の過程や引用なども記録しているので、人間による検索のシミュレーションをデータから検討したりできると思いま
+- 
 
 ## 1/15
 
@@ -4122,13 +4123,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - Let's Verify Step by Step by OpenAI
 	- LLMが苦手な計算問題をとかせるために、process supervisionというのをどうにゅ
 	- 「プロセス監視報酬モデル(PRM)」というらしい。
-	- https://cdn.openai.com/improving-mathematical-reasoning-with-process-supervis
+	- https://cdn.openai.com/improving-mathematical-reasoning-with-process-sup
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5Mz
-I2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0Mzcs
-MTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwOD
-M4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0
-NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC
-0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5MjIxMDUyNywxNDg2
-NDEzOTg4XX0=
+eyJoaXN0b3J5IjpbNjA4ODUzOTQxLDc0NDgwMjY2Myw1NjQxMT
+c3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMs
+NzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2Mz
+QzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEy
+LC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMT
+QwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIy
+MTA1MjddfQ==
 -->
