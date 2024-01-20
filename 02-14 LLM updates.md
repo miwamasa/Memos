@@ -49,7 +49,10 @@
 	- https://arxiv.org/abs/2305.14292
 	- WikiChat はファクトチェック及びコンテキストに，RAG 等でよく利用される Wiki を利用するライブラリで，高い factfulness を備えるとしている
 - Animagine XL 3.0 、Hugging Faceのトレンドで1位を達成
-	- 
+	- https://huggingface.co/spaces/DamarJati/Animagine-XL-3.0
+	- 1月10日、Cagliostro Research Labが、**拡散モデルベースのText-to-Imageの画像生成モデル「Animagine XL 3.0」**を公開しました。
+	- https://weel.co.jp/media/animagine-xl-3-0
+- 
 
 ## 1/15
 
@@ -4119,18 +4122,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - ローカルLLMのまとめ
 	- https://note.com/npaka/n/nd95fba328b65
 - 表形式データの行を1文と見て，差分プライベートに言語モデルを学習させ，そこから合成データを生成する手法を提案．複数のデータセットで既存のグラフィカルモデルベースのものと同等の性能
-	- https://arxiv.org/abs/2306.04803
-- 4.75bit 相当の量子化で、16fp と比べ損失ゼロの推論が可能
-	- SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression
-	- https://arxiv.org/abs/2306.03078
-## 6/5
-相も変わらず、4bit化とか、Ri
+	- https://arxiv.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyODk1ODAyLC05NzU1NjgyMjMsLTEwMT
-I2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1
-LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MD
-k0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwODM4ODA1
-MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMj
-g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
-NzYwMDc4XX0=
+eyJoaXN0b3J5IjpbLTE0MTQ0NDE0ODcsLTk3NTU2ODIyMywtMT
+AxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2
+MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNj
+kwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMTA4Mzg4
+MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcyMzQ2My
+wyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3NDAzMjcsLTIw
+NDg3NjAwNzhdfQ==
 -->
