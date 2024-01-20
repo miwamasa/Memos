@@ -35,7 +35,6 @@
 	- https://x.com/tkasasagi/status/1747267875021406329?s=20
 	- 「サカナAI」日米で45億円調達　スイミーの発想で巨大ITに挑む
 		- 同社は対話型AIの基盤技術である大規模言語モデル（LLM）の開発で、他社が開発した小さなAIをいくつもつないで、巨大AIに匹敵する能力をもつ仮想のAIモデルを構想。この新技術はエージェントモデルと呼ばれ、開発コストを劇的に下げる可能性があり、巨額な資金が求められるAI開発競争に一石を投じる狙いだ。
-		- 
 - xverse/XVERSE-13B-256K
 	- https://huggingface.co/xverse/XVERSE-13B-256K
 	- ローカルLLMの長文対応がついに256K（約25万字）
@@ -49,7 +48,8 @@
 - WikiChatの話
 	- https://arxiv.org/abs/2305.14292
 	- WikiChat はファクトチェック及びコンテキストに，RAG 等でよく利用される Wiki を利用するライブラリで，高い factfulness を備えるとしている
-- 
+- Animagine XL 3.0 、Hugging Faceのトレンドで1位を達成
+	- 
 
 ## 1/15
 
@@ -4124,13 +4124,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression
 	- https://arxiv.org/abs/2306.03078
 ## 6/5
-相も変わらず、4bit化とか、Rinna-3.6BのLoRaとか、ローカルでLLMを動かす、作る可能性が広がってい
+相も変わらず、4bit化とか、Ri
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTMxODE5NiwtOTc1NTY4MjIzLC0xMD
-EyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYx
-NSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OT
-A5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEzLC0xMDgzODgw
-NTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMDM3NzIzNDYzLD
-I4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0MDMyNywtMjA0
-ODc2MDA3OF19
+eyJoaXN0b3J5IjpbNjUyODk1ODAyLC05NzU1NjgyMjMsLTEwMT
+I2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1
+LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MD
+k0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwODM4ODA1
+MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMj
+g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
+NzYwMDc4XX0=
 -->
