@@ -31,7 +31,9 @@
 - 企業はなぜ東京に集中するのか──経済地理学の視点から（日本労働研究雑誌）
 	- https://www.jil.go.jp/institute/zassi/backnumber/2020/05/pdf/029-039.pdf
 - 東京発・AIドリームチーム「http://Sakana.ai」が45億円調達　元Googleトップ研究者らが設立　AI業界の著名人や日本の大手IT企業も出資
-	- 
+	- @tkasasagi さんも参加かー
+	- https://x.com/tkasasagi/status/1747267875021406329?s=20
+- 
 
 ## 1/15
 
@@ -4118,14 +4120,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www8.cao.go.jp/cstp/ai/index.html
 - LLM自身がPythonによるツール作成？Large Language Models as Tool Makers
 	- https://arxiv.org/abs/2305.17126
-- Google Colabで、ローカルランタイムでの実行ができるようになった。。
-	- https://research.google.com/colaboratory/local-runtimes.h
+- Google Colabで、ローカルラ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5NDkwMTQ1LDc0NDgwMjY2Myw1NjQxMT
-c3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMs
-NzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2Mz
-QzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEy
-LC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMT
-QwMzc0MDMyNywtMjA0ODc2MDA3OCwtMTA3OTY2MjIxNCw5OTIy
-MTA1MjddfQ==
+eyJoaXN0b3J5IjpbLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2ND
+ExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0Nzcw
+Myw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NT
+YzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4
+MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC
+0xNDAzNzQwMzI3LC0yMDQ4NzYwMDc4LC0xMDc5NjYyMjE0LDk5
+MjIxMDUyN119
 -->
