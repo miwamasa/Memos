@@ -57,7 +57,8 @@
 	- Blending、Merging、Stackingなどの技術を今後30-70bモデルに適用していき、今後2-3ヶ月以内にGPT4に近い戻るが得られるでしょう
 - (RAG)の評価指標マップ
 	- https://x.com/helloiamleonie/status/1747252654047142351?s=20
-- DeepMindのCE
+- DeepMindのCEOであるLila Ibrahimがダボス会議2024で語ったこと
+	- https://www.axios.com/2024/01/16/davos-ai-lila-ibrahim-google-deepmind-technologies
 
 ## 1/15
 
@@ -4119,11 +4120,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - https://github.com/jerryjliu/llama_index/blob/main/docs/examples/index_structs/knowledge_graph/NebulaGraphKGIndexDemo.ipynb
 - 欠損値を平均値を代入するというプラクティスが議論に、
 	- 問題ないという人もいるが、問題ないならそもそも除外しても同じなのでは？
-	- https://twitter.com/kenken26679105/status/1667288891949453312?s=20
-- JSAI2023、人の位置情報の時系列をトークン列に置き換えてGPT-2で学習、人の移動軌道を生成する研究
-	- https://confit.atlas.jp/guide/event/jsai202
+	- https://twitter.com/kenken26679105/status/16672888
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzE2Mjg2NCw1ODEzODc3ODksLTk3NT
+eyJoaXN0b3J5IjpbMTEwNTM5NDc4MCw1ODEzODc3ODksLTk3NT
 U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
 LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
 AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
