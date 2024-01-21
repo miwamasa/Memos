@@ -31,6 +31,7 @@
 - 企業はなぜ東京に集中するのか──経済地理学の視点から（日本労働研究雑誌）
 	- https://www.jil.go.jp/institute/zassi/backnumber/2020/05/pdf/029-039.pdf
 - 東京発・AIドリームチーム「http://Sakana.ai」が45億円調達　元Googleトップ研究者らが設立　AI業界の著名人や日本の大手IT企業も出資
+	- https://sakana.ai/seed-round/
 	- @tkasasagi さんも参加かー
 	- https://x.com/tkasasagi/status/1747267875021406329?s=20
 	- 「サカナAI」日米で45億円調達　スイミーの発想で巨大ITに挑む
@@ -4099,14 +4100,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.amazon.co.jp/dp/B0C6JW6T6B?ref_=cm_sw_r_cp_ud_dp_Q44X6Q8W7NPXKP46168A
 	- イマドキノ拡散モデル：拡散モデルに関する最近の研究動向を紹介。基本技術、条件付き生成への拡張、生成の高速化について述べ、拡散モデルを学ぶうえで役立つリソースを紹介。
 - OpenAIのモデルを評価するフレームワークEval
-	- https://github.com/openai/evals
-	- **特定の課題に対し
+	- https://githu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjMzMDk5OSwxNjk3NDU3NTkxLDU4MT
-M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
-Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
-c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
-LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
-YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
-NjY1Ml19
+eyJoaXN0b3J5IjpbLTQ1MDQ4NzcyLDE2OTc0NTc1OTEsNTgxMz
+g3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYz
+LDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNz
+Y0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUs
+LTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNj
+MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
+NjUyXX0=
 -->
