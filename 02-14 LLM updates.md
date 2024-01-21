@@ -101,8 +101,12 @@
 		- 日本語のSFTにより、日本語化モデルの英語の指示追従能力も一定回復させることができる。
 		- 追加事前学習に英語のデータセットを追加した場合、英語タスクでの性能劣化を緩和可能である。
 		- 日本語の語彙拡張は日本語の事前学習時の性能劣化を顕著にするものの、SFTによる性能の上昇をより享受できる可能性がある。
-- 出版：「強化学習から信頼できる意思決定へ
-		- 
+- 【新刊】「強化学習から信頼できる意思決定へ」、サイエンス社
+	- 梶野　洸(日本IBM)・宮口航平(日本IBM)・恐神貴行(日本IBM)・岩城　諒(日本IBM)・和地瞭良(LINEヤフー)　共著　
+	- https://www.saiensu.co.jp/search/?isbn=978-4-7819-1592-0&y=2024
+	- 強化学習はその定式化を用いることで幅広い実問題を表現できる一方，信頼性の不足が一因となり，実世界では応用がなされているとは言いがたい．本書は，標準的な定式化と実問題との橋渡しとなるような定式化を体系的にまとめることで，実世界での応用を促進することを目指した
+	- 第3章リスク考慮型強化学習と金融への応用（3.5節を除く）
+- 
 
 ## 1/15
 
@@ -4108,20 +4112,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 
 ## 6/12
 
-熊本で開かれた人工知能学会全国大会の話題もちらほら。偉い先生のまとめスライドが役に立つ。ローカルでLLMを動かす動きも相も変わらず活発。ggML形式のLLMならば、gpt4allのチャット用のソフトでllmを入れ替えて動くらしい。npaka氏のローカルＬＬＭのまとめは良記事。それにしても、4.75bitのSpQRって本当か？タンパク質やプロプロテインなどの研究対象の操作などができるチャットシステムも登場、そういう応用はこれからもたくさんでそう。データサイエンス界隈は、自らの存在意義的に、Noteableプラグインがよほど応えたらしい。ついにMSからChatでOffice製品を制御できる技術が発表、パワポも作ってくれるのか？その間googleのBardは、裏でコード実行する仕組みを取り入れ、苦手な計算とか論理などの精度が向上。今度はＧＡＳとの連携か。東芝福本氏の製造業における生成ＡＩの活用は一読の価値あり。倫理とか公平性という、上から目線より、「卵のためのＡＩ」に、わたしはなりたい。
-
-- データ分析の効率が10倍上がるデータサイエンティストのためのChatGPTの活用術
-	- https://qiita.com/ot12/items/96b5783568196d3320fe
-	- さいごはNoteableなのか。。
-- ChatGPTのように狙いの分子やタンパク質を編集できるChatDrug
-	- https://arxiv.org/abs/2305.18090v1
-- 「rinna」の日本語言語モデルを試用、メモリ32GBあればCPUだけ
+熊本で開かれた人工知能学会全国大会の話題もちらほら。偉い先生のまとめスライドが役に立つ。ローカルでLLMを動かす動きも相も変わらず活発。ggML形式のLLMならば、gpt4allのチャット用のソフトでllmを入れ替えて動くらしい。npaka氏のローカルＬＬＭのまとめは良記事。それにしても、4.75bitのSpQRって本当か？タンパク質やプロプロテインなどの研究対象の操作などができるチャットシステムも登場、そういう応用はこれからもたくさんでそう。データサイエンス界隈は、自らの存在意義的に、Noteableプラグインがよほど応えたらしい。ついにMSからChatでOffice製品を制御できる技術が発表、パワポも作ってくれるのか？その間googleのBardは、裏でコード実行する仕組みを取り入れ、苦手な計算とか論理などの精度が向上。今度はＧＡ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDE1OTAyLDU4MTM4Nzc4OSwtOTc1NT
-Y4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUs
-MTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMD
-E1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEz
-LC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMD
-M3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0
-MDMyN119
+eyJoaXN0b3J5IjpbLTIyNzQ5Njg0OCw1ODEzODc3ODksLTk3NT
+U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
+LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
+AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
+MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
+AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
+NDAzMjddfQ==
 -->
