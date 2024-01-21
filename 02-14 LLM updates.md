@@ -135,6 +135,13 @@
 	- メタは2万人レイオフして35万台のH100を買いました
 -  OpenAI Node API Library 入門 by npakaさん
 	- https://note.com/npaka/n/n2f8c08965316?sub_rt=share_h
+	- 「OpenAI Node API Library」は、TypeScript / JavaScriptから「OpenAI API」にアクセスする機能を提供します。
+-  GraphGPT: Graph Learning with Generative Pre-trained Transformers
+	- https://arxiv.org/abs/2401.00529
+	- グラフ×Transformerによる物性予測の論文
+	- グラフを文字列に変換しTransformerで学習するGraphGPTを提案、従来のGNNでは難しい400Mパラメータで事前学習モデル構築、これを微調整することで分子物性を高精度に予測できたそうです。
+- LLMマルチエージェントを俯瞰する
+	- https://speakerdeck.com/masatoto/llmmarutiezientowofu-kan-suru
 	- 
 
 ## 1/15
@@ -4099,16 +4106,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://note.com/npaka/n/n917463f55b8a
 - 欧州AI規制における、生成モデル、一般目的AIに対する義務事項
 	- https://www.europarl.europa.eu/news/en/press-room/20230609IPR96212/meps-ready-to-negotiate-first-ever-rules-for-safe-and-transparent-ai
-	- ban on AI for biometric surveillance, emotion recognition, predictive policing 
-	- registration of models with EU 
-	- detailed summary of training data 
-	- requirement to identify deepfakes
--  第6回LangChainもくもく会開催レポート
-	- https://note.com/mahlab/n/nc6ec4a9bd3c5
-	- Grounded GenerationサービスVectara、LLMホスティングサービスBeam、SQLiteでベクトルDB検索が可能になるsqlite-vss、PostgreSQLのベクトル検索拡張pgvector、LangChain AI Handbookの話
-- OpenAIのFunction C
+	- ban on 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDUzNzAyMSwxNjk3NDU3NTkxLDU4MT
+eyJoaXN0b3J5IjpbLTU3OTEwODExNSwxNjk3NDU3NTkxLDU4MT
 M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
 Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
 c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
