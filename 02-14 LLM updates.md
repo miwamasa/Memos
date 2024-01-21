@@ -131,6 +131,10 @@
 - A Cheat Sheet and Some Recipes For Building Advanced RAG
 	- https://blog.llamaindex.ai/a-cheat-sheet-and-some-recipes-for-building-advanced-rag-803a9d94c41b
 - 米Metaが1万人の追加レイオフ、5000人の採用も中止
+	- https://xtech.nikkei.com/atcl/nxt/news/18/14833/
+	- メタは2万人レイオフして35万台のH100を買いました
+-  OpenAI Node API Library 入門 by npakaさん
+	- https://note.com/npaka/n/n2f8c08965316?sub_rt=share_h
 	- 
 
 ## 1/15
@@ -4102,15 +4106,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 -  第6回LangChainもくもく会開催レポート
 	- https://note.com/mahlab/n/nc6ec4a9bd3c5
 	- Grounded GenerationサービスVectara、LLMホスティングサービスBeam、SQLiteでベクトルDB検索が可能になるsqlite-vss、PostgreSQLのベクトル検索拡張pgvector、LangChain AI Handbookの話
-- OpenAIのFunction Callをつかうと、LangChainのReAct Agentのようなこともできるという話（すげー、というか、エコシステム壊してないか？？？）
-	- https://github.com/jerryjliu/llama_index/blob/main/docs/examples/agent/openai_agent.ipynb
-	- llma_indexには、o
+- OpenAIのFunction C
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjAzMTgzMjcsMTY5NzQ1NzU5MSw1OD
-EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
-NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
-E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
-NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMT
-A2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3
-MTY2NTJdfQ==
+eyJoaXN0b3J5IjpbLTY1MDUzNzAyMSwxNjk3NDU3NTkxLDU4MT
+M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
+Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
+c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
+LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
+YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
+NjY1Ml19
 -->
