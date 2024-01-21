@@ -3,7 +3,7 @@
 
 ## 1/21
 
-今週はDavos会議があって、われらのアルトマンも登場、GPT-5について言及。メタは2万人レイオフして35万台のH100を買い、llama3を絶賛開発中。NVIDIAがCESで発表したGeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊が、、、。MoEも今週もにぎやか、圧縮して小メモリ化するようなMC-SMoEのアプローチとか、負荷分散を調整するDeepSeekMoEとか、youri-2x7bのggufがでたり。小規模LLMむけの人工的に生成された学習用モデルtiny-textbookシリーズもそろってきて、小規模LLMの開発も加速するかな。手が届くところではnanoGPTの源氏物語の適用例は楽しそう。小規模LLMを集めて優れたAIを作るという意味では、sakanaiが華々しく45億円もの投資を調達、googleなどのスーパー研究者が終結して楽しそう。sakana.aiは小さな魚が集まって一匹の大魚のように泳ぐ物語｢スイミー｣の仕組みなわけだけど、小さな専門エージェントがあつまって問題を解決するのは、ミンスキー御大のSociety o Mindsにもつながる気もする。Microsoftはcoliplot proをリリース、月20ドルで、個人が、GPT-4 TurboにもアクセスできるしOffice 365 copilotも使えるしお得かも、一方がっかりしたというファーストユーザーの意見もちらほら。数学オリンピックのメダリスト並みの性能を示すAlphaGeometry、LLMとルールベースのハイブリッドが高性能の秘訣らしい、text_to_SQLも、また違ったハイブリッドとして高性能化のヒントになる。
+今週はDavos会議があって、われらのアルトマンも登場、GPT-5について言及。メタは2万人レイオフして35万台のH100を買い、llama3を絶賛開発中。NVIDIAがCESで発表したGeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊が、、、。MoEも今週もにぎやか、圧縮して小メモリ化するようなMC-SMoEのアプローチとか、負荷分散を調整するDeepSeekMoEとか、youri-2x7bのggufがでたり。小規模LLMむけの人工的に生成された学習用モデルtiny-textbookシリーズもそろってきて、小規模LLMの開発も加速するかな。手が届くところではnanoGPTの源氏物語の適用例は楽しそう。小規模LLMを集めて優れたAIを作るという意味では、sakanaiが華々しく45億円もの投資を調達、googleなどのスーパー研究者が終結して楽しそう。sakana.aiは小さな魚が集まって一匹の大魚のように泳ぐ物語｢スイミー｣の仕組みなわけだけど、小さな専門エージェントがあつまって問題を解決するのは、ミンスキー御大のSociety o Mindsにもつながる気もする。Microsoftはcoliplot proをリリース、月20ドルで、個人が、GPT-4 TurboにもアクセスできるしOffice 365 copilotも使えるしお得かも、一方がっかりしたというファーストユーザーの意見もちらほら。数学オリンピックのメダリスト並みの性能を示すAlphaGeometry、LLMとルールベースのハイブリッドが高性能の秘訣らしい、text_to_SQLも、また違ったハイブリッドとして高性能化のヒントになる。べ
 
 - HachiMLさんが公開されているyouri-2x7b_v0.2のgguf
 	- https://huggingface.co/mmnga/HachiML-youri-2x7b_v0.2-gguf
@@ -4090,13 +4090,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://arxiv.org/abs/2306.11644
 - Flan-Open-Llama-3b
 	- https://huggingface.co/conceptofmind/Flan-Open-Llama-3b
-- Reasoning with Language Model is Plan
+- Reasoning with Language Model is P
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
-c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
-MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
-AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
-LC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNT
-M2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2
-NjQ0XX0=
+eyJoaXN0b3J5IjpbMTY1NDY5NzkzOSwtNTg5NTIxMDM3LDE5NT
+YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
+MywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3OD
+kzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQz
+NywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMT
+A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
+MzQ2M119
 -->
