@@ -80,11 +80,13 @@
 	- We merge experts THEN compress/decompose merged experts→low-rank. Up to 80% mem reduction! 🎉
 - mix_self_consistency pack by llamaindex
 	- https://llamahub.ai/l/llama_packs-tables-mix_self_consistency?from=llama_packs
+	- Here’s a simple but useful idea to use RAG to fetch few-shot examples for less flaky text-to-SQL (or…less flaky structured RAG itself). Calling it dynamic metadata…
 	- “Rethinking Tabular Data Understanding”の実装
 	- 1.  Index and embed each row
 	- 2. In the text-to-SQL prompt (or auto-retrieval prompt), add *few shot examples of rows*: given the first k rows in the prompt, retrieve the top-k rows matching the user query.
 	- 3. Execute text-to-SQL prompt (or auto-retrieval prompt) to infer the right query (SQL or metadata filters).
-4️⃣ Execute query to get back result.
+	- 4. Execute query to get back result.
+- 
 
 ## 1/15
 
@@ -4109,13 +4111,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.techrxiv.org/articles/preprint/ProteinChat_Towards_Achieving_ChatGPT-Like_Functionalities_on_Protein_3D_Structures/23120606/1
 - 確率的熱力学に経済学のツールを用いることで、熱力学と情報理論の間の相互作用について定量的に調べた
 	- https://arxiv.org/abs/2306.00449
-- 「大規模言語モデル入門」７月２９日発売予定
-	- https://www.amazon.co.jp/dp/4297136333
-- Microsoftの研究者らが新たに開発したAIシステム「Semantic Interpreter」は、Officeを操作、パワポが作れる。。
-	- https://arxiv.org/abs/2306.03460
-- DeepMindのAlph
+- 「大規模言語モデル入門」７月２
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NjUwNTM3Nyw1ODEzODc3ODksLTk3NT
+eyJoaXN0b3J5IjpbMjEzMzQ5ODM0Nyw1ODEzODc3ODksLTk3NT
 U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
 LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
 AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
