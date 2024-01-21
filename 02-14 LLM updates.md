@@ -114,7 +114,12 @@
 - Accelerating the prediction of stable materials with machine learning
 	- https://www.nature.com/articles/s43588-023-00536-w
 	- 機械学習による材料の安定性予測に関するレビュー論文
-	- 
+	- DeepMindさんの論文でも使われた材料の熱力学的安定性予測に関し、convex hullの概念のような基礎から、有限温度の予測のような応用までまとまっています。 機械学習で材料探索してみたい初学者の方におすすめ。
+- WaveCoder: Widespread And Versatile Enhanced Instruction Tuning with Refined Data Generation
+	- https://arxiv.org/abs/2312.14187
+	- Introduce WaveCoder-Ultra-6.7B with the closest capabilities to GPT-4 so far.
+	- WaveCoder-Ultra-6.7B is the newest SOTA open-source Code LLM on multiple tasks.
+- 
 
 ## 1/15
 
@@ -4105,22 +4110,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 知識グラフのLLMの統合についてのロードマップ論文
 	- Unifying Large Language Models and Knowledge Graphs: A Roadmap
 	- https://arxiv.org/abs/2306.08302
-	- Combining the advantages of LLMs and knowledge graphs (KGs) is a promising direction.
-- 欧州でEV電池規制　リチウムは8割再資源化、31年までに
-	- 6/14日に欧州議会の投票を通過したという話、
-	- EV,主要材料のリチウムは使用済み電池から2027年までに50%、31年までに80%を再資源化する必要がある。
-	- 「電池パスポート」の導入も決まった
-	- https://www.nikkei.com/article/DGXZQOGR1706S0X10C23A6000000/
-- レヴィ＝ストロースの70年来の謎を進化シミュレーションで解明- 文化人類学の基礎「親族の構造」を数理モデルで生成 -
-	- https://www.u-tokyo.ac.jp/focus/ja/press/z0109_00325.html
-	- これって、LLMで同じことが多分1年以内のできるようになる。
-- 　応用行動分析「死
+	- Combining the advantages of LLMs and knowledge g
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MzA4ODIyMyw1ODEzODc3ODksLTk3NT
-U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
-LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
-AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
-MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
-AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
-NDAzMjddfQ==
+eyJoaXN0b3J5IjpbLTE2MDYyOTA2MTgsNTgxMzg3Nzg5LC05Nz
+U1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2
+NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3Nz
+MwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1
+MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLT
+IwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAz
+NzQwMzI3XX0=
 -->
