@@ -78,7 +78,13 @@
 	- https://arxiv.org/abs/2310.01334
 	- MoEってメモリ食うので、これを圧縮やスパース性に着目して軽量化する、80%の削減！
 	- We merge experts THEN compress/decompose merged experts→low-rank. Up to 80% mem reduction! 🎉
-- 
+- mix_self_consistency pack by llamaindex
+	- https://llamahub.ai/l/llama_packs-tables-mix_self_consistency?from=llama_packs
+	- “Rethinking Tabular Data Understanding”の実装
+	- 1.  Index and embed each row
+	- 2. In the text-to-SQL prompt (or auto-retrieval prompt), add *few shot examples of rows*: given the first k rows in the prompt, retrieve the top-k rows matching the user query.
+	- 3. Execute text-to-SQL prompt (or auto-retrieval prompt) to infer the right query (SQL or metadata filters).
+4️⃣ Execute query to get back result.
 
 ## 1/15
 
@@ -4107,25 +4113,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.amazon.co.jp/dp/4297136333
 - Microsoftの研究者らが新たに開発したAIシステム「Semantic Interpreter」は、Officeを操作、パワポが作れる。。
 	- https://arxiv.org/abs/2306.03460
-- DeepMindのAlphaDev、人の作りしソートアルゴリズムよりも高速なアルゴリズムを生成。
-	- https://www.nature.com/articles/s41586-023-06004-9
-	- といっても最適化しているだけだとか、ChatGPTでも同様な最適化ができたとの報告が続く。
-	- https://chat.openai.com/share/95693df4-36cd-4241-9cae-2173e8fb760c
-- 医療現場での、構造化されてない医療メモをつかったLLM
-	- https://www.nature.com/articles/s41586-023-06160-y
-- LlamaIndexの、JSON Query Engineの紹介ビデオ
-	- https://www.youtube.com/watch?v=4tDyfAaIqEw
-- 前篇　AIは「ジェスチャーゲーム」を知らない
-	- 今井むつみ先生と、高野秀行の対談
-	- 『言語の本質　ことばはどう生まれ、進化したか』の今井先生の対談
-	- https://kangaeruhito.jp/interview/756531
-- Googleの「Bard」が「暗黙的なコード実行
+- DeepMindのAlph
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk1Nzg2MTksNTgxMzg3Nzg5LC05Nz
-U1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2
-NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3Nz
-MwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1
-MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLT
-IwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAz
-NzQwMzI3XX0=
+eyJoaXN0b3J5IjpbMTc1NjUwNTM3Nyw1ODEzODc3ODksLTk3NT
+U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
+LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
+AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
+MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
+AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
+NDAzMjddfQ==
 -->
