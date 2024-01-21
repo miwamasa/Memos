@@ -162,14 +162,17 @@
 		- 1) Expertをさらに細かくし64に増やすと共に選択されるExpert数も8に増やす 
 		- 2) 共有知識を使えるよう常に選択されるExpertを用意。デバイス毎の負荷分散を重視し実行効率をあげる。
 		-  同じ計算量のDenseや従来MoEに対し性能を改善
-- llma3のオープンソースでの開発発表に関して
+- llma3の開発とオープンソース化に関して
 	- https://twitter.com/i/status/1748058491343061458
-	- llama3は作成中
 	- 年内に35万台のH100を活用可能インフラを構築
 	- H100相当品も含めると60万台のH100に匹敵 
-	- 汎用知能を構築し、そのオープンソース化を目指す
-	- ザッカーバーグはメタのAI研究部門のFAIRをAIアプリ開発部門のGenAIとくっ付けたらしい。つまりAI研究の成果が直結してアプリに実装されるようになるんだろう。
-	- https://x.com/umiyuki_ai/status/1748296867472109733?s=20
+	- メタは一般的な知能を構築し、オープンソース化し、みんなに利用できるようにするという長期的な目標のために、2つのAI研究プロジェクトを統合すると発表した。
+	- 次世代のサービスには、推論、計画、コーディング、記憶などのAIの各分野での進歩が必要であると述べた。
+- この技術は非常に重要であり、機会も大きいので、責任を持ってオープンソース化し、できるだけ広く利用できるようにするべきだと主張した。[00:00:45][^3^][3]
+- 今年末までに、約35万台のNvidia H100 GPUを搭載した巨大なコンピューティングインフラストラクチャを構築すると発表した。[00:00:57][^4^][4]
+- 現在、Llama 3というモデルをトレーニングしており、今後も責任を持って安全にトレーニングを続けると述べた。[00:01:10][^5^][5]
+- AIとメタバースは密接に関連しており、将来的には多くの人がAIと会話するためにメガネを使うだろうと予測した。[00:01:21][^6^][6]
+- Rayband Meta GlassesはメタAIとともに非常に好調なスタートを切ったと発表した。[00:01:41][^7^][7]
 - Connect to Sheets and use the Gemini API in Colab to tell Gemini about your most promising prospects and prepare personalized sales pitches to sell what you are good at - in this case, delicious lemonade.
 	- https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/Sell_lemonade_with_Gemini_and_Sheets.ipynb
 	- GeminiとGoogle Sheetsを使ったセールスピッチ生成の例
@@ -4080,19 +4083,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 第2回LLM勉強会
 	- https://llm-jp.nii.ac.jp/llm/2023/06/20/study-group-2.html
 - local llmでsentence embeddingどれ使えば良いんだっけ
-	- https://note.com/if001/n/n25d795afe571
-- OpenAIのEmbbedingをつかって文章の類似度を計算
-	- https://techblog.gmo-ap.jp/2023/06/22/embeddings_api_calc_sentence_similarity/
-- CVPR2023より、疑似確率が確率になるという問題への回答
-	- https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Class_Adaptive_Network_Calibration_CVPR_2023_paper.pdf
-- マイクロソフトから小規模LLMに関する論文 Textbooks Are All You Need
-	- 13億パラメータ"しか”ないモデル(phi-1)を、The StackとStackOverflowのデータを教科書品質に
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
-YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
-MywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3OD
-kzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQz
-NywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMT
-A4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMjAzNzcy
-MzQ2M119
+eyJoaXN0b3J5IjpbLTc1NTc4MTg0MywxNjkxNzE4MTczLC01OD
+k1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4Nzc4
+OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1Nj
+QxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3
+MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xOD
+U2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4
+ODEyXX0=
 -->
