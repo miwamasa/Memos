@@ -148,6 +148,13 @@
 -  Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering
 	- https://arxiv.org/abs/2401.08500
 	- The paper proposes AlphaCodium, a code-oriented iterative flow that improves LLMs on code generation.
+	- LLMでコーディング作業を行う際のプロンプトエンジニアリング手法として、「フローエンジニアリング」という新しい概念が提唱されています。 
+	- この概念に基づいてコーディングを行うことで、LLMのプログラミング能力が一貫して向上することが定量的に報告されました。
+	- ■研究者らのアイデア 
+		- 複数の段階に分けてコードを生成・改善する - テストベースの考え方を用いる
+	- ■実験結果 
+		- コードタスクでのLLMの性能を一貫してかつ大幅に向上させた 
+		- オープンソース（DeepSeek）とクローズドソース（GPT-3.5/4）両方で効果があった
 -  DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
 	- https://arxiv.org/abs/2401.06066
 	- DeepSeekMoEはLLMのMoEで
@@ -4097,19 +4104,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.nikkei.com/article/DGXZQOUC1037N0Q3A610C2000000/
 - 平均・分散・相関が変わらない、X,Yの様々な事例。。
 	- まあ有名な奴だけどゴジラはよく考えたな。
-	- https://twitter.com/docmilanfar/status/1668093023895568386?s=20
-- ヒントン先生にたいするルカンの所感
-	- 人間並みのAIを実現するには、２つが必須で、（今はたらない）
-		- (1) learning world models from sensory inputs like video, 
-		- (2) an architecture that can reason and plan (not just auto-regress).
-- Dockerコンテナをwebassemblyに変換して実行できるツール？
-	- https://www.publickey1.jp/blog/
+	- https://twitter.com/docmilanfar/status/16
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODkzNzM4OTUsMTY5NzQ1NzU5MSw1OD
-EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
-NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
-E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
-NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMT
-A2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3
-MTY2NTJdfQ==
+eyJoaXN0b3J5IjpbMjgzMTIwODc1LDE2OTc0NTc1OTEsNTgxMz
+g3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYz
+LDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNz
+Y0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUs
+LTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNj
+MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
+NjUyXX0=
 -->
