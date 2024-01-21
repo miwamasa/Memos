@@ -76,6 +76,9 @@
 	- https://arxiv.org/abs/2306.11644
 - Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy
 	- https://arxiv.org/abs/2310.01334
+	- MoEってメモリ食うので、これを圧縮やスパース性に着目して軽量化する、80%の削減！
+	- We merge experts THEN compress/decompose merged experts→low-rank. Up to 80% mem reduction! 🎉
+- 
 
 ## 1/15
 
@@ -4116,16 +4119,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- 今井むつみ先生と、高野秀行の対談
 	- 『言語の本質　ことばはどう生まれ、進化したか』の今井先生の対談
 	- https://kangaeruhito.jp/interview/756531
-- Googleの「Bard」が「暗黙的なコード実行」を導入、文字列の操作や論理・推論を含む複雑なタスクに対する回答精度が向上
-	- やっぱBardやるね。
-	- https://gigazine.net/news/20230608-google-bard-implicit-code-execution/
-- Large Language Mo
+- Googleの「Bard」が「暗黙的なコード実行
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzI0MTQ2LDU4MTM4Nzc4OSwtOTc1NT
-Y4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUs
-MTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMD
-E1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEz
-LC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMD
-M3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0
-MDMyN119
+eyJoaXN0b3J5IjpbLTE3MDk1Nzg2MTksNTgxMzg3Nzg5LC05Nz
+U1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2
+NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3Nz
+MwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1
+MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLT
+IwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAz
+NzQwMzI3XX0=
 -->
