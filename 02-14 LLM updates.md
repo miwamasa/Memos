@@ -192,6 +192,8 @@
 	- 私たちの論文「Fair Machine Guidance to Enhance Fair Decision Making in Biased People」が #CHI2024 に条件付き採択されました！ 人間の判断が不公平に偏る問題に対処するため、公平性配慮型機械学習による公平モデルを用いて、人々がより公平な判断を下せるようガイドしました！
 - Neural Speed + ONNX Runtime makes LLM inference more efficient on CPUs!
 	- https://github.com/intel/neural-speed
+- Google DeepMind researchers are in talks to leave and form a new startup named 'Holistic'. They want to build their own AI model.
+	- https://x.com/AndrewCurran_/status/1748419941672616324?s=20
 
 ## 1/15
 
@@ -4093,17 +4095,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 
 - 「OpenAI CEO Sam Altman氏と塾生との対話」開催(6/12)
 	- https://www.keio.ac.jp/ja/news/2023/6/15/27-139184/
-	- 会場となった西校舎ホールには約700名の学生が集まり、約40分にわたり活発な質疑応答が行われました。またその様子は519教室にも配信され、1,000名以上の学生にとって貴重な機会となりました。
-- 「二つの分散:不偏推定量と最尤推定量のどち らを使うべきか」井手さん(IBM)
-	- 頻度派に対する執拗な攻撃は続く。。
-	- https://ide-research.net/book/Which_variance_should_I_use.pdf
-	-  データサイエンスの
+	- 会場となった西校舎ホールには約700名の学生が集まり、約40分にわたり活発な質疑応答が
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNDk1OTMwLDE2OTc0NTc1OTEsNTgxMz
-g3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYz
-LDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNz
-Y0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUs
-LTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNj
-MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
-NjUyXX0=
+eyJoaXN0b3J5IjpbLTc2Mjc4OTI3MSwxNjk3NDU3NTkxLDU4MT
+M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
+Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
+c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
+LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
+YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
+NjY1Ml19
 -->
