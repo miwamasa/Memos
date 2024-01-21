@@ -3,7 +3,7 @@
 
 ## 1/21
 
-今週はDavos会議があって、われらのアルトマンも登場
+今週はDavos会議があって、われらのアルトマンも登場、GPT-5について言及。メタは2万人レイオフして35万台のH100を買い、llama3を絶賛開発中。
 
 - HachiMLさんが公開されているyouri-2x7b_v0.2のgguf
 	- https://huggingface.co/mmnga/HachiML-youri-2x7b_v0.2-gguf
@@ -4101,9 +4101,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 
 ## 6/19
 
-今週は、6/12日にCEOの慶応大学での講演。OpenAIのAPIのアップデートの話題がありました。トークン数の拡大（青空文庫の短編クラスなら取り扱える）とか、Function callの追加。これで、LangChainのReActエージェントを使わなくても、OpenAI Agentで外部ツールとLLMが連携したソリューション
+今週は、6/12日にCEOの慶応大学での講演。OpenAIのAPIのアップデートの話題がありました。トークン数の拡大（青空文庫の短編クラスなら取り扱える）とか、Function callの追加。これで、LangChainのRe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTEyNjcxMSwxNjk3NDU3NTkxLDU4MT
+eyJoaXN0b3J5IjpbMTc0MjYwOTk2MywxNjk3NDU3NTkxLDU4MT
 M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
 Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
 c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
