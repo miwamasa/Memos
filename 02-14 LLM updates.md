@@ -3,7 +3,7 @@
 
 ## 1/21
 
-今週はDavos会議があって、われらのアルトマンも登場、GPT-5について言及。メタは2万人レイオフして35万台のH100を買い、llama3を絶賛開発中。GeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊か。MoEも今週もにぎやか、圧縮して小メモリ化するようなアプローチとか、youri-2x7bのggufがでたり。長尺256KのOSSのLLMも登場。
+今週はDavos会議があって、われらのアルトマンも登場、GPT-5について言及。メタは2万人レイオフして35万台のH100を買い、llama3を絶賛開発中。GeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊か。MoEも今週もにぎやか、圧縮して小メモリ化するようなアプローチとか、youri-2x7bのggufがでたり。長尺256KのOSSのLLMも登場。小規模LLMむけの人工生成学習用モデルtiny-textbookシリーズもそろてきて、小規模LLMno
 
 - HachiMLさんが公開されているyouri-2x7b_v0.2のgguf
 	- https://huggingface.co/mmnga/HachiML-youri-2x7b_v0.2-gguf
@@ -4097,12 +4097,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://github.com/openai/openai-cookbook/blob/main/examples/third_party_examples/financial_document_analysis_with_llamaindex.ipynb
 - GPT-4がMITの試験問題を正しく解いたという論文が手続き的にも本質的内容面でも不正との指摘
 	- 正解がでるまで何度も聞いた等の不正があった模様。。
-	- http://people.csail.mit.edu/asolar/CoursesPaperStatement.pdf
-
-## 6/19
-
+	- http://people.csa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzM3NjYxMTMsMTY5NzQ1NzU5MSw1OD
+eyJoaXN0b3J5IjpbLTE4NTY4Njg3MjQsMTY5NzQ1NzU5MSw1OD
 EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
 NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
 E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
