@@ -146,7 +146,12 @@
 -  Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering
 	- https://arxiv.org/abs/2401.08500
 	- The paper proposes AlphaCodium, a code-oriented iterative flow that improves LLMs on code generation.
-- # DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
+-  DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
+	- https://arxiv.org/abs/2401.06066
+	- DeepSeekMoEはLLMのMoEで
+		- 1) Expertをさらに細かくし64に増やすと共に選択されるExpert数も8に増やす 
+		- 2) 共有知識を使えるよう常に選択されるExpertを用意。デバイス毎の負荷分散を重視し実行効率をあげる。
+		-  同じ計算量のDenseや従来MoEに対し性能を改善
 
 ## 1/15
 
@@ -4098,17 +4103,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://arxiv.org/abs/2306.07941
 - シンボリック回帰と深層学習を組み合わせることで、データから方程式を見つける。
 	- https://arxiv.org/abs/2207.00529
-- GPT3.5 APIのアプデで使えるようになった16kトークンで何ができるか？
-	- 青空文庫のちょっとした短編ならば、分析が可能になったレベルらしい
-	- https://note.com/mahlab/n/n99577fabf16e
-- GPTでのfunction callの良例
-	- https://gist.github.com/hotchpotch/364cb8ae188e40f4e9ff1273232bc9
+- GPT3.5 APIのアプ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzY3MjI0OSwxNjk3NDU3NTkxLDU4MT
-M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
-Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
-c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
-LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
-YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
-NjY1Ml19
+eyJoaXN0b3J5IjpbMzc4NTgxMjA0LDE2OTc0NTc1OTEsNTgxMz
+g3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYz
+LDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNz
+Y0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUs
+LTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNj
+MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
+NjUyXX0=
 -->
