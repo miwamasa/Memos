@@ -97,8 +97,11 @@
 	- https://zenn.dev/elyza/articles/ab3749de0ba58b
 	- **追加学習の過程で、元のモデルが持っていた能力がどの程度失われてしまうのか**という点
 	- 結果：
-		- 英語モデルの日本語化における一定の英語性能の劣化は共通してみられるようです
-		- 日本語化したモデルは日本語のデータでのSFTにより、英語での指示追従能力を一定取り戻している
+		- 日本語を含むデータの追加事前学習により日本語化したモデルにおいて、英語の性能の劣化は生じてしまう。
+		- 日本語のSFTにより、日本語化モデルの英語の指示追従能力も一定回復させることができる。
+		- 追加事前学習に英語のデータセットを追加した場合、英語タスクでの性能劣化を緩和可能である。
+		- 日本語の語彙拡張は日本語の事前学習時の性能劣化を顕著にするものの、SFTによる性能の上昇をより享受できる可能性がある。
+- 出版：「強化学習から信頼できる意思決定へ
 		- 
 
 ## 1/15
@@ -4112,12 +4115,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- さいごはNoteableなのか。。
 - ChatGPTのように狙いの分子やタンパク質を編集できるChatDrug
 	- https://arxiv.org/abs/2305.18090v1
-- 「rinna」の日本語言語モデルを試用、メモリ32GBあればCPUだけでも動くぞ！
-	- https://internet.watch.impress.co.jp/docs/column/shimizu/1503707.html
-- GPT4ALL周りのソフトは、ggML準拠のモデルならば、gpt4allでなくても動くようになった！
-	- The GPT4Al
+- 「rinna」の日本語言語モデルを試用、メモリ32GBあればCPUだけ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4MDYyNzYyLDU4MTM4Nzc4OSwtOTc1NT
+eyJoaXN0b3J5IjpbMTUwMDE1OTAyLDU4MTM4Nzc4OSwtOTc1NT
 Y4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUs
 MTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMD
 E1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEz
