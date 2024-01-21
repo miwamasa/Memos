@@ -156,6 +156,10 @@
 - llma3のオープンソースでの開発発表(ダボス会議）に関して
 	- ザッカーバーグはメタのAI研究部門のFAIRをAIアプリ開発部門のGenAIとくっ付けたらしい。つまりAI研究の成果が直結してアプリに実装されるようになるんだろう。
 	- https://x.com/umiyuki_ai/status/1748296867472109733?s=20
+- Connect to Sheets and use the Gemini API in Colab to tell Gemini about your most promising prospects and prepare personalized sales pitches to sell what you are good at - in this case, delicious lemonade.
+	- https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/Sell_lemonade_with_Gemini_and_Sheets.ipynb
+	- GeminiとGoogle Sheetsを使ったセールスピッチ生成の例
+- 
 
 ## 1/15
 
@@ -4096,19 +4100,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- イマドキノ拡散モデル：拡散モデルに関する最近の研究動向を紹介。基本技術、条件付き生成への拡張、生成の高速化について述べ、拡散モデルを学ぶうえで役立つリソースを紹介。
 - OpenAIのモデルを評価するフレームワークEval
 	- https://github.com/openai/evals
-	- **特定の課題に対してどれぐらい高精度で生成できているかを評価**できます。
-- DADCのスマートビルガイドラインの補足資料が公開、
-	- 補足資料って、最初から説明が足らなかっただろうに。
-	- https://www.ipa.go.jp/digital/architecture/Individual-link/ps6vr7000001x8o0-att/smartbuilding_guideline_appendix.pdf
-- 最近引退されたMITのストラング先生の、"Ther Art of Linear Algebra"の和訳、たった１４P、全理系は涙して読むべし
-	- 「行列5分解」「行列の世界」「固有値地図」の視覚的解説
-	- https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra/blob/ma
+	- **特定の課題に対し
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzEwODMzNjcsMTY5NzQ1NzU5MSw1OD
-EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
-NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
-E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
-NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMT
-A2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3
-MTY2NTJdfQ==
+eyJoaXN0b3J5IjpbLTk1NjMzMDk5OSwxNjk3NDU3NTkxLDU4MT
+M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
+Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
+c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
+LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
+YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
+NjY1Ml19
 -->
