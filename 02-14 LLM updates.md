@@ -59,6 +59,7 @@
 	- https://x.com/helloiamleonie/status/1747252654047142351?s=20
 - DeepMindのCEOであるLila Ibrahimがダボス会議2024で語ったこと
 	- https://www.axios.com/2024/01/16/davos-ai-lila-ibrahim-google-deepmind-technologies
+	- ila Ibrahimは、AIが物質科学や生物学に革命をもたらし、新しい材料やタンパク質の発見に貢献していると述べた。
 
 ## 1/15
 
@@ -4119,14 +4120,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - llamaindexのKnowledge Graphインデクス機能が大幅にパワーアップ？
 - https://github.com/jerryjliu/llama_index/blob/main/docs/examples/index_structs/knowledge_graph/NebulaGraphKGIndexDemo.ipynb
 - 欠損値を平均値を代入するというプラクティスが議論に、
-	- 問題ないという人もいるが、問題ないならそもそも除外しても同じなのでは？
-	- https://twitter.com/kenken26679105/status/16672888
+	- 問題ないという人もいるが、問題ないならそもそも除外し
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTM5NDc4MCw1ODEzODc3ODksLTk3NT
-U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
-LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
-AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
-MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
-AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
-NDAzMjddfQ==
+eyJoaXN0b3J5IjpbMTgyMzU2MTU0LDU4MTM4Nzc4OSwtOTc1NT
+Y4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUs
+MTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMD
+E1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEz
+LC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMD
+M3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0
+MDMyN119
 -->
