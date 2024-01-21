@@ -3,6 +3,8 @@
 
 ## 1/21
 
+今週はDavos会議があって、
+
 - HachiMLさんが公開されているyouri-2x7b_v0.2のgguf
 	- https://huggingface.co/mmnga/HachiML-youri-2x7b_v0.2-gguf
 	- This model is a Mixture of Experts (MoE) merger of the following two models:
@@ -4098,9 +4100,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 
 ## 6/19
 
-今週は、6/12日にCEOの慶応大学での講演。OpenAIのAPIのアップデートの話題がありました。トークン数の拡大（青空文庫の短編クラスなら取り扱える）とか、Function callの追加。これで、LangChainのReActエージェントを使わなくても、OpenAI Agentで外部ツールとLLMが連携したソリューションが手軽に作れるようになるのは恐ろしいこと。品質評価の視点では、OpenAI Evalとかの話題も。欧州ＡＩ規制が、欧州議会の投票で採択され、次の段階（トリ
+今週は、6/12日にCEOの慶応大学での講演。OpenAIのAPIのアップデートの話題がありました。トークン数の拡大（青空文庫の短編クラスなら取り扱える）とか、Function callの追加。これで、LangChainのReActエージェントを使わなくても、OpenAI Agentで外部ツールとLLMが連携したソリューションが手軽に作れるようになるのは恐ろしいこと。品質評価の視点では、OpenAI Evalとかの話題も。欧州ＡＩ規制が、欧州議
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY0NTM1MDYsMTY5NzQ1NzU5MSw1OD
+eyJoaXN0b3J5IjpbLTE5NTA0Mzc2MzAsMTY5NzQ1NzU5MSw1OD
 EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
 NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
 E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
