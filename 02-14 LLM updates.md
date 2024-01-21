@@ -66,7 +66,9 @@
 - マイクロソフトCopilot Proを発表
 	- https://x.com/satyanadella/status/1747000699664429075?s=20
 	- Office３６５向けのcopiloの機能が、個人でも使えるようになる。3,200円/月
-	- 
+	- Office365/w copilotの利用以外に、GPT-4 および GPT-4 Turboへの優先的な割り当て
+	- Copilot GPT Builder（近日公開予定）で、特定のトピックに合わせてカスタマイズされた独自のCopilot GPTを作成可能
+	- 期待する声もたくさん上がるも、がっかりする声も多数
 
 ## 1/15
 
@@ -4118,16 +4120,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 壁のためのAIと卵のためのAI
 	- JSAI2023での学生企画、卵のためのAIになりたい。
 	- https://speakerdeck.com/yukinobaba/ai-for-wall-and-ai-for-egg
-- 松尾研による、「基盤モデルの技術と展望」
-	- GPT-3など基盤モデルの技術的な動向について、数多くの文献をもとに整理されている
-	- https://speakerdeck.com/yusuke0519/jsai2023-tutorial-ji-pan-moderunoji-shu-tozhan-wang
-- 状態空間モデルを活
+- 松尾研による、「基盤
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDEzNDU4NSw1ODEzODc3ODksLTk3NT
-U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
-LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
-AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
-MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
-AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
-NDAzMjddfQ==
+eyJoaXN0b3J5IjpbMzMzMTY1NjAwLDU4MTM4Nzc4OSwtOTc1NT
+Y4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUs
+MTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMD
+E1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEz
+LC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMD
+M3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0
+MDMyN119
 -->
