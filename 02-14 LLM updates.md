@@ -86,7 +86,13 @@
 	- 2. In the text-to-SQL prompt (or auto-retrieval prompt), add *few shot examples of rows*: given the first k rows in the prompt, retrieve the top-k rows matching the user query.
 	- 3. Execute text-to-SQL prompt (or auto-retrieval prompt) to infer the right query (SQL or metadata filters).
 	- 4. Execute query to get back result.
-- 
+- 生成AIの業界団体「Generative AI Japan」発足　ベネッセが発起　マイクロソフト、AWS、Google、オラクルなどの幹部が理事に
+	- https://x.com/itmedia_news/status/1747490194486632764?s=20
+- Can AI Be as Creative as Humans?"
+	- https://arxiv.org/abs/2401.01623
+	- 「AIは人間と同じくらいクリエイティブになれるのか？」というテーマで、DeepMind・Microsoft・スタンフォード大学などが共同で研究しています。
+	- 『AIが創り出した作品が人間のそれと見分けがつかなくなったら、AIはクリエイティブだと言える』
+	- 
 
 ## 1/15
 
@@ -4106,14 +4112,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://docs.gpt4all.io/gpt4all_chat.html
 - どうやらパラメータ数130億(13B)でChatGPT(GPT-3.5)クラスの性能が出せることがMSから発表
 	- https://huggingface.co/papers/2306.02707
-- こんどはProteinChat、構造があれば何でもよいのか。。
-	- ProteinChat: Towards Achieving ChatGPT-Like Functionalities on Protein 3D Structures
-	- https://www.techrxiv.org/articles/preprint/ProteinChat_Towards_Achieving_ChatGPT-Like_Functionalities_on_Protein_3D_Structures/23120606/1
-- 確率的熱力学に経済学のツールを用いることで、熱力学と情報理論の間の相互作用について定量的に調べた
-	- https://arxiv.org/abs/2306.00449
-- 「大規模言語モデル入門」７月２
+- こんどはProteinChat、構造があれば何
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzQ5ODM0Nyw1ODEzODc3ODksLTk3NT
+eyJoaXN0b3J5IjpbLTIyNDM4MTg1OCw1ODEzODc3ODksLTk3NT
 U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
 LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
 AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
