@@ -121,7 +121,12 @@
 	- https://arxiv.org/abs/2312.14187
 	- Introduce WaveCoder-Ultra-6.7B with the closest capabilities to GPT-4 so far.
 	- WaveCoder-Ultra-6.7B is the newest SOTA open-source Code LLM on multiple tasks.
-- 
+- LangGraphの説明ブログが公開
+	- https://blog.langchain.dev/langgraph/
+	- We previewed LangGraph last week, but excited to dive a lot more into why we're building this, the details of what it looks like, and some more examples
+- Foundations of Vector Retrieval
+	- https://arxiv.org/abs/2401.09350
+	- This 185-page monograph provides a summary of major algorithmic milestones in the vector retrieval literature, with the goal of serving as a self-contained reference for new and established researchers.
 
 ## 1/15
 
@@ -4098,24 +4103,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://twitter.com/llama_index/status/1668995628146257921?s=20
 - 「関数データ解析の概要とその方法」滋賀大学、松井先生
 	- https://speakerdeck.com/hidetoshimatsui/guan-shu-detajie-xi-nogai-yao-tosonofang-fa
-	- デーサイエンスで習う、回帰、クラスタリング、などのすべてが、データを関数として取り扱う枠組みで、再構成されている。なんともすがすがしいスライド。夏休みのお供に！
-- 機械学習サービスにおけるONNXの活用と応用　〜ONNXテキスト形式の拡張〜
-	- https://www.sportip.jp/blogs/onnx
-	- やっぱり、ONNXにして、WebGPUつかって、ブラウザで動か用になるのね、
-- Rinna-3.6B で 文脈付きの質問応答 を試す npakaさん記事より
-	- https://note.com/npaka/n/n3bb60c61ef94
-	- 「JSQuAD」は文脈付きの質問応答タスクで、53.42と半分以上正解
-- 欧州AI規制に、現状のLLMはどれぐらい対応できているかのベンチマーク(スタンフォード題）
-	- https://crfm.stanford.edu/2023/06/15/eu-ai-act.html
-	- 現状特に著作権保護学習データ開示等が行われていないこと、DSA的透明性確保の非対称規制提言など
-	- すごすぎでしょう。
-- 知識グラフのLLMの統合についてのロードマッ
+	- デーサイエンスで習う、回帰、クラスタリング、な
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NT
-U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
-LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
-AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
-MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
-AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
-NDAzMjddfQ==
+eyJoaXN0b3J5IjpbLTIwODUyNDkzMjQsMTY5NzQ1NzU5MSw1OD
+EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
+NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
+E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
+NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMT
+A2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3
+MTY2NTJdfQ==
 -->
