@@ -3,7 +3,7 @@
 
 ## 1/21
 
-今週はDavos会議があって、われらのアルトマンも登場、GPT-5について言及。メタは2万人レイオフして35万台のH100を買い、llama3を絶賛開発中。GeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊か。MoEも今週もにぎやか、圧縮して小メモリ化するようなアプローチとか、youri-2x7bのggufが
+今週はDavos会議があって、われらのアルトマンも登場、GPT-5について言及。メタは2万人レイオフして35万台のH100を買い、llama3を絶賛開発中。GeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊か。MoEも今週もにぎやか、圧縮して小メモリ化するようなアプローチとか、youri-2x7bのggufがでたり。長尺256KのOSSのLLMも登場。
 
 - HachiMLさんが公開されているyouri-2x7b_v0.2のgguf
 	- https://huggingface.co/mmnga/HachiML-youri-2x7b_v0.2-gguf
@@ -4101,13 +4101,12 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 
 ## 6/19
 
-今週は、6/12日にCEOの慶応大学での講演。O
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTM2MTk5NywxNjk3NDU3NTkxLDU4MT
-M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
-Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
-c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
-LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
-YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
-NjY1Ml19
+eyJoaXN0b3J5IjpbLTE3NzM3NjYxMTMsMTY5NzQ1NzU5MSw1OD
+EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
+NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
+E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
+NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMT
+A2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3
+MTY2NTJdfQ==
 -->
