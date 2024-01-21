@@ -92,7 +92,14 @@
 	- https://arxiv.org/abs/2401.01623
 	- 「AIは人間と同じくらいクリエイティブになれるのか？」というテーマで、DeepMind・Microsoft・スタンフォード大学などが共同で研究しています。
 	- 『AIが創り出した作品が人間のそれと見分けがつかなくなったら、AIはクリエイティブだと言える』
-	- 
+	- AIの創造性を具体的な数値で評価したい →フレームワークを作成
+- ELYZAが公開した日本語LLM「ELYZA-japanese-Llama-2-7b」についての解説 : (3) 英語での性能評価編
+	- https://zenn.dev/elyza/articles/ab3749de0ba58b
+	- **追加学習の過程で、元のモデルが持っていた能力がどの程度失われてしまうのか**という点
+	- 結果：
+		- 英語モデルの日本語化における一定の英語性能の劣化は共通してみられるようです
+		- 日本語化したモデルは日本語のデータでのSFTにより、英語での指示追従能力を一定取り戻している
+		- 
 
 ## 1/15
 
@@ -4108,17 +4115,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 「rinna」の日本語言語モデルを試用、メモリ32GBあればCPUだけでも動くぞ！
 	- https://internet.watch.impress.co.jp/docs/column/shimizu/1503707.html
 - GPT4ALL周りのソフトは、ggML準拠のモデルならば、gpt4allでなくても動くようになった！
-	- The GPT4All Chat UI supports models from all newer versions of `ggML`, `llama.cpp` including the `LLaMA`, `MPT` and `GPT-J` architectures. T
-	- https://docs.gpt4all.io/gpt4all_chat.html
-- どうやらパラメータ数130億(13B)でChatGPT(GPT-3.5)クラスの性能が出せることがMSから発表
-	- https://huggingface.co/papers/2306.02707
-- こんどはProteinChat、構造があれば何
+	- The GPT4Al
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDM4MTg1OCw1ODEzODc3ODksLTk3NT
-U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
-LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
-AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
-MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
-AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
-NDAzMjddfQ==
+eyJoaXN0b3J5IjpbNzA4MDYyNzYyLDU4MTM4Nzc4OSwtOTc1NT
+Y4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUs
+MTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMD
+E1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEz
+LC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMD
+M3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0
+MDMyN119
 -->
