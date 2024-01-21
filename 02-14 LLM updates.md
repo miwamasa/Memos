@@ -162,17 +162,16 @@
 		- 1) Expertをさらに細かくし64に増やすと共に選択されるExpert数も8に増やす 
 		- 2) 共有知識を使えるよう常に選択されるExpertを用意。デバイス毎の負荷分散を重視し実行効率をあげる。
 		-  同じ計算量のDenseや従来MoEに対し性能を改善
-- llma3の開発とオープンソース化に関して
+- llma3の開発とオープンソース化に関してザッカーバーグのビデオメッセージが出回る
 	- https://twitter.com/i/status/1748058491343061458
 	- 年内に35万台のH100を活用可能インフラを構築
 	- H100相当品も含めると60万台のH100に匹敵 
 	- メタは一般的な知能を構築し、オープンソース化し、みんなに利用できるようにするという長期的な目標のために、2つのAI研究プロジェクトを統合すると発表した。
 	- 次世代のサービスには、推論、計画、コーディング、記憶などのAIの各分野での進歩が必要であると述べた。
-- この技術は非常に重要であり、機会も大きいので、責任を持ってオープンソース化し、できるだけ広く利用できるようにするべきだと主張した。[00:00:45][^3^][3]
-- 今年末までに、約35万台のNvidia H100 GPUを搭載した巨大なコンピューティングインフラストラクチャを構築すると発表した。[00:00:57][^4^][4]
-- 現在、Llama 3というモデルをトレーニングしており、今後も責任を持って安全にトレーニングを続けると述べた。[00:01:10][^5^][5]
-- AIとメタバースは密接に関連しており、将来的には多くの人がAIと会話するためにメガネを使うだろうと予測した。[00:01:21][^6^][6]
-- Rayband Meta GlassesはメタAIとともに非常に好調なスタートを切ったと発表した。[00:01:41][^7^][7]
+	- この技術は非常に重要であり、機会も大きいので、責任を持ってオープンソース化し、できるだけ広く利用できるようにするべきだと主張した。
+	- 今年末までに、約35万台のNvidia H100 GPUを搭載した巨大なコンピューティングインフラストラクチャを構築すると発表した。
+	- 現在、Llama 3をトレーニングしており、今後も責任を持って安全にトレーニングを続ける
+	- AIとメタバースは密接に関連しており、将来的には多くの人がAIと会話するためにメガネを使うだろうと予測した。
 - Connect to Sheets and use the Gemini API in Colab to tell Gemini about your most promising prospects and prepare personalized sales pitches to sell what you are good at - in this case, delicious lemonade.
 	- https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/Sell_lemonade_with_Gemini_and_Sheets.ipynb
 	- GeminiとGoogle Sheetsを使ったセールスピッチ生成の例
@@ -4085,11 +4084,11 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - local llmでsentence embeddingどれ使えば良いんだっけ
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTc4MTg0MywxNjkxNzE4MTczLC01OD
-k1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4Nzc4
-OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1Nj
-QxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3
-MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xOD
-U2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4
-ODEyXX0=
+eyJoaXN0b3J5IjpbLTIwNTU0NDE0NDksMTY5MTcxODE3MywtNT
+g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
+ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNT
+Y0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3
+NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMT
+g1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAy
+ODgxMl19
 -->
