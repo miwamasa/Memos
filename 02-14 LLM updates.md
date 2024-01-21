@@ -3,7 +3,7 @@
 
 ## 1/21
 
-今週はDavos会議があって、われらのアルトマンも登場、GPT-5について言及。メタは2万人レイオフして35万台のH100を買い、llama3を絶賛開発中。GeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊か。MoEも今週もにぎやか、圧縮して小メモリ化するようなアプローチとか、youri-2x7bのggufがでたり。長尺256KのOSSのLLMも登場。小規模LLMむけの人工生成学習用モデルtiny-textbookシリーズもそろてきて、小規模LLMの開発も進む。手が届くところではnanoGPTの源氏物語の適用例は楽しそう。小規模LLMを集めてと優れたAIを作るという意味では、sakanaiが華々しく45億円もの投資を調達し、googleなどのスーパー研究者が終結して楽しそう。Microsoftはcoliplot proをリリース、GPT-4 TurboにもアクセスできるしOffice 365 copilotも使えるしお得かも、一方がっかりしたというファーストユーザーの意見もちらほら。
+今週はDavos会議があって、われらのアルトマンも登場、GPT-5について言及。メタは2万人レイオフして35万台のH100を買い、llama3を絶賛開発中。NVIDIAがCESで発表したGeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊か。MoEも今週もにぎやか、圧縮して小メモリ化するようなアプローチとか、youri-2x7bのggufがでたり。小規模LLMむけの人工生成学習用モデルtiny-textbookシリーズもそろてきて、小規模LLMの開発も進む。手が届くところではnanoGPTの源氏物語の適用例は楽しそう。小規模LLMを集めてと優れたAIを作るという意味では、sakanaiが華々しく45億円もの投資を調達し、googleなどのスーパー研究者が終結して楽しそう。長尺256KのOSSのLLMも登場。Microsoftはcoliplot proをリリース、GPT-4 TurboにもアクセスできるしOffice 365 copilotも使えるしお得かも、一方がっかりしたというファーストユーザーの意見もちらほら。
 
 - HachiMLさんが公開されているyouri-2x7b_v0.2のgguf
 	- https://huggingface.co/mmnga/HachiML-youri-2x7b_v0.2-gguf
@@ -4094,13 +4094,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- LLMを使ってプランニングを必要とするタスクを解く際、現在の状態をLLMを使って把握するようにして(「世界モデル」)、取るべき行動に対する報酬をLLMを使って見積もった上でモンテカルロ木探索によって行動を決定する手法(RAP; Reasoning via Planning)
 	- https://arxiv.org/abs/2305.14992
 - OpenAIのCookbookにllama_indexをつかった、文書分析の例が載る
-	- https://githu
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTYyODc2NDEsMTY5NzQ1NzU5MSw1OD
-EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
-NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
-E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
-NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMT
-A2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3
-MTY2NTJdfQ==
+eyJoaXN0b3J5IjpbLTIxMDc0NzcwOCwxNjk3NDU3NTkxLDU4MT
+M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
+Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
+c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
+LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
+YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
+NjY1Ml19
 -->
