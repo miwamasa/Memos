@@ -155,11 +155,18 @@
 		- 2) 共有知識を使えるよう常に選択されるExpertを用意。デバイス毎の負荷分散を重視し実行効率をあげる。
 		-  同じ計算量のDenseや従来MoEに対し性能を改善
 - llma3のオープンソースでの開発発表(ダボス会議）に関して
+	- llama3は作成中
+	- 年内に35万台のH100を活用可能インフラを構築
+	- H100相当品も含めると60万台のH100に匹敵 
+	- 汎用知能を構築し、そのオープンソース化を目指す
 	- ザッカーバーグはメタのAI研究部門のFAIRをAIアプリ開発部門のGenAIとくっ付けたらしい。つまりAI研究の成果が直結してアプリに実装されるようになるんだろう。
 	- https://x.com/umiyuki_ai/status/1748296867472109733?s=20
 - Connect to Sheets and use the Gemini API in Colab to tell Gemini about your most promising prospects and prepare personalized sales pitches to sell what you are good at - in this case, delicious lemonade.
 	- https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/Sell_lemonade_with_Gemini_and_Sheets.ipynb
 	- GeminiとGoogle Sheetsを使ったセールスピッチ生成の例
+- 5%ぐらい？をChatGPT（生成AI）で書いたという芥川賞を受賞
+	- https://x.com/yukatan/status/1747957984104480891?s=20
+	- AIに執筆させてみたというレベルの話ではなくて、スマホでググるみたいにAIに質問するのが当たり前になると世界がどう変わり得るかを文学的に表現しています。時代を刻む作品だわ
 - 
 
 ## 1/15
@@ -4095,18 +4102,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://publications.jrc.ec.europa.eu/repository/handle/JRC129900
 - GPTにFunction Callが追加
 	- 出力の整形とか、あるいは、自然言語から、関数のAPI呼び出しを作ったりとか、つまり、LangChainでいうところのAgentが簡単にできるようになる。。
-	- https://openai.com/blog/function-calling-and-other-api-updates
-- CV（コンピュータビジョン）の最新刊は、生成AI、巻頭言がよかったとのこと
-	- https://www.amazon.co.jp/dp/B0C6JW6T6B?ref_=cm_sw_r_cp_ud_dp_Q44X6Q8W7NPXKP46168A
-	- イマドキノ拡散モデル：拡散モデルに関する最近の研究動向を紹介。基本技術、条件付き生成への拡張、生成の高速化について述べ、拡散モデルを学ぶうえで役立つリソースを紹介。
-- OpenAIのモデルを評価するフレームワークEval
-	- https://githu
+	- https://openai.com/blog/function-calli
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDQ4NzcyLDE2OTc0NTc1OTEsNTgxMz
-g3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYz
-LDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNz
-Y0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUs
-LTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNj
-MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
-NjUyXX0=
+eyJoaXN0b3J5IjpbLTEzNTgzMjMwNjEsMTY5NzQ1NzU5MSw1OD
+EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
+NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
+E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
+NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMT
+A2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3
+MTY2NTJdfQ==
 -->
