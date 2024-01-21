@@ -194,6 +194,13 @@
 	- https://github.com/intel/neural-speed
 - Google DeepMind researchers are in talks to leave and form a new startup named 'Holistic'. They want to build their own AI model.
 	- https://x.com/AndrewCurran_/status/1748419941672616324?s=20
+- 【新刊】「多様体上の最適化理論」
+	- https://www.ohmsha.co.jp/book/9784274231186/
+	- 本書は、多様体上の最適化理論について、基礎となる数理から応用例までを解説するものです。  
+	- 多様体上の最適化を学ぶ、あるいは研究する読者は  
+		- ユークリッド空間上の連続最適化をひととおり学んだ後、その抽象化の仕方の一つとして多様体上への拡張について学ぶ  
+		- 多様体をはじめとした幾何学に慣れ親しんだ読者が、そうした理論の最適化への応用について学ぶ  
+		- 最適化と幾何学の知識をもつ読者が、両者の融合について学ぶ
 
 ## 1/15
 
@@ -4091,17 +4098,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 
 ## 6/19
 
-今週は、6/12日にCEOの慶応大学での講演。OpenAIのAPIのアップデートの話題がありました。トークン数の拡大（青空文庫の短編クラスなら取り扱える）とか、Function callの追加。これで、LangChainのReActエージェントを使わなくても、OpenAI Agentで外部ツールとLLMが連携したソリューションが手軽に作れるようになるのは恐ろしいこと。品質評価の視点では、OpenAI Evalとかの話題も。欧州ＡＩ規制が、欧州議会の投票で採択され、次の段階（トリローグ）を経て年内に成立か。さっそくスタンフォード大学のHAIチームが、既存LLMの規制への対応状況をベンチマーク。データサイエンス系の型は、関数データ解析などは目からうろこではないか。ベイズ派と頻度派の争いには巻き込まれたくないもの。知識グラフとLLMの融合も、整理された論文が出てきた。
-
-- 「OpenAI CEO Sam Altman氏と塾生との対話」開催(6/12)
-	- https://www.keio.ac.jp/ja/news/2023/6/15/27-139184/
-	- 会場となった西校舎ホールには約700名の学生が集まり、約40分にわたり活発な質疑応答が
+今週は、6/12日にCEOの慶応大学での講演。OpenAIのAPIのアップデートの話題がありました。トークン数の拡大（青空文庫の短編クラスなら取り扱える）とか、Function callの追加。これで、LangChainのReActエージェントを使わなくても、OpenAI Agentで外部ツールとLLMが連携したソリューションが手軽に作れるようになるのは恐ろしいこと。品質評価の視点では、OpenAI Evalとかの話題も。欧州ＡＩ規制が、欧州議会の投票で採択され、次の段階（トリ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Mjc4OTI3MSwxNjk3NDU3NTkxLDU4MT
-M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
-Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
-c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
-LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
-YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
-NjY1Ml19
+eyJoaXN0b3J5IjpbLTE3MTY0NTM1MDYsMTY5NzQ1NzU5MSw1OD
+EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
+NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
+E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
+NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMT
+A2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3
+MTY2NTJdfQ==
 -->
