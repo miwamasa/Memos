@@ -71,9 +71,11 @@
 	- 期待する声もたくさん上がるも、がっかりする声も多数
 - nampdn-ai/tiny-strange-textbooks
 	- https://huggingface.co/datasets/nampdn-ai/tiny-strange-textbooks
-	- 人工的に生成された小型のLLM(phiなんか
+	- 人工的に生成された小型のLLM(phiなんか）用の学習データセット
 	-  Textbooks Are All You Need II: phi-1.5 technical report
-	- 
+	- https://arxiv.org/abs/2306.11644
+- Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy
+	- https://arxiv.org/abs/2310.01334
 
 ## 1/15
 
@@ -4117,16 +4119,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - Googleの「Bard」が「暗黙的なコード実行」を導入、文字列の操作や論理・推論を含む複雑なタスクに対する回答精度が向上
 	- やっぱBardやるね。
 	- https://gigazine.net/news/20230608-google-bard-implicit-code-execution/
-- Large Language Models are In-Context Semantic Reasoners rather than Symbolic Reasoners
-	- https://arxiv.org/abs/2305.14825
-- 東芝福本氏による、製造業で生成AIはどんな役割を果たすのか？ ドイツで見たMSやシーメンスらの取り組み
-	
+- Large Language Mo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzg3NjQwNyw1ODEzODc3ODksLTk3NT
-U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
-LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
-AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
-MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
-AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
-NDAzMjddfQ==
+eyJoaXN0b3J5IjpbMTA4MzI0MTQ2LDU4MTM4Nzc4OSwtOTc1NT
+Y4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUs
+MTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMD
+E1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEz
+LC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMD
+M3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0
+MDMyN119
 -->
