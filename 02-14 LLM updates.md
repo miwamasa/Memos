@@ -185,6 +185,13 @@
 	- Up to 2.5x faster LLM inference
 	- Optimized SplitFuse and token sampling
 	- Exciting new features like RESTful API and more!
+- 心理学ワールド104号の特集「空間認知の科学 最前線」
+	- https://psych.or.jp/publication/world104/
+- Fair Machine Guidance to Enhance Fair Decision Making in Biased People
+	- https://x.com/yukino/status/1748481134558896432?s=20
+	- 私たちの論文「Fair Machine Guidance to Enhance Fair Decision Making in Biased People」が #CHI2024 に条件付き採択されました！ 人間の判断が不公平に偏る問題に対処するため、公平性配慮型機械学習による公平モデルを用いて、人々がより公平な判断を下せるようガイドしました！
+- Neural Speed + ONNX Runtime makes LLM inference more efficient on CPUs!
+	- https://github.com/intel/neural-speed
 
 ## 1/15
 
@@ -4090,23 +4097,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 「二つの分散:不偏推定量と最尤推定量のどち らを使うべきか」井手さん(IBM)
 	- 頻度派に対する執拗な攻撃は続く。。
 	- https://ide-research.net/book/Which_variance_should_I_use.pdf
-	-  データサイエンスの本質をひと言で答えろと言われたら、「観 測データに対してもっとも当てはまりの良いモデルをつくるために、最尤推 定を使ってパラメターを決めること」と答えればよい」
--  Evaluating the Social Impact of Generative AI Systems in Systems and Society
-	- https://huggingface.co/papers/2306.05949
-- 「見たくないものをみる」（PFNの丸山さん）
-	- https://note.com/hiroshi_maruyama/n/n7890a1fb7aef
-	- 新たな倫理規範の確立について
-	- 「人間中心のAI」に違和感を抱き、「人間が（知能の面で）万物の霊長でないかもしれない」という「都合の悪い真実」を直視すべきという話
-- 「デジタル庁のサイトやばすぎる」
-	- https://qiita.com/mu_tomoya/items/f78f1fad3a8b57ac7dc3
-	- やばいくらい参考になるらしい。
--  米OpenAIのCEO「AIはさらに賢く」　慶大で意
+	-  データサイエンスの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDk5ODcxMiwxNjk3NDU3NTkxLDU4MT
-M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
-Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
-c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
-LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
-YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
-NjY1Ml19
+eyJoaXN0b3J5IjpbOTIxNDk1OTMwLDE2OTc0NTc1OTEsNTgxMz
+g3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYz
+LDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNz
+Y0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUs
+LTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNj
+MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
+NjUyXX0=
 -->
