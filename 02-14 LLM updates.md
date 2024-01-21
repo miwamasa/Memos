@@ -69,7 +69,11 @@
 	- Office365/w copilotの利用以外に、GPT-4 および GPT-4 Turboへの優先的な割り当て
 	- Copilot GPT Builder（近日公開予定）で、特定のトピックに合わせてカスタマイズされた独自のCopilot GPTを作成可能
 	- 期待する声もたくさん上がるも、がっかりする声も多数
-- 
+- nampdn-ai/tiny-strange-textbooks
+	- https://huggingface.co/datasets/nampdn-ai/tiny-strange-textbooks
+	- 人工的に生成された小型のLLM(phiなんか
+	-  Textbooks Are All You Need II: phi-1.5 technical report
+	- 
 
 ## 1/15
 
@@ -4116,14 +4120,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - Large Language Models are In-Context Semantic Reasoners rather than Symbolic Reasoners
 	- https://arxiv.org/abs/2305.14825
 - 東芝福本氏による、製造業で生成AIはどんな役割を果たすのか？ ドイツで見たMSやシーメンスらの取り組み
-	- ハノーバーメッセでの展示の現地報告は貴重だ
-	- https://www.sbbit.jp/article/st/115632
-- 壁のためのAIと卵のためのAI
-	- JSAI2023での学生企画、卵のためのAIになりたい。
-	- https://speakerdeck.com/yukinobaba/ai-for-wall-and-ai-for-egg
-- 松尾研による、「
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Mzc3OTM3NSw1ODEzODc3ODksLTk3NT
+eyJoaXN0b3J5IjpbLTUzNzg3NjQwNyw1ODEzODc3ODksLTk3NT
 U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
 LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
 AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
