@@ -72,6 +72,7 @@
 	- Office365/w copilotの利用以外に、GPT-4 および GPT-4 Turboへの優先的な割り当て
 	- Copilot GPT Builder（近日公開予定）で、特定のトピックに合わせてカスタマイズされた独自のCopilot GPTを作成可能
 	- 期待する声もたくさん上がるも、がっかりする声も多数
+- https://note.com/lifeprompt/n/n87f4d5510100?sub_rt=share_h
 - nampdn-ai/tiny-strange-textbooks
 	- https://huggingface.co/datasets/nampdn-ai/tiny-strange-textbooks
 	- 人工的に生成された小型のLLM(phiなんか）用の学習データセット
@@ -4082,14 +4083,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://huggingface.co/conceptofmind/Flan-Open-Llama-7b
 - 第2回LLM勉強会
 	- https://llm-jp.nii.ac.jp/llm/2023/06/20/study-group-2.html
-- local llmでsentence embeddingどれ使えば良いんだっけ
-	
+- local llmでse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4NDQzNTE0LC0xODg4MDQwNjAyLDE2OT
-E3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OTc0NTc1
-OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNz
-Q0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2
-NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgxLC03OD
-YzMjY2ODUsLTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIy
-MDIzXX0=
+eyJoaXN0b3J5IjpbLTcyNDczOTU3Niw2Njg0NDM1MTQsLTE4OD
+gwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkx
+MDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMT
+AxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2
+MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNj
+kwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUxMywtMTA4Mzg4
+MDUzOV19
 -->
