@@ -127,6 +127,11 @@
 - Foundations of Vector Retrieval
 	- https://arxiv.org/abs/2401.09350
 	- This 185-page monograph provides a summary of major algorithmic milestones in the vector retrieval literature, with the goal of serving as a self-contained reference for new and established researchers.
+	- LLM時代のコンテンツのベクトル化と検索についてのサーベイであり包括論文
+- A Cheat Sheet and Some Recipes For Building Advanced RAG
+	- https://blog.llamaindex.ai/a-cheat-sheet-and-some-recipes-for-building-advanced-rag-803a9d94c41b
+- 米Metaが1万人の追加レイオフ、5000人の採用も中止
+	- 
 
 ## 1/15
 
@@ -4099,13 +4104,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- Grounded GenerationサービスVectara、LLMホスティングサービスBeam、SQLiteでベクトルDB検索が可能になるsqlite-vss、PostgreSQLのベクトル検索拡張pgvector、LangChain AI Handbookの話
 - OpenAIのFunction Callをつかうと、LangChainのReAct Agentのようなこともできるという話（すげー、というか、エコシステム壊してないか？？？）
 	- https://github.com/jerryjliu/llama_index/blob/main/docs/examples/agent/openai_agent.ipynb
-	- llma_indexには、openai agentが組み込まれる予定らしい。
-	- https://twitter.com/llama_index/status/1668995628146257921?s=20
-- 「関数データ解析の概要とその方法」滋賀大学、松井先生
-	- https://speakerdeck.com/hidetoshimatsui/guan-shu-detajie-xi-nogai-yao-tosonofang-fa
-	- デーサイエンスで習う、回帰、クラスタリング、な
+	- llma_indexには、o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODUyNDkzMjQsMTY5NzQ1NzU5MSw1OD
+eyJoaXN0b3J5IjpbLTE3MjAzMTgzMjcsMTY5NzQ1NzU5MSw1OD
 EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
 NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
 E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
