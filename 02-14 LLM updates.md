@@ -113,6 +113,7 @@
 	- An Olympiad-level AI system for geometry
 	- AI system surpasses the state-of-the-art approach for geometry problems, advancing AI reasoning in mathematics
 	- AlphaGeometry は、ニューラル言語モデルと記号演繹エンジンで構成される神経記号システムであり、これらが連携して複雑な幾何学定理の証明を見つける
+	- 「LLMと演繹エンジンとの組み合わせ」
 - Accelerating the prediction of stable materials with machine learning
 	- https://www.nature.com/articles/s43588-023-00536-w
 	- 機械学習による材料の安定性予測に関するレビュー論文
@@ -152,6 +153,9 @@
 		- 1) Expertをさらに細かくし64に増やすと共に選択されるExpert数も8に増やす 
 		- 2) 共有知識を使えるよう常に選択されるExpertを用意。デバイス毎の負荷分散を重視し実行効率をあげる。
 		-  同じ計算量のDenseや従来MoEに対し性能を改善
+- llma3のオープンソースでの開発発表(ダボス会議）に関して
+	- ザッカーバーグはメタのAI研究部門のFAIRをAIアプリ開発部門のGenAIとくっ付けたらしい。つまりAI研究の成果が直結してアプリに実装されるようになるんだろう。
+	- https://x.com/umiyuki_ai/status/1748296867472109733?s=20
 
 ## 1/15
 
@@ -4098,18 +4102,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.ipa.go.jp/digital/architecture/Individual-link/ps6vr7000001x8o0-att/smartbuilding_guideline_appendix.pdf
 - 最近引退されたMITのストラング先生の、"Ther Art of Linear Algebra"の和訳、たった１４P、全理系は涙して読むべし
 	- 「行列5分解」「行列の世界」「固有値地図」の視覚的解説
-	- https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra/blob/main/The-Art-of-Linear-Algebra-j.pdf
-- GTP-calls:コールセンターの会話を分析するアプリ、マイクロソフト
-	- https://arxiv.org/abs/2306.07941
-- シンボリック回帰と深層学習を組み合わせることで、データから方程式を見つける。
-	- https://arxiv.org/abs/2207.00529
-- GPT3.5 APIのアプ
+	- https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra/blob/ma
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4NTgxMjA0LDE2OTc0NTc1OTEsNTgxMz
-g3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYz
-LDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNz
-Y0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUs
-LTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNj
-MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
-NjUyXX0=
+eyJoaXN0b3J5IjpbLTEyNzEwODMzNjcsMTY5NzQ1NzU5MSw1OD
+EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
+NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
+E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
+NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMT
+A2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3
+MTY2NTJdfQ==
 -->
