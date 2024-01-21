@@ -142,7 +142,11 @@
 	- グラフを文字列に変換しTransformerで学習するGraphGPTを提案、従来のGNNでは難しい400Mパラメータで事前学習モデル構築、これを微調整することで分子物性を高精度に予測できたそうです。
 - LLMマルチエージェントを俯瞰する
 	- https://speakerdeck.com/masatoto/llmmarutiezientowofu-kan-suru
-	- 
+	- 文献の内容をもっと深掘りしたら普通に出版できるレベルだわこれ
+-  Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering
+	- https://arxiv.org/abs/2401.08500
+	- The paper proposes AlphaCodium, a code-oriented iterative flow that improves LLMs on code generation.
+- # DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
 
 ## 1/15
 
@@ -4098,17 +4102,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- 青空文庫のちょっとした短編ならば、分析が可能になったレベルらしい
 	- https://note.com/mahlab/n/n99577fabf16e
 - GPTでのfunction callの良例
-	- https://gist.github.com/hotchpotch/364cb8ae188e40f4e9ff1273232bc918
-- OpenAI API の 関数呼び出し を試す、npakaさんの記事
-	- **外部APIを呼び出して質問に答えるチャットボットの作成**
-	- **自然言語をAPI呼び出しに変換**
-	- **テキストから構造化データを抽出**
-	- https://note.com/npaka/n/n917463f55b8a
-- 欧州AI規制における、生成モデル、一般目的AIに対する義務事項
-	- https://www.europarl.europa.eu/news/en/press-room/20230609IPR96212/meps-ready-to-negotiate-first-ever-rules-for-safe-and-transparent-ai
-	- ban on 
+	- https://gist.github.com/hotchpotch/364cb8ae188e40f4e9ff1273232bc9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTEwODExNSwxNjk3NDU3NTkxLDU4MT
+eyJoaXN0b3J5IjpbLTkyMzY3MjI0OSwxNjk3NDU3NTkxLDU4MT
 M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
 Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
 c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
