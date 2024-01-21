@@ -57,7 +57,7 @@
 	- Blending、Merging、Stackingなどの技術を今後30-70bモデルに適用していき、今後2-3ヶ月以内にGPT4に近い戻るが得られるでしょう
 - (RAG)の評価指標マップ
 	- https://x.com/helloiamleonie/status/1747252654047142351?s=20
-	- 
+- DeepMindのCE
 
 ## 1/15
 
@@ -4121,13 +4121,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- 問題ないという人もいるが、問題ないならそもそも除外しても同じなのでは？
 	- https://twitter.com/kenken26679105/status/1667288891949453312?s=20
 - JSAI2023、人の位置情報の時系列をトークン列に置き換えてGPT-2で学習、人の移動軌道を生成する研究
-	- https://confit.atlas.jp/guide/event/jsai2023/subject/
+	- https://confit.atlas.jp/guide/event/jsai202
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMT
-I2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1
-LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MD
-k0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1MTMsLTEwODM4ODA1
-MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLTIwMzc3MjM0NjMsMj
-g4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAzNzQwMzI3LC0yMDQ4
-NzYwMDc4XX0=
+eyJoaXN0b3J5IjpbLTMzMzE2Mjg2NCw1ODEzODc3ODksLTk3NT
+U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
+LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
+AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
+MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
+AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
+NDAzMjddfQ==
 -->
