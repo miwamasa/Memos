@@ -3,7 +3,7 @@
 
 ## 1/21
 
-今週はDavos会議があって、
+今週はDavos会議があって、われらのアルトマンも登場
 
 - HachiMLさんが公開されているyouri-2x7b_v0.2のgguf
 	- https://huggingface.co/mmnga/HachiML-youri-2x7b_v0.2-gguf
@@ -162,7 +162,8 @@
 		- 1) Expertをさらに細かくし64に増やすと共に選択されるExpert数も8に増やす 
 		- 2) 共有知識を使えるよう常に選択されるExpertを用意。デバイス毎の負荷分散を重視し実行効率をあげる。
 		-  同じ計算量のDenseや従来MoEに対し性能を改善
-- llma3のオープンソースでの開発発表(ダボス会議）に関して
+- llma3のオープンソースでの開発発表に関して
+	- https://twitter.com/i/status/1748058491343061458
 	- llama3は作成中
 	- 年内に35万台のH100を活用可能インフラを構築
 	- H100相当品も含めると60万台のH100に匹敵 
@@ -4100,13 +4101,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 
 ## 6/19
 
-今週は、6/12日にCEOの慶応大学での講演。OpenAIのAPIのアップデートの話題がありました。トークン数の拡大（青空文庫の短編クラスなら取り扱える）とか、Function callの追加。これで、LangChainのReActエージェントを使わなくても、OpenAI Agentで外部ツールとLLMが連携したソリューションが手軽に作れるようになるのは恐ろしいこと。品質評価の視点では、OpenAI Evalとかの話題も。欧州ＡＩ規制が、欧州議
+今週は、6/12日にCEOの慶応大学での講演。OpenAIのAPIのアップデートの話題がありました。トークン数の拡大（青空文庫の短編クラスなら取り扱える）とか、Function callの追加。これで、LangChainのReActエージェントを使わなくても、OpenAI Agentで外部ツールとLLMが連携したソリューション
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA0Mzc2MzAsMTY5NzQ1NzU5MSw1OD
-EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
-NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
-E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
-NSwtMTg1NjM0MzUxMywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMT
-A2MzAyODgxMiwtMjAzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3
-MTY2NTJdfQ==
+eyJoaXN0b3J5IjpbLTk2NTEyNjcxMSwxNjk3NDU3NTkxLDU4MT
+M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
+Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
+c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
+LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
+YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
+NjY1Ml19
 -->
