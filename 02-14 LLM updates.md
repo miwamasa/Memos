@@ -60,7 +60,7 @@
 - DeepMindのCEOであるLila Ibrahimがダボス会議2024で語ったこと
 	- https://www.axios.com/2024/01/16/davos-ai-lila-ibrahim-google-deepmind-technologies
 	- ila Ibrahimは、AIが物質科学や生物学に革命をもたらし、新しい材料やタンパク質の発見に貢献していると述べた。
-	- 2018年、「AlphaFoldはうまくいかないアイデアだった」とイブラヒムは語った。彼女はこう付け加えた。"今では（既知の）タンパク質は2億個になりました"。
+	- 2018年、「AlphaFoldは（もともとは）うまくいかないはずのアイデアだった」とイブラヒムは語った。彼女はこう付け加えた。「今では（既知の）タンパク質を2億個みつけるまでになりましたけどね」。
 	- 昨年は、AI開発者たちが互いに協力し合い、政府の協力を得て、技術のリスクを管理することが急速に進んだと彼女は言う。
 	- イブラヒム氏は、若いAIユーザーに技術の倫理的枠組みを教えるのは、インターネットやソーシャルメディアを通じてデジタル化した高齢者世代に教えるよりも簡単だろうと考えている。
 
@@ -4119,9 +4119,8 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://speakerdeck.com/yusuke0519/jsai2023-tutorial-ji-pan-moderunoji-shu-tozhan-wang
 - 状態空間モデルを活用した時系列データのCausalImpact分析
 	- https://speakerdeck.com/stakaya/zhuang-tai-kong-jian-moderuwohuo-yong-sita-shi-xi-lie-detafalsecausalimpactfen-xi
-	- まあ、Rでなくても再現できそ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYzNzExMTcsNTgxMzg3Nzg5LC05Nz
+eyJoaXN0b3J5IjpbLTE5MjYwMjk0MDEsNTgxMzg3Nzg5LC05Nz
 U1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2
 NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3Nz
 MwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1
