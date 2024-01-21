@@ -106,7 +106,15 @@
 	- https://www.saiensu.co.jp/search/?isbn=978-4-7819-1592-0&y=2024
 	- 強化学習はその定式化を用いることで幅広い実問題を表現できる一方，信頼性の不足が一因となり，実世界では応用がなされているとは言いがたい．本書は，標準的な定式化と実問題との橋渡しとなるような定式化を体系的にまとめることで，実世界での応用を促進することを目指した
 	- 第3章リスク考慮型強化学習と金融への応用（3.5節を除く）
-- 
+- 「GeForce RTX 4070 SUPER」が各社から多数登場、価格は95,480円から
+	- https://akiba-pc.watch.impress.co.jp/docs/news/news/1561586.html
+- Google DeepMindが数学オリンピックの幾何学問題において平均的な人間の金メダリストに肉薄する「AlphaGeometry」発表
+	- https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/?utm_source=twitter&utm_medium=social
+	- AlphaGeometry は、ニューラル言語モデルと記号演繹エンジンで構成される神経記号システムであり、これらが連携して複雑な幾何学定理の証明を見つける
+- Accelerating the prediction of stable materials with machine learning
+	- https://www.nature.com/articles/s43588-023-00536-w
+	- 機械学習による材料の安定性予測に関するレビュー論文
+	- 
 
 ## 1/15
 
@@ -4106,15 +4114,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - レヴィ＝ストロースの70年来の謎を進化シミュレーションで解明- 文化人類学の基礎「親族の構造」を数理モデルで生成 -
 	- https://www.u-tokyo.ac.jp/focus/ja/press/z0109_00325.html
 	- これって、LLMで同じことが多分1年以内のできるようになる。
-- 　応用行動分析「死人テスト」死人にもできることを行動目標にしたいという話
-	- https://twitter.com/81I6VVboj7h2Bqy/status/1667893285883621376?s=20
-	- 「会議で余計な発言しない」、「廊下で走らない」、などは死人にもできる目標なので、それはまちがえであるということ。。その行動、死人にもできるのでは？
-
-## 6/12
-
-熊本で開かれた人工知能学会全国大会の話題もちらほら。偉い先生のまとめスライドが役に立つ。ローカルでLLMを動かす動きも相も変わらず活発。ggML形式のLLMならば、gpt4allのチャット用のソフトでllmを入れ替えて動くらしい。npaka氏のローカルＬＬＭのまとめは良記事。それにしても、4.75bitのSpQRって本当か？タンパク質やプロプロテインなどの研究対象の操作などができるチャットシステムも登場、そういう応用はこれからもたくさんでそう。データサイエンス界隈は、自らの存在意義的に、Noteableプラグインがよほど応えたらしい。ついにMSからChatでOffice製品を制御できる技術が発表、パワポも作ってくれるのか？その間googleのBardは、裏でコード実行する仕組みを取り入れ、苦手な計算とか論理などの精度が向上。今度はＧＡ
+- 　応用行動分析「死
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzQ5Njg0OCw1ODEzODc3ODksLTk3NT
+eyJoaXN0b3J5IjpbMTE1MzA4ODIyMyw1ODEzODc3ODksLTk3NT
 U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
 LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
 AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
