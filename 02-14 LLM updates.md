@@ -60,6 +60,9 @@
 - DeepMindのCEOであるLila Ibrahimがダボス会議2024で語ったこと
 	- https://www.axios.com/2024/01/16/davos-ai-lila-ibrahim-google-deepmind-technologies
 	- ila Ibrahimは、AIが物質科学や生物学に革命をもたらし、新しい材料やタンパク質の発見に貢献していると述べた。
+	- 2018年、「AlphaFoldはうまくいかないアイデアだった」とイブラヒムは語った。彼女はこう付け加えた。"今では（既知の）タンパク質は2億個になりました"。
+	- 昨年は、AI開発者たちが互いに協力し合い、政府の協力を得て、技術のリスクを管理することが急速に進んだと彼女は言う。
+	- イブラヒム氏は、若いAIユーザーに技術の倫理的枠組みを教えるのは、インターネットやソーシャルメディアを通じてデジタル化した高齢者世代に教えるよりも簡単だろうと考えている。
 
 ## 1/15
 
@@ -4116,17 +4119,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://speakerdeck.com/yusuke0519/jsai2023-tutorial-ji-pan-moderunoji-shu-tozhan-wang
 - 状態空間モデルを活用した時系列データのCausalImpact分析
 	- https://speakerdeck.com/stakaya/zhuang-tai-kong-jian-moderuwohuo-yong-sita-shi-xi-lie-detafalsecausalimpactfen-xi
-	- まあ、Rでなくても再現できそうだ。
-- llamaindexのKnowledge Graphインデクス機能が大幅にパワーアップ？
-- https://github.com/jerryjliu/llama_index/blob/main/docs/examples/index_structs/knowledge_graph/NebulaGraphKGIndexDemo.ipynb
-- 欠損値を平均値を代入するというプラクティスが議論に、
-	- 問題ないという人もいるが、問題ないならそもそも除外し
+	- まあ、Rでなくても再現できそ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzU2MTU0LDU4MTM4Nzc4OSwtOTc1NT
-Y4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUs
-MTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMD
-E1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEz
-LC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMD
-M3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0
-MDMyN119
+eyJoaXN0b3J5IjpbLTE0MDYzNzExMTcsNTgxMzg3Nzg5LC05Nz
+U1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2
+NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3Nz
+MwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1
+MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLT
+IwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAz
+NzQwMzI3XX0=
 -->
