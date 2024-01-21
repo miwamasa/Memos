@@ -64,7 +64,7 @@
 	- 昨年は、AI開発者たちが互いに協力し合い、政府の協力を得て、技術のリスクを管理することが急速に進んだと彼女は言う。
 	- イブラヒム氏は、若いAIユーザーに技術の倫理的枠組みを教えるのは、インターネットやソーシャルメディアを通じてデジタル化した高齢者世代に教えるよりも簡単だろうと考えている。
 - マイクロソフトCopilot Proを発表
-	- 
+	- https://x.com/satyanadella/status/1747000699664429075?s=20
 
 ## 1/15
 
@@ -4120,13 +4120,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- GPT-3など基盤モデルの技術的な動向について、数多くの文献をもとに整理されている
 	- https://speakerdeck.com/yusuke0519/jsai2023-tutorial-ji-pan-moderunoji-shu-tozhan-wang
 - 状態空間モデルを活用した時系列データのCausalImpact分析
-	- https://speakerdeck.com/stakaya/zhuang-tai-kong-jian-moderuwohuo-yong-sita-shi-xi-l
+	- https://speakerdeck.com/sta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNzc0NTA2LDU4MTM4Nzc4OSwtOTc1NT
-Y4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUs
-MTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMD
-E1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1LC0xODU2MzQzNTEz
-LC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMDYzMDI4ODEyLC0yMD
-M3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcxNjY1MiwtMTQwMzc0
-MDMyN119
+eyJoaXN0b3J5IjpbLTYwOTcxNDMwMCw1ODEzODc3ODksLTk3NT
+U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
+LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
+AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
+MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
+AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
+NDAzMjddfQ==
 -->
