@@ -110,6 +110,8 @@
 	- https://akiba-pc.watch.impress.co.jp/docs/news/news/1561586.html
 - Google DeepMindが数学オリンピックの幾何学問題において平均的な人間の金メダリストに肉薄する「AlphaGeometry」発表
 	- https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/?utm_source=twitter&utm_medium=social
+	- An Olympiad-level AI system for geometry
+	- AI system surpasses the state-of-the-art approach for geometry problems, advancing AI reasoning in mathematics
 	- AlphaGeometry は、ニューラル言語モデルと記号演繹エンジンで構成される神経記号システムであり、これらが連携して複雑な幾何学定理の証明を見つける
 - Accelerating the prediction of stable materials with machine learning
 	- https://www.nature.com/articles/s43588-023-00536-w
@@ -4107,16 +4109,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://crfm.stanford.edu/2023/06/15/eu-ai-act.html
 	- 現状特に著作権保護学習データ開示等が行われていないこと、DSA的透明性確保の非対称規制提言など
 	- すごすぎでしょう。
-- 知識グラフのLLMの統合についてのロードマップ論文
-	- Unifying Large Language Models and Knowledge Graphs: A Roadmap
-	- https://arxiv.org/abs/2306.08302
-	- Combining the advantages of LLMs and knowledge g
+- 知識グラフのLLMの統合についてのロードマッ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDYyOTA2MTgsNTgxMzg3Nzg5LC05Nz
-U1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2
-NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3Nz
-MwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUsLTE4NTYzNDM1
-MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNjMwMjg4MTIsLT
-IwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2NjUyLC0xNDAz
-NzQwMzI3XX0=
+eyJoaXN0b3J5IjpbMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NT
+U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
+LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
+AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
+MywtMTA4Mzg4MDUzOSw1MzYzMjIwMjMsMTA2MzAyODgxMiwtMj
+AzNzcyMzQ2MywyODg5NzY2NDQsLTIxNDQ3MTY2NTIsLTE0MDM3
+NDAzMjddfQ==
 -->
