@@ -167,6 +167,13 @@
 - 5%ぐらい？をChatGPT（生成AI）で書いたという芥川賞を受賞
 	- https://x.com/yukatan/status/1747957984104480891?s=20
 	- AIに執筆させてみたというレベルの話ではなくて、スマホでググるみたいにAIに質問するのが当たり前になると世界がどう変わり得るかを文学的に表現しています。時代を刻む作品だわ
+- アルトマンがダボス会議で言ったこと
+	- 「AIの進歩は、科学的発見の速度を大幅に加速するのに役立つ。それが2024年に起こるとは予想していないが、起こったならばとても大きな一大事になる」 
+	- 「現時点での最優先事項は新しいモデルをローンチすることだ。それはGPT-5と呼ばれる可能性が高い
+	- https://www.axios.com/2024/01/17/sam-altman-davos-ai-future-interview
+- 圧縮MoE
+	- https://github.com/unites-lab/mc-smoe
+	- 今までのMoEはモデルを２つくっ付けたら２倍VRAM消費するのがコスパ微妙だったけど、MC-SMoEではベースモデルと各エキスパートとの差分をLoRA的な形で保持する事で省メモリになったって話かな
 - 
 
 ## 1/15
@@ -4096,15 +4103,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 		- (1) learning world models from sensory inputs like video, 
 		- (2) an architecture that can reason and plan (not just auto-regress).
 - Dockerコンテナをwebassemblyに変換して実行できるツール？
-	- https://www.publickey1.jp/blog/23/dockerwebassemblywebcontainer2wasm03.html
-- 欧州のデータスペースに関する、JRCのレポート
-	- European Data Spaces - Scientific Insights into Data Sharing and Utilisation at Scale
-	- https://publications.jrc.ec.europa.eu/repository/handle/JRC129900
-- GPTにFunction Callが追加
-	- 出力の整形とか、あるいは、自然言語から、関数のAPI呼び出しを作ったりとか、つまり、LangChainでいうところのAgentが簡単にできるようになる。。
-	- https://openai.com/blog/function-calli
+	- https://www.publickey1.jp/blog/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTgzMjMwNjEsMTY5NzQ1NzU5MSw1OD
+eyJoaXN0b3J5IjpbLTEwODkzNzM4OTUsMTY5NzQ1NzU5MSw1OD
 EzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2
 NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxND
 E3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4
