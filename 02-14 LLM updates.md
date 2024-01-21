@@ -150,8 +150,7 @@
 	- The paper proposes AlphaCodium, a code-oriented iterative flow that improves LLMs on code generation.
 	- LLMでコーディング作業を行う際のプロンプトエンジニアリング手法として、「フローエンジニアリング」という新しい概念が提唱されています。 
 	- この概念に基づいてコーディングを行うことで、LLMのプログラミング能力が一貫して向上することが定量的に報告されました。
-	- ■研究者らのアイデア 
-		- 複数の段階に分けてコードを生成・改善する - テストベースの考え方を用いる
+	- ■研究者らのアイデア - 複数の段階に分けてコードを生成・改善する - テストベースの考え方を用いる
 	- ■実験結果 
 		- コードタスクでのLLMの性能を一貫してかつ大幅に向上させた 
 		- オープンソース（DeepSeek）とクローズドソース（GPT-3.5/4）両方で効果があった
@@ -181,7 +180,11 @@
 - 圧縮MoE
 	- https://github.com/unites-lab/mc-smoe
 	- 今までのMoEはモデルを２つくっ付けたら２倍VRAM消費するのがコスパ微妙だったけど、MC-SMoEではベースモデルと各エキスパートとの差分をLoRA的な形で保持する事で省メモリになったって話かな
-- 
+- Introducing Mixtral, Phi2, Falcon, and Qwen support in DeepSpeed-FastGen! 
+	- https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-fastgen/2024-01-19
+	- Up to 2.5x faster LLM inference
+	- Optimized SplitFuse and token sampling
+	- Exciting new features like RESTful API and more!
 
 ## 1/15
 
@@ -4097,20 +4100,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 「デジタル庁のサイトやばすぎる」
 	- https://qiita.com/mu_tomoya/items/f78f1fad3a8b57ac7dc3
 	- やばいくらい参考になるらしい。
--  米OpenAIのCEO「AIはさらに賢く」　慶大で意見交換（日経）
-	- OpenAIの強みはresearch culture  
-	- コーディング or 理論解析に強い人が成功している
-	- AI技術は急速に進歩・応用されており、このような時代にAIに関われる今の学生はlucky generation
-	- https://www.nikkei.com/article/DGXZQOUC1037N0Q3A610C2000000/
-- 平均・分散・相関が変わらない、X,Yの様々な事例。。
-	- まあ有名な奴だけどゴジラはよく考えたな。
-	- https://twitter.com/docmilanfar/status/16
+-  米OpenAIのCEO「AIはさらに賢く」　慶大で意
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzMTIwODc1LDE2OTc0NTc1OTEsNTgxMz
-g3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYz
-LDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNz
-Y0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgxLC03ODYzMjY2ODUs
-LTE4NTYzNDM1MTMsLTEwODM4ODA1MzksNTM2MzIyMDIzLDEwNj
-MwMjg4MTIsLTIwMzc3MjM0NjMsMjg4OTc2NjQ0LC0yMTQ0NzE2
-NjUyXX0=
+eyJoaXN0b3J5IjpbMTc2MDk5ODcxMiwxNjk3NDU3NTkxLDU4MT
+M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
+Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
+c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
+LC0xODU2MzQzNTEzLC0xMDgzODgwNTM5LDUzNjMyMjAyMywxMD
+YzMDI4ODEyLC0yMDM3NzIzNDYzLDI4ODk3NjY0NCwtMjE0NDcx
+NjY1Ml19
 -->
