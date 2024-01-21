@@ -65,6 +65,8 @@
 	- イブラヒム氏は、若いAIユーザーに技術の倫理的枠組みを教えるのは、インターネットやソーシャルメディアを通じてデジタル化した高齢者世代に教えるよりも簡単だろうと考えている。
 - マイクロソフトCopilot Proを発表
 	- https://x.com/satyanadella/status/1747000699664429075?s=20
+	- Office３６５向けのcopiloの機能が、個人でも使えるようになる。3,200円/月
+	- 
 
 ## 1/15
 
@@ -4119,10 +4121,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 松尾研による、「基盤モデルの技術と展望」
 	- GPT-3など基盤モデルの技術的な動向について、数多くの文献をもとに整理されている
 	- https://speakerdeck.com/yusuke0519/jsai2023-tutorial-ji-pan-moderunoji-shu-tozhan-wang
-- 状態空間モデルを活用した時系列データのCausalImpact分析
-	- https://speakerdeck.com/sta
+- 状態空間モデルを活
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTcxNDMwMCw1ODEzODc3ODksLTk3NT
+eyJoaXN0b3J5IjpbMTg5NDEzNDU4NSw1ODEzODc3ODksLTk3NT
 U2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1
 LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3Mz
 AxNTQzNywxNjkwOTQxODEsLTc4NjMyNjY4NSwtMTg1NjM0MzUx
