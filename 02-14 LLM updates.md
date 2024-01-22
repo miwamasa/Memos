@@ -1,7 +1,7 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
-## 1/21
+## 1/22
 
 今週はDavos会議があって、われらのアルトマン氏も登場、GPT-5について言及。Metaからはザッカーバーグ氏がビデオメッセージでいきなりLlama3のOSSとしての開発宣言。NVIDIAがCESで発表したGeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊が、、、。MoEも今週もにぎやか、圧縮して小メモリ化するようなMC-SMoEのアプローチとか、負荷分散を調整するDeepSeekMoEとか、youri-2x7bのggufがでたりとかとにかく賑やか。小規模LLM向けの人工的に生成された学習用モデルtiny-textbookシリーズも充実してきて、小規模LLMの開発も加速するかな。手が届くところではnanoGPTの源氏物語の適用例は楽しそう。小規模LLMを集めて優れたAIを作るという意味では、sakana.aiが華々しく45億円もの投資を調達、googleなどのスーパー研究者が終結して楽しそう。sakana.aiは小さな魚が集まって一匹の大魚のように泳ぐ物語｢スイミー｣の仕組みなわけだけど、小さな専門エージェントがあつまって問題を解決するってことなら、古い人にはミンスキー御大のSociety o Mindsが思い出される。MicrosoftはColiplot Proをリリース、月20ドルで、個人が、GPT-4 TurboにもアクセスできるしOffice 365 Copilotも使えるしお得かも、一方がっかりしたというファーストユーザーの意見もちらほら。でも小規模LLMの代表格phi-2はマイクロソフトからでているから、OpenAI/Copilot一辺倒では実はない。一方メタは２万人をレイオフして、代わりに35万台のH100インフラを整えLlama3の開発を推進。どの会社もLLMという不確実な要素（発展性、他社との競争）に備えならが綱渡り的な会社の運営をしている（株主からの期待にこたえ続けつつ財務的に破綻はできない）。共通テストにさっそく吊るしのLLMを適用評価した例では、GPT-4が6割強程度正解でなんとか人間を上回るも、特に数学がダメという結果が。一方、数学オリンピックのメダリスト並みの性能を示すDeepMindのAlphaGeometry、LLMとルールベースのハイブリッドが高性能の秘訣らしい、text_to_SQLも、また違ったハイブリッドとして高性能化のヒントになる。ベクトル化のサーベイ論文とか、ELYZAの日本語追加学習でもともとの英語の能力が落ちないかの検証とか、着実な動きは地道にすすんでいるのを忘れずにいたい。
 
@@ -4083,9 +4083,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://github.com/salesforce/PyRCA
 - OpenAIのFunction APIの解説
 	- https://every.to/chain-of-thought/gpt-4-can-use-tools-now-that-s-a-big-deal
-- Flan-Open-Llama-7b、OpenLLaMaを
+- Flan-Open-Llama-7b、OpenLLaMa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDUyODgyMiwtNTQ4MDMxNDgzLDY2OD
+eyJoaXN0b3J5IjpbMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2OD
 Q0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC01ODk1MjEw
 MzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4Nzc4OSwtOT
 c1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3
