@@ -132,7 +132,14 @@
 	- ・モデレーションモデルの更新
 	- ・APIキーの管理方法の改善
 - 実はSwallowはbaseモデルとしての性能はいいですが、instruct モデルの性能はpublic instruction datasetを使用したこともあり、baseモデルの高い性能の割にはあまり高くありません
-- 
+	- https://x.com/okoge_kaz/status/1750805452676608177?s=20
+- CoTの推論ステップ数がLLMの推論能力に及ぼす影響を詳細に検証した結果
+	- https://ai-data-base.com/archives/62364
+	- GPT-4などのLLMに思考の連鎖（CoT）プロンプトなどで「考える時間」を与えると基本的に性能が向上します。 
+	- そこで今回、適切な推論のステップ数が検証されました。 記事ではプロンプト手法とともに結果を紹介しています。
+-  MambaByte: Token-free Selective State Space Model
+	- https://arxiv.org/abs/2401.13660
+	- 
 
 ## 1/22
 
@@ -4065,16 +4072,9 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- https://www.bunka.go.jp/seisaku/bunkashingikai/chosakuken/hoseido/r05_01/?fbclid=IwAR06f_2GFjUTlVn6Ofot52SfMhcJuyjTtkzF-D7DczgB75d0d5iCC9ucGnQ
 - World Coinの発表（Sam Altmanが関係している）、日本でも認証Orbが設置
 	- 代官山のサイトに行ってみたが、人はぼちぼち、日本では今一歩の認知度か。暑かった
-	- https://twitter.com/umiyuki_ai/status/1685323501069299713?s=20
-	- 200万人がオーブ認証済みとか言ってたのに、予約者さえまだ32万人
-
-## 7/18
-
-暑くてすでに夏バテです。あいも変わらずcode interpreterの事例が続々、来年度の講義資料もこれで作るか。LLM時代のリテラシーって何という問い、教育もそうだし、リカレントもそう。Promptflowみたいな、（一見）思い付きのスタートアップがタケノコのように出てくるだろう。AlphaFoldがFoldItというゲームから名前がきているとは知らなかった、集合知ね。GoogleのNotebookLLM、エンジニアノートバッドという従来からの夢が、一歩実現に近づくか。普通に使っているEmbeddingなんかも、もちゃんと振り返って、カスタマイズの余地がある。
-
-- ChatGP
+	- https://twitter.com/umiyuki_ai/status/1685323501069299713
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjgxNzc1NDcsMTg1NDY4OTMxMyw0OD
+eyJoaXN0b3J5IjpbLTE2MjE1Njg0NDgsMTg1NDY4OTMxMyw0OD
 M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
 LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
 U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
