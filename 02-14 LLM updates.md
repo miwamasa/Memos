@@ -164,7 +164,9 @@
 - 同じデータに対してもモデル（この場合はカーネル）が異なれば予測が変わるという話。こういうことを色々実現したい場合はやっぱりガウス過程がやりやすいです。 by 須山先生
 	- https://x.com/sammy_suyama/status/1751104980189413880?s=20
 -  Google Colab で LangGraph を試す by npakaさん
-	- 
+	- https://note.com/npaka/n/n053a3cb78311?sub_rt=share_h
+	- 「**LangGraph**」は、LLMでステートフルな「**マルチアクターアプリケーション**」を構築するためのライブラリです。「**LCEL**」(LangChain Expression Language) を拡張して、複数チェーン (またはアクター) を複数ステップにわたって循環的に協調動作させることができます
+	- 「LangGraph」によって、LLMアプリケーションに**サイクル**を簡単に導入できるようになりました。
 
 ## 1/22
 
@@ -4055,15 +4057,9 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 - BigChat Enterpriseを発表
 	- https://blogs.microsoft.com/blog/2023/07/18/furthering-our-ai-ambitions-announcing-bing-chat-enterprise-and-microsoft-365-copilot-pricing/
 	- ユーザーとビジネスデータは暗号化され、組織外に流れることはありません。またチャット履歴は保存されずMicrosoftから見れません
-- LLaMA2、ネット上のデモだとあんま日本語強くない印象だけど、ローカルでggml 4bit版の13B chat動かした感じ想像以上にまともに会話できるな、という印象
-	- https://twitter.com/RosaRugosaBeach/status/1681554704701194240?s=20
-- 東大の大規模言語モデルサマースクール
-	- https://deeplearning.jp/llm2023/
-- ChatGPTの性能が、初期リリースに比べて最近低下しているとの論文が
-	- https://arxiv.org/pdf/2307.09009.pdf
-- GitHubのcopilo
+- LLaMA2、ネット上のデモだとあんま日本語強くない印象だけ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTYxNTc0NjYsMTg1NDY4OTMxMyw0OD
+eyJoaXN0b3J5IjpbLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
 M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
 LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
 U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
