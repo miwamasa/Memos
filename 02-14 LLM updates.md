@@ -16,6 +16,10 @@
 - transformer v4.37
 	- https://github.com/huggingface/transformers/releases/tag/v4.37.0
 	- Release v4.37 Qwen2, Phi-2, SigLIP, ViP-LLaVA, Fast2SpeechConformer, 4-bit serialization, Whisper longform generation · huggingface/transformers · GitHub
+-  DPO によるLLMのPreferenceチューニング by npakaさん
+	- https://note.com/npaka/n/n8be32e899c8a?sub_rt=share_b
+	- 「DPO」(Direct Preference Optimization)、「IPO」(Identity Preference Optimization)、「KTO」(Kahneman-Taversky Optimization) という3つの有望なLLMアライメントアルゴリズムの評価
+	- 
 - LLMのRLHF→DPO→KTOってトレンドの流れを抑えよう by うみゆき
 	- https://x.com/umiyuki_ai/status/1749670491227672797?s=20
 	- オープンLLMはそんな金かけてRLHFやるなんて無理だった。そこで発明されたのがDPOだ。
@@ -4051,19 +4055,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 - LangChaiの統合開発環境LangSmith正式版発表
 	- https://blog.langchain.dev/announcing-langsmith/
 	- おっと、正式発表されたのか
-- Llama2は学習データを2Tトークンに増やしコンテキスト長を4KにしGQAを採用。報告書では有用性と安全性の向上に向けたSFTとRLHFの詳細が充実している。
-	- 岡野原さんの解説
-	- https://twitter.com/hillbig/status/1681436336451125257?s=20
-- BigChat Enterpriseを発表
-	- https://blogs.microsoft.com/blog/2023/07/18/furthering-our-ai-ambitions-announcing-bing-chat-enterprise-and-microsoft-365-copilot-pricing/
-	- ユーザーとビジネスデータは暗号化され、組織外に流れることはありません。またチャット履歴は保存されずMicrosoftから見れません
-- LLaMA2、ネット上のデモだとあんま日本語強くない印象だけ
+- Llama2は学習データを2Tトークンに増やしコンテキスト長を4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
-M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
-LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
-U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
-MjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNz
-g5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0
-MzddfQ==
+eyJoaXN0b3J5IjpbLTEwNjAyMjU5MTgsLTE5NzExODYwMzQsMT
+g1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0
+ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLT
+U4OTUyMTAzNywxOTU2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3
+Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLD
+U2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0
+NzcwM119
 -->
