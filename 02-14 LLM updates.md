@@ -31,7 +31,7 @@
 	- 「なぜ深層学習でうまくいくのか」という素朴な疑問に対し、理論的にわかっていることを平易に解説したスライド。非常にわかりやすい。
 - Orion-14B-Chat-Int4 を試す。
 	- https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4
-	- https://x.com/npaka123/status/1749787625823866958?s=20
+	- https://note.com/npaka/n/nd5025f5f7ac1?sub_rt=share_h
 	- 推論高速で回答も自然で良い感じ。 ロングチャット用、RAG用、Function Calling用などもある
 -  RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
 	- https://arxiv.org/abs/2401.08406
@@ -50,6 +50,7 @@
 	- MetaのDPOの、独立実装が登場らしい
 - ベイズモデリングによるチームメイト及び対戦相手の能力を考慮したポゼッションデータに基づくバスケットボールプレイヤーの能力評価指標
 	- https://www.jstage.jst.go.jp/article/jscswabun/36/2/36_99/_article/-char/ja/
+	- 滋賀大時代の学生や同僚たちと書いたバスケットボール選手のパフォーマンス評価に関する論文が掲載されたとらしい
 - 
 
 ## 1/22
@@ -4080,9 +4081,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.kyoritsu-pub.co.jp/book/b10031225.html
 	- 分布関数、密度関数や回帰関数について、一定の滑らかさのみを仮定して、ノンパラメトリックな推定と検定を行う方法を紹介する
 - DeepMindの次世代AI「Gemini」はChatGPTを凌駕する？
-	- https://wired.jp/article/google-deepmind-demis-hassabis-chatgpt/?utm_medium=s
+	- https://wired.jp/art
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODc5MzM2MTQsNDgzNDg5ODcsMTkxNj
+eyJoaXN0b3J5IjpbLTE4MjQ4OTI5ODMsNDgzNDg5ODcsMTkxNj
 g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
 MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
 k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
