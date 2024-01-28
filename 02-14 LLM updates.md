@@ -4,6 +4,8 @@
 
 ## 1/29
 
+
+
 - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
 	- https://arxiv.org/abs/2311.16452
 	- Microsoftより「GPT-4等の基盤モデルよりも、領域を絞ったモデルの方がその領域で高性能なのではないか？」を調べた論文。結果、医療の問題でGPT-4がMed-PaLM2を上回る結果に
@@ -19,7 +21,13 @@
 -  DPO によるLLMのPreferenceチューニング by npakaさん
 	- https://note.com/npaka/n/n8be32e899c8a?sub_rt=share_b
 	- 「DPO」(Direct Preference Optimization)、「IPO」(Identity Preference Optimization)、「KTO」(Kahneman-Taversky Optimization) という3つの有望なLLMアライメントアルゴリズムの評価
-	- 
+	- DPO
+		- 「**DPO**」はLLMを人間またはAIの好みに合わせるための有望な代替手段として浮上しています。「強化学習」に基づく従来のアライメントアルゴリズムとは異なり、「DPO」はアライメントの定式化を、嗜好のデータセット上で直接最適化できる単純な損失関数として再構成します。
+		- これにより、「DPO」は使いやすくなり、「Zephyr」や「NeuralChat」などのモデルの学習で成功しています。
+	- IPO
+		- 「DPO」の欠点の1つは、優先データセットにすぐに過剰適合する傾向があることです。これを回避するために、「Google DeepMind」は「IPO」を導入しました。これにより、「DPO」損失に正則化項が追加され、早期停止などのトリックを必要とせずにモデルを収束するように学習できるようになります。
+	- KTO
+		- ContextualAIは最近、「KTO」と呼ばれる興味深い代替案を提案しました。これは、「good」または「bad」とラベル付けされた個々の例に関して損失関数を完全に定義するものです。これらのラベルは取得するのがはるかに簡単であり、「KTO」は本番環境で実行されているチャットモデルを継続的に更新する有望な方法になります。
 - LLMのRLHF→DPO→KTOってトレンドの流れを抑えよう by うみゆき
 	- https://x.com/umiyuki_ai/status/1749670491227672797?s=20
 	- オープンLLMはそんな金かけてRLHFやるなんて無理だった。そこで発明されたのがDPOだ。
@@ -4046,22 +4054,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 
 - LLaMa2をリリース、商用利用が可能に
 	- https://ai.meta.com/llama/
-- LLaMa2を早速ggmlに変換された
-	- https://huggingface.co/TheBloke
-- メタ社LLaMa2を、Microsoftと組んでOSS化すると発表
-	- https://twitter.com/alex_valaitis/status/1681348531834044426?s=20
-- Llama2-70B-Chatモデルは、なんと有用性評価でGPT-3.5TurboのChatGPTを打倒！
-	- https://twitter.com/umiyuki_ai/status/1681361453838929923?s=20
-- LangChaiの統合開発環境LangSmith正式版発表
-	- https://blog.langchain.dev/announcing-langsmith/
-	- おっと、正式発表されたのか
-- Llama2は学習データを2Tトークンに増やしコンテキスト長を4
+- LLaMa2を早速ggmlに
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjAyMjU5MTgsLTE5NzExODYwMzQsMT
-g1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0
-ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLT
-U4OTUyMTAzNywxOTU2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3
-Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLD
-U2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0
-NzcwM119
+eyJoaXN0b3J5IjpbLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxOD
+U0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4
+Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNT
+g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
+ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNT
+Y0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3
+NzAzXX0=
 -->
