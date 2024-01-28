@@ -4,7 +4,7 @@
 
 ## 1/29
 
-中国からLLMの申請Orion登場、日本語韓国語が得意なのと長文モデルを持っている、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違う実装も出てきたし、CALM2をDPOしたモデルの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEもColabの無料枠で動く事例が出てきたり、。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた。LLMの研究トレンドは、1)Synthetic training data、2)
+中国からLLMの申請Orion登場、日本語韓国語が得意なのと長文モデルを持っている、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違う実装も出てきたし、CALM2をDPOしたモデルの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEもColabの無料枠で動く事例が出てきたり、。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、
 
 - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
 	- https://arxiv.org/abs/2311.16452
@@ -4050,9 +4050,9 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 
 ## 7/31
 
-いやあ、暑くなって１週間さぼったら、それなりにまとめるのがつらい。メタのLLaMa2リリースが大きな話題、岡野原さんの解説が良いかも。さっそくggml化、webui対応、LanChain組み込みが行われる。LangChainの統合開発環境LangSmith、よくLangChainの紹介動画に出てきてやつが正式リリースか。メタはマイクロソフトと組んでOSS化するとのこと、マイクロソフト無敵だな。OpanA
+いやあ、暑くなって１週間さぼったら、それなりにまとめるのがつらい。メタのLLaMa2リリースが大きな話題、岡野原さんの解説が良いかも。さっそくggml化、webui対応、LanChain組み込みが行われる。LangChainの統合開発環境LangSmith、よくLangChainの紹介動画に出てきてやつが正式リリースか。メタはマ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg5MTU0NTIsLTMyMjAzODE4NCwtMT
+eyJoaXN0b3J5IjpbLTIxMzUxMDY5NjMsLTMyMjAzODE4NCwtMT
 k3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQx
 ODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMT
 Y5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1
