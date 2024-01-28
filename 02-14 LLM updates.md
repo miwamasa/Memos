@@ -22,6 +22,10 @@
 	- DPOは人力で評価する必要が無いからコストがかからない。代わりに”嗜好データセット”を用意する必要がある。嗜好データセットってのは、あるプロンプトが与えられた時の二つの回答があって、こっちの回答の方がイケてて、こっちの方が良くない。みたいなデータが大量に用意されてるモノ。RLHFとDPOは数学的に等価である事がキッチリ証明されてる。
 	- 嗜好データセットとか言われても、そんなもん用意するのだってまだまだ手間がかかって大変だ。そういうデータの問題をどうにかする新しいテクがKTO。KTOでは必要なデータはプロンプトと回答があって、その回答に「いいね」か「よくないね」の評価だけ付いてればいい。
 	- KTOによってLLMのアラインメント作業は相当簡単にできるようになってきたわけだ。ただ、そうやって作ったモデルのベンチ性能を比較すると、やっぱKTOよりDPOの方がやや高性能みたいだ
+- GoogleDeepmindがSpatialVLMを発表
+	- までの視覚言語モデルは空間感覚に欠けていた。例えば「写真に写ってるバッターと審判の距離は何メートル？」とか訊いても答えられんかった。それを改善したのがSpatialVLM。
+- makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
+	- https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
 - 
 
 ## 1/22
@@ -4078,12 +4082,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://github.com/openlm-research/open_llama
 - Google	 ピーチャイ氏の講演、ヘルスケア分野で、AIがCTとかMRIとかを代替するかも（眼底検査で代替できる？）
 	- https://twitter.com/alvinfoo/status/1670599368930656257?s=20
-- OpenAIのFunction callとpydantic 	を組み合わせた例や再帰構造への対応など、情報抽出がこんなに便利に
-	- https://twitter.com/jxnlco/status/1670764386447953921?s=20
-	- https://twitter.com/matchaman11/status/1670799349004083200?s=20
-	- https://gpt-index.readthedocs.io/en/latest/examples/output_parsing/openai_pydantic_progr
+- OpenAIのFunction callとpy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxODQ0MTI1LDQ4MzQ4OTg3LDE5MTY4ND
+eyJoaXN0b3J5IjpbMTEzNDgyNzY5LDQ4MzQ4OTg3LDE5MTY4ND
 QxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIs
 MTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5Nz
 Q1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYz
