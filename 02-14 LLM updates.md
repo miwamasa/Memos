@@ -4,7 +4,7 @@
 
 ## 1/29
 
-中国からLLMの新星Orion登場、日本語や韓国語が得意なのと長文モデルを持っている、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違うDPOの実装も出てきたし、CALM2をDPOしたモデルやデータセットの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEの構築もColabの無料枠で実現する事例が出てきた、Space性がポイントなのか。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge injectionがうまく動いた例でもあるのね。DPOはもちろん、2)LLM safetyと関係ある。AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」、自給自足モデルか。基盤モデルよりも、領域を絞ったモデルが高性能であったり、Q&Aタスクに絞ってllama2を２段階の指示チューニングして、GPT-4に迫る結果など、それはそうだがそれを確かめたのが尊い。Lucan先生によると、DGNNの論文でどこにも投稿してなかったのか。。OpenAIの 新モデルの追加 と APIの更新もありました、安くなって性能が上がる。LangGraphってLCELの拡張だったのか、アロー言語とかそういうのに近いのかも。HuggingFaceとGoogleのパートナシップ、Colab環境とより密になりOSS関係にはろう、Google何を狙っている？T4の普及？？
+中国からLLMの新星Orion登場、日本語や韓国語が得意なのと長文モデルを持っている、中華LLMは日本語得意ってのはよく言われていること、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違うDPOの実装も出てきたし、CALM2をDPOしたモデルやデータセットの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEの構築もColabの無料枠で実現する事例が出てきた、Sparse性がポイントなのか。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge injectionがうまく動いた例でもあるのね。DPOはもちろん、2)LLM safetyと関係ある。AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」、自給自足モデルか。基盤モデルよりも、領域を絞ったモデルが高性能であったり、Q&Aタスクに絞ってllama2を２段階の指示チューニングして、GPT-4に迫る結果など、それはそうだがそれを確かめたのが尊い。Lucan先生によると、DGNNの論文でどこにも投稿してなかったのか。。OpenAIの 新モデルの追加 と APIの更新もありました、安くなって性能が上がる。LangGraphってLCELの拡張だったのか、アロー言語とかそういうのに近いのかも。HuggingFaceとGoogleのパートナシップ、Colab環境とより密になりAIの民主化的には朗報なわけですが、Google何を狙っている？T4の普及？？
 
 - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
 	- https://arxiv.org/abs/2311.16452
@@ -4040,14 +4040,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- https://colab.research.google.com/github/camenduru/text-generation-webui-colab/blob/main/llama-2-7b-chat.ipynb
 - 自分のコンテンツを学習したカスタムChatBotを作る方法
 	- https://zenn.dev/karaage0703/articles/c8baa66c40f9b7
-	- そうか、いつもやってるやつは、Retrieval-Augmented Generation（RAG）ってよばれているのか？
--  LLMが
+	- そうか、いつもやってるやつは、Retrieval-Augmented
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ3NjgyODUsLTMyMjAzODE4NCwtMT
-k3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQx
-ODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMT
-Y5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1
-NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNi
-w3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1
-NjY2M119
+eyJoaXN0b3J5IjpbMTYxNTM5NTUzMCwtMzIyMDM4MTg0LC0xOT
+cxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4
+MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNj
+kxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3
+NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LD
+c0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2
+NjYzXX0=
 -->
