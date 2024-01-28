@@ -33,7 +33,13 @@
 	- https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4
 	- https://x.com/npaka123/status/1749787625823866958?s=20
 	- 推論高速で回答も自然で良い感じ。 ロングチャット用、RAG用、Function Calling用などもある
-- 
+-  RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
+	- https://arxiv.org/abs/2401.08406
+	- Microsoftより農業データを例に、LLMでRAGとFine-Tuningを比較分析した論文。
+	- 比較結果の要約は表22-23の通り(図引用)。双方の使い分けポイントは表23の最下行にあり。
+- AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」　米Metaなどが開発、実験でGPT-4を上回る【研究紹介】
+	- https://levtech.jp/media/article/column/detail_374/
+	- 
 
 ## 1/22
 
@@ -4077,13 +4083,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.youtube.com/watch?v=bYLHklxEd_k
 - 結局記号接地ってなんだったけ？ by 丸山＠MLSE
 	- https://twitter.com/maruyama/status/1675813852947308544?s=20
-	- 実世界への参照なしで、言語空間内での埋め込みだけで意味を操作
-
-## 6/26
-
-あいもかわらずOpenAIのFunction APIの利用について、具体例が増える、Pydatanicと組み合わせればほぼ無滝の情報抽出ができそうだし、抽出した情報をつかったQ&Aなど、ちょっと説明性もあがるか？ヘルスケア分野でのGoogleAIの発表は衝撃的、眼科検診で様々な病気が見つかる。。。OpenLLAMaがでてきて、あっというまにFlanのデータでファインチューニングしたものが、商用利用できるのか？生成AIの研究や仕事への影響についてまとまった資料がぼちぼちでてきた。世界モデルに基づくプランニングなんかもLLMならではの研究か。LLMのコンパクト化も引き続き、マイクロソフトの取り組みが
+	- 実世界への参照な
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTEzNjQ0LDQ4MzQ4OTg3LDE5MTY4ND
+eyJoaXN0b3J5IjpbODc5ODIwNDQ0LDQ4MzQ4OTg3LDE5MTY4ND
 QxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIs
 MTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5Nz
 Q1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYz
