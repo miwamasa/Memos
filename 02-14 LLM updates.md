@@ -105,6 +105,12 @@
 -  Prompt Engineering with Llama 2
 	- https://github.com/facebookresearch/llama-recipes/blob/main/examples/Prompt_Engineering_with_Llama_2.ipynb?utm_source=twitter&utm_medium=organic_social&utm_campaign=llama&utm_content=video
 	- Introducing 'Prompt Engineering with Llama 2' — an interactive guide covering prompt engineering & best practices for developers, researchers & enthusiasts working with large language models.
+- Ollama Python and JavaScript libraries
+	- https://ollama.ai/blog/python-javascript-libraries
+	- Both libraries make it possible to integrate new and existing apps with Ollama in a few lines of code, and share the features and feel of the Ollama REST API.
+- CALM2をDirect Preference Optimization (DPO)でチューニングしたモデル calm2-7b-chat-dpo をCC-BY 4.0で公開しました。
+	- https://huggingface.co/cyberagent/calm2-7b-chat-dpo-experimental
+	- calm2-7b-chat-dpoをELYZA-tasks-100とJapanese MT-Benchで評価を行ったところ、CALM2よりも更に高いスコアが得られるという結果になりました
 - 
 
 ## 1/22
@@ -4064,21 +4070,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 - ストラング先生の線形代数講義のグラフィカルなノート、行列演算を極める。
 	- https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra
 - DeepMindのHasabisさんのインタビュー
-	- AlphaGoのあとにAlphaFoldに着手したのは、FoldIt（集合知で折り畳み問題を解くゲーム）に着想を得たとのこと
-	- https://podcasts.apple.com/us/podcast/a-i-could-solve-some-of-humanitys-hardest-problems/id1548604447?i=1000620748039
-- OpenAIから、embeddingのカスタマイズする、ノートブック。デフォルトでは使えない？
-	- https://github.com/openai/openai-cookbook/blob/main/examples/Customizing_embeddings.ipynb
-- Google Labs、言語モデル「NotebookLM」の提供開始を発表--まず米国から
-	- https://japan.zdnet.com/article/35206577/
-	- NotebookLMではユーザーのノートや情報源を『土台にして』言語モデルが稼働
-- Bardにマルチモーダル機能が。。	
-	- https://twitter.com/i/statu
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NDkzNjg5LDQ4MzQ4OTg3LDE5MTY4ND
-QxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIs
-MTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5Nz
-Q1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYz
-Niw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MD
-E1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODFd
-fQ==
+eyJoaXN0b3J5IjpbLTE3Nzk5Nzk1MzgsNDgzNDg5ODcsMTkxNj
+g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
+MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
+k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
+NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMD
+kwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4
+MV19
 -->
