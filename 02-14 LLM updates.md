@@ -151,6 +151,11 @@
 	- Microsoft presents FP6-LLM 
 	- Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design
 	- Six-bit quantization (FP6) can effectively reduce the size of large language models (LLMs) and preserve the model quality
+- 知識融合、図を見るとアンサンブルやMixture of Expertsとは違って本当に知識そのものを抽出している感じか。どちらかというと蒸留に近い感じもあり画期的な手法のように思える。
+	- https://x.com/koheiichi/status/1751060499310301550?s=20
+- Python library that adds Generative AI capabilities to Pandas
+	- https://github.com/gventuri/pandas-ai
+	- 
 
 ## 1/22
 
@@ -4059,14 +4064,9 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- https://twitter.com/manjiroukeigo/status/1683047350141599744?s=20
 - 京大、仏典をGPT-４で学習した、ブッダポッドプラスを発表
 	- https://ledge.ai/articles/buddha_bot_plus_kyoto_university
-	- GPT-4で仏典を解釈 わかりやすく回答
-- TheBloke/Llama-2-70B-Chat-GGML
-	- https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
-- 生成AIによるコード生成とCode Interpreter活用ハンズオン with PLATEAU
-	- https://connpass.com/event/290745/
-- Abstraction and Analogy: The Keys to Robust Artificial Intel
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTk5MDYwNywxODU0Njg5MzEzLDQ4Mz
+eyJoaXN0b3J5IjpbLTQyODMxODQ3OCwxODU0Njg5MzEzLDQ4Mz
 Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
 LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
 YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
