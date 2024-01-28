@@ -189,6 +189,7 @@
 	- https://arxiv.org/abs/2205.13504
 - ColBERT superior to traditional embedding models
 	- https://x.com/marktenenholtz/status/1751406680535883869?s=20
+	- クエリと文書をそれぞれ別のエンコーダーで埋め込み、クエリ中の各トークンの埋め込みと文書の各トークンの埋め込みの間で最大類似度を計算し、その総和をスコアとしています。
 - miniature ColBERT model in your browser
 	- https://colbert.aiserv.cloud/
 - DSPy lets you prototype LLM Programs like AlphaCodium in 2 minutes!
@@ -4033,17 +4034,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- 企業利用が加速するか。。いやplaygroundで十分？
 - 人工知能研究の新潮流2　～基盤モデル・生成AIのインパクト～
 	- JSTのまとめ、生成AI研究の動向報告書
-	- https://www.jst.go.jp/crds/report/CRDS-FY2023-RR-02.html?fbclid=IwAR0KQ7bg5BRLIblzI154AHYheNrF1SPPzm-xn4z1PuQBUPK2Kia2qT4PMxU
-	- 「第4世代AI」「信頼されるAI」「AI・データ駆動科学」
-- 雇用判断にAIを使うのは、EU規制上禁止？
-	- 禁止ではなくて、ハイリスクAIに相当するから、守るべきことを守らないといけないということ
-	- https://twitter.com/umiyuki_ai/status/
+	- https://w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDY0ODU3NSwtMTA2NzE3Njk2OSwtMT
-kxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4
-NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLT
-U0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcx
-ODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MS
-w1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4
-MDI2NjNdfQ==
+eyJoaXN0b3J5IjpbNjcwNDU4MzI1LC0xMDY3MTc2OTY5LC0xOT
+ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
+MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNT
+Q4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4
+MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLD
+U4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgw
+MjY2M119
 -->
