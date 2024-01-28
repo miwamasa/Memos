@@ -54,7 +54,11 @@
 -  WARM: On the Benefits of Weight Averaged Reward Models
 	- https://huggingface.co/papers/2401.12187
 	- Google Deepmind presents WARM
-	- 
+- GoogleColobで小規模言語モデル(0.15B)の事前学習モデルを作ってみる
+	- https://ayousanz.hatenadiary.jp/entry/2024/01/23/225623
+	- 事前学習モデル(0.15B)を作ってみました ちゃんと使えるレベルにするためには、約200倍くらいかけないといけないみたいです
+- ChatGPTのコンテキスト長が32kになってるから青空文庫の小説とかを2万文字くらいのテキストファイルに分割して自分の代わりに読んでもらって内容教えてもらう事も結構できる。
+	- まあClaudeならコンテキスト長100kだからもっと大量の文章をまとめて読んでもらえる
 
 ## 1/22
 
@@ -4075,19 +4079,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - Towards Language Models That Can See: Computer Vision Through the LENS of Natural Language
 	- https://huggingface.co/papers/2306.16410
 - 学習済みモデルから特定のデータの影響を消すKaggleチャレンジ by Google
-	- https://ai.googleblog.com/2023/06/announcing-first-machine-unlearning.html
-- 研究者の資質と教員の仕事 by 谷中教授
-	- https://twitter.com/verypluming/status/1674445457463062534?s=20
-- コンテキストを気にした文書分割
-	- https://twitter.com/RLanceMartin/status/1674817117475188737?s=20
-- ノン・セミパラメトリック統計
-	- https://www.kyoritsu-pub.co.jp/book/b10031
+	- https://a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjUxNzc2NDQsNDgzNDg5ODcsMTkxNj
-g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
-MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
-k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
-NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMD
-kwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4
-MV19
+eyJoaXN0b3J5IjpbMTg4MzI3MzA1Myw0ODM0ODk4NywxOTE2OD
+Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
+LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
+c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
+MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
+AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
+XX0=
 -->
