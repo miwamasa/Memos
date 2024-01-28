@@ -157,6 +157,13 @@
 	- https://github.com/gventuri/pandas-ai
 	- Introducing PandasAI, now you can analyze complex data frames and plot visualizations just by using natural language
 - XWin 70B で LLM 出力日本語文章の自動評価を行う試み
+	- https://zenn.dev/syoyo/articles/4f4f8645af1cee
+	- 日本語 LLM の自動評価(ELYZAちゃん task 100 とか)をローカル LLM で行いたい.現時点で最高性能の一つXWin 70B での評価試しました!
+	- そこそこいい感じになったよ✊
+	- でも prompt 上手く作る必要あることがわかったよ
+- 同じデータに対してもモデル（この場合はカーネル）が異なれば予測が変わるという話。こういうことを色々実現したい場合はやっぱりガウス過程がやりやすいです。 by 須山先生
+	- https://x.com/sammy_suyama/status/1751104980189413880?s=20
+-  Google Colab で LangGraph を試す by npakaさん
 	- 
 
 ## 1/22
@@ -4054,18 +4061,9 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- https://deeplearning.jp/llm2023/
 - ChatGPTの性能が、初期リリースに比べて最近低下しているとの論文が
 	- https://arxiv.org/pdf/2307.09009.pdf
-- GitHubのcopilotがVSCodeから可能に
-	- https://twitter.com/code/status/1682435342610079761?s=20
-- TypeChat、マイクロソフトによる、プロンプトの代わりにType(型）をつかったChat、スキーマエンジニアリングともよぶらしい。
-	- https://github.com/microsoft/TypeChat
-- LLaMa2は、洞察とメタ認知に優れている
-	- https://arxiv.org/pdf/2307.10928.pdf
-- LangChainのLLaMa2インターフェイス
-	- https://python.langchain.com/docs/integrations/chat/llama_api
-- llama2 13B chat 4bit
-	- https://
+- GitHubのcopilo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTI1MjU2ODcsMTg1NDY4OTMxMyw0OD
+eyJoaXN0b3J5IjpbLTE1MTYxNTc0NjYsMTg1NDY4OTMxMyw0OD
 M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
 LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
 U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
