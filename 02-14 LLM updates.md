@@ -79,7 +79,12 @@
 		- [6]の著者は検索拡張世代（RAG）を提案し、このアプローチが知識集約型タスクのパフォーマンスに影響を与えることを示している。
 		- LIMA [7]は、LLMのほぼ全ての知識が事前学習中に学習されることを示している。
 		- Phi-1[8]は、知識豊富なLLMが、より小さな、キュレーションされたデータセット（つまり教科書）に対して学習できることを示している。
-- 
+-  Reading Analog Gauges
+	- https://huggingface.co/spaces/Synanthropic/reading-analog-gauge
+	- Simply Reading Analog Gauges – GPT4, CogVLM Can't
+	- This model reads analog dial gauge by detecting, applying perspective correction, and gauge reading. The model was build only with synthetic data (e.g. examples
+- OpenAI GPT-4V／ChatGPT／GPTs 人工知能プログラミング実践入門
+	- 布留川さんの、新刊、
 
 ## 1/22
 
@@ -4072,17 +4077,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - CAMEL-5B と SentenceTransformers で LlamaIndex を試す
 	- https://note.com/npaka/n/n2e408cded4ac
 - DeepLearningAIから、新コース、LangChain: Chat with Your Dataを無償リリース
-	- https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/
-- OpenAI、計算リソース利用の２０％をアライメント問題に割くことを表明
-	- アラインメント問題自体をAIで自動化するようにも見える（つまり目には目を、AIにはAIを）
-	- https://openai.com/blog/introducing-superalignment
-- NP困難といわれる、3次元パッキング問題を、MITが解く？
-	- https://news.mit.edu/2023/chore-packing-just-got-faster-and-easier-0706
-	- FFTを利用しているとのこと
-- 楔形文字の解読にトランスフォーマを駆使して成功
-	- https://academic.oup.com/pnasnexus/articl
+	- https://www.deeplearning.ai/short-courses/lang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzcxMzY0MTQsNDgzNDg5ODcsMTkxNj
+eyJoaXN0b3J5IjpbLTE3NjcyMjk2OTEsNDgzNDg5ODcsMTkxNj
 g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
 MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
 k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
