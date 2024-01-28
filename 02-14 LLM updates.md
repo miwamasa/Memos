@@ -26,6 +26,13 @@
 	- までの視覚言語モデルは空間感覚に欠けていた。例えば「写真に写ってるバッターと審判の距離は何メートル？」とか訊いても答えられんかった。それを改善したのがSpatialVLM。
 - makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
 	- https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
+- 深層学習の原理を明らかにする理論の試み　by 今泉さん
+	- https://drive.google.com/file/d/1bNN6VjsgdpJAqxvZ4EKAPpMGq9wfjHqf/view
+	- 「なぜ深層学習でうまくいくのか」という素朴な疑問に対し、理論的にわかっていることを平易に解説したスライド。非常にわかりやすい。
+- Orion-14B-Chat-Int4 を試す。
+	- https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4
+	- https://x.com/npaka123/status/1749787625823866958?s=20
+	- 推論高速で回答も自然で良い感じ。 ロングチャット用、RAG用、Function Calling用などもある
 - 
 
 ## 1/22
@@ -4074,17 +4081,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 
 ## 6/26
 
-あいもかわらずOpenAIのFunction APIの利用について、具体例が増える、Pydatanicと組み合わせればほぼ無滝の情報抽出ができそうだし、抽出した情報をつかったQ&Aなど、ちょっと説明性もあがるか？ヘルスケア分野でのGoogleAIの発表は衝撃的、眼科検診で様々な病気が見つかる。。。OpenLLAMaがでてきて、あっというまにFlanのデータでファインチューニングしたものが、商用利用できるのか？生成AIの研究や仕事への影響についてまとまった資料がぼちぼちでてきた。世界モデルに基づくプランニングなんかもLLMならではの研究か。LLMのコンパクト化も引き続き、マイクロソフトの取り組みがある。MITの試験問題をGPT4に解かせる話が不正という記事が、ちょっと悲しいが、オープンサイエンスの成果か。。
-
-
-- OpenLLaMAは、LLaMaのオープン版（商用利用が可能？）GPU RAMは26.5GBで動作の模様
-	- https://huggingface.co/openlm-research/open_llama_13b
-	- https://github.com/openlm-research/open_llama
-- Google	 ピーチャイ氏の講演、ヘルスケア分野で、AIがCTとかMRIとかを代替するかも（眼底検査で代替できる？）
-	- https://twitter.com/alvinfoo/status/1670599368930656257?s=20
-- OpenAIのFunction callとpy
+あいもかわらずOpenAIのFunction APIの利用について、具体例が増える、Pydatanicと組み合わせればほぼ無滝の情報抽出ができそうだし、抽出した情報をつかったQ&Aなど、ちょっと説明性もあがるか？ヘルスケア分野でのGoogleAIの発表は衝撃的、眼科検診で様々な病気が見つかる。。。OpenLLAMaがでてきて、あっというまにFlanのデータでファインチューニングしたものが、商用利用できるのか？生成AIの研究や仕事への影響についてまとまった資料がぼちぼちでてきた。世界モデルに基づくプランニングなんかもLLMならではの研究か。LLMのコンパクト化も引き続き、マイクロソフトの取り組みが
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDgyNzY5LDQ4MzQ4OTg3LDE5MTY4ND
+eyJoaXN0b3J5IjpbMTkzNTEzNjQ0LDQ4MzQ4OTg3LDE5MTY4ND
 QxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIs
 MTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5Nz
 Q1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYz
