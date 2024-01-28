@@ -70,7 +70,11 @@
 - LLMの研究トレンドは以下の３つ
 	- https://x.com/cwolferesearch/status/1749867258107543615?s=20
 	- (1) Synthetic training data:
+		- [1]では、最先端の埋め込みモデルを学習するために、合成学習データを使用できることを示している。
+		- [2]では、数学とコーディングの問題に対して合成データを簡単に生成し、検証することができ、LLMの性能を向上させるために使用できることが示されている。
 	- (2) LLM safety:
+		- [3]の研究では、LLMに訓練されたバックドア攻撃は、広範な安全訓練後も持続し、人間のユーザーを欺くスリーパーエージェントを形成することが示されています
+		- [4]で、適切なプロンプト技術さえあれば、多くのアライメントを経たLLMであっても、ほぼ全てのLLMからトレーニングデータを抽出できることを学びました。
 	- (3) Knowledge injection
 
 ## 1/22
@@ -4078,16 +4082,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 
 ## 7/4
 
-暑くてバテてました。LLMって、人間の知能を模擬するならば、Agentが実装できるというが、実装が近づいてきた。計画問題も直接解かせるよりも、計画問題を生成させるという組み合わせも面白い。形式言語なんか振り返ってみるのも面白いかも。LLMをComputer Visonへの応用、言語と画像の区別はなくなるのか？GoogleのKaggleチャレンジって、LLMの品質保証では重要な要素。ノン・セミパラメトリック統計ってのがあるのか？ 岡野原さんの『大規模言語モデルは新たな知能か』はおすすめ。記号接地って、LLMで実現できてんじゃない？みたいなのがじわじわと語られつつある(MLSE2023合宿より）。DeepMindのGemini、本当に出るのか？
-
-- OpenAIのilian WengによるLLMをつかった、Agentの良解説記事
-	- https://lilianweng.github.
+暑くてバテてました。LLMって、人間の知能を模擬するならば、Agentが実装できるというが、実装が近づいてきた。計画問題も直接解かせるよりも、計画問題を生成させるという組み合わせも面白い。形式言語な
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk0NDMyNjMsNDgzNDg5ODcsMTkxNj
-g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
-MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
-k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
-NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMD
-kwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4
-MV19
+eyJoaXN0b3J5IjpbLTUzOTY2MDIwMSw0ODM0ODk4NywxOTE2OD
+Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
+LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
+c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
+MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
+AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
+XX0=
 -->
