@@ -141,7 +141,15 @@
 	- https://arxiv.org/abs/2401.13660
 	- MambaByteは、Mambaが長い系列も扱えるため、トークン化せずバイト単位で言語モデルを学習。同等の計算量、モデルサイズでトークン化不要のMegaByteや通常のトークン化Transformerと比べ性能で上回り、1/3の投入計算量でTransformerの損失に到達。小規模実験の結果だが有望
 -  Dense X Retrieval: What Retrieval Granularity Should We Use?
-	- 
+	- https://arxiv.org/abs/2312.06648
+	- The "Dense X Retriever" paper shows that it significantly outperforms the traditional chunk-based retriever
+-  Deep Convolutional Networks on Graph-Structured Data
+	- https://arxiv.org/abs/1506.05163
+	- My most-cited, never-accepted, ArXiv-only paper has over 1880 citations. "Deep Convolutional Networks on Graph-Structured Data" Mikael Henaff, Joan Bruna, Yann LeCun
+-  FP6-LLM: Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design
+	- https://huggingface.co/papers/2401.14112
+	- Microsoft presents FP6-LLM 
+	- Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design
 
 ## 1/22
 
@@ -4056,24 +4064,9 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 - 生成AIによるコード生成とCode Interpreter活用ハンズオン with PLATEAU
 	- https://connpass.com/event/290745/
 - Abstraction and Analogy: The Keys to Robust Artificial Intelligence
-	- https://www.eventbrite.co.uk/e/abstraction-and-analogy-the-keys-to-robust-artificial-intelligence-tickets-675075728677?aff=oddtdtcreator
-- MicrosoftによるOpenAI　Azure大全
-	- https://speakerdeck.com/hirosatogamo/chatgpt-azure-openai-da-quan
-	- GPTの全体像、MicrosoftとOpenAIの関係、プロンプトエンジニアリングなど全て学べます
-- llama2-webui
-	- https://github.com/liltom-eth/llama2-webui
-	- Run Llama 2 locally with gradio UI on GPU or CPU from anywhere
-- DeepMindから強化学習で核融合炉（トカマク）を制御する話
-	- https://arxiv.org/abs/2307.11546
-- Google Colab で Llama 2 + LangChain の RetrievalQA を試す
-	- https://note.com/npaka/n/n6d33c2181050
-- 医療のあらゆるタスクで最優秀スコアを獲得する医療特化の大規模言語モデル「Med-PaLM M」
-	- https://arxiv.org/pdf/2307.14334.pdf
-- 「生成AIと著作権に関する論点整理」
-	- なんと詳細な図が、、
-	- https://www.bunka.go.jp/seisaku/bunkashingikai/chosakuken/hoseido/r05_01/?fb
+	- https://www.eventbrite.co.uk/e/abstraction-and-analogy-the-keys-to-robust-artificial-intelligence-tickets-67507572
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY0NTgxOSwxODU0Njg5MzEzLDQ4Mz
+eyJoaXN0b3J5IjpbLTYyNDE2ODkxNCwxODU0Njg5MzEzLDQ4Mz
 Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
 LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
 YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
