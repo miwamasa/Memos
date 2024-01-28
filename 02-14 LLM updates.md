@@ -111,6 +111,12 @@
 - CALM2をDirect Preference Optimization (DPO)でチューニングしたモデル calm2-7b-chat-dpo をCC-BY 4.0で公開しました。
 	- https://huggingface.co/cyberagent/calm2-7b-chat-dpo-experimental
 	- calm2-7b-chat-dpoをELYZA-tasks-100とJapanese MT-Benchで評価を行ったところ、CALM2よりも更に高いスコアが得られるという結果になりました
+	- また、あわせてDPOに用いたデータセットをCC-BY 4.0で公開しました
+	- https://huggingface.co/datasets/cyberagent/chatbot-arena-ja-calm2-7b-chat-experimental
+- 今更ながら､GPT3.5をファインチューニングしてみました｡ 
+	- https://x.com/kanhatakeyama/status/1750331895853039745?s=20
+	- guiで操作できるし､gpuマシンを用意しなくて良いし､非常にお手軽な印象でした｡ 3並列まで学習回せました｡
+	- 2,3時間の使用で､$30ほどかかりました｡
 - 
 
 ## 1/22
@@ -4062,21 +4068,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- https://www.nature.com/articles/d41586-023-02227-y
 	- RFdiffusionという拡散モデルによるタンパク質の合成が、AlphaFoldなどのハルシーネーションベース？の手法より優れているとの論文
 - GPT-4でワークフロー自動化「Promptflow」開発、Carnot（カルノー）が8,500万円をプレシード調達
-	- https://thebridge.jp/2023/07/carnot-pre-seed-round-funding
-	- 雨後のタケノコのようにスタートアップが立ち上がるか？？
-- LLamaindexにおける、RAGの説明 by npakaさん
-	- https://note.com/npaka/n/n27a36f784fb3
-	- LLMとカスタムデータを組み合わせるための「RAG」(Retrieval Augmented Generation) パラダイム
-- ストラング先生の線形代数講義のグラフィカルなノート、行列演算を極める。
-	- https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra
-- DeepMindのHasabisさんのインタビュー
-	-
+	- https://thebridge.jp/2023/07/carnot-pre-seed-round-f
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzk5Nzk1MzgsNDgzNDg5ODcsMTkxNj
-g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
-MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
-k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
-NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMD
-kwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4
-MV19
+eyJoaXN0b3J5IjpbMTg1NDY4OTMxMyw0ODM0ODk4NywxOTE2OD
+Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
+LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
+c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
+MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
+AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
+XX0=
 -->
