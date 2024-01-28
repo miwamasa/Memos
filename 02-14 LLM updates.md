@@ -186,6 +186,12 @@
 	- https://note.com/eurekachan/n/n9d4f62b80ad6?sub_rt=share_pb
 	- 1月に、Googleから、SigLIPという、画像とテキストの両方をベクトルとして扱うことができるモデルのmultilingual版（多言語対応版）が公開されました。transformers 4.37以降で対応しています。日本語も対応しています。
 -  Are Transformers Effective for Time Series Forecasting?
+	- https://arxiv.org/abs/2205.13504
+- ColBERT superior to traditional embedding models
+	- https://x.com/marktenenholtz/status/1751406680535883869?s=20
+- miniature ColBERT model in your browser
+	- https://colbert.aiserv.cloud/
+- DSPy lets you prototype LLM Programs like AlphaCodium in 2 minutes!
 
 ## 1/22
 
@@ -4032,13 +4038,9 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- 禁止ではなくて、ハイリスクAIに相当するから、守るべきことを守らないといけないということ
 	- https://twitter.com/umiyuki_ai/status/1687639267273748480?s=20
 - 南極の氷が、今年は急激にとけているらしい　via 安宅さん
-	- https://www.economist.com/graphic-detail/2023/08/02/the-rapid-loss-of-antarctic-sea-ice-brings-grim-scenarios-into-view
-- REBELという関係抽出トランスフォーマーをつかって知識グラフを抽出して推論する例
-	- https://twitter.com/jerryjliu0/status/1687607838539927553?s=20
-	- llamaindexの人による紹介、なんか抽出する知識の密度を調整したいところ
-- Google Colab で LangC
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDE2OTk0LC0xMDY3MTc2OTY5LC0xOT
+eyJoaXN0b3J5IjpbNDY3NTIxMTkwLC0xMDY3MTc2OTY5LC0xOT
 ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
 MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNT
 Q4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4
