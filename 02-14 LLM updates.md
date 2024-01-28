@@ -67,7 +67,11 @@
 	- ■実験と結果 
 		- 1. 「Llama-2」「OpenLLaMA」「MPT」を融合して「FUSELLM」を作成した 
 		- 2. 下記タスクを中心に顕著に性能が向上した - 論理 - 常識 - コード生成
-- 
+- LLMの研究トレンドは以下の３つ
+	- https://x.com/cwolferesearch/status/1749867258107543615?s=20
+	- (1) Synthetic training data:
+	- (2) LLM safety:
+	- (3) Knowledge injection
 
 ## 1/22
 
@@ -4077,16 +4081,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 暑くてバテてました。LLMって、人間の知能を模擬するならば、Agentが実装できるというが、実装が近づいてきた。計画問題も直接解かせるよりも、計画問題を生成させるという組み合わせも面白い。形式言語なんか振り返ってみるのも面白いかも。LLMをComputer Visonへの応用、言語と画像の区別はなくなるのか？GoogleのKaggleチャレンジって、LLMの品質保証では重要な要素。ノン・セミパラメトリック統計ってのがあるのか？ 岡野原さんの『大規模言語モデルは新たな知能か』はおすすめ。記号接地って、LLMで実現できてんじゃない？みたいなのがじわじわと語られつつある(MLSE2023合宿より）。DeepMindのGemini、本当に出るのか？
 
 - OpenAIのilian WengによるLLMをつかった、Agentの良解説記事
-	- https://lilianweng.github.io/posts/2023-06-23-agent/
-- LLMを使ってプランニング問題を解く、PDDLと呼ばれるプランニング言語に変換させた上でソルバーに解かせる。LLM単独より正確。
-	- https://arxiv.org/abs/2304.11477
-- Relicの社内勉強会での生成AI解説７０P資料
+	- https://lilianweng.github.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTc1MTYzOSw0ODM0ODk4NywxOTE2OD
-Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
-LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
-c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
-MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
-AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
-XX0=
+eyJoaXN0b3J5IjpbLTE3MDk0NDMyNjMsNDgzNDg5ODcsMTkxNj
+g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
+MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
+k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
+NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMD
+kwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4
+MV19
 -->
