@@ -4,7 +4,7 @@
 
 ## 1/29
 
-中国からLLMの申請Orion登場、日本語韓国語が得意なのと長文モデルを持っている、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違う実装も出てきたし、CALM2をDPOしたモデルの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEもColabの無料枠で動く事例が出てきたり、。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge injectionがうまく動いた例でもあるのね。DPOはもちろん、2)LLM safetyと関係ある。AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」、自給自足モデルか。基盤モデルよりも、領域を絞ったモデルが高性能であったり、Q&Aタスクに絞ってllama2を２段階の指示チューニングして、GPT-4な
+中国からLLMの申請Orion登場、日本語や韓国語が得意なのと長文モデルを持っている、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違う実装も出てきたし、CALM2をDPOしたモデルの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEもColabの無料枠で動く事例が出てきたり、。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge injectionがうまく動いた例でもあるのね。DPOはもちろん、2)LLM safetyと関係ある。AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」、自給自足モデルか。基盤モデルよりも、領域を絞ったモデルが高性能であったり、Q&Aタスクに絞ってllama2を２段階の指示チューニングして、GPT-4に迫る結果など、それはそうだがそれを確かめたのが尊い。
 
 - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
 	- https://arxiv.org/abs/2311.16452
@@ -4045,14 +4045,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- https://pc.watch.impress.co.jp/docs/column/nishikawa/1519390.html
 	- 西川さんが組むとは、だいぶ民主化が進んだのか。
 	- Colabでも結構簡単にうごくが、ローカルなGeForce RTX 4070 Ti(12GB)でも動かす事例が(西川 和久)
--  Llama 2ベースのLLM FastChat/Vicuna v1.5をローカルで動作
-	
+-  Llama 2ベースのLLM Fast
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQxMDE3OTQsLTMyMjAzODE4NCwtMT
-k3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQx
-ODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMT
-Y5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1
-NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNi
-w3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1
-NjY2M119
+eyJoaXN0b3J5IjpbNzE4NjQzMDgsLTMyMjAzODE4NCwtMTk3MT
+E4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMs
+LTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MT
+cxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5
+MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3ND
+Q4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MDE1NjY2
+M119
 -->
