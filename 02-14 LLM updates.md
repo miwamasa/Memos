@@ -47,6 +47,10 @@
 	- JSONが巨大になると、コンテキストが膨大になるので、圧縮？するらしい
 -  Self-Rewarding Language Model (wip)
 	- https://github.com/lucidrains/self-rewarding-lm-pytorch
+	- MetaのDPOの、独立実装が登場らしい
+- ベイズモデリングによるチームメイト及び対戦相手の能力を考慮したポゼッションデータに基づくバスケットボールプレイヤーの能力評価指標
+	- https://www.jstage.jst.go.jp/article/jscswabun/36/2/36_99/_article/-char/ja/
+- 
 
 ## 1/22
 
@@ -4076,15 +4080,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://www.kyoritsu-pub.co.jp/book/b10031225.html
 	- 分布関数、密度関数や回帰関数について、一定の滑らかさのみを仮定して、ノンパラメトリックな推定と検定を行う方法を紹介する
 - DeepMindの次世代AI「Gemini」はChatGPTを凌駕する？
-	- https://wired.jp/article/google-deepmind-demis-hassabis-chatgpt/?utm_medium=social&utm_source=twitter
-	- 「GeminiはAlphaGoのようなシステムの強みと大規模言語モデルの卓越した言語能力を組み合わせたもの」
-- 岡野原『大規模言語モデルは新たな知能か』の個人的着目ポイントは、transformerで交互に積層する自己注意機構とパーセプトロンについて、前者が「短期記憶」、後者が長期記憶と
+	- https://wired.jp/article/google-deepmind-demis-hassabis-chatgpt/?utm_medium=s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzQzOTA5MSw0ODM0ODk4NywxOTE2OD
-Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
-LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
-c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
-MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
-AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
-XX0=
+eyJoaXN0b3J5IjpbLTE3ODc5MzM2MTQsNDgzNDg5ODcsMTkxNj
+g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
+MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
+k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
+NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMD
+kwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4
+MV19
 -->
