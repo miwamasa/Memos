@@ -1,6 +1,11 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+
+## 1/29
+
+- 
+
 ## 1/22
 
 今週はDavos会議があって、われらのアルトマン氏も登場、GPT-5について言及。Metaからはザッカーバーグ氏がビデオメッセージでいきなりLlama3のOSSとしての開発宣言。NVIDIAがCESで発表したGeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊が、、、。MoEも今週もにぎやか、圧縮して小メモリ化するようなMC-SMoEのアプローチとか、負荷分散を調整するDeepSeekMoEとか、youri-2x7bのggufがでたりとかとにかく賑やか。小規模LLM向けの人工的に生成された学習用モデルtiny-textbookシリーズも充実してきて、小規模LLMの開発も加速するかな。手が届くところではnanoGPTの源氏物語の適用例は楽しそう。小規模LLMを集めて優れたAIを作るという意味では、sakana.aiが華々しく45億円もの投資を調達、googleなどのスーパー研究者が終結して楽しそう。sakana.aiは小さな魚が集まって一匹の大魚のように泳ぐ物語｢スイミー｣の仕組みなわけだけど、小さな専門エージェントがあつまって問題を解決するってことなら、古い人にはミンスキー御大のSociety o Mindsが思い出される。MicrosoftはColiplot Proをリリース、月20ドルで、個人が、GPT-4 TurboにもアクセスできるしOffice 365 Copilotも使えるしお得かも、一方がっかりしたというファーストユーザーの意見もちらほら。でも小規模LLMの代表格phi-2はマイクロソフトからでているから、OpenAI/Copilot一辺倒では実はない。一方メタは２万人をレイオフして、代わりに35万台のH100インフラを整えLlama3の開発を推進。どの会社もLLMという不確実な要素（発展性、他社との競争）に備えならが綱渡り的な会社の運営をしている（株主からの期待にこたえ続けつつ財務的に破綻はできない）。共通テストにさっそく吊るしのLLMを適用評価した例では、GPT-4が6割強程度正解でなんとか人間を上回るも、特に数学がダメという結果が。一方、数学オリンピックのメダリスト並みの性能を示すDeepMindのAlphaGeometry、LLMとルールベースのハイブリッドが高性能の秘訣らしい、text_to_SQLも、また違ったハイブリッドとして高性能化のヒントになる。ベクトル化のサーベイ論文とか、ELYZAの日本語追加学習でもともとの英語の能力が落ちないかの検証とか、着実な動きは地道にすすんでいるのを忘れずにいたい。
@@ -4083,13 +4088,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- https://github.com/salesforce/PyRCA
 - OpenAIのFunction APIの解説
 	- https://every.to/chain-of-thought/gpt-4-can-use-tools-now-that-s-a-big-deal
-- Flan-Open-Llama-
+- Flan-Open-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MD
-MxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4MTcz
-LC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MT
-M4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2
-Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMDkwMTU2NjYzLDE0MT
-c2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4MSwtNzg2MzI2Njg1
-XX0=
+eyJoaXN0b3J5IjpbODE4OTMyNzEzLDQ4MzQ4OTg3LDE5MTY4ND
+QxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIs
+MTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5Nz
+Q1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYz
+Niw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MD
+E1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODFd
+fQ==
 -->
