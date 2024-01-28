@@ -119,7 +119,12 @@
 	- 2,3時間の使用で､$30ほどかかりました｡
 -  LLM のデータセットまとめ by npakaさん
 	- https://note.com/npaka/n/n686d987adfb1?sub_rt=share_b
-- 
+- Hugging Face and Google partner for open AI collaboration
+	- https://huggingface.co/blog/gcp-partnership
+	- We will collaborate with Google to foster open AI innovation across open science, open-source, cloud, and hardware
+	- A collaboration for Google Cloud customers
+	- A collaboration for Hugging Face Hub users
+-  OpenAIの 新モデルの追加 と APIの更新
 
 ## 1/22
 
@@ -4063,19 +4068,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- https://twitter.com/ImAI_Eruel/status/1678378444441387010?s=20
 - What Should Data Science Education Do with Large Language Models?
 	- https://arxiv.org/abs/2307.02792v2
-	- LLMにより教育の変革、LLM-informed creativity, critical thinking, AI-guided programming.
-- AlpacaEvalなるLLMベンチマークがあった、OSS系では、Vicuna-33Bがトップ
-	- https://tatsu-lab.github.io/alpaca_eval/
--  AI tools are designing entirely new proteins that could transform medicine
-	- https://www.nature.com/articles/d41586-023-02227-y
-	- RFdiffusionという拡散モデルによるタンパク質の合成が、AlphaFoldなどのハルシーネーションベース？の手法より優れているとの論文
-- GPT-4でワークフロー自動化「Promptflow」開
+	- LLMにより教育の変革、LLM-informed creativity, critical thinking, AI-guided pr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNTg2Mjg3LDE4NTQ2ODkzMTMsNDgzND
-g5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwt
-MTg4ODA0MDYwMiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1Nj
-EyOTEwMiwxNjk3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIz
-LC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OT
-MyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3
-XX0=
+eyJoaXN0b3J5IjpbLTEzMDk4NTk5NzYsMTg1NDY4OTMxMyw0OD
+M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
+LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
+U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
+MjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNz
+g5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0
+MzddfQ==
 -->
