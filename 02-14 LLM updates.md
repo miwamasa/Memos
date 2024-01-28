@@ -16,7 +16,13 @@
 - transformer v4.37
 	- https://github.com/huggingface/transformers/releases/tag/v4.37.0
 	- Release v4.37 Qwen2, Phi-2, SigLIP, ViP-LLaVA, Fast2SpeechConformer, 4-bit serialization, Whisper longform generation · huggingface/transformers · GitHub
-- LLMのRLHF→DPO→KTOってトレンドの流れを抑えよう
+- LLMのRLHF→DPO→KTOってトレンドの流れを抑えよう by うみゆき
+	- https://x.com/umiyuki_ai/status/1749670491227672797?s=20
+	- オープンLLMはそんな金かけてRLHFやるなんて無理だった。そこで発明されたのがDPOだ。
+	- DPOは人力で評価する必要が無いからコストがかからない。代わりに”嗜好データセット”を用意する必要がある。嗜好データセットってのは、あるプロンプトが与えられた時の二つの回答があって、こっちの回答の方がイケてて、こっちの方が良くない。みたいなデータが大量に用意されてるモノ。RLHFとDPOは数学的に等価である事がキッチリ証明されてる。
+	- 嗜好データセットとか言われても、そんなもん用意するのだってまだまだ手間がかかって大変だ。そういうデータの問題をどうにかする新しいテクがKTO。KTOでは必要なデータはプロンプトと回答があって、その回答に「いいね」か「よくないね」の評価だけ付いてればいい。
+	- KTOによってLLMのアラインメント作業は相当簡単にできるようになってきたわけだ。ただ、そうやって作ったモデルのベンチ性能を比較すると、やっぱKTOよりDPOの方がやや高性能みたいだ
+- 
 
 ## 1/22
 
@@ -4075,24 +4081,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - OpenAIのFunction callとpydantic 	を組み合わせた例や再帰構造への対応など、情報抽出がこんなに便利に
 	- https://twitter.com/jxnlco/status/1670764386447953921?s=20
 	- https://twitter.com/matchaman11/status/1670799349004083200?s=20
-	- https://gpt-index.readthedocs.io/en/latest/examples/output_parsing/openai_pydantic_program.html
-- エンコーダーとデコーダについてわかりやすい解説
-	- https://magazine.sebastianraschka.com/p/understanding-encoder-and-decoder
-- LangChainで、	**MarkdownHeaderTextSplitter**を使えば、引用元つきのQ&Aが簡単に
-	- https://note.com/hamachi_jp/n/nf23b75d14068
-- マッキンゼーによる、生成AIの生産性への影響レポート
-	- 生成AIで従業員の時間を6~7割節約可能 
-	- 生成AIのビジネスインパクトが高いのは2枚目画像の右上の領域
-	- 産業×用途別のインパクト評価(3枚目) 
-	- 特定領域の具体的な用途と経済価値(4枚目)
-	- https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier#key-insights
-- GPT
+	- https://gpt-index.readthedocs.io/en/latest/examples/output_parsing/openai_pydantic_progr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ3OTAyODQsNDgzNDg5ODcsMTkxNj
-g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
-MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
-k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
-NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMD
-kwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4
-MV19
+eyJoaXN0b3J5IjpbOTgxODQ0MTI1LDQ4MzQ4OTg3LDE5MTY4ND
+QxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIs
+MTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5Nz
+Q1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYz
+Niw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MD
+E1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODFd
+fQ==
 -->
