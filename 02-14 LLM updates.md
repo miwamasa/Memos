@@ -155,6 +155,8 @@
 	- https://x.com/koheiichi/status/1751060499310301550?s=20
 - Python library that adds Generative AI capabilities to Pandas
 	- https://github.com/gventuri/pandas-ai
+	- Introducing PandasAI, now you can analyze complex data frames and plot visualizations just by using natural language
+- XWin 70B で LLM 出力日本語文章の自動評価を行う試み
 	- 
 
 ## 1/22
@@ -4061,16 +4063,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 - LangChainのLLaMa2インターフェイス
 	- https://python.langchain.com/docs/integrations/chat/llama_api
 - llama2 13B chat 4bit
-	- https://twitter.com/manjiroukeigo/status/1683047350141599744?s=20
-- 京大、仏典をGPT-４で学習した、ブッダポッドプラスを発表
-	- https://ledge.ai/articles/buddha_bot_plus_kyoto_university
-	- 
+	- https://
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODMxODQ3OCwxODU0Njg5MzEzLDQ4Mz
-Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
-LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
-YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
-MywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3OD
-kzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQz
-N119
+eyJoaXN0b3J5IjpbLTEzOTI1MjU2ODcsMTg1NDY4OTMxMyw0OD
+M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
+LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
+U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
+MjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNz
+g5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0
+MzddfQ==
 -->
