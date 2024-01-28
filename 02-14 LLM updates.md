@@ -4,7 +4,7 @@
 
 ## 1/29
 
-中国からLLMの申請Orion登場、日本語や韓国語が得意なのと長文モデルを持っている、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違う実装も出てきたし、CALM2をDPOしたモデルの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEもColabの無料枠で動く事例が出てきたり、。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge injectionがうまく動いた例でもあるのね。DPOはもちろん、2)LLM safetyと関係ある。AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」、自給自足モデルか。基盤モデルよりも、領域を絞ったモデルが高性能であったり、Q&Aタスクに絞ってllama2を２段階の指示チューニングして、GPT-4に迫る結果など、それはそうだがそれを確かめたのが尊い。Lucan先生によると、DGNNの論文
+中国からLLMの申請Orion登場、日本語や韓国語が得意なのと長文モデルを持っている、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違う実装も出てきたし、CALM2をDPOしたモデルの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEもColabの無料枠で動く事例が出てきたり、。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge injectionがうまく動いた例でもあるのね。DPOはもちろん、2)LLM safetyと関係ある。AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」、自給自足モデルか。基盤モデルよりも、領域を絞ったモデルが高性能であったり、Q&Aタスクに絞ってllama2を２段階の指示チューニングして、GPT-4に迫る結果など、それはそうだがそれを確かめたのが尊い。Lucan先生によると、DGNNの論文でどこにも投稿してなかったのか。。OpenAIの 新モデルの追加 と APIの更新もありました、安くなって性能が上がる。LangGra
 
 - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
 	- https://arxiv.org/abs/2311.16452
@@ -4044,10 +4044,9 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 -  LLMがローカルで動くパラメータ数どこまで？Metaの「Llama 2」を試してみた
 	- https://pc.watch.impress.co.jp/docs/column/nishikawa/1519390.html
 	- 西川さんが組むとは、だいぶ民主化が進んだのか。
-	- Colabでも結構簡単にうごくが、ローカルなGeForce RTX 4070 Ti(12GB)でも動かす事例が(西川 和久)
--
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTI1MjYzNywtMzIyMDM4MTg0LC0xOT
+eyJoaXN0b3J5IjpbLTEzNzU5MDM1NSwtMzIyMDM4MTg0LC0xOT
 cxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4
 MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNj
 kxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3
