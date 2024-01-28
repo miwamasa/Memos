@@ -9,7 +9,14 @@
 	- Microsoftより「GPT-4等の基盤モデルよりも、領域を絞ったモデルの方がその領域で高性能なのではないか？」を調べた論文。結果、医療の問題でGPT-4がMed-PaLM2を上回る結果に
 - Orion-14B
 	- https://github.com/OrionStarAI/Orion
-	- 
+	- 中国発LLMの新星
+	- 2.5T学習、日本語100B事前学習済 語彙サイズは84,608 
+	- 長文モデルは、200k-320k対応 RAG、
+	- function calling専用モデルを用意
+- transformer v4.37
+	- https://github.com/huggingface/transformers/releases/tag/v4.37.0
+	- Release v4.37 Qwen2, Phi-2, SigLIP, ViP-LLaVA, Fast2SpeechConformer, 4-bit serialization, Whisper longform generation · huggingface/transformers · GitHub
+- LLMのRLHF→DPO→KTOってトレンドの流れを抑えよう
 
 ## 1/22
 
@@ -4079,20 +4086,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- 産業×用途別のインパクト評価(3枚目) 
 	- 特定領域の具体的な用途と経済価値(4枚目)
 	- https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier#key-insights
-- GPT４ALLベースのcopilotが登場？
-	- https://morph.so/
-- Debate　Tree、議論の構造をビジュアライズする
-	- https://debatetreeofthoughts.streamlit.app/
-- 基盤モデル・生成AIの科学研究への影響に関する資料、文科省 基礎研究振興部会(第11回)
-	- https://www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu27/siryo/mext_00007.html
-- LlamaIndex	で、function call+pydatnicを組み合わせて、	query planningが可能に、
-	- https://gpt-index.readthedocs.io/en/latest/examples/agent/openai_
+- GPT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzk0MDE2Myw0ODM0ODk4NywxOTE2OD
-Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
-LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
-c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
-MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
-AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
-XX0=
+eyJoaXN0b3J5IjpbLTE5MDQ3OTAyODQsNDgzNDg5ODcsMTkxNj
+g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
+MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
+k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
+NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMD
+kwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4
+MV19
 -->
