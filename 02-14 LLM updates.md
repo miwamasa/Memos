@@ -27,7 +27,9 @@
 - makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
 	- https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
 	- Colabも公開してくれているので無料版ColabのT4でも動かせます。max_itersを500くらいに修正すれば所要時間も10分程度
-	- 
+	- ただし、最後から3番目のセルは以下のように要修正 
+		- metrics = {"train_loss": losses['train'], "val_loss": losses['val']} 　
+		- ↓ metrics = {"train_loss": float(losses['train']), "val_loss": float(losses['val'])}
 - 深層学習の原理を明らかにする理論の試み　by 今泉さん
 	- https://drive.google.com/file/d/1bNN6VjsgdpJAqxvZ4EKAPpMGq9wfjHqf/view
 	- 「なぜ深層学習でうまくいくのか」という素朴な疑問に対し、理論的にわかっていることを平易に解説したスライド。非常にわかりやすい。
@@ -4075,12 +4077,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 	- OpenAIやHuggingFace以外、
 	- https://python.langchain.com/docs/modules/data_connection/text_embedding/integrations/spacy_embedding
 - EUのAI規制の、最終案の一つ前の和訳が、総務省の「AIネットワーク社会推進会議」で公開
-	- https://www.aplawjapan.com/publications/20220725
-- IPAに「デジタル基盤センター」新設、デジタル庁と協力して基盤整備
-	- https://xtech.nikkei.com/atcl/nxt/news/18/15517/
-	- 古巣の社会基盤センターが改組されて、「デジタル基盤センター」になり、デジタル庁の影響を受けるようになった。。。悲しい。
+	- https://ww
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTU5MTUxNCw0ODM0ODk4NywxOTE2OD
+eyJoaXN0b3J5IjpbMTE5NjUwMTM1OCw0ODM0ODk4NywxOTE2OD
 Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
 LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
 c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
