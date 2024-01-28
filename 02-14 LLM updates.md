@@ -139,6 +139,8 @@
 	- そこで今回、適切な推論のステップ数が検証されました。 記事ではプロンプト手法とともに結果を紹介しています。
 -  MambaByte: Token-free Selective State Space Model
 	- https://arxiv.org/abs/2401.13660
+	- MambaByteは、Mambaが長い系列も扱えるため、トークン化せずバイト単位で言語モデルを学習。同等の計算量、モデルサイズでトークン化不要のMegaByteや通常のトークン化Transformerと比べ性能で上回り、1/3の投入計算量でTransformerの損失に到達。小規模実験の結果だが有望
+-  Dense X Retrieval: What Retrieval Granularity Should We Use?
 	- 
 
 ## 1/22
@@ -4069,16 +4071,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- https://arxiv.org/pdf/2307.14334.pdf
 - 「生成AIと著作権に関する論点整理」
 	- なんと詳細な図が、、
-	- https://www.bunka.go.jp/seisaku/bunkashingikai/chosakuken/hoseido/r05_01/?fbclid=IwAR06f_2GFjUTlVn6Ofot52SfMhcJuyjTtkzF-D7DczgB75d0d5iCC9ucGnQ
-- World Coinの発表（Sam Altmanが関係している）、日本でも認証Orbが設置
-	- 代官山のサイトに行ってみたが、人はぼちぼち、日本では今一歩の認知度か。暑かった
-	- https://twitter.com/umiyuki_ai/status/1685323501069299713
+	- https://www.bunka.go.jp/seisaku/bunkashingikai/chosakuken/hoseido/r05_01/?fb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE1Njg0NDgsMTg1NDY4OTMxMyw0OD
-M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
-LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
-U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
-MjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNz
-g5MzI2NjE1LDIwOTAxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0
-MzddfQ==
+eyJoaXN0b3J5IjpbLTE3ODY0NTgxOSwxODU0Njg5MzEzLDQ4Mz
+Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
+LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
+YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
+MywtMTAxMjYwNjYzNiw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3OD
+kzMjY2MTUsMjA5MDE1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQz
+N119
 -->
