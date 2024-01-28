@@ -182,6 +182,10 @@
 - MLXでXwin-70Bのggufが動くことを確認
 	- https://x.com/npaka123/status/1751139720367862193?s=20
 	- Apple M3 Max
+-  google/siglip-base-patch16-256-multilingual を使って、ローカルの画像を日本語で検索してみ
+	- https://note.com/eurekachan/n/n9d4f62b80ad6?sub_rt=share_pb
+	- 1月に、Googleから、SigLIPという、画像とテキストの両方をベクトルとして扱うことができるモデルのmultilingual版（多言語対応版）が公開されました。transformers 4.37以降で対応しています。日本語も対応しています。
+-  Are Transformers Effective for Time Series Forecasting?
 
 ## 1/22
 
@@ -4032,21 +4036,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 - REBELという関係抽出トランスフォーマーをつかって知識グラフを抽出して推論する例
 	- https://twitter.com/jerryjliu0/status/1687607838539927553?s=20
 	- llamaindexの人による紹介、なんか抽出する知識の密度を調整したいところ
-- Google Colab で LangChain + Vicuna-v1.5 のエージェント機能を試す
-	- https://note.com/npaka/n/nb3c02ce2d4c5
-	- npakaさんより、serpAIとmathをツールとして、ReActが試せるらしい。ハイメモリが必要。。
--  Google Colab で Llama.cpp + Vicuna-v1.5 を試す
-	- npakaさんより、Colabでこんなこともできるのか？
-	- https://note.com/npaka/n/n280ffc0d5ff0
-- llama-2-7bをつかって、colabでchatbodを作る例、
-	- 動くんだ、、、というか動くぞ！
-	- https://col
+- Google Colab で LangC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsOD
-E4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4
-OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNj
-Y4NDQzNTE0LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUy
-MTAzNywxOTU2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC
-05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDEx
-Nzc2NV19
+eyJoaXN0b3J5IjpbLTY3MDE2OTk0LC0xMDY3MTc2OTY5LC0xOT
+ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
+MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNT
+Q4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4
+MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLD
+U4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgw
+MjY2M119
 -->
