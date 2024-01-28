@@ -4,7 +4,7 @@
 
 ## 1/29
 
-中国オリオンスターロボティクス（OrionStar）という会社から新星LLMであるOrion登場、日本語や韓国語が得意なのと長文モデルを持っている、中華LLMは日本語も得意ってのはよく言われていること、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違うDPOの実装も出てきたし、CALM2をDPOしたモデルやデータセットの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEの構築もColabの無料枠で実現する事例が出てきた、Sparse性がポイントなのか。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge injectionがうまく動いた例でもあるのね。DPOはもちろん、2)LLM safetyと関係ある。AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」、自給自足モデルか。基盤モデルよりも、領域を絞ったモデルが高性能であったり、Q&Aタスクに絞ってllama2を２段階の指示チューニングして、GPT-4に迫る結果など、それはそうだがそれを確かめたのが尊い。Lucan先生によると、DGNNの論文でどこにも投稿してなかったのか。。OpenAIの 新モデルの追加 と APIの更新もありました、安くなって性能が上がる、OpenAIちゃんと仕事してますね。LangGraphってLCELの拡張だったのか、アロー言語とかそういうのに近いのかも。HuggingFaceとGoogleのパートナシップ、Colab環境とより密になりAIの民主化的には朗報なわけですが、Google何を狙っている？T4の普及？？
+中国オリオンスターロボティクス（OrionStar）という会社から新星LLMであるOrion登場、日本語や韓国語が得意なのと長文モデルを持っている、中華LLMは日本語も得意ってのはよく言われていること、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違うDPOの実装も出てきたし、CALM2をDPOしたモデルやデータセットの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEの構築もColabの無料枠で実現する事例が出てきた、Sparse性がポイントなのか。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge injectionがうまく動いた例でもあるのね。DPOはもちろん、2)LLM safetyと関係ある。AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」、報酬モデルが、繰り返しのプロセスを通じて改善される。自給自足モデルか。基盤モデルよりも、領域を絞ったモデルが高性能であったり、Q&Aタスクに絞ってllama2を２段階の指示チューニングして、GPT-4に迫る結果など、それはそうだがそれを確かめたのが尊い。Lucan先生によると、DGNNの論文でどこにも投稿してなかったのか。。OpenAIの 新モデルの追加 と APIの更新もありました、安くなって性能が上がる、OpenAIちゃんと仕事してますね。LangGraphってLCELの拡張だったのか、アロー言語とかそういうのに近いのかも。HuggingFaceとGoogleのパートナシップ、Colab環境とより密になりAIの民主化的には朗報なわけですが、Google何を狙っている？T4の普及？？
 
 - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
 	- https://arxiv.org/abs/2311.16452
@@ -4039,13 +4039,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- 動くんだ、、、というか動くぞ！
 	- https://colab.research.google.com/github/camenduru/text-generation-webui-colab/blob/main/llama-2-7b-chat.ipynb
 - 自分のコンテンツを学習したカスタムChatBotを作る方法
-	- https://zenn.dev/karaage0703/articles/c
+	- https://zenn.d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5Nz
-ExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgz
-LC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAyLDE2OT
-E3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OTc0NTc1
-OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2MzYsNz
-Q0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOTAxNTY2
-NjNdfQ==
+eyJoaXN0b3J5IjpbLTIxMjUyMzk3NjYsODE4NzI1NzI0LC0zMj
+IwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4
+NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xOD
+g4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5
+MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLT
+EwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2
+NjE1XX0=
 -->
