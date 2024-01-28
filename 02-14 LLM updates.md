@@ -124,7 +124,15 @@
 	- We will collaborate with Google to foster open AI innovation across open science, open-source, cloud, and hardware
 	- A collaboration for Google Cloud customers
 	- A collaboration for Hugging Face Hub users
--  OpenAIの 新モデルの追加 と APIの更新
+-  OpenAIの 新モデルの追加 と APIの更新 by npakaさん
+	- https://note.com/npaka/n/nd8c5e9c65335?sub_rt=share_h
+	- ・新しいEmbeddingモデルの追加
+	- ・GPT-4 Turbo Previewの更新
+	- ・GPT-3.5 Turboの更新
+	- ・モデレーションモデルの更新
+	- ・APIキーの管理方法の改善
+- 実はSwallowはbaseモデルとしての性能はいいですが、instruct モデルの性能はpublic instruction datasetを使用したこともあり、baseモデルの高い性能の割にはあまり高くありません
+- 
 
 ## 1/22
 
@@ -4064,13 +4072,9 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 
 暑くてすでに夏バテです。あいも変わらずcode interpreterの事例が続々、来年度の講義資料もこれで作るか。LLM時代のリテラシーって何という問い、教育もそうだし、リカレントもそう。Promptflowみたいな、（一見）思い付きのスタートアップがタケノコのように出てくるだろう。AlphaFoldがFoldItというゲームから名前がきているとは知らなかった、集合知ね。GoogleのNotebookLLM、エンジニアノートバッドという従来からの夢が、一歩実現に近づくか。普通に使っているEmbeddingなんかも、もちゃんと振り返って、カスタマイズの余地がある。
 
-- ChatGPTのcode interpreterをつかて、講義の一部を作成（東大、強化学習、今井先生）
-	- https://twitter.com/ImAI_Eruel/status/1678378444441387010?s=20
-- What Should Data Science Education Do with Large Language Models?
-	- https://arxiv.org/abs/2307.02792v2
-	- LLMにより教育の変革、LLM-informed creativity, critical thinking, AI-guided pr
+- ChatGP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDk4NTk5NzYsMTg1NDY4OTMxMyw0OD
+eyJoaXN0b3J5IjpbLTE1NjgxNzc1NDcsMTg1NDY4OTMxMyw0OD
 M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
 LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
 U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
