@@ -117,6 +117,8 @@
 	- https://x.com/kanhatakeyama/status/1750331895853039745?s=20
 	- guiで操作できるし､gpuマシンを用意しなくて良いし､非常にお手軽な印象でした｡ 3並列まで学習回せました｡
 	- 2,3時間の使用で､$30ほどかかりました｡
+-  LLM のデータセットまとめ by npakaさん
+	- https://note.com/npaka/n/n686d987adfb1?sub_rt=share_b
 - 
 
 ## 1/22
@@ -4067,14 +4069,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 -  AI tools are designing entirely new proteins that could transform medicine
 	- https://www.nature.com/articles/d41586-023-02227-y
 	- RFdiffusionという拡散モデルによるタンパク質の合成が、AlphaFoldなどのハルシーネーションベース？の手法より優れているとの論文
-- GPT-4でワークフロー自動化「Promptflow」開発、Carnot（カルノー）が8,500万円をプレシード調達
-	- https://thebridge.jp/2023/07/carnot-pre-seed-round-f
+- GPT-4でワークフロー自動化「Promptflow」開
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDY4OTMxMyw0ODM0ODk4NywxOTE2OD
-Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
-LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
-c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
-MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
-AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
+eyJoaXN0b3J5IjpbNTYyNTg2Mjg3LDE4NTQ2ODkzMTMsNDgzND
+g5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwt
+MTg4ODA0MDYwMiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1Nj
+EyOTEwMiwxNjk3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIz
+LC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OT
+MyNjYxNSwyMDkwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3
 XX0=
 -->
