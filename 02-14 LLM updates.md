@@ -51,7 +51,10 @@
 - ベイズモデリングによるチームメイト及び対戦相手の能力を考慮したポゼッションデータに基づくバスケットボールプレイヤーの能力評価指標
 	- https://www.jstage.jst.go.jp/article/jscswabun/36/2/36_99/_article/-char/ja/
 	- 滋賀大時代の学生や同僚たちと書いたバスケットボール選手のパフォーマンス評価に関する論文が掲載されたとらしい
-- 
+-  WARM: On the Benefits of Weight Averaged Reward Models
+	- https://huggingface.co/papers/2401.12187
+	- Google Deepmind presents WARM
+	- 
 
 ## 1/22
 
@@ -4078,12 +4081,9 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - コンテキストを気にした文書分割
 	- https://twitter.com/RLanceMartin/status/1674817117475188737?s=20
 - ノン・セミパラメトリック統計
-	- https://www.kyoritsu-pub.co.jp/book/b10031225.html
-	- 分布関数、密度関数や回帰関数について、一定の滑らかさのみを仮定して、ノンパラメトリックな推定と検定を行う方法を紹介する
-- DeepMindの次世代AI「Gemini」はChatGPTを凌駕する？
-	- https://wired.jp/art
+	- https://www.kyoritsu-pub.co.jp/book/b10031
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjQ4OTI5ODMsNDgzNDg5ODcsMTkxNj
+eyJoaXN0b3J5IjpbLTE2MjUxNzc2NDQsNDgzNDg5ODcsMTkxNj
 g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
 MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
 k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
