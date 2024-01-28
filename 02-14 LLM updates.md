@@ -4,7 +4,12 @@
 
 ## 1/29
 
-- 
+- Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
+	- https://arxiv.org/abs/2311.16452
+	- Microsoftより「GPT-4等の基盤モデルよりも、領域を絞ったモデルの方がその領域で高性能なのではないか？」を調べた論文。結果、医療の問題でGPT-4がMed-PaLM2を上回る結果に
+- Orion-14B
+	- https://github.com/OrionStarAI/Orion
+	- 
 
 ## 1/22
 
@@ -4081,20 +4086,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - 基盤モデル・生成AIの科学研究への影響に関する資料、文科省 基礎研究振興部会(第11回)
 	- https://www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu27/siryo/mext_00007.html
 - LlamaIndex	で、function call+pydatnicを組み合わせて、	query planningが可能に、
-	- https://gpt-index.readthedocs.io/en/latest/examples/agent/openai_agent_query_plan.html
-- 水口画伯なくなる、合掌
-	- https://twitter.com/AKZ161/status/1671498721287352320?s=20
-- PyRCA、Pythonをつかった、ルート原因分析
-	- https://github.com/salesforce/PyRCA
-- OpenAIのFunction APIの解説
-	- https://every.to/chain-of-thought/gpt-4-can-use-tools-now-that-s-a-big-deal
-- Flan-Open-
+	- https://gpt-index.readthedocs.io/en/latest/examples/agent/openai_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4OTMyNzEzLDQ4MzQ4OTg3LDE5MTY4ND
-QxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIs
-MTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5Nz
-Q1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYz
-Niw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MD
-E1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODFd
-fQ==
+eyJoaXN0b3J5IjpbMTcyNzk0MDE2Myw0ODM0ODk4NywxOTE2OD
+Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
+LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
+c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
+MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
+AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
+XX0=
 -->
