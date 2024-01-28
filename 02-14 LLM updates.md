@@ -59,6 +59,15 @@
 	- 事前学習モデル(0.15B)を作ってみました ちゃんと使えるレベルにするためには、約200倍くらいかけないといけないみたいです
 - ChatGPTのコンテキスト長が32kになってるから青空文庫の小説とかを2万文字くらいのテキストファイルに分割して自分の代わりに読んでもらって内容教えてもらう事も結構できる。
 	- まあClaudeならコンテキスト長100kだからもっと大量の文章をまとめて読んでもらえる
+	- https://x.com/umiyuki_ai/status/1749775772850749556?s=20
+- Knowledge Fusion of Large Language Models", ICLR 2024より
+	- https://arxiv.org/abs/2401.10491
+	- 既存のLLMを融合させて強力なモデルを作る手法「知識融合」が開発
+	- 混合モデルを提唱する"Blending Is All You Need"とはアプローチ・評価方法ともに異なる研究です
+	- ■実験と結果 
+		- 1. 「Llama-2」「OpenLLaMA」「MPT」を融合して「FUSELLM」を作成した 
+		- 2. 下記タスクを中心に顕著に性能が向上した - 論理 - 常識 - コード生成
+- 
 
 ## 1/22
 
@@ -4072,16 +4081,8 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - LLMを使ってプランニング問題を解く、PDDLと呼ばれるプランニング言語に変換させた上でソルバーに解かせる。LLM単独より正確。
 	- https://arxiv.org/abs/2304.11477
 - Relicの社内勉強会での生成AI解説７０P資料
-	- https://qiita.com/hedgehog051/items/b1308e8baf7b0f551548
-- 形式言語とは何か（現代思想）
-	- http://www.seidosha.co.jp/book/index.php?id=3821&status=published
-	- 「正しい文とは何だろうか。。。」から始まる
-- Towards Language Models That Can See: Computer Vision Through the LENS of Natural Language
-	- https://huggingface.co/papers/2306.16410
-- 学習済みモデルから特定のデータの影響を消すKaggleチャレンジ by Google
-	- https://a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzI3MzA1Myw0ODM0ODk4NywxOTE2OD
+eyJoaXN0b3J5IjpbMTc4NTc1MTYzOSw0ODM0ODk4NywxOTE2OD
 Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
 LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
 c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
