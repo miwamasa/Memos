@@ -150,6 +150,7 @@
 	- https://huggingface.co/papers/2401.14112
 	- Microsoft presents FP6-LLM 
 	- Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design
+	- Six-bit quantization (FP6) can effectively reduce the size of large language models (LLMs) and preserve the model quality
 
 ## 1/22
 
@@ -4063,10 +4064,9 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
 - 生成AIによるコード生成とCode Interpreter活用ハンズオン with PLATEAU
 	- https://connpass.com/event/290745/
-- Abstraction and Analogy: The Keys to Robust Artificial Intelligence
-	- https://www.eventbrite.co.uk/e/abstraction-and-analogy-the-keys-to-robust-artificial-intelligence-tickets-67507572
+- Abstraction and Analogy: The Keys to Robust Artificial Intel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDE2ODkxNCwxODU0Njg5MzEzLDQ4Mz
+eyJoaXN0b3J5IjpbLTkwOTk5MDYwNywxODU0Njg5MzEzLDQ4Mz
 Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
 LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
 YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
