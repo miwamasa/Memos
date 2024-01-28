@@ -42,7 +42,11 @@
 	- この訓練方法により、モデルの指示に従う能力と報酬モデリング能力が反復ごとに向上することが示された。
 	- モデルは、自分の答えを生成する能力を向上させると同時に、自分自身の報酬モデルとしても機能。通常は固定されている報酬モデルが、繰り返しのプロセスを通じて改善される。
 	- **これは、人間などの外部からのフィードバックを不要にし、学習モデルが自分自身をよりよく改善できるようになることを意味し、自己改善の好循環を生み出す。**
-- 
+- Summarize gigantic JSON datasets in seconds with JSONalyze, our latest query engine: 
+	- https://docs.llamaindex.ai/en/latest/examples/query_engine/JSONalyze_query_engine.html
+	- JSONが巨大になると、コンテキストが膨大になるので、圧縮？するらしい
+-  Self-Rewarding Language Model (wip)
+	- https://github.com/lucidrains/self-rewarding-lm-pytorch
 
 ## 1/22
 
@@ -4074,20 +4078,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - DeepMindの次世代AI「Gemini」はChatGPTを凌駕する？
 	- https://wired.jp/article/google-deepmind-demis-hassabis-chatgpt/?utm_medium=social&utm_source=twitter
 	- 「GeminiはAlphaGoのようなシステムの強みと大規模言語モデルの卓越した言語能力を組み合わせたもの」
-- 岡野原『大規模言語モデルは新たな知能か』の個人的着目ポイントは、transformerで交互に積層する自己注意機構とパーセプトロンについて、前者が「短期記憶」、後者が長期記憶として機能するとの解説（p.108）
-- 言語モデルに物理化学特徴量を取り入れた物性予測 by IBM
-	- 分子の物理化学的特徴量を選定し、言語モデルを微調整する　
-	- https://arxiv.org/abs/2306.14919v1
-- VARモデル ＋ グレンジャー因果性の統計的仮説検定による、時系列データの因果探索
-	- https://twitter.com/kenken26679105/status/1675281986917900288?s=20
-	- 非ガウスモデル・VAR-LiNGAMであれば、同時刻も分析可能
-	- https://twitter.com/kenken26679105/statu
+- 岡野原『大規模言語モデルは新たな知能か』の個人的着目ポイントは、transformerで交互に積層する自己注意機構とパーセプトロンについて、前者が「短期記憶」、後者が長期記憶と
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODgwNjMxMTQsNDgzNDg5ODcsMTkxNj
-g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
-MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
-k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
-NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMD
-kwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4
-MV19
+eyJoaXN0b3J5IjpbLTg0MzQzOTA5MSw0ODM0ODk4NywxOTE2OD
+Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
+LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
+c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
+MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
+AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
+XX0=
 -->
