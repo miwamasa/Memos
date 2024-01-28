@@ -26,6 +26,8 @@
 	- までの視覚言語モデルは空間感覚に欠けていた。例えば「写真に写ってるバッターと審判の距離は何メートル？」とか訊いても答えられんかった。それを改善したのがSpatialVLM。
 - makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
 	- https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
+	- Colabも公開してくれているので無料版ColabのT4でも動かせます。max_itersを500くらいに修正すれば所要時間も10分程度
+	- 
 - 深層学習の原理を明らかにする理論の試み　by 今泉さん
 	- https://drive.google.com/file/d/1bNN6VjsgdpJAqxvZ4EKAPpMGq9wfjHqf/view
 	- 「なぜ深層学習でうまくいくのか」という素朴な疑問に対し、理論的にわかっていることを平易に解説したスライド。非常にわかりやすい。
@@ -85,6 +87,9 @@
 	- This model reads analog dial gauge by detecting, applying perspective correction, and gauge reading. The model was build only with synthetic data (e.g. examples
 - OpenAI GPT-4V／ChatGPT／GPTs 人工知能プログラミング実践入門
 	- 布留川さんの、新刊、
+	- https://wgn-obs.shop-pro.jp/?pid=179128392
+	- 昨年11月の大規模アップデート対応で、マルチモーダルやGPTストアなどの新機能も解説してます。技術アップデートが早すぎることもあり、PDFのみになります。
+- 
 
 ## 1/22
 
@@ -4074,16 +4079,12 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - IPAに「デジタル基盤センター」新設、デジタル庁と協力して基盤整備
 	- https://xtech.nikkei.com/atcl/nxt/news/18/15517/
 	- 古巣の社会基盤センターが改組されて、「デジタル基盤センター」になり、デジタル庁の影響を受けるようになった。。。悲しい。
-- CAMEL-5B と SentenceTransformers で LlamaIndex を試す
-	- https://note.com/npaka/n/n2e408cded4ac
-- DeepLearningAIから、新コース、LangChain: Chat with Your Dataを無償リリース
-	- https://www.deeplearning.ai/short-courses/lang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjcyMjk2OTEsNDgzNDg5ODcsMTkxNj
-g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
-MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
-k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
-NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMD
-kwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4
-MV19
+eyJoaXN0b3J5IjpbMTY5OTU5MTUxNCw0ODM0ODk4NywxOTE2OD
+Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
+LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
+c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
+MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
+AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
+XX0=
 -->
