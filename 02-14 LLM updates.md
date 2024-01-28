@@ -192,6 +192,7 @@
 - miniature ColBERT model in your browser
 	- https://colbert.aiserv.cloud/
 - DSPy lets you prototype LLM Programs like AlphaCodium in 2 minutes!
+	- https://x.com/CShorten30/status/1751656468879708496?s=20
 
 ## 1/22
 
@@ -4036,15 +4037,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- 「第4世代AI」「信頼されるAI」「AI・データ駆動科学」
 - 雇用判断にAIを使うのは、EU規制上禁止？
 	- 禁止ではなくて、ハイリスクAIに相当するから、守るべきことを守らないといけないということ
-	- https://twitter.com/umiyuki_ai/status/1687639267273748480?s=20
-- 南極の氷が、今年は急激にとけているらしい　via 安宅さん
-	- 
+	- https://twitter.com/umiyuki_ai/status/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY3NTIxMTkwLC0xMDY3MTc2OTY5LC0xOT
-ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
-MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNT
-Q4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4
-MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLD
-U4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgw
-MjY2M119
+eyJoaXN0b3J5IjpbMTQ2NDY0ODU3NSwtMTA2NzE3Njk2OSwtMT
+kxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4
+NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLT
+U0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcx
+ODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MS
+w1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYzNiw3NDQ4
+MDI2NjNdfQ==
 -->
