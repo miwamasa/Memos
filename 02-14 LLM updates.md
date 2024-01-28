@@ -39,7 +39,10 @@
 	- 比較結果の要約は表22-23の通り(図引用)。双方の使い分けポイントは表23の最下行にあり。
 - AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」　米Metaなどが開発、実験でGPT-4を上回る【研究紹介】
 	- https://levtech.jp/media/article/column/detail_374/
-	- 
+	- この訓練方法により、モデルの指示に従う能力と報酬モデリング能力が反復ごとに向上することが示された。
+	- モデルは、自分の答えを生成する能力を向上させると同時に、自分自身の報酬モデルとしても機能。通常は固定されている報酬モデルが、繰り返しのプロセスを通じて改善される。
+	- **これは、人間などの外部からのフィードバックを不要にし、学習モデルが自分自身をよりよく改善できるようになることを意味し、自己改善の好循環を生み出す。**
+- 
 
 ## 1/22
 
@@ -4078,18 +4081,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 - VARモデル ＋ グレンジャー因果性の統計的仮説検定による、時系列データの因果探索
 	- https://twitter.com/kenken26679105/status/1675281986917900288?s=20
 	- 非ガウスモデル・VAR-LiNGAMであれば、同時刻も分析可能
-	- https://twitter.com/kenken26679105/status/1675306307849699328?s=20
-- Chains vs Agents" webinar by LangChain
-	- https://www.youtube.com/watch?v=bYLHklxEd_k
-- 結局記号接地ってなんだったけ？ by 丸山＠MLSE
-	- https://twitter.com/maruyama/status/1675813852947308544?s=20
-	- 実世界への参照な
+	- https://twitter.com/kenken26679105/statu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5ODIwNDQ0LDQ4MzQ4OTg3LDE5MTY4ND
-QxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIs
-MTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5Nz
-Q1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYz
-Niw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MD
-E1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODFd
-fQ==
+eyJoaXN0b3J5IjpbLTE5ODgwNjMxMTQsNDgzNDg5ODcsMTkxNj
+g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
+MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
+k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
+NjM2LDc0NDgwMjY2Myw1NjQxMTc3NjUsMTc4OTMyNjYxNSwyMD
+kwMTU2NjYzLDE0MTc2NDc3MDMsNzczMDE1NDM3LDE2OTA5NDE4
+MV19
 -->
