@@ -179,6 +179,9 @@
 	- https://note.com/npaka/n/n053a3cb78311?sub_rt=share_h
 	- 「**LangGraph**」は、LLMでステートフルな「**マルチアクターアプリケーション**」を構築するためのライブラリです。「**LCEL**」(LangChain Expression Language) を拡張して、複数チェーン (またはアクター) を複数ステップにわたって循環的に協調動作させることができます
 	- 「LangGraph」によって、LLMアプリケーションに**サイクル**を簡単に導入できるようになりました。
+- MLXでXwin-70Bのggufが動くことを確認
+	- https://x.com/npaka123/status/1751139720367862193?s=20
+	- Apple M3 Max
 
 ## 1/22
 
@@ -4037,15 +4040,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- https://note.com/npaka/n/n280ffc0d5ff0
 - llama-2-7bをつかって、colabでchatbodを作る例、
 	- 動くんだ、、、というか動くぞ！
-	- https://colab.research.google.com/github/camenduru/text-generation-webui-colab/blob/main/llama-2-7b-chat.ipynb
-- 自分のコンテンツを学習したカスタムChatBotを作る方法
-	- https://ze
+	- https://colab.research.google.com/github/camenduru/te
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMj
-IwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4
-NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xOD
-g4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5
-MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLT
-EwMTI2MDY2MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2
-NjE1XX0=
+eyJoaXN0b3J5IjpbMzM5MTIzMDk0LC0xOTExMjA4MjI0LDgxOD
+cyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkz
+MTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2OD
+Q0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC01ODk1MjEw
+MzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4Nzc4OSwtOT
+c1NTY4MjIzLC0xMDEyNjA2NjM2LDc0NDgwMjY2Myw1NjQxMTc3
+NjVdfQ==
 -->
