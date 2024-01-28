@@ -102,6 +102,9 @@
 		- 1. Llama-2を調整して「ChatQA」モデルを作成した 
 		- 2. 長文ドキュメントに基づくQAタスクで評価した 
 		- 3. GPT-3.5の性能を遥かに上回った 4. GPT-4とは同等と言えるレベルだった
+-  Prompt Engineering with Llama 2
+	- https://github.com/facebookresearch/llama-recipes/blob/main/examples/Prompt_Engineering_with_Llama_2.ipynb?utm_source=twitter&utm_medium=organic_social&utm_campaign=llama&utm_content=video
+	- Introducing 'Prompt Engineering with Llama 2' — an interactive guide covering prompt engineering & best practices for developers, researchers & enthusiasts working with large language models.
 - 
 
 ## 1/22
@@ -4069,18 +4072,9 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- https://japan.zdnet.com/article/35206577/
 	- NotebookLMではユーザーのノートや情報源を『土台にして』言語モデルが稼働
 - Bardにマルチモーダル機能が。。	
-	- https://twitter.com/i/status/1680237703676190722
-- 
-
-## 7/10
-
-OpenAIからGPT plusユーザー向けに、code interpreterが開放された。これで、データサイエンティストの仕事がなくなる？Plusじゃない人も、まずは手始めにLangChainのビデオをみて、データとのチャットを体感してみるといいかも。楔文字の翻訳など、様々な学問領域にLLMが侵食してゆく。OpenAIはアラインメント問題をAIで解くみたいなそっちの方向（結果としてAIの基盤整備が進む）。LLMのベンチマークとして、性格診断(Big5)というのは面白いアプローチ。使う人の性格判断と合わせるとマッチングが取れたりして。
-
-- llamaindexにてtext-to-SQLの大幅なアップデート
-	- https://twitter.com/llama_index/status/1676002583381692421?s=20
-- 大規模言語モデルの"
+	- https://twitter.com/i/statu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1MzcyNDU3LDQ4MzQ4OTg3LDE5MTY4ND
+eyJoaXN0b3J5IjpbNzM1NDkzNjg5LDQ4MzQ4OTg3LDE5MTY4ND
 QxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIs
 MTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5Nz
 Q1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYz
