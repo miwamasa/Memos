@@ -91,6 +91,17 @@
 	- 布留川さんの、新刊、
 	- https://wgn-obs.shop-pro.jp/?pid=179128392
 	- 昨年11月の大規模アップデート対応で、マルチモーダルやGPTストアなどの新機能も解説してます。技術アップデートが早すぎることもあり、PDFのみになります。
+- ChatQA: Building GPT-4 Level Conversational QA Models
+	- https://arxiv.org/abs/2401.10225
+	- GPT-4レベルの質問応答タスク性能をオープンソースモデルのLlama 2で実現する方法が、NVIDIAより発表されました。
+	- 長文ドキュメントに基づいてユーザーの問いに答える能力でGPT-3.5より遥かに勝る結果が示されています。
+	- ■方法論 以下のような２段階の指示チューニングを行う 
+		- 1. 教師ありファインチューニング （supervised fine-tuning） 
+		- 2. 文脈強化インストラクションチューニング （context-enhanced instruction tuning）
+	- ■実験と結果 
+		- 1. Llama-2を調整して「ChatQA」モデルを作成した 
+		- 2. 長文ドキュメントに基づくQAタスクで評価した 
+		- 3. GPT-3.5の性能を遥かに上回った 4. GPT-4とは同等と言えるレベルだった
 - 
 
 ## 1/22
@@ -4067,23 +4078,13 @@ OpenAIからGPT plusユーザー向けに、code interpreterが開放された�
 
 - llamaindexにてtext-to-SQLの大幅なアップデート
 	- https://twitter.com/llama_index/status/1676002583381692421?s=20
-- 大規模言語モデルの"性格"特性を分析＆調整するフレームワーク、DeepMind、ケンブリッジ大学、慶応大学
-	- Personality Traits in Large Language Models
-	- https://arxiv.org/abs/2307.00184
-- タスクの複雑さが増すとLLMの性能が急速に低下する現象を丁寧に検証
-	- Faith and Fate: Limits of Transformers on Compositionality
-	- https://arxiv.org/abs/2305.18654
-- LangChainにおけるSpacy Embeddingの利用例
-	- OpenAIやHuggingFace以外、
-	- https://python.langchain.com/docs/modules/data_connection/text_embedding/integrations/spacy_embedding
-- EUのAI規制の、最終案の一つ前の和訳が、総務省の「AIネットワーク社会推進会議」で公開
-	- https://ww
+- 大規模言語モデルの"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjUwMTM1OCw0ODM0ODk4NywxOTE2OD
-Q0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAy
-LDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLDE2OT
-c0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2MDY2
-MzYsNzQ0ODAyNjYzLDU2NDExNzc2NSwxNzg5MzI2NjE1LDIwOT
-AxNTY2NjMsMTQxNzY0NzcwMyw3NzMwMTU0MzcsMTY5MDk0MTgx
-XX0=
+eyJoaXN0b3J5IjpbNTM1MzcyNDU3LDQ4MzQ4OTg3LDE5MTY4ND
+QxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIs
+MTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMTY5Nz
+Q1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYwNjYz
+Niw3NDQ4MDI2NjMsNTY0MTE3NzY1LDE3ODkzMjY2MTUsMjA5MD
+E1NjY2MywxNDE3NjQ3NzAzLDc3MzAxNTQzNywxNjkwOTQxODFd
+fQ==
 -->
