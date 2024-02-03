@@ -45,6 +45,11 @@
 		- 3. いくつかのスライスレベルを分けて実験 
 		- 4. 最大30%のモデルパラメータ削減が実現した 
 		- 5. Llama 2とPhi-2モデルは90%以上の性能を維持
+- Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs
+	- https://arxiv.org/abs/2312.05934
+	- Microsoftより「Fine TuningとRAGのどちらが高精度か？」に答えた論文
+	- 既存/新規知識の両方においてRAGが良好な結果に。Fine Tuningは継続事前学習、評価はMMLUをLM-Evaluation-Harnessで実施。
+- 
 
 ## 1/29
 
@@ -4036,17 +4041,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- [4] Added llama.cpp and @huggingface as fallbacks if openai key is not set.
 	- [5] Some new features: a `SentenceWindowNodeParser` and `MetadataReplacementNodPostProcessor` 
 - チュートリアル、Create a CustomGPT And Supercharge your Company with AI – Pick the Best LLM
-	- https://blog.abacus.ai/blog/2023/08/10/create-your-custom-chatgpt-pick-the-best-llm-that-works-for-you/
--  Building LLM applications for production
-	- https://huyenchip.com/2023/04/11/llm-engineering.html
-	- LLMをプロダクションで使うための色々なTipsがまとまった記事
-- いろいろLLMをいじってみても、
+	- https://blog.abacus.ai/b
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzExNDY4MSwyNDM2MTkyMCwtMTA2Nz
-E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
-NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
-Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
-MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMT
-Y5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYw
-NjYzNl19
+eyJoaXN0b3J5IjpbOTU2Njc5NjIzLDI0MzYxOTIwLC0xMDY3MT
+c2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0
+LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNj
+g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
+MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
+k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
+NjM2XX0=
 -->
