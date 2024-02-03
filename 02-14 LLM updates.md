@@ -3,6 +3,10 @@
 
 ## 2/5
 
+- google/siglip-base-patch16-256-multilingual を使って、ローカルの画像を日本語で検索してみる
+	- https://note.com/eurekachan/n/n9d4f62b80ad6?sub_rt=share_pb
+	- 1月に、Googleから、SigLIPという、画像とテキストの両方をベクトルとして扱うことができるモデルのmultilingual版（多言語対応版）が公開されました。transformers 4.37以降で対応しています。日本語も対応しています。
+	- CUDAを使いましたが、GPUへの負荷も低かったので、案外CPUでも動かせるかもしれません。
 - 
 
 ## 1/29
@@ -4031,16 +4035,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 	- prompt exampleとか、Plus会員にはGPT-4がデフォルトになるとか、そういうｙつ
 - UCバークレー、アルファ碁とChatGPTを混ぜて強くしたようなAIエージェント「Dynalang」
 	- https://arxiv.org/abs/2308.01399
-	- Learning to Model the World with Language
-- マイクロソフト社、Azure OpenAIで、ChatGPTもどきを作るサンプル実装を公開
-	- https://github.com/microsoft/azurechatgpt
-	- 企業利用が加速するか。。いやpl
+	- Learning to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjAwODMyMSwyNDM2MTkyMCwtMTA2Nz
-E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
-NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
-Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
-MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMT
-Y5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYw
-NjYzNl19
+eyJoaXN0b3J5IjpbLTIwNzQ2NTIzNTgsMjQzNjE5MjAsLTEwNj
+cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
+ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
+E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
+NjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLD
+E2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2
+MDY2MzZdfQ==
 -->
