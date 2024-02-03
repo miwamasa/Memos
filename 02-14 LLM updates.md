@@ -7,6 +7,9 @@
 	- https://note.com/eurekachan/n/n9d4f62b80ad6?sub_rt=share_pb
 	- 1月に、Googleから、SigLIPという、画像とテキストの両方をベクトルとして扱うことができるモデルのmultilingual版（多言語対応版）が公開されました。transformers 4.37以降で対応しています。日本語も対応しています。
 	- CUDAを使いましたが、GPUへの負荷も低かったので、案外CPUでも動かせるかもしれません。
+-  Are Transformers Effective for Time Series Forecasting?
+	- decisively highlighting the shortcomings and deficiencies in research surrounding the use of transformers for
+	- This paper effectively exposes the deceptive practices employed by various authors in their papers, such as inadequate benchmarking and other tactics, which have previously led to inflated claims regarding the performance of transformers in this domain.
 - 
 
 ## 1/29
@@ -4026,22 +4029,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 -  Google Colab で Llama 2 + LlamaIndex の QA を試す
 	- npakaさんより、llma2利用には申請が必要なのか、
 	- Q&Aテンプレに修正が必要なもよう
-	- https://note.com/npaka/n/n3e1b59d1ac9e
-- vicuna-7b-v1.5の一番簡単な利用方法by npakaさｎ
-	- https://huggingface.co/lmsys/vicuna-7b-v1.5
-	- https://twitter.com/npaka123/status/1686872443305295878?s=20
-- ChatGPTの小改良が順次リリースされるとの告知
-	- https://twitter.com/OpenAI/status/1687159114047291392?s=20
-	- prompt exampleとか、Plus会員にはGPT-4がデフォルトになるとか、そういうｙつ
-- UCバークレー、アルファ碁とChatGPTを混ぜて強くしたようなAIエージェント「Dynalang」
-	- https://arxiv.org/abs/2308.01399
-	- Learning to 
+	- http
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ2NTIzNTgsMjQzNjE5MjAsLTEwNj
-cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
-ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
-E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
-NjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLD
-E2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2
-MDY2MzZdfQ==
+eyJoaXN0b3J5IjpbMTE5MzI4NzI4MSwyNDM2MTkyMCwtMTA2Nz
+E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
+NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
+Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
+MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMT
+Y5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYw
+NjYzNl19
 -->
