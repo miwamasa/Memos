@@ -17,7 +17,9 @@
 - LangGraph Financial Agent w/ Polygon
 	- https://gist.github.com/virattt/4d764c427892ce9fdf4534209edfb1f4
 	- LangGraphでエージェントを作って株価をとってくる簡単な例
-- 
+- Ollamaで、 Mistral-7B finetuned for function calling　をサポート
+	- https://ollama.ai/calebfahlgren/natural-functions
+	- 
 
 ## 1/29
 
@@ -4026,15 +4028,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 
 ## 8/7
 
-llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamaindexとの組み合わせでも動く模様。ReActなどのAgent機能もちゃんとうごくらしい。llama2を手ごろに試せるcolab noteもたくさん公開、ローカルGPUで動かす報告も。なおllama2本家も申請すればを直接使うこともできる。マイクロソフトはwindows上でのllama2というネタでメタとパートナーとのこと、二股かけてる？マイクロソフトがAzure OpenAIをつかったChatGPTもどきのサンプル実装を公開、カニばってない？文章から知識を抽出する方法、llamaindexでも知識グラフ(KG)を抽出するKnowledgeGraphIndexがあったが、REBELという外部のtransformerを利用する方法もあるのか。用途に合わせて選択、細かい調整が必要かな。UCバークレーのDynalang、AIエージェントと紹介されているが、論文タイトルからするとLLMで世界モデルを構築しようとしている（「二重過程モデル」の真ん中に出てくるやつ？記号接地モデルというかそういうやつ）。自コンテンツをつかったChatBotの作り方についてわかりやすい説明があった。JSTの生成AIのまとめ、日本の生きる道は、「第4世代AI」「信頼されるAI」「AI・データ駆動科学」ということらしい。「第４世代AI」とはSystem1とSystem2が連動する、「二重過程モデル」のことらしい、Dynalangの話ともつながった！
-
-> NeurIPS2019で、Bengioの基調講演の「二重過程モデル」（即時的なSystem1と熟考的なSystem2の二重モデル、間に、世界モデ
+llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamaindexとの組み合わせでも動く模様。ReActなどのAgent機能もちゃんとうごくらしい。llama2を手ごろに試せるcolab noteもたくさん公開、ローカルGPUで動かす報告も。なおllama2本家も申請すればを直接使うこともできる。マイクロソフトはwindows上でのllama2というネタでメタとパートナーとのこと、二股かけてる？マイクロソフトがAzure OpenAIをつかったChatGPTもどきのサンプル実装を公開、カニばってない？文章から知識を抽出する方法、llamaindexでも知識グラフ(KG)を抽出するKnowledgeGraphIndexがあったが、REBELという外部のtransformerを利用する方法もあるのか。用途に合わせて選択、細かい調整が必要かな。UCバークレーのDynalang、AIエージェントと紹介されているが、論文タイトルからするとLLMで世界モデルを構築しようとしている（「二重過程モデル」の真ん中に出てくるやつ？記号接地モデルというかそういうやつ）。自コンテンツをつかったChatBotの作り方についてわかりやすい説明があった。JSTの生成AIのまとめ、日本の生きる道は、「第4世代AI」「信頼されるAI」「AI・データ駆動科学」ということらしい。「第４世代AI」とはSystem1とSystem2が連動す
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTgzOTQzMjIsMjQzNjE5MjAsLTEwNj
-cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
-ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
-E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
-NjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLD
-E2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2
-MDY2MzZdfQ==
+eyJoaXN0b3J5IjpbLTM5NTEyNzQzNSwyNDM2MTkyMCwtMTA2Nz
+E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
+NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
+Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
+MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMT
+Y5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYw
+NjYzNl19
 -->
