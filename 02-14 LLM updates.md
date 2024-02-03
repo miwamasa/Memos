@@ -14,6 +14,9 @@
 	- https://www.nikkei.com/article/DGXZQOGN1757C0X10C24A1000000/
 - DSPy lets you prototype LLM Programs like AlphaCodium
 	- https://x.com/CShorten30/status/1751656468879708496?s=20
+- LangGraph Financial Agent w/ Polygon
+	- https://gist.github.com/virattt/4d764c427892ce9fdf4534209edfb1f4
+	- LangGraphでエージェントを作って株価をとってくる簡単な例
 - 
 
 ## 1/29
@@ -4025,15 +4028,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 
 llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamaindexとの組み合わせでも動く模様。ReActなどのAgent機能もちゃんとうごくらしい。llama2を手ごろに試せるcolab noteもたくさん公開、ローカルGPUで動かす報告も。なおllama2本家も申請すればを直接使うこともできる。マイクロソフトはwindows上でのllama2というネタでメタとパートナーとのこと、二股かけてる？マイクロソフトがAzure OpenAIをつかったChatGPTもどきのサンプル実装を公開、カニばってない？文章から知識を抽出する方法、llamaindexでも知識グラフ(KG)を抽出するKnowledgeGraphIndexがあったが、REBELという外部のtransformerを利用する方法もあるのか。用途に合わせて選択、細かい調整が必要かな。UCバークレーのDynalang、AIエージェントと紹介されているが、論文タイトルからするとLLMで世界モデルを構築しようとしている（「二重過程モデル」の真ん中に出てくるやつ？記号接地モデルというかそういうやつ）。自コンテンツをつかったChatBotの作り方についてわかりやすい説明があった。JSTの生成AIのまとめ、日本の生きる道は、「第4世代AI」「信頼されるAI」「AI・データ駆動科学」ということらしい。「第４世代AI」とはSystem1とSystem2が連動する、「二重過程モデル」のことらしい、Dynalangの話ともつながった！
 
-> NeurIPS2019で、Bengioの基調講演の「二重過程モデル」（即時的なSystem1と熟考的なSystem2の二重モデル、間に、世界モデルが入る）。知覚系の深層学習(System1)によって眼前の状況に対する世界モデル（World Model）が得られるが、それを使って言語・知識系が適切な手順を組み立てるのがSystem2。カーネマンのFast & Slowとも関連がありそう。。
-
-- Google Colab で V
+> NeurIPS2019で、Bengioの基調講演の「二重過程モデル」（即時的なSystem1と熟考的なSystem2の二重モデル、間に、世界モデ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyMjcxMTQ3LDI0MzYxOTIwLC0xMDY3MT
-c2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0
-LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNj
-g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
-MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
-k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
-NjM2XX0=
+eyJoaXN0b3J5IjpbLTE5NTgzOTQzMjIsMjQzNjE5MjAsLTEwNj
+cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
+ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
+E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
+NjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLD
+E2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2
+MDY2MzZdfQ==
 -->
