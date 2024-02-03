@@ -25,7 +25,15 @@
 	- https://ai.meta.com/blog/code-llama-large-language-model-coding/?utm_source=twitter&utm_medium=organic_social&utm_campaign=codellama&utm_content=reply
 	- HumanEvalでGPT-4超えしたらしい。入力コンテキスト長も100kまで行けるらしい
 	- Metaは以前から「GPT-4並のLLMをオープンにする」と予告していましたが，年明け早々，まずはコード生成領域でやってきました
-- 
+-  Inverse Molecular Design with Multi-Conditional Diffusion Guidance
+	- https://arxiv.org/abs/2401.13858
+	- 複数の制約下での分子生成の論文
+	- 従来は合成可能性とガス透過性など２つ以上の制約を満たすような分子を１つのモデルから生成できませんでしたが 
+	- 制約をエンコードしたTransformerモデルにより低分子・高分子共にうまく生成できたそうです。
+- アリババがマルチモーダルLLM使って作ったスマホを操作するエージェント、Mobile-Agentを発表
+	- https://x.com/umiyuki_ai/status/1752183108873687439?s=20
+- SliceGPT: Compress Large Language Models by Deleting Rows and Columns
+	- 
 
 ## 1/29
 
@@ -4027,16 +4035,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- Lancerの記事、LLM時代における、医療分野へのAI適用のメリットとリスクについてまとめ
 	- https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01668-9/fulltext
 -  Embracing change and resetting expectations by Terence Tao@microsoft
-	- https://unlocked.microsoft.com/ai-anthology/terence-tao/
-	- He predicts that AI will be a trustworthy co-author in mathematical research by 2026, when combined with search and symbolic math tools.
-	- 2026年までには、数学研究において、AIが信頼できる共著者になりうるとの予測
-
-
-## 8/7
-
-llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamaindexとの組み合わせでも動く模様。ReActなどのAgent機能もちゃんとうごくらしい。llama2を手ごろに試せるcolab noteもたくさん公開、ローカルGPUで動かす報告も。なおllama2本家も申請すればを直接使うこともできる。マイクロソフトはwindows上でのllama2というネタでメタとパートナーとのこと、二股かけてる？マイクロソフトがA
+	- https://unlocked.microsoft.com/ai-anthology/terence-tao
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTU0NzAzNywyNDM2MTkyMCwtMTA2Nz
+eyJoaXN0b3J5IjpbLTg2MTU2MDc2MywyNDM2MTkyMCwtMTA2Nz
 E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
 NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
 Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
