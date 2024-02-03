@@ -10,6 +10,10 @@
 -  Are Transformers Effective for Time Series Forecasting?
 	- decisively highlighting the shortcomings and deficiencies in research surrounding the use of transformers for
 	- This paper effectively exposes the deceptive practices employed by various authors in their papers, such as inadequate benchmarking and other tactics, which have previously led to inflated claims regarding the performance of transformers in this domain.
+- Googleなど米IT、1月1万人削減　組織スリム化でAI集中
+	- https://www.nikkei.com/article/DGXZQOGN1757C0X10C24A1000000/
+- DSPy lets you prototype LLM Programs like AlphaCodium
+	- https://x.com/CShorten30/status/1751656468879708496?s=20
 - 
 
 ## 1/29
@@ -4023,19 +4027,13 @@ llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamainde
 
 > NeurIPS2019で、Bengioの基調講演の「二重過程モデル」（即時的なSystem1と熟考的なSystem2の二重モデル、間に、世界モデルが入る）。知覚系の深層学習(System1)によって眼前の状況に対する世界モデル（World Model）が得られるが、それを使って言語・知識系が適切な手順を組み立てるのがSystem2。カーネマンのFast & Slowとも関連がありそう。。
 
-- Google Colab で Vicuna-v1.5 + LlamaIndex の QA を試す
-	- npakaさんより、ハイメモリでないと動かないのか。。
-	- https://note.com/npaka/n/n931319f17b34
--  Google Colab で Llama 2 + LlamaIndex の QA を試す
-	- npakaさんより、llma2利用には申請が必要なのか、
-	- Q&Aテンプレに修正が必要なもよう
-	- http
+- Google Colab で V
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzI4NzI4MSwyNDM2MTkyMCwtMTA2Nz
-E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
-NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
-Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
-MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMT
-Y5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYw
-NjYzNl19
+eyJoaXN0b3J5IjpbODIyMjcxMTQ3LDI0MzYxOTIwLC0xMDY3MT
+c2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0
+LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNj
+g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
+MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
+k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
+NjM2XX0=
 -->
