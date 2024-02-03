@@ -22,7 +22,10 @@
 -  知識0でローカルLLMモデルを試してみる！垂れ流し配信【ゴリラジ】
 	- https://www.youtube.com/watch?v=C1yFEMDLddc
 - MetaがコーディングLLMのCodeLlamaの70B版をオープンソースでリリース。
-	- 
+	- https://ai.meta.com/blog/code-llama-large-language-model-coding/?utm_source=twitter&utm_medium=organic_social&utm_campaign=codellama&utm_content=reply
+	- HumanEvalでGPT-4超えしたらしい。入力コンテキスト長も100kまで行けるらしい
+	- Metaは以前から「GPT-4並のLLMをオープンにする」と予告していましたが，年明け早々，まずはコード生成領域でやってきました
+- 
 
 ## 1/29
 
@@ -4031,9 +4034,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 
 ## 8/7
 
-llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamaindexとの組み合わせでも動く模様。ReActなどのAgent機能もちゃんとうごくらしい。llama2を手ごろに試せるcolab noteもたくさん公開、ローカルGPUで動かす報告も。なおllama2本家も申請すればを直接使うこともできる。マイクロソフトはwindows上でのllama2というネタでメタとパートナーとのこと、二股かけてる？マイクロソフトがAzure OpenAIをつかったChatGPTもどきのサンプル実装を公開、カニばってない？文章から知識を抽出する方法、llamaindexでも知識グラフ(KG)を抽出するKnowledgeGraphIndexがあったが、REBELという外部のtransformerを利用する方法もあるのか。用途に合わせて選択、細かい調整が必要かな。UCバークレーのDynalang、AIエージェントと紹介されているが、論文タイトルからするとLLMで世界モデルを構築しようとしている（「二重過程モデル」の真ん中に出てくるやつ？記号接地モデルというかそういうやつ
+llama2ベースのVicuna v1.5で盛り上がっている、langchainやllamaindexとの組み合わせでも動く模様。ReActなどのAgent機能もちゃんとうごくらしい。llama2を手ごろに試せるcolab noteもたくさん公開、ローカルGPUで動かす報告も。なおllama2本家も申請すればを直接使うこともできる。マイクロソフトはwindows上でのllama2というネタでメタとパートナーとのこと、二股かけてる？マイクロソフトがA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTQxOTgzNSwyNDM2MTkyMCwtMTA2Nz
+eyJoaXN0b3J5IjpbLTQxNTU0NzAzNywyNDM2MTkyMCwtMTA2Nz
 E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
 NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
 Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
