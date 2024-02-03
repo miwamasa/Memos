@@ -33,7 +33,18 @@
 - アリババがマルチモーダルLLM使って作ったスマホを操作するエージェント、Mobile-Agentを発表
 	- https://x.com/umiyuki_ai/status/1752183108873687439?s=20
 - SliceGPT: Compress Large Language Models by Deleting Rows and Columns
-	- 
+	- https://arxiv.org/abs/2401.15024
+	- Microsoftとチューリッヒ工科大の研究者により、LLMをスライス（行や列を削除）して軽くする効果的な手法
+	- 実験では最大30%のパラメータを削減しつつ性能の90%以上を保つことができたと
+	- ■提案手法 
+		- 1. 主成分分析を用いて重要な情報を抽出 
+		- 2. 重要でない情報を取り除くために行や列を削減 →より少ない計算リソースで動作できるようにする
+	- ■実験と結果 
+		- 1. OPT, LLAMA-2, Phi-2を実験対象モデルに設定 
+		- 2. HuggingFace TransformersとPyTorchで実装 
+		- 3. いくつかのスライスレベルを分けて実験 
+		- 4. 最大30%のモデルパラメータ削減が実現した 
+		- 5. Llama 2とPhi-2モデルは90%以上の性能を維持
 
 ## 1/29
 
@@ -4029,15 +4040,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 -  Building LLM applications for production
 	- https://huyenchip.com/2023/04/11/llm-engineering.html
 	- LLMをプロダクションで使うための色々なTipsがまとまった記事
-- いろいろLLMをいじってみても、結局ChatGPTでよくない？みたいな
-	- https://twitter.com/mr_bay_area/status/1689868431900975104?s=20
--  AI in medicine: creating a safe and equitable future
-	- Lancerの記事、LLM時代における、医療分野へのAI適用のメリットとリスクについてまとめ
-	- https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01668-9/fulltext
--  Embracing change and resetting expectations by Terence Tao@microsoft
-	- https://unlocked.microsoft.com/ai-anthology/terence-tao
+- いろいろLLMをいじってみても、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTU2MDc2MywyNDM2MTkyMCwtMTA2Nz
+eyJoaXN0b3J5IjpbMTU0MzExNDY4MSwyNDM2MTkyMCwtMTA2Nz
 E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
 NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
 Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
