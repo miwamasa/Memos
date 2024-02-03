@@ -50,7 +50,14 @@
 	- https://arxiv.org/abs/2312.05934
 	- Microsoftより「Fine TuningとRAGのどちらが高精度か？」に答えた論文
 	- 既存/新規知識の両方においてRAGが良好な結果に。Fine Tuningは継続事前学習、評価はMMLUをLM-Evaluation-Harnessで実施。
-- 
+- The Power of Noise: Redefining Retrieval for RAG System
+	- https://arxiv.org/abs/2401.14887
+	- LLMにおけるRAG（外部データを取り込ませる）システムを構築する際には、データベースに「無関係な」文書を混ぜたほうが検索精度が上がる可能性が示唆されています。
+	- ■なぜそんなことが起こるのか 
+		- 1. 関連性が高い文書ばかりだと過剰適合が起こる 
+		- 2. 無関係情報をフィルタリングする能力が上が
+- 一昨日くらいからmistralの有料版であるmistral-medium(70B、MoEではない)の重みがリークしたという噂がある
+	- 
 
 ## 1/29
 
@@ -4038,12 +4045,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://github.com/jerryjliu/llama_index/blob/main/CHANGELOG.md
 	- [1] The default LLM is now gpt-3.5-turbo
 	- [2] Speaking of changing prompts, we’ve changed the default question-answering templates for both our create and refine strategy as well as tree_summarize.
-	- [3] Our default text splitter is now our brand-new sentence text splitter.
-	- [4] Added llama.cpp and @huggingface as fallbacks if openai key is not set.
-	- [5] Some new features: a `SentenceWindowNodeParser` and `MetadataReplacementNodPostProcessor` 
-- チュートリアル、Create a CustomGPT And Supercharge your Company with AI – Pick t
+	- [3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA0MTUxNzcsMjQzNjE5MjAsLTEwNj
+eyJoaXN0b3J5IjpbLTE4NzYzODUwNzMsMjQzNjE5MjAsLTEwNj
 cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
 ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
 E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
