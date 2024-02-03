@@ -63,6 +63,7 @@
 	- 松尾研のRAで学部2年生の白坂翠萌さんが主著した，基盤モデルを活用して，オンラインにプロンプトを生成しながら失敗にも柔軟に対応する家庭内サービスロボットシステムに関する研究がICLA2024に採択されました
 - 突如として現れたmiqu-70BがEQ-Bench では 83.5 を獲得し (ローカルで評価)、GPT-4系に次ぐ性能であることが判明
 	- https://x.com/N8Programs/status/1752441060133892503?s=20
+	- どうも、Mixtral 8x7Bの量子化版のリークだったらしい
 -  LangGraphで始めるマルチエージェントシステム
 	- https://speakerdeck.com/peisuke/langgraphdeshi-merumarutiezientosisutemu
 - Mixtral8x7Bの日本語対応Loraの学習完了しました
@@ -4048,14 +4049,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - LLMは世界を理解しているか？by Andrew Ng
 	- https://www.deeplearning.ai/the-batch/issue-209/
 	- Othelo-GPTの例から、答えは YESらしい。
-- 生成AIの文章やコード、論文が“事実か”チェックする技術　米Meta含む研究者らが開発
-	- https
+- 生成AIの文章やコード、論文が“事
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjI0OTE2MiwyNDM2MTkyMCwtMTA2Nz
-E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
-NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
-Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
-MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMT
-Y5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYw
-NjYzNl19
+eyJoaXN0b3J5IjpbNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MT
+c2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0
+LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNj
+g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
+MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
+k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
+NjM2XX0=
 -->
