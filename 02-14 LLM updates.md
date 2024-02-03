@@ -25,6 +25,7 @@
 	- https://ai.meta.com/blog/code-llama-large-language-model-coding/?utm_source=twitter&utm_medium=organic_social&utm_campaign=codellama&utm_content=reply
 	- HumanEvalでGPT-4超えしたらしい。入力コンテキスト長も100kまで行けるらしい
 	- Metaは以前から「GPT-4並のLLMをオープンにする」と予告していましたが，年明け早々，まずはコード生成領域でやってきました
+	- https://labs.perplexity.ai/ でためせるらしい
 -  Inverse Molecular Design with Multi-Conditional Diffusion Guidance
 	- https://arxiv.org/abs/2401.13858
 	- 複数の制約下での分子生成の論文
@@ -4040,14 +4041,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- [3] Our default text splitter is now our brand-new sentence text splitter.
 	- [4] Added llama.cpp and @huggingface as fallbacks if openai key is not set.
 	- [5] Some new features: a `SentenceWindowNodeParser` and `MetadataReplacementNodPostProcessor` 
-- チュートリアル、Create a CustomGPT And Supercharge your Company with AI – Pick the Best LLM
-	- https://blog.abacus.ai/b
+- チュートリアル、Create a CustomGPT And Supercharge your Company with AI – Pick t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2Njc5NjIzLDI0MzYxOTIwLC0xMDY3MT
-c2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0
-LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNj
-g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
-MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
-k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
-NjM2XX0=
+eyJoaXN0b3J5IjpbLTE1MjA0MTUxNzcsMjQzNjE5MjAsLTEwNj
+cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
+ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
+E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
+NjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLD
+E2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2
+MDY2MzZdfQ==
 -->
