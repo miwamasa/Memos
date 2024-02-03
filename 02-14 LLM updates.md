@@ -57,6 +57,11 @@
 		- 1. 関連性が高い文書ばかりだと過剰適合が起こる 
 		- 2. 無関係情報をフィルタリングする能力が上が
 - 一昨日くらいからmistralの有料版であるmistral-medium(70B、MoEではない)の重みがリークしたという噂がある
+	- https://x.com/webbigdata/status/1752304557336801408?s=20
+-  Self-Recovery Prompting: Promptable General Purpose Service Robot System with Foundation Models and Self-Recovery
+	- https://arxiv.org/abs/2309.14425
+	- 松尾研のRAで学部2年生の白坂翠萌さんが主著した，基盤モデルを活用して，オンラインにプロンプトを生成しながら失敗にも柔軟に対応する家庭内サービスロボットシステムに関する研究がICLA2024に採択されました
+- 突如として現れたmiqu-70BがEQ-Bench では 83.5 を獲得し (ローカルで評価)、GPT-4系に次ぐ性能であることが判明
 	- 
 
 ## 1/29
@@ -4040,14 +4045,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://www.itmedia.co.jp/news/articles/2308/09/news064.html
 	-  FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios
 	- https://arxiv.org/abs/2307.13528v2
-		- 研究者らはベンチマークを開発し、知識ベースのQA、コード生成、数学の問題解決、科学論文のレビュー執筆の4つのタスクで実験を行った。その結果、GPT-4はChatGPT、Bard、Claude-v1、Vicunaと比較して、事実精度が最も優れていた。Vicuna-13Bは、知識ベースのQAではそれなりに良好な事実性を示したが、コード生成、数学の問題解決、科学論文のレビュー執筆など、より困難なシナリオではパフォーマンスが低い結果となった。
-- llamaindexのv0.8がリリース
-	- https://github.com/jerryjliu/llama_index/blob/main/CHANGELOG.md
-	- [1] The default LLM is now gpt-3.5-turbo
-	- [2] Speaking of changing prompts, we’ve changed the default question-answering templates for both our create and refine strategy as well as tree_summarize.
-	- [3
+		- 研究者らはベンチマークを開発し、知識ベースのQA、コード生成、数学の問題解決、科学論文のレビュー執筆の4つのタスクで実験を行った。その結果、GPT-4はChatGPT、Bard、Claude-v1、Vicunaと比較して、事実精度が最も優れていた。Vic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzYzODUwNzMsMjQzNjE5MjAsLTEwNj
+eyJoaXN0b3J5IjpbLTE0NDc5MTMxNDEsMjQzNjE5MjAsLTEwNj
 cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
 ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
 E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
