@@ -62,6 +62,10 @@
 	- https://arxiv.org/abs/2309.14425
 	- 松尾研のRAで学部2年生の白坂翠萌さんが主著した，基盤モデルを活用して，オンラインにプロンプトを生成しながら失敗にも柔軟に対応する家庭内サービスロボットシステムに関する研究がICLA2024に採択されました
 - 突如として現れたmiqu-70BがEQ-Bench では 83.5 を獲得し (ローカルで評価)、GPT-4系に次ぐ性能であることが判明
+	- https://x.com/N8Programs/status/1752441060133892503?s=20
+-  LangGraphで始めるマルチエージェントシステム
+	- https://speakerdeck.com/peisuke/langgraphdeshi-merumarutiezientosisutemu
+- Mixtral8x7Bの日本語対応Loraの学習完了しました
 	- 
 
 ## 1/29
@@ -4043,11 +4047,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- Othelo-GPTの例から、答えは YESらしい。
 - 生成AIの文章やコード、論文が“事実か”チェックする技術　米Meta含む研究者らが開発
 	- https://www.itmedia.co.jp/news/articles/2308/09/news064.html
-	-  FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios
-	- https://arxiv.org/abs/2307.13528v2
-		- 研究者らはベンチマークを開発し、知識ベースのQA、コード生成、数学の問題解決、科学論文のレビュー執筆の4つのタスクで実験を行った。その結果、GPT-4はChatGPT、Bard、Claude-v1、Vicunaと比較して、事実精度が最も優れていた。Vic
+	-  FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Ta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDc5MTMxNDEsMjQzNjE5MjAsLTEwNj
+eyJoaXN0b3J5IjpbLTE1NDMwMjEwNTgsMjQzNjE5MjAsLTEwNj
 cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
 ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
 E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
