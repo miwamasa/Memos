@@ -66,6 +66,9 @@
 -  LangGraphで始めるマルチエージェントシステム
 	- https://speakerdeck.com/peisuke/langgraphdeshi-merumarutiezientosisutemu
 - Mixtral8x7Bの日本語対応Loraの学習完了しました
+	- https://x.com/AiXsatoshi/status/1752509354849546417?s=20
+	- 標準のMixtral8x7Bでは、応答に多言語間を行き来するswitchingが発生しますが、改善しています
+	- 汎用性能が落ちている可能性あるので、もう少し検証します
 	- 
 
 ## 1/29
@@ -4046,14 +4049,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://www.deeplearning.ai/the-batch/issue-209/
 	- Othelo-GPTの例から、答えは YESらしい。
 - 生成AIの文章やコード、論文が“事実か”チェックする技術　米Meta含む研究者らが開発
-	- https://www.itmedia.co.jp/news/articles/2308/09/news064.html
-	-  FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Ta
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMwMjEwNTgsMjQzNjE5MjAsLTEwNj
-cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
-ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
-E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
-NjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5MTAyLD
-E2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1NjgyMjMsLTEwMTI2
-MDY2MzZdfQ==
+eyJoaXN0b3J5IjpbMTk5MjI0OTE2MiwyNDM2MTkyMCwtMTA2Nz
+E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
+NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
+Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
+MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NTYxMjkxMDIsMT
+Y5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIyMywtMTAxMjYw
+NjYzNl19
 -->
