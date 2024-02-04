@@ -159,7 +159,11 @@
 	- クエリ変換は「LLM への入力（クエリ）をより良い情報抽出を可能とする表現へ変換する」ことで，RAG の質を高める手法
 	- 記事内では，代表的な 5 つの手法を code つきで解説
 - Build Long-context RAG from scratch: Nomic Embeddings + Mistral
-	- 
+	- https://x.com/LangChainAI/status/1753149741599428926?s=20
+	- nomic_ai has launched a new open source, long context embedding model:
+		- 8k token context window (using RoPE)
+		- Strong performance on several benchmarks 
+		- API (and local support coming soon)
 
 
 ## 1/29
@@ -4044,19 +4048,12 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness.
 	- 目的は：reliable and ethically sound deployment of LLMs in various applications.
 - RWKVについて解説
-	- https://agirobots.com/rwkv/
-	- RNNの利点である高速な推論と処理可能なシーケンス長を大幅に向上
-- LLMに関して起きている訴訟について
-	- https://twitter.com/srush_nlp/status/1691845245074620915?s=20
-- LLMでMRIスペクトルから分子を予測
-	- https://chemrxiv.org/engage/chemrxiv/article-details/64d5e4ccdfabaf06ff1763ef
-	- NMR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjEwMjM2OTYsLTE5NjE0NzAzNDQsND
-AxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4
-MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LD
-E4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMx
-NDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC
-01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4
-Nzc4OV19
+eyJoaXN0b3J5IjpbLTczNTY1MjUyNywtMTk2MTQ3MDM0NCw0MD
+E2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgy
+MjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMT
+g1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0
+ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLT
+U4OTUyMTAzNywxOTU2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3
+Nzg5XX0=
 -->
