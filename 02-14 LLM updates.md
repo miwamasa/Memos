@@ -201,7 +201,13 @@
 	- https://x.com/umiyuki_ai/status/1753651801688273040?s=20
 -  KARAKURI LMの解説
 	- https://medium.com/karakuri/karakuri-lm%E3%81%AE%E8%A7%A3%E8%AA%AC-4b6cf9c3d40f
+	- KARAKURI LMは、Llama 2を基に開発した事前学習済み言語モデルです。  
+	- 日本語の語彙を追加し、日本語と多言語コーパスを混ぜて追加の事前学習を行うことで、Llama 2の日本語能力を強化しています。
+	- KARAKURI LM Chatは、KARAKURI LMをファインチューニングしたモデルです
+	- 公開されている会話データセットと独自で開発した非公開の会話データセットを混ぜて学習させています。
+- 「ポスト５Ｇ情報通信システム基盤強化研究開発事業／ポスト５Ｇ情報通信システムの開発」
 	- 
+
 
 ## 1/29
 
@@ -4051,13 +4057,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://www.youtube.com/watch?v=rlCe_lG4uhk
 
 ## 8/21
-暑くて溶けそうなのに、電力はどうにかもっている夏です。松尾研からの国産LLMである“Weblab-10B”の発表。なお、松尾研には夏休み中の総理も訪問され講座を受講（なにか修了証書をもらってたな）、もっと国としてのサポートが期待できるかも。GPT-4は、暗号化されたプロンプトも理解できるぐらい優れているらしいが、特定の「脱獄プロンプト」に弱い面も。Trustworthy LLM、LLMの信頼性などの研究も進む、社会規範への整合とかそういう側面もある。スタンフォード大学のLLMの安全性のベンチマークとの比較も気になる。あいもかわらず知識グラフ系のLLM応用がちらほら、知識グラフ抽出や知識グラフをつかったRAG(Retrieval-Augmented Generation)などもあるが、知識の活用かそれともファインチュー
+暑くて溶けそうなのに、電力はどうにかもっている夏です。松尾研からの国産LLMである“Weblab-10B”の発表。なお、松尾研には夏休み中の総理も訪問され講座を受講（なにか修了証書をもらってたな）、もっ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzIyMDY3MTgsLTE5NDk1Njk1NTEsLT
-UyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3
-MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLT
-E5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzEx
-ODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC
-01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAyLDE2OTE3
-MTgxNzNdfQ==
+eyJoaXN0b3J5IjpbMjkzODg2MDk2LC0xOTQ5NTY5NTUxLC01Mj
+U0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAz
+NDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOT
+ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
+MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNT
+Q4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4
+MTczXX0=
 -->
