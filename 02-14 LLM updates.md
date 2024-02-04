@@ -102,6 +102,13 @@
 		- 5.  定期的に（年に 1 回、あるいは数年に 1 回）、アセットアロケーションについて見直しましょう。
 -  Self-supervised Learning: Generative or Contrastive
 	- https://arxiv.org/abs/2006.08218
+- Proactive Detection of Voice Cloning with Localized Watermarking
+	- https://huggingface.co/papers/2401.17264
+	- Meta presents Proactive Detection of Voice Cloning with Localized Watermarking
+- オークションサイトなどから中古のRTX 3090を8台かき集めてマシンを構築した人のお話
+	- https://www.kyleboddy.com/2024/01/28/building-deep-learning-machines-unorthodox-gpus/
+	- データセンター向けハードはファンなどの冷却装置がなく、騒音も大きく非常に扱いにくいが、注目する人が少ないので比較的安価で入手可能
+- 
 
 ## 1/29
 
@@ -4037,19 +4044,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://twitter.com/NuCode/status/1688455649091608576?s=20
 - 内閣府AI戦略会議(8/4)の資料が一部公開、AI関連施策は開発振興一本足に近くリスク対応が申し訳程度
 	- https://www8.cao.go.jp/cstp/ai/ai_senryaku/4kai/shisaku.pdf
--  IPA「ITパスポート試験 シラバス」に、生成AIの仕組み、活用例、留意事項等に関する項目・用語例を追加
-	- https://www.ipa.go.jp/shiken/syllabus/henkou/2023/20230807.html
-- 「JP Language Model Evaluation Harness」によるLLM性能評価 by stabilityAI
-	- https://note.com/npaka/n/nedf4dacd4037
-	- Colab(T4)で12時間もかかる、できるらしい
-- llama-2-13bのJGLUE、言語モデルの評価と関係
-	- https://huggingface.co/HachiML/Llama-2-13b-hf-qlora-dolly-ja-2ep/blob/main/benchmark_jglue/JGLUE_Llama-2-13b-hf-qlora-dolly-ja-2ep
+-  IPA「ITパスポート試験 シラバス」に、生
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTk0NzM5MDQsNDAxNjM4ODgxLDI0Mz
-YxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcy
-NCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsND
-gzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUx
-NCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMT
-k1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4
-MjIzXX0=
+eyJoaXN0b3J5IjpbMjc5NzU4NjAwLDQwMTYzODg4MSwyNDM2MT
+kyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQs
+LTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4Mz
+Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
+LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
+YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
+M119
 -->
