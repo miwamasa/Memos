@@ -75,6 +75,10 @@
 	- Phixtralの話の紹介
 	- 「Phi-2 ベースのモデルをいくつか使って Mixture of Experts (MoE) を作ったら単体よりも良い性能が達成できました」
 	- **Few-shot で Gating のパラメータを決める手法**が使われていて面白かった
+	- Gating の話を忘れれば「ベースのモデルを決めて MLP 以外のパラメータは全部ベースモデルのものを、MLP は MoE Layer に置き換えて各モデルの MLP のパラメータを使う」という方法で MoE モデルが作れそうです
+	- 各 Expert について、その Expert を使うと有利になりそうな Prompt (例えば Code で Fine-Tuning された Expert なら Code の Prompt) をいくつか用意して、その Prompt を forward したときの hidden_state を使って we​ を作ろう
+	- Domain ごとに Expert を使い分けてくれることを期待する感じですね
+- CodeLlama-70BをPostgreSQLの生成に特化させたバージョン、SQLCoder-70B
 	- 
 
 ## 1/29
@@ -4040,21 +4044,12 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- ■文章のスタイルを変化させられている場合（例えば子供っぽくなど）、識別が困難になる 
 	- ■言い換えや書き換えによって段階的に文章を変更されると、識別がかなり困難になる
 	-  ■AI生成コードの検出はAI生成テキストの検出よりもさらに困難になる
-- Langchainのテキスト分割の様子を目視できる、playgroundが爆誕
-	- https://langchain-text-splitter.streamlit.app/
-- Google Colab で Japanese StableLM Alpha + LlamaIndex の QA を試す
-	- https://note.com/npaka/n/n5c80ca661357
-- 「とっきょ」広報誌で、こち亀の内容が、拒絶通知の理由になった事例が紹介。。
-	- https://www.jpo.go.jp/news/koho/kohoshi/vol57/07_page1.html
-	- 拒絶を避けるべく、特許出願する前にはこち亀を全巻読破する必要があるのか、、、
-	- 審査官の趣味という気もするが、、
--  ChatGPTの新機能カスタム
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjM0OTQ2Niw0MDE2Mzg4ODEsMjQzNj
-E5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0
-LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
-M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
-LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
-U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
-MjNdfQ==
+eyJoaXN0b3J5IjpbODk1MjY3MjA5LDQwMTYzODg4MSwyNDM2MT
+kyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQs
+LTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4Mz
+Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
+LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
+YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
+M119
 -->
