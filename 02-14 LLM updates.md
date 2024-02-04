@@ -79,7 +79,12 @@
 	- 各 Expert について、その Expert を使うと有利になりそうな Prompt (例えば Code で Fine-Tuning された Expert なら Code の Prompt) をいくつか用意して、その Prompt を forward したときの hidden_state を使って we​ を作ろう
 	- Domain ごとに Expert を使い分けてくれることを期待する感じですね
 - CodeLlama-70BをPostgreSQLの生成に特化させたバージョン、SQLCoder-70B
-	- 
+	- https://huggingface.co/defog/sqlcoder-70b-alpha
+	- 性能評価もGPT-4に10ポイント以上差をつける圧倒的な勝利で、特化型のコード生成LLMの台頭を予感させるようなポテンシャルを秘めている
+- LLaVA-1.6のリリース
+	- https://x.com/imhaotian/status/1752621754273472927?s=20
+	- improved reasoning, OCR, and world knowledge. It supports higher-res inputs, more tasks, and exceeds Gemini Pro on several benchmarks!
+- 700億パラメーターLLM「KARAKURI LM」を一般公開
 
 ## 1/29
 
@@ -4035,21 +4040,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - Stability.ai、 日本語言語モデル「Japanese StableLM Alpha」をリリース(8/10)
 	- https://ja.stability.ai/blog/japanese-stablelm-alpha
 - 早速Japanese Stable LLMを、Colab無料環境から利用するnotebookが公開
-	- https://colab.research.google.com/github/mkshing/notebooks/blob/main/stabilityai_japanese_stablelm_alpha_7b.ipynb
-	- huggingfacesにログインしないといけない、、が動くぞ！
-	- ガンダムテストしてみたが、なんか、学習時につかったデータが表示される。
-- 生成AIによって生成されたテキストを判別する方法についての論文
-	- https://arxiv.org/abs/2306.15666
-	- Testing of Detection Tools for AI-Generated Text
-	- ■文章のスタイルを変化させられている場合（例えば子供っぽくなど）、識別が困難になる 
-	- ■言い換えや書き換えによって段階的に文章を変更されると、識別がかなり困難になる
-	-  ■AI生成コードの検出はAI生成テキストの検出よりもさらに困難になる
+	- https://colab.research.google.com/github/mkshing/notebooks/blob/main/sta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1MjY3MjA5LDQwMTYzODg4MSwyNDM2MT
-kyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQs
-LTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4Mz
-Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
-LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
-YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
-M119
+eyJoaXN0b3J5IjpbMTYzNTIyODM3MSw0MDE2Mzg4ODEsMjQzNj
+E5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0
+LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
+M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
+LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
+U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
+MjNdfQ==
 -->
