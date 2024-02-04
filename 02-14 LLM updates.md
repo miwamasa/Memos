@@ -3,7 +3,7 @@
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchえ突然上位に登場。Phixtralの論文で紹介さえたMoEの実装、本家とは違うみたいだがいろいろあるものだ。ICLA2024での採択論文・技術の話題もちらほら
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchえ突然上位に登場。Phixtralの論文で紹介さえたMoEの実装、本家とは違うみたいだがいろいろあるものだ。ICRA2024での採択論文・技術の話題もちらほら
 
 
 Gemini Ultra 
@@ -65,7 +65,7 @@ Gemini Ultra
 	- https://x.com/webbigdata/status/1752304557336801408?s=20
 -  Self-Recovery Prompting: Promptable General Purpose Service Robot System with Foundation Models and Self-Recovery
 	- https://arxiv.org/abs/2309.14425
-	- 松尾研のRAで学部2年生の白坂翠萌さんが主著した，基盤モデルを活用して，オンラインにプロンプトを生成しながら失敗にも柔軟に対応する家庭内サービスロボットシステムに関する研究がICLA2024に採択されました
+	- 松尾研のRAで学部2年生の白坂翠萌さんが主著した，基盤モデルを活用して，オンラインにプロンプトを生成しながら失敗にも柔軟に対応する家庭内サービスロボットシステムに関する研究がICRA2024に採択されました
 - 突如として現れたmiqu-70BがEQ-Bench では 83.5 を獲得し (ローカルで評価)、GPT-4系に次ぐ性能であることが判明
 	- https://x.com/N8Programs/status/1752441060133892503?s=20
 	- どうも、Mixtral 8x7Bの量子化版のリークだったらしい
@@ -4050,11 +4050,11 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- あとはgradioでWebUI生成！
 - Generally Intelligence社、米国商務省
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5NjUyNjAsLTIzOTc2NjIzMSwtMTk0OT
-U2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4
-LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMTA2Nz
-E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
-NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
-Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
-MDJdfQ==
+eyJoaXN0b3J5IjpbMTc2NjI1MzgyNCwzMDk2NTI2MCwtMjM5Nz
+Y2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3
+MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0Mz
+YxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcy
+NCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsND
+gzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUx
+NF19
 -->
