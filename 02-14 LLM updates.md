@@ -179,6 +179,12 @@
 	- https://huggingface.co/mmnga/karakuri-lm-70b-chat-v0.1-gguf
 - 藝大の噂の生成AIのやつ、説明とか見たら思った数百倍手の込んだことやっててすげぇってなった。生成AIの良い使い方っすね。
 	- https://x.com/413s9/status/1753300577516433830?s=20
+	- 藝大のAIアニメ、KALINさんの注釈を読む限り 
+		- 物語部→chatgpt 
+		- 画像生成→midjourney,nijijourney 
+		- AI動画化→runway,pika 
+		- 画像修正→photoshop と書かれていたはずなので（アニメ部はクリスタかも？） 
+	- 基本的にKALINさんはローカルSDを個人で動かすという作業は行っていなかったのだろうと推測。
 -  A Prompt-Engineered Large Language Model, Deep Learning Workflow for Materials Classification
 	- https://arxiv.org/abs/2401.17788
 	- 言語モデルによる材料分類の論文
@@ -189,6 +195,8 @@
 - リコーがLlama-2-13Bをベースに高性能な日本語モデルRicor-13Bを開発
 	- https://x.com/umiyuki_ai/status/1753312415503245762?s=20
 	- ただしオープンにはしない。顧客企業の業種に合わせてカスタム（微調整なのか？RAGなのか？）してクラウドで提供するB2Bビジネスを開始
+- 。
+	- https://chat.openai.com/share/a6f6052e-a22c-49aa-8847-9c7f12b011e0
 - 
 
 ## 1/29
@@ -4039,18 +4047,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://www.youtube.com/watch?v=rlCe_lG4uhk
 
 ## 8/21
-暑くて溶けそうなのに、電力はどうにかもっている夏です。松尾研からの国産LLMである“Weblab-10B”の発表。なお、松尾研には夏休み中の総理も訪問され講座を受講（なにか修了証書をもらってたな）、もっと国としてのサポートが期待できるかも。GPT-4は、暗号化されたプロンプトも理解できるぐらい優れているらしいが、特定の「脱獄プロンプト」に弱い面も。Trustworthy LLM、LLMの信頼性などの研究も進む、社会規範への整合とかそういう側面もある。スタンフォード大学のLLMの安全性のベンチマークとの比較も気になる。あいもかわらず知識グラフ系のLLM応用がちらほら、知識グラフ抽出や知識グラフをつかったRAG(Retrieval-Augmented Generation)などもあるが、知識の活用かそれともファインチューニングか？みたいな第２世代(エキスパートシステム）と第３世代（データがすべて）のAIの対比みたいな絵面だなあ。MRIスペクトルから分子を予想みたいな素朴な応用がもっとあっていい気もする。TRL(Transformer Reinforcement Learning)は、強化学習を用いたLLMの最適化を簡単にできるようになるらしい、DPO(Direct Preference Optimization)なんか斬新じゃん。元Googleトップ研究者による「Sakana AI」にはびっくり、めざす「自然からインスピレーションを得たインテリジェンスに基づいた新しいタイプの基礎モデル」とはどんなものになるのか？日本はコンテンツだけでなくて、人材リソースとしてもまだ魅力がある？？
-
-- ローカルデータに対するQ&Aなどするときに、知識を活用したRAGで構成するのがよいのか、いや、目的に対してLLMをファインチューニングするがいいのかというはなし
-	- Knowledge Graphs & LLMs: Fine-Tuning vs. Retrieval-Augmented Generation
-	- https://neo4j.com/developer-blog/fine-tuning-retrieval-augmented-generation/
-- LLMをつかったsemantic searchのDeepl
+暑くて溶けそうなのに、電力はどうにかもっている夏です。松尾研からの国産LLMである“Weblab-10B”の発表。なお、松尾研には夏休み中の総理も訪問され講座を受講（なにか修了証書をもらってたな）、もっと国としてのサポートが期待できるかも。GPT-4は、暗号化されたプロンプトも理解できるぐらい優れているらしいが、特定の「脱獄プロンプト」に弱い面も。Trustworthy LLM、LLMの信頼性などの研究も進む、社会規範への整合とかそういう側面もある。スタンフォード大学のLLMの安全性のベンチマークとの比較も気になる。あいもかわらず知識グラフ系のLLM応用がちらほら、知識グラフ抽出や知識グラフをつかったRAG(Retrieval-Augmented Generation)などもあるが、知識の活用かそれともファインチューニングか？みたいな第２世代(エキスパートシステム）と第３世代（データがすべて）のAIの対比みたいな絵面だなあ。MRIスペクトルから分子を予想みたいな素朴な応用がもっとあっていい気もする。TRL(Transformer Reinforcement Learning)は、強化学習を用いたLLMの最適化を簡単にできるようになるらしい、DPO(Direct Preference Optimization)なんか斬新じゃん。元Googleトップ研究者による「Sakana AI」にはびっくり、めざす「自然からインスピレーションを得たインテ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0MzMwNDM0LC0xOTQ5NTY5NTUxLC01Mj
-U0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAz
-NDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOT
-ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
-MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNT
-Q4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4
-MTczXX0=
+eyJoaXN0b3J5IjpbLTEyNTg0MTk2NzksLTE5NDk1Njk1NTEsLT
+UyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3
+MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLT
+E5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzEx
+ODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC
+01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAyLDE2OTE3
+MTgxNzNdfQ==
 -->
