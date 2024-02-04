@@ -107,7 +107,6 @@
 	- Meta presents Proactive Detection of Voice Cloning with Localized Watermarking
 - オークションサイトなどから中古のRTX 3090を8台かき集めてマシンを構築した人のお話
 	- https://www.kyleboddy.com/2024/01/28/building-deep-learning-machines-unorthodox-gpus/
-	- データセンター向けハードはファンなどの冷却装置がなく、騒音も大きく非常に扱いにくいが、注目する人が少ないので比較的安価で入手可能
 - 
 
 ## 1/29
@@ -4044,13 +4043,14 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://twitter.com/NuCode/status/1688455649091608576?s=20
 - 内閣府AI戦略会議(8/4)の資料が一部公開、AI関連施策は開発振興一本足に近くリスク対応が申し訳程度
 	- https://www8.cao.go.jp/cstp/ai/ai_senryaku/4kai/shisaku.pdf
--  IPA「ITパスポート試験 シラバス」に、生
+-  IPA「ITパスポート試験 シラバス」に、生成AIの仕組み、活用例、留意事項等に関する項目・用語例を追加
+	- https://www.ipa.go.jp/shiken/syll
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5NzU4NjAwLDQwMTYzODg4MSwyNDM2MT
-kyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQs
-LTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4Mz
-Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
-LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
-YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
-M119
+eyJoaXN0b3J5IjpbLTQ5ODE4MjI1Nyw0MDE2Mzg4ODEsMjQzNj
+E5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0
+LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
+M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
+LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
+U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
+MjNdfQ==
 -->
