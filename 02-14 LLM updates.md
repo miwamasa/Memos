@@ -117,6 +117,8 @@
 	- https://huggingface.co/papers/2401.16467
 - miqudev/miqu-1-70b
 	- https://huggingface.co/miqudev/miqu-1-70b
+	- えっ！、miquってミクのことだったのか。
+- 
 
 
 ## 1/29
@@ -4048,13 +4050,12 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://ai.meta.com/static-resource/responsible-use-guide/
 - text-generation-webui で TheBloke/vicuna-13B-v1.5-GPTQが動く
 	- https://twitter.com/smorce1/status/1688250856129646592?s=20
-- llama2をつかって、ローカルにQ&Aを実行す
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NjQ4NjI2LC0xOTYxNDcwMzQ0LDQwMT
-YzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIy
-NCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxOD
-U0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4
-Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNT
-g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
-ODldfQ==
+eyJoaXN0b3J5IjpbLTQzMTc2MTk0OSwtMTk2MTQ3MDM0NCw0MD
+E2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgy
+MjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMT
+g1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0
+ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLT
+U4OTUyMTAzNywxOTU2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3
+Nzg5XX0=
 -->
