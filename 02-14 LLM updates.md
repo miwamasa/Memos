@@ -3,7 +3,9 @@
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70BがMetaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。
+
+Gemini Ultra 
 
 
 - google/siglip-base-patch16-256-multilingual を使って、ローカルの画像を日本語で検索してみる
@@ -4051,9 +4053,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://twitter.com/kanjun/status/1693819078866354376?s=20
 - llamaindexのMetaphorサーチのお試しができるらしい。
 	- https://twitter.com/jerryjliu0/status/1693773766797746649?s=20
-	- https://colab.research.google.com/driv
+	- ht
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODYxNDMxOCwtMjM5NzY2MjMxLC0xOT
+eyJoaXN0b3J5IjpbLTEwMTgxODUzMSwtMjM5NzY2MjMxLC0xOT
 Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
 OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
 Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
