@@ -180,6 +180,8 @@
 - 藝大の噂の生成AIのやつ、説明とか見たら思った数百倍手の込んだことやっててすげぇってなった。生成AIの良い使い方っすね。
 	- https://x.com/413s9/status/1753300577516433830?s=20
 -  A Prompt-Engineered Large Language Model, Deep Learning Workflow for Materials Classification
+	- https://arxiv.org/abs/2401.17788
+	- 
 
 ## 1/29
 
@@ -4042,13 +4044,12 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://jailbreak-llms.xinyueshen.me/
 - 「汎用的なAIってやつ」を作ったところで、それで十分なレベルまで収益化を実現させるのはそれなりに難しいという話(TJO
 	- https://twitter.com/TJO_datasci/status/1691112696685719553
-- GPT-4 Is Too Smart To Be Safe: Steal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOT
-IzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4
-ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsOD
-E4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4
-OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNj
-Y4NDQzNTE0LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUy
-MTAzN119
+eyJoaXN0b3J5IjpbNzY4ODgwOTYwLC0xOTQ5NTY5NTUxLC01Mj
+U0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAz
+NDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOT
+ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
+MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNT
+Q4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4
+MTczXX0=
 -->
