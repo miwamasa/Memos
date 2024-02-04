@@ -88,6 +88,10 @@
 	- https://karakuri.ai/seminar/news/karakuri-lm/
 	- GPT-4を評価者とするベンチマーク(MT-Bench-jp)で、国産LLMとしては1位の性能を達成しました
 	- https://lm.karakuri.cc/ でお試し
+- 論文「RAG VS Fine-tuning」を読む
+	- https://zenn.dev/neoai/articles/e75b6f033a4fd9
+- 普通の人が資産運用で99点を取る方法
+	- https://hayatoito.github.io/2020/investing/
 	- 
 
 ## 1/29
@@ -4040,15 +4044,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://www.nvidia.com/ja-jp/about-nvidia/press-releases/2023/nvidia-and-hugging-face-to-connect-millions-of-developers-to-generative-ai-supercomputing/
 	- HuggingFaceにあるAIモデルのトレーニングとか微調整ができる企業向けのサービスで、GPUとしてNVidiaのクラウドGPUが選べるようになるらしい。
 - 悲報？：産総研、LLMのセミナー「シミュレーションとAIの融合技術とその最新事例」、すぐに定員いっぱいになる
-	- https://www.airc.aist.go.jp/seminar_detail/seminar_069.html
-- Stability.ai、 日本語言語モデル「Japanese StableLM Alpha」をリリース(8/10)
-	- https://ja.stability.ai/blog/japanese
+	- https://www.air
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzk3OTY0LDQwMTYzODg4MSwyNDM2MT
-kyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQs
-LTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4Mz
-Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
-LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
-YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
-M119
+eyJoaXN0b3J5IjpbLTE5OTA4ODI5MzIsNDAxNjM4ODgxLDI0Mz
+YxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcy
+NCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsND
+gzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUx
+NCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMT
+k1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4
+MjIzXX0=
 -->
