@@ -177,6 +177,9 @@
 	- https://x.com/npaka123/status/1753336604759118014?s=20
 	-  Llama.cppで5.82 token/s (M3 Max)
 	- https://huggingface.co/mmnga/karakuri-lm-70b-chat-v0.1-gguf
+- 藝大の噂の生成AIのやつ、説明とか見たら思った数百倍手の込んだことやっててすげぇってなった。生成AIの良い使い方っすね。
+	- https://x.com/413s9/status/1753300577516433830?s=20
+-  A Prompt-Engineered Large Language Model, Deep Learning Workflow for Materials Classification
 
 ## 1/29
 
@@ -4039,17 +4042,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://jailbreak-llms.xinyueshen.me/
 - 「汎用的なAIってやつ」を作ったところで、それで十分なレベルまで収益化を実現させるのはそれなりに難しいという話(TJO
 	- https://twitter.com/TJO_datasci/status/1691112696685719553
-- GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher
-	- https://arxiv.org/abs/2308.06463
-	- GPT-4 can understand ciphertext, which introduces the risk of generating unsafe content.
-- CSVにたいするQ&Aエージェントのベンチマーク
-	- https://github.com/langchain
+- GPT-4 Is Too Smart To Be Safe: Steal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNj
-c2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAs
-LTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMj
-IwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4
-NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xOD
-g4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOTU2MTI5
-MTAyXX0=
+eyJoaXN0b3J5IjpbLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOT
+IzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4
+ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsOD
+E4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4
+OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNj
+Y4NDQzNTE0LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUy
+MTAzN119
 -->
