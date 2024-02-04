@@ -208,10 +208,13 @@
 - 「ポスト５Ｇ情報通信システム基盤強化研究開発事業／ポスト５Ｇ情報通信システムの開発」
 	- NEDOが国内の生成AIの基盤モデル開発のために実施し
 	- ABEJA、Sakana AI、NII、ストックマーク、Turing、東京大学、Preferred Elements
+	- Preferred Elements（PFE）が、経産省とNEDOが開始する「GENIAC（Generative AI Accelerator Challenge）」において、1000億パラメータのマルチモーダル基盤モデルの開発と、1兆パラメータの大規模言語モデルの事前学習の検証を開始します。
+	- 
 - A decoder-only foundation model for time-series forecasting
 	- https://blog.research.google/2024/02/a-decoder-only-foundation-model-for.html
 	- TimesFM is a forecasting model, pre-trained on a large time-series corpus of 100 billion real world time-points, that displays impressive zero-shot performance on a variety of public benchmarks from different domains and granularities.
-	- 基盤モデルで時系列予測？？
+	- 基盤モデルで時系列予測？？googleがもつ大量の時系列データを特にかく学習？？
+- 
 
 
 ## 1/29
@@ -4049,16 +4052,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - Weblab-10Bを量子化(GPTQ)して簡単に動かすことがhugging faceでできる
 	- transformersにGPTQが統合されたおかげで、無料Colabでそのままでは動かなかったWeblab-10Bもらくらく動くようになってた。
 	- dahara1/weblab-10b-instruction-sft-GPTQ
-	- https://github.com/webbigdata-jp/python_sample/blob/main/weblab_10b_instruction_sft_GPTQ_sample.ipynb
-- 【まとめ】Google Colab で Code Llama を試す
-	- https://note.com/npaka/n/n51ed424b2943
-- CodeLlama model now work w/ llama-c
+	- https://github.com/webbigdata-jp/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNT
-I1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcw
-MzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMT
-kxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4
-NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLT
-U0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcx
-ODE3M119
+eyJoaXN0b3J5IjpbMjA3MDA1MjUwNCwtMjM5NzY2MjMxLC0xOT
+Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
+OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
+Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
+MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMT
+kxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0
+MDYwMl19
 -->
