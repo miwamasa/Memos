@@ -153,6 +153,9 @@
 - SEMSCORE: Automated Evaluation of Instruction-Tuned LLMs based on Semantic Textual Similarity
 	- https://arxiv.org/pdf/2401.17072.pdf
 	- これでJapanese MT-benchやElyza-tasksが毎回GPT-4を使わずに評価できるようになれば割と安価で日本語LLM leaderboardが作れそう
+- llamaindexを使った、使用したクエリ変換の解説記事
+	- https://akash-mathur.medium.com/advanced-rag-query-augmentation-for-next-level-search-using-llamaindex-d362fed7ecc3
+	-  Advanced RAG: Query Augmentation for Next-Level Search using LlamaIndex
 
 
 ## 1/29
@@ -4045,15 +4048,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://chemrxiv.org/engage/chemrxiv/article-details/64d5e4ccdfabaf06ff1763ef
 	- NMRスペクトルを文字列で表現、これを言語モデルへ入力し分子を予測することで67%の精度
 - 松尾研究室100億パラメータサイズ・日英2ヶ国語対応の大規模言語モデル“Weblab-10B”をオープンソースで公開
-	- https://weblab.t.u-tokyo.ac.jp/100%E5%84%84%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%BA%E3%83%BB%E6%97%A5%E8%8B%B12%E3%83%B6%E5%9B%BD%E8%AA%9E%E5%AF%BE%E5%BF%9C%E3%81%AE%E5%A4%A7%E8%A6%8F%E6%A8%A1/
-	- https://huggingface.co/matsuo-lab/weblab-10b
-	- 日本語のベンチマーク
+	- https://weblab.t.u-tokyo.ac.jp/100%E5%84%84%E3%83%91%E3%83%A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODU4NTc3NjMsLTE5NjE0NzAzNDQsND
-AxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4
-MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LD
-E4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMx
-NDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC
-01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4
-Nzc4OV19
+eyJoaXN0b3J5IjpbMjM4MjI0Njc4LC0xOTYxNDcwMzQ0LDQwMT
+YzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIy
+NCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxOD
+U0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4
+Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNT
+g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
+ODldfQ==
 -->
