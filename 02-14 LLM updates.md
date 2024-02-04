@@ -156,6 +156,10 @@
 - llamaindexを使った、使用したクエリ変換の解説記事
 	- https://akash-mathur.medium.com/advanced-rag-query-augmentation-for-next-level-search-using-llamaindex-d362fed7ecc3
 	-  Advanced RAG: Query Augmentation for Next-Level Search using LlamaIndex
+	- クエリ変換は「LLM への入力（クエリ）をより良い情報抽出を可能とする表現へ変換する」ことで，RAG の質を高める手法
+	- 記事内では，代表的な 5 つの手法を code つきで解説
+- Build Long-context RAG from scratch: Nomic Embeddings + Mistral
+	- 
 
 
 ## 1/29
@@ -4046,15 +4050,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://twitter.com/srush_nlp/status/1691845245074620915?s=20
 - LLMでMRIスペクトルから分子を予測
 	- https://chemrxiv.org/engage/chemrxiv/article-details/64d5e4ccdfabaf06ff1763ef
-	- NMRスペクトルを文字列で表現、これを言語モデルへ入力し分子を予測することで67%の精度
-- 松尾研究室100億パラメータサイズ・日英2ヶ国語対応の大規模言語モデル“Weblab-10B”をオープンソースで公開
-	- https://weblab.t.u-tokyo.ac.jp/100%E5%84%84%E3%83%91%E3%83%A
+	- NMR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4MjI0Njc4LC0xOTYxNDcwMzQ0LDQwMT
-YzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIy
-NCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxOD
-U0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4
-Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNT
-g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
-ODldfQ==
+eyJoaXN0b3J5IjpbLTE3MjEwMjM2OTYsLTE5NjE0NzAzNDQsND
+AxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4
+MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LD
+E4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMx
+NDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC
+01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4
+Nzc4OV19
 -->
