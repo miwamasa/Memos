@@ -181,6 +181,12 @@
 	- https://x.com/413s9/status/1753300577516433830?s=20
 -  A Prompt-Engineered Large Language Model, Deep Learning Workflow for Materials Classification
 	- https://arxiv.org/abs/2401.17788
+	- 言語モデルによる材料分類の論文
+	- Geminにより材料情報を指定したテキスト形式に変換し、整えたデータでBERTを微調整することにより、金属ガラスになるか否かを高精度に判定できたそうです。
+	- 言語モデルフル活用。疎なデータでもうまく予測できる点がメリットのようです
+- Build a RAG backend over any website in a single CLI command
+	- https://github.com/run-llama/LlamaIndexTS/tree/main/packages/create-llama
+- リコーがLlama-2-13Bをベースに高性能な日本語モデルRicor-13Bを開発
 	- 
 
 ## 1/29
@@ -4038,18 +4044,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://neo4j.com/developer-blog/fine-tuning-retrieval-augmented-generation/
 - LLMをつかったsemantic searchのDeeplearning.aiの無料コース
 	- Large Language Models with Semantic Search
-	- https://www.deeplearning.ai/short-courses/large-language-models-semantic-search/
-- GPT-4のセーフガードを故意に突破する脱獄プロンプトに関する研究
-	-  "Do Anything Now": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models
-	- https://jailbreak-llms.xinyueshen.me/
-- 「汎用的なAIってやつ」を作ったところで、それで十分なレベルまで収益化を実現させるのはそれなりに難しいという話(TJO
-	- https://twitter.com/TJO_datasci/status/1691112696685719553
+	- https://www.deeplearning.ai/short-courses/large-language-models-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4ODgwOTYwLC0xOTQ5NTY5NTUxLC01Mj
-U0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAz
-NDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOT
-ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
-MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNT
-Q4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4
-MTczXX0=
+eyJoaXN0b3J5IjpbLTUzMjEzMzIyMiwtMTk0OTU2OTU1MSwtNT
+I1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcw
+MzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMT
+kxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4
+NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLT
+U0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcx
+ODE3M119
 -->
