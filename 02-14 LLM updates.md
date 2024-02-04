@@ -3,7 +3,7 @@
 
 ## 2/5
 
-今週も盛りだくさん。まずは、
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。Metaは、
 
 
 - google/siglip-base-patch16-256-multilingual を使って、ローカルの画像を日本語で検索してみる
@@ -4051,14 +4051,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://twitter.com/kanjun/status/1693819078866354376?s=20
 - llamaindexのMetaphorサーチのお試しができるらしい。
 	- https://twitter.com/jerryjliu0/status/1693773766797746649?s=20
-	- https://colab.research.google.com/drive/1PTnJTVmLAI-V8JJu8GsbUvbk8vs203kA?usp=sharing
-- Stanford大学のHAIから、Create AI
+	- https://colab.research.google.com/drive/1PTnJTVmLAI-V8JJu8GsbUvbk8vs203kA?usp=sharin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTk4MDQ1NiwtMjM5NzY2MjMxLC0xOT
-Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
-OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
-Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
-MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMT
-kxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0
-MDYwMl19
+eyJoaXN0b3J5IjpbNjcyMDY3NjExLC0yMzk3NjYyMzEsLTE5ND
+k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
+OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNj
+cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
+ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
+E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
+NjAyXX0=
 -->
