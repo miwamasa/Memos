@@ -211,7 +211,7 @@
 	- NEDOが国内の生成AIの基盤モデル開発のために実施し
 	- ABEJA、Sakana AI、NII、ストックマーク、Turing、東京大学、Preferred Elements
 	- Preferred Elements（PFE）が、経産省とNEDOが開始する「GENIAC（Generative AI Accelerator Challenge）」において、1000億パラメータのマルチモーダル基盤モデルの開発と、1兆パラメータの大規模言語モデルの事前学習の検証を開始します。
-	- 
+	- 東大松尾研、 NEDOの採択を受け、公開型での500億パラメータサイズの大規模言語モデル開発を開始します。
 - A decoder-only foundation model for time-series forecasting
 	- https://blog.research.google/2024/02/a-decoder-only-foundation-model-for.html
 	- TimesFM is a forecasting model, pre-trained on a large time-series corpus of 100 billion real world time-points, that displays impressive zero-shot performance on a variety of public benchmarks from different domains and granularities.
@@ -233,7 +233,9 @@
 	- https://arxiv.org/abs/2401.15884
 	- Googleなどの研究者らは、LLMの検索における正確性をさらに向上させるフレームワーク（『CRAG』）を提案
 	- 検索結果を検証するプロセスを導入する手法で
-- 
+- Hugging FaceがGPT Storeのオープンソース版（Assistantという呼称）をリリース
+	- https://x.com/ytiskw/status/1753600673063784789?s=20
+	- 
 
 
 ## 1/29
@@ -4046,17 +4048,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	-  **帰納的学習法**：大規模言語モデル（LLM）を用いて、説明変数から目的変数を予測するモデルを生成する新しい学習法。この学習法は、教師あり学習とメタラーニングの要素を持つ。
 	- https://arxiv.org/abs/2308.09890
 -  日本語が使えるようになったGoogle PaLM2を試す
-	- https://note.com/eurekachan/n/n62b15394b5dc
-	- BigQuery のSQLなんかも日本語で生成をお願いすることが出来ます。
-	- LangChainからも呼び出したりできるようです
-- ANYONE can fine-tune (almost) any LLM available on Hugging Face
-	- Hugging Faceで簡
+	- https://note.com/eurekachan/n/n6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTE1NDEyNSwtMjM5NzY2MjMxLC0xOT
-Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
-OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
-Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
-MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMT
-kxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0
-MDYwMl19
+eyJoaXN0b3J5IjpbNDY4NjgwOTIyLC0yMzk3NjYyMzEsLTE5ND
+k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
+OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNj
+cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
+ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
+E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
+NjAyXX0=
 -->
