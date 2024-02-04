@@ -168,8 +168,11 @@
 		- nomic_ai:new 8k context window embeddings
 		- trychroma:vectorstore　MistralAI-instruct 32k context window via  ollama
 - Apple presents Can Large Language Models Understand Context
-	- 
-
+	- https://huggingface.co/papers/2402.0085
+	- We find that 3-bit post-training quantization leads to varying degrees of performance reduction on our benchmark. We conduct an extensive analysis of these scenarios to substantiate our experimental results.
+-  Grounded language acquisition through the eyes and ears of a single child
+	- https://www.science.org/doi/10.1126/science.adi1374
+	- 大規模言語モデルほど大量のデータを食わなくても子供は言語を獲得する。それをニューラルネットで再現できるか確認するため、赤ちゃん１人の頭に生後 6〜25 ヶ月の間に録画用ビデオを延べ 61 時間装着して音声･映像データを取得、マルチモーダル学習を成功させたとする報告
 
 ## 1/29
 
@@ -4038,25 +4041,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - CSVにたいするQ&Aエージェントのベンチマーク
 	- https://github.com/langchain-ai/langchain-benchmarks/tree/main/csv-qa
 -  Knowledge Graph RAG Query Engine (RAG: Retrieval-Augmented Generation)
-	- https://gpt-index.readthedocs.io/en/latest/examples/query_engine/knowledge_graph_rag_query_engine.html
-	- augmenting LLMs with context from a graph database
--  Large Language Models with Semantic Search
-	- https://www.deeplearning.ai/short-courses/large-language-models-semantic-search/
-	- Deeplearing.aiからのsemantic searchの無料コース、Cohereの人がでている？
-- 知識グラフ抽出のデモ
-	- text to graph playground
-	- https://auto-graph.streamlit.app/
--  Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment
-	- LLMの信頼性に関するサーベイ論文
-	- 用語や概念を整理し，実際に8つの観点からLLMの信頼性を検証
-	- https://arxiv.org/abs/2308.05374
-	- reliab
+	- https://gpt-index.readthedocs.io/en/latest/examples/query_engine/knowledge_graph_rag_query_engine
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjQ4NjY5MiwtMTk2MTQ3MDM0NCw0MD
-E2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgy
-MjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMT
-g1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0
-ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLT
-U4OTUyMTAzNywxOTU2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3
-Nzg5XX0=
+eyJoaXN0b3J5IjpbMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMT
+YzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIy
+NCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxOD
+U0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4
+Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNT
+g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
+ODldfQ==
 -->
