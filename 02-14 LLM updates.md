@@ -137,7 +137,11 @@
 -  RankMe: Assessing the downstream performance of pretrained self-supervised representations by their rank
 	- ICLR24 Spotlight: To train general-purpose SSL models, it's important to measure the quality of representations during training. But how can we do this w/o downstream labels? 
 	- We propose a new label-free metric to eval SSL models, called Linear Discrimination Analysis Rank(LiDAR)
-- 
+-  [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/abs/2305.15717v1)
+	- 言語モデルの「模倣」は有用か？
+	- 最新研究によれば、新しく開発された言語モデルの模倣は非常に難しいことが示唆されています。微調整による改善が有効でなく、モデルの基本的な知識はあまり変わらないことが発見されました。  
+✔️中小企業や大企業が同じ利点を得ることが難しくなり、特に新しいデータやアルゴリズムを活かして能力差を生かす企業が競争上の優位性を築ける可能性があります。  
+✔️ 新しい手法やデータの導入が重要であり、技術的な制約にも留意することが持続的な発展に寄与するでしょう。
 
 
 ## 1/29
@@ -4042,20 +4046,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://betterprogramming.pub/building-production-ready-llm-apps-with-llamaindex-document-metadata-for-higher-accuracy-retrieval-a8ceca641fb5
 - GoogleのトップAI研究者2人が東京でAI企業立ち上げを発表
 	- 「自然からインスピレーションを得たインテリジェンスに基づいた新しいタイプの基礎モデルを開発する」
-	- ジョーンズ氏とハー氏が新AI企業「Sakana AI」を東京に設立
-	- うち1人は、生成AI革命のきっかけとなった論文の著者の一人
-	- 日本で研究者を募り、生成AIの基盤モデル開発を目指す
-	- https://www.nikkei.com/article/DGXZQOUC186TM0Y3A810C2000000/?n_cid=SNSTW001&n_tw=1692351448
-	- 起業の地に日本を選んだ理由として、米国で生成AIの人材獲得競争が過熱している点をあげた。
--  TRL - 強化学習によるLLMの学習のためのライブラリ
-	- TRL - Transformer Reinforcement Learning
-	- https://note.com/npak
+	- ジョーンズ氏
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTM2NjgzMzQsLTE5NjE0NzAzNDQsND
-AxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4
-MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LD
-E4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMx
-NDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC
-01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4
-Nzc4OV19
+eyJoaXN0b3J5IjpbLTk0MDU4Nzg0LC0xOTYxNDcwMzQ0LDQwMT
+YzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIy
+NCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxOD
+U0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4
+Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNT
+g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
+ODldfQ==
 -->
