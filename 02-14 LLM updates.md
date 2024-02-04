@@ -3,7 +3,7 @@
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchで突然上位に登場。Phixtralの論文で紹介さえたMoEの実装、本家とは違うみたいだがいろいろあるものだ。ICRA2024での採択論文・技術の話題もちらほら。国産LLMでは、700億パラメーターLLM「KARAKURI LM」が登場、Llama 2を日本語データセットで事前学習、ファインチューニングしたらしいがやたら性能が高いと話題に。gguf版や、MLXをつかってM2 Macでの動作確認等が行われ、これは基礎能力が高そう。小さき言語モデルも、Allen.AIのOLMoや、Kaggle関連のH2O-Danube-1.8Bなどが登場。RAG関係だと、またファインチューニングとの比較論文、どうもまだＲＡＧのほうが利がある。クエリ変換ってのも重要な技術。赤ちゃんの頭にビデオを装着して得られた画像から、ＬＬＭをつくるという途方もない研究も。Hugging FaceがGPT Storeのオープンソース版（Assistant）を公開、どんな発展があるのか。東京藝大の卒業展示に“AIアニメ”が出たことが話題になったが、じつは相当ＬＬＭを使いこなしているという話に。Googleのあらゆる時系列データをDecoder-onlyのモデルにぶっ込んで時系列予測の基盤モデル作る話、長期時系列予測でどうしてそんなに性能が高いのか。NEDOの国内生成AIの基盤モデル開発支援、これに選ばれた会社は
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchで突然上位に登場。Phixtralの論文で紹介さえたMoEの実装、本家とは違うみたいだがいろいろあるものだ。ICRA2024での採択論文・技術の話題もちらほら。国産LLMでは、700億パラメーターLLM「KARAKURI LM」が登場、Llama 2を日本語データセットで事前学習、ファインチューニングしたらしいがやたら性能が高いと話題に。gguf版や、MLXをつかってM2 Macでの動作確認等が行われ、これは基礎能力が高そう。小さき言語モデルも、Allen.AIのOLMoや、Kaggle関連のH2O-Danube-1.8Bなどが登場。RAG関係だと、またファインチューニングとの比較論文、どうもまだＲＡＧのほうが利がある。クエリ変換ってのも重要な技術。赤ちゃんの頭にビデオを装着して得られた画像から、ＬＬＭをつくるという途方もない研究も。Hugging FaceがGPT Storeのオープンソース版（Assistant）を公開、どんな発展があるのか。東京藝大の卒業展示に“AIアニメ”が出たことが話題になったが、じつは相当ＬＬＭを使いこなしているという話に。Googleのあらゆる時系列データをDecoder-onlyのモデルにぶっ込んで時系列予測の基盤モデル作る話、長期時系列予測でどうしてそんなに性能が高いのか。NEDOの国内生成AIの基盤モデル開発支援、さすがと思われる会社や研究機関が並ぶ。NIIには、国会図書館のもつ国内のウェブサイトのアーカイブ事業の成果が活用され、とても期待できる。
 Ricor-13BのようなカスタマイズしたLLM提供ビジネスもはじまった。
 
 
@@ -4038,14 +4038,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - Vicuna 13B v1.5 、text-generation-webui じゃなくて以前試作した llama.cpp の HTTP サーバー機能を使ってみたら普通に LLaMA 2 13B と遜色ない結果出してくれた
 	- https://twitter.com/izutorishima/status/1693468524222861589?s=20
 - Metaの大規模言語モデル「LLaMA」のトレーニングにも使用されたAIの学習用データセット「Books3」が削除される
-	- https://gigazine.net/news/20230821-books-3-ai-data-set/
-	- 知的財産権や著作権に対する侵害の疑いが指摘されてい
+	- https://gigazine.net/news/2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxODQ1NzM0LDMwOTY1MjYwLC0yMzk3Nj
-YyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcy
-LDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNj
-E5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0
-LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
-M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
-XX0=
+eyJoaXN0b3J5IjpbLTE5Mzc5MDg2OTYsMzA5NjUyNjAsLTIzOT
+c2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3
+NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyND
+M2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3
+MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLD
+Q4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1
+MTRdfQ==
 -->
