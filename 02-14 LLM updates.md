@@ -164,6 +164,7 @@
 		- 8k token context window (using RoPE)
 		- Strong performance on several benchmarks 
 		- API (and local support coming soon)
+	- そしてlong xontext
 
 
 ## 1/29
@@ -4046,10 +4047,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- 用語や概念を整理し，実際に8つの観点からLLMの信頼性を検証
 	- https://arxiv.org/abs/2308.05374
 	- reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness.
-	- 目的は：reliable and ethically sound deployment of LLMs in various applications.
-- RWKVについて解説
+	- 目的は：reliable and ethically sound deployment of LLMs in various applic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTY1MjUyNywtMTk2MTQ3MDM0NCw0MD
+eyJoaXN0b3J5IjpbLTU3Nzc4MzEyNSwtMTk2MTQ3MDM0NCw0MD
 E2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgy
 MjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMT
 g1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0
