@@ -221,7 +221,12 @@
 - GoogleとOpenAIは「後出しジャンケンしたもん勝ち」を狙って膠着状態？
 	- https://x.com/ImAI_Eruel/status/1753389879965429892?s=20
 	- 最近AI界隈が妙に静かだと言われてるやつ，GoogleとOpenAIが互いに，「Gemini Ultra」と「GPT-4.5 or GPT-5」と言う切り札が既にほぼ公開可能な状態なことを宣言していて，今までの経過を見ると後から公開した方が天下を取ってる
-- 
+-  karakuri-lm-70b-chatをOpenAI互換のローカルサーバとして動かしてみた
+	- https://qiita.com/takaaki_inada/items/3a22b982a3541e6f214c?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share
+	- karakuri-lm-70b-chatの4bit量子版ggufをローカルPCで動かしてみた
+	- json format出力が出来たり、少し複雑なsystem promptも効いてくれて良い
+	- text-generation-webui でOpenAI互換のローカルサーバとして起動
+	- 
 
 
 ## 1/29
@@ -4043,21 +4048,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - RAGシステムで、top-k 抽出がうまくいかないときの工夫について
 	- https://twitter.com/jerryjliu0/status/1694013501323563101?s=20
 	- Metadata Filters + Auto Retrieval:
-	- Store Document Hierarchies (summaries -> raw chunks) + Recursive Retrieval
-- 今村・松井の『ベイズ最適化』
-	- 第4章までよめらば、ベイズ最適化が理解できるらしい。
-	- https://www.kindaikagaku.co.jp/book_list/detail/9784764906631/
-- メタが、Code Llamaを公表
-	- https://ai.meta.com/blog/code-llama-large-language-model-coding/
-	- Foundation base models (Code Llama) 
-	- Python specializations (Code Llama - Python), 
-	- Instruction-foll
+	- Store Document Hierarchies (summaries -> raw chunks) + R
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDMxMjg1OTksLTIzOTc2NjIzMSwtMT
-k0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3
-OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMT
-A2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAz
-ODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LD
-E5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgw
-NDA2MDJdfQ==
+eyJoaXN0b3J5IjpbLTc2MDc3OTk1NCwtMjM5NzY2MjMxLC0xOT
+Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
+OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
+Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
+MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMT
+kxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0
+MDYwMl19
 -->
