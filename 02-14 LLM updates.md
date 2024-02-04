@@ -229,7 +229,11 @@
 	- GPUメモリに48/81レイヤー分モデルをのせてサーバを起動
 -  WSL2とllama.cppでKARAKURI MLを試してみる
 	- https://note.com/ngc_shj/n/n46ced665b378?sub_rt=share_h
-	- 
+- Corrective Retrieval Augmented Generation
+	- https://arxiv.org/abs/2401.15884
+	- Googleなどの研究者らは、LLMの検索における正確性をさらに向上させるフレームワーク（『CRAG』）を提案
+	- 検索結果を検証するプロセスを導入する手法で
+- 
 
 
 ## 1/29
@@ -4046,16 +4050,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- BigQuery のSQLなんかも日本語で生成をお願いすることが出来ます。
 	- LangChainからも呼び出したりできるようです
 - ANYONE can fine-tune (almost) any LLM available on Hugging Face
-	- Hugging Faceで簡単にLLMをファインチューニングできるAPIが公開
-	- https://twitter.com/abhi1thakur/status/1693619860050153958?s=20
-- RAGシステムで、top-k 抽出がうまくいかないときの工夫について
-	- https://twitter.com/jerryjliu0/
+	- Hugging Faceで簡
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTE1ODgwODMsLTIzOTc2NjIzMSwtMT
-k0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3
-OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMT
-A2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAz
-ODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LD
-E5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgw
-NDA2MDJdfQ==
+eyJoaXN0b3J5IjpbLTc4MTE1NDEyNSwtMjM5NzY2MjMxLC0xOT
+Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
+OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
+Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
+MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMT
+kxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0
+MDYwMl19
 -->
