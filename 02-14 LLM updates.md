@@ -118,7 +118,9 @@
 - miqudev/miqu-1-70b
 	- https://huggingface.co/miqudev/miqu-1-70b
 	- えっ！、miquってミクのことだったのか。
-- 
+- H2O-Danube-1.8B Technical Report
+	- https://arxiv.org/abs/2401.16818
+	- Open-sources a high-competitive 1.8B LM trained on 1T tokens following the core principles of LLama 2 and Mistral
 
 
 ## 1/29
@@ -4047,11 +4049,8 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- 4bit化など軽量化されたllmをllamaindexで使う方法、ローカル環境とか
 	- Colabの無料版(T4インスタンス)でも動作する
 - LLama2公開にあわせて、Metaから"responsible generative AI"に関するガイドが出ている.、
-	- https://ai.meta.com/static-resource/responsible-use-guide/
-- text-generation-webui で TheBloke/vicuna-13B-v1.5-GPTQが動く
-	- https://twitter.com/smorce1/status/1688250856129646592?s=20
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTc2MTk0OSwtMTk2MTQ3MDM0NCw0MD
+eyJoaXN0b3J5IjpbLTM5ODczODQ0NiwtMTk2MTQ3MDM0NCw0MD
 E2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgy
 MjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMT
 g1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0
