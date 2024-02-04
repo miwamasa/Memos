@@ -109,6 +109,9 @@
 	- https://www.kyleboddy.com/2024/01/28/building-deep-learning-machines-unorthodox-gpus/
 - Google's AI Makes Stunning Progress with Logical Reasoning
 	- https://www.youtube.com/watch?v=NrNjvIrCqII
+- Microsoft and OpenAI are in talks to invest $100 million into Figure
+	- https://x.com/AndrewCurran_/status/1752463084550262805?s=20
+	- Figureｔうのは、
 
 ## 1/29
 
@@ -4041,15 +4044,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - llama2をつかって、ローカルにQ&Aを実行する手法について via llamaindex
 	- https://gpt-index.readthedocs.io/en/latest/examples/vector_stores/SimpleIndexDemoLlama-Local.html
 - LLMを試すのに、「ガンダムテスト」というのがあるらしい、vicuna-13b-v1.5-16kは優秀らしい
-	- https://twitter.com/NuCode/status/1688455649091608576?s=20
-- 内閣府AI戦略会議(8/4)の資料が一部公開、AI関連施策は開発振興一本足に近くリスク対応が申し訳程度
-	- https://www8.cao.go.jp/cstp/ai/ai_senryaku/4kai/
+	- https://twitter
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDQ3NjA5NSw0MDE2Mzg4ODEsMjQzNj
-E5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0
-LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
-M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
-LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
-U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
-MjNdfQ==
+eyJoaXN0b3J5IjpbMTI2NzY0ODExLDQwMTYzODg4MSwyNDM2MT
+kyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQs
+LTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4Mz
+Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
+LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
+YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
+M119
 -->
