@@ -107,7 +107,8 @@
 	- Meta presents Proactive Detection of Voice Cloning with Localized Watermarking
 - オークションサイトなどから中古のRTX 3090を8台かき集めてマシンを構築した人のお話
 	- https://www.kyleboddy.com/2024/01/28/building-deep-learning-machines-unorthodox-gpus/
-- 
+- Google's AI Makes Stunning Progress with Logical Reasoning
+	- https://www.youtube.com/watch?v=NrNjvIrCqII
 
 ## 1/29
 
@@ -4042,11 +4043,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - LLMを試すのに、「ガンダムテスト」というのがあるらしい、vicuna-13b-v1.5-16kは優秀らしい
 	- https://twitter.com/NuCode/status/1688455649091608576?s=20
 - 内閣府AI戦略会議(8/4)の資料が一部公開、AI関連施策は開発振興一本足に近くリスク対応が申し訳程度
-	- https://www8.cao.go.jp/cstp/ai/ai_senryaku/4kai/shisaku.pdf
--  IPA「ITパスポート試験 シラバス」に、生成AIの仕組み、活用例、留意事項等に関する項目・用語例を追加
-	- https://www.ipa.go.jp/shiken/syll
+	- https://www8.cao.go.jp/cstp/ai/ai_senryaku/4kai/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODE4MjI1Nyw0MDE2Mzg4ODEsMjQzNj
+eyJoaXN0b3J5IjpbLTcxMDQ3NjA5NSw0MDE2Mzg4ODEsMjQzNj
 E5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0
 LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
 M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
