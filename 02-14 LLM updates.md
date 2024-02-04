@@ -3,7 +3,8 @@
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchで突然上位に登場。Phixtralの論文で紹介さえたMoEの実装、本家とは違うみたいだがいろいろあるものだ。ICRA2024での採択論文・技術の話題もちらほら。国産LLMでは、700億パラメーターLLM「KARAKURI LM」が登場、Llama 2を日本語データセットで事前学習、ファインチューニングしたらしいがやたら性能が高いと話題に。gguf版や、MLXをつかってM2 Macでの動作確認等が行われ、これは基礎能力が高そう。小さき言語モデルも、Allen.AIのOLMoや、Kaggle関連のH2O-Danube-1.8Bなどが登場。RAG関係だと、またファインチューニングとの比較論文、どうもまだＲＡＧのほうが利がある。クエリ変換ってのも重要な技術。赤ちゃんの頭にビデオを装着して得られた画像から、ＬＬＭをつくるという途方もない研究も。Hugging FaceがGPT Storeのオープンソース版（Assistant）を公開、どんな発展があるのか。東京藝大の卒業展示に“AIアニメ”が出たことが話題になったが、じつは相当ＬＬＭを使いこなしているという話に。。
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchで突然上位に登場。Phixtralの論文で紹介さえたMoEの実装、本家とは違うみたいだがいろいろあるものだ。ICRA2024での採択論文・技術の話題もちらほら。国産LLMでは、700億パラメーターLLM「KARAKURI LM」が登場、Llama 2を日本語データセットで事前学習、ファインチューニングしたらしいがやたら性能が高いと話題に。gguf版や、MLXをつかってM2 Macでの動作確認等が行われ、これは基礎能力が高そう。小さき言語モデルも、Allen.AIのOLMoや、Kaggle関連のH2O-Danube-1.8Bなどが登場。RAG関係だと、またファインチューニングとの比較論文、どうもまだＲＡＧのほうが利がある。クエリ変換ってのも重要な技術。赤ちゃんの頭にビデオを装着して得られた画像から、ＬＬＭをつくるという途方もない研究も。Hugging FaceがGPT Storeのオープンソース版（Assistant）を公開、どんな発展があるのか。東京藝大の卒業展示に“AIアニメ”が出たことが話題になったが、じつは相当ＬＬＭを使いこなしているという話に。Googleのあらゆる時系列データをDecoder-onlyのモデルにぶっ込んで時系列予測の基盤モデル作る話、ベンチマーク見る限り
+Ricor-13BのようなカスタマイズしたLLM提供ビジネスもはじまった。
 
 
 Gemini Ultra が2/7にリリースとのうわさもあり、Vison Proを出したAppleのＡＩ戦略も気になるところ。
@@ -4039,10 +4040,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - Metaの大規模言語モデル「LLaMA」のトレーニングにも使用されたAIの学習用データセット「Books3」が削除される
 	- https://gigazine.net/news/20230821-books-3-ai-data-set/
 	- 知的財産権や著作権に対する侵害の疑いが指摘されていたらしい
-- LlamaIndex + Metaphor: Towards Automating Knowledge Work with LLMs
-	- https://medium.com/llamaindex-blog/llamaindex-metaphor-towards-automat
+- LlamaIndex + Metaphor: Towards Automati
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjA3NDQ1OCwzMDk2NTI2MCwtMjM5Nz
+eyJoaXN0b3J5IjpbMTkzMDI4OTEyMSwzMDk2NTI2MCwtMjM5Nz
 Y2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3
 MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0Mz
 YxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcy
