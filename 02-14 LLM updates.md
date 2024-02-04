@@ -235,7 +235,9 @@
 	- 検索結果を検証するプロセスを導入する手法で
 - Hugging FaceがGPT Storeのオープンソース版（Assistantという呼称）をリリース
 	- https://x.com/ytiskw/status/1753600673063784789?s=20
-	- 
+- Meta、AIに大きく舵を切ると公表し、株価２０％アップ？
+	- AI at Meta: 350k H100s by the end of the year, open source AI software infrastructure, new data centers with custom chips for AI inference serving hundreds of millions of users of AI tools.
+	- https://x.com/ylecun/status/1753431180861419947?s=20
 
 
 ## 1/29
@@ -4043,18 +4045,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	-  We Must Pass the Create AI Act
 	- https://hai.stanford.edu/news/we-must-pass-create-ai-act?utm_source=twitter&utm_medium=social&utm_content=Stanford%20HAI_twitter_StanfordHAI_202308220803_sf181078680&utm_campaign=&sf181078680=1
 - Open AI でスーパーアライメントを4年以内に完了させることを目標として率いているJan Leike氏の対談
-	- https://80000hours.org/podcast/episodes/jan-leike-superalignment/
--  Inductive-bias Learning: Generating Code Models with Large Language Model
-	-  **帰納的学習法**：大規模言語モデル（LLM）を用いて、説明変数から目的変数を予測するモデルを生成する新しい学習法。この学習法は、教師あり学習とメタラーニングの要素を持つ。
-	- https://arxiv.org/abs/2308.09890
--  日本語が使えるようになったGoogle PaLM2を試す
-	- https://note.com/eurekachan/n/n6
+	- https://80000hours.org/podcast/episodes/jan-leike-superalignme
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4NjgwOTIyLC0yMzk3NjYyMzEsLTE5ND
-k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
-OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNj
-cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
-ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
-E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
-NjAyXX0=
+eyJoaXN0b3J5IjpbLTE2NjAwOTA2NDQsLTIzOTc2NjIzMSwtMT
+k0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3
+OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMT
+A2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAz
+ODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LD
+E5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgw
+NDA2MDJdfQ==
 -->
