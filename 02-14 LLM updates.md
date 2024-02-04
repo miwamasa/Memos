@@ -125,6 +125,11 @@
 	- どうも小規模LLMでKagglerによりtrainigされたもｎ
 -  Robust Prompt Optimization for Defending Language Models Against Jailbreaking Attacks
 	- https://arxiv.org/abs/2401.17263
+	- Significantly improves robustness to held-out jailbreaks, reducing the attack success rate from 84% to 8.66% across 20 jailbreaks
+- quantized CodeLlama 70b base model to 4-bit with MLX
+	- https://huggingface.co/mlx-community/CodeLlama-70b-hf-4bit-MLX
+	- you can now run this model on your Apple Silicon.
+- StrokeNUWA: Tokenizing Strokes for Vector Graphic Synthesis
 	- 
 
 
@@ -4047,13 +4052,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 
 ## 8/14
 お盆ですが、膨大にならないうちに更新します。ところで、「大規模言語モデル入門」(技術評論社ISBN 978-4-297-13633-8）いいですね、Huggingfacesをつかって、日本語データセットをつかった、ファインチューニングなど見所が多い。
-さて今週は、先週に引き続き vicuna-v1.5関係の記事が多かったわけですが、stability.aiから日本語のStableLLMがリリースされたがのが大きなニュースでした。LLMベンチマークもColab環境でできるらしい。Metaの公表した生成AIのガイドとか、FacToolなんか、AIの安全性やリスクなんかに対してちゃんと取り組んでいる。日FR本のAI戦略の、開発促進に偏った姿勢とは一線を画している（つまり余裕がないということ）。FacToolによる分析の結果、GPT-4はやっぱりすごいんだな。Llmaindexのllmがgpt-3.5-turboにやっと変更されたらしい、そんなに使いにくかったのか。。LLMをプロダクションで使うための色々なTipsが公表されてたり、一方Andrew Ngさんは、LLMが世界を理解しているというブログを開陳。LLM時代の医療へのAI利用のベネフィットとリスクについてのランサー記事とか、数学者Terence Taoさんの、LLMをつかったAIが数学論文の共著者になりうるという興味深い予測も。産総研のAIセミナー、あっという間に満杯に。興味だけは大きいのに、手が動かない人が多すぎないか。。まあ、LLMでいくら頑張てもChatGPTでよくない？みたいな意見もある。様々な面で、日本はLLM開発で遅れてきていて、もはや以前のような横綱相撲をするような感じではないのに政府はそうは言えないのか、しかし民間
+さて今週は、先週に引き続き vicuna-v1.5関係の記事が多かったわけですが、stability.aiから日本語のStableLLMがリリースされたがのが大きなニュースでした。LLMベンチマークもColab環境でできるらしい。Metaの公表した生成AIのガイドとか、FacToolなんか、AIの安全性やリスクなんかに対してちゃんと取り組んでいる。日FR本のAI戦略の、開発促進に偏った姿勢とは一線を画している（つまり余裕がないということ）。FacToolによる分析の結果、GPT-4はやっぱりすごいんだな。Llm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODcwMjQ0NSwtMTk2MTQ3MDM0NCw0MD
-E2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgy
-MjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMT
-g1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0
-ODMsNjY4NDQzNTE0LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLT
-U4OTUyMTAzNywxOTU2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3
-Nzg5XX0=
+eyJoaXN0b3J5IjpbLTEyMDgxMjU4MzAsLTE5NjE0NzAzNDQsND
+AxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4
+MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LD
+E4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMx
+NDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC
+01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4
+Nzc4OV19
 -->
