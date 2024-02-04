@@ -217,7 +217,11 @@
 	- TimesFM is a forecasting model, pre-trained on a large time-series corpus of 100 billion real world time-points, that displays impressive zero-shot performance on a variety of public benchmarks from different domains and granularities.
 	- 基盤モデルで時系列予測？？googleがもつ大量の時系列データを特にかく学習？？
 - Ollama vision
-	- 
+	- https://x.com/ollama/status/1753530905069748506?s=20
+- GoogleとOpenAIは「後出しジャンケンしたもん勝ち」を狙って膠着状態？
+	- https://x.com/ImAI_Eruel/status/1753389879965429892?s=20
+	- 最近AI界隈が妙に静かだと言われてるやつ，GoogleとOpenAIが互いに，「Gemini Ultra」と「GPT-4.5 or GPT-5」と言う切り札が既にほぼ公開可能な状態なことを宣言していて，今までの経過を見ると後から公開した方が天下を取ってる
+- 
 
 
 ## 1/29
@@ -4047,19 +4051,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://ai.meta.com/blog/code-llama-large-language-model-coding/
 	- Foundation base models (Code Llama) 
 	- Python specializations (Code Llama - Python), 
-	- Instruction-following models (Code Llama - Instruct)
-- 【ローカルLLM】Colabの標準GPUで「CodeLlama-34B-GGUF」を動かす
-	- https://note.com/bakushu/n/n21cb30a15f27
-	- 量子化は「GPTQ」ではなくて、CPU＋GPUで実行できる「GGUF(旧GGML)」
-	- 標準GPU（Tesla T4）で動くのがみそ
-- Weblab-10Bを量子化(GPTQ)して簡単に動かすことがhugging faceでできる
-	- transformersにGPTQが統合されたおかげで、無料Colabで
+	- Instruction-foll
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzMzMzM4NCwtMjM5NzY2MjMxLC0xOT
-Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
-OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
-Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
-MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMT
-kxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0
-MDYwMl19
+eyJoaXN0b3J5IjpbLTIxMDMxMjg1OTksLTIzOTc2NjIzMSwtMT
+k0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3
+OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMT
+A2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAz
+ODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LD
+E5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgw
+NDA2MDJdfQ==
 -->
