@@ -3,7 +3,7 @@
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。OSS版のマルチモーダルLLM代表的なLLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchで突然上位に登場、miqueってミクだったのか？。Phixtralの論文で紹介さえたMoEの実装、本家とはアルゴリズムが違うみたいだがMoEの実装にもいろいろあるものだ。ICRA2024での採択論文・技術の話題もちらほら。国産LLMでは、700億パラメーターLLM「KARAKURI LM」が登場、Llama 2を日本語データセットで事前学習、ファインチューニングしたらしいがやたら性能が高いと話題に。gguf版や、MLXをつかってM2 Macでの動作確認等が行われ、これは基礎能力が高そう。小さき言語モデルも、Allen.AIのOLMoや、Kaggle関連のH2O-Danube-1.8Bなどが登場。RAG関係だと、またファインチューニングとの比較論文、どうもまだＲＡＧのほうが利がある。クエリ変換ってのも重要な技術。しかし、赤ちゃんの頭にビデオを装着して得られた19か月分の画像から、ＬＬＭをつくるという途方もない研究も。Hugging FaceがGPT Storeのオープンソース版（Assistant）を開始、Googleとの提携でリソースが強化された？。東京藝大の卒業展示に“AIアニメ”が出たことが話題になったが、Making情報を見ると、じつは相当ＬＬＭを使いこなしていて、シナリオのChatGPTでの作成ログ等、アプローチが参考になるという話に。Googleのあらゆる時系列データをDecoder-onlyのモデルにぶっ込んで時系列予測の基盤モデル作る話、長期時系列予測でどうしてそんなに性能が高いのか、気象予測にも適用するのか？。NEDOの国内生成AIの基盤モデル開発支援、さすがと思われる会社や研究機関が並ぶ。参加機関の１つNIIでは、国会図書館のもつ国内のウェブサイトのアーカイブ事業の成果が活用されるということだ。一方民間ではRicor-13BのようなカスタマイズしたLLM提供ビジネスもはじまった。材料系の研究へのLLMの応用も着実に進む。さて来週も、Gemini Ultra が2/7にリリースとのうわさもあり、人型ロボットスタートアップFigureに出資したMicrosoft/OpenAIの次の手や、Vison Proを出したAppleのＡＩ戦略も気になるところ。
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。OSS版のマルチモーダルLLM代表的なLLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchで突然上位に登場、次の大きなリリースの斥候か、なおmiqueってミクだったのか？。Phixtralの論文で紹介されたMoEの実装、本家とはアルゴリズムが違うみたいだがMoEの実装にもいろいろあるものだ。ICRA2024での採択論文・技術の話題もちらほら。国産LLMでは、700億パラメーターLLM「KARAKURI LM」が登場、Llama 2を日本語データセットで事前学習、ファインチューニングしたらしいがやたら性能が高いと話題に。gguf版や、MLXをつかってM2 Macでの動作確認等が行われ、これは基礎能力が高そう。小さき言語モデルも、Allen.AIのOLMoや、Kaggle関連のH2O-Danube-1.8Bなどが登場。RAG関係だと、またファインチューニングとの比較論文、どうもまだＲＡＧのほうが利がある。クエリ変換ってのも重要な技術。しかし、赤ちゃんの頭にビデオを装着して得られた19か月分の画像から、ＬＬＭをつくるという途方もない研究も。Hugging FaceがGPT Storeのオープンソース版（Assistant）を開始、Googleとの提携でリソースが強化された？。東京藝大の卒業展示に“AIアニメ”が出たことが話題になったが、Making情報を見ると、じつは相当ＬＬＭを使いこなしていて、シナリオのChatGPTでの作成ログ等、アプローチが参考になるという話に。Googleのあらゆる時系列データをDecoder-onlyのモデルにぶっ込んで時系列予測の基盤モデル作る話、長期時系列予測でどうしてそんなに性能が高いのか、気象予測にも適用するのか？。NEDOの国内生成AIの基盤モデル開発支援、さすがと思われる会社や研究機関が並ぶ。参加機関の１つNIIでは、国会図書館のもつ国内のウェブサイトのアーカイブ事業の成果が活用されるということだ。一方民間ではRicor-13BのようなカスタマイズしたLLM提供ビジネスもはじまった。材料系の研究へのLLMの応用も着実に進む。さて来週も、Gemini Ultra が2/7にリリースとのうわさもあり、人型ロボットスタートアップFigureに出資したMicrosoft/OpenAIの次の手や、Vison Proを出したAppleのＡＩ戦略も気になるところ。
 
 - google/siglip-base-patch16-256-multilingual を使って、ローカルの画像を日本語で検索してみる
 	- https://note.com/eurekachan/n/n9d4f62b80ad6?sub_rt=share_pb
@@ -4031,9 +4031,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - **[chatux-server-llm](https://github.com/sotokisehiro/chatux-server-llm)**
 	- ローカル環境で動作する文章生成 AI チャットボットです。 CPU だけで動作します。
 	- LINE の japanese-large-lm-3.6b-instruction-sft を CTranslate2 化
-- Vicuna 13B v1.5 、text-generation-webui じゃなくて以前試作した llama.cpp 
+- Vicuna 13B v1.5 、text-generation-webui じゃなくて以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjYyOTU5NzAsMzA5NjUyNjAsLTIzOT
+eyJoaXN0b3J5IjpbLTE4MzczOTE5MDMsMzA5NjUyNjAsLTIzOT
 c2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3
 NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyND
 M2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3
