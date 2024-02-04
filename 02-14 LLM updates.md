@@ -70,7 +70,7 @@
 	- https://x.com/AiXsatoshi/status/1752509354849546417?s=20
 	- 標準のMixtral8x7Bでは、応答に多言語間を行き来するswitchingが発生しますが、改善しています
 	- 汎用性能が落ちている可能性あるので、もう少し検証します
-	- 
+- 
 
 ## 1/29
 
@@ -4051,11 +4051,11 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- Othelo-GPTの例から、答えは YESらしい。
 - 生成AIの文章やコード、論文が“事
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MT
-c2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0
-LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNj
-g0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYw
-MiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNj
-k3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4MjIzLC0xMDEyNjA2
-NjM2XX0=
+eyJoaXN0b3J5IjpbLTczMTQxNjM3NSw0MDE2Mzg4ODEsMjQzNj
+E5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0
+LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
+M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
+LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
+U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
+MjNdfQ==
 -->
