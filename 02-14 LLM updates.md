@@ -187,7 +187,9 @@
 - Build a RAG backend over any website in a single CLI command
 	- https://github.com/run-llama/LlamaIndexTS/tree/main/packages/create-llama
 - リコーがLlama-2-13Bをベースに高性能な日本語モデルRicor-13Bを開発
-	- 
+	- https://x.com/umiyuki_ai/status/1753312415503245762?s=20
+	- ただしオープンにはしない。顧客企業の業種に合わせてカスタム（微調整なのか？RAGなのか？）してクラウドで提供するB2Bビジネスを開始
+- 
 
 ## 1/29
 
@@ -4042,15 +4044,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - ローカルデータに対するQ&Aなどするときに、知識を活用したRAGで構成するのがよいのか、いや、目的に対してLLMをファインチューニングするがいいのかというはなし
 	- Knowledge Graphs & LLMs: Fine-Tuning vs. Retrieval-Augmented Generation
 	- https://neo4j.com/developer-blog/fine-tuning-retrieval-augmented-generation/
-- LLMをつかったsemantic searchのDeeplearning.aiの無料コース
-	- Large Language Models with Semantic Search
-	- https://www.deeplearning.ai/short-courses/large-language-models-
+- LLMをつかったsemantic searchのDeepl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjEzMzIyMiwtMTk0OTU2OTU1MSwtNT
-I1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcw
-MzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMT
-kxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4
-NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLT
-U0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcx
-ODE3M119
+eyJoaXN0b3J5IjpbNTA0MzMwNDM0LC0xOTQ5NTY5NTUxLC01Mj
+U0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAz
+NDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOT
+ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
+MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNT
+Q4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4
+MTczXX0=
 -->
