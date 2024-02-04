@@ -164,7 +164,11 @@
 		- 8k token context window (using RoPE)
 		- Strong performance on several benchmarks 
 		- API (and local support coming soon)
-	- そしてlong xontext
+	- そしてlong contexのRAGをつくるには、
+		- nomic_ai:new 8k context window embeddings
+		- trychroma:vectorstore　MistralAI-instruct 32k context window via  ollama
+- Apple presents Can Large Language Models Understand Context
+	- 
 
 
 ## 1/29
@@ -4046,10 +4050,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- LLMの信頼性に関するサーベイ論文
 	- 用語や概念を整理し，実際に8つの観点からLLMの信頼性を検証
 	- https://arxiv.org/abs/2308.05374
-	- reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness.
-	- 目的は：reliable and ethically sound deployment of LLMs in various applic
+	- reliab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Nzc4MzEyNSwtMTk2MTQ3MDM0NCw0MD
+eyJoaXN0b3J5IjpbLTg3MjQ4NjY5MiwtMTk2MTQ3MDM0NCw0MD
 E2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgy
 MjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMT
 g1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0
