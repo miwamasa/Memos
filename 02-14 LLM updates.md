@@ -81,9 +81,11 @@
 - CodeLlama-70BをPostgreSQLの生成に特化させたバージョン、SQLCoder-70B
 	- https://huggingface.co/defog/sqlcoder-70b-alpha
 	- 性能評価もGPT-4に10ポイント以上差をつける圧倒的な勝利で、特化型のコード生成LLMの台頭を予感させるようなポテンシャルを秘めている
-- LLaVA-1.6のリリース
+- LLaVA-1.6のリリース、Gemini Pro越え？
 	- https://x.com/imhaotian/status/1752621754273472927?s=20
+	- https://llava-vl.github.io/blog/2024-01-30-llava-1-6/
 	- improved reasoning, OCR, and world knowledge. It supports higher-res inputs, more tasks, and exceeds Gemini Pro on several benchmarks!
+	- LLaVA-1.6、普通に画像中の吹き出しを日本語で喋っているとか認識できて、Gemini Pro超えは伊達ではないなとなる
 - 700億パラメーターLLM「KARAKURI LM」を一般公開
 	- https://karakuri.ai/seminar/news/karakuri-lm/
 	- GPT-4を評価者とするベンチマーク(MT-Bench-jp)で、国産LLMとしては1位の性能を達成しました
@@ -92,7 +94,12 @@
 	- https://zenn.dev/neoai/articles/e75b6f033a4fd9
 - 普通の人が資産運用で99点を取る方法
 	- https://hayatoito.github.io/2020/investing/
-	- 
+		- 1.  確定拠出年金 (iDeCo または 企業型 DC）を始めます。
+		- 2.  新 NISA でつみたての設定をします。
+		- 3.  さらに余裕がある方は、特定口座でつみたての設定をします。
+		- 4.  資産運用を始めた直後や、まとまった資金を一時的に入手したときなど、十分な余剰資金（現金）をもっているのであれば、自分のリスク許容度の範囲内で、適切な割合の資産を  _一括_  で投資します。詳しくは後述の「アセットアロケーション」を参照してください。
+		- 5.  定期的に（年に 1 回、あるいは数年に 1 回）、アセットアロケーションについて見直しましょう。
+- 
 
 ## 1/29
 
@@ -4038,15 +4045,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - GPTQの元論文はこちら、
 	- https://arxiv.org/pdf/2210.17323.pdf
 	- GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED TRANSFORMERS
-- ストックマークは最近の話題にも詳しいGPT-NeoXをベースとした14億パラメータの日本語のLLMをOSS公開
-	- https://stockmark.co.jp/news/20230808
-- HuggingFacesとNVIDIAが提携、企業向けのサービスを展開？
-	- https://www.nvidia.com/ja-jp/about-nvidia/press-releases/2023/nvidia-and-hugging-face-to-connect-millions-of-developers-to-generative-ai-supercomputing/
-	- HuggingFaceにあるAIモデルのトレーニングとか微調整ができる企業向けのサービスで、GPUとしてNVidiaのクラウドGPUが選べるようになるらしい。
-- 悲報？：産総研、LLMのセミナー「シミュレーションとAIの融合技術とその最新事例」、すぐに定員いっぱいになる
-	- https://www.air
+- ストックマークは最近の話題にも詳し
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTA4ODI5MzIsNDAxNjM4ODgxLDI0Mz
+eyJoaXN0b3J5IjpbLTE3NzE5MzE4NzIsNDAxNjM4ODgxLDI0Mz
 YxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcy
 NCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsND
 gzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUx
