@@ -70,7 +70,12 @@
 	- https://x.com/AiXsatoshi/status/1752509354849546417?s=20
 	- 標準のMixtral8x7Bでは、応答に多言語間を行き来するswitchingが発生しますが、改善しています
 	- 汎用性能が落ちている可能性あるので、もう少し検証します
-- 
+- 学習済みの LLM を束ねて Mixture of Experts を作るテク
+	- https://zenn.dev/zaburo_ch/articles/88e35e5c80f974
+	- Phixtralの話の紹介
+	- 「Phi-2 ベースのモデルをいくつか使って Mixture of Experts (MoE) を作ったら単体よりも良い性能が達成できました」
+	- **Few-shot で Gating のパラメータを決める手法**が使われていて面白かった
+	- 
 
 ## 1/29
 
@@ -4043,15 +4048,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://www.jpo.go.jp/news/koho/kohoshi/vol57/07_page1.html
 	- 拒絶を避けるべく、特許出願する前にはこち亀を全巻読破する必要があるのか、、、
 	- 審査官の趣味という気もするが、、
--  ChatGPTの新機能カスタム指示の面白い使い方
-	- https://note.com/it_navi/n/nca4643390969
-	- カスタム指示は、ChatGPTの**役割、回答方針、出力形式など**を予め設定することができます。
-- LLMは世界を理解しているか？by Andrew Ng
-	- https://www.deeplearning.ai/the-batch/issue-209/
-	- Othelo-GPTの例から、答えは YESらしい。
-- 生成AIの文章やコード、論文が“事
+-  ChatGPTの新機能カスタム
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTQxNjM3NSw0MDE2Mzg4ODEsMjQzNj
+eyJoaXN0b3J5IjpbMTYyNjM0OTQ2Niw0MDE2Mzg4ODEsMjQzNj
 E5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0
 LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
 M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
