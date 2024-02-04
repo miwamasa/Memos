@@ -238,6 +238,8 @@
 - Meta、AIに大きく舵を切ると公表し、株価２０％アップ？
 	- AI at Meta: 350k H100s by the end of the year, open source AI software infrastructure, new data centers with custom chips for AI inference serving hundreds of millions of users of AI tools.
 	- https://x.com/ylecun/status/1753431180861419947?s=20
+-  Llama.cpp で Karakuri LM を試す by npakaさん
+	- 
 
 
 ## 1/29
@@ -4045,13 +4047,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	-  We Must Pass the Create AI Act
 	- https://hai.stanford.edu/news/we-must-pass-create-ai-act?utm_source=twitter&utm_medium=social&utm_content=Stanford%20HAI_twitter_StanfordHAI_202308220803_sf181078680&utm_campaign=&sf181078680=1
 - Open AI でスーパーアライメントを4年以内に完了させることを目標として率いているJan Leike氏の対談
-	- https://80000hours.org/podcast/episodes/jan-leike-superalignme
+	- https://80000hou
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAwOTA2NDQsLTIzOTc2NjIzMSwtMT
-k0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3
-OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMT
-A2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAz
-ODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LD
-E5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgw
-NDA2MDJdfQ==
+eyJoaXN0b3J5IjpbLTQ1MDQzOTU4NiwtMjM5NzY2MjMxLC0xOT
+Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
+OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
+Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
+MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMT
+kxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0
+MDYwMl19
 -->
