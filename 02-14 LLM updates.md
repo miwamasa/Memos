@@ -134,6 +134,9 @@
 - Memphis-CoT 3B
 	- https://huggingface.co/euclaise/Memphis-CoT-3B
 	- A small reasoning-focused model using a novel iterative contrastive finetuning procedure, trained on only human data, outperforming much larger human data models and similarly sized SFT models.
+-  RankMe: Assessing the downstream performance of pretrained self-supervised representations by their rank
+	- ICLR24 Spotlight: To train general-purpose SSL models, it's important to measure the quality of representations during training. But how can we do this w/o downstream labels? 
+	- We propose a new label-free metric to eval SSL models, called Linear Discrimination Analysis Rank(LiDAR)
 - 
 
 
@@ -4046,22 +4049,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- 起業の地に日本を選んだ理由として、米国で生成AIの人材獲得競争が過熱している点をあげた。
 -  TRL - 強化学習によるLLMの学習のためのライブラリ
 	- TRL - Transformer Reinforcement Learning
-	- https://note.com/npaka/n/nbb974324d6e1
-	- 強化学習を使用してTransformer言語モデルを学習できます。このライブラリはHuggingFace Transformersと統合されています。
--  DPO による Llama 2 のファインチューニング(npaka)
-	- https://note.com/npaka/n/nfe7391a1d28d
-	- 「Direct Preference Optimization」では、既存の手法で使用されているRLベースの目標を、単純なバイナリクロスエントロピー損失を介して直接最適化できる目標に切り替える
-	- LMを改良するこのプロセスが大幅に簡素化
-
-
-## 8/14
-お盆ですが、膨大にならないうちに更新します。ところで、「大規模言語モデル入門」(技術評論社ISBN 978-4-297-13633-8）いいですね、Huggingfac
+	- https://note.com/npak
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczMjgxNjE3LC0xOTYxNDcwMzQ0LDQwMT
-YzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIy
-NCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxOD
-U0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4
-Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNT
-g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
-ODldfQ==
+eyJoaXN0b3J5IjpbLTEzOTM2NjgzMzQsLTE5NjE0NzAzNDQsND
+AxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4
+MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LD
+E4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMx
+NDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC
+01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4
+Nzc4OV19
 -->
