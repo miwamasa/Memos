@@ -197,7 +197,9 @@
 - リコーがLlama-2-13Bをベースに高性能な日本語モデルRicor-13Bを開発
 	- https://x.com/umiyuki_ai/status/1753312415503245762?s=20
 	- ただしオープンにはしない。顧客企業の業種に合わせてカスタム（微調整なのか？RAGなのか？）してクラウドで提供するB2Bビジネスを開始
-- 国会図書館は国内のウェブサイトのアーカイブ事業をやってたけど、このアーカイブデータの数十億件のURLを国立情報学研究所に提供するんだって。国立情報学研究所はこのデータからコーパス作ってLLM構築に使うん
+- 2024年1月30日 国立情報学研究所における大規模言語モデル構築への協力について
+	- https://www.ndl.go.jp/jp/news/fy2023/240130_01.html
+	- 国会図書館は国内のウェブサイトのアーカイブ事業をやってたけど、このアーカイブデータの数十億件のURLを国立情報学研究所に提供するんだって。国立情報学研究所はこのデータからコーパス作ってLLM構築に使うん
 	- https://x.com/umiyuki_ai/status/1753651801688273040?s=20
 -  KARAKURI LMの解説
 	- https://medium.com/karakuri/karakuri-lm%E3%81%AE%E8%A7%A3%E8%AA%AC-4b6cf9c3d40f
@@ -214,7 +216,8 @@
 	- https://blog.research.google/2024/02/a-decoder-only-foundation-model-for.html
 	- TimesFM is a forecasting model, pre-trained on a large time-series corpus of 100 billion real world time-points, that displays impressive zero-shot performance on a variety of public benchmarks from different domains and granularities.
 	- 基盤モデルで時系列予測？？googleがもつ大量の時系列データを特にかく学習？？
-- 
+- Ollama vision
+	- 
 
 
 ## 1/29
@@ -4050,11 +4053,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- 量子化は「GPTQ」ではなくて、CPU＋GPUで実行できる「GGUF(旧GGML)」
 	- 標準GPU（Tesla T4）で動くのがみそ
 - Weblab-10Bを量子化(GPTQ)して簡単に動かすことがhugging faceでできる
-	- transformersにGPTQが統合されたおかげで、無料Colabでそのままでは動かなかったWeblab-10Bもらくらく動くようになってた。
-	- dahara1/weblab-10b-instruction-sft-GPTQ
-	- https://github.com/webbigdata-jp/
+	- transformersにGPTQが統合されたおかげで、無料Colabで
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDA1MjUwNCwtMjM5NzY2MjMxLC0xOT
+eyJoaXN0b3J5IjpbMTkwMzMzMzM4NCwtMjM5NzY2MjMxLC0xOT
 Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
 OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
 Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
