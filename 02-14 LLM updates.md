@@ -173,6 +173,8 @@
 -  Grounded language acquisition through the eyes and ears of a single child
 	- https://www.science.org/doi/10.1126/science.adi1374
 	- 大規模言語モデルほど大量のデータを食わなくても子供は言語を獲得する。それをニューラルネットで再現できるか確認するため、赤ちゃん１人の頭に生後 6〜25 ヶ月の間に録画用ビデオを延べ 61 時間装着して音声･映像データを取得、マルチモーダル学習を成功させたとする報告
+- karakuri-lm-70b-chat-v0.1-gguf の q5_K_S を ローカルで試す。とても優秀。 Llama.cppで5.82 token/s (M3 Max)
+	- https://x.com/npaka123/status/1753336604759118014?s=20
 
 ## 1/29
 
@@ -4040,14 +4042,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- GPT-4 can understand ciphertext, which introduces the risk of generating unsafe content.
 - CSVにたいするQ&Aエージェントのベンチマーク
 	- https://github.com/langchain-ai/langchain-benchmarks/tree/main/csv-qa
--  Knowledge Graph RAG Query Engine (RAG: Retrieval-Augmented Generation)
-	- https://gpt-index.readthedocs.io/en/latest/examples/query_engine/knowledge_graph_rag_query_engine
+-  Knowledge Graph RAG Qu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMT
-YzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIy
-NCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxOD
-U0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4
-Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNT
-g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
-ODldfQ==
+eyJoaXN0b3J5IjpbMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5Nj
+E0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5
+LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOT
+cxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4
+MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNj
+kxNzE4MTczLC01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3
+NTkxXX0=
 -->
