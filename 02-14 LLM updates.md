@@ -85,6 +85,10 @@
 	- https://x.com/imhaotian/status/1752621754273472927?s=20
 	- improved reasoning, OCR, and world knowledge. It supports higher-res inputs, more tasks, and exceeds Gemini Pro on several benchmarks!
 - 700億パラメーターLLM「KARAKURI LM」を一般公開
+	- https://karakuri.ai/seminar/news/karakuri-lm/
+	- GPT-4を評価者とするベンチマーク(MT-Bench-jp)で、国産LLMとしては1位の性能を達成しました
+	- https://lm.karakuri.cc/ でお試し
+	- 
 
 ## 1/29
 
@@ -4038,15 +4042,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - 悲報？：産総研、LLMのセミナー「シミュレーションとAIの融合技術とその最新事例」、すぐに定員いっぱいになる
 	- https://www.airc.aist.go.jp/seminar_detail/seminar_069.html
 - Stability.ai、 日本語言語モデル「Japanese StableLM Alpha」をリリース(8/10)
-	- https://ja.stability.ai/blog/japanese-stablelm-alpha
-- 早速Japanese Stable LLMを、Colab無料環境から利用するnotebookが公開
-	- https://colab.research.google.com/github/mkshing/notebooks/blob/main/sta
+	- https://ja.stability.ai/blog/japanese
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTIyODM3MSw0MDE2Mzg4ODEsMjQzNj
-E5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0
-LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
-M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
-LC0xODg4MDQwNjAyLDE2OTE3MTgxNzMsLTU4OTUyMTAzNywxOT
-U2MTI5MTAyLDE2OTc0NTc1OTEsNTgxMzg3Nzg5LC05NzU1Njgy
-MjNdfQ==
+eyJoaXN0b3J5IjpbMTkyNzk3OTY0LDQwMTYzODg4MSwyNDM2MT
+kyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQs
+LTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4Mz
+Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
+LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
+YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
+M119
 -->
