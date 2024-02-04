@@ -206,6 +206,8 @@
 	- KARAKURI LM Chatは、KARAKURI LMをファインチューニングしたモデルです
 	- 公開されている会話データセットと独自で開発した非公開の会話データセットを混ぜて学習させています。
 - 「ポスト５Ｇ情報通信システム基盤強化研究開発事業／ポスト５Ｇ情報通信システムの開発」
+	- NEDOが国内の生成AIの基盤モデル開発のために実施し
+	- ABEJA、Sakana AI、NII、ストックマーク、Turing、東京大学、Preferred Elements
 	- 
 
 
@@ -4057,9 +4059,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://www.youtube.com/watch?v=rlCe_lG4uhk
 
 ## 8/21
-暑くて溶けそうなのに、電力はどうにかもっている夏です。松尾研からの国産LLMである“Weblab-10B”の発表。なお、松尾研には夏休み中の総理も訪問され講座を受講（なにか修了証書をもらってたな）、もっ
+暑くて溶けそうな
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzODg2MDk2LC0xOTQ5NTY5NTUxLC01Mj
+eyJoaXN0b3J5IjpbNDM5NTM5ODAxLC0xOTQ5NTY5NTUxLC01Mj
 U0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAz
 NDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOT
 ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
