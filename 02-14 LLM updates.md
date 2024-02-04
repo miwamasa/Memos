@@ -3,7 +3,7 @@
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchえ突然上位に登場。Phixtralの論文で紹介さえたMoEの実装、本家とは違うみたいだがいろいろあるものだ。ICRA2024での採択論文・技術の話題もちらほら。国産LLMでは、700億パラメーターLLM「KARAKURI LM」が登場、Llama 2を日本語データセットで事前学習、ファインチューニングしたらしいがやたら性能が高いと話題に。gguf版や、MLXをつかってM2 Macでの動作確認等が行われ、これは基礎能力が高そう。小さき言語モデルも、Allen.AIのOLMoや、Kaggle関連のH2O-Danube-1.8Bなどが登場。RAGかんけいだと、またファインチューニングとの比較論文、どうもまだＲＡＧのほうが利がある。クエリ変換
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchえ突然上位に登場。Phixtralの論文で紹介さえたMoEの実装、本家とは違うみたいだがいろいろあるものだ。ICRA2024での採択論文・技術の話題もちらほら。国産LLMでは、700億パラメーターLLM「KARAKURI LM」が登場、Llama 2を日本語データセットで事前学習、ファインチューニングしたらしいがやたら性能が高いと話題に。gguf版や、MLXをつかってM2 Macでの動作確認等が行われ、これは基礎能力が高そう。小さき言語モデルも、Allen.AIのOLMoや、Kaggle関連のH2O-Danube-1.8Bなどが登場。RAGかんけいだと、またファインチューニングとの比較論文、どうもまだＲＡＧのほうが利がある。クエリ変換ってのも重要な技術。赤ちゃんの頭にビデオを装着して得られた画像から、ＬＬＭをつくるという途方もない研究も。
 
 
 Gemini Ultra 
@@ -4042,14 +4042,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - LlamaIndex + Metaphor: Towards Automating Knowledge Work with LLMs
 	- https://medium.com/llamaindex-blog/llamaindex-metaphor-towards-automating-knowledge-work-with-llms-5520a32efa2f
 	- Metaphor was trained to predict links on the internet, given how people talk about things on the Internet
-	- インターネット検索とllamaindexの融合？結合の新たな形としてのメタファー？
-- 【ローカルLLM】Gradio
+	- インターネッ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Mzc2NDc0NiwzMDk2NTI2MCwtMjM5Nz
-Y2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3
-MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0Mz
-YxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcy
-NCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsND
-gzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUx
-NF19
+eyJoaXN0b3J5IjpbLTEwNDQyOTY5NzEsMzA5NjUyNjAsLTIzOT
+c2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3
+NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyND
+M2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3
+MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLD
+Q4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1
+MTRdfQ==
 -->
