@@ -185,6 +185,8 @@
 		- AI動画化→runway,pika 
 		- 画像修正→photoshop と書かれていたはずなので（アニメ部はクリスタかも？） 
 	- 基本的にKALINさんはローカルSDを個人で動かすという作業は行っていなかったのだろうと推測。
+	- 例のAIアニメのChatGPTのログをざっと眺めたが、完全にGPT-3.5のキャパシティを超えているレベルで使い込んでいて割と絶句した
+		- https://chat.openai.com/share/a6f6052e-a22c-49aa-8847-9c7f12b011e0
 -  A Prompt-Engineered Large Language Model, Deep Learning Workflow for Materials Classification
 	- https://arxiv.org/abs/2401.17788
 	- 言語モデルによる材料分類の論文
@@ -195,9 +197,11 @@
 - リコーがLlama-2-13Bをベースに高性能な日本語モデルRicor-13Bを開発
 	- https://x.com/umiyuki_ai/status/1753312415503245762?s=20
 	- ただしオープンにはしない。顧客企業の業種に合わせてカスタム（微調整なのか？RAGなのか？）してクラウドで提供するB2Bビジネスを開始
-- 。
-	- https://chat.openai.com/share/a6f6052e-a22c-49aa-8847-9c7f12b011e0
-- 
+- 国会図書館は国内のウェブサイトのアーカイブ事業をやってたけど、このアーカイブデータの数十億件のURLを国立情報学研究所に提供するんだって。国立情報学研究所はこのデータからコーパス作ってLLM構築に使うん
+	- https://x.com/umiyuki_ai/status/1753651801688273040?s=20
+-  KARAKURI LMの解説
+	- https://medium.com/karakuri/karakuri-lm%E3%81%AE%E8%A7%A3%E8%AA%AC-4b6cf9c3d40f
+	- 
 
 ## 1/29
 
@@ -4047,9 +4051,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://www.youtube.com/watch?v=rlCe_lG4uhk
 
 ## 8/21
-暑くて溶けそうなのに、電力はどうにかもっている夏です。松尾研からの国産LLMである“Weblab-10B”の発表。なお、松尾研には夏休み中の総理も訪問され講座を受講（なにか修了証書をもらってたな）、もっと国としてのサポートが期待できるかも。GPT-4は、暗号化されたプロンプトも理解できるぐらい優れているらしいが、特定の「脱獄プロンプト」に弱い面も。Trustworthy LLM、LLMの信頼性などの研究も進む、社会規範への整合とかそういう側面もある。スタンフォード大学のLLMの安全性のベンチマークとの比較も気になる。あいもかわらず知識グラフ系のLLM応用がちらほら、知識グラフ抽出や知識グラフをつかったRAG(Retrieval-Augmented Generation)などもあるが、知識の活用かそれともファインチューニングか？みたいな第２世代(エキスパートシステム）と第３世代（データがすべて）のAIの対比みたいな絵面だなあ。MRIスペクトルから分子を予想みたいな素朴な応用がもっとあっていい気もする。TRL(Transformer Reinforcement Learning)は、強化学習を用いたLLMの最適化を簡単にできるようになるらしい、DPO(Direct Preference Optimization)なんか斬新じゃん。元Googleトップ研究者による「Sakana AI」にはびっくり、めざす「自然からインスピレーションを得たインテ
+暑くて溶けそうなのに、電力はどうにかもっている夏です。松尾研からの国産LLMである“Weblab-10B”の発表。なお、松尾研には夏休み中の総理も訪問され講座を受講（なにか修了証書をもらってたな）、もっと国としてのサポートが期待できるかも。GPT-4は、暗号化されたプロンプトも理解できるぐらい優れているらしいが、特定の「脱獄プロンプト」に弱い面も。Trustworthy LLM、LLMの信頼性などの研究も進む、社会規範への整合とかそういう側面もある。スタンフォード大学のLLMの安全性のベンチマークとの比較も気になる。あいもかわらず知識グラフ系のLLM応用がちらほら、知識グラフ抽出や知識グラフをつかったRAG(Retrieval-Augmented Generation)などもあるが、知識の活用かそれともファインチュー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg0MTk2NzksLTE5NDk1Njk1NTEsLT
+eyJoaXN0b3J5IjpbLTEzMzIyMDY3MTgsLTE5NDk1Njk1NTEsLT
 UyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3
 MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLT
 E5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzEx
