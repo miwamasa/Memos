@@ -113,6 +113,7 @@
 	- https://x.com/AndrewCurran_/status/1752463084550262805?s=20
 	- Figurは、人型ロボットを開発するスタートアップ
 -  ReGAL: Refactoring Programs to Discover Generalizable Abstractions
+	- 
 
 
 ## 1/29
@@ -4044,9 +4045,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - text-generation-webui で TheBloke/vicuna-13B-v1.5-GPTQが動く
 	- https://twitter.com/smorce1/status/1688250856129646592?s=20
 - llama2をつかって、ローカルにQ&Aを実行する手法について via llamaindex
-	- https://gpt-index.readthedocs.io/en/latest/examples/vector_stores/SimpleIndexDemoLlama-
+	- https://gpt-index.readthedocs.io/en/latest/examples/vector_stores/SimpleIndexDemoLla
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzMzk2MDk0LDQwMTYzODg4MSwyNDM2MT
+eyJoaXN0b3J5IjpbOTcyODg1NDcyLDQwMTYzODg4MSwyNDM2MT
 kyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQs
 LTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4Mz
 Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
