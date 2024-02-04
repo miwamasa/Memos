@@ -3,7 +3,7 @@
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchえ突然上位に登場。Phixtralの論文で紹介さえたMoEの実装、本家とは違うみたいだがいろいろあるものだ。ICRA2024での採択論文・技術の話題もちらほら。国産LLMでは、700億パラメーターLLM「KARAKURI LM」が登場、Llama 2を日本語データセットで
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchえ突然上位に登場。Phixtralの論文で紹介さえたMoEの実装、本家とは違うみたいだがいろいろあるものだ。ICRA2024での採択論文・技術の話題もちらほら。国産LLMでは、700億パラメーターLLM「KARAKURI LM」が登場、Llama 2を日本語データセットで事前学習、ファインチューニングしたらしいがやたら性能が高いと話題に。gguf版や、MLXをつかってM2 Macでの動作確認等が行われ、これは基礎能力が高そう。
 
 
 Gemini Ultra 
@@ -4045,14 +4045,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- インターネット検索とllamaindexの融合？結合の新たな形としてのメタファー？
 - 【ローカルLLM】Gradio+CTranslate2で日本語LLMのチャットUIをつくる
 	- https://note.com/bakushu/n/nba6e9c353ee4
-	- [line-corp-japanese-large-lm-3.6b](https://huggingface.co/line-corporation/japanese-large-lm-3.6b-instruction-sft)を利用
-	- CTranslate2で
+	- [line-corp-japanese-large-lm-3.6b](https://huggingface
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2NTA2MTkzLDMwOTY1MjYwLC0yMzk3Nj
-YyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcy
-LDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNj
-E5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0
-LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0OD
-M0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0
-XX0=
+eyJoaXN0b3J5IjpbMjA4MjEyODczMSwzMDk2NTI2MCwtMjM5Nz
+Y2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3
+MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0Mz
+YxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcy
+NCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsND
+gzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUx
+NF19
 -->
