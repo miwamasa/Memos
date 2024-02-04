@@ -3,10 +3,10 @@
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、まるち
+
 
 Gemini Ultra 
-
 
 - google/siglip-base-patch16-256-multilingual を使って、ローカルの画像を日本語で検索してみる
 	- https://note.com/eurekachan/n/n9d4f62b80ad6?sub_rt=share_pb
@@ -4051,14 +4051,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - Generally Intelligence社、米国商務省国家電気通信情報庁（NTIA）が実施したAI規制に関するパブリックコメントの約1450件の回答の分析を開始。
 	- https://generallyintelligent.com/perspectives/ntia-rfc-analysis/
 	- https://twitter.com/kanjun/status/1693819078866354376?s=20
-- llamaindexのMetaphorサーチのお試しができるらしい。
-	- https://twitter.com/jerryjliu0/status/169377376679
+- llamaindexのMetaphorサーチのお試しがで
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDQ2ODg5NywtMjM5NzY2MjMxLC0xOT
-Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
-OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
-Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
-MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMT
-kxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0
-MDYwMl19
+eyJoaXN0b3J5IjpbLTEwMzE4MjkyMjIsLTIzOTc2NjIzMSwtMT
+k0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3
+OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMT
+A2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAz
+ODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LD
+E5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgw
+NDA2MDJdfQ==
 -->
