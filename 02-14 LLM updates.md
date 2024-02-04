@@ -139,9 +139,11 @@
 	- We propose a new label-free metric to eval SSL models, called Linear Discrimination Analysis Rank(LiDAR)
 -  [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/abs/2305.15717v1)
 	- 言語モデルの「模倣」は有用か？
+	- https://ai-scholar.tech/articles/chatgpt/Imitating-Proprietary-LLMs
 	- 最新研究によれば、新しく開発された言語モデルの模倣は非常に難しいことが示唆されています。微調整による改善が有効でなく、モデルの基本的な知識はあまり変わらないことが発見されました。  
-✔️中小企業や大企業が同じ利点を得ることが難しくなり、特に新しいデータやアルゴリズムを活かして能力差を生かす企業が競争上の優位性を築ける可能性があります。  
-✔️ 新しい手法やデータの導入が重要であり、技術的な制約にも留意することが持続的な発展に寄与するでしょう。
+	- 中小企業や大企業が同じ利点を得ることが難しくなり、特に新しいデータやアルゴリズムを活かして能力差を生かす企業が競争上の優位性を築ける可能性があります。
+	- 新しい手法やデータの導入が重要であり、技術的な制約にも留意することが持続的な発展に寄与するでしょう。
+- 
 
 
 ## 1/29
@@ -4044,15 +4046,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - LLMをつかった文書検索では、メタデータを入れることで性能が改善する
 	-  Building Production-Ready LLM Apps with LlamaIndex: Document Metadata for Higher Accuracy Retrieval
 	- https://betterprogramming.pub/building-production-ready-llm-apps-with-llamaindex-document-metadata-for-higher-accuracy-retrieval-a8ceca641fb5
-- GoogleのトップAI研究者2人が東京でAI企業立ち上げを発表
-	- 「自然からインスピレーションを得たインテリジェンスに基づいた新しいタイプの基礎モデルを開発する」
-	- ジョーンズ氏
+- GoogleのトップAI研究者2人が東京でA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDU4Nzg0LC0xOTYxNDcwMzQ0LDQwMT
-YzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIy
-NCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxOD
-U0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4
-Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNT
-g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
-ODldfQ==
+eyJoaXN0b3J5IjpbMjMxMjMyMTksLTE5NjE0NzAzNDQsNDAxNj
+M4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0
+LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LDE4NT
+Q2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgz
+LDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC01OD
+k1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4Nzc4
+OV19
 -->
