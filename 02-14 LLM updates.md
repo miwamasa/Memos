@@ -216,7 +216,8 @@
 	- https://blog.research.google/2024/02/a-decoder-only-foundation-model-for.html
 	- TimesFM is a forecasting model, pre-trained on a large time-series corpus of 100 billion real world time-points, that displays impressive zero-shot performance on a variety of public benchmarks from different domains and granularities.
 	- 基盤モデルで時系列予測？？googleがもつ大量の時系列データを特にかく学習？？
-- Ollama vision
+	- あらゆる時系列データをDecoder-onlyのモデルにぶっ込んで時系列予測の基盤モデル作る話
+- Ollama vision is here
 	- https://x.com/ollama/status/1753530905069748506?s=20
 - GoogleとOpenAIは「後出しジャンケンしたもん勝ち」を狙って膠着状態？
 	- https://x.com/ImAI_Eruel/status/1753389879965429892?s=20
@@ -239,7 +240,8 @@
 	- AI at Meta: 350k H100s by the end of the year, open source AI software infrastructure, new data centers with custom chips for AI inference serving hundreds of millions of users of AI tools.
 	- https://x.com/ylecun/status/1753431180861419947?s=20
 -  Llama.cpp で Karakuri LM を試す by npakaさん
-	- 
+	- https://note.com/npaka/n/n582c88a157e2?sub_rt=share_h
+- 
 
 
 ## 1/29
@@ -4045,15 +4047,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://colab.research.google.com/drive/1PTnJTVmLAI-V8JJu8GsbUvbk8vs203kA?usp=sharing
 - Stanford大学のHAIから、Create AI Actを連邦政府が法案をとおすべきである、米国のため
 	-  We Must Pass the Create AI Act
-	- https://hai.stanford.edu/news/we-must-pass-create-ai-act?utm_source=twitter&utm_medium=social&utm_content=Stanford%20HAI_twitter_StanfordHAI_202308220803_sf181078680&utm_campaign=&sf181078680=1
-- Open AI でスーパーアライメントを4年以内に完了させることを目標として率いているJan Leike氏の対談
-	- https://80000hou
+	- https://hai.stanford.edu/news/we-must-pass-create-ai-act?utm_source=twitter&utm_medium=social&utm_content=Stanford%20HAI_twitter_StanfordHAI_202308220803_sf1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDQzOTU4NiwtMjM5NzY2MjMxLC0xOT
-Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
-OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
-Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
-MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMT
-kxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0
-MDYwMl19
+eyJoaXN0b3J5IjpbLTE2NTM5MDMwNjAsLTIzOTc2NjIzMSwtMT
+k0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3
+OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMT
+A2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAz
+ODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LD
+E5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgw
+NDA2MDJdfQ==
 -->
