@@ -147,7 +147,12 @@
 	- https://allenai.org/olmo/olmo-paper.pdf
 	- AllenAIによるOpen Language Model (OLMo), a 7B parameter model.
 	- There is also a smaller version of it, OLMo 1B.
-	- 
+- ブラウザでRubyを動かす夢
+	- https://mametter.hatenablog.com/entry/2024/02/01/105413
+	- 元同僚の遠藤さん、頑張ってるな、みんな使ってあげて！
+- SEMSCORE: Automated Evaluation of Instruction-Tuned LLMs based on Semantic Textual Similarity
+	- https://arxiv.org/pdf/2401.17072.pdf
+	- これでJapanese MT-benchやElyza-tasksが毎回GPT-4を使わずに評価できるようになれば割と安価で日本語LLM leaderboardが作れそう
 
 
 ## 1/29
@@ -4042,19 +4047,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - 松尾研究室100億パラメータサイズ・日英2ヶ国語対応の大規模言語モデル“Weblab-10B”をオープンソースで公開
 	- https://weblab.t.u-tokyo.ac.jp/100%E5%84%84%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%BA%E3%83%BB%E6%97%A5%E8%8B%B12%E3%83%B6%E5%9B%BD%E8%AA%9E%E5%AF%BE%E5%BF%9C%E3%81%AE%E5%A4%A7%E8%A6%8F%E6%A8%A1/
 	- https://huggingface.co/matsuo-lab/weblab-10b
-	- 日本語のベンチマークであるJGLUE評価値が事前学習時と比べて大幅に改善（66→78%
-	- 早速オープンソース警察が、商用に使えないのにオープンソースとは言わないとの突っ込みが。。
-- 岸田首相、東京大で生成AIの講座受ける　「百聞は一見にしかず」
-	- https://www.asahi.com/articles/ASR8G6X84R8GUTFK002.html
-	- 松尾豊・東大大学院教授の講座を受けた。AIを学習させるプログラミングも体験し、受講
-- LLMをつかった文書検索では、メタデータを入れることで性能が改善する
-	-  Building Production-Ready LLM Apps with LlamaIndex: Document Meta
+	- 日本語のベンチマーク
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDg0MjM3LC0xOTYxNDcwMzQ0LDQwMT
-YzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIy
-NCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxOD
-U0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4
-Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNT
-g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
-ODldfQ==
+eyJoaXN0b3J5IjpbLTE5ODU4NTc3NjMsLTE5NjE0NzAzNDQsND
+AxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4
+MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LD
+E4NTQ2ODkzMTMsNDgzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMx
+NDgzLDY2ODQ0MzUxNCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC
+01ODk1MjEwMzcsMTk1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4
+Nzc4OV19
 -->
