@@ -3,7 +3,7 @@
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchえ突然上位に登場。Phixtralの論文で紹介さえた、MoEの実装
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変ですが、画像認識機能などGemini Proを手元で試せる。LLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchえ突然上位に登場。Phixtralの論文で紹介さえたMoEの実装、本家とは違うみたいだがいろいろあるものだ。ICLA2024での採択論文・技術の話題もちらほら
 
 
 Gemini Ultra 
@@ -4048,13 +4048,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- [line-corp-japanese-large-lm-3.6b](https://huggingface.co/line-corporation/japanese-large-lm-3.6b-instruction-sft)を利用
 	- CTranslate2で量子化
 	- あとはgradioでWebUI生成！
-- Generally Intelligence社、米国商務省国家電気通信情報庁（NTIA）が実施したAI規制に関するパブリックコメントの約1450件の回
+- Generally Intelligence社、米国商務省
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE4ODgzNTg0LC0yMzk3NjYyMzEsLTE5ND
-k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
-OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNj
-cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
-ODQsLTE5NzExODYwMzQsMTg1NDY4OTMxMyw0ODM0ODk4NywxOT
-E2ODQ0MTgzLC01NDgwMzE0ODMsNjY4NDQzNTE0LC0xODg4MDQw
-NjAyXX0=
+eyJoaXN0b3J5IjpbMzA5NjUyNjAsLTIzOTc2NjIzMSwtMTk0OT
+U2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4
+LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMTA2Nz
+E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
+NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MT
+Y4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgwNDA2
+MDJdfQ==
 -->
