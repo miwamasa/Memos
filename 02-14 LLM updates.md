@@ -66,6 +66,7 @@
 	- どうも、Mixtral 8x7Bの量子化版のリークだったらしい
 -  LangGraphで始めるマルチエージェントシステム
 	- https://speakerdeck.com/peisuke/langgraphdeshi-merumarutiezientosisutemu
+	- Function Callingだけで割とよく動いてるとこあるんだけど、もう少し統合したくてSupervisorが必要そうなフローから試してみようかな
 - Mixtral8x7Bの日本語対応Loraの学習完了しました
 	- https://x.com/AiXsatoshi/status/1752509354849546417?s=20
 	- 標準のMixtral8x7Bでは、応答に多言語間を行き来するswitchingが発生しますが、改善しています
@@ -99,7 +100,7 @@
 		- 3.  さらに余裕がある方は、特定口座でつみたての設定をします。
 		- 4.  資産運用を始めた直後や、まとまった資金を一時的に入手したときなど、十分な余剰資金（現金）をもっているのであれば、自分のリスク許容度の範囲内で、適切な割合の資産を  _一括_  で投資します。詳しくは後述の「アセットアロケーション」を参照してください。
 		- 5.  定期的に（年に 1 回、あるいは数年に 1 回）、アセットアロケーションについて見直しましょう。
-- 
+-  Self-supervised Learning: Generative or Contrastive
 
 ## 1/29
 
@@ -4043,15 +4044,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - llama-2-13bのJGLUE、言語モデルの評価と関係
 	- https://huggingface.co/HachiML/Llama-2-13b-hf-qlora-dolly-ja-2ep/blob/main/benchmark_jglue/JGLUE_Llama-2-13b-hf-qlora-dolly-ja-2ep.ipynb
 - GPTQの元論文はこちら、
-	- https://arxiv.org/pdf/2210.17323.pdf
-	- GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED TRANSFORMERS
-- ストックマークは最近の話題にも詳し
+	- https://a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzE5MzE4NzIsNDAxNjM4ODgxLDI0Mz
-YxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcy
-NCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsND
-gzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUx
-NCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMT
-k1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4
-MjIzXX0=
+eyJoaXN0b3J5IjpbNjIwNTE2MzgwLDQwMTYzODg4MSwyNDM2MT
+kyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQs
+LTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4Mz
+Q4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQs
+LTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNTg5NTIxMDM3LDE5NT
+YxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3ODksLTk3NTU2ODIy
+M119
 -->
