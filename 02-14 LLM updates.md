@@ -240,6 +240,7 @@
 - Meta、AIに大きく舵を切ると公表し、株価２０％アップ？
 	- AI at Meta: 350k H100s by the end of the year, open source AI software infrastructure, new data centers with custom chips for AI inference serving hundreds of millions of users of AI tools.
 	- https://x.com/ylecun/status/1753431180861419947?s=20
+	- https://x.com/AIatMeta/status/1753195225311563848?s=20
 -  Llama.cpp で Karakuri LM を試す by npakaさん
 	- https://note.com/npaka/n/n582c88a157e2?sub_rt=share_h
 - Gemini Ultra 2/7にリリースの可能性。
@@ -4029,14 +4030,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - AIが「理解」するから、API仕様書のコピペでアプリができあがるローコード開発環境「Flowise」
 	- https://internet.watch.impress.co.jp/docs/column/shimizu/1523766.html
 - **[chatux-server-llm](https://github.com/sotokisehiro/chatux-server-llm)**
-	- ローカル環境で動作する文章生成 AI チャットボットです。 CPU だけで動作します。
-	- LINE の japanese-large-lm-3.6b-ins
+	- ローカル環境で動作する文章生成 AI チャットボ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOT
-Y1MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYy
-NCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MD
-E2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgy
-MjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMT
-g1NDY4OTMxMyw0ODM0ODk4NywxOTE2ODQ0MTgzLC01NDgwMzE0
+eyJoaXN0b3J5IjpbMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5ND
+k0OTE2NDUsMzA5NjUyNjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1
+MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOT
+YxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2
+OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMT
+k3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQx
 ODNdfQ==
 -->
