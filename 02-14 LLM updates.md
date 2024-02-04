@@ -3,6 +3,7 @@
 
 ## 2/5
 
+
 - google/siglip-base-patch16-256-multilingual を使って、ローカルの画像を日本語で検索してみる
 	- https://note.com/eurekachan/n/n9d4f62b80ad6?sub_rt=share_pb
 	- 1月に、Googleから、SigLIPという、画像とテキストの両方をベクトルとして扱うことができるモデルのmultilingual版（多言語対応版）が公開されました。transformers 4.37以降で対応しています。日本語も対応しています。
@@ -4034,6 +4035,7 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- 「Direct Preference Optimization」では、既存の手法で使用されているRLベースの目標を、単純なバイナリクロスエントロピー損失を介して直接最適化できる目標に切り替える
 	- LMを改良するこのプロセスが大幅に簡素化
 
+
 ## 8/14
 お盆ですが、膨大にならないうちに更新します。ところで、「大規模言語モデル入門」(技術評論社ISBN 978-4-297-13633-8）いいですね、Huggingfacesをつかって、日本語データセットをつかった、ファインチューニングなど見所が多い。
 さて今週は、先週に引き続き vicuna-v1.5関係の記事が多かったわけですが、stability.aiから日本語のStableLLMがリリースされたがのが大きなニュースでした。LLMベンチマークもColab環境でできるらしい。Metaの公表した生成AIのガイドとか、FacToolなんか、AIの安全性やリスクなんかに対してちゃんと取り組んでいる。日FR本のAI戦略の、開発促進に偏った姿勢とは一線を画している（つまり余裕がないということ）。FacToolによる分析の結果、GPT-4はやっぱりすごいんだな。Llmaindexのllmがgpt-3.5-turboにやっと変更されたらしい、そんなに使いにくかったのか。。LLMをプロダクションで使うための色々なTipsが公表されてたり、一方Andrew Ngさんは、LLMが世界を理解しているというブログを開陳。LLM時代の医療へのAI利用のベネフィットとリスクについてのランサー記事とか、数学者Terence Taoさんの、LLMをつかったAIが数学論文の共著者になりうるという興味深い予測も。産総研のAIセミナー、あっという間に満杯に。興味だけは大きいのに、手が動かない人が多すぎないか。。まあ、LLMでいくら頑張てもChatGPTでよくない？みたいな意見もある。様々な面で、日本はLLM開発で遅れてきていて、もはや以前のような横綱相撲をするような感じではないのに政府はそうは言えないのか、しかし民間は頑張っている。
@@ -4046,13 +4048,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://ai.meta.com/static-resource/responsible-use-guide/
 - text-generation-webui で TheBloke/vicuna-13B-v1.5-GPTQが動く
 	- https://twitter.com/smorce1/status/1688250856129646592?s=20
-- llama2をつかって、ローカルにQ&Aを実行する手法に
+- llama2をつかって、ローカルにQ&Aを実行す
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0Mz
-YxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcy
-NCwtMzIyMDM4MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsND
-gzNDg5ODcsMTkxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUx
-NCwtMTg4ODA0MDYwMiwxNjkxNzE4MTczLC01ODk1MjEwMzcsMT
-k1NjEyOTEwMiwxNjk3NDU3NTkxLDU4MTM4Nzc4OSwtOTc1NTY4
-MjIzXX0=
+eyJoaXN0b3J5IjpbLTc5NjQ4NjI2LC0xOTYxNDcwMzQ0LDQwMT
+YzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIy
+NCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4NjAzNCwxOD
+U0Njg5MzEzLDQ4MzQ4OTg3LDE5MTY4NDQxODMsLTU0ODAzMTQ4
+Myw2Njg0NDM1MTQsLTE4ODgwNDA2MDIsMTY5MTcxODE3MywtNT
+g5NTIxMDM3LDE5NTYxMjkxMDIsMTY5NzQ1NzU5MSw1ODEzODc3
+ODldfQ==
 -->
