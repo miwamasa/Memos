@@ -3,6 +3,8 @@
 
 ## 2/5
 
+今週も盛りだくさん。まずは、
+
 
 - google/siglip-base-patch16-256-multilingual を使って、ローカルの画像を日本語で検索してみる
 	- https://note.com/eurekachan/n/n9d4f62b80ad6?sub_rt=share_pb
@@ -241,7 +243,12 @@
 	- https://x.com/ylecun/status/1753431180861419947?s=20
 -  Llama.cpp で Karakuri LM を試す by npakaさん
 	- https://note.com/npaka/n/n582c88a157e2?sub_rt=share_h
-- 
+- Gemini Ultra 2/7にリリースの可能性。
+	- https://www.reddit.com/r/Bard/comments/1ahmsnf/advanced/
+	- BardがGeminiという名前に変更
+	- Gemini Ultra 1.0であるGemini Advanced が開放 
+	- マルチモーダル機能等は今後拡張予定 
+	- Geminiがスマホでアシスタントとして使えるようになる。
 
 
 ## 1/29
@@ -4045,15 +4052,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - llamaindexのMetaphorサーチのお試しができるらしい。
 	- https://twitter.com/jerryjliu0/status/1693773766797746649?s=20
 	- https://colab.research.google.com/drive/1PTnJTVmLAI-V8JJu8GsbUvbk8vs203kA?usp=sharing
-- Stanford大学のHAIから、Create AI Actを連邦政府が法案をとおすべきである、米国のため
-	-  We Must Pass the Create AI Act
-	- https://hai.stanford.edu/news/we-must-pass-create-ai-act?utm_source=twitter&utm_medium=social&utm_content=Stanford%20HAI_twitter_StanfordHAI_202308220803_sf1
+- Stanford大学のHAIから、Create AI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTM5MDMwNjAsLTIzOTc2NjIzMSwtMT
-k0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3
-OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMT
-A2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAz
-ODE4NCwtMTk3MTE4NjAzNCwxODU0Njg5MzEzLDQ4MzQ4OTg3LD
-E5MTY4NDQxODMsLTU0ODAzMTQ4Myw2Njg0NDM1MTQsLTE4ODgw
-NDA2MDJdfQ==
+eyJoaXN0b3J5IjpbMTUwNTk4MDQ1NiwtMjM5NzY2MjMxLC0xOT
+Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
+OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
+Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
+MTg0LC0xOTcxMTg2MDM0LDE4NTQ2ODkzMTMsNDgzNDg5ODcsMT
+kxNjg0NDE4MywtNTQ4MDMxNDgzLDY2ODQ0MzUxNCwtMTg4ODA0
+MDYwMl19
 -->
