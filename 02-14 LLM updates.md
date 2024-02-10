@@ -49,7 +49,11 @@
 -  Wikidata from LangChain
 	- https://python.langchain.com/docs/integrations/tools/wikidata
 	- WikiData allows you to easily connect to a free and open knowledge base
-- 
+-  Qwen1.5
+	- https://qwenlm.github.io/blog/qwen1.5/
+	- https://huggingface.co/collections/Qwen/qwen15-65c0a2f577b1ecb76d786524
+	- Qwen1.5 is the improved version of Qwen, the large language model series developed by Alibaba Cloud.
+	- 
 
 ## 2/5
 
@@ -4025,13 +4029,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - Llamaで、出力を指定するためのgrammar-based sampling
 	- https://python.langchain.com/docs/integrations/llms/llamacpp#grammars
 - Google 「Gemini」は、ChatGPT-4 Enterprise プラットフォームの直接の競合相手
-	- https://www.theinformation.com/articles/the-forced-marriage-at-the-heart-of-googles-ai-race
-	- GPT-4 の 2023 倍の計算能力を持つ
-- llamainexでembeddingをファインチューニングする
-	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/embeddings/finetune_embedding.html
--  論文紹介 / Llama 2: Open Foundation and Fine-Tuned 
+	- https://www.theinformation.com/articles/the-forced-marriage-at-the-heart
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjIyMDgxOSw0NjkwMzczNzYsLTEyND
+eyJoaXN0b3J5IjpbLTk1ODQ1NjA2OCw0NjkwMzczNzYsLTEyND
 cwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0
 ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5ND
 k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
