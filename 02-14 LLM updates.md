@@ -59,6 +59,9 @@
 -  Self RAG
 	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/self_rag/self_rag.ipynb
 	- We’re excited to feature Self-RAG, a special RAG technique where an LLM can do self-reflection for dynamic retrieval, critique, and generation
+- The Majority of AI Compute Spend is Not on Training but on Inference
+	- https://x.com/rohanpaul_ai/status/1754843805507887477?s=20
+	- As per report - "2023: The State of Generative AI in the Enterprise"
 - 
 
 ## 2/5
@@ -4022,17 +4025,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- ReActができるようになったのか。。、いろんなindexをもつLLM同士が会話して問題解決。。
 - 【デモ付き】Embeddingsで独自データをChatGPTに理解させる
 	- https://corp.langcore.org/media/embeddings
-	- LangCore SaaSを使ってインフラ不要で手軽にEmbeddingsを活用した独自データの活用、らしい
-
-## 9/4
-
-GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を持つ？。LLMのファインチューニング関係で、様々な紹介がある。llamaindex周りの記事が多いが、それだけRAG(Retrieval-Augmented Generation)って需要があるということか。Embeddingも
+	- LangCore SaaSを使ってイ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ1ODk4OTYsNDY5MDM3Mzc2LC0xMj
-Q3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYy
-NDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOT
-Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
-OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
-Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
-MTg0XX0=
+eyJoaXN0b3J5IjpbLTYxMTE1Nzg0OCw0NjkwMzczNzYsLTEyND
+cwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0
+ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5ND
+k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
+OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNj
+cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
+ODRdfQ==
 -->
