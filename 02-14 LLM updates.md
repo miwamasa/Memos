@@ -44,6 +44,11 @@
 		- (2) adding UNet Patcher System to webui so that many new features can be implemented in about 100 lines of codes
 -  Unifying Large Language Models and Knowledge Graphs: A Roadmap
 	- https://arxiv.org/abs/2306.08302v3
+	- この Knowledge Graph とLLMの関係について纏めた論文すごい。 
+	- Knowledge GraphとLLMが相互成長する仕組みが非常に分かりやすくフレームワーク化して纏められている。 論文というより現状の整理に近い
+-  Wikidata from LangChain
+	- https://python.langchain.com/docs/integrations/tools/wikidata
+	- WikiData allows you to easily connect to a free and open knowledge base
 - 
 
 ## 2/5
@@ -4024,15 +4029,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- GPT-4 の 2023 倍の計算能力を持つ
 - llamainexでembeddingをファインチューニングする
 	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/embeddings/finetune_embedding.html
--  論文紹介 / Llama 2: Open Foundation and Fine-Tuned Chat Models　by NTT西田さん
-	- https://speakerdeck.com/kyoun/llama-2-open-foundation-and-fine-tuned-chat-models
--  ご家庭用LLMでストリーミングする方法
-	- https://note.com/shi3zblog/n/n66ae41af7c64
-	- "elyza/ELYZA-japanese-Llama-2-7b-instruct"　利用
--  LlamaIndexの性能向上のためのテクニックガイド by npaka
-	- https://note.com/npa
+-  論文紹介 / Llama 2: Open Foundation and Fine-Tuned 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTE3NTE0Myw0NjkwMzczNzYsLTEyND
+eyJoaXN0b3J5IjpbMTYzNjIyMDgxOSw0NjkwMzczNzYsLTEyND
 cwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0
 ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5ND
 k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
