@@ -22,7 +22,13 @@
 	- Qwen2としてウワサになってたモデルがQwen1.5としてリリースされた！Mistral-Mediumに匹敵する性能がオープンソースで！今回は最初からTransformerで使える上に、AWQモデル、GPTQモデル、GGUFも全部公式で最初からリリース！vLLMやOllamaもOK！
 -  Large Language Models on Graphs: A Comprehensive Survey
 	- https://arxiv.org/abs/2312.02783
-	- 
+	- We have finalized our 𝐋𝐋𝐌𝐬 𝐨𝐧 𝐆𝐫𝐚𝐩𝐡𝐬 survey by adding more insightful discussions. If you are interested in LLMs on structure data, don't miss this paper (with a resource repo)!
+- Home Credit - Credit Risk Model Stability
+	- https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/
+	- Kaggle新コンペ クレジットカード利用者の外部及び内部データによる長期の貸倒れ予測タスク。久方ぶりの正統派テーブルデータコンペ
+- 
+	- Nvidia presents Audio Flamingo
+	- https://huggingface.co/papers/2402.01831
 
 ## 2/5
 
@@ -4031,19 +4037,9 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 - fine-tuned a gpt-3.5 ReAct agent to be better at chain-of-thought
 	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/react_agent/react_agent_finetune.html
 -  機械学習のための確率過程入門
-	- https://www.ohmsha.co.jp/book/9784274231087/
--  ローカルPCのターミナル上でLLM生成コードを実行できるOpen Interpreterを試す
-	- https://note.com/hamachi_jp/n/n05ae28b76d9d
-	- ChatGPTのコードインタープリター（Advanced Data Analysis）と同様な機能をローカル環境で実行可能な Open Interpreter 
-	- llamaに差し替えることも可能
-- 
-
-## 8/28
-
-先週発表された、松尾研の“Weblab-10B”に対する量子化やローカル環境での実行も花開くが、やっぱり今週はメタによるCode Llamaの発表がポイントになっている。
-「LLM によるプログラムベース推論」的な考え方ってLLMをつかったアプリ作成には絶対必須な考え方になると思う。品質保証では、ガードレールとか、推論過程のガイドが必要だったり、得手不得手をちゃんと理解したうえでガイドするみたいな感じ。emergent機能とはLLMを動かしていて、予測していたのとは違う機
+	- https://www.ohmsha.co.jp/book/97842
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY2NjM2NjMsLTEyNDcwMzkyODQsMj
+eyJoaXN0b3J5IjpbLTE1MjEyMzE1OTAsLTEyNDcwMzkyODQsMj
 Q2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkx
 NjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NTEsLT
 UyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3
