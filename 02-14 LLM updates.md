@@ -53,7 +53,10 @@
 	- https://qwenlm.github.io/blog/qwen1.5/
 	- https://huggingface.co/collections/Qwen/qwen15-65c0a2f577b1ecb76d786524
 	- Qwen1.5 is the improved version of Qwen, the large language model series developed by Alibaba Cloud.
-	- 
+-  Repeat After Me: Transformers are Better than State Space Models at Copying
+	- https://arxiv.org/abs/2402.01032
+	- Our recent work on the comparison between Transformers and State Space Models for sequence modeling now on arxiv! TLDR - we find a key disadvantage of SSMs compared to Transformers: they cannot copy from their input
+- 
 
 ## 2/5
 
@@ -4023,15 +4026,9 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を持つ？。LLMのファインチューニング関係で、様々な紹介がある。llamaindex周りの記事が多いが、それだけRAG(Retrieval-Augmented Generation)って需要があるということか。Embeddingもしっかり性能評価やファインチューニングすると性能があたる。llamaindexでQ&Aの性能を上げるためのTipsが詳しく書いてある、これは役立つ。ローカルLLMの試行も熱い、なんとCode interpreterもどきも動くという。最近のLLMでは、ELYZAが一番の模様(by shi3z)。理論関係では、transformerにおける自己注意はSVMと等価なのか？、確率過程の新刊も気になる。
 
 - LLMのファインチューニング で 何ができて 何ができないのか
-	- https://note.com/npaka/n/nec63c01f7ee8
-- code llama がhuggingfaceのchatに登場
-	- https://huggingface.co/chat/
-- Llamaで、出力を指定するためのgrammar-based sampling
-	- https://python.langchain.com/docs/integrations/llms/llamacpp#grammars
-- Google 「Gemini」は、ChatGPT-4 Enterprise プラットフォームの直接の競合相手
-	- https://www.theinformation.com/articles/the-forced-marriage-at-the-heart
+	- https://note.com/n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODQ1NjA2OCw0NjkwMzczNzYsLTEyND
+eyJoaXN0b3J5IjpbMTExNDc0OTY2NSw0NjkwMzczNzYsLTEyND
 cwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0
 ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5ND
 k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
