@@ -3,7 +3,12 @@
 
 ## 2/13
 
-
+-  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
+	- https://arxiv.org/abs/2402.00841
+	- Next to RoBERTa, FLAN-T5 is also a great go-to model for training text classifiers
+	- Flan-T5頑張るなあ
+-  大規模言語モデルが科学的発見に与える影響：GPT-4を用いた予備的研究
+	- https://ai-scholar.tech/articles/large-language-models/impact_of_LLM
 
 ## 2/5
 
@@ -4028,18 +4033,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://note.com/daichi_mu/n/n72b6265b09f6
 	- 言語モデルのスケールアップに伴う新たなスキルの出現について、統計的枠組みと数学的分析を用いて分析する。能力レベルが通常の汎化理論に反する「スリングショット汎化」の概念を導入
 - LLM によるプログラムベース推論
-	- https://speakerdeck.com/smiyawaki0820/2023-dot-08-dot-07-geography-and-language-mian-qiang-hui-number-4
-	- LLM 開発における評価・品質担保に関係、ガードレールや、推論過程のガイドなど最後はVisProg紹介
-	- 東北大の宮脇さん、地理空間情報をLLMをつかいながら推論する仕組みについて。
-- AIが「理解」するから、API仕様書のコピペでアプリができあがるローコード開発環境「Flowise」
-	- https://internet.watch.impress.co.jp/docs/column/shimizu/1523766.html
-- **[chatux-server-llm](https://github.com/sotokisehiro/chatux-
+	- https://speakerdeck.co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMT
-cyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYw
-LC0yMzk3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOT
-IzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4
-ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsOD
-E4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzExODYwMzQsMTg1NDY4
-OTMxM119
+eyJoaXN0b3J5IjpbLTg0ODM3NjMwMCwtMTI0NzAzOTI4NCwyND
+YwMDA1MTcsMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2
+NDUsMzA5NjUyNjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNT
+I1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcw
+MzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMT
+kxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4
+NjAzNF19
 -->
