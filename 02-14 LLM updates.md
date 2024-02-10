@@ -33,6 +33,12 @@
 	- https://arxiv.org/abs/2402.02025
 	- 強化学習における安全性制約の記述方法に関するサーベイ論文を arXiv にて公開しました 。主要な定式化の理論的な関係性を議論しているのが面白いと思います
 -  BlackMamba: Mixture of Experts for State-Space Models
+	- https://huggingface.co/papers/2402.01771
+- 英国AI Safety Instituteより3rd Progress Repoert。
+	- https://www.gov.uk/government/publications/uk-ai-safety-institute-third-progress-report/ai-safety-institute-third-progress-report
+	- Google DeepMindのGeoffrey Irving氏、Oxford大の神経科学者Chris Summerfield氏参画。コアKPIの「メンバーの、先端AIモデルに関する累積経験年数」が11月の150年から168年に増加。
+-  Stable Diffusion WebUI Forge
+	- https://github.com/lllyasviel/stable-diffusion-webui-forge
 	- 
 
 ## 2/5
@@ -4026,22 +4032,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 -  ChatGPT vs BERT：どちらが日本語をより理解できるのか？
 	- https://fintan.jp/page/9126/
 -  LlamaIndex の QAプロンプト と Refineプロンプト のカスタマイズ
-	- https://note.com/npaka/n/ne878095d5bda
-- llama2-13b-128k、論文を全部理解して要約を吐き出す方法
-	- https://gist.github.com/alfredplpl/33fd6dd6d623d4da959f1ca8aabc88fe
-- 「データ分析のための統計学入門」
-	- http://www.kunitomo-lab.sakura.ne.jp/2021-3-3Open(S).pdf
-- 【ローカルLLM】text-generation-webUIのAPI機能を試す
-	- https://note.com/bakushu/n/na4e51d377ae7
-	- LLM用のウェブUIであるtext-generation-webUIにAPI機能が付属しているので、これを使ってExllama＋GPTQのAPIを試してみた。
-- 最近のLLMの性格 by shi3z
-	- https://twitter.com/madyagi/status/1697949115
+	- https://note.com/npaka/n/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0Nj
-AwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0
-NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01Mj
-U0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAz
-NDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOT
-ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
-MDM0XX0=
+eyJoaXN0b3J5IjpbMzc0MzkyOSw0NjkwMzczNzYsLTEyNDcwMz
+kyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0ODEs
+OTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5NDk1Nj
+k1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwt
+MTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNz
+Y5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgxODRd
+fQ==
 -->
