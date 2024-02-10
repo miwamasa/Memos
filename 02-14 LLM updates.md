@@ -26,9 +26,14 @@
 - Home Credit - Credit Risk Model Stability
 	- https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/
 	- Kaggle新コンペ クレジットカード利用者の外部及び内部データによる長期の貸倒れ予測タスク。久方ぶりの正統派テーブルデータコンペ
-- 
+- Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities
 	- Nvidia presents Audio Flamingo
 	- https://huggingface.co/papers/2402.01831
+-  A Survey of Constraint Formulations in Safe Reinforcement Learning
+	- https://arxiv.org/abs/2402.02025
+	- 強化学習における安全性制約の記述方法に関するサーベイ論文を arXiv にて公開しました 。主要な定式化の理論的な関係性を議論しているのが面白いと思います
+-  BlackMamba: Mixture of Experts for State-Space Models
+	- 
 
 ## 2/5
 
@@ -4030,20 +4035,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://note.com/bakushu/n/na4e51d377ae7
 	- LLM用のウェブUIであるtext-generation-webUIにAPI機能が付属しているので、これを使ってExllama＋GPTQのAPIを試してみた。
 - 最近のLLMの性格 by shi3z
-	- https://twitter.com/madyagi/status/1697949115190255951?s=20
-	- ELYZAが良いみたい。
--  Transformers as Support Vector Machines
-	- https://arxiv.org/abs/2308.16898
-- fine-tuned a gpt-3.5 ReAct agent to be better at chain-of-thought
-	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/react_agent/react_agent_finetune.html
--  機械学習のための確率過程入門
-	- https://www.ohmsha.co.jp/book/97842
+	- https://twitter.com/madyagi/status/1697949115
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjEyMzE1OTAsLTEyNDcwMzkyODQsMj
-Q2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkx
-NjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NTEsLT
-UyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3
-MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLT
-E5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzEx
-ODYwMzRdfQ==
+eyJoaXN0b3J5IjpbNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0Nj
+AwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0
+NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01Mj
+U0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAz
+NDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOT
+ExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4MTg0LC0xOTcxMTg2
+MDM0XX0=
 -->
