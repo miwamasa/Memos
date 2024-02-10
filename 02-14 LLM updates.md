@@ -62,7 +62,10 @@
 - The Majority of AI Compute Spend is Not on Training but on Inference
 	- https://x.com/rohanpaul_ai/status/1754843805507887477?s=20
 	- As per report - "2023: The State of Generative AI in the Enterprise"
-- 
+- Qwen1.5 is out: a collection of powerful LLMs with sizes ranging from 0.5B to 72B parameters.
+	- https://x.com/xenovacom/status/1754873501536645292?s=20
+	- Even at 8-bit quantization, the smallest one (0.5B) is surprisingly good for its size! Here's a demo I made with Transformers.js (v2.15), running 100% locally in the browser w/ WASM!
+	- https://github.com/xenova/transformers.js	
 
 ## 2/5
 
@@ -4018,20 +4021,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- https://twitter.com/NuCode/status/1700679106814501132?s=20
 - ChatGPTが、可能性のある答えを複数ていじするようになった、RLHFやらせようとしているのかと話題に
 	- https://twitter.com/GrantSlatton/status/1700662574315090351?s=20
-- LLMの評価、特にRetrieval Augmented Generation (RAG) パイプラインを評価するためのOSSフレームワークragas
-	- https://github.com/explodinggradients/ragas
-- Agent deconstructedに、llmaindex agentが統合された？
-	- https://github.com/shoggoth13/agents-deconstructed/blob/main/notebooks/react_chat.ipynb
-	- ReActができるようになったのか。。、いろんなindexをもつLLM同士が会話して問題解決。。
-- 【デモ付き】Embeddingsで独自データをChatGPTに理解させる
-	- https://corp.langcore.org/media/embeddings
-	- LangCore SaaSを使ってイ
+- LLMの評価、特にRetrieval Augmented Genera
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTE1Nzg0OCw0NjkwMzczNzYsLTEyND
-cwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0
-ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5ND
-k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
-OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNj
-cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
-ODRdfQ==
+eyJoaXN0b3J5IjpbOTY1NTEyMTUzLDQ2OTAzNzM3NiwtMTI0Nz
+AzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4
+MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2NjIzMSwtMTk0OT
+U2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4
+LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMTA2Nz
+E3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4
+NF19
 -->
