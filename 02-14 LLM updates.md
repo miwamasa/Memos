@@ -56,6 +56,9 @@
 -  Repeat After Me: Transformers are Better than State Space Models at Copying
 	- https://arxiv.org/abs/2402.01032
 	- Our recent work on the comparison between Transformers and State Space Models for sequence modeling now on arxiv! TLDR - we find a key disadvantage of SSMs compared to Transformers: they cannot copy from their input
+-  Self RAG
+	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/self_rag/self_rag.ipynb
+	- We’re excited to feature Self-RAG, a special RAG technique where an LLM can do self-reflection for dynamic retrieval, critique, and generation
 - 
 
 ## 2/5
@@ -4023,16 +4026,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 
 ## 9/4
 
-GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を持つ？。LLMのファインチューニング関係で、様々な紹介がある。llamaindex周りの記事が多いが、それだけRAG(Retrieval-Augmented Generation)って需要があるということか。Embeddingもしっかり性能評価やファインチューニングすると性能があたる。llamaindexでQ&Aの性能を上げるためのTipsが詳しく書いてある、これは役立つ。ローカルLLMの試行も熱い、なんとCode interpreterもどきも動くという。最近のLLMでは、ELYZAが一番の模様(by shi3z)。理論関係では、transformerにおける自己注意はSVMと等価なのか？、確率過程の新刊も気になる。
-
-- LLMのファインチューニング で 何ができて 何ができないのか
-	- https://note.com/n
+GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を持つ？。LLMのファインチューニング関係で、様々な紹介がある。llamaindex周りの記事が多いが、それだけRAG(Retrieval-Augmented Generation)って需要があるということか。Embeddingも
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDc0OTY2NSw0NjkwMzczNzYsLTEyND
-cwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0
-ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5ND
-k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
-OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNj
-cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
-ODRdfQ==
+eyJoaXN0b3J5IjpbLTE3NjQ1ODk4OTYsNDY5MDM3Mzc2LC0xMj
+Q3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYy
+NDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOT
+Q5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5
+OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMD
+Y3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcyNCwtMzIyMDM4
+MTg0XX0=
 -->
