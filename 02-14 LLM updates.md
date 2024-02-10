@@ -9,6 +9,12 @@
 	- Flan-T5頑張るなあ
 -  大規模言語モデルが科学的発見に与える影響：GPT-4を用いた予備的研究
 	- https://ai-scholar.tech/articles/large-language-models/impact_of_LLM
+	- GPT-4は科学的発見活動にも大きく寄与しつつあります。  
+	- 創薬、生物学、計算化学、材料設計、偏微分方程式と幅広く、GPT-4の応用が紹介されています。また、それぞれの応用でのテクニックを紹介しています。  
+	- 現時点でのGPT-4を用いるうえでの不足点を整理し、将来への展望をまとめています。
+	- 知見
+		- 全体的に言えば、GPT-4は創薬の全プロセスと個々のステップに関する知識を持っています。
+		- 
 
 ## 2/5
 
@@ -4029,17 +4035,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 先週発表された、松尾研の“Weblab-10B”に対する量子化やローカル環境での実行も花開くが、やっぱり今週はメタによるCode Llamaの発表がポイントになっている。
 「LLM によるプログラムベース推論」的な考え方ってLLMをつかったアプリ作成には絶対必須な考え方になると思う。品質保証では、ガードレールとか、推論過程のガイドが必要だったり、得手不得手をちゃんと理解したうえでガイドするみたいな感じ。emergent機能とはLLMを動かしていて、予測していたのとは違う機能が創発するという話、欧州ＡＩ規制でも言及される、仕組みの解明と対策が急務。llamaindexから、外部検索と組み合わせる新しい、Metaphor機能がリリース。なんかどこのURLを見ればよいかのDBをつかってやるみたいな感じ。。HuggingFaceでは、LLMをWebベースで、ファインチューニングできる機能が公開されたらしい。結果はそのままHuggingFaceに乗るみたいなノリ。LLMをつかったQ&AであるRAGフレームワークで、類似データをtop-kでとってくる仕組みがうまくいかないときの工夫など、納得感ある。メタからCode Llamaが発表、コード生成ができる。さっそく、量子化されたり、llama.cppでローカルに動かしたりと、あっというまに、誰でも使えるようになる。コミュニティはすごいな。理論面では、emergentスキルに関して、通常の汎化理論に反する「スリングショット汎化」の提唱、ＬＬＭをつかった帰納的学習法というのも、従来の予測を書き換えるか。ＡＩ規制に対するパブコメをＡＩで分析など面白いかも。。
 
-- 言語モデルにおける複雑なスキルの創発に関する理論　A Theory for Emergence of Complex Skills in Language Models
-	- https://note.com/daichi_mu/n/n72b6265b09f6
-	- 言語モデルのスケールアップに伴う新たなスキルの出現について、統計的枠組みと数学的分析を用いて分析する。能力レベルが通常の汎化理論に反する「スリングショット汎化」の概念を導入
-- LLM によるプログラムベース推論
-	- https://speakerdeck.co
+- 言語モデルにおける複雑なスキルの創発に関する理論　A Theory for Emergence o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODM3NjMwMCwtMTI0NzAzOTI4NCwyND
-YwMDA1MTcsMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2
-NDUsMzA5NjUyNjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNT
-I1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcw
-MzQ0LDQwMTYzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMT
-kxMTIwODIyNCw4MTg3MjU3MjQsLTMyMjAzODE4NCwtMTk3MTE4
-NjAzNF19
+eyJoaXN0b3J5IjpbLTEwMjAyNjYwNjMsLTEyNDcwMzkyODQsMj
+Q2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkx
+NjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NTEsLT
+UyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3
+MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5NjksLT
+E5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgxODQsLTE5NzEx
+ODYwMzRdfQ==
 -->
