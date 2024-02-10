@@ -39,7 +39,12 @@
 	- Google DeepMindのGeoffrey Irving氏、Oxford大の神経科学者Chris Summerfield氏参画。コアKPIの「メンバーの、先端AIモデルに関する累積経験年数」が11月の150年から168年に増加。
 -  Stable Diffusion WebUI Forge
 	- https://github.com/lllyasviel/stable-diffusion-webui-forge
-	- 
+	- Stable-Diffusion-WebUI-Forge is a new platform to 
+		- (1) completely solve the speed and VRAM problem and 
+		- (2) adding UNet Patcher System to webui so that many new features can be implemented in about 100 lines of codes
+-  Unifying Large Language Models and Knowledge Graphs: A Roadmap
+	- https://arxiv.org/abs/2306.08302v3
+- 
 
 ## 2/5
 
@@ -4025,20 +4030,13 @@ GoogeからGPT-4対抗のGeminiが発表、GPT-4 の 2023 倍の計算能力を�
 	- https://note.com/shi3zblog/n/n66ae41af7c64
 	- "elyza/ELYZA-japanese-Llama-2-7b-instruct"　利用
 -  LlamaIndexの性能向上のためのテクニックガイド by npaka
-	- https://note.com/npaka/n/n33e28a9e1409
--  Discover LlamaIndex: Introduction to Data Agents for Developers
-	- https://www.youtube.com/watch?v=GkIEEdIErm8
-	- first-ever video tutorial on LlamaIndex Data Agents
--  ChatGPT vs BERT：どちらが日本語をより理解できるのか？
-	- https://fintan.jp/page/9126/
--  LlamaIndex の QAプロンプト と Refineプロンプト のカスタマイズ
-	- https://note.com/npaka/n/
+	- https://note.com/npa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0MzkyOSw0NjkwMzczNzYsLTEyNDcwMz
-kyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0ODEs
-OTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5NDk1Nj
-k1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwt
-MTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNz
-Y5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgxODRd
-fQ==
+eyJoaXN0b3J5IjpbMjA5OTE3NTE0Myw0NjkwMzczNzYsLTEyND
+cwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0
+ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5ND
+k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
+OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNj
+cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
+ODRdfQ==
 -->
