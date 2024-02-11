@@ -69,7 +69,8 @@
 	- https://github.com/xenova/transformers.js	
 - Gradio demo of Qwen1.5-72B-Chat
 	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
-- 
+- ollamaでMixtralを動かしてLangChainのagentで neo4jする
+	- Managed to get Mixtral on @ollama working as an function calling @LangChainAI agent that interacts with @neo4j  through a semantic layer. Needs some tidying up and I'll be able to share it.
 
 ## 2/5
 
@@ -4019,17 +4020,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- gpt-3.5-turboでfine-tuningが利用可能に
 	- gpt-3のモデルであるbabbage-002とdavinci-002も新しいfine-tuningでサポート（モデルもGPT baseという扱い）
 - グラフニューラルネットの 2023年まとめ (ICML2023)
-	- 軽量 Transformer の介入や Diffusion for Molecules などの実世界利用、幾何学的な利用が記載されている
-	- https://towardsdatascience.com/graph-machine-learning-icml-2023-9b5e4306a1cc
-- Open Inerpreterの利用例、「nikkei225の10年分をプロットして」と滅入れすればあとは自動で、、、
-	- https://twitter.com/NuCode/status/1700679106814501132?s=20
-- ChatGPTが、可能性のある答えを複数ていじす
+	- 軽量 Transformer の介入や Diffusion for Molecules などの実世界利用、幾何学的な利用が記載
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTQxODE5Niw0NjkwMzczNzYsLTEyND
-cwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0
-ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5ND
-k1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5
-OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNj
-cxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1NzI0LC0zMjIwMzgx
-ODRdfQ==
+eyJoaXN0b3J5IjpbMTA1MTY2MTM3MywxMDI1NDE4MTk2LDQ2OT
+AzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5
+NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOT
+c2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3
+NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyND
+M2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3
+MjRdfQ==
 -->
