@@ -79,6 +79,12 @@
 - だめ。絶対。 by キムワイプ
 	- https://x.com/kimwipes_crecia/status/1754757418595336404?s=20
 -  OpenMoE: An Early Effort on Open Mixture-of-Experts Language Models
+	- https://huggingface.co/papers/2402.01739
+	- To help the open-source community have a better understanding of Mixture-of-Experts (MoE) based large language models (LLMs), we train and release OpenMoE,
+- Development and Testing of Retrieval Augmented Generation in Large Language Models - A Case Study Report
+	- https://arxiv.org/abs/2402.01733
+	- GPT-4にRAG（検索拡張生成）を適用することで、臨床医学の問題において、人間の医師よりも高い精度が達成できたと報告
+	- 適切なRAGシステム設計により、GPT-4単体よりも10%以上精度が向上し、人間医師よりも5%以上高いスコアを出
 	- 
 
 ## 2/5
@@ -4013,21 +4019,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- run + finetune open-source LLMs through an API
 	- そういうビジネスができるのか。。
 -  Fine-Tuning GPT-3.5 RAG Pipeline with GPT-4 Training Data
-	- https://betterprogramming.pub/fine-tuning-gpt-3-5-rag-pipeline-with-gpt-4-training-data-49ac0c099919
-	- どうも、8/23にOpenAIがGPT-3.5-turboのfine-tuning APIを公開して、即座にllmaindexがこれに対応したらしい
-	- じゃあ、Q&Aアプリを作るのに、RAGとFine-tuningどちらが高性能か？ということへの考察記事
-	- こちらは、llamaindexをつかったGPT-3.5-turboのfine-tuningのcolab
-		- https://colab.research.google.com/drive/1NgyCJVyrC2xcZ5lxt2frTU862v6eJHlc?usp=sharing
-- Hierachical Agent	
-	- 対象ドキュメントの内容が階層構造であるような場合のQ&Aの作り方。
-	- https://colab.research.google.com/drive/1qIb09SyuLeiwGy_FGcRcQpM78yQ2p0_3?usp=sharing
-- Discov
+	- https://betterprogramming.pub/fine-tuning-gpt-3-5-rag-pipeline-wi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Mzg0NjQ0LDEwMjU0MTgxOTYsNDY5MD
-M3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0
-LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5Nz
-Y2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3
-MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0Mz
-YxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcy
-NF19
+eyJoaXN0b3J5IjpbMTgzMzMwMjAxNiwxMDI1NDE4MTk2LDQ2OT
+AzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5
+NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOT
+c2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3
+NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyND
+M2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3
+MjRdfQ==
 -->
