@@ -96,7 +96,11 @@
 - Fully local RAG using @Teknium1 OpenHermes, @ollama and @streamlit
 	- GPT4 level performance at 0% of the cost
 	- https://github.com/phidatahq/phidata/tree/main/cookbook/local_rag
-- 海外高性能言語モデルの日本語化研究の一環としてMixtral-8x7Bの日本語出力を安定させるLora作成、公開
+- 海外高性能言語モデルの日本語化研究の一環としてMixtral-8x7Bの日本語出力を安定させるLora作成、公開   
+	- https://huggingface.co/aixsatoshi/Mixtral-8x7B-ja-Lora-sft-ChatbotArenaJAcalm2
+	- Mixtral-8x7Bは高性能な言語モデルですが、日本語出力に多言語が混入するcode-switchingがよく見られます。 元の性能を維持しながら、日本語生成を安定させる方法として、Loraの効果を検証しました
+	- 日本語が流暢なcalm2の合成データセットを利用してます Baseモデルより低パラメーターの言語モデルで作成したデータセットでも、一定の性能確保して日本語化できました
+- 
 
 ## 2/5
 
@@ -4011,16 +4015,9 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 - SEC Insights
 	- llamaindexを活用して、米国証券取引委員会への報告書(SEC-10)にたいするQ&Aアプリを作る例
 	- https://github.com/run-llama/sec-insights
-	- https://www.secinsights.ai/
--  Streamlit 入門  by npakaさん
-	- https://note.com/npaka/n/n29b5e8088fe5
-	- 「Streamlit」は、機械学習およびデータサイエンスのためのWebアプリケーションフレームを簡単に作成して共有できるPythonライブラリ
-	- もうちょっとどうにかならんのか？
-- **Production-Ready LLM Applications**
-	- llamaindexのCEOより、
-	- https://docs.google.com/presentation/d/1u
+	- https://www
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzEwMTY2MDksMTAyNTQxODE5Niw0Nj
+eyJoaXN0b3J5IjpbLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Nj
 kwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5
 OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMz
 k3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQw
