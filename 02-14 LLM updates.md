@@ -100,7 +100,10 @@
 	- https://huggingface.co/aixsatoshi/Mixtral-8x7B-ja-Lora-sft-ChatbotArenaJAcalm2
 	- Mixtral-8x7Bは高性能な言語モデルですが、日本語出力に多言語が混入するcode-switchingがよく見られます。 元の性能を維持しながら、日本語生成を安定させる方法として、Loraの効果を検証しました
 	- 日本語が流暢なcalm2の合成データセットを利用してます Baseモデルより低パラメーターの言語モデルで作成したデータセットでも、一定の性能確保して日本語化できました
-- 
+-  Apple Vision ProはHoloLensの完成形。現時点での限界値 by shi3zさん
+	- https://note.com/shi3zblog/n/nd36c04f9133a?sub_rt=share_h
+	- 「ついにここまで来たか」
+	- 
 
 ## 2/5
 
@@ -4012,16 +4015,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 - LangChain を使ったRAGを Elyza 7b instruct モデル
 	- https://note.com/alexweberk/n/n3cffc010e9e9
 	- 無料のT4ではメモリーオーバーで動かないんだが。。。
-- SEC Insights
-	- llamaindexを活用して、米国証券取引委員会への報告書(SEC-10)にたいするQ&Aアプリを作る例
-	- https://github.com/run-llama/sec-insights
-	- https://www
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Nj
-kwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5
-OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMz
-k3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQw
-NzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMj
-QzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1
-NzI0XX0=
+eyJoaXN0b3J5IjpbODY4MDE1OTQ3LC0yMTIzMjAwMzUwLDEwMj
+U0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUx
+NywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMD
+k2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2
+MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsND
+AxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4
+MjI0XX0=
 -->
