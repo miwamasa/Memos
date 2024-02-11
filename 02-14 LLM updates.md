@@ -111,6 +111,9 @@
 	- In our brand-new cookbook, learn how to build a custom agent that can execute complex queries over your data, and can also be interrupted in the middle of execution with user inputs!
 - Ollama OpenAI compatibility is here!
 	- https://ollama.com/blog/openai-compatibility
+	- つまり、ollamaでopenaiのAPIつかってURLをollamaエンドポイントに変えるだけで動くということ
+-  RAG Research Insights
+	- https://www.promptingguide.ai/research/rag#rag-research-insights
 	- 
 
 ## 2/5
@@ -4008,14 +4011,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	-  **大規模コンテンツ・行動モデル（LCBM）とコンテンツ・行動コーパス（CBC）**：本文書では、行動トークンをLLMの訓練に再導入する初期的な試みを行う。LCBMと呼ばれる新しいモデルは、コンテンツ理解タスクにおいてLLMと同等の性能を示すとともに、行動シミュレーション、コンテンツシミュレーション、行動理解、行動ドメイン適応といった能力も持つ。さらに、LCBMの研究を促進するために、コミュニケーター、メッセージ、受信者行動を含む新しいコーパスであるCBCを公開する。
 - ChatGPTを業務に組み込むためのハンズオン
 	- デジタル庁が一般公開しているChatGPTの入門
-	- https://www.digital.go.jp/assets/contents/node/information/field_ref_resources/5896883b-cc5a-4c5a-b610-eb32b0f4c175/82ccd074/20230725_resources_ai_outline.pdf
-	
+	- https:/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTkxNTI4NzYsMjM3ODYzMjUyLC0yMT
-IzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5
-Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLD
-k0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5
-NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLT
-E5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2
-OTY5XX0=
+eyJoaXN0b3J5IjpbMTM4NDg0ODA2MCwyMzc4NjMyNTIsLTIxMj
+MyMDAzNTAsMTAyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcwMzky
+ODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOT
+Q5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1
+NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMT
+k2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5MjAsLTEwNjcxNzY5
+NjldfQ==
 -->
