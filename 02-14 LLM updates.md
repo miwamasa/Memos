@@ -106,7 +106,8 @@
 	- 「ついにここまで来たか」
 -  Step-wise Queries by llamaindes
 	- https://docs.llamaindex.ai/en/stable/examples/agent/custom_agent.html#step-wise-queries
-	- 
+	- In our brand-new cookbook, learn how to build a custom agent that can execute complex queries over your data, and can also be interrupted in the middle of execution with user inputs!
+- 
 
 ## 2/5
 
@@ -4009,17 +4010,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 		- できる限りコンテキストを明確にして書くこと
 		- GPTの理解度(?)を確認しながら進める
 		- 最初はマニュアルを読むより、まず自分でやってみて感覚をつかみことを推奨
-- 最近のLLMの学習法のまとめ - SFT・RLHF・RAG　by npakaさん、
-	- https://note.com/npaka/n/n862786604dc3
-	- とりあえず、どれだけ知ってる？だけでもリトマス試験紙になる、むろん私はRAG派
-	- SFT : Supervised Fine-Tuning
-	- RLHF : Reinforcement Learning from Human
+- 最近のLLMの学習法のまとめ -
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzgyNzk3NywtMjEyMzIwMDM1MCwxMD
-I1NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1
-MTcsMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMz
-A5NjUyNjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYx
-NjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LD
-QwMTYzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIw
-ODIyNF19
+eyJoaXN0b3J5IjpbMzM3Mzk0OTQ4LC0yMTIzMjAwMzUwLDEwMj
+U0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUx
+NywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMD
+k2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2
+MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsND
+AxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4
+MjI0XX0=
 -->
