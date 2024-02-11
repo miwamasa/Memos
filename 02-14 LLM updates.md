@@ -117,6 +117,8 @@
 	- So we have created a new section in the RAG overview to summarize and help you keep track of insights into the latest RAG techniques.
 - Nvidia releases canary-1b
 	- https://huggingface.co/spaces/nvidia/canary-1b
+	- With 1 billion parameters, Canary-1B supports automatic speech-to-text recognition (ASR) in 4 languages (English, German, French, Spanish) and translation from English to German/French/Spanish and from…
+- Bard は Gemini（ジェミニ）になります！
 	- 
 
 ## 2/5
@@ -4008,16 +4010,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- https://gpt-index.readthedocs.io/en/stable/core_modules/data_modules/index/index_guide.html#summary-index-formerly-list-index
 - AI Agents – Build and Host LLM Apps At Scale
 	- LLMを活用さいた様々なエージェントの作り方についての記事、なるほど
-	- https://blog.abacus.ai/blog/2023/08/31/supercharge-productivity-accomplish-10x-more-with-ai-agents/
-- Large Content And Behavior Models To Understand, Simulate, And Optimize Content And Behavior
-	- https://huggingface.co/papers/2309.00359
-	-  **大規模コンテンツ・行動モデル（LCBM）とコンテンツ・行動コーパス（CBC）**：本文書では、行動トークンをLLMの訓練に再導入する初期的な試みを行う。LCBMと呼ばれ
+	- https://blog.abacus.ai/blog/2023/08/31/supercharge-productivity-accomplish-10x-more-with-ai-age
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMT
-IzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5
-Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLD
-k0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5
-NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLT
-E5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2
-OTY5XX0=
+eyJoaXN0b3J5IjpbMTQ0NjQ1Mzg4LC0xODU0Nzc4OTcxLDIzNz
+g2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAzNzM3
+NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NCwtMT
+M1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2NjIz
+MSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMj
+I2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTky
+MF19
 -->
