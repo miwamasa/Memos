@@ -109,7 +109,9 @@
 -  Step-wise Queries by llamaindes
 	- https://docs.llamaindex.ai/en/stable/examples/agent/custom_agent.html#step-wise-queries
 	- In our brand-new cookbook, learn how to build a custom agent that can execute complex queries over your data, and can also be interrupted in the middle of execution with user inputs!
-- 
+- Ollama OpenAI compatibility is here!
+	- https://ollama.com/blog/openai-compatibility
+	- 
 
 ## 2/5
 
@@ -4007,16 +4009,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 - ChatGPTを業務に組み込むためのハンズオン
 	- デジタル庁が一般公開しているChatGPTの入門
 	- https://www.digital.go.jp/assets/contents/node/information/field_ref_resources/5896883b-cc5a-4c5a-b610-eb32b0f4c175/82ccd074/20230725_resources_ai_outline.pdf
-	- なかなかのやり手が書いている、ここまで試行できる人は少ないのでは？？
-	- プロンプトの書き方のコツ
-		- できる限りコンテキストを明確にして書くこと
-		- GPTの理
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMj
-U0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUx
-NywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMD
-k2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2
-MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsND
-AxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4
-MjI0XX0=
+eyJoaXN0b3J5IjpbLTIwNTkxNTI4NzYsMjM3ODYzMjUyLC0yMT
+IzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5
+Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLD
+k0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5
+NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLT
+E5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2
+OTY5XX0=
 -->
