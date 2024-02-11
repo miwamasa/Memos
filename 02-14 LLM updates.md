@@ -125,6 +125,12 @@
 - The Consensus Game: Language Model Generation via Equilibrium Search
 	- https://openreview.net/forum?id=n9xeGcI4Yg
 	- LLMで質問応答等のタスクをこなす場合、生成的に解く場合（p(y|x,v=真)) と識別的に解く場合（p(v=真|x, y)）で得意/不得意が異なり結果が異なる。ゲーム理論に基づいて二つが合意する解を求められる均衡順位付けを提案。多くのタスクで再学習なく、性能を大きく改善できる
+- OpenAnimateAnyone
+	- https://github.com/fenghan0430/Open-AnimateAnyone
+	- アリババはAIの研究結果をオープンで出してくれてたけど、いざAnimateAnyoneみたいな有望な成果物ができたらスッとクローズにしてシュッと自社アプリに組み込む。つまり今までは自社サービスには使えんクオリティだから不用品リサイクルとしてオープンにしてただけ？
+-  Grandmaster-Level Chess Without Search
+	- https://arxiv.org/abs/2402.04494
+	- チェスでどの手が良いかをTransformerで教師あり学習したモデルは探索を使わなくても人より強くなる（探索ありAIよりは弱い）。教師ありデータはStockfish 16で作成しており、科学分野でよく使われるサロゲートモデルの一種とみなせる。
 - 
 
 ## 2/5
@@ -4006,17 +4012,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 8/23に公開されたGPT-3.5-turboのfine-tuning API、RAGとの比較、証券報告書のQ&Aアプリの具体例、など、面白い記事がたくさん出てきた。Open Interpreterも相も変わらず熱い。デジタル庁のChatGPTの業務利用ハンズオン、いいな、こういうリテラシーを持てる人が増えないと。。大規模コンテンツ・行動モデル（LCBM）って、記号接地問題にさらに近づこうとしているのか？LLMをつかった様々なエージェントの作り方、いろんなデータ専門のエージェントがたくさんそろってくると、そろそろOrchestratorが必要かな。**Production-Ready LLM Applications**ってのは必読なスライドですね。ICML2023のまとめもあった。RAGを対象としたLLMの比較、フレームワークになってありがたい。ChatGPTの複数出力とか、性能が落ちたのでは？という疑惑など、何が起きているのか、起こそうとしているのか。
 
 -  東京大学理学部オープンキャンパス2023 講演「生成型AIの数理と倫理」佐藤一誠教授
-	- https://www.youtube.com/watch?v=n6NDlgJVug8&t=5s
--  Mustafa Suleyman on getting Washington and Silicon Valley to tame AI
-	- https://80000hours.org/podcast/episodes/mustafa-suleyman-getting-washington-and-silicon-valley-to-tame-ai/
-	- DeepMindの共同創業者で、世界最高水準のAIスパコンを構築中のAI開発会社「Inflection AI」の設立者でもあるスレイマン氏によれば、今後18ヶ月程度でGPT-4の学習に使用された計算回数の10倍〜100倍がAIモデルの学習に使用され、次の3年程度でGPT-4の1000倍の計算回数が学習に使われるだろう、とのこと
-- LangChain
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5OTU4Nzc2LC0xODU0Nzc4OTcxLDIzNz
-g2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAzNzM3
-NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NCwtMT
-M1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2NjIz
-MSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMj
-I2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTky
-MF19
+eyJoaXN0b3J5IjpbLTE2MTAxODEyODUsLTE4NTQ3Nzg5NzEsMj
+M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
+Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC
+0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2
+MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3Mi
+wyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYx
+OTIwXX0=
 -->
