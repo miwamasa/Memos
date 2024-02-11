@@ -147,6 +147,9 @@
 -  OpenAIアルトマン氏、半導体の資金調達で交渉　米報道
 	- https://www.nikkei.com/article/DGXZQOGN095R00Z00C24A2000000/
 	- 必要資金750兆円
+-  Multilingual E5 Text Embeddings: A Technical Report
+	- https://huggingface.co/papers/2402.05672
+	- MicrosoftのE5エンベディングの実装ペーパー、今頃でるものなのか・
 - 
 
 
@@ -4011,16 +4014,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- https://llm.extractum.io/
 	- LLM の VRAM や Context Len が一覧表示できて便利
 - BCGとハーバードやMIT等によるGPT4を使用したタスク実験
-	-  Centaurs and Cyborgs on the Jagged Frontier
-	- https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged
-	- BCGのコンサルティング758名で実験 
-	- 18種
+	-  Centa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ2NTE5NTUsLTE4NTQ3Nzg5NzEsMj
-M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
-Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC
-0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2
-MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3Mi
-wyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYx
-OTIwXX0=
+eyJoaXN0b3J5IjpbNDM0MjE3ODMzLC0xODU0Nzc4OTcxLDIzNz
+g2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAzNzM3
+NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NCwtMT
+M1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2NjIz
+MSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMj
+I2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTky
+MF19
 -->
