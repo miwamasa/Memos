@@ -75,6 +75,8 @@
 - Style-Bert-VITS2が即座に日本語特化モデル JP-Extraを取り込んでくれて、日本語発音がエグいです
 	- https://github.com/litagin02/Style-Bert-VITS2/releases/tag/2.0
 	- 「Style-Bert-VITS2」は、自動で文脈が把握され、感情表現が調整される
+	- https://huggingface.co/spaces/litagin/Style-Bert-VITS2-JVNV
+	- いやこれはすごい
 - NVIDIAがデータセンター向けGPU市場で98％のシェアを独占していることが判明、AI性能が明暗を分ける結果に - GIGAZINE
 	- https://gigazine.net/news/20240205-nvidia-gpu-market/
 - だめ。絶対。 by キムワイプ
@@ -4008,11 +4010,9 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- なかなかのやり手が書いている、ここまで試行できる人は少ないのでは？？
 	- プロンプトの書き方のコツ
 		- できる限りコンテキストを明確にして書くこと
-		- GPTの理解度(?)を確認しながら進める
-		- 最初はマニュアルを読むより、まず自分でやってみて感覚をつかみことを推奨
-- 最近のLLMの学習法のまとめ -
+		- GPTの理
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3Mzk0OTQ4LC0yMTIzMjAwMzUwLDEwMj
+eyJoaXN0b3J5IjpbMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMj
 U0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUx
 NywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMD
 k2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2
