@@ -139,6 +139,10 @@
 	- モデルを統合するための簡単な実装コードを書いてみます。  最近は､普通にmergekitもあるようですが､勉強も兼ねた実装です
 	- 与えられた入力文章に対するPerplexity（困惑さ）を指標に、使用するモデルを切り替えるシステムを作ります
 	- 今回は試しに、英語が得意なLLama2-7bと、日本語でファインチューニングしたElyza-7bを統合（merge）したシステムを作ってみようと思います。
+- 日本語データセットのクリーニングスクリプト
+	- https://github.com/lighttransport/japanese-llama-experiment
+-  Real-World Robot Applications of Foundation Models: A Review
+	- https://arxiv.org/abs/2402.05741
 	- 
 
 
@@ -4010,17 +4014,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- AIを使用したコンサルは 、12.2％多く仕事を終え、 25.1％早く仕事を完了し、 40％高い品質
 -  Optimizing LLMs From a Dataset Perspective
 	- https://sebastianraschka.com/blog/2023/optimizing-LLMs-dataset-perspective.html
-	- LLMsの最適化について、データセットの側面からまとめたブログ。人手で高品質なデータセットを作るグループや、LLMから大量のデータセットを生成するグループなど、いくつかの側面が簡潔にまとまっている
-- InstaGraph
-	- https://github.com/yoheinakajima/instagraph
-	- 任意のドキュメントから知識グラフ作れるらしい。
-	- 例：https://x.com/yoheinakajima/status/17013510688173019
+	- LLMsの最適化について、データセットの側面からまとめたブログ。人手で高品質なデータセットを作るグループや、LL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzY5NzYzNCwtMTg1NDc3ODk3MSwyMz
-c4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0NjkwMzcz
-NzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLT
-EzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYy
-MzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLD
-IyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5
-MjBdfQ==
+eyJoaXN0b3J5IjpbLTExNzQ2Nzg2OTAsLTE4NTQ3Nzg5NzEsMj
+M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
+Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC
+0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2
+MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3Mi
+wyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYx
+OTIwXX0=
 -->
