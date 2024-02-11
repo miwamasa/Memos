@@ -74,6 +74,7 @@
 	- https://x.com/tb_tomaz/status/1754861855929958488?s=20
 - Style-Bert-VITS2が即座に日本語特化モデル JP-Extraを取り込んでくれて、日本語発音がエグいです
 	- https://github.com/litagin02/Style-Bert-VITS2/releases/tag/2.0
+	- 「Style-Bert-VITS2」は、自動で文脈が把握され、感情表現が調整される
 - NVIDIAがデータセンター向けGPU市場で98％のシェアを独占していることが判明、AI性能が明暗を分ける結果に - GIGAZINE
 	- https://gigazine.net/news/20240205-nvidia-gpu-market/
 - だめ。絶対。 by キムワイプ
@@ -103,6 +104,8 @@
 -  Apple Vision ProはHoloLensの完成形。現時点での限界値 by shi3zさん
 	- https://note.com/shi3zblog/n/nd36c04f9133a?sub_rt=share_h
 	- 「ついにここまで来たか」
+-  Step-wise Queries by llamaindes
+	- https://docs.llamaindex.ai/en/stable/examples/agent/custom_agent.html#step-wise-queries
 	- 
 
 ## 2/5
@@ -4010,18 +4013,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- https://note.com/npaka/n/n862786604dc3
 	- とりあえず、どれだけ知ってる？だけでもリトマス試験紙になる、むろん私はRAG派
 	- SFT : Supervised Fine-Tuning
-	- RLHF : Reinforcement Learning from Human Feedback
-	- RAG : Retrieval Augmented Generation
-- LangChain を使ったRAGを Elyza 7b instruct モデル
-	- https://note.com/alexweberk/n/n3cffc010e9e9
-	- 無料のT4ではメモリーオーバーで動かないんだが。。。
--
+	- RLHF : Reinforcement Learning from Human
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4MDE1OTQ3LC0yMTIzMjAwMzUwLDEwMj
-U0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUx
-NywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMD
-k2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2
-MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsND
-AxNjM4ODgxLDI0MzYxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4
-MjI0XX0=
+eyJoaXN0b3J5IjpbMTgzMzgyNzk3NywtMjEyMzIwMDM1MCwxMD
+I1NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1
+MTcsMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMz
+A5NjUyNjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYx
+NjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LD
+QwMTYzODg4MSwyNDM2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIw
+ODIyNF19
 -->
