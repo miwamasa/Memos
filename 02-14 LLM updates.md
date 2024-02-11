@@ -93,11 +93,10 @@
 	- 1つはわりと自由にデバイスを操作可能なエージェント 
 		- 顧客は ChatGPT エージェントに、分析のためにドキュメントからスプレッドシートにデータを転送したり、経費報告書を自動的に記入して会計ソフトウェアに入力したりするよう依頼できます
 	- もう一つはWEB上で様々な操作可能なエージェント （1つ目はセキュリティやプライバシー懸念する人もいるのでもう一つのタイプを開発しているとのこと）
-- Fully local RAG using @Teknium1 OpenHermes, 
-@ollama
- and 
-@streamlit
- . GPT4 level performance at 0% of the cost
+- Fully local RAG using @Teknium1 OpenHermes, @ollama and @streamlit
+	- GPT4 level performance at 0% of the cost
+	- https://github.com/phidatahq/phidata/tree/main/cookbook/local_rag
+- 海外高性能言語モデルの日本語化研究の一環としてMixtral-8x7Bの日本語出力を安定させるLora作成、公開
 
 ## 2/5
 
@@ -4019,15 +4018,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- もうちょっとどうにかならんのか？
 - **Production-Ready LLM Applications**
 	- llamaindexのCEOより、
-	- https://docs.google.com/presentation/d/1uzhz1aFWbyXSrWBzQ1FPQWtVjMgJqAYGoGoVzEnNmAg/edit#slide=id.p
-		-  Fine-tuning: LLMs + embeddings
-		-  Better Data + Retrieval
+	- https://docs.google.com/presentation/d/1u
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTA5NTI0NCwxMDI1NDE4MTk2LDQ2OT
-AzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5
-NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOT
-c2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3
-NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyND
-M2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3
-MjRdfQ==
+eyJoaXN0b3J5IjpbLTIwMzEwMTY2MDksMTAyNTQxODE5Niw0Nj
+kwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5
+OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMz
+k3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQw
+NzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMj
+QzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1
+NzI0XX0=
 -->
