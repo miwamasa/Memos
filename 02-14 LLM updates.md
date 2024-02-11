@@ -91,8 +91,13 @@
 	- https://x.com/bioshok3/status/1755376649816953209?s=20
 	- Open AIは現在2種類のエージェントAIを構築中
 	- 1つはわりと自由にデバイスを操作可能なエージェント 
+		- 顧客は ChatGPT エージェントに、分析のためにドキュメントからスプレッドシートにデータを転送したり、経費報告書を自動的に記入して会計ソフトウェアに入力したりするよう依頼できます
 	- もう一つはWEB上で様々な操作可能なエージェント （1つ目はセキュリティやプライバシー懸念する人もいるのでもう一つのタイプを開発しているとのこと）
-	- 
+- Fully local RAG using @Teknium1 OpenHermes, 
+@ollama
+ and 
+@streamlit
+ . GPT4 level performance at 0% of the cost
 
 ## 2/5
 
@@ -4016,17 +4021,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- llamaindexのCEOより、
 	- https://docs.google.com/presentation/d/1uzhz1aFWbyXSrWBzQ1FPQWtVjMgJqAYGoGoVzEnNmAg/edit#slide=id.p
 		-  Fine-tuning: LLMs + embeddings
-		-  Better Data + Retrieval Techniques for Production RAG
-- ELYZA-7bは、M1 MacBook Airでもサクサク動くらしい
-	- https://huggingface.co/mmnga/ELYZA-japanese-Llama-2-7b-fast-instruct-gguf/blob/main/README.md
-- やっぱりOpenInterpreterが熱い
-	- https://github.c
+		-  Better Data + Retrieval
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjAyNDIyNDEsMTAyNTQxODE5Niw0Nj
-kwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5
-OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMz
-k3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQw
-NzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMj
-QzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1
-NzI0XX0=
+eyJoaXN0b3J5IjpbLTkyOTA5NTI0NCwxMDI1NDE4MTk2LDQ2OT
+AzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5
+NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOT
+c2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3
+NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyND
+M2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3
+MjRdfQ==
 -->
