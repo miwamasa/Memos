@@ -87,8 +87,12 @@
 	- 適切なRAGシステム設計により、GPT-4単体よりも10%以上精度が向上し、人間医師よりも5%以上高いスコアを出
 	- 研究者らはこの結果は注目に値するとしつつ、より広範な分野で実験を重ねていくべきとしています。 
 	- また、ハルシネーションが低いとはいえ、医学における自動化は慎重であるべきとも述べています。
-- Open AIは現在2種類のエージェントAIを構築中
-	- OpenAI の製品担当副社長である Peter Welinder 氏は、Newhouse氏が説明した（エージェントに関する）製品は「すべてを変えるだろう」と述べている。 ・1つはわりと自由にデバイスを操作可能なエージェント ・もう一つはWEB上で様々な操作可能なエージェント （1つ目はセキュリティやプライバシー懸念する人もいるのでもう一つのタイプを開発しているとのこと）
+- Open AI shifts its battleground to Software
+	- https://x.com/bioshok3/status/1755376649816953209?s=20
+	- Open AIは現在2種類のエージェントAIを構築中
+	- 1つはわりと自由にデバイスを操作可能なエージェント 
+	- もう一つはWEB上で様々な操作可能なエージェント （1つ目はセキュリティやプライバシー懸念する人もいるのでもう一つのタイプを開発しているとのこと）
+	- 
 
 ## 2/5
 
@@ -4016,13 +4020,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 - ELYZA-7bは、M1 MacBook Airでもサクサク動くらしい
 	- https://huggingface.co/mmnga/ELYZA-japanese-Llama-2-7b-fast-instruct-gguf/blob/main/README.md
 - やっぱりOpenInterpreterが熱い
-	- https://github.com/KillianLuca
+	- https://github.c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDE3OTMxOCwxMDI1NDE4MTk2LDQ2OT
-AzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5
-NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOT
-c2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3
-NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyND
-M2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3
-MjRdfQ==
+eyJoaXN0b3J5IjpbLTE3NjAyNDIyNDEsMTAyNTQxODE5Niw0Nj
+kwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5
+OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMz
+k3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQw
+NzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMj
+QzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1
+NzI0XX0=
 -->
