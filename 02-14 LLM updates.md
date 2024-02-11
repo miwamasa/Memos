@@ -162,6 +162,11 @@
 -  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
 	- https://arxiv.org/abs/2402.00841
 	- Can "small" finetuned LLMs with less than 2B parameters outperform larger openly available LLMs (Mixtral, Llama 2 Chat) and proprietary LLMs (ChatGPT)? Here's a closer look at the Tiny Titans paper
+-  GPTは他者の心の状態を推測できる？AI×心理学のすゝめ
+	- https://ai-scholar.tech/articles/computation-and-language/Theory-of-Mind
+	- GPTは他者の心を読めるのか？ 実験において、GPT-3.5とGPT-4は高い正答率をマークしました。 
+	- 著者は、GPTが心の状態を推測できる理由として「言語能力の向上によって自発的に出現したのでは」と指摘。 AI研究における心理学的な視点の重要性を解
+- 
 
 
 ## 2/5
@@ -4002,13 +4007,9 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- https://gpt-index.readthedocs.io/en/latest/end_to_end_tutorials/low_level/root.html
 	- ローレベルというのは、プリミティブな処理で構成するという意味。
 - llamaindexのResponseの作り方
-	- Building Response Synthesis from Scratch
-	- https://gpt-index.readthedocs.io/en/latest/examples/low_level/response_synthesis.html
-	- promptをカスタマイズできるのが素敵。
-- Vector databases (Part 4): Analyzing the trade-offs
-	- https://thedataquarry.com/posts/vector-
+	- Buildi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA4MjA0MjUsLTE4NTQ3Nzg5NzEsMj
+eyJoaXN0b3J5IjpbLTE1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMj
 M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
 Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC
 0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2
