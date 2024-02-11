@@ -74,6 +74,12 @@
 	- https://x.com/tb_tomaz/status/1754861855929958488?s=20
 - Style-Bert-VITS2が即座に日本語特化モデル JP-Extraを取り込んでくれて、日本語発音がエグいです
 	- https://github.com/litagin02/Style-Bert-VITS2/releases/tag/2.0
+- NVIDIAがデータセンター向けGPU市場で98％のシェアを独占していることが判明、AI性能が明暗を分ける結果に - GIGAZINE
+	- https://gigazine.net/news/20240205-nvidia-gpu-market/
+- だめ。絶対。 by キムワイプ
+	- https://x.com/kimwipes_crecia/status/1754757418595336404?s=20
+-  OpenMoE: An Early Effort on Open Mixture-of-Experts Language Models
+	- 
 
 ## 2/5
 
@@ -4015,18 +4021,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 - Hierachical Agent	
 	- 対象ドキュメントの内容が階層構造であるような場合のQ&Aの作り方。
 	- https://colab.research.google.com/drive/1qIb09SyuLeiwGy_FGcRcQpM78yQ2p0_3?usp=sharing
-- Discover LlamaIndex: Custom Tools for Data Agent
-	- https://www.youtube.com/watch?v=lcuL6Gqw_-g
-- 【速報】OpenAI APIでGPT-3.5-turboがfine-tuningできるようになりました！
-	- https://dev.classmethod.jp/articles/openai-gpt35turbo-fine-tuning/
-	- 学習するサンプルは最小10個必要で、50～100個で明確な改善が見られる
-	- gpt-3.5-turboでfine-tuningが利
+- Discov
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDA2MDI0NjksMTAyNTQxODE5Niw0Nj
-kwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5
-OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMz
-k3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQw
-NzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMj
-QzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1
-NzI0XX0=
+eyJoaXN0b3J5IjpbMTc2Mzg0NjQ0LDEwMjU0MTgxOTYsNDY5MD
+M3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0
+LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5Nz
+Y2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3
+MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0Mz
+YxOTIwLC0xMDY3MTc2OTY5LC0xOTExMjA4MjI0LDgxODcyNTcy
+NF19
 -->
