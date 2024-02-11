@@ -85,7 +85,10 @@
 	- https://arxiv.org/abs/2402.01733
 	- GPT-4にRAG（検索拡張生成）を適用することで、臨床医学の問題において、人間の医師よりも高い精度が達成できたと報告
 	- 適切なRAGシステム設計により、GPT-4単体よりも10%以上精度が向上し、人間医師よりも5%以上高いスコアを出
-	- 
+	- 研究者らはこの結果は注目に値するとしつつ、より広範な分野で実験を重ねていくべきとしています。 
+	- また、ハルシネーションが低いとはいえ、医学における自動化は慎重であるべきとも述べています。
+- Open AIは現在2種類のエージェントAIを構築中
+	- OpenAI の製品担当副社長である Peter Welinder 氏は、Newhouse氏が説明した（エージェントに関する）製品は「すべてを変えるだろう」と述べている。 ・1つはわりと自由にデバイスを操作可能なエージェント ・もう一つはWEB上で様々な操作可能なエージェント （1つ目はセキュリティやプライバシー懸念する人もいるのでもう一つのタイプを開発しているとのこと）
 
 ## 2/5
 
@@ -4013,15 +4016,9 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 - ELYZA-7bは、M1 MacBook Airでもサクサク動くらしい
 	- https://huggingface.co/mmnga/ELYZA-japanese-Llama-2-7b-fast-instruct-gguf/blob/main/README.md
 - やっぱりOpenInterpreterが熱い
-	- https://github.com/KillianLucas/open-interpreter
-- LLMをホストするAnyScaleのllamaindexでの利用例
-	- https://gpt-index.readthedocs.io/en/latest/examples/llm/anyscale.html
-	- run + finetune open-source LLMs through an API
-	- そういうビジネスができるのか。。
--  Fine-Tuning GPT-3.5 RAG Pipeline with GPT-4 Training Data
-	- https://betterprogramming.pub/fine-tuning-gpt-3-5-rag-pipeline-wi
+	- https://github.com/KillianLuca
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzMwMjAxNiwxMDI1NDE4MTk2LDQ2OT
+eyJoaXN0b3J5IjpbLTM0NDE3OTMxOCwxMDI1NDE4MTk2LDQ2OT
 AzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5
 NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOT
 c2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3
