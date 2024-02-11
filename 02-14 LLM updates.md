@@ -154,7 +154,12 @@
 	- https://github.com/yifanlu0227/ChatSim
 	- 生成AIの出現でシミュレータの世界も大きく変化。 昨日出たChatSimでは自然言語を入力してドライビングシミュレータを自由に編集することができる
 -  LangChain 101: Part 3a. Talking to Documents: Load, Split, and simple RAG with LCEL
-	- 
+	- https://pub.towardsai.net/langchain-101-part-3a-talking-to-documents-load-split-and-simple-rag-with-lcel-26b005ccb30a
+	- Loading documents and splitting them are a key part of RAG
+- mambaの理論を理解する①：HiPPOフレームワークとLSSL
+	- https://zenn.dev/izmyon/articles/8374a11d272602
+	- mambaの理論を理解するための解説記事を書き始めました。かなり数式の導出など丁寧に書いてるのでよろしくお願いいたします。何か訂正や補足があれば優しく教えてくださ
+-  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
 
 
 ## 2/5
@@ -4004,21 +4009,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 - AstroLLaMA: Towards Specialized Foundation Models in Astronomy
 	- https://arxiv.org/abs/2309.06126
 	- 特定分野に特化したLLMが大量発生する予感。
-- 東京都の 「文章生成AI利活用ガイドライン」
-	- https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2023/08/23/14.html
-	- プロンプトの具体例も豊富でわかりやすい
-- llamaindexがLiteLLMをサポート、＋１００のLLｍが利用可能に？？
-	- https://gpt-index.readthedocs.io/en/stable/examples/llm/litellm.html
-	-  (OpenAI, Cohere, AnthropicAI, huggingface, etc.)に対して同じインターフェイスを提供。
-	- というか、LiteLLMすごいな。
-- Announcing the Preview of OpenAI Whisper in Azure OpenAI service and Azure AI Speech
-	- https://techcommunity.microsoft.com/t5/azure-ai-serv
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODIwMzYzMywtMTg1NDc3ODk3MSwyMz
-c4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0NjkwMzcz
-NzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLT
-EzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYy
-MzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLD
-IyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5
-MjBdfQ==
+eyJoaXN0b3J5IjpbLTE5NzA4NTY0MDIsLTE4NTQ3Nzg5NzEsMj
+M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
+Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC
+0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2
+MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3Mi
+wyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYx
+OTIwXX0=
 -->
