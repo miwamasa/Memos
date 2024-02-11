@@ -143,7 +143,11 @@
 	- https://github.com/lighttransport/japanese-llama-experiment
 -  Real-World Robot Applications of Foundation Models: A Review
 	- https://arxiv.org/abs/2402.05741
-	- 
+	- 基盤モデルの実ロボット応用に関するサーベイ論文を公開しました！Meta AI ResearchのChrisさん@chris_j_paxton , Google DeepmindのAndyさん @andyzeng_ という，この分野で最先端を進むお二人からのフィードバックを受けながら執筆
+-  OpenAIアルトマン氏、半導体の資金調達で交渉　米報道
+	- https://www.nikkei.com/article/DGXZQOGN095R00Z00C24A2000000/
+	- 必要資金750兆円
+- 
 
 
 ## 2/5
@@ -4010,13 +4014,9 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	-  Centaurs and Cyborgs on the Jagged Frontier
 	- https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged
 	- BCGのコンサルティング758名で実験 
-	- 18種類のコンサルタスクが対象 
-	- AIを使用したコンサルは 、12.2％多く仕事を終え、 25.1％早く仕事を完了し、 40％高い品質
--  Optimizing LLMs From a Dataset Perspective
-	- https://sebastianraschka.com/blog/2023/optimizing-LLMs-dataset-perspective.html
-	- LLMsの最適化について、データセットの側面からまとめたブログ。人手で高品質なデータセットを作るグループや、LL
+	- 18種
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ2Nzg2OTAsLTE4NTQ3Nzg5NzEsMj
+eyJoaXN0b3J5IjpbLTE4MzQ2NTE5NTUsLTE4NTQ3Nzg5NzEsMj
 M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
 Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC
 0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2
