@@ -150,7 +150,11 @@
 -  Multilingual E5 Text Embeddings: A Technical Report
 	- https://huggingface.co/papers/2402.05672
 	- MicrosoftのE5エンベディングの実装ペーパー、今頃でるものなのか・
-- 
+- Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents
+	- https://github.com/yifanlu0227/ChatSim
+	- 生成AIの出現でシミュレータの世界も大きく変化。 昨日出たChatSimでは自然言語を入力してドライビングシミュレータを自由に編集することができる
+-  LangChain 101: Part 3a. Talking to Documents: Load, Split, and simple RAG with LCEL
+	- 
 
 
 ## 2/5
@@ -4008,19 +4012,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	-  (OpenAI, Cohere, AnthropicAI, huggingface, etc.)に対して同じインターフェイスを提供。
 	- というか、LiteLLMすごいな。
 - Announcing the Preview of OpenAI Whisper in Azure OpenAI service and Azure AI Speech
-	- https://techcommunity.microsoft.com/t5/azure-ai-services-blog/announcing-the-preview-of-openai-whisper-in-azure-openai-service/ba-p/3928388
-	- Azure OpenAIサービスおよびAzure AI SpeechでのOpenAI Whisperのプレビューを発表しました
-- Discover the LLMs
-	- https://llm.extractum.io/
-	- LLM の VRAM や Context Len が一覧表示できて便利
-- BCGとハーバードやMIT等によるGPT4を使用したタスク実験
-	-  Centa
+	- https://techcommunity.microsoft.com/t5/azure-ai-serv
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0MjE3ODMzLC0xODU0Nzc4OTcxLDIzNz
-g2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAzNzM3
-NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NCwtMT
-M1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2NjIz
-MSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMj
-I2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyNDM2MTky
-MF19
+eyJoaXN0b3J5IjpbLTg2ODIwMzYzMywtMTg1NDc3ODk3MSwyMz
+c4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0NjkwMzcz
+NzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLT
+EzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYy
+MzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLD
+IyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5
+MjBdfQ==
 -->
