@@ -160,6 +160,8 @@
 	- https://zenn.dev/izmyon/articles/8374a11d272602
 	- mambaの理論を理解するための解説記事を書き始めました。かなり数式の導出など丁寧に書いてるのでよろしくお願いいたします。何か訂正や補足があれば優しく教えてくださ
 -  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
+	- https://arxiv.org/abs/2402.00841
+	- 
 
 
 ## 2/5
@@ -4007,15 +4009,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- https://thedataquarry.com/posts/vector-db-4/
 	- ベクトルDBのトレードオフを分析した記事。挿入vs読取速度、取りこぼし（Recall）vsレイテンシー、インメモリvsオンディスク、全文検索vsベクトルハイブリッド検索等の観点から比較・分析を実質
 - AstroLLaMA: Towards Specialized Foundation Models in Astronomy
-	- https://arxiv.org/abs/2309.06126
-	- 特定分野に特化したLLMが大量発生する予感。
--
+	- https://arxiv.org/abs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA4NTY0MDIsLTE4NTQ3Nzg5NzEsMj
-M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
-Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC
-0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2
-MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3Mi
-wyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYx
-OTIwXX0=
+eyJoaXN0b3J5IjpbMTQwOTYwMzkwNiwtMTg1NDc3ODk3MSwyMz
+c4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0NjkwMzcz
+NzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLT
+EzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYy
+MzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLD
+IyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMjQzNjE5
+MjBdfQ==
 -->
