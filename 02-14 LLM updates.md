@@ -71,6 +71,9 @@
 	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
 - ollamaでMixtralを動かしてLangChainのagentで neo4jする
 	- Managed to get Mixtral on @ollama working as an function calling @LangChainAI agent that interacts with @neo4j  through a semantic layer. Needs some tidying up and I'll be able to share it.
+	- https://x.com/tb_tomaz/status/1754861855929958488?s=20
+- Style-Bert-VITS2が即座に日本語特化モデル JP-Extraを取り込んでくれて、日本語発音がエグいです
+	- https://github.com/litagin02/Style-Bert-VITS2/releases/tag/2.0
 
 ## 2/5
 
@@ -4017,16 +4020,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 - 【速報】OpenAI APIでGPT-3.5-turboがfine-tuningできるようになりました！
 	- https://dev.classmethod.jp/articles/openai-gpt35turbo-fine-tuning/
 	- 学習するサンプルは最小10個必要で、50～100個で明確な改善が見られる
-	- gpt-3.5-turboでfine-tuningが利用可能に
-	- gpt-3のモデルであるbabbage-002とdavinci-002も新しいfine-tuningでサポート（モデルもGPT baseという扱い）
-- グラフニューラルネットの 2023年まとめ (ICML2023)
-	- 軽量 Transformer の介入や Diffusion for Molecules などの実世界利用、幾何学的な利用が記載
+	- gpt-3.5-turboでfine-tuningが利
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTY2MTM3MywxMDI1NDE4MTk2LDQ2OT
-AzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5
-NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOT
-c2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMwNDA3
-NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYzODg4MSwyND
-M2MTkyMCwtMTA2NzE3Njk2OSwtMTkxMTIwODIyNCw4MTg3MjU3
-MjRdfQ==
+eyJoaXN0b3J5IjpbLTEyNDA2MDI0NjksMTAyNTQxODE5Niw0Nj
+kwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5
+OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMz
+k3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNCwxOTIzMDQw
+NzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2Mzg4ODEsMj
+QzNjE5MjAsLTEwNjcxNzY5NjksLTE5MTEyMDgyMjQsODE4NzI1
+NzI0XX0=
 -->
