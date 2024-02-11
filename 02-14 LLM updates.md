@@ -131,7 +131,12 @@
 -  Grandmaster-Level Chess Without Search
 	- https://arxiv.org/abs/2402.04494
 	- チェスでどの手が良いかをTransformerで教師あり学習したモデルは探索を使わなくても人より強くなる（探索ありAIよりは弱い）。教師ありデータはStockfish 16で作成しており、科学分野でよく使われるサロゲートモデルの一種とみなせる。
-- 
+- ragas 0.1 release
+	- https://github.com/explodinggradients/ragas
+	- We are releasing version 0.1 of Ragas today, the open-source standard for evaluating RAG applications.
+-  Perplexityをもとに､複数の大規模言語モデルを切り替えて推論するシステムの簡単なコード実装
+	- https://note.com/kan_hatakeyama/n/nb5625d6411a8?sub_rt=share_pb
+	- 
 
 ## 2/5
 
@@ -4009,12 +4014,9 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 
 ## 9/11
 
-8/23に公開されたGPT-3.5-turboのfine-tuning API、RAGとの比較、証券報告書のQ&Aアプリの具体例、など、面白い記事がたくさん出てきた。Open Interpreterも相も変わらず熱い。デジタル庁のChatGPTの業務利用ハンズオン、いいな、こういうリテラシーを持てる人が増えないと。。大規模コンテンツ・行動モデル（LCBM）って、記号接地問題にさらに近づこうとしているのか？LLMをつかった様々なエージェントの作り方、いろんなデータ専門のエージェントがたくさんそろってくると、そろそろOrchestratorが必要かな。**Production-Ready LLM Applications**ってのは必読なスライドですね。ICML2023のまとめもあった。RAGを対象としたLLMの比較、フレームワークになってありがたい。ChatGPTの複数出力とか、性能が落ちたのでは？という疑惑など、何が起きているのか、起こそうとしているのか。
-
--  東京大学理学部オープンキャンパス2023 講演「生成型AIの数理と倫理」佐藤一誠教授
-	
+8/23に公開されたGPT-3.5-turboのfine-tuning API、RAGとの比較、証券報告書のQ&Aアプリの具体例、など、面白い記事がたくさん出てきた。Open Interpreterも相も変わらず熱い。デジタル庁のChatGPTの業務利用ハンズオン、いいな、こういうリテラシーを持てる人が増えないと。。大規模コンテンツ・行動モデル（LCBM）って、記号接地問題にさ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTAxODEyODUsLTE4NTQ3Nzg5NzEsMj
+eyJoaXN0b3J5IjpbLTE5MDM3NTg3NzAsLTE4NTQ3Nzg5NzEsMj
 M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
 Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC
 0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2
