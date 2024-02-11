@@ -119,7 +119,13 @@
 	- https://huggingface.co/spaces/nvidia/canary-1b
 	- With 1 billion parameters, Canary-1B supports automatic speech-to-text recognition (ASR) in 4 languages (English, German, French, Spanish) and translation from English to German/French/Spanish and from…
 - Bard は Gemini（ジェミニ）になります！
-	- 
+	- https://x.com/googlejapan/status/1755607418103587148?s=20
+	- Gemini は Bard に搭載されている AI モデルですが、この高度なテクノロジーが反映されていることをわかりやすく伝えるために、名前を変えました
+	- https://gemini.google.com/app
+- The Consensus Game: Language Model Generation via Equilibrium Search
+	- https://openreview.net/forum?id=n9xeGcI4Yg
+	- LLMで質問応答等のタスクをこなす場合、生成的に解く場合（p(y|x,v=真)) と識別的に解く場合（p(v=真|x, y)）で得意/不得意が異なり結果が異なる。ゲーム理論に基づいて二つが合意する解を求められる均衡順位付けを提案。多くのタスクで再学習なく、性能を大きく改善できる
+- 
 
 ## 2/5
 
@@ -4004,15 +4010,9 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 -  Mustafa Suleyman on getting Washington and Silicon Valley to tame AI
 	- https://80000hours.org/podcast/episodes/mustafa-suleyman-getting-washington-and-silicon-valley-to-tame-ai/
 	- DeepMindの共同創業者で、世界最高水準のAIスパコンを構築中のAI開発会社「Inflection AI」の設立者でもあるスレイマン氏によれば、今後18ヶ月程度でGPT-4の学習に使用された計算回数の10倍〜100倍がAIモデルの学習に使用され、次の3年程度でGPT-4の1000倍の計算回数が学習に使われるだろう、とのこと
-- LangChain Cheat Sheet
-	- https://www.kdnuggets.com/2023/08/langchain-cheat-sheet.html
-- llamaindexより、Summary Index(旧List Index)の紹介
-	- https://gpt-index.readthedocs.io/en/stable/core_modules/data_modules/index/index_guide.html#summary-index-formerly-list-index
-- AI Agents – Build and Host LLM Apps At Scale
-	- LLMを活用さいた様々なエージェントの作り方についての記事、なるほど
-	- https://blog.abacus.ai/blog/2023/08/31/supercharge-productivity-accomplish-10x-more-with-ai-age
+- LangChain
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NjQ1Mzg4LC0xODU0Nzc4OTcxLDIzNz
+eyJoaXN0b3J5IjpbNjA5OTU4Nzc2LC0xODU0Nzc4OTcxLDIzNz
 g2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAzNzM3
 NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NCwtMT
 M1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2NjIz
