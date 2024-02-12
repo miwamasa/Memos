@@ -3,7 +3,7 @@
 
 ## 2/13
 
-今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリース、75B-chatのデモなどでもGPT-4に迫る性能を示す。0.5BをTransfomer.jsでつかってもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。
+今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリース、75B-chatのデモなどでもGPT-4に迫る性能を示す。0.5BをTransfomer.jsでつかってもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクを
 
 MambaはTransformerの代わりになるか？
 
@@ -4006,10 +4006,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- ただし、ローカルに、GPUなどが必要**Windowsの場合NVIDIA製のグラボでのみ動作する**
 - Exploring ReAct Agent for Better Prompting in RAG Pipeline
 	- https://betterprogramming.pub/exploring-react-agent-for-better-prompting-in-rag-pipeline-b231aae0ca7c
-	- use ReAct Agent to analyze Amazon's recent disclosures and attitudes towards LLMs in their SEC Exhibits 99.1 filings
-- RAGの評価、正解と答えとの比較評価で、従来のBLEU/ROUGEとかでなくて、単に
+	- use ReAct Agent to analyze Amazon's recent disclosures and attitudes towards LLM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODg1ODE1MTAsLTE1NDI1NzkxMzMsLT
+eyJoaXN0b3J5IjpbLTIwODE1NzY3NDQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
 MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
 wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
