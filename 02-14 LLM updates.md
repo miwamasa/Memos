@@ -5,6 +5,8 @@
 
 今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判。0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（死語）は軽く代替されるだろうな。「小さなLLM」、英語でも"Smaller LLM"と呼ばれるらしい、小さなLLMでいいんだな、LLMのLargeはモデルの大小ではないとうこと、評価によるとFlan-T5がぶっちぎり？ MoE関係では、Mixtral-8x7Bの日本語向けのLoRaとか、
 
+ 探索なしでTransfomerだけでチェスマスタークラスのＡＩが作れるってのは岡野さんの解説、The Consensus Game、RAGの改良って生成と識別の間のゲームで説明できる？
+
 MambaはTransformerの次世代になりうるのか？日本語での詳細な解説や、MoEでもあるBlackMambaとか、やっぱりにぎやか。
 
 知識グラフとのLLMの融合、Wikidata とかロードマップとか話題は続く。
@@ -4001,14 +4003,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- extract a full Pydantic object from any doc with 1 LLM call.
 	- https://gpt-index.readthedocs.io/en/latest/examples/metadata_extraction/PydanticExtractor.html
 - Text generation web UI で Xwin-LM-13B をロードして色々推論して遊んでみます。
-	- https://note.com/sa1p/n/n51170c4d1a1f
-	- 「Text generation web UI」は、oobabooga氏による**大規模言語モデル用の無料のW
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTQxNzY1LC0yMDY2MDMxNzc0LC0xNT
-QyNTc5MTMzLC0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIw
-MDM1MCwxMDI1NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NC
-wyNDYwMDA1MTcsMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0
-OTE2NDUsMzA5NjUyNjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MS
-wtNTI1NDYxNjI0LDE5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYx
-NDcwMzQ0XX0=
+eyJoaXN0b3J5IjpbLTE2MjgwNzIzNDMsLTIwNjYwMzE3NzQsLT
+E1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIz
+MjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mj
+g0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0
+OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NT
+UxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5
+NjE0NzAzNDRdfQ==
 -->
