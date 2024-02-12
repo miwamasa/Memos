@@ -205,6 +205,10 @@
 -  栗田工業、機械学習使った材料探索で低環境負荷の防食剤開発へ
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00208/?n_cid=nbpnxt_twbn
 	- 栗田工業さんらは冷却水の防食剤の開発のため、機械学習により数百万の分子から有望材料を抽出
+- NeMo Guardrails, the Ultimate Open-Source LLM Security Toolkit
+	- https://towardsdatascience.com/nemo-guardrails-the-ultimate-open-source-llm-security-toolkit-0a34648713ef
+	- Advanced RAG with Guardrails
+	- If you want to build user-facing RAG, you not only need to setup advanced retrieval, but also need to apply requisite layers of input/output filters for the following:
 - 
 
 
@@ -3997,13 +4001,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 
 ## 9/19
 
-GPT-4を活用して、データセットをつくって、他のＬＬＭをファインチューニングするとか、色々出ているが、MetaやAppleがGPT-4越えのLLMを来年に向け開発中。Appleが出遅れているのは、自動運転とかそっちにリソースを割かれているかとも、でもM2もっているし、ポテンシャルはある。あほなSiriの代わりになるのか？。RestGPTは、ReActの発展形、「APIの理解」ってのができるらしい。やっぱり企業利用ならば、RAG(Retrieval Augmented Generation)関係で、元となるテキストのチャンキングの仕方とか、ベクトルＤＢの選び方とか、スクラッチからのRAGの作成とか、地道活動も拾ってます。AstroLLaMA、今後様々なタスクや分野に特化したLLMがどんどんできてくるかも。LiteLLMっていうLLMの抽象化を使うと、アプリコードが再利用できるのか、作った人天才。GPT4による生産性向上にういての定量評価、資料として色々使えるな。仏教対話AIって、聖人をどれだけ復活させても幸せになれない気がする。きっと故人のChatBot作成サービスって葬儀業界ですぐにでも出てきそうだ。いや、2021年にマイクロソフトが[特許化していた](https://edition.cnn.com/2021/01/27/tech/microsoft-chat-bot-patent/index.html)。。
-
-
-- Meta、GPT-4と同程度の性能を目指すモデルの学習を計画
-	- https://www.theverge.com/2023/9/10/23867323/m
+GPT-4を活用して、データセットをつくって、他のＬＬＭをファインチューニングするとか、色々出ているが、MetaやAppleがGPT-4越えのLLMを来年に向け開発中。Appleが出遅れているのは、自動運転とかそっちにリソースを割かれているかとも、でもM2もっているし、ポテンシャルはある。あほなSiriの代わりになるのか？。RestGPTは、ReActの発展形、「APIの理解」ってのができるらしい。やっぱり企業利用ならば、RAG(Retrieval Augmented Generation)関係で、元となるテキストのチャンキングの仕方とか、ベクトルＤＢの選び方とか、スクラッチからのRAGの作成とか、地道活動も拾ってます。AstroLLa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzAwMjcwNjMsLTE1NDI1NzkxMzMsLT
+eyJoaXN0b3J5IjpbLTE5OTY3NjAwODgsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
 MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
 wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
