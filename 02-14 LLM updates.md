@@ -3,6 +3,9 @@
 
 ## 2/13
 
+今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真かｒ
+
+
 -  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
 	- https://arxiv.org/abs/2402.00841
 	- Next to RoBERTa, FLAN-T5 is also a great go-to model for training text classifiers
@@ -4004,14 +4007,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - RAGの評価、正解と答えとの比較評価で、従来のBLEU/ROUGEとかでなくて、単に類似性評価でよいという簡易は方法を提示
 	- https://gpt-index.readthedocs.io/en/latest/examples/evaluation/semantic_similarity_eval.html
 - OpenAI謹製の、RAG(Q&A)のチュートリアル
-	- https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb
-- BQMLの時系列分析、ARiMAを適当なラグ設定のもとで40モデルほどぺぺっと推定し
+	- https://github.com/openai/openai-cookbook/blob/main/examples/Ques
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyNzI0MTE3LC0xNTQyNTc5MTMzLC0xOD
-U0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4
-MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMT
-AxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUy
-NjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LD
-E5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYz
-ODg4MV19
+eyJoaXN0b3J5IjpbMTc5NzkzMzE5MSwtMTU0MjU3OTEzMywtMT
+g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
+ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
+EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
+MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNC
+wxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2
+Mzg4ODFdfQ==
 -->
