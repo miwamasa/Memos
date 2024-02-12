@@ -220,7 +220,10 @@
 -  Google Colab で LLM-jp 13B v1.1 を試す by nakaさん
 	- https://note.com/npaka/n/n2c272727d95a?sub_rt=share_h
 	- 「LLM-jp 13B v1.1」は、「LLM-jp 13B」の最新版です。日英両データセットによるSFT、ichikaraデータセットの追加+DPOで対話応答性能が向上しています。
-	- 
+- OpenToM: A Comprehensive Benchmark for Evaluating Theory-of-Mind Reasoning Capabilities of Large Language Models
+	- https://arxiv.org/abs/2402.06044
+	- A wild Theory of Mind Benchmark has appeared:
+- 
 
 
 
@@ -4001,17 +4004,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://gpt-index.readthedocs.io/en/latest/examples/evaluation/semantic_similarity_eval.html
 - OpenAI謹製の、RAG(Q&A)のチュートリアル
 	- https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb
-- BQMLの時系列分析、ARiMAを適当なラグ設定のもとで40モデルほどぺぺっと推定してくれて、かつAICも推定してくれるので鬼便利
-	- https://x.com/behemuhemulove/status/1705629318439907451?s=20
-- LLMって何に使われているかのサーベイ
-	- https://x.com/dmvaldman/status/1705350469177295273?s=20
-	- １位：プログラムのエラーと解消法について、２位：AIのソフトウエアについての質問、３位：旅
+- BQMLの時系列分析、ARiMAを適当なラグ設定のもとで40モデルほどぺぺっと推定してくれて、かつAICも推定
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDkzMjk0NSwtMTU0MjU3OTEzMywtMT
-g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
-ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
-EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
-MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNC
-wxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2
-Mzg4ODFdfQ==
+eyJoaXN0b3J5IjpbODk4MzY3NzQzLC0xNTQyNTc5MTMzLC0xOD
+U0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4
+MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMT
+AxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUy
+NjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LD
+E5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYz
+ODg4MV19
 -->
