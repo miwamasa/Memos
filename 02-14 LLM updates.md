@@ -188,7 +188,14 @@
 	- Step 6: Implement a Document Retriever for Metadata
 	- Step 7: Integrate SQL Querying with a Data Warehouse
 	- Step 8: Develop a Prompt Refinement Engine
-	- 
+	- Step 9: Create a Response Post-processor
+	- Step 10: Deliver the Response
+- Buffer Overflow in Mixture of Experts
+	- https://arxiv.org/abs/2402.05526
+	- "Mixture of Experts (MoE) has become a key ingredient for scaling large foundation models while keeping inference costs steady. We show that expert routing strategies that have cross-batch dependencies are vulnerable to attacks. Malicious
+- WolframEngine+JupyterNotebookで疑似Mathematica
+	- https://x.com/blkcatman/status/1756219896026067052?s=20
+- 
 
 
 ## 2/5
@@ -4003,22 +4010,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 		- RestGPTではプランニング・APIの理解・APIの選択をそれぞれのモジュールが独立で行うため、複雑なユーザ要求にも柔軟に対応することが可能になっています。
 - 来年にはGPT-4を上回る能力を持つとされる３つのモデル
 	- ① OpenAI: GPT-4.5/GPT5 
-	- ② Google: Gemini 
-	- ③ Apple: Ajax
-	- Apple is reportedly spending ‘millions of dollars a day’ training AI
-	- https://www.theverge.com/2023/9/6/23861763/apple-ai-language-models-ajax-gpt-training-spending
-- 仏教対話AIの多様化に成功―親鸞ボットと菩薩ボットの増産―(京大）
-	- https://www.kyoto-u.ac.jp/ja/research-news/2023-09-12-0
-	- 生成系AI「ChatGPT 4」と宗教を掛け合わせた新型チャットボット「親鸞ボット」と「世親ボット」を共同開発し、仏教対話AIの多様化に成功しました。
-	- [会話事例](https://www.itmedia.co.jp/news/articles/2309/14/news083.html)が、地獄にしか見えないのは気のせい？
-- リクルートにおける数理最適化の 活用事例と産学連携の取り組み
-	- htt
+	- ② Google
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1NDYwOTQzLC0xNTQyNTc5MTMzLC0xOD
-U0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4
-MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMT
-AxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUy
-NjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LD
-E5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYz
-ODg4MV19
+eyJoaXN0b3J5IjpbMTY3NTU2MTQ4MywtMTU0MjU3OTEzMywtMT
+g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
+ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
+EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
+MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNC
+wxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2
+Mzg4ODFdfQ==
 -->
