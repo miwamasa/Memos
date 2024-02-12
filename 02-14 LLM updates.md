@@ -166,7 +166,9 @@
 	- https://ai-scholar.tech/articles/computation-and-language/Theory-of-Mind
 	- GPTは他者の心を読めるのか？ 実験において、GPT-3.5とGPT-4は高い正答率をマークしました。 
 	- 著者は、GPTが心の状態を推測できる理由として「言語能力の向上によって自発的に出現したのでは」と指摘。 AI研究における心理学的な視点の重要性を解
-- 
+- In-Context Principle Learning from Mistakes
+	- https://arxiv.org/abs/2402.05403
+	- 
 
 
 ## 2/5
@@ -4004,16 +4006,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- Adjacent Sequence Clustering
 	- 全体の文章をセンテンスに分割した後、チャンクに詰めていくのだが、その際に直前のセンテンスと処理中のセンテンスの意味的類似度を比較して、意味が離れているものは次のチャンクに詰める
 - llamaindexのRAG作成チュートリアル（ローレベル）
-	- https://gpt-index.readthedocs.io/en/latest/end_to_end_tutorials/low_level/root.html
-	- ローレベルというのは、プリミティブな処理で構成するという意味。
-- llamaindexのResponseの作り方
-	- Buildi
+	- https://gpt-index.readthedocs.io/en/latest/end_to_end_tutorials/low_lev
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMj
-M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
-Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC
-0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2
-MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2MjQsMTkyMzA0MDc3Mi
-wyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAxNjM4ODgxLDI0MzYx
-OTIwXX0=
+eyJoaXN0b3J5IjpbMTIxOTQzNTI1NCwtMTU0MjU3OTEzMywtMT
+g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
+ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
+EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
+MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNC
+wxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2
+Mzg4ODFdfQ==
 -->
