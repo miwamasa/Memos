@@ -200,7 +200,12 @@
 	- １．MambaはAttentionやMLPBlockを持たない簡素化されたアーキテクチャを有します。選択的状態空間モデル（Selective SSM：Selective State Space Model）という新しい構造を用いることで、必要な情報のみに注目し、計算効率の大幅な向上を達成しています。
 	- ２．高速な推論（Transformerの約5倍）を可能にするとともに、シーケンス長（トークン数などのこと）の増大に対して、推論コストが線形に増大するという特徴を有します（これまでのモデルでは非線形的な増大がありました）。この性能向上は実データにおける検証で、シーケンス長が1000k（１００万）においてまで確認されました。
 	- ３．GPUメモリ階層間の移動を最小限化するとともに、ハードウェアに最適化された並列アルゴリズムにより高速な計算が可能になり、要求されるメモリ容量も軽減されます
-	- 
+	- ４．パラメータ数2.8B以上の場合においてMambaは機能するのか、ハイパーパラメータのチューニング方法はTransformerなどと同じなのか、学習の不安定性はどうなのかといった点に関してはまだ不明であり、今後の研究が待たれます。
+	- ５．まだ不明な点も多いですが、様々な角度からの研究によって、Transformerを代替しうる有望なアーキテクチャであるというエビデンスも取得されつつあり、今後Mambaを知らなければ最先端の研究から取り残される可能性があります。
+-  栗田工業、機械学習使った材料探索で低環境負荷の防食剤開発へ
+	- https://xtech.nikkei.com/atcl/nxt/news/24/00208/?n_cid=nbpnxt_twbn
+	- 栗田工業さんらは冷却水の防食剤の開発のため、機械学習により数百万の分子から有望材料を抽出
+- 
 
 
 ## 2/5
@@ -3996,17 +4001,9 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 
 
 - Meta、GPT-4と同程度の性能を目指すモデルの学習を計画
-	- https://www.theverge.com/2023/9/10/23867323/meta-new-ai-model-gpt-4-openai-chatbot-google-apple
-	- AIトレーニングチップを買い集め、データセンターを構築
-	- 2024年の早い時期に新しい大規模言語モデルの学習を開始する予定
-	- 企業がAIツールを作成するために、再びこのモデルを無料にするよう働きかけている
-- Fine-tuning to Memorize Knowledge
-	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/knowledge/finetune_knowledge.html
-	- GPT4で、内部ドキュメントに対する、Q&Aを生成させてこれをつかって、LLMをファイチューニングする話。
-	- “bake in knowledge”と呼ぶらしい。
-- Open
+	- https://www.theverge.com/2023/9/10/23867323/m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODc5MDc5NTIsLTE1NDI1NzkxMzMsLT
+eyJoaXN0b3J5IjpbLTE0MzAwMjcwNjMsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
 MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
 wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
