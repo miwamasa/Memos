@@ -3,7 +3,7 @@
 
 ## 2/13
 
-今週は、BardがGeminiに改名され、一方、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、いかんなく才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判、Huggingfaceのデモ試すとたしかにすご。基本性能が高いの0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（死語）は軽く代替されるだろうな。「小さなLLM」、英語でも"Smaller LLM"と呼ばれるらしい、小さなLLMでいいんだな、LLMのLargeはモデルの大小ではないとうこと、評価によるとFlan-T5がぶっちぎり？ MoE関係では、Mixtral-8x7Bの日本語向けのLoRaとか、MoEを単純化してExpertの切り替えを試してみる例とか面白い試みがでてきた。探索なしでTransfomerだけでチェスマスタークラスのＡＩが作れるってのは、そうかもしれない。さてTransformerの次世代基盤の一つとされるMamba、日本語での詳細な解説や、MoEでもあるBlackMambaとか、やっぱりにぎやか。理論面では、岡野さんの解説、The Consensus Game、RAGの改良って生成と識別の間のゲームで説明できる？NVIDIAも自らcanary-1bとか、Audio Flamingoとか音声や対話関係のモデルをリリースしていて、自動運転の関係（運転手との対話）なのか。RAG関係も、Self RAGとか、GPT-4と組みあせた医療分野での評価とかいろいろ進んでいるが、評価フレームワークのragas 0.1がでたのか。知識グラフとのLLMの融合、Wikidata とかロードマップとか話題は続く。
+今週は、BardがGeminiに改名され、一方、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、いかんなく才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判、Huggingfaceのデモ試すとたしかにすご。基本性能が高いのか、0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり、どこかの職業がなくなるぞ。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（死語）は軽く代替されるだろうな。「小さなLLM」、英語でも"Smaller LLM"と呼ばれるらしい、小さなLLMでいいんだな、LLMのLargeはモデルの大小ではないとうこと、評価によるとFlan-T5がぶっちぎり？ MoE関係では、Mixtral-8x7Bの日本語向けのLoRaとか、MoEを単純化してExpertの切り替えを試してみる例とか面白い。基盤面では、探索なしでTransfomerだけでチェスマスタークラスのＡＩが作れるってのはきょうみ。さてTransformerの次世代基盤の一つとされるMamba、日本語での詳細な解説や、MoEでもあるBlackMambaとか、やっぱりにぎやか。理論面では、岡野さんの解説、The Consensus Game、RAGの改良って生成と識別の間のゲームで説明できる？NVIDIAも自らcanary-1bとか、Audio Flamingoとか音声や対話関係のモデルをリリースしていて、自動運転の関係（運転手との対話）なのか。RAG関係も、Self RAGとか、GPT-4と組みあせた医療分野での評価とかいろいろ進んでいるが、評価フレームワークのragas 0.1がでたのか。知識グラフとのLLMの融合、Wikidata とかロードマップとか話題は続く。
 
 -  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
 	- https://arxiv.org/abs/2402.00841
@@ -3993,13 +3993,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - e2e(end-to-end) LLM/RAG、RAG評価を含めてLLMでやるという話、について
 	- raysummit2023でのチュートリアル、jupyternotebookあるよ
 	- https://github.com/anyscale/ray-summit-2023-training/blob/main/Ray-LlamaIndex/notebooks/02_evaluation.ipynb
-- RAGを構成するときに、メタデータを与えるってのは役に立つわけだが、それをPydant
+- RAGを構成するときに、メタデータを与えるってのは役に立
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDMyNjA0NCwtMjA2NjAzMTc3NCwtMT
-U0MjU3OTEzMywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMy
-MDAzNTAsMTAyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyOD
-QsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5
-NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NT
-EsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2
-MTQ3MDM0NF19
+eyJoaXN0b3J5IjpbLTExMjQ5MDY2NjgsLTIwNjYwMzE3NzQsLT
+E1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIz
+MjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mj
+g0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0
+OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NT
+UxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5
+NjE0NzAzNDRdfQ==
 -->
