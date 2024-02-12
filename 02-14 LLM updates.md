@@ -211,8 +211,13 @@
 	- If you want to build user-facing RAG, you not only need to setup advanced retrieval, but also need to apply requisite layers of input/output filters for the following:
 - pandas-ai
 	- https://github.com/gventuri/pandas-ai
-	- 機能としてはpandasのデータフレームに対して直接自然言語で処理できるようにしたもので、軽く見た感じアルゴリズム的に新しいものはなさそうなもののhttp://df.chat(プロンプト)
-という形式での操作は斬新
+	- 機能としてはpandasのデータフレームに対して直接自然言語で処理できるようにしたもので、軽く見た感じアルゴリズム的に新しいものはなさそうなもののhttp://df.chat(プロンプト)という形式での操作は斬新
+- LLM-jp 13B v1.1リリース
+	- https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html
+	- 各種チューニングですごい流暢になってる。学習詳細も公開されてて参考になる。
+- The biggest Collection of Colab Based LLMs Fine tuning Notebooks
+	- 
+
 
 
 ## 2/5
@@ -4000,13 +4005,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - GPT-3.5-Turbo-Instruct
 	- https://chatgpt-lab.com/n/n2ed70597dfbf
 	- 既存の「GPT-3.5-Turbo」とは違ってチャットに特化したモデルではないため、モデルが広範な自然言語処理タスクを扱うことを可能にします
-	- OpenAIのテストでは、175Bのパラメータを持つGPTモデルよりも、1.3Bのパラメータを持つInstructGPTモデルの方が、100倍小さいにもかかわらず、人々に好まれることが示されている
-
-## 9/19
-
-GPT-4を活用して、データセットをつくって、他のＬＬＭをファインチューニングするとか、色々出ているが、MetaやAppleがGPT-4越えのLLMを来年に向け開発中。Appleが出遅れているのは、自動運転とかそっちにリソースを割かれているかとも、でもM2もっているし、ポテンシャルはある。あほなSiriの代わりになるの
+	- OpenAIのテストでは、175Bのパラメータを持つGPTモデルよりも、1.3Bのパラメータを持つInstructGPTモデルの方が、100倍小さいにも
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTIwMzAyMSwtMTU0MjU3OTEzMywtMT
+eyJoaXN0b3J5IjpbMTI1MDc2NzQ2MiwtMTU0MjU3OTEzMywtMT
 g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
 ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
 EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
