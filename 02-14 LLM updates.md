@@ -162,6 +162,7 @@
 -  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
 	- https://arxiv.org/abs/2402.00841
 	- Can "small" finetuned LLMs with less than 2B parameters outperform larger openly available LLMs (Mixtral, Llama 2 Chat) and proprietary LLMs (ChatGPT)? Here's a closer look at the Tiny Titans paper
+	- Flan-T5が最強らしい、
 -  GPTは他者の心の状態を推測できる？AI×心理学のすゝめ
 	- https://ai-scholar.tech/articles/computation-and-language/Theory-of-Mind
 	- GPTは他者の心を読めるのか？ 実験において、GPT-3.5とGPT-4は高い正答率をマークしました。 
@@ -4004,9 +4005,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://gpt-index.readthedocs.io/en/latest/examples/evaluation/semantic_similarity_eval.html
 - OpenAI謹製の、RAG(Q&A)のチュートリアル
 	- https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb
-- BQMLの時系列分析、ARiMAを適当なラグ設定のもとで40モデルほどぺぺっと推定してくれて、かつAICも推定
+- BQMLの時系列分析、ARiMAを適当なラグ設定のもとで40モデルほどぺぺっと推定し
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MzY3NzQzLC0xNTQyNTc5MTMzLC0xOD
+eyJoaXN0b3J5IjpbNzAyNzI0MTE3LC0xNTQyNTc5MTMzLC0xOD
 U0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4
 MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMT
 AxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUy
