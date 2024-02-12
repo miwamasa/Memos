@@ -3,7 +3,7 @@
 
 ## 2/13
 
-今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリース、75B-chatのデモなどでもGPT-4に迫る性能を示す。0.5BをTransfomer.jsでつかってもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクを
+今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリース、75B-chatのデモなどでもGPT-4に迫る性能を示す。0.5BをTransfomer.jsでつかってもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうな。
 
 MambaはTransformerの代わりになるか？
 
@@ -4005,10 +4005,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- 「Text generation web UI」は、oobabooga氏による**大規模言語モデル用の無料のWeb UI**
 	- ただし、ローカルに、GPUなどが必要**Windowsの場合NVIDIA製のグラボでのみ動作する**
 - Exploring ReAct Agent for Better Prompting in RAG Pipeline
-	- https://betterprogramming.pub/exploring-react-agent-for-better-prompting-in-rag-pipeline-b231aae0ca7c
-	- use ReAct Agent to analyze Amazon's recent disclosures and attitudes towards LLM
+	- https://betterprogramming.pub/exploring-react-agent-for-better-prompting-in-rag-pipeline-b231aae0c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE1NzY3NDQsLTE1NDI1NzkxMzMsLT
+eyJoaXN0b3J5IjpbLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
 MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
 wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
