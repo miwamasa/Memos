@@ -3,7 +3,7 @@
 
 ## 2/13
 
-今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリース
+今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリース、75B-chatのデモなどでもGPT-4に迫る性能を示す。早速量子化とかが広がり、たぶん、rinnaから1.5をベースとしたNekomata
 
 
 -  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
@@ -4005,11 +4005,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://betterprogramming.pub/exploring-react-agent-for-better-prompting-in-rag-pipeline-b231aae0ca7c
 	- use ReAct Agent to analyze Amazon's recent disclosures and attitudes towards LLMs in their SEC Exhibits 99.1 filings
 - RAGの評価、正解と答えとの比較評価で、従来のBLEU/ROUGEとかでなくて、単に類似性評価でよいという簡易は方法を提示
-	- https://gpt-index.readthedocs.io/en/latest/examples/evaluation/semantic_similarity_eval.html
-- OpenAI謹製の、RAG(Q&A)のチュートリアル
-	- https://github.co
+	- https://gpt-index.readthedocs.io/en/latest/examples/evaluation/semantic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjA1MTczLC0xNTQyNTc5MTMzLC0xOD
+eyJoaXN0b3J5IjpbODQyNjI4NzI0LC0xNTQyNTc5MTMzLC0xOD
 U0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4
 MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMT
 AxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUy
