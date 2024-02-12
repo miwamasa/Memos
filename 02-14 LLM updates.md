@@ -3,7 +3,7 @@
 
 ## 2/13
 
-今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真かｒ
+今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。
 
 
 -  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
@@ -4007,9 +4007,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - RAGの評価、正解と答えとの比較評価で、従来のBLEU/ROUGEとかでなくて、単に類似性評価でよいという簡易は方法を提示
 	- https://gpt-index.readthedocs.io/en/latest/examples/evaluation/semantic_similarity_eval.html
 - OpenAI謹製の、RAG(Q&A)のチュートリアル
-	- https://github.com/openai/openai-cookbook/blob/main/examples/Ques
+	- https://github.com/openai/openai-cookbook/bl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzkzMzE5MSwtMTU0MjU3OTEzMywtMT
+eyJoaXN0b3J5IjpbLTQ1MjY1Nzg1MCwtMTU0MjU3OTEzMywtMT
 g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
 ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
 EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
