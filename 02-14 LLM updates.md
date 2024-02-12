@@ -178,7 +178,17 @@
 		- GPT-3.5-TurboとGPT-4の質問応答性能が一貫して改善され、GPT-4が7.5%の改善を見せた
 		- 数学推論タスクでもGPT-3.5-turboとGPT-4で基準を上回る結果を示した
 		- Big-Bench Hardタスクでもスコアが一定程度上昇した
-- 
+- Step-by-step guide to build AI agents for structured and unstructured data.
+	- https://x.com/Saboo_Shubham_/status/1756123156400546251?s=20
+	- Step 1: Define the Chunking Strategy
+	- Step 2: Apply an Embedding Strategy
+	- Step 3: Implement a Document Retriever for Text
+	- Step 4: Use a Large Language Model (LLM)
+	- Step 5: Extract Metadata
+	- Step 6: Implement a Document Retriever for Metadata
+	- Step 7: Integrate SQL Querying with a Data Warehouse
+	- Step 8: Develop a Prompt Refinement Engine
+	- 
 
 
 ## 2/5
@@ -4002,20 +4012,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- 生成系AI「ChatGPT 4」と宗教を掛け合わせた新型チャットボット「親鸞ボット」と「世親ボット」を共同開発し、仏教対話AIの多様化に成功しました。
 	- [会話事例](https://www.itmedia.co.jp/news/articles/2309/14/news083.html)が、地獄にしか見えないのは気のせい？
 - リクルートにおける数理最適化の 活用事例と産学連携の取り組み
-	- https://speakerdeck.com/recruitengineers/rikurutoniokerushu-li-zui-shi-hua-no-huo-yong-shi-li-tochan-xue-lian-xi-noqu-rizu-mi
-	- 企業における数理最適化専門グループって、大変なのよね。
--  生成AIブームで多発の可能性　「PoC貧乏」
-	- https://forbesjapan.com/articles/detail/65744/page2
-	- 「生成AIで何かビジネスを作ってみて」と上層部が丸投げし、成果が出ないまま人件費がかさむ、ゆるやかなPoC貧乏が頻発することが考えられます。
-	- まあ、生成AIに限らないわけだが。。
-- Calls out of chaos: the adaptive significance of nonlinear phenomena in mammalian vocal production
-	- https://www.sciencedirect.com/science/article/abs/pii/S0003347201
+	- htt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjI5NjU1NCwtMTU0MjU3OTEzMywtMT
-g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
-ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
-EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
-MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNC
-wxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2
-Mzg4ODFdfQ==
+eyJoaXN0b3J5IjpbMzI1NDYwOTQzLC0xNTQyNTc5MTMzLC0xOD
+U0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4
+MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMT
+AxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUy
+NjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LD
+E5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYz
+ODg4MV19
 -->
