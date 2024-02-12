@@ -3,7 +3,7 @@
 
 ## 2/13
 
-今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリース、75B-chatのデモなどでもGPT-4に迫る性能を示す。0.5BをTransfomer.jsでつかってもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうな。
+今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判。0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（死語）は軽く代替されるだろうな。
 
 MambaはTransformerの代わりになるか？
 
@@ -4005,13 +4005,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- 「Text generation web UI」は、oobabooga氏による**大規模言語モデル用の無料のWeb UI**
 	- ただし、ローカルに、GPUなどが必要**Windowsの場合NVIDIA製のグラボでのみ動作する**
 - Exploring ReAct Agent for Better Prompting in RAG Pipeline
-	- https://betterprogramming.pub/exploring-react-agent-for-better-prompting-in-rag-pipeline-b231aae0c
+	- https://betterprogramming.pub/exploring-react-agent-for-better-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
-E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
-MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
-wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
-NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2Mj
-QsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAx
-NjM4ODgxXX0=
+eyJoaXN0b3J5IjpbLTE0ODg4NDAwNzUsLTIwNjYwMzE3NzQsLT
+E1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIz
+MjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mj
+g0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0
+OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NT
+UxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5
+NjE0NzAzNDRdfQ==
 -->
