@@ -216,6 +216,10 @@
 	- https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html
 	- 各種チューニングですごい流暢になってる。学習詳細も公開されてて参考になる。
 - The biggest Collection of Colab Based LLMs Fine tuning Notebooks
+	- https://github.com/ashishpatel26/LLM-Finetuning
+-  Google Colab で LLM-jp 13B v1.1 を試す by nakaさん
+	- https://note.com/npaka/n/n2c272727d95a?sub_rt=share_h
+	- 「LLM-jp 13B v1.1」は、「LLM-jp 13B」の最新版です。日英両データセットによるSFT、ichikaraデータセットの追加+DPOで対話応答性能が向上しています。
 	- 
 
 
@@ -4001,13 +4005,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://x.com/behemuhemulove/status/1705629318439907451?s=20
 - LLMって何に使われているかのサーベイ
 	- https://x.com/dmvaldman/status/1705350469177295273?s=20
-	- １位：プログラムのエラーと解消法について、２位：AIのソフトウエアについての質問、３位：旅行関係、４位：テキスト要約とか改善、５位：ビジネス戦略立案
-- GPT-3.5-Turbo-Instruct
-	- https://chatgpt-lab.com/n/n2ed70597dfbf
-	- 既存の「GPT-3.5-Turbo」とは違ってチャットに特化したモデルではないため、モデルが広範な自然言語処理タスクを扱うことを可能にします
-	- OpenAIのテストでは、175Bのパラメータを持つGPTモデルよりも、1.3Bのパラメータを持つInstructGPTモデルの方が、100倍小さいにも
+	- １位：プログラムのエラーと解消法について、２位：AIのソフトウエアについての質問、３位：旅
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDc2NzQ2MiwtMTU0MjU3OTEzMywtMT
+eyJoaXN0b3J5IjpbLTk2MDkzMjk0NSwtMTU0MjU3OTEzMywtMT
 g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
 ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
 EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
