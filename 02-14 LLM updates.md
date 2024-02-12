@@ -168,7 +168,17 @@
 	- 著者は、GPTが心の状態を推測できる理由として「言語能力の向上によって自発的に出現したのでは」と指摘。 AI研究における心理学的な視点の重要性を解
 - In-Context Principle Learning from Mistakes
 	- https://arxiv.org/abs/2402.05403
-	- 
+	- LLMに敢えて間違わせてルールを覚えさせ同じミスを避けるようにする新しいプロンプト手法が提案されています。
+	- ■新アプローチ 
+		- 1. モデルが間違いを犯すように促す 
+		- 2. モデル自身に、間違いに対する説明を生成させ、まずは低レベルの原則を形成。 
+		- 3. 低レベルの原則をまとめ、約5つのキーポイントに圧縮して高レベルの原則を生成 
+		- 4. 高レベルの原則を未見の例に対する応答を生成する際に利用 
+	- ■実験と結果 実験と結果の要約: 
+		- GPT-3.5-TurboとGPT-4の質問応答性能が一貫して改善され、GPT-4が7.5%の改善を見せた
+		- 数学推論タスクでもGPT-3.5-turboとGPT-4で基準を上回る結果を示した
+		- Big-Bench Hardタスクでもスコアが一定程度上昇した
+- 
 
 
 ## 2/5
@@ -3999,16 +4009,9 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- 「生成AIで何かビジネスを作ってみて」と上層部が丸投げし、成果が出ないまま人件費がかさむ、ゆるやかなPoC貧乏が頻発することが考えられます。
 	- まあ、生成AIに限らないわけだが。。
 - Calls out of chaos: the adaptive significance of nonlinear phenomena in mammalian vocal production
-	- https://www.sciencedirect.com/science/article/abs/pii/S0003347201919128
-	- 赤子の泣き声がカオス的なダイナミクスで、複雑さと予測不可能性によって親に無視させないようにする適応的意義があるらしい
-- 自然言語処理で扱うテキストのchunkingについて
-	- https://zenn.dev/hijikix/articles/f414b067e29a57
-	- Adjacent Sequence Clustering
-	- 全体の文章をセンテンスに分割した後、チャンクに詰めていくのだが、その際に直前のセンテンスと処理中のセンテンスの意味的類似度を比較して、意味が離れているものは次のチャンクに詰める
-- llamaindexのRAG作成チュートリアル（ローレベル）
-	- https://gpt-index.readthedocs.io/en/latest/end_to_end_tutorials/low_lev
+	- https://www.sciencedirect.com/science/article/abs/pii/S0003347201
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTQzNTI1NCwtMTU0MjU3OTEzMywtMT
+eyJoaXN0b3J5IjpbLTY4MjI5NjU1NCwtMTU0MjU3OTEzMywtMT
 g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
 ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
 EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
