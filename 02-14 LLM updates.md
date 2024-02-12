@@ -3,7 +3,7 @@
 
 ## 2/13
 
-今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判。0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（死語）は軽く代替されるだろうな。「小さなLLM」、英語でも"Smaller LLM"と呼ばれるらしい、小さなLLMでいいんだな、LLMのLargeはモデルの大小ではないとうこと、評価によるとFlan-T5がぶっちぎり？ MoE関係では、Mixtral-8x7Bの日本語向けのLoRaとか、MoEを単純化してExpertの切り替えを試してみる例とか面白い試みがでてきた。探索なしでTransfomerだけでチェスマスタークラスのＡＩが作れるってのは、そうかもしれない。さてTransformerの次世代基盤の一つとされるMamba、日本語での詳細な解説や、MoEでもあるBlackMambaとか、やっぱりにぎやか。理論面では、岡野さんの解説、The Consensus Game、RAGの改良って生成と識別の間のゲームで説明できる？NVIDIAも自らcanary-1bとか、Audio Flamingoとか音声や対話関係のモデルをリリースしていて、自動運転の関係（運転手との対話）なのか。RAG関係も、いろいろ進んでいるが、評価ふれむわーｋう
+今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判。0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（死語）は軽く代替されるだろうな。「小さなLLM」、英語でも"Smaller LLM"と呼ばれるらしい、小さなLLMでいいんだな、LLMのLargeはモデルの大小ではないとうこと、評価によるとFlan-T5がぶっちぎり？ MoE関係では、Mixtral-8x7Bの日本語向けのLoRaとか、MoEを単純化してExpertの切り替えを試してみる例とか面白い試みがでてきた。探索なしでTransfomerだけでチェスマスタークラスのＡＩが作れるってのは、そうかもしれない。さてTransformerの次世代基盤の一つとされるMamba、日本語での詳細な解説や、MoEでもあるBlackMambaとか、やっぱりにぎやか。理論面では、岡野さんの解説、The Consensus Game、RAGの改良って生成と識別の間のゲームで説明できる？NVIDIAも自らcanary-1bとか、Audio Flamingoとか音声や対話関係のモデルをリリースしていて、自動運転の関係（運転手との対話）なのか。RAG関係も、Self RAGとか、GPT-4tいろいろ進んでいるが、評価フレームワークのragas 0.1がでたのか。
 
 知識グラフとのLLMの融合、Wikidata とかロードマップとか話題は続く。
 
@@ -3996,10 +3996,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- raysummit2023でのチュートリアル、jupyternotebookあるよ
 	- https://github.com/anyscale/ray-summit-2023-training/blob/main/Ray-LlamaIndex/notebooks/02_evaluation.ipynb
 - RAGを構成するときに、メタデータを与えるってのは役に立つわけだが、それをPydantic ＋LLMで一発でできるという話、
-	- extract a full Pydantic object from any doc with 1 LLM call.
-	
+	- extract a full Pydantic obje
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxOTAxOTQ3LC0yMDY2MDMxNzc0LC0xNT
+eyJoaXN0b3J5IjpbNDgxMDg3NTUyLC0yMDY2MDMxNzc0LC0xNT
 QyNTc5MTMzLC0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIw
 MDM1MCwxMDI1NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NC
 wyNDYwMDA1MTcsMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0
