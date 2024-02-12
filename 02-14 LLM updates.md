@@ -3,9 +3,9 @@
 
 ## 2/13
 
-今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判。0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（死語）は軽く代替されるだろうな。小さなLLM、英語でもSmaller LLMと呼ばれるので、小さなLLMでいいんだな、LLMのLare
+今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判。0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（死語）は軽く代替されるだろうな。「小さなLLM」、英語でも"Smaller LLM"と呼ばれるらしい、小さなLLMでいいんだな、LLMのLargeはモデルの大小ではないとうこと、評価によるとFlan-T5がぶっちぎり？
 
-MambaはTransformerの代わりになるか？
+MambaはTransformerの代わりになるか？日本語での詳細な解説や、MoEでもあるBlackMamba
 
 知識グラフとのLLMの融合、Wikidata とかロードマップとか話題は続く。
 
@@ -4003,10 +4003,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - Text generation web UI で Xwin-LM-13B をロードして色々推論して遊んでみます。
 	- https://note.com/sa1p/n/n51170c4d1a1f
 	- 「Text generation web UI」は、oobabooga氏による**大規模言語モデル用の無料のWeb UI**
-	- ただし、ローカルに、GPUなどが必要**Windowsの場合NVIDIA製のグラボでのみ動作する**
-- Exploring ReAct Agent for Better Prompting in RAG Pipelin
+	- ただし、ローカルに、GPUなどが必要**Windowsの場合NVIDIA製のグ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODQxNjQzMiwtMjA2NjAzMTc3NCwtMT
+eyJoaXN0b3J5IjpbMTQyNDg3NzAwNSwtMjA2NjAzMTc3NCwtMT
 U0MjU3OTEzMywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMy
 MDAzNTAsMTAyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyOD
 QsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5
