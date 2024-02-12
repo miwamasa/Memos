@@ -55,6 +55,8 @@
 	- https://qwenlm.github.io/blog/qwen1.5/
 	- https://huggingface.co/collections/Qwen/qwen15-65c0a2f577b1ecb76d786524
 	- Qwen1.5 is the improved version of Qwen, the large language model series developed by Alibaba Cloud.
+- OllamaでもQwin1.5をサポート
+	- https://ollama.com/library/qwen
 -  Repeat After Me: Transformers are Better than State Space Models at Copying
 	- https://arxiv.org/abs/2402.01032
 	- Our recent work on the comparison between Transformers and State Space Models for sequence modeling now on arxiv! TLDR - we find a key disadvantage of SSMs compared to Transformers: they cannot copy from their input
@@ -3992,10 +3994,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://old.reddit.com/r/ChatGPT/comments/16m6yc7/gpt4_training_cutoff_date_is_now_january_2022/
 - e2e(end-to-end) LLM/RAG、RAG評価を含めてLLMでやるという話、について
 	- raysummit2023でのチュートリアル、jupyternotebookあるよ
-	- https://github.com/anyscale/ray-summit-2023-training/blob/main/Ray-LlamaIndex/notebooks/02_evaluation.ipynb
-- RAG
+	- https://github.com/anyscale/ray-summit-2023-training/bl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTE2MjQyMiwtMjA2NjAzMTc3NCwtMT
+eyJoaXN0b3J5IjpbLTUxNjgwOTgzMiwtMjA2NjAzMTc3NCwtMT
 U0MjU3OTEzMywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMy
 MDAzNTAsMTAyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyOD
 QsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5
