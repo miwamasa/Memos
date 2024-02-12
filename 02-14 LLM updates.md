@@ -195,7 +195,12 @@
 	- "Mixture of Experts (MoE) has become a key ingredient for scaling large foundation models while keeping inference costs steady. We show that expert routing strategies that have cross-batch dependencies are vulnerable to attacks. Malicious
 - WolframEngine+JupyterNotebookで疑似Mathematica
 	- https://x.com/blkcatman/status/1756219896026067052?s=20
-- 
+- 【Mamba】Transformerを凌駕しうるアーキテクチャを徹底解説（ソースコードあり）
+	- https://qiita.com/peony_snow/items/649ecb307cd3b5c10aa7
+	- １．MambaはAttentionやMLPBlockを持たない簡素化されたアーキテクチャを有します。選択的状態空間モデル（Selective SSM：Selective State Space Model）という新しい構造を用いることで、必要な情報のみに注目し、計算効率の大幅な向上を達成しています。
+	- ２．高速な推論（Transformerの約5倍）を可能にするとともに、シーケンス長（トークン数などのこと）の増大に対して、推論コストが線形に増大するという特徴を有します（これまでのモデルでは非線形的な増大がありました）。この性能向上は実データにおける検証で、シーケンス長が1000k（１００万）においてまで確認されました。
+	- ３．GPUメモリ階層間の移動を最小限化するとともに、ハードウェアに最適化された並列アルゴリズムにより高速な計算が可能になり、要求されるメモリ容量も軽減されます
+	- 
 
 
 ## 2/5
@@ -3999,24 +4004,13 @@ GPT-4を活用して、データセットをつくって、他のＬＬＭをフ
 	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/knowledge/finetune_knowledge.html
 	- GPT4で、内部ドキュメントに対する、Q&Aを生成させてこれをつかって、LLMをファイチューニングする話。
 	- “bake in knowledge”と呼ぶらしい。
-- OpenIntepreterを使っていると、OpenAIのAPIコールで10ドルが一瞬で溶ける。（デジタル庁楠さん）
-	- https://x.com/masanork/status/1701381113506329083?s=20
-	- つまり、ChatGPT Plusの月額課金が気前いいことになっている。
--  RestGPT: Connecting Large Language Models with Real-World RESTful APIs
-	- https://restgpt.github.io/
-	- ReActの発展形か、、
-	- https://zenn.dev/carnot/articles/7f87b613a0a637
-		- **言語のみの指示から複数のAPIを呼び出すことが可能**
-		- RestGPTではプランニング・APIの理解・APIの選択をそれぞれのモジュールが独立で行うため、複雑なユーザ要求にも柔軟に対応することが可能になっています。
-- 来年にはGPT-4を上回る能力を持つとされる３つのモデル
-	- ① OpenAI: GPT-4.5/GPT5 
-	- ② Google
+- Open
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTU2MTQ4MywtMTU0MjU3OTEzMywtMT
-g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
-ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
-EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
-MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NTEsLTUyNTQ2MTYyNC
-wxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2MTQ3MDM0NCw0MDE2
-Mzg4ODFdfQ==
+eyJoaXN0b3J5IjpbLTE3ODc5MDc5NTIsLTE1NDI1NzkxMzMsLT
+E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
+MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
+wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
+NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2Mj
+QsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAx
+NjM4ODgxXX0=
 -->
