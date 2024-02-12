@@ -3,8 +3,11 @@
 
 ## 2/13
 
-今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリース、75B-chatのデモなどでもGPT-4に迫る性能を示す。0.5BをTransfomer.jsでつかってもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、rinnaから1.5をベースとしたNekomataが出るに違いない。
+今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリース、75B-chatのデモなどでもGPT-4に迫る性能を示す。0.5BをTransfomer.jsでつかってもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。
 
+MambaはTransformerの代わりになるか？
+
+知識グラフとのLLMの融合ロードマップとか、
 
 -  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
 	- https://arxiv.org/abs/2402.00841
@@ -4004,14 +4007,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - Exploring ReAct Agent for Better Prompting in RAG Pipeline
 	- https://betterprogramming.pub/exploring-react-agent-for-better-prompting-in-rag-pipeline-b231aae0ca7c
 	- use ReAct Agent to analyze Amazon's recent disclosures and attitudes towards LLMs in their SEC Exhibits 99.1 filings
-- RAGの評価、正解と答えとの比較評価で、従来のBLEU/ROUGEとかでなくて、単に類似性評価でよいという簡易は方法を提示
-	- https://gpt-index.rea
+- RAGの評価、正解と答えとの比較評価で、従来のBLEU/ROUGEとかでなくて、単に
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwNDQ3MzcxLC0xNTQyNTc5MTMzLC0xOD
-U0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4
-MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMT
-AxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUy
-NjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LD
-E5MjMwNDA3NzIsMjI2NzY3OTk4LC0xOTYxNDcwMzQ0LDQwMTYz
-ODg4MV19
+eyJoaXN0b3J5IjpbLTExODg1ODE1MTAsLTE1NDI1NzkxMzMsLT
+E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
+MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
+wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
+NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01MjU0NjE2Mj
+QsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5NjE0NzAzNDQsNDAx
+NjM4ODgxXX0=
 -->
