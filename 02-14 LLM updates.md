@@ -3,11 +3,11 @@
 
 ## 2/13
 
-今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判。0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（死語）は軽く代替されるだろうな。
+今週は、BardがGeminiに改名され、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から店舗を特定したりと、才能を発揮しています。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判。0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速量子化とかが広がり、たぶん、日本語LLMもQwen-1.5ベースの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（死語）は軽く代替されるだろうな。小さなLLM、英語でもSmaller LLMと呼ばれるので、小さなLLMでいいんだな、LLMのLare
 
 MambaはTransformerの代わりになるか？
 
-知識グラフとのLLMの融合ロードマップとか、
+知識グラフとのLLMの融合、Wikidata とかロードマップとか話題は続く。
 
 -  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
 	- https://arxiv.org/abs/2402.00841
@@ -4004,14 +4004,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://note.com/sa1p/n/n51170c4d1a1f
 	- 「Text generation web UI」は、oobabooga氏による**大規模言語モデル用の無料のWeb UI**
 	- ただし、ローカルに、GPUなどが必要**Windowsの場合NVIDIA製のグラボでのみ動作する**
-- Exploring ReAct Agent for Better Prompting in RAG Pipeline
-	- https://betterprogramming.pub/exploring-react-agent-for-better-
+- Exploring ReAct Agent for Better Prompting in RAG Pipelin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg4NDAwNzUsLTIwNjYwMzE3NzQsLT
-E1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIz
-MjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mj
-g0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0
-OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NT
-UxLC01MjU0NjE2MjQsMTkyMzA0MDc3MiwyMjY3Njc5OTgsLTE5
-NjE0NzAzNDRdfQ==
+eyJoaXN0b3J5IjpbLTk3ODQxNjQzMiwtMjA2NjAzMTc3NCwtMT
+U0MjU3OTEzMywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMy
+MDAzNTAsMTAyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyOD
+QsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5
+NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5NDk1Njk1NT
+EsLTUyNTQ2MTYyNCwxOTIzMDQwNzcyLDIyNjc2Nzk5OCwtMTk2
+MTQ3MDM0NF19
 -->
