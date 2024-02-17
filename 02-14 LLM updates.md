@@ -1,7 +1,9 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
-＃＃
+## 2/19
+
+- 
 
 ## 2/13
 
@@ -3993,13 +3995,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://www.itmedia.co.jp/news/articles/2309/21/news085.html
 	- Xwin-LMは米Metaが公開したAI「Llama2」をベースにしており、教師ありファインチューニング、報酬モデル、リジェクトサンプリング、強化学習などを使って調整したものという。パラメータ数はLlama2と同じく70億、130億、700億の3つのモデルを用意。中でも最大である700億の「Xwin-LM-70B-V0.1」は、AlpacaEvalの評価基準である「Text-Davinci-003」（GPT-3のモデルの一つ）に対する勝率で95.57％を記録。勝率95.28％のGPT-4を追い抜いたとしている。
 - ChatGPTの知識が、2022年1月までの知識も反映した模様
-	- https://old.reddit.com/r/ChatGPT/comments/16m6yc7/gpt4_tr
+	- https://old.reddit.com/r/ChatGPT/comments/16m6yc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQyMTMxNDcsOTU4MjEzMDk0LDc2MT
-A5MTQ0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5
-MTMzLC0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MC
-wxMDI1NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYw
-MDA1MTcsMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2ND
-UsMzA5NjUyNjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNTI1
-NDYxNjI0XX0=
+eyJoaXN0b3J5IjpbMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
+kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
+MzMsLTE4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLD
+EwMjU0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAw
+MDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NS
+wzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01MjU0
+NjE2MjRdfQ==
 -->
