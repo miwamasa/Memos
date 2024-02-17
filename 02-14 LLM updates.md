@@ -110,7 +110,12 @@
 -  GraphRAG: Unlocking LLM discovery on narrative private data by Microsoft
 	- https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/
 	- Microsoft is transforming retrieval-augmented generation with GraphRAG, using LLM-generated knowledge graphs to significantly improve Q&A when analyzing complex information and consistently outperforming baseline RAG
-- 
+-  In-Context Language Learning: Architectures and Algorithms
+	- https://arxiv.org/abs/2401.12973
+	- Transformer の代替としての Mamba 含む SSMs や他の subquadratic なアーキテクチャ (e.g, RetNet, RKWV) を「入力に依存した推論を許すか」・「線形/非線形か」で整理するとめちゃくちゃ見通しが良くなる．
+- OpenAIがMicrosoftと強力し国家関連の脅威アクターによるAIの悪意あるサイバー活動に関する利用をしていたアカウントを停止。
+	- https://x.com/bioshok3/status/1757834888705945971?s=20
+- Open AI 動画生成AI 『Sora』をリリース
 
 ## 2/13
 
@@ -4000,13 +4005,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 
 ## 9/25
 
-相も合わらず、RAG(Retrieval Augmented Generation)関係が多いのはご容赦。上位のLLM(GPT-4とか）をつかって正解をつくって、RAGを評価する仕組みとか、この評価の仕組みをつかって別のLLＭ(gpt-3.5-turboとか)をRAG向けにfine-tuningするなんてのが、e2e(end-to-end)の手法として当たり前になりつつある。「知識は樹木のようなもの」とのたまうスクエニの三宅さんの話はいつも面白い。SOPをつかったAgentsというのはagentの可制御性という意味で面白い。Transformers.jsをつかったWeb LLMの新手が登場。Xwin-LM-70BがGPT-4超えか？というのがもっぱらの話題。LLMが創造性を持つか？の論文での創造性の３つの基準（価値、新規性、驚き）って、特許提案と同じだよね、LLMが特許提案できるか？に置き換えても同じ。instructorというopenai function callingにpydanticを組み合わせられるライブラリ使ってみたい。RAGでもメタ情報抽出にpydantic使ったりとか、この辺りも定番化か。ChatGPTの知識が、2022年1月までの知識までアプデされた。LLMの利用サーベイ、「５位：ビジネス戦略立案」ってのは笑ったね。gpt-3.5-turbo-instructというのが出てるのね、コンパクトで、言
+相も合わらず、RAG(Retrieval Augmented Generation)関係が多いのはご容赦。上位のLLM(GPT-4とか）をつかって正解をつくって、RAGを評価する仕組みとか、この評価の仕組みをつかって別のLLＭ(gpt-3.5-turboとか)をRAG向けにfine-tuningするなんてのが、e2e(end-to-end)の手法として当たり前になりつつある。「知識は樹木のようなもの」とのたまうスクエニの三宅さんの話はいつも面白い。SOPをつかったA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3NTUxOTQ5LDIzNTc5MjY0NCwtMjAyNz
-M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
-MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
-g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
-ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
-EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
-MjYwXX0=
+eyJoaXN0b3J5IjpbMjMxOTY4NTcsMjM1NzkyNjQ0LC0yMDI3Mz
+Y2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0x
+NDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xOD
+U0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4
+MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMT
+AxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUy
+NjBdfQ==
 -->
