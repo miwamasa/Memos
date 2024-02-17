@@ -63,7 +63,10 @@
 	- 合計で114言語をカバーする5億1300万ペアのプロンプトと補完文を含んでおり、Apache 2.0ライセンスとの事
 -  LlamaIndex v0.10 の概要 by npakaさん
 	- https://note.com/npaka/n/nb8acc1f63312?sub_rt=share_h
-	- 
+	- 「**LlamaIndex v0.10**」は、過去最大のアップデート
+	- 「ServiceContext」を非推奨にして、「LlamaIndex」の開発者エクスペリエンスを向上させます。
+	- 時間が経つにつれて、このオブジェクトは使いにくくなりました。 service_context コンテナ全体を任意のモジュールに渡すと、どのコンポーネントが実際に使用されているかを推論するのが困難になりました。 すべてのモジュールがデフォルトで OpenAI を使用するため、ユーザーはローカルモデルを使用したい場合でも、不必要にOpenAIキーを指定するように求められていました。 インポートして入力するのも大変でした
+-  LongMamba
 
 ## 2/13
 
@@ -4001,17 +4004,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 -  Benchmarking `gpt-3.5-turbo-instruct` on agents doing question-answering over tabular data
 	- https://github.com/langchain-ai/langchain-benchmarks/blob/main/csv-qa/pandas_agent_instruct.py
 	- It performed roughly the same as gpt-3.5-turbo (the chat model) with roughly ~67% accuracy
-	- It errored twice due to misformatted output - without function prompting for output format becomes much more important
-- StableDiffusionで生成した画像から3Dモデルを"AIで"作成し、Unity上でキャラクターを動かすまで【CSM AIの使い方】
-	- https://note.com/okp_/n/n89b96384e0cb?sub_rt=share_b
-- llamaindexのチュートリアル、“building RAG from scratch” -
-	- https://gpt-index.r
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5OTMzNzMxLC0yMDI3MzY2NDQ0LDE2MT
-U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
-LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
-IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
-NzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NC
-wtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2
-NjIzMV19
+eyJoaXN0b3J5IjpbMTg5NDEzMDE1OSwtMjAyNzM2NjQ0NCwxNj
+E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
+MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
+wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
+MzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OT
+QsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3
+NjYyMzFdfQ==
 -->
