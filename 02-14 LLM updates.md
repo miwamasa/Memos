@@ -26,7 +26,25 @@
 	- https://arxiv.org/abs/2402.06196
 	- 大規模言語モデル（LLM）これまでとこれからを包括的に整理したサーベイ論文が公開されています。
 	- ■小さくて効率的なモデルを開発する 
-		- - 大きなモデルは高コストで非効率的である - そのためタスク特化の小型モデルへの関心が高まっている - パラメータ効率の良いファインチューニングや、教師あり学習、蒸留法などの技術が活用される ■アーキテクチャのパラダイムを変える - トランスフォーマーの"次"に関心が高まっている - アテンションモデルに変わる状態空間モデル（Mambaなど）が筆頭候補 - 新アーキテクチャは長いコンテキストを効率よく扱うなどの優位性が確認されている ■マルチモーダルモデルに進化させる - テキスト、画像、動画、音声など様々なデータタイプを統一的に扱うようになっていく - アプリケーションの幅が広がる - すでに優秀なモデルが出現し始めており、この流れは続いてくだろう ■実用性を向上させる - LLMの短所（幻覚など）はプロンプトエンジニアリングや外部ツール、RAGなどで対処できることが分かり始めている - 従来の機械学習システムを代替していく流れが起きている - 個人の好みにパーソナライズするような設計が人気を集めている ■セキュリティ対策を強化する - 敵対的攻撃からモデルを守るのが重要になっている - 倫理的な懸念やバイアスに対処するための研究も活発化している - 機密情報を責任を持って扱うように努力されている
+		- 大きなモデルは高コストで非効率的である
+		- そのためタスク特化の小型モデルへの関心が高まっている 
+		- パラメータ効率の良いファインチューニングや、教師あり学習、蒸留法などの技術が活用される 
+	- ■アーキテクチャのパラダイムを変える 
+		- トランスフォーマーの"次"に関心が高まっている
+		- アテンションモデルに変わる状態空間モデル（Mambaなど）が筆頭候補 
+		- 新アーキテクチャは長いコンテキストを効率よく扱うなどの優位性が確認されている 
+	- ■マルチモーダルモデルに進化させる
+		- テキスト、画像、動画、音声など様々なデータタイプを統一的に扱うようになっていく
+		- アプリケーションの幅が広がる
+		- すでに優秀なモデルが出現し始めており、この流れは続いてくだろう 
+	- ■実用性を向上させる 
+		- LLMの短所（幻覚など）はプロンプトエンジニアリングや外部ツール、RAGなどで対処できることが分かり始めている
+		- 従来の機械学習システムを代替していく流れが起きている
+		- 個人の好みにパーソナライズするような設計が人気を集めている 
+	- ■セキュリティ対策を強化する
+		- 敵対的攻撃からモデルを守るのが重要になっている
+		- 倫理的な懸念やバイアスに対処するための研究も活発化している 
+		- 機密情報を責任を持って扱うように努力されている
 - 
 
 ## 2/13
@@ -3992,13 +4010,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 		- RAGStringQueryEngineというので、任意のpromptを投入できる？！
 		- なるほどこれは役に立つ
 		- https://gpt-index.readthedocs.io/en/latest/examples/query_engine/custom_query_engine.html
-- An in-browser version of ChatGPT (or HF Chat), built with Hu
+- An in-browser
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4MDA4MjA5LC0yMDI3MzY2NDQ0LDE2MT
-U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
-LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
-IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
-NzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NC
-wtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2
-NjIzMV19
+eyJoaXN0b3J5IjpbLTc4NjExNTcwNywtMjAyNzM2NjQ0NCwxNj
+E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
+MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
+wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
+MzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OT
+QsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3
+NjYyMzFdfQ==
 -->
