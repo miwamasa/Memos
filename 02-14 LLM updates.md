@@ -5,10 +5,17 @@
 
 -  LlamaIndex v0.10
 	- https://blog.llamaindex.ai/llamaindex-v0-10-838e735948f8
+	- https://x.com/llama_index/status/1757121818115322076?s=20
 	- our biggest open-source release to date, and a massive step towards production-readiness.
 	- Create a core package, split off every integration/template into separate PyPi packages.
 	- Refactor LlamaHub to become a central hub of all integrations (WIP)
-	- 
+	- Deprecate ServiceContext: Your dev UX is now way better without this object.
+- Chat with RTX from NVIDIA
+	- https://x.com/NVIDIAAIDev/status/1757447655674819053?s=20
+- Deepreneur-blue-lizard
+	- https://huggingface.co/Deepreneur/blue-lizard
+	- MetaのLlama-2-7bに対して、Wikipediaや書籍等の日本語の学習データを用いて追加事前学習と独自データによるファインチューニングを実施したモデルです。  
+70億パラメータと非常に軽量なモデルであるにも関わらず、JGLUE（日本語タスクにおける評価ベンチマーク）を用いた評価では、ChatGPT-3.5を超えるスコアが算出されており、公開されている日本語モデルの中では最高性能になります。
 
 ## 2/13
 
@@ -3990,17 +3997,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- ボーデンの３つの基準（価値、新規性、驚き）や他の哲学的理論に基づいて、LLMの創造性を検証
 	- LLMは価値を持つ作品やアイデアを生成することができますが、新規性や驚きについては弱い
 	- LLMは人間と同じような創造性を持っているとは言えません
-	- 異なる学習方法や適応能力を持つモデルを開発することで、探索的や変革的な創造性を実現することができるかもしれません
-	- LLMは人間と協働することで、人間の創造性を補完したり刺激したりすることができます
--  RAG is more than just embedding search
-	- https://jxnl.github.io/instructor/blog/2023/09/17/rag-is-more-than-just-embedding-search/
-	- シンプルなベクトルサーチベースの課題を述べながら、instructorというopenai function callingにpydanticを組み合わせられるライブラリを紹介している記事
-	- 課題の一つ、-   **Query-Document Mismatch**:ドキュメントと質問のembbedingって同じ空間でないと意味ないよね（地産地消の場合を除く）
-- Xwin-LM-70BがGPT-4超え？
-	- https://www.itmedia.co.jp/news/articles/2309/21/news085.html
-	- Xwin-LM
+	- 異なる学習方法や適応能力を持
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTgxMDI0OSwxNjE1ODIwNDU5LDk1OD
+eyJoaXN0b3J5IjpbLTk5NTA5MDgxNiwxNjE1ODIwNDU5LDk1OD
 IxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3
 NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLT
 IxMjMyMDAzNTAsMTAyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcw
