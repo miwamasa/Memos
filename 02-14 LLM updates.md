@@ -67,6 +67,13 @@
 	- 「ServiceContext」を非推奨にして、「LlamaIndex」の開発者エクスペリエンスを向上させます。
 	- 時間が経つにつれて、このオブジェクトは使いにくくなりました。 service_context コンテナ全体を任意のモジュールに渡すと、どのコンポーネントが実際に使用されているかを推論するのが困難になりました。 すべてのモジュールがデフォルトで OpenAI を使用するため、ユーザーはローカルモデルを使用したい場合でも、不必要にOpenAIキーを指定するように求められていました。 インポートして入力するのも大変でした
 -  LongMamba
+	- https://github.com/jzhang38/LongMamba
+	- We present LongMamba, an early exploration of Mamba's **longer context extrapolation ability**. Our #LongMamba manages to retrieve *nearly perfectly* on a window context of 16384
+- AutoMathText: A 200GB dataset of mathematical texts open sourced
+	- https://huggingface.co/papers/2402.07625
+	- Multi-source : arXiv/programming code/web pages  
+	- Filtered and processed to adapte Math reasoning  
+	- Selected by Qwen 72B
 
 ## 2/13
 
@@ -3997,16 +4004,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - Let's Verify Step by Step
 	- https://arxiv.org/abs/2305.20050
 	- LLMが複雑な問題を推論できるのは、学習中に推論方法（解き方）にアクセスし、その解き方を学んでいるからといえる
-- 自律言語エージェントを構築するためのフレームワーク Agents を試す by npakaさん
-	- https://note.com/npaka/n/n089614881df8
-	- 「**Agents**」は、**自律言語エージェントを構築するためのフレームワーク**
-	- 「**SOP**」(Standard Operation Process) を通じて言語エージェントにきめ細かい制御とガイダンスを提供できることです。「SOP」は**タスク全体のサブゴール / サブタスクを定義**し、ユーザーが言語エージェントのきめ細かいワークフローをカスタマイズできるようにします。
--  Benchmarking `gpt-3.5-turbo-instruct` on agents doing question-answering over tabular data
-	- https://github.com/langchain-ai/langchain-benchmarks/blob/main/csv-qa/pandas_agent_instruct.py
-	- It performed roughly the same as gpt-3.5-turbo (the chat model) with roughly ~67% accuracy
-	-
+- 自律言語エージェン
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDEzMDE1OSwtMjAyNzM2NjQ0NCwxNj
+eyJoaXN0b3J5IjpbMTc5NjMyNDI4OCwtMjAyNzM2NjQ0NCwxNj
 E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
 MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
 wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
