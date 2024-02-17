@@ -14,8 +14,11 @@
 	- https://x.com/NVIDIAAIDev/status/1757447655674819053?s=20
 - Deepreneur-blue-lizard
 	- https://huggingface.co/Deepreneur/blue-lizard
+	- 東京大学松尾研究室発のAIスタートアップ、株式会社Deepreneur(ディープレナー
 	- MetaのLlama-2-7bに対して、Wikipediaや書籍等の日本語の学習データを用いて追加事前学習と独自データによるファインチューニングを実施したモデルです。  
-70億パラメータと非常に軽量なモデルであるにも関わらず、JGLUE（日本語タスクにおける評価ベンチマーク）を用いた評価では、ChatGPT-3.5を超えるスコアが算出されており、公開されている日本語モデルの中では最高性能になります。
+	- 70億パラメータと非常に軽量なモデルであるにも関わらず、JGLUE（日本語タスクにおける評価ベンチマーク）を用いた評価では、ChatGPT-3.5を超えるスコアが算出されており、公開されている日本語モデルの中では最高性能になります。
+	-  株式会社Deepreneur、ChatGPT-3.5を上回る日本語LLM「blue-lizard」を開発。各社独自の高精度オンプレ型のLLMの構築サービスを開始
+- 
 
 ## 2/13
 
@@ -3994,16 +3997,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 -  LLMが持つ/持たない/持ちうる創造性についての論文
 	- On the Creativity of Large Language Models
 	- https://arxiv.org/abs/2304.00008
-	- ボーデンの３つの基準（価値、新規性、驚き）や他の哲学的理論に基づいて、LLMの創造性を検証
-	- LLMは価値を持つ作品やアイデアを生成することができますが、新規性や驚きについては弱い
-	- LLMは人間と同じような創造性を持っているとは言えません
-	- 異なる学習方法や適応能力を持
+	- ボーデ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTA5MDgxNiwxNjE1ODIwNDU5LDk1OD
-IxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3
-NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLT
-IxMjMyMDAzNTAsMTAyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcw
-MzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0OD
-EsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5NDk1
-Njk1NTFdfQ==
+eyJoaXN0b3J5IjpbLTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NT
+gyMTMwOTQsNzYxMDkxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3
+NzQsLTE1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMjM3ODYzMjUyLC
+0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3
+MDM5Mjg0LDI0NjAwMDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyND
+gxLDk0OTQ5MTY0NSwzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5
+NTY5NTUxXX0=
 -->
