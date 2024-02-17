@@ -116,6 +116,9 @@
 - OpenAIがMicrosoftと強力し国家関連の脅威アクターによるAIの悪意あるサイバー活動に関する利用をしていたアカウントを停止。
 	- https://x.com/bioshok3/status/1757834888705945971?s=20
 - Open AI 動画生成AI 『Sora』をリリース
+	- 
+	- Googleが切り札的に電撃公開したGemini 1.5の数時間後に、OpenAIが世界の話題を掻っ攫うレベルの動画生成AIのSoraをぶつけてきた
+- 
 
 ## 2/13
 
@@ -4005,13 +4008,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 
 ## 9/25
 
-相も合わらず、RAG(Retrieval Augmented Generation)関係が多いのはご容赦。上位のLLM(GPT-4とか）をつかって正解をつくって、RAGを評価する仕組みとか、この評価の仕組みをつかって別のLLＭ(gpt-3.5-turboとか)をRAG向けにfine-tuningするなんてのが、e2e(end-to-end)の手法として当たり前になりつつある。「知識は樹木のようなもの」とのたまうスクエニの三宅さんの話はいつも面白い。SOPをつかったA
+相も合わらず、RAG(Retrieval Augmented Generation)関係が多いのはご容赦。上位のLLM(GPT-4とか）をつかって正解をつくって、RAGを評価する仕組みとか、この評価の仕組みをつかって別のLLＭ(gpt-3.5-turboとか)をRAG向けにfine-tuningす
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxOTY4NTcsMjM1NzkyNjQ0LC0yMDI3Mz
-Y2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0x
-NDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xOD
-U0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4
-MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMT
-AxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUy
-NjBdfQ==
+eyJoaXN0b3J5IjpbMTExMjcxNjEwMCwyMzU3OTI2NDQsLTIwMj
+czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
+LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
+E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
+MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
+wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
+NTI2MF19
 -->
