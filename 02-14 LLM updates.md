@@ -104,7 +104,13 @@
 -  Mixtures of Experts Unlock Parameter Scaling for Deep RL
 	- https://huggingface.co/papers/2402.08609
 	- Google Deepmind presents Mixtures of Experts Unlock Parameter Scaling for Deep RL
-	- 
+-  Google Colabでの日本語Mambaの事前学習
+	- https://note.com/hatti8/n/na9782b7fa437?sub_rt=share_pb
+	- 日本語モデルがないので、日本語Mambaの事前学習のコードを作成しました。Google colabで動くことは確認したもののA100(40B)でも**15時間近くかかるので実質最後までは実行できないです。**
+-  GraphRAG: Unlocking LLM discovery on narrative private data by Microsoft
+	- https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/
+	- Microsoft is transforming retrieval-augmented generation with GraphRAG, using LLM-generated knowledge graphs to significantly improve Q&A when analyzing complex information and consistently outperforming baseline RAG
+- 
 
 ## 2/13
 
@@ -3994,22 +4000,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 
 ## 9/25
 
-相も合わらず、RAG(Retrieval Augmented Generation)関係が多いのはご容赦。上位のLLM(GPT-4とか）をつかって正解をつくって、RAGを評価する仕組みとか、この評価の仕組みをつかって別のLLＭ(gpt-3.5-turboとか)をRAG向けにfine-tuningするなんてのが、e2e(end-to-end)の手法として当たり前になりつつある。「知識は樹木のようなもの」とのたまうスクエニの三宅さんの話はいつも面白い。SOPをつかったAgentsというのはagentの可制御性という意味で面白い。Transformers.jsをつかったWeb LLMの新手が登場。Xwin-LM-70BがGPT-4超えか？というのがもっぱらの話題。LLMが創造性を持つか？の論文での創造性の３つの基準（価値、新規性、驚き）って、特許提案と同じだよね、LLMが特許提案できるか？に置き換えても同じ。instructorというopenai function callingにpydanticを組み合わせられるライブラリ使ってみたい。RAGでもメタ情報抽出にpydantic使ったりとか、この辺りも定番化か。ChatGPTの知識が、2022年1月までの知識までアプデされた。LLMの利用サーベイ、「５位：ビジネス戦略立案」ってのは笑ったね。gpt-3.5-turbo-instructというのが出てるのね、コンパクトで、言語生成に適したモデル（チャット用ではない）、これはfine-tuning用なのか？？、LLM向けAI半導体「SN40L」ってのも期待。
-
-- ちょっとした気配りで皆を幸せにする GitHub の使い方
-	- https://qiita.com/squid-cat/items/7166317e60d3ff96ccb7
-	- PR がレビューされない環境を作らない
-- 米国のAI企業公聴会より、Nvidiaの証言が素晴らしい
-	- https://x.com/Yampeleg/status/1703774531771363738?s=20
-	- OpenAI: AI will kill us. 
-	- Anthropic: AI will kill us. 
-	- InflectionAI: AI will kill us. 
-	- Nvidia: Fortunately uncontrollable Artificial General Intelligence is Science Fiction not reality.
-- 知識と技術の継承としてのAI by スクエニ三宅さん
-	- https://togetter.com/li/2226417
-	- その分野の専門家が持つそういった知識体系が、その教授なり専門家の価値なわけであるが、実際のところ、近くにいて話しかけなければ、自分にと
+相も合わらず、RAG(Retrieval Augmented Generation)関係が多いのはご容赦。上位のLLM(GPT-4とか）をつかって正解をつくって、RAGを評価する仕組みとか、この評価の仕組みをつかって別のLLＭ(gpt-3.5-turboとか)をRAG向けにfine-tuningするなんてのが、e2e(end-to-end)の手法として当たり前になりつつある。「知識は樹木のようなもの」とのたまうスクエニの三宅さんの話はいつも面白い。SOPをつかったAgentsというのはagentの可制御性という意味で面白い。Transformers.jsをつかったWeb LLMの新手が登場。Xwin-LM-70BがGPT-4超えか？というのがもっぱらの話題。LLMが創造性を持つか？の論文での創造性の３つの基準（価値、新規性、驚き）って、特許提案と同じだよね、LLMが特許提案できるか？に置き換えても同じ。instructorというopenai function callingにpydanticを組み合わせられるライブラリ使ってみたい。RAGでもメタ情報抽出にpydantic使ったりとか、この辺りも定番化か。ChatGPTの知識が、2022年1月までの知識までアプデされた。LLMの利用サーベイ、「５位：ビジネス戦略立案」ってのは笑ったね。gpt-3.5-turbo-instructというのが出てるのね、コンパクトで、言
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyMzUwNzQ0LDIzNTc5MjY0NCwtMjAyNz
+eyJoaXN0b3J5IjpbMjU3NTUxOTQ5LDIzNTc5MjY0NCwtMjAyNz
 M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
 MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
 g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
