@@ -45,7 +45,11 @@
 		- 敵対的攻撃からモデルを守るのが重要になっている
 		- 倫理的な懸念やバイアスに対処するための研究も活発化している 
 		- 機密情報を責任を持って扱うように努力されている
-- 
+- 実践！大規模言語モデル / 1000億パラメータ越えモデルを動かすには？
+	- https://zenn.dev/turing_motors/articles/26e1f1be50c0b5
+	- BLOOM-1Bを動かしてみる
+		- 10億パラメータ数程度のモデルであれば、GPUメモリが12GB以上のGPUであれば推論することが可能です。Google Colaboratoryで提供されているGPUインスタンスで動かすことができます
+	- 
 
 ## 2/13
 
@@ -4006,17 +4010,12 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 		- 分子構造や実験データを扱えるようにするためのプラグイン
 		- マルチモーダルモデルの開発最新の化学情報を学習できるようにするためのローカルモデル
 		- 推論や計画能力を向上させるためのアルゴリズムやハードウェアの革新
-- llamaindexにて、RAGにおいて、カスタムプロンプトをつかったQueryを使う方法、
-		- RAGStringQueryEngineというので、任意のpromptを投入できる？！
-		- なるほどこれは役に立つ
-		- https://gpt-index.readthedocs.io/en/latest/examples/query_engine/custom_query_engine.html
-- An in-browser
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjExNTcwNywtMjAyNzM2NjQ0NCwxNj
-E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
-MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
-wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
-MzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OT
-QsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3
-NjYyMzFdfQ==
+eyJoaXN0b3J5IjpbNjA0NjIyMjQxLC0yMDI3MzY2NDQ0LDE2MT
+U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
+LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
+IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
+NzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NC
+wtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2
+NjIzMV19
 -->
