@@ -86,7 +86,12 @@
 		- 論文生成が簡単になり質の悪い論文が増加するリスク など懸念点を挙げた。
 - Code-Llama-70B-FW is now available on Poe! H
 	- https://x.com/poe_platform/status/1757080840012804511?s=20
-- 
+-  音声入出力でLLM on Google Colab
+	- https://colab.research.google.com/drive/1WCiUth855jXjzaNh8Ap5lFLEGX8aMtiU
+	- マイク入力→音声認識(Faster Whisper)→LLM回答生成(ELYZA)→音声合成(Style-Bert-VITS2)→再生
+	- Google Colabの無料枠で動く 音声認識(Whisper)→LLM(Swallow-13B)→音声合成(Style-Bert-VITS2) を作ってみました。音声合成は事前に学習モデルの作成が必要ですが、押しのキャラ音声と会話できると楽しいかも。(LLMを13Bにしたので回答生成に1分くらい掛かります)
+- RAG From Scratch: Query Translation (Multi-Query)
+	- 
 
 ## 2/13
 
@@ -4001,16 +4006,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://arxiv.org/abs/2309.08963
 	- structure-aware fine-tuning method, applied to Llama-7B, which significantly outperform other model like GPT-3.5/4 and Vicuna-13B.
 - Azure Cognitive Search のハイブリッド+セマンティックランキングは、純粋なベクターサーチよりもパフォーマンス良かったそうで！
-	- https://techcommunity.microsoft.com/t5/azure-ai-services-blog/azure-cognitive-search-outperforming-vector-search-with-hybrid/ba-p/3929167
-- "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality"
-	- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321
-	- ① GPT-4ありの集団は以下のように優れていた ・タスクの完了数が平均で12.2%多い ・タスクの完了速度が平均で25.1%早い ・タスク
+	- https://techcommunity.microso
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MT
-U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
-LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
-IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
-NzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NC
-wtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2
-NjIzMV19
+eyJoaXN0b3J5IjpbNTE4OTE1MDc0LDIzNTc5MjY0NCwtMjAyNz
+M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
+MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
+g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
+ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
+EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
+MjYwXX0=
 -->
