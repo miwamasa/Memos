@@ -96,7 +96,9 @@
 	- https://arxiv.org/abs/2401.04577?utm_source=twitter&utm_medium=organic_social&utm_campaign=research&utm_content=thread
 	- Researchers at Meta recently shared MAGNeT, a single non-autoregressive transformer model for text-to-music & text-to-sound generation capable of generating audio on-par with the quality of SOTA models — at 7x the speed.
 	- https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/?utm_source=twitter&utm_medium=organic_social&utm_campaign=research&utm_content=video
-- 
+- Nomic Embed v1.5
+	- Nomic Embed v1.5 is out, the first open model with variable-sized Matryoshka embeddings and 8192 context!
+	- https://huggingface.co/spaces/Xenova/adaptive-retrieval-web
 
 ## 2/13
 
@@ -4003,15 +4005,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- AIによって日々積み重なる論文や発表資料、講演録を吸収し、知の系統樹を作らせる。我々はそれが巨大な樹木となっていくのを見ながら、欠けているピースや来るべき枝葉を準備する
 - Intel/Llama-2-70b-chat-hf-onnx-int4
 	- https://huggingface.co/Intel/Llama-2-70b-chat-hf-onnx-int4
-	- high-quality, INT4, ONNX models for all LLama2 variants (base vs. chat, 7B to 70B).
-- Best Practices for LLM Evaluation of RAG Applications by DataBricks
-	- https://www.databricks.com/blog/LLM-aut
+	- high-qual
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1NDEzMzQwLDIzNTc5MjY0NCwtMjAyNz
-M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
-MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
-g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
-ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
-EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
-MjYwXX0=
+eyJoaXN0b3J5IjpbMTAwNzM3ODY3OSwyMzU3OTI2NDQsLTIwMj
+czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
+LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
+E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
+MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
+wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
+NTI2MF19
 -->
