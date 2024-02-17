@@ -81,7 +81,12 @@
 		- 1時間足らずで研究論文作成 
 		- 文章は流暢で洞察に富む
 		- 厳密なデータ分析にも基づく としたが、
-		- 論文でよく使われる表現で誤魔化す ・P値ハッキング（P hacking） ・論文生成が簡単になり質の悪い論文が増加するリスク など懸念点を挙げた。
+		- 論文でよく使われる表現で誤魔化す 
+		- P値ハッキング（P hacking）
+		- 論文生成が簡単になり質の悪い論文が増加するリスク など懸念点を挙げた。
+- Code-Llama-70B-FW is now available on Poe! H
+	- https://x.com/poe_platform/status/1757080840012804511?s=20
+- 
 
 ## 2/13
 
@@ -3999,12 +4004,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://techcommunity.microsoft.com/t5/azure-ai-services-blog/azure-cognitive-search-outperforming-vector-search-with-hybrid/ba-p/3929167
 - "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality"
 	- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321
-	- ① GPT-4ありの集団は以下のように優れていた ・タスクの完了数が平均で12.2%多い ・タスクの完了速度が平均で25.1%早い ・タスクの品質が平均で40%高い 
-	- ② もともと成績のよくない人が目覚ましく向上した
-- GPT-3.5-turbo を Fine-tuning して GPT-4 相当の性能を獲得する
-	- https://tech.drobe.co.jp/
+	- ① GPT-4ありの集団は以下のように優れていた ・タスクの完了数が平均で12.2%多い ・タスクの完了速度が平均で25.1%早い ・タスク
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5Nzc1NTA0LC0yMDI3MzY2NDQ0LDE2MT
+eyJoaXN0b3J5IjpbMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MT
 U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
 LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
 IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
