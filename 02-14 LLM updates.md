@@ -3,7 +3,12 @@
 
 ## 2/19
 
-- 
+-  LlamaIndex v0.10
+	- https://blog.llamaindex.ai/llamaindex-v0-10-838e735948f8
+	- our biggest open-source release to date, and a massive step towards production-readiness.
+	- Create a core package, split off every integration/template into separate PyPi packages.
+	- Refactor LlamaHub to become a central hub of all integrations (WIP)
+	- 
 
 ## 2/13
 
@@ -3993,15 +3998,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- 課題の一つ、-   **Query-Document Mismatch**:ドキュメントと質問のembbedingって同じ空間でないと意味ないよね（地産地消の場合を除く）
 - Xwin-LM-70BがGPT-4超え？
 	- https://www.itmedia.co.jp/news/articles/2309/21/news085.html
-	- Xwin-LMは米Metaが公開したAI「Llama2」をベースにしており、教師ありファインチューニング、報酬モデル、リジェクトサンプリング、強化学習などを使って調整したものという。パラメータ数はLlama2と同じく70億、130億、700億の3つのモデルを用意。中でも最大である700億の「Xwin-LM-70B-V0.1」は、AlpacaEvalの評価基準である「Text-Davinci-003」（GPT-3のモデルの一つ）に対する勝率で95.57％を記録。勝率95.28％のGPT-4を追い抜いたとしている。
-- ChatGPTの知識が、2022年1月までの知識も反映した模様
-	- https://old.reddit.com/r/ChatGPT/comments/16m6yc
+	- Xwin-LM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
-kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
-MzMsLTE4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLD
-EwMjU0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAw
-MDUxNywxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NS
-wzMDk2NTI2MCwtMjM5NzY2MjMxLC0xOTQ5NTY5NTUxLC01MjU0
-NjE2MjRdfQ==
+eyJoaXN0b3J5IjpbMTE1NTgxMDI0OSwxNjE1ODIwNDU5LDk1OD
+IxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3
+NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLT
+IxMjMyMDAzNTAsMTAyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcw
+MzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OTQsLTEzNTg0NjI0OD
+EsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3NjYyMzEsLTE5NDk1
+Njk1NTFdfQ==
 -->
