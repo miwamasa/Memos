@@ -91,7 +91,12 @@
 	- マイク入力→音声認識(Faster Whisper)→LLM回答生成(ELYZA)→音声合成(Style-Bert-VITS2)→再生
 	- Google Colabの無料枠で動く 音声認識(Whisper)→LLM(Swallow-13B)→音声合成(Style-Bert-VITS2) を作ってみました。音声合成は事前に学習モデルの作成が必要ですが、押しのキャラ音声と会話できると楽しいかも。(LLMを13Bにしたので回答生成に1分くらい掛かります)
 - RAG From Scratch: Query Translation (Multi-Query)
-	- 
+	- https://x.com/LangChainAI/status/1757817056865718432?s=20
+-  Masked Audio Generation using a Single Non-Autoregressive Transformer
+	- https://arxiv.org/abs/2401.04577?utm_source=twitter&utm_medium=organic_social&utm_campaign=research&utm_content=thread
+	- Researchers at Meta recently shared MAGNeT, a single non-autoregressive transformer model for text-to-music & text-to-sound generation capable of generating audio on-par with the quality of SOTA models — at 7x the speed.
+	- https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/?utm_source=twitter&utm_medium=organic_social&utm_campaign=research&utm_content=video
+- 
 
 ## 2/13
 
@@ -4000,15 +4005,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://huggingface.co/Intel/Llama-2-70b-chat-hf-onnx-int4
 	- high-quality, INT4, ONNX models for all LLama2 variants (base vs. chat, 7B to 70B).
 - Best Practices for LLM Evaluation of RAG Applications by DataBricks
-	- https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG
-	- Human and GPT-4 judges can reach above 80% agreement on the correctness and readability score. And if we lower the requirement to be smaller or equal than 1 score difference, the agreement level can reach above 95%.
--  Struc-Bench: Are Large Language Models Really Good at Generating Complex Structured Data?
-	- https://arxiv.org/abs/2309.08963
-	- structure-aware fine-tuning method, applied to Llama-7B, which significantly outperform other model like GPT-3.5/4 and Vicuna-13B.
-- Azure Cognitive Search のハイブリッド+セマンティックランキングは、純粋なベクターサーチよりもパフォーマンス良かったそうで！
-	- https://techcommunity.microso
+	- https://www.databricks.com/blog/LLM-aut
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4OTE1MDc0LDIzNTc5MjY0NCwtMjAyNz
+eyJoaXN0b3J5IjpbODU1NDEzMzQwLDIzNTc5MjY0NCwtMjAyNz
 M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
 MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
 g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
