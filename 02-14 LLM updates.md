@@ -1,6 +1,8 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+＃＃
+
 ## 2/13
 
 今週は、ほぼ予定通り（１日おくれ？）BardがGemini（ジェマナイと読む）に改名された。一方、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から画像から認識した情報片をつなげて店舗を特定したりと、コナン君なみの推理をしているのが何気にすごい。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判、Huggingfaceのデモ試すとたしかにレべチかも。基本性能が高いのか、0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速、量子化とか、Ollamaの対応が発表されたりされてる。たぶん、日本語LLMもrinna当たりからQwen-1.5ベースの日本語LLMの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり、どこかの職業が丸ごとなくなる性能だ。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（すでに死語？）にとどめを刺すだろうな。「小さなLLM」、英語でも"Smaller LLM"と呼ばれるらしい、小さなLLMでいいんだな、LLMのLargeはモデルの大小ではないとうこと、評価によるとFlan-T5がぶっちぎり？ MoE関係では、Mixtral-8x7Bの日本語向けのLoRaとか、MoEを単純化してExpertの切り替えを試してみる例とか面白い。基盤面では、探索なしでTransfomerだけでチェスマスタークラスのＡＩが作れるらしい。一方、Transformerの次世代基盤の一つとされるMamba、日本語での詳細な解説や、MoEでもあるBlackMambaとか、いろいろ出てきたな。理論面では、岡野さんの解説、The Consensus Game、RAGの改良を生成AIと識別AIの間のゲームとしてとらえるとは。NVIDIAも自らcanary-1bとか、Audio Flamingoとか音声や対話関係のモデルをリリース、自動運転では運転手との対話が必要なのはそのとおりなんだろう。RAG関係も、Self RAGとか、Guardrailsとか、GPT-4と組みあせた医療分野での評価とかいろいろ進んでいるが、評価フレームワークのragas 0.1がでたのは大きい。日本語LLMも、日本語のデータセットの整理や「LLM-jp 13B v1.1」のリリースとか着実に進んでいるのが心強い、はよNEDOの成果を！。知識グラフとのLLMの融合、Wikidata とかロードマップとか、Research Insightとか話題は続いている。
@@ -3991,13 +3993,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://www.itmedia.co.jp/news/articles/2309/21/news085.html
 	- Xwin-LMは米Metaが公開したAI「Llama2」をベースにしており、教師ありファインチューニング、報酬モデル、リジェクトサンプリング、強化学習などを使って調整したものという。パラメータ数はLlama2と同じく70億、130億、700億の3つのモデルを用意。中でも最大である700億の「Xwin-LM-70B-V0.1」は、AlpacaEvalの評価基準である「Text-Davinci-003」（GPT-3のモデルの一つ）に対する勝率で95.57％を記録。勝率95.28％のGPT-4を追い抜いたとしている。
 - ChatGPTの知識が、2022年1月までの知識も反映した模様
-	- https://old.reddit.com/r/ChatGPT/comments/16m6yc7/gpt4_traini
+	- https://old.reddit.com/r/ChatGPT/comments/16m6yc7/gpt4_tr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NT
-UxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4
-OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LD
-Q2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIw
-MTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLT
-IzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNTI1NDYxNjI0LDE5MjMw
-NDA3NzJdfQ==
+eyJoaXN0b3J5IjpbLTIxMjQyMTMxNDcsOTU4MjEzMDk0LDc2MT
+A5MTQ0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5
+MTMzLC0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MC
+wxMDI1NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYw
+MDA1MTcsMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2ND
+UsMzA5NjUyNjAsLTIzOTc2NjIzMSwtMTk0OTU2OTU1MSwtNTI1
+NDYxNjI0XX0=
 -->
