@@ -118,7 +118,11 @@
 - Open AI 動画生成AI 『Sora』をリリース
 	- 
 	- Googleが切り札的に電撃公開したGemini 1.5の数時間後に、OpenAIが世界の話題を掻っ攫うレベルの動画生成AIのSoraをぶつけてきた
-- 
+- META がVideo Joint Embedding Predictive Architecture (V-JEPA) モデルをCC BY-NC ライセンスの下で一般公開
+	- https://x.com/bioshok3/status/1758182170135576590?s=20
+	- V-JEPA は、抽象表現空間内のビデオの欠落部分またはマスクされた部分を予測することによって学習する非生成モデル
+-  LangChain v0.1 クイックスタートガイド - Python版  by npakaさん
+	- 
 
 ## 2/13
 
@@ -4003,14 +4007,8 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- FP8による影響まとめ
 		-  大きなモデルで最大1.2倍の推論高速化
 	- GPTQによる量子化モデルの効果測定
-- StreamlitとGithub CodespacesでブラウザのみでChatGPT API開発をする
-	- https://corp.langcore.org/media/codespaces
-
-## 9/25
-
-相も合わらず、RAG(Retrieval Augmented Generation)関係が多いのはご容赦。上位のLLM(GPT-4とか）をつかって正解をつくって、RAGを評価する仕組みとか、この評価の仕組みをつかって別のLLＭ(gpt-3.5-turboとか)をRAG向けにfine-tuningす
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjcxNjEwMCwyMzU3OTI2NDQsLTIwMj
+eyJoaXN0b3J5IjpbMTY4NzA1Mzg1MSwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
 LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
