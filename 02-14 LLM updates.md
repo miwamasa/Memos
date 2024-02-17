@@ -49,7 +49,15 @@
 	- https://zenn.dev/turing_motors/articles/26e1f1be50c0b5
 	- BLOOM-1Bを動かしてみる
 		- 10億パラメータ数程度のモデルであれば、GPUメモリが12GB以上のGPUであれば推論することが可能です。Google Colaboratoryで提供されているGPUインスタンスで動かすことができます
-	- 
+	- BLOOM-176Bを動かしてみる？
+		- では実際1000億パラメータを超えるBLOOMを動かすにはどうすればいいでしょうか？
+		- 単純な解決策として、その大規模モデルが乗る計算環境を構築することができますが、もしそのレベルのスペックをオンプレミスのサーバーで整える場合は数千万円規模になってしまいます。また、AWSやGCPなどのクラウドコンピューティングサービスで大規模実験環境を整えることもできます。
+		- 例えば、AWSのEC2 P4dインスタンスであれば8枚のA100のGPUメモリが計320GBと640GBの環境を1時間あたり30~40ドル程度で扱うことができます。
+- RAG Fusionが思ってたより凄そう
+	- https://zenn.dev/ozro/articles/abfdadd0bfdd7a
+	- RAG Fusionは単なる「新たな手法」ではなく「革新的な手法」です。  
+	- RAG Fusionは、従来の検索技術の制約を克服し、ユーザーのクエリに対してより豊かで文脈に即した結果を生成するために、RAG、Reciprocal Rank Fusion、生成されたクエリを組み合わせた新しいシステムになっています。  
+このシステムは、検索結果のリランキングと複数のユーザークエリ生成により、検索の正確性とユーザーの意図との一致を向上させることを目指した手法となっていま
 
 ## 2/13
 
@@ -3995,27 +4003,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - SambaNova、最大5兆個のパラメータモデルを実行可能なLLM向けAI半導体「SN40L」を発表
 	- https://news.mynavi.jp/techplus/article/20230920-2775419/
 	- Ceruleanアーキテクチャ。NVIDIA H100の24台分の性能で、GPUに搭載されてる様な高速メモリが不要でメモリ大容量化が可能！DDRが使える
-- sam altman氏、DALE 3のデモ画像を自慢する
-	- https://x.com/sama/status/1704561613070893428?s=20
-- OpenAI本家で、Fine-tuning用のweb pageが公開された
-	- https://x.com/OfficialLoganK/status/1704181284036300970?s=20
-	- 誰でも簡単にモデルの微調整ができ
-- JSONの可視化ツール jsoncrack
-	- https://jsoncrack.com/
-- GPT-4などの大規模言語モデルで化学研究を行うにあたっての､現状・課題・展望を整理した論文
-	- Prompt engineering of GPT-4 for chemical research: what can/cannot be done?
-	- https://www.tandfonline.com/doi/full/10.1080/27660400.2023.2260300
-	- GPT-4は、化学研究における言語処理やドメイン知識の組み込みに有効なツールとなり得ます。
-	- 以下が必要
-		- 分子構造や実験データを扱えるようにするためのプラグイン
-		- マルチモーダルモデルの開発最新の化学情報を学習できるようにするためのローカルモデル
-		- 推論や計画能力を向上させるためのアルゴリズムやハードウェアの革新
+- sam altman氏、DALE 3のデモ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0NjIyMjQxLC0yMDI3MzY2NDQ0LDE2MT
-U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
-LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
-IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
-NzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NC
-wtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2
-NjIzMV19
+eyJoaXN0b3J5IjpbMTExNzI2NzIzOCwtMjAyNzM2NjQ0NCwxNj
+E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
+MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
+wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
+MzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OT
+QsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3
+NjYyMzFdfQ==
 -->
