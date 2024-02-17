@@ -57,7 +57,13 @@
 	- https://zenn.dev/ozro/articles/abfdadd0bfdd7a
 	- RAG Fusionは単なる「新たな手法」ではなく「革新的な手法」です。  
 	- RAG Fusionは、従来の検索技術の制約を克服し、ユーザーのクエリに対してより豊かで文脈に即した結果を生成するために、RAG、Reciprocal Rank Fusion、生成されたクエリを組み合わせた新しいシステムになっています。  
-このシステムは、検索結果のリランキングと複数のユーザークエリ生成により、検索の正確性とユーザーの意図との一致を向上させることを目指した手法となっていま
+	- このシステムは、検索結果のリランキングと複数のユーザークエリ生成により、検索の正確性とユーザーの意図との一致を向上させることを目指した手法となっていま
+- Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning
+	- https://huggingface.co/papers/2402.06619
+	- 合計で114言語をカバーする5億1300万ペアのプロンプトと補完文を含んでおり、Apache 2.0ライセンスとの事
+-  LlamaIndex v0.10 の概要 by npakaさん
+	- https://note.com/npaka/n/nb8acc1f63312?sub_rt=share_h
+	- 
 
 ## 2/13
 
@@ -3999,17 +4005,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - StableDiffusionで生成した画像から3Dモデルを"AIで"作成し、Unity上でキャラクターを動かすまで【CSM AIの使い方】
 	- https://note.com/okp_/n/n89b96384e0cb?sub_rt=share_b
 - llamaindexのチュートリアル、“building RAG from scratch” -
-	- https://gpt-index.readthedocs.io/en/latest/end_to_end_tutorials/low_level/root.html
-- SambaNova、最大5兆個のパラメータモデルを実行可能なLLM向けAI半導体「SN40L」を発表
-	- https://news.mynavi.jp/techplus/article/20230920-2775419/
-	- Ceruleanアーキテクチャ。NVIDIA H100の24台分の性能で、GPUに搭載されてる様な高速メモリが不要でメモリ大容量化が可能！DDRが使える
-- sam altman氏、DALE 3のデモ
+	- https://gpt-index.r
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzI2NzIzOCwtMjAyNzM2NjQ0NCwxNj
-E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
-MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
-wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
-MzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OT
-QsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3
-NjYyMzFdfQ==
+eyJoaXN0b3J5IjpbNjU5OTMzNzMxLC0yMDI3MzY2NDQ0LDE2MT
+U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
+LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
+IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
+NzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NC
+wtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2
+NjIzMV19
 -->
