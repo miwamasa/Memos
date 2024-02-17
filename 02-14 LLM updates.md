@@ -99,6 +99,12 @@
 - Nomic Embed v1.5
 	- Nomic Embed v1.5 is out, the first open model with variable-sized Matryoshka embeddings and 8192 context!
 	- https://huggingface.co/spaces/Xenova/adaptive-retrieval-web
+-  LLM Agents
+	- https://www.promptingguide.ai/research/llm-agents
+-  Mixtures of Experts Unlock Parameter Scaling for Deep RL
+	- https://huggingface.co/papers/2402.08609
+	- Google Deepmind presents Mixtures of Experts Unlock Parameter Scaling for Deep RL
+	- 
 
 ## 2/13
 
@@ -4001,17 +4007,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- Nvidia: Fortunately uncontrollable Artificial General Intelligence is Science Fiction not reality.
 - 知識と技術の継承としてのAI by スクエニ三宅さん
 	- https://togetter.com/li/2226417
-	- その分野の専門家が持つそういった知識体系が、その教授なり専門家の価値なわけであるが、実際のところ、近くにいて話しかけなければ、自分にとって価値あるものを引き出せない。だからこそ、研究室があり学生がある。しかし、そういった知の体系は、万人に開かれるべきだ
-	- AIによって日々積み重なる論文や発表資料、講演録を吸収し、知の系統樹を作らせる。我々はそれが巨大な樹木となっていくのを見ながら、欠けているピースや来るべき枝葉を準備する
-- Intel/Llama-2-70b-chat-hf-onnx-int4
-	- https://huggingface.co/Intel/Llama-2-70b-chat-hf-onnx-int4
-	- high-qual
+	- その分野の専門家が持つそういった知識体系が、その教授なり専門家の価値なわけであるが、実際のところ、近くにいて話しかけなければ、自分にと
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNzM3ODY3OSwyMzU3OTI2NDQsLTIwMj
-czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
-LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
-E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
-MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
-wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
-NTI2MF19
+eyJoaXN0b3J5IjpbMzkyMzUwNzQ0LDIzNTc5MjY0NCwtMjAyNz
+M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
+MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
+g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
+ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
+EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
+MjYwXX0=
 -->
