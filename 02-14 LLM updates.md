@@ -74,6 +74,14 @@
 	- Multi-source : arXiv/programming code/web pages  
 	- Filtered and processed to adapte Math reasoning  
 	- Selected by Qwen 72B
+-  科学者がChatGPTを利用してデータから論文を生成 by nature
+	- https://www.natureasia.com/ja-jp/ndigest/v20/n10/%E7%A7%91%E5%AD%A6%E8%80%85%E3%81%8CChatGPT%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%81%8B%E3%82%89%E8%AB%96%E6%96%87%E3%82%92%E7%94%9F%E6%88%90/122873
+	- Nature Japanから生成AIで論文を書いた際の実証結果と限界
+	- テクニオン・イスラエル工科大学（ハイファ）の生物学者でデータサイエンティストであるRoy Kishonyらは独自の自律的なdata to paperシステムを構築し検証。
+		- 1時間足らずで研究論文作成 
+		- 文章は流暢で洞察に富む
+		- 厳密なデータ分析にも基づく としたが、
+		- 論文でよく使われる表現で誤魔化す ・P値ハッキング（P hacking） ・論文生成が簡単になり質の悪い論文が増加するリスク など懸念点を挙げた。
 
 ## 2/13
 
@@ -3994,23 +4002,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- ① GPT-4ありの集団は以下のように優れていた ・タスクの完了数が平均で12.2%多い ・タスクの完了速度が平均で25.1%早い ・タスクの品質が平均で40%高い 
 	- ② もともと成績のよくない人が目覚ましく向上した
 - GPT-3.5-turbo を Fine-tuning して GPT-4 相当の性能を獲得する
-	- https://tech.drobe.co.jp/entry/2023/09/19/140000
-	- Lambda で GPT-4 を叩きつつ、入力と出力のペアを json 形式で Cloudwatch に落とします。
-	- データをダウンロードしたらここを参考に Fine-tuning のデータの準備と validation を行います。
-	- Fine-tuning の実施は簡単です。OpenAI の API を利用して以下を実施します。
-		- 1.  トレーニングデータをアップロード
-		- 2.  アップロードしたデータを指定しつつトレーニングを開始
-	- Fine-tuning すると結果が GPT-4 に近づく事が観測できた
-- Let's Verify Step by Step
-	- https://arxiv.org/abs/2305.20050
-	- LLMが複雑な問題を推論できるのは、学習中に推論方法（解き方）にアクセスし、その解き方を学んでいるからといえる
-- 自律言語エージェン
+	- https://tech.drobe.co.jp/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjMyNDI4OCwtMjAyNzM2NjQ0NCwxNj
-E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
-MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
-wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
-MzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LDEwMTcyMDE5OT
-QsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1MjYwLC0yMzk3
-NjYyMzFdfQ==
+eyJoaXN0b3J5IjpbNzY5Nzc1NTA0LC0yMDI3MzY2NDQ0LDE2MT
+U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
+LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
+IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
+NzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MTcsMTAxNzIwMTk5NC
+wtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5NjUyNjAsLTIzOTc2
+NjIzMV19
 -->
