@@ -152,6 +152,9 @@
 		- Transoformerベースのビデオ拡散モデル
 		- DALLE3を用いた高精度なビデオキャプショニングによるデータセット作成
 	- こうして要素要素を見ていくと特段新しい技術を使っているわけではなく、今まで有効とされた技術を愚直に積み重ね、莫大な資本力と計算力でモデルを訓練すれば強いモデルが作れるという、当たり前の結果が見えてきます。
+-  ChatGPTを社内に配ってもあまり使われない本当の理由
+	- https://qiita.com/jw-automation/items/cf8ffc7a0edab512d917
+	- 社内情報というコンテキストが必要な業務がほとんどである人達に、素のChatGPTを配っても、特に使える所がないというのはいわば当たり前の話です。
 - 
 
 ## 2/13
@@ -4000,12 +4003,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 -  機械学習アルゴリズムが発見した初めての準結晶(統計数理研究所）
 	- https://www.ism.ac.jp/ura/press/ISM2023-05.html
 	- これまでに合成されてきた準結晶や関連物質のパターンを読み解き、熱的に安定な準結晶を形成する化学組成を予測する機械学習技術を開発
-- PFN の PLaMo-13B を 4 bit 量子化するとColab 無料版の T4 15GB でも推論できるらしい
-	- https://colab.research.google.com/drive/1vgHInjIL5dJYoaIXL-s6ickbp3cwIQti?usp=sharing
-- DreamGaussianが 無料Colabで試せる。5分ほどで完成
-	- https://github.com/ca
+- PFN の PLaMo-13B を 4 bit 量子化するとColab 無料版の
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzA0NTM0NzYsMjM1NzkyNjQ0LC0yMD
+eyJoaXN0b3J5IjpbLTEwMDYzMTg4MTIsMjM1NzkyNjQ0LC0yMD
 I3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0
 LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC
 0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1
