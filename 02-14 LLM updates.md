@@ -3,7 +3,9 @@
 
 ## 2/19
 
-今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという講演の数日後に出すとか。soraの外部による技術解析も進み、既存の技術の組み合わせではあるが、その制度とスケールが違うということで、OpenAIが横綱相撲を見せつけただけだった。おかげでかすんでしまった、Gemini 1.5、なんとMoEを採用し、長大トークンに対応、RAGっていらね？みたいな勢いだが、ブラックボックスをガラポンででよいわけがない。RAGもCollective RAGとか、embeddingの工夫とか、説明性のある生成AIになんか進んでる気がする。なぜかLlamaindexとLangchainがそれぞれ大きなバージョンの代替わり、肥大化しすぎたのをモジュラー化したという話だが、LangChainには後方互換性があるって本当？LLMのサーベイ論文、今後の研究の進む方向を正しく見据えててよい。小さいLLMとか次世代基盤(Mambaとか）とか、LLMアプデでも追ってた話題がのっているのは良き。natureの、ChatGPTを利用してデータから論文を生成ってのは、研究者なら必読かも
+今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという講演の数日後に出すとか。soraの外部による技術解析も進み、既存の技術の組み合わせではあるが、その制度とスケールが違うということで、OpenAIが横綱相撲を見せつけただけだった。おかげでかすんでしまった、Gemini 1.5、なんとMoEを採用し、長大トークンに対応、RAGっていらね？みたいな勢いだが、ブラックボックスをガラポンででよいわけがない。RAGもCollective RAGとか、embeddingの工夫とか、説明性のある生成AIになんか進んでる気がする。Le
+
+なぜかLlamaindexとLangchainがそれぞれ大きなバージョンの代替わり、肥大化しすぎたのをモジュラー化したという話だが、LangChainには後方互換性があるって本当？LLMのサーベイ論文、今後の研究の進む方向を正しく見据えててよい。小さいLLMとか次世代基盤(Mambaとか）とか、LLMアプデでも追ってた話題がのっているのは良き。natureの、ChatGPTを利用してデータから論文を生成ってのは、研究者なら必読かも（自分というわけではなく、そういう人や論文と競争しなければいけないという意味で）。
 
 
 -  LlamaIndex v0.10
@@ -119,7 +121,7 @@
 - OpenAIがMicrosoftと強力し国家関連の脅威アクターによるAIの悪意あるサイバー活動に関する利用をしていたアカウントを停止。
 	- https://x.com/bioshok3/status/1757834888705945971?s=20
 - Open AI 動画生成AI 『Sora』をリリース
-	- 
+	- https://openai.com/sora
 	- Googleが切り札的に電撃公開したGemini 1.5の数時間後に、OpenAIが世界の話題を掻っ攫うレベルの動画生成AIのSoraをぶつけてきた
 - META がVideo Joint Embedding Predictive Architecture (V-JEPA) モデルをCC BY-NC ライセンスの下で一般公開
 	- https://x.com/bioshok3/status/1758182170135576590?s=20
@@ -3996,14 +3998,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - ChatGPT-4V公開、iOSやAndroid版にも搭載、様々な評価が報告される
 	- デモの画像と言語を交えたインタラクションは未来感ある。構造化文書を画像で見せてもある程度理解できる模様。
 	- 人の見た目に対する言及など新たなリスクも評価・対策済みとのこと
-	- 英語のほうがOCR精度が良いし色々試してるけど、シンプルな図表のReasoningはかなりできる。図表に含まれない背景情報も、GPT内部の知識で補えるのが強力。
-- Calibrating L
+	- 英語のほうがOCR精度が良いし色々試してるけど、シンプル
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzM5NjI4LDIzNTc5MjY0NCwtMjAyNz
-M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
-MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
-g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
-ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
-EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
-MjYwXX0=
+eyJoaXN0b3J5IjpbMTIyOTU4MTM2NCwyMzU3OTI2NDQsLTIwMj
+czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
+LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
+E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
+MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
+wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
+NTI2MF19
 -->
