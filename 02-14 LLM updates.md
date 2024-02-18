@@ -130,6 +130,9 @@
 	- Yahoo!知恵袋の質疑からデータを作ってみます
 		- と、わりといい感じでした。
 	- ローカルな大規模言語モデルでも、それなりに高品質なデータ合成ができる時代がやってきたようです。今後はいい感じに(公開)データセットを作っていきたいと思います。
+- Corrective RAG with LangGraph
+	- https://github.com/langchain-ai/langgraph/tree/main/examples/rag
+	- We’ve just implemented 4 new notebooks outlining different RAG and CRAG techniques in LangChainAI　PY & JS! These show off different RAG flows, using OSS and hosted LLMs. See the links below for the notebooks:
 - 
 
 ## 2/13
@@ -4000,13 +4003,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://dreamgaussian.github.io/
 	- Gaussian Splatting は、3D シーンを、ガウシアン関数で表された点群の集合として表現します。この点群の集合を、レンダリング時に、光線に沿ってサンプリングすることで、シーンをレンダリングします。
 - lama_indexの AutoMergingRetrieverを図解した絵が素晴らしい
-	- https://x.com/clusteredbytes/status/1707864519433736305?s=20
-- OpenAPIの新しいinstructモデルでは、なにか機能が落ちた模様
-	- OpenAI is removing the ability to evaluate P(completion | prompt) for user-provided completions to the `gpt-3.5-turbo-instruct` model.
-- Google、新LLM　Geminiを 10月4日に発表か、
-	- Gemini might be coming out on Wednesday
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDU5MjM3NCwyMzU3OTI2NDQsLTIwMj
+eyJoaXN0b3J5IjpbMTU0NDMyMzM5OSwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
 LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
