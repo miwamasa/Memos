@@ -128,7 +128,9 @@
 	- https://note.com/kan_hatakeyama/n/n0c58733b39bd?sub_rt=share_pb
 	- shi3zさんの、「Orion14B-ChatとWikipediaデータセットを使って日本語マルチターン会話データセットを作りました」を参考にして
 	- Yahoo!知恵袋の質疑からデータを作ってみます
-		- 
+		- と、わりといい感じでした。
+	- ローカルな大規模言語モデルでも、それなりに高品質なデータ合成ができる時代がやってきたようです。今後はいい感じに(公開)データセットを作っていきたいと思います。
+- 
 
 ## 2/13
 
@@ -4003,10 +4005,8 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- OpenAI is removing the ability to evaluate P(completion | prompt) for user-provided completions to the `gpt-3.5-turbo-instruct` model.
 - Google、新LLM　Geminiを 10月4日に発表か、
 	- Gemini might be coming out on Wednesday
-	- "plus few more surprizes"とinvitationに書いてあるらしい
--  7 Query Strategies for Navigating Knowledge Gra
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzQ2MzM3NiwyMzU3OTI2NDQsLTIwMj
+eyJoaXN0b3J5IjpbLTc0MDU5MjM3NCwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
 LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
