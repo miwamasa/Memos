@@ -166,7 +166,11 @@
 	- https://openai.com/research/video-generation-models-as-world-simulators
 	- SoraはTransformerベースの潜在拡散モデルで、テキスト指示から1分間の高画質動画を生成できる。時間・空間の両方で一貫性を維持でき、現実の物理法則をある程度反映させることができる。モデルやデータに関する詳細は非公開だが、大規模化により性能が上がる模様。
 	- 今後やるべき事はおそらく単純で、全力でOpenAIやGeminiの成長にしがみ付けば良いのでは。という気がしている。 by 元木
+	- https://x.com/ai_syacho/status/1758845719988117759?s=20
 	- 彼らは拡散トランスフォーマーモデルという、マシンと札束を入れれば入れるほど能力の上がるAIを持っていて、その資金体力も段違い。…
+- iPhoneにGeminiきてた
+	- https://x.com/npaka123/status/1758656487399014521?s=20
+	- ?? Advance???
 - 
 
 ## 2/13
@@ -3996,10 +4000,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://www.deeplearning.ai/short-courses/pair-programming-llm/
 	- DeepLearningAIより、ショートコースが公開。LLMとペアプロとは
 - llamaindexのTimescaleDBとの連携
-	- https://medium.com/llamaindex-blog/timescale-vector-x-llamaindex-making-postgresql-a-better-vector-database-for-ai-applications-924b0bd29f0
-- 大学における数理・データサイエンス・AI 教育 の中での統計科学の教育につ
+	- https://medium.com/llamain
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjQ2MjMyNiwyMzU3OTI2NDQsLTIwMj
+eyJoaXN0b3J5IjpbLTY1Mzg1MzU0NCwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
 LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
