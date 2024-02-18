@@ -122,6 +122,10 @@
 	- https://x.com/bioshok3/status/1758182170135576590?s=20
 	- V-JEPA は、抽象表現空間内のビデオの欠落部分またはマスクされた部分を予測することによって学習する非生成モデル
 -  LangChain v0.1 クイックスタートガイド - Python版  by npakaさん
+	- https://note.com/npaka/n/n1d771995c3aa?sub_rt=share_h
+	- **v0.1** ではlangchainパッケージが次の3つのパッケージに分割されました。すべて**下位互換性のある方法**で行われました
+- 軽量・高速・高性能と三拍子揃った日本語対応のAI(Orion-14B)で指示データセットを自動生成するメモ
+	- https://note.com/kan_hatakeyama/n/n0c58733b39bd?sub_rt=share_pb
 	- 
 
 ## 2/13
@@ -3999,16 +4003,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- Gemini might be coming out on Wednesday
 	- "plus few more surprizes"とinvitationに書いてあるらしい
 -  7 Query Strategies for Navigating Knowledge Graphs With LlamaIndex
-	- https://betterprogramming.pub/7-query-strategies-for-navigating-knowledge-graphs-with-llamaindex-ed551863d416
-- 【インターンレポート】量子化による大規模言語モデル軽量化の効果測定
-	- https://engineering.linecorp.com/ja/blog/quantization-lightweighting-llms
-	- LINEの技術職 就業型コースのインターンシップ生の発表
-	- 6週間程度のインターン期間らしい
-	- FP8による影響まとめ
-		-  大きなモデルで最大1.2倍の推論高速化
-	- GPTQによる量子化モデルの効果測定
+	- https://betterprogramming.pub/7-query-strategies-for-navigating-knowledge-graphs-wi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzA1Mzg1MSwyMzU3OTI2NDQsLTIwMj
+eyJoaXN0b3J5IjpbLTUzODk1NTU4MCwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
 LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
