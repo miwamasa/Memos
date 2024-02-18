@@ -126,7 +126,9 @@
 	- **v0.1** ではlangchainパッケージが次の3つのパッケージに分割されました。すべて**下位互換性のある方法**で行われました
 - 軽量・高速・高性能と三拍子揃った日本語対応のAI(Orion-14B)で指示データセットを自動生成するメモ
 	- https://note.com/kan_hatakeyama/n/n0c58733b39bd?sub_rt=share_pb
-	- 
+	- shi3zさんの、「Orion14B-ChatとWikipediaデータセットを使って日本語マルチターン会話データセットを作りました」を参考にして
+	- Yahoo!知恵袋の質疑からデータを作ってみます
+		- 
 
 ## 2/13
 
@@ -4002,10 +4004,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - Google、新LLM　Geminiを 10月4日に発表か、
 	- Gemini might be coming out on Wednesday
 	- "plus few more surprizes"とinvitationに書いてあるらしい
--  7 Query Strategies for Navigating Knowledge Graphs With LlamaIndex
-	- https://betterprogramming.pub/7-query-strategies-for-navigating-knowledge-graphs-wi
+-  7 Query Strategies for Navigating Knowledge Gra
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODk1NTU4MCwyMzU3OTI2NDQsLTIwMj
+eyJoaXN0b3J5IjpbLTUzNzQ2MzM3NiwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
 LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
