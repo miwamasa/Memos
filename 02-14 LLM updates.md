@@ -3,7 +3,7 @@
 
 ## 2/19
 
-今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという講演の数日後に出すとか。soraの外部による技術解析も進み、既存の技術の組み合わせではあるが、その制度とスケールが違うということで、OpenAIが横綱相撲を見せつけただけだった。おかげでかすんでしまった、Gemini 1.5、なんとMoEを採用し、長大トークンに対応、RAGっていらね？みたいな勢いだが、ブラックボックスをガラポンででよいわけがない。RAGもCollective RAGとか、embeddingの工夫とか、説明性のある生成AIになんか進んでる気がする。なぜかLlamaindexとLangchainがそれぞれ大きなバージョンの代替わり、肥大化しすぎたのをモジュラー化したという話だが、LangChainには後方互換性があるって本当？LLMのサーベイ論文、今後の研究の進む方向を正しく見据えててよい。
+今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという講演の数日後に出すとか。soraの外部による技術解析も進み、既存の技術の組み合わせではあるが、その制度とスケールが違うということで、OpenAIが横綱相撲を見せつけただけだった。おかげでかすんでしまった、Gemini 1.5、なんとMoEを採用し、長大トークンに対応、RAGっていらね？みたいな勢いだが、ブラックボックスをガラポンででよいわけがない。RAGもCollective RAGとか、embeddingの工夫とか、説明性のある生成AIになんか進んでる気がする。なぜかLlamaindexとLangchainがそれぞれ大きなバージョンの代替わり、肥大化しすぎたのをモジュラー化したという話だが、LangChainには後方互換性があるって本当？LLMのサーベイ論文、今後の研究の進む方向を正しく見据えててよい。小さいLLMとか次世代基盤(Mambaとか）とか、LLMアプデでも追ってた話題がのっているのは良き。natureの、ChatGPTを利用してデータから論文を生成ってのは、研究者なら必読かも
 
 
 -  LlamaIndex v0.10
@@ -3997,11 +3997,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- デモの画像と言語を交えたインタラクションは未来感ある。構造化文書を画像で見せてもある程度理解できる模様。
 	- 人の見た目に対する言及など新たなリスクも評価・対策済みとのこと
 	- 英語のほうがOCR精度が良いし色々試してるけど、シンプルな図表のReasoningはかなりできる。図表に含まれない背景情報も、GPT内部の知識で補えるのが強力。
-- Calibrating LLM-Based Evaluator
-	- https://huggingface.co/papers/2309.13308
-	-  LLMベースの評価器の校正: 大規模言語モデル（LLM
+- Calibrating L
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1OTk3NzI4LDIzNTc5MjY0NCwtMjAyNz
+eyJoaXN0b3J5IjpbMTU5NzM5NjI4LDIzNTc5MjY0NCwtMjAyNz
 M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
 MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
 g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
