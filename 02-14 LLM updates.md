@@ -177,6 +177,10 @@
 	- Ollamaのサイトに載っていないモデルは、自分で「**Modelfile**」を作成して、追加する必要があります。
 	- 「Llama2」のManifestを参考にさせてもらいます
 	- 今回は、「**ELYZA-japanese-Llama-2-7b-instruct-q4_K_M.gguf**」をダウンロードします。
+- Lecun先生、soar発表直前に、テキストからリアルなビデオを生成するのは当面先だと講演したことに対して言い訳を。。。
+	- https://x.com/ylecun/status/1758740106955952191?s=20
+	- いや世界モデルを持つのがむつかしいというのが真意である。。。
+	- きっと過ちは繰り返す。
 - 
 
 ## 2/13
@@ -3997,15 +4001,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://qiita.com/jovyan/items/5716cd83e246df4a158e
 	- 最近公開されたhuggingfaceから直接公式実装のFlash Attention2を使える機能（from_pretrainedでuse_flash_attention_2=Trueを指定）についても実験
 - 『LogiCoT』GPT-4などのLLMに「自らの論理的な整合性をチェック」させるフレームワーク
-	- "Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic"
-	- 前提（Premise）、考え（Thought）、検証（Verification）について明確に指示する
-- 統語的評価データセット JCoLA が https://hugging
+	- "Enhancing Z
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDcxMTA5MDMsMjM1NzkyNjQ0LC0yMD
-I3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0
-LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC
-0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1
-NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MT
-csMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5
-NjUyNjBdfQ==
+eyJoaXN0b3J5IjpbMjAxNTQzMTQ2MiwyMzU3OTI2NDQsLTIwMj
+czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
+LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
+E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
+MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
+wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
+NTI2MF19
 -->
