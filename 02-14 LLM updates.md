@@ -145,6 +145,13 @@
 	- 確率過程に興味があるB4・M1が読むべき教科書について説明する．
 	- [速習版](https://kanazawa.scphys.kyoto-u.ac.jp/wpkzdb/wp-content/uploads/2023/04/stochasticProcessShort.pdf)
 	-  [詳細版](https://kanazawa.scphys.kyoto-u.ac.jp/wpkzdb/wp-content/uploads/2023/10/StochasticProcess2023_long.pdf)
+- 【AI動画生成】Sora 要素技術解説
+	- https://zenn.dev/mattyamonaca/articles/e234e57834d7ad
+	- すごく簡単にまとめると以下の4つの要素が主軸です
+		- 動画データを潜在空間に圧縮した後、Transformerがトークンとして利用できる「時空潜在パッチ」に変換する技術
+		- Transoformerベースのビデオ拡散モデル
+		- DALLE3を用いた高精度なビデオキャプショニングによるデータセット作成
+	- こうして要素要素を見ていくと特段新しい技術を使っているわけではなく、今まで有効とされた技術を愚直に積み重ね、莫大な資本力と計算力でモデルを訓練すれば強いモデルが作れるという、当たり前の結果が見えてきます。
 - 
 
 ## 2/13
@@ -3996,20 +4003,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - PFN の PLaMo-13B を 4 bit 量子化するとColab 無料版の T4 15GB でも推論できるらしい
 	- https://colab.research.google.com/drive/1vgHInjIL5dJYoaIXL-s6ickbp3cwIQti?usp=sharing
 - DreamGaussianが 無料Colabで試せる。5分ほどで完成
-	- https://github.com/camenduru/dreamgaussian-colab
--  Mastering Customer Segmentation with LLM
-	- https://towardsdatascience.com/mastering-customer-segmentation-with-llm-3d9008235f41
-	- テーブルデータをLLMのembeddingで数値化し、k-meansやt-SNEでクラスタの特徴を探る流れの良い解説記事
-- デジタル庁のITコンサル/PM/週5日/一部リモート/デジタル庁IT支援の求人が話題に
-	- 単価は、1,54万円/万
-	- 体調が安定しており病欠が少ない方
-- 機械学習により偏微分方程式
+	- https://github.com/ca
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDk3MjI4NCwyMzU3OTI2NDQsLTIwMj
-czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
-LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
-E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
-MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
-wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
-NTI2MF19
+eyJoaXN0b3J5IjpbLTEzMzA0NTM0NzYsMjM1NzkyNjQ0LC0yMD
+I3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0
+LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC
+0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1
+NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MT
+csMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5
+NjUyNjBdfQ==
 -->
