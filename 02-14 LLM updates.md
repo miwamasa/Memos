@@ -3,7 +3,7 @@
 
 ## 2/19
 
-今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという題材を、さら
+今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという講演の数日後に出すとか。soraの外部による技術解析も進み、既存の技術の組み合わせではあるが、その制度とスケールが違うということで、いわゆる
 
 
 -  LlamaIndex v0.10
@@ -4003,10 +4003,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - Sam Altman氏、「社内内部的には、AGIは完成した」とtweet。
 	- am Altman says "agi has been achieved internally" at OpenAI.
 	- 噂ではOpenAIはArrakisという限りなくAGIに近いany-to-any modelを開発しており、サムアルトマンらしきアカウントがAGIの開発に成功した(追記: まぁ落ち着こうや) みたいなことを言ったという報告もある。
-	- サンフランシスコで予定されている開発者会議（11/6）に何かしらの発表がある。
-- 【続】Flash Attentionを使ってLLMの推論を高
+	- サンフランシスコ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODUxNjE0NywyMzU3OTI2NDQsLTIwMj
+eyJoaXN0b3J5IjpbLTQ5NzMwMTcxMiwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
 LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
