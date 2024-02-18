@@ -3,7 +3,7 @@
 
 ## 2/19
 
-今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという講演の数日後に出すとか。soraの外部による技術解析も進み、既存の技術の組み合わせではあるが、その制度とスケールが違うということで、いわゆる
+今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという講演の数日後に出すとか。soraの外部による技術解析も進み、既存の技術の組み合わせではあるが、その制度とスケールが違うということで、OpenAIが横綱相撲を見せつけただけだった。おかげでかすんでしまった、Gemini 1.5、なんとMoEを採用し、長大トークンに対応、RAGっていらね？みたいな勢い。RAGもCollective RAGとか、emb
 
 
 -  LlamaIndex v0.10
@@ -4002,10 +4002,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	-  LLMベースの評価器の校正: 大規模言語モデル（LLM）を自然言語生成の品質評価に利用する方法を提案し，人間の評価との一致度を高めるための校正手法を提案する．
 - Sam Altman氏、「社内内部的には、AGIは完成した」とtweet。
 	- am Altman says "agi has been achieved internally" at OpenAI.
-	- 噂ではOpenAIはArrakisという限りなくAGIに近いany-to-any modelを開発しており、サムアルトマンらしきアカウントがAGIの開発に成功した(追記: まぁ落ち着こうや) みたいなことを言ったという報告もある。
-	- サンフランシスコ
+	- 噂ではOpenAIはArrakisという限りな
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzMwMTcxMiwyMzU3OTI2NDQsLTIwMj
+eyJoaXN0b3J5IjpbLTY1NjMyNTMzOCwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
 LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
