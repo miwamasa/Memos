@@ -159,7 +159,15 @@
 	- https://medium.com/@mahimairaja/build-knowledge-graph-from-textdata-using-langchain-under-2min-ce0d0d0e44e8
 	- Converting text to knowledge graphs can be helpful for both visualizing the data and allowing for structured querying later on 
 	- This blog goes through how to use LLMs to extract knowledge triplets
-- # minbpe
+-  minbpe
+	- https://github.com/karpathy/minbpe
+	- Minimal, clean, educational code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization."
+-  Video generation models as world simulators by OpenAI
+	- https://openai.com/research/video-generation-models-as-world-simulators
+	- SoraはTransformerベースの潜在拡散モデルで、テキスト指示から1分間の高画質動画を生成できる。時間・空間の両方で一貫性を維持でき、現実の物理法則をある程度反映させることができる。モデルやデータに関する詳細は非公開だが、大規模化により性能が上がる模様。
+	- 今後やるべき事はおそらく単純で、全力でOpenAIやGeminiの成長にしがみ付けば良いのでは。という気がしている。 by 元木
+	- 彼らは拡散トランスフォーマーモデルという、マシンと札束を入れれば入れるほど能力の上がるAIを持っていて、その資金体力も段違い。…
+- 
 
 ## 2/13
 
@@ -3989,24 +3997,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- DeepLearningAIより、ショートコースが公開。LLMとペアプロとは
 - llamaindexのTimescaleDBとの連携
 	- https://medium.com/llamaindex-blog/timescale-vector-x-llamaindex-making-postgresql-a-better-vector-database-for-ai-applications-924b0bd29f0
-- 大学における数理・データサイエンス・AI 教育 の中での統計科学の教育について（日本学術会議）
-	- https://www.scj.go.jp/ja/info/kohyo/pdf/kohyo-25-k230926-24.pdf
-	- (1) 数理・データサイエンス・AI 分野の理論的基礎としての統計科学の位置付け
-	- (2) 数理・データサイエンス・AI 分野の再教育(リスキリング)の推進
-	- (3) 学士課程及び大学院教育が必要とする統計教員の育成
-	- (4) 初等・中等教育における教材、ソフトウェア、デジタル環境の整備と統計教育の さらなる充実
-	- きっと、データサイエンティストが主人公のアニメが必要だと思うぞ。
-- RAGをOSSだけで構築する方法(llamaindex)
-	-  Building RAG from Scratch (Open-source only!)
-	- https://gpt-index.readthedocs.io/en/latest/examples/low_level/oss_ingestion_retrieval.html
-	- Sentence Transformers as the embedding model
-	- Postgres as the vector store (we support many other 
+- 大学における数理・データサイエンス・AI 教育 の中での統計科学の教育につ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzUzNzg1ODgsMjM1NzkyNjQ0LC0yMD
-I3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0
-LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC
-0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1
-NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MT
-csMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5
-NjUyNjBdfQ==
+eyJoaXN0b3J5IjpbMTk3NjQ2MjMyNiwyMzU3OTI2NDQsLTIwMj
+czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
+LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
+E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
+MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
+wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
+NTI2MF19
 -->
