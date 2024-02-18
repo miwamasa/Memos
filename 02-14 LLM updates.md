@@ -3,7 +3,7 @@
 
 ## 2/19
 
-今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという講演の数日後に出すとか。soraの外部による技術解析も進み、既存の技術の組み合わせではあるが、その制度とスケールが違うということで、OpenAIが横綱相撲を見せつけただけだった。おかげでかすんでしまった、Gemini 1.5、なんとMoEを採用し、長大トークンに対応、RAGっていらね？みたいな勢いだが、ブラックボックスをガラポンででよいわけがない。RAGもCollective RAGとか、embeddingの工夫とか、説明性のある生成AIになんか進んでる気がする。Le
+今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという講演の数日後に出すとか。soraの外部による技術解析も進み、既存の技術の組み合わせではあるが、その制度とスケールが違うということで、OpenAIが横綱相撲を見せつけただけだった。おかげでかすんでしまった、Gemini 1.5、なんとMoEを採用し、長大トークンに対応、RAGっていらね？みたいな勢いだが、ブラックボックスをガラポンででよいわけがない。RAGもCollective RAGとか、embeddingの工夫とか、説明性のある生成AIになんか進んでる気がする。一方MetaはLeCun先生のいう世界モデルに近くためのV-JEPA（動画の予測）を発表。ここにきて、世界モデルやシミュレーションが一気に現実味が帯びてきた。、
 
 なぜかLlamaindexとLangchainがそれぞれ大きなバージョンの代替わり、肥大化しすぎたのをモジュラー化したという話だが、LangChainには後方互換性があるって本当？LLMのサーベイ論文、今後の研究の進む方向を正しく見据えててよい。小さいLLMとか次世代基盤(Mambaとか）とか、LLMアプデでも追ってた話題がのっているのは良き。natureの、ChatGPTを利用してデータから論文を生成ってのは、研究者なら必読かも（自分というわけではなく、そういう人や論文と競争しなければいけないという意味で）。
 
@@ -3996,11 +3996,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- ChatGPTを使って特許から10万件の分子と関連するキーワードを高精度に抽出、このデータベースを学習したモデルからウイルス薬を逆探索するとそれっぽい分子を抽出できた
 	- 特許分析だけから、、、
 - ChatGPT-4V公開、iOSやAndroid版にも搭載、様々な評価が報告される
-	- デモの画像と言語を交えたインタラクションは未来感ある。構造化文書を画像で見せてもある程度理解できる模様。
-	- 人の見た目に対する言及など新たなリスクも評価・対策済みとのこと
-	- 英語のほうがOCR精度が良いし色々試してるけど、シンプル
+	- デモの画像と言語を交えたインタラクションは未来感ある。構造化文書を画像で見せてもあ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTU4MTM2NCwyMzU3OTI2NDQsLTIwMj
+eyJoaXN0b3J5IjpbLTg4Njc2Nzk5MiwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
 LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
