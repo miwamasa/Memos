@@ -136,7 +136,12 @@
 -  【Gemini 1.5 Pro】100万トークン入力できる最強LLMの性能をGPT-4と比較してみた
 	- https://weel.co.jp/media/gemini-1-5-pro
 	- ● 性能テストで先代の大型モデル・Ultra 1.0と互角  
-	- ● Transformerの進化系、MoEアーキテクチャを搭載 ● LLM史上最大、100万トークンもの入力に対応
+		- 性能比較全32項目のうち30項目で、GPT-4に勝利
+		- 理数&人文全57科目の問題集「MMLU」にて専門家に勝利
+	- ● Transformerの進化系、MoEアーキテクチャを搭載 
+	- ● LLM史上最大、100万トークンもの入力に対応
+		- MoEアーキテクチャを採用した結果、Gemini 1.5 Proでは入力できるトークン数が大幅にUP！一回に100万トークンの入力が実現しました。
+- 
 
 ## 2/13
 
@@ -3999,17 +4004,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://arxiv.org/abs/2309.15325v1
 	- 入出力のマッピング演算子を学習するニューラル演算子。数値計算を高速化できるだけでなく、実験データからの学習や逆設計までできるそうです。
 - ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning
-	- https://huggingface.co/papers/2309.16650
-	- ３Dの状況を概念モデルとして理解するための語彙を提供、これはメタファーの世界か。。
-- Gaussian Splat＋三次元生成の論文が一つどころか二つ同時に出ているのが戦国時代っぽいところ
-	- https://gsgen3d.github.io/
-	- ht
+	- https://huggingface.co/pap
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk4NzQwNTAsMjM1NzkyNjQ0LC0yMD
-I3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0
-LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC
-0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1
-NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MT
-csMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5
-NjUyNjBdfQ==
+eyJoaXN0b3J5IjpbLTM5MzAxODgxNCwyMzU3OTI2NDQsLTIwMj
+czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
+LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
+E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
+MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
+wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
+NTI2MF19
 -->
