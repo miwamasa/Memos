@@ -155,6 +155,10 @@
 -  ChatGPTを社内に配ってもあまり使われない本当の理由
 	- https://qiita.com/jw-automation/items/cf8ffc7a0edab512d917
 	- 社内情報というコンテキストが必要な業務がほとんどである人達に、素のChatGPTを配っても、特に使える所がないというのはいわば当たり前の話です。
+- Build Knowledge Graph From TextData using LangChain
+	- https://medium.com/@mahimairaja/build-knowledge-graph-from-textdata-using-langchain-under-2min-ce0d0d0e44e8
+	- Converting text to knowledge graphs can be helpful for both visualizing the data and allowing for structured querying later on 
+	- This blog goes through how to use LLMs to extract knowledge triplets
 - 
 
 ## 2/13
@@ -3996,20 +4000,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	-  Building RAG from Scratch (Open-source only!)
 	- https://gpt-index.readthedocs.io/en/latest/examples/low_level/oss_ingestion_retrieval.html
 	- Sentence Transformers as the embedding model
-	- Postgres as the vector store (we support many other vector stores too!)
-	- Llama 2 as the LLM (through llama.cpp)
-- Google Colab で Preferred Networks の PLaMo-13B を試すby npaka
-	- https://note.com/npaka/n/n19ff9dd4a537?sub_rt=share_sb
--  機械学習アルゴリズムが発見した初めての準結晶(統計数理研究所）
-	- https://www.ism.ac.jp/ura/press/ISM2023-05.html
-	- これまでに合成されてきた準結晶や関連物質のパターンを読み解き、熱的に安定な準結晶を形成する化学組成を予測する機械学習技術を開発
-- PFN の PLaMo-13B を 4 bit 量子化するとColab 無料版の
+	- Postgres as the vector store (we support many other vector 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDYzMTg4MTIsMjM1NzkyNjQ0LC0yMD
-I3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0
-LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC
-0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1
-NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MT
-csMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5
-NjUyNjBdfQ==
+eyJoaXN0b3J5IjpbMjEyODAwNzE1NywyMzU3OTI2NDQsLTIwMj
+czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
+LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
+E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
+MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
+wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
+NTI2MF19
 -->
