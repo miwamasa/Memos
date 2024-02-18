@@ -141,7 +141,10 @@
 	- ● Transformerの進化系、MoEアーキテクチャを搭載 
 	- ● LLM史上最大、100万トークンもの入力に対応
 		- MoEアーキテクチャを採用した結果、Gemini 1.5 Proでは入力できるトークン数が大幅にUP！一回に100万トークンの入力が実現しました。
-- 
+- 教科書：確率過程
+	- 確率過程に興味があるB4・M1が読むべき教科書について説明する．
+	- [ｓくしゅうhttps://kanazawa.scphys.kyoto-u.ac.jp/wpkzdb/wp-content/uploads/2023/04/stochasticProcessShort.pdf
+	-  https://kanazawa.scphys.kyoto-u.ac.jp/wpkzdb/wp-content/uploads/2023/10/StochasticProcess2023_long.pdf
 
 ## 2/13
 
@@ -4000,13 +4003,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- 単価は、1,54万円/万
 	- 体調が安定しており病欠が少ない方
 - 機械学習により偏微分方程式を解く論文
-	-  Neural Operators for Accelerating Scientific Simulations and Design
-	- https://arxiv.org/abs/2309.15325v1
-	- 入出力のマッピング演算子を学習するニューラル演算子。数値計算を高速化できるだけでなく、実験データからの学習や逆設計までできるそうです。
-- ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning
-	- https://huggingface.co/pap
+	-  Neural Operators for Accel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzAxODgxNCwyMzU3OTI2NDQsLTIwMj
+eyJoaXN0b3J5IjpbLTIzODU0NjAzMywyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
 LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
