@@ -171,7 +171,11 @@
 - iPhoneにGeminiきてた
 	- https://x.com/npaka123/status/1758656487399014521?s=20
 	- ?? Advance???
-- 
+- Ollama で Elyza-7B を試す by npakaさん
+	- https://note.com/npaka/n/ndadbae6c6be5?sub_rt=share_h
+	- 「Ollama」の日本語表示が改善されたとのことなので、「Elyza-7B」で試してみました
+	- Ollamaのサイトに載っていないモデルは、自分で「**Modelfile**」を作成して、追加する必要があります。
+	- 
 
 ## 2/13
 
@@ -3996,17 +4000,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - 統語的評価データセット JCoLA が https://huggingface.co/datasets/shunk031/JGLUEに追加
 	- JGLUE の全てのデータセットがそろったらしい
 - ChatGPT の検索プラグイン(Plus用？）が復活
--  Pair Programming with a Large Language Model
-	- https://www.deeplearning.ai/short-courses/pair-programming-llm/
-	- DeepLearningAIより、ショートコースが公開。LLMとペアプロとは
-- llamaindexのTimescaleDBとの連携
-	- https://medium.com/llamain
+-  Pair Pro
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Mzg1MzU0NCwyMzU3OTI2NDQsLTIwMj
-czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
-LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
-E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
-MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
-wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
-NTI2MF19
+eyJoaXN0b3J5IjpbLTE0NzI1NTUwOTYsMjM1NzkyNjQ0LC0yMD
+I3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0
+LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC
+0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1
+NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MT
+csMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5
+NjUyNjBdfQ==
 -->
