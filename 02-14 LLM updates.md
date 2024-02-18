@@ -3,7 +3,7 @@
 
 ## 2/19
 
-今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという講演の数日後に出すとか。soraの外部による技術解析も進み、既存の技術の組み合わせではあるが、その制度とスケールが違うということで、OpenAIが横綱相撲を見せつけただけだった。おかげでかすんでしまった、Gemini 1.5、なんとMoEを採用し、長大トークンに対応、RAGっていらね？みたいな勢いだが、ブラックボックスをガラポンででいいｗ。RAGもCollective RAGとか、embeddingの工夫とか、説明性のある生成AIになんか進んでる気がする。
+今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算しているかも。GoogleのGemini 1.5のリリース直後、MetaのLecun先生が、当面できないという講演の数日後に出すとか。soraの外部による技術解析も進み、既存の技術の組み合わせではあるが、その制度とスケールが違うということで、OpenAIが横綱相撲を見せつけただけだった。おかげでかすんでしまった、Gemini 1.5、なんとMoEを採用し、長大トークンに対応、RAGっていらね？みたいな勢いだが、ブラックボックスをガラポンででよいわけがない。RAGもCollective RAGとか、embeddingの工夫とか、説明性のある生成AIになんか進んでる気がする。なぜかLlamaindexとLangchainがそれぞれ大きなバージョンの代替わり、肥大化しすぎたのをモジュラー化したという話だが、LangChainには後方互換性があるって本当？LLMのサーベイ論文、今後の研究の進む方向を正しく見据えててよい。
 
 
 -  LlamaIndex v0.10
@@ -3999,15 +3999,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- 英語のほうがOCR精度が良いし色々試してるけど、シンプルな図表のReasoningはかなりできる。図表に含まれない背景情報も、GPT内部の知識で補えるのが強力。
 - Calibrating LLM-Based Evaluator
 	- https://huggingface.co/papers/2309.13308
-	-  LLMベースの評価器の校正: 大規模言語モデル（LLM）を自然言語生成の品質評価に利用する方法を提案し，人間の評価との一致度を高めるための校正手法を提案する．
-- Sam Altman氏、「社内内部的には、AGIは完成した」とtweet。
-	- am Altman says "agi has bee
+	-  LLMベースの評価器の校正: 大規模言語モデル（LLM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk4NTE3NzcsMjM1NzkyNjQ0LC0yMD
-I3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0
-LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC
-0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1
-NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MT
-csMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5
-NjUyNjBdfQ==
+eyJoaXN0b3J5IjpbNjc1OTk3NzI4LDIzNTc5MjY0NCwtMjAyNz
+M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
+MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
+g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
+ODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAwNTE3LD
+EwMTcyMDE5OTQsLTEzNTg0NjI0ODEsOTQ5NDkxNjQ1LDMwOTY1
+MjYwXX0=
 -->
