@@ -3,6 +3,9 @@
 
 ## 2/19
 
+今週は、なんといっても、sora、sora、sora。
+
+
 -  LlamaIndex v0.10
 	- https://blog.llamaindex.ai/llamaindex-v0-10-838e735948f8
 	- https://x.com/llama_index/status/1757121818115322076?s=20
@@ -181,6 +184,10 @@
 	- https://x.com/ylecun/status/1758740106955952191?s=20
 	- いや世界モデルを持つのがむつかしいというのが真意である。。。
 	- きっと過ちは繰り返す。
+- soraの生成した画像についての分析が進む
+	- https://x.com/anand_bhattad/status/1758632768597328202?s=20
+	- こいつ射影幾何わかってないよね？
+	- DALE3と同じ画像じゃん等
 - 
 
 ## 2/13
@@ -3999,11 +4006,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- サンフランシスコで予定されている開発者会議（11/6）に何かしらの発表がある。
 - 【続】Flash Attentionを使ってLLMの推論を高速・軽量化できるか？
 	- https://qiita.com/jovyan/items/5716cd83e246df4a158e
-	- 最近公開されたhuggingfaceから直接公式実装のFlash Attention2を使える機能（from_pretrainedでuse_flash_attention_2=Trueを指定）についても実験
-- 『LogiCoT』GPT-4などのLLMに「自らの論理的な整合性をチェック」させるフレームワーク
-	- "Enhancing Z
+	- 最近公開されたhuggingfa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTQzMTQ2MiwyMzU3OTI2NDQsLTIwMj
+eyJoaXN0b3J5IjpbMTAxMjczMDg3MSwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
 LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
 E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
