@@ -175,7 +175,9 @@
 	- https://note.com/npaka/n/ndadbae6c6be5?sub_rt=share_h
 	- 「Ollama」の日本語表示が改善されたとのことなので、「Elyza-7B」で試してみました
 	- Ollamaのサイトに載っていないモデルは、自分で「**Modelfile**」を作成して、追加する必要があります。
-	- 
+	- 「Llama2」のManifestを参考にさせてもらいます
+	- 今回は、「**ELYZA-japanese-Llama-2-7b-instruct-q4_K_M.gguf**」をダウンロードします。
+- 
 
 ## 2/13
 
@@ -3997,12 +3999,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - 『LogiCoT』GPT-4などのLLMに「自らの論理的な整合性をチェック」させるフレームワーク
 	- "Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic"
 	- 前提（Premise）、考え（Thought）、検証（Verification）について明確に指示する
-- 統語的評価データセット JCoLA が https://huggingface.co/datasets/shunk031/JGLUEに追加
-	- JGLUE の全てのデータセットがそろったらしい
-- ChatGPT の検索プラグイン(Plus用？）が復活
--  Pair Pro
+- 統語的評価データセット JCoLA が https://hugging
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI1NTUwOTYsMjM1NzkyNjQ0LC0yMD
+eyJoaXN0b3J5IjpbLTEyNDcxMTA5MDMsMjM1NzkyNjQ0LC0yMD
 I3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0
 LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC
 0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1
