@@ -133,7 +133,10 @@
 - Corrective RAG with LangGraph
 	- https://github.com/langchain-ai/langgraph/tree/main/examples/rag
 	- We’ve just implemented 4 new notebooks outlining different RAG and CRAG techniques in LangChainAI　PY & JS! These show off different RAG flows, using OSS and hosted LLMs. See the links below for the notebooks:
-- 
+-  【Gemini 1.5 Pro】100万トークン入力できる最強LLMの性能をGPT-4と比較してみた
+	- https://weel.co.jp/media/gemini-1-5-pro
+	- ● 性能テストで先代の大型モデル・Ultra 1.0と互角  
+	- ● Transformerの進化系、MoEアーキテクチャを搭載 ● LLM史上最大、100万トークンもの入力に対応
 
 ## 2/13
 
@@ -4000,16 +4003,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- ３Dの状況を概念モデルとして理解するための語彙を提供、これはメタファーの世界か。。
 - Gaussian Splat＋三次元生成の論文が一つどころか二つ同時に出ているのが戦国時代っぽいところ
 	- https://gsgen3d.github.io/
-	- https://dreamgaussian.github.io/
-	- Gaussian Splatting は、3D シーンを、ガウシアン関数で表された点群の集合として表現します。この点群の集合を、レンダリング時に、光線に沿ってサンプリングすることで、シーンをレンダリングします。
-- lama_indexの AutoMergingRetrieverを図解した絵が素晴らしい
-	- h
+	- ht
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDMyMzM5OSwyMzU3OTI2NDQsLTIwMj
-czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
-LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
-E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
-MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAwMDUxNy
-wxMDE3MjAxOTk0LC0xMzU4NDYyNDgxLDk0OTQ5MTY0NSwzMDk2
-NTI2MF19
+eyJoaXN0b3J5IjpbLTEzOTk4NzQwNTAsMjM1NzkyNjQ0LC0yMD
+I3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0
+LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC
+0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1
+NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYwMDA1MT
+csMTAxNzIwMTk5NCwtMTM1ODQ2MjQ4MSw5NDk0OTE2NDUsMzA5
+NjUyNjBdfQ==
 -->
