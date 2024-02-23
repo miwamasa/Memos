@@ -10,6 +10,10 @@
 -  Hyena Hierarchy: Towards Larger Convolutional Language Models
 	- https://speakerdeck.com/hpprc/hyena-hierarchy-towards-larger-convolutional-language-models
 	- Hyena Hierarchyについて、状態空間モデル（SSM）の基礎から解説したスライド
+- GroqのLPUについて
+	- https://x.com/umiyuki_ai/status/1759740311335739784?s=20
+	- Groqとか言う会社のLPU（Language Processing Unit）って新しいチップはLLM推論速度が爆速なんだと。NVidiaとかのGPUと違って高品質なVRAMが要らんから低コストらしい。70BのLLMを動かす時に300tpsという超爆速で推論できる。
+	- M3Maxだと6tps、RTX4090+PowerInferだと4tpsしか出ないから50～100倍の速度差。GPUがオワコンの時代来たか？
 - 
 
 ## 2/19
@@ -3985,20 +3989,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- GPT-4V vs. 霞が関　https://x.com/horromary/status/1707373718534824305?s=20
 - 外部知識によりパーソナライズされた対話システム
 	- https://www.jstage.jst.go.jp/article/jjske/22/2/22_TJSKE-D-22-00053/_article/-char/ja/
-	- 様々な概念に対するユーザーの関心を推定し，知識グラフをパーソナライズする手法を用いて，雑談における共感性や情報提供を目指す
-- ChatGPT(Pllusユーザー以上）に、来週から新機能をroll-outするとの発表
-	- Voice Capabilities:
-	- Image Interaction
-	- New Text-to-Speech Model:
-	- Collaboration with Spotify
--  Amazon、生成AI新興に5900億円出資　Microsoftに対抗
-	-  Claude-2-100kは、Anthropicの最も強力なモデルで、コンテキストウ
+	- 様々な概念に対するユ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzAxMDQ4NiwxMTE2NjA3NDk2LDUzMj
-M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
-LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
-kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
-MzMsLTE4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLD
-EwMjU0MTgxOTYsNDY5MDM3Mzc2LC0xMjQ3MDM5Mjg0LDI0NjAw
-MDUxN119
+eyJoaXN0b3J5IjpbLTIyMzMzNjk3LDExMTY2MDc0OTYsNTMyMz
+c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
+MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
+E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
+MywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMT
+AyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAw
+NTE3XX0=
 -->
