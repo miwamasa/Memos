@@ -18,8 +18,10 @@
 	- https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/
 	- Berkeleyの人々による、「コンパウンドAI」のレビュー記事。
 	- LLM単体で勝負するよりも、LLMを含む各種AI／非AIモジュールを組み合わせて作る「コンパウンドAI」の方がより良いシステムを作りやすい、
-- Introducing LlamaCloud  and
+- Introducing LlamaCloud  and　LlamaParse
 	- https://blog.llamaindex.ai/introducing-llamacloud-and-llamaparse-af8cedf9006b
+	- Today is a big day for the LlamaIndex ecosystem: we are announcing LlamaCloud, a new generation of managed parsing, ingestion, and retrieval services, designed to bring **production-grade**  **context-augmentation** to your LLM and RAG applications.
+- 
 
 ## 2/19
 
@@ -3987,15 +3989,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- 画像や画像解析結果を報告する際のベストプラクティスに関するNature Methods誌の記事
 	- 画像のフォーマットや注釈、色の選択、データの利用可能性、画像解析ワークフローの報告に関する重要な推奨事項が提供されています。
 - OpenAIからGPT-4V(ision) が発表、ついでに品質カードSystem Cardも公開
-	- https://cdn.openai.com/papers/GPTV_System_Card.pdf
-	- GPT-4 with vision (GPT-4V) enables users to instruct GPT-4 to analyze image inputs provided by the user, and is the latest capability we are making broadly available. Incorporating additional modalities
-	- 複雑な標識を読み取る、https://x.com/
+	- https://cdn.opena
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ5MzM5ODQsMTExNjYwNzQ5Niw1Mz
-IzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0
-LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MT
-A5MTQ0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5
-MTMzLC0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MC
-wxMDI1NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYw
-MDA1MTddfQ==
+eyJoaXN0b3J5IjpbNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
+c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
+MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
+E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
+MywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMT
+AyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAw
+NTE3XX0=
 -->
