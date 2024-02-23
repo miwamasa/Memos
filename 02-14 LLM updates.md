@@ -14,7 +14,12 @@
 	- https://x.com/umiyuki_ai/status/1759740311335739784?s=20
 	- Groqとか言う会社のLPU（Language Processing Unit）って新しいチップはLLM推論速度が爆速なんだと。NVidiaとかのGPUと違って高品質なVRAMが要らんから低コストらしい。70BのLLMを動かす時に300tpsという超爆速で推論できる。
 	- M3Maxだと6tps、RTX4090+PowerInferだと4tpsしか出ないから50～100倍の速度差。GPUがオワコンの時代来たか？
-- 
+- The Shift from Models to Compound AI Systems
+	- https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/
+	- Berkeleyの人々による、「コンパウンドAI」のレビュー記事。
+	- LLM単体で勝負するよりも、LLMを含む各種AI／非AIモジュールを組み合わせて作る「コンパウンドAI」の方がより良いシステムを作りやすい、
+- Introducing LlamaCloud
+	- 
 
 ## 2/19
 
@@ -3985,17 +3990,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://cdn.openai.com/papers/GPTV_System_Card.pdf
 	- GPT-4 with vision (GPT-4V) enables users to instruct GPT-4 to analyze image inputs provided by the user, and is the latest capability we are making broadly available. Incorporating additional modalities
 	- 複雑な標識を読み取る、https://x.com/petergyang/status/1707169696049668472?s=20
-	- サイゼリアの「間違えさがし」の正答率は１割、https://x.com/cumulo_autumn/status/1707574932153282728?s=20
-	- GPT-4V vs. 霞が関　https://x.com/horromary/status/1707373718534824305?s=20
-- 外部知識によりパーソナライズされた対話システム
-	- https://www.jstage.jst.go.jp/article/jjske/22/2/22_TJSKE-D-22-00053/_article/-char/ja/
-	- 様々な概念に対するユ
+	- サイゼリアの「間違えさがし」の正答率は１割、https://x.com/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzMzNjk3LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-MywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMT
-AyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAw
-NTE3XX0=
+eyJoaXN0b3J5IjpbLTE4MjYxODg2NjksMTExNjYwNzQ5Niw1Mz
+IzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0
+LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MT
+A5MTQ0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5
+MTMzLC0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MC
+wxMDI1NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAzOTI4NCwyNDYw
+MDA1MTddfQ==
 -->
