@@ -18,8 +18,8 @@
 	- https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/
 	- Berkeleyの人々による、「コンパウンドAI」のレビュー記事。
 	- LLM単体で勝負するよりも、LLMを含む各種AI／非AIモジュールを組み合わせて作る「コンパウンドAI」の方がより良いシステムを作りやすい、
-- Introducing LlamaCloud
-	- 
+- Introducing LlamaCloud  and
+	- https://blog.llamaindex.ai/introducing-llamacloud-and-llamaparse-af8cedf9006b
 
 ## 2/19
 
@@ -3989,10 +3989,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - OpenAIからGPT-4V(ision) が発表、ついでに品質カードSystem Cardも公開
 	- https://cdn.openai.com/papers/GPTV_System_Card.pdf
 	- GPT-4 with vision (GPT-4V) enables users to instruct GPT-4 to analyze image inputs provided by the user, and is the latest capability we are making broadly available. Incorporating additional modalities
-	- 複雑な標識を読み取る、https://x.com/petergyang/status/1707169696049668472?s=20
-	- サイゼリアの「間違えさがし」の正答率は１割、https://x.com/
+	- 複雑な標識を読み取る、https://x.com/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjYxODg2NjksMTExNjYwNzQ5Niw1Mz
+eyJoaXN0b3J5IjpbLTE2NzQ5MzM5ODQsMTExNjYwNzQ5Niw1Mz
 IzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0
 LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MT
 A5MTQ0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5
