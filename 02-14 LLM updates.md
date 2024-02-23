@@ -4,6 +4,12 @@
 
 ## 2/26
 
+- BCGXから、agentkit
+	- https://agentkit.infra.x.bcg.com/
+	- BCG Xから大規模言語モデルを使ったAgentを楽に作るためのフレームワークAgentKitがOSSとして出ました〜。 Nextjs, FastAPI, Langchainのモダンなテックスタックです
+-  Hyena Hierarchy: Towards Larger Convolutional Language Models
+	- https://speakerdeck.com/hpprc/hyena-hierarchy-towards-larger-convolutional-language-models
+	- Hyena Hierarchyについて、状態空間モデル（SSM）の基礎から解説したスライド
 - 
 
 ## 2/19
@@ -3986,14 +3992,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- New Text-to-Speech Model:
 	- Collaboration with Spotify
 -  Amazon、生成AI新興に5900億円出資　Microsoftに対抗
-	-  Claude-2-100kは、Anthropicの最も強力なモデルで、コンテキストウィンドウが10万トークン（約75,000語）
-	- ばっちり日本語にも対応しQuoraが提供する [poe.com](http://poe.com)  で実際に使ってみることができます。
-- llamaindexのAuto Merging Retriever
-	- https://gpt-index.readthedocs.io/en/latest/examples/retrievers/auto_merging_retriever.html
-	- 木構造で整理されたドキュメントに対して類似する枝から順にマージして見せるらしい。
-	- RAGを評価する教師データをGPT4で生成する、DatasetGeneratorもついでに紹介。いわゆる、 LLM-as-a-judge の一種をlllamaindexがnativeサポートした
+	-  Claude-2-100kは、Anthropicの最も強力なモデルで、コンテキストウ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjQ5MTY5MiwxMTE2NjA3NDk2LDUzMj
+eyJoaXN0b3J5IjpbMTU3NzAxMDQ4NiwxMTE2NjA3NDk2LDUzMj
 M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
 LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
 kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
