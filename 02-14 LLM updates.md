@@ -30,7 +30,17 @@
 	- https://huggingface.co/papers/2402.11450
 	- Google presents Learning to Learn Faster from Human Feedback with Language Model Predictive Control
 - SLANG: New Concept Comprehension of Large Language Models
-	- 
+	- https://arxiv.org/abs/2401.12585
+	- GPT-4などに対してプロンプトのみから「新しい言葉の概念」を学習させるためのフレームワーク『FOCUS』をカリフォルニア大学などの研究者らが考案
+	- ■メソッド 
+		- 1. 使用例（コンテキスト）とフレーズを直接入力する 
+		- 2. フレーズをコンテキスト内で隠して、意味を評価させる 
+		- 3. コンテキスト内のエンティティ（固有名詞や出来事など）を変更し、異なるエンティティがフレーズの解釈に与える影響を調べる 
+		- 4. 上記の結果、モデルが新しい言葉の理解に至ったのかを評価する 
+	- ■実験と結果 
+		- 1. GPT-4/3.5で検証 
+		- 2. モデルが知らないインターネットミームを教え込ませた 
+		- 3. GPT-4で88.2%、GPT-3.5でも84.5%の正確さを達成した
 
 ## 2/19
 
@@ -3981,20 +3991,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 
 - Agents: LLMをつかった新しいagentフレームワークとツール軍
 	- https://github.com/aiwaves-cn/agents
-	- **Agents** is an open-source library/framework for building autonomous language agents. The library is carefully engineered to support important features including **long-short term memory**, **tool usage**, **web navigation**, **multi-agent communication**, and brand new features including **human-agent interaction** and **symbolic control**.
-- llamaindexからneo4jを使ったグラフagent
-	- https://llamahub.ai/l/tools-neo4j_db
-	- The `Neo4jQueryToolSpec` class provides a way to query a Neo4j graph database based on a provided schema definition.
--  LLM Fine-Tuning (東大松尾研LLM講座 Day5資料)
-	- https://speakerdeck.com/schulta/llm-fine-tuning-dong-da-song-wei-yan-llmjiang-zuo-day5zi-liao
-- OSSのLLMはだGAFAMのLLMに勝ち目がいないかあるか？
-	- https://x.com/bindureddy/s
+	- **Agents** is an open-source library/framework for building autonomous language agents. The library is carefully engineered to support important features including **long-short term memory**, **tool usage**, **web navigation**, **multi-agent communication**, and brand new features including **human-agent interaction** and **symbolic con
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMT
-Y2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5
-LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1OD
-IxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3
-NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLT
-IxMjMyMDAzNTAsMTAyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcw
-MzkyODRdfQ==
+eyJoaXN0b3J5IjpbLTc4NjYyMzE0NywtMTAwODk0MTIyNiw1OT
+gwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYs
+LTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MT
+U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
+LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
+IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
+NzM3Nl19
 -->
