@@ -41,6 +41,9 @@
 		- 1. GPT-4/3.5で検証 
 		- 2. モデルが知らないインターネットミームを教え込ませた 
 		- 3. GPT-4で88.2%、GPT-3.5でも84.5%の正確さを達成した
+	-  GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements
+		- https://huggingface.co/papers/2402.10963
+		- 
 
 ## 2/19
 
@@ -3991,9 +3994,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 
 - Agents: LLMをつかった新しいagentフレームワークとツール軍
 	- https://github.com/aiwaves-cn/agents
-	- **Agents** is an open-source library/framework for building autonomous language agents. The library is carefully engineered to support important features including **long-short term memory**, **tool usage**, **web navigation**, **multi-agent communication**, and brand new features including **human-agent interaction** and **symbolic con
+	- **Agents** is an open-source library/framework for building autonomous language agents. The library is carefully engineered to support important features including **long-short term memory**, **tool
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjYyMzE0NywtMTAwODk0MTIyNiw1OT
+eyJoaXN0b3J5IjpbMTM5ODc4NDE2MywtMTAwODk0MTIyNiw1OT
 gwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYs
 LTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MT
 U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
