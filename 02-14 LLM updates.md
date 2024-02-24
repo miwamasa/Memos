@@ -21,6 +21,9 @@
 - Introducing LlamaCloud  and　LlamaParse
 	- https://blog.llamaindex.ai/introducing-llamacloud-and-llamaparse-af8cedf9006b
 	- Today is a big day for the LlamaIndex ecosystem: we are announcing LlamaCloud, a new generation of managed parsing, ingestion, and retrieval services, designed to bring **production-grade**  **context-augmentation** to your LLM and RAG applications.
+- MolTailor: Tailoring Chemical Molecular Representation to Specific Tasks via Text Prompts
+	- https://arxiv.org/abs/2401.11403
+	- 機械学習応用には分子の物性予測から分類までさまざまなタスクがありますが、LLMによりそれぞれのタスクごとに最適な分子表現へと調整することで、予測性能が向上したそうです。
 - 
 
 ## 2/19
@@ -3985,17 +3988,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://engineers.ntt.com/entry/2023/09/25/091245
 	- LLM-as-a-judge では、**人手評価に匹敵するクオリティの評価を、お金や時間、労力をかけずに機械的に行える**ことが期待できます。
 -  Community-developed checklists for publishing images and image analyses(Nature)
-	- https://www.nature.com/articles/s41592-023-01987-9
-	- 画像や画像解析結果を報告する際のベストプラクティスに関するNature Methods誌の記事
-	- 画像のフォーマットや注釈、色の選択、データの利用可能性、画像解析ワークフローの報告に関する重要な推奨事項が提供されています。
-- OpenAIからGPT-4V(ision) が発表、ついでに品質カードSystem Cardも公開
-	- https://cdn.opena
+	- https://www.nature.com/a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-MywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMT
-AyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcwMzkyODQsMjQ2MDAw
-NTE3XX0=
+eyJoaXN0b3J5IjpbMjE0MDIwMDE0Miw1OTgwODUyMjQsMTExNj
+YwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTks
+MjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4Mj
+EzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0
+LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMj
+EyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAz
+OTI4NF19
 -->
