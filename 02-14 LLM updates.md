@@ -52,6 +52,7 @@
 	- Gemini 1.5 proで「githubから直接全コードと全issuesを取得させる事」と「最も緊急度の高いissuesを特定し、修正を実装させる事」が出来た
 - Kotomamba: mamba-2.8B 学習知見
 	- https://zenn.dev/kotoba_tech/articles/f15b2495d44c4f
+	- Kotoba TechnologiesはNLPと分散並列学習に関する技術を用いて、日本及び非英語圏におけるLLMやマルチモーダルモデルの実運用に向けた研究開発を行っています。
 	- from scratchから日本語と英語のコーパスにて学習を行ったkotomamba-2.8B-v1.0、
 	- もう１つはstate-spaces/mamba-2.8b-slimpjから日本語と英語で継続事前学習を行ったkotomamba-2.8b-CL-v1.0です。
 
@@ -4000,13 +4001,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 
 ## 10/2
 
-今週は、いや、今週もいろいろありすぎて、消化しきれない。GPT-4V(ision) デビュー、画像理解とか、ついにLLMが眼を持った（カンブリア紀）、これってAGIの前触れ？　GPT-4V初期ユーザーからは、霞が関パワポを入力したり、天一のマークも「侵入禁止」標識と誤認識はしない、サイゼリアの「間違え探し」は苦手、という報告も。ChatGPTにもvisionや音声対話機能が来週からロールアウトする
+今週は、いや、今週もいろいろありすぎて、消化しきれない。GPT-4V(ision) デビュー、画像理解とか、ついにLLMが眼を持った（カンブリア紀）、これってAGIの前触れ？　GPT-4V初期ユーザーからは、霞が関パワ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA2MzAwMDYsLTEwMDg5NDEyMjYsNT
-k4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2
-LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNj
-E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
-MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
-wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
-MzczNzZdfQ==
+eyJoaXN0b3J5IjpbLTgyNjg3MTE4NywtMTAwODk0MTIyNiw1OT
+gwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYs
+LTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MT
+U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
+LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
+IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
+NzM3Nl19
 -->
