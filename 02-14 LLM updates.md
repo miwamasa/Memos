@@ -24,7 +24,13 @@
 - MolTailor: Tailoring Chemical Molecular Representation to Specific Tasks via Text Prompts
 	- https://arxiv.org/abs/2401.11403
 	- 機械学習応用には分子の物性予測から分類までさまざまなタスクがありますが、LLMによりそれぞれのタスクごとに最適な分子表現へと調整することで、予測性能が向上したそうです。
-- 
+- 超高速な対話AIサービスのGroq
+	- https://groq.com/
+-  Learning to Learn Faster from Human Feedback with Language Model Predictive Control
+	- https://huggingface.co/papers/2402.11450
+	- Google presents Learning to Learn Faster from Human Feedback with Language Model Predictive Control
+- SLANG: New Concept Comprehension of Large Language Models
+	- 
 
 ## 2/19
 
@@ -3982,19 +3988,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 -  LLM Fine-Tuning (東大松尾研LLM講座 Day5資料)
 	- https://speakerdeck.com/schulta/llm-fine-tuning-dong-da-song-wei-yan-llmjiang-zuo-day5zi-liao
 - OSSのLLMはだGAFAMのLLMに勝ち目がいないかあるか？
-	- https://x.com/bindureddy/status/1706092114063639035?s=20
-	- OSSのLLMは、AIの民主化と透明性のためには必要という話
--  LLMを用いたLLMの自動評価について 〜可能性と注意点
-	- https://engineers.ntt.com/entry/2023/09/25/091245
-	- LLM-as-a-judge では、**人手評価に匹敵するクオリティの評価を、お金や時間、労力をかけずに機械的に行える**ことが期待できます。
--  Community-developed checklists for publishing images and image analyses(Nature)
-	- https://www.nature.com/a
+	- https://x.com/bindureddy/s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDIwMDE0Miw1OTgwODUyMjQsMTExNj
-YwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTks
-MjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4Mj
-EzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0
-LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLDIzNzg2MzI1MiwtMj
-EyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAzNzM3NiwtMTI0NzAz
-OTI4NF19
+eyJoaXN0b3J5IjpbLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMT
+Y2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5
+LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1OD
+IxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3
+NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MSwyMzc4NjMyNTIsLT
+IxMjMyMDAzNTAsMTAyNTQxODE5Niw0NjkwMzczNzYsLTEyNDcw
+MzkyODRdfQ==
 -->
