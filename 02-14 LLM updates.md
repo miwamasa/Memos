@@ -45,6 +45,9 @@
 	- https://huggingface.co/papers/2402.10963
 	- 結果ベースの報酬モデル (ORM) をリランカーとして使用して、グローバルとローカルの改良を組み合わせると、いずれか 1 つを個別に使用した場合や、3 つのサンプル ベースラインの中で最も優れたものを大幅に上回るパフォーマンスが得られることがわかりました。
 - The Tokenizer Playground
+	- https://huggingface.co/spaces/Xenova/the-tokenizer-playground
+	- After watching, if you want to learn more about how different models (e.g., GPT4, Llama, T5, BERT) tokenize text, check out "The Tokenizer Playground": a web-app I built a few months ago with Transformer.js
+- 
 
 ## 2/19
 
@@ -3991,17 +3994,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 
 ## 10/2
 
-今週は、いや、今週もいろいろありすぎて、消化しきれない。GPT-4V(ision) デビュー、画像理解とか、ついにLLMが眼を持った（カンブリア紀）、これってAGIの前触れ？　GPT-4V初期ユーザーからは、霞が関パワポを入力したり、天一のマークも「侵入禁止」標識と誤認識はしない、サイゼリアの「間違え探し」は苦手、という報告も。ChatGPTにもvisionや音声対話機能が来週からロールアウトする(Plus以上のユーザー）。Amazonは、生成AIのAnthropicに5900億円出資。Quoraが提供する [poe.com](http://poe.com) で試用できる。GoogleのGPT-4超えのGeminiは水曜(10/4)に発表される。LLMでLLMを評価するLLM-as-a-judge がはやり。一方OpenAIの次世代LLMであるArrakisはAGIだといううわさも（コードネームは「砂の惑星」からきている？？）。特許検索だけからウイルス薬を発見したり、過去データから安定な準結晶の化学組成をあきらかにしたりと、バイオ・材料系でLLMは大活躍。PFN の PLaMo-13B 、4 bit 量子化するとColab 無料版で動くぞ。機械学習により偏微分方程式を解く話、データから逆設計できるならば画期的すぎる。 Gaussian Splatをつかった三次元生成の論文とGitHub公開が同時に２か所で！。LINEのインターン生による量子化による大規模言語モデル軽量化の効果測定、ここまで６週間でできるのか。ChatGPTの検索プラグイン復活、どうも本来ペイウォールで守られている記事であっても全文が表示されてしまうという報告で停止してものに対策が打たれた模様。RAG関係の進捗も、時系列データやMergeRetrieverなど進展がある。
-
-- Agents: LLMをつかった新しいagentフレームワークとツール軍
-	- https://github.com/aiwaves-cn/agents
-	- **Agents** is an open-source library/fram
+今週は、いや、今週もいろいろありすぎて、消化しきれない。GPT-4V(ision) デビュー、画像理解とか、ついにLLMが眼を持った（カンブリア紀）、これってAGIの前触れ？　GPT-4V初期ユーザーからは、霞が関パワポを入力したり、天一のマークも「侵入禁止」標識と誤認識はしない、サイゼリアの「間違え探し」は苦手、という報告も。ChatGPTにもvisionや音声対話機能が来週からロールアウトする(Plus以上のユーザー）。Amazonは、生成AIのAnthropicに5900億円出資。Quoraが提供する [poe.com](http://poe.com) で試用できる。GoogleのGPT-4超えのGeminiは水曜(10/4)に発表される。LLMでLLMを評価するLLM-as-a-judge がはやり。一方OpenAIの次世代LLMであるArrakisはAGIだといううわさも（コードネームは「砂の惑星」からきている？？）。特許検索だけからウイルス薬を発見したり、過去データから安定な準結晶の化学組成をあきらかにしたりと、バイオ・材料系でLLMは大活躍。PFN の PLaMo-13B 、4 bit 量子化するとColab 無料版で動くぞ。機械学習により偏微分方程式を解く話、データから逆設計できるならば画期的すぎる。 Gaussian Splatをつかった三次元生成の論文とGitHub公開が同時に２か所で！。LINEのインターン生による量子化に
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzkxNzY5NCwtMTAwODk0MTIyNiw1OT
-gwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYs
-LTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MT
-U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
-LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
-IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
-NzM3Nl19
+eyJoaXN0b3J5IjpbLTE1MDM2NTE1MDcsLTEwMDg5NDEyMjYsNT
+k4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2
+LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNj
+E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
+MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
+wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
+MzczNzZdfQ==
 -->
