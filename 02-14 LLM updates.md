@@ -107,7 +107,7 @@
 - kaggle新コンペ Google Gemmaを使ってData Scienceのタスクがどの様に解けるかをデモするノートブックを作成するAnalyticsコンペ。
 	- https://www.kaggle.com/competitions/data-assistants-with-gemma/
 	- LLM大喜利。各タスク毎に賞金$10k。
-- 
+- ge
 
 ## 2/19
 
@@ -4002,13 +4002,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - 早速GPT-4Vに対抗するOSSであるLLaVAが登場
 	-  LLaVA: Large Language and Vision Assistant
 	- https://llava-vl.github.io/
-	- Haotia
+	- Haoti
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM1Nzk4MDAsMTkxNDM4MDYwLC0xMD
-A4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcy
-NSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMj
-czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
-LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
-E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
-MTgxOTZdfQ==
+eyJoaXN0b3J5IjpbLTE0NDAwNTEzOSwxOTE0MzgwNjAsLTEwMD
+g5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1
+LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNz
+M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
+MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
+g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
+ODE5Nl19
 -->
