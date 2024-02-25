@@ -142,7 +142,8 @@
 	- https://gist.github.com/alexweberk/1434c95c05463866491677aac6ce19ba#file-mlx_finetuning_gemma-ipynb
 -  Introducing Pebblo — Data Visibility & Governance for Gen-AI apps
 	- https://medium.com/@sridhar_ramaswamy/introducing-pebblo-data-visibility-governance-for-gen-ai-apps-086ca8a62d10
-	- 
+	- Pebblo enables developers to safely load data and promote their Gen AI app to deployment without worrying about the organization’s compliance and security requirements. The project identifies semantic topics and entities in the loaded data and summarizes them on the UI or a PDF report.
+- 
 
 ## 2/19
 
@@ -3995,15 +3996,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/knowledge/finetune_retrieval_aug.html
 	- https://arxiv.org/abs/2310.01352
 	- gpt-4とDatasetGeneratorをつかって、正解qaデータを生成
-	- gpt-3.5-turboを正解qaデータをつかて、RAGのコンテキストでファインチューニング
-	- 結果correctnesは、素のLLM＝3.2、ファインチューニング後＝3.65、
-- 非侵襲の脳活動センシングによる、音声のデーコーディング
-	- Decoding speech from non-invasive recordings of brain activity
-	- https://huggingface.co/papers/2208.12266
-	- contrastive learningというのをつかって、脳波からスピーチを推定
-- OpenAIが、function calling fine-tuning
+	- gpt-3.5-turboを正解qaデータをつかて、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODg0NzQ1MSw5Mzk3MDg4MjAsLTIxMz
+eyJoaXN0b3J5IjpbLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMz
 YwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0
 LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0Nj
 EzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5
