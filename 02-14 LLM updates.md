@@ -128,7 +128,11 @@
 	- 広範な実験により、数学的なパラメーターと値のテキスト表現のみを通じて、言語モデルが非常に正確な数値回帰が可能であることが実証され、トレーニングの機会が与えられれば、複数のタスクにわたって、従来の回帰モデルを大幅に上回る可能性があります
 - Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping
 	- https://huggingface.co/papers/2402.14083
-- Stable Diffusion 3りりー
+- Stable Diffusion 3リリース
+	- https://stability.ai/news/stable-diffusion-3?utm_source=twitter&utm_medium=website&utm_campaign=blog
+	- 学習データから15億件も弾いたらしい。すごいな
+- Colbert Rerank
+	- 
 
 ## 2/19
 
@@ -4001,12 +4005,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- LLMが「世界モデル」を形成している可能性が高いのであれば、LLMがより高度な認知タスクに対応できることに繋がります。 例えば自動運転車のソフトウェアにLLMを活用するのは優れた戦略である可能性があります
 - huggingface/transformers v4.34の更新はかなりagressive
 	- https://github.com/huggingface/transformers/releases/tag/v4.34.0
-	- tokenizerの挙動を細かく制御していた人たちにとってはうれしいかも
-- ModuLoRA is the first method to finetune 3-bit LLMs
-	- 3-bitや2-bitに量子化したLLMの話題の裏にあるアルゴリズムModulLoRAが公開
-	- https://browse.arxiv.org/pdf/2309.16119.p
+	- tokenizerの挙動を細かく制御していた人たちにとってはうれし
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1MTUwMDg3LC0yMTM2MDA2MjUsMTkxND
+eyJoaXN0b3J5IjpbNjk5OTg2Nzk2LC0yMTM2MDA2MjUsMTkxND
 M4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2
 LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OT
 I2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQs
