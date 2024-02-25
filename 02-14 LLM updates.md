@@ -4,7 +4,7 @@
 
 ## 2/26
 
-先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が垣間見れてきた。このタイミングでGemini 1.5 proベースのOSSであるGemmaをリリース、軽量であるとともに、embeddingの工夫、安全なAIアプリケーションを作成するためのガイダンスと必須ツールの提供、Kera3.0サポートなど、OSS戦略として、安全性に関する
+先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が垣間見れてきた。このタイミングでGemini 1.5 proベースのOSSであるGemmaをリリース、軽量であるとともに、embeddingの工夫、安全なAIアプリケーションを作成するためのガイダンスと必須ツールの提供、Kera3.0サポートなど、OSS戦略として、安全性に関するコミュニティとの共創という意味でも、実はMetaの戦略と丸被り。当然
 
 - BCGXから、agentkit
 	- https://agentkit.infra.x.bcg.com/
@@ -3994,9 +3994,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://arxiv.org/abs/2310.02238
 	- LLMの記憶の一部を意図的に忘却させる
 	- 約1GPU時間の微調整で、モデルはHarry Potter関連のコンテンツを生成または回想する能力を効果的に消去
--  Fine-tuning with Retrieval Augmentation  by llam
+-  Fine-tuning wi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzA3NDc1NiwtNTcxMzQ1ODAwLDkzOT
+eyJoaXN0b3J5IjpbMTIxMjY3MDQxMiwtNTcxMzQ1ODAwLDkzOT
 cwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIy
 Niw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2Mj
 I1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0
