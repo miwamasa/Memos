@@ -127,6 +127,8 @@
 	- https://huggingface.co/papers/2402.14547
 	- 広範な実験により、数学的なパラメーターと値のテキスト表現のみを通じて、言語モデルが非常に正確な数値回帰が可能であることが実証され、トレーニングの機会が与えられれば、複数のタスクにわたって、従来の回帰モデルを大幅に上回る可能性があります
 - Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping
+	- https://huggingface.co/papers/2402.14083
+- Stable Diffusion 3りりー
 
 ## 2/19
 
@@ -4002,15 +4004,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- tokenizerの挙動を細かく制御していた人たちにとってはうれしいかも
 - ModuLoRA is the first method to finetune 3-bit LLMs
 	- 3-bitや2-bitに量子化したLLMの話題の裏にあるアルゴリズムModulLoRAが公開
-	- https://browse.arxiv.org/pdf/2309.16119.pdf
-- RETRIEVAL MEETS LONG CONTEXT LARGE LANGUAGE MODELS
-	- https://
+	- https://browse.arxiv.org/pdf/2309.16119.p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMD
-g5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1
-LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNz
-M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
-MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
-g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
-ODE5Nl19
+eyJoaXN0b3J5IjpbNDE1MTUwMDg3LC0yMTM2MDA2MjUsMTkxND
+M4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2
+LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OT
+I2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQs
+NzYxMDkxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1ND
+I1NzkxMzMsLTE4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAw
+MzUwXX0=
 -->
