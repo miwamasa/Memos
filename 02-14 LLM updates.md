@@ -82,6 +82,17 @@
 	- 「Gemma」のリスクプロファイルを理解して軽減するために、手動のレッドチーム化、自動化された敵対的テスト、危険なアクティビティに対するモデルの機能の評価など、堅牢な評価を実施しました。 
 	- ai.google.dev/gemma、では、「Gemma」の詳細やクイックスタートガイドを参照できます。
 - Gemma Tokenizer が面白い
+	- https://x.com/AiXsatoshi/status/1760437059066695976?s=20
+	- Llama tokenizerと共通点
+		- SentencePieceベース
+		- バイトレベルエンコーディングで未知トークン対応
+	- 違い
+		- 語彙サイズ: Gemma 256K、Llama 32K 
+		- Gemmaは`add_dummy_prefix` False → 先頭に空白追加なし（GPTと同じ）
+		- Gemmaには特別なtoken多数（例: HTML要素、謎）
+- google/gemma-7bのtokenizerはBPEでvocabは256k
+	- https://huggingface.co/google/gemma-7b
+	- 
 
 ## 2/19
 
@@ -3988,12 +3999,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - RAGにおけるchankサイズについて
 	- https://docs.google.com/presentation/d/18Z7H3WSncPzLOTHKZAj36w0E7HSGY78VkDooSzvvySE/edit#slide=id.g286c47b4bb8_1_0
 	- More chunks ≠ better (lost in the middle problems / context overflows)
-	- Reranking retrieved chunks doesn’t necessarily improve results, in fact can worsen them.
-- Science Behind Why LLMs Can Easily Be Tricked And Are Predictably Gullible
-	- https://x.com/bindureddy/status/1710504584496779675?s=20
-	- while large language models exhibit impressive linguistic abilities, their lack of true understanding, combined with the intricacies of data-driven learning, make
+	- Reranking retrieved chunks doesn’t necess
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE3ODY1NjksMTkxNDM4MDYwLC0xMD
+eyJoaXN0b3J5IjpbLTE2MjE4MTEzNTIsMTkxNDM4MDYwLC0xMD
 A4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcy
 NSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
