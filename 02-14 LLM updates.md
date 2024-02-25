@@ -117,7 +117,9 @@
 	- Googleさんが公開されているgemma-7b-itのggufあります
 	- **現在量子化された出力が不安定な問題があるらしくQ8_0を推奨します。**
 	- ご利用前にgemma利用規約をご確認下さい
-- 
+- side-by-side comparison of the GPT-4, Gemma, and Llama tokenizer
+	- https://x.com/xenovacom/status/1760384978360074460?s=20
+	- the Gemma and Llama tokenizers are very similar, with the main difference being vocabulary size. One interesting thing to see is that even with an 8x larger vocabulary (256k vs 32k), Gemma only produces ~13% fewer tokens than Llama.
 - 
 
 ## 2/19
@@ -4002,18 +4004,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://github.com/ggerganov/llama.cpp/pull/2632
 - Why you should build RAG from scratch - with Jerry Liu from LlamaIndex
 	- LlamaIndexの中の人に聞く回。ファインチューン、RAG、ReAct、ベクトル検索やハイブリッド検索等々についてJerryがどう考えてるか聴ける。RAGはハックだと言い切ってて面白い。
-	- https://www.latent.space/p/llamaindex?utm_campaign=post&utm_medium=web
--  Do Emergent Abilities Exist in Quantized Large Language Models: An Empirical Study
-	- https://arxiv.org/abs/2307.08072
-	- 量子化されたLLMについて、一般的にLLMで発現するとされているin-context learning、chain-of-thought, instruction-followingといった能力がどの程度保てているかを検証した研究。結果として4-bitまでの量子化であれば性能の劣化が見られないことを確認
-- OpenAIのSuper aligment
-	- https:/
+	- https://www.latent.spac
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2NDIxNjgsMTkxNDM4MDYwLC0xMDA4OT
-QxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4
-MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNj
-Y0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQsLTE0
-OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLTE4NT
-Q3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgx
-OTZdfQ==
+eyJoaXN0b3J5IjpbLTQxNTM5NjAwOSwxOTE0MzgwNjAsLTEwMD
+g5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1
+LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNz
+M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
+MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
+g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
+ODE5Nl19
 -->
