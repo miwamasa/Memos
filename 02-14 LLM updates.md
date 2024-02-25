@@ -77,7 +77,11 @@
 	- 「[**Gemma**](https://ai.google.dev/gemma)」は、「**Gemini**」と同じ技術を基に構築された、軽量で最先端のオープンモデル
 	- 「Gemma 2B」「Gemma 7B」の2つのサイズのモデルウェイトをリリースします。各サイズは、事前学習および指示チューニングされたバリアントでリリースします。
 	- 「Responsible Generative AI Toolkit」は、「Gemma」を使用してより安全なAIアプリケーションを作成するためのガイダンスと必須ツールを提供します。
-	- 
+	- 「Keras 3.0」を介して、JAX、PyTorch、TensorFlow など、すべての主要なフレームワークにわたって推論と教師ありファインチューニング (SFT) のためのツールチェーンを提供しています
+	- 事前学習、指示チューニングされた「Gemma」は、ノートパソコン、ワークステーション、Google Cloud 上で実行でき
+	- 「Gemma」のリスクプロファイルを理解して軽減するために、手動のレッドチーム化、自動化された敵対的テスト、危険なアクティビティに対するモデルの機能の評価など、堅牢な評価を実施しました。 
+	- ai.google.dev/gemma、では、「Gemma」の詳細やクイックスタートガイドを参照できます。
+- 
 
 ## 2/19
 
@@ -3987,20 +3991,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- Reranking retrieved chunks doesn’t necessarily improve results, in fact can worsen them.
 - Science Behind Why LLMs Can Easily Be Tricked And Are Predictably Gullible
 	- https://x.com/bindureddy/status/1710504584496779675?s=20
-	- while large language models exhibit impressive linguistic abilities, their lack of true understanding, combined with the intricacies of data-driven learning, makes them susceptible to errors and easy to fool.
-- 新しいOSSのembeddingモデルgte-tinyが登場、OpenAIのtext-embedding-ada-002なみの能力をもちつつ、小さくて軽い
-	- https://huggingface.co/TaylorAI/gte-tiny/tree/main
-- OpenAI, "DALL·E 3 System Card"
-	- https://openai.com/research/dall-e-3-system-card
-	- DALL·E 3での安全対策
-	- OpenAIは、DALL·E 3の論文を通して「画像生成AIの安全性は前進した」ことを報告
-- Artificial In
+	- while large language models exhibit impressive linguistic abilities, their lack of true understanding, combined with the intricacies of data-driven learning, makes them susceptible 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDA0NzAxNywtMTAwODk0MTIyNiw1OT
-gwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYs
-LTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MT
-U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
-LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
-IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
-NzM3Nl19
+eyJoaXN0b3J5IjpbMTkxNDM4MDYwLC0xMDA4OTQxMjI2LDU5OD
+A4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwt
+MjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDQsMTYxNT
+gyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQsLTE0OTY1NTE3NDIs
+LTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMj
+M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
+Mzc2XX0=
 -->
