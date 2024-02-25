@@ -4,6 +4,8 @@
 
 ## 2/26
 
+先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が
+
 - BCGXから、agentkit
 	- https://agentkit.infra.x.bcg.com/
 	- BCG Xから大規模言語モデルを使ったAgentを楽に作るためのフレームワークAgentKitがOSSとして出ました〜。 Nextjs, FastAPI, Langchainのモダンなテックスタックです
@@ -3994,15 +3996,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- 約1GPU時間の微調整で、モデルはHarry Potter関連のコンテンツを生成または回想する能力を効果的に消去
 -  Fine-tuning with Retrieval Augmentation  by llamaindex
 	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/knowledge/finetune_retrieval_aug.html
-	- https://arxiv.org/abs/2310.01352
-	- gpt-4とDatasetGeneratorをつかって、正解qaデータを生成
-	- gpt-3.5-turboを正解qaデータをつかて、
+	- https://arxiv.org/abs/231
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMz
-YwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0
-LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0Nj
-EzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5
-LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0MiwtMjA2Nj
-AzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MSwyMzc4NjMy
-NTJdfQ==
+eyJoaXN0b3J5IjpbLTExOTE1NDEzMDYsLTU3MTM0NTgwMCw5Mz
+k3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEy
+MjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNj
+IyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0
+NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5Nj
+U1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3
+ODk3MV19
 -->
