@@ -136,7 +136,8 @@
 	- ColBERT  is a great model for reranking. It’s ~100x faster than BERT-based/cross-encoder models, letting you rerank large amounts of documents without worrying about latency. And of course it does better than standard dense retrieval.
 - The prompting guide for Gemma 7B Instruct is live!
 	- https://www.promptingguide.ai/models/gemma
-- 
+-  最新の Google Gemma モデルを MLX を使ってローカルでファインチューニング
+	- 
 
 ## 2/19
 
@@ -4003,13 +4004,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - LLMは世界モデルをもっているか？
 	-  Language Models Represent Space and Time
 	- https://arxiv.org/abs/2310.02207
-	- LLMはシンプルに統計（確率）から次のテキストを生成しているのではなく、「物事がどのように位置づけられ、時間がど
+	- LLMはシンプ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxND
-M4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2
-LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OT
-I2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQs
-NzYxMDkxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1ND
-I1NzkxMzMsLTE4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAw
-MzUwXX0=
+eyJoaXN0b3J5IjpbLTM4NzczMzQzLDkzOTcwODgyMCwtMjEzNj
+AwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQs
+MTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MT
+MzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTks
+OTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQyLC0yMDY2MD
+MxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLDIzNzg2MzI1
+Ml19
 -->
