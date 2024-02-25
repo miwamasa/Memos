@@ -107,7 +107,16 @@
 - kaggle新コンペ Google Gemmaを使ってData Scienceのタスクがどの様に解けるかをデモするノートブックを作成するAnalyticsコンペ。
 	- https://www.kaggle.com/competitions/data-assistants-with-gemma/
 	- LLM大喜利。各タスク毎に賞金$10k。
-- ge
+- gemma-2bを試す by npakaさん
+	- https://x.com/npaka123/status/1760432810811400204?s=20
+	- https://huggingface.co/google/gemma-2b-it
+- gemma-7b-it-gguf
+	- https://huggingface.co/mmnga/gemma-7b-it-gguf
+	- Googleさんが公開されているgemma-7b-itのggufあります
+	- **現在量子化された出力が不安定な問題があるらしくQ8_0を推奨します。**
+	- ご利用前にgemma利用規約をご確認下さい
+- 
+- 
 
 ## 2/19
 
@@ -3997,18 +4006,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- 量子化されたLLMについて、一般的にLLMで発現するとされているin-context learning、chain-of-thought, instruction-followingといった能力がどの程度保てているかを検証した研究。結果として4-bitまでの量子化であれば性能の劣化が見られないことを確認
 - OpenAIのSuper aligment
 	- https://openai.com/blog/introducing-superalignment
-	- “Superintelligence will be the most impactful technology humanity has ever invented.”
-	- Superintelligence "could lead to ... human extinction. ... We believe [superintelligence] could arrive this decade."
-- 早速GPT-4Vに対抗するOSSであるLLaVAが登場
-	-  LLaVA: Large Language and Vision Assistant
-	- https://llava-vl.github.io/
-	- Haoti
+	- “Superintelligenc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDAwNTEzOSwxOTE0MzgwNjAsLTEwMD
-g5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1
-LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNz
-M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
-MTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMT
-g1NDc3ODk3MSwyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQx
-ODE5Nl19
+eyJoaXN0b3J5IjpbMjQ1MDY2NDY4LDE5MTQzODA2MCwtMTAwOD
+k0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUs
+ODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3Mz
+Y2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0x
+NDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xOD
+U0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4
+MTk2XX0=
 -->
