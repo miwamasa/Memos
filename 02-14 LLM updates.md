@@ -6,7 +6,7 @@
 
 先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が垣間見れてきた。このタイミングでGemini 1.5 proベースのOSSであるGemmaをリリース、同パラメーターサイズであればLlama2やMistralより優れているとの事。Gemmaは軽量であるとともに、embeddingの工夫、安全なAIアプリケーションを作成するためのガイダンスと必須ツールの提供、Kera3.0サポートなど、かなりの量と質のソフトウエアスタックが一気に公開されたことになる。OSS戦略として、安全性に関するコミュニティとの共創という意味でも、MetaのOSS戦略と丸被り。早速、量子化gguf版や、Kaggleでgemmaをつかったコンペの開催、embeddingの解析、npakaさんによるファインチューニング試行など、コミュニティの活動が盛んに。LPU（Language Processing Unit）を引っ提げるGroq、推論時の高速さが半端ない、専用チップ開発でも戦いは続く、日本のMN-core早く！llamaindexもLlamaCloudとLlamaParseをリリース。
 
-日本語LLMでは、 KARAKURI LM (70B)の性能評価や、東工大と東北大によるKotomambaの構築等。フレームワークでは、BCGXからagentkit、DXの手段としてのAIってビジネス筋。基礎研究では、プロンプトのみから「新しい言葉の概念」を学習させるためのフレームワーク『FOCUS』や、Mambaとtransformerとの簡単な速度比較とか、そもそも状態空間モデルのかいせ
+日本語LLMでは、 KARAKURI LM (70B)の性能評価や、東工大と東北大によるKotomambaの構築等。フレームワークでは、BCGXからagentkit、DXの手段としてのAIってビジネス筋。基礎研究では、プロンプトのみから「新しい言葉の概念」を学習させるためのフレームワーク『FOCUS』や、Mambaとtransformerとの簡単な速度比較とか、そもそも状態空間モデルの解説とか。DeepMindとCMUによる、LLMをつかった数値回帰OmniPred論文、
 
 - BCGXから、agentkit
 	- https://agentkit.infra.x.bcg.com/
@@ -3987,14 +3987,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - 『逆転の呪い』:「AはBである」と学習したLLMは、「BはAである」と学習しづらくなる。
 	- https://arxiv.org/abs/2309.12288
 	- LLMがどれだけ論理的か？という問いに対して、LLMの苦手な点を挙げる
-	- 『逆転の呪い』LLMは、知識を構造化し、”帰結を主語にして同じことを言う”のが自動的にはできない
-	- LLMの
+	- 『逆転の呪い』LLMは
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxMzUyNzkyLC01NzEzNDU4MDAsOTM5Nz
-A4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2
-LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMj
-UzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDQs
-MTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQsLTE0OTY1NT
-E3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLTE4NTQ3Nzg5
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTEwNzE5OTAyNjIsLTU3MTM0NTgwMCw5Mz
+k3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEy
+MjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNj
+IyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0
+NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5Nj
+U1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3
+ODk3MV19
 -->
