@@ -63,6 +63,12 @@
 	- Multimodal prompting with a 44-minute movie
 	- https://www.youtube.com/watch?v=wa0MT8OwHuk
 	- Problem solving across 100,633 lines of code
+	- https://www.youtube.com/watch?v=SSnsmqIj1MI
+- KARAKURI LM を ELYZA-tasks-100 で評価してみた
+	- https://qiita.com/wayama_ryousuke/items/f4f384b89e9b40a2d794
+	- 実際にどの程度の性能があるのか、[ELYZA](https://elyza.ai/) が公開しているベンチマーク用データセット **ELYZA-tasks-100** で評価してみました。
+	- 前回記事で最高スコアをマークした Xwin-LM-70B (4bit 量子化) を上回り、平均得点2.98点をマークして**1位**となりました。
+	- 
 
 ## 2/19
 
@@ -3994,20 +4000,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - Best Practices for LLM Evaluation of RAG Applications A Case Study on the Databricks Documentation Bot
 	- https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG
 	- RAG（Retrieval Augmented Geneneration）の評価、特に"LLMを使った時代評価の観点"からベストプラクティス
-- 様々なLLMが何ができるかの比較表 by llamaindex
-	- https://docs.llamaindex.ai/en/latest/core_modules/model_modules/llms/root.html#llm-compatibility-tracking
-	- ちょっと、llama2-7b-4bitが悲しい結果に。。
-		- OpenAI models (gpt-3.5-turbo, gpt-3.5-turbo-instruct, gpt-4)
-		-  Anthropic models (claude-2, Claude-instant-2)
-		- llama2-chat-7b 4bit
-		- Mistral-7b
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc3NTQ4NTgsLTEwMDg5NDEyMjYsNT
-k4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2
-LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNj
-E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
-MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
-wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
-MzczNzZdfQ==
+eyJoaXN0b3J5IjpbOTU4NzY1MDMyLC0xMDA4OTQxMjI2LDU5OD
+A4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwt
+MjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDQsMTYxNT
+gyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQsLTE0OTY1NTE3NDIs
+LTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMj
+M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
+Mzc2XX0=
 -->
