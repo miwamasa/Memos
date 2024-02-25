@@ -92,7 +92,11 @@
 		- Gemmaには特別なtoken多数（例: HTML要素、謎）
 - google/gemma-7bのtokenizerはBPEでvocabは256k
 	- https://huggingface.co/google/gemma-7b
-	- 
+	- ひらがなカタカナを含むvocabは7039件 
+	- 京都 大阪 兵庫 奈良 滋賀 はあれど 和歌山 は登録なし 
+	- 他では見ないタイプのトークンが多数 コードもmergeされたてホヤホヤ
+- gemma-7b
+	- https://huggingface.co/chat/settings/google/gemma-7b-it
 
 ## 2/19
 
@@ -3997,11 +4001,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://bob3.hatenablog.com/entry/2023/10/06/224133
 	- 正則化項付き線形回帰（Ridge、LASSO、Elastic net）で真の偏回帰係数を推定できるのか？を実験してみました。
 - RAGにおけるchankサイズについて
-	- https://docs.google.com/presentation/d/18Z7H3WSncPzLOTHKZAj36w0E7HSGY78VkDooSzvvySE/edit#slide=id.g286c47b4bb8_1_0
-	- More chunks ≠ better (lost in the middle problems / context overflows)
-	- Reranking retrieved chunks doesn’t necess
+	- https://docs.google.com/presentation/d/18Z7H3WSncPzLOTHKZAj36w0E7HS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE4MTEzNTIsMTkxNDM4MDYwLC0xMD
+eyJoaXN0b3J5IjpbLTIxNDIxOTU0ODcsMTkxNDM4MDYwLC0xMD
 A4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcy
 NSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
