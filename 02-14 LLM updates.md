@@ -120,7 +120,12 @@
 - side-by-side comparison of the GPT-4, Gemma, and Llama tokenizer
 	- https://x.com/xenovacom/status/1760384978360074460?s=20
 	- the Gemma and Llama tokenizers are very similar, with the main difference being vocabulary size. One interesting thing to see is that even with an 8x larger vocabulary (256k vs 32k), Gemma only produces ~13% fewer tokens than Llama.
-- 
+- Google Colab で Gemma のファインチューニングを試す
+	- https://note.com/npaka/n/nc55e44e407ff?sub_rt=share_h
+	- 今回は、ござるデータセットで学習します。AIが「我、りんえもんは思う。◯◯でござる。知らんけど。」的な口調になります
+- OmniPred: Language Models as Universal Regressors
+	- https://huggingface.co/papers/2402.14547
+	- 
 
 ## 2/19
 
@@ -4000,13 +4005,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - RETRIEVAL MEETS LONG CONTEXT LARGE LANGUAGE MODELS
 	- https://arxiv.org/abs/2310.03025
 	- NVIDIAよりRAGとContext Window (CW)のパフォーマンス比較論文。4K CWのLLM＋RAGは、16K CWのLLMと同等、32K CWのLLaMA2-70B＋RAGは長いContextのタスクにおいてGPT-3.5-turbo-16kより優れていると事を実証分析 
-- llama.cpp 単体で LoRA 作れる機能が追加
-	- https://github.com/ggerganov/llama.cpp/pull/2632
-- Why you should build RAG from scratch - with Jerry Liu from LlamaIndex
-	- LlamaIndexの中の人に聞く回。ファインチューン、RAG、ReAct、ベクトル検索やハイブリッド検索等々についてJerryがどう考えてるか聴ける。RAGはハックだと言い切ってて面白い。
-	- https://www.latent.spac
+- llama.cpp 単体で LoRA 作れる機能が
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTM5NjAwOSwxOTE0MzgwNjAsLTEwMD
+eyJoaXN0b3J5IjpbMTIyMTgxNjc0OSwxOTE0MzgwNjAsLTEwMD
 g5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1
 LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNz
 M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
