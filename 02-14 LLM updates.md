@@ -125,7 +125,8 @@
 	- 今回は、ござるデータセットで学習します。AIが「我、りんえもんは思う。◯◯でござる。知らんけど。」的な口調になります
 - OmniPred: Language Models as Universal Regressors
 	- https://huggingface.co/papers/2402.14547
-	- 
+	- 広範な実験により、数学的なパラメーターと値のテキスト表現のみを通じて、言語モデルが非常に正確な数値回帰が可能であることが実証され、トレーニングの機会が与えられれば、複数のタスクにわたって、従来の回帰モデルを大幅に上回る可能性があります
+- Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping
 
 ## 2/19
 
@@ -4003,11 +4004,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- 3-bitや2-bitに量子化したLLMの話題の裏にあるアルゴリズムModulLoRAが公開
 	- https://browse.arxiv.org/pdf/2309.16119.pdf
 - RETRIEVAL MEETS LONG CONTEXT LARGE LANGUAGE MODELS
-	- https://arxiv.org/abs/2310.03025
-	- NVIDIAよりRAGとContext Window (CW)のパフォーマンス比較論文。4K CWのLLM＋RAGは、16K CWのLLMと同等、32K CWのLLaMA2-70B＋RAGは長いContextのタスクにおいてGPT-3.5-turbo-16kより優れていると事を実証分析 
-- llama.cpp 単体で LoRA 作れる機能が
+	- https://
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTgxNjc0OSwxOTE0MzgwNjAsLTEwMD
+eyJoaXN0b3J5IjpbLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMD
 g5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1
 LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNz
 M2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwt
