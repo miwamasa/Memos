@@ -4,7 +4,7 @@
 
 ## 2/26
 
-先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が垣間見れてきた。このタイミングでGemini 1.5 proベースのOSSであるGemmaをリリース、軽量であるとともに、embeddingの工夫、安全なAIアプリケーションを作成するためのガイダンスと必須ツールの提供、Kera3.0サポートなど、かなりの量と質のソフトウエアスタックが公開されたとOSS戦略として、安全性に関するコミュニティとの共創という意味でも、実はMetaの戦略と丸被り。早速、量子化gguf版や、Kaggleでgemmaをつかったコンペの開催など、
+先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が垣間見れてきた。このタイミングでGemini 1.5 proベースのOSSであるGemmaをリリース、軽量であるとともに、embeddingの工夫、安全なAIアプリケーションを作成するためのガイダンスと必須ツールの提供、Kera3.0サポートなど、かなりの量と質のソフトウエアスタックが公開されたことになる。OSS戦略として、安全性に関するコミュニティとの共創という意味でも、GemmaリリースはMetaのOSS戦略と丸被り。早速、量子化gguf版や、Kaggleでgemmaをつかったコンペの開催、embeddingの解析など、コミュニティの活動が盛んに。
 
 - BCGXから、agentkit
 	- https://agentkit.infra.x.bcg.com/
@@ -3991,15 +3991,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://gpt-index.readthedocs.io/en/latest/examples/index_structs/knowledge_graph/knowledge_graph2.html
 	- REBELを用いて、文章あから知識グラフを抽出する方法において、Wikipediaをフィルタとして用いることで、春市ネーションを抑えれる
 - Ronen Eldan et al., "Who's Harry Potter? Approximate Unlearning in LLMs"
-	- https://arxiv.org/abs/2310.02238
-	- LLMの記憶の一部を意図的に忘却させる
-	- 約1GPU時間の微調整で、モ
+	- https://arxiv.org/abs/2310.022
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzAzOTM1MCwtNTcxMzQ1ODAwLDkzOT
-cwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIy
-Niw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2Mj
-I1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0
-LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NT
-UxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4
-OTcxXX0=
+eyJoaXN0b3J5IjpbNjU5MTY4ODIxLC01NzEzNDU4MDAsOTM5Nz
+A4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2
+LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMj
+UzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDQs
+MTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQsLTE0OTY1NT
+E3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLTE4NTQ3Nzg5
+NzFdfQ==
 -->
