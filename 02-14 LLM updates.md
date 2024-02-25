@@ -81,7 +81,7 @@
 	- 事前学習、指示チューニングされた「Gemma」は、ノートパソコン、ワークステーション、Google Cloud 上で実行でき
 	- 「Gemma」のリスクプロファイルを理解して軽減するために、手動のレッドチーム化、自動化された敵対的テスト、危険なアクティビティに対するモデルの機能の評価など、堅牢な評価を実施しました。 
 	- ai.google.dev/gemma、では、「Gemma」の詳細やクイックスタートガイドを参照できます。
-- 
+- Gemma Tokenizer が面白い
 
 ## 2/19
 
@@ -3991,13 +3991,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- Reranking retrieved chunks doesn’t necessarily improve results, in fact can worsen them.
 - Science Behind Why LLMs Can Easily Be Tricked And Are Predictably Gullible
 	- https://x.com/bindureddy/status/1710504584496779675?s=20
-	- while large language models exhibit impressive linguistic abilities, their lack of true understanding, combined with the intricacies of data-driven learning, makes them susceptible 
+	- while large language models exhibit impressive linguistic abilities, their lack of true understanding, combined with the intricacies of data-driven learning, make
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDM4MDYwLC0xMDA4OTQxMjI2LDU5OD
-A4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwt
-MjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDQsMTYxNT
-gyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQsLTE0OTY1NTE3NDIs
-LTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMj
-M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
-Mzc2XX0=
+eyJoaXN0b3J5IjpbLTE4NTE3ODY1NjksMTkxNDM4MDYwLC0xMD
+A4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcy
+NSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMj
+czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
+LTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLT
+E4NTQ3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0
+MTgxOTZdfQ==
 -->
