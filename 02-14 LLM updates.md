@@ -57,7 +57,12 @@
 	- もう１つはstate-spaces/mamba-2.8b-slimpjから日本語と英語で継続事前学習を行ったkotomamba-2.8b-CL-v1.0です。
 - sentencepiece v0.2.0
 	- https://github.com/google/sentencepiece/releases/tag/v0.2.0
-- 
+- Gemini 1.5 ProのYoutube３本セット
+	- Reasoning across a 402-page transcript
+	- https://www.youtube.com/watch?v=LHKL_210CcU
+	- Multimodal prompting with a 44-minute movie
+	- https://www.youtube.com/watch?v=wa0MT8OwHuk
+	- Problem solving across 100,633 lines of code
 
 ## 2/19
 
@@ -3996,21 +4001,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 		-  Anthropic models (claude-2, Claude-instant-2)
 		- llama2-chat-7b 4bit
 		- Mistral-7b
-- Microsoft、Nvidia GPU依存へのコスト削減につながるAIチップを来月デビューへ
-	- https://texal.jp/2023/10/08/microsoft-is-developing-its-own-ai-chip-and-working-with-amd-to-stop-nvidias-monopoly/
-	- 「**Athena**」１１月の開発者会議で発表予定？
-	- NVIDIAのH100 GPUと同等に設計されている
-
-
-## 10/2
-
-今週は、いや、今週もいろいろありすぎて
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzIyMDQxNiwtMTAwODk0MTIyNiw1OT
-gwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYs
-LTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MT
-U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
-LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
-IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
-NzM3Nl19
+eyJoaXN0b3J5IjpbLTIwOTc3NTQ4NTgsLTEwMDg5NDEyMjYsNT
+k4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2
+LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNj
+E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
+MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
+wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
+MzczNzZdfQ==
 -->
