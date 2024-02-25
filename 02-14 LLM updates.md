@@ -98,11 +98,16 @@
 - gemma-7b
 	- https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf
 	- https://huggingface.co/chat/settings/google/gemma-7b-it
+	- Geminiモデルと同様のアーキテクチャ、データ、学習レシピを使用して、最大6兆個のテキストトークンで学習（主に英語）。サイズは2つで、パラメータ数がそれぞれ20億個と70億個。TPUv5eを使用して学習
 	- 日本語モデルではないのに日本語でも答えてくれる
 	- Hugging Face に 2B と 7Bの二種類（それぞれベース・インストラクション）があがっている
 	- Context Length は 8k
 	- 4bit で推論するコードも HF page にそのまま記載ある
-	- ライセンスは Gemma license↓
+	- ライセンスは Gemma license
+- kaggle新コンペ Google Gemmaを使ってData Scienceのタスクがどの様に解けるかをデモするノートブックを作成するAnalyticsコンペ。
+	- https://www.kaggle.com/competitions/data-assistants-with-gemma/
+	- LLM大喜利。各タスク毎に賞金$10k。
+- 
 
 ## 2/19
 
@@ -3997,15 +4002,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - 早速GPT-4Vに対抗するOSSであるLLaVAが登場
 	-  LLaVA: Large Language and Vision Assistant
 	- https://llava-vl.github.io/
-	- Haotian Liu et al., "Improved Baselines with Visual Instruction Tuning"
-	- https://arxiv.org/abs/2310.03744
-	- お試しできる、https://llava.hliu.cc/
-- How to build ChatGPT for your company data? by ABACUS AI
-	- llama2を使うのが良いみたい　
-	- https://x.com/Saboo_Shubham_/status/1710505571072278932?s=20
-- 正則化
+	- Haotia
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDkzNjk3NDIsMTkxNDM4MDYwLC0xMD
+eyJoaXN0b3J5IjpbLTE5NDM1Nzk4MDAsMTkxNDM4MDYwLC0xMD
 A4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcy
 NSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
