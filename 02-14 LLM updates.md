@@ -140,7 +140,9 @@
 	- https://note.com/alexweberk/n/n96cc4c8ac174?sub_rt=share_h
 	- M3 Max 128GB で約 50 分かかりました。npaka さんの記事だと 20 分ほどで完了するそうなので、やはり NVIDIA A100 などの GPU と比べてしまうと時間がかかってしまいますね…。
 	- https://gist.github.com/alexweberk/1434c95c05463866491677aac6ce19ba#file-mlx_finetuning_gemma-ipynb
-- 
+-  Introducing Pebblo — Data Visibility & Governance for Gen-AI apps
+	- https://medium.com/@sridhar_ramaswamy/introducing-pebblo-data-visibility-governance-for-gen-ai-apps-086ca8a62d10
+	- 
 
 ## 2/19
 
@@ -3999,16 +4001,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- Decoding speech from non-invasive recordings of brain activity
 	- https://huggingface.co/papers/2208.12266
 	- contrastive learningというのをつかって、脳波からスピーチを推定
-- OpenAIが、function calling fine-tuning機能を新たに追加　by llamaindex
-	-  Fine Tuning with Function Calling
-	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/openai_fine_tuning_functions.html
-	- https://github.com/ru
+- OpenAIが、function calling fine-tuning
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA0Mjc1NzAsOTM5NzA4ODIwLC0yMT
-M2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIy
-NCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0ND
-YxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1
-OSw5NTgyMTMwOTQsNzYxMDkxNDQsLTE0OTY1NTE3NDIsLTIwNj
-YwMzE3NzQsLTE1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMjM3ODYz
-MjUyXX0=
+eyJoaXN0b3J5IjpbLTkwODg0NzQ1MSw5Mzk3MDg4MjAsLTIxMz
+YwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0
+LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0Nj
+EzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5
+LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0MiwtMjA2Nj
+AzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MSwyMzc4NjMy
+NTJdfQ==
 -->
