@@ -68,7 +68,11 @@
 	- https://qiita.com/wayama_ryousuke/items/f4f384b89e9b40a2d794
 	- 実際にどの程度の性能があるのか、[ELYZA](https://elyza.ai/) が公開しているベンチマーク用データセット **ELYZA-tasks-100** で評価してみました。
 	- 前回記事で最高スコアをマークした Xwin-LM-70B (4bit 量子化) を上回り、平均得点2.98点をマークして**1位**となりました。
-	- 
+	- 日本発の 70B モデルは [Japanese-StableLM](https://huggingface.co/collections/stabilityai/japanese-stable-lm-654063a381a8731a1c0f13cc) などごく一部に限られ、ELYZA-tasks-100 での平均スコアも海外モデルが優位に立っている状況でした。  KARAKURI LM の公開により、その状況が大きく変わったと言えそうです。
+- Mambaを動かして速度をtransformerと比較するメモ
+	- https://note.com/kan_hatakeyama/n/na911120f4ffb?sub_rt=share_pb
+	- 話題のmambaをcolabで動かしてみました｡ 同等サイズのtransformerよりも､2倍くらいは推論が早そうです｡
+- 
 
 ## 2/19
 
@@ -3992,21 +3996,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://deepspeed4science.ai/
 	- https://github.com/microsoft/DeepSpeed/blob/master/blogs/deepspeed4science/japanese/README.md
 	- 科学的基盤モデル(SFM)とよぶらしい
-	- ClimaXは、さまざまな気象および気候モデリングタスクを実行するために設計された最初の基盤モデルです
-	- 分子動力学と機械学習型力場
-	- 天気 from Microsoft Start
-- Google ColabについにAI機能が来てる？
-	- Proにしか来てないもよう。
-- Best Practices for LLM Evaluation of RAG Applications A Case Study on the Databricks Documentation Bot
-	- https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG
-	- RAG（Retrieval Augmented Geneneration）の評価、特に"LLMを使った時代評価の観点"からベストプラクティス
-- 
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4NzY1MDMyLC0xMDA4OTQxMjI2LDU5OD
-A4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwt
-MjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDQsMTYxNT
-gyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQsLTE0OTY1NTE3NDIs
-LTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMj
-M3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgxOTYsNDY5MDM3
-Mzc2XX0=
+eyJoaXN0b3J5IjpbLTE0OTUxMjk1NTMsLTEwMDg5NDEyMjYsNT
+k4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2
+LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNj
+E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
+MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
+wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
+MzczNzZdfQ==
 -->
