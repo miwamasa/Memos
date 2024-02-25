@@ -137,7 +137,10 @@
 - The prompting guide for Gemma 7B Instruct is live!
 	- https://www.promptingguide.ai/models/gemma
 -  最新の Google Gemma モデルを MLX を使ってローカルでファインチューニング
-	- 
+	- https://note.com/alexweberk/n/n96cc4c8ac174?sub_rt=share_h
+	- M3 Max 128GB で約 50 分かかりました。npaka さんの記事だと 20 分ほどで完了するそうなので、やはり NVIDIA A100 などの GPU と比べてしまうと時間がかかってしまいますね…。
+	- https://gist.github.com/alexweberk/1434c95c05463866491677aac6ce19ba#file-mlx_finetuning_gemma-ipynb
+- 
 
 ## 2/19
 
@@ -3999,18 +4002,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - OpenAIが、function calling fine-tuning機能を新たに追加　by llamaindex
 	-  Fine Tuning with Function Calling
 	- https://gpt-index.readthedocs.io/en/latest/examples/finetuning/openai_fine_tuning_functions.html
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/finetuning/openai_fine_tuning_functions.ipynb
-	- 構造化されたデータ出力をLLMから得たいときに、functio/n callをつかうらしいが、この機能をfine-tuneすることができる
-- LLMは世界モデルをもっているか？
-	-  Language Models Represent Space and Time
-	- https://arxiv.org/abs/2310.02207
-	- LLMはシンプ
+	- https://github.com/ru
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzczMzQzLDkzOTcwODgyMCwtMjEzNj
-AwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQs
-MTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MT
-MzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTks
-OTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQyLC0yMDY2MD
-MxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLDIzNzg2MzI1
-Ml19
+eyJoaXN0b3J5IjpbLTE4ODA0Mjc1NzAsOTM5NzA4ODIwLC0yMT
+M2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIy
+NCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0ND
+YxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1
+OSw5NTgyMTMwOTQsNzYxMDkxNDQsLTE0OTY1NTE3NDIsLTIwNj
+YwMzE3NzQsLTE1NDI1NzkxMzMsLTE4NTQ3Nzg5NzEsMjM3ODYz
+MjUyXX0=
 -->
