@@ -104,6 +104,8 @@
 	- Context Length は 8k
 	- 4bit で推論するコードも HF page にそのまま記載ある
 	- ライセンスは Gemma license
+	- llamaより緩いライセンスでリリース
+	- 同パラメーターサイズであればLlama2やMistralより優れているとの事
 - kaggle新コンペ Google Gemmaを使ってData Scienceのタスクがどの様に解けるかをデモするノートブックを作成するAnalyticsコンペ。
 	- https://www.kaggle.com/competitions/data-assistants-with-gemma/
 	- LLM大喜利。各タスク毎に賞金$10k。
@@ -4005,14 +4007,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://arxiv.org/abs/2307.08072
 	- 量子化されたLLMについて、一般的にLLMで発現するとされているin-context learning、chain-of-thought, instruction-followingといった能力がどの程度保てているかを検証した研究。結果として4-bitまでの量子化であれば性能の劣化が見られないことを確認
 - OpenAIのSuper aligment
-	- https://openai.com/blog/introducing-superalignment
-	- “Superintelligenc
+	- https:/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1MDY2NDY4LDE5MTQzODA2MCwtMTAwOD
-k0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUs
-ODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3Mz
-Y2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0x
-NDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xOD
-U0Nzc4OTcxLDIzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4
-MTk2XX0=
+eyJoaXN0b3J5IjpbNDU2NDIxNjgsMTkxNDM4MDYwLC0xMDA4OT
+QxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4
+MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNj
+Y0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQsLTE0
+OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1NzkxMzMsLTE4NT
+Q3Nzg5NzEsMjM3ODYzMjUyLC0yMTIzMjAwMzUwLDEwMjU0MTgx
+OTZdfQ==
 -->
