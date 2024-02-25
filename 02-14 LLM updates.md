@@ -132,7 +132,11 @@
 	- https://stability.ai/news/stable-diffusion-3?utm_source=twitter&utm_medium=website&utm_campaign=blog
 	- 学習データから15億件も弾いたらしい。すごいな
 - Colbert Rerank
-	- 
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/node_postprocessor/ColbertRerank.ipynb
+	- ColBERT  is a great model for reranking. It’s ~100x faster than BERT-based/cross-encoder models, letting you rerank large amounts of documents without worrying about latency. And of course it does better than standard dense retrieval.
+- The prompting guide for Gemma 7B Instruct is live!
+	- https://www.promptingguide.ai/models/gemma
+- 
 
 ## 2/19
 
@@ -3999,15 +4003,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - LLMは世界モデルをもっているか？
 	-  Language Models Represent Space and Time
 	- https://arxiv.org/abs/2310.02207
-	- LLMはシンプルに統計（確率）から次のテキストを生成しているのではなく、「物事がどのように位置づけられ、時間がどのように進行するかを理解」している可能性が示唆されました。 つまり、LLMが"世界モデル"を形成しているかもしれないという報告
-	- 世界、米国、NYCの地名、歴史的人物、芸術作品、ニュースヘッドラインなどを含む6つのデータセットを用意
-	- 空間と時間の理解度は、LLMのニューラルネットワークにおける階層を半分まで進んだところで品質が向上し、そのあと限界点に達する
-	- LLMが「世界モデル」を形成している可能性が高いのであれば、LLMがより高度な認知タスクに対応できることに繋がります。 例えば自動運転車のソフトウェアにLLMを活用するのは優れた戦略である可能性があります
-- huggingface/transformers v4.34の更新はかなりagressive
-	- https://github.com/huggingface/transformers/releases/tag/v4.34.0
-	- tokenizerの挙動を細かく制御していた人たちにとってはうれし
+	- LLMはシンプルに統計（確率）から次のテキストを生成しているのではなく、「物事がどのように位置づけられ、時間がど
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5OTg2Nzk2LC0yMTM2MDA2MjUsMTkxND
+eyJoaXN0b3J5IjpbOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxND
 M4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2
 LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OT
 I2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQs
