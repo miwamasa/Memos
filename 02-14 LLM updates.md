@@ -96,7 +96,13 @@
 	- 京都 大阪 兵庫 奈良 滋賀 はあれど 和歌山 は登録なし 
 	- 他では見ないタイプのトークンが多数 コードもmergeされたてホヤホヤ
 - gemma-7b
+	- https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf
 	- https://huggingface.co/chat/settings/google/gemma-7b-it
+	- 日本語モデルではないのに日本語でも答えてくれる
+	- Hugging Face に 2B と 7Bの二種類（それぞれベース・インストラクション）があがっている
+	- Context Length は 8k
+	- 4bit で推論するコードも HF page にそのまま記載ある
+	- ライセンスは Gemma license↓
 
 ## 2/19
 
@@ -3997,13 +4003,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 - How to build ChatGPT for your company data? by ABACUS AI
 	- llama2を使うのが良いみたい　
 	- https://x.com/Saboo_Shubham_/status/1710505571072278932?s=20
-- 正則化項付き線形回帰は真の偏回帰係数を推定しているのか？
-	- https://bob3.hatenablog.com/entry/2023/10/06/224133
-	- 正則化項付き線形回帰（Ridge、LASSO、Elastic net）で真の偏回帰係数を推定できるのか？を実験してみました。
-- RAGにおけるchankサイズについて
-	- https://docs.google.com/presentation/d/18Z7H3WSncPzLOTHKZAj36w0E7HS
+- 正則化
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDIxOTU0ODcsMTkxNDM4MDYwLC0xMD
+eyJoaXN0b3J5IjpbLTIwMDkzNjk3NDIsMTkxNDM4MDYwLC0xMD
 A4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcy
 NSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMj
 czNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDQs
