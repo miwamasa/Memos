@@ -72,7 +72,12 @@
 - Mambaを動かして速度をtransformerと比較するメモ
 	- https://note.com/kan_hatakeyama/n/na911120f4ffb?sub_rt=share_pb
 	- 話題のmambaをcolabで動かしてみました｡ 同等サイズのtransformerよりも､2倍くらいは推論が早そうです｡
-- 
+- Googleのオープンモデル Gemma の概要  by npakaさん
+	- https://note.com/npaka/n/na47e13dae482?sub_rt=share_h
+	- 「[**Gemma**](https://ai.google.dev/gemma)」は、「**Gemini**」と同じ技術を基に構築された、軽量で最先端のオープンモデル
+	- 「Gemma 2B」「Gemma 7B」の2つのサイズのモデルウェイトをリリースします。各サイズは、事前学習および指示チューニングされたバリアントでリリースします。
+	- 「Responsible Generative AI Toolkit」は、「Gemma」を使用してより安全なAIアプリケーションを作成するためのガイダンスと必須ツールを提供します。
+	- 
 
 ## 2/19
 
@@ -3989,20 +3994,13 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 	- https://openai.com/research/dall-e-3-system-card
 	- DALL·E 3での安全対策
 	- OpenAIは、DALL·E 3の論文を通して「画像生成AIの安全性は前進した」ことを報告
-- Artificial Intelligence Index Report 2023
-	- https://arxiv.org/abs/2310.03715
-	- スタンフォード大学がAIに関する技術・法律・経済・環境・世論などの多角的なデータを収集してまとめた報告書「AI index Report 2023」をarxivに公開
-- MSのDeepSpeedチームの基盤モデルの科学応用を目指したDeepSpeed4Scienceプロジェクト
-	- https://deepspeed4science.ai/
-	- https://github.com/microsoft/DeepSpeed/blob/master/blogs/deepspeed4science/japanese/README.md
-	- 科学的基盤モデル(SFM)とよぶらしい
-	-
+- Artificial In
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTUxMjk1NTMsLTEwMDg5NDEyMjYsNT
-k4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2
-LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNj
-E1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0
-MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEzMywtMTg1NDc3ODk3MS
-wyMzc4NjMyNTIsLTIxMjMyMDAzNTAsMTAyNTQxODE5Niw0Njkw
-MzczNzZdfQ==
+eyJoaXN0b3J5IjpbMTM3MDA0NzAxNywtMTAwODk0MTIyNiw1OT
+gwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYs
+LTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MT
+U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
+LC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMzLC0xODU0Nzc4OTcxLD
+IzNzg2MzI1MiwtMjEyMzIwMDM1MCwxMDI1NDE4MTk2LDQ2OTAz
+NzM3Nl19
 -->
