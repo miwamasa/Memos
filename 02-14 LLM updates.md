@@ -55,6 +55,9 @@
 	- Kotoba TechnologiesはNLPと分散並列学習に関する技術を用いて、日本及び非英語圏におけるLLMやマルチモーダルモデルの実運用に向けた研究開発を行っています。
 	- from scratchから日本語と英語のコーパスにて学習を行ったkotomamba-2.8B-v1.0、
 	- もう１つはstate-spaces/mamba-2.8b-slimpjから日本語と英語で継続事前学習を行ったkotomamba-2.8b-CL-v1.0です。
+- sentencepiece v0.2.0
+	- https://github.com/google/sentencepiece/releases/tag/v0.2.0
+- 
 
 ## 2/19
 
@@ -4001,9 +4004,9 @@ function callを含むLLMのファインチューニングをOpenAIが導入さ�
 
 ## 10/2
 
-今週は、いや、今週もいろいろありすぎて、消化しきれない。GPT-4V(ision) デビュー、画像理解とか、ついにLLMが眼を持った（カンブリア紀）、これってAGIの前触れ？　GPT-4V初期ユーザーからは、霞が関パワ
+今週は、いや、今週もいろいろありすぎて
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjg3MTE4NywtMTAwODk0MTIyNiw1OT
+eyJoaXN0b3J5IjpbLTk3MzIyMDQxNiwtMTAwODk0MTIyNiw1OT
 gwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYs
 LTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MT
 U4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQy
