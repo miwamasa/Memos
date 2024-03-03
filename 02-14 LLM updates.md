@@ -49,6 +49,16 @@
 	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
 	- もう全部Qwen-72Bでいいんじゃないかな
 	- https://x.com/alfredplpl/status/1762277261435347424?s=20
+- Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models
+	- https://arxiv.org/abs/2402.14848
+	- プロンプトの入力が長くなるにつれて、推論性能に顕著な低下が見られることが示唆
+	- ■実験結果
+		- 入力が長くなると推論の精度が低くなる
+		- 失敗モードは主に4つで、入力が長くなるほど顕著になる 
+			- 1. 回答拒否 
+			- 2. 偏った判断 
+			- 3. 頭から答えを言う（推論ステップを辿らない）、 
+			- 4. 入力テキストを適切に使わない
 - 
 
 ## 2/26
@@ -3984,15 +3994,9 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- 生成AIが、低迷している、テック界隈のVCを救う。
 	- 安全性はAI研究界で中心的なテーマとなり、世界中の政府や規制機関が対策を講じ始めた。
 	- 標準的なLLMは頑健性に問題があり、最先端モデルの評価が困難になっている
-- Michihiro Yasunaga et al., "Large Language Models as Analogical Reasoners"
-	- https://arxiv.org/abs/2310.01714
-	- 人間の「過去の類似事例」と「自らの知見」を組み合わせるアプローチに倣った、LLMの優れたプロンプトフレームワーク
-	- LLMの推論能力を向上させるCoTは有用ですが、手間がかかります。 手動のプロンプト作業を少しでも軽減することが求められています。 
-	- そこで研究者らは、人間のように自動的に知識を生成する「アナロジカル・プロンプティング」を発明しました。
-- Hamiltonian Dynamics of Bayesian Inference Formalised by Arc Hamiltonian Systems
-	- https://arxiv.or
+- Michihiro Yasunaga et al., "Large Language Models as Analogical
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjAxMjQ3MCw5MzAyMjk5MDgsLTU3MT
+eyJoaXN0b3J5IjpbMTQ4NjE0MjU2MSw5MzAyMjk5MDgsLTU3MT
 M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
 LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
 c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
