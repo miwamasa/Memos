@@ -118,7 +118,11 @@
 	- しかも数学計算の計画も立てる事ができる。
 - オリジナルのBitNetを1.58bの論文に従って3値にするように修正しました
 	- https://github.com/frodo821/BitNet-Transformers
-- 
+- Beyond Disciplines「Beyond Disciplines ～CRDSが注目する研究開発の潮流2024～」
+	- https://www.jst.go.jp/crds/report/CRDS-FY2023-RR-06.html
+	- 所属組織が発行している数十冊・計数千ページの報告書を40ページくらいに圧縮したレポート作成にかかわりました。
+- Qwen1.5-72B 日本語能力も高くて良いが生成物でデータセットは作れない規約で残念。
+	- 
 
 ## 2/26
 
@@ -3988,16 +3992,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 		- ③ 新しい評価プロトコル（CogEval）は有望である 
 		- ④ LLMのアーキテクチャやトレーニングには工夫の余地がある 
 		- ⑤ LLMの認知機能を向上させるには、メモリ（記憶容量）の拡張などが有効
-- FireAct: Toward Language Agent Fine-tuning
-	- https://fireact-agent.github.io/
-	- LLM AgentとFintuningの合わせ技についての検証、ReActの性能をfine-tuningで向上できた
-	- FireAct is a novel way to finetune LMs w/ agent trajectories of a mix of tasks & prompting met
+- FireAct:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwMzcxOTYxLDkzMDIyOTkwOCwtNTcxMz
-Q1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwt
-MTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNz
-Q3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0y
-MDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MT
-Q0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMz
-XX0=
+eyJoaXN0b3J5IjpbLTg0MTU4OTM3OSw5MzAyMjk5MDgsLTU3MT
+M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
+LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
+c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
+MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
+E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
+M119
 -->
