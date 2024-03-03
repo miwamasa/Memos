@@ -3,9 +3,7 @@
 
 ## 3/4
 
-1ビットLLMの衝撃!マイクロソフトの発表、 70Bで8.9倍高速ということで、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン現象が起きている。さて、先週公開されたgemma、ollamaでサポート、周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっと急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがある。マネフォOBが立ち上げたスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切さよ。Mistral Large、**Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得**って本当か？LLMには自然言語よりも最適な形式があるのでは？という野心的な『AutoForm（オートフォーム）』、そういえば先輩の三つ子ちゃんは、独自の言語でコミュニケーションしていたって言ってたな。東工大の、『論文の結論を学習させたら性能が下がった。』という話、イントロのほうがよいというのは不思議だ。μTransfer、転移学習のマイクロ版？大規模モデルの学習をおそらく圧倒的に効率化できるのはよい。Gemini 1.5 Proも使える人が少しずつ拡大している模様、来週あたりはいろいろ評価がでるかも。Long-context LLMs がRAGの代わりになるかならないか。Function Calling、色々なサポートが出てきて、当たり前の技術になりつつあるな。LlamaParseのPDF読み取り評価とか、RAGでの回答精度向上のためのテクニック集とか、地道に進む。 NVIDIAがノートパソコン用のGPUを新発表とか、まさにwinner takes allの世界。
-
-がっちりマンデーで、東大出身者が多いベンチャー「燈」が紹介されｒたが、
+1ビットLLMの衝撃!マイクロソフトの発表、 70Bで8.9倍高速ということで、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン現象が起きている。さて、先週公開されたgemma、ollamaでサポート、周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっと急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがある。マネフォOBが立ち上げたスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切さよ。Mistral Large、**Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得**って本当か？LLMには自然言語よりも最適な形式があるのでは？という野心的な『AutoForm（オートフォーム）』、そういえば先輩の三つ子ちゃんは、独自の言語でコミュニケーションしていたって言ってたな。東工大の、『論文の結論を学習させたら性能が下がった。』という話、イントロのほうがよいというのは不思議だ。μTransfer、転移学習のマイクロ版？大規模モデルの学習をおそらく圧倒的に効率化できるのはよい。Gemini 1.5 Proも使える人が少しずつ拡大している模様、来週あたりはいろいろ評価がでるかも。Long-context LLMs がRAGの代わりになるかならないか。Function Calling、色々なサポートが出てきて、当たり前の技術になりつつあるな。LlamaParseのPDF読み取り評価とか、RAGでの回答精度向上のためのテクニック集とか、地道に進む。 NVIDIAがノートパソコン用のGPUを新発表とか、まさにwinner takes allの世界。さて日本はどうよ？ということで先週、がっちりマンデーで、東大出身の若者が多いベンチャー「燈」が紹介されたが、あれって、「建築×AI」のテーマで、LLMをがっつり活用するという話。か
 
 - 画像生成AI、安いPCでも高速に　衝撃の「Stable Diffusion WebUI Forge」
 	- https://weekly.ascii.jp/elem/000/004/185/4185940/
@@ -3970,14 +3968,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 科学分野の5択問題を解くLLMの精度を規則コンペのべスプラ
 	- 今回のコンペで上位に行くにはRetrievalが最もキーだったように思います。やはり正解情報を直接参照できるので、contextをより良くすることが重要だったのではないかと思います。
 - llama2のpretrainingを試す
-	- https://zenn.dev/if001/articles/6c507e15cd958b
-	- 小さいサイズのllama2を日本語でp
+	- https://zenn.de
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MT
-M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
-LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-M119
+eyJoaXN0b3J5IjpbMTQ4OTU2MjczNSwtNTcyODkwNjQxLDkzMD
+IyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1
+LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQsMTExNj
+YwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTks
+MjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4Mj
+EzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0
+XX0=
 -->
