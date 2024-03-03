@@ -34,7 +34,12 @@
 - 日本のオープンデータ情報一覧・まとめ
 	- https://github.com/japan-opendata/awesome-japan-opendata
 	- PLATEAU AWARD 2023でグランプリを受賞した方のGitHubらしい
-- 
+-  AITuberのブレイクスルーは音声雑談から始まった Cotomo
+	- https://note.com/o_ob/n/n27edbebf17af?sub_rt=share_h
+	- ・敬意を持って接する  、「話すの楽しい」設定 、過去の会話をキャッシュする  
+・相手の速度に合わせて早口になる  
+・一度言った話は2回目は早口  
+・お別れを名残惜しむ
 
 ## 2/26
 
@@ -3985,15 +3990,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- タスクに応じて動的にエージェントを選択する方式を考えました。
 - LangChain を使った RAG における埋め込みモデルの比較
 	- https://note.com/alexweberk/n/ncccfdab3f4bb
-	- Wikipedia 記事を LangChain の CharacterTextSplitter を使って、４種類の埋め込みモデルを使ってベクトル化し、RAG による質問応答を試行
-	- `intfloat/multilingual-e5-large` >= `pkshatech/GLuCoSE-base-jap` > `cl-nagoya/sup-simcse-ja-large` >= `openai/text-embedding-ada-002` というような感触
-	- 4つの埋め込みモデルを使っ
+	- Wikipedia 記事を LangChain の CharacterTextSplitter を使って、４種類の埋め込みモデルを使ってベ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTAzMTM3OSw5MzAyMjk5MDgsLTU3MT
-M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
-LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-M119
+eyJoaXN0b3J5IjpbLTE0MjMzMDI5NjgsOTMwMjI5OTA4LC01Nz
+EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
+LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
+M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
+LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
+kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
+MzNdfQ==
 -->
