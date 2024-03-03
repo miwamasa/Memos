@@ -19,6 +19,13 @@
 - 【最強になった】Googleの最大1000万トークン入力可能なGemini 1.5 Proがヤバすぎる。《概要、他LLMとの比較、ビジネスシーンでの活用方法5選を徹底解説》
 	- https://note.com/chaen_channel/n/necaf27db79ae
 -  LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens
+	- https://arxiv.org/abs/2402.13753
+	- It looks like the problem of long contexts in open LLMs is close to being solved.
+- ​”話したいことも、話せないことも。” 音声会話型おしゃべりAIアプリ「Cotomo」を提供開始
+	- https://prtimes.jp/main/html/rd/p/000000007.000123714.html
+- たくさんのお客様がCotomoとおしゃべりしていることで、動作が不安定になる事象が発生しております
+	- https://x.com/starley_jp/status/1761753632788357611?s=20
+- 
 
 ## 2/26
 
@@ -3980,18 +3987,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- https://corp.langcore.org/media/chatgpt-instruct
 	- gpt-3.5-turbo モデルは会話に秀でているので対話をさせるのであればこちらを使う方がよいです。
 	- 会話以外のタスクの場合だと**一問一答のような単純な課題を解くケースでは gpt-3.5-turbo-instruct の方が期待する出力になる可能性**があります。
-- Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction
-	- https://arxiv.org/abs/2310.05627
-	- IJCAIでLLM(chatGPT)使った株価リターン予測の論文
-	- LLMによるテキストの埋め込みと株式の特徴を同じsemantic spaceで配置させる強化学習の枠組みを導入している。
-- Zhiyu Chen et al., "Empowering Psychotherapy with Large Language Models: Cognitive Distortion Detection through Diagnosis of Thought Prompting"
-	- https://a
+- Integrating Stock Features and Global Information via Large
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDc4Njg0NTgsOTMwMjI5OTA4LC01Nz
-EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
-LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
-M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
-LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
-kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
-MzNdfQ==
+eyJoaXN0b3J5IjpbMTA4ODEyMTkxNSw5MzAyMjk5MDgsLTU3MT
+M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
+LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
+c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
+MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
+E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
+M119
 -->
