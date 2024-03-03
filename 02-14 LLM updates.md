@@ -3,7 +3,9 @@
 
 ## 3/4
 
-さて、先週公開されたgemma、2bのほうが7bより性能よいと謎の報告が。Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、出力をデータセットようには使えないなどの縛りがある。マネフォOBのスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」
+さて、先週公開されたgemma、2bのほうが7bより性能よいと謎の報告が。Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、出力をデータセットようには使えないなどの縛りがある。マネフォOBのスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切さよ。
+
+がっちりマンデーで、東大出身者が多いベンチャー「燈」が紹介されｒたが、
 
 - 画像生成AI、安いPCでも高速に　衝撃の「Stable Diffusion WebUI Forge」
 	- https://weekly.ascii.jp/elem/000/004/185/4185940/
@@ -3978,13 +3980,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 10/16
 
-RAGシステムの性能向上は依然もりあがっている。StanfordのDSpy、どうもLLMのプロンプト利用を別の次元に引き上げる画期的な開発のように見えるが追いつけない。RAGとFinetuningを組み合わせることによる性能向上がいままで抜けていたとは。LLMの心の理論(ToM)についての論文では、他人の心の状態の推定というのが肝なのか。zephyr-7b-alphaとか、Japanese StableLM Instruct Alpha v2 とか、ローカルで使いものになるLLMもどんどん出てきた。スタンフォードAIの、State of AI Report 2023、 KaggleのAI Report 2023、それぞれの立場で最新のAIを取り巻く様々な視点をまとめてくれている。アナロジー（類推）でプロンプトを生成する「アナロジカル・プロンプティング」は、人間の手間を省けるか？組み込み(embeding)の違いによるRAG性能の違いの検証から、やっぱe5(intfloat/multilingual-e5-large)が当面最強なのか？PFNのインターン生の成果などがいくつか公開。それにしてもPFNのインターン生つよつよだろう、ちょっとうらやましい。DeepMindのYasunagaさんやエジンバラ大学のMatsubaraさんなどの日本人の活躍もちらほら。
-
-
-- Large Language Models (in 2023)
-	- https://d
+RAGシステムの性能向上は依然もりあがっている。StanfordのDSpy、どうもLLMのプロンプト利用を別の次元に引き上げる画期的な開発のように見えるが追いつけない。RAGとFinetuningを組み合わせることによる性能向上がいままで抜けていたとは。LLMの心の理論(ToM)についての論文では、他人の心の状態の推定というのが肝なのか。zephyr-7b-alphaとか、Japanese StableLM Instruct Alpha v2 とか、ローカルで使いものになるLLMもどんどん出てきた。スタンフォードAIの、State of AI Report 2023、 KaggleのAI Report 2023、それぞれの立場で最新のAIを取り巻く様々な視点をまとめてくれている。アナロジー（類推）でプロンプトを生成する「アナロジカル・プロンプティング」は、人間の手間を省けるか？組み込み(embeding)の違いによるRAG性能の違いの検証から、やっぱe5(intfloat/multilingual-e5-large)が当面最強なのか？PFNのインターン生の成果などがいくつか公開。それにしてもPFNのインターン生つよつよだろう、ちょっとうらやましい。DeepMindのYasunagaさんやエジンバラ大学のMatsubar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzc3NzEwNzcsOTMwMjI5OTA4LC01Nz
+eyJoaXN0b3J5IjpbLTEwMjUyMDU0MDYsOTMwMjI5OTA4LC01Nz
 EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
 LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
 M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
