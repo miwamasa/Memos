@@ -147,7 +147,7 @@
 	- https://x.com/webbigdata/status/1763730996455973098?s=20
 	- Jeremyさんの言っている通り、fine tuningはHugging Faceに掲載されているTransformers実装ではなくて、githubのgoogle-deepmind/gemmaを参考にした方が良いのかもしれません
 	- https://x.com/jeremyphoward/status/1763679390968455185?s=20
-- 
+-  ロングコンテキストLLMに対応したRAGの新アーキテクチャ 
 
 ## 2/26
 
@@ -3966,15 +3966,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - kaggle LLMコンペ　上位解法まとめ
 	- https://zenn.dev/yume_neko/articles/7347ba6b081e93
 	- 科学分野の5択問題を解くLLMの精度を規則コンペのべスプラ
-	- 今回のコンペで上位に行くにはRetrievalが最もキーだったように思います。やはり正解情報を直接参照できるので、contextをより良くすることが重要だったのではないかと思います。
-- llama2のpretrainingを試す
-	
+	- 今回のコンペで上位に行くにはRetrievalが最もキーだったように思います。やはり正解情報を直接参照できるので、contextをより良くすることが重要だったのではないかと思
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMj
-k5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwx
-OTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MD
-c0OTYsNTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIz
-NTc5MjY0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMz
-A5NCw3NjEwOTE0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NF19
+eyJoaXN0b3J5IjpbLTc4Njk2NDM5Myw5NjY4NDQ4NiwtNTcyOD
+kwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwt
+MjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwOD
+UyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIw
+NDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MTU4Mj
+A0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQyXX0=
 
 -->
