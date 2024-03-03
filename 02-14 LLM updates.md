@@ -12,6 +12,12 @@
 	- Neural Networks に対してかなり一貫性のある理解が得られそうな気分になる。学習率やパラメータの初期化のスケールに関する話がなんでも TP/μP で取り扱うべき事項に見えてくる。
 - ウェブの日本語テキストをクリーニングするための基本的な処理コードと課題
 	- https://note.com/kan_hatakeyama/n/n331bda7d77c1?sub_rt=share_pb
+		- 文字列の正規化　(変な文字コードを消す)
+		- ルールベースでの、不要な文字列の削除
+		- 機械学習ベースでの、不要な文字列の削除
+		- 重複の削除
+- 【最強になった】Googleの最大1000万トークン入力可能なGemini 1.5 Proがヤバすぎる。《概要、他LLMとの比較、ビジネスシーンでの活用方法5選を徹底解説》
+	- https://note.com/chaen_channel/n/necaf27db79ae
 	- 
 
 ## 2/26
@@ -3980,15 +3986,9 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- LLMによるテキストの埋め込みと株式の特徴を同じsemantic spaceで配置させる強化学習の枠組みを導入している。
 - Zhiyu Chen et al., "Empowering Psychotherapy with Large Language Models: Cognitive Distortion Detection through Diagnosis of Thought Prompting"
 	- https://arxiv.org/abs/2310.07146
-	- GPT-4をセラピストとして実行し、人々の「認知の歪み」を診断させるためのフレームワーク『Diagnosis of Thought (DoT)』
-	- ① DoTは、「認知の歪み」評価と分類で高性能を示した 
-	- ② GPT-4は、「認知の歪み」分類で特に高い性能を示した 
-	- ③ 専門家によってGPT-4による本診断方法は「包括的である」と評価された（84.5%）
--  Large Language Models can Learn Rules
-	- LLMがルールを学習できる？
-	- https://
+	- GPT-4をセラピストとして実行し、人々の「認知の歪み」を診断させるため
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDMxMjAzNjgsOTMwMjI5OTA4LC01Nz
+eyJoaXN0b3J5IjpbLTIwMjA4MTQyNDUsOTMwMjI5OTA4LC01Nz
 EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
 LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
 M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
