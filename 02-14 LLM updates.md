@@ -45,6 +45,10 @@
 		- function calling and JSON format natively supported
 		- available through Microsoft Azure
 		- a low-latency model called Mistral Small was also released
+- Qwen1.5-72B-Chatをお試し中。
+	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
+	- もう全部Qwen-72Bでいいんじゃないかな
+	- https://x.com/alfredplpl/status/1762277261435347424?s=20
 - 
 
 ## 2/26
@@ -3986,13 +3990,9 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- LLMの推論能力を向上させるCoTは有用ですが、手間がかかります。 手動のプロンプト作業を少しでも軽減することが求められています。 
 	- そこで研究者らは、人間のように自動的に知識を生成する「アナロジカル・プロンプティング」を発明しました。
 - Hamiltonian Dynamics of Bayesian Inference Formalised by Arc Hamiltonian Systems
-	- https://arxiv.org/pdf/2310.07680.pdf
-	- エジンバラ大学の松原さんの論文
-	- infinite-dimensional Hamiltonian system behind Bayesian inference.
-	- ベイズ推論の裏に、無限次元のハミルトニアンシステムがあるという、、
-- Zijun Liu et al.
+	- https://arxiv.or
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODk2NDczNiw5MzAyMjk5MDgsLTU3MT
+eyJoaXN0b3J5IjpbLTM1MjAxMjQ3MCw5MzAyMjk5MDgsLTU3MT
 M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
 LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
 c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
