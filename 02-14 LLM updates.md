@@ -94,7 +94,13 @@
 	- https://x.com/webbigdata/status/1763021292696170917?s=20
 -  驚異の1ビットLLMを試す。果たして本当に学習できるのか? by shi3zさん
 	- https://note.com/shi3zblog/n/n58b0a2252727?sub_rt=share_pb
-	- 
+	- 試したのはこちら
+		- https://github.com/Beomi/BitNet-Transformers/tree/main
+	- なんかそれっぽいこと言ってる!!!!!!  しかも小さいから当たり前なのだが推論は超速いのである。
+	- モデルサイズは200MB。GBじゃないよ。  僕は小さい言語モデルも大きい言語モデルもそこそこ触って来た方だと思うが、このサイズ
+- Mixtral 250MのpretrainingからInstruction Tuningまで
+	- https://zenn.dev/if001/articles/9bb90e0d8c201f
+	- MoEを持つMixtralがhuggingface/transformersで公開されているので、これを利用しつつ、250Mの小さいサイズとして日本語と英語でpretraining、finetuningを行います。
 
 ## 2/26
 
@@ -3989,20 +3995,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- https://www.kaggle.com/AI-Report-2023
 	- これはAIの現状に関するエッセイコンペの結果をまとめたもの、最新のAIを取り巻く様々な視点からの見方がわかる。
 - HuggingFaceにおけるLLM評価で、zephyr-7b-alphaがChatLlama 70Bを上回る性能をだしたらしいのでllamaindexで確かめてみた
-	- https://colab.research.google.com/drive/16Ygf2IyGNkb725ZqtRmFQjwWBuzFX_kl?usp=sharing#scrollTo=lMNaHDzPM68f
-	- We found that it is the ONLY open 7B model atm that does well on advanced RAG/agentic task
-- DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
-	- https://huggingface.co/papers/2309.16653
-	- ここで３Dモデル作成を試せる、なんかすごいぞ。
-		- https://huggingface.co/spaces/jiawei011/dreamgaussian
--  Multimodality and Large Multimodal Models (LMMs)
-	- https://huyenchip.com/2
+	- https://colab.research.google.com/drive/16Ygf2IyGNkb725ZqtRmFQjwWBuzFX_kl?usp=sharing#scroll
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjAzMDA0MTUsOTMwMjI5OTA4LC01Nz
-EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
-LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
-M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
-LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
-kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
-MzNdfQ==
+eyJoaXN0b3J5IjpbLTM5MzI2NjI0Niw5MzAyMjk5MDgsLTU3MT
+M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
+LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
+c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
+MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
+E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
+M119
 -->
