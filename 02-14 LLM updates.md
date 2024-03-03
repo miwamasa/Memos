@@ -72,6 +72,10 @@
 - Function Calling Cookbook with Open-source models (LlamaIndex+FIREWORKS)
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/fireworks_cookbook.ipynb
 	- We’re excited to present a series of cookbooks showing you how to use LlamaIndex with Fireworks, including function calling and RAG with FireFunction-v1.
+- PDFがスルスル読める！話題のLlamaParseとは
+	- https://zenn.dev/yokina_kaoto/articles/563f7d75673c2e
+	- LlamaParseはLlamaIndexの新しい製品で、再帰検索を実行することで複雑なPDFのテーブルをきれいに抽出することができ、しばしば悩まされる複雑なドキュメントのより正確な解析を約束します
+	- LlamaParseでPDFをパースし、AstraDBで**非構造化データ**を検索することで精度が向上するとのこと。
 - 
 
 ## 2/26
@@ -3987,18 +3991,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- https://tech.preferred.jp/ja/blog/model-learning-using-gene-graph/
 	- RNAからProteinを予測するタスクにおいては、学習サンプル数が限られ、かつ使用できる特徴量が少ない状況においては、予測対象モダリティの制御に関与する特定のグラフ構造を用いることで性能の改善が認められました。
 - サイバーエージェントがOpenCaml2を開発中らしい
-	- https://aws.amazon.com/jp/blogs/news/open-calm-and-openai-chatgpt-accuracy-on-jaqket-experiment-in-amazon-sagemaker/
-- RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation
-	- https://arxiv.org/abs/2310.04408
-	- LLMでのRAGの性能向上のために、2つの圧縮器(重要部分抽出・複数文書要約)を使うRECOMP法の提案。各圧縮器は学習させる必要有
-- 機械学習波動関数？？
-	- https://www.nature.com/articles/s41524-
+	- https://aws.amazon.com/jp/blogs/news/open-calm-and-openai-chatgpt-accuracy-on-jaqket-experiment-in-amazon-sagemak
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjExMjMwMCw5MzAyMjk5MDgsLTU3MT
-M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
-LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-M119
+eyJoaXN0b3J5IjpbNjY3NzYxNTE0LDkzMDIyOTkwOCwtNTcxMz
+Q1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwt
+MTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNz
+Q3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0y
+MDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MT
+Q0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMz
+XX0=
 -->
