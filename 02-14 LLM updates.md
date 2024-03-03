@@ -133,10 +133,11 @@
 - Google AI Studio で つくよみちゃんの会話テキストデータセット による Gemini の チューニングを試す by npakaさん
 	- https://note.com/npaka/n/n8b03a58abb2c?sub_rt=share_h
 	- 「Google AI Studio」で「つくよみちゃんの会話テキストデータセット」による「Gemini」のチューニングを試したので、まとめました。
--  Towards Long Context RAG
+-  Towards Long Context RAG by llamaindex
 	- https://www.llamaindex.ai/blog/towards-long-context-rag
 	- We did a deep dive into Gemini, and consolidated our thinking about long-context LLM benefits, challenges, and new architectures
-	- 
+	- Long-context LLMs will help alleviate the need to do precise chunking and retrieval, and RAG over small sets of documents
+	- Long-context LLMs still don’t resolve the issue of RAG over big knowledge bases (present in most organizations/enterprises)
 
 ## 2/26
 
@@ -3979,17 +3980,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 		- Do not teach machines how we think we think. Let it learn in a machine’s way
 - Masking PII Data in RAG Pipeline
 	- https://betterprogramming.pub/masking-pii-data-in-rag-pipeline-326d2d330336
-	- PII(Personal Identification Information)をマスキングする方法を、RAGにおいて行う方法
-	-  LlamaIndexの NERPIINodePostprocessorを活用するのがみそ
-- Jerryより、RAGシステムの性能向上に関する、様々な手法のブックマーク集
-	- Evaluating the Ideal Chunk Size for a RAG System using LlamaIndex
-		- https://blog.llamaindex.ai/evaluating-the-ideal-chunk-size-for-a-rag-system-using-llamaindex-
+	- PII(Personal Identification Information)をマスキングする方法を、RAGにおい
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1OTE5MzgwLDkzMDIyOTkwOCwtNTcxMz
-Q1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwt
-MTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNz
-Q3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0y
-MDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MT
-Q0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMz
-XX0=
+eyJoaXN0b3J5IjpbLTQ3MTQ0MzgwNCw5MzAyMjk5MDgsLTU3MT
+M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
+LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
+c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
+MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
+E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
+M119
 -->
