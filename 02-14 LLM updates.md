@@ -82,6 +82,14 @@
 	- データはGoogle Gemmaで作成。評価がsentence-t5-baseの埋め込みベクタとのコサイン類似度なのが時代を感じる。もうJaccardスコアとかの時代じゃないらしい
 - iOS17.4のソースコードにOpenAIの何かを含む部分が見つかっていて、おそらく数ヶ月以内にSiriが強力にアップデートされます。
 	- https://x.com/1amageek/status/1762422935376302226?s=20
+-  The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits
+	- https://huggingface.co/papers/2402.17764
+	- Microsoft presents The Era of 1-bit LLMs 
+	- All Large Language Models are in 1.58 Bits
+	- これ本当ならタイトル通り生成AIの新時代かもしれない
+-  1ビットLLMの衝撃! 70Bで8.9倍高速　全ての推論を加算のみで!GPU不要になる可能性も
+	- https://wirelesswire.jp/2024/02/86094/
+	- いずれにせよ、　この論文が本当だとしたら、とんでもないことが起きることになる。
 - 
 
 ## 2/26
@@ -3988,18 +3996,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- マルチモーダルモデルに関するサーベイ。重要論文としてCLIPとFlamingoを解説した上で、今後の方向性として他のモダリティの追加、出力のマルチモーダル化、ベンチマークの整備などを挙げている
 - LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression
 	- https://arxiv.org/abs/2310.06839
-	- Gains a performance boost of up to 17.1% on NaturalQuestions over the original prompt with ~4x fewer tokens
-- MatGPT: A Vane of Materials Informatics from Past, Present, to Future
-	- https://onlinelibrary.wiley.com/doi/10.1002/adma.202306733?af=R
-	- **GPT AI**の出現は、科学研究分野が「データ」を基本要素とし、「アルゴリズム + 計算能力」を核心生産力とする知能文明時代に入ったことを示している。
-	- 事前学習モデル、指向性設計モデル、協調学習、実験ロボットなど
-- PFNのインター
+	- Gai
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjI1OTMzNzgsOTMwMjI5OTA4LC01Nz
-EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
-LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
-M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
-LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
-kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
-MzNdfQ==
+eyJoaXN0b3J5IjpbLTEzMTg5MzAxMiw5MzAyMjk5MDgsLTU3MT
+M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
+LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
+c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
+MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
+E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
+M119
 -->
