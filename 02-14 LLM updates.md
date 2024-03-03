@@ -76,6 +76,12 @@
 	- https://zenn.dev/yokina_kaoto/articles/563f7d75673c2e
 	- LlamaParseはLlamaIndexの新しい製品で、再帰検索を実行することで複雑なPDFのテーブルをきれいに抽出することができ、しばしば悩まされる複雑なドキュメントのより正確な解析を約束します
 	- LlamaParseでPDFをパースし、AstraDBで**非構造化データ**を検索することで精度が向上するとのこと。
+- 新Kaggleコンペ： LLMで生成された文章からプロンプトを復元するタスク
+	- https://www.kaggle.com/competitions/llm-prompt-recovery
+	- LLMで生成された文章からプロンプトを復元するタスク。
+	- データはGoogle Gemmaで作成。評価がsentence-t5-baseの埋め込みベクタとのコサイン類似度なのが時代を感じる。もうJaccardスコアとかの時代じゃないらしい
+- iOS17.4のソースコードにOpenAIの何かを含む部分が見つかっていて、おそらく数ヶ月以内にSiriが強力にアップデートされます。
+	- https://x.com/1amageek/status/1762422935376302226?s=20
 - 
 
 ## 2/26
@@ -3987,17 +3993,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- https://onlinelibrary.wiley.com/doi/10.1002/adma.202306733?af=R
 	- **GPT AI**の出現は、科学研究分野が「データ」を基本要素とし、「アルゴリズム + 計算能力」を核心生産力とする知能文明時代に入ったことを示している。
 	- 事前学習モデル、指向性設計モデル、協調学習、実験ロボットなど
-- PFNのインターン発表： 遺伝⼦に関するグラフを利⽤したモデルの開発
-	- https://tech.preferred.jp/ja/blog/model-learning-using-gene-graph/
-	- RNAからProteinを予測するタスクにおいては、学習サンプル数が限られ、かつ使用できる特徴量が少ない状況においては、予測対象モダリティの制御に関与する特定のグラフ構造を用いることで性能の改善が認められました。
-- サイバーエージェントがOpenCaml2を開発中らしい
-	- https://aws.amazon.com/jp/blogs/news/open-calm-and-openai-chatgpt-accuracy-on-jaqket-experiment-in-amazon-sagemak
+- PFNのインター
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY3NzYxNTE0LDkzMDIyOTkwOCwtNTcxMz
-Q1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwt
-MTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNz
-Q3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0y
-MDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MT
-Q0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMz
-XX0=
+eyJoaXN0b3J5IjpbLTEyMjI1OTMzNzgsOTMwMjI5OTA4LC01Nz
+EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
+LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
+M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
+LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
+kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
+MzNdfQ==
 -->
