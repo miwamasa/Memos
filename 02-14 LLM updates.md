@@ -101,6 +101,10 @@
 - Mixtral 250MのpretrainingからInstruction Tuningまで
 	- https://zenn.dev/if001/articles/9bb90e0d8c201f
 	- MoEを持つMixtralがhuggingface/transformersで公開されているので、これを利用しつつ、250Mの小さいサイズとして日本語と英語でpretraining、finetuningを行います。
+	- 250MのMixtralをpretrainingからfinetuningまでを行いました。小さいサイズなりにうっすら日本語を理解してそう。入力から正確に情報を抽出とそれらを使った出力はさすがに難しそう。あとは、推論時のexpertの選択のされかたや同サイズのモデルとの比較をしてみたいところ
+- プログラマーなら全員BitNet試してみるべき by shi3zさん、
+	- https://github.com/kyegomez/BitNet
+- 
 
 ## 2/26
 
@@ -3993,11 +3997,9 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- https://x.com/lateinteraction/status/1712135660797317577?s=20
 - KaggleのAI Report 2023
 	- https://www.kaggle.com/AI-Report-2023
-	- これはAIの現状に関するエッセイコンペの結果をまとめたもの、最新のAIを取り巻く様々な視点からの見方がわかる。
-- HuggingFaceにおけるLLM評価で、zephyr-7b-alphaがChatLlama 70Bを上回る性能をだしたらしいのでllamaindexで確かめてみた
-	- https://colab.research.google.com/drive/16Ygf2IyGNkb725ZqtRmFQjwWBuzFX_kl?usp=sharing#scroll
+	- これはAIの現状
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzI2NjI0Niw5MzAyMjk5MDgsLTU3MT
+eyJoaXN0b3J5IjpbLTE1NzUwODI4MCw5MzAyMjk5MDgsLTU3MT
 M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
 LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
 c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
