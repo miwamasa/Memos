@@ -3,6 +3,11 @@
 
 ## 3/4
 
+- 画像生成AI、安いPCでも高速に　衝撃の「Stable Diffusion WebUI Forge」
+	- https://weekly.ascii.jp/elem/000/004/185/4185940/
+-  μTransfer: 小規模モデルでのハイパラ探索を大規模モデルに転移し学習を効率化する
+	- https://note.com/tatsuyashirakawa/n/n9f5b57ce1aa6?sub_rt=share_pb
+	- 
 
 ## 2/26
 
@@ -3981,13 +3986,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 
 ## 10/10
 
-function callを含むLLMのファインチューニングをOpenAIが導入されたり、LLMのRAGに対するファインチューニングについての考察があったりと、性能面での評価を含めRAG関係は成熟してきた感じ。LLMがどれだけ論理的かという検証も「逆転の呪い」を例に行われているが、LLMが「物事がどのように位置づけられ、時間がどのように進行するかを理解」しているという実験はこれからのLLMを用いた複雑なタスクの開発に弾みでもある。マルチモーダルでは、早速GPT-4Vに対抗するOSSであるLLaVAが登場した、LLaVA-1.5はすでに試せる模様。スタンフォード大学がAIに関する多角的なデータのレポートすばらしい。OpenAIは、GPT-4Vに引き続き、DALL·E 3に対する品質カード(Syst
+function callを含むLLMのファインチューニングをOpenAIが導入されたり、LLMのRAGに対するファインチューニングについての考察があったりと、性能面での評価を含めRAG関係は成熟してきた感じ。LLMがどれだけ論理的かという検証も「逆
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDM0NDAxNyw5MzAyMjk5MDgsLTU3MT
-M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
-LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-M119
+eyJoaXN0b3J5IjpbODkyMzUxNTU0LDkzMDIyOTkwOCwtNTcxMz
+Q1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwt
+MTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNz
+Q3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0y
+MDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MT
+Q0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMz
+XX0=
 -->
