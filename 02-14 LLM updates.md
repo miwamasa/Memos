@@ -3,7 +3,7 @@
 
 ## 3/4
 
-1ビットLLMの衝撃!マイクロソフトの発表(The Era of 1-bit LLMs)、 70Bで8.9倍高速ということで、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン現象が起きている。さて、先週公開されたgemma、ollamaでサポート、周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっと急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがある。マネフォOBが立ち上げたスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切さよ。Mistral Large、「Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得」って本当か？LLMには自然言語よりも最適な形式があるのでは？という野心的な『AutoForm（オートフォーム）』、そういえば先輩の三つ子ちゃんは、独自の言語でコミュニケーションしていたって言ってたな。東工大の、『論文の結論を学習させたら性能が下がった。』という話、イントロのほうがよいというのは不思議だ。μTransfer、転移学習のマイクロ版？大規模モデルの学習をおそらく圧倒的に効率化できるのはよい。Gemini 1.5 Proも使える人が少しずつ拡大している模様、来週あたりはいろいろ評価がでるかも。Gemini 1.5 Proの長コンテキスト性を利用し、Long-context LLMs がRAGの代わりになるかならないかを評価して長コンテキスト時代の新しいRAGアーキテクチャ提案とか。Function Calling、色々なサポートが出てきて、当たり前の技術になりつつあるな。LlamaParseのPDF読み取り評価とか、RAGでの回答精度向上のためのテクニック集とか、地道に進む。 NVIDIAがノートパソコン用のGPUを新発表とか、まさにwinner takes allの世界。さて日本の優秀な頭脳はどうよ？ということで先週、がっちりマンデーで、東大出身の若者が多いベンチャー「燈」が紹介されたが、あれって、「建築×AI」のテーマで、LLMをがっつり活用するという話。社会実装というかそっち系？
+今週は、1ビットLLMの衝撃!マイクロソフトの発表(The Era of 1-bit LLMs)、 70Bで8.9倍高速ということで、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン現象が起きている。さて、先週公開されたgemma、ollamaでサポート、周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっと急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがある。マネフォOBが立ち上げたスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切さよ。Mistral Large、「Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得」って本当か？LLMには自然言語よりも最適な形式があるのでは？という野心的な『AutoForm（オートフォーム）』、そういえば先輩の三つ子ちゃんは、独自の言語でコミュニケーションしていたって言ってたな。東工大の、『論文の結論を学習させたら性能が下がった。』という話、イントロのほうがよいというのは不思議だ。μTransfer、転移学習のマイクロ版？大規模モデルの学習をおそらく圧倒的に効率化できるのはよい。Gemini 1.5 Proも使える人が少しずつ拡大している模様、来週あたりはいろいろ評価がでるかも。Gemini 1.5 Proの長コンテキスト性を利用し、Long-context LLMs がRAGの代わりになるかならないかを評価して長コンテキスト時代の新しいRAGアーキテクチャ提案とか。Function Calling、色々なLLMで使えるライブラリが出てきて、当たり前の技術になりつつあるな。LlamaParseのPDF読み取り評価とか、RAGでの回答精度向上のためのテクニック集とか、そのあたりの地道な進みもあった。 NVIDIAがノートパソコン用のGPUを新発表とか、まさにwinner takes allの世界。さて日本の優秀な頭脳はどうよ？ということで先週、がっちりマンデーで、東大出身の若者が多いベンチャー「燈」が紹介されたが、あれって、「建築×AI」のテーマで、LLMをがっつり活用するという話。若い人の意識が基盤というより社会実装というかそっち系に流れてる？
 
 - 画像生成AI、安いPCでも高速に　衝撃の「Stable Diffusion WebUI Forge」
 	- https://weekly.ascii.jp/elem/000/004/185/4185940/
@@ -3967,13 +3967,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Introducing CliffordLayers: Neural Network layers inspired by Clifford / Geometric Algebras.
 	- https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/articles/introducing-cliffordlayers-neural-network-layers-inspired-by-clifford-geometric-algebras/
 	- MS研究所から、クリフォード代数にインスパイアされた新しいNNレイヤの発明
--  OpenAgents: An Open Platform for Language Agents in
+-  OpenAgen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0MTY1MDM3LDk2Njg0NDg2LC01NzI4OT
-A2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0y
-MTM2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NT
-IyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0
-NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDQsMTYxNTgyMD
-Q1OSw5NTgyMTMwOTQsNzYxMDkxNDQsLTE0OTY1NTE3NDJdfQ==
+eyJoaXN0b3J5IjpbLTg5NDMwMzMzMCw5NjY4NDQ4NiwtNTcyOD
+kwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwt
+MjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwOD
+UyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIw
+NDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MTU4Mj
+A0NTksOTU4MjEzMDk0LDc2MTA5MTQ0LC0xNDk2NTUxNzQyXX0=
 
 -->
