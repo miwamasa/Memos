@@ -87,10 +87,14 @@
 	- Microsoft presents The Era of 1-bit LLMs 
 	- All Large Language Models are in 1.58 Bits
 	- これ本当ならタイトル通り生成AIの新時代かもしれない
--  1ビットLLMの衝撃! 70Bで8.9倍高速　全ての推論を加算のみで!GPU不要になる可能性も
+-  1ビットLLMの衝撃! 70Bで8.9倍高速　全ての推論を加算のみで!GPU不要になる可能性も by shi3zさｎ
 	- https://wirelesswire.jp/2024/02/86094/
 	- いずれにせよ、　この論文が本当だとしたら、とんでもないことが起きることになる。
-- 
+- Microsoftが「1ビットLLM時代の到来」という衝撃的なタイトルで論文を公開し、GPUが不要になるかもしれないとの話も出てきているので従来の手法との違いをまとめました
+	- https://x.com/webbigdata/status/1763021292696170917?s=20
+-  驚異の1ビットLLMを試す。果たして本当に学習できるのか? by shi3zさん
+	- https://note.com/shi3zblog/n/n58b0a2252727?sub_rt=share_pb
+	- 
 
 ## 2/26
 
@@ -3992,17 +3996,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- ここで３Dモデル作成を試せる、なんかすごいぞ。
 		- https://huggingface.co/spaces/jiawei011/dreamgaussian
 -  Multimodality and Large Multimodal Models (LMMs)
-	- https://huyenchip.com/2023/10/10/multimodal.html
-	- マルチモーダルモデルに関するサーベイ。重要論文としてCLIPとFlamingoを解説した上で、今後の方向性として他のモダリティの追加、出力のマルチモーダル化、ベンチマークの整備などを挙げている
-- LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression
-	- https://arxiv.org/abs/2310.06839
-	- Gai
+	- https://huyenchip.com/2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg5MzAxMiw5MzAyMjk5MDgsLTU3MT
-M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
-LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-M119
+eyJoaXN0b3J5IjpbLTIwMjAzMDA0MTUsOTMwMjI5OTA4LC01Nz
+EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
+LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
+M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
+LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
+kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
+MzNdfQ==
 -->
