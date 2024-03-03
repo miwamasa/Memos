@@ -59,6 +59,12 @@
 			- 2. 偏った判断 
 			- 3. 頭から答えを言う（推論ステップを辿らない）、 
 			- 4. 入力テキストを適切に使わない
+- RAGでの回答精度向上のためのテクニック集（基礎編）
+	- https://zenn.dev/knowledgesense/articles/47de9ead8029ba
+- NVIDIAがノートパソコン用のGPUを新たに発表
+	- https://x.com/webbigdata/status/1762645658266468393?s=20
+	- RTX 500 GPUは4GBのGPUメモリ 
+	- RTX 1000 GPUは6GBのGPUメモ
 - 
 
 ## 2/26
@@ -3990,13 +3996,8 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- https://www.stateof.ai/2023-report-launch
 	- OpenAIの**GPT-4**は、すべてのベンチマークや人間向けの試験において他のLLMを凌駕している。
 	- Meta AIはオープン（な）AIのチャンピオンとして登場し、LLaMaモデルファミリーを最も強力な公開アクセス可能なOpenAI代替品となっている
-	- LLMや拡散モデルは、特にライフサイエンス分野で実用的なブレイクスルーをもたらしてお
-	- 生成AIが、低迷している、テック界隈のVCを救う。
-	- 安全性はAI研究界で中心的なテーマとなり、世界中の政府や規制機関が対策を講じ始めた。
-	- 標準的なLLMは頑健性に問題があり、最先端モデルの評価が困難になっている
-- Michihiro Yasunaga et al., "Large Language Models as Analogical
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjE0MjU2MSw5MzAyMjk5MDgsLTU3MT
+eyJoaXN0b3J5IjpbMTAxODIxMjIwMyw5MzAyMjk5MDgsLTU3MT
 M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
 LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
 c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
