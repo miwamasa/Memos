@@ -153,7 +153,10 @@
 	- **Gemini は特定の詳細を見事に思い出すことができる**
 	- **Gemini は素晴らしい要約能力を持つ**
 	- **10Mトークンは大規模な文書コーパスには十分ではない**
-	- 
+	- **埋め込みモデルはコンテキスト長の点で遅れている**
+	- RAGの新アーキテクチャ
+		- 「**Small-to-Big Retrieval**」
+		- 
 
 ## 2/26
 
@@ -3966,10 +3969,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- MS研究所から、クリフォード代数にインスパイアされた新しいNNレイヤの発明
 -  OpenAgents: An Open Platform for Language Agents in the Wild
 	- https://arxiv.org/abs/2310.10634v1
-- llamaindexより、Unifying Text-to-SQL and RAG with our SQLRetrieve
-	- https://docs.llamaindex.ai/en/latest/examples/index_structs/struct_indices/
+- llamaindexより、Unifying Text-to-SQL and RAG with our SQLRetrie
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTU2MTY3MSw5NjY4NDQ4NiwtNTcyOD
+eyJoaXN0b3J5IjpbMTkzODMyODEzNCw5NjY4NDQ4NiwtNTcyOD
 kwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwt
 MjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwOD
 UyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIw
