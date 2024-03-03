@@ -25,7 +25,12 @@
 	- https://prtimes.jp/main/html/rd/p/000000007.000123714.html
 - たくさんのお客様がCotomoとおしゃべりしていることで、動作が不安定になる事象が発生しております
 	- https://x.com/starley_jp/status/1761753632788357611?s=20
-- 
+- Qwen1.5 速いし日本語完璧だしすごい by shi3z
+	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
+- ku-nlp/gpt2-large-japanese-char
+	- 弊研のhuggingfaceリポジトリで charcter vocabulary の日本語 gpt2-large（A100 1枚で訓練8か月!）が公開されているので、何かの興味で日本語の文字レベルの言語モデルが欲しい方は是非使ってみてください
+- ローカルで気軽にRAGを使って会話することが簡単すぎてビビった。
+	- 
 
 ## 2/26
 
@@ -3983,17 +3988,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 		- cl-nagoya/sup-simcse-ja-large 
 		- pkshatech/GLuCoSE-base-ja 
 		- openai/text-embedding-ada-002
-- OpenAI gpt-3.5-turbo と gpt-3.5-turbo-instruct モデルの違いについて
-	- https://corp.langcore.org/media/chatgpt-instruct
-	- gpt-3.5-turbo モデルは会話に秀でているので対話をさせるのであればこちらを使う方がよいです。
-	- 会話以外のタスクの場合だと**一問一答のような単純な課題を解くケースでは gpt-3.5-turbo-instruct の方が期待する出力になる可能性**があります。
-- Integrating Stock Features and Global Information via Large
+- OpenAI gpt-3.5-turbo と gpt-3.5
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODEyMTkxNSw5MzAyMjk5MDgsLTU3MT
-M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
-LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-M119
+eyJoaXN0b3J5IjpbMzQ4OTUzNTY4LDkzMDIyOTkwOCwtNTcxMz
+Q1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwt
+MTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNz
+Q3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0y
+MDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MT
+Q0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMz
+XX0=
 -->
