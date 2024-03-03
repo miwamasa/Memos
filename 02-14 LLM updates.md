@@ -3,7 +3,7 @@
 
 ## 3/4
 
-さて、先週公開されたgemma、2bのほうが7bより性能よいと謎の報告が。
+さて、先週公開されたgemma、2bのほうが7bより性能よいと謎の報告が。Qwen1.5最高という評価も
 
 - 画像生成AI、安いPCでも高速に　衝撃の「Stable Diffusion WebUI Forge」
 	- https://weekly.ascii.jp/elem/000/004/185/4185940/
@@ -3982,10 +3982,9 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 
 
 - Large Language Models (in 2023)
-	- https://docs.google.com/presentation/d/1636wKStYdT_yRPbJNrf8MLKpQghuWGDmyHinHhAKeXY/edit#slide=id.g2885e521b53_0_0
-	- OpenAI
+	- https://docs.google.com/presentation/d/1636wKStYdT_yRPbJNrf8MLKpQghuWGDmyHinHhAKeXY/edit#slide=id.g2885e521b53
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Njc4MjQ2Niw5MzAyMjk5MDgsLTU3MT
+eyJoaXN0b3J5IjpbLTg2MjM2NjY5Niw5MzAyMjk5MDgsLTU3MT
 M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
 LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
 c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
