@@ -147,7 +147,13 @@
 	- https://x.com/webbigdata/status/1763730996455973098?s=20
 	- Jeremyさんの言っている通り、fine tuningはHugging Faceに掲載されているTransformers実装ではなくて、githubのgoogle-deepmind/gemmaを参考にした方が良いのかもしれません
 	- https://x.com/jeremyphoward/status/1763679390968455185?s=20
--  ロングコンテキストLLMに対応したRAGの新アーキテクチャ 
+-  ロングコンテキストLLMに対応したRAGの新アーキテクチャ by npakaさん
+	- https://note.com/npaka/n/n0b17244bae47?sub_rt=share_h
+	- 「Gemini 1.5 Pro」の機能をプレビューすることができ、それを試してみることで、ロングコンテキストLLMを適切に使用するには、RAGがどのように進化するのかについてのまとめました。
+	- **Gemini は特定の詳細を見事に思い出すことができる**
+	- **Gemini は素晴らしい要約能力を持つ**
+	- **10Mトークンは大規模な文書コーパスには十分ではない**
+	- 
 
 ## 2/26
 
@@ -3961,14 +3967,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  OpenAgents: An Open Platform for Language Agents in the Wild
 	- https://arxiv.org/abs/2310.10634v1
 - llamaindexより、Unifying Text-to-SQL and RAG with our SQLRetrieve
-	- https://docs.llamaindex.ai/en/latest/examples/index_structs/struct_indices/SQLIndexDemo.html
-	- SQLデータベースに対して、RAGを行うRetriverについて、動いたぞ、役に立つぞ。
-- kaggle LLMコンペ　上位解法まとめ
-	- https://zenn.dev/yume_neko/articles/7347ba6b081e93
-	- 科学分野の5択問題を解くLLMの精度を規則コンペのべスプラ
-	- 今回のコンペで上位に行くにはRetrievalが最もキーだったように思います。やはり正解情報を直接参照できるので、contextをより良くすることが重要だったのではないかと思
+	- https://docs.llamaindex.ai/en/latest/examples/index_structs/struct_indices/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Njk2NDM5Myw5NjY4NDQ4NiwtNTcyOD
+eyJoaXN0b3J5IjpbLTgyMTU2MTY3MSw5NjY4NDQ4NiwtNTcyOD
 kwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwt
 MjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwOD
 UyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIw
