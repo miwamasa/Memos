@@ -18,7 +18,7 @@
 		- 重複の削除
 - 【最強になった】Googleの最大1000万トークン入力可能なGemini 1.5 Proがヤバすぎる。《概要、他LLMとの比較、ビジネスシーンでの活用方法5選を徹底解説》
 	- https://note.com/chaen_channel/n/necaf27db79ae
-	- 
+-  LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens
 
 ## 2/26
 
@@ -3985,10 +3985,9 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- IJCAIでLLM(chatGPT)使った株価リターン予測の論文
 	- LLMによるテキストの埋め込みと株式の特徴を同じsemantic spaceで配置させる強化学習の枠組みを導入している。
 - Zhiyu Chen et al., "Empowering Psychotherapy with Large Language Models: Cognitive Distortion Detection through Diagnosis of Thought Prompting"
-	- https://arxiv.org/abs/2310.07146
-	- GPT-4をセラピストとして実行し、人々の「認知の歪み」を診断させるため
+	- https://a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA4MTQyNDUsOTMwMjI5OTA4LC01Nz
+eyJoaXN0b3J5IjpbLTIwMDc4Njg0NTgsOTMwMjI5OTA4LC01Nz
 EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
 LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
 M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
