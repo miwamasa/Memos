@@ -36,10 +36,16 @@
 	- PLATEAU AWARD 2023でグランプリを受賞した方のGitHubらしい
 -  AITuberのブレイクスルーは音声雑談から始まった Cotomo
 	- https://note.com/o_ob/n/n27edbebf17af?sub_rt=share_h
-	- ・敬意を持って接する  、「話すの楽しい」設定 、過去の会話をキャッシュする  
-・相手の速度に合わせて早口になる  
-・一度言った話は2回目は早口  
-・お別れを名残惜しむ
+	- ・敬意を持って接する  、「話すの楽しい」設定 、過去の会話をキャッシュする  、相手の速度に合わせて早口になる  、一度言った話は2回目は早口  、お別れを名残惜しむ
+- Mistral announces Mistral Large, a new flagship model.
+	- https://x.com/omarsar0/status/1762140818654064721?s=20
+		- 32K tokens context window
+		- has native multilingual capacities
+		- strong abilities in reasoning, knowledge, maths, and coding benchmarks
+		- function calling and JSON format natively supported
+		- available through Microsoft Azure
+		- a low-latency model called Mistral Small was also released
+- 
 
 ## 2/26
 
@@ -3984,19 +3990,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- エジンバラ大学の松原さんの論文
 	- infinite-dimensional Hamiltonian system behind Bayesian inference.
 	- ベイズ推論の裏に、無限次元のハミルトニアンシステムがあるという、、
-- Zijun Liu et al., "Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization"
-	- https://arxiv.org/abs/2310.02170
-	- 複数のエージェントに協力して仕事を開始させ、タスクの進行に応じて重要なエージェントを取捨選択する『Dynamic LLM-Agent Network（DyLAN）』フレームワーク
-	- タスクに応じて動的にエージェントを選択する方式を考えました。
-- LangChain を使った RAG における埋め込みモデルの比較
-	- https://note.com/alexweberk/n/ncccfdab3f4bb
-	- Wikipedia 記事を LangChain の CharacterTextSplitter を使って、４種類の埋め込みモデルを使ってベ
+- Zijun Liu et al.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMzMDI5NjgsOTMwMjI5OTA4LC01Nz
-EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
-LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
-M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
-LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
-kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
-MzNdfQ==
+eyJoaXN0b3J5IjpbMTQ0ODk2NDczNiw5MzAyMjk5MDgsLTU3MT
+M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
+LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
+c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
+MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
+E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
+M119
 -->
