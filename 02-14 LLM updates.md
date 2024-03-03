@@ -30,7 +30,11 @@
 - ku-nlp/gpt2-large-japanese-char
 	- 弊研のhuggingfaceリポジトリで charcter vocabulary の日本語 gpt2-large（A100 1枚で訓練8か月!）が公開されているので、何かの興味で日本語の文字レベルの言語モデルが欲しい方は是非使ってみてください
 - ローカルで気軽にRAGを使って会話することが簡単すぎてビビった。
-	- 
+	- https://qiita.com/mitsumizo/items/469d79c5e81d9189a9e4
+- 日本のオープンデータ情報一覧・まとめ
+	- https://github.com/japan-opendata/awesome-japan-opendata
+	- PLATEAU AWARD 2023でグランプリを受賞した方のGitHubらしい
+- 
 
 ## 2/26
 
@@ -3983,18 +3987,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- https://note.com/alexweberk/n/ncccfdab3f4bb
 	- Wikipedia 記事を LangChain の CharacterTextSplitter を使って、４種類の埋め込みモデルを使ってベクトル化し、RAG による質問応答を試行
 	- `intfloat/multilingual-e5-large` >= `pkshatech/GLuCoSE-base-jap` > `cl-nagoya/sup-simcse-ja-large` >= `openai/text-embedding-ada-002` というような感触
-	- 4つの埋め込みモデルを使ったRAGを試してみました: 
-		- intfloat/multilingual-e5-large 
-		- cl-nagoya/sup-simcse-ja-large 
-		- pkshatech/GLuCoSE-base-ja 
-		- openai/text-embedding-ada-002
-- OpenAI gpt-3.5-turbo と gpt-3.5
+	- 4つの埋め込みモデルを使っ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4OTUzNTY4LDkzMDIyOTkwOCwtNTcxMz
-Q1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwt
-MTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNz
-Q3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0y
-MDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MT
-Q0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMz
-XX0=
+eyJoaXN0b3J5IjpbMTQyOTAzMTM3OSw5MzAyMjk5MDgsLTU3MT
+M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
+LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
+c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
+MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
+E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
+M119
 -->
