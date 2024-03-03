@@ -104,6 +104,10 @@
 	- 250MのMixtralをpretrainingからfinetuningまでを行いました。小さいサイズなりにうっすら日本語を理解してそう。入力から正確に情報を抽出とそれらを使った出力はさすがに難しそう。あとは、推論時のexpertの選択のされかたや同サイズのモデルとの比較をしてみたいところ
 - プログラマーなら全員BitNet試してみるべき by shi3zさん、
 	- https://github.com/kyegomez/BitNet
+- gemma-7b、英日翻訳タスクに関しては微調整に成功すると私の翻訳モデルALMA-7B-Ja-V2より一段階レベルが上の性能でした
+	- https://x.com/webbigdata/status/1762791697212375111?s=20
+- LlamaIndexとGroqの統合
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/groq.ipynb
 - 
 
 ## 2/26
@@ -3992,18 +3996,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- 「FaR」フレームワークと評価パラダイム「Thinking for Doing (T4D)」の組み合わせによって、効率的にLLMのToM能力を評価することができる
 - 7 Query Strategies for Navigating Knowledge Graphs With NebulaGraph and LlamaIndex
 	- https://www.nebula-graph.io/posts/Knowledge-Graph-and-LlamaIndex
-	- NebulaGraph を使ってグラフ構造に対する、Q&Aを実現する方法について via Llamaindex
-- StanfordのDSpyを用いることによる、Q&Aのファインチューニングが簡単になる？
-	- https://x.com/lateinteraction/status/1712135660797317577?s=20
-- KaggleのAI Report 2023
-	- https://www.kaggle.com/AI-Report-2023
-	- これはAIの現状
+	- NebulaGraph
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUwODI4MCw5MzAyMjk5MDgsLTU3MT
-M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
-LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-M119
+eyJoaXN0b3J5IjpbLTEzNTI3MTIwNjYsOTMwMjI5OTA4LC01Nz
+EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
+LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
+M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
+LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
+kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
+MzNdfQ==
 -->
