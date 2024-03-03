@@ -112,7 +112,13 @@
 	- https://arxiv.org/abs/2402.18439
 	- 「自然言語を超えて」と題して、LLMにタスク実行時の思考を人間の自然言語とは異なるフォーマットで行わせるプロンプト手法『AutoForm（オートフォーム）』が考案されました。
 	- LLMの思考は必ずしも人間と同じフォーマットに沿う必要はない、といった結論になります。LLMエージェント同士でコミュニケーションする際にはこの方が効率的かもしれないとのこと。
-	- 
+	- 自然言語に固有の曖昧さを排除し、明確性を高めるために、ステップバイステップの解決策には、より構造化されて簡潔なコミュニケーションの形式を検討してください。適切なフォーマットには、コード、擬似コード、JSON、マークダウン表、論理演算子、または数学方程式が含まれます。回答の最後には、〜〜という形式で答えを示さなければなりません。簡潔かつ正確であることを忘れないでください。
+- ChatGPTは数学を解く時に厳密に計算するためにADA（Advanced Data Analitics, Code Interpreter）をデフォルトで使用する様に変わってます
+	- https://x.com/ai_syacho/status/1763308074503422008?s=20
+	- しかも数学計算の計画も立てる事ができる。
+- オリジナルのBitNetを1.58bの論文に従って3値にするように修正しました
+	- https://github.com/frodo821/BitNet-Transformers
+- 
 
 ## 2/26
 
@@ -3985,22 +3991,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 - FireAct: Toward Language Agent Fine-tuning
 	- https://fireact-agent.github.io/
 	- LLM AgentとFintuningの合わせ技についての検証、ReActの性能をfine-tuningで向上できた
-	- FireAct is a novel way to finetune LMs w/ agent trajectories of a mix of tasks & prompting methods.
-	- Fine-tuning >> Prompting:
-		- Notably, small LMs benefit most --- Llama2-7B improves 77% after fine-tuning!
-- Pei Zhou et al., "How FaR Are Large Language Models From Agents with Theory-of-Mind?"
-	- https://arxiv.org/abs/2310.03051
-	- LLMの「心の理論(ToM:Theory of Mind)」における能力を評価するフレームワーク『Thinking for Doing (T4D)』
-		- ① 他者の心の状態（信念、願望、意図など）についてどれだけ効果的に推論できるか
-		- ② 推論した上でいかに行動に移せるか
-	- 従来の心理学的テストではLLMのToM能力の評価は十分には出来ないとされています。
-	- 「Foresee and Reflect (FaR
+	- FireAct is a novel way to finetune LMs w/ agent trajectories of a mix of tasks & prompting met
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI3MzE1OTIsOTMwMjI5OTA4LC01Nz
-EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
-LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
-M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
-LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
-kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
-MzNdfQ==
+eyJoaXN0b3J5IjpbNzIwMzcxOTYxLDkzMDIyOTkwOCwtNTcxMz
+Q1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwt
+MTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNz
+Q3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0y
+MDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MT
+Q0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMz
+XX0=
 -->
