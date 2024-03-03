@@ -65,6 +65,13 @@
 	- https://x.com/webbigdata/status/1762645658266468393?s=20
 	- RTX 500 GPUは4GBのGPUメモリ 
 	- RTX 1000 GPUは6GBのGPUメモ
+- LangChainに便利な機能が誕生してまし
+	- https://x.com/MLBear2/status/1762623474034790886?s=20
+	- Pydanticで構造体を定義した上で `with_structrured_output` を図のように使えば、Function Callingを簡単に呼べるようになりました。 
+	- ChatGPTだけではなく、GeminiなどFunction Callingに対応する他のLLMでももちろん使えるとのこと。
+- Function Calling Cookbook with Open-source models (LlamaIndex+FIREWORKS)
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/fireworks_cookbook.ipynb
+	- We’re excited to present a series of cookbooks showing you how to use LlamaIndex with Fireworks, including function calling and RAG with FireFunction-v1.
 - 
 
 ## 2/26
@@ -3985,19 +3992,9 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- https://arxiv.org/abs/2310.04408
 	- LLMでのRAGの性能向上のために、2つの圧縮器(重要部分抽出・複数文書要約)を使うRECOMP法の提案。各圧縮器は学習させる必要有
 - 機械学習波動関数？？
-	- https://www.nature.com/articles/s41524-023-01130-4
-	- 従来は1種類の構造しか訓練に使えませんでしたが、ハミルトニアンを対称性に基づくパラメータで記述することで様々な構造を訓練でき、転位がある約5000原子セルの電子状態予測を実現した
-- Google Colab で Japanese StableLM Instruct Alpha v2 を試す by npakaさん
-	- https://note.com/npaka/n/n0e463dbbce11?sub_rt=share_sb
-	- 「Stability AI Japan」が開発した7Bパラメータの日本語LLM
-	- 商用利用を制限しないデータセットのみを利用することで、同等レベルの性能を持つ**商用利用が可能**
-	- Colab無料枠(T4)で動作する模様
-- StanfordAIによる、 State of AI Report 2023
-	- https://www.stateof.ai/2023-report-launch
-	- OpenAIの**GPT-4**は、すべてのベンチマークや人間向けの試験において他のLLMを凌駕している。
-	- Meta AIはオープン（な）AIのチャンピオンとして登場し、LLaMaモデルファミリーを最も強力な公開アクセス可能なOpenAI代替品となっている
+	- https://www.nature.com/articles/s41524-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODIxMjIwMyw5MzAyMjk5MDgsLTU3MT
+eyJoaXN0b3J5IjpbMTczNjExMjMwMCw5MzAyMjk5MDgsLTU3MT
 M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
 LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
 c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
