@@ -7,6 +7,11 @@
 	- https://weekly.ascii.jp/elem/000/004/185/4185940/
 -  μTransfer: 小規模モデルでのハイパラ探索を大規模モデルに転移し学習を効率化する
 	- https://note.com/tatsuyashirakawa/n/n9f5b57ce1aa6?sub_rt=share_pb
+	- μTransfer は、μP （Maximal Update Parametrization）という理論的に導出された NN のパラメータ付けにより実現される、サイズの異なる NN 間のハイパーパラメータ転移です。
+	- （知らなかった読者にとって）大規模モデルの学習をおそらく圧倒的に効率化できる汎用的かつシンプルなパラメータ付け μP の存在と使い方を知ることができる。
+	- Neural Networks に対してかなり一貫性のある理解が得られそうな気分になる。学習率やパラメータの初期化のスケールに関する話がなんでも TP/μP で取り扱うべき事項に見えてくる。
+- ウェブの日本語テキストをクリーニングするための基本的な処理コードと課題
+	- https://note.com/kan_hatakeyama/n/n331bda7d77c1?sub_rt=share_pb
 	- 
 
 ## 2/26
@@ -3981,18 +3986,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- ③ 専門家によってGPT-4による本診断方法は「包括的である」と評価された（84.5%）
 -  Large Language Models can Learn Rules
 	- LLMがルールを学習できる？
-	- https://arxiv.org/abs/2310.07064
-	- LLMs can learn (sometimes uncommon) rules with 2 stages: (1) induction: generate and verify rules from exemplars; (2) deduction: utilize the rule library for new problems. 11-27% gain on reasoning tasks that require rule learning.
-
-## 10/10
-
-function callを含むLLMのファインチューニングをOpenAIが導入されたり、LLMのRAGに対するファインチューニングについての考察があったりと、性能面での評価を含めRAG関係は成熟してきた感じ。LLMがどれだけ論理的かという検証も「逆
+	- https://
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyMzUxNTU0LDkzMDIyOTkwOCwtNTcxMz
-Q1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwt
-MTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNz
-Q3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0y
-MDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MT
-Q0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMz
-XX0=
+eyJoaXN0b3J5IjpbLTE2NDMxMjAzNjgsOTMwMjI5OTA4LC01Nz
+EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
+LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
+M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
+LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
+kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
+MzNdfQ==
 -->
