@@ -3,7 +3,7 @@
 
 ## 3/4
 
-さて、先週公開されたgemma、ollamaでサポート、周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっと急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがある。マネフォOBのスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切さよ。Mistral Large、**Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得**って本当か？1ビットLLMの衝撃! 70Bで8.9倍高速ということで、マイクロソフトの発表、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン減少。LLMには自然言語よりも最適な形式があるのでは？という野心的な『AutoForm（オートフォーム）』、そういえば先輩の三つ子ちゃんは、独自の言語でコミュニケーションしていたって言ってたな。東工大の、『論文の結論を学習させたら性能が下がった。』という話、イントロならよいというのは不思議だ。μTransfer、転移学習のマイクロ版？？Gemini 1.5 Proも使える人が少しずつ拡大している模様、来週あたりはいろいろ評価がでるかも。Long-context LLMs がRAGの代わりになるかならないか。Function Calling、色々なサポートが出てきて、当たり前の技術になりつつあるな。LlamaParseの評価とか、 NVIDIAがノートパソコン用のGPUを新発表とか、
+さて、先週公開されたgemma、ollamaでサポート、周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっと急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがある。マネフォOBのスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切さよ。Mistral Large、**Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得**って本当か？1ビットLLMの衝撃! 70Bで8.9倍高速ということで、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン現象が起きている。LLMには自然言語よりも最適な形式があるのでは？という野心的な『AutoForm（オートフォーム）』、そういえば先輩の三つ子ちゃんは、独自の言語でコミュニケーションしていたって言ってたな。東工大の、『論文の結論を学習させたら性能が下がった。』という話、イントロのほうがよいというのは不思議だ。μTransfer、転移学習のマイクロ版？？Gemini 1.5 Proも使える人が少しずつ拡大している模様、来週あたりはいろいろ評価がでるかも。Long-context LLMs がRAGの代わりになるかならないか。Function Calling、色々なサポートが出てきて、当たり前の技術になりつつあるな。LlamaParseの評価とか、 NVIDIAがノートパソコン用のGPUを新発表とか、
 
 がっちりマンデーで、東大出身者が多いベンチャー「燈」が紹介されｒたが、
 
@@ -3973,14 +3973,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://zenn.dev/if001/articles/6c507e15cd958b
 	- 小さいサイズのllama2を日本語でpre_trainingしてみます
 	- pre_trainingからhuggingfaceへのuploadまでを行ってみました。
-	- 小さいサイズであればgoogle colabで学習できる
-- ll
+	- 小さいサイズであればgoogle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4OTc3OTc3LDkzMDIyOTkwOCwtNTcxMz
-Q1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwt
-MTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNz
-Q3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0y
-MDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MT
-Q0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMz
-XX0=
+eyJoaXN0b3J5IjpbMjAyMDI5OTQ1MCw5MzAyMjk5MDgsLTU3MT
+M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
+LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
+c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
+MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
+E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
+M119
 -->
