@@ -122,7 +122,11 @@
 	- https://www.jst.go.jp/crds/report/CRDS-FY2023-RR-06.html
 	- 所属組織が発行している数十冊・計数千ページの報告書を40ページくらいに圧縮したレポート作成にかかわりました。
 - Qwen1.5-72B 日本語能力も高くて良いが生成物でデータセットは作れない規約で残念。
-	- 
+	- https://x.com/alexweberk/status/1763905106674954324?s=20
+- 『論文の結論を学習させたら性能が下がった。』
+	- https://newswitch.jp/p/40657
+	- ６万５０００報の論文データセットを構築した。学習データでは、論文の要約よりもイントロダクションが性能向上に役立った。論文の結論の学習は、性能面でネガティブに働いた。小さなＬＬＭにとっては結論の内容が専門的過ぎた可能性がある。専門知識を備えたＬＬＭを構築するための知見になる。
+- 
 
 ## 2/26
 
@@ -3984,17 +3988,9 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- 人間の測定法と似たフレームワークでLLMの認知機能を調査した論文
 	- LLMの「認知マップ」と「計画能力」を評価。
 		- 認知マップ：外部環境を内部に表現する機能 
-		- 計画能力：目標に向かって計画を立てて遂行する能力
-	- GPT-3.5、GPT-4、Bard、LLaMA-13Bなど
-	- 結果
-		- ① 認知マップの理解や計画能力は「箱から出してすぐに」は持っていない 
-		- ② 認知マップの欠如が理由で計画タスクに失敗する可能性が高い 
-		- ③ 新しい評価プロトコル（CogEval）は有望である 
-		- ④ LLMのアーキテクチャやトレーニングには工夫の余地がある 
-		- ⑤ LLMの認知機能を向上させるには、メモリ（記憶容量）の拡張などが有効
-- FireAct:
+		- 計画能
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTU4OTM3OSw5MzAyMjk5MDgsLTU3MT
+eyJoaXN0b3J5IjpbMTgwODQzNjMyMCw5MzAyMjk5MDgsLTU3MT
 M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
 LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
 c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
