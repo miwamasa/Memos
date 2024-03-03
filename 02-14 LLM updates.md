@@ -138,7 +138,13 @@
 	- We did a deep dive into Gemini, and consolidated our thinking about long-context LLM benefits, challenges, and new architectures
 	- Long-context LLMs will help alleviate the need to do precise chunking and retrieval, and RAG over small sets of documents
 	- Long-context LLMs still don’t resolve the issue of RAG over big knowledge bases (present in most organizations/enterprises)
-
+- Gemini 1.5 Proが遂にきました！！！！
+	- https://x.com/masahirochaen/status/1763639557457899963?s=20
+- GoogleのGemma、2Bの方が7Bより性能が良いとかおかしな事が報告されている
+	- https://x.com/webbigdata/status/1763730996455973098?s=20
+	- Jeremyさんの言っている通り、fine tuningはHugging Faceに掲載されているTransformers実装ではなくて、githubのgoogle-deepmind/gemmaを参考にした方が良いのかもしれません
+	- https://x.com/jeremyphoward/status/1763679390968455185?s=20
+- 
 ## 2/26
 
 先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が垣間見れてきた。Googleは引き続きGemini 1.5 proベースのOSSであるGemma(“貴重な石”、ラテン語)をリリース、同パラメーターサイズであればLlama2やMistralより優れているとの事。Gemmaは軽量であるとともに、embeddingの工夫、安全なAIアプリケーションを作成するためのガイダンスと必須ツールの提供、Kera3.0サポートなど、かなりの量と質のソフトウエアスタックが一気に公開されたことになる。OSS戦略として、安全性に関するコミュニティとの共創という意味でも、MetaのOSS戦略と丸被り。早速、量子化gguf版や、KaggleでGemmaをつかったコンペの開催、embeddingの解析（日本語語彙は貧弱？）、npakaさんによるファインチューニング試行、MLXを使ったファインチューニングなど、コミュニティの活動が盛んに。LPU（Language Processing Unit）を引っ提げるGroq、推論時の高速さが半端ない、専用チップ開発でも戦いは続く、日本のMN-core早く！llamaindexもLlamaCloudとLlamaParseをリリース、テーブルや図表などの埋め込まれたオブジェクトを含む複雑な文書のための独自のパーシングや、RAGの構築がより高性能に、かつ容易になった。日本語LLMでは、 KARAKURI LM (70B)のELYZA-tasks-100による性能評価や、東工大と東北大によるKotomambaの構築等。フレームワークでは、BCGXからagentkitのOSSリリース、DXの手段としてのAIというシナリオでのコンサル系の新たなビジネスモデル。基礎研究では、プロンプトのみから「新しい言葉の概念」を学習させるためのフレームワーク『FOCUS』や、Mambaとtransformerとのcolabを使った速度比較とか、そもそも状態空間モデルの解説とか。DeepMindとCMUによる、LLMをつかった数値回帰OmniPred論文も面白い、その性能の理論的解析が待たれる。Stable Diffusion 3のリリースやsentencepiece v0.2.0リリースなどの基盤ソフトの重要な更新も進んだ。
@@ -3975,18 +3981,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 - Large Language Models (in 2023)
 	- https://docs.google.com/presentation/d/1636wKStYdT_yRPbJNrf8MLKpQghuWGDmyHinHhAKeXY/edit#slide=id.g2885e521b53_0_0
 	- OpenAIのHyung Won ChungさんによるLLMの現状をまとめたスライド
-	- The biggest progress in the past 10 years (or even more) can be summarized as
-		- Create weaker inductive biases and scale up
-		- Do not teach machines how we think we think. Let it learn in a machine’s way
-- Masking PII Data in RAG Pipeline
-	- https://betterprogramming.pub/masking-pii-data-in-rag-pipeline-326d2d330336
-	- PII(Personal Identification Information)をマスキングする方法を、RAGにおい
+	- T
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTQ0MzgwNCw5MzAyMjk5MDgsLTU3MT
-M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
-LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-M119
+eyJoaXN0b3J5IjpbMjc1ODgzMjE0LDkzMDIyOTkwOCwtNTcxMz
+Q1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwt
+MTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNz
+Q3MjUsODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0y
+MDI3MzY2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MT
+Q0LC0xNDk2NTUxNzQyLC0yMDY2MDMxNzc0LC0xNTQyNTc5MTMz
+XX0=
 -->
