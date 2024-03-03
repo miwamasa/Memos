@@ -108,7 +108,11 @@
 	- https://x.com/webbigdata/status/1762791697212375111?s=20
 - LlamaIndexとGroqの統合
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/groq.ipynb
-- 
+- Beyond Natural Language: LLMs Leveraging Alternative Formats for Enhanced Reasoning and Communication
+	- https://arxiv.org/abs/2402.18439
+	- 「自然言語を超えて」と題して、LLMにタスク実行時の思考を人間の自然言語とは異なるフォーマットで行わせるプロンプト手法『AutoForm（オートフォーム）』が考案されました。
+	- LLMの思考は必ずしも人間と同じフォーマットに沿う必要はない、といった結論になります。LLMエージェント同士でコミュニケーションする際にはこの方が効率的かもしれないとのこと。
+	- 
 
 ## 2/26
 
@@ -3990,15 +3994,9 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 		- ① 他者の心の状態（信念、願望、意図など）についてどれだけ効果的に推論できるか
 		- ② 推論した上でいかに行動に移せるか
 	- 従来の心理学的テストではLLMのToM能力の評価は十分には出来ないとされています。
-	- 「Foresee and Reflect (FaR)」という新しいフレームワーク
-		- ① 将来のイベントを予測（Foresee） 
-		- ② それに対する行動を考慮（Reflect）
-	- 「FaR」フレームワークと評価パラダイム「Thinking for Doing (T4D)」の組み合わせによって、効率的にLLMのToM能力を評価することができる
-- 7 Query Strategies for Navigating Knowledge Graphs With NebulaGraph and LlamaIndex
-	- https://www.nebula-graph.io/posts/Knowledge-Graph-and-LlamaIndex
-	- NebulaGraph
+	- 「Foresee and Reflect (FaR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI3MTIwNjYsOTMwMjI5OTA4LC01Nz
+eyJoaXN0b3J5IjpbLTE5OTI3MzE1OTIsOTMwMjI5OTA4LC01Nz
 EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
 LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
 M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
