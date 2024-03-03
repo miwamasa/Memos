@@ -3,7 +3,7 @@
 
 ## 3/4
 
-さて、先週公開されたgemma、ollamaでサポート、周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっと急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがある。マネフォOBのスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切さよ。Mistral Large、**Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得**って本当か？1ビットLLMの衝撃! 70Bで8.9倍高速
+さて、先週公開されたgemma、ollamaでサポート、周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっと急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがある。マネフォOBのスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切さよ。Mistral Large、**Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得**って本当か？1ビットLLMの衝撃! 70Bで8.9倍高速ということで、マイクロソフトの発表、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も。
 
 がっちりマンデーで、東大出身者が多いベンチャー「燈」が紹介されｒたが、
 
@@ -3981,13 +3981,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 10/16
 
-RAGシステムの性能向上は依然もりあがっている。StanfordのDSpy、どうもLLMのプロンプト利用を別の次元に引き上げる画期的な開発のように見えるが追いつけない。RAGとFinetuningを組み合わせることによる性能向上がいままで抜けていたとは。LLMの心の理論(ToM)についての論文では、他人の心の状態の推定というのが肝なのか。zephyr-7b-alphaとか、Japanese StableLM Instruct Alpha v2 とか、ローカルで使いものになるLLMもどんどん出てきた。スタンフォードAIの、State of AI Report 2023、 KaggleのAI Report 2023、それぞれの立場で最新のAIを取り巻く様々な視点をまとめてくれている。アナロジー（類推）でプロンプトを生成する「
+RAGシステムの性能向上は依然もりあがっている。StanfordのDSpy、どうもLLMのプロンプト利用を別の次元に引き上げる画期的な開発のように見えるが追いつけない。RAGとFinetuningを組み合わせることによる性能向上がいままで抜けていたとは。LLMの心の理論(ToM)についての論文では、他人の心の状態の推定というのが肝なのか。zephyr-7b-alphaとか、Japanese StableLM Instruct Alpha v2 とか、ローカルで使いものになるLLMもどんどん出てきた。スタンフォードAIの、State of AI Report 2023、 KaggleのAI Report 2023
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDYwMzEwNjEsOTMwMjI5OTA4LC01Nz
-EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
-LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
-M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
-LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
-kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
-MzNdfQ==
+eyJoaXN0b3J5IjpbLTU2ODk2MDg5MSw5MzAyMjk5MDgsLTU3MT
+M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
+LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
+c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
+MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
+E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
+M119
 -->
