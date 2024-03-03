@@ -3,7 +3,7 @@
 
 ## 3/4
 
-さて、先週公開されたgemma、ollamaでサポート、周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっと急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがある。マネフォOBのスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切さよ。Mistral Large、**Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得**って本当か？1ビットLLMの衝撃! 70Bで8.9倍高速ということで、マイクロソフトの発表、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン減少。LLMには自然言語よりも最適な形式があるのでは？という野心的な『AutoForm（オートフォーム）』、そういえば先輩の三つ子ちゃんは、独自の言語でコミュニケーションしていたって言ってたな。東工大の、『論文の結論を学習させたら性能が下がった。』という話、イントロならよいというのは不思議だ。μTransfer、転移学習のマイクロ版？？
+さて、先週公開されたgemma、ollamaでサポート、周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっと急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがある。マネフォOBのスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切さよ。Mistral Large、**Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得**って本当か？1ビットLLMの衝撃! 70Bで8.9倍高速ということで、マイクロソフトの発表、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン減少。LLMには自然言語よりも最適な形式があるのでは？という野心的な『AutoForm（オートフォーム）』、そういえば先輩の三つ子ちゃんは、独自の言語でコミュニケーションしていたって言ってたな。東工大の、『論文の結論を学習させたら性能が下がった。』という話、イントロならよいというのは不思議だ。μTransfer、転移学習のマイクロ版？？
 
 がっちりマンデーで、東大出身者が多いベンチャー「燈」が紹介されｒたが、
 
@@ -3979,15 +3979,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- llm-jpさんが公開しているllm-jp-13b-v1.0のggufフォーマット変換版
 	- ブランチらしい、LLama.cppが、なんかの変更を行うとggufが動かなくなるらしい、怖っ
 
-## 10/16
-
-RAGシステムの性能向上は依然もりあがっている。StanfordのDSpy、
+## 10/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzEzMDk5OCw5MzAyMjk5MDgsLTU3MT
-M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
-LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-M119
+eyJoaXN0b3J5IjpbLTE4MjU1OTA1MjksOTMwMjI5OTA4LC01Nz
+EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
+LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
+M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
+LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
+kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
+MzNdfQ==
 -->
