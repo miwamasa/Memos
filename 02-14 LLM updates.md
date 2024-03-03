@@ -126,7 +126,12 @@
 - 『論文の結論を学習させたら性能が下がった。』
 	- https://newswitch.jp/p/40657
 	- ６万５０００報の論文データセットを構築した。学習データでは、論文の要約よりもイントロダクションが性能向上に役立った。論文の結論の学習は、性能面でネガティブに働いた。小さなＬＬＭにとっては結論の内容が専門的過ぎた可能性がある。専門知識を備えたＬＬＭを構築するための知見になる。
-- 
+- 【論文丁寧解説】BitNet b1.58とは一体何者なのか
+	- https://qiita.com/tech-Mira/items/67dec9c5a5f025d2727a?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share
+	- BitNet b1.58は、その名の通り、各パラメータが、、[−1、0、1]という3つの値での動作を実現した1bitのLLMです。つまり、膨大な計算リソースを必要とする従来のモデルとは異なり、非常に効率的に動作します。加えて、この記事で示されている結果では驚くべきことに、性能は従来の高精度モデルを上回ります。
+	- BitNet b1.58とFP16 LLaMA LLMを様々なサイズで比較しました。公平な比較を保証するために、モデルをRedPajamaデータセットで1000億トークンに対して事前学習しました。
+- Google AI Studio で つくよみちゃんの会話テキストデータセット による Gemini の チューニングを試す by npakaさん
+	- 
 
 ## 2/26
 
@@ -3979,18 +3984,9 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 	- Multi-Document Agents
 		- https://docs.llamaindex.ai/en/stable/examples/agent/multi_document_agents.html
 	- Finetuning
-		- https://docs.llamaindex.ai/en/stable/end_to_end_tutorials/finetuning.html
-- Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models
-	- https://arxiv.org/abs/2310.04406
-	- Substantially improving over the existing prompting methods such as Reflexion, e.g., 68.1% -> 86.9% on HumanEval with GPT-3.5
-- Ida Momennejad et al., "Evaluating Cognitive Maps and Planning in Large Language Models with CogEval"
-	- https://arxiv.org/abs/2309.15129
-	- 人間の測定法と似たフレームワークでLLMの認知機能を調査した論文
-	- LLMの「認知マップ」と「計画能力」を評価。
-		- 認知マップ：外部環境を内部に表現する機能 
-		- 計画能
+		- https://docs.llamaindex.ai/en/stable/end_to_end_tutorials/finet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODQzNjMyMCw5MzAyMjk5MDgsLTU3MT
+eyJoaXN0b3J5IjpbLTkyMzc5NDU5MSw5MzAyMjk5MDgsLTU3MT
 M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
 LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
 c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
