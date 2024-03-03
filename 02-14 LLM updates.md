@@ -3,7 +3,7 @@
 
 ## 3/4
 
-さて、先週公開されたgemma、2bのほうが7bより性能よいと謎の報告が。Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、出力をデータセットようには使えないなどの縛りがある。音声会話型おしゃべりAIアプリ「Cotomo」
+さて、先週公開されたgemma、2bのほうが7bより性能よいと謎の報告が。Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、出力をデータセットようには使えないなどの縛りがある。マネフォOBのスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」
 
 - 画像生成AI、安いPCでも高速に　衝撃の「Stable Diffusion WebUI Forge」
 	- https://weekly.ascii.jp/elem/000/004/185/4185940/
@@ -3982,13 +3982,13 @@ RAGシステムの性能向上は依然もりあがっている。StanfordのDSp
 
 
 - Large Language Models (in 2023)
-	- https://docs.google.com/present
+	- https://d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTE5Nzk1Miw5MzAyMjk5MDgsLTU3MT
-M0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAs
-LTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMz
-c0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwt
-MjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOT
-E0NCwtMTQ5NjU1MTc0MiwtMjA2NjAzMTc3NCwtMTU0MjU3OTEz
-M119
+eyJoaXN0b3J5IjpbLTIwNzc3NzEwNzcsOTMwMjI5OTA4LC01Nz
+EzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYw
+LC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMj
+M3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQs
+LTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMD
+kxNDQsLTE0OTY1NTE3NDIsLTIwNjYwMzE3NzQsLTE1NDI1Nzkx
+MzNdfQ==
 -->
