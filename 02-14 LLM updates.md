@@ -123,6 +123,12 @@
 	- -The Design2Code benchmark dataset for the task of converting visual design (screenshot) into code implementation, which consists of 484 real-world webpages from C4 (examples shown below).
 - Claude3の開発者が示した、システムプロンプト、シンプル
 	- https://x.com/AmandaAskell/status/1765207842993434880?s=20
+- はじめての統計的因果推論
+	- https://x.com/takehikohayashi/status/1765268689367265668?s=20
+	- 開始3ページ目で「統計的因果推論最強論」にいきなり冷や水をぶっかける
+- Qwen-Agent
+	- https://github.com/QwenLM/Qwen-Agent
+	- Agent framework and applications built upon Qwen1.5, featuring Function Calling, Code Interpreter, RAG, and Chrome extension
 - 
 
 ## 3/4
@@ -3966,19 +3972,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Objective-Driven AI architecturesが必要とのこと
 - Advanced Prompt Engineering for RAG by llamaindex
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/prompts/prompts_rag.ipynb
-	- 基本的なRAGから、few-shot追加したり、context変換したりという話題
-- Stability AI の Japanese MT-Bench を試した
-	- https://x.com/npaka123/status/1718403656725483961?s=20
-- Demystifying Advanced RAG Pipelines
-	- https://github.com/pchunduri6/rag-demystified
--  Chatting With Your Data Ultimate Guide
-	- https://medium.com/aimonks/chatt
+	- 基本的なR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyMzA5ODI5LDE5NDA0MzgzNjksLTE3NT
-kzODE0NTUsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2
-LC01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5Nz
-A4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2
-LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMj
-UzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDRd
-fQ==
+eyJoaXN0b3J5IjpbMTczNjQ2NjA1NSwxOTQwNDM4MzY5LC0xNz
+U5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4
+NiwtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOT
+cwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIy
+Niw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2Mj
+I1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0
+XX0=
 -->
