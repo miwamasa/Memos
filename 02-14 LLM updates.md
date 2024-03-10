@@ -132,7 +132,13 @@
 - Yoshua Benjio氏の来日東大講演
 	- https://www.youtube.com/watch?v=8aTkuvbd_jU
 	- 思いっきりAIのもたらす壊滅的なリスクやアライメントの話をコアにしている
-- 
+- toshi456/llava-bench-in-the-wild-ja
+	- multilingual-llava-bench-in-the-wildの日本語データの翻訳ミスや未翻訳のデータをDeepL+手動で修正したデータを公開しました。 
+	- 先日Turingさんが公開したLLaVA-Bench-JA(COCO)と合わせて日本語VLMの評価にご活用ください。
+- Claude-3がAIで初めてIQ100超えを達成したと主張
+	- https://www.maximumtruth.org/p/ais-ranked-by-iq-ai-passes-100-iq
+	- 「現在の成長率を単純に外挿すると、4～10年後にはClaude-6がIQの質問にすべて正解し、誰よりも賢くなることが示唆された」
+	- 
 
 ## 3/4
 
@@ -3968,18 +3974,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - llama2 7bをファインチューニングすることで、出力を特定フォーマットにすることができる
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/finetuning/gradient/gradient_structured.ipynb
 	- structured Pydantic objectsを出力する
-- 帝人の統合報告書2023に掲載されている特許情報分析。ポートフォリオの変化について、テキストマイニングによる全体俯瞰と特許価値評価の2つのアプローチで可視化
-	- https://ssl4.eir-parts.net/doc/3401/ir_material_for_fiscal_ym1/141477/00.pdf
-- Hinton先生の、新しいLLMの開発（たぶんOpenAI)に対する危惧に対して、Lecum先生は、どうせ今のAuto-Regressive LLMの延長線上の開発なので、限界は自明い。真に必要なAIは、、と反論。
-	- https://x.com/ylecun/status/1718263303485501784?s=20
-	- Objective-Driven AI architecturesが必要とのこと
-- Advanced Prompt Engineering for RAG by ll
+- 帝人の統合報告書2023に掲載されている特許情報分析。ポートフォリオの変化について、テキストマイニングによる全体俯
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMT
-c1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0
-ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mz
-k3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEy
-MjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNj
-IyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0
+eyJoaXN0b3J5IjpbLTEzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMT
+k0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0
+NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLT
+U3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0Mzgw
+NjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNT
+MyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0
 NF19
 -->
