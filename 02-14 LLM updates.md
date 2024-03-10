@@ -115,6 +115,12 @@
 - Knowledge-Augmented Planning for LLM Agents
 	- https://arxiv.org/abs/2403.03101
 	- Proposes an approach to enhance the planning capabilities of LLMs through explicit action knowledge.
+- 大学・MetaAIからハルシネーション低減に有効なグラフ拡張したRAG"G-Retriever"の提案
+	- https://arxiv.org/abs/2402.07630
+	- 部分グラフ抽出を賞金集めSteiner木問題(PCST)で解いている。
+- スクショからコード生成！MicrosoftとDeepMindが共著した論文
+	- https://github.com/NoviScl/Design2Code
+	- -The Design2Code benchmark dataset for the task of converting visual design (screenshot) into code implementation, which consists of 484 real-world webpages from C4 (examples shown below).
 - 
 
 ## 3/4
@@ -3966,19 +3972,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Chatting With Your Data Ultimate Guide
 	- https://medium.com/aimonks/chatting-with-your-data-ultimate-guide-a4e909591436
 -  MT-Bench による日本語LLMの評価 by npakaさん
-	- https://note.com/npaka/n/n0530f6f9123f?sub_rt=share_sb
-	- 「Stability AI」が提供する**「Japanese MT-Bench」の質問ファイル**と**参照回答ファイル**を使う
-	- 評価するモデルは、FastChatが対応している必要があります。
-
-## 10/23
-
-今週は、NIIからllm-jp-13b-v1.0が公開されたのが話題でした、さっそくcolabで使った例が公開されたり、4bit量子化版がhuggingfaceで公開されたりと、盛り上がってます。関係者の努力とABCIの活躍に頭が下がります。LLM活用アプリの性能を考えるときに、RAGでもそうなんだけど、LLMとembeddingの組み合わせをちゃんと評価するってのが最初にあるべきなのかも。使ったことないけどもReplicateはそこんところうまくついたサービス展開といえる。L
+	- https://no
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzAxMzU0NywxOTQwNDM4MzY5LC0xNz
-U5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4
-NiwtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOT
-cwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIy
-Niw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2Mj
-I1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0
-XX0=
+eyJoaXN0b3J5IjpbMzY0ODY3ODA2LDE5NDA0MzgzNjksLTE3NT
+kzODE0NTUsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2
+LC01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5Nz
+A4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2
+LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMj
+UzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDRd
+fQ==
 -->
