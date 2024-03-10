@@ -129,6 +129,9 @@
 - Qwen-Agent
 	- https://github.com/QwenLM/Qwen-Agent
 	- Agent framework and applications built upon Qwen1.5, featuring Function Calling, Code Interpreter, RAG, and Chrome extension
+- Yoshua Benjio氏の来日東大講演
+	- https://www.youtube.com/watch?v=8aTkuvbd_jU
+	- 思いっきりAIのもたらす壊滅的なリスクやアライメントの話をコアにしている
 - 
 
 ## 3/4
@@ -3970,15 +3973,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Hinton先生の、新しいLLMの開発（たぶんOpenAI)に対する危惧に対して、Lecum先生は、どうせ今のAuto-Regressive LLMの延長線上の開発なので、限界は自明い。真に必要なAIは、、と反論。
 	- https://x.com/ylecun/status/1718263303485501784?s=20
 	- Objective-Driven AI architecturesが必要とのこと
-- Advanced Prompt Engineering for RAG by llamaindex
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/prompts/prompts_rag.ipynb
-	- 基本的なR
+- Advanced Prompt Engineering for RAG by ll
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjQ2NjA1NSwxOTQwNDM4MzY5LC0xNz
-U5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4
-NiwtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOT
-cwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIy
-Niw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2Mj
-I1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0
-XX0=
+eyJoaXN0b3J5IjpbLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMT
+c1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0
+ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mz
+k3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEy
+MjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNj
+IyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0
+NF19
 -->
