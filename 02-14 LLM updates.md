@@ -173,7 +173,8 @@ AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、
 	- GroqInc just added support for Gemma 7B. 
 	- なんかリアルタイムに質問に答えて（打鍵毎に予測して回答を生成している）
 	- まさに、catch me if you canとは。
-- 
+- ヒントン氏インテビュー（日経）
+	- https://www.nikkei.com/article/DGXZQOGN143CZ0U4A210C2000000/?n_cid=nk_chart_qr
 
 ## 3/4
 
@@ -3954,16 +3955,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- **資金不足と時間不足**、**若手研究者の不満と減少**　が指摘されている。
 -  Branch-Solve-Merge Improves Large Language Model Evaluation and Generation
 	- https://arxiv.org/abs/2310.15123
-	- Promptを超えた？LLM自身をアルゴリズムの一部に埋め込んで使うような、LLM programと呼ばれるような手法
-- Large Language Model Programs
-	- https://arxiv.org/pdf/2305.05364.pdf
-	- LLMをアルゴリズムに埋め込むことを
+	- Promptを超えた？LLM自身をアルゴリズムの一部に埋め込んで使うような、LLM programと呼ばれるような
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM1NDMxODksMTEzMDI5ODAzMiwxNz
-M1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2
-OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2OD
-A0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAy
-Mjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNS
-wxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2
-MDc0OTZdfQ==
+eyJoaXN0b3J5IjpbMjA3MTA3NDIzMiwxMTMwMjk4MDMyLDE3Mz
+UxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5
+Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MD
+QsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQxLDkzMDIy
+OTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LD
+E5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYw
+NzQ5Nl19
 -->
