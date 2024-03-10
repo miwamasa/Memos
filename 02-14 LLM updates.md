@@ -4,6 +4,8 @@
 
 ## 3/11
 
+AnthropicAIがリリースしたClaude3
+
 -  WSL2でSwallow-7b-plus-hfを試してみる
 	- https://note.com/ngc_shj/n/n80871f8e4e24?sub_rt=share_h
 	- 使用するPCはドスパラさんの「GALLERIA UL9C-R49」
@@ -29,7 +31,7 @@
 	- https://developer.nvidia.com/blog/build-an-llm-powered-api-agent-for-task-execution/
 	- NVIDIAより。LLM使ったAPI Agent
 	- ユーザーのクエリに対して、LLMがあらかじめ定義しておいたテンプレを使って子モジュールのLLM用のプロンプトを生成し、子モジュールLLMがそれぞれのタスクをこなして結果を返す
-- AnthropicAI、claude3をリリース
+- AnthropicAI、Claude3をリリース
 	- https://x.com/AnthropicAI/status/1764653830468428150?s=20
 - llamaindex、さっそく Claude3サポート
 	- https://docs.llamaindex.ai/en/latest/examples/llm/anthropic.html
@@ -3968,14 +3970,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://mathstodon.xyz/@tao/111287749336059662
 	- 定理証明系が実数学者のためになっているのか。。。
 -  KITAB: Evaluating LLMs on Constraint Satisfaction for Information Retrieval
-	- https://huggingface.co/papers/2310.15511
-	-  (e.g., '
+	- https://huggingface.co/pape
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMT
-IwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0
-NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQxLD
-kzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNjAw
-NjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQsMT
-ExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MTMz
-MTldfQ==
+eyJoaXN0b3J5IjpbLTE1MjIzNzk0OTAsLTI5MTE0NTk5NSwtMT
+M3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5
+MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4Ni
+wtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcw
+ODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNi
+w1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1
+MzZdfQ==
 -->
