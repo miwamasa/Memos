@@ -123,6 +123,7 @@
 	- -The Design2Code benchmark dataset for the task of converting visual design (screenshot) into code implementation, which consists of 484 real-world webpages from C4 (examples shown below).
 - Claude3の開発者が示した、システムプロンプト、シンプル
 	- https://x.com/AmandaAskell/status/1765207842993434880?s=20
+- 
 
 ## 3/4
 
@@ -3971,13 +3972,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Demystifying Advanced RAG Pipelines
 	- https://github.com/pchunduri6/rag-demystified
 -  Chatting With Your Data Ultimate Guide
-	- https://medium.com/aimonks/chatting-
+	- https://medium.com/aimonks/chatt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTY3NjI5NzcsMTk0MDQzODM2OSwtMT
-c1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0
-ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mz
-k3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEy
-MjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNj
-IyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0
-NF19
+eyJoaXN0b3J5IjpbNzgyMzA5ODI5LDE5NDA0MzgzNjksLTE3NT
+kzODE0NTUsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2
+LC01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5Nz
+A4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2
+LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMj
+UzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDRd
+fQ==
 -->
