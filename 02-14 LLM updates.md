@@ -90,7 +90,19 @@
 	- If you want to calculate how many tokens you're sending to the API, check out The Tokenizer Playground, which we recently updated to include the Claude 3 tokenizer!
 - Claude 3 is impressively good at OCR and structured extraction
 	- https://x.com/jerryjliu0/status/1765101841535336929?s=20
-	- 
+	- We fed it this complex Excalidraw diagram about the Prometheus model - contains subsections, and interleaving text and diagrams
+	- Claude 3 is able to provide a summary of each section and also determine the positions of the diagrams!
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/multi_modal/anthropic_multi_modal.ipynb
+- AnthropicのClaude Proまとめ
+	- 月額$20(USドル)で最高モデルのClaude Opusとチャット出来るサブスクサービス 
+	- chatGPT Proが40メッセージ/3時間の制限があるのと同様に使用量制限はあるが目安しか明記されていない 
+	- 無料版と比較して少なくとも5倍の利用枠。短めの(約200単語の英語の文章)であれば8時間ごとに少なくとも100のメッセージを送信可との事 
+	- 無料版は1日あたりのメッセージ枠制限だが、有料版は8時間毎に枠がリセット 
+	- 『華麗なるギャツビー』のコピーをアップロードした場合(訳注：おそらく1MB未満)8時間以内に送信できるメッセージは20件になるとの事 
+	- アップロードできるファイルは文章(doc)か画像(image)で最大5ファイル各10MBまで ・zipはアップロードできないのでソースコード一式をアップロードして解析みたいな事は難しそう 
+	- 2023年8月までのデータでトレーニングされている
+	- デフォルトではClaude Proに入力された会話はモデルのトレーニングに使用されない(親指アップ/ダウン機能を通じてフィードバックを送信すると使われる) 
+	- 無料版については微妙な書き方なので良く分からない(当社の消費者サービスまたはベータ/評価サービスを使用する場合、当社は、お客様のプロンプトや会話を使用して、モデルをより安全にするための利用規約の監視と強制など、信頼性と安全性の作業に関連するモデルをトレーニングすることもあります、との事) ・アップロードしたPDFを要約して貰おうとしたら出力は一気にされず「続きを」と促す必要があった
 
 ## 3/4
 
@@ -3950,33 +3962,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 今週は、NIIからllm-jp-13b-v1.0が公開されたのが話題でした、さっそくcolabで使った例が公開されたり、4bit量子化版がhuggingfaceで公開されたりと、盛り上がってます。関係者の努力とABCIの活躍に頭が下がります。LLM活用アプリの性能を考えるときに、RAGでもそうなんだけど、LLMとembeddingの組み合わせをちゃんと評価するってのが最初にあるべきなのかも。使ったことないけどもReplicateはそこんところうまくついたサービス展開といえる。LLMをソフトウエアエンジニアリングで活用できるという論文が話題に。OpenAI、限りなくAGIに近いとうわさのArrakisの開発断念？映画Dune２(Arrakisという星が部隊）の公開も春にずれ込んだから、似たような運命をたどるのか？マッキンゼーのレポート、生成AIにより、AIの作文力が人間の上位25%を超える時期の予測が25年前倒しというのは驚いた、つまり我々は25年先の技術を今見ていることになる、そりゃ（多くの人にはLLMの凄さが）分らんわな。スタンフォード大の「科学論文の査読」に、大規模言語モデル（LLM）が有用であるという論文、これは朗報だ（誰得？）。「kaggle LLMコンペ　上位解法のまとめ」はこれはLLMプラクティショナーには必読だ。ちゃんとコンテキストを適切に与えることが重要。あたりまえだけど、それを行うのは難し。「世界モデル」に対するOpenAI共同設立者のIlya Sutskever氏の対談、大規模深層学習モデルは言葉を生成する何等かの表現（つまり世界モデル）を学習し、これから漏れ出るものがテキストであると言っている（ナウシカの「墓所の主」みたいなものか）。LLMの因果推論能力のベンチーマーク、fine-tuningすると性能はあがるが、少し表現を変えると性能が爆下がりって！、それがLLMなのよ！最新の言語理論である「ジェスチャーゲーム」で人間の言語能力が身についたとすると、LLMが示すテキスト生成能力は何？？Ilya Sutskever氏の対談の話と真っ向から対立する感じ。「言語ゲーム」といえばヴィトゲンシュタイン、ウィトゲンシュタイン研究を専門とする大谷先生の対話記事によると。LLMと言語ゲームって似たところがあるそうだ。なんか、楽しくなってきた。
 
 - Ilya Sutskever氏LLMと世界モデルについて語る with Jensen Huang, CEO of Nvidia:
-	- https://twitter.com/i/status/1713368556618887670
-	- OpenAIの共同設立者であるIlya Sutskever氏とNvidiaのensen Huang社長との対談より
-	- （巨大な）ニューラルネットが学んでいるのは、テキストを生成する「何か」に対する表現を学んでいる。その「何か」とは世界モデルであり、それが射影されたものが生成されたテキストなのである。
-- Jonas Belouadi et al., "AutomaTikZ: Text-Guided Synthesis of Scientific Vector Graphics with TikZ"
-	- https://arxiv.org/abs/2310.00367
-	- LLMを活用し人間のように科学的な図を生成するツール『AutomaTikZ』
-	- テキストから科学的なベクターグラフィックスを生成する 
-	- LLaMAをDaTikZデータセットで微調整
--  Can Large Language Models Infer Causation from Correlation?
-	- https://arxiv.org/abs/2306.05836
-	- https://ai-scholar.tech/articles/large-language-models/llm_causal_inference_skill
-	-  LLMに因果推論能力はあるか？
-	- 大規模言語モデルの因果推論能力をテストするベンチマークデータセットを提案  
-	- 17の既存の大規模言語モデルを評価  
-	- 現状のモデルは因果推論能力が低いことがわかった
-	- fine-tuningにより性能向上が見られる一方で，少し表現を変えただけで性能が下がる現象も見られる
-- Yijun Tian et al., "Graph Neural Prompting with Large Language Models"
-	- https://arxiv.org/abs/2309.15427
-	- LLMにナレッジグラフ（知識グラフ）を連携させることで、タスク遂行能力を大幅に向上させるフレームワーク『Graph Neural Prompting（GNP）』
-	- GNPは、LLMに有益な知識を効果的にエンコードし、パフォーマンスを大幅に向上させることができる
-- 大規模言語モデルがどのように動いてるかを視覚的に説明するインフォグラフィックが素晴
+	- https://twit
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNT
-k3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0
-MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMz
-YwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0
-LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0Nj
-EzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5
-XX0=
+eyJoaXN0b3J5IjpbLTE3Mzc1ODY0ODcsMTk0MDQzODM2OSwtMT
+c1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0
+ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mz
+k3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEy
+MjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNj
+IyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0
+NF19
 -->
