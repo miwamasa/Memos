@@ -44,6 +44,8 @@
 	- Claude 3 Sonnet 、とにかく生成が早い！！！！！
 	- https://x.com/izutorishima/status/1764702243520208962?s=20
 	- Sonnet でも一部ベンチマークは GPT-4 と同等かそれ以上に達していて、この速さを無料アカウントで使えるのは普通に OpenAI さんピンチじゃないですか？
+	- Claude が賢くなって目もついた！モデルは三つで、Haiku / Sonnet / Opus の順に賢く、値段があがる
+	- 最高性能の Opus は 10 個のベンチマークで GPT-4 を 10 個とも超えている。Haiku のレスポンスはウェブ版で試してみたけど今までの Claude 2.1 と比べてめちゃはやい。公称 2 倍。
 - LangchainのClaude3サポート
 	- https://python.langchain.com/docs/integrations/chat/anthropic
 - 
@@ -3980,16 +3982,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - BEYOND MEMORIZATION: VIOLATING PRIVACY VIA INFERENCE WITH LARGE LANGUAGE MODELS
 	- https://arxiv.org/pdf/2310.07298v1.pdf
 	- Redditの匿名ポストのテキストから、GPT-4はその人のプロファイル（収入、性別、住所）を85%の正確さで、かつ人間の1%のコストで当てた。。
-	- A paper that really illustrates both the unexpected power, and unexpected risks, that come from LLMs.
--  InstructRetro: Instruction Tuning post Retrieval-Augmented Pretraining
-	- https://arxiv.org/abs/2310.07713
-	- 
+	- A paper that really illustrates both the u
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzQ0ODM1NCwtNTk3NDQ2ODA0LDEzOT
-M0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgs
-LTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0Mz
-gwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYs
-NTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5Mj
-Y0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NF19
-
+eyJoaXN0b3J5IjpbLTE3NTkzODE0NTUsLTU5NzQ0NjgwNCwxMz
+kzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4
+LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxND
+M4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2
+LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OT
+I2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTRd
+fQ==
 -->
