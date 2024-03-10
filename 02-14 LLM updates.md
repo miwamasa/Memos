@@ -29,6 +29,9 @@
 	- https://developer.nvidia.com/blog/build-an-llm-powered-api-agent-for-task-execution/
 	- NVIDIAより。LLM使ったAPI Agent
 	- ユーザーのクエリに対して、LLMがあらかじめ定義しておいたテンプレを使って子モジュールのLLM用のプロンプトを生成し、子モジュールLLMがそれぞれのタスクをこなして結果を返す
+- llamaindex、さっそく Claude3サポート
+	- https://docs.llamaindex.ai/en/latest/examples/llm/anthropic.html
+	- Like Gemini and Mistral's latest offerings, Claude 3 comes in 3 "flavors" with the largest, Claude Opus, claiming better performance than GPT-4 across a wide range of benchmarks.
 - 
 
 ## 3/4
@@ -3978,15 +3981,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Nature系列のジャーナルにおけるフィードバックの結果、GPT-4が提供したコメントの57.55％は、全体の査読者の中で少なくとも1人の人間の査読者が記載していた
 - A quantized version of the mistral that is instruction following over 32k tokens.
 	- https://huggingface.co/TheBloke/MistralLite-7B-AWQ
-	- mistralって性能がよいと先週評判になってたやつの、4bit量子化版が公開？
-- llm-jp-13b-v1.0も早速GPTQ版が公開される
-	- https://huggingface.co/mmnga/llm-jp-13b-v1.0-4bit-g128-GPTQ-calib-ja-1k
-	- llm-jp-13b-v1.0を、 日本語のキャリブレーションセットで生成したGPTQモデル
--  言語はこうして生まれる―「即興する脳」とジェスチャーゲーム―
-	- https://www.shinchosha.co.jp/book/507311/
-	- 言語の生得性を否定し、文化進化
+	- mistralって性能がよいと
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5ODU3MjUyMywtNTk3NDQ2ODA0LDEzOT
+eyJoaXN0b3J5IjpbMTIxMDMzNDUzOCwtNTk3NDQ2ODA0LDEzOT
 M0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgs
 LTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0Mz
 gwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYs
