@@ -4,7 +4,10 @@
 
 ## 3/11
 
-- 
+-  WSL2でSwallow-7b-plus-hfを試してみる
+	- https://note.com/ngc_shj/n/n80871f8e4e24?sub_rt=share_h
+	- chat(instruct)モデルではないので、--no-chatとして起動します
+	- これは、なかなかいい感じである。いままで最高かもしれない
 
 ## 3/4
 
@@ -3970,10 +3973,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.amazon.co.jp/exec/obidos/ASIN/4274231186?&linkCode=sl1&tag=mathlang09-22&linkId=bd145734052442298eb01413d823ca91&language=ja_JP&ref_=as_li_ss_tl
 	- 多様体上の最適化理論について、基礎となる数理から応用例までを解説
 -  Introducing CliffordLayers: Neural Network layers inspired by Clifford / Geometric Algebras.
-	- https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/articles/introducing-cliffordlayers-neural-network-layers-inspired-by-clifford-geometric-algebras/
-	- MS研究所から、クリフォード代数に
+	- https://www.microsoft.com/en
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDY4MzE1LDEzOTM0NTYxMDYsOTY2OD
+eyJoaXN0b3J5IjpbODYwNTYxMDA0LDEzOTM0NTYxMDYsOTY2OD
 Q0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5
 Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5ND
 EyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgy
