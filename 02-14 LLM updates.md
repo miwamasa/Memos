@@ -12,6 +12,9 @@
 - Awesome-Graph-LLM
 	- https://github.com/XiaoxinHe/Awesome-Graph-LLM
 	- グラフベースの手法とLLMの双方が関連している研究論文のキュレーションリストレポジトリ
+- Jurafsky-MartのSpeech and Language Processing  (3rd ed. draft)
+	- https://web.stanford.edu/~jurafsky/slp3/
+	- In-Context LearningやInstruction Tuningの章も追加
 - 
 
 ## 3/4
@@ -3975,10 +3978,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- [IT批評の記事](https://it-hihyou.com/recommended/llm%EF%BC%88%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%EF%BC%89%E3%81%AF%E3%80%8C%E8%A8%80%E8%AA%9E%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8D%E7%9A%84%E3%81%8B-%E2%80%95/)より
 	- LLMって、パターンから学び、その背後には人間があるから、ヴィトゲンシュタインのいう「言語ゲーム」に似ている、らしい。記号接地してないという批判にも、学習データの背後の人間のあたりで接地しているのかもともいう。
 - 多様体上の最適化理論
-	- https://www.amazon.co.jp/exec/obidos/ASIN/4274231186?&linkCode=sl1&tag=mathlang09-22&linkId=bd145734052442298eb01413d823ca91&language=ja_JP&ref_=as_li_ss_tl
-	- 多様
+	- https:/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDM4NDIwNiwxMzkzNDU2MTA2LDk2Nj
+eyJoaXN0b3J5IjpbLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Nj
 g0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAs
 OTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OT
 QxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4
