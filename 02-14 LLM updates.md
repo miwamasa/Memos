@@ -4,7 +4,7 @@
 
 ## 3/11
 
-AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは(humanityの)終わりの始まりか。Groqは、gemma-7bベースのデモを公開、リアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたら、AI alignmentを強調するわけもわかるわ。分割統治式でタスクを分解するNVIDIAのAgent、Qwen-AgentとかAgent周りも当然進む。一方、日本のサブカルに強いgemma-7bベースの日英・英日翻訳モデルとか、 「はじめての統計的因果推論」、ゆるめの表紙の割には辛口なのが面白い。
+AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは(humanityの)終わりの始まりか。Groqは、gemma-7bベースのデモを公開、リアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたら、AI alignmentを強調するわけもわかるわ。分割統治式でタスクを分解するNVIDIAのAgent、Qwen-AgentとかAgent周りも当然進む。一方、日本のサブカルに強いgemma-7bベースの日英・英日翻訳モデルとか、 「はじめての統計的因果推論」、ゆるめの表紙の割には辛口なのが面白い。Benjoさんの東大講演、Hintonさんの日経インタビュー、いづれもAI
 さて、Appleが生成AIに注力と発表、M3 MacBook Airを突然発表し、なんか不気味な感じがした。
 
 - Apple、パワフルなM3チップを搭載した新しい13インチと15インチMacBook Airを発表
@@ -173,8 +173,13 @@ AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、
 	- GroqInc just added support for Gemma 7B. 
 	- なんかリアルタイムに質問に答えて（打鍵毎に予測して回答を生成している）
 	- まさに、catch me if you canとは。
-- ヒントン氏インテビュー（日経）
+- ヒントン氏、AIは言葉を理解していると、、、（日経）
 	- https://www.nikkei.com/article/DGXZQOGN143CZ0U4A210C2000000/?n_cid=nk_chart_qr
+	- 「…大規模言語モデルは、我々と同じように言葉を理解していると思う。…AIが言葉を理解していないという人の大半は、人間がどう理解しているかという理論を持っていない」
+	- ポイント
+		- 人類存続の危機をもたらす恐れがAIにある  
+		- 自律的に人を殺すロボット兵器が10年以内に登場  
+		- 大規模言語モデルは脳より効率的に学習できる
 
 ## 3/4
 
@@ -3951,17 +3956,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 3Bと7Bのサイズでそれぞれ圧倒的性能を誇る英語LLM「Stable LM 3B-4E1T」「Mistral-7B-v0.1」に継続事前学習を適用することでサクッとめちゃツヨ日本語LLM
 -  Japanese research is no longer world class — here’s why
 	- https://www.nature.com/articles/d41586-023-03290-1?error=cookies_not_supported&code=dd59d16e-8d54-49a4-95a3-8fcded36917f&utm_medium=Social&utm_campaign=nature&utm_source=Twitter#Echobox=1698226936
-	- nature記事より
-	- **資金不足と時間不足**、**若手研究者の不満と減少**　が指摘されている。
--  Branch-Solve-Merge Improves Large Language Model Evaluation and Generation
-	- https://arxiv.org/abs/2310.15123
-	- Promptを超えた？LLM自身をアルゴリズムの一部に埋め込んで使うような、LLM programと呼ばれるような
+	- nat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTA3NDIzMiwxMTMwMjk4MDMyLDE3Mz
-UxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5
-Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MD
-QsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQxLDkzMDIy
-OTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LD
-E5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQsMTExNjYw
-NzQ5Nl19
+eyJoaXN0b3J5IjpbLTEwODM2MjUwMjAsMTEzMDI5ODAzMiwxNz
+M1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2
+OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2OD
+A0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAy
+Mjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNS
+wxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2
+MDc0OTZdfQ==
 -->
