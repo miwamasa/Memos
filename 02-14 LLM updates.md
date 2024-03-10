@@ -138,6 +138,9 @@
 - Claude-3がAIで初めてIQ100超えを達成したと主張
 	- https://www.maximumtruth.org/p/ais-ranked-by-iq-ai-passes-100-iq
 	- 「現在の成長率を単純に外挿すると、4～10年後にはClaude-6がIQの質問にすべて正解し、誰よりも賢くなることが示唆された」
+- 対話系はClaudeが抜きん出て強い
+	- https://x.com/reasan_mirasan/status/1765513422504890417?s=20
+- LangChain Text Splitters
 	- 
 
 ## 3/4
@@ -3972,15 +3975,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- RAGの性能評価をRagasとLangSmithで行う方法を紹介した記事
 	- RagasはLLMによるRAGの自動評価を支援するOSS、試したけどお金かかるんだよな。
 - llama2 7bをファインチューニングすることで、出力を特定フォーマットにすることができる
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/finetuning/gradient/gradient_structured.ipynb
-	- structured Pydantic objectsを出力する
-- 帝人の統合報告書2023に掲載されている特許情報分析。ポートフォリオの変化について、テキストマイニングによる全体俯
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/finetuning/gradient/gradient_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMT
-k0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0
-NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLT
-U3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0Mzgw
-NjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNT
-MyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0
-NF19
+eyJoaXN0b3J5IjpbNjUxNTkxMjI2LC0xMzcxMzk1NjA0LC0xMj
+AxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5NzQ0
+NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOT
+MwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2
+MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMT
+E2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMx
+OV19
 -->
