@@ -4,7 +4,7 @@
 
 ## 3/11
 
-AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは終わりの始まりか。Groqは、gemma-7bベースのデモを公開、いやリアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたら、AI alignmentを強調するわけもわかるわ。さて、Appleが生成AIに注力と発表、M3 MacBook Airを突然発表し、なんか不気味な感じがした。
+AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは(humanityの)終わりの始まりか。Groqは、gemma-7bベースのデモを公開、リアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたら、AI alignmentを強調するわけもわかるわ。さて、Appleが生成AIに注力と発表、M3 MacBook Airを突然発表し、なんか不気味な感じがした。
 
 - Apple、パワフルなM3チップを搭載した新しい13インチと15インチMacBook Airを発表
 	- https://www.apple.com/jp/newsroom/2024/03/apple-unveils-the-new-13-and-15-inch-macbook-air-with-the-powerful-m3-chip/
@@ -3957,13 +3957,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Large Language Model Programs
 	- https://arxiv.org/pdf/2305.05364.pdf
 	- LLMをアルゴリズムに埋め込むことをLLM Programとと呼ぶらしい、分割統治なんかそうなんだけど、メタなLLMみたいな感じ
--  LLM-Prop: Predicting Physical And Electronic Properties Of Crystalline Solids From Th
+-  LLM-Prop: Predicting Physical And Electronic Properties Of Crystalline Soli
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4Nzc2NDk5LDE3MzUxMTM0MzUsLTI5MT
-E0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4
-MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNi
-w5NjY4NDQ4NiwtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1
-ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMT
-AwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3
-MjVdfQ==
+eyJoaXN0b3J5IjpbLTE3ODYzMzc3MzYsMTczNTExMzQzNSwtMj
+kxMTQ1OTk1LC0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0
+MzgzNjksLTE3NTkzODE0NTUsLTU5NzQ0NjgwNCwxMzkzNDU2MT
+A2LDk2Njg0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEz
+NDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYwLC
+0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3
+NDcyNV19
 -->
