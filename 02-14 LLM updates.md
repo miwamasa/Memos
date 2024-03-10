@@ -107,7 +107,11 @@
 - Claude3はよい、by　落合陽一
 	- Claude 3を使いまくってみて，コードレビューが秀逸，日本語性能が良い（gpt4-0613も良いが），pdfなどの扱いが便利．この辺りすでにchatGPTからの移行が起こっている．快適すぎる
 	- https://x.com/ochyai/status/1765209291517210816?s=20
-- 
+- LLMの能力について語る人間の思考力が問われているのではないか　by shi3zさん
+	- https://x.com/shi3z/status/1765310307994611798?s=20
+- Claude 3 Opus structured query agent
+	- https://colab.research.google.com/drive/1hkwipueVyi2Jzo58Z8jfdZ_9rSscfGxd
+	- 
 
 ## 3/4
 
@@ -3964,13 +3968,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 10/23
 
-今週は、NIIからllm-jp-13b-v1.0が公開されたのが話題でした、さっそくcolabで使った例が公開されたり、4bit量子化版がhuggingfaceで公開されたりと、盛り上がってます。関係者の努力とABCIの活躍に頭が下がります。LLM活用アプリの性能を考えるときに、RAGでもそうなんだけど、LLMとembeddingの組み合わせをちゃんと評価するってのが最初にあるべきなのかも。使ったことないけどもReplicateはそこんところうまくついたサービス展開といえる。LLMをソフトウエアエンジニアリングで活用できるという論文が話題に。OpenAI、限りなくAGIに近いとうわさのArrakisの開発断念？映画Dune２(Arrakisという星が部隊）の公開も春にずれ込んだから、似たような運命をたどるのか？マッキンゼーのレポート、生成AIにより、AIの作文力が人間の上位25%を超える時期の予測が25年前倒しというのは驚いた、つまり我々は25年先の技術を今見ていることになる、そりゃ（多くの人にはLLMの凄さが）分らんわな。スタンフォード大の「科学論文の査読」に、大規模言語モデル（LLM）が有用であるという論文、これは朗報だ（誰得？）。「kaggle LLMコンペ　上位解法のまとめ」はこれはLLMプラクティショナーには必読だ。ちゃんとコンテキストを適切に与えることが重要。あたりまえだけど、それを行うのは難し。「世界モデル」に対するOpenAI共同設立者のIlya Sutskever氏の対談、大規模深層学習モデルは言葉を生成する何等かの表現（つまり世界モデル）を学習し、これから漏れ出るものがテキストであると言っている（ナウシカの「墓所の主」みたいなものか）。LLMの因果推論能力のベンチーマーク、fine-tuningすると性能はあがるが、少し表現を変えると性能が爆下がりって！、それがLLMなのよ！最新の言語理論である「ジェスチャーゲーム」で人間の言語能力が身についたとすると、LLMが示すテキスト生成能力は何？？Ilya Sutskever氏の対談の話と真
+今週は、NIIからllm-jp-13b-v1.0が公開されたのが話題でした、さっそくcolabで使った例が公開されたり、4bit量子化版がhuggingfaceで公開されたりと、盛り上がってます。関係者の努力とABCIの活躍に頭が下がります。LLM活用アプリの性能を考えるときに、RAGでもそうなんだけど、LLMとembeddingの組み合わせをちゃんと評価するってのが最初にあるべきなのかも。使ったことないけどもReplicateはそこんところうまくついたサービス展開といえる。LLMをソフトウエアエンジニアリングで活用できるという論文が話題に。OpenAI、限りなくAGIに近いとうわさのArrakisの開発断念？映画Dune２(Arrakisという星が部隊）の公開も春にずれ込んだから、似たような運命をたどるのか？マッキンゼーのレポート、生成AIにより、AIの作文力が人間の上位25%を超える時期の予測が25年前倒しというのは驚いた、つまり我々は25年先の技術を今見ていることになる、そりゃ（多くの人にはLLMの凄さが）分らんわな。スタンフォード大の「科学論文の査読」に、大規模言語モデル（LLM）が有用であるという論文、これは朗報だ（誰得？）。「kaggle LLMコンペ　上位解法のまとめ」はこれはLLMプラクティショナーには必読だ。ちゃんとコンテキストを適切に与えることが重要。あたりまえだけど、それを行うのは難し。「世界モデル」に対するOpenAI共同設立者のIlya Sutskever氏の対談、大規模深層学習モデルは言葉を生成する何
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTM1ODMyOTQsMTk0MDQzODM2OSwtMT
-c1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0
-ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mz
-k3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEy
-MjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNj
-IyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0
-NF19
+eyJoaXN0b3J5IjpbLTk2OTUxNzUxMiwxOTQwNDM4MzY5LC0xNz
+U5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4
+NiwtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOT
+cwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIy
+Niw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2Mj
+I1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0
+XX0=
 -->
