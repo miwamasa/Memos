@@ -68,7 +68,14 @@
 	- https://x.com/alfredplpl/status/1764951315636158535?s=20
 	- アニメの話らしい
 - BASED: Simple linear attention language models balance the recall-throughput tradeoff
-	- 
+	- https://www.together.ai/blog/based
+	- Transformerの24倍のスループットを持つLLM
+- Claudeの文字起こしやばいな　領収書、形式も含めて完璧に読み取れた
+	- https://x.com/SuguruKun_ai/status/1764918827769606393?s=20
+- Wikipedia で雑なQAデータセットを作りました。
+	- https://huggingface.co/datasets/alfredplpl/wikipedia-qa-ja-500k
+	- 50万件以上あります。Instruction tuning用では日本で一番件数があるので適当に使ってください
+- 
 
 ## 3/4
 
@@ -3970,20 +3977,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2304.05128
 	- GPT-4などLLMのコード生成能力にデバッグ機能を追加する『SELF-DEBUGGING（セルフデバッギング）』
 	- LLMに自己デバッグの能力を教えることで、コード生成の性能が向上する
-- ChatGPTを用いてコーディングを学ぶ方法について（慶応義塾大学）
-	- https://speakerdeck.com/keio_smilab/keio-univ-intro-to-ml-02-coding
-	- なんと、学生向けに、ChatGPTを用いてPythonなどのコーディングを学ぶという授業が、、
-	- ChatGPTネイティブな学生は、ChatGPTでコーディングを学ぶのか。。
-- Andrew Ng先生から、deeplearning.aiの「生成AI」の講義の宣伝
-	- https://www.deeplearning.ai/courses/generative-ai-for-everyone/
-- OpenAI、次世代LLMである、Arrakisの開発を断念？
-	-  OpenAI Dr
+- ChatGPTを用いてコーディングを学ぶ方法について（慶応義塾大
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4OTM1NjMxLC0xNzU5MzgxNDU1LC01OT
-c0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQx
-LDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNj
-AwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQs
-MTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MT
-MzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTld
-fQ==
+eyJoaXN0b3J5IjpbMTQzNTQwMjk2MiwtMTc1OTM4MTQ1NSwtNT
+k3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0
+MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMz
+YwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0
+LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0Nj
+EzMzE5LDIzNTc5MjY0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5
+XX0=
 -->
