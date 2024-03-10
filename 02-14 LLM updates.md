@@ -9,6 +9,9 @@
 	- 使用するPCはドスパラさんの「GALLERIA UL9C-R49」
 	- chat(instruct)モデルではないので、--no-chatとして起動します
 	- これは、なかなかいい感じである。いままで最高かもしれない
+- Awesome-Graph-LLM
+	- https://github.com/XiaoxinHe/Awesome-Graph-LLM
+	- グラフベースの手法とLLMの双方が関連している研究論文のキュレーションリストレポジトリ
 - 
 
 ## 3/4
@@ -3973,14 +3976,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- LLMって、パターンから学び、その背後には人間があるから、ヴィトゲンシュタインのいう「言語ゲーム」に似ている、らしい。記号接地してないという批判にも、学習データの背後の人間のあたりで接地しているのかもともいう。
 - 多様体上の最適化理論
 	- https://www.amazon.co.jp/exec/obidos/ASIN/4274231186?&linkCode=sl1&tag=mathlang09-22&linkId=bd145734052442298eb01413d823ca91&language=ja_JP&ref_=as_li_ss_tl
-	- 多様体上の最適化理論について、基礎となる数理から応用例までを解説
--  Introducing CliffordLayers: Neural Network layers inspired by Clifford / Geometric 
+	- 多様
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQzNzI3OTUsMTM5MzQ1NjEwNiw5Nj
-Y4NDQ4NiwtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAw
-LDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwOD
-k0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUs
-ODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3Mz
-Y2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0XX0=
+eyJoaXN0b3J5IjpbMTMzMDM4NDIwNiwxMzkzNDU2MTA2LDk2Nj
+g0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAs
+OTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OT
+QxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4
+MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNj
+Y0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDRdfQ==
 
 -->
