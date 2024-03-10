@@ -148,6 +148,10 @@
 	- 神経科学の実験結果をLLM (Llama2・Mistral・Falcon・Galactica) で予測する研究
 	- 論文アブストの背景と方法部分から二択で結果を予想する問題セット「BrainBench」を作り，LLM vs 専門家で比較
 	- 基本的に専門家よりLLMが強い LoRAで神経科学用にfine-tuningすると性能がさらに上がる
+- Claude 3 Cookbook by llamaindex
+	- https://colab.research.google.com/drive/11HzzDd6fAiH2s8nDjZMRY5nx2Licl_tF?usp=sharing
+	- we go through a comprehensive cookbook to show how Claude 3 can be used in a variety of different application use cases with
+- 
 
 ## 3/4
 
@@ -3969,17 +3973,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Yann LeCun先生のおすすめでもある。
 - bakLLaVA vision AI can read xrays with only 6Gb of RAM
 	- https://github.com/SkunkworksAI/BakLLaVA
-	- OSSのLLMでがん画像検診ができる？
-- Zephyr-7b-betaって無敵かも
-	- https://colab.research.google.com/drive/1UoPcoiA5EOBghxWKWduQhChliMHxla7U?usp=sharing
-	- found it’s the only 7B LLM that can handle ReAct agent tasks over data
-	- つまり、dataに対して、ReActするAgentを実装できる唯一の7B LLMというこ
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MjgyNjI4NywtMTM3MTM5NTYwNCwtMT
-IwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0
-NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQxLD
-kzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNjAw
-NjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQsMT
-ExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MTMz
-MTldfQ==
+eyJoaXN0b3J5IjpbLTE4MjMxNjgxNjQsLTEzNzEzOTU2MDQsLT
+EyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3
+NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MS
+w5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYw
+MDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LD
+ExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0NjEz
+MzE5XX0=
 -->
