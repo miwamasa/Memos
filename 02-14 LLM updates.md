@@ -4,7 +4,7 @@
 
 ## 3/11
 
-AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3なんか、人の知識とか、聞きたいことをおもんばかって、人の心に
+AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」。Groqは、gemma-7bベースのデモを公開、いやリアルタイムに、打鍵に合わせて答えを
 
 -  WSL2でSwallow-7b-plus-hfを試してみる
 	- https://note.com/ngc_shj/n/n80871f8e4e24?sub_rt=share_h
@@ -3964,10 +3964,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- (2) 元の質問とステップバック質問の両方を情報収集  
 	- (3) 取得した両方の情報に基づいて回答を生成
 - mmnga/japanese-stablelm-instruct-gamma-7b-gguf
-	- stabilityAIさんが公開されているjapanese-stablelm-instruct-gamma-7bのgguf
-	- Mistral-7bの日本語版で、AIのべりすとさんから提供された高品質
+	- stabilityAIさんが公開され
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3MzM2NTc0LC0yOTExNDU5OTUsLTEzNz
+eyJoaXN0b3J5IjpbMzQ4MDYzODA5LC0yOTExNDU5OTUsLTEzNz
 EzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4
 MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLT
 U3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4
