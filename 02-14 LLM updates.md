@@ -18,9 +18,13 @@
 - Toolformer: Language Models Can Teach Themselves to Use Tools
 	- https://arxiv.org/abs/2302.04761
 	- Metaがツールの使い方を覚える言語モデルToolformerを開発
-	- 大規模言語モデルはわずかな例示や指示だけから課題解決を行う驚くべき能力を持つ
-	- 一方で、計算や事実チェックはより単純なツールの方が優れた性能を発揮する
-	- 両者の長所を生かすため、ツールの呼び出し指示をテキスト化し外部ツールの使い方を自己学習する言語モデルToolformerを提案
+	- 要点
+		- 大規模言語モデルはわずかな例示や指示だけから課題解決を行う驚くべき能力を持つ
+		- 一方で、計算や事実チェックはより単純なツールの方が優れた性能を発揮する
+		- 両者の長所を生かすため、ツールの呼び出し指示をテキスト化し外部ツールの使い方を自己学習する言語モデルToolformerを提案
+-  Learning and Leveraging World Models in Visual Representation Learning
+	- https://arxiv.org/abs/2403.00504
+	- MetaのJEPAの論文、Meta presents Image World Model
 - 
 
 ## 3/4
@@ -3979,11 +3983,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 言語の生得性を否定し、文化進化や語用論的な観点から言語獲得を論じています
 	- 歴史：ノーム・チョムスキーは「普遍文法」という概念を導入し、「人間の遺伝的青写真には、言語を支配する抽象的な数学的原理が内包」しているといった
 	- 歴史：心理学者スティーブン・ピンカーがさらに『言語を生みだす本能』（NHKブックス）へと発展させる
-	- 主張：「ジェスチャーゲーム」。言語は遺伝的に決定されたものなどではなく、身振り手振り、発声、あるいはその両方で自分の意思を双方向的に伝え合うジェスチャーゲームのようなものが起源なのではないかという斬新なアイデアだ。そこには普遍文法が入り込む余地などない。
-- LLM（大規模言語モデル）は「言語ゲーム」的か  東京女子大学現代教養学部准教授・大谷弘氏に聞く（１）
-	- [IT批評の記事](https://it-hihyou.com/recommended/llm%EF%BC%88%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A
+	- 主張：「ジェスチャーゲーム」。言語は遺伝的に決定されたものなどではなく、身振り手振り、発声、あるいはその両方で自分の意思を双方向的に伝え合うジェスチャーゲームのようなものが起源なのではないかという斬新なアイデアだ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjEyNzY1MDksLTU5NzQ0NjgwNCwxMz
+eyJoaXN0b3J5IjpbLTE4OTQ4MDk1MDgsLTU5NzQ0NjgwNCwxMz
 kzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4
 LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxND
 M4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2
