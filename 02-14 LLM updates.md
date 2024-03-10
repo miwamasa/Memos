@@ -40,6 +40,12 @@
 	- Edit Audio with Nothing but Prompts!
 - Meta’s AI Watermarking Plan Is Flimsy, at Best Watermarks are too easy to remove to offer any protection against disinformation
 	- https://spectrum.ieee.org/meta-ai-watermarks?share_id=8133421&utm_campaign=RebelMouse&utm_content=IEEE+Spectrum&utm_medium=social&utm_source=twitter
+- Claude3の評判
+	- Claude 3 Sonnet 、とにかく生成が早い！！！！！
+	- https://x.com/izutorishima/status/1764702243520208962?s=20
+	- Sonnet でも一部ベンチマークは GPT-4 と同等かそれ以上に達していて、この速さを無料アカウントで使えるのは普通に OpenAI さんピンチじゃないですか？
+- LangchainのClaude3サポート
+	- https://python.langchain.com/docs/integrations/chat/anthropic
 - 
 
 ## 3/4
@@ -3977,12 +3983,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- A paper that really illustrates both the unexpected power, and unexpected risks, that come from LLMs.
 -  InstructRetro: Instruction Tuning post Retrieval-Augmented Pretraining
 	- https://arxiv.org/abs/2310.07713
-	- pre-train LLMs with Retrieval Augmentation
--  An Emulator for Fine-Tuning Large Language Models using Small Language Models
-	- https://huggingface.co/papers/2310.12962
-	- Emulator for Fine-Tuning(EFT)は、大規模な事前学習済みモデルを小規模な微調整済みモデルとアンサンブルすることで、大規模な事前学習済みモデルを微調整した結果をエミュレートするという、アップスケーリングが可
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzA0NjgzMywtNTk3NDQ2ODA0LDEzOT
+eyJoaXN0b3J5IjpbLTk3NzQ0ODM1NCwtNTk3NDQ2ODA0LDEzOT
 M0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgs
 LTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0Mz
 gwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYs
