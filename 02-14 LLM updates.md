@@ -4,7 +4,7 @@
 
 ## 3/11
 
-AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、LLMのプロモうならせる性能、プロのライターもCa
+AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、プロのライターもClaude3でいいのではないかと、いう話に。Langchain、llmaindexも激速でClaude3対応。
 
 -  WSL2でSwallow-7b-plus-hfを試してみる
 	- https://note.com/ngc_shj/n/n80871f8e4e24?sub_rt=share_h
@@ -3968,14 +3968,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Mistral-7bの日本語版で、AIのべりすとさんから提供された高品質なデータが入っている
 - フィールズ賞受賞者のテレンス・タオさんが、証明支援系Leanを使うことで自分の論文の中のバグ（ミス）に気づいたという話
 	- https://mathstodon.xyz/@tao/111287749336059662
-	- 定理証明系が実数学者のためになっているのか。。。
--  KITAB: Evaluating LLMs on Constraint Satis
+	- 定理証明系が実数
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTIwMTQyMiwtMjkxMTQ1OTk1LC0xMz
-cxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkz
-ODE0NTUsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC
-01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4
-ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2LD
-U5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUz
-Nl19
+eyJoaXN0b3J5IjpbLTE1MDcwNDY0MjMsLTI5MTE0NTk5NSwtMT
+M3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5
+MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4Ni
+wtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcw
+ODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNi
+w1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1
+MzZdfQ==
 -->
