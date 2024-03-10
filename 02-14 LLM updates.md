@@ -64,7 +64,11 @@
 - RAGでの回答精度向上のためのテクニック集（応用編-A）
 	- https://zenn.dev/knowledgesense/articles/cec1cd43244524
 	- 「応用編-A」では、特に1つ目の「ユーザーの質問に回答するために最も必要な（最も関連している）ドキュメント群を抽出する」ための具体的なテクニックについて見ていきます。
-- 
+- Claude 3 Opus、Danbooru Taggerの機能もある
+	- https://x.com/alfredplpl/status/1764951315636158535?s=20
+	- アニメの話らしい
+- BASED: Simple linear attention language models balance the recall-throughput tradeoff
+	- 
 
 ## 3/4
 
@@ -3973,16 +3977,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Andrew Ng先生から、deeplearning.aiの「生成AI」の講義の宣伝
 	- https://www.deeplearning.ai/courses/generative-ai-for-everyone/
 - OpenAI、次世代LLMである、Arrakisの開発を断念？
-	-  OpenAI Dropped Work on New ‘Arrakis’ AI Model in Rare Setback
-	- 限りなくAGIに近いとうわさされる次世代のLLM、
-	- どううも開発中（学習中）の性能評価で思ったほど性能が出なかったため。
-	- https://www.theinformation.com/articles/openai-dropped-work-on-new-arrakis-
+	-  OpenAI Dr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2ODEwOTgsLTE3NTkzODE0NTUsLTU5Nz
-Q0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEs
-OTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MD
-A2MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwx
-MTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMz
-MxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1OV19
-
+eyJoaXN0b3J5IjpbOTE4OTM1NjMxLC0xNzU5MzgxNDU1LC01OT
+c0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQx
+LDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNj
+AwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQs
+MTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MT
+MzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTld
+fQ==
 -->
