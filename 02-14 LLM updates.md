@@ -55,7 +55,13 @@
 - img2table
 	- https://github.com/xavctn/img2table
 	- 画像から表を抽出するPythonライブラリなんだけど、めっちゃいい。セル結合にも対応してて大変素晴らしい
-- 
+- 大規模言語モデルを用いたゼロショットテキスト分類によるTCFD推奨開示項目の自動判定」
+	- https://www.jpx.co.jp/corporate/research-study/working-paper/Summary_JPXWP_Vol43.pdf
+	- GPT-4により、92.8%のAccuracyで上場会社の有価証券報告書のテキストを判別できるという結果に
+- gemma-7bベースの日英・英日翻訳モデルをQLoRAアダプターの形式で公開しました
+	- https://huggingface.co/webbigdata/C3TR-Adapter
+	- 翻訳ベンチマークで多言語翻訳モデルであるGoogleのMadlad400やmetaのSeamless m4t v2 large、ALMA-Ja-V2 (私の以前のモデル)よりも大幅に優れており、サブカルチャー文脈に一部対応可能な事が特徴です
+	- 
 
 ## 3/4
 
@@ -3970,23 +3976,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.theinformation.com/articles/openai-dropped-work-on-new-arrakis-ai-model-in-rare-setback
 - llamaindexのLiuさんより、“Evaluation Driven Development” (EDD)の提案
 	- https://x.com/jerryjliu0/status/1713936561480610104?s=20
-	- まずは、LLM＋Embeddingの組み合わせをちゃんと評価するところから始めようみたいな。
-- Replicateを利用すると、任意のLLMとembeddingの組み合わせを簡単に評価できる
-	- https://replicate.com/explore
-	- つまりhuggingfaceのモデルをダウンロードして動かす手間を、少し省くサービスを提供、
-	- ナイスだな。
-- NIIから、LLM-jp-13B が公開される
-	- LLM-jp （LLM 勉強会）は、日本語と英語を中心に事前学習した130億パラメータの大規模言語モデルをオープンなライセンスで公開
-	- https://llm-jp.nii.ac.jp/release/
-	- インストラクションデータでチューニングしたモデルや訓練・チューニングに用いたソフトウェアも公開
-- データでできることのレベル感を理解する（デジタル庁の人のスライドより）
-	- https://speakerdeck.com
+	- まずは、LLM＋Embeddingの組み合わせをちゃん
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3NjI5MDY5LC0xNzU5MzgxNDU1LC01OT
-c0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQx
-LDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNj
-AwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQs
-MTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MT
-MzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTld
-fQ==
+eyJoaXN0b3J5IjpbLTIwODgyMzQwMDAsLTE3NTkzODE0NTUsLT
+U5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2
+NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMT
+M2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIy
+NCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0ND
+YxMzMxOSwyMzU3OTI2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1
+OV19
 -->
