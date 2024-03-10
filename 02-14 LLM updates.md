@@ -45,7 +45,11 @@
 	- https://x.com/izutorishima/status/1764702243520208962?s=20
 	- Sonnet でも一部ベンチマークは GPT-4 と同等かそれ以上に達していて、この速さを無料アカウントで使えるのは普通に OpenAI さんピンチじゃないですか？
 	- Claude が賢くなって目もついた！モデルは三つで、Haiku / Sonnet / Opus の順に賢く、値段があがる
-	- 最高性能の Opus は 10 個のベンチマークで GPT-4 を 10 個とも超えている。Haiku のレスポンスはウェブ版で試してみたけど今までの Claude 2.1 と比べてめちゃはやい。公称 2 倍。
+	- 最高性能の Opus は 10 個のベンチマークで GPT-4 を 10 個とも超えている。Haiku のレスポンスはウェブ版で試してみたけどマルチモーダル（ここでは画像入力だけですが）については GPT-4-V より上で Gemini 1.0 Ultra と同程度。
+	- 200k トークンの長文入力は健在で、さらにすべてのモデルで 1 million トークンも入力できるモデルのよう。ただしこちらは一部のクライアントにのみ提供。
+	- 大量の文章の中から重要な情報を抜き出せるかの評価に用いる「Needle In A Haystack」では、精巧性能の Opus をもってすれば精度 99% を達成。今までの Claude 2.1 と比べてめちゃはやい。公称 2 倍。
+	- また、JSON 出力など構造化データの出力が得意になり、自然言語による分類や感情分析などもできるように。使ってみたのですが、かなり良い感じに構造化データに変換できました
+	- 
 - LangchainのClaude3サポート
 	- https://python.langchain.com/docs/integrations/chat/anthropic
 - 
@@ -3974,21 +3978,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- インストラクションデータでチューニングしたモデルや訓練・チューニングに用いたソフトウェアも公開
 - データでできることのレベル感を理解する（デジタル庁の人のスライドより）
 	- https://speakerdeck.com/hik0107/data-design-and-government?slide=10
-	- 現状の把握(lv.1)、分解と差異の把握(Lv.2)、原因の把握(Lv.3)、対策の把握(Lv4)
--  Google Colab で LLM-jp-13B を試す by npakaさん
-	- https://note.com/npaka/n/n60b0abf54ed5?sub_rt=share_sb
-	- T4 ハイメモリで動作確認
-	- 早速試されている
-- BEYOND MEMORIZATION: VIOLATING PRIVACY VIA INFERENCE WITH LARGE LANGUAGE MODELS
-	- https://arxiv.org/pdf/2310.07298v1.pdf
-	- Redditの匿名ポストのテキストから、GPT-4はその人のプロファイル（収入、性別、住所）を85%の正確さで、かつ人間の1%のコストで当てた。。
-	- A paper that really illustrates both the u
+	- 現状の把握(lv.1)、分解と差異の把握(Lv.2)、原因の把
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkzODE0NTUsLTU5NzQ0NjgwNCwxMz
-kzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4
-LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxND
-M4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2
-LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OT
-I2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTRd
+eyJoaXN0b3J5IjpbNTg3MTk2NTMwLC0xNzU5MzgxNDU1LC01OT
+c0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQx
+LDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNj
+AwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQs
+MTExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MT
+MzMTksMjM1NzkyNjQ0LC0yMDI3MzY2NDQ0LDE2MTU4MjA0NTld
 fQ==
 -->
