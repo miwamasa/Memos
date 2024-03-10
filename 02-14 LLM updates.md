@@ -32,6 +32,12 @@
 - llamaindex、さっそく Claude3サポート
 	- https://docs.llamaindex.ai/en/latest/examples/llm/anthropic.html
 	- Like Gemini and Mistral's latest offerings, Claude 3 comes in 3 "flavors" with the largest, Claude Opus, claiming better performance than GPT-4 across a wide range of benchmarks.
+- ZETA editing
+	- https://huggingface.co/spaces/hilamanor/audioEditing
+	- ZEro Shot Audio editing using DDPM inversion
+	- Edit Audio with Nothing but Prompts!
+- Meta’s AI Watermarking Plan Is Flimsy, at Best Watermarks are too easy to remove to offer any protection against disinformation
+	- https://spectrum.ieee.org/meta-ai-watermarks?share_id=8133421&utm_campaign=RebelMouse&utm_content=IEEE+Spectrum&utm_medium=social&utm_source=twitter
 - 
 
 ## 3/4
@@ -3973,17 +3979,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  An Emulator for Fine-Tuning Large Language Models using Small Language Models
 	- https://huggingface.co/papers/2310.12962
 	- Emulator for Fine-Tuning(EFT)は、大規模な事前学習済みモデルを小規模な微調整済みモデルとアンサンブルすることで、大規模な事前学習済みモデルを微調整した結果をエミュレートするという、アップスケーリングが可能になった
--  Can large language models provide useful feedback on research papers? A large-scale empirical analysis
-	- https://arxiv.org/abs/2310.01783
-	- 「科学論文の査読」に、大規模言語モデル（LLM）が有用な可能性がある
-	- 米スタンフォード大らが検証　参加者の80％以上「AI査読は有益」
-	- https://www.itmedia.co.jp/news/articles/2310/19/news072.html
-	- Nature系列のジャーナルにおけるフィードバックの結果、GPT-4が提供したコメントの57.55％は、全体の査読者の中で少なくとも1人の人間の査読者が記載していた
-- A quantized version of the mistral that is instruction following over 32k tokens.
-	- https://huggingface.co/TheBloke/MistralLite-7B-AWQ
-	- mistralって性能がよいと
+-  Can large language models provide useful feedback on research papers? A large-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDMzNDUzOCwtNTk3NDQ2ODA0LDEzOT
+eyJoaXN0b3J5IjpbLTk4NjY1OTE2NiwtNTk3NDQ2ODA0LDEzOT
 M0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgs
 LTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0Mz
 gwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYs
