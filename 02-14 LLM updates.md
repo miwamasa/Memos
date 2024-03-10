@@ -4,9 +4,10 @@
 
 ## 3/11
 
-AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」。Groqは、gemma-7bベースのデモを公開、いやリアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたら、AI alignmentを強調するわけもわかるわ。さて、Appleが生成AIに注力と発表、M3 MacBook Airを突然発表し、なんか不気味な感じがした。
+AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは終わりの始まりか。Groqは、gemma-7bベースのデモを公開、いやリアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたら、AI alignmentを強調するわけもわかるわ。さて、Appleが生成AIに注力と発表、M3 MacBook Airを突然発表し、なんか不気味な感じがした。
 
-- 
+- Apple、パワフルなM3チップを搭載した新しい13インチと15インチMacBook Airを発表
+	- https://www.apple.com/jp/newsroom/2024/03/apple-unveils-the-new-13-and-15-inch-macbook-air-with-the-powerful-m3-chip/
 -  WSL2でSwallow-7b-plus-hfを試してみる
 	- https://note.com/ngc_shj/n/n80871f8e4e24?sub_rt=share_h
 	- 使用するPCはドスパラさんの「GALLERIA UL9C-R49」
@@ -3956,17 +3957,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Large Language Model Programs
 	- https://arxiv.org/pdf/2305.05364.pdf
 	- LLMをアルゴリズムに埋め込むことをLLM Programとと呼ぶらしい、分割統治なんかそうなんだけど、メタなLLMみたいな感じ
--  LLM-Prop: Predicting Physical And Electronic Properties Of Crystalline Solids From Their Text Descriptions
-	- https://arxiv.org/abs/2310.14029v1
-	- 結晶構造をテキスト化して言語モデルで学習、そのエンコーダを使って物性予測を行うと従来のSOTAであるGNNモデルより高精度な予測
--  LangChain の Step-back Prompting を試す by npakaさん
-	- ht
+-  LLM-Prop: Predicting Physical And Electronic Properties Of Crystalline Solids From Th
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDI1MDIwMSwxNzM1MTEzNDM1LC0yOT
-ExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQz
-ODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMD
-YsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0
-NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLT
-EwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0
-NzI1XX0=
+eyJoaXN0b3J5IjpbNzQ4Nzc2NDk5LDE3MzUxMTM0MzUsLTI5MT
+E0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4
+MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNi
+w5NjY4NDQ4NiwtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1
+ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMT
+AwODk0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3
+MjVdfQ==
 -->
