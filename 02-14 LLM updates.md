@@ -50,8 +50,8 @@
 	- 大量の文章の中から重要な情報を抜き出せるかの評価に用いる「Needle In A Haystack」では、精巧性能の Opus をもってすれば精度 99% を達成。今までの Claude 2.1 と比べてめちゃはやい。公称 2 倍。
 	- また、JSON 出力など構造化データの出力が得意になり、自然言語による分類や感情分析などもできるように。使ってみたのですが、かなり良い感じに構造化データに変換できました
 	- API は現時点で Opus と Sonnet は公開。Haiku は近日公開予定。
-	- 今まで ChatGPT で書かせた文書って「それっぽさ」があったけど、Claude 3 は非常に丁寧な日本語でもう AI 製かどうかわからん
-	- 
+- 今まで ChatGPT で書かせた文書って「それっぽさ」があったけど、Claude 3 は非常に丁寧な日本語でもう AI 製かどうかわからん
+	- https://x.com/izutorishima/status/1764890317302727114?s=20
 - LangchainのClaude3サポート
 	- https://python.langchain.com/docs/integrations/chat/anthropic
 - img2table
@@ -80,6 +80,11 @@
 - 野村総研による生成AIレポート
 	- https://www.nri.com/-/media/Corporate/jp/Files/PDF/knowledge/publication/chitekishisan/2024/01/cs20240104.pdf?la=ja-JP&hash=ED42BFF77381C8AD102B7792B56D2654AD7BC6D5
 	- 生成AIで影響を受ける職種のリストが載ってるのは最近よく見るけれど、一位が水族館飼育員なのが斬新さを感じた。あとファンドマネージャーが上位にいるのも面白い
+- Claude 3の技術レポートによれば、大学院レベルの物理学・化学・生物学の知識と推論に焦点を当てたGPQAベンチマークで最高性能（0 shot CoTで50.4%、多数決利用で59.5%）
+	- https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf
+- Build a Large Language Model (From Scratch)
+	- https://github.com/rasbt/LLMs-from-scratch
+	- Manning社（日本だとよくオライリーの皮を被る出版社）からフルスクラッチで大規模言語モデルを作る本が出る模様。GitHubに公開あり
 - 
 
 ## 3/4
@@ -3969,16 +3974,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 要求エンジニアリング/デザイン、コード生成、テスト、運用/デプロイ、ドキュメント生成。またリサーチ領域での活用なども
 	- 伝統的なSEとLLMを融合したはハイブリッドにより信頼ある効率的なLLMベースのSEが実現できた
 - JapaneseEmbeddingEval　日本語におけるembeddingの評価
-	-  https://github.com/oshizo/JapaneseEmbeddingEval
-	- multilingual-e5っていい線いってるのか。。
-- PaLI-3 Vision Language Models: Smaller, Faster, Stronger
-	- https://huggingface.co/papers/2310.09199
-	- Googleによる、高性能で小さいvision language model (VLM)
-- マッキンゼーから発表されたAI動向に関するレポートがなかなか衝撃的
-	- https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-AI-the-next-productivity-frontier#introduction
-	- 生成A
+	-  https://gi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjczMTI3NiwtMTc1OTM4MTQ1NSwtNT
+eyJoaXN0b3J5IjpbMTIyODIwNTg5MCwtMTc1OTM4MTQ1NSwtNT
 k3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0
 MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMz
 YwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0
