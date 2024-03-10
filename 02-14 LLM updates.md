@@ -159,7 +159,12 @@
 - WhiteRabbitNeo/WhiteRabbitNeo-7B-v1.5a
 	- https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-7B-v1.5a
 	- At the request of the open source community, we're now releasing a 7B model for offensive and defensive cybersecurity. This can be run locally in most computers with less GPU VRAM.
-- 
+- プロのライターが「仕事には、GPT-4は言うほど大して使えないけどClaude3はそこそこ使える」
+	- https://x.com/umiyuki_ai/status/1766284320208212472?s=20
+- cyzgab/catch-me-if-you-can
+	- https://huggingface.co/spaces/cyzgab/catch-me-if-you-can
+	- GroqInc
+ just added support for Gemma 7B. 
 
 ## 3/4
 
@@ -3965,16 +3970,12 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://qiita.com/fuyu_quant/items/157086987bd1b4e52e80
 -  Zephyr: Direct Distillation of LM Alignment
 	- https://arxiv.org/abs/2310.16944
-	- なんかすごい性能らしい。
--  Human-like systematic generalization through a meta-learning neural network
-	- https://www.nature.com/articles/s41586-023-06668-3
-	- 既存の概念を組み合わせるsystematic compositionalityの能力を、メタ学習を施したニューラルネットで実現。35年前のFodor＆Pylyshynの「ニューラルネッ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzg5MjMxNzEsLTEzNzEzOTU2MDQsLT
-EyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3
-NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MS
-w5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYw
-MDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LD
-ExMTY2MDc0OTYsNTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0NjEz
-MzE5XX0=
+eyJoaXN0b3J5IjpbODcwNjc4MDY2LC0xMzcxMzk1NjA0LC0xMj
+AxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5NzQ0
+NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOT
+MwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2
+MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMT
+E2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMx
+OV19
 -->
