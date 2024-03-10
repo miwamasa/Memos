@@ -4,7 +4,7 @@
 
 ## 3/11
 
-今週は、AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力で旋風を巻き起こしている。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは(humanityの)終わりの始まりか。Groqは、gemma-7bベースのデモを公開、リアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたらalignmentを強調するわけもわかるわ。分割統治式でタスクを分解するNVIDIAのAgent、Qwen-AgentとかAgent周りも当然進む。一方、日本のサブカルに強いgemma-7bベースの日英・英日翻訳モデルとか日本語モデルやデータセットの進展もある。 「はじめての統計的因果推論」、ゆるめの表紙の割には辛口なのが面白い。「統計学の極意」の邦訳版、日本のAIリテラシー向上に寄与できるか。Benjoさんの東大講演、Hintonさんの日経インタビュー、いづれもAIが人を超えることによる脅威について語っている感じなのは興味深い。さて、Appleが生成AIに注力と発表、M3 MacBook Airを突然発表し、なんか不気味な感じがしますね。
+今週は、AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロもうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力で旋風を巻き起こしている。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは(humanityの)終わりの始まりか。Groqは、gemma-7bベースのデモを公開、リアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたらalignmentを強調するわけもわかるわ。分割統治式でタスクを分解するNVIDIAのAgent、Qwen-AgentとかAgent周りも当然進む。一方、日本のサブカルに強いgemma-7bベースの日英・英日翻訳モデルとか日本語モデルやデータセットの進展もある。 「はじめての統計的因果推論」、ゆるめの表紙の割には辛口なのが面白い。「統計学の極意」の邦訳版、日本のAIリテラシー向上に寄与できるか。Benjoさんの東大講演、Hintonさんの日経インタビュー、いづれもAIが人を超えることによる脅威について語っている感じなのは興味深い。さて、Appleが生成AIに注力と発表、M3 MacBook Airを突然発表し、なんか不気味な感じがしますね。
 
 - Apple、パワフルなM3チップを搭載した新しい13インチと15インチMacBook Airを発表
 	- https://www.apple.com/jp/newsroom/2024/03/apple-unveils-the-new-13-and-15-inch-macbook-air-with-the-powerful-m3-chip/
@@ -3959,7 +3959,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 3Bと7Bのサイズでそれぞれ圧倒的性能を誇る英語LLM「Stable LM 3B-4E1T」「Mistral-7B-v0.1」に継続事前学習を適用することでサクッとめちゃツヨ日本語LLM
 -  Japanese rese
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjU4NjE1OCw1MzU0MTY2MjAsMTEzMD
+eyJoaXN0b3J5IjpbMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMD
 I5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2
 MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NS
 wtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5
