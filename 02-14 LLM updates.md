@@ -85,7 +85,12 @@
 - Build a Large Language Model (From Scratch)
 	- https://github.com/rasbt/LLMs-from-scratch
 	- Manning社（日本だとよくオライリーの皮を被る出版社）からフルスクラッチで大規模言語モデルを作る本が出る模様。GitHubに公開あり
-- 
+- Tokanizer playgroundがClaude3に対応
+	- https://huggingface.co/spaces/Xenova/the-tokenizer-playground
+	- If you want to calculate how many tokens you're sending to the API, check out The Tokenizer Playground, which we recently updated to include the Claude 3 tokenizer!
+- Claude 3 is impressively good at OCR and structured extraction
+	- https://x.com/jerryjliu0/status/1765101841535336929?s=20
+	- 
 
 ## 3/4
 
@@ -3965,18 +3970,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2309.15427
 	- LLMにナレッジグラフ（知識グラフ）を連携させることで、タスク遂行能力を大幅に向上させるフレームワーク『Graph Neural Prompting（GNP）』
 	- GNPは、LLMに有益な知識を効果的にエンコードし、パフォーマンスを大幅に向上させることができる
-- 大規模言語モデルがどのように動いてるかを視覚的に説明するインフォグラフィックが素晴らしいと
-	- https://ig.ft.com/generative-ai/
-	- Fanatical Timesのインフォグラフィック
-- Large Language Models for Software Engineering: Survey and Open Problems
-	- https://arxiv.org/abs/2310.03533
-	- LLMをソフトウエアエンジニアリング(SE)にどうやって適用するか？
-	- 要求エンジニアリング/デザイン、コード生成、テスト、運用/デプロイ、ドキュメント生成。またリサーチ領域での活用なども
-	- 伝統的なSEとLLMを融合したはハイブリッドにより信頼ある効率的なLLMベースのSEが実現できた
-- JapaneseEmbeddingEval　日本語におけるembeddingの評価
-	-  https://gi
+- 大規模言語モデルがどのように動いてるかを視覚的に説明するインフォグラフィックが素晴
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODIwNTg5MCwtMTc1OTM4MTQ1NSwtNT
+eyJoaXN0b3J5IjpbMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNT
 k3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0
 MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMz
 YwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0
