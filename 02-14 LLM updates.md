@@ -161,7 +161,8 @@
 	- At the request of the open source community, we're now releasing a 7B model for offensive and defensive cybersecurity. This can be run locally in most computers with less GPU VRAM.
 - プロのライターが「仕事には、GPT-4は言うほど大して使えないけどClaude3はそこそこ使える」
 	- https://x.com/umiyuki_ai/status/1766284320208212472?s=20
-	- た
+	- たぶん、https://x.com/yukatan/status/1766610634832306408?s=20
+	- ようやっとclaude3を試しましたが、たしかに「リリース起こし」については「え、私の仕事やばいかも」と思うレベルに近づいている。
 - cyzgab/catch-me-if-you-can
 	- https://huggingface.co/spaces/cyzgab/catch-me-if-you-can
 	- GroqInc just added support for Gemma 7B. 
@@ -3968,16 +3969,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 定理証明系が実数学者のためになっているのか。。。
 -  KITAB: Evaluating LLMs on Constraint Satisfaction for Information Retrieval
 	- https://huggingface.co/papers/2310.15511
-	-  (e.g., 'a list of ice cream shops in San Diego')
--  LLMのプロンプト技術まとめ
-	- https://qiita.com/fuyu_quant/items/157086987bd1b4e52e80
--  Zephy
+	-  (e.g., '
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNjQzNTQzLC0xMzcxMzk1NjA0LC0xMj
-AxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5NzQ0
-NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOT
-MwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2
-MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMT
-E2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMx
-OV19
+eyJoaXN0b3J5IjpbLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMT
+IwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0
+NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQxLD
+kzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNjAw
+NjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQsMT
+ExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MTMz
+MTldfQ==
 -->
