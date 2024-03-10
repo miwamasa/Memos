@@ -151,6 +151,9 @@
 - Claude 3 Cookbook by llamaindex
 	- https://colab.research.google.com/drive/11HzzDd6fAiH2s8nDjZMRY5nx2Licl_tF?usp=sharing
 	- we go through a comprehensive cookbook to show how Claude 3 can be used in a variety of different application use cases with
+- GaLoreってのは事前学習がメッチャ省メモリでできるテクノロジーらしい
+	- https://x.com/umiyuki_ai/status/1765927780263633236?s=20
+	- VRAM24GBで7BモデルのLLMの事前学習ができてしまうらしい
 - 
 
 ## 3/4
@@ -3969,13 +3972,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.promptingguide.ai/models/mistral-7b
 - Getting started  with Llama by Meta
 	- Meta謹製のLlmaガイド
-	- https://ai.meta.com/llama/get-started/
-	- Yann LeCun先生のおすすめでもある。
-- bakLLaVA vision AI can read xrays with only 6Gb of RAM
-	- https://github.com/SkunkworksAI/BakLLaVA
-	
+	- https://ai.meta.com/llama/get-s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjMxNjgxNjQsLTEzNzEzOTU2MDQsLT
+eyJoaXN0b3J5IjpbLTE4NDM3MTI4NTEsLTEzNzEzOTU2MDQsLT
 EyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3
 NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MS
 w5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYw
