@@ -4,8 +4,7 @@
 
 ## 3/11
 
-AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは(humanityの)終わりの始まりか。Groqは、gemma-7bベースのデモを公開、リアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたら、AI alignmentを強調するわけもわかるわ。分割統治式でタスクを分解するNVIDIAのAgent、Qwen-Agentとか、
-サブカルに強いgemma-7bベースの日英・英日翻訳モデル。 
+AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは(humanityの)終わりの始まりか。Groqは、gemma-7bベースのデモを公開、リアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたら、AI alignmentを強調するわけもわかるわ。分割統治式でタスクを分解するNVIDIAのAgent、Qwen-AgentとかAgent周りも当然進む。一方、日本のサブカルに強いgemma-7bベースの日英・英日翻訳モデルとか、 「はじめての統計的因果推論」、ゆるめの表紙の割には辛口なのが面白い。
 さて、Appleが生成AIに注力と発表、M3 MacBook Airを突然発表し、なんか不気味な感じがした。
 
 - Apple、パワフルなM3チップを搭載した新しい13インチと15インチMacBook Airを発表
@@ -3958,14 +3957,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Promptを超えた？LLM自身をアルゴリズムの一部に埋め込んで使うような、LLM programと呼ばれるような手法
 - Large Language Model Programs
 	- https://arxiv.org/pdf/2305.05364.pdf
-	- LLMをアルゴリズムに埋め込むことをLLM Programとと呼ぶらしい、分割統治なんかそうなんだけど、メタなLLMみたいな感じ
--  L
+	- LLMをアルゴリズムに埋め込むことを
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOT
-ExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQz
-ODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMD
-YsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0
-NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLT
-EwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0
-NzI1XX0=
+eyJoaXN0b3J5IjpbLTE3MzM1NDMxODksMTEzMDI5ODAzMiwxNz
+M1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2
+OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2OD
+A0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAy
+Mjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNS
+wxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2
+MDc0OTZdfQ==
 -->
