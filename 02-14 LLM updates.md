@@ -25,6 +25,10 @@
 -  Learning and Leveraging World Models in Visual Representation Learning
 	- https://arxiv.org/abs/2403.00504
 	- MetaのJEPAの論文、Meta presents Image World Model
+- Build an LLM-Powered API Agent for Task Execution
+	- https://developer.nvidia.com/blog/build-an-llm-powered-api-agent-for-task-execution/
+	- NVIDIAより。LLM使ったAPI Agent
+	- ユーザーのクエリに対して、LLMがあらかじめ定義しておいたテンプレを使って子モジュールのLLM用のプロンプトを生成し、子モジュールLLMがそれぞれのタスクをこなして結果を返す
 - 
 
 ## 3/4
@@ -3980,16 +3984,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- llm-jp-13b-v1.0を、 日本語のキャリブレーションセットで生成したGPTQモデル
 -  言語はこうして生まれる―「即興する脳」とジェスチャーゲーム―
 	- https://www.shinchosha.co.jp/book/507311/
-	- 言語の生得性を否定し、文化進化や語用論的な観点から言語獲得を論じています
-	- 歴史：ノーム・チョムスキーは「普遍文法」という概念を導入し、「人間の遺伝的青写真には、言語を支配する抽象的な数学的原理が内包」しているといった
-	- 歴史：心理学者スティーブン・ピンカーがさらに『言語を生みだす本能』（NHKブックス）へと発展させる
-	- 主張：「ジェスチャーゲーム」。言語は遺伝的に決定されたものなどではなく、身振り手振り、発声、あるいはその両方で自分の意思を双方向的に伝え合うジェスチャーゲームのようなものが起源なのではないかという斬新なアイデアだ
+	- 言語の生得性を否定し、文化進化
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ4MDk1MDgsLTU5NzQ0NjgwNCwxMz
-kzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4
-LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxND
-M4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2
-LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OT
-I2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTRd
-fQ==
+eyJoaXN0b3J5IjpbMTE5ODU3MjUyMywtNTk3NDQ2ODA0LDEzOT
+M0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgs
+LTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0Mz
+gwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYs
+NTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5Mj
+Y0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NF19
+
 -->
