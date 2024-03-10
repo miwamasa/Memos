@@ -4,7 +4,7 @@
 
 ## 3/11
 
-AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。プロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。
+AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。
 
 -  WSL2でSwallow-7b-plus-hfを試してみる
 	- https://note.com/ngc_shj/n/n80871f8e4e24?sub_rt=share_h
@@ -3966,10 +3966,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - mmnga/japanese-stablelm-instruct-gamma-7b-gguf
 	- stabilityAIさんが公開されているjapanese-stablelm-instruct-gamma-7bのgguf
 	- Mistral-7bの日本語版で、AIのべりすとさんから提供された高品質なデータが入っている
-- フィールズ賞受賞者のテレンス・タオさんが、証明支援系Leanを使うことで自分の論文の中のバグ（ミス）に気づいたという話
-	- https://mathst
+- フィールズ賞受賞者のテレンス・タオさんが、証明支援系L
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM4OTY0MywtMjkxMTQ1OTk1LC0xMz
+eyJoaXN0b3J5IjpbLTcyNDcyOTAwNiwtMjkxMTQ1OTk1LC0xMz
 cxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkz
 ODE0NTUsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC
 01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4
