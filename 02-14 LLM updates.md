@@ -111,7 +111,11 @@
 	- https://x.com/shi3z/status/1765310307994611798?s=20
 - Claude 3 Opus structured query agent
 	- https://colab.research.google.com/drive/1hkwipueVyi2Jzo58Z8jfdZ_9rSscfGxd
-	- 
+	- How good is AnthropicAI's Claude 3 Opus at being an agent? Pretty darn good! Check out this quick notebook in which Claude answers a complex, multi-source question by reading a PDF table and using the answer to do math on the contents of a CSV!
+- Knowledge-Augmented Planning for LLM Agents
+	- https://arxiv.org/abs/2403.03101
+	- Proposes an approach to enhance the planning capabilities of LLMs through explicit action knowledge.
+- 
 
 ## 3/4
 
@@ -3968,9 +3972,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 10/23
 
-今週は、NIIからllm-jp-13b-v1.0が公開されたのが話題でした、さっそくcolabで使った例が公開されたり、4bit量子化版がhuggingfaceで公開されたりと、盛り上がってます。関係者の努力とABCIの活躍に頭が下がります。LLM活用アプリの性能を考えるときに、RAGでもそうなんだけど、LLMとembeddingの組み合わせをちゃんと評価するってのが最初にあるべきなのかも。使ったことないけどもReplicateはそこんところうまくついたサービス展開といえる。LLMをソフトウエアエンジニアリングで活用できるという論文が話題に。OpenAI、限りなくAGIに近いとうわさのArrakisの開発断念？映画Dune２(Arrakisという星が部隊）の公開も春にずれ込んだから、似たような運命をたどるのか？マッキンゼーのレポート、生成AIにより、AIの作文力が人間の上位25%を超える時期の予測が25年前倒しというのは驚いた、つまり我々は25年先の技術を今見ていることになる、そりゃ（多くの人にはLLMの凄さが）分らんわな。スタンフォード大の「科学論文の査読」に、大規模言語モデル（LLM）が有用であるという論文、これは朗報だ（誰得？）。「kaggle LLMコンペ　上位解法のまとめ」はこれはLLMプラクティショナーには必読だ。ちゃんとコンテキストを適切に与えることが重要。あたりまえだけど、それを行うのは難し。「世界モデル」に対するOpenAI共同設立者のIlya Sutskever氏の対談、大規模深層学習モデルは言葉を生成する何
+今週は、NIIからllm-jp-13b-v1.0が公開されたのが話題でした、さっそくcolabで使った例が公開されたり、4bit量子化版がhuggingfaceで公開されたりと、盛り上がってます。関係者の努力とABCIの活躍に頭が下がります。LLM活用アプリの性能を考えるときに、RAGでもそうなんだけど、LLMとembeddingの組み合わせをちゃんと評価するってのが最初にあるべきなのかも。使ったことないけどもReplicateはそこんところうまくついたサービス展開といえる。L
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTUxNzUxMiwxOTQwNDM4MzY5LC0xNz
+eyJoaXN0b3J5IjpbMTgxMzAxMzU0NywxOTQwNDM4MzY5LC0xNz
 U5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4
 NiwtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOT
 cwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIy
