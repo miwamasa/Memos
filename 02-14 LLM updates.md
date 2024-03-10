@@ -15,7 +15,7 @@
 - Jurafsky-MartのSpeech and Language Processing  (3rd ed. draft)
 	- https://web.stanford.edu/~jurafsky/slp3/
 	- In-Context LearningやInstruction Tuningの章も追加
-- 
+- [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)
 
 ## 3/4
 
@@ -3976,15 +3976,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 主張：「ジェスチャーゲーム」。言語は遺伝的に決定されたものなどではなく、身振り手振り、発声、あるいはその両方で自分の意思を双方向的に伝え合うジェスチャーゲームのようなものが起源なのではないかという斬新なアイデアだ。そこには普遍文法が入り込む余地などない。
 - LLM（大規模言語モデル）は「言語ゲーム」的か  東京女子大学現代教養学部准教授・大谷弘氏に聞く（１）
 	- [IT批評の記事](https://it-hihyou.com/recommended/llm%EF%BC%88%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%EF%BC%89%E3%81%AF%E3%80%8C%E8%A8%80%E8%AA%9E%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8D%E7%9A%84%E3%81%8B-%E2%80%95/)より
-	- LLMって、パターンから学び、その背後には人間があるから、ヴィトゲンシュタインのいう「言語ゲーム」に似ている、らしい。記号接地してないという批判にも、学習データの背後の人間のあたりで接地しているのかもともいう。
-- 多様体上の最適化理論
-	- https:/
+	- LLMって、パターンから学び、その背後には人間があるから、ヴィトゲ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Nj
-g0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAs
-OTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4MDYwLC0xMDA4OT
-QxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2LDUzMjM3NDcyNSw4
-MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OTI2NDQsLTIwMjczNj
-Y0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTQsNzYxMDkxNDRdfQ==
+eyJoaXN0b3J5IjpbMTI0NjY2NTUwNiwtNTk3NDQ2ODA0LDEzOT
+M0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgs
+LTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0Mz
+gwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYs
+NTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5Mj
+Y0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NF19
 
 -->
