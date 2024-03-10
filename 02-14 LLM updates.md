@@ -15,7 +15,13 @@
 - Jurafsky-MartのSpeech and Language Processing  (3rd ed. draft)
 	- https://web.stanford.edu/~jurafsky/slp3/
 	- In-Context LearningやInstruction Tuningの章も追加
-- [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)
+- Toolformer: Language Models Can Teach Themselves to Use Tools
+	- https://arxiv.org/abs/2302.04761
+	- Metaがツールの使い方を覚える言語モデルToolformerを開発
+	- 大規模言語モデルはわずかな例示や指示だけから課題解決を行う驚くべき能力を持つ
+	- 一方で、計算や事実チェックはより単純なツールの方が優れた性能を発揮する
+	- 両者の長所を生かすため、ツールの呼び出し指示をテキスト化し外部ツールの使い方を自己学習する言語モデルToolformerを提案
+- 
 
 ## 3/4
 
@@ -3975,14 +3981,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 歴史：心理学者スティーブン・ピンカーがさらに『言語を生みだす本能』（NHKブックス）へと発展させる
 	- 主張：「ジェスチャーゲーム」。言語は遺伝的に決定されたものなどではなく、身振り手振り、発声、あるいはその両方で自分の意思を双方向的に伝え合うジェスチャーゲームのようなものが起源なのではないかという斬新なアイデアだ。そこには普遍文法が入り込む余地などない。
 - LLM（大規模言語モデル）は「言語ゲーム」的か  東京女子大学現代教養学部准教授・大谷弘氏に聞く（１）
-	- [IT批評の記事](https://it-hihyou.com/recommended/llm%EF%BC%88%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%EF%BC%89%E3%81%AF%E3%80%8C%E8%A8%80%E8%AA%9E%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8D%E7%9A%84%E3%81%8B-%E2%80%95/)より
-	- LLMって、パターンから学び、その背後には人間があるから、ヴィトゲ
+	- [IT批評の記事](https://it-hihyou.com/recommended/llm%EF%BC%88%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjY2NTUwNiwtNTk3NDQ2ODA0LDEzOT
-M0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgs
-LTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0Mz
-gwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYs
-NTMyMzc0NzI1LDgyNjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5Mj
-Y0NCwtMjAyNzM2NjQ0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NF19
-
+eyJoaXN0b3J5IjpbLTE2NjEyNzY1MDksLTU5NzQ0NjgwNCwxMz
+kzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4
+LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxND
+M4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMTE2NjA3NDk2
+LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMxOSwyMzU3OT
+I2NDQsLTIwMjczNjY0NDQsMTYxNTgyMDQ1OSw5NTgyMTMwOTRd
+fQ==
 -->
