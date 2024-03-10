@@ -6,8 +6,10 @@
 
 -  WSL2でSwallow-7b-plus-hfを試してみる
 	- https://note.com/ngc_shj/n/n80871f8e4e24?sub_rt=share_h
+	- 使用するPCはドスパラさんの「GALLERIA UL9C-R49」
 	- chat(instruct)モデルではないので、--no-chatとして起動します
 	- これは、なかなかいい感じである。いままで最高かもしれない
+- 
 
 ## 3/4
 
@@ -3972,13 +3974,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 多様体上の最適化理論
 	- https://www.amazon.co.jp/exec/obidos/ASIN/4274231186?&linkCode=sl1&tag=mathlang09-22&linkId=bd145734052442298eb01413d823ca91&language=ja_JP&ref_=as_li_ss_tl
 	- 多様体上の最適化理論について、基礎となる数理から応用例までを解説
--  Introducing CliffordLayers: Neural Network layers inspired by Clifford / Geometric Algebras.
-	- https://www.microsoft.com/en
+-  Introducing CliffordLayers: Neural Network layers inspired by Clifford / Geometric 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwNTYxMDA0LDEzOTM0NTYxMDYsOTY2OD
-Q0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5
-Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5ND
-EyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYsNTMyMzc0NzI1LDgy
-NjIyNTM2LC0yMDQ0NjEzMzE5LDIzNTc5MjY0NCwtMjAyNzM2Nj
-Q0NCwxNjE1ODIwNDU5LDk1ODIxMzA5NCw3NjEwOTE0NF19
+eyJoaXN0b3J5IjpbLTEzMjQzNzI3OTUsMTM5MzQ1NjEwNiw5Nj
+Y4NDQ4NiwtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAw
+LDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwOD
+k0MTIyNiw1OTgwODUyMjQsMTExNjYwNzQ5Niw1MzIzNzQ3MjUs
+ODI2MjI1MzYsLTIwNDQ2MTMzMTksMjM1NzkyNjQ0LC0yMDI3Mz
+Y2NDQ0LDE2MTU4MjA0NTksOTU4MjEzMDk0LDc2MTA5MTQ0XX0=
+
 -->
