@@ -154,6 +154,11 @@
 - GaLoreってのは事前学習がメッチャ省メモリでできるテクノロジーらしい
 	- https://x.com/umiyuki_ai/status/1765927780263633236?s=20
 	- VRAM24GBで7BモデルのLLMの事前学習ができてしまうらしい
+- Meta announces Teaching Large Language Models to Reason with Reinforcement Learning
+	- https://huggingface.co/papers/2403.04642
+- WhiteRabbitNeo/WhiteRabbitNeo-7B-v1.5a
+	- https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-7B-v1.5a
+	- At the request of the open source community, we're now releasing a 7B model for offensive and defensive cybersecurity. This can be run locally in most computers with less GPU VRAM.
 - 
 
 ## 3/4
@@ -3963,18 +3968,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- なんかすごい性能らしい。
 -  Human-like systematic generalization through a meta-learning neural network
 	- https://www.nature.com/articles/s41586-023-06668-3
-	- 既存の概念を組み合わせるsystematic compositionalityの能力を、メタ学習を施したニューラルネットで実現。35年前のFodor＆Pylyshynの「ニューラルネットはcompositionalityを持てない」との主張への応答として書いている
--  MT-Bench の使い方 by npakaさん
-	- https://note.com/npaka/n/na28f31e96599?sub_rt=share_b
-	- 「[**MT-Bench**](https://chat.lmsys.org/?leaderboard)」は、80の高品質でマルチターンの質問を含む、慎重にキュレーションされたLLMのベンチマークです。
-	- レーダーチャートででるのがよい。
--  7BのLLMの覇者は、Mistral 7B ？？
-	- https://www.promptingguide.ai/models/mistral-7b
-- Getting started  with Llama by Meta
-	- Meta謹製のLlmaガイド
-	- https://ai.meta.com/llama/get-s
+	- 既存の概念を組み合わせるsystematic compositionalityの能力を、メタ学習を施したニューラルネットで実現。35年前のFodor＆Pylyshynの「ニューラルネッ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDM3MTI4NTEsLTEzNzEzOTU2MDQsLT
+eyJoaXN0b3J5IjpbLTE4Mzg5MjMxNzEsLTEzNzEzOTU2MDQsLT
 EyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3
 NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MS
 w5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYw
