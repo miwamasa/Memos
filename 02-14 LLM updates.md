@@ -50,6 +50,8 @@
 	- 大量の文章の中から重要な情報を抜き出せるかの評価に用いる「Needle In A Haystack」では、精巧性能の Opus をもってすれば精度 99% を達成。今までの Claude 2.1 と比べてめちゃはやい。公称 2 倍。
 	- また、JSON 出力など構造化データの出力が得意になり、自然言語による分類や感情分析などもできるように。使ってみたのですが、かなり良い感じに構造化データに変換できました
 	- API は現時点で Opus と Sonnet は公開。Haiku は近日公開予定。
+	- 今まで ChatGPT で書かせた文書って「それっぽさ」があったけど、Claude 3 は非常に丁寧な日本語でもう AI 製かどうかわからん
+	- 
 - LangchainのClaude3サポート
 	- https://python.langchain.com/docs/integrations/chat/anthropic
 - img2table
@@ -75,6 +77,9 @@
 - Wikipedia で雑なQAデータセットを作りました。
 	- https://huggingface.co/datasets/alfredplpl/wikipedia-qa-ja-500k
 	- 50万件以上あります。Instruction tuning用では日本で一番件数があるので適当に使ってください
+- 野村総研による生成AIレポート
+	- https://www.nri.com/-/media/Corporate/jp/Files/PDF/knowledge/publication/chitekishisan/2024/01/cs20240104.pdf?la=ja-JP&hash=ED42BFF77381C8AD102B7792B56D2654AD7BC6D5
+	- 生成AIで影響を受ける職種のリストが載ってるのは最近よく見るけれど、一位が水族館飼育員なのが斬新さを感じた。あとファンドマネージャーが上位にいるのも面白い
 - 
 
 ## 3/4
@@ -3971,15 +3976,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Googleによる、高性能で小さいvision language model (VLM)
 - マッキンゼーから発表されたAI動向に関するレポートがなかなか衝撃的
 	- https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-AI-the-next-productivity-frontier#introduction
-	- 生成AI（というかChatGPTに代表されるLLM)の登場により、AIの作文力が人間の上位25%を超える時期の予測が25年前倒しになった
-		- 2017年の予測：2050年 ・2023年の予測：2024〜2025年 
-- Xinyun Chen et al, "Teaching Large Language Models to Self-Debug"
-	- https://arxiv.org/abs/2304.05128
-	- GPT-4などLLMのコード生成能力にデバッグ機能を追加する『SELF-DEBUGGING（セルフデバッギング）』
-	- LLMに自己デバッグの能力を教えることで、コード生成の性能が向上する
-- ChatGPTを用いてコーディングを学ぶ方法について（慶応義塾大
+	- 生成A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTQwMjk2MiwtMTc1OTM4MTQ1NSwtNT
+eyJoaXN0b3J5IjpbLTE0MjczMTI3NiwtMTc1OTM4MTQ1NSwtNT
 k3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0
 MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMz
 YwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0
