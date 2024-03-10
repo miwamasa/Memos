@@ -141,7 +141,13 @@
 - 対話系はClaudeが抜きん出て強い
 	- https://x.com/reasan_mirasan/status/1765513422504890417?s=20
 - LangChain Text Splitters
-	- 
+	- https://x.com/LangChainAI/status/1765418125569491233?s=20
+	- One of the most popular parts of LangChain is our text splitters - simple yet necessary for any RAG app
+-  Large language models surpass human experts in predicting neuroscience results
+	- https://arxiv.org/abs/2403.03230
+	- 神経科学の実験結果をLLM (Llama2・Mistral・Falcon・Galactica) で予測する研究
+	- 論文アブストの背景と方法部分から二択で結果を予想する問題セット「BrainBench」を作り，LLM vs 専門家で比較
+	- 基本的に専門家よりLLMが強い LoRAで神経科学用にfine-tuningすると性能がさらに上がる
 
 ## 3/4
 
@@ -3967,21 +3973,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Zephyr-7b-betaって無敵かも
 	- https://colab.research.google.com/drive/1UoPcoiA5EOBghxWKWduQhChliMHxla7U?usp=sharing
 	- found it’s the only 7B LLM that can handle ReAct agent tasks over data
-	- つまり、dataに対して、ReActするAgentを実装できる唯一の7B LLMということらしい
-	- Jelly Liuさん(llamaindex作者)も激賞
-	- https://x.com/jerryjliu0/status/1718054817640390840?s=20
--  Evaluating RAG pipelines with Ragas + LangSmith
-	- https://blog.langchain.dev/evaluating-rag-pipelines-with-ragas-langsmith/
-	- RAGの性能評価をRagasとLangSmithで行う方法を紹介した記事
-	- RagasはLLMによるRAGの自動評価を支援するOSS、試したけどお金かかるんだよな。
-- llama2 7bをファインチューニングすることで、出力を特定フォーマットにすることができる
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/finetuning/gradient/gradient_
+	- つまり、dataに対して、ReActするAgentを実装できる唯一の7B LLMというこ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxNTkxMjI2LC0xMzcxMzk1NjA0LC0xMj
-AxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5NzQ0
-NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOT
-MwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2
-MjUsMTkxNDM4MDYwLC0xMDA4OTQxMjI2LDU5ODA4NTIyNCwxMT
-E2NjA3NDk2LDUzMjM3NDcyNSw4MjYyMjUzNiwtMjA0NDYxMzMx
-OV19
+eyJoaXN0b3J5IjpbMjA4MjgyNjI4NywtMTM3MTM5NTYwNCwtMT
+IwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0
+NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQxLD
+kzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNjAw
+NjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQsMT
+ExNjYwNzQ5Niw1MzIzNzQ3MjUsODI2MjI1MzYsLTIwNDQ2MTMz
+MTldfQ==
 -->
