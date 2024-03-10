@@ -161,10 +161,13 @@
 	- At the request of the open source community, we're now releasing a 7B model for offensive and defensive cybersecurity. This can be run locally in most computers with less GPU VRAM.
 - プロのライターが「仕事には、GPT-4は言うほど大して使えないけどClaude3はそこそこ使える」
 	- https://x.com/umiyuki_ai/status/1766284320208212472?s=20
+	- た
 - cyzgab/catch-me-if-you-can
 	- https://huggingface.co/spaces/cyzgab/catch-me-if-you-can
-	- GroqInc
- just added support for Gemma 7B. 
+	- GroqInc just added support for Gemma 7B. 
+	- なんかリアルタイムに質問に答えて（打鍵毎に予測して回答を生成している）
+	- まさに、catch me if you canとは。
+- 
 
 ## 3/4
 
@@ -3968,10 +3971,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	-  (e.g., 'a list of ice cream shops in San Diego')
 -  LLMのプロンプト技術まとめ
 	- https://qiita.com/fuyu_quant/items/157086987bd1b4e52e80
--  Zephyr: Direct Distillation of LM Alignment
-	- https://arxiv.org/abs/2310.16944
+-  Zephy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwNjc4MDY2LC0xMzcxMzk1NjA0LC0xMj
+eyJoaXN0b3J5IjpbMjMxNjQzNTQzLC0xMzcxMzk1NjA0LC0xMj
 AxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5NzQ0
 NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOT
 MwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2
