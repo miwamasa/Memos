@@ -29,6 +29,8 @@
 	- https://developer.nvidia.com/blog/build-an-llm-powered-api-agent-for-task-execution/
 	- NVIDIAより。LLM使ったAPI Agent
 	- ユーザーのクエリに対して、LLMがあらかじめ定義しておいたテンプレを使って子モジュールのLLM用のプロンプトを生成し、子モジュールLLMがそれぞれのタスクをこなして結果を返す
+- AnthropicAI、claude3をリリース
+	- https://x.com/AnthropicAI/status/1764653830468428150?s=20
 - llamaindex、さっそく Claude3サポート
 	- https://docs.llamaindex.ai/en/latest/examples/llm/anthropic.html
 	- Like Gemini and Mistral's latest offerings, Claude 3 comes in 3 "flavors" with the largest, Claude Opus, claiming better performance than GPT-4 across a wide range of benchmarks.
@@ -3978,10 +3980,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- pre-train LLMs with Retrieval Augmentation
 -  An Emulator for Fine-Tuning Large Language Models using Small Language Models
 	- https://huggingface.co/papers/2310.12962
-	- Emulator for Fine-Tuning(EFT)は、大規模な事前学習済みモデルを小規模な微調整済みモデルとアンサンブルすることで、大規模な事前学習済みモデルを微調整した結果をエミュレートするという、アップスケーリングが可能になった
--  Can large language models provide useful feedback on research papers? A large-
+	- Emulator for Fine-Tuning(EFT)は、大規模な事前学習済みモデルを小規模な微調整済みモデルとアンサンブルすることで、大規模な事前学習済みモデルを微調整した結果をエミュレートするという、アップスケーリングが可
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjY1OTE2NiwtNTk3NDQ2ODA0LDEzOT
+eyJoaXN0b3J5IjpbLTg2NzA0NjgzMywtNTk3NDQ2ODA0LDEzOT
 M0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgs
 LTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0Mz
 gwNjAsLTEwMDg5NDEyMjYsNTk4MDg1MjI0LDExMTY2MDc0OTYs
