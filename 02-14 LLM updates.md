@@ -4,8 +4,7 @@
 
 ## 3/11
 
-AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは(humanityの)終わりの始まりか。Groqは、gemma-7bベースのデモを公開、リアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたら、AI alignmentを強調するわけもわかるわ。分割統治式でタスクを分解するNVIDIAのAgent、Qwen-AgentとかAgent周りも当然進む。一方、日本のサブカルに強いgemma-7bベースの日英・英日翻訳モデルとか、 「はじめての統計的因果推論」、ゆるめの表紙の割には辛口なのが面白い。Benjoさんの東大講演、Hintonさんの日経インタビュー、いづれもAIが人を超えることによる脅威について語っている感じ。
-さて、Appleが生成AIに注力と発表、M3 MacBook Airを突然発表し、なんか不気味な感じがした。
+AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロモうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力が明らかにされる。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは(humanityの)終わりの始まりか。Groqは、gemma-7bベースのデモを公開、リアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたら、alignmentを強調するわけもわかるわ。分割統治式でタスクを分解するNVIDIAのAgent、Qwen-AgentとかAgent周りも当然進む。一方、日本のサブカルに強いgemma-7bベースの日英・英日翻訳モデルとか日本語モデルやデータセットの進展もある。 「はじめての統計的因果推論」、ゆるめの表紙の割には辛口なのが面白い。Benjoさんの東大講演、Hintonさんの日経インタビュー、いづれもAIが人を超えることによる脅威について語っている感じなのは興味深い。さて、Appleが生成AIに注力と発表、M3 MacBook Airを突然発表し、なんか不気味な感じがした。
 
 - Apple、パワフルなM3チップを搭載した新しい13インチと15インチMacBook Airを発表
 	- https://www.apple.com/jp/newsroom/2024/03/apple-unveils-the-new-13-and-15-inch-macbook-air-with-the-powerful-m3-chip/
@@ -3955,9 +3954,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 約30億と70億のパラメータを持つこれらのモデルは、日本語タスクの性能評価でトップクラス
 	- 3Bと7Bのサイズでそれぞれ圧倒的性能を誇る英語LLM「Stable LM 3B-4E1T」「Mistral-7B-v0.1」に継続事前学習を適用することでサクッとめちゃツヨ日本語LLM
 -  Japanese research is no longer world class — here’s why
-	- https://www.nature.com/articles/d41586-023-03290-1?error=cookies_not_supported&code=dd59d16e-8d54-49a4-95a3-8fcded36917f&utm_medium=Social&utm_campaign=nature&utm_source=Twitter#E
+	- https://www.nature.com/articles/d41586-023-03290-1?error=cookies_not_supported&code=dd59d16e-8d54-49a4-95a3-8fcded36917f&utm_medium=Social&utm_campaign=n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDU0OTM1NDksMTEzMDI5ODAzMiwxNz
+eyJoaXN0b3J5IjpbLTIxMTA4NTE2ODcsMTEzMDI5ODAzMiwxNz
 M1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2
 OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2OD
 A0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAy
