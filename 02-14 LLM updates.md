@@ -49,9 +49,12 @@
 	- 200k トークンの長文入力は健在で、さらにすべてのモデルで 1 million トークンも入力できるモデルのよう。ただしこちらは一部のクライアントにのみ提供。
 	- 大量の文章の中から重要な情報を抜き出せるかの評価に用いる「Needle In A Haystack」では、精巧性能の Opus をもってすれば精度 99% を達成。今までの Claude 2.1 と比べてめちゃはやい。公称 2 倍。
 	- また、JSON 出力など構造化データの出力が得意になり、自然言語による分類や感情分析などもできるように。使ってみたのですが、かなり良い感じに構造化データに変換できました
-	- 
+	- API は現時点で Opus と Sonnet は公開。Haiku は近日公開予定。
 - LangchainのClaude3サポート
 	- https://python.langchain.com/docs/integrations/chat/anthropic
+- img2table
+	- https://github.com/xavctn/img2table
+	- 画像から表を抽出するPythonライブラリなんだけど、めっちゃいい。セル結合にも対応してて大変素晴らしい
 - 
 
 ## 3/4
@@ -3977,10 +3980,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://llm-jp.nii.ac.jp/release/
 	- インストラクションデータでチューニングしたモデルや訓練・チューニングに用いたソフトウェアも公開
 - データでできることのレベル感を理解する（デジタル庁の人のスライドより）
-	- https://speakerdeck.com/hik0107/data-design-and-government?slide=10
-	- 現状の把握(lv.1)、分解と差異の把握(Lv.2)、原因の把
+	- https://speakerdeck.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3MTk2NTMwLC0xNzU5MzgxNDU1LC01OT
+eyJoaXN0b3J5IjpbODU3NjI5MDY5LC0xNzU5MzgxNDU1LC01OT
 c0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQx
 LDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNj
 AwNjI1LDE5MTQzODA2MCwtMTAwODk0MTIyNiw1OTgwODUyMjQs
