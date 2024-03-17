@@ -9,7 +9,11 @@
 	- ファインチューニングには1万件のデータで充分なんだという論文。
 - Claude 3に例の「読了目安2時間」記事を解説させてみた - 高木浩光＠自宅の日記（2024年3月11日）
 	- https://takagi-hiromitsu.jp/diary/20240311.html
+	- ひろみちゅ先生絶賛
 	- 「Anthropicの先日出たばかりのClaude 3（Opus）が、ChatGPTのGPT-4を超えてきたと聞いて、自分の原稿を解説させてみたところ、確かに革新的な進歩が見られる。もはや内容…」
+-  Is Cosine-Similarity of Embeddings Really About Similarity?
+	- https://arxiv.org/abs/2403.05440
+	- コサイン類似度を疑っていけ！！
 - 
 
 ## 3/11
@@ -3958,16 +3962,12 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/npaka/n/ndec10f78fe2f
 	- 人間を評価者としたベンチマーク、 GPT-4を評価者としたベンチマーク、QAデータセットによるベンチマーク、コード生成のベンチマーク、埋め込みのベンチマーク、 ロールプレイのベンチマーク
 	- 現状で自動評価可能な最良のアプローチはGPT-4を評価者とする方法。ただしコストなど課題がある
-- MiniGPT-V
-	- https://note.com/ai_meg/n/n748acc8e824b
-	- MiniGPT-4のAPIを実装する。　プログラムでマルチモーダルを自由に操作する。
--  Google Colab で Japanese Sta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTM5MzE0NCwxMzQ3Njk5MjUwLDUzNT
-QxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5
-NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC
-0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4
-NDQ4NiwtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLD
-kzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0
-MTIyNl19
+eyJoaXN0b3J5IjpbLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1Mz
+U0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5
+OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OS
+wtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2
+ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMC
+w5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5
+NDEyMjZdfQ==
 -->
