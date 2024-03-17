@@ -99,7 +99,12 @@
 	- https://x.com/AiBreakfast/status/1767612026925277424?s=20
 	- This OpenAI blog search result shows up in a DuckDuckGo search of “OpenAI GPT-4.5 Turbo” link, then goes to an OpenAI Error 404 page.
 - 企業が求める主体性とはなにか？
-	- 
+	- https://www.amazon.co.jp/dp/4798918431/ref=cm_sw_r_as_gl_api_gl_i_294DJF3GFDESXD5WSRBV?linkCode=ml1&tag=regista13-22
+	- 企業が期待する「主体性」はかつては行動力だったのが今は思考力と協調・協働できる力になってるとのこと。コミュ力の時代の反映。
+-  いま「新しい数学」が必要だ。助けて数学者! by shi3z さん
+	- https://note.com/shi3zblog/n/nafa1cee6ada2?sub_rt=share_pw
+	- たぶんAI以後の世界で最も価値を持つのは「数学者」である。しかも「高次元幾何学」ないし、それを上回るくらいの概念を発明する数学者だろう
+- 
 
 ## 3/11
 
@@ -3940,16 +3945,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- gpt-3.5に迫る？？
 - マルチモーダルのKOSMOS-2を取り込んだtransformerの更新！ by huggingface
 	- KOSMOSのでもはこちら
-		- https://huggingface.co/spaces/ydshieh/Kosmos-2
-- Text generation web UIをつかって、cyberagent_calm2-7b-chat
-	- https://x.com/StelsRay/status/1720137767857029444?s=20
-	- モデルのLoad時にuse_fastがONじゃないと動かない点が罠だった！
--  LangChain クイックスタートガイド - Python版　 by npakaさん
-	- https://note.com/npaka/n/n0fd7bd3ed27b?sub_rt=share_sb
-	- 11/4版なので、整理されているし、「**LCEL**」(LangChain Expression Language)なんかよく分かった
-- Ide
+		- https://huggingface.co/space
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzUxOTczMSwtMTg1MjcyMTIzNSwtMT
+eyJoaXN0b3J5IjpbMTg0NjA4NjgyMiwtMTg1MjcyMTIzNSwtMT
 U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
 MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
 wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
