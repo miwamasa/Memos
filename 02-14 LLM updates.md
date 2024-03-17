@@ -167,6 +167,9 @@
 -  BitNet&BitNet b158の実装 by はち さん
 	- https://note.com/hatti8/n/nc6890e79a19a
 	- 一旦自身の理解のためにもBitNetの処理やBitNet b158の想像される実装、不明瞭な点を色々な方々の実装をもとに文字に書き起こしていこうと思います
+- 岡野原さんの、「大規模言語モデル開発の展望と今後の課題」
+	- https://hillbig.github.io/NLP2024_WS_okanohara.pdf
+	- 様々なトピック（学習データ整備、MoE、Mamba、LongContext、推論効率化）などを紹介
 - 
 
 ## 3/11
@@ -3922,16 +3925,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- かなりいい感じの文埋め込みモデルができたと思うので、ぜひお使いください...！！
 	- https://github.com/hppRC/simple-simcse-ja
 - Youri 7B InstructionのGPTQモデルつかえば、GPUメモリ8GBでもローカルでLLM翻訳ができそうな気配
-	- https://x.com/kis/status/1719284609761108462?s=20
-- ソフトバンク、 国産大規模言語モデル（LLM）の開発を本格開始
-	- https://www.softbank.jp/corp/news/press/sbkk/2023/20231031_01/
-	- 2024年
+	- https://x.com/kis/st
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDA2Mzk5OCwtNTU3OTA1ODAwLC0yMD
-UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
-NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
-MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
-NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
-U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
-ODkwNjQxXX0=
+eyJoaXN0b3J5IjpbNjk4MTA2NzI5LC01NTc5MDU4MDAsLTIwNT
+E2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1
+LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMz
+AyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1
+NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NT
+UsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4
+OTA2NDFdfQ==
 -->
