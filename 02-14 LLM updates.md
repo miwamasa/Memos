@@ -85,6 +85,10 @@
 - shioriha-large-pt
 	- https://huggingface.co/cl-nagoya/shioriha-large-pt
 	- 東北大BERT-largeに対し、batch size 8192, 系列長 256で、日本語WikipediaやMMARCOといった弱教師データによる対照事前学習を行ったモデルであるshioriha-large-ptを公開しました
+- Tour of Modern LLMs
+	- https://phontron.com/class/anlp2024/assets/slides/anlp-15-tourofllms.pdf
+	- CMUの講義資料、
+	- I made some new class slides on “a tour of modern LMs” that has some observations about characteristics of recent LLMs, mostly focusing on open LLMs where we know their details
 - 
 
 ## 3/11
@@ -3951,15 +3955,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/npaka/n/nd449d5190431?sub_rt=share_b
 	- 「LlamaIndex」は、プライベートやドメイン固有の知識を必要とする専門知識を必要とする質問応答チャットボットを簡単に作成できるライブラリです。
 - シンガポールの首相は、C++で数独ソルバーを公開している	
-	- https://t.co/rWig2ugILa
-- CALM2-7Bをベンチマークする(11/5追記)
-	- https://note.com/shi3zblog/n/n8b9ff5ea62bf?sub_rt=share_sb
-- 今の高校では『情報Ⅰ』という科目ができて、ITパスポート相当のことを学んでいる→”高卒相当”のレベルが上がっているという話
-	- https://togetter.com/li/2253207
-- ＢＸストラテジー　実践行動経済学2.0 人を動かす心のツボ
-	- https://www.amazon.co.jp/dp/4296115758?ref_=cm_sw_
+	- https:/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA4Njg4NzcsLTE4NTI3MjEyMzUsLT
+eyJoaXN0b3J5IjpbLTE3MTQxMzk3NzEsLTE4NTI3MjEyMzUsLT
 E1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5
 ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MD
 QsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwt
