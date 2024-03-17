@@ -61,7 +61,12 @@
 -  Adding NVMe SSDs to Enable and Accelerate 100B Model Fine-tuning on a Single GPU
 	- https://arxiv.org/abs/2403.06504
 	- 本論文中で紹介されているFuyouを使うと、なんと一般消費者向けのGPUであるRTX 4090上で175Bパラメーター、つまりGPT-3 を微調整可能なんですって！
-- 
+- Claude3の公式promptライブラリの英文校正prompt
+	- https://note.com/genkaijokyo/n/n3f82b191dfda
+	- Your task is to take the text provided and rewrite it into a clear, grammatically correct version while preserving the original meaning as closely as possible. Correct any spelling mistakes, punctuation errors, verb tense issues, word choice problems, and other grammatical mistakes. Use bold formatting in markdown to emphasize the edited portions of the English text.
+- Raspberry Pi 5に日本語LLM(ELYZA-Japanese-Llama-2-7b-fast-Instruct)を入れてみた
+	- https://arkouji.cocolog-nifty.com/blog/2024/03/post-e248e6.html
+	- 
 
 ## 3/11
 
@@ -3956,16 +3961,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 10/30
 
-新しいLLMがどんどん発表される。「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」、7BのLLMの覇者は、Mistral 7Bという話題もあったが、ReActをこなせる7bは、Zephyr-7b-betaということらしい、日本語はどうか？OSSのLLMで構造的な出力(Pydantic)を出すにはファインチューニングが有効らしい。text-to-SQLもファインチューニングが有効とのこと。心の理論(TOM)も、心理学のVoE理論の応用とかがあった。LLM の ベンチマーク、いろいろ紹介されるが、自動評価の結果がレーダーチャートで可視化されるMT-Benchが良いかも。既存の概念を組み合わせるsystematic compositionalityの能力をニューラルネットが持つことができるってのは、これはメタファー理論による認知の仕組みの解明が一歩現実に近づいたのか。Prompt によるLLMへの指示を超えるという、LLM programはは、分割統治というか、アンサンブルというかそういう感じ。MicrosoftのAgent Frameworkって前からあったような気もするが、なぜ注目？Hinton先生とLecum先生の議論がLLMの次を見据えた議論で面白い。限界は、ひょんなことから超えられてゆくという歴史もあるよな。FastChatで様々なLLMを試せて評価の幅が広がる、M-BenchもFastChat利用を想定しているのか。
-
-- 7bのフルファインチューニングがcolabで動く？VRAM 32G程度で行けると
-	- https://x.com/Sakkusa
+新しいLLMがどんどん発表される。「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」、7BのLLMの覇者は、Mistral 7Bという話題もあったが、ReActをこなせる7bは、Zephyr-7
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NzU4MDM0NSwtMTg1MjcyMTIzNSwtMT
-U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
-MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
-wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
-OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNj
-QxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEz
-NjAwNjI1XX0=
+eyJoaXN0b3J5IjpbLTEwOTUyMjY0NDIsLTE4NTI3MjEyMzUsLT
+E1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5
+ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MD
+QsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwt
+NTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MD
+Y0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIx
+MzYwMDYyNV19
 -->
