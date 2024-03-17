@@ -104,7 +104,11 @@
 -  いま「新しい数学」が必要だ。助けて数学者! by shi3z さん
 	- https://note.com/shi3zblog/n/nafa1cee6ada2?sub_rt=share_pw
 	- たぶんAI以後の世界で最も価値を持つのは「数学者」である。しかも「高次元幾何学」ないし、それを上回るくらいの概念を発明する数学者だろう
-- 
+- Devin, the first AI software engineer.
+	- https://x.com/cognition_labs/status/1767548763134964000?s=20
+	- Devin is the new state-of-the-art on the SWE-Bench coding benchmark, has successfully passed practical engineering interviews from leading AI companies, and has even completed real jobs on Upwork.
+	- AIのソフトウェアエンジニア（Devin）が人間レベルに達した初めてのデモだと思う。AIの導入で課題となってたのが長期的な推論と計画。ところが、Devinは計画→実行→評価→再計画を繰り返し、目標達成へと導くシステムを実現している
+	- 
 
 ## 3/11
 
@@ -3934,24 +3938,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://huggingface.co/spaces/hayas/CALM2-7B-chat
 - llamaとllama2の違い by NTT 西田さん
 	- https://speakerdeck.com/kyoun/llama-2-open-foundation-and-fine-tuned-chat-models
-- 日本語DeBERTaV2モデルを公開しました！
-	- 形態素解析器の事前の単語分割なしで使えるbase, smallモデルになっています
-	- https://huggingface.co/izumi-lab/deberta-v2-base-japanese
-- なんと、japanese-stablelm-instruct-beta-70B-GGUF
-	- TheBloke/japanese-stablelm-instruct-beta-70B-GGUF
-	- ggufのくせに40Gもあるよ、まったく
-- OpenChat3.5
-	- https://huggingface.co/openchat/openchat_3.5
-	- gpt-3.5に迫る？？
-- マルチモーダルのKOSMOS-2を取り込んだtransformerの更新！ by huggingface
-	- KOSMOSのでもはこちら
-		- https://huggingface.co/space
+- 日本語DeBERTaV2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjA4NjgyMiwtMTg1MjcyMTIzNSwtMT
-U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
-MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
-wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
-OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNj
-QxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEz
-NjAwNjI1XX0=
+eyJoaXN0b3J5IjpbNzUxOTIzNDA4LC0xODUyNzIxMjM1LC0xNT
+c2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgw
+MzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC
+0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5
+NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2ND
+EsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2
+MDA2MjVdfQ==
 -->
