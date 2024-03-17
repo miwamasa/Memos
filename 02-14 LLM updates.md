@@ -69,7 +69,10 @@
 -  RecAI: Leveraging Large Language Models for Next-Generation Recommender Systems
 	- https://arxiv.org/abs/2403.06465
 	- Microsoft presents a toolkit to integrate LLMs into recommender systems for explainability, conversation, and user control.
-- 
+-  臨床予測モデル検証の要点
+	- https://note.com/tadahiro_goto/n/n90128159a7fb?sub_rt=share_pb
+	- 2024年1月にBMJのResearch Methods & Reportingで予測モデルの評価と外的検証に関するreview
+	- 
 
 ## 3/11
 
@@ -3955,12 +3958,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 『言語哲学がはじまる』野矢茂樹著
 	- https://www.iwanami.co.jp/book/b633363.html
 	- 日経の書評(11/4朝刊)掲載
-	- 言葉とは何か。この問いにフレーゲ、ラッセル、ウィトゲンシュタインはどう挑んだのか。とびきりたのしい言語哲学の説き語り
-	- 単語単独で意味を持つのか、文章の中の関係性として意味を持つのか、LLMは何を見ている？
-- 牧野先生、PFN開発のMN-core開発に注力
-	- https://jun-makino.sakura.ne.jp/articles/future_sc/no
+	- 言葉とは何か。この問いにフレーゲ、ラッセル、ウィトゲンシュタインはどう挑んだ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTE0Njk5OCwtMTg1MjcyMTIzNSwtMT
+eyJoaXN0b3J5IjpbMTg5MjE4MzIyMywtMTg1MjcyMTIzNSwtMT
 U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
 MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
 wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
