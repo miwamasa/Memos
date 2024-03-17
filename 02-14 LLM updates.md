@@ -95,7 +95,11 @@
 - Talk like a graph: Encoding graphs for large language models
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a kitchen, parts of a bike, or a group of friends. Learn about our latest work that explores how to encode graphs in a format that an LLM can understand:
-- 
+- GPT-4.5 Turbo possible release in June, 256k token context window
+	- https://x.com/AiBreakfast/status/1767612026925277424?s=20
+	- This OpenAI blog search result shows up in a DuckDuckGo search of “OpenAI GPT-4.5 Turbo” link, then goes to an OpenAI Error 404 page.
+- 企業が求める主体性とはなにか？
+	- 
 
 ## 3/11
 
@@ -3943,14 +3947,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  LangChain クイックスタートガイド - Python版　 by npakaさん
 	- https://note.com/npaka/n/n0fd7bd3ed27b?sub_rt=share_sb
 	- 11/4版なので、整理されているし、「**LCEL**」(LangChain Expression Language)なんかよく分かった
-- Idempotent Generative Network
-	- https://assafshocher.github.io/IGN/
-	- 拡散モデルではない新しい生成モデルがGoogleとUC Berkeleyから出たようだ。ノイズ除去というよりか分布を1stepで変換できるモデルことを仮定するらしい
-- CALM2のGPTQ版が正常動作するようになりました。VRAMが少ない方は是非お使いください。
-	- https://huggingface.co/mmnga/cyberagent-calm2-7b-chat-GPTQ-calib-ja-1k
--  CALM2
+- Ide
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzI4MTMzNiwtMTg1MjcyMTIzNSwtMT
+eyJoaXN0b3J5IjpbLTY0NzUxOTczMSwtMTg1MjcyMTIzNSwtMT
 U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
 MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
 wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
