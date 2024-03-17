@@ -56,6 +56,12 @@
 	- https://pubs.acs.org/doi/full/10.1021/acscentsci.3c00822
 	- ブロッコリーには強力な抗がん作用があることは知られているけれど、シドニー大学らの研究によれば、ブロッコリーは癌だけでなく、脳卒中を引き起こす可能性のある血栓症を予防し、血栓症の治療を補助する効果もあると示された。
 - Llama.cpp で Swallow MX 8x7B を試す
+	- https://note.com/npaka/n/n0a9b514756ae?sub_rt=share_b
+	- 「Swallow MX 8x7B」は、「Mixtral 8x7B」の日本語能力を強化した大規模言語モデルです
+-  Adding NVMe SSDs to Enable and Accelerate 100B Model Fine-tuning on a Single GPU
+	- https://arxiv.org/abs/2403.06504
+	- 本論文中で紹介されているFuyouを使うと、なんと一般消費者向けのGPUであるRTX 4090上で175Bパラメーター、つまりGPT-3 を微調整可能なんですって！
+- 
 
 ## 3/11
 
@@ -3953,14 +3959,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 新しいLLMがどんどん発表される。「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」、7BのLLMの覇者は、Mistral 7Bという話題もあったが、ReActをこなせる7bは、Zephyr-7b-betaということらしい、日本語はどうか？OSSのLLMで構造的な出力(Pydantic)を出すにはファインチューニングが有効らしい。text-to-SQLもファインチューニングが有効とのこと。心の理論(TOM)も、心理学のVoE理論の応用とかがあった。LLM の ベンチマーク、いろいろ紹介されるが、自動評価の結果がレーダーチャートで可視化されるMT-Benchが良いかも。既存の概念を組み合わせるsystematic compositionalityの能力をニューラルネットが持つことができるってのは、これはメタファー理論による認知の仕組みの解明が一歩現実に近づいたのか。Prompt によるLLMへの指示を超えるという、LLM programはは、分割統治というか、アンサンブルというかそういう感じ。MicrosoftのAgent Frameworkって前からあったような気もするが、なぜ注目？Hinton先生とLecum先生の議論がLLMの次を見据えた議論で面白い。限界は、ひょんなことから超えられてゆくという歴史もあるよな。FastChatで様々なLLMを試せて評価の幅が広がる、M-BenchもFastChat利用を想定しているのか。
 
 - 7bのフルファインチューニングがcolabで動く？VRAM 32G程度で行けると
-	- https://x.com/Sakkusakumura/status/1716158933319246289?s=20
-- Character-LLM: A Trainable Agent for Role-Playing
-	- https://aiboom.net/archives/57223
-	- 特定の人物、例えばベートーヴェンやクレオパトラなどの行動や感情を模倣させるよう訓練する新しいフレームワーク『Character-LLM（キャラクターLLM）』
-	- 訓練されたLLMは、特定の人物としての行動や感情を効果的に模倣できることが確認されました。
--  Progressive3D: Progressively Local Editing for Text-to-3D Co
+	- https://x.com/Sakkusa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDI1Mjk5NywtMTg1MjcyMTIzNSwtMT
+eyJoaXN0b3J5IjpbLTU5NzU4MDM0NSwtMTg1MjcyMTIzNSwtMT
 U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
 MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
 wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
