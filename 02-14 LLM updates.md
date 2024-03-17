@@ -79,7 +79,13 @@
 		-   **モデルを開発する時点でデータを分割(split)することは、信頼性の低いモデルにつながるため避けるべき**。
 		- 利用可能なすべてのデータを活用する努力をすべき（内的検証におけるresamplingや、内的-外的交差検証など）
 - Accelerate v0.28.0 has been released!
-	- 
+	- From XLA GPU support to FSDP + QLORA, and more, let's dive into what's new!
+- 音声認識に使えるモデルは様々ありますが、現状最も使いやすいものの一つが faster-whispe
+	- https://github.com/SYSTRAN/faster-whisper
+- shioriha-large-pt
+	- https://huggingface.co/cl-nagoya/shioriha-large-pt
+	- 東北大BERT-largeに対し、batch size 8192, 系列長 256で、日本語WikipediaやMMARCOといった弱教師データによる対照事前学習を行ったモデルであるshioriha-large-ptを公開しました
+- 
 
 ## 3/11
 
@@ -3951,16 +3957,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 今の高校では『情報Ⅰ』という科目ができて、ITパスポート相当のことを学んでいる→”高卒相当”のレベルが上がっているという話
 	- https://togetter.com/li/2253207
 - ＢＸストラテジー　実践行動経済学2.0 人を動かす心のツボ
-	- https://www.amazon.co.jp/dp/4296115758?ref_=cm_sw_r_cp_ud_dp_BM2H3QZ9AHNCYW8F2ZY7
-	- 企業経営の現場でどのように行動変容を促せばよいのかという知見が体系的に整理されており、法則や理論を寄せ集めたこれまでの事例集的な行動経済学本とは一線を画す良書でした。
-- Xから、Grok発表, Elon’s new LLM.
-	- https://x.com/xai/status/1721027348970238035?s=20
-	- 330億パラメータGrok-0（LLaMA 2 (70B) の機能に近づき、トレーニングリソースの半分しか使用しない）を元にGrok-1を開発。
-	- Grok-1 は GPT3.5や Inflection-1を標準的なベンチマークで超える。
-- CALM2-7Bの性能を他の日本語LLMと比較してみた
-	- https://n
+	- https://www.amazon.co.jp/dp/4296115758?ref_=cm_sw_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQ5MTQ4NjgsLTE4NTI3MjEyMzUsLT
+eyJoaXN0b3J5IjpbLTEwMDA4Njg4NzcsLTE4NTI3MjEyMzUsLT
 E1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5
 ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MD
 QsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwt
