@@ -214,6 +214,16 @@
 	- This is the code for the paper [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/abs/2201.02177) by Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, and Vedant Misra
 	- XからGroqがオープンソース化とのアナウンスが出たが、なんかOpenAIが別実装を公開！
 - Claude 3 Opusを使って世界経済を分析するデモ動画
+	- https://twitter.com/i/bookmarks?post_id=1769351991665594465
+	- Claude 3デモの何が凄いかというと国別の経済動向を調べさせるため、
+		- ①10個のSub-agentを作る 
+		- ②必要なプロンプトを生成 
+		- ③仕事を外注（笑） 
+		- ④結果を集めレポートを書く と、
+	- 自分の仕事をSub-agentにデリゲート（委任）できたこと。仕事を与えると一番効率のいい方法で進められるのがホント凄い。
+-  Open Release  of Grok-1
+	- https://x.ai/blog/grok-os
+	- 本家のGrokリリース
 	- 
 
 ## 3/11
@@ -3918,19 +3928,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 「アナロジア」のジョージ・ダイソンがLLMについて語る
 	- https://www.hayakawabooks.com/n/n6b8cf31a9472
 	- 大規模言語モデルはいわゆる言語の地図とも言えるものであり、いろいろなAIは、その地図を辿って有用な目的地までデジタル方式のアルゴリズムでナビゲーションをしているだけです。
-	- こうした地図はまだ市販の画像処理用チップGPUでシミュレーションされただけのものですが、いずれこうした（言語ばかりかイメージやありとあらゆる事象を重みづけする）巨大なモデル専用のアナログチップが利用されるようになり、徐々に浸透していき現行のシステムに代わっていくと思います。
-- 「アナロジア」ジョージ・ダイソンより
-	- 連続体仮設はデジタル・コンピューティングも、アナログ・コンピューティングもどちらも無限の力を持つが、それぞれがどれだけ進化しても発揮する力が異なることを示唆している(P292)
-	- アナログ・コンピューティングでは複雑性はコードでなくアーキテクチャに宿る。
-	- デジタル・コンピュータは硬直化してノイズをに対する耐性を失ってしまった、アナログ・コンピュータである
-	- アナログ・コンピュータはノイズを受け入れるばかりか、＜略＞機能するために一定の背景ノイズを必要とさえしている。(P295)
-- 
+	- こうした地図はまだ市販の画像処理用チップGPUでシミュレーションされただけのものですが、いずれこうした（言語ばかりかイメージやありとあらゆる事象を重みづけする）巨大なモデル専用のアナログチップが
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY1OTQ2MTIsLTU1NzkwNTgwMCwtMj
-A1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEy
-MzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMT
-EzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEz
-OTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MT
-Q1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3
-Mjg5MDY0MV19
+eyJoaXN0b3J5IjpbMTYzOTQwMzYwOCwtNTU3OTA1ODAwLC0yMD
+UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
+NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
+MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
+NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
+U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
+ODkwNjQxXX0=
 -->
