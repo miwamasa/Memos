@@ -170,7 +170,15 @@
 - 岡野原さんの、「大規模言語モデル開発の展望と今後の課題」
 	- https://hillbig.github.io/NLP2024_WS_okanohara.pdf
 	- 様々なトピック（学習データ整備、MoE、Mamba、LongContext、推論効率化）などを紹介
-- 
+-  MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training
+	- https://arxiv.org/abs/2403.09611
+	- Apple presents MM1, a family of multimodal LLMs up to 30B parameters, that are SoTA in pre-training metrics and perform competitively after fine-tuning
+- Google Cloud Vertex AI に Anthropic の Claude 3 モデルが登場
+	- https://cloud.google.com/blog/ja/products/ai-machine-learning/announcing-anthropics-claude-3-models-in-google-cloud-vertex-ai/?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy24q1-googlecloud_jp-blog-ai-in_feed-no-brand-regional-apac&utm_content=announcing-anthropics-claude-3-models-in-google-cloud-vertex-ai&utm_term=-
+	- Google は #Anthropic とのパートナーシップを通じ、包括的な #AI 開発プラットフォームである #VertexAI で Anthropic の最新モデルを提供していきます。これにより、エンタープライズ グレードのセキュリティや、パフォーマンスと費用の最適化に活用いただけま
+- 清水れみお氏のGenerate Project Summary（プロジェクト要約生成）を使ってみる
+	- https://six-loganberry-ba7.notion.site/24-03-15-Generate-Project-Summary-fa20870dfe66426d9e68b730e1f51f11
+	- 
 
 ## 3/11
 
@@ -3905,33 +3913,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/yi_ding/status/1719028284548382901?s=20
 - シリコンバレー銀行の破綻を、シンプルに解析するnotebookが公開。スタンフォード大学Professor Ashwin Raoによる
 	- https://colab.research.google.com/drive/15uxrAeCCL327kWH9N0X-ogKwf2zErjP5
-- Microsoft うっかりgpt-3.5が20b相当だと漏らす、
-	- CodeFusion: A Pre-trained Diffusion Model for Code Generation
-	- https://arxiv.org/abs/2310.17680
-	- Microsoft paper claims ChatGPT 3.5 has ~20 billion parameters
-- BlokeニキがStability AI Japan のモデルを4bit量子化
-	- https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GPTQ
-- rinnaはLlama 2の日本語継続事前学習モデル「Youri 7B」シリーズを公開しました。 
-	- https://rinna.co.jp/news/2023/10/20231031.html
-	- ①Youri 7B：日英40Bトークンで継続事前学習 
-	- ②Youri 7B Instruction：高いベンチマークスコア 
-	- ③Youri 7B Chat：複数ターンの対話に強い 
-	- GPTQ 4bit 量子化モデルも公開しています。
--  Google Colab で Youri-7B を試す by npakaさん
-	- https://note.com/npaka/n/nccadcbcfe37e?sub_rt=share_sb
-	- 複数ターンの対話モデル (GPTQ版)である「rinna/youri-7b-chat-gptq」を使います
-- 多様な日本語事前学習済みモデルをSimCSEで文埋め込みモデルにfine-tuning
-	- https://arxiv.org/abs/2310.19349
-	- かなりいい感じの文埋め込みモデルができたと思うので、ぜひお使いください...！！
-	- https://github.com/hppRC/simple-simcse-ja
-- Youri 7B InstructionのGPTQモデルつかえば、GPUメモリ8GBでもローカルでLLM翻訳ができそうな気配
-	- https://x.com/kis/st
+- Microsof
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4MTA2NzI5LC01NTc5MDU4MDAsLTIwNT
-E2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1
-LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMz
-AyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1
-NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NT
-UsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4
-OTA2NDFdfQ==
+eyJoaXN0b3J5IjpbMTA0MzU5MTY4MCwtNTU3OTA1ODAwLC0yMD
+UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
+NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
+MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
+NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
+U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
+ODkwNjQxXX0=
 -->
