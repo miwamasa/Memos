@@ -117,8 +117,14 @@
 	- https://x.com/npaka123/status/1767807910925545892?s=20
 - Claude 3 Haiku, the fastest and most affordable model in its intelligence class.
 	- https://x.com/AnthropicAI/status/1768018310615151002?s=20
-- ChatGPT、ついにロボットに宿る
+- With OpenAI, Figure 01 can now have full conversations with people
 	- https://x.com/Figure_robot/status/1767913661253984474?s=20
+	- ChatGPT、ついにロボットに宿る
+	- 2週間前、OpenAIとロボット開発のFigureが提携を発表しました。
+	- 今回、Figureは、ChatGPTの技術をロボットに搭載したことを発表しました。
+	- 遠隔操作なしの100%エンドツーエンドのシステム 
+	- OpenAIのモデルが高レベルの視覚と言語の知性を提供
+	- Figureのニューラルネットワークが動画のようなロボットの動作を実現しています
 
 ## 3/11
 
@@ -3930,14 +3936,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2310.20539
 - Japanese TinyLLaMa 1.1 B, llama.cpp で wasm でブラウザでも動く
 	- https://github.com/lighttransport/japanese-normalizer-cpp
-	- https://x.com/syoyo/status/1719646103891845438?s=20
--  LLMを利用したFAQ検索の評価データセットの作成〜その２〜
-	- https://www.ai-shift.co.jp/techblog/3761
-	- 「1.  FAQの回答内容から質問内容を抽出」をベースに、生成時のpromptの工夫について取り組んだ
-- calm2で議事録をまとめてみました。AI時代の知的財産権検討会（第１回）
-	- https://x.com/alfredplpl/status/1720005676829970472?s
+	- https://x.com/syoyo/s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODcyMjE3NCwtMTg1MjcyMTIzNSwtMT
+eyJoaXN0b3J5IjpbMTAyNTY1MDA1NywtMTg1MjcyMTIzNSwtMT
 U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
 MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
 wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
