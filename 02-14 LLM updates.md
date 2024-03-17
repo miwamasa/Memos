@@ -50,6 +50,10 @@
 	- https://arxiv.org/abs/2402.07630
 - ＪＰＸ総研は、生成AIプロバイダであるBridgewiseの技術を活用し、日本市場にかかる情報を発信する新サービス「JPX Market Explorer」のPoCを開始します。
 	- https://www.jpx.co.jp/corporate/news/news-releases/6020/20240312-01.html
+	- 東証に上場する会社について、個社のビジネス概要や直近の決算のサマリーを簡単に調べたり、財務状況についての分析や競合他社との比較を行うことができます。
+	- コンテンツや分析はBridgewiseの生成AIテクノロジーを利用して作成されます
+-  Integrating Phenotypic and Chemoproteomic Approaches to Identify Covalent Targets of Dietary Electrophiles in Platelets
+	- https://pubs.acs.org/doi/full/10.1021/acscentsci.3c00822
 	- 
 
 ## 3/11
@@ -3955,16 +3959,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 訓練されたLLMは、特定の人物としての行動や感情を効果的に模倣できることが確認されました。
 -  Progressive3D: Progressively Local Editing for Text-to-3D Content Creation with Complex Semantic Prompts
 	- https://cxh0519.github.io/projects/Progressive3D/?ref=aiartweekly
-	- Progressive3D brings region specific object manipulation through text with a DALL-E 3 like level of prompt understanding to the table.
-	- ３Dモデルに対して、様々な加工を言語で行う
-- Courtland Leer et al., "Violation of Expectation via Metacognitive Prompting Reduces Theory of Mind Prediction Error in Large Language Models"
-	- https://arxiv.org/abs/2
+	- Progressive3D brings regi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMT
-M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
-NDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5Nj
-QsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEz
-OTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MD
-gsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0
-MzgwNjBdfQ==
+eyJoaXN0b3J5IjpbLTU1MTgwMTMxNCwtMTg1MjcyMTIzNSwtMT
+U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
+MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
+wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
+OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNj
+QxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEz
+NjAwNjI1XX0=
 -->
