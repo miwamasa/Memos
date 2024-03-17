@@ -7,6 +7,10 @@
 	- https://arxiv.org/abs/2403.04652
 	- Super interesting paper - 10k data is all you need for finetuning LLM
 	- ファインチューニングには1万件のデータで充分なんだという論文。
+- Claude 3に例の「読了目安2時間」記事を解説させてみた - 高木浩光＠自宅の日記（2024年3月11日）
+	- https://takagi-hiromitsu.jp/diary/20240311.html
+	- 「Anthropicの先日出たばかりのClaude 3（Opus）が、ChatGPTのGPT-4を超えてきたと聞いて、自分の原稿を解説させてみたところ、確かに革新的な進歩が見られる。もはや内容…」
+- 
 
 ## 3/11
 
@@ -3957,12 +3961,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - MiniGPT-V
 	- https://note.com/ai_meg/n/n748acc8e824b
 	- MiniGPT-4のAPIを実装する。　プログラムでマルチモーダルを自由に操作する。
--  Google Colab で Japanese Stable LM Gamma 7B を試す by npakaさん
-	- https://note.com/npaka/n/n4f2d6e6c11f7?sub_rt=share_b
-- 日本語大規模言語モデル「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」
-	- https://ja.stability.ai/blog/japanese-stable-lm-3b-4e
+-  Google Colab で Japanese Sta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Mjg4MTY5MiwxMzQ3Njk5MjUwLDUzNT
+eyJoaXN0b3J5IjpbMTMxNTM5MzE0NCwxMzQ3Njk5MjUwLDUzNT
 QxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5
 NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC
 0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4
