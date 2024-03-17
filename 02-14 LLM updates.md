@@ -52,6 +52,7 @@
 	- https://www.jpx.co.jp/corporate/news/news-releases/6020/20240312-01.html
 	- 東証に上場する会社について、個社のビジネス概要や直近の決算のサマリーを簡単に調べたり、財務状況についての分析や競合他社との比較を行うことができます。
 	- コンテンツや分析はBridgewiseの生成AIテクノロジーを利用して作成されます
+	- 生成AIを用いて各企業の概要、直近の決算サマリ、財務状況の簡単な分析や競合他社との比較を行うことができる
 -  Integrating Phenotypic and Chemoproteomic Approaches to Identify Covalent Targets of Dietary Electrophiles in Platelets
 	- https://pubs.acs.org/doi/full/10.1021/acscentsci.3c00822
 	- ブロッコリーには強力な抗がん作用があることは知られているけれど、シドニー大学らの研究によれば、ブロッコリーは癌だけでなく、脳卒中を引き起こす可能性のある血栓症を予防し、血栓症の治療を補助する効果もあると示された。
@@ -115,7 +116,9 @@
 - Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングの練習。500ステップ(0.2エポック : 20分) のお試しだけど、きれいに回答してくれてる
 	- https://x.com/npaka123/status/1767807910925545892?s=20
 - Claude 3 Haiku, the fastest and most affordable model in its intelligence class.
-	- 
+	- https://x.com/AnthropicAI/status/1768018310615151002?s=20
+- ChatGPT、ついにロボットに宿る
+	- https://x.com/Figure_robot/status/1767913661253984474?s=20
 
 ## 3/11
 
@@ -3932,17 +3935,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.ai-shift.co.jp/techblog/3761
 	- 「1.  FAQの回答内容から質問内容を抽出」をベースに、生成時のpromptの工夫について取り組んだ
 - calm2で議事録をまとめてみました。AI時代の知的財産権検討会（第１回）
-	- https://x.com/alfredplpl/status/1720005676829970472?s=20
-	- https://www.kantei.go.jp/jp/singi/titeki2/ai_kentoukai/kaisai/index.html
-	- 主張1: AIによって生成されたコンテンツも含まれるべきである。 
-	- 主張2: AIによって生成されたコンテンツは、人間によって創作されたコンテンツと同等に保護されるべきである。 
-	- 主張3: 著作権を侵害する行為には
+	- https://x.com/alfredplpl/status/1720005676829970472?s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzI3Nzk4LC0xODUyNzIxMjM1LC0xNT
-c2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgw
-MzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC
-0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5
-NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2ND
-EsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2
-MDA2MjVdfQ==
+eyJoaXN0b3J5IjpbMTk2ODcyMjE3NCwtMTg1MjcyMTIzNSwtMT
+U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
+MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
+wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
+OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNj
+QxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEz
+NjAwNjI1XX0=
 -->
