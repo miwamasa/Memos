@@ -3,6 +3,10 @@
 
 ## 3/18
 
+今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。
+
+Claude3の性能評価はつづ
+
 - 大規模言語モデルSwallow-MS 7BとSwallow-MX 8x7Bを公開しました
 	- https://tokyotech-llm.github.io/swallow-mistral
 	- Swallow-MS 7Bはオープンな7BのLLMの中で日本語最高性能を達成しました。
@@ -223,8 +227,10 @@
 	- 自分の仕事をSub-agentにデリゲート（委任）できたこと。仕事を与えると一番効率のいい方法で進められるのがホント凄い。
 -  Open Release  of Grok-1
 	- https://x.ai/blog/grok-os
-	- 本家のGrokリリース
-	- 
+	- ついに本家のGrokリリース(3/17)
+	- Base model trained on a large amount of text data, not fine-tuned for any particular task. 
+	- 314B parameter Mixture-of-Experts model with 25% of the weights active on a given token. 
+	- Trained from scratch by xAI using a custom training stack on top of JAX and Rust in October 2023.
 
 ## 3/11
 
@@ -3922,19 +3928,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ドキュメントに手を加える
 		- **ドキュメント整形/chunking**、**要約生成**、**質問文の拡張**、**Knowledge Graphの活用**
 	- 検索モデルに手を加える
-		- **検索モデルのfine-tune**、**Re-rankingモデルの活用**
--  PromptNER: Prompt Locating and Typing for Named Entity Recognition
-	- https://arxiv.org/abs/2305.17104v1
-- 「アナロジア」のジョージ・ダイソンがLLMについて語る
-	- https://www.hayakawabooks.com/n/n6b8cf31a9472
-	- 大規模言語モデルはいわゆる言語の地図とも言えるものであり、いろいろなAIは、その地図を辿って有用な目的地までデジタル方式のアルゴリズムでナビゲーションをしているだけです。
-	- こうした地図はまだ市販の画像処理用チップGPUでシミュレーションされただけのものですが、いずれこうした（言語ばかりかイメージやありとあらゆる事象を重みづけする）巨大なモデル専用のアナログチップが
+		- **検索モデルのfine-tune**、**Re-rankingモデル
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTQwMzYwOCwtNTU3OTA1ODAwLC0yMD
-UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
-NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
-MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
-NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
-U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
-ODkwNjQxXX0=
+eyJoaXN0b3J5IjpbLTExMjU0ODY0MTksLTU1NzkwNTgwMCwtMj
+A1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEy
+MzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMT
+EzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEz
+OTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MT
+Q1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3
+Mjg5MDY0MV19
 -->
