@@ -7,7 +7,8 @@
 
 Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。Claude3 × Googleスプレッドシート、スプレッドシートから普通にClaude3を使える、いや。
 
-松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。
+松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。世田谷区のAI bot、非エンジニアがノーコードで開発と。NLP2024も開催、岡野原さんの「大規模言語モデル開発の展望と今後の課題」、話題としては本LLMアプデ読者にはなじみの深い話題。
+
 
 - 大規模言語モデルSwallow-MS 7BとSwallow-MX 8x7Bを公開しました
 	- https://tokyotech-llm.github.io/swallow-mistral
@@ -3913,15 +3914,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.ft.com/content/b2928076-5c52-43e9-8872-08fda2aa2fcf
 	- 「6桁稼ぐ人は30000ドルしか稼がない人の3倍ダメージを受ける」
 - Pattern Language for Generative AI book!
-	- https://x.com/IntuitMachine/status/1722931733866143754?s=20
-- ニューラルネットは経験した言語を一般化する能力があるか（１０月２５日 Nature オンライン掲載論文） - Lab BRAINS
-	- https://lab-b
+	- https://x.com/IntuitMachine/status/17229317338661
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk5NDAzMjgsLTU1NzkwNTgwMCwtMj
-A1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEy
-MzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMT
-EzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEz
-OTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MT
-Q1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3
-Mjg5MDY0MV19
+eyJoaXN0b3J5IjpbLTM2OTY3NzAxNCwtNTU3OTA1ODAwLC0yMD
+UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
+NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
+MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
+NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
+U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
+ODkwNjQxXX0=
 -->
