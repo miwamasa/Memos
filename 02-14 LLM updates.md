@@ -3,11 +3,11 @@
 
 ## 3/18
 
-今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングして、500ステップぐらいでいい感じとの報告も。「ELYZA-japanese-Llama-2-70b」が出たー、NHKでも紹介された、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAIも遅れるわけには行けない。企業が期待する「主体性」って、生成AIがあれば加速する？？。AIによるソフトウエアエンジニアDevin、どうもVC界隈では、AI従業員の開発の風が吹いている、ああ、人はいらなくなるのか？。
+今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングして、500ステップぐらいでいい感じとの報告も。「ELYZA-japanese-Llama-2-70b」が出たー、NHKでも紹介された、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAIも遅れるわけには行けない。企業が期待する「主体性」って、生成AIがあれば加速する？？。AIによるソフトウエアエンジニアDevin、どうもVC界隈では、AI従業員の開発の風が吹いている。Claude 3 Opusを使って世界経済を分析するデモ動画も、エージェント（AI従業員）をつくって調査を加速できるという話。ああ、人はいらなくなるのか？。
 
 Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。Claude3 × Googleスプレッドシート、スプレッドシートから普通にClaude3を使える、いや。
 
-松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。世田谷区のAI bot、非エンジニアがノーコードで開発と。NLP2024も開催、岡野原さんの「大規模言語モデル開発の展望と今後の課題」、話題としては本LLMアプデ読者にはなじみの深い話題。AIは科学を促進するが、『理解の錯覚』を生み出す危険性がある、と記事は新しい視点で興味深い。カーツワイルさん、大脳皮質と計算機がつながるのが2030年代初頭といって話題に。OpenAIとロボット開発のFigureの提携の結果の第１段Figure01、いやこれってなんかの映画（パッセンジャー）で見た世界。NatureのAll of usのサマリーデータ、
+松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。世田谷区のAI bot、非エンジニアがノーコードで開発と。NLP2024も開催、岡野原さんの「大規模言語モデル開発の展望と今後の課題」、話題としては本LLMアプデ読者にはなじみの深い話題。AIは科学を促進するが、『理解の錯覚』を生み出す危険性がある、と記事は新しい視点で興味深い。カーツワイルさん、大脳皮質と計算機がつながるのが2030年代初頭といって話題に。OpenAIとロボット開発のFigureの提携の結果の第１段Figure01、いやこれってなんかの映画（パッセンジャー）で見た世界。NatureのAll of usのサマリーデータ、117個の疾患に関連する3724個の変異を同定され、データも公開とのこと。
 
 
 - 大規模言語モデルSwallow-MS 7BとSwallow-MX 8x7Bを公開しました
@@ -3910,14 +3910,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- RAM: 128Ktok
 		- Filesystem: Ada002
 - ChatGPTは、コピーライターやデザイナーの雇用を奪うとともに、単価も下げている
-	- 米国の最新研究は、ChatGPTの立ち上げから数カ月で、主要なオンラインフリーランスのコピーライターやデザイナーの仕事の数が大幅に減少し、収入も急激に減ったと報じている
-	- https://www.ft.com/
+	- 米国の
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ1MzUwMiwtNTU3OTA1ODAwLC0yMD
-UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
-NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
-MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
-NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
-U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
-ODkwNjQxXX0=
+eyJoaXN0b3J5IjpbNDM4NDQ5ODkyLC01NTc5MDU4MDAsLTIwNT
+E2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1
+LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMz
+AyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1
+NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NT
+UsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4
+OTA2NDFdfQ==
 -->
