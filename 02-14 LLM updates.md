@@ -3,9 +3,9 @@
 
 ## 3/18
 
-今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。「ELYZA-japanese-Llama-2-70b」が出たー、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは、必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAIも遅れるわけには行けない。企業が期待する「主体性」って、生成AIがあれば加速する？？。AIによるソフトウエアエンジニアDevin、人はいらなくなるのか？それとも。
+今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。「ELYZA-japanese-Llama-2-70b」が出たー、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは、必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAIも遅れるわけには行けない。企業が期待する「主体性」って、生成AIがあれば加速する？？。AIによるソフトウエアエンジニアDevin、どうもVC界隈では、AI従業員の開発の風が吹いている、ああ、人はいらなくなるのか？。
 
-Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、使い方の参考にもなる。
+Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。
 
 - 大規模言語モデルSwallow-MS 7BとSwallow-MX 8x7Bを公開しました
 	- https://tokyotech-llm.github.io/swallow-mistral
@@ -225,6 +225,8 @@ Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例�
 		- ③仕事を外注（笑） 
 		- ④結果を集めレポートを書く と、
 	- 自分の仕事をSub-agentにデリゲート（委任）できたこと。仕事を与えると一番効率のいい方法で進められるのがホント凄い。
+- VCの後押しを受け、AI従業員を開発するスタートアップが流行の兆し
+	- https://x.com/gijigae/status/1767836153053618465?s=20
 -  Open Release  of Grok-1
 	- https://x.ai/blog/grok-os
 	- ついに本家のGrokリリース(3/17)
@@ -3913,17 +3915,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - ニューラルネットは経験した言語を一般化する能力があるか（１０月２５日 Nature オンライン掲載論文） - Lab BRAINS
 	- https://lab-brains.as-1.co.jp/enjoy-learn/2023/11/55788/
 - Jochen Wulf and Juerg Meierhofer, "Towards a Taxonomy of Large Language Model based Business Model Transformations"
-	- https://arxiv.org/abs/2311.05288
-	- LLMを利用したビジネスモデルについて実際のケースをもとに調査報告が発表されました。
-		- 「新しい顧客メリットの創造」、「新しい販売チャネルの開拓」、
-		- 「ビジネスプロセス自動化の加速」、「情報リソース利用の改善」
--  LlamaIndex
+	- https://arxiv.org/abs/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNjI5MzU1LC01NTc5MDU4MDAsLTIwNT
-E2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1
-LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMz
-AyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1
-NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NT
-UsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4
-OTA2NDFdfQ==
+eyJoaXN0b3J5IjpbMTkyNzY3NDQ0MiwtNTU3OTA1ODAwLC0yMD
+UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
+NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
+MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
+NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
+U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
+ODkwNjQxXX0=
 -->
