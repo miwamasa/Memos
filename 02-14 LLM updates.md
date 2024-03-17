@@ -3,6 +3,9 @@
 
 ## 3/18
 
+- 大規模言語モデルSwallow-MS 7BとSwallow-MX 8x7Bを公開しました
+	- https://tokyotech-llm.github.io/swallow-mistral
+	- Swallow-MS 7Bはオープンな7BのLLMの中で日本語最高性能を達成しました。
 -  Yi: Open Foundation Models by 01.AI
 	- https://arxiv.org/abs/2403.04652
 	- Super interesting paper - 10k data is all you need for finetuning LLM
@@ -40,6 +43,8 @@
 	- https://weblab.t.u-tokyo.ac.jp/2024-03-12/
 	- 当研究室が提供する講座の修了生および一般公募によって集まった有志の開発者のメンバーが500億パラメータサイズの大規模言語モデル開発を進めるものです。
 	- NEDOによる、国内の生成AIの開発力を強化するためのプロジェクト「GENIAC（Generative AI Accelerator Challenge）」において、基盤モデル開発に必要な計算資源の提供支援を受けています。
+	- 松尾教授からは「このプロジェクトの中で、試行錯誤しながら重要であるノウハウを共有することで良いモデルを作り、開発経験を積んでもらいたい。また、このプロジェクトを通して、より多くのLLM開発者を生み出し、参加者の皆さんが様々なところで活躍してもらうのが望みだ」とのコメントがありました。
+- 
 
 ## 3/11
 
@@ -3956,17 +3961,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - LangChainから、アドバンスなRAGでもある、"Query Transformation"
 	- https://blog.langchain.dev/query-transformations/
 	- 質問のほうを変換するとな？
-- llamaindexで、HuggingFaceのLLMを活用するライブラリが拡張された(会話、テキスト生成、など）
-	- you can now plug any `conversational`, `text_generation`, `feature_extraction` endpoints 
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/huggingface.ipynb
-- Finetuning LLaMa + Text-to-SQL
-	- https://github.com/run-
+- llamaind
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDU0OTk4MywtMTU3NjE2NzUyMywxMz
-Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
-MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
-wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
-MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQxLDkzMDIyOTkwOC
-wtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQz
-ODA2MF19
+eyJoaXN0b3J5IjpbLTEzMzA1NTIwNzAsLTE1NzYxNjc1MjMsMT
+M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
+NDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5Nj
+QsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEz
+OTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MD
+gsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0
+MzgwNjBdfQ==
 -->
