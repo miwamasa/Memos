@@ -182,7 +182,9 @@
 	- https://zenn.dev/olemi/articles/7b7992c055c64a
 	- このPythonスクリプトを使えば、プロジェクトのフォルダ構造とファイルの内容を簡単にまとめることができます。
 - Prompt Tuning から Fine Tuning への移行時期推定
-	- 
+	- https://speakerdeck.com/icoxfog417/prompt-tuning-kara-fine-tuning-henoyi-xing-shi-qi-tui-ding
+	- ChatGPT や Claude のようなモデルに対し公開されている日本語言語モデルの利用は精度・コスト共に割に合わないと感じている方にとってパンチある内容かと思いま
+- 
 
 ## 3/11
 
@@ -3911,12 +3913,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- (1) a task decomposer that breaks down a complex task into clear subtasks with well-defined inputs and outputs; 
 	- (2) a Thoughts-on-Graph (ToG) paradigm that searches the optimal solution path on a pre-built tool graph, which specifies the parameter and dependency relations among different tools; and
 	-  (3) an execution engine with a rich toolbox that interprets the solution path and runs the tools efficiently on different computational devices.
-- ハーバード大学とBCGの研究によるとGPT-4の活用で仕事の精度は40%向上し、スピードも25%早くなったとのこと。この結果を見てもAIの使い方は益々、知的差別化の重要な要素となる。知的さはもはやAIと切り離しが困難な状態。こうした変化についていくためにも最新のAIを使いこなせる努力をしてほしい。
-	- https://x.com/gijigae/status/1718851299524096284?s=20
-- ChatGPT のアプリ版に Retrieval Augmented Generation (RAG)機能が追加？
-	-
+- ハーバード大学とBCGの研究によるとGPT-4の活用で仕事の精度は40%向上し、スピードも25%早くなったとのこと。この結果を見てもAIの使い方は益々、知的差別化の重要な要
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODQyMzIxNywtNTU3OTA1ODAwLC0yMD
+eyJoaXN0b3J5IjpbLTcwMzY1NjA4NCwtNTU3OTA1ODAwLC0yMD
 UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
 NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
 MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
