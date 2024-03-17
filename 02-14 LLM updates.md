@@ -19,6 +19,12 @@
 - 人工言語による事前学習を用いた言語間転移可能な知識の分析
 	- https://www.jstage.jst.go.jp/article/jnlp/30/2/30_664/_article/-char/ja/
 	- Transformerの事前学習に人工言語を使ったらどうなるか、どの要素が事前学習に効くのか、という研究 係り受け関係に入れ子構造が含まれることが重要らしい
+- Llama.cpp で Swallow MX 8x7B をお試し中　by npakaさん
+	- https://x.com/npaka123/status/1767380241520173408?s=20
+- Stealing Part of a Production Language Model
+	- https://arxiv.org/abs/2403.06634
+	- GPT-4のようなClosedなブラックボックス大規模言語モデルでも,APIアクセスのみでモデルの一部の層のパラメータを特定できるModel-stealing attackを提案
+	- GoogleのOpenAIに対する逆襲の一手的な論文
 - 
 
 ## 3/11
@@ -3955,18 +3961,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2308.08155
 	- https://microsoft.github.io/autogen/
 	- マイクロソフト謹製のAgentフレームワーク、前からあったような気もするが。
-- Top AI Shops Fail Transparency Test
-	- https://spectrum.ieee.org/ai-ethics#toggle-gdpr
-	- Stanford transparency index rates Meta, OpenAI, and others on 100 indicators
-	- The highest total score goes to Meta’s Llama 2, with 54 out of 100.
--  llm-jpをColabで試す
-	- https://note.com/alexweberk/n/n6b26b324904c?sub_rt=sh
+- Top AI Shops Fail Transparency 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4NTI2OTY3LC0xNTc2MTY3NTIzLDEzND
-c2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgwMzIsMTczNTExMzQz
-NSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LD
-E5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5NzQ0NjgwNCwxMzkz
-NDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4LC
-01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4
-MDYwXX0=
+eyJoaXN0b3J5IjpbMTU4NTA5Nzk5MSwtMTU3NjE2NzUyMywxMz
+Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
+MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
+wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
+MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNjQxLDkzMDIyOTkwOC
+wtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQz
+ODA2MF19
 -->
