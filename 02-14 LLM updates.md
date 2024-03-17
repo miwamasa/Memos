@@ -3,9 +3,9 @@
 
 ## 3/18
 
-今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。
+今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。
 
-Claude3の性能評価はつづ
+Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、使い方の参考にもなる。
 
 - 大規模言語モデルSwallow-MS 7BとSwallow-MX 8x7Bを公開しました
 	- https://tokyotech-llm.github.io/swallow-mistral
@@ -3926,11 +3926,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://zenn.dev/sompojapan_dx/articles/eb755a18e893ce
 	- 損害保険ジャパン株式会社 DX推進部
 	- ドキュメントに手を加える
-		- **ドキュメント整形/chunking**、**要約生成**、**質問文の拡張**、**Knowledge Graphの活用**
-	- 検索モデルに手を加える
-		- **検索モデルのfine-tune**、**Re-rankingモデル
+		- **ドキュメント整形/chunking**、**要約生成**、**質問文の拡
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU0ODY0MTksLTU1NzkwNTgwMCwtMj
+eyJoaXN0b3J5IjpbLTExNzMwMjU5NzUsLTU1NzkwNTgwMCwtMj
 A1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEy
 MzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMT
 EzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEz
