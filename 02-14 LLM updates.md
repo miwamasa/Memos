@@ -126,6 +126,13 @@
 	- 遠隔操作なしの100%エンドツーエンドのシステム 
 	- OpenAIのモデルが高レベルの視覚と言語の知性を提供
 	- Figureのニューラルネットワークが動画のようなロボットの動作を実現しています
+-  Claude 3 Haiku の概要 by npakaさん
+	- https://note.com/npaka/n/n71f1ef5f5e06?sub_rt=share_h
+	- 本日 (2024年3月14日)、最速かつ最も低価格なモデル「Claude 3 Haiku」がリリースされました。「Claude API」および「claude.ai」のClaude Proサブスクリプションで利用可能です。
+	- 「Claude 3 Haiku」 は、32,000トークン未満のプロンプトに対して1秒あたり 21,000 トークン (約 30 ページ) [1] を処理します
+	- 低価格、
+		- 「Claude 3 Haiku」の価格の**入出力トークンの比率は 1:5** です。わずか**1ドル**で **400 件の最高裁判例** [2] または **2,500 枚の画像** [3] を処理および分析できます。
+- 
 
 ## 3/11
 
@@ -3928,21 +3935,12 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://onlinelibrary.wiley.com/doi/10.1002/adma.202307160
 	- 成膜過程の動画やスペクトルデータからNNにより変換効率を予測、それに基づき解釈する手法を適用することで、プロセスと特性の新しい洞察につながったそうです。
 - Efficient LLM inference on CPUs! 
-	- https://huggingface.co/papers/2311.00502
-	- NeurIPS'23の論文
-	- Compatible with GGML yet better performance up to 1.5x over llama.cpp!
-	- https://github.com/intel/intel-extension-for-transformers
-- The Computational Lens: from Quantum Physics to Neuroscience
-	- 計算機的な視点を用いて、量子物理学から神経科学に至るまでの分野を研究したハーバード大学の博士論文
-	- https://arxiv.org/abs/2310.20539
-- Japanese TinyLLaMa 1.1 B, llama.cpp で wasm でブラウザでも動く
-	- https://git
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5NDcxNzA2LC0xODUyNzIxMjM1LC0xNT
-c2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgw
-MzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC
-0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5
-NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2ND
-EsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2
-MDA2MjVdfQ==
+eyJoaXN0b3J5IjpbLTYwODY1NjI5NSw1MTk0NzE3MDYsLTE4NT
+I3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2
+MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLT
+EzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1
+OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0OD
+YsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3
+MDg4MjBdfQ==
 -->
