@@ -89,6 +89,12 @@
 	- https://phontron.com/class/anlp2024/assets/slides/anlp-15-tourofllms.pdf
 	- CMUの講義資料、
 	- I made some new class slides on “a tour of modern LMs” that has some observations about characteristics of recent LLMs, mostly focusing on open LLMs where we know their details
+-  Algorithmic progress in language models
+	- https://arxiv.org/abs/2403.05812
+	- How quickly have the algorithms behind language models like GPT-4 been improving over time?
+- Talk like a graph: Encoding graphs for large language models
+	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
+	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a kitchen, parts of a bike, or a group of friends. Learn about our latest work that explores how to encode graphs in a format that an LLM can understand:
 - 
 
 ## 3/11
@@ -3942,26 +3948,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 拡散モデルではない新しい生成モデルがGoogleとUC Berkeleyから出たようだ。ノイズ除去というよりか分布を1stepで変換できるモデルことを仮定するらしい
 - CALM2のGPTQ版が正常動作するようになりました。VRAMが少ない方は是非お使いください。
 	- https://huggingface.co/mmnga/cyberagent-calm2-7b-chat-GPTQ-calib-ja-1k
--  CALM2で長い文章をまるごと取り扱う
-	- https://note.com/alfredplpl/n/n5ed2ea2b78ec?sub_rt=share_sb
-- 『責任あるAI: 「AI倫理」戦略ハンドブック』
-	- https://x.com/abenben/status/1720750416361877680?s=20
-- 【Calm2-7b】サイバーエージェントの最新LLMが優秀すぎたので、ChatGPTと比較レビューしてみた
-	- https://weel.co.jp/media/cyberagentlm2-7b
--  Othello is Solved
-	- https://arxiv.org/abs/2310.19387
-	- PFNから、弱問題として解けたという話、双方最善手の結果は引き分け
--  LlamaIndex v0.8 クイックスタートガイド - Python版
-	- https://note.com/npaka/n/nd449d5190431?sub_rt=share_b
-	- 「LlamaIndex」は、プライベートやドメイン固有の知識を必要とする専門知識を必要とする質問応答チャットボットを簡単に作成できるライブラリです。
-- シンガポールの首相は、C++で数独ソルバーを公開している	
-	- https:/
+-  CALM2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQxMzk3NzEsLTE4NTI3MjEyMzUsLT
-E1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5
-ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MD
-QsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwt
-NTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MD
-Y0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIx
-MzYwMDYyNV19
+eyJoaXN0b3J5IjpbLTUxMzI4MTMzNiwtMTg1MjcyMTIzNSwtMT
+U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
+MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
+wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
+OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNj
+QxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEz
+NjAwNjI1XX0=
 -->
