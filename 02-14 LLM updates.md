@@ -33,8 +33,13 @@
 	- https://x.com/npaka123/status/1767439590502326514?s=20
 	- デフォルトテンプレートの指示も効いてる
 -  東大発のスタートアップ企業 “国内最大規模 国産生成AI完成”
+	- https://www3.nhk.or.jp/news/html/20240312/k10014388011000.html
 	- オープンソースと呼ばれる公開技術をベースに、産業技術総合研究所が運営するデータセンター「ABCI」などを活用し、去年12月から短期間で開発を実現しました。
-	- 
+	- イライザの曽根岡侑也社長は「昨年末時点ではオープンAIやグーグルなどのグローバルモデルと比べて日本のAIモデルは及ばない状態だった。今回ようやくスタートラインに立つことができ、日本が存在感を示せるようにしたい」と話していました。
+-  松尾研LLM開発プロジェクトのキックオフを開催しました
+	- https://weblab.t.u-tokyo.ac.jp/2024-03-12/
+	- 当研究室が提供する講座の修了生および一般公募によって集まった有志の開発者のメンバーが500億パラメータサイズの大規模言語モデル開発を進めるものです。
+	- NEDOによる、国内の生成AIの開発力を強化するためのプロジェクト「GENIAC（Generative AI Accelerator Challenge）」において、基盤モデル開発に必要な計算資源の提供支援を受けています。
 
 ## 3/11
 
@@ -3955,16 +3960,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- you can now plug any `conversational`, `text_generation`, `feature_extraction` endpoints 
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/huggingface.ipynb
 - Finetuning LLaMa + Text-to-SQL
-	- https://github.com/run-llama/modal_finetune_sql
-	- how to fine-tune Llama2 for better text-to-SQL + easily plug into your LLM app, ordered from easy to hard:
-	- text-to-SQLで最も性能が良いのは、GPT-4/3.5でも、llamaでもファインチューニングすればどうにかなる。このファインチューニングの手法の様々を紹介、
-- State of Open Source AI Book - 2023 Edition
-	- https://book.premai.io/state-of-open-source-ai/
-	- 当然本自身もOpenSoruce
-	- https://github.com/premAI-io/state-of-open-source-ai
--  ComfyUI-LCMによるVid2Vidの高速変換を試す(Latent Consistency Model
+	- https://github.com/run-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjAwNzg3OSwtMTU3NjE2NzUyMywxMz
+eyJoaXN0b3J5IjpbMTg3NDU0OTk4MywtMTU3NjE2NzUyMywxMz
 Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
 MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
 wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
