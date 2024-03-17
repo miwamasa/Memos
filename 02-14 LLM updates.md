@@ -14,6 +14,11 @@
 -  Is Cosine-Similarity of Embeddings Really About Similarity?
 	- https://arxiv.org/abs/2403.05440
 	- コサイン類似度を疑っていけ！！
+- Swallow-MX-8x7b-NVE-v0.1のggufあります
+	- https://huggingface.co/mmnga/tokyotech-llm-Swallow-MX-8x7b-NVE-v0.1-gguf
+- 人工言語による事前学習を用いた言語間転移可能な知識の分析
+	- https://www.jstage.jst.go.jp/article/jnlp/30/2/30_664/_article/-char/ja/
+	- Transformerの事前学習に人工言語を使ったらどうなるか、どの要素が事前学習に効くのか、という研究 係り受け関係に入れ子構造が含まれることが重要らしい
 - 
 
 ## 3/11
@@ -3955,19 +3960,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Stanford transparency index rates Meta, OpenAI, and others on 100 indicators
 	- The highest total score goes to Meta’s Llama 2, with 54 out of 100.
 -  llm-jpをColabで試す
-	- https://note.com/alexweberk/n/n6b26b324904c?sub_rt=share_pw
-	- 「jaster を含むものは回答がそっけない」らしいので、それを除いたテスト
-	- 流石日本語特化のモデルだけあって日本語は自然な形で生成できました。日本に関する基本的な知識も備えているのは嬉しい
--  LLM の ベンチマーク まとめ by npakaさん
-	- https://note.com/npaka/n/ndec10f78fe2f
-	- 人間を評価者としたベンチマーク、 GPT-4を評価者としたベンチマーク、QAデータセットによるベンチマーク、コード生成のベンチマーク、埋め込みのベンチマーク、 ロールプレイのベンチマーク
-	- 現状で自動評価可能な最良のアプローチはGPT-4を評価者とする方法。ただしコストなど課題がある
+	- https://note.com/alexweberk/n/n6b26b324904c?sub_rt=sh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1Mz
-U0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5
-OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OS
-wtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2
-ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMC
-w5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5
-NDEyMjZdfQ==
+eyJoaXN0b3J5IjpbNjI4NTI2OTY3LC0xNTc2MTY3NTIzLDEzND
+c2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgwMzIsMTczNTExMzQz
+NSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LD
+E5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5NzQ0NjgwNCwxMzkz
+NDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4LC
+01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4
+MDYwXX0=
 -->
