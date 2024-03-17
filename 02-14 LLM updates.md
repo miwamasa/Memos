@@ -3,7 +3,7 @@
 
 ## 3/18
 
-今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。
+今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。「ELYZA-japanese-Llama-2-70b」が出たー、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。
 
 Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、使い方の参考にもなる。
 
@@ -3922,17 +3922,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 「GPT-4V API」の導入により、「RAG」の概念をテキスト/画像のハイブリッドに拡張し、さらに大量の(画像を含む) データコーパスから価値を引き出す
 	- SimpleDirectoryReaderの画像拡張
 	- **MultiModalVectorIndex**の導入
-- RAGにおけるドキュメント検索精度向上について(概要編)
-	- https://zenn.dev/sompojapan_dx/articles/eb755a18e893ce
-	- 損害保険ジャパン株式会社 DX推進部
-	- ドキュメントに手を加える
-		- **ドキュメント整形/chunking**、**要約生成**、**質問文の拡
+- RAGにおけるドキュメント検索精度向上につ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzMwMjU5NzUsLTU1NzkwNTgwMCwtMj
-A1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEy
-MzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMT
-EzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEz
-OTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MT
-Q1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3
-Mjg5MDY0MV19
+eyJoaXN0b3J5IjpbMTM4NDAxNTYzMSwtNTU3OTA1ODAwLC0yMD
+UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
+NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
+MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
+NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
+U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
+ODkwNjQxXX0=
 -->
