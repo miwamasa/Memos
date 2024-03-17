@@ -54,7 +54,8 @@
 	- コンテンツや分析はBridgewiseの生成AIテクノロジーを利用して作成されます
 -  Integrating Phenotypic and Chemoproteomic Approaches to Identify Covalent Targets of Dietary Electrophiles in Platelets
 	- https://pubs.acs.org/doi/full/10.1021/acscentsci.3c00822
-	- 
+	- ブロッコリーには強力な抗がん作用があることは知られているけれど、シドニー大学らの研究によれば、ブロッコリーは癌だけでなく、脳卒中を引き起こす可能性のある血栓症を予防し、血栓症の治療を補助する効果もあると示された。
+- 
 
 ## 3/11
 
@@ -3957,15 +3958,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://aiboom.net/archives/57223
 	- 特定の人物、例えばベートーヴェンやクレオパトラなどの行動や感情を模倣させるよう訓練する新しいフレームワーク『Character-LLM（キャラクターLLM）』
 	- 訓練されたLLMは、特定の人物としての行動や感情を効果的に模倣できることが確認されました。
--  Progressive3D: Progressively Local Editing for Text-to-3D Content Creation with Complex Semantic Prompts
-	- https://cxh0519.github.io/projects/Progressive3D/?ref=aiartweekly
-	- Progressive3D brings regi
+-  Progressive3D: Progressively Local Editing for Text-to-3D Content Creation with Complex Sema
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTgwMTMxNCwtMTg1MjcyMTIzNSwtMT
-U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
-MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
-wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
-OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNj
-QxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEz
-NjAwNjI1XX0=
+eyJoaXN0b3J5IjpbMzQ1NDM0NTk0LC0xODUyNzIxMjM1LC0xNT
+c2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgw
+MzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC
+0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5
+NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2ND
+EsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2
+MDA2MjVdfQ==
 -->
