@@ -212,7 +212,9 @@
 -  OpenAI Grok Curve Experiments
 	- https://twitter.com/i/bookmarks
 	- This is the code for the paper [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/abs/2201.02177) by Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, and Vedant Misra
-	- XからGroqがおー
+	- XからGroqがオープンソース化とのアナウンスが出たが、なんかOpenAIが別実装を公開！
+- Claude 3 Opusを使って世界経済を分析するデモ動画
+	- 
 
 ## 3/11
 
@@ -3922,14 +3924,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- アナログ・コンピューティングでは複雑性はコードでなくアーキテクチャに宿る。
 	- デジタル・コンピュータは硬直化してノイズをに対する耐性を失ってしまった、アナログ・コンピュータである
 	- アナログ・コンピュータはノイズを受け入れるばかりか、＜略＞機能するために一定の背景ノイズを必要とさえしている。(P295)
-- 人工知能の三つの法則からみるAIの次にくるもの（ダイソン）(P299)
-	- 「アシュビーの必要多様性の法則」、実効的な制御システムは対象
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODAyNjYwMiwtNTU3OTA1ODAwLC0yMD
-UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
-NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
-MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
-NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
-U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
-ODkwNjQxXX0=
+eyJoaXN0b3J5IjpbLTIwMjY1OTQ2MTIsLTU1NzkwNTgwMCwtMj
+A1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEy
+MzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMT
+EzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEz
+OTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MT
+Q1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3
+Mjg5MDY0MV19
 -->
