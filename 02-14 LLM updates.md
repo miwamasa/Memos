@@ -3,7 +3,7 @@
 
 ## 3/18
 
-今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。「ELYZA-japanese-Llama-2-70b」が出たー、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは、必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる。一般copilotからもGPT-4 Turboが使える
+今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。「ELYZA-japanese-Llama-2-70b」が出たー、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは、必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAIも遅れるわけには行けない。企業が期待する「主体性」って、生成AIがあれば加速する？？。AIによるソフトウエアエンジニアDevin、人はいらなくなるのか？それとも。
 
 Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、使い方の参考にもなる。
 
@@ -3917,14 +3917,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- LLMを利用したビジネスモデルについて実際のケースをもとに調査報告が発表されました。
 		- 「新しい顧客メリットの創造」、「新しい販売チャネルの開拓」、
 		- 「ビジネスプロセス自動化の加速」、「情報リソース利用の改善」
--  LlamaIndex の マルチモーダルRAG のしくみ by npakaさん
-	- https://note.com/npaka/n/n53e8aabed0f2?s
+-  LlamaIndex
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTI1NjQ0MSwtNTU3OTA1ODAwLC0yMD
-UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
-NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
-MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
-NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
-U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
-ODkwNjQxXX0=
+eyJoaXN0b3J5IjpbNTYyNjI5MzU1LC01NTc5MDU4MDAsLTIwNT
+E2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1
+LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMz
+AyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1
+NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NT
+UsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4
+OTA2NDFdfQ==
 -->
