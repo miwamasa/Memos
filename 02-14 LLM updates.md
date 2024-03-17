@@ -147,6 +147,15 @@
 	- 「AIは科学を促進するが、『理解の錯覚』を生み出す危険性がある」、というパースペクティブ論文。
 - すべての無料版CopilotユーザーがOpenAIの「**[GPT-4 Turbo](https://gigazine.net/news/20231107-openai-gpt-4-turbo/)**」にアクセスできるようになったことが、Microsoftの広報担当責任者から発表されました。
 	- https://gigazine.net/news/20240314-copilot-gpt-4-turbo-free/
+-  Artificial Intelligence Controller Interface (AICI)
+	- https://github.com/microsoft/aici
+	- 大規模言語モデルの出力制御をカンタンにするオープンソースのインターフェース。Microsoft 製。開発者はコントローラーと呼ばれるカスタムロジックを用いて、LLM の生成プロセスをリアルタイムで制御可能。…
+- 国産LLMが抱える“開発コスト”の課題　海外勢に安さで勝てるか、ELYZA代表の危機感
+	- https://www.itmedia.co.jp/aiplus/articles/2403/13/news167.html
+	- 国産随一の精度のLLMを開発したELYZA 。マイクロソフトやAWSが後押しする競合とどう棲み分けていくのか。曽根岡代表の発言をまとめました。
+- alfredplpl/suzume-poc
+	- https://huggingface.co/alfredplpl/suzume-poc
+	- GoogleのGemma-2Bを日本語で使えるように継続事前学習を施した、商用利用可能なベースモデルSuzumeを公開しました。 小型なのでスマホや家電などに向いています
 - 
 
 ## 3/11
@@ -3926,16 +3935,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ② 特化型モデルの評価には専門的アプローチが必要 
 		- ③ 高度な知識や専門的な推論能力を持つモデルが期待されている
 - LanChainから、様々なタスクにアプリテンプレが公開
-	- https://blog.langchain.dev/langserve-hub/
-	- LangChain Templates offers a collection of easily deployable reference architectures that anyone can use.
-	- https://github.com/langchain-ai/langchain/tree/master/templates
-- LoRAShear: Efficient Large Language Model Structured Pruning and Knowledge Recovery
-	- https://huggingface.co/papers/2310.18356
-	- LoRAShear meticulously studies and proposes a dynamic fine-tuning schemes with dynamic data adaptors to effectively narrow down the performance gap to the full models.
-- gguf版、japanese-stablelm-instruct-gamma-7b　実用 API サーバ・クライアント例
-	-
+	- https://blog.langchain.dev/langserv
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTc5ODUwODIsNzkzMTQyNjQsNTE5ND
+eyJoaXN0b3J5IjpbLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5ND
 cxNzA2LC0xODUyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTky
 NTAsNTM1NDE2NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMj
 kxMTQ1OTk1LC0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0
