@@ -3,11 +3,7 @@
 
 ## 3/18
 
-今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングして、500ステップぐらいでいい感じとの報告も。「ELYZA-japanese-Llama-2-70b」が出たー、NHKでも紹介された、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAIも遅れるわけには行けない。企業が期待する「主体性」って、生成AIがあれば加速する？？。AIによるソフトウエアエンジニアDevin、どうもVC界隈では、AI従業員の開発の風が吹いている。Claude 3 Opusを使って世界経済を分析するデモ動画も、エージェント（AI従業員）をつくって調査を加速できるという話。ああ、人はいらなくなるのか？。
-
-Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。Claude3 × Googleスプレッドシート、スプレッドシートから普通にClaude3を使える、いや。
-
-松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。世田谷区のAI bot、非エンジニアがノーコードで開発と。NLP2024も開催、岡野原さんの「大規模言語モデル開発の展望と今後の課題」、話題としては本LLMアプデ読者にはなじみの深い話題。AIは科学を促進するが、『理解の錯覚』を生み出す危険性がある、と記事は新しい視点で興味深い。カーツワイルさん、大脳皮質と計算機がつながるのが2030年代初頭といって話題に。OpenAIとロボット開発のFigureの提携の結果の第１段Figure01、いやこれってなんかの映画（パッセンジャー）で見た世界。NatureのAll of usのサマリーデータ、117個の疾患に関連する3724個の変異を同定され、データも公開とのこと。
+今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングして、500ステップぐらいでいい感じとの報告も。「ELYZA-japanese-Llama-2-70b」が出たー、NHKでも紹介された、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAIも遅れるわけには行けない。企業が期待する「主体性」って、生成AIがあれば加速する？？。AIによるソフトウエアエンジニアDevin、どうもVC界隈では、AI従業員の開発の風が吹いている。Claude 3 Opusを使って世界経済を分析するデモ動画も、エージェント（AI従業員）をつくって調査を加速できるという話。ああ、人はいらなくなるのか？。Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。Claude3 × Googleスプレッドシート、スプレッドシートから普通にClaude3を使える、なんかちがうな。松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。世田谷区のAI bot、非エンジニアがノーコードで開発と。NLP2024も開催、岡野原さんの「大規模言語モデル開発の展望と今後の課題」、話題としては本LLMアプデ読者にはなじみの深い話題。AIは科学を促進するが、『理解の錯覚』を生み出す危険性がある、と記事は新しい視点で興味深い。カーツワイルさん、大脳皮質と計算機がつながるのが2030年代初頭といって話題に。OpenAIとロボット開発のFigureの提携の結果の第１段Figure01、いやこれってなんかの映画（パッセンジャー）で見た世界。NatureのAll of usのサマリーデータ、117個の疾患に関連する3724個の変異を同定され、データも公開とのこと。最後に、Xが予告お降り Grok-1のオープンソースリリース。直前に、OpenAIがGrokの別実装をOSSで公開してたりして、こういう競争、結局共創？って面白いな。
 
 
 - 大規模言語モデルSwallow-MS 7BとSwallow-MX 8x7Bを公開しました
@@ -3907,12 +3903,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/karpathy/status/1723140519554105733?s=20
 	- Specs:
 		- LLM: OpenAI GPT-4 Turbo 256 core (batch size) processor @ 20Hz (tok/s)
-		- RAM: 128Ktok
-		- Filesystem: Ada002
-- ChatGPTは、コピーライターやデザイナーの雇用を奪うとともに、単価も下げている
-	- 米国の
+		- RAM:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4NDQ5ODkyLC01NTc5MDU4MDAsLTIwNT
+eyJoaXN0b3J5IjpbLTQxMDMyMzk5LC01NTc5MDU4MDAsLTIwNT
 E2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1
 LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMz
 AyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1
