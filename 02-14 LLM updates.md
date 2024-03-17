@@ -129,9 +129,12 @@
 -  Claude 3 Haiku の概要 by npakaさん
 	- https://note.com/npaka/n/n71f1ef5f5e06?sub_rt=share_h
 	- 本日 (2024年3月14日)、最速かつ最も低価格なモデル「Claude 3 Haiku」がリリースされました。「Claude API」および「claude.ai」のClaude Proサブスクリプションで利用可能です。
-	- 「Claude 3 Haiku」 は、32,000トークン未満のプロンプトに対して1秒あたり 21,000 トークン (約 30 ページ) [1] を処理します
+	- 速度
+		- 「Claude 3 Haiku」 は、32,000トークン未満のプロンプトに対して1秒あたり 21,000 トークン (約 30 ページ) [1] を処理します
 	- 低価格、
 		- 「Claude 3 Haiku」の価格の**入出力トークンの比率は 1:5** です。わずか**1ドル**で **400 件の最高裁判例** [2] または **2,500 枚の画像** [3] を処理および分析できます。
+- Claude-in-Sheets guide
+	- どうやら、AnthropicとGoogleが協力して、Google SheetsからClaude3を呼べるらしい。
 - 
 
 ## 3/11
@@ -3933,14 +3936,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 説明可能AIによるペロブスカイト太陽電池開発
 	-  Discovering Process Dynamics for Scalable Perovskite Solar Cell Manufacturing with Explainable AI
 	- https://onlinelibrary.wiley.com/doi/10.1002/adma.202307160
-	- 成膜過程の動画やスペクトルデータからNNにより変換効率を予測、それに基づき解釈する手法を適用することで、プロセスと特性の新しい洞察につながったそうです。
-- Efficient LLM inference on CPUs! 
+	- 成膜過程の動画やスペクトルデータからNN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODY1NjI5NSw1MTk0NzE3MDYsLTE4NT
-I3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2
-MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLT
-EzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1
-OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0OD
-YsLTU3Mjg5MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3
-MDg4MjBdfQ==
+eyJoaXN0b3J5IjpbLTE3NjAwMDc3OTMsNTE5NDcxNzA2LC0xOD
+UyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2
+NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC
+0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3
+NTkzODE0NTUsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0ND
+g2LC01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5
+NzA4ODIwXX0=
 -->
