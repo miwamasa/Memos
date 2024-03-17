@@ -44,6 +44,8 @@
 	- 当研究室が提供する講座の修了生および一般公募によって集まった有志の開発者のメンバーが500億パラメータサイズの大規模言語モデル開発を進めるものです。
 	- NEDOによる、国内の生成AIの開発力を強化するためのプロジェクト「GENIAC（Generative AI Accelerator Challenge）」において、基盤モデル開発に必要な計算資源の提供支援を受けています。
 	- 松尾教授からは「このプロジェクトの中で、試行錯誤しながら重要であるノウハウを共有することで良いモデルを作り、開発経験を積んでもらいたい。また、このプロジェクトを通して、より多くのLLM開発者を生み出し、参加者の皆さんが様々なところで活躍してもらうのが望みだ」とのコメントがありました。
+- Elyza70B、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩がある by shi3zさん
+	- https://x.com/shi3z/status/1767464684373082223?s=20
 - 
 
 ## 3/11
@@ -3957,17 +3959,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 心理学における「Violation of Expectation（期待違反）：VoE」理論を適用
 - llamaindexがつかう、すべてのプロンプトを表示・カスタマイズできるI/Fが公開
 	-  Accessing/Customizing Prompts within Higher-Level Modules
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/prompts/prompt_mixin.ipynb
-- LangChainから、アドバンスなRAGでもある、"Query Transformation"
-	- https://blog.langchain.dev/query-transformations/
-	- 質問のほうを変換するとな？
-- llamaind
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/prompts/prompt_mixin.ipy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzA1NTIwNzAsLTE1NzYxNjc1MjMsMT
-M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
-NDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5Nj
-QsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEz
-OTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAyMjk5MD
-gsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIxMzYwMDYyNSwxOTE0
-MzgwNjBdfQ==
+eyJoaXN0b3J5IjpbNzAzOTE4NzA1LC0xNTc2MTY3NTIzLDEzND
+c2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgwMzIsMTczNTExMzQz
+NSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LD
+E5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5NzQ0NjgwNCwxMzkz
+NDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4LC
+01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2MDA2MjUsMTkxNDM4
+MDYwXX0=
 -->
