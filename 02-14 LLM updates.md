@@ -139,6 +139,9 @@
 	- https://arxiv.org/abs/2402.18679
 	- Data Interpreter has achieved state-of-the-art scores in machine learning, mathematical reasoning, and open-ended tasks, and can analyze stocks, imitate websites, and train models.
 	- https://docs.deepwisdom.ai/main/en/DataInterpreter/
+- 松田先生が、なぜ1.58bitのbitnetが上手く行くのか考えた話
+	- https://x.com/umiyuki_ai/status/1768109605148848322?s=20
+	- まず、LLMが何を計算してるか？というと、広大な言語空間の中から次の単語を当てるゲーム。最近のLLMの言語空間は4096次元とかあって、我々の物理空間が3次元しかないのに比べて有り得ん広さ。その中にトークナイザのトークン語彙はたったの3万種類とかしかないわけで、つまり一つの単語あたりに割り当てられた空間もメチャクチャ広い。だから1.58bitに量子化されて計算が雑になってもちゃんと当たる。
 - 
 
 ## 3/11
@@ -3929,18 +3932,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 会話ログ、requestボディ-簡略化のためのデフォルト設定。llm()への生成時パラメータ追加など。
 - Youri 7BをFastChatでChatGPT互換APIサーバとして動かして遊ぶ
 	- https://qiita.com/takaaki_inada/items/fcb63da369b5bfd8a3cf?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share
-	- youri-7b-chatをfastchatでChatGPT互換APIでホストしてChatVRMでサクッと遊ぼう。prompt engineeringが効くのでsystem prompt設定画面で語尾やキャラクター設定できます
-- Google Colab で Japanese Stable LM Beta 7B を試す by npakaさん
-	- https://note.com/npaka/n/n49387d8a8af4?sub_rt=share_sb
-	- 語彙拡張済み指示モデル「stabilityai/japanese-stablelm-instruct-ja_vocab-beta-7b 」を使います
-- Generative AI for everyone	by Andrew Ng先生
-	- https://www.deeplearning.ai/courses/generative-
+	- youri-7b-chatをfastchatでChatGPT互換APIでホストしてChatVRMでサクッと遊ぼう。prompt engineeringが効くのでsystem prompt設定画面で語尾やキャラクタ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjM0NzY0NzQsNTE5NDcxNzA2LC0xOD
-UyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2
-NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC
-0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3
-NTkzODE0NTUsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0ND
-g2LC01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5
-NzA4ODIwXX0=
+eyJoaXN0b3J5IjpbNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNz
+IxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIw
+LDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMz
+cxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkz
+ODE0NTUsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC
+01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4
+ODIwXX0=
 -->
