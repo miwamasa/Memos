@@ -25,6 +25,10 @@
 	- https://arxiv.org/abs/2403.06634
 	- GPT-4のようなClosedなブラックボックス大規模言語モデルでも,APIアクセスのみでモデルの一部の層のパラメータを特定できるModel-stealing attackを提案
 	- GoogleのOpenAIに対する逆襲の一手的な論文
+- 700億パラメータの日本語LLM「ELYZA-japanese-Llama-2-70b」を開発し、デモを公開しました
+	- https://note.com/elyza/n/n0ea755ca3e7b
+	- https://elyza.ai/lp/elyza-llm-for-jp
+	- 日本語特化モデルの中では最大級です.大きさが正義のLLMということで,実際報告されている性能もかなり抜けています
 - 
 
 ## 3/11
@@ -3957,13 +3961,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/bakushu/n/nec4cee4f4f37
 	- Latent Consistency Models（LCM）は、最小限のステップ数で迅速に推論できる新たな画像生成モデル
 	- Google Colabの標準GPU（VRAM 16GB）で試したところ、512x512サイズの120フレームの動画変換で1分弱。1024x1024サイズの120フレームの動画変換だと12-13分ほどでした。
--  AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation
-	- https://arxiv.org/abs/2308.08155
-	- https://microsoft.github.io/autogen/
-	- マイクロソフト謹製のAgentフレームワーク、前からあったような気もするが。
-- Top AI Shops Fail Transparency 
+-  AutoGen: Enabling Next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTA5Nzk5MSwtMTU3NjE2NzUyMywxMz
+eyJoaXN0b3J5IjpbMTQ5MDIzNjYxMSwtMTU3NjE2NzUyMywxMz
 Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
 MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
 wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
