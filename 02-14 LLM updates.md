@@ -72,6 +72,13 @@
 -  臨床予測モデル検証の要点
 	- https://note.com/tadahiro_goto/n/n90128159a7fb?sub_rt=share_pb
 	- 2024年1月にBMJのResearch Methods & Reportingで予測モデルの評価と外的検証に関するreview
+	- Evaluation of clinical prediction models (part 1): from development to external validation.
+	- ポイント
+		- 臨床予測モデルは、**モデルがターゲットとなる対象集団を代表するデータセットで評価**すべき
+		- 開発用データセットでは優れているように見えたモデルも、別のデータセットで評価すると、（仮に同じ母集団からのデータであっても）性能が低くなることがほとんど。
+		-   **モデルを開発する時点でデータを分割(split)することは、信頼性の低いモデルにつながるため避けるべき**。
+		- 利用可能なすべてのデータを活用する努力をすべき（内的検証におけるresamplingや、内的-外的交差検証など）
+- Accelerate v0.28.0 has been released!
 	- 
 
 ## 3/11
@@ -3951,20 +3958,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 330億パラメータGrok-0（LLaMA 2 (70B) の機能に近づき、トレーニングリソースの半分しか使用しない）を元にGrok-1を開発。
 	- Grok-1 は GPT3.5や Inflection-1を標準的なベンチマークで超える。
 - CALM2-7Bの性能を他の日本語LLMと比較してみた
-	- https://note.com/it_navi/n/n35e5fac2b3d3?sub_rt=share_pb
-	- CALM2-7B-Chatは、一度に**3万2000トークン（日本語で約5万字）**の長文の入出力に対応
-	- **CALM2-7B-Chat**の回答を**ELYZA-japanese-Llama-2-7b-instruct**及び**Youri-7B-chat**の回答と比較
-	- 論理的思考力については、**3種類の日本語モデルの回答は五十歩百歩**で大差ありません。ChatGPT（GPT-3.5）の性能とは、まだ相当差があるようです
-- 『言語哲学がはじまる』野矢茂樹著
-	- https://www.iwanami.co.jp/book/b633363.html
-	- 日経の書評(11/4朝刊)掲載
-	- 言葉とは何か。この問いにフレーゲ、ラッセル、ウィトゲンシュタインはどう挑んだ
+	- https://n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjE4MzIyMywtMTg1MjcyMTIzNSwtMT
-U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
-MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
-wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
-OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNj
-QxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEz
-NjAwNjI1XX0=
+eyJoaXN0b3J5IjpbLTIwMjQ5MTQ4NjgsLTE4NTI3MjEyMzUsLT
+E1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5
+ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MD
+QsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwt
+NTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MD
+Y0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIx
+MzYwMDYyNV19
 -->
