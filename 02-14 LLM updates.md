@@ -133,7 +133,8 @@
 		- 「Claude 3 Haiku」 は、32,000トークン未満のプロンプトに対して1秒あたり 21,000 トークン (約 30 ページ) [1] を処理します
 	- 低価格、
 		- 「Claude 3 Haiku」の価格の**入出力トークンの比率は 1:5** です。わずか**1ドル**で **400 件の最高裁判例** [2] または **2,500 枚の画像** [3] を処理および分析できます。
-- Claude-in-Sheets guide
+- Claude3 × Googleスプレッドシート
+	- Claude-in-Sheets guide
 	- どうやら、AnthropicとGoogleが協力して、Google SheetsからClaude3を呼べるらしい。
 -  Data Interpreter: An LLM Agent For Data Science
 	- https://arxiv.org/abs/2402.18679
@@ -3932,9 +3933,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ② 倫理的な面も含めたモデルの進歩と応用が目指されている 
 	- ■安全性の評価 
 		- ① LLMの発展によるリスクに厳格な評価が必要 
-		- ② 例えばバイアスの増幅、誤情報の拡散、プライバシー
+		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTQ0ODc5OCwtMjA1MTY1MTIyMiw3OT
+eyJoaXN0b3J5IjpbLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OT
 MxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1
 MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNz
 M1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2
