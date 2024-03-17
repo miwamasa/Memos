@@ -66,7 +66,10 @@
 	- Your task is to take the text provided and rewrite it into a clear, grammatically correct version while preserving the original meaning as closely as possible. Correct any spelling mistakes, punctuation errors, verb tense issues, word choice problems, and other grammatical mistakes. Use bold formatting in markdown to emphasize the edited portions of the English text.
 - Raspberry Pi 5に日本語LLM(ELYZA-Japanese-Llama-2-7b-fast-Instruct)を入れてみた
 	- https://arkouji.cocolog-nifty.com/blog/2024/03/post-e248e6.html
-	- 
+-  RecAI: Leveraging Large Language Models for Next-Generation Recommender Systems
+	- https://arxiv.org/abs/2403.06465
+	- Microsoft presents a toolkit to integrate LLMs into recommender systems for explainability, conversation, and user control.
+- 
 
 ## 3/11
 
@@ -3955,19 +3958,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 言葉とは何か。この問いにフレーゲ、ラッセル、ウィトゲンシュタインはどう挑んだのか。とびきりたのしい言語哲学の説き語り
 	- 単語単独で意味を持つのか、文章の中の関係性として意味を持つのか、LLMは何を見ている？
 - 牧野先生、PFN開発のMN-core開発に注力
-	- https://jun-makino.sakura.ne.jp/articles/future_sc/note161.html
-	- 神戸大とPFNのクロスアポイントメントだそうだ、
-	- 「今後は社員として直接MN-Core の 開発に関わる」、「普及といったことを含めてMn-Core の 開発が本格化している」
-
-## 10/30
-
-新しいLLMがどんどん発表される。「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」、7BのLLMの覇者は、Mistral 7Bという話題もあったが、ReActをこなせる7bは、Zephyr-7
+	- https://jun-makino.sakura.ne.jp/articles/future_sc/no
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTUyMjY0NDIsLTE4NTI3MjEyMzUsLT
-E1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5
-ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MD
-QsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwt
-NTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MD
-Y0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLTIx
-MzYwMDYyNV19
+eyJoaXN0b3J5IjpbMTQzMTE0Njk5OCwtMTg1MjcyMTIzNSwtMT
+U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
+MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
+wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
+OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNj
+QxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEz
+NjAwNjI1XX0=
 -->
