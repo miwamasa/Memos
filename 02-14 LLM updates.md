@@ -135,6 +135,10 @@
 		- 「Claude 3 Haiku」の価格の**入出力トークンの比率は 1:5** です。わずか**1ドル**で **400 件の最高裁判例** [2] または **2,500 枚の画像** [3] を処理および分析できます。
 - Claude-in-Sheets guide
 	- どうやら、AnthropicとGoogleが協力して、Google SheetsからClaude3を呼べるらしい。
+-  Data Interpreter: An LLM Agent For Data Science
+	- https://arxiv.org/abs/2402.18679
+	- Data Interpreter has achieved state-of-the-art scores in machine learning, mathematical reasoning, and open-ended tasks, and can analyze stocks, imitate websites, and train models.
+	- https://docs.deepwisdom.ai/main/en/DataInterpreter/
 - 
 
 ## 3/11
@@ -3930,15 +3934,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/npaka/n/n49387d8a8af4?sub_rt=share_sb
 	- 語彙拡張済み指示モデル「stabilityai/japanese-stablelm-instruct-ja_vocab-beta-7b 」を使います
 - Generative AI for everyone	by Andrew Ng先生
-	- https://www.deeplearning.ai/courses/generative-ai-for-everyone/
-- Google Colabに、API keyを登録できる新機能が公開
-	- https://x.com/GoogleColab/status/1719798406195867814?s=20
-- 説明可能AIによるペロブスカイト太陽電池開発
-	-  Discovering Process Dynamics for Scalable Perovskite Solar Cell Manufacturing with Explainable AI
-	- https://onlinelibrary.wiley.com/doi/10.1002/adma.202307160
-	- 成膜過程の動画やスペクトルデータからNN
+	- https://www.deeplearning.ai/courses/generative-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjAwMDc3OTMsNTE5NDcxNzA2LC0xOD
+eyJoaXN0b3J5IjpbLTE1NjM0NzY0NzQsNTE5NDcxNzA2LC0xOD
 UyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2
 NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC
 0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3
