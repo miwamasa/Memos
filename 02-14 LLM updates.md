@@ -156,7 +156,11 @@
 - alfredplpl/suzume-poc
 	- https://huggingface.co/alfredplpl/suzume-poc
 	- GoogleのGemma-2Bを日本語で使えるように継続事前学習を施した、商用利用可能なベースモデルSuzumeを公開しました。 小型なのでスマホや家電などに向いています
-- 
+- 世田谷区がAI botを内製　非エンジニア職員がローコードで開発　ChatGPT活用「ヒデキ」
+	- https://www.itmedia.co.jp/news/articles/2403/13/news123.html
+	- 非エンジニアの職員チームが、ローコードツールなどを駆使して3カ月で完成させたという。
+	- 職員が普段から使っているTeamsのチャットツールでヒデキに質問でき、ChatGPTを業務に活用できる
+	- 
 
 ## 3/11
 
@@ -3928,20 +3932,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ② 倫理的な面も含めたモデルの進歩と応用が目指されている 
 	- ■安全性の評価 
 		- ① LLMの発展によるリスクに厳格な評価が必要 
-		- ② 例えばバイアスの増幅、誤情報の拡散、プライバシーの侵害など 
-		- ③ リスク評価と、対処アプローチが求められている 
-	- ■特化型LLMの評価 
-		- ① 特定ドメインやタスクに特化したLLMも存在 
-		- ② 特化型モデルの評価には専門的アプローチが必要 
-		- ③ 高度な知識や専門的な推論能力を持つモデルが期待されている
-- LanChainから、様々なタスクにアプリテンプレが公開
-	- https://blog.langchain.dev/langserv
+		- ② 例えばバイアスの増幅、誤情報の拡散、プライバシー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5ND
-cxNzA2LC0xODUyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTky
-NTAsNTM1NDE2NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMj
-kxMTQ1OTk1LC0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0
-MzgzNjksLTE3NTkzODE0NTUsLTU5NzQ0NjgwNCwxMzkzNDU2MT
-A2LDk2Njg0NDg2LC01NzI4OTA2NDEsOTMwMjI5OTA4LC01NzEz
-NDU4MDBdfQ==
+eyJoaXN0b3J5IjpbMTYzMTQ0ODc5OCwtMjA1MTY1MTIyMiw3OT
+MxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1
+MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNz
+M1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2
+OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2OD
+A0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAy
+Mjk5MDhdfQ==
 -->
