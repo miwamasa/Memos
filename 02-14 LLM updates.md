@@ -190,6 +190,16 @@
 -  LocalMamba: Visual State Space Model with Windowed Selective Scan
 	- https://huggingface.co/papers/2403.09338
 -  AI escape velocity: A conversation with Ray Kurzweil
+	- https://www.bvp.com/atlas/ai-escape-velocity-a-conversation-with-ray-kurzweil
+	- インタビュアー「私たちの大脳新皮質を、十分に高い帯域幅で計算機につなぐことができるようになるのはいつでしょうか？」 
+	- カーツワイル「2030年代初頭です。その時点で、大規模言語モデルの全容量を脳内に持つ人間が存在することになるでしょう」
+- ryota39/bilingual-gpt-neox-4b-instruction-sft-en-ja-84k
+	- https://huggingface.co/ryota39/bilingual-gpt-neox-4b-instruction-sft-en-ja-84k
+	- rinna/bilingual-gpt-neox-4b-instruction-sftに英日翻訳データセット84,300件をフルパラメータチューニングしました。商用利用可能なライセンス(cc-by-sa-4.0)ですので皆様お気軽にお試しください
+- Researcher2Vec: ニューラル線形モデル による自然言語処理研究者の可視化と推薦
+	- http://chasen.org/~daiti-m/paper/nlp2021researcher2vec-slides.pdf
+	- 学振の後ろで動いてるらしい
+- 
 
 ## 3/11
 
@@ -3907,22 +3917,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 11/6
 
-今週は、RinnaのYouri 7Bの発表(10/31)、Japanese Stable LM Beta 70Bの発表(11/2)、同日CyberAgentLM2-7B（CALM2 -7B）の公開(11/2)等、日本語LLMの発表・公開が相次ぐ。あっという間に4bit 量子化モデルも公開されて手元で試せるように。。。70Bもびっくりするが、特にCalm2は3万2000トークン（日本語で約5万字）に対応していて、RAG不要かも。ColabでもA100ならば動かせるらしい。ソフトバンクのLLM開発始動や、NTTの日本語対応言語モデルのtsuzumiの発表、牧野先生が、MM-core専任？になるとの話題もあり、日本でもLLMのインフラが今後そろってくるのは楽しみ。日本語事前学習済みモデルをSimCSEって、LLM本(大規模言語モデル入門)で紹介されていたやつ。説明可能AIによるペロブスカイト太陽電池開発って、AIに説明させて人間が次を考えるという、AIと人との協調の新しい未来の形。LLM評価のサーベイ論文、後で読もう。 TinyLLaMa、どこまで小さくできるか、こういうアプローチいいなあ、本当に1.1Bでどこまでいける？LLMを利用したFAQ検索の評価データセット作成の工夫とか、LangChainのアプリテンプレートの公開とか、実用面に近い開発も進展あり。npakaさんの、LangChain、LLamaIndexの紹介記事、コンパクトで最新の情報なのでお得。ちょうど日経新聞で紹介された、岩波新書の『言語哲学がはじまる』、フレーゲ、ラッセル、ヴィトゲンシュタイン、もし彼らが今生きていたらLLMをどう研究したのか。XのGrok-1は次週に続くだな。
-
-- FP8-LM: Training FP8 Large Language Model
-	- https://arxiv.org/abs/2310.18313
-	- Microsoftの研究チームによる論文。
-	-  FP8自動混合精度フレームワークで、性能低下を抑えつつ ・BF16よりも64%速く ・メモリ使用量を42%削減し GPT-175Bをトレーニングできた
-- ControlLLM: Augment Language Models with Tools by Searching on Graphs
-	- https://huggingface.co/papers/2310.17796
-	- (1) a task decomposer that breaks down a complex task into clear subtasks with well-defined inputs and outputs; 
-	- (2) a Thoughts-on-Graph (ToG) paradigm that searches the optimal solution path on a pre-built tool graph, which s
+今週は、RinnaのYouri 7Bの発表(10/31)、Japanese Stable LM Beta 70Bの発表(11/2)、同日CyberAgentLM2-7B（CALM2 -7B）の公開(11/2)等、日本語LLMの発表・公開が相次ぐ。あっという間に4bit 量子化モデルも公開されて手元で試せるように。。。70Bもびっくりするが、特にCalm2は3万2000トークン（日本語で約5万字）に対応していて、RAG不要かも。ColabでもA100ならば動かせるらしい。ソフトバンクのLLM開発始動や、NTTの日本語対応言語モデルのtsuzumiの発表、牧野先生が、MM-core専任？になるとの話題もあり、日本でもLLMのインフラが今後そろってくるのは楽しみ。日本語事前学習済みモデルをSimCSEって、LLM本(大規模言語モデル入門)で紹介されていたやつ。説明可能AIによるペロブスカイト太陽電池開発って、AIに説明させて人間が次を考えるという、AIと人との協調の新しい未来の形。LLM評価のサーベイ論文、後で読もう。 TinyLLaMa、どこまで小さくできるか、こういうアプローチいいなあ、本当に1.1Bでどこまでいける？LLMを利用したFAQ検索の評価データセット作成の工夫とか、LangChainのアプリテンプレートの公開とか、実用面に近い開発も進展あり。npakaさんの、LangChain、LLamaIndexの紹介記事、コンパクトで最新の情報なのでお得。ちょうど日経新聞で紹介された、岩波新書
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzE5ODI5LC01NTc5MDU4MDAsLTIwNT
-E2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1
-LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMz
-AyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1
-NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NT
-UsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4
-OTA2NDFdfQ==
+eyJoaXN0b3J5IjpbLTIxNzA0Mzc0NCwtNTU3OTA1ODAwLC0yMD
+UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
+NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
+MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
+NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
+U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
+ODkwNjQxXX0=
 -->
