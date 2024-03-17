@@ -108,6 +108,13 @@
 	- https://x.com/cognition_labs/status/1767548763134964000?s=20
 	- Devin is the new state-of-the-art on the SWE-Bench coding benchmark, has successfully passed practical engineering interviews from leading AI companies, and has even completed real jobs on Upwork.
 	- AIのソフトウェアエンジニア（Devin）が人間レベルに達した初めてのデモだと思う。AIの導入で課題となってたのが長期的な推論と計画。ところが、Devinは計画→実行→評価→再計画を繰り返し、目標達成へと導くシステムを実現している
+-  速報：Claude 3に判例評釈を自動生成させてみた（Coinhive事件最高裁判決の巻）
+	- https://takagi-hiromitsu.jp/diary/20240313.html
+	- 「これだけLLMが長文の意味内容を「理解」するようになったとなると、もはや、書評や論文紹介、判例批評など、定形的なスタイルを持つ学術記事は、…」
+	- ひろみちゅ先生絶賛
+- Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングの練習。500ステップ(0.2エポック : 20分) のお試しだけど、きれいに回答してくれてる
+	- https://x.com/npaka123/status/1767807910925545892?s=20
+- Claude 3 Haiku, the fastest and most affordable model in its intelligence class.
 	- 
 
 ## 3/11
@@ -3929,18 +3936,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.kantei.go.jp/jp/singi/titeki2/ai_kentoukai/kaisai/index.html
 	- 主張1: AIによって生成されたコンテンツも含まれるべきである。 
 	- 主張2: AIによって生成されたコンテンツは、人間によって創作されたコンテンツと同等に保護されるべきである。 
-	- 主張3: 著作権を侵害する行為には、AIによって生成されたコンテンツも含まれるべきである。 
-	- 主張4: 収益還元法については、AIによって生成されたコンテンツも適用範囲に含まれるべきである。
--  Google Colab で CALM2 を試す by npakaさん
-	- https://note.com/npaka/n/n443e3ea8d0b8?sub_rt=share_sb
-	- チャットモデル「cyberagent/calm2-7b-chat」を使います。
-- CALM2-7B-chatのSpaceを作りました
-	- https://huggingface.co/spaces/hayas/CALM2-7B-chat
-- llamaとllama2の違い by NTT 西田さん
-	- https://speakerdeck.com/kyoun/llama-2-open-foundation-and-fine-tuned-chat-models
-- 日本語DeBERTaV2
+	- 主張3: 著作権を侵害する行為には
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxOTIzNDA4LC0xODUyNzIxMjM1LC0xNT
+eyJoaXN0b3J5IjpbLTI2MzI3Nzk4LC0xODUyNzIxMjM1LC0xNT
 c2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgw
 MzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC
 0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5
