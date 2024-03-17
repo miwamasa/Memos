@@ -1,6 +1,8 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+## 3/18
+
 
 ## 3/11
 
@@ -3957,13 +3959,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b
 	- 約30億と70億のパラメータを持つこれらのモデルは、日本語タスクの性能評価でトップクラス
 	- 3Bと7Bのサイズでそれぞれ圧倒的性能を誇る英語LLM「Stable LM 3B-4E1T」「Mistral-7B-v0.1」に継続事前学習を適用することでサクッとめちゃツヨ日本語LLM
--  Japanese rese
+-  Japan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMD
-I5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2
-MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NS
-wtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5
-MDY0MSw5MzAyMjk5MDgsLTU3MTM0NTgwMCw5Mzk3MDg4MjAsLT
-IxMzYwMDYyNSwxOTE0MzgwNjAsLTEwMDg5NDEyMjYsNTk4MDg1
-MjI0XX0=
+eyJoaXN0b3J5IjpbMTk2MzU3ODgxOSwxMzQ3Njk5MjUwLDUzNT
+QxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5
+NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC
+0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4
+NDQ4NiwtNTcyODkwNjQxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLD
+kzOTcwODgyMCwtMjEzNjAwNjI1LDE5MTQzODA2MCwtMTAwODk0
+MTIyNl19
 -->
