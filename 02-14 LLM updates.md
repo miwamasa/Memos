@@ -3,8 +3,10 @@
 
 ## 3/18
 
-- Super interesting paper - 10k data is all you need for finetuning LLM
-	- 
+-  Yi: Open Foundation Models by 01.AI
+	- https://arxiv.org/abs/2403.04652
+	- Super interesting paper - 10k data is all you need for finetuning LLM
+	- ファインチューニングには1万件のデータで充分なんだという論文。
 
 ## 3/11
 
@@ -3958,11 +3960,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Google Colab で Japanese Stable LM Gamma 7B を試す by npakaさん
 	- https://note.com/npaka/n/n4f2d6e6c11f7?sub_rt=share_b
 - 日本語大規模言語モデル「Japanese Stable LM 3B-4E1T」「Japanese Stable LM Gamma 7B」
-	- https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b
-	- 約30億と70億のパラメータを持つこれらのモデルは、日本語タスクの性能評価でトップクラス
-	- 3Bと7Bのサイズでそれぞれ圧倒的性能を誇る英語LL
+	- https://ja.stability.ai/blog/japanese-stable-lm-3b-4e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTI2MjYxNSwxMzQ3Njk5MjUwLDUzNT
+eyJoaXN0b3J5IjpbMTk3Mjg4MTY5MiwxMzQ3Njk5MjUwLDUzNT
 QxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5
 NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC
 0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4
