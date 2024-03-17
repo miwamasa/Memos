@@ -5,7 +5,9 @@
 
 今週もいろいろありすぎて、東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングして、500ステップぐらいでいい感じとの報告も。「ELYZA-japanese-Llama-2-70b」が出たー、NHKでも紹介された、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAIも遅れるわけには行けない。企業が期待する「主体性」って、生成AIがあれば加速する？？。AIによるソフトウエアエンジニアDevin、どうもVC界隈では、AI従業員の開発の風が吹いている、ああ、人はいらなくなるのか？。
 
-Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。Claude3 × Googleスプレー
+Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。Claude3 × Googleスプレッドシート、スプレッドシートから普通にClaude3を使える、いや。
+
+松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。
 
 - 大規模言語モデルSwallow-MS 7BとSwallow-MX 8x7Bを公開しました
 	- https://tokyotech-llm.github.io/swallow-mistral
@@ -3913,14 +3915,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Pattern Language for Generative AI book!
 	- https://x.com/IntuitMachine/status/1722931733866143754?s=20
 - ニューラルネットは経験した言語を一般化する能力があるか（１０月２５日 Nature オンライン掲載論文） - Lab BRAINS
-	- https://lab-brains.as-1.co.jp/enjoy-learn/2023/11/55788/
-- Jochen Wulf and Juerg Meierhofer, "T
+	- https://lab-b
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MzMzMjYyLC01NTc5MDU4MDAsLTIwNT
-E2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1
-LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMz
-AyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1
-NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NT
-UsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4
-OTA2NDFdfQ==
+eyJoaXN0b3J5IjpbLTIwMjk5NDAzMjgsLTU1NzkwNTgwMCwtMj
+A1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEy
+MzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMT
+EzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEz
+OTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MT
+Q1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3
+Mjg5MDY0MV19
 -->
