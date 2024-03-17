@@ -7,7 +7,7 @@
 
 Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。Claude3 × Googleスプレッドシート、スプレッドシートから普通にClaude3を使える、いや。
 
-松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。世田谷区のAI bot、非エンジニアがノーコードで開発と。NLP2024も開催、岡野原さんの「大規模言語モデル開発の展望と今後の課題」、話題としては本LLMアプデ読者にはなじみの深い話題。
+松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。世田谷区のAI bot、非エンジニアがノーコードで開発と。NLP2024も開催、岡野原さんの「大規模言語モデル開発の展望と今後の課題」、話題としては本LLMアプデ読者にはなじみの深い話題。AIは科学を促進するが、『理解の錯覚』を生み出す危険性がある、と記事は新しい視点で興味深い。カーツワイルさん、大脳皮質と計算機がつながるのが2030年代初頭といって話題に。
 
 
 - 大規模言語モデルSwallow-MS 7BとSwallow-MX 8x7Bを公開しました
@@ -3913,10 +3913,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 米国の最新研究は、ChatGPTの立ち上げから数カ月で、主要なオンラインフリーランスのコピーライターやデザイナーの仕事の数が大幅に減少し、収入も急激に減ったと報じている
 	- https://www.ft.com/content/b2928076-5c52-43e9-8872-08fda2aa2fcf
 	- 「6桁稼ぐ人は30000ドルしか稼がない人の3倍ダメージを受ける」
-- Pattern Language for Generative AI book!
-	- https://x.com/IntuitMachine/status/17229317338661
+- Patter
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTY3NzAxNCwtNTU3OTA1ODAwLC0yMD
+eyJoaXN0b3J5IjpbLTMwNDcyMTA4MSwtNTU3OTA1ODAwLC0yMD
 UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
 NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
 MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
