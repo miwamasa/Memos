@@ -164,6 +164,9 @@
 - Cappy: Outperforming and boosting large multi-task language models with a small scorer
 	- https://blog.research.google/2024/03/cappy-outperforming-and-boosting-large.html
 	- Cappy, a small pre-trained scorer model that enhances and surpasses the performance of large multi-task language models.
+-  BitNet&BitNet b158の実装 by はち さん
+	- https://note.com/hatti8/n/nc6890e79a19a
+	- 一旦自身の理解のためにもBitNetの処理やBitNet b158の想像される実装、不明瞭な点を色々な方々の実装をもとに文字に書き起こしていこうと思います
 - 
 
 ## 3/11
@@ -3922,16 +3925,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/kis/status/1719284609761108462?s=20
 - ソフトバンク、 国産大規模言語モデル（LLM）の開発を本格開始
 	- https://www.softbank.jp/corp/news/press/sbkk/2023/20231031_01/
-	- 2024年内に3,500億パラメーターの国産LLMの構築を目指します
--  Evaluating Large Language Models: A Comprehensive Survey
-	- https://arxiv.org/abs/2310.19736
-	- A comprehensive survey (100+ 
+	- 2024年
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY1MjA1MTQsLTU1NzkwNTgwMCwtMj
-A1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEy
-MzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMT
-EzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEz
-OTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MT
-Q1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3
-Mjg5MDY0MV19
+eyJoaXN0b3J5IjpbLTQ2NDA2Mzk5OCwtNTU3OTA1ODAwLC0yMD
+UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
+NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
+MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
+NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
+U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
+ODkwNjQxXX0=
 -->
