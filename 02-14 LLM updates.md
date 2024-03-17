@@ -161,7 +161,10 @@
 	- https://www.itmedia.co.jp/news/articles/2403/13/news123.html
 	- 非エンジニアの職員チームが、ローコードツールなどを駆使して3カ月で完成させたという。
 	- 職員が普段から使っているTeamsのチャットツールでヒデキに質問でき、ChatGPTを業務に活用できる
-	- 
+- Cappy: Outperforming and boosting large multi-task language models with a small scorer
+	- https://blog.research.google/2024/03/cappy-outperforming-and-boosting-large.html
+	- Cappy, a small pre-trained scorer model that enhances and surpasses the performance of large multi-task language models.
+- 
 
 ## 3/11
 
@@ -3922,24 +3925,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 2024年内に3,500億パラメーターの国産LLMの構築を目指します
 -  Evaluating Large Language Models: A Comprehensive Survey
 	- https://arxiv.org/abs/2310.19736
-	- A comprehensive survey (100+ pages) on evaluating LLMs. 
-	- ■「知識と能力」の評価 
-		- ① タスク中心の評価から能力中心の評価へと移行している 
-		- ② 評価ベンチマークはますます拡張されている
-		- ③ ダウンストリームタスク間の区別があいまい 
-		- ④ モデルの能力を総合的に評価する新しいアプローチが必要 
-	- ■アライメント（ガイドライン）の評価 
-		- ① 人間の価値観との一致を評価する研究が増えている 
-		- ② 倫理的な面も含めたモデルの進歩と応用が目指されている 
-	- ■安全性の評価 
-		- ① LLMの発展によるリスクに厳格な評価が必要 
-		
+	- A comprehensive survey (100+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OT
-MxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1
-MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNz
-M1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2
-OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2OD
-A0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3Mjg5MDY0MSw5MzAy
-Mjk5MDhdfQ==
+eyJoaXN0b3J5IjpbLTE5NDY1MjA1MTQsLTU1NzkwNTgwMCwtMj
+A1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEy
+MzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMT
+EzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEz
+OTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1OTM4MT
+Q1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2ODQ0ODYsLTU3
+Mjg5MDY0MV19
 -->
