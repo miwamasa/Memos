@@ -178,6 +178,10 @@
 	- Google は #Anthropic とのパートナーシップを通じ、包括的な #AI 開発プラットフォームである #VertexAI で Anthropic の最新モデルを提供していきます。これにより、エンタープライズ グレードのセキュリティや、パフォーマンスと費用の最適化に活用いただけま
 - 清水れみお氏のGenerate Project Summary（プロジェクト要約生成）を使ってみる
 	- https://six-loganberry-ba7.notion.site/24-03-15-Generate-Project-Summary-fa20870dfe66426d9e68b730e1f51f11
+- Claude3にプロジェクト全体をぶち込むためのプロジェクトの構造とファイル内容を自動でまとめるPythonスクリプト
+	- https://zenn.dev/olemi/articles/7b7992c055c64a
+	- このPythonスクリプトを使えば、プロジェクトのフォルダ構造とファイルの内容を簡単にまとめることができます。
+- Prompt Tuning から Fine Tuning への移行時期推定
 	- 
 
 ## 3/11
@@ -3910,12 +3914,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - ハーバード大学とBCGの研究によるとGPT-4の活用で仕事の精度は40%向上し、スピードも25%早くなったとのこと。この結果を見てもAIの使い方は益々、知的差別化の重要な要素となる。知的さはもはやAIと切り離しが困難な状態。こうした変化についていくためにも最新のAIを使いこなせる努力をしてほしい。
 	- https://x.com/gijigae/status/1718851299524096284?s=20
 - ChatGPT のアプリ版に Retrieval Augmented Generation (RAG)機能が追加？
-	- https://x.com/yi_ding/status/1719028284548382901?s=20
-- シリコンバレー銀行の破綻を、シンプルに解析するnotebookが公開。スタンフォード大学Professor Ashwin Raoによる
-	- https://colab.research.google.com/drive/15uxrAeCCL327kWH9N0X-ogKwf2zErjP5
-- Microsof
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzU5MTY4MCwtNTU3OTA1ODAwLC0yMD
+eyJoaXN0b3J5IjpbMTE1ODQyMzIxNywtNTU3OTA1ODAwLC0yMD
 UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
 NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
 MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
