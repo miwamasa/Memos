@@ -28,6 +28,7 @@
 	- https://arxiv.org/abs/2403.06634
 	- GPT-4のようなClosedなブラックボックス大規模言語モデルでも,APIアクセスのみでモデルの一部の層のパラメータを特定できるModel-stealing attackを提案
 	- GoogleのOpenAIに対する逆襲の一手的な論文
+	- API経由でOpenAIのモデルにおける隠れ次元数を特定できることを示し、OpenAIがそれを受け対策を施したことを論文で報告しました。
 - 700億パラメータの日本語LLM「ELYZA-japanese-Llama-2-70b」を開発し、デモを公開しました
 	- https://note.com/elyza/n/n0ea755ca3e7b
 	- https://elyza.ai/lp/elyza-llm-for-jp
@@ -3935,14 +3936,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 計算機的な視点を用いて、量子物理学から神経科学に至るまでの分野を研究したハーバード大学の博士論文
 	- https://arxiv.org/abs/2310.20539
 - Japanese TinyLLaMa 1.1 B, llama.cpp で wasm でブラウザでも動く
-	- https://github.com/lighttransport/japanese-normalizer-cpp
-	- https://x.com/syoyo/s
+	- https://git
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTY1MDA1NywtMTg1MjcyMTIzNSwtMT
-U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
-MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
-wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
-OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcyODkwNj
-QxLDkzMDIyOTkwOCwtNTcxMzQ1ODAwLDkzOTcwODgyMCwtMjEz
-NjAwNjI1XX0=
+eyJoaXN0b3J5IjpbNTE5NDcxNzA2LC0xODUyNzIxMjM1LC0xNT
+c2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgw
+MzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC
+0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5
+NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4OTA2ND
+EsOTMwMjI5OTA4LC01NzEzNDU4MDAsOTM5NzA4ODIwLC0yMTM2
+MDA2MjVdfQ==
 -->
