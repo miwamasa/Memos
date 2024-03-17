@@ -184,6 +184,11 @@
 - Prompt Tuning から Fine Tuning への移行時期推定
 	- https://speakerdeck.com/icoxfog417/prompt-tuning-kara-fine-tuning-henoyi-xing-shi-qi-tui-ding
 	- ChatGPT や Claude のようなモデルに対し公開されている日本語言語モデルの利用は精度・コスト共に割に合わないと感じている方にとってパンチある内容かと思いま
+- JST戦略的創造研究推進事業「自律駆動による研究革新」が来年度から始まります
+	- https://www.mext.go.jp/b_menu/houdou/2023/mext_000010.html
+	- 研究プロセスそのものを AI やロボット で加速する自律駆動型の研究アプローチ
+-  LocalMamba: Visual State Space Model with Windowed Selective Scan
+	- https://huggingface.co/papers/2403.09338
 - 
 
 ## 3/11
@@ -3911,11 +3916,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - ControlLLM: Augment Language Models with Tools by Searching on Graphs
 	- https://huggingface.co/papers/2310.17796
 	- (1) a task decomposer that breaks down a complex task into clear subtasks with well-defined inputs and outputs; 
-	- (2) a Thoughts-on-Graph (ToG) paradigm that searches the optimal solution path on a pre-built tool graph, which specifies the parameter and dependency relations among different tools; and
-	-  (3) an execution engine with a rich toolbox that interprets the solution path and runs the tools efficiently on different computational devices.
-- ハーバード大学とBCGの研究によるとGPT-4の活用で仕事の精度は40%向上し、スピードも25%早くなったとのこと。この結果を見てもAIの使い方は益々、知的差別化の重要な要
+	- (2) a Thoughts-on-Graph (ToG) paradigm that searches the optimal solution path on a pre-built tool graph, which specifies the parameter and dependency relations among
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzY1NjA4NCwtNTU3OTA1ODAwLC0yMD
+eyJoaXN0b3J5IjpbMTE4MDIxODg4OSwtNTU3OTA1ODAwLC0yMD
 UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
 NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
 MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
