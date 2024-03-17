@@ -29,7 +29,12 @@
 	- https://note.com/elyza/n/n0ea755ca3e7b
 	- https://elyza.ai/lp/elyza-llm-for-jp
 	- 日本語特化モデルの中では最大級です.大きさが正義のLLMということで,実際報告されている性能もかなり抜けています
-- 
+- ELYZA-japanese-Llama-2-70b をお試し中 by npakaさん
+	- https://x.com/npaka123/status/1767439590502326514?s=20
+	- デフォルトテンプレートの指示も効いてる
+-  東大発のスタートアップ企業 “国内最大規模 国産生成AI完成”
+	- オープンソースと呼ばれる公開技術をベースに、産業技術総合研究所が運営するデータセンター「ABCI」などを活用し、去年12月から短期間で開発を実現しました。
+	- 
 
 ## 3/11
 
@@ -3957,13 +3962,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://book.premai.io/state-of-open-source-ai/
 	- 当然本自身もOpenSoruce
 	- https://github.com/premAI-io/state-of-open-source-ai
--  ComfyUI-LCMによるVid2Vidの高速変換を試す(Latent Consistency Models)
-	- https://note.com/bakushu/n/nec4cee4f4f37
-	- Latent Consistency Models（LCM）は、最小限のステップ数で迅速に推論できる新たな画像生成モデル
-	- Google Colabの標準GPU（VRAM 16GB）で試したところ、512x512サイズの120フレームの動画変換で1分弱。1024x1024サイズの120フレームの動画変換だと12-13分ほどでした。
--  AutoGen: Enabling Next
+-  ComfyUI-LCMによるVid2Vidの高速変換を試す(Latent Consistency Model
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDIzNjYxMSwtMTU3NjE2NzUyMywxMz
+eyJoaXN0b3J5IjpbLTY5MjAwNzg3OSwtMTU3NjE2NzUyMywxMz
 Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
 MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
 wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
