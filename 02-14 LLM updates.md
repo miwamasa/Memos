@@ -189,7 +189,7 @@
 	- 研究プロセスそのものを AI やロボット で加速する自律駆動型の研究アプローチ
 -  LocalMamba: Visual State Space Model with Windowed Selective Scan
 	- https://huggingface.co/papers/2403.09338
-- 
+-  AI escape velocity: A conversation with Ray Kurzweil
 
 ## 3/11
 
@@ -3916,13 +3916,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - ControlLLM: Augment Language Models with Tools by Searching on Graphs
 	- https://huggingface.co/papers/2310.17796
 	- (1) a task decomposer that breaks down a complex task into clear subtasks with well-defined inputs and outputs; 
-	- (2) a Thoughts-on-Graph (ToG) paradigm that searches the optimal solution path on a pre-built tool graph, which specifies the parameter and dependency relations among
+	- (2) a Thoughts-on-Graph (ToG) paradigm that searches the optimal solution path on a pre-built tool graph, which s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDIxODg4OSwtNTU3OTA1ODAwLC0yMD
-UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
-NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
-MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
-NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxND
-U1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5NjY4NDQ4NiwtNTcy
-ODkwNjQxXX0=
+eyJoaXN0b3J5IjpbLTIzNzE5ODI5LC01NTc5MDU4MDAsLTIwNT
+E2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1
+LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMz
+AyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1
+NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3NTkzODE0NT
+UsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2Njg0NDg2LC01NzI4
+OTA2NDFdfQ==
 -->
