@@ -205,7 +205,14 @@
 	- フリーのLLMなのに文章生成、数値計算、英訳、日本語理解力がChatGPTみたく回答されているのに驚きました。
 -  第2回　AIと人間の未来を決める鍵「アライメント」――ちょっとだけマニアックなAIの話
 	- https://bcg-jp.com/article/2230/
-	- 
+	- 今年はAIの発展がさらに加速すると予想されます。AIアライメントはAIと人間との未来を決める鍵となるでしょう。次回もお楽しみに
+-  Genomic data in the All of Us Research Program
+	- https://www.nature.com/articles/s41586-023-06957-x
+	- 今週のNatureにAll of usのサマリーデータが出ている。約25万人（半数近くがマイノリティ）のゲノム解読で、10億もの多様体を検出、117個の疾患に関連する3724個の変異を同定、まとめデータも公開されているらしい
+-  OpenAI Grok Curve Experiments
+	- https://twitter.com/i/bookmarks
+	- This is the code for the paper [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/abs/2201.02177) by Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, and Vedant Misra
+	- XからGroqがおー
 
 ## 3/11
 
@@ -3916,16 +3923,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- デジタル・コンピュータは硬直化してノイズをに対する耐性を失ってしまった、アナログ・コンピュータである
 	- アナログ・コンピュータはノイズを受け入れるばかりか、＜略＞機能するために一定の背景ノイズを必要とさえしている。(P295)
 - 人工知能の三つの法則からみるAIの次にくるもの（ダイソン）(P299)
-	- 「アシュビーの必要多様性の法則」、実効的な制御システムは対象と同じ程度複雑でなければならない
-	- 「複雑なシステムの特徴を規定するのは、それ自身の最も単純な動作の記述だ」（ノイマン）、
-	- 「理解可能な単純なシステムは、知的な振る舞いをするには複雑さが足らず、知的な振る舞いができるくらい複雑などんなシステムでも、理解するには複雑すぎる」
-	- →自ら思考する人工知能は、人間の知性を理解するまでは、マシンが超人的な知能を持つことを心配する必要はないともいえるが、理解をせずに何かを作っていけないという道理もない。
-
-## 11/6
-
-今週は、RinnaのYouri 7Bの発表(10/31)、Japanese Stable LM Beta 70Bの発表(11/2)、同日CyberAgentLM2-7B（CALM2 -7B）の公開(11/2)等、日本語LLMの発表・公開が相次ぐ。あっという間に4bit 量子化モデルも公開されて手元で試せるように。。。70Bもびっくりするが、特にCalm2は3万2000トークン（日本語で約5万字）に対応していて、RAG不要かも。ColabでもA100ならば動かせるらしい。ソフトバンクのLLM開発始動や、NTTの日本語対応言語モデルのtsuzumiの発表、牧野先生が、MM-core専任？になるとの話題もあり、日本でもLLMのインフラが今後そろってくるのは楽しみ。日本語事前学習済みモデルをSimCS
+	- 「アシュビーの必要多様性の法則」、実効的な制御システムは対象
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzA5MDIxMiwtNTU3OTA1ODAwLC0yMD
+eyJoaXN0b3J5IjpbLTMyODAyNjYwMiwtNTU3OTA1ODAwLC0yMD
 UxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIz
 NSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMT
 MwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5
