@@ -2,6 +2,8 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 
+## 3/25
+
 
 
 ## 3/18
@@ -3903,13 +3905,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/openai_retrieval_benchmark.ipynb
 	- OpenAIのRAGが、llamaindexの5行のコードに劣っていると、、、
 - LLM OS
-	- https://x.com/kar
+	- https://
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzI4NjIxNTksLTE0NDA4MzE5MCwtNT
-U3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcw
-NiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLD
-UzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0
-NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4Mz
-Y5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5MzQ1NjEwNiw5
-NjY4NDQ4Nl19
+eyJoaXN0b3J5IjpbOTIwODEzNDc4LC0xNDQwODMxOTAsLTU1Nz
+kwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYs
+LTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1Mz
+U0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5
+OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OS
+wtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2
+ODQ0ODZdfQ==
 -->
