@@ -105,6 +105,10 @@
 	- https://x.com/joshwhiton/status/1770870738863415500?s=20
 	- The "mirror test" is a classic test used to gauge whether animals are self-aware. I devised a version of it to test for self-awareness in multimodal AI. 4 of 5 AI that I tested passed, exhibiting apparent self-awareness as the test unfolded.
 	- Claude Opus passed the mirror test immediately. Like the other AI, it hardly identifies with its brand-name (Claude) and distinguishes itself from the interface’s stock elements. However it does identify with the prompt, which it knows is
+- PEFT 0.10.0 is out
+	- https://github.com/huggingface/peft/releases/tag/v0.10.0
+	- Fine-tune larger QLoRA models with DeepSpeed and FSDP, layer replication, enhance DoRA
+	- This allows you to fine-tune a 70B Llama model on two GPUs with 24GB memory each.
 - 
 ## 3/18
 
@@ -3888,17 +3892,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://aider.chat/docs/benchmarks-1106.html
 - CoVLM: Composing Visual Entities and Relationships in Large Language Models Via Communicative Decoding
 	- https://huggingface.co/papers/2311.03354
-- QGIS 3.34で3DTilesが表示できるようになったので、3D都市モデルPLATEAUの3DTilesをQGISで表示してみました
-	- https://x.com/shi__works/status/1721808786393121197?s=20
-	- https://north-road.com/2023/11/07/qgis-3d-tiles-thanks-to-cesium-ecosystem-grant/
-- OpenAI Assistants API(Playground)を使ってコーディングのアドバイスをしてくれるアシスタントを作る
-	- https://zenn.dev/karaage0703/articl
+- QGIS 3.34で3DTilesが表示できるようになったので、3D都市モデルPLATEAUの3DTilesをQGISで表示し
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzOTE2NDMyLDIxMDM2MDE2MzksLTE0ND
-A4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0
-LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMywxMz
-Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
-MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
-wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
-MzQ1NjEwNl19
+eyJoaXN0b3J5IjpbMTQxMDUxMTI4MywyMTAzNjAxNjM5LC0xND
+QwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2
+NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMT
+M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
+NDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5Nj
+QsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEz
+OTM0NTYxMDZdfQ==
 -->
