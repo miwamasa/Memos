@@ -60,6 +60,12 @@
 - StanfordのFei-Fei Li教授らのチームから、ロボットのシミュレーションのためのベンチマーク「BEHAVIOR-1K」がリリース
 	- https://x.com/drfeifei/status/17710132915083798大規模言語モデル「Grok-1」について by 今井
 	- https://x.com/ImAI_Eruel/status/1769487625994506294?s=20
+- 進化的アルゴリズムによる基盤モデルの構築 by sakana ai
+	- Sakana AIの最初の研究成果である、進化的計算による基盤モデル構築に関する論文を公開しました。多様な既存モデルを自動的に融合し優れた基盤モデルを構築するための方法を提案すると共に、それにより試作したモデルを公開しました。
+		- **EvoLLM-JP**：数学的推論が可能な日本語の大規模言語モデル（LLM）
+		- **EvoVLM-JP**：日本語で対話可能な画像言語モデル（VLM）
+		- **EvoSDXL-JP**：高速な日本語画像生成モデル
+	- _既存のモデルをマージして新しい基盤モデルを作成する過程の可視化。進化的アプローチは、モデルを組み合わせる際に、人間の直感だけでは見落とされがちな、効果的かつ時に非直感的な方法を自動的に発見することができます_
 - 
 
 ## 3/18
@@ -3892,18 +3898,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - llamaindexより、parallel function callingによる効率化の例
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/openai_agent_parallel_function_calling.ipynb
 - OpenAI API で提供されている モデル まとめ by npakaさｎ
-	- https://note.com/npaka/n/n5d0a76b149f1?sub_rt=share_sb
-- 『生成AIのパラドックス』
-	- https://aiboom.net/archives/58414
-	-  LLMなどの生成AIの背後にある思考プロセスは人間とは全く異なるかもしれないことを示す仮説
-	- AIが人間のような出力を生成する能力を持ちながら、それを理解する能力は必ずしも伴わないという仮説です（仮説を立てるに至った背景は、前章を参照）。
-- Streamlit+GPT4-Vision+TTSで動画ナレーション自動生成ツールをつくった
-	- https://zenn.dev/olemi/articles/752d205987cb87
-	-  動画からフレーム画像を抽出し、Base64形式に変換する
-	- GPT4-Visionに動画のナレーションを生成させる
-	- 
+	- https://note.com/npa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1MDg4OTExLDIxMDM2MDE2MzksLTE0ND
+eyJoaXN0b3J5IjpbNDI4NTM4OTM0LDIxMDM2MDE2MzksLTE0ND
 A4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0
 LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMywxMz
 Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
