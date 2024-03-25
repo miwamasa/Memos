@@ -66,7 +66,13 @@
 		- **EvoVLM-JP**：日本語で対話可能な画像言語モデル（VLM）
 		- **EvoSDXL-JP**：高速な日本語画像生成モデル
 	- _既存のモデルをマージして新しい基盤モデルを作成する過程の可視化。進化的アプローチは、モデルを組み合わせる際に、人間の直感だけでは見落とされがちな、効果的かつ時に非直感的な方法を自動的に発見することができます_
-- 
+-  Evolutionary Optimization of Model Merging Recipes
+	- Sakana Aiの論文
+	- https://arxiv.org/abs/2403.13187
+-  WSL2でSakana AIを試してみる
+	- https://note.com/ngc_shj/n/na9b41adb9131
+	- 「進化的モデルマージにより日本語数学LLMとして構築したEvoLLM-JPは、数学のみならず、日本語の全般的な能力に長けている」らしいEvoLLM-JPを試してみます
+	- 
 
 ## 3/18
 
@@ -3894,17 +3900,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - OpenAI API の Assistant API のしくみ
 	- https://note.com/npaka/n/n9fa7204e4af4?sub_rt=share_sb
 - mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration
-	- https://huggingface.co/papers/2311.04257
-- llamaindexより、parallel function callingによる効率化の例
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/openai_agent_parallel_function_calling.ipynb
-- OpenAI API で提供されている モデル まとめ by npakaさｎ
-	- https://note.com/npa
+	- https://hugg
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4NTM4OTM0LDIxMDM2MDE2MzksLTE0ND
-A4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0
-LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMywxMz
-Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
-MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
-wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
-MzQ1NjEwNl19
+eyJoaXN0b3J5IjpbLTY3NDMzODM1OCwyMTAzNjAxNjM5LC0xND
+QwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2
+NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMT
+M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
+NDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5Nj
+QsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEz
+OTM0NTYxMDZdfQ==
 -->
