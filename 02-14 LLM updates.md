@@ -89,8 +89,12 @@
 	- バイナリからリバースエンジニアリングできると
 - Suno AI unveiled V3
 	- https://x.com/heyBarsee/status/1771190753957470604?s=20
+- Doing In-Context Learning Without Leaking Private Data
+	- https://github.com/run-llama/llama_index/tree/main/llama-index-packs/llama-index-packs-diff-private-simple-dataset/examples/symptom_2_disease
+	- Few-shot demonstrations are crucial to improve the performance of any LLM/RAG app. But the issue with very private datasets (e.g. patient clinical reports), is that they can easily be leaked/jailbroken by malicious users.
+- 内閣府「AI時代の知的財産権検討会（第６回）」の資料が公開
+	- https://www.kantei.go.jp/jp/singi/titeki2/ai_kentoukai/gijisidai/dai6/index.html
 - 
-
 ## 3/18
 
 今週もいろいろありすぎて、目が回ります。東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングして、500ステップぐらいでいい感じとの報告も。「ELYZA-japanese-Llama-2-70b」が出たー、NHKでも紹介された、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる、リークなのか？。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAI＋マイクロオフト陣営も遅れるわけには行けない。企業が期待する今風の「主体性」って、思考力と協調・協働できる力という話だけど、この分野、生成AIが苦手とも言えなくなった気がするな。AIによるソフトウエアエンジニアDevin、なんかすごい、駆逐される人たちがたくさんいそうだ。どうもVC界隈では、AI従業員の開発の風が吹いているとのこと。JSTの「自律駆動による研究革新」は研究そのものをAIで自動化という話、ひえ！。Claude 3 Opusを使って世界経済を分析するデモ動画も、エージェント（AI従業員）をつくって調査を加速できるという話。ああ、人はいらなくなるのか？。Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。Claude3 × Googleスプレッドシート、スプレッドシートから普通にClaude3を使える、なんかちがうな。松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。世田谷区のAI bot、非エンジニアがノーコードで開発と。NLP2024も開催、岡野原さんの「大規模言語モデル開発の展望と今後の課題」、話題としては本LLMアプデ読者にはなじみの深い話題。AIは科学を促進するが、『理解の錯覚』を生み出す危険性がある、と記事は新しい視点で興味深い。カーツワイルさん、大脳皮質と計算機がつながるのが2030年代初頭といって話題に。OpenAIとロボット開発のFigureの提携の結果の第１段Figure01、いやこれってなんかの映画（パッセンジャー）で見た世界。NatureのAll of usのサマリーデータ、117個の疾患に関連する3724個の変異を同定され、データも公開とのこと。最後に、Xが予告お降り Grok-1のオープンソースリリース。直前に、OpenAIがGrokの別実装をOSSで公開してたりして、こういう競争、いや共創？って面白いな。
@@ -3894,20 +3898,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 対話性能を向上させた指示学習（instruction tuning）済み大規模言語モデルPLaMo-13B-Instructを公開しました
 	- https://tech.preferred.jp/ja/blog/llm-plamo-instruct/
 - llamaindexもOpenAIのAssistanceに対応
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/openai_assistant_agent.ipynb
-	- OpenAIのRetrievalとllamaindexのRetrievalを組み合わせることが可能！！！
-- OpenAIのRetrieval APIは、コンテキスト長が長い場合、簡易なtokp-k RAGに切り替えている模様
-	- The OpenAI retrieval API seems to be doing basic top-k RAG on limited context if there's context overflows.
-	- https://x.com/jerryjliu0/status/1721987237771133219?s=20
-- GPT-4 Turbo vs GPT-4 tests
-	- GPT-4 Turbo has record accuracy (87% vs 52% of GPT-4 on PyLLMs benchmark), it is almost 5x faster with 48 vs 10 tokens/sec). 
-	- And it is also 30% cheaper in practice (would be more, but it is 2x wordier in output comp
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/openai_assistant_agent.ipy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5NzAxODk5LDIxMDM2MDE2MzksLTE0ND
-A4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0
-LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMywxMz
-Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
-MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
-wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
-MzQ1NjEwNl19
+eyJoaXN0b3J5IjpbLTI0MjY2MDcwMCwyMTAzNjAxNjM5LC0xND
+QwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2
+NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMT
+M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
+NDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5Nj
+QsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEz
+OTM0NTYxMDZdfQ==
 -->
