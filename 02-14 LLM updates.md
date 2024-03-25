@@ -115,7 +115,11 @@
 - Introducing the Chatbot Guardrails Arena
 	- https://huggingface.co/blog/arena-lighthouz
 	- Our vision behind the Chatbot Guardrails Arena is to establish the trusted benchmark for AI chatbot security, privacy, and guardrails. With a large-scale blind stress test by the community, this arena will offer an unbiased and practical assessment of the reliability of current privacy guardrails.
-- 
+- 昨日SakanaAILabsからリリースした日本語画像言語モデルEvoVLM-JPは、誰でもすぐにお試しいただけます。
+	- https://huggingface.co/spaces/SakanaAI/EvoVLM-JP
+- Starling-LM-7B, has now upgraded to Beta
+	- https://huggingface.co/Nexusflow/Starling-LM-7B-beta
+	- 
 ## 3/18
 
 今週もいろいろありすぎて、目が回ります。東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングして、500ステップぐらいでいい感じとの報告も。「ELYZA-japanese-Llama-2-70b」が出たー、NHKでも紹介された、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる、リークなのか？。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAI＋マイクロオフト陣営も遅れるわけには行けない。企業が期待する今風の「主体性」って、思考力と協調・協働できる力という話だけど、この分野、生成AIが苦手とも言えなくなった気がするな。AIによるソフトウエアエンジニアDevin、なんかすごい、駆逐される人たちがたくさんいそうだ。どうもVC界隈では、AI従業員の開発の風が吹いているとのこと。JSTの「自律駆動による研究革新」は研究そのものをAIで自動化という話、ひえ！。Claude 3 Opusを使って世界経済を分析するデモ動画も、エージェント（AI従業員）をつくって調査を加速できるという話。ああ、人はいらなくなるのか？。Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。Claude3 × Googleスプレッドシート、スプレッドシートから普通にClaude3を使える、なんかちがうな。松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。世田谷区のAI bot、非エンジニアがノーコードで開発と。NLP2024も開催、岡野原さんの「大規模言語モデル開発の展望と今後の課題」、話題としては本LLMアプデ読者にはなじみの深い話題。AIは科学を促進するが、『理解の錯覚』を生み出す危険性がある、と記事は新しい視点で興味深い。カーツワイルさん、大脳皮質と計算機がつながるのが2030年代初頭といって話題に。OpenAIとロボット開発のFigureの提携の結果の第１段Figure01、いやこれってなんかの映画（パッセンジャー）で見た世界。NatureのAll of usのサマリーデータ、117個の疾患に関連する3724個の変異を同定され、データも公開とのこと。最後に、Xが予告お降り Grok-1のオープンソースリリース。直前に、OpenAIがGrokの別実装をOSSで公開してたりして、こういう競争、いや共創？って面白いな。
@@ -3883,18 +3887,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Spin up OpenAI assistants and run them as any other LangChain agent!
 	- LangChainのAgentと同じように、OpenAIのagentを使える、らしい
 	- OpenAIAssistantRunnable.create_assistan
-- Contrastive Error Attribution for Finetuned Language Models
-	- https://arxiv.org/abs/2212.10722v2
-	- 文書生成においてハルシネーションを引き起こすデータセット内のデータを高精度で特定する手法の提案。
-- Tokyo Digital Twinが、
-	- https://info.tokyo-digitaltwin.metro.tokyo.lg.jp/
-	- 調布市の3次元 [
+- Contrastive Error Attribu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjQxMjYwOCwyMTAzNjAxNjM5LC0xND
-QwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2
-NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMT
-M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
-NDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5Nj
-QsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEz
-OTM0NTYxMDZdfQ==
+eyJoaXN0b3J5IjpbNTE2ODIyNDI1LDIxMDM2MDE2MzksLTE0ND
+A4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0
+LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMywxMz
+Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
+MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
+wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
+MzQ1NjEwNl19
 -->
