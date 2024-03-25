@@ -76,6 +76,11 @@
 - RAG for long context LLMs: Video
 	- https://www.youtube.com/watch?v=SsHUNfhF32s
 	- https://docs.google.com/presentation/d/1mJUiPBdtf58NfuSEQ7pVSEQ2Oqmek7F1i4gBwR6JDss/edit#slide=id.g26c0cb8dc66_0_0
+- NVIDIAのフリーオンラインAIコース
+	- https://courses.nvidia.com/courses/course-v1:DLI+T-FX-01+V1/
+- Claude 3 Opusより60倍安いHaikuをOpusの品質で運用する方法。
+	- https://github.com/mshumer/gpt-prompt-engineer
+	- gpt-prompt-engineerを使えば、プロンプトエンジニアリングの実験を自動化できる。自動で複数プロンプトを生成して、LLM別に評価も可能。
 - 
 
 ## 3/18
@@ -3897,12 +3902,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2310.19796v1
 	- 逆合成のベンチマーク論文。
 	- 狙いの材料から原料を予測する逆合成予測では各論文で評価方法が異なっていましたが、Microsoftさんらはベンチマークライブラリを構築、これによりモデルのランキングが従来と変わることが分かったそうです。
--  Google Colab で OpenAI API の Code Interpreter を試す by npakaさｎ
-	- https://note.com/npaka/n/nb90306341d41?sub_rt=share_sb
-- GPT-3.5 Turbo の価格が Fireworks や Anyscale などの OSS LLM デプロイサービスの 70B のデプロイ価格と全然競争できるレベル
-	- どうも今回の OpenAI の価格改定で、GPT-3.5 Turbo の価格が Fireworks や Anyscale などの OSS LLM デプロイサービスの 70B のデプロイ価格
+-  Google Colab で OpenAI API の Code Interpret
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDg0ODQ1OCwyMTAzNjAxNjM5LC0xND
+eyJoaXN0b3J5IjpbMTY5MjQzNTIyMCwyMTAzNjAxNjM5LC0xND
 QwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2
 NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMT
 M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
