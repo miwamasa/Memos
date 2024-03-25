@@ -81,7 +81,12 @@
 - Claude 3 Opusより60倍安いHaikuをOpusの品質で運用する方法。
 	- https://github.com/mshumer/gpt-prompt-engineer
 	- gpt-prompt-engineerを使えば、プロンプトエンジニアリングの実験を自動化できる。自動で複数プロンプトを生成して、LLM別に評価も可能。
-- 
+- Binary and Scalar Embedding Quantization for Significantly Faster & Cheaper Retrieval
+	- https://huggingface.co/blog/embedding-quantization
+	- 25x speedup in retrieval; 32x reduction in memory usage; 4x reduction in disk space; 99.3% preservation of performance
+- LLM4Decompile: Decompiling Binary Code with Large Language Models
+	- https://arxiv.org/abs/2403.05286v1
+	- バイナリからリバースエンジニアリングできる
 
 ## 3/18
 
@@ -3895,20 +3900,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- GPT-4 Turbo has record accuracy (87% vs 52% of GPT-4 on PyLLMs benchmark), it is almost 5x faster with 48 vs 10 tokens/sec). 
 	- And it is also 30% cheaper in practice (would be more, but it is 2x wordier in output compared to GPT-4)
 	- https://x.com/vladquant/status/1721674365211738269?s=20
--  Google Colab で OpenAI API の Function Calling を試す by npakaさん
-	- https://note.com/npaka/n/nc3713dba5df6?sub_rt=share_sb
-	- 群馬県の気温を教えてください
--  Re-evaluating Retrosynthesis Algorithms with Syntheseus
-	- https://arxiv.org/abs/2310.19796v1
-	- 逆合成のベンチマーク論文。
-	- 狙いの材料から原料を予測する逆合成予測では各論文で評価方法が異なっていましたが、Microsoftさんらはベンチマークライブラリを構築、これによりモデルのランキングが従来と変わることが分かったそうです。
--  Google Colab で OpenAI API の Code Interpret
+-  Google Co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjQzNTIyMCwyMTAzNjAxNjM5LC0xND
-QwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2
-NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMT
-M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
-NDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5Nj
-QsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEz
-OTM0NTYxMDZdfQ==
+eyJoaXN0b3J5IjpbNTgxMDM4NzEzLDIxMDM2MDE2MzksLTE0ND
+A4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0
+LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMywxMz
+Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
+MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
+wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
+MzQ1NjEwNl19
 -->
