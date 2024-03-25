@@ -86,7 +86,10 @@
 	- 25x speedup in retrieval; 32x reduction in memory usage; 4x reduction in disk space; 99.3% preservation of performance
 - LLM4Decompile: Decompiling Binary Code with Large Language Models
 	- https://arxiv.org/abs/2403.05286v1
-	- バイナリからリバースエンジニアリングできる
+	- バイナリからリバースエンジニアリングできると
+- Suno AI unveiled V3
+	- https://x.com/heyBarsee/status/1771190753957470604?s=20
+- 
 
 ## 3/18
 
@@ -3898,11 +3901,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/jerryjliu0/status/1721987237771133219?s=20
 - GPT-4 Turbo vs GPT-4 tests
 	- GPT-4 Turbo has record accuracy (87% vs 52% of GPT-4 on PyLLMs benchmark), it is almost 5x faster with 48 vs 10 tokens/sec). 
-	- And it is also 30% cheaper in practice (would be more, but it is 2x wordier in output compared to GPT-4)
-	- https://x.com/vladquant/status/1721674365211738269?s=20
--  Google Co
+	- And it is also 30% cheaper in practice (would be more, but it is 2x wordier in output comp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxMDM4NzEzLDIxMDM2MDE2MzksLTE0ND
+eyJoaXN0b3J5IjpbNjE5NzAxODk5LDIxMDM2MDE2MzksLTE0ND
 A4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0
 LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMywxMz
 Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
