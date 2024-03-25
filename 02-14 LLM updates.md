@@ -129,6 +129,12 @@
 - Artificial muscle has arrived.
 	- https://x.com/BrianRoemmele/status/1770959817815019857?s=20
 	- 昨年知的業務は終わりだ。人間は筋肉を鍛えるしかない。 とか言ってたけど、人工筋肉出来ちゃったよ
+-  Arcee's MergeKit: A Toolkit for Merging Large Language Models
+	- https://huggingface.co/papers/2403.13257
+	- Model Merging allows us to blend/stack multiple open LLMs into one—bigger or the same size—without extra training to extend skills and performance!
+- データセンター廃熱でプールを加温🏊 環境に優しくコストも節減 英国
+	- https://x.com/afpbbcom/status/1770586117449953488?s=20
+	- 敷地内に設置された装置がコンピューター群が放出する熱を取り込み、25ｍプールを設定温度まで温める。約65％をカバーしており、ガスボイラーの使用は抑えられている。
 - 
 ## 3/18
 
@@ -3876,23 +3882,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  GPT-4VのAPIをサクッと使ってみる！
 	- https://note.com/peisuke/n/nef0616b8d7fc?sub_rt=share_sb
 	- 早稲田大学の講義のページを使わせてもらいます。制約条件付き最適化の問題を解かす→解ける。
-	- "画像の数式の応用例を一つ挙げ、何らかの適当な数値を設定し、それを解くためのプログラムを作成してください"
-- Google Colab で OpenAI API の Text-to-Speech を試す by npakaさん
-	- https://note.com/npaka/n/nba4af88eb3cf?sub_rt=share_sb
-	- 6つの内蔵ボイスが付属しており、次の目的で使用できます。
-		- 書かれたブログ投稿のナレーション
-		- 複数言語の音声を生成
-		- ストリーミングを使用したリアルタイムオーディオ出力
-- Bayesian Optimization of Function Networks with Partial Evaluations
-	- https://arxiv.org/abs/2311.02146
-- Assistance APIについて
-	- これまでなら自力 or LangChain でやってきたことが、それなりに Assistants
+	- "画像の数式の応用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzExODIwNCwyMTAzNjAxNjM5LC0xND
-QwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2
-NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMT
-M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
-NDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5Nj
-QsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEz
-OTM0NTYxMDZdfQ==
+eyJoaXN0b3J5IjpbNjQwNDY2ODg1LDIxMDM2MDE2MzksLTE0ND
+A4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0
+LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMywxMz
+Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
+MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
+wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
+MzQ1NjEwNl19
 -->
