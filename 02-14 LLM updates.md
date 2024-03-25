@@ -72,7 +72,11 @@
 -  WSL2でSakana AIを試してみる
 	- https://note.com/ngc_shj/n/na9b41adb9131
 	- 「進化的モデルマージにより日本語数学LLMとして構築したEvoLLM-JPは、数学のみならず、日本語の全般的な能力に長けている」らしいEvoLLM-JPを試してみます
-	- 
+	- 10Bのモデルですが、torch_dtypeを"auto"からtorch.bfloat16に変更すると、推論のスピードが改善しました。
+- RAG for long context LLMs: Video
+	- https://www.youtube.com/watch?v=SsHUNfhF32s
+	- https://docs.google.com/presentation/d/1mJUiPBdtf58NfuSEQ7pVSEQ2Oqmek7F1i4gBwR6JDss/edit#slide=id.g26c0cb8dc66_0_0
+- 
 
 ## 3/18
 
@@ -3896,13 +3900,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Google Colab で OpenAI API の Code Interpreter を試す by npakaさｎ
 	- https://note.com/npaka/n/nb90306341d41?sub_rt=share_sb
 - GPT-3.5 Turbo の価格が Fireworks や Anyscale などの OSS LLM デプロイサービスの 70B のデプロイ価格と全然競争できるレベル
-	- どうも今回の OpenAI の価格改定で、GPT-3.5 Turbo の価格が Fireworks や Anyscale などの OSS LLM デプロイサービスの 70B のデプロイ価格と全然競争できるレベルまで掛かっているらしく、OSS LLM が普及しないのは結局 OpenAI の API がクソ安すぎるからでは？という指摘
-- OpenAI API の Assistant API のしくみ
-	- https://note.com/npaka/n/n9fa7204e4af4?sub_rt=share_sb
-- mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration
-	- https://hugg
+	- どうも今回の OpenAI の価格改定で、GPT-3.5 Turbo の価格が Fireworks や Anyscale などの OSS LLM デプロイサービスの 70B のデプロイ価格
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDMzODM1OCwyMTAzNjAxNjM5LC0xND
+eyJoaXN0b3J5IjpbLTc4NDg0ODQ1OCwyMTAzNjAxNjM5LC0xND
 QwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2
 NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMT
 M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
