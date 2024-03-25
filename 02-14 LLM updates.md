@@ -4,7 +4,63 @@
 
 ## 3/25
 
-
+- grok-1まとめ
+	- https://x.com/webbigdata/status/1769503166528458822?s=20
+	- リリースされたモデルは314Bパラメーター 
+	- ファイルサイズでいえば318.24GB 
+	- MoE(2/8 experts)でactiveパラメーターだけでも86B 
+	- 2023/10月時点で学習を完了していたベースモデルのみ公開 
+	- githubのxai-orgで推論コードも公開(JAX) 
+	- ダウンロードはacademictorrentsかhuggingfaceのxai-org/grok-1 
+	- ライセンスはApache 2.0 ライセンス 
+	- 公表済みベンチマークによればgpt-3.5を上回るが、Claude 2やGPT-4は下回る
+- Apple in talks with Google for using Gemini to bring generative AI features to iPhones
+	- https://www.livemint.com/technology/tech-news/googles-gemini-could-power-generative-ai-features-on-iphone-16-tim-cook-heres-what-we-know-11710739843784.html
+- アップル、高度な言語理解を持つ新型AIモデル「MM1」を発表
+	- https://ascii.jp/elem/000/004/189/4189761/
+	- 複数（30億、70億、300億）のパラメータサイズを備えるMM1は、10億以上の画像および30兆語以上のテキスト、GitHubのコード例などの多様なデータセットを用い、教師なし学習と教師あり学習を組み合わせる独自の方法で学習され、多様なタスクに対して高い精度を示す
+	- MM1はすべてのコンポーネントに関して、そのアーキテクチャーから、データセットの内容、事前学習・ファインチューニングの詳細、モデルサイズに至るまで、詳細な情報（MLLMsの開発レシピ）を公開している。
+-  Stability AIとアニメチェーンがアニメ業界向け生成系AIの共同研究を検討開始
+	- https://prtimes.jp/main/html/rd/p/000000003.000135092.html
+	-  既存のアニメ制作工程をそのままに「協議会」を通じて制作現場の声を伺いながらアニメ作品の品質向上を目標とした支援ツールの共同研究を目指す
+-  Fully  Client-Side  Chat Over Documents
+	- https://webml-demo.vercel.app/
+	- So I revisited WebLLM and was able to add browser-only mode!
+- KDDI、東大発AIベンチャー・ELYZAを連結子会社化　春以降、生成AI関連サービスを提供
+	- https://www.itmedia.co.jp/news/articles/2403/18/news140.html
+- NVIDIA GTC2024で次世代のロボティクスはヒューマノイド
+	- https://www.youtube.com/watch?v=Y2F8yisiS6E
+- DGX GB200 NVL72は、GB200 Superchipを72基NVLinkで接続したクラスタ
+	- https://x.com/_ksasaki/status/1769829822946001353?s=20
+-  LlamaIndex Accelerates Enterprise Generative AI with NVIDIA NIM
+	- https://www.llamaindex.ai/blog/llamaindex-accelerates-enterprise-generative-ai-with-nvidia-nim
+	- LlamaIndex  is integrated with NVIDIA NIM inference microservices to help enterprises seamlessly deploy generative AI at scale
+- 1x GPU Blackwell - 192GB VRAM 2x GPU 
+	- Blackwell with CPU - 384 GB VRAM
+	- https://x.com/migtissera/status/1769824889102348366?s=20
+-  NVIDIAがヒューマノイド開発プラットフォーム提供を発表　ディズニーの二足歩行ロボットが登壇　Jetson Orinから次世代Thorへ
+	- https://robotstart.info/2024/03/19/nvidia-humanoid-jetson-thor.html
+	- NVIDIAは「GTC 2024」の創業者/CEOのジェンスン・フアン氏による基調講演で、ヒューマノイドロボット(ヒト型ロボット)を開発するためのプラットフォーム「GR00T」(ジーアールゼロゼロティー)を発表した。NVIDIAは新世代GPUと生成AIを含むヒューマノイド開発用のSDKやライブラリ、プラットフォームを提供し、全面的に支援していく。
+- 法制局も真っ青？Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック
+	- https://takagi-hiromitsu.jp/diary/20240319.html
+	- Claude 3に聞いてみた。微妙にけっこう間違うが、そこはスルーして、大変参考になる。ここまでわずか1時間程度の作業だった
+- TacticAI: an AI assistant for football tactics
+	- https://deepmind.google/discover/blog/tacticai-ai-assistant-for-football-tactics/?utm_source=twitter&utm_medium=social&utm_campaign=TacticAI/
+	- We're announcing TacticAI: an AI assistant capable of offering insights to football experts on corner kicks.
+	- it can help teams sample alternative player setups to evaluate possible outcomes, and achieves state-of-the-art results.
+- 500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトル(control vectors)用ライブラリ
+	- https://github.com/vgel/repeng
+	- LoRAのように特定タスクに特化するのではなく例えば 「陽キャなチャットボット」ｖｓ「陰キャなチャットボット」 など、モデルの出力に全体的な方向性を与える感じですね
+- Google、PDF論文を劇的に読みやすくするChrome拡張「Google Scholar PDF Reader」
+	- https://news.mynavi.jp/techplus/article/20240321-2911097/
+- GaLore - 家庭用ハードウェアでの大規模モデルの学習
+	- https://note.com/npaka/n/n8e4537502e3e?sub_rt=share_h
+	- 「GaLore」は、「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にします。これは、学習プロセス中のオプティマイザの状態と勾配に従来関連付けられていたメモリ要件を大幅に削減することによって実現されます。
+	- 「GaLore」と「8bitオプティマイザ」を組み合わせることで、学習プロセスの整合性とパフォーマンスを維持しながらメモリ効率を最大化する相乗効果が得られます。
+- StanfordのFei-Fei Li教授らのチームから、ロボットのシミュレーションのためのベンチマーク「BEHAVIOR-1K」がリリース
+	- https://x.com/drfeifei/status/17710132915083798大規模言語モデル「Grok-1」について by 今井
+	- https://x.com/ImAI_Eruel/status/1769487625994506294?s=20
+	- 
 
 ## 3/18
 
@@ -3845,73 +3901,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://zenn.dev/olemi/articles/752d205987cb87
 	-  動画からフレーム画像を抽出し、Base64形式に変換する
 	- GPT4-Visionに動画のナレーションを生成させる
-	- 生成されたテキストから、TTS APIで音声ファイルを生成する
-	- Streamlitで、テキストと音声ファイルを表示・ダウンロード可能にする
--  Google Colab で PLaMo-13B-Instruct を試す by npakaさん
-	- https://note.com/npaka/n/n97a1ac080f76?sub_rt=share_sb
-- 日本語に対応した Embedding Model のベクトル検索での精度比較｜Tatsuya Shirakawa
-	- https://github.com/nouu-me/document_vector_search_benchmark
-	- 日本語Text Embeddingでのベクトル検索の精度をいろんなモデルで検証してみました。e5良いですね
--  Extracting List of  `Album`  (with Parallel Function Calling)
-	- https://docs.llamaindex.ai/en/latest/examples/output_parsing/openai_pydantic_program.html#extracting-list-of-album-with-parallel-function-calling
-- 複数のアシスタントに討論させる例
-	- https://x.com/npaka123/status/1722761636937900541?s=20
-- Zhenjie Yang et al., "A Survey of Large Language Models for Autonomous Driving"
-	- LLMが得意とする「計画、認識、質問応答、生成」の能力が自動運転システムに効果的に使えると主張
-	- https://arxiv.org/abs/2311.01043
-- Cold-Start Data Selection for Few-shot Language Model Fine-tuning: A Prompt-Based Uncertainty Propagation Approach
-	- https://arxiv.org/abs/2209.06995
-	- 良質なデータを収集し少量で高い性能を獲得する試み。
-	- LLMにプロンプトを与え疑似ラベルを予測、分布が一様で不確実性が高い=学習効果が高いとみなす。
-	- ベクトル空間上の距離から周辺も不確実性が高い、かつ採用データ間の距離を空ける。
-	- 128サンプルでフル学習の 90% 超の精度。
-- A.R.I.A. (Aria) - Your AI Research Assistant
-	- https://github.com/lifan0127/ai-research-assistant
--  OpenAI の Assistant Playuground の Function Calling を試す
-	- https://note.com/npaka/n/n6bf08e93840d?sub_rt=share_sb
-- GPTs 作成第二弾として arXiv Reader を作りました。論文は PDF 入力か URL 手渡しか選べます。
-	- https://chat.openai.com/g/g-qrOeOjLX6-arxiv-reader
-- Tokenizerの分割を可視化しながらトークン数を数えてくれるページがOpenAIのサイトにある
-	- https://platform.openai.com/tokenizer
-- GPTsで、Kaggleのチュートリアル第6版を読み込ませてみて、質問してみました。
-	- https://chat.openai.com/g/g-Z3a4iOzGR-kagglenotiyutoriarudi-6ban
-- 弊社のカスタマーサポートをGPTsで作成してみました。
-	- https://chat.openai.com/g/g-uINwYG4Ja-trippy-kasutamasapoto
-- LangChainの# OpenAI Assistant、js版
-	- https://js.langchain.com/docs/modules/agents/agent_types/openai_assistant
--  Fine-tuning Happens in Tiny Subspaces: Exploring Intrinsic Task-specific Subspaces of Pre-trained Language Models
-	- https://arxiv.org/abs/2305.17446
-	- 事前学習済モデルの転移学習がモデル内の副空間で行われている可能性を示唆した研究。
-	- 重みをFlatten しエポックごとスタックして SVD にかけ、 Fine Tuning 中のパラメーター変動を説明する軸を発見。
-	- この軸上で外れ値になるパラメーターを無効化し著しい性能劣化を確認
-- 山内志朗『小さな倫理学入門』
-	- 「人間は欲望を自分で生産できず、他の人からこっそり盗んできます。もしかすると、人間は欲望が欠如していて、それを隠すために欲望まみれの姿を取りたがります。やりたいことが見つからない人の方が圧倒的に多いのです。」
-- スタンフォード大のAI研究者Fei-Fei Liさんの新刊”The Worlds I See”は、想像を超える面白さ。強さとしての好奇心。
-	- https://www.amazon.com/dp/1250897939?ref_=cm_sw_r_cp_ud_dp_QG23D73KJFT6GCP6GNVP
-	- After 3+ years, today is the day that my book “The Worlds I See” gets to see the world itself. It is a science memoir of the intertwining histories of me becoming an #AI scientist, and the making of the modern AI itself. 
-- 日本語言語モデルのベンチマークテストが更新
-	- 日本語言語モデルのベンチマークテストである Stability-AI/lm-evaluation-harness がアップデートされたため、Youri 7B シリーズのスコアを算出し直しました。 GPTQによる 4bit 量子化モデルのスコアも算出しています。
-	- https://rinnakk.github.io/research/benchmarks/lm/
-- 生成AIエコシステムについて
-	- 生成AIまわりがすごい楽しいのは、技術そのものはもちろん、理論に詳しい人、いち早く実装に落とすのが得意な人、きれいなアーキテクチャーに落とすのが得意な人、面白いプロダクトに仕立てる人の協力関係がバッチリ噛み合ってるみたいなところがすき
-	- https://x.com/uezochan/status/1722604877644497292?s=20
-- GPT3.5を用いてマルチターン日本語会話データセット(16K)を作りました
-	- https://note.com/shi3zblog/n/nfc07c53d61a8?sub_rt=share_b
-	- Wikipedia日本版データセット(izumi-lab/wikipedia-ja-20230720)とGPT-3.5-Turboでマルチターン会話データセットを作りました。
--  Google Colab で Japanese Wikipedia Conversation による Llama 2 のLoRAファインチューニングを試す
-	- https://note.com/npaka/n/n723766f96cbc?sub_rt=share_sb
-	- **<s> [INST]** 日本の首都は？ **[/INST]** 東京です。**</s><s> [INST]** その場所の観光名所を教えて。 **[/INST]** 東京ドームシティ、サンシャイン60（六万分一）があります。 **</s>**
-- llamaindexからRAGのベンチマーク
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/openai_retrieval_benchmark.ipynb
-	- OpenAIのRAGが、llamaindexの5行のコードに劣っていると、、、
-- LLM OS
-	- https://
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwODEzNDc4LC0xNDQwODMxOTAsLTU1Nz
-kwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYs
-LTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1Mz
-U0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5
-OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OS
-wtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEzOTM0NTYxMDYsOTY2
-ODQ0ODZdfQ==
+eyJoaXN0b3J5IjpbMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NT
+c5MDU4MDAsLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2
+LC0xODUyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNT
+M1NDE2NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1
+OTk1LC0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNj
+ksLTE3NTkzODE0NTUsLTU5NzQ0NjgwNCwxMzkzNDU2MTA2LDk2
+Njg0NDg2XX0=
 -->
