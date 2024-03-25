@@ -109,6 +109,12 @@
 	- https://github.com/huggingface/peft/releases/tag/v0.10.0
 	- Fine-tune larger QLoRA models with DeepSpeed and FSDP, layer replication, enhance DoRA
 	- This allows you to fine-tune a 70B Llama model on two GPUs with 24GB memory each.
+- OpenAI Voice Engine. This is big
+	- https://x.com/SmokeAwayyy/status/1771052612051468668?s=20
+	- VOICE ENGINE™ trademark registration is intended to cover: - voice and speech recognition, processing voice commands, and converting between text and speech
+- Introducing the Chatbot Guardrails Arena
+	- https://huggingface.co/blog/arena-lighthouz
+	- Our vision behind the Chatbot Guardrails Arena is to establish the trusted benchmark for AI chatbot security, privacy, and guardrails. With a large-scale blind stress test by the community, this arena will offer an unbiased and practical assessment of the reliability of current privacy guardrails.
 - 
 ## 3/18
 
@@ -3882,19 +3888,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 文書生成においてハルシネーションを引き起こすデータセット内のデータを高精度で特定する手法の提案。
 - Tokyo Digital Twinが、
 	- https://info.tokyo-digitaltwin.metro.tokyo.lg.jp/
-	- 調布市の3次元 [#点群](https://twitter.com/hashtag/%E7%82%B9%E7%BE%A4?src=hashtag_click) をダウンロードしました! さらに独自の手法にて建物・植物・地表面の自動分類を行いました
-- GPT-4のファインチューニングには、５億円かかる？？？
-	- It costs $2-3 million to train a custom GPT-4 model with your own dataset.
-	- https://x.com/tdinh_me/status/1721835213121265840?s=20
-	- いや、この「Submit」ボタンは押せない。。。
-- GPT4 Turbo はPyllms ベンチマークでGPT4を凌駕
-	- https://github.com/kagisearch/pyllms
-	- https://aider.chat/docs/benchmarks-1106.html
-- CoVLM: Composing Visual Entities and Relationships in Large Language Models Via Communicative Decoding
-	- https://huggingface.co/papers/2311.03354
-- QGIS 3.34で3DTilesが表示できるようになったので、3D都市モデルPLATEAUの3DTilesをQGISで表示し
+	- 調布市の3次元 [
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDUxMTI4MywyMTAzNjAxNjM5LC0xND
+eyJoaXN0b3J5IjpbMjA0NjQxMjYwOCwyMTAzNjAxNjM5LC0xND
 QwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2
 NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMT
 M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
