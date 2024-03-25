@@ -98,9 +98,14 @@
 	- https://www.publickey1.jp/blog/24/githubai.html
 	- GitHubは、脆弱性のあるコードをAIボットが自動的に発見、修正したコードとその解説をプルリクエストしてくれる「code scanning autofix」（コードスキャン自動修正機能）を発表しました
 - 音声基盤モデルKotoba-Speech v0.1の学習・推論コードをリリースしました！
+	- https://x.com/kotoba_tech/status/1771165553882964291?s=20
 	- https://github.com/kotoba-tech/kotoba-speech-release
 	- End-to-EndのTransformerアプローチで、カスタマイズも簡単です。例として、関西弁モデルも公開しました。既存のText-to-Speechよりも、さらに自然で流暢であることが実感できるかと思います！
-	- 
+- The AI Mirror Test
+	- https://x.com/joshwhiton/status/1770870738863415500?s=20
+	- The "mirror test" is a classic test used to gauge whether animals are self-aware. I devised a version of it to test for self-awareness in multimodal AI. 4 of 5 AI that I tested passed, exhibiting apparent self-awareness as the test unfolded.
+	- Claude Opus passed the mirror test immediately. Like the other AI, it hardly identifies with its brand-name (Claude) and distinguishes itself from the interface’s stock elements. However it does identify with the prompt, which it knows is
+- 
 ## 3/18
 
 今週もいろいろありすぎて、目が回ります。東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングして、500ステップぐらいでいい感じとの報告も。「ELYZA-japanese-Llama-2-70b」が出たー、NHKでも紹介された、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる、リークなのか？。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAI＋マイクロオフト陣営も遅れるわけには行けない。企業が期待する今風の「主体性」って、思考力と協調・協働できる力という話だけど、この分野、生成AIが苦手とも言えなくなった気がするな。AIによるソフトウエアエンジニアDevin、なんかすごい、駆逐される人たちがたくさんいそうだ。どうもVC界隈では、AI従業員の開発の風が吹いているとのこと。JSTの「自律駆動による研究革新」は研究そのものをAIで自動化という話、ひえ！。Claude 3 Opusを使って世界経済を分析するデモ動画も、エージェント（AI従業員）をつくって調査を加速できるという話。ああ、人はいらなくなるのか？。Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。Claude3 × Googleスプレッドシート、スプレッドシートから普通にClaude3を使える、なんかちがうな。松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。世田谷区のAI bot、非エンジニアがノーコードで開発と。NLP2024も開催、岡野原さんの「大規模言語モデル開発の展望と今後の課題」、話題としては本LLMアプデ読者にはなじみの深い話題。AIは科学を促進するが、『理解の錯覚』を生み出す危険性がある、と記事は新しい視点で興味深い。カーツワイルさん、大脳皮質と計算機がつながるのが2030年代初頭といって話題に。OpenAIとロボット開発のFigureの提携の結果の第１段Figure01、いやこれってなんかの映画（パッセンジャー）で見た世界。NatureのAll of usのサマリーデータ、117個の疾患に関連する3724個の変異を同定され、データも公開とのこと。最後に、Xが予告お降り Grok-1のオープンソースリリース。直前に、OpenAIがGrokの別実装をOSSで公開してたりして、こういう競争、いや共創？って面白いな。
@@ -3887,23 +3892,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/shi__works/status/1721808786393121197?s=20
 	- https://north-road.com/2023/11/07/qgis-3d-tiles-thanks-to-cesium-ecosystem-grant/
 - OpenAI Assistants API(Playground)を使ってコーディングのアドバイスをしてくれるアシスタントを作る
-	- https://zenn.dev/karaage0703/articles/66949a39643557
-	- 今まででも、Custom InstructionsとAdvanced Data Analysis（Code Interpreter）でできていたことを、手軽に切り替えられて便利になった。API経由でできるようになったということなので、本質的な変化というよりは順当なアップデート
-- 自分の癖にあったファインチューニング用データセットをLLMで作ろう！【Calm2】
-	- https://zenn.dev/saldra/articles/090c120b49e38c
-	- LLMのファインチューニングにおいて、データセットは重要なものとなりつつある
-	- 以前までは人力で作る必要があったが、プロンプトが効く7Bモデル（Calm2-chat）を用いることで、LLMでファインチューニング用データセットを作ることができる
-	- データセットを作成しつつ、動的にプロンプトを修正していく手法が相当よかった
-- HuggingFace Diffusers v0.22.0の新機能 by npakaさん
-	- https://note.com/npaka/n/n5aebfc60408a?sub_rt=share_sb
-- OpenAI Assistants APIに拙著「エンジニアの知的生産術」を入れて質問。これこそ「書籍を読む方法の効率化」だな感
-	- https://x.com/nishio/status/172
+	- https://zenn.dev/karaage0703/articl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ5NjA4OTUsMjEwMzYwMTYzOSwtMT
-Q0MDgzMTkwLC01NTc5MDU4MDAsLTIwNTE2NTEyMjIsNzkzMTQy
-NjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1LC0xNTc2MTY3NTIzLD
-EzNDc2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgwMzIsMTczNTEx
-MzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC0xMjAxNjkyOT
-Y0LDE5NDA0MzgzNjksLTE3NTkzODE0NTUsLTU5NzQ0NjgwNCwx
-MzkzNDU2MTA2XX0=
+eyJoaXN0b3J5IjpbNjAzOTE2NDMyLDIxMDM2MDE2MzksLTE0ND
+A4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0
+LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMywxMz
+Q3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0
+MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NC
+wxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01OTc0NDY4MDQsMTM5
+MzQ1NjEwNl19
 -->
