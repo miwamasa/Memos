@@ -4,7 +4,7 @@
 
 ## 3/2
 
-先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 DGX GB200 NVL72とか、llamaindexがNVIDIA NIMで動くようになるとか、一人勝ちってこういうこと。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステム」。500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になるのか。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」ってのはローカル勢には強い味方か。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKiってのもある。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。[huggingface](https://github.com/huggingface)からPEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。huggingfaceはTransformers 4.39もリリース、GaLoreをサポートしてるらしい。Artificial muscleというのがすごいな、NVIDIAのロボットといい、人間らしいロボットが次に来るのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。Lineの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイム、いいなあ
+先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 DGX GB200 NVL72とか、NIMの発表とか、llamaindexがNVIDIA NIMで動くようになるとか、一人勝ちってこういうこと。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステム」。500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になるのか。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」ってのはローカル勢には強い味方か。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKiってのもある。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。[huggingface](https://github.com/huggingface)からPEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。huggingfaceはTransformers 4.39もリリース、GaLoreをサポートしてるらしい。Artificial muscleというのがすごいな、NVIDIAのロボットといい、人間らしいロボットが次に来るのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。Lineの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイム、いいなあ
 
 - grok-1まとめ
 	- https://x.com/webbigdata/status/1769503166528458822?s=20
@@ -36,6 +36,9 @@
 	- https://www.youtube.com/watch?v=Y2F8yisiS6E
 - DGX GB200 NVL72は、GB200 Superchipを72基NVLinkで接続したクラスタ
 	- https://x.com/_ksasaki/status/1769829822946001353?s=20
+- 生成AIアプリの展開を数分に、NVIDIAが新マイクロサービス「NIM」を発表
+	- https://xtech.nikkei.com/atcl/nxt/news/24/00424/
+	- NIMは、生成AIの推論に必要となる各種ソフトウエアがインストール済みのコンテナ（マイクロサービス）を提供する仕組みである。具体的には、エヌビディアが開発した推論ワークフローを最適化するフレームワークである「Triton Inference Server」やツールキット「TensorRT-LLM」などがインストールされ、エヌビディアやパートナー企業が提供する20以上のAIモデルに最適化されている。
 -  LlamaIndex Accelerates Enterprise Generative AI with NVIDIA NIM
 	- https://www.llamaindex.ai/blog/llamaindex-accelerates-enterprise-generative-ai-with-nvidia-nim
 	- LlamaIndex  is integrated with NVIDIA NIM inference microservices to help enterprises seamlessly deploy generative AI at scale
@@ -3866,20 +3869,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 主な問題点 (1) クロスバリデーションの評価なし (2) 短期予想モデルの結果を繋ぎ合わせて長期のシナリオを作っている 明日の天気を高確率で当てるモデルを作っても、その予想を繋ぎ合わせ、、、
 	- be氏より、（2）は例えば1年後の予測するとして1ヶ月ずつ予測してくのか、年単位で予測してくか位の違いしかなく、統計学やMLでは全く問題ないと思うので、この点叩いてる方が統計学の観点から無知にみえる
 -  create-llama によるLlamaIndexアプリの作成 by npakaさん
-	- https://note.com/npaka/n/neafa42455864?sub_rt=share_h
-- 体軸が直立した時点が人類が自己を認識した分岐点かもしれない
-	- https://x.com/daijapan/status/1725841037086892358?s=20
-	- 認知科学講座より、
-- Building Research Assistant	
-	- https://www.youtube.com/watch?v=DjuXACWYkkU
-	- YouTube tutorial on building one from scratch. Covers LCEL, LangSmith, parallelization, retrievers
-- Ilya S
+	- https://note.com/npaka/n/neafa42455864?s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTc4MzQ5MywtMTc2MDg2OTYzMiwtMT
-c3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0
-MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LD
-IxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUx
-NjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNS
-wtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMw
-Mjk4MDMyXX0=
+eyJoaXN0b3J5IjpbLTEwMTkyNTI5MzcsLTE3NjA4Njk2MzIsLT
+E3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjExMTM3
+NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwODEwOS
+wyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwtMjA1
+MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEyMz
+UsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEz
+MDI5ODAzMl19
 -->
