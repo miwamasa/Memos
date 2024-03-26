@@ -109,6 +109,9 @@
 	- https://github.com/huggingface/peft/releases/tag/v0.10.0
 	- Fine-tune larger QLoRA models with DeepSpeed and FSDP, layer replication, enhance DoRA
 	- This allows you to fine-tune a 70B Llama model on two GPUs with 24GB memory each.
+	- 以前、ツイートした70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるお話が正式採用
+	- 加えて、DoRA(工夫したLoRA。ただしトレーニング時間は増える)が量子化済のモデルに対しても使えるようになって使いやすくなった模様
+	- LoftQ(量子化誤差を最小化するようにLoRAを初期化してトレーニングできるようにする)もより使いやすくなったとの事
 - OpenAI Voice Engine. This is big
 	- https://x.com/SmokeAwayyy/status/1771052612051468668?s=20
 	- VOICE ENGINE™ trademark registration is intended to cover: - voice and speech recognition, processing voice commands, and converting between text and speech
@@ -152,7 +155,9 @@
 	- GaLore optimizer for accessible pre-training
 	- Quanto integration and Exllama+AWQ
 	- MLX support
-- 
+-  A Survey on Uncertainty Quantification for Deep Learning: An Uncertainty Source Perspective
+	- https://arxiv.org/abs/2302.13425
+	- ついにUQも
 
 ## 3/18
 
@@ -3877,19 +3882,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/gijigae/status/1721737796724183504?s=20
 	- いままで、OpenAI Plus(3k円/月)で実現していたものが、Assistans APIで、月1,500円程度の半額になるというお話、なるほど
 - OpenAI APIのRetrievalた多種ファイルに対応
-	- OpenAI API の今回のアップデートに含まれていた Knowledge Retrieval (ファイル内検索を可能にする機能) は PDF はもちろん Word やパワポ、ソースコードも対応してるようだ。 RAG 関連のサービスはホント要らない子になっちゃったね
-- OpenAI Assistantsで試しに英語論文を要約するアシスタント作成例
-	- 今回新たにAPIが発表されたRetrieval機能を使ってPDFファイル添付をしてみてます。
-	- https://x.com/alexweberk/status/1721705504228192373?s=20
-	- DPOの論文26ページ分くらいの要約で$0.80くらい
--  GPT-3.5-Turbo / GPT-4-Turbo 1106のJSONモードの使い方 by [shi3z](https://note.com/shi3zblog)さん
-	- https://note.com/shi3zblog/n/nd72e0269dc3f?
+	- OpenAI API の今回のアップデートに含まれていた Knowledge Retrieval (ファイル内検索を可能にする機能) は PDF はもちろん Word やパワポ、ソースコードも対応してるようだ。 RAG 関
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzI0ODgxMzcsLTU0MDYwMDc3NiwxNz
-M2MjA4MTA5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1
-ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMT
-g1MjcyMTIzNSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQx
-NjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NS
-wtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0x
-NzU5MzgxNDU1XX0=
+eyJoaXN0b3J5IjpbNDI1MjQ5OTg4LC01NDA2MDA3NzYsMTczNj
+IwODEwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgw
+MCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NT
+I3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2
+MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLT
+EzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1
+OTM4MTQ1NV19
 -->
