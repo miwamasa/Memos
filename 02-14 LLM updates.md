@@ -4,7 +4,7 @@
 
 ## 3/2
 
-さ
+さて先週公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。AIでは出遅れ感もあるApple、geminiをiphoneに入れるとのうわさもあったが、
 
 - grok-1まとめ
 	- https://x.com/webbigdata/status/1769503166528458822?s=20
@@ -3874,13 +3874,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	
 ## 11/13
 
-今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 TurboやAssistant APIや、価格の改定（安くなった）、最後に独自のGPTをつくれるGPT Builderと、OpenAI まわりのOSSエコシステムを破壊するがごときの怒涛のリリース。対応するOSS側のLangChainやllamaindexも新機能の取り込みや対案実装で忙しい週だった。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せ、APIからも作れるけども、playgroundからも作って簡単に試せる。Assistant APIに実装された機能(Assistants/Theads/Run )を組み合わせれば、エージェントも簡単に作れる。詳しくはNakajimaさんのGPTvsGPTが良い例。無限に環境問題についてエージェント同士が討論するというデモはちょと地獄絵。早速、LangChainも、LlamaIndexも、Assistant APIをつくってエージェントを作る機能を公開、もともとあるエージェントと組み合わせてみたいな発展も。OpenAI のRetreive機能は、pdfやdocやpptやmarkdown等多彩なデータを読んで、コンテキストとしてChatできる機能。まさに、RAGつぶしなんだけども、llamaindexの人Jerry Liuによると、コンテキスト長の限界を超えると普通のtop-k式の単純なRAGが動いているのではということ。試しにナウシカ(Wikipedia、57kトークン)をGPT-4でやってみたら、確かに性能よかった。RAGについては自ら（ベクトル化の方法などの）細かいチューニングに走るか、それとも入り口だけ用意してあとは、別のOSS等にという戦略のどちらだろう？GPT-4もファインチューニングできるようになったが、$3M(５億円弱)の[Submit]ボタンは押せない。。GPT-4を半端にファインチューニングしても性能は向上しないというのもすごいな。エージェントの作成支援も、llamaindexからbuilder agent、Langchainからも、OpenGTPが発表。OpenAI本家もGPTsで、好みのGPTを作って公開という機能が公開、Plusユーザーなら他人のGPTを使うこともできる。タイムラインに、どんどん、独自のGPTが公開されて、まさに百花繚乱、これに利用料を還流する仕組み整えば、まさにマーケットプレース経済圏に一直線。マルチモーダルのRAGというのも出てきた。PFNのPLaMo-13B-Instructの公開や、日本語向けのベンチマークデータの改定や、shi3zさんによるマルチターン日本語会話データセットの整備など、日本語対応の改良も着実に進んでいる。「アナロジア AIの次に来るもの」のダイソンによると、LLMは、（デジタル・コンピューターによるAIの限界を超えることができる）アナログコンピュータに近いものらしい。ダイソンの本を読みなおすと、AGIの可能性についても、デジタルでは到達できないが、アナログならば可能性は排除できないみたいな主張だった。最後に、ChatGPTの登場は、デザイナやコピーライターの職を奪うだけでなく、単価も下げた、特に高収入
+今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 TurboやAssistant APIや、価格の改定（安くなった）、最後に独自のGPTをつくれるGPT Builderと、OpenAI まわりのOSSエコシステムを破壊するがごときの怒涛のリリース。対応するOSS側のLangChainやllamaindexも新機能の取り込みや対案実装で忙しい週だった。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せ、APIからも作れるけども、playgroundからも作って簡単に試せる。Assistant APIに実装された機能(Assistants/Theads/Run )を組み合わせれば、エージェントも簡単に作れる。詳しくはNakajimaさんのGPTvsGPTが良い例。無限に環境問題についてエージェント同士が討論するというデモはちょと地獄絵。早速、LangChainも、LlamaIndexも、Assistant APIをつくってエージェントを作る機能を公開、もともとあるエージェントと組み合わせてみたいな発展も。OpenAI のRetreive機能は、pdfやdocやpptやmarkdown等多彩なデータを読んで、コンテキストとしてChatできる機能。まさに、RAGつぶしなんだけども、llamaindexの人Jerry Liuによると、コンテキスト長の限界を超えると普通のtop-k式の単純なRAGが動いているのではということ。試しにナウシカ(Wikipedia、57kトークン)をGPT-4でやってみたら、確かに性能よかった。RAGについては自ら（ベクトル化の方法などの）細かいチューニングに走るか、それとも入り口だけ用意してあとは、別のOSS等にという戦略のどちらだろう？GPT-4もファインチューニングできるようになったが、$3M(５億円弱)の[Submit]ボタンは押せない。。GPT-4を半端にファインチューニングしても性能は向上しないというのもすごいな。エージェントの作成支援も、llamaindexからbuilder agent、Langchainからも、OpenGTPが発表。OpenAI本家もGPTsで、好みのGPTを作って公開という機能が公開、Plusユーザーなら他人のGPTを使うこともできる。タイムラインに、どんどん、独自のGPTが公開されて、まさに百花繚乱、これに利用料を還流する仕組み整えば、まさにマーケットプレース経済圏に一直線。マルチモーダルのRAGというのも出てきた。PFNのPLaMo-13B-Instructの公開や、日本語向けのベンチマークデータの改定や、shi3zさんによるマルチターン日本語会話データセットの整備など、日本語対応の改良も着実に進んでいる。「アナロジア AIの次に来るもの」のダイソンによると、LLMは、（デジタル・コンピューターによるAIの限界を超えることができる）アナログコンピュータに近いものらしい。ダイソンの本を読みなおすと、AGIの可
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDI4OTgzMSwyMTExMzc0MzI1LDE3Nz
-EzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMDM2MDE2
-MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLD
-c5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2
-NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLD
-E3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIw
-MTY5Mjk2NF19
+eyJoaXN0b3J5IjpbNTYzOTA4Mzg0LDIxMTEzNzQzMjUsMTc3MT
+MyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEwMzYwMTYz
+OSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAsLTIwNTE2NTEyMjIsNz
+kzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1LC0xNTc2MTY3
+NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgwMzIsMT
+czNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC0xMjAx
+NjkyOTY0XX0=
 -->
