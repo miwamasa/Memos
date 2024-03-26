@@ -20,6 +20,7 @@
 	- https://www.livemint.com/technology/tech-news/googles-gemini-could-power-generative-ai-features-on-iphone-16-tim-cook-heres-what-we-know-11710739843784.html
 - アップル、高度な言語理解を持つ新型AIモデル「MM1」を発表
 	- https://ascii.jp/elem/000/004/189/4189761/
+	- https://arxiv.org/pdf/2403.09611.pdf
 	- 複数（30億、70億、300億）のパラメータサイズを備えるMM1は、10億以上の画像および30兆語以上のテキスト、GitHubのコード例などの多様なデータセットを用い、教師なし学習と教師あり学習を組み合わせる独自の方法で学習され、多様なタスクに対して高い精度を示す
 	- MM1はすべてのコンポーネントに関して、そのアーキテクチャーから、データセットの内容、事前学習・ファインチューニングの詳細、モデルサイズに至るまで、詳細な情報（MLLMsの開発レシピ）を公開している。
 -  Stability AIとアニメチェーンがアニメ業界向け生成系AIの共同研究を検討開始
@@ -3874,13 +3875,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	
 ## 11/13
 
-今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 TurboやAssistant APIや、価格の改定（安くなった）、最後に独自のGPTをつくれるGPT Builderと、OpenAI まわりのOSSエコシステムを破壊するがごときの怒涛のリリース。対応するOSS側のLangChainやllamaindexも新機能の取り込みや対案実装で忙しい週だった。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せ、APIからも作れるけども、playgroundからも作って簡単に試せる。Assistant APIに実装された機能(Assistants/Theads/Run )を組み合わせれば、エージェントも簡単に作れる。詳しくはNakajimaさんのGPTvsGPTが良い例。無限に環境問題についてエージェント同士が討論するというデモはちょと地獄絵。早速、LangChainも、LlamaIndexも、Assistant APIをつくってエージェントを作る機能を公開、もともとあるエージェントと組み合わせてみたいな発展も。OpenAI のRetreive機能は、pdfやdocやpptやmarkdown等多彩なデータを読んで、コンテキストとしてChatできる機能。まさに、RAGつぶしなんだけども、llamaindexの人Jerry Liuによると、コンテキスト長の限界を超えると普通のtop-k式の単純なRAGが動いているのではということ。試しにナウシカ(Wikipedia、57kトークン)をGPT-4でやってみたら、確かに性能よかった。RAGについては自ら（ベクトル化の方法などの）細かいチューニングに走るか、それとも入り口だけ用意してあとは、別のOSS等にという戦略のどちらだろう？GPT-4もファインチューニングできるようになったが、$3M(５億円弱)の[Submit]ボタンは押せない。。GPT-4を半端にファインチューニングしても性能は向上しないというのもすごいな。エージェントの作成支援も、llamaindexからbuilder agent、Langchainからも、OpenGTPが発表。OpenAI本家もGPTsで、好みのGPTを作って公開という機能が公開、Plusユーザーなら他人のGPTを使うこともできる。タイムラインに、どんどん、独自のGPTが公開されて、まさに百花繚乱、これに利用料を還流する仕組み整えば、まさにマーケットプレース経済圏に一直線。マルチモーダルのRAGというのも出てきた。PFNのPLaMo-13B-Instructの公開や、日本語向けのベンチマークデータの改定や、shi3zさんによるマルチターン日本語会話データセットの整備など、日本語対応の改良も着実に進んでいる。「アナロジア AIの次に来るもの」のダイソンによると、LLMは、（デジタル・コンピューターによるAIの限界を超えることができる）アナログコンピュータに近いものらしい。ダイソンの本を読みなおすと、AGIの可
+今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 TurboやAssistant APIや、価格の改定（安くなった）、最後に独自のGPTをつくれるGPT Builderと、OpenAI まわりのOSSエコシステムを破壊するがごときの怒涛のリリース。対応するOSS側のLangChainやllamaindexも新機能の取り込みや対案実装で忙しい週だった。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せ、APIからも作れるけども、playgroundからも作って簡単に試せる。Assistant APIに実装された機能(Assistants/Theads/Run )を組み合わせれば、エージェントも簡単に作れる。詳しくはNakajimaさんのGPTvsGPTが良い例。無限に環境問題についてエージェント同士が討論するというデモはちょと地獄絵。早速、LangChainも、LlamaIndexも、Assistant APIをつくってエージェントを作る機能を公開、もともとあるエージェントと組み合わせてみたいな発展も。OpenAI のRetreive機能は、pdfやdocやpptやmarkdown等多彩なデータを読んで、コンテキストとしてChatできる機能。まさに、RAGつぶしなんだけども、llamaindexの人Jerry Liuによると、コンテキスト長の限界を超えると普通のtop-k式の単純なRAGが動いているのではということ。試しにナウシカ(Wikipedia、57kトークン)をGPT-4でやってみたら、確かに性能よかった。RAGについては自ら（ベクトル化の方法などの）細かいチューニングに走るか、それとも入り口だけ用意してあとは、別のOSS等にという戦略のどちらだろう？GPT-4もファインチューニングできるようになったが、$3M(５億円弱)の[Submit]ボタンは押せない。。GPT-4を半端にファインチューニングしても性能は向上しないというのもすごいな。エージェントの作成支援も、llamaindexからbuilder agent、Langchainからも、OpenGTPが発表。OpenAI本家もGPTsで、好みのGPTを作って公開という機能が公開、Plusユーザーなら他人のGPTを使うこともできる。タイムラインに、どんどん、独自のGPTが公開されて、まさに百花繚乱、これに利用料を還流する仕組み整えば、まさにマーケットプレース経済圏に一直線。マルチモーダルのRAGというのも出てきた。PFNのPLaMo-13B-Instructの公開や、日本語向けのベンチマークデータの改定や、shi3zさんによるマルチターン日本語会話データセットの整備など、日本語対応の改良も着実に進んでいる。「アナロジア AIの次に来るもの」のダイソンによると、LLMは、（デジタル・コンピューターによるAIの限界を超えることができ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzOTA4Mzg0LDIxMTEzNzQzMjUsMTc3MT
-MyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEwMzYwMTYz
-OSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAsLTIwNTE2NTEyMjIsNz
-kzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1LC0xNTc2MTY3
-NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgwMzIsMT
-czNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC0xMjAx
-NjkyOTY0XX0=
+eyJoaXN0b3J5IjpbLTEzMjkwODU5MDUsMjExMTM3NDMyNSwxNz
+cxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwODEwOSwyMTAzNjAx
+NjM5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMi
+w3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYx
+Njc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMi
+wxNzM1MTEzNDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEy
+MDE2OTI5NjRdfQ==
 -->
