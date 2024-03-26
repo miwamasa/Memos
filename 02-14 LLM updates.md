@@ -179,7 +179,13 @@
 	- https://x.com/jerryjliu0/status/1771262080944857469?s=20
 -  Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」を公開
 	- https://prtimes.jp/main/html/rd/p/000000057.000038247.html
-	- 
+	- 東京大学発、最先端アルゴリズムの現場実装に取り組むAIスタートアップ 株式会社Lightblue（代表取締役：園田亜斗夢、本社：東京都千代田区、以下「Lightblue」）は720億パラメーターの日本語LLMモデル「ao-Karasu」を公開したことをお知らせします。「ao-Karasu」はStability AI社が提供する日本語性能のベンチマーク、Japanese MT-Benchの自動評価で国内最高水準の評価となっています。
+- 【Swin Transformer】今こそ押さえたいTransformer系画像認識モデル
+	- https://ai-scholar.tech/articles/image-recognition/swin-transformer
+	- 近年コンピュータビジョンの研究でベースラインとしてよく用いられているSwin Transformerを解説  
+	- すべてのパッチと関連性(Attention)を計算するVision Transformerとは異なり，近傍のパッチをまとめたwindow内でAttentionを計算する  
+	- 異なるパッチサイズでAttentionの計算を行うため，様々なスケールの特徴が得られる
+- # [進化的アルゴリズムによる基盤モデルの構築](https://sakana.ai/evolutionary-model-merge-jp/)
 
 ## 3/18
 
@@ -3877,22 +3883,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- プロンプトからの指示で対話しながらオリジナルのChatGPTを構築できる。「Web検索や画像作成、データ分析などと同じくらい簡単」としている
 - MFTCoder: Boosting Code LLMs with Multitask Fine-Tuning
 	- https://huggingface.co/papers/2311.02303
-	- MFTcoder seamlessly integrates with several mainstream open-source LLMs, such as CodeLLama and Qwen. Leveraging the CodeLLama foundation, our MFTcoder fine-tuned model, CodeFuse-CodeLLama-34B, achieves an impressive pass@1 score of 74.4\% on the HumaneEval benchmark, surpassing GPT-4 performance (67\%, zero-shot).
-- Assistants API の解説と動作確認（Google Colab）
-	- https://note.com/schroneko/n/nd04c46242171
-- llamaindexから、OpenAI dev dayをうけGPT builderを模擬するBuilder Agentの例を公表
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_builder.ipynb
-	- https://x.com/jerryjliu0/status/1721639447207583882?s=20
-	- 例：「トロントのことをよくわかるエージェントを作成」→エージェントができる。。
-- LangChainから、OpenGPTの発表、
-	- https://github.com/langchain-ai/opengpts
-	- builds upon LangChain, LangServe an
+	- MFTcoder seamlessly integrates with several mainstream open-source LLMs, such as CodeLLama and Qwen. Leveraging the CodeLLama foundation, our MFTcoder fine-tuned model
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODE3OTA3OCwtNTQwNjAwNzc2LDE3Mz
-YyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4
-MDAsLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xOD
-UyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2
-NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC
-0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3
-NTkzODE0NTVdfQ==
+eyJoaXN0b3J5IjpbODc3NDcyNzcyLC01NDA2MDA3NzYsMTczNj
+IwODEwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgw
+MCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NT
+I3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2
+MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLT
+EzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1
+OTM4MTQ1NV19
 -->
