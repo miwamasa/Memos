@@ -173,6 +173,13 @@
 	- 永田亮『立体言語』（自然言語処理31巻1号巻頭言）
 	- https://www.jstage.jst.go.jp/article/jnlp/31/1/31_1/_pdf/-char/ja
 	- 言語の線状性（一つづつ順番に並べる制約）を超える、これまでとは異なった情報伝達の可能性。そして、そこにNLP技術が活かせるのではないかというお話。
+- Binary and Scalar Embedding Quantization for Significantly Faster & Cheaper Retrieval
+	- https://huggingface.co/blog/embedding-quantization
+- Excited for MistralAI+ llama_index collabs (and Colabs)
+	- https://x.com/jerryjliu0/status/1771262080944857469?s=20
+-  Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」を公開
+	- https://prtimes.jp/main/html/rd/p/000000057.000038247.html
+	- 
 
 ## 3/18
 
@@ -3879,19 +3886,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 例：「トロントのことをよくわかるエージェントを作成」→エージェントができる。。
 - LangChainから、OpenGPTの発表、
 	- https://github.com/langchain-ai/opengpts
-	- builds upon LangChain, LangServe and LangSmith This gives you more control over the LLM you us
-- OpenGTPは、 LangSmithに連携するだけで利用ログが取れるので、あとはエージェントのToolsを充実させれば、それなりのものが提供できる
-	- https://x.com/mah_lab/status/1721684588874055764?s=20
-- Levels of AGI: Operationalizing Progress on the Path to AGI
-	- https://arxiv.org/pdf/2311.02462.pdf
-	- DeepMindから、AGIにいたるLevel0からLevel5までの段階を示す、レベル分けのOntologyを提案といっている
-	-  AG
+	- builds upon LangChain, LangServe an
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzU0ODUzNDUsLTU0MDYwMDc3NiwxNz
-M2MjA4MTA5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1
-ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMT
-g1MjcyMTIzNSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQx
-NjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NS
-wtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0x
-NzU5MzgxNDU1XX0=
+eyJoaXN0b3J5IjpbMTEyODE3OTA3OCwtNTQwNjAwNzc2LDE3Mz
+YyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4
+MDAsLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xOD
+UyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2
+NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC
+0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3
+NTkzODE0NTVdfQ==
 -->
