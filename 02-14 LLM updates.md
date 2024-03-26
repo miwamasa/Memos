@@ -4,7 +4,7 @@
 
 ## 3/2
 
-さて先週公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。AIでは出遅れ感もあるApple、geminiをiphoneに入れるとのうわさもあったが、30BのMM1を論文発表したりと、にわかに活発に。Stability AIのアニメ業界向け生成系AI、ついに現場に入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 DGX GB200 NVL72とか、llamaindexがNVIDIA NIMで動くようになるとか、一人勝ちってこういうこと。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、サッカーの戦略を立てるAIとはなぜ？500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になる。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」ってのはローカル勢には強い味方か。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKiってのもある。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。PEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。Transformers 4.39のリリース、GaLoreをサポートしてるらしい。Artificial muscleというのがすごいな、NVIDIAのロボットといい、人間らしロボットが次に来るのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。Lineの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、いいなあ
+さて先週公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。AIでは出遅れ感もあるApple、geminiをiphoneに入れるとのうわさもあったが、30BのMM1を論文発表したりと、にわかに活発に。Stability AIのアニメ業界向け生成系AI、ついに現場に入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 DGX GB200 NVL72とか、llamaindexがNVIDIA NIMで動くようになるとか、一人勝ちってこういうこと。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、サッカーの戦略を立てるAIとはなぜ？500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になる。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」ってのはローカル勢には強い味方か。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKiってのもある。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。PEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。Transformers 4.39のリリース、GaLoreをサポートしてるらしい。Artificial muscleというのがすごいな、NVIDIAのロボットといい、人間らしロボットが次に来るのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。Lineの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイムですいいなあ
 
 - grok-1まとめ
 	- https://x.com/webbigdata/status/1769503166528458822?s=20
@@ -202,6 +202,8 @@
 	- https://arxiv.org/abs/2403.14606
 	- 新しいパラダイムである『微分可能プログラミング』の基本概念について Google DeepMind の研究者が383ページに渡るPDFを公開。論文より本という方が正しそう
 	- プログラムを微分可能にすることは本質的に確率分布によってその出力の不確実性を定量化すること、とは面白い
+	- **微分可能プログラミングとは**: プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイムです
+	- **目標と範囲**: 本書は、微分可能プログラミングの基礎を説明し、その理論と実践の両方をカバーすることを目指しています。
 - Sakana AIが、モデルマージを自動化・高度化する進化的モデルマージ（Evolutionary Model Merge）
 	- https://huggingface.co/SakanaAI
 
@@ -3876,13 +3878,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	
 ## 11/13
 
-今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 TurboやAssistant APIや、価格の改定（安くなった）、最後に独自のGPTをつくれるGPT Builderと、OpenAI まわりのOSSエコシステムを破壊するがごときの怒涛のリリース。対応するOSS側のLangChainやllamaindexも新機能の取り込みや対案実装で忙しい週だった。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function
+今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 TurboやAssis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIxMT
-EzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgx
-MDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAsLT
-IwNTE2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIx
-MjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLD
-ExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcx
-Mzk1NjA0XX0=
+eyJoaXN0b3J5IjpbMjA2MTQ0ODI1NywtMzEyNjgxNzgxLDEzMj
+U3NDIyODEsMjExMTM3NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3
+NzYsMTczNjIwODEwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLT
+U1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3
+MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MC
+w1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTEx
+NDU5OTVdfQ==
 -->
