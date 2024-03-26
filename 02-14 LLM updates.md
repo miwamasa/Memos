@@ -157,7 +157,14 @@
 	- MLX support
 -  A Survey on Uncertainty Quantification for Deep Learning: An Uncertainty Source Perspective
 	- https://arxiv.org/abs/2302.13425
-	- ついにUQも
+	- ついにUQも深層学習の時代か
+- Estimating Causal Effects with Double Machine Learning -- A Method Evaluation
+	- https://arxiv.org/abs/2403.14385
+- Meta introduces SceneScript
+	- https://x.com/AiBreakfast/status/1771195019585597836?s=20
+	- You will be able to upload your own environment to the metaverse:
+- マジか(NLP2024の岡崎先生、Knight先生の発表概要をSwallow-MXを翻訳タスクでQLoRA tuningしたモデルで日英/英日翻訳)
+	- 
 
 ## 3/18
 
@@ -3877,18 +3884,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - GPT-4のfine-tuningで有効なgainを得ることが3.5-turboより難しい
 	- パートナーを選ぶ形でCustom Models programを提供する戦略へ転換か、
 	- GPT-4がすごすぎるので、中途半端なファインチューニングはかえって性能を劣化させる。。。。
-	- https://openai.com/blog/new-models-and-developer-products-announced-at-devday
-- Assistants APIを利用すれば、TOEICやTOEFL、英検、IELTSに特化した家庭教師も一瞬で作れる
-	- https://x.com/gijigae/status/1721737796724183504?s=20
-	- いままで、OpenAI Plus(3k円/月)で実現していたものが、Assistans APIで、月1,500円程度の半額になるというお話、なるほど
-- OpenAI APIのRetrievalた多種ファイルに対応
-	- OpenAI API の今回のアップデートに含まれていた Knowledge Retrieval (ファイル内検索を可能にする機能) は PDF はもちろん Word やパワポ、ソースコードも対応してるようだ。 RAG 関
+	- https://openai.com/blog/new-models-and-developer-products-annou
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1MjQ5OTg4LC01NDA2MDA3NzYsMTczNj
-IwODEwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgw
-MCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NT
-I3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2
-MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLT
-EzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1
-OTM4MTQ1NV19
+eyJoaXN0b3J5IjpbLTU0Nzk1NTUwNywtNTQwNjAwNzc2LDE3Mz
+YyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4
+MDAsLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xOD
+UyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2
+NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC
+0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3
+NTkzODE0NTVdfQ==
 -->
