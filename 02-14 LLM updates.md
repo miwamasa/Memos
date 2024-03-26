@@ -141,7 +141,10 @@
 	- https://note.com/ngc_shj/n/n413ababd3105?sub_rt=share_crp
 	- 「Mistral AI社のオープンモデル「Mistral-7B-v0.1」を基に、継続的に大規模なデータを学習させて開発された70億パラメータの日本語基盤モデル」であるRakuten AI 7Bモデル
 	- 「インストラクションチューニング済モデルを基にファインチューニングを行ったチャットモデル」であるRakuten AI 7B Chatを試してみます。
-- Swallow-MX-8x7b-NVE-chatvector-Mixtral-instructのv2アップロードしました
+- Swallow-MX-8x7b-NVE-chatvector-Mixtral-instructのv2アップロードしました by AI さとし
+	- https://huggingface.co/aixsatoshi/Swallow-MX-8x7b-NVE-chatvector-Mixtral-instruct-v2
+	- 元モデルとinstructionベクトルのバランス調整で、日本語流暢性改善しています
+- Margaret Mitchel
 
 ## 3/18
 
@@ -3878,16 +3881,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 「Function Calling」に、単一メッセージから複数のFunction (「車の窓を開けてエアコンをオフにする」など) を呼び出す機能などが追加されました。精度も向上しています
 	- 16Kコンテキストウィンドウをサポートする新しい「GPT-3.5 Turbo」もリリースします。指示追従、 JSONモード、並列 Function Callingをサポート
 	- 「Assistant API」は、特定の指示を持ち、追加の知識を活用し、モデルやツールを呼び出してタスクを実行できる専用のAIです。
-	- アシスタントは、必要に応じて、**Code Interpreter**、**Retrieval**、**Function Calling**を呼び出せる
-- Google Colab で OpenAI API の Retrieval を試す by npakaさん
-	- https://note.com/npaka/n/ndcacbefb2ef7
-	- APIからAssistantを作る方法、結果はplaygroundでも確認できるというか、playgroun
+	- アシスタントは、必要に応じて、**Code Interpreter**、**Retrieval**、**Function Calling*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMD
-M2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUx
-MjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMT
-U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
-MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
-wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
-OTc0NDY4MDRdfQ==
+eyJoaXN0b3J5IjpbLTkwNTM2NzAxNiwtNTQwNjAwNzc2LDE3Mz
+YyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4
+MDAsLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xOD
+UyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2
+NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC
+0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3
+NTkzODE0NTVdfQ==
 -->
