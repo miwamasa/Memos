@@ -3865,14 +3865,12 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/03sasa03/status/1725479562094755951?s=20
 -  OpenAI announces leadership transition
 	- https://openai.com/blog/openai-announces-leadership-transition
-	- えっ！
-	- 「取締役会とのコミュニケーションにおい
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0MjMwMjc1LDgxOTI3MzE4NywtMTE0OD
-UyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC0zMTI2ODE3
-ODEsMTMyNTc0MjI4MSwyMTExMzc0MzI1LDE3NzEzMjcxMTgsLT
-U0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMDM2MDE2MzksLTE0NDA4
-MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0LD
-UxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMywxMzQ3
-Njk5MjUwXX0=
+eyJoaXN0b3J5IjpbLTU3NjMyNjYzMSw4MTkyNzMxODcsLTExND
+g1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3NzczMzYwMywtMzEyNjgx
+NzgxLDEzMjU3NDIyODEsMjExMTM3NDMyNSwxNzcxMzI3MTE4LC
+01NDA2MDA3NzYsMTczNjIwODEwOSwyMTAzNjAxNjM5LC0xNDQw
+ODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2NC
+w1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMTM0
+NzY5OTI1MF19
 -->
