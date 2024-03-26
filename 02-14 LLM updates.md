@@ -3876,13 +3876,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	
 ## 11/13
 
-今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 TurboやAssistant APIや、価格の改定（安くなった）、最後に独自のGPTをつくれるGPT Builderと、OpenAI まわりのOSSエコシステムを破壊するがごときの怒涛のリリース。対応するOSS側のLangChainやllamaindexも新機能の取り込みや対案実装で忙しい週だった。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function 
+今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 TurboやAssistant APIや、価格の改定（安くなった）、最後に独自のGPTをつくれるGPT Builderと、OpenAI まわりのOSSエコシステムを破壊するがごときの怒涛のリリース。対応するOSS側のLangChainやllamaindexも新機能の取り込みや対案実装で忙しい週だった。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTc0MjI4MSwyMTExMzc0MzI1LDE3Nz
-EzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMDM2MDE2
-MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLD
-c5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2
-NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLD
-E3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIw
-MTY5Mjk2NF19
+eyJoaXN0b3J5IjpbLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIxMT
+EzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgx
+MDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAsLT
+IwNTE2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIx
+MjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLD
+ExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcx
+Mzk1NjA0XX0=
 -->
