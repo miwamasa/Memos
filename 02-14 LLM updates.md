@@ -4,7 +4,7 @@
 
 ## 3/2
 
-先週X.AIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さてAIでは出遅れ感もあるApple、geminiをiphoneに入れるとのうわさもあったが、30BのMM1を論文発表したりと、にわかに活発に。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 DGX GB200 NVL72とか、llamaindexがNVIDIA NIMで動くようになるとか、一人勝ちってこういうこと。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、サッカーの戦略を立てるAIとはなぜ？500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になる。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」ってのはローカル勢には強い味方か。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKiってのもある。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。PEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。Transformers 4.39のリリース、GaLoreをサポートしてるらしい。Artificial muscleというのがすごいな、NVIDIAのロボットといい、人間らしロボットが次に来るのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。Lineの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイム、いいなあ
+先週X.AIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さてAIでは出遅れ感もあるApple、geminiをiphoneに入れるとのうわさもあったが、30BのMM1を論文発表したりと、にわかに活発に。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 DGX GB200 NVL72とか、llamaindexがNVIDIA NIMで動くようになるとか、一人勝ちってこういうこと。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステム」。500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になるのか。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」ってのはローカル勢には強い味方か。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKiってのもある。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。PEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。Transformers 4.39のリリース、GaLoreをサポートしてるらしい。Artificial muscleというのがすごいな、NVIDIAのロボットといい、人間らしいロボットが次に来るのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。Lineの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイム、いいなあ
 
 - grok-1まとめ
 	- https://x.com/webbigdata/status/1769503166528458822?s=20
@@ -52,6 +52,7 @@
 	- https://deepmind.google/discover/blog/tacticai-ai-assistant-for-football-tactics/?utm_source=twitter&utm_medium=social&utm_campaign=TacticAI/
 	- We're announcing TacticAI: an AI assistant capable of offering insights to football experts on corner kicks.
 	- it can help teams sample alternative player setups to evaluate possible outcomes, and achieves state-of-the-art results.
+	- TacticAIはGoogleとリヴァプールの複数年にわたる協力関係の一環として開発されたもので、「コーナーキックについてアドバイスできる完全なAIシステム」としてアピールされています
 - 500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトル(control vectors)用ライブラリ
 	- https://github.com/vgel/repeng
 	- LoRAのように特定タスクに特化するのではなく例えば 「陽キャなチャットボット」ｖｓ「陰キャなチャットボット」 など、モデルの出力に全体的な方向性を与える感じですね
@@ -3873,18 +3874,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- YouTube tutorial on building one from scratch. Covers LCEL, LangSmith, parallelization, retrievers
 - Ilya Sutskeverって誰ぞ？
 	- https://x.com/mr_bay_area/status/1725808417376473167?s=20
-	- 「自然言語処理業界が深層学習一色になる流れを決定づけた人」ですね。それくらい彼が作ったseq2seqは衝撃だったし
-- :smile:、:ikanai:
-	
-## 11/13
-
-今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 Tur
+	- 「自然言語処理業界が深層学習一色になる流れを決定づけた人」で
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODkzNTgyODQsLTMxMjY4MTc4MSwxMz
-I1NzQyMjgxLDIxMTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAw
-Nzc2LDE3MzYyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC
-01NTc5MDU4MDAsLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5NDcx
-NzA2LC0xODUyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNT
-AsNTM1NDE2NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkx
-MTQ1OTk1XX0=
+eyJoaXN0b3J5IjpbMTc3OTE2MDgwOSwtMzEyNjgxNzgxLDEzMj
+U3NDIyODEsMjExMTM3NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3
+NzYsMTczNjIwODEwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLT
+U1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3
+MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MC
+w1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTEx
+NDU5OTVdfQ==
 -->
