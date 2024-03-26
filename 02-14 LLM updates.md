@@ -145,6 +145,14 @@
 	- https://huggingface.co/aixsatoshi/Swallow-MX-8x7b-NVE-chatvector-Mixtral-instruct-v2
 	- 元モデルとinstructionベクトルのバランス調整で、日本語流暢性改善しています
 - Margaret Mitchel
+	- This Women's History Month, we celebrate Margaret Mitchell, the Chief AI Ethics Scientist at huggingface, an open source data science and machine learning platform and hub for AI experts. 
+- Transformers 4.39 is out,
+	- https://github.com/huggingface/transformers/releases/tag/v4.39.0
+	- New models: Mamba, Command-R, LLaVA-NeXT, MusicGen Melody, StarCoder2, SegGPT, ...
+	- GaLore optimizer for accessible pre-training
+	- Quanto integration and Exllama+AWQ
+	- MLX support
+- 
 
 ## 3/18
 
@@ -3875,19 +3883,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/alexweberk/status/1721705504228192373?s=20
 	- DPOの論文26ページ分くらいの要約で$0.80くらい
 -  GPT-3.5-Turbo / GPT-4-Turbo 1106のJSONモードの使い方 by [shi3z](https://note.com/shi3zblog)さん
-	- https://note.com/shi3zblog/n/nd72e0269dc3f?sub_rt=share_pb
-- OpenAI DevDay で発表された新モデルと新開発ツール まとめ by  [npaka](https://note.com/npaka)さん
-	- https://note.com/npaka/n/n9cd206d96f85?sub_rt=share_sb
-	- 「Function Calling」に、単一メッセージから複数のFunction (「車の窓を開けてエアコンをオフにする」など) を呼び出す機能などが追加されました。精度も向上しています
-	- 16Kコンテキストウィンドウをサポートする新しい「GPT-3.5 Turbo」もリリースします。指示追従、 JSONモード、並列 Function Callingをサポート
-	- 「Assistant API」は、特定の指示を持ち、追加の知識を活用し、モデルやツールを呼び出してタスクを実行できる専用のAIです。
-	- アシスタントは、必要に応じて、**Code Interpreter**、**Retrieval**、**Function Calling*
+	- https://note.com/shi3zblog/n/nd72e0269dc3f?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTM2NzAxNiwtNTQwNjAwNzc2LDE3Mz
-YyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4
-MDAsLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xOD
-UyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2
-NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC
-0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3
-NTkzODE0NTVdfQ==
+eyJoaXN0b3J5IjpbLTIwNzI0ODgxMzcsLTU0MDYwMDc3NiwxNz
+M2MjA4MTA5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1
+ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMT
+g1MjcyMTIzNSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQx
+NjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NS
+wtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0x
+NzU5MzgxNDU1XX0=
 -->
