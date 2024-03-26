@@ -191,6 +191,13 @@
 - team DataPilot2つ目のモデルとして、「ArrowSmartPlus_3.6B_instant_sft_JSHVer」をリリースいたします
 	- https://huggingface.co/DataPilot/ArrowSmartPlus_3.6B_instant_sft_JHSVer
 	- Line社が開発した「japanese-large-lm-3.6b-instruction-sft」をウィキブックの内容をもとに中学範囲にてファインチューニングを行いました。
+- 「LOCAL AI HACKATHON」における、チームDataPilotの成果品第一弾である「ArrowSmart_1.7b_instant_sft」をリリースしました
+	- https://huggingface.co/DataPilot/ArrowSmart_1.7b_instant_sft
+	- Line社が開発した「japanese-large-lm-1.7b-instruction-sft」をウィキブックの内容をもとに地理、化学の分野でファインチューニングを行いました。
+-  The Elements of Differentiable Programming
+	- https://arxiv.org/abs/2403.14606
+	- 新しいパラダイムである『微分可能プログラミング』の基本概念について Google DeepMind の研究者が383ページに渡るPDFを公開。論文より本という方が正しそう
+	- プログラムを微分可能にすることは本質的に確率分布によってその出力の不確実性を定量化すること、とは面白い
 - 
 
 ## 3/18
@@ -3868,26 +3875,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 - ALMA-7B-Ja-V2
 	- https://huggingface.co/webbigdata/ALMA-7B-Ja-V2
-	- 翻訳タスク特化のALMA-jaのV2来とる！!GPTQもある
-- TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT
-	- Microsoftから発表されたテーブルタスクのトレーニングデータを用いて「テーブルチューニング」するモデルTable-GPT
-	- 多様なテーブルタスクにてGPT-3.5やChatGPTより高性能、高い汎用性を示す
-	- https://arxiv.org/abs/2307.08674
-- OpenAI dev day
-	- GPT-4 Turbo 発表 
-	- コンテキスト長128k
-	- JSON Mode 
-	- ナレッジカットオフ 2023/04
-	- DALL E-3 / Text to Speech 
-	- Whisper v3 
-	- GPT-4 Fine-tuning可能に
-	- GPT-3.5 Turbo はもう 16K がデフォレベルでさらに安くなり、GPT-4 Turbo は価格が入力 1/3, 出力
+	- 翻訳タスク特化の
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzg4Mzk4LC01NDA2MDA3NzYsMTczNj
-IwODEwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgw
-MCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NT
-I3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2
-MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLT
-EzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1
-OTM4MTQ1NV19
+eyJoaXN0b3J5IjpbMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3Mz
+YyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4
+MDAsLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xOD
+UyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2
+NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC
+0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3
+NTkzODE0NTVdfQ==
 -->
