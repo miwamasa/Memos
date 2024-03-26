@@ -164,6 +164,9 @@
 	- https://x.com/AiBreakfast/status/1771195019585597836?s=20
 	- You will be able to upload your own environment to the metaverse:
 - マジか(NLP2024の岡崎先生、Knight先生の発表概要をSwallow-MXを翻訳タスクでQLoRA tuningしたモデルで日英/英日翻訳)
+	- https://x.com/hpp_ricecake/status/1771138490589487602?s=20
+-  Googleが洪水を1週間前に予測し世界80カ国4億6000万人を水害から救えるAIを発表
+	- https://gigazine.net/news/20240322-google-ai-global-flood-forecasting/
 	- 
 
 ## 3/18
@@ -3881,16 +3884,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  OpenAI Python API Library v1.0 入門　by npakaさん
 	- https://note.com/npaka/n/n27b94df96179?sub_rt=share_sb
 	- 「OpenAI Python API Library」のインタフェースが一新された、らしい
-- GPT-4のfine-tuningで有効なgainを得ることが3.5-turboより難しい
-	- パートナーを選ぶ形でCustom Models programを提供する戦略へ転換か、
-	- GPT-4がすごすぎるので、中途半端なファインチューニングはかえって性能を劣化させる。。。。
-	- https://openai.com/blog/new-models-and-developer-products-annou
+- GPT-4のfine-tuningで有効なgai
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Nzk1NTUwNywtNTQwNjAwNzc2LDE3Mz
-YyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4
-MDAsLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5NDcxNzA2LC0xOD
-UyNzIxMjM1LC0xNTc2MTY3NTIzLDEzNDc2OTkyNTAsNTM1NDE2
-NjIwLDExMzAyOTgwMzIsMTczNTExMzQzNSwtMjkxMTQ1OTk1LC
-0xMzcxMzk1NjA0LC0xMjAxNjkyOTY0LDE5NDA0MzgzNjksLTE3
-NTkzODE0NTVdfQ==
+eyJoaXN0b3J5IjpbNjgzODkyMTgxLC01NDA2MDA3NzYsMTczNj
+IwODEwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgw
+MCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NT
+I3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2
+MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLT
+EzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1
+OTM4MTQ1NV19
 -->
