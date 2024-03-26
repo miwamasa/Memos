@@ -185,7 +185,13 @@
 	- 近年コンピュータビジョンの研究でベースラインとしてよく用いられているSwin Transformerを解説  
 	- すべてのパッチと関連性(Attention)を計算するVision Transformerとは異なり，近傍のパッチをまとめたwindow内でAttentionを計算する  
 	- 異なるパッチサイズでAttentionの計算を行うため，様々なスケールの特徴が得られる
-- # [進化的アルゴリズムによる基盤モデルの構築](https://sakana.ai/evolutionary-model-merge-jp/)
+-  [進化的アルゴリズムによる基盤モデルの構築](https://sakana.ai/evolutionary-model-merge-jp/)
+	- Sakana AIは進化や集合知などの自然界の原理を応用して基盤モデルを開発することを目指しています。私達の目標は、モデルを自ら訓練し開発することだけではありません。基盤モデルの開発を効率化、高度化、自動化するための新たな手法を生み出すことに挑戦しています。この目標に向けた第一歩として、私たちはプレプリント「Evolutionary Optimization of Model Merging Recipes （モデルマージの進化的最適化）」を公開しました。
+	- 複数のNNを重み・層レベルでマージする際の最適な組合せをEAで探索する進化的モデルマージを提案。数学と日本語など異なる領域に特化したLLMをうまくマージすることで性能を向上できる。
+- team DataPilot2つ目のモデルとして、「ArrowSmartPlus_3.6B_instant_sft_JSHVer」をリリースいたします
+	- https://huggingface.co/DataPilot/ArrowSmartPlus_3.6B_instant_sft_JHSVer
+	- Line社が開発した「japanese-large-lm-3.6b-instruction-sft」をウィキブックの内容をもとに中学範囲にてファインチューニングを行いました。
+- 
 
 ## 3/18
 
@@ -3875,17 +3881,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- DALL E-3 / Text to Speech 
 	- Whisper v3 
 	- GPT-4 Fine-tuning可能に
-	- GPT-3.5 Turbo はもう 16K がデフォレベルでさらに安くなり、GPT-4 Turbo は価格が入力 1/3, 出力 1/2 になった
-	- 「従来の16倍となる300ページを超える長い文書を扱えるようになり、2023年4月までの情報を反映」
-	- functionsとfunction_callが非推奨になってtoolsとtool_choiceになったんだ
-- ノーコードで「ChatGPT」のカスタム版を作れる「GPTs」、有料会員に提供へ
-	- https://www.itmedia.co.jp/news/articles/2311/07/news074.html
-	- プロンプトからの指示で対話しながらオリジナルのChatGPTを構築できる。「Web検索や画像作成、データ分析などと同じくらい簡単」としている
-- MFTCoder: Boosting Code LLMs with Multitask Fine-Tuning
-	- https://huggingface.co/papers/2311.02303
-	- MFTcoder seamlessly integrates with several mainstream open-source LLMs, such as CodeLLama and Qwen. Leveraging the CodeLLama foundation, our MFTcoder fine-tuned model
+	- GPT-3.5 Turbo はもう 16K がデフォレベルでさらに安くなり、GPT-4 Turbo は価格が入力 1/3, 出力
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3NDcyNzcyLC01NDA2MDA3NzYsMTczNj
+eyJoaXN0b3J5IjpbLTYxNzg4Mzk4LC01NDA2MDA3NzYsMTczNj
 IwODEwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgw
 MCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NT
 I3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2
