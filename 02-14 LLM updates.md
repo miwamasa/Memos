@@ -137,6 +137,11 @@
 	- 敷地内に設置された装置がコンピューター群が放出する熱を取り込み、25ｍプールを設定温度まで温める。約65％をカバーしており、ガスボイラーの使用は抑えられている。
 - O1 LightはOpen Interpreterを搭載した小型デバイスです
 	- https://x.com/tegnike/status/1770851466665750758?s=20
+-  WSL2でRakutenAI-7B-chatを試してみる
+	- https://note.com/ngc_shj/n/n413ababd3105?sub_rt=share_crp
+	- 「Mistral AI社のオープンモデル「Mistral-7B-v0.1」を基に、継続的に大規模なデータを学習させて開発された70億パラメータの日本語基盤モデル」であるRakuten AI 7Bモデル
+	- 「インストラクションチューニング済モデルを基にファインチューニングを行ったチャットモデル」であるRakuten AI 7B Chatを試してみます。
+- Swallow-MX-8x7b-NVE-chatvector-Mixtral-instructのv2アップロードしました
 
 ## 3/18
 
@@ -3876,19 +3881,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- アシスタントは、必要に応じて、**Code Interpreter**、**Retrieval**、**Function Calling**を呼び出せる
 - Google Colab で OpenAI API の Retrieval を試す by npakaさん
 	- https://note.com/npaka/n/ndcacbefb2ef7
-	- APIからAssistantを作る方法、結果はplaygroundでも確認できるというか、playgroundでassistant作成の別のやり方
-- Putting numbers into a better perspective and classifying them according to their level of complexity
-	- https://thinkzone.wlonk.com/Numbers/NumberSets.htm?platform=hootsuite
-- GLaMM: Pixel Grounding Large Multimodal Model
-	- https://huggingface.co/papers/2311.03356
--  GPT-4VのAPIをサクッと使ってみる！
-	- https://note.com/pe
+	- APIからAssistantを作る方法、結果はplaygroundでも確認できるというか、playgroun
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjIwODEwOSwyMTAzNjAxNjM5LC0xND
-QwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2
-NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMT
-M0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1MTEz
-NDM1LC0yOTExNDU5OTUsLTEzNzEzOTU2MDQsLTEyMDE2OTI5Nj
-QsMTk0MDQzODM2OSwtMTc1OTM4MTQ1NSwtNTk3NDQ2ODA0LDEz
-OTM0NTYxMDZdfQ==
+eyJoaXN0b3J5IjpbLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMD
+M2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUx
+MjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMT
+U3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4
+MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNC
+wtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0xNzU5MzgxNDU1LC01
+OTc0NDY4MDRdfQ==
 -->
