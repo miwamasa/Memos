@@ -4,7 +4,7 @@
 
 ## 3/2
 
-さて先週公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。AIでは出遅れ感もあるApple、geminiをiphoneに入れるとのうわさもあったが、30BのMM1を論文発表したりと、にわかに活発に。Stability AIのアニメ業界向け生成系AI、ついに現場に入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 DGX GB200 NVL72とか、llamaindexがNVIDIA NIMで動くようになるとか、一人勝ちってこういうこと。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、サッカーの戦略を立てるAIとはなぜ？500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になる。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」ってのはローカル勢にはつよいみか
+さて先週公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。AIでは出遅れ感もあるApple、geminiをiphoneに入れるとのうわさもあったが、30BのMM1を論文発表したりと、にわかに活発に。Stability AIのアニメ業界向け生成系AI、ついに現場に入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 DGX GB200 NVL72とか、llamaindexがNVIDIA NIMで動くようになるとか、一人勝ちってこういうこと。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、サッカーの戦略を立てるAIとはなぜ？500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になる。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」ってのはローカル勢には強い味方か。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を
 
 - grok-1まとめ
 	- https://x.com/webbigdata/status/1769503166528458822?s=20
@@ -3876,13 +3876,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	
 ## 11/13
 
-今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 TurboやAssistant APIや、価格の改定（安くなった）、最後に独自のGPTをつくれるGPT Builderと、OpenAI まわりのOSSエコシステムを破壊するがごときの怒涛のリリース。対応するOSS側のLangChainやllamaindexも新機能の取り込みや対案実装で忙しい週だった。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せ、APIからも作れるけども、playgroundからも作って簡単に試せる。Assistant APIに実装された機能(Assistants/Theads/Run )を組み合わせれば、エージェントも簡単に作れる。詳しくはNakajimaさんのGPTvsGPTが良い例。無限に環境問題についてエージェント同士が討論するというデモはちょと地獄絵。早速、LangChainも、LlamaIndexも、Assistant APIをつくってエージェントを作る機能を公開、もともとあるエージェントと組み合わせてみたいな発展も。OpenAI のRetreive機能は、pdfやdocやpptやmarkdown等多彩なデータを読んで、コンテキストとしてChatできる機能。まさに、RAGつぶしなんだけども、llamaindexの人Jerry Liuによると、コンテキスト長の限界を超えると普通のtop-k式の単純なRAGが動いているのではということ。試しにナウシカ(Wikipedia、57kトークン)をGPT-4でやってみたら、確かに性能よかった。R
+今週は、OpenAI Dev Day(11/6)が全てあり、LLM周りの風景が一変した。GPT-4 TurboやAssistant APIや、価格の改定（安くなった）、最後に独自のGPTをつくれるGPT Builderと、OpenAI まわりのOSSエコシステムを破壊するがごときの怒涛のリリース。対応するOSS側のLangChainやllamaindexも新機能の取り込みや対案実装で忙しい週だった。Assistant APIって、**Code Interpreter**、**Retrieval**、**Function Calling**　が呼び出せ、APIからも作れるけども、playgroundからも作って簡単に試せる。Assistant APIに実装された機能(Assistants/Theads/Run )を組み合わせれば、エージェントも簡単に作れる。詳しくはNakajimaさんのGPTvsGPTが良い例。無限に環境問題についてエージェント同士が討論するというデモはちょと地獄絵。早速、LangChainも、LlamaIndexも、Assistant APIをつくってエージェントを作る機能を公開、もともとあるエージェントと組み合わせてみたいな発展も。OpenAI のRetreive機能は、pdfやdocやpptやmarkdown等多彩なデータを読んで、コンテキストとしてChatできる機能。まさに、RAGつぶしなんだけども、llamaindexの人Jerry Liuによると、コンテキスト長の限界を超えると普通のtop-k式の単純なRAGが動いているのではということ。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODMxMjAwLDIxMTEzNzQzMjUsMTc3MT
-MyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEwMzYwMTYz
-OSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAsLTIwNTE2NTEyMjIsNz
-kzMTQyNjQsNTE5NDcxNzA2LC0xODUyNzIxMjM1LC0xNTc2MTY3
-NTIzLDEzNDc2OTkyNTAsNTM1NDE2NjIwLDExMzAyOTgwMzIsMT
-czNTExMzQzNSwtMjkxMTQ1OTk1LC0xMzcxMzk1NjA0LC0xMjAx
-NjkyOTY0XX0=
+eyJoaXN0b3J5IjpbLTc2OTExNjAyOSwyMTExMzc0MzI1LDE3Nz
+EzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMDM2MDE2
+MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLD
+c5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2
+NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLD
+E3MzUxMTM0MzUsLTI5MTE0NTk5NSwtMTM3MTM5NTYwNCwtMTIw
+MTY5Mjk2NF19
 -->
