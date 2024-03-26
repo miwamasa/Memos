@@ -137,6 +137,7 @@
 - Artificial muscle has arrived.
 	- https://x.com/BrianRoemmele/status/1770959817815019857?s=20
 	- 昨年知的業務は終わりだ。人間は筋肉を鍛えるしかない。 とか言ってたけど、人工筋肉出来ちゃったよ
+	- https://www.youtube.com/watch?v=guDIwspRGJ8
 -  Arcee's MergeKit: A Toolkit for Merging Large Language Models
 	- https://huggingface.co/papers/2403.13257
 	- Model Merging allows us to blend/stack multiple open LLMs into one—bigger or the same size—without extra training to extend skills and performance!
@@ -3872,14 +3873,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Building Research Assistant	
 	- https://www.youtube.com/watch?v=DjuXACWYkkU
 	- YouTube tutorial on building one from scratch. Covers LCEL, LangSmith, parallelization, retrievers
-- Ilya Sutskeverって誰ぞ？
-	- https://x.com/mr_bay_area/status/
+- Ilya Suts
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODg3NTg0OCwtMTc3NzMzNjAzLC0zMT
-I2ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0MzI1LDE3NzEzMjcx
-MTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMDM2MDE2MzksLT
-E0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5MzE0
-MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNSwtMTU3NjE2NzUyMy
-wxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMwMjk4MDMyLDE3MzUx
-MTM0MzVdfQ==
+eyJoaXN0b3J5IjpbLTE3NjA4Njk2MzIsLTE3NzczMzYwMywtMz
+EyNjgxNzgxLDEzMjU3NDIyODEsMjExMTM3NDMyNSwxNzcxMzI3
+MTE4LC01NDA2MDA3NzYsMTczNjIwODEwOSwyMTAzNjAxNjM5LC
+0xNDQwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMx
+NDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEyMzUsLTE1NzYxNjc1Mj
+MsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEzMDI5ODAzMiwxNzM1
+MTEzNDM1XX0=
 -->
