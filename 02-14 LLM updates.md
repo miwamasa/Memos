@@ -4,7 +4,7 @@
 
 ## 3/2
 
-先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 H100の５倍の性能！新GPUであるB200、DGX GB200 NVL72とか、NIMの発表とか、一人勝ちってこういうこと。早速llamaindexがNVIDIA NIMで動くようになった。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステム」。500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になるのか。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」ってのはローカル勢には強い味方か。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKiってのもある。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。[huggingface](https://github.com/huggingface)からPEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。huggingfaceはTransformers 4.39もリリース、GaLoreをサポートしてるらしい。Artificial muscleというのがすごいな、NVIDIAのロボットといい、人間らしいロボットが次に来るのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。Lineの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイム、いいなあ
+先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 H100の５倍の性能！新GPUであるB200、DGX GB200 NVL72とか、NIMの発表とか、一人勝ちってこういうこと。早速llamaindexがNVIDIA NIMで動くようになった。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステム」。500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になるのか。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」実装が。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKiってのもある。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。[huggingface](https://github.com/huggingface)からPEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。huggingfaceはTransformers 4.39もリリース、GaLoreをサポートしてるらしい。Artificial muscleというのがすごいな、NVIDIAのロボットといい、人間らしいロボットが次に来るのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。Lineの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイム、いいなあ
 
 - grok-1まとめ
 	- https://x.com/webbigdata/status/1769503166528458822?s=20
@@ -69,6 +69,8 @@
 	- https://note.com/npaka/n/n8e4537502e3e?sub_rt=share_h
 	- 「GaLore」は、「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にします。これは、学習プロセス中のオプティマイザの状態と勾配に従来関連付けられていたメモリ要件を大幅に削減することによって実現されます。
 	- 「GaLore」と「8bitオプティマイザ」を組み合わせることで、学習プロセスの整合性とパフォーマンスを維持しながらメモリ効率を最大化する相乗効果が得られます。
+- GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection
+	- https://arxiv.org/abs/2403.03507v1
 - StanfordのFei-Fei Li教授らのチームから、ロボットのシミュレーションのためのベンチマーク「BEHAVIOR-1K」がリリース
 	- https://x.com/drfeifei/status/17710132915083798大規模言語モデル「Grok-1」について by 今井
 	- https://x.com/ImAI_Eruel/status/1769487625994506294?s=20
@@ -3864,16 +3866,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  OpenAI announces leadership transition
 	- https://openai.com/blog/openai-announces-leadership-transition
 	- えっ！
-	- 「取締役会とのコミュニケーションにおいて一貫して率直さを欠き、取締役会の責任遂行を妨げている」
-- OpenAIから追い出された直後の、Sam Altomanのツイート
-	- https://x.com/sama/status/1725742088317534446?s=20
-	-
+	- 「取締役会とのコミュニケーションにおいて一貫して率直さを欠き、取
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLT
-E3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjExMTM3
-NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwODEwOS
-wyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwtMjA1
-MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEyMz
-UsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEz
-MDI5ODAzMl19
+eyJoaXN0b3J5IjpbLTIxMTM1Mjc4MzIsLTExNDg1Mjk4ODEsLT
+E3NjA4Njk2MzIsLTE3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3
+NDIyODEsMjExMTM3NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3Nz
+YsMTczNjIwODEwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1
+NzkwNTgwMCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MD
+YsLTE4NTI3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1
+MzU0MTY2MjBdfQ==
 -->
