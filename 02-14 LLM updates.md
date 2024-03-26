@@ -167,7 +167,12 @@
 	- https://x.com/hpp_ricecake/status/1771138490589487602?s=20
 -  Googleが洪水を1週間前に予測し世界80カ国4億6000万人を水害から救えるAIを発表
 	- https://gigazine.net/news/20240322-google-ai-global-flood-forecasting/
-	- 
+	- Google Researchのグレイ・ニアリング氏らの研究チームは、世界各国の流量計5680個が1980～2023年の間に集積したデータを用いてAIモデルをトレーニングしました。
+	- 洪水ナウキャストによる洪水の予測を0日前、つまり当日から平均5日前まで延ばし、最大で7日前まで予測することができます。
+- 立体言語
+	- 永田亮『立体言語』（自然言語処理31巻1号巻頭言）
+	- https://www.jstage.jst.go.jp/article/jnlp/31/1/31_1/_pdf/-char/ja
+	- 言語の線状性（一つづつ順番に並べる制約）を超える、これまでとは異なった情報伝達の可能性。そして、そこにNLP技術が活かせるのではないかというお話。
 
 ## 3/18
 
@@ -3880,17 +3885,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Levels of AGI: Operationalizing Progress on the Path to AGI
 	- https://arxiv.org/pdf/2311.02462.pdf
 	- DeepMindから、AGIにいたるLevel0からLevel5までの段階を示す、レベル分けのOntologyを提案といっている
-	-  AGI by considering generality (either Narrow or General) in tandem with five levels of performance (Emerging, Competent, Expert, Virtuoso, and Superhuman).
--  OpenAI Python API Library v1.0 入門　by npakaさん
-	- https://note.com/npaka/n/n27b94df96179?sub_rt=share_sb
-	- 「OpenAI Python API Library」のインタフェースが一新された、らしい
-- GPT-4のfine-tuningで有効なgai
+	-  AG
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzODkyMTgxLC01NDA2MDA3NzYsMTczNj
-IwODEwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgw
-MCwtMjA1MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NT
-I3MjEyMzUsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2
-MjAsMTEzMDI5ODAzMiwxNzM1MTEzNDM1LC0yOTExNDU5OTUsLT
-EzNzEzOTU2MDQsLTEyMDE2OTI5NjQsMTk0MDQzODM2OSwtMTc1
-OTM4MTQ1NV19
+eyJoaXN0b3J5IjpbLTEzNzU0ODUzNDUsLTU0MDYwMDc3NiwxNz
+M2MjA4MTA5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1
+ODAwLC0yMDUxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMT
+g1MjcyMTIzNSwtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQx
+NjYyMCwxMTMwMjk4MDMyLDE3MzUxMTM0MzUsLTI5MTE0NTk5NS
+wtMTM3MTM5NTYwNCwtMTIwMTY5Mjk2NCwxOTQwNDM4MzY5LC0x
+NzU5MzgxNDU1XX0=
 -->
