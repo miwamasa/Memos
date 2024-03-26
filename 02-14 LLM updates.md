@@ -4,7 +4,7 @@
 
 ## 3/2
 
-先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 DGX GB200 NVL72とか、NIMの発表とか、一人勝ちってこういうこと。早速llamaindexがNVIDIA NIMで動くようになった。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステム」。500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になるのか。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」ってのはローカル勢には強い味方か。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKiってのもある。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。[huggingface](https://github.com/huggingface)からPEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。huggingfaceはTransformers 4.39もリリース、GaLoreをサポートしてるらしい。Artificial muscleというのがすごいな、NVIDIAのロボットといい、人間らしいロボットが次に来るのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。Lineの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイム、いいなあ
+先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 H100の５倍の性能！新GPUであるB200、DGX GB200 NVL72とか、NIMの発表とか、一人勝ちってこういうこと。早速llamaindexがNVIDIA NIMで動くようになった。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステム」。500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になるのか。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする「GaLore」ってのはローカル勢には強い味方か。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKiってのもある。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。[huggingface](https://github.com/huggingface)からPEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。huggingfaceはTransformers 4.39もリリース、GaLoreをサポートしてるらしい。Artificial muscleというのがすごいな、NVIDIAのロボットといい、人間らしいロボットが次に来るのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。Lineの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイム、いいなあ
 
 - grok-1まとめ
 	- https://x.com/webbigdata/status/1769503166528458822?s=20
@@ -37,7 +37,7 @@
 - NVIDIA、GPUプラットフォーム「Blackwell」発表　「兆パラメータ規模のAIモデル実現」
 	- https://www.itmedia.co.jp/news/articles/2403/19/news092.html
 	- プラットフォームに搭載する「GB200 Grace Blackwell Superchip」は、新GPU「B200」（2080億個のトランジスタを搭載し、現行の「H100」と比較して、AI向けの作業で5倍の処理能力を発揮するGPU）を2基と1基のGrace CPUを組み合わせたもの。
-	- 
+	- NVIDIAによると、1兆8000億パラメータのAIモデルをトレーニングするには、Hopper GPUでは8000個のGPUで15メガワットの電力が必要だったが、新スーパーチップであれば2000個で可能で、消費電力は4メガワットで済むという。
 - DGX GB200 NVL72は、GB200 Superchipを72基NVLinkで接続したクラスタ
 	- https://x.com/_ksasaki/status/1769829822946001353?s=20
 - 生成AIアプリの展開を数分に、NVIDIAが新マイクロサービス「NIM」を発表
@@ -3867,16 +3867,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 「取締役会とのコミュニケーションにおいて一貫して率直さを欠き、取締役会の責任遂行を妨げている」
 - OpenAIから追い出された直後の、Sam Altomanのツイート
 	- https://x.com/sama/status/1725742088317534446?s=20
-	- i love you all.
-- 西浦先生の論文に、筑波大の掛谷氏がかみつくも、統計の専門化から返り討ちに
-	- https://x.com/behemuhemulove/status/1725749314000175387?s=20
-	- 主な問題点 (1) クロスバリデーションの評
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDEyMjEwMywtMTc2MDg2OTYzMiwtMT
-c3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0
-MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LD
-IxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUx
-NjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1MjcyMTIzNS
-wtMTU3NjE2NzUyMywxMzQ3Njk5MjUwLDUzNTQxNjYyMCwxMTMw
-Mjk4MDMyXX0=
+eyJoaXN0b3J5IjpbLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLT
+E3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjExMTM3
+NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwODEwOS
+wyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwtMjA1
+MTY1MTIyMiw3OTMxNDI2NCw1MTk0NzE3MDYsLTE4NTI3MjEyMz
+UsLTE1NzYxNjc1MjMsMTM0NzY5OTI1MCw1MzU0MTY2MjAsMTEz
+MDI5ODAzMl19
 -->
