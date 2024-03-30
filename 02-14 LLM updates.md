@@ -2485,8 +2485,6 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 9) Segment Anything
 	- 10) Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models
 
-
-
 ## 12/25
 
 東工大からLLama2の日本語をひたすら強化したswallow(7B, 13B, 70B) が颯爽と登場、llama2ベースで日本語コーパスをちゃんと整備しなおして、ここまでできるという話。産総研のABCIのAノードを６０日占有してつくったという。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、AWSの支援サービスを活用し、660億トークンの継続事前学習を約7日で行った。ここにきて、国産LLMもいろいろ成果がでてきたが、LLMの横断評価によると、30B以上では、中国勢が席巻。7Bクラスだと、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルもなんとか性能を出せているとのこと、もっとも中国LLＭはなぜか日本語処理に得意ということなので、なかなかの強敵かも。openchatの評価が高い。ollama(ローカルLLMの実行フレームワーク）が迅速に様々なOSSのLLMに対応していてローカルLLMに旋風を起こしている。LangChainとollamaを組み合わせたresarch-assistant事例は新世代のローカルLLMアプリ構築の良例。OpeanAIは、AGIができた未来（現在かもしれない）に備えた、Preparedness Frameworkプログラムを発表。企業ガバナンスとして、AGI相当のAIの開発の透明性を高めるという。 OpenAIのエージェント型AIシステム構築の7つの原則『Practices for Governing Agentic AI』なんかも安全性に関わる重要な指針になりうる。llamaindexのContorable RAG AgentというAgentの低レベルの制御ＡＰＩとの提供というのも、エージェントのガバナンスの一つの回答になっているのか。日本語embeddings変換モデルだけでも、AIクイズ王ぐらいは解けるらしい、やってみよう。深層学習による新しい構造クラスの抗生物質の発見というのもすごいな、科学の領域でもAI/LLMは常連さんになりつつある。なお、Nature最新号は「AIによる（気象）予測」が表紙になっている、DeepMindのアレである。intel-extension-for-transformersも量子化対応とか着実に進化、Llama.cppより早いという報告も。AppleのＭＬＸのコミュニティも様々なOSSのLLM対応が公開され盛り上がっている。Apple自身も、LLMのパラメータをSSDなどの外部フラッシュメモリに保存することで高速化する論文を発表、iphoneで動くようになる？これって、投機的ＬＬＭ実行スケジューリングみたいになるのか？PowerInferみたいなメモリ節約で民間GPUでも高速化(A100の85%とか)みたいなのもある。
@@ -3859,13 +3857,17 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - OpenCopilot
 	- https://github.com/openchatai/OpenCopilot
 - tldrawが洒落にならないぐらい優れている
-	- h
+	- https://makereal.tldraw.com/
+	- ラフなUIの図解や説明をつくるだけで、GPT-4Vで認識して良い感じに仕様を解釈して実際に動くモックアップを作ってくれる
+- 紗々氏、NTT武蔵野通研で開催されたR&Dフォーラムで、AI化される
+	- https://x.com/03sasa03/status/1725479562094755951?s=20
+-  OpenAI announces leadership 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNj
-IzMDMyNjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2
-OTYzMiwtMTc3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MS
-wyMTExMzc0MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2
-MjA4MTA5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1OD
-AwLC0yMDUxNjUxMjIyLDc5MzE0MjY0LDUxOTQ3MTcwNiwtMTg1
-MjcyMTIzNV19
+eyJoaXN0b3J5IjpbMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMD
+M5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5
+ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MS
+wxMzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3MTMyNzExOCwtNTQw
+NjAwNzc2LDE3MzYyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMT
+kwLC01NTc5MDU4MDAsLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5
+NDcxNzA2XX0=
 -->
