@@ -26,7 +26,13 @@
 	- https://x.com/ctgptlb/status/1771005259948986562?s=20
 -  RakutenAI-7B: Extending Large Language Models for Japanese
 	- https://huggingface.co/papers/2403.15484
-- 
+- MSのエンジニアがGPT-6クラスタの構築に取り組んでる
+	- https://x.com/_kaiinui/status/1772455514489672080?s=20
+	- H100を10万台以上配備しているらしく、電力的に一つのDCに収まらなくなってきている (※10万台 = 70メガワット)
+- The Unreasonable Ineffectiveness of the Deeper Layers
+	- https://huggingface.co/papers/2403.17887
+	- We empirically study a simple layer-pruning strategy for popular families of open-weight pretrained LLMs, finding minimal degradation of performance on different question-answering benchmarks until after a large fraction
+	- まあ有名なえいが
 
 ## 3/25
 
@@ -3847,15 +3853,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Gradio の作者の初めての論文といううわさも
 - ChatGPTとDeepLの字幕翻訳の比較
 	- https://x.com/gijigae/status/1724345403234193540?s=20
-	- ChatGPTは、①英語字幕を繋ぎ直す ②日本語に訳す ③訳したテキストを自然な流れになるように分け、元のタイムスタンプへ戻す といった一連の作業を全部やってくれる。
-- GPTsとAsistant APIの違い
-	- https://x.com/gijigae/status/1724428173905989945?s=20
-	- GPTsとAssistants APIはカスタマイズしたChatGPTが作れる点で似ている。ただ、ChatGPT Plusへの加入やステート管理を含め、違いも多い↓。忙しくて一つしか試せないという方には後者をお勧めしたい。特に、カスタマイズしたChatGPTを生徒に公開する際、ChatGPT Plusへの加入が不要となるのは大きい。
-- 「表象（representation）」概念を分析するRPPFプロジェクト
-	- 神経科学などで多用されるが曖昧で問題含みの「表象（representation）」概念を、20～30名の哲学者と神経科学者で分析する「Representation: Past, Present and Future (RPPF) project」
-	- https://www.thetransmitter.org/representation/what-are
+	- ChatGPTは、①英語字幕を繋ぎ直す ②日本語に訳す ③訳したテキストを自然な流れになるように分け、元のタイムスタンプへ戻す といった一連の作業
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODA5Mjc1OCwyMTA5ODQxNzgwLC0xOT
+eyJoaXN0b3J5IjpbMTM0MzU1MTk1MSwyMTA5ODQxNzgwLC0xOT
 UzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMx
 ODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3NzczMzYwMy
 wtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjExMTM3NDMyNSwxNzcx
