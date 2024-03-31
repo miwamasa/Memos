@@ -1,6 +1,9 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+## 4/1
+
+
 
 ## 3/25
 
@@ -3861,13 +3864,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ラフなUIの図解や説明をつくるだけで、GPT-4Vで認識して良い感じに仕様を解釈して実際に動くモックアップを作ってくれる
 - 紗々氏、NTT武蔵野通研で開催されたR&Dフォーラムで、AI化される
 	- https://x.com/03sasa03/status/1725479562094755951?s=20
--  OpenAI announces leadership 
+-  OpenAI announces lead
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMD
-M5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5
-ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MS
-wxMzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3MTMyNzExOCwtNTQw
-NjAwNzc2LDE3MzYyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMT
-kwLC01NTc5MDU4MDAsLTIwNTE2NTEyMjIsNzkzMTQyNjQsNTE5
-NDcxNzA2XX0=
+eyJoaXN0b3J5IjpbLTE3NDQ4NjA5NzEsMjEwOTg0MTc4MCwtMT
+k1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5Mjcz
+MTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MD
+MsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3
+MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEwMzYwMT
+YzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAsLTIwNTE2NTEyMjIs
+NzkzMTQyNjRdfQ==
 -->
