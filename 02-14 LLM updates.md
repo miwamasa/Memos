@@ -22,6 +22,10 @@
 	- 複雑な心理現象について、大規模データと機械学習を用いて仮説フリーで当たりをつけ、それを「仮説」として実験室で検証実験を行う。うらやましいほどお手本のような現代的研究。ビールを対象としているところも粋でオモロいし！
 - NTTのTsuzumi、7Bパラのマルチモーダルで、RakudaベンチマークでGPT-3.5を上回るんだと。
 	- https://x.com/umiyuki_ai/status/1772588308537000101?s=20
+- OpenAIが「VOICE ENGINE」の名前で商標を出願
+	- https://x.com/ctgptlb/status/1771005259948986562?s=20
+-  RakutenAI-7B: Extending Large Language Models for Japanese
+	- https://huggingface.co/papers/2403.15484
 - 
 
 ## 3/25
@@ -3849,15 +3853,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- GPTsとAssistants APIはカスタマイズしたChatGPTが作れる点で似ている。ただ、ChatGPT Plusへの加入やステート管理を含め、違いも多い↓。忙しくて一つしか試せないという方には後者をお勧めしたい。特に、カスタマイズしたChatGPTを生徒に公開する際、ChatGPT Plusへの加入が不要となるのは大きい。
 - 「表象（representation）」概念を分析するRPPFプロジェクト
 	- 神経科学などで多用されるが曖昧で問題含みの「表象（representation）」概念を、20～30名の哲学者と神経科学者で分析する「Representation: Past, Present and Future (RPPF) project」
-	- https://www.thetransmitter.org/representation/what-are-we-talking-about-clarifying-the-fuzzy-concept-of-representation-in-neuroscience-and-beyond/
-- コード生成・補完に特化した日本語LLM「ELYZA-japanese-CodeLlama-7b」を公開しました（商用利用可）
-	- https://note.com/elyza/n/n5bce23d7c
+	- https://www.thetransmitter.org/representation/what-are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTUwOTI1LDIxMDk4NDE3ODAsLTE5NT
-MxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4
-NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC
-0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0MzI1LDE3NzEz
-MjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMDM2MDE2Mz
-ksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5
-MzE0MjY0XX0=
+eyJoaXN0b3J5IjpbLTYyODA5Mjc1OCwyMTA5ODQxNzgwLC0xOT
+UzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMx
+ODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3NzczMzYwMy
+wtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjExMTM3NDMyNSwxNzcx
+MzI3MTE4LC01NDA2MDA3NzYsMTczNjIwODEwOSwyMTAzNjAxNj
+M5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3
+OTMxNDI2NF19
 -->
