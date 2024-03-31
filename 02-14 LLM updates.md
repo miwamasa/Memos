@@ -69,7 +69,10 @@
 	- ・テキスト データとコード データを合計した12Tトークンで事前トレーニング 
 	- ・3072 台の NVIDIA H100を使って約3か月でトレーニング 
 	- ・ファイルサイズは 263.07(約4.4 GB x 61safetensors)
-- 
+- Exploration—not work—could be key to a vibrant local economy
+	- https://phys.org/news/2024-03-exploration-key-vibrant-local-economy.html
+	- Cities and the surprising finding from mobility data analysis that it's more in how we spend and explore in our free time that drives the economic vibrancy of cities, over where we work and go to school.
+- Monitoring AI-Modified Content at Scale:A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews
 
 ## 3/25
 
@@ -3846,20 +3849,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Fine-Tuned Language Models Generate Stable Inorganic Materials as Text
 	- https://openreview.net/forum?id=0r5DE2ZSwJ
 	- 言語モデルによる結晶構造予測
-	- 結晶構造をシンプルなテキストで表現しLLaMA-2を微調整することで、VAEの従来手法よりも安定な結晶構造を生成できた
-	- この手の手法はモデル構築にお金と時間がかかるところが課題
-- create-llama, a command line tool to generate LlamaIndex apps
-	- https://blog.llamaindex.ai/create-llama-a-command-line-tool-to-generate-llamaindex-apps-8f7683021191
-	- コマンドラインでllamaindexをつかたたアプリを生成する仕組みの公開！！！
-- GPT4などが、常識をもっているかどうかのテストデータセットによる評価
-	- https://github.com/allenai/everyday-things
-	- The LLMs have poor accuracy (54-59%) on commonsense spatial/functional relationships in ParRoT dat
+	- 結晶構造をシンプルなテキストで表現しLLaMA-2を微調整することで、V
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDg4NjAxNCwtMjAwMDg2OTYxMSwyMT
-A5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAz
-MjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2Mz
-IsLTE3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjEx
-MTM3NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwOD
-EwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwt
-MjA1MTY1MTIyMl19
+eyJoaXN0b3J5IjpbLTEzODMxMDUxMDgsLTIwMDA4Njk2MTEsMj
+EwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMw
+MzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5Nj
+MyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIx
+MTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMD
+gxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAs
+LTIwNTE2NTEyMjJdfQ==
 -->
