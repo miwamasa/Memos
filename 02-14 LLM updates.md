@@ -16,7 +16,13 @@
 -  RAFT: Adapting Language Model to Domain Specific RAG
 	- https://arxiv.org/abs/2403.10131
 	- RAFT offers a method to fine-tune pre-trained LLMs for specific domain RAG settings.
-	- 
+	- Conventional RAG is like an open-book exam, retrieving documents from an index to provide context for answering queries. This makes it more effective than the closed-book exam setting where LLMs rely solely on their pre-training and fine-tuning to respond to prompts, but doesn't allow the LLM to learn the domain beforehand.
+- NatCom誌【ビールの風味とおいしさ（飲んだ人の評価）を決定する物質を250のビールに対する18万のレビューから機械学習で解明。
+	- https://www.nature.com/articles/s41467-024-46346-0
+	- 複雑な心理現象について、大規模データと機械学習を用いて仮説フリーで当たりをつけ、それを「仮説」として実験室で検証実験を行う。うらやましいほどお手本のような現代的研究。ビールを対象としているところも粋でオモロいし！
+- NTTのTsuzumi、7Bパラのマルチモーダルで、RakudaベンチマークでGPT-3.5を上回るんだと。
+	- https://x.com/umiyuki_ai/status/1772588308537000101?s=20
+- 
 
 ## 3/25
 
@@ -3845,20 +3851,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 神経科学などで多用されるが曖昧で問題含みの「表象（representation）」概念を、20～30名の哲学者と神経科学者で分析する「Representation: Past, Present and Future (RPPF) project」
 	- https://www.thetransmitter.org/representation/what-are-we-talking-about-clarifying-the-fuzzy-concept-of-representation-in-neuroscience-and-beyond/
 - コード生成・補完に特化した日本語LLM「ELYZA-japanese-CodeLlama-7b」を公開しました（商用利用可）
-	- https://note.com/elyza/n/n5bce23d7c9c8
-	- https://zenn.dev/elyza/articles/fcbf103e0a05b1
-- わずか1分で10日間の天気を予測可能なAI「GraphCast」をGoogle DeepMindが発表、スパコンで数時間かけた予測より高精度
-	- https://gigazine.net/news/20231115-google-graphcast-global-weather-forecasting/
-	- https://github.com/google-deepmind/graphcast
-- RAG over Governments Document
-	- https://github.com/deptofdefense/LLMs-at-DoD/blob/main/tutorials/Chatting%20with%20your%20Docs.ipynb
-- GGUF 版の 5 bit 量子化された Llama 2 を WasmEdge で。7B が 24 token / sec で動作しました↓
-	- https://www.secondstate.io/articles/fast-llm-inference/
-	- Mac ユーザは見たらとりあえず試して。コマンド４行叩くだけなので！Rust x Wasm で Llama 2 推論がローカルで動きます
-- ELYZA-japanese-CodeLlama-7b-instructのggufフォーマット変換版
-	- https://huggingface.co/m
+	- https://note.com/elyza/n/n5bce23d7c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyMDc0NjMxLDIxMDk4NDE3ODAsLTE5NT
+eyJoaXN0b3J5IjpbMTM5NTUwOTI1LDIxMDk4NDE3ODAsLTE5NT
 MxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4
 NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC
 0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0MzI1LDE3NzEz
