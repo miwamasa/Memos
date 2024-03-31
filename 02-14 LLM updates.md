@@ -32,7 +32,12 @@
 - The Unreasonable Ineffectiveness of the Deeper Layers
 	- https://huggingface.co/papers/2403.17887
 	- We empirically study a simple layer-pruning strategy for popular families of open-weight pretrained LLMs, finding minimal degradation of performance on different question-answering benchmarks until after a large fraction
-	- まあ有名なえいが
+	- まあ有名な映画、小説の題名のもじり
+- DeepLearningAIから、新しいRAGのコースが
+	- https://www.deeplearning.ai/short-courses/javascript-rag-web-apps-with-llamaindex/
+	- JavaScript RAG Web Apps with LlamaIndex,
+- Excited to share LISA, which enables
+	- 
 
 ## 3/25
 
@@ -3849,17 +3854,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/toukatsujin/status/1724196831109017964?s=20
 	- 「技術力を磨かないと生き残れないと思っているエンジニアがほとんど。でも技術は日々進化・変化しており、これを学べば一生安泰ということはない。むしろビジネス理解力を磨いたほうが一生安泰なのに、エンジニアの多くは分かっていない」
 - Rapidly build an application in Gradio power by a Generative AI Agent
-	- https://cloud.google.com/blog/products/ai-machine-learning/rapidly-build-an-application-in-gradio-power-by-a-generative-ai-agent?hl=en
-	- Gradio の作者の初めての論文といううわさも
-- ChatGPTとDeepLの字幕翻訳の比較
-	- https://x.com/gijigae/status/1724345403234193540?s=20
-	- ChatGPTは、①英語字幕を繋ぎ直す ②日本語に訳す ③訳したテキストを自然な流れになるように分け、元のタイムスタンプへ戻す といった一連の作業
+	- https://cloud.google.com/blog/products/ai-machine-learning/rapidly-build-an-application-in-gradio-power-by-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MzU1MTk1MSwyMTA5ODQxNzgwLC0xOT
-UzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMx
-ODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3NzczMzYwMy
-wtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjExMTM3NDMyNSwxNzcx
-MzI3MTE4LC01NDA2MDA3NzYsMTczNjIwODEwOSwyMTAzNjAxNj
-M5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3
-OTMxNDI2NF19
+eyJoaXN0b3J5IjpbLTExNjcxNDk5LDIxMDk4NDE3ODAsLTE5NT
+MxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4
+NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC
+0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0MzI1LDE3NzEz
+MjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMDM2MDE2Mz
+ksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5
+MzE0MjY0XX0=
 -->
