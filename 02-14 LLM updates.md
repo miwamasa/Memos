@@ -116,6 +116,9 @@
 -   LMFlowによる日本語LISAトレーニング　 by shi3zさん
 	- https://www.free-ai.ltd/post/lmflow-ja-lisa
 	- メモリ消費がLoRAと同等に低く、なおかつパフォーマンスはフルパラメータのファインチューニングに匹敵もしくは上回る効果を持つと言われています。
+-  LoRAよりいいらしいLISA by shi3zさん
+	- https://note.com/shi3zblog/n/ndf165df51f04?sub_rt=share_pb
+	- 学習も速いし推論も速い。  こんないいことずくめのことがあっていいのか。  しかしそんないいことずくめのことが時々起きるのがこの業界の面白いところである。
 
 ## 3/25
 
@@ -3832,11 +3835,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- LoGiPTは、直接論理的な導出をエミュレートする、既存ソルバーのログをデータセットとして、ファインチューニングした。問題は解決された
 	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzMjAxOTAsLTE4MjEyNjAxNjUsLTIwMD
-A4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjEx
-NTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC
-0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1
-NzQyMjgxLDIxMTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNz
-c2LDE3MzYyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01
-NTc5MDU4MDBdfQ==
+eyJoaXN0b3J5IjpbMTI4MzI1OTE2NCwtMTgyMTI2MDE2NSwtMj
+AwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2
+MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4OD
+EsLTE3NjA4Njk2MzIsLTE3NzczMzYwMywtMzEyNjgxNzgxLDEz
+MjU3NDIyODEsMjExMTM3NDMyNSwxNzcxMzI3MTE4LC01NDA2MD
+A3NzYsMTczNjIwODEwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAs
+LTU1NzkwNTgwMF19
 -->
