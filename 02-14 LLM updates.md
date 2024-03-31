@@ -73,6 +73,12 @@
 	- https://phys.org/news/2024-03-exploration-key-vibrant-local-economy.html
 	- Cities and the surprising finding from mobility data analysis that it's more in how we spend and explore in our free time that drives the economic vibrancy of cities, over where we work and go to school.
 - Monitoring AI-Modified Content at Scale:A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews
+	- https://arxiv.org/pdf/2403.07183.pdf
+-  Intel® Neural Compressor
+	- https://github.com/intel/neural-compressor
+	- All your need is Intel Neural Compressor (INC) for INT4 LLMs. INC v2.5 released with SOTA INT4 LLM quantization (AutoRound) across platforms incl. Intel Gaudi2, Xeon, and GPU.
+	- Models: Llama2, Mistral, Mixtral-MOE, Gemma, Mistral-v0.2, Phi2, Qwen,
+- 
 
 ## 3/25
 
@@ -3843,19 +3849,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 2. Unstructured w/ metadata: Text-to-metadata filters (w/ new docs + a template for self-query retriever)
 	- "Text-to-SQL+semantic" is an interesting recent addition to LangChain that extends "Text-to-SQL" w/ semantic queries on an embedding column.
 	- そうか、やっぱり text-to-SQL+semantiが最強なのか
-- 『Chain of Empathy（共感の連鎖）』
-	- Yoon Kyung Lee et al., "Chain of Empathy: Enhancing Empathetic Response of Large Language Models Based on Psychotherapy Models"
-	- 心理療法のセオリーを反映したプロンプト手法『Chain of Empathy：CoE』を開発し、その性能を検証
--  Fine-Tuned Language Models Generate Stable Inorganic Materials as Text
-	- https://openreview.net/forum?id=0r5DE2ZSwJ
-	- 言語モデルによる結晶構造予測
-	- 結晶構造をシンプルなテキストで表現しLLaMA-2を微調整することで、V
+- 『Chain of Empathy（共感の連鎖
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODMxMDUxMDgsLTIwMDA4Njk2MTEsMj
-EwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMw
-MzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5Nj
-MyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIx
-MTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMD
-gxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAs
-LTIwNTE2NTEyMjJdfQ==
+eyJoaXN0b3J5IjpbNDI2NDMzNzc5LC0yMDAwODY5NjExLDIxMD
+k4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMy
+NjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMi
+wtMTc3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTEx
+Mzc0MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MT
+A5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0y
+MDUxNjUxMjIyXX0=
 -->
