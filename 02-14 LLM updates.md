@@ -119,7 +119,13 @@
 -  LoRAよりいいらしいLISA by shi3zさん
 	- https://note.com/shi3zblog/n/ndf165df51f04?sub_rt=share_pb
 	- 学習も速いし推論も速い。  こんないいことずくめのことがあっていいのか。  しかしそんないいことずくめのことが時々起きるのがこの業界の面白いところである。
-	- 
+-  Accelerating Scientific Discovery with Generative Knowledge Extraction, Graph-Based Representation, and Multimodal Intelligent Graph Reasoning
+	- https://arxiv.org/abs/2403.11996
+	- 言語モデルによる科学知識抽出の論文
+	- 1000件の論文のデータを言語モデルにより抽出し知識グラフに変換、グラフ解析によりバイオ材料とベートーベンの第 9 交響曲の構造的類似点など分野を超えた関係性を明らかにできたそうです。
+- Transformerのスケーリング則は線形じゃなくてべき乗則だから、トレーニングの計算量を10倍にしてもLossは12%しか減らない（性能が10倍になるわけじゃない）
+	- https://x.com/umiyuki_ai/status/1773917004464103563?s=20
+- 
 
 ## 3/25
 
@@ -3830,17 +3836,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - ユーザープロンプトをLLMが言い換えて、LLM自身が理解しやすくする手法『RaR』
 	- https://aiboom.net/archives/51160
 	- 例えば「GPT-4で言い換えてGPT-3.5で入力する」も有効とのことです。 実行テンプレートや性能等を詳しく紹介する記事を公開しました
--  Language Models can be Logical Solvers
-	- https://huggingface.co/papers/2311.06158
-	- 従来SOTAは、solver-augmented language modelsをつかって、自然言語からシンボリックなロジックを取り出して、外部ソルバーで説いていたが、、文法があってないとかそういう下らないエラーに悩まされてきた
-	- LoGiPTは、直接論理的な導出をエミュレートする、既存ソルバーのログをデータセットとして、ファインチューニングした。問題は解決された
-	- https
+-  Language Mod
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTg1ODUsLTE4MjEyNjAxNjUsLTIwMD
-A4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjEx
-NTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC
-0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1
-NzQyMjgxLDIxMTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNz
-c2LDE3MzYyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01
-NTc5MDU4MDBdfQ==
+eyJoaXN0b3J5IjpbMTY3NzA1Njg0NSwxODY5ODU4NSwtMTgyMT
+I2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1
+MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLT
+ExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3NzczMzYwMywtMzEy
+NjgxNzgxLDEzMjU3NDIyODEsMjExMTM3NDMyNSwxNzcxMzI3MT
+E4LC01NDA2MDA3NzYsMTczNjIwODEwOSwyMTAzNjAxNjM5LC0x
+NDQwODMxOTBdfQ==
 -->
