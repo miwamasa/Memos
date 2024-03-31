@@ -140,6 +140,11 @@
 	- NTTは2024年3月25日、独自LLM（大規模言語モデル）である「tsuzumi」のサービス提供を始めた
 	- tsuzumiは日本語と英語に対応し、パラメーター数は70億とOpenAIの「GPT-3」の1750億と比べて25分の1と軽量だ。LLMの日本語処理性能に関するベンチマークテスト「Rakuda Benchmark」の結果では、GPT-3.5や同規模の国産LLMを上回ったという。tsuzumiは言語に加え、図表や画像の解析などにも対応する。
 	- うみゆきさん、LLMの学習コスト感ってよく知らんけど、Tsuzumiの資料によればAWSで7Bモデルを300Bトークン学習させると1900万円かかるらしい。300Bじゃ少ないから1.2Tくらいは学習させたいよね。そしたら7600万円か。
+- 楽天が日本語に最適化したMistralベースのLLMを公開、商用目的で使用可能
+	- https://xtech.nikkei.com/atcl/nxt/news/24/00440/
+	- 公開したのは基盤モデルの「Rakuten AI 7B」、同モデルを基にしたインストラクションチューニング済みモデルの「Rakuten AI 7B Instruct」、Rakuten AI 7B Instructを基にファインチューニングしたチャットモデル「Rakuten AI 7B Chat」の3種である。
+	- 文章の要約や質問応答、一般的な文章の理解、対話システムの構築などに商用目的で使用でき、Rakuten AI 7Bは他のモデルの基盤としても使えるという。
+	- Rakuten AI 7BはフランスのAI（人工知能）スタートアップMistral AIのオープンモデル「Mistral-7B-v0.1」を基に、継続的に大規模なデータを学習させて開発した日本語基盤モデル。
 
 ## 3/25
 
@@ -3823,18 +3828,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 - Adding Structure-Aware Retrieval to GenAI Stack
 	- https://medium.com/@yu-joshua/adding-structure-aware-retrieval-to-genai-stack-373976de14d6
-	- 単なるembeddingをつかった類似検索のRAGではなくて、構造を抽出したうえでの、RAGっての有効であることを、neo4j+LangChainの実例で示した良例
-	- This stack is (1) fully local, (2) uses advanced retrieval methods that encode relationships between different chunks of texts
-- LlamaIndex によるOpenAIの新機能を使用・理解するためのガイド by npakaさん
-	- https://note.com/npaka/n/n728fdb8f76da?sub_rt=share_sb
-	- Parallel Function Calling、Assistant API Agent、Function Callingによる高度なRAG、マルチモーダルRAG
-	- GPT Builder、プロンプトを自動性生成することで、GPTを生成するmetaなツー
+	- 単なるembeddingをつかった
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI4MzkwOTYsLTcwODM0MTc5LDE4Nj
-k4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3
-ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LD
-gxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3
-NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0Mz
-I1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIx
-MDM2MDE2MzldfQ==
+eyJoaXN0b3J5IjpbLTczOTAxODY2NCwtNzA4MzQxNzksMTg2OT
+g1ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4
+MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsOD
+E5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3
+MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIxMTEzNzQzMj
+UsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEw
+MzYwMTYzOV19
 -->
