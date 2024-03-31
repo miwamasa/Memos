@@ -129,6 +129,12 @@
 	- https://x.com/OpenAI/status/1773760852153299024?s=20
 - OpenAIとMicrosoftが最大1000億ドルを投じて「Stargate」というスーパーコンピューターを2028年までに建設予定。AI開発加速のため、数100万のAI専用チップを搭載。
 	- https://qz.com/microsoft-openai-stargate-supercomputer-1851375309
+-  langchainとDatabricksで(私が)学ぶRAG : BGE-M3を使った埋め込み
+	- https://qiita.com/isanakamishiro2/items/e4f67586b4cb5f171ea9
+	- BAAI(Beijing Academy of Artificial Intelligence)から、BGE-M3というEmbedding用のモデルが公開されました。
+	- 日本語RAGにおける新たな埋め込みのスタンダードモデルになるかもしれないなと思い、このモデルを使った検索を試してみました。
+	- LangChainには`HuggingFaceBgeEmbeddings`というBAAIのBGE系埋め込みモデルを利用するための専用クラスた用意されており、そちらを利用します。
+	- RAGの性能を高める上で埋め込みに関する工夫は重要であり、今後もこういった高性能なモデルが公開されていくと（素人的に使う側にとっては）ありがたいですね。
 - 
 
 ## 3/25
@@ -3828,20 +3834,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - gpt-3.5-turbo-1106を使った、新しいOpenAIのファインチューニング
 	- https://x.com/matsu_vr/status/1723688378795958670?s=20
 	- でお嬢様チューニングしてみました。200例の会話で十分お嬢様になった！
-- Boosting RAG: Picking the Best Embedding & Reranker models
-	- https://blog.llamaindex.ai/boosting-rag-picking-the-best-embedding-reranker-models-42d079022e83
-	- RAGをやるにあたってどれを使えばよいかを調べたブログ。OpenAI ChatGPTやGoogle PaLMなどで作った embeddings と BAAI 等が提供している reranker で、どの組み合わせが精度が良いか
-- OpenAI Dev dayを受けた、llamaindexのハイレベルAPIのアプデまとめ
-	- https://docs.google.com/presentation/d/1i1bUDWXeCYPd6O8pio57ST6AQIuSTWXM3rvvkvrBpBM/edit#slide=id.p
-	- 大変だー
--  Prompt Engineering a Prompt Engineer
-	- https://huggingfac
+- Boosting RAG: Picking the Best Embedding & Reranker mode
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjAxNjUxNzQsMTg2OTg1ODUsLTE4Mj
-EyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEw
-NTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC
-0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMx
-MjY4MTc4MSwxMzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3MTMyNz
-ExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEwMzYwMTYzOSwt
-MTQ0MDgzMTkwXX0=
+eyJoaXN0b3J5IjpbLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMj
+YwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUz
+OTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMT
+E0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC0zMTI2
+ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0MzI1LDE3NzEzMjcxMT
+gsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMDM2MDE2MzksLTE0
+NDA4MzE5MF19
 -->
