@@ -59,6 +59,7 @@
 	- LISA algorithm in two lines: 
 		- always activate embedding and linear head layer 
 		- randomly sample intermediate layers to unfreeze
+	- おかのはら
 - DBRXまとめ
 	- https://x.com/webbigdata/status/1772981844839207206?s=20
 	- ・Databricks社が新たに公開したオープンなMoEモデル 
@@ -82,6 +83,10 @@
 - Masked Autoencoders are PDE Learners
 	- https://arxiv.org/abs/2403.17728
 	- Masked autoencoders can learn useful latent representations for PDEs through self-supervised pretraining on unlabeled spatiotemporal data. This allows them to improve
+- 4-bit quantized DBRX runs nicely in MLX on an M2 Ultra
+	- https://github.com/ml-explore/mlx-examples/pull/628
+- 国・地方共通相談チャットボット「Govbot（ガボット）」があまりにひどいと、、
+	- https://x.com/HiromitsuTakagi/status/1772918656210743594?s=20
 - 
 
 ## 3/25
@@ -3845,17 +3850,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.youtube.com/watch?v=Ft0gTO2K85A
 - 大規模言語モデルのFine-tuningによるドメイン知識獲得の検討
 	- https://tech.preferred.jp/ja/blog/llm-fine-tuning-for-domain-knowledge/
-	- 英語で主に学習されたLLaMA2に対して日本語データを用いたInstruciton Tuningや追加事前学習がどの程度可能かの検証
-	- 不可思議な結果が出がちなので、いろんな設定で試さないといけないことがわかった
-- LangChainから、Query Construction Guide、text-to-SQL+semantic最強節
-	- https://blog.langchain.dev/query-construction/
-	- 1. Structure+unstru
+	- 英語で主に学習されたLLaMA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQyNDkyNTMsLTIwMDA4Njk2MTEsMj
-EwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMw
-MzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5Nj
-MyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIx
-MTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMD
-gxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAs
-LTIwNTE2NTEyMjJdfQ==
+eyJoaXN0b3J5IjpbMTYyNDM5MTc0NywtMjAwMDg2OTYxMSwyMT
+A5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAz
+MjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2Mz
+IsLTE3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjEx
+MTM3NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwOD
+EwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwt
+MjA1MTY1MTIyMl19
 -->
