@@ -103,6 +103,10 @@
 - Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
 	- https://speakerdeck.com/shunk031/stable-diffusion-3
 	- Stable Diffusion 3 の元論文を読みました！拡散モデルから Flow ベースモデル (Rectified Flow)、UNet から DiT へ切り替え、CLIP x 2 と T5-XXL を使ったてんこ盛りモデルで、生成画像の品質・プロンプトに対する生成画像の忠実性・文字の描画性能が飛躍的に向上しています
+-  Perplexityをもとに､複数の大規模言語モデルを切り替えて推論するシステムの簡単なコード実装
+	- https://note.com/kan_hatakeyama/n/nb5625d6411a8?sub_rt=share_pw
+	- モデルの事前訓練をする余裕がないので、今回は試しに、英語が得意なLLama2-7bと、日本語でファインチューニングしたElyza-7bを統合（merge）したシステムを作ってみようと思います。
+	- 英語の質問にはllama、日本語の質問にはelyzaで答えることができればコンセプト実証に成功です。
 - 
 
 ## 3/25
@@ -3832,21 +3836,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- llamacppをつかって8GB RAM MacBook Airで動くんだとさ
 - LLMって結局何かをシンプルに説明する
 	- https://x.com/davidad/status/1723990400682148124?s=20
-	- ディープ ニューラル ネットワークは、各層間に要素ごとの非線形性を持つ線形回帰のサンドイッチ構造です。LLM/GPT の爆発的な増加に直接つながった「Attending is All You Need」の核となる貢献、そこに *ロジスティック* 回帰を非線形層に投げ込むことですまた、ドロップアウトについては@geoffreyhinton 、活性化正規化については@ChrSzegedy 、および勾配正規化については@dpkingmaによるものです (Adam)。
-- ローカルLLMを動かすPCを自作
-	- https://note.com/ai_meg/n/n8855a8dd4bbd?sub_rt=share_pb
-	- マザーボード：Asrok　B760 PRO RS/DS  
-	- CPU：i5-13400F  
-	- GPU:PALIT　GFORCE-RTX4060ti-16G
-- RETOOLのState of AIレポート
-	- https://retool.com/reports/state-of-ai-2023
-	- 66% of companies h
+	- ディープ ニューラル ネットワークは、各層間に要素ごとの非線形性を持つ線形回帰のサンドイッチ構造です。LLM/GPT の爆発的な増加に直接つながった「Attending is All You Need」の核となる貢献、そこに *ロジスティック* 回帰を非線形層に投げ込むことですまた、ドロップアウトについては@geoffreyhinton 、活性化正規化については@ChrSzegedy 、および勾配正規化については@dpkingm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMj
-EwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMw
-MzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5Nj
-MyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIx
-MTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMD
-gxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAs
-LTIwNTE2NTEyMjJdfQ==
+eyJoaXN0b3J5IjpbLTExMzQ0MTg1MjIsLTE4MjEyNjAxNjUsLT
+IwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5
+NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5OD
+gxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwx
+MzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNj
+AwNzc2LDE3MzYyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkw
+LC01NTc5MDU4MDBdfQ==
 -->
