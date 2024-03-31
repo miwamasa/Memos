@@ -101,7 +101,9 @@
 	- https://x.com/imos/status/1773254326003139023?s=20
 	- ほにゃらら回路で自動化するみたいななんちゃってプログラミングではなく、ちゃんとした構造を持つプログラミングができる珍しい(?)ゲームなので、特にエンジニアの方にはオススメしたいです。是非買ってプレイしてください！
 - Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
-	- 
+	- https://speakerdeck.com/shunk031/stable-diffusion-3
+	- Stable Diffusion 3 の元論文を読みました！拡散モデルから Flow ベースモデル (Rectified Flow)、UNet から DiT へ切り替え、CLIP x 2 と T5-XXL を使ったてんこ盛りモデルで、生成画像の品質・プロンプトに対する生成画像の忠実性・文字の描画性能が飛躍的に向上しています
+- 
 
 ## 3/25
 
@@ -3838,18 +3840,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- GPU:PALIT　GFORCE-RTX4060ti-16G
 - RETOOLのState of AIレポート
 	- https://retool.com/reports/state-of-ai-2023
-	- 66% of companies have at least one AI use case live
-	- Accuracy is #1 concern
-	- RAG is 2nd most popular use case (1st is code)
-	- @llama_index is one of the leading frameworks for enterprises 
-- OpenGPTはどんどん進化する
-	- https://github.com/lan
+	- 66% of companies h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDQ3NDY2MSwtMjAwMDg2OTYxMSwyMT
-A5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAz
-MjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2Mz
-IsLTE3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjEx
-MTM3NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwOD
-EwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwt
-MjA1MTY1MTIyMl19
+eyJoaXN0b3J5IjpbLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMj
+EwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMw
+MzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5Nj
+MyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIx
+MTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMD
+gxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAs
+LTIwNTE2NTEyMjJdfQ==
 -->
