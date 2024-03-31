@@ -125,6 +125,10 @@
 	- 1000件の論文のデータを言語モデルにより抽出し知識グラフに変換、グラフ解析によりバイオ材料とベートーベンの第 9 交響曲の構造的類似点など分野を超えた関係性を明らかにできたそうです。
 - Transformerのスケーリング則は線形じゃなくてべき乗則だから、トレーニングの計算量を10倍にしてもLossは12%しか減らない（性能が10倍になるわけじゃない）
 	- https://x.com/umiyuki_ai/status/1773917004464103563?s=20
+- a small-scale preview of Voice Engine
+	- https://x.com/OpenAI/status/1773760852153299024?s=20
+- OpenAIとMicrosoftが最大1000億ドルを投じて「Stargate」というスーパーコンピューターを2028年までに建設予定。AI開発加速のため、数100万のAI専用チップを搭載。
+	- https://qz.com/microsoft-openai-stargate-supercomputer-1851375309
 - 
 
 ## 3/25
@@ -3831,18 +3835,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://docs.google.com/presentation/d/1i1bUDWXeCYPd6O8pio57ST6AQIuSTWXM3rvvkvrBpBM/edit#slide=id.p
 	- 大変だー
 -  Prompt Engineering a Prompt Engineer
-	- https://huggingface.co/papers/2311.05661
-	- プロンプトエンジニアを作るメタなプロンプトを作るという話、LLMってメタ能力があるので、こういう試みが可能。CoT越えというのは本当か？
-- ユーザープロンプトをLLMが言い換えて、LLM自身が理解しやすくする手法『RaR』
-	- https://aiboom.net/archives/51160
-	- 例えば「GPT-4で言い換えてGPT-3.5で入力する」も有効とのことです。 実行テンプレートや性能等を詳しく紹介する記事を公開しました
--  Language Mod
+	- https://huggingfac
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzA1Njg0NSwxODY5ODU4NSwtMTgyMT
-I2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1
-MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLT
-ExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3NzczMzYwMywtMzEy
-NjgxNzgxLDEzMjU3NDIyODEsMjExMTM3NDMyNSwxNzcxMzI3MT
-E4LC01NDA2MDA3NzYsMTczNjIwODEwOSwyMTAzNjAxNjM5LC0x
-NDQwODMxOTBdfQ==
+eyJoaXN0b3J5IjpbLTIxMjAxNjUxNzQsMTg2OTg1ODUsLTE4Mj
+EyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEw
+NTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC
+0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMx
+MjY4MTc4MSwxMzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3MTMyNz
+ExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEwMzYwMTYzOSwt
+MTQ0MDgzMTkwXX0=
 -->
