@@ -50,7 +50,10 @@
 	- Its inference is up to 2x faster than LLaMA2-70B and is about 40% of the size of Grok-1 in terms of both total and active parameter counts.
 	- While DBRX is trained as a general-purpose LLM, it still surpasses CodeLLaMa-70 Instruct, a model built explicitly for code generation.
 - DBRX is super cool, but research and reading too! Especially if you can combine RAG + COT.
-	- 
+	- https://x.com/_philschmid/status/1773024623589736949?s=20
+- we're connecting Adobe Experience Cloud with Microsoft Copilot to reimagine how marketers approach their daily work
+	- https://x.com/satyanadella/status/1773063169138671984?s=20
+- 
 
 ## 3/25
 
@@ -3848,17 +3851,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/nike_cha_n/n/n65a6101d59d7
 	- ちゃんと計算しないとあっという間に上限に達するかも、
 - Knowledge-Augmented Large Language Models for Personalized Contextual Query Suggestion
-	- https://arxiv.org/abs/2311.06318
-	- MSより
-	- Microsoft Research presents a method to personalize LLMs for search via entity-based user knowledge stores derived from logs.
-- Yahoo知恵袋、GPT-4を用いた、自動回答をテスト中
-	- https://chiebukuro.yahoo.co.jp/topi
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjM1NzY4LC0yMDAwODY5NjExLDIxMD
-k4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMy
-NjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMi
-wtMTc3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTEx
-Mzc0MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MT
-A5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0y
-MDUxNjUxMjIyXX0=
+eyJoaXN0b3J5IjpbLTEzNjcxNzY3NzMsLTIwMDA4Njk2MTEsMj
+EwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMw
+MzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5Nj
+MyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIx
+MTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMD
+gxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAs
+LTIwNTE2NTEyMjJdfQ==
 -->
