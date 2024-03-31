@@ -135,7 +135,10 @@
 	- 日本語RAGにおける新たな埋め込みのスタンダードモデルになるかもしれないなと思い、このモデルを使った検索を試してみました。
 	- LangChainには`HuggingFaceBgeEmbeddings`というBAAIのBGE系埋め込みモデルを利用するための専用クラスた用意されており、そちらを利用します。
 	- RAGの性能を高める上で埋め込みに関する工夫は重要であり、今後もこういった高性能なモデルが公開されていくと（素人的に使う側にとっては）ありがたいですね。
-- 
+-  NTTが独自LLMのtsuzumiを提供開始、日本語性能で「GPT-3.5超え」
+	- https://xtech.nikkei.com/atcl/nxt/news/24/00458/
+	- NTTは2024年3月25日、独自LLM（大規模言語モデル）である「tsuzumi」のサービス提供を始めた
+	- tsuzumiは日本語と英語に対応し、パラメーター数は70億とOpenAIの「GPT-3」の1750億と比べて25分の1と軽量だ。LLMの日本語処理性能に関するベンチマークテスト「Rakuda Benchmark」の結果では、GPT-3.5や同規模の国産LLMを上回ったという。tsuzumiは言語に加え、図表や画像の解析などにも対応する。
 
 ## 3/25
 
@@ -3828,19 +3831,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 「text-to-SQL と semantic search のジョイント」なんかは興味深い
 - 日本の女性が先進国の中で長命なのは、社会進出が進まなかったから？
 	- 旭リサーチ
-	- https://arc.asahi-kasei.co.jp/report/arc_report/pdf/rs-824.pdf
-	- 「先進国の中では女性の社会進出が進まなかったことが、 世界一の女性長寿に結びついたと思われる。」 
-	- 「均等法は女性の平均寿命を短縮させる要因である。」
-- gpt-3.5-turbo-1106を使った、新しいOpenAIのファインチューニング
-	- https://x.com/matsu_vr/status/1723688378795958670?s=20
-	- でお嬢様チューニングしてみました。200例の会話で十分お嬢様になった！
-- Boosting RAG: Picking the Best Embedding & Reranker mode
+	- https://arc.asahi-kasei
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMj
-YwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUz
-OTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMT
-E0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC0zMTI2
-ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0MzI1LDE3NzEzMjcxMT
-gsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMDM2MDE2MzksLTE0
-NDA4MzE5MF19
+eyJoaXN0b3J5IjpbLTIwMzY3ODkyMCwtNzA4MzQxNzksMTg2OT
+g1ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4
+MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsOD
+E5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3
+MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIxMTEzNzQzMj
+UsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEw
+MzYwMTYzOV19
 -->
