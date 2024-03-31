@@ -96,7 +96,12 @@
 	- それ、GovBotはAIではないので学習と呼ぶのは異常だし、ここで人間が学習するなんて話をするのは滑稽と言う他ないですね
 - DBRXは試せる模様
 	- https://huggingface.co/spaces/databricks/dbrx-instruct
-- 
+	- 「風の谷のナウシカ」は、宮崎駿監督による日本のアニメ映画です。ナウシカは、風の谷の王女であり、森と深い関係性を持っています。森の人は、森に住む原始的な部族のことです。ナウシカは、森とその住人を尊重し、森と共存することを望んでいます。彼女は、森とその住人が持つ力を理解しており、それを使って、風の谷と森の間の紛争を解決しようとします。しかし、森の人は、風の谷や他の王国との関係性について、より懐疑的であり、ナウシカの考えに反対することもあります。
+- PFN初のゲーム『Omega Crafter』
+	- https://x.com/imos/status/1773254326003139023?s=20
+	- ほにゃらら回路で自動化するみたいななんちゃってプログラミングではなく、ちゃんとした構造を持つプログラミングができる珍しい(?)ゲームなので、特にエンジニアの方にはオススメしたいです。是非買ってプレイしてください！
+- Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
+	- 
 
 ## 3/25
 
@@ -3838,20 +3843,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- RAG is 2nd most popular use case (1st is code)
 	- @llama_index is one of the leading frameworks for enterprises 
 - OpenGPTはどんどん進化する
-	- https://github.com/langchain-ai/opengpts
--  The Alignment Handbook
-	- https://github.com/huggingface/alignment-handbook
-	- Robust recipes to align language models with human and AI preferences
-- EditGPT
-	- https://chat.openai.com/g/g-zpuYfzV7k-editgpt
-	- Grammeryのような機能を持つGPTsが、、
-- 岡野原さんの、「拡散モデル」が今年度の大川出版賞に選出
-	- https://hillbig.github.io/diffusion-models/
-	- http://www.okawa-foundation.or.jp/activities/publications_prize/list.html
-- これは衝撃!1.5Bで超高性能LLM!RWKV-5-World-v2 by shi3zさん
-	- https://note.com/shi3zblog/n
+	- https://github.com/lan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzYzNTgzNSwtMjAwMDg2OTYxMSwyMT
+eyJoaXN0b3J5IjpbMTE4MDQ3NDY2MSwtMjAwMDg2OTYxMSwyMT
 A5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAz
 MjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2Mz
 IsLTE3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjEx
