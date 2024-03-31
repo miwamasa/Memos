@@ -91,7 +91,7 @@
 	- https://arxiv.org/abs/2403.18802
 	- Proposes that LLM agents can be used as automated evaluators for longform factuality
 	- Shows that **LLM agents can achieve superhuman rating performance**
-- 
+- GovBot担当者はな
 
 ## 3/25
 
@@ -3848,13 +3848,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- まだ生きてたのか、RWKV
 - The Impact of Large Language Models on Scientific Discovery: a Preliminary Study using GPT-4
 	- https://arxiv.org/abs/2311.07361
-	- Evaluates GPT-4’s knowledge base, scientific understandin
+	- Evaluates GPT-4’s knowledge base, scientific u
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDkxOTUxNSwtMjAwMDg2OTYxMSwyMT
-A5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAz
-MjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2Mz
-IsLTE3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjEx
-MTM3NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwOD
-EwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwt
-MjA1MTY1MTIyMl19
+eyJoaXN0b3J5IjpbLTEzMTkxMTI0OTYsLTIwMDA4Njk2MTEsMj
+EwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMw
+MzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5Nj
+MyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIx
+MTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMD
+gxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAs
+LTIwNTE2NTEyMjJdfQ==
 -->
