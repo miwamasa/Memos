@@ -139,6 +139,7 @@
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00458/
 	- NTTは2024年3月25日、独自LLM（大規模言語モデル）である「tsuzumi」のサービス提供を始めた
 	- tsuzumiは日本語と英語に対応し、パラメーター数は70億とOpenAIの「GPT-3」の1750億と比べて25分の1と軽量だ。LLMの日本語処理性能に関するベンチマークテスト「Rakuda Benchmark」の結果では、GPT-3.5や同規模の国産LLMを上回ったという。tsuzumiは言語に加え、図表や画像の解析などにも対応する。
+	- うみゆきさん、LLMの学習コスト感ってよく知らんけど、Tsuzumiの資料によればAWSで7Bモデルを300Bトークン学習させると1900万円かかるらしい。300Bじゃ少ないから1.2Tくらいは学習させたいよね。そしたら7600万円か。
 
 ## 3/25
 
@@ -3827,17 +3828,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - LlamaIndex によるOpenAIの新機能を使用・理解するためのガイド by npakaさん
 	- https://note.com/npaka/n/n728fdb8f76da?sub_rt=share_sb
 	- Parallel Function Calling、Assistant API Agent、Function Callingによる高度なRAG、マルチモーダルRAG
-	- GPT Builder、プロンプトを自動性生成することで、GPTを生成するmetaなツール
-	- 「text-to-SQL と semantic search のジョイント」なんかは興味深い
-- 日本の女性が先進国の中で長命なのは、社会進出が進まなかったから？
-	- 旭リサーチ
-	- https://arc.asahi-kasei
+	- GPT Builder、プロンプトを自動性生成することで、GPTを生成するmetaなツー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY3ODkyMCwtNzA4MzQxNzksMTg2OT
-g1ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4
-MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsOD
-E5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3
-MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIxMTEzNzQzMj
-UsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEw
-MzYwMTYzOV19
+eyJoaXN0b3J5IjpbLTIwMjI4MzkwOTYsLTcwODM0MTc5LDE4Nj
+k4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3
+ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LD
+gxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3
+NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0Mz
+I1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIx
+MDM2MDE2MzldfQ==
 -->
