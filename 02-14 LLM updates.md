@@ -8,9 +8,9 @@
 Rakuten AI 7BはフランスのAI（人工知能）スタートアップMistral AIのオープンモデル「Mistral-7B-v0.1」
 
 
-Google研究者らによって提案された「CRAG(Corrective Retrieval Augmented Generation)」は、従来の検索拡張生成(RAG)手法を改良したものです。CRAGでは、RAGシステムで取得したドキュメントをLLMに渡す前に、そのドキュメントの内容が正しいかどうかを自動でチェックする機能を備えています。これにより、LLMのハルシネーション(幻覚)を抑制し、出力の信頼性を高めることができます。
+Googleの「CRAG(Corrective Retrieval Augmented Generation)」、従来の検索拡張生成(RAG)手法を改良したものです。CRAGでは、RAGシステムで取得したドキュメントをLLMに渡す前に、そのドキュメントの内容が正しいかどうかを自動でチェックする機能を備えています。これにより、LLMのハルシネーション(幻覚)を抑制し、出力の信頼性を高めることができます。
 
-国産LLMでは、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は注目を集めています。tsuzumiは日本語と英語に対応する70億パラメータのLLMで、LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能を示しました。また、言語処理に加えて図表や画像の解析にも対応するなど、多様な用途が期待されています。
+国産LLMでは、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」はは日本語と英語に対応する70億パラメータのLLMで、LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、生成AIのビジネス応用元年になるのか。
 
 さらに、Databricksから公開された「DBRX」は、132億パラメータを持つ大規模なMoE(Mixture of Experts)モデルで、既存のオープンソースモデルを上回る性能を発揮しています。DBRXは12TトークンのテキストデータとコードデータでFine-tuningが行われ、高い汎用性と優れたコード生成能力を備えています。また、LLaMA2-70Bよりも高速な推論が可能で、Grok-1よりもコンパクトなモデルサイズながら高い性能を実現しています。
 
@@ -3837,7 +3837,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Pedro Cuencaさんは現地時間2023年08月08日、Apple Silicon MacなどAppleデバイス上で大規模言語モデル(LLM)を実行するためのSwiftパッケージとDemoアプリを公開
 	- SwiftでTransformersライクなAPIを実装するために開発したSwiftパッケージ”swift-transformers”と、Demoアプリ”swift-chat”、加えてTransform々氏、NTT武蔵野通研で開
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjIzODA5MiwtNjc1OTAzMDk3LDc4Nz
+eyJoaXN0b3J5IjpbMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4Nz
 g0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAxNjUs
 LTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMD
 M5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5
