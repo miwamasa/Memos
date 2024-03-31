@@ -87,7 +87,8 @@
 	- https://github.com/ml-explore/mlx-examples/pull/628
 - 国・地方共通相談チャットボット「Govbot（ガボット）」があまりにひどいと、、
 	- https://x.com/HiromitsuTakagi/status/1772918656210743594?s=20
-- 
+- Google presents Long-form factuality in large language models
+	- 
 
 ## 3/25
 
@@ -3846,15 +3847,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2311.07361
 	- Evaluates GPT-4’s knowledge base, scientific understanding, scientific numerical calculation abilities, and various scientific prediction capabilitie
 	- MSからの論文、製薬とかの話が多いが、なんかつまらん
-- Open AI主任科学者のIlya Sutskever氏は昨日のインタビューにて、AGIにたどり着くためにはTransformerアーキテクチャ＋αで「明らかに」問題ないと
-	- https://www.youtube.com/watch?v=Ft0gTO2K85A
--
+- Open AI主任科学者のIlya Sutskever氏は昨日のインタビューにて、AGIにたどり着くためにはTransformerアーキテク
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDE3NTY2OSwtMjAwMDg2OTYxMSwyMT
-A5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAz
-MjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2Mz
-IsLTE3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjEx
-MTM3NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwOD
-EwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwt
-MjA1MTY1MTIyMl19
+eyJoaXN0b3J5IjpbMzM2ODY0MzAzLC0yMDAwODY5NjExLDIxMD
+k4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMy
+NjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMi
+wtMTc3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTEx
+Mzc0MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MT
+A5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0y
+MDUxNjUxMjIyXX0=
 -->
