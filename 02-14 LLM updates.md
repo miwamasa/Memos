@@ -91,7 +91,12 @@
 	- https://arxiv.org/abs/2403.18802
 	- Proposes that LLM agents can be used as automated evaluators for longform factuality
 	- Shows that **LLM agents can achieve superhuman rating performance**
-- GovBot担当者はな
+- GovBot担当者はなにも理解してないとの疑惑が、、by ひろみちゅ先生
+	- https://x.com/HiromitsuTakagi/status/1773148382820778280?s=20
+	- それ、GovBotはAIではないので学習と呼ぶのは異常だし、ここで人間が学習するなんて話をするのは滑稽と言う他ないですね
+- DBRXは試せる模様
+	- https://huggingface.co/spaces/databricks/dbrx-instruct
+- 
 
 ## 3/25
 
@@ -3844,17 +3849,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://hillbig.github.io/diffusion-models/
 	- http://www.okawa-foundation.or.jp/activities/publications_prize/list.html
 - これは衝撃!1.5Bで超高性能LLM!RWKV-5-World-v2 by shi3zさん
-	- https://note.com/shi3zblog/n/nfc8dd1abf494?sub_rt=share_pb
-	- まだ生きてたのか、RWKV
-- The Impact of Large Language Models on Scientific Discovery: a Preliminary Study using GPT-4
-	- https://arxiv.org/abs/2311.07361
-	- Evaluates GPT-4’s knowledge base, scientific u
+	- https://note.com/shi3zblog/n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTkxMTI0OTYsLTIwMDA4Njk2MTEsMj
-EwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMw
-MzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5Nj
-MyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIx
-MTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMD
-gxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAs
-LTIwNTE2NTEyMjJdfQ==
+eyJoaXN0b3J5IjpbLTEwMzYzNTgzNSwtMjAwMDg2OTYxMSwyMT
+A5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAz
+MjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2Mz
+IsLTE3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjEx
+MTM3NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwOD
+EwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwt
+MjA1MTY1MTIyMl19
 -->
