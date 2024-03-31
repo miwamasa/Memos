@@ -11,6 +11,11 @@
 	- https://tais2024.cc/ja-jp/
 	- AI Safety，AI Alignment，特異学習理論，自由エネルギー原理，AIの自律性（エージェント性）等々のトークとポスター発表．ほとんど自分が聞きたいテーマだけで構成された魅力的な国際学会
 - 日本語版：AIOS LLM Agent Operating System
+	- https://hamaruki.com/japanese-version-aios-llm-agent-operating-system/
+	- この論文では、LLMをオペレーティングシステム(OS)に組み込んだ「LLMエージェントオペレーティングシステム(AIOS)」を提案しています。 AISOは、エージェントのリソース割り当て最適化、コンテキストスイッチ、並列実行、ツールサービス提供、アクセス制御などの機能を持っています。
+-  RAFT: Adapting Language Model to Domain Specific RAG
+	- https://arxiv.org/abs/2403.10131
+	- RAFT offers a method to fine-tune pre-trained LLMs for specific domain RAG settings.
 	- 
 
 ## 3/25
@@ -3851,18 +3856,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.secondstate.io/articles/fast-llm-inference/
 	- Mac ユーザは見たらとりあえず試して。コマンド４行叩くだけなので！Rust x Wasm で Llama 2 推論がローカルで動きます
 - ELYZA-japanese-CodeLlama-7b-instructのggufフォーマット変換版
-	- https://huggingface.co/mmnga/ELYZA-japanese-CodeLlama-7b-instruct-gguf
-- マイクロソフトは Copilot Studio を発表
-	- Igniteの中で最後に発表、GPTsみたいなものになる
-	- 
-- お茶大、神山先生による、Googleの気象予測の気象学者からの解題
-	- https://x.com/kohyama_met/status/1724986380546408878?s=20
-	- 「AI気象予報論文」の感想を投稿したら思いのほか反響が大きかったので、気象学者かつ情報科学科教員として、いくらか真面目に解説します。
-	- アーキテクチャが従来型モデルの不得手にうまくハマっている
-- Research Assistantのテンプレートが公開される
-	- https://github.com/langchain-ai/langchain/tree/mast
+	- https://huggingface.co/m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1Mzc0MDMwLDIxMDk4NDE3ODAsLTE5NT
+eyJoaXN0b3J5IjpbOTgyMDc0NjMxLDIxMDk4NDE3ODAsLTE5NT
 MxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4
 NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC
 0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0MzI1LDE3NzEz
