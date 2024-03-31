@@ -2,9 +2,25 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 4/1
+
+
+
 Rakuten AI 7BはフランスのAI（人工知能）スタートアップMistral AIのオープンモデル「Mistral-7B-v0.1」
 
-NTTが開発したLLM「tsuzumi」、NTT Comより商用生成AIサービスとして提供開始
+
+Google研究者らによって提案された「CRAG(Corrective Retrieval Augmented Generation)」は、従来の検索拡張生成(RAG)手法を改良したものです。CRAGでは、RAGシステムで取得したドキュメントをLLMに渡す前に、そのドキュメントの内容が正しいかどうかを自動でチェックする機能を備えています。これにより、LLMのハルシネーション(幻覚)を抑制し、出力の信頼性を高めることができます。
+
+国産LLMでは、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は注目を集めています。tsuzumiは日本語と英語に対応する70億パラメータのLLMで、LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能を示しました。また、言語処理に加えて図表や画像の解析にも対応するなど、多様な用途が期待されています。
+
+さらに、Databricksから公開された「DBRX」は、132億パラメータを持つ大規模なMoE(Mixture of Experts)モデルで、既存のオープンソースモデルを上回る性能を発揮しています。DBRXは12TトークンのテキストデータとコードデータでFine-tuningが行われ、高い汎用性と優れたコード生成能力を備えています。また、LLaMA2-70Bよりも高速な推論が可能で、Grok-1よりもコンパクトなモデルサイズながら高い性能を実現しています。
+
+このようなLLMの性能向上と並行して、推論の効率化も進んでいます。Intel Neural Compressorによる4ビット量子化技術の進歩により、LLMの高速推論と効率的な計算資源利用が可能になりつつあります。また、LLMのファインチューニング手法にも注目が集まっており、LoRAに代わる「LISA」が提案されています。LISAはメモリ使用量を大幅に削減しながら、従来手法と同等以上のパフォーマンスを実現できるとされ、効率的な学習が可能になると期待されています。
+
+LLMの応用範囲も拡大しつつあり、AdobeとMicrosoftがマーケティング業務へのLLMの導入を発表するなど、実用化が進んでいます。科学分野でも、LLMを活用した知識抽出や分野横断的な関係性発見に向けた研究が行われており、革新的な発見への期待が高まっています。さらに、OpenAIが「Voice Engine」の商標を出願するなど、音声分野への展開の動きもあります。
+
+加えて、Microsoftの取り組みからは、2028年までに数百万のAI専用チップを搭載した「Stargate」と呼ばれるスーパーコンピューターの建設計画が明らかになるなど、LLMの発展を加速させるための大規模な計算リソースの投資が行われることが示されています。
+
+このように、LLMをめぐる技術的な進展は多岐にわたり、性能と効率の両面で飛躍的な改善が図られています。今後もLLMの革新的な発展が続き、さまざまな分野で新たな可能性を切り拓くことが期待されています。
 
 - RAGの新しい手法「CRAG」を3分で理解する
 	- https://zenn.dev/knowledgesense/articles/bb5e15abb3c547
@@ -3819,23 +3835,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://github.com/huggingface/swift-chat
 	- Llama 2 7B chat, running 100% private on Mac, powered by CoreML!
 	- Pedro Cuencaさんは現地時間2023年08月08日、Apple Silicon MacなどAppleデバイス上で大規模言語モデル(LLM)を実行するためのSwiftパッケージとDemoアプリを公開
-	- SwiftでTransformersライクなAPIを実装するために開発したSwiftパッケージ”swift-transformers”と、Demoアプリ”swift-chat”、加えてTransformersモデルをCoreMLへ変換するコンバーター”transformers-to-coreml”で、
-	- CoreMLが役に立ったと、、
-- OECD、生成AIや基盤モデルを考慮しつつAIの定義を改定、
-	- https://www.euractiv.com/section/artificial-intelligence/news/oecd-updates-definition-of-artificial-intelligence-to-inform-eus-ai-act/
-	- 欧州AI法などの他の規制との整合性も考慮したアライメントととった
-	- 目標を人間が定義する必要があるという事実への言及を削除、
-	- 「出力の生成方法を推測する」という文言も、AI モデルが環境から入力を受け取り、1 つ以上のアルゴリズムを通じて適切な出力を思いつくときを説明するために導入
-
-## 11/20
-
-今週は、OpenAIのCEOアルトマン氏の電撃解任が全てを持って行った。先週OpenAI dev dayで雄姿を、そして人類の未来を垣間見たのに。。ボードから復帰の要請もあるというし、まだまだ現在進行形。さて、RAGもembeddingをつかった類似検索よりも構造を加味した検索とか、多様性をもつ検索結果の利用とか、だんだん、推薦技術などで確立されたノウハウが活用され始めた。LlamaIndexの新機能、text-to-SQL+semanticってのがいいね。LLMのファインチューニング関係もにぎやか、単に論理ソルバーを外部にもってて、自然言語からソルバーに渡す論理式を生成するよりも、ソルバーのログをそのままファインチューニングに使って、解く行為そのものを模擬するというLoGiPTとか、結晶構造をシンプルなテキストで表現しLLaMA-2をファインチューニングして、VAEを上回ったという事例とかがある。そもそもですわね、新しいOpenAIのファインチューニング、200個程度のデータでも、お嬢様LLMぐらいはできるみたいでございますです。LLMはそのメタな能力も重要な要素。プロンプトエンジニアを作るメタなプロンプトをつくったり、ユーザーのプロンプトをLLMが理解やすいように書き換えるプロンプトとか、こっち方面のメタな世界もいい感じで発展している。（ちょっと視点を変えた）ファインチューニングとLLMのメタ能力を利用するのがLLM活用の次のステージか。create-llamaとか、OpenGPTとか、LLMA Factoryと、自動的にアプリを作る仕組みがたくさん出てきた。 わずか1分で10日間の天気を予測可能なAI「GraphCast」、お茶の水大学の神山先生の解説が、従来の手法が不得意なところにGraph transformerがぴったり合ったというところが腹落ちします。Microsoftの発表したCopilot、つまりGPTsのＭＳ版。こういう世界観になるよな。早速OpenCopilotとか、WebCoPilotとか、あっというまに、似たようなOSSが、、、。Yahoo知恵袋、ついにGPT-4をつかった自動回答をテスト中。人の衆知はChatGPTに敗れたのか。。ＭＣ業の紗々氏、NTT武蔵野通研で開催された
+	- SwiftでTransformersライクなAPIを実装するために開発したSwiftパッケージ”swift-transformers”と、Demoアプリ”swift-chat”、加えてTransform々氏、NTT武蔵野通研で開
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwOD
-M0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5NjEx
-LDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNj
-IzMDMyNjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2
-OTYzMiwtMTc3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MS
-wyMTExMzc0MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2
-MjA4MTA5XX0=
+eyJoaXN0b3J5IjpbMTE3MjIzODA5MiwtNjc1OTAzMDk3LDc4Nz
+g0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAxNjUs
+LTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMD
+M5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5
+ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MS
+wxMzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3MTMyNzExOCwtNTQw
+NjAwNzc2XX0=
 -->
