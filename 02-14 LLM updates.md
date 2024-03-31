@@ -5,6 +5,12 @@
 
 - RAGの新しい手法「CRAG」を3分で理解する
 	- https://zenn.dev/knowledgesense/articles/bb5e15abb3c547
+	- 「Corrective Retrieval Augmented Generation (CRAG)」
+	- RAGの性能を高めるための新しい手法です。Googleなどの研究者によって2024年2月に提案されました。CRAG（日本語にすると「修正型検索拡張生成」）という手法を使うメリットは、ハルシネーション（幻覚）を減らせることです。CRAGが従来の「RAG」よりもハルシネーションを減らせる理由は、RAGシステムで取得してきたドキュメントをLLMに渡す前に、「そのドキュメントの内容が正しいものなのか」自動でチェックするという機能を取り入れているからです。
+-  AIセーフティ技術学会
+	- https://tais2024.cc/ja-jp/
+	- AI Safety，AI Alignment，特異学習理論，自由エネルギー原理，AIの自律性（エージェント性）等々のトークとポスター発表．ほとんど自分が聞きたいテーマだけで構成された魅力的な国際学会
+- 日本語版：AIOS LLM Agent Operating System
 	- 
 
 ## 3/25
@@ -3854,23 +3860,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 「AI気象予報論文」の感想を投稿したら思いのほか反響が大きかったので、気象学者かつ情報科学科教員として、いくらか真面目に解説します。
 	- アーキテクチャが従来型モデルの不得手にうまくハマっている
 - Research Assistantのテンプレートが公開される
-	- https://github.com/langchain-ai/langchain/tree/master/templates/research-assistant
-	- With this template you can easily plug in an arbitrary retriever, allowing you to do research over a knowledge base of your choice.
-- 東大 松尾研のPRML（パターン認識と機械学習）輪読会スライド集
-	- https://www.slideshare.net/matsuolab/
-	- 黄色い本はやっぱり、聖典
-- OpenCopilot
-	- https://github.com/openchatai/OpenCopilot
-- tldrawが洒落にならないぐらい優れている
-	- https://makereal.tldraw.com/
-	- ラフなUIの図解や説明をつくるだけで、GPT-4Vで認識して良い感じに仕様を解釈して実際に動くモックアップを作ってくれる
-- 紗々氏、NTT武蔵野通研で開催されたR&Dフォーラムで、A
+	- https://github.com/langchain-ai/langchain/tree/mast
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI3OTg0NDgsMjEwOTg0MTc4MCwtMT
-k1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5Mjcz
-MTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MD
-MsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3
-MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEwMzYwMT
-YzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAsLTIwNTE2NTEyMjIs
-NzkzMTQyNjRdfQ==
+eyJoaXN0b3J5IjpbMjY1Mzc0MDMwLDIxMDk4NDE3ODAsLTE5NT
+MxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4
+NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC
+0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0MzI1LDE3NzEz
+MjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMDM2MDE2Mz
+ksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5
+MzE0MjY0XX0=
 -->
