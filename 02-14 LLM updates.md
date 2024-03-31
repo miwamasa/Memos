@@ -43,7 +43,9 @@
 	- 70B tuning on 4x80GB GPUs
 - Databrixからdbrx-base
 	- https://huggingface.co/databricks/dbrx-base
-	- fine-grained mixture-of-experts (MoE) with 132B of which 36B active a larger number of smaller experts. DBRX has 16 experts and chooses 4 It was pre-trained on 12T tokens of text and code data
+	- fine-grained mixture-of-experts (MoE) with 132B of which 36B active 
+	- a larger number of smaller experts. DBRX has 16 experts and chooses 4 
+	- It was pre-trained on 12T tokens of text and code data
 
 ## 3/25
 
@@ -3856,13 +3858,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2311.05332
 	- 視覚を手にしたLLMが自動運転にどれほど役立つのかを探るため、GPT-4Vの能力が検証されました。 
 	- さまざまなタスクで実験したところ、「因果関係の推論」や「シーン（景色）の理解」に長けていると結論づけられました。
-- うるさいやつ、技術を理解しないと、ビジネス展開の
+- うるさいやつ、技術を理解しないと
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDY4MTU1NywyMTA5ODQxNzgwLC0xOT
-UzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMx
-ODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3NzczMzYwMy
-wtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjExMTM3NDMyNSwxNzcx
-MzI3MTE4LC01NDA2MDA3NzYsMTczNjIwODEwOSwyMTAzNjAxNj
-M5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3
-OTMxNDI2NF19
+eyJoaXN0b3J5IjpbLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMT
+k1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5Mjcz
+MTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MD
+MsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3
+MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEwMzYwMT
+YzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAsLTIwNTE2NTEyMjIs
+NzkzMTQyNjRdfQ==
 -->
