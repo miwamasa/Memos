@@ -3,18 +3,8 @@
 
 ## 4/1
 
+Googleの「CRAG(Corrective Retrieval Augmented Generation)」、従来の検索拡張生成(RAG)手法を改良し、RAGシステムで取得したドキュメントをLLMに渡す前に、そのドキュメントの内容が正しいかどうかを自動でチェックする機能つけることでハルシネーションを抑制。国産LLMでは、先週取りこぼした、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は日本語と英語に対応する70億パラメータのLLM。LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、本気度は生成AIのビジネス応用元年になるのか。Databricksから公開された「DBRX」は、132億パラメータを持つ大規模なMoE(Mixture of Experts)モデルで、既存のオープンソースモデルを上回る性能を発揮。LLaMA2-70Bよりも高速な推論が可能で、Grok-1よりもコンパクトなモデルサイズながら高い性能を実現。一方、推論の効率化では、Intel Neural Compressorは4ビット量子化技術で、LLMの高速推論と効率的な計算資源利用が可能に。LoRAに代わる「LISA」が出てきた。LISAはメモリ使用量を大幅に削減しながら、従来手法と同等以上のパフォーマンスを実現できる。OpenAIが「Voice Engine」を限定ユーザーに発表、安全性と性能を鑑みると、オープンソースでLLMというのも、限定されてくるのかもしれない。
 
-
-Rakuten AI 7BはフランスのAI（人工知能）スタートアップMistral AIのオープンモデル「Mistral-7B-v0.1」
-
-
-Googleの「CRAG(Corrective Retrieval Augmented Generation)」、従来の検索拡張生成(RAG)手法を改良し、RAGシステムで取得したドキュメントをLLMに渡す前に、そのドキュメントの内容が正しいかどうかを自動でチェックする機能つけることでハルシネーションを抑制。国産LLMでは、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」はは日本語と英語に対応する70億パラメータのLLMで、LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、生成AIのビジネス応用元年になるのか。Databricksから公開された「DBRX」は、132億パラメータを持つ大規模なMoE(Mixture of Experts)モデルで、既存のオープンソースモデルを上回る性能を発揮。LLaMA2-70Bよりも高速な推論が可能で、Grok-1よりもコンパクトなモデルサイズながら高い性能を実現。一方、推論の効率化では、Intel Neural Compressorは4ビット量子化技術で、LLMの高速推論と効率的な計算資源利用が可能に。LoRAに代わる「LISA」が出てきた。LISAはメモリ使用量を大幅に削減しながら、従来手法と同等以上のパフォーマンスを実現できる。
-
-OpenAIが「Voice Engine」を限定ユーザーに発表、安全性とせいの
-
-加えて、Microsoftの取り組みからは、2028年までに数百万のAI専用チップを搭載した「Stargate」と呼ばれるスーパーコンピューターの建設計画が明らかになるなど、LLMの発展を加速させるための大規模な計算リソースの投資が行われることが示されています。
-
-このように、LLMをめぐる技術的な進展は多岐にわたり、性能と効率の両面で飛躍的な改善が図られています。今後もLLMの革新的な発展が続き、さまざまな分野で新たな可能性を切り拓くことが期待されています。
 
 - RAGの新しい手法「CRAG」を3分で理解する
 	- https://zenn.dev/knowledgesense/articles/bb5e15abb3c547
@@ -3831,7 +3821,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Pedro Cuencaさんは現地時間2023年08月08日、Apple Silicon MacなどAppleデバイス上で大規模言語モデル(LLM)を実行するためのSwiftパッケージとDemoアプリを公開
 	- SwiftでTransformersライクなAPIを実装するために開発したSwiftパッケージ”swift-transformers”と、Demoアプリ”swift-chat”、加えてTransform々氏、NTT武蔵野通研で開
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDMxMjQ2MTksMTM5MDUyNzAzNCwtNj
+eyJoaXN0b3J5IjpbLTE0NDM5MDI0NDEsMTM5MDUyNzAzNCwtNj
 c1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUs
 LTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMT
 k1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5Mjcz
