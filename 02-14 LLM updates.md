@@ -59,7 +59,7 @@
 	- LISA algorithm in two lines: 
 		- always activate embedding and linear head layer 
 		- randomly sample intermediate layers to unfreeze
-	- おかのはら
+	- 岡野原さん、LISAはLLMのファインチューニングの際に、各層を確率的にサンプリングし、選択された層のみ更新する。全パラメータ更新しながらLoRAよりもメモリ使用量、計算量とも効率的に計算できる（通常学習でもできそう）。最初の層と最後の層のみ採択する確率は高くしておく
 - DBRXまとめ
 	- https://x.com/webbigdata/status/1772981844839207206?s=20
 	- ・Databricks社が新たに公開したオープンなMoEモデル 
@@ -3848,11 +3848,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- MSからの論文、製薬とかの話が多いが、なんかつまらん
 - Open AI主任科学者のIlya Sutskever氏は昨日のインタビューにて、AGIにたどり着くためにはTransformerアーキテクチャ＋αで「明らかに」問題ないと
 	- https://www.youtube.com/watch?v=Ft0gTO2K85A
-- 大規模言語モデルのFine-tuningによるドメイン知識獲得の検討
-	- https://tech.preferred.jp/ja/blog/llm-fine-tuning-for-domain-knowledge/
-	- 英語で主に学習されたLLaMA
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDM5MTc0NywtMjAwMDg2OTYxMSwyMT
+eyJoaXN0b3J5IjpbMTExNDE3NTY2OSwtMjAwMDg2OTYxMSwyMT
 A5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAz
 MjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2Mz
 IsLTE3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjEx
