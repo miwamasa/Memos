@@ -107,7 +107,12 @@
 	- https://note.com/kan_hatakeyama/n/nb5625d6411a8?sub_rt=share_pw
 	- モデルの事前訓練をする余裕がないので、今回は試しに、英語が得意なLLama2-7bと、日本語でファインチューニングしたElyza-7bを統合（merge）したシステムを作ってみようと思います。
 	- 英語の質問にはllama、日本語の質問にはelyzaで答えることができればコンセプト実証に成功です。
-- 
+- Generative Flow Networks by Yoshua Bengio
+	- https://mila.quebec/en/article/generative-flow-networks/
+	- https://www.youtube.com/watch?v=ggYoJp0b3Oo
+-  Introducing Jamba: AI21's Groundbreaking SSM-Transformer Model
+	- https://www.ai21.com/blog/announcing-jamba
+	- 
 
 ## 3/25
 
@@ -3835,10 +3840,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/dylfreed/status/1723927399857901724?s=20
 	- llamacppをつかって8GB RAM MacBook Airで動くんだとさ
 - LLMって結局何かをシンプルに説明する
-	- https://x.com/davidad/status/1723990400682148124?s=20
-	- ディープ ニューラル ネットワークは、各層間に要素ごとの非線形性を持つ線形回帰のサンドイッチ構造です。LLM/GPT の爆発的な増加に直接つながった「Attending is All You Need」の核となる貢献、そこに *ロジスティック* 回帰を非線形層に投げ込むことですまた、ドロップアウトについては@geoffreyhinton 、活性化正規化については@ChrSzegedy 、および勾配正規化については@dpkingm
+	- https://x.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ0MTg1MjIsLTE4MjEyNjAxNjUsLT
+eyJoaXN0b3J5IjpbLTEzNzc2MDgxMzksLTE4MjEyNjAxNjUsLT
 IwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5
 NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5OD
 gxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwx
