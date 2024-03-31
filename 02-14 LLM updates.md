@@ -3,7 +3,9 @@
 
 ## 4/1
 
-
+- RAGの新しい手法「CRAG」を3分で理解する
+	- https://zenn.dev/knowledgesense/articles/bb5e15abb3c547
+	- 
 
 ## 3/25
 
@@ -3862,11 +3864,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - tldrawが洒落にならないぐらい優れている
 	- https://makereal.tldraw.com/
 	- ラフなUIの図解や説明をつくるだけで、GPT-4Vで認識して良い感じに仕様を解釈して実際に動くモックアップを作ってくれる
-- 紗々氏、NTT武蔵野通研で開催されたR&Dフォーラムで、AI化される
-	- https://x.com/03sasa03/status/1725479562094755951?s=20
--  OpenAI announces lead
+- 紗々氏、NTT武蔵野通研で開催されたR&Dフォーラムで、A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ4NjA5NzEsMjEwOTg0MTc4MCwtMT
+eyJoaXN0b3J5IjpbLTExNDI3OTg0NDgsMjEwOTg0MTc4MCwtMT
 k1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5Mjcz
 MTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MD
 MsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3
