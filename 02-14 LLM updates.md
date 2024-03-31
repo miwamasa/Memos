@@ -53,7 +53,13 @@
 	- https://x.com/_philschmid/status/1773024623589736949?s=20
 - we're connecting Adobe Experience Cloud with Microsoft Copilot to reimagine how marketers approach their daily work
 	- https://x.com/satyanadella/status/1773063169138671984?s=20
-- 
+-  LISA: Layerwise Importance Sampling for Memory-Efficient Large Language Model Fine-Tuning
+	- https://arxiv.org/abs/2403.17919
+	- LISA algorithm in two lines: 
+		- always activate embedding and linear head layer 
+		- randomly sample intermediate layers to unfreeze
+- DBRXまとめ
+	- 
 
 ## 3/25
 
@@ -3845,19 +3851,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - WebPilot
 	- https://chat.openai.com/g/g-pNWGgUYqS-webpilot
 	- 記事や論文、PDF などの抽出系の便利 GPTs を作ったけれど、すべて WebPilot で十分だった(めこめこさん)
-- beさん、毎日ベルマン方程式を解いて日常を過ごしていると、
-	- https://x.com/behemuhemulove/status/1724408454348194303?s=20
-- 【HELP ME】Assistants APIで破産しそうになった話
-	- https://note.com/nike_cha_n/n/n65a6101d59d7
-	- ちゃんと計算しないとあっという間に上限に達するかも、
-- Knowledge-Augmented Large Language Models for Personalized Contextual Query Suggestion
-	
+- beさん、毎日ベルマン方程式を解いて日常を
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjcxNzY3NzMsLTIwMDA4Njk2MTEsMj
-EwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMw
-MzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5Nj
-MyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIx
-MTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMD
-gxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAs
-LTIwNTE2NTEyMjJdfQ==
+eyJoaXN0b3J5IjpbNzgwMzEwMzcwLC0yMDAwODY5NjExLDIxMD
+k4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMy
+NjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMi
+wtMTc3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTEx
+Mzc0MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MT
+A5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0y
+MDUxNjUxMjIyXX0=
 -->
