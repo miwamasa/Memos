@@ -32,6 +32,7 @@
 - The Unreasonable Ineffectiveness of the Deeper Layers
 	- https://huggingface.co/papers/2403.17887
 	- We empirically study a simple layer-pruning strategy for popular families of open-weight pretrained LLMs, finding minimal degradation of performance on different question-answering benchmarks until after a large fraction
+	- 岡野原さん、学習済みのLLMから、層毎に入力と出力間のcos類似度が大きい層（変化が少ない層）を間引いても精度は落ちない。特に最後の層だけ除いて深い側の層を2~4割間引いても質問応答などの精度は変わらず、知識の大部分が低い層にあることを示唆する。学習手法やモデル設計の参考にも
 	- まあ有名な映画、小説の題名のもじり
 - DeepLearningAIから、新しいRAGのコースが
 	- https://www.deeplearning.ai/short-courses/javascript-rag-web-apps-with-llamaindex/
@@ -78,6 +79,9 @@
 	- https://github.com/intel/neural-compressor
 	- All your need is Intel Neural Compressor (INC) for INT4 LLMs. INC v2.5 released with SOTA INT4 LLM quantization (AutoRound) across platforms incl. Intel Gaudi2, Xeon, and GPU.
 	- Models: Llama2, Mistral, Mixtral-MOE, Gemma, Mistral-v0.2, Phi2, Qwen,
+- Masked Autoencoders are PDE Learners
+	- https://arxiv.org/abs/2403.17728
+	- Masked autoencoders can learn useful latent representations for PDEs through self-supervised pretraining on unlabeled spatiotemporal data. This allows them to improve
 - 
 
 ## 3/25
@@ -3845,17 +3849,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 不可思議な結果が出がちなので、いろんな設定で試さないといけないことがわかった
 - LangChainから、Query Construction Guide、text-to-SQL+semantic最強節
 	- https://blog.langchain.dev/query-construction/
-	- 1. Structure+unstructured data:  Text-to-SQL+semantic (w/ PostgresSQL with the Pgvector 
-	- 2. Unstructured w/ metadata: Text-to-metadata filters (w/ new docs + a template for self-query retriever)
-	- "Text-to-SQL+semantic" is an interesting recent addition to LangChain that extends "Text-to-SQL" w/ semantic queries on an embedding column.
-	- そうか、やっぱり text-to-SQL+semantiが最強なのか
-- 『Chain of Empathy（共感の連鎖
+	- 1. Structure+unstru
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2NDMzNzc5LC0yMDAwODY5NjExLDIxMD
-k4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMy
-NjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMi
-wtMTc3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTEx
-Mzc0MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MT
-A5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0y
-MDUxNjUxMjIyXX0=
+eyJoaXN0b3J5IjpbLTE4OTQyNDkyNTMsLTIwMDA4Njk2MTEsMj
+EwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMw
+MzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5Nj
+MyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIx
+MTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMD
+gxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAs
+LTIwNTE2NTEyMjJdfQ==
 -->
