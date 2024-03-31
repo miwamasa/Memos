@@ -135,12 +135,12 @@
 	- 日本語RAGにおける新たな埋め込みのスタンダードモデルになるかもしれないなと思い、このモデルを使った検索を試してみました。
 	- LangChainには`HuggingFaceBgeEmbeddings`というBAAIのBGE系埋め込みモデルを利用するための専用クラスた用意されており、そちらを利用します。
 	- RAGの性能を高める上で埋め込みに関する工夫は重要であり、今後もこういった高性能なモデルが公開されていくと（素人的に使う側にとっては）ありがたいですね。
--  NTTが独自LLMのtsuzumiを提供開始、日本語性能で「GPT-3.5超え」
+-  NTTが独自LLMのtsuzumiを提供開始、日本語性能で「GPT-3.5超え」(2024年3月25日)
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00458/
 	- NTTは2024年3月25日、独自LLM（大規模言語モデル）である「tsuzumi」のサービス提供を始めた
 	- tsuzumiは日本語と英語に対応し、パラメーター数は70億とOpenAIの「GPT-3」の1750億と比べて25分の1と軽量だ。LLMの日本語処理性能に関するベンチマークテスト「Rakuda Benchmark」の結果では、GPT-3.5や同規模の国産LLMを上回ったという。tsuzumiは言語に加え、図表や画像の解析などにも対応する。
 	- うみゆきさん、LLMの学習コスト感ってよく知らんけど、Tsuzumiの資料によればAWSで7Bモデルを300Bトークン学習させると1900万円かかるらしい。300Bじゃ少ないから1.2Tくらいは学習させたいよね。そしたら7600万円か。
-- 楽天が日本語に最適化したMistralベースのLLMを公開、商用目的で使用可能
+- 楽天が日本語に最適化したMistralベースのLLMを公開、商用目的で使用可能(2023年3月21日)
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00440/
 	- 公開したのは基盤モデルの「Rakuten AI 7B」、同モデルを基にしたインストラクションチューニング済みモデルの「Rakuten AI 7B Instruct」、Rakuten AI 7B Instructを基にファインチューニングしたチャットモデル「Rakuten AI 7B Chat」の3種である。
 	- 文章の要約や質問応答、一般的な文章の理解、対話システムの構築などに商用目的で使用でき、Rakuten AI 7Bは他のモデルの基盤としても使えるという。
@@ -3827,14 +3827,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 今週は、OpenAIのCEOアルトマン氏の電撃解任が全てを持って行った。先週OpenAI dev dayで雄姿を、そして人類の未来を垣間見たのに。。ボードから復帰の要請もあるというし、まだまだ現在進行形。さて、RAGもembeddingをつかった類似検索よりも構造を加味した検索とか、多様性をもつ検索結果の利用とか、だんだん、推薦技術などで確立されたノウハウが活用され始めた。LlamaIndexの新機能、text-to-SQL+semanticってのがいいね。LLMのファインチューニング関係もにぎやか、単に論理ソルバーを外部にもってて、自然言語からソルバーに渡す論理式を生成するよりも、ソルバーのログをそのままファインチューニングに使って、解く行為そのものを模擬するというLoGiPTとか、結晶構造をシンプルなテキストで表現しLLaMA-2をファインチューニングして、VAEを上回ったという事例とかがある。そもそもですわね、新しいOpenAIのファインチューニング、200個程度のデータでも、お嬢様LLMぐらいはできるみたいでございますです。LLMはそのメタな能力も重要な要素。プロンプトエンジニアを作るメタなプロンプトをつくったり、ユーザーのプロンプトをLLMが理解やすいように書き換えるプロンプトとか、こっち方面のメタな世界もいい感じで発展している。（ちょっと視点を変えた）ファインチューニングとLLMのメタ能力を利用するのがLLM活用の次のステージか。create-llamaとか、OpenGPTとか、LLMA Factoryと、自動的にアプリを作る仕組みがたくさん出てきた。 わずか1分で10日間の天気を予測可能なAI「GraphCast」、お茶の水大学の神山先生の解説が、従来の手法が不得意なところにGraph transformerがぴったり合ったというところが腹落ちします。Microsoftの発表したCopilot、つまりGPTsのＭＳ版。こういう世界観になるよな。早速OpenCopilotとか、WebCoPilotとか、あっというまに、似たようなOSSが、、、。Yahoo知恵袋、ついにGPT-4をつかった自動回答をテスト中。人の衆知はChatGPTに敗れたのか。。ＭＣ業の紗々氏、NTT武蔵野通研で開催されたR&Dフォーラムで、AI化される、ＭＣ業もＡＩに代替される？されない？まあ、ChatGPTで仕事がなくなったのは、ChatGPTのCEOも例外ではないというのはブラックジョークかも。
 
 - Adding Structure-Aware Retrieval to GenAI Stack
-	- https://medium.com/@yu-joshua/adding-structure-aware-retrieval-to-genai-stack-373976de14d6
-	- 単なるembeddingをつかった
+	- https://medium.com/@yu-joshua/adding-structure-aware-retrieval-to-genai-stack-373976de1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTAxODY2NCwtNzA4MzQxNzksMTg2OT
-g1ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4
-MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsOD
-E5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3
-MzM2MDMsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIxMTEzNzQzMj
-UsMTc3MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEw
-MzYwMTYzOV19
+eyJoaXN0b3J5IjpbNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5OD
+U4NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgw
+LC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MT
+kyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3Nzcz
+MzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjExMTM3NDMyNS
+wxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwODEwOSwyMTAz
+NjAxNjM5XX0=
 -->
