@@ -112,7 +112,10 @@
 	- https://www.youtube.com/watch?v=ggYoJp0b3Oo
 -  Introducing Jamba: AI21's Groundbreaking SSM-Transformer Model
 	- https://www.ai21.com/blog/announcing-jamba
-	- 
+	- 岡野原さん、JambaはMambaとTransformerをあわせた52B LLM。MoEで有効パラメータは12B、1GPUでコンテキスト長140Kまで扱え、複数GPUでは256Kまで扱える。コンテキストが長くなった時は3倍近いスループット。1/8の割合でTransformerを使う。Mambaを採用したLLMで初めての大きなモデル。
+-   LMFlowによる日本語LISAトレーニング　 by shi3zさん
+	- https://www.free-ai.ltd/post/lmflow-ja-lisa
+	- メモリ消費がLoRAと同等に低く、なおかつパフォーマンスはフルパラメータのファインチューニングに匹敵もしくは上回る効果を持つと言われています。
 
 ## 3/25
 
@@ -3827,26 +3830,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://huggingface.co/papers/2311.06158
 	- 従来SOTAは、solver-augmented language modelsをつかって、自然言語からシンボリックなロジックを取り出して、外部ソルバーで説いていたが、、文法があってないとかそういう下らないエラーに悩まされてきた
 	- LoGiPTは、直接論理的な導出をエミュレートする、既存ソルバーのログをデータセットとして、ファインチューニングした。問題は解決された
-	- https://x.com/IntuitMachine/status/1724104506185580589?s=20
--  JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models
-	- https://arxiv.org/abs/2311.05997
-	- JARVISって確か、アイアンマンのサポートAIの名前では？？
-- 人間の情報処理にとって「ちょうどいい塩梅」の速度を超えとる気がする by 谷チュー
-	- https://x.com/rmaruy/status/1724044250286108818?s=20
-	- Buonomano『脳と時間』によれば、脳には単一のクロックはない（多重時計原理）。が、進化の過程で生物が相手にしてきた時間スケールより大幅に速い情報処理はできないだろう。一方、情報の「量」に関してはまだ工夫できるかもしれない。
-- DPOでcalm2の物語生成能力を向上させる試み、
-	- https://x.com/_oshizo_/status/1724039980463657130?s=20
-- リアルタイムでLLMが文字を生成する様子のデモ、
-	- https://x.com/dylfreed/status/1723927399857901724?s=20
-	- llamacppをつかって8GB RAM MacBook Airで動くんだとさ
-- LLMって結局何かをシンプルに説明する
-	- https://x.
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc2MDgxMzksLTE4MjEyNjAxNjUsLT
-IwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5
-NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5OD
-gxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwx
-MzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNj
-AwNzc2LDE3MzYyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkw
-LC01NTc5MDU4MDBdfQ==
+eyJoaXN0b3J5IjpbOTkzMjAxOTAsLTE4MjEyNjAxNjUsLTIwMD
+A4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5NjEx
+NTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4NTI5ODgxLC
+0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMxMjY4MTc4MSwxMzI1
+NzQyMjgxLDIxMTEzNzQzMjUsMTc3MTMyNzExOCwtNTQwNjAwNz
+c2LDE3MzYyMDgxMDksMjEwMzYwMTYzOSwtMTQ0MDgzMTkwLC01
+NTc5MDU4MDBdfQ==
 -->
