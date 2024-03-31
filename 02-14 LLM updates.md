@@ -2,6 +2,9 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 4/1
+Rakuten AI 7BはフランスのAI（人工知能）スタートアップMistral AIのオープンモデル「Mistral-7B-v0.1」
+
+NTTが開発したLLM「tsuzumi」、NTT Comより商用生成AIサービスとして提供開始
 
 - RAGの新しい手法「CRAG」を3分で理解する
 	- https://zenn.dev/knowledgesense/articles/bb5e15abb3c547
@@ -140,6 +143,8 @@
 	- NTTは2024年3月25日、独自LLM（大規模言語モデル）である「tsuzumi」のサービス提供を始めた
 	- tsuzumiは日本語と英語に対応し、パラメーター数は70億とOpenAIの「GPT-3」の1750億と比べて25分の1と軽量だ。LLMの日本語処理性能に関するベンチマークテスト「Rakuda Benchmark」の結果では、GPT-3.5や同規模の国産LLMを上回ったという。tsuzumiは言語に加え、図表や画像の解析などにも対応する。
 	- うみゆきさん、LLMの学習コスト感ってよく知らんけど、Tsuzumiの資料によればAWSで7Bモデルを300Bトークン学習させると1900万円かかるらしい。300Bじゃ少ないから1.2Tくらいは学習させたいよね。そしたら7600万円か。
+-  NTTが開発したLLM「tsuzumi」、NTT Comより商用生成AIサービスとして提供開始
+	- https://internet.watch.impress.co.jp/docs/news/1578961.html
 - 楽天が日本語に最適化したMistralベースのLLMを公開、商用目的で使用可能(2023年3月21日)
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00440/
 	- 公開したのは基盤モデルの「Rakuten AI 7B」、同モデルを基にしたインストラクションチューニング済みモデルの「Rakuten AI 7B Instruct」、Rakuten AI 7B Instructを基にファインチューニングしたチャットモデル「Rakuten AI 7B Chat」の3種である。
@@ -3824,16 +3829,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 11/20
 
-今週は、OpenAIのCEOアルトマン氏の電撃解任が全てを持って行った。先週OpenAI dev dayで雄姿を、そして人類の未来を垣間見たのに。。ボードから復帰の要請もあるというし、まだまだ現在進行形。さて、RAGもembeddingをつかった類似検索よりも構造を加味した検索とか、多様性をもつ検索結果の利用とか、だんだん、推薦技術などで確立されたノウハウが活用され始めた。LlamaIndexの新機能、text-to-SQL+semanticってのがいいね。LLMのファインチューニング関係もにぎやか、単に論理ソルバーを外部にもってて、自然言語からソルバーに渡す論理式を生成するよりも、ソルバーのログをそのままファインチューニングに使って、解く行為そのものを模擬するというLoGiPTとか、結晶構造をシンプルなテキストで表現しLLaMA-2をファインチューニングして、VAEを上回ったという事例とかがある。そもそもですわね、新しいOpenAIのファインチューニング、200個程度のデータでも、お嬢様LLMぐらいはできるみたいでございますです。LLMはそのメタな能力も重要な要素。プロンプトエンジニアを作るメタなプロンプトをつくったり、ユーザーのプロンプトをLLMが理解やすいように書き換えるプロンプトとか、こっち方面のメタな世界もいい感じで発展している。（ちょっと視点を変えた）ファインチューニングとLLMのメタ能力を利用するのがLLM活用の次のステージか。create-llamaとか、OpenGPTとか、LLMA Factoryと、自動的にアプリを作る仕組みがたくさん出てきた。 わずか1分で10日間の天気を予測可能なAI「GraphCast」、お茶の水大学の神山先生の解説が、従来の手法が不得意なところにGraph transformerがぴったり合ったというところが腹落ちします。Microsoftの発表したCopilot、つまりGPTsのＭＳ版。こういう世界観になるよな。早速OpenCopilotとか、WebCoPilotとか、あっというまに、似たようなOSSが、、、。Yahoo知恵袋、ついにGPT-4をつかった自動回答をテスト中。人の衆知はChatGPTに敗れたのか。。ＭＣ業の紗々氏、NTT武蔵野通研で開催されたR&Dフォーラムで、AI化される、ＭＣ業もＡＩに代替される？されない？まあ、ChatGPTで仕事がなくなったのは、ChatGPTのCEOも例外ではないというのはブラックジョークかも。
-
-- Adding Structure-Aware Retrieval to GenAI Stack
-	- https://medium.com/@yu-joshua/adding-structure-aware-retrieval-to-genai-stack-373976de1
+今週は、OpenAIのCEOアルトマン氏の電撃解任が全てを持って行った。先週OpenAI dev dayで雄姿を、そして人類の未来を垣間見たのに。。ボードから復帰の要請もあるというし、まだまだ現在進行形。さて、RAGもembeddingをつかった類似検索よりも構造を加味した検索とか、多様性をもつ検索結果の利用とか、だんだん、推薦技術などで確立されたノウハウが活用され始めた。LlamaIndexの新機能、text-to-SQL+semanticってのがいいね。LLMのファインチューニング関係もにぎやか、単に論理ソルバーを外部にもってて、自然言語からソルバーに渡す論理式を生成するよりも、ソルバーのログをそのままファインチューニングに使って、解く行為そのものを模擬するというLoGiPTとか、結晶構造をシンプルなテキストで表現しLLaMA-2をファインチューニングして、VAEを上回ったという事例とかがある。そもそもですわね、新しいOpenAIのファインチューニング、200個程度のデータでも、お嬢様LLMぐらいはできるみたいでございますです。LLMはそのメタな能力も重要な要素。プロンプトエンジニアを作るメタなプロンプトをつくったり、ユーザーのプロンプトをLLMが理解やすいように書き換えるプロンプトとか、こっち方面のメタな世界もいい感じで発展している。（ちょっと視点を変えた）ファインチューニングとLLMのメタ能力を利用するのがLLM活用の次のステージか。create-llamaとか、OpenGPTとか、LLMA Factoryと、自動的にアプリを作る仕組みがたくさん出てきた。 わずか1分で10日間の天気を予測可能なAI「GraphCast」、お茶の水大学の神山先生の解説が、従来の手法が不得意なところにGraph transformerがぴったり合ったというところが腹落ちします。Microsoftの発表したCopilot、つまりGPTsのＭＳ版。こういう世界観になるよな。早速OpenCopilotとか、WebCoPilotとか、あっというまに、似たようなOSSが、、、。Yahoo知恵袋、ついにGPT-4をつかった自動回答をテスト中。人の衆知はChatGPTに敗れたのか。。ＭＣ業の紗々氏、NTT武蔵野通研で開催された
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5OD
-U4NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgw
-LC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MT
-kyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3Nzcz
-MzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjExMTM3NDMyNS
-wxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwODEwOSwyMTAz
-NjAxNjM5XX0=
+eyJoaXN0b3J5IjpbLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwOD
+M0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5NjEx
+LDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNj
+IzMDMyNjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2
+OTYzMiwtMTc3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MS
+wyMTExMzc0MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2
+MjA4MTA5XX0=
 -->
