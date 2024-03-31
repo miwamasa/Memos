@@ -3,8 +3,7 @@
 
 ## 4/1
 
-Googleの「CRAG(Corrective Retrieval Augmented Generation)」、従来の検索拡張生成(RAG)手法を改良し、RAGシステムで取得したドキュメントをLLMに渡す前に、そのドキュメントの内容が正しいかどうかを自動でチェックする機能つけることでハルシネーションを抑制。国産LLMでは、先週取りこぼした、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は日本語と英語に対応する70億パラメータのLLM。LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、生成AIのビジネス応用元年になるのか。Databricksから公開された「DBRX」は、132億パラメータを持つ大規模なMoE(Mixture of Experts)モデルで、既存のオープンソースモデルを上回る性能を発揮。LLaMA2-70Bよりも高速な推論が可能で、Grok-1よりもコンパクトなモデルサイズながら高い性能を実現。NTTのtsuzumiの資料によると、AWSで7Bモデルを300Bトークン学習させると1900万円かかとのことであるが、そもそもLLMのスケール測からすると、投資に対するリターン（精度向上）が見合わなくなるともっぱら話題に。一方、推論の効率化では、Intel Neural Compressorは4ビット量子化技術で、LLMの高速推論と効率的な計算資源利用が可能に。LoRAに代わる「LISA」が出てきた。LISAはメモリ使用量を大幅に削減しながら、従来手法と同等以上のパフォーマンスを実現できる。OpenAIが「Voice Engine」を限定ユーザーに発表、安全性と性能を鑑みると、オープンソースでLLMというのも、限定されてくるのかもしれない。行政系ではGovBotサービス、使い物にならないという評価とともに、どうも担当者が正しくAIを理解してないという悲しい背景がでてくる。NECが受注したんだよね、ここまで張りぼてとは。。
-
+Googleの「CRAG(Corrective Retrieval Augmented Generation)」、従来の検索拡張生成(RAG)手法を改良し、RAGシステムで取得したドキュメントをLLMに渡す前に、そのドキュメントの内容が正しいかどうかを自動でチェックする機能つけることでハルシネーションを抑制。国産LLMでは、先週取りこぼした、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は日本語と英語に対応する70億パラメータのLLM。LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、生成AIのビジネス応用元年になるのか。Databricksから公開された「DBRX」は、132億パラメータを持つ大規模なMoE(Mixture of Experts)モデルで、既存のオープンソースモデルを上回る性能を発揮。LLaMA2-70Bよりも高速な推論が可能で、Grok-1よりもコンパクトなモデルサイズながら高い性能を実現。NTTのtsuzumiの資料によると、AWSで7Bモデルを300Bトークン学習させると1900万円かかとのことであるが、そもそもLLMのスケール測からすると、投資に対するリターン（精度向上）が見合わなくなるともっぱら話題に。一方、推論の効率化では、Intel Neural Compressorは4ビット量子化技術で、LLMの高速推論と効率的な計算資源利用が可能に。LoRAに代わる「LISA」が出てきた。LISAはメモリ使用量を大幅に削減しながら、従来手法と同等以上のパフォーマンスを実現できる。OpenAIが「Voice Engine」を限定ユーザーに発表、安全性と性能を鑑みると、オープンソースでLLMというのも、限定されてくるのかもしれない。行政系ではGovBotサービス、使い物にならないという評価が次々に、人の死体をゴミと認識？、どうも担当者が正しくAIを理解してないという悲しい事情も明らかに。8525万でデジ庁からNECが受注したんだよね、ここまでハリボテとは。
 
 - RAGの新しい手法「CRAG」を3分で理解する
 	- https://zenn.dev/knowledgesense/articles/bb5e15abb3c547
@@ -152,7 +151,8 @@ Googleの「CRAG(Corrective Retrieval Augmented Generation)」、従来の検索
 	- Rakuten AI 7BはフランスのAI（人工知能）スタートアップMistral AIのオープンモデル「Mistral-7B-v0.1」を基に、継続的に大規模なデータを学習させて開発した日本語基盤モデル。
 - govbotをとりあえず試してみたら死んだ人間を『ゴミ』と認識している説が出てきた
 	- https://x.com/judo5001/status/1773196373686411292?s=20
-- 
+- GovBotの開発に8525万かかったと聞いて調べたら本当だった🤯！しかも、調達機関はデジタル庁で開発業者は日本電気
+	- https://x.com/gijigae/status/1773557153317437824?s=20
 
 ## 3/25
 
@@ -3824,7 +3824,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Pedro Cuencaさんは現地時間2023年08月08日、Apple Silicon MacなどAppleデバイス上で大規模言語モデル(LLM)を実行するためのSwiftパッケージとDemoアプリを公開
 	- SwiftでTransformersライクなAPIを実装するために開発したSwiftパッケージ”swift-transformers”と、Demoアプリ”swift-chat”、加えてTransform々氏、NTT武蔵野通研で開
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDkwMTE5NiwxMzkwNTI3MDM0LC02Nz
+eyJoaXN0b3J5IjpbLTI3NTAwNjY3OCwxMzkwNTI3MDM0LC02Nz
 U5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwt
 MTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOT
 UzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMx
