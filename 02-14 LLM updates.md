@@ -36,8 +36,14 @@
 - DeepLearningAIから、新しいRAGのコースが
 	- https://www.deeplearning.ai/short-courses/javascript-rag-web-apps-with-llamaindex/
 	- JavaScript RAG Web Apps with LlamaIndex,
-- Excited to share LISA, which enables
-	- 
+- LoRaより優れたLISA
+	- https://x.com/Rui45898440/status/1772996453557997924?s=20
+	- Excited to share LISA, which enables
+	- 7B tuning on a 24GB GPU 
+	- 70B tuning on 4x80GB GPUs
+- Databrixからdbrx-base
+	- https://huggingface.co/databricks/dbrx-base
+	- fine-grained mixture-of-experts (MoE) with 132B of which 36B active a larger number of smaller experts. DBRX has 16 experts and chooses 4 It was pre-trained on 12T tokens of text and code data
 
 ## 3/25
 
@@ -3850,17 +3856,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2311.05332
 	- 視覚を手にしたLLMが自動運転にどれほど役立つのかを探るため、GPT-4Vの能力が検証されました。 
 	- さまざまなタスクで実験したところ、「因果関係の推論」や「シーン（景色）の理解」に長けていると結論づけられました。
-- うるさいやつ、技術を理解しないと、ビジネス展開のきっかけが出てこない、エンジニアを蔑視して、それを商売にしているのが嫌い。
-	- https://x.com/toukatsujin/status/1724196831109017964?s=20
-	- 「技術力を磨かないと生き残れないと思っているエンジニアがほとんど。でも技術は日々進化・変化しており、これを学べば一生安泰ということはない。むしろビジネス理解力を磨いたほうが一生安泰なのに、エンジニアの多くは分かっていない」
-- Rapidly build an application in Gradio power by a Generative AI Agent
-	- https://cloud.google.com/blog/products/ai-machine-learning/rapidly-build-an-application-in-gradio-power-by-
+- うるさいやつ、技術を理解しないと、ビジネス展開の
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjcxNDk5LDIxMDk4NDE3ODAsLTE5NT
-MxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4
-NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC
-0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTExMzc0MzI1LDE3NzEz
-MjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MTA5LDIxMDM2MDE2Mz
-ksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0yMDUxNjUxMjIyLDc5
-MzE0MjY0XX0=
+eyJoaXN0b3J5IjpbMTMxNDY4MTU1NywyMTA5ODQxNzgwLC0xOT
+UzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMx
+ODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3NzczMzYwMy
+wtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjExMTM3NDMyNSwxNzcx
+MzI3MTE4LC01NDA2MDA3NzYsMTczNjIwODEwOSwyMTAzNjAxNj
+M5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwtMjA1MTY1MTIyMiw3
+OTMxNDI2NF19
 -->
