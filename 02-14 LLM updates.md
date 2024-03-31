@@ -59,7 +59,17 @@
 		- always activate embedding and linear head layer 
 		- randomly sample intermediate layers to unfreeze
 - DBRXまとめ
-	- 
+	- https://x.com/webbigdata/status/1772981844839207206?s=20
+	- ・Databricks社が新たに公開したオープンなMoEモデル 
+	- ・自社調べでGPT-3.5 を上回り、Gemini 1.0 Pro と競合 
+	- ・コード能力で特化モデルCodeLLaMA-70Bを上回る 
+	- ・推論は LLaMA2-70B よりも最大 2 倍高速 
+	- ・16人のエキスパートの中で4 人を選択して推論を実行 
+	- ・パラメータ数はGrok-1の約40%だが性能は上回る 
+	- ・テキスト データとコード データを合計した12Tトークンで事前トレーニング 
+	- ・3072 台の NVIDIA H100を使って約3か月でトレーニング 
+	- ・ファイルサイズは 263.07(約4.4 GB x 61safetensors)
+- 
 
 ## 3/25
 
@@ -3843,21 +3853,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- コマンドラインでllamaindexをつかたたアプリを生成する仕組みの公開！！！
 - GPT4などが、常識をもっているかどうかのテストデータセットによる評価
 	- https://github.com/allenai/everyday-things
-	- The LLMs have poor accuracy (54-59%) on commonsense spatial/functional relationships in ParRoT dataset.
-	- This suggests the LMs do not have fully coherent conceptual pictures of everyday objects.
-- LLMA Factory
-	- https://github.com/hiyouga/LLaMA-Factory
-	- Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM)
-- WebPilot
-	- https://chat.openai.com/g/g-pNWGgUYqS-webpilot
-	- 記事や論文、PDF などの抽出系の便利 GPTs を作ったけれど、すべて WebPilot で十分だった(めこめこさん)
-- beさん、毎日ベルマン方程式を解いて日常を
+	- The LLMs have poor accuracy (54-59%) on commonsense spatial/functional relationships in ParRoT dat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwMzEwMzcwLC0yMDAwODY5NjExLDIxMD
-k4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMy
-NjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMi
-wtMTc3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTEx
-Mzc0MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MT
-A5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0y
-MDUxNjUxMjIyXX0=
+eyJoaXN0b3J5IjpbMTQzMDg4NjAxNCwtMjAwMDg2OTYxMSwyMT
+A5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAz
+MjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2Mz
+IsLTE3NzczMzYwMywtMzEyNjgxNzgxLDEzMjU3NDIyODEsMjEx
+MTM3NDMyNSwxNzcxMzI3MTE4LC01NDA2MDA3NzYsMTczNjIwOD
+EwOSwyMTAzNjAxNjM5LC0xNDQwODMxOTAsLTU1NzkwNTgwMCwt
+MjA1MTY1MTIyMl19
 -->
