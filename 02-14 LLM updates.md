@@ -41,11 +41,16 @@
 	- Excited to share LISA, which enables
 	- 7B tuning on a 24GB GPU 
 	- 70B tuning on 4x80GB GPUs
-- Databrixからdbrx-base
+- Databricks introduces DBRX, a new 132B parameter open LLM
 	- https://huggingface.co/databricks/dbrx-base
 	- fine-grained mixture-of-experts (MoE) with 132B of which 36B active 
 	- a larger number of smaller experts. DBRX has 16 experts and chooses 4 
 	- It was pre-trained on 12T tokens of text and code data
+	- DBRX outperforms all the established open-source models on common benchmarks like MMLU and GSM8K.
+	- Its inference is up to 2x faster than LLaMA2-70B and is about 40% of the size of Grok-1 in terms of both total and active parameter counts.
+	- While DBRX is trained as a general-purpose LLM, it still surpasses CodeLLaMa-70 Instruct, a model built explicitly for code generation.
+- DBRX is super cool, but research and reading too! Especially if you can combine RAG + COT.
+	- 
 
 ## 3/25
 
@@ -3847,24 +3852,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- MSより
 	- Microsoft Research presents a method to personalize LLMs for search via entity-based user knowledge stores derived from logs.
 - Yahoo知恵袋、GPT-4を用いた、自動回答をテスト中
-	- https://chiebukuro.yahoo.co.jp/topic/ai/answer.html
-	- 人知は不要になったのか。。
--  Trusted Source Alignment in Large Language Models
-	- https://huggingface.co/papers/2311.06697
-- GPT paper asistantのソース
-	- https://github.com/tatsu-lab/gpt_paper_assistant
-	- スタンフォード大学の橋本先生謹製
-- Licheng Wen et al., "On the Road with GPT-4V(ision): Early Explorations of Visual-Language Model on Autonomous Driving"
-	- https://arxiv.org/abs/2311.05332
-	- 視覚を手にしたLLMが自動運転にどれほど役立つのかを探るため、GPT-4Vの能力が検証されました。 
-	- さまざまなタスクで実験したところ、「因果関係の推論」や「シーン（景色）の理解」に長けていると結論づけられました。
-- うるさいやつ、技術を理解しないと
+	- https://chiebukuro.yahoo.co.jp/topi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMT
-k1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5Mjcz
-MTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MD
-MsLTMxMjY4MTc4MSwxMzI1NzQyMjgxLDIxMTEzNzQzMjUsMTc3
-MTMyNzExOCwtNTQwNjAwNzc2LDE3MzYyMDgxMDksMjEwMzYwMT
-YzOSwtMTQ0MDgzMTkwLC01NTc5MDU4MDAsLTIwNTE2NTEyMjIs
-NzkzMTQyNjRdfQ==
+eyJoaXN0b3J5IjpbMjA4NjM1NzY4LC0yMDAwODY5NjExLDIxMD
+k4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMy
+NjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMi
+wtMTc3NzMzNjAzLC0zMTI2ODE3ODEsMTMyNTc0MjI4MSwyMTEx
+Mzc0MzI1LDE3NzEzMjcxMTgsLTU0MDYwMDc3NiwxNzM2MjA4MT
+A5LDIxMDM2MDE2MzksLTE0NDA4MzE5MCwtNTU3OTA1ODAwLC0y
+MDUxNjUxMjIyXX0=
 -->
