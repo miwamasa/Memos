@@ -74,7 +74,10 @@
 - OSS Models + LangGraph.js
 	- LangGraph helps you create LLM apps that closely match the logical flows used to solve a problem.
 	- https://github.com/langchain-ai/langgraphjs/blob/main/examples/chatbots/customer_support_mistral.ipynb
-- # Mamba Explained
+-  Mamba Explained
+	- https://thegradient.pub/mamba-explained/
+	- Mambaの選択機構を注意機構との比較やアナロジーを用いながら直感的に説明した記事。 
+	- 文脈内学習ではTransformerのようにプロンプトに全ての情報を入れる必要がなく、状態（システムプロンプトなどを圧縮したもの）と質問を渡すだけで良い。
 
 
 ## 4/1
@@ -3838,10 +3841,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- コンテキスト長が短い場合のパフォーマンスは保証されませんでした
 - Why do tree-based models still outperform deep learning on typical tabular data?
 	- https://hal.science/hal-03723551
-	- Why do tree-based models still outperform deep learning on tabular data?” confirms tree-based models outperform deep learning and explain some of the reasons why.
-	- When it comes to #tabulardata and #timeseries (by far the most important majority of data for almost any real company), deep learn
+	- Why do tree-based models still outperform deep learning on tabular data?” confirms tree-based models outperform deep learning
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg2MDAzNCw2NTQ3OTc1NTksLTExNz
+eyJoaXN0b3J5IjpbMTE3OTAzNzE3OCw2NTQ3OTc1NTksLTExNz
 E5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjcz
 NTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLT
 cwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5
