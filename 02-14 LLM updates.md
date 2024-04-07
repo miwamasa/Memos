@@ -3,7 +3,8 @@
 
 ## 4/8
 
-今週も情報が早すぎて、もやは追いつけません。ベクトルDBのベンダーかと思っていたCohereから、
+今週も情報が早すぎて、もやは追いつけません。ベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできますがGPT-4越えでOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。AppleからはReALM発表、どうもSili
+
 
 最新のLLMの研究動向や開発状況に関する記事が多数収録されています。因果推論の実用化、翻訳モデル、データセット構築の取り組み、OpenAIの日本拠点開設など、さまざまな話題が取り上げられています。また、スケーリングやモデル設計、生物を対象とした研究なども紹介されています。LLMの量子化や小規模ベンチマークタスクでの性能評価についても言及されています。
 
@@ -12,26 +13,6 @@
 その他、LLMを使ったアプリケーション開発の実例や、LLMベースの検索システム、ノートテイキングツールなども紹介されています。RAGやベクトル検索の活用方法、エージェントとの連携なども示されています。また、LLMの関数呼び出し機能の実装例も収録されています。
 
 
-
-**2. ファインチューニング**
--   **Reranker**: 検索結果のランキング精度向上に役立つRerankerモデルの開発が進んでいます。
--   **Tool**: LLMを様々なタスクに活用するためのツールが開発されています。
-
-**3. 応用**
--   **情報検索**: LLMは従来の検索エンジンを超える、より高度な情報検索能力を備えています。
-
-
-**4. その他**
-
--   **因果推論**: LLMを用いて、事象間の因果関係を推測する研究が進められています。
--   **倫理**: LLMの開発と利用における倫理的な問題も議論されています。
-
-**5. 最新情報**
-
--   **OpenAI**: OpenAIは、ファインチューニングAPIの機能強化や、新しいLLMモデルの開発を進めています。
--   **Apple**: Appleは、スマホ画面を理解してユーザーと対話できるLLMモデル「ReALM」を発表しました。
--   **Cohere**: Cohereは、日本語を含む10の主要言語に対応したLLMモデル「Command R+」を公開しました。
--   **Google**: Googleは、7Bパラメータの日本語LLMモデル「Gemma」を公開しました。
 
 - ビジネスの実務で「因果」を推測するということ by TJOさん
 	- https://tjo.hatenablog.com/entry/2024/02/28/174811
@@ -3830,7 +3811,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- まあでも 1B 規模なら妥当なのかもしれません
 - 今号の『日本語の研
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDk3MzExODgsMTcxODQwMzc5OSwtMT
+eyJoaXN0b3J5IjpbLTEzODYyNDI3MTYsMTcxODQwMzc5OSwtMT
 c2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1
 MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMz
 QsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4
