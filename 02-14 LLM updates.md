@@ -54,7 +54,11 @@
 	- https://github.com/svpino/llm/blob/main/local.ipynb
 	- https://www.youtube.com/watch?v=HRvyei7vFSM
 - Claudeだと本当に一瞬で以下のようなアーキテクチャ図を作ってくれる。
-	- 
+	- https://x.com/ai_syacho/status/1774677348807483788
+- Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians
+	- https://github.com/city-super/Octree-GS
+	- https://x.com/janusch_patas/status/1774717184238883237
+- 
 
 
 ## 4/1
@@ -3830,15 +3834,12 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Q* can solve simple math problems that symbolic AI could solve 50 years ago. Panic! AGI is here! Humanity is over!
 - A Benchmark to Understand the Role of Knowledge Graphs on Large Language Model's Accuracy for Question Answering on Enterprise SQL Databases
 	- https://arxiv.org/abs/2311.07509
-	- impact of KGs for question answering on SQL databases: 54% accuracy vs. 16% with instructions directly on SQL databases.
-	- SQL DBを参照して質問応答を行うシステムでは、LLMに直接SQLを参照させると16%の正解率しか出なかったがLLMをナレッジグラフにマッピングしてそれを参照させると54%に改善したという研究。
-	- 本質的に持っている情
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODUxNDY2LC0xMTcxOTEyOTUxLDE3OT
-gzNTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3
-MDM0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxOD
-Y5ODU4NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQx
-NzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNy
-w4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3
-NzczMzYwM119
+eyJoaXN0b3J5IjpbLTE0NTQ5NjAyNzQsLTExNzE5MTI5NTEsMT
+c5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1
+MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LD
+E4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4
+NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNj
+A3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwt
+MTc3NzMzNjAzXX0=
 -->
