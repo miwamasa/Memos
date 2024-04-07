@@ -204,7 +204,13 @@
 - Qwen1.5-32B release
 	- https://github.com/QwenLM/Qwen1.5
 	- Qwen1.5 72B has been the best open model on Chatbot Arena leaderboard. Very excited to see how the 32B performs!
-- 
+- ジェフ・ベゾスがPerplexityに投資
+	- https://x.com/npaka123/status/1776352622704042408
+- llama.cpp量子化：重要度行列(Importance Matrix)計算に使うテキストについて
+	- https://sc-bakushu.hatenablog.com/entry/2024/03/30/195557
+	- 現在のllama.cppでは重要度行列(Importance Matrix)計算を利用することで[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)精度が改善できます。
+	- 特に4bit以下の低bit[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)を行う場合は、このiMatrix版の[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)が推奨されます
+	- 
 
 .
 
@@ -3820,25 +3826,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  「ChatGPTの1周年を記念して」、オープンソースLLMがChatGPTにどこまで追いついているか体系的調査報告
 	- https://aiboom.net/archives/59713
 	- https://arxiv.org/abs/2311.16989
-	- オープンソースLLMとしてはLlama-2（およびMentalLlama）、Palm、Vicuna、Falcon、Wizard、Lemurなどのモデルに焦点を当て、それらの進歩のスピードと特定のタスクでの優れた性能について詳しく分析されています。調査結果からは、オープンソースLLMが特定のタスクや応用分野において、クローズなLLMに匹敵する、あるいはそれを上回る性能を示していることが明らかになりまし
-- MRS2023(materials research society)でLLMが多い 2023 MRS Fall Meeting & Exhibit
-	- https://x.com/yoko_materialDX/status/1731267042810962256?s=20
-	- MIセッションが常時4つあり回るのが大変
-	- 機械学習ポテンシャルと自動合成の発表が大量
-	- 結晶構造予測の発表が思ったより多かった
-	- LLMの発表は材料データ抽出が中心
-	- 日本企業からのMI発表が多かった 
-	- 世界情勢ゆえ？）中国本土の方がほぼいなかった
-
-## 11/27
-
-アルトマ
+	- オープンソースLLMとしてはLlama-2（およびMentalLlam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzMzOTk3NiwtMTc2Nzk4MjMxNiw2NT
-Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
-NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
-w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
-MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
-MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
-ODUyOTg4MV19
+eyJoaXN0b3J5IjpbLTE3Nzc1ODU4MTAsLTE3Njc5ODIzMTYsNj
+U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
+NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
+csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
+MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
+kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
+NDg1Mjk4ODFdfQ==
 -->
