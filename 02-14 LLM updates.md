@@ -3,16 +3,16 @@
 
 ## 4/8
 
-今週も情報が早すぎて、もやは追いつけません。ベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできます、GPT-4越えでOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のＬＬＭのは公開禁止みたいに自分の首をしめてないか。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量モデル、そういえばSiriの人員が解雇されたというニュースもあった。OpenAIは、日本にアジア初の拠点を開設、なぜか住所は西新橋の雑居ビル。Gemmaの1.1のリリースとかQwen1.5-32B のリリースなど、重要な改良も進む。
+今週も情報が早すぎて、もやは追いつけません。ベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできます、GPT-4越えでOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のＬＬＭのオープンソース化禁止みたいに自分の首をしめてないか。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量モデル、そういえばSiriの人員が解雇されたというニュースもあった。OpenAIは、日本にアジア初の拠点を開設、なぜか住所は西新橋の雑居ビル。Gemmaの1.1のリリースとかQwen1.5-32B のリリースなど、重要な改良も進む。
 
 
-RAGではReranker が話題に、類似度の高いチャンクを選択したはずなのに、そのあとにRerankするのか。。
+RAGではReranker が話題に、類似度の高いチャンクを選択したはずなのに、そのあとにRerankするのか。。対応するＬＬＭもいくつか出てる。
 
 日本語モデルでは、Swallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルという話もあったが、Mistral 7Bベースの２つの日本語LLMをChat Vector法で強化したものをMoEした、とても長い名前のモデルが話題に、寿限無か。大規模言語モデル開発のための日本語 Instruction データセット作成とか、NLP2024から作って学ぶ日本語大規模言語モデル - 環境構築手順と実験ソースコードの公開とか、底上げも進む。
 
  Perplexity のようなAI検索が、つぎのビッグウエーブなのか、Bezosも投資しているし、一方AI検索は有料化というような流れもあるようだ。うむ？もともとBingってPerplexityのような仕組みじゃなかったか？
 
-Chat VectorというLLMの足し算引き算ができる技術、wordvectorのようなベクトル計算がLLMでもできるなんてすごすぎる。
+ Mixture-of-Depthsとか、Chat VectorというLLMの足し算引き算ができる技術、wordvectorのようなベクトル計算がLLMでもできるなんてすごすぎる。
 
 
 最新のLLMの研究動向や開発状況に関する記事が多数収録されています。因果推論の実用化、翻訳モデル、データセット構築の取り組み、OpenAIの日本拠点開設など、さまざまな話題が取り上げられています。また、スケーリングやモデル設計、生物を対象とした研究なども紹介されています。LLMの量子化や小規模ベンチマークタスクでの性能評価についても言及されています。
@@ -3820,7 +3820,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- まあでも 1B 規模なら妥当なのかもしれません
 - 今号の『日本語の研
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTI3Mzc1MywxNzE4NDAzNzk5LC0xNz
+eyJoaXN0b3J5IjpbLTQ5OTgzMDAyNCwxNzE4NDAzNzk5LC0xNz
 Y3OTgyMzE2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUw
 Nzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNC
 wtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1
