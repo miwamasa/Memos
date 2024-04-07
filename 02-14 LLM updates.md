@@ -20,7 +20,13 @@
 - 【OpenAI】日本にアジア初の拠点を開設、法人向けサービス提供へ
 	- https://www.nikkei.com/article/DGXZQOUC29A7U0Z20C24A3000000/?n_cid=SNSTW001&n_tw=1711923970
 	- OpenAIが4月中に東京都内にアジア初の拠点を立ち上げ、日本での事業活動を本格化させる
-	- 事務所は西新橋のざっきょびる
+	- 事務所は西新橋の雑居ビル？？
+-  Mechanistic Design and Scaling of Hybrid Architectures
+	- https://arxiv.org/abs/2403.17844
+	- LLMのモデル設計は時間とコストがかかる。これを解決するため人工的なベンチマークタスク MAD（in-context recall, compression等）を設計。小規模MADで評価した結果を元に有望な手法を絞りスケールさせる。多くが小規模MADの性能とスケール後の性能に相関がみられた
+- LLMの現在
+	- https://speakerdeck.com/pfn/llmnoxian-zai
+	- 
 
 
 ## 4/1
@@ -3824,13 +3830,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2310.10631
 	- どうも、LLMをつかって、定理証明器をつかうpythonコードを生成するらしい。実際に説くのはpythonインタープリター＋定理証明器の組み合わせ。
 	- The AlgebraicStack dataset of 11B tokensが提供される
-	- Llema can solve mathematical problems using a Python interpreter and a formal theorem prover.
-- LlamaIndex vs. OpenAI Assistants API
-	-  RAG Evaluation Series: Validating the RAG Performance of OpenAI vs LlamaIndex
-	- https://www.tonic.ai/blog/rag-evaluation-series-validating-rag-performance-openai-vs-llamaindex
-- ChatGPTアプリの音声会話が無料ユーザーに
+	- Llema can solve mathematical problems 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjE4MTE4MiwxNzk4MzUwNzk2LC0xMj
+eyJoaXN0b3J5IjpbLTEzMTY3OTM1OCwxNzk4MzUwNzk2LC0xMj
 gwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAz
 MDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4Mj
 EyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEw
