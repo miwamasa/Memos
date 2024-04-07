@@ -114,7 +114,11 @@
 	- https://note.com/npaka/n/n906b23636ac8?sub_rt=share_h
 	- 「 japanese-reranker-cross-encoder-large-v1」は、日本語に特化した形で学習した「Reranker」です。xsmallからlargeまで複数のサイズが提供されており、「large」は多言語Rerankerで最も人気のある「bge-reranker-v2-m3」をベンチマークで上回っています。
 	- クエリと文章の準備と、スコアの計算。
+- Anthropic Messages API
+	- https://x.com/AnthropicAI/status/1775979799644934281
+	-  Claude3にfunction callが来たという話
 - 
+
 
 
 ## 4/1
@@ -3826,12 +3830,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/fjtn_c/status/1727216371711586402?s=20
 	- （部屋の写真送って片付けタスクを分解してもらって、それを実行して写真撮ってまた進捗を送る→同じことを繰り返し）
 - 愛新覚羅の孫（大井町の眼科医）の驚愕エピソード
-	- https://x.com/aishinkakura_i/status/1727477535234248712?s=20
-	- 学会でアメリカを訪れた際、イミグレーションで「清朝の子孫か」って尋問を受け、しばらく足を止められ…
-- metaから、Getting started  with Llama
-	- htt
+	- https://x.com/aishinkakura_i/status/172747
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTUxNDM0NywtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbMTc1OTk3NzM5OCwtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
