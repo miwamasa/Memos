@@ -42,7 +42,13 @@
 - Gecko: Versatile Text Embeddings Distilled from Large Language Models
 	- https://huggingface.co/papers/2403.20327
 	- Googleから、Gecko組み込みモデル、LLMを蒸留した？？謎
-- LMFlowでLlama2-70BのLISAファインチューニングがあっさり動いた
+- LMFlowでLlama2-70BのLISAファインチューニングがあっさり動いた by shi3zさん
+	- https://x.com/shi3z/status/1774710763007119735
+	- 大体30GBあれば学習できるとすればA6000でも可能ということか?
+-  Google Colab で BAAI/bge-reranker-v2-m3 を試す by npakaさん
+	- https://note.com/npaka/n/n7d251f76ce25?sub_rt=share_h
+	- 「BAAI/bge-reranker-v2-m3」は、「bge-m3」ベースの「Reranker」モデルです。「Reranker」モデルは、従来の「埋め込み」モデルとは異なり、質問とドキュメントを入力として受け取り、類似度を出力します。
+	- 
 
 
 ## 4/1
@@ -3824,19 +3830,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - うみゆき氏、Claude2.1の性能に舌を巻く
 	- https://x.com/umiyuki_ai/status/1727875985167790529?s=20
 	- Claude無料版試してみたけど、結構長文の日本語pdf入力して要約してってお願いしたら、ちゃんと内容読んで要約箇条書き出してくれた（目次丸写しではない）　３章の内容説明してって言ったらちゃんと説明してくれた。つまりちゃんと最後まで読んで答えてる。かなり的確な応答を返してくれる。それでタダ。これ相当スゴイね
-- Yuhan Sun et al., "To be or not to be? an exploration of continuously controllable prompt engineering"
-	- https://arxiv.org/abs/2311.09773
-	- これまで「LLMの動きを観察して"プロンプトを調節"する」手法が追究されてきましたが、限界があるため「プロンプトによる"LLMの動きをダイレクトに調整"する」手法『ControlPE』
-	- 自動運転システムなどを手掛けるセンスタイム社による
-	- ControlPEは競合技術と比較してもプロンプトの影響をこまかく調整できる手法
-	- ① LoRAを利用するアプローチ ② プロンプトの影響を連続的に微調整 ③ 従来のプロンプトエンジニアリングを補完する
-- Q*のもともとのアイデアを出した論
+- Yuhan Sun et al., "To be or not to be? an explorati
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyMDU2MTcxLC0xMTcxOTEyOTUxLDE3OT
-gzNTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3
-MDM0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxOD
-Y5ODU4NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQx
-NzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNy
-w4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3
-NzczMzYwM119
+eyJoaXN0b3J5IjpbMTAyNjI5NDA1OCwtMTE3MTkxMjk1MSwxNz
+k4MzUwNzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUy
+NzAzNCwtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMT
+g2OTg1ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0
+MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MD
+csODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0x
+Nzc3MzM2MDNdfQ==
 -->
