@@ -3,7 +3,7 @@
 
 ## 4/8
 
-今週も情報が早すぎて、もやは追いつけません。ベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできますがGPT-4越えでOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量モデル、そういえばSiriの人員が解雇されたというニュースもあった。Gemmaの1.1のリリースとかQwenのリリースなど、重要な改良も進む。OpenAIは、日本にアジア初の拠点を開設、なぜか住所は西新橋の雑居ビル。
+今週も情報が早すぎて、もやは追いつけません。ベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできますがGPT-4越えでOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のＯＳＳは公開禁止みたいに自分の首をしめてないか。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量モデル、そういえばSiriの人員が解雇されたというニュースもあった。Gemmaの1.1のリリースとかQwen1.5-32B のリリースなど、重要な改良も進む。OpenAIは、日本にアジア初の拠点を開設、なぜか住所は西新橋の雑居ビル。
 
 
 RAGではReranker が話題に、類似度の高いチャンクを選択したはずなのに、そのあとにRerankするのか。。
@@ -3820,7 +3820,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- まあでも 1B 規模なら妥当なのかもしれません
 - 今号の『日本語の研
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzQyNjAzMCwxNzE4NDAzNzk5LC0xNz
+eyJoaXN0b3J5IjpbMjAwMTIzODYwMiwxNzE4NDAzNzk5LC0xNz
 Y3OTgyMzE2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUw
 Nzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNC
 wtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1
