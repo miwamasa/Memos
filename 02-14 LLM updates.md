@@ -172,6 +172,10 @@
 	- 2024年4月4日、ファインチューニングAPIに新機能が導入されました。
 	- OpenAIを利用すると、ほとんどの組織はセルフサービスのファインチューニングAPI を使用して、有意義な結果をすぐに確認できます。
 - Appleが開発、スマホのスクリーンを理解してユーザーと対話できる『ReALM』端末上で動く軽量モデル
+	- https://ai-data-base.com/archives/66828
+	- Appleは、ユーザーとの対話やスマホ画面を高度に理解する言語モデル『ReALM』を発表しています。Siriなどのアシスタントを進化させる技術としての位置付けです
+- Command Rはローカル実行ては初めて文章クリーニングできたかもしれん
+	- https://x.com/Meteor_Eternal/status/1775877913952518608
 - 
 
 .
@@ -3811,15 +3815,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Shicheng Liu et al., "SUQL: Conversational Search over Structured and Unstructured Data with Large Language Models"
 	- https://arxiv.org/abs/2311.09818
 	- LLMベースの新しい言語『SUQL』が開発されました。SQLを拡張して「非構造化データのクエリ」を処理するパラダイムを導入
-	- 『SUQL（Structured and Unstructured Query Language）』
-	- ① 構造化データと非構造化データの両方を扱う 
-	- ② SQLに、非構造化データをクエリするための新しいプリミティブを追加 
-	- ③ 会話型検索エージェントでユーザーの質問を処理 
-	- ④ クエリに関連するデータを構造化および非構造化データソースから抽出する
-	- 従来の線形化テクニックや多段階検索および推論モジュールに比べて、SUQLは回収精度が大幅に高い
-	- 実際のレ
+	- 『SUQL（Structured 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjUxNDA4NSwtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbMTYxMjAwMjE2OSwtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
