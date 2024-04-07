@@ -183,7 +183,7 @@
 	- https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/agent/anthropic_agent.ipynb
 - Generating text with 4-bit 104B ⌘R+ in MLX on an M2 Ultra. Runs pretty well:
 	- https://x.com/awnihannun/status/1776081238467768493
-- 
+- Command R の 概要 
 
 .
 
@@ -3815,13 +3815,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 -  Banach-Tarski Embeddings and Transformers
 	- https://arxiv.org/abs/2311.09387
-	- 再帰的なデータ構造の線型空間での表現（バナッハタルスキ埋め込み）を考えると
+	- 再帰的なデータ構造の線型空間での表現（バナッ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTIxODYzOCwtMTc2Nzk4MjMxNiw2NT
-Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
-NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
-w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
-MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
-MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
-ODUyOTg4MV19
+eyJoaXN0b3J5IjpbLTE1MjM3MzE0MDMsLTE3Njc5ODIzMTYsNj
+U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
+NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
+csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
+MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
+kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
+NDg1Mjk4ODFdfQ==
 -->
