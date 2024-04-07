@@ -86,6 +86,9 @@
 	-  (1) prompt 入力次点でアクティベーションが相対的に大きい次元を特定
 	-  (2) その次元のみを使って近似的/効率的に Decode を行う、
 	- GRIFFIN (Gating by Repetition In Feedf orward Intermediate Neurons) を提案。 タスクに依存するが、学習不要な方法で精度をあまり落とさず生成を高速化できる。
+-  Are large language models superhuman chemists?
+	- https://arxiv.org/abs/2404.01475
+	- 「化学分野の幅広い 7,000 以上の質問と回答のペアを厳選し、主要なLLM を評価しました。その結果、私たちの研究では、最良のモデルが平均して最良の人間の化学者を上回るパフォーマンスを示した」
 - 
 
 
@@ -3838,13 +3841,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- **◆LoRAの効果には一貫性がある**
 	- **◆QLoRAを使えば追加学習時のVRAM使用量を大幅に節約可能**
 	- **◆最適化アルゴリズムはAdamでもSGDでも大差ない**
-	- **◆LoRAによる追加学習を繰り返すと性能が低下する**
-	- **◆LoRAによる追加学習は単一のGPUで実行可能**
-- Claude 2.1 (200K Tokens) - Pressure Testing Long Context Recall
-	- Claude2.1の長コンテキスト能力に対する、ストレステスト
-	- https://x.com/GregKamradt/status/1
+	- **◆LoRAによる追加学
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzU3MTY1MCwtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbLTc0MDIzMTg4MCwtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
