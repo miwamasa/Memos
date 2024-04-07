@@ -93,7 +93,9 @@
 	- https://note.com/npaka/n/n8f9ee8533896?sub_rt=share_h
 	- RAGにおける「Reranker」は、取得したチャンクの中から、質問に対して最も関連性の高い情報を持つチャンクを選択する役割を担っています。
 	- 今回は、多言語のRerankerモデル「**BAAI/bge-reranker-v2-m3**」を使います。top_n=5で関連性の高い5件に絞ります。
-- 
+-  Semantic Routerを試す
+	- https://zenn.dev/kun432/scraps/73b098e774bd21
+	- LangChainのエージェントと組み合わせた例。
 
 
 ## 4/1
@@ -3837,15 +3839,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - An Embodied Generalist Agent in 3D World
 	- https://huggingface.co/papers/2311.12871
 	- ３D世界の中で身体性をもった汎用エージェント
-	- 3D世界に対して、いわば記号接地するような訓練をすることで身体性(embodiment)を取得、自然言語処理、コンピュータビジョン、ロボティクスなどの多様なドメインで汎用的なタスクを解決できる汎用エージェントが構築できたという
-	- 手段としては、3D世界の理解と相互作用を必要とする、オブジェクトレベルとシーンレベルの多モーダルなタスクを含む、規模と複雑さに優れたデータセットを慎重に作成
--  大規
+	- 3D世界に対して、いわば記号接地するような訓練をすることで身体性(embodiment)を取得、自然言語処理、コンピュータビジョン、ロボティクスなどの多様なドメインで汎用的なタスクを解決できる汎用エージェントが
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzg1ODQ5MzcsLTE3Njc5ODIzMTYsNj
-U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
-NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
-csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
-MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
-kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
-NDg1Mjk4ODFdfQ==
+eyJoaXN0b3J5IjpbNDY2NjE5OTMzLC0xNzY3OTgyMzE2LDY1ND
+c5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0
+MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LD
+c4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAx
+NjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5My
+wyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4
+NTI5ODgxXX0=
 -->
