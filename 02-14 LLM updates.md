@@ -51,6 +51,9 @@
 	- 「パンダとは？」の質問には「パンダは中国南西部の山岳地帯に生息する哺乳類の一種です。」のドキュメントが関連していることがわかります。
 - Building a RAG application using open-source models by langchain
 	- https://x.com/LangChainAI/status/1774821270900629950
+	- https://github.com/svpino/llm/blob/main/local.ipynb
+	- https://www.youtube.com/watch?v=HRvyei7vFSM
+- Claudeだと本当に一瞬で以下のようなアーキテクチャ図を作ってくれる。
 	- 
 
 
@@ -3829,16 +3832,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2311.07509
 	- impact of KGs for question answering on SQL databases: 54% accuracy vs. 16% with instructions directly on SQL databases.
 	- SQL DBを参照して質問応答を行うシステムでは、LLMに直接SQLを参照させると16%の正解率しか出なかったがLLMをナレッジグラフにマッピングしてそれを参照させると54%に改善したという研究。
-	- 本質的に持っている情報が同じでもデータ構造によってRAGの精度が変わることの一例ともみなせる
-- うみゆき氏、Claude2.1の性能に舌を巻く
-	- https://x.com/umiyuki_ai/status/1727875985167790529?s=20
-	- Claude無料版試してみたけ
+	- 本質的に持っている情
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTA3MzQ1OCwtMTE3MTkxMjk1MSwxNz
-k4MzUwNzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUy
-NzAzNCwtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMT
-g2OTg1ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0
-MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MD
-csODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0x
-Nzc3MzM2MDNdfQ==
+eyJoaXN0b3J5IjpbLTI5ODUxNDY2LC0xMTcxOTEyOTUxLDE3OT
+gzNTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3
+MDM0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxOD
+Y5ODU4NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQx
+NzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNy
+w4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3
+NzczMzYwM119
 -->
