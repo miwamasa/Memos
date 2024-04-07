@@ -89,7 +89,7 @@
 -  Are large language models superhuman chemists?
 	- https://arxiv.org/abs/2404.01475
 	- 「化学分野の幅広い 7,000 以上の質問と回答のペアを厳選し、主要なLLM を評価しました。その結果、私たちの研究では、最良のモデルが平均して最良の人間の化学者を上回るパフォーマンスを示した」
-- 
+-  LlamaIndex の Reranker を試す
 
 
 ## 4/1
@@ -3840,10 +3840,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- LoRAは画像生成モデルや大規模言語モデル(LLM)に追加の情報を学習させてモデルを微調整できる仕組
 	- **◆LoRAの効果には一貫性がある**
 	- **◆QLoRAを使えば追加学習時のVRAM使用量を大幅に節約可能**
-	- **◆最適化アルゴリズムはAdamでもSGDでも大差ない**
-	- **◆LoRAによる追加学
+	- **◆最適化アルゴリズムはAdamでもSG
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDIzMTg4MCwtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbMTE2MDk0MTIzMCwtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
