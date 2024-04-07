@@ -161,6 +161,13 @@
 	- 「モデルを大きくすると精度の逆転現象が起こるのだとすると，量子化というのはこれまで想定されていたよりもかなり優れたアイディアなのではないか？」
 	- b1.58論文の中身について解説してきましたが，いかがでしたでしょうか．個人的には，この論文には賛否両論があると考えています．
 	- 肯定的な見地からは，精度の逆転現象が本当ならば大きな発見であり，自然言語処理分野への大きな貢献となり得る
+- Cohere's latest LLM, Command R+ がAzureにのる by Nadera
+	- https://x.com/satyanadella/status/1775988939079450886
+- Anthropic Tool Calling by langchain
+	- https://python.langchain.com/docs/integrations/chat/anthropic/#beta-tool-calling
+- Command R+オープン系としては洒落にならんほど知性を感じる
+	- https://x.com/_kaiinui/status/1775928745775534189
+- 
 
 .
 
@@ -3810,14 +3817,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.theverge.com/2023/11/18/23966980/meta-disbanded-responsible-ai-team-artificial-intelligence
 	- metaが責任あるAIのチームを解散させた
 - 状態空間モデリング入門
-	- https://www.no-spare.com/store/products/seminar-20231129
-	- 本講座では、金融時系列データへの応用を題材に、動的線形モデル・ボラティリティモデル・最新の研究を解説します。
--  Hypotheses devised by AI could find ‘blind spots’ in research
-	- https://www.nature.com/articles/d41586-023-03596-0
-	- AIが仮説を生成する際に直面する課題として、データの不足、物理的な法則の理解、仮説の一般性と解釈性などが挙げられています。
-	- AIが仮説を生成する可能性として、人間が思いつかないような「異質な」仮説や、実験を自動化する「ロボット
+	- https://www.no-spare.com/st
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTQ1NzI4NSwtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbLTQ4Mzc1MTQ5NywtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
