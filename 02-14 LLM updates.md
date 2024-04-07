@@ -89,7 +89,11 @@
 -  Are large language models superhuman chemists?
 	- https://arxiv.org/abs/2404.01475
 	- 「化学分野の幅広い 7,000 以上の質問と回答のペアを厳選し、主要なLLM を評価しました。その結果、私たちの研究では、最良のモデルが平均して最良の人間の化学者を上回るパフォーマンスを示した」
--  LlamaIndex の Reranker を試す
+-  LlamaIndex の Reranker を試す by npakaさん
+	- https://note.com/npaka/n/n8f9ee8533896?sub_rt=share_h
+	- RAGにおける「Reranker」は、取得したチャンクの中から、質問に対して最も関連性の高い情報を持つチャンクを選択する役割を担っています。
+	- 今回は、多言語のRerankerモデル「**BAAI/bge-reranker-v2-m3**」を使います。top_n=5で関連性の高い5件に絞ります。
+- 
 
 
 ## 4/1
@@ -3835,18 +3839,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ３D世界の中で身体性をもった汎用エージェント
 	- 3D世界に対して、いわば記号接地するような訓練をすることで身体性(embodiment)を取得、自然言語処理、コンピュータビジョン、ロボティクスなどの多様なドメインで汎用的なタスクを解決できる汎用エージェントが構築できたという
 	- 手段としては、3D世界の理解と相互作用を必要とする、オブジェクトレベルとシーンレベルの多モーダルなタスクを含む、規模と複雑さに優れたデータセットを慎重に作成
--  大規模言語モデル(LLM)をLoRAで強化する際に役立つ情報を研究者が公開
-	- https://gigazine.net/news/20231123-llm-lora/
-	- LoRAは画像生成モデルや大規模言語モデル(LLM)に追加の情報を学習させてモデルを微調整できる仕組
-	- **◆LoRAの効果には一貫性がある**
-	- **◆QLoRAを使えば追加学習時のVRAM使用量を大幅に節約可能**
-	- **◆最適化アルゴリズムはAdamでもSG
+-  大規
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDk0MTIzMCwtMTc2Nzk4MjMxNiw2NT
-Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
-NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
-w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
-MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
-MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
-ODUyOTg4MV19
+eyJoaXN0b3J5IjpbLTEyNzg1ODQ5MzcsLTE3Njc5ODIzMTYsNj
+U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
+NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
+csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
+MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
+kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
+NDg1Mjk4ODFdfQ==
 -->
