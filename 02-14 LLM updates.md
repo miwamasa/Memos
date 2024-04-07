@@ -128,11 +128,10 @@
 	- Here’s a definitive set of cookbooks to build simple-to-advanced RAG, agentic RAG, and agents in general with MistralAI
 - Groq tool calling + structured output by langchain
 	- https://python.langchain.com/docs/modules/model_io/chat/structured_output/#groq
-	- GroqInc just dropped tool calling!We've added LangChain support (including the popular `withStructuredOutput` method!) so you can try it in your favorite chains and apps.
-
-It supports 
-@MistralAI
- Mixtral, Llama 70B, and Google Gemma.
+	- GroqInc just dropped tool calling!
+	- We've added LangChain support (including the popular `withStructuredOutput` method!) so you can try it in your favorite chains and apps.
+	- It supports MistralAI, Mixtral, Llama 70B, and Google Gemma.
+- 
 
 .
 
@@ -3829,9 +3828,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.nature.com/articles/s41591-023-02640-w
 	- ｢単純CTの膵臓がん検出AI｣
 	- 単純CTでの膵臓がん検は不可能と考えられてきた 
-	- そのAIを開選定、ベクター
+	- そのAIを開選定、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDQ2NDg5MCwtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbLTU2NzM3Mjc2MiwtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
