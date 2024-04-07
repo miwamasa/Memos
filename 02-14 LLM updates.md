@@ -3,12 +3,12 @@
 
 ## 4/8
 
-今週も情報が早すぎて、もやは追いつけません。ベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできますがGPT-4越えでOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量モデル、そういえばSiriの人員が解雇されたというニュースもあった。Gemmaの1.1のリリースとかQwenのリリースなど、重要な改良も進む。
+今週も情報が早すぎて、もやは追いつけません。ベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできますがGPT-4越えでOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量モデル、そういえばSiriの人員が解雇されたというニュースもあった。Gemmaの1.1のリリースとかQwenのリリースなど、重要な改良も進む。OpenAIは、日本にアジア初の拠点を開設、なぜか住所は西新橋の雑居ビル。
 
 
 RAGではReranker が話題に、類似度の高いチャンクを選択したはずなのに、そのあとにRerankするのか。。
 
-日本語モデルでは、Swallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルという話もあったが、Mistral 7Bベースの２つの日本語LLMをMoEした、とても長い名前のモデルが話題に、寿限無か。
+日本語モデルでは、Swallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルという話もあったが、Mistral 7Bベースの２つの日本語LLMをMoEした、とても長い名前のモデルが話題に、寿限無か。大規模言語モデル開発のための日本語 Instruction データセット作成とか、
 
  Perplexity のようなAI検索が、つぎのビッグウエーブなのか、Bezosも投資しているし、一方AI検索は有料化というような流れもあるようだ。うむ？もともとBingってPerplexityのような仕組みじゃなかったか？
 
@@ -3818,11 +3818,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- まあでも 1B 規模なら妥当なのかもしれません
 - 今号の『日本語の研
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzk5NjQ4MiwxNzE4NDAzNzk5LC0xNz
-Y3OTgyMzE2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUw
-Nzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNC
-wtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1
-ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MC
-wtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5
-MjczMTg3XX0=
+eyJoaXN0b3J5IjpbLTE3MjIyMTMwMzEsMTcxODQwMzc5OSwtMT
+c2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1
+MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMz
+QsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4
+NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3OD
+AsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgx
+OTI3MzE4N119
 -->
