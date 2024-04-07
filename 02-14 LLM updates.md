@@ -1,7 +1,9 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
-#
+## 4/8
+
+- 
 
 
 ## 4/1
@@ -3825,9 +3827,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://github.com/huggingface/swift-chat
 	- Llama 2 7B chat, running 100% private on Mac, powered by CoreML!
 	- Pedro Cuencaさんは現地時間2023年08月08日、Apple Silicon MacなどAppleデバイス上で大規模言語モデル(LLM)を実行するためのSwiftパッケージとDemoアプリを公開
-	- SwiftでTra
+	- S
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Mjg0MjMzMSwtMTI4MDA3NDAzLC0xMj
+eyJoaXN0b3J5IjpbMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMj
 gxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5
 NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC0yMD
 AwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYx
