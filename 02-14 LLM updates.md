@@ -101,7 +101,10 @@
 - 4/23(火)に、Sakana AI初のイベントやります！Grow-AI、Arayaの方々と我々のトークがあります
 	- https://x.com/iwiwi/status/1775367258040410519
 - 2x7Bの日本語チャット・ノベル専用高性能モデル。
-	- 
+	- https://huggingface.co/Sdff-Ltba/LightChatAssistant-2x7B
+	- Antler-7Bとchatntq-ja-7b-v1.0という、Japanese Stable LM Base Gamma 7B（Mistral 7Bベース）をinstructionチューニングしたモデルを各々ChatVector法で強化し、MoEでマージしたのだそうだ
+- RankZephyr is a nice 7B model 
+	- that is optimized for list-wise zero-shot reranking
 
 
 ## 4/1
@@ -3832,19 +3835,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 東大の、紺野大地先生作成
 	- **「論文をアップロードするだけで、内容を日本語で分かりやすく説明してくれるAI」**
 - アルトマン氏電撃解任劇の裏に、OpenAIが、AGIを開発するめどがついたからという
-	- Q*-learningという手法により、数値計算などLLMが苦手としていた課題も解けるようになった。
-	- https://x.com/hbouammar/status/1727683545852768295?s=20
-	- A*ってのは探索のアルゴリズムだけど、それのQ-learning版という話
-- Intel謹製の、LLMが、リーダーボードで上位の性能をはじき出す
-	- https://x.com/Yampeleg/status/1727679553714217421?s=20
-	- https://huggingface.co/Intel/neural-chat-7b-v3-1
-	- A 7B model from Intel almo
+	- Q*-learningという手法により、数値計算などLLMが苦手としていた課題も解ける
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxNzY2NTQ0LC0xNzY3OTgyMzE2LDY1ND
-c5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0
-MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LD
-c4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAx
-NjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5My
-wyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4
-NTI5ODgxXX0=
+eyJoaXN0b3J5IjpbLTU0NDIxODE0NCwtMTc2Nzk4MjMxNiw2NT
+Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
+NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
+w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
+MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
+MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
+ODUyOTg4MV19
 -->
