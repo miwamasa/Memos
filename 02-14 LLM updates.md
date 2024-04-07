@@ -7,6 +7,14 @@
 	- https://tjo.hatenablog.com/entry/2024/02/28/174811
 	- 「とりあえずマーケットの中にふんわりと存在する」系の指標に対して、そのようなきちんとした因果推論を行うのは結構難しい印象があります。
 	- 一つの考え方として「時系列的な因果性」をふわっとした代用品として用いるという方法もあり得ると思っています。そう、VARモデルです
+	- 即ち実際の因果は「落雷→雷鳴」だが、時系列的には「（落雷→）稲光→雷鳴」が成立するので代用品になり得る、という
+- 翻訳モデルHonyaku-7b
+	- aixsatoshi/Honyaku-Multi-Translator-Swallow-ms7b
+	- 数百〜数千tokenの文章翻訳 
+	- 英日、日英翻訳機能がメイン
+	- XML like instruction
+	- 一部の多言語も対応
+	- Swallow-ms-7b baseで日本語堪能
 
 
 ## 4/1
@@ -3822,18 +3830,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- マインクラフト（広大なバーチャル世界で採掘や建設を行うゲーム）を上手にプレイするAI『JARVIS-1』が開発されました。 非常に複雑な動作を含む200種類以上の行動が可能とのこと。
 	-  このような技術を応用すると、ロボットが現実世界でもさまざまな重要タスクを達成できるようになる可能性があります。…
 - 最終的にすべての統計はベイズに行き着くしかないと思っています（統計数理研究所、鎌谷氏）
-	- https://www.ism.ac.jp/ism_info_j/labo/project/162.html
-- ルカン先生によるQ*に対する表明
-	- https://x.com/ylecun/status/1728126868342145481?s=20
-	- 「Q*に関する完全なナンセンスの洪水は無視してね。LLMの信頼性を向上させる主な課題の1つは、自己回帰的トークン予測をプランニングに置き換えることです」
-- Macでllama2を試すためのswift-chat
-	
+	- https://w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MDA1NjI3LDE3OTgzNTA3OTYsLTEyOD
-AwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMw
-OTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMT
-I2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1
-MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLT
-ExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3NzczMzYwMywtMzEy
-NjgxNzgxXX0=
+eyJoaXN0b3J5IjpbLTIwMjIzNzg3MzMsMTc5ODM1MDc5NiwtMT
+I4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkw
+MzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xOD
+IxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMx
+MDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4Ny
+wtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC0z
+MTI2ODE3ODFdfQ==
 -->
