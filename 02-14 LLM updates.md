@@ -196,7 +196,12 @@
 	- https://sc-bakushu.hatenablog.com/entry/2024/04/04/091521
 	- 「chatntq_chatvector-MoE-Antler_chatvector-2x7Bchatntq_chatvector-MoE-Antler_chatvector-2x7B」という呪文のような日本語MoEモデル
 	- https://huggingface.co/Sdff-Ltba/LightChatAssistant-2x7B
-	- 
+	- Mistral 7Bベースの「Japanese Stable LM Base Gamma」をファインチューンした2つの異なるモデル（Antler 7B, ChatNTQ-JA-7B）を2x7BのMoEにしたモデルだそうです。
+	- このMoEモデルを早速試してみたところ、確かに賢そうな印象を受けました。ただ、そもそもベースにされている2つのモデルを聞いたことがありませんでした。
+- pfnet/nekomata-14b-pfn-qfin
+	- https://huggingface.co/pfnet/nekomata-14b-pfn-qfin
+	- rinna社のnekomata-14bを金融向けにチューニングしたLLMを公開しました！ これは、まだまだ金融分野へのLLM応用につながる第一歩でしかないと思うので、もっと研究開発を進めていきたいと思います。
+- 
 
 .
 
@@ -3824,13 +3829,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 11/27
 
-アルトマン氏解任劇は、マイクロソフトがアルトマン氏の受け入れを表明するも、OpenAIの主要メンバがアルトマン氏に追従すると表明したのでボードが復帰を懇願、結局OpenAIのCEOとして戻ることで幕引き。解任劇の背後には、OpenAIでAGI（スーパーAI)を達成する見込みが立った、それがQ*というLLMで、従来のLLMが苦手だった数の推論が可能になった、Q*の取り扱いを巡り解任騒動が起きた、といううわさで持ち切りに。Q*-learningがそれでは？みたなことになって様々なところで盛り上がっている。それ以外では、intelが満を持してneural-chat-7b-v3-1を公開、Mistral 7Bベースなんだけど、様々なチューニングにより相当性能が良いみたい、しかしFalcon 180B越えということはないと思うぞ。AnthropicAIが200kのコンテキストを扱えるClaude2.1を発表、デモ版が利用可能で、さっそく結構長文の日本語のPDFをそのまま投入できるとか、エバンゲリオン世界のシミュレーションを動かしてみたとか話題に。「３D世界の中で身体性をもった汎用エージェント」の論文、いや 「未来の二つの顔」（ホーガン）のAI（仮想３D空間シミュレーションで身体性を学習させる）を彷彿させる世界が現実になっ
+アルトマン氏解任劇は、マイクロソフトがアルトマン氏の受け入れを表明するも、OpenAIの主要メンバがアルトマン氏に追従すると表明したのでボードが復帰を懇願、結局OpenAIのCEOとして戻ることで幕引き。解任劇の背後には、OpenAIでAGI（スーパーAI)を達成する見込みが立った、それがQ*というLLMで、従来のLLMが苦手だった数の推論が可能になった
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTUzNjAwNSwtMTc2Nzk4MjMxNiw2NT
-Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
-NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
-w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
-MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
-MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
-ODUyOTg4MV19
+eyJoaXN0b3J5IjpbLTEzNzU1NzM3MTksLTE3Njc5ODIzMTYsNj
+U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
+NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
+csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
+MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
+kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
+NDg1Mjk4ODFdfQ==
 -->
