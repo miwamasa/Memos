@@ -8,7 +8,9 @@
 
 RAGではReranker が話題に、類似度の高いチャンクを選択したはずなのに、そのあとにRerankするのか。。
 
-日本語モデルでは、Swallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルという話もあったが、
+日本語モデルでは、Swallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルという話もあったが、Mistral 7Bベースの２つの日本語LLMをMoEした、とても長い名前のモデルが話題に、寿限無か。
+
+ Perplexity のようなAI検索が、つぎのビッグウエーブというか
 
 
 最新のLLMの研究動向や開発状況に関する記事が多数収録されています。因果推論の実用化、翻訳モデル、データセット構築の取り組み、OpenAIの日本拠点開設など、さまざまな話題が取り上げられています。また、スケーリングやモデル設計、生物を対象とした研究なども紹介されています。LLMの量子化や小規模ベンチマークタスクでの性能評価についても言及されています。
@@ -3816,11 +3818,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- まあでも 1B 規模なら妥当なのかもしれません
 - 今号の『日本語の研
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxNzA2NDE0LDE3MTg0MDM3OTksLTE3Nj
-c5ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3
-OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC
-02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4
-NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC
-0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTky
-NzMxODddfQ==
+eyJoaXN0b3J5IjpbLTUzMTAzNDc1NiwxNzE4NDAzNzk5LC0xNz
+Y3OTgyMzE2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUw
+Nzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNC
+wtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1
+ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MC
+wtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5
+MjczMTg3XX0=
 -->
