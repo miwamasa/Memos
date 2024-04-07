@@ -137,6 +137,11 @@
 	- LLMの学習済み重みパラメータの足し引きによって、事前学習済みモデルに対話能力を与えることができるという結果が示されています。
 	- 具体的には、英語で事前学習されたモデル（以下ではベースモデルと呼びます）と、ベースモデルを指示チューニング (instruction tuning)してチャット形式の対話ができるようにしたモデル（英語チャットモデル）、ベースモデルを英語以外の言語で継続事前学習したモデルの３つのモデルを用います。
 	- 英語チャットモデルの重みからベースモデルの重みを引いたものは、チャット形式で対話ができる能力を表したベクトルであり、そのベクトルを他言語の継続事前学習モデルの重みに加えることで他言語のモデルにチャット形式の対話能力を付与できるという
+- Microsoft Encarta '97 (including MindMaze) has been open-sourced on
+	- https://ia902707.us.archive.org/view_archive.php?archive=/2/items/enc-97-enc/ENC97ENC.iso
+-  JetMoE: Reaching LLaMA2 Performance with 0.1M Dollars
+	- https://research.myshell.ai/jetmoe
+	- JetMoE-8B is trained with less than $ 0.1 million cost but outperforms LLaMA2-7B from Meta AI, who has multi-billion-dollar training resources. LLM training can be much cheaper than people generally thought.
 - 
 
 .
@@ -3815,17 +3820,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 日本語対応 LLM(13B 規模)の, 行間を読むようなかしこさがあるか試したメモ(現状 Qwen 14B がベスト)
 	- https://zenn.dev/syoyo/articles/59a5ccbbb5660e
 	- 7B 以下(10B 未満)も試しましたが, 行間を読むほどのかしこさはなく, 13B 規模で飛躍的にかしこさが上がる感じだったので, 13 B 規模のを選んでいます.
-	- qwen.cpp(llama.cpp variant)で f16 量子化版を動かしました.
-	- q4 あたりに量子化だといくらかかしこさ落ちました(それでもほかの日本語 LLM よりよい結果をえられる)  また, Qwen7B もあまりかしこくはありませんでした.
-	- Qwen 14B(Chat) ちゃんが行間を読むほどのかしこさを見せました!
-- OpenAIがNPO+であるようなことが、今回のアルトマン氏解任につながったとの絵柄
-	- https://x.com/GOROman/status/1726701627468546511?s=20
--  Azure OpenAI Service 入門 by npakaさｎ
-	- https://note.com/npaka/n/n46e6ad252ce1?sub_rt=share_h
-	- 「Azure OpenAI Service」で「gpt-3.5-turbo」を使用する手順をまとめました。
--  Orca 2: Teaching Small Language Models How to Reason
+	- qwen.cpp(llama.cp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTUxMzM1NSwtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbLTU3NzE2MTM4NywtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
