@@ -147,7 +147,7 @@
 	- Apple's 3B LLM(ReALM ) Outperforms GPT-4
 	- ReALM significantly improves how conversational assistants like Siri or Alexa can understand the way humans naturally talk. Imagine you're looking at a list of restaurants on your smartphone and you say "direct me to the one on Main Street" -
 	-  ReALM is able to understand which restaurant you're referring to, even though you didn't specify the exact name.
-	- 
+- 
 
 .
 
@@ -3819,7 +3819,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- The free 12 lesson course is available on Github and will teach you everything you need to know to start building Generative AI applications.
 -  Learning to Filter Context for Retrieval-Augmented Generatio
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTk3Mzg1MSwtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbMTg3OTcwNDQzNSwtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
