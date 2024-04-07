@@ -17,6 +17,10 @@
 	- Swallow-ms-7b baseで日本語堪能
 - 大規模言語モデル開発のための日本語 Instruction データセット作成の取り組み
 	- https://speakerdeck.com/kunishou/da-gui-mo-yan-yu-moderukai-fa-notamenori-ben-yu-instruction-detasetutozuo-cheng-noqu-rizu-mi
+- 【OpenAI】日本にアジア初の拠点を開設、法人向けサービス提供へ
+	- https://www.nikkei.com/article/DGXZQOUC29A7U0Z20C24A3000000/?n_cid=SNSTW001&n_tw=1711923970
+	- OpenAIが4月中に東京都内にアジア初の拠点を立ち上げ、日本での事業活動を本格化させる
+	- 事務所は西新橋のざっきょびる
 
 
 ## 4/1
@@ -3824,14 +3828,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - LlamaIndex vs. OpenAI Assistants API
 	-  RAG Evaluation Series: Validating the RAG Performance of OpenAI vs LlamaIndex
 	- https://www.tonic.ai/blog/rag-evaluation-series-validating-rag-performance-openai-vs-llamaindex
-- ChatGPTアプリの音声会話が無料ユーザーにも開放
-	- https://x.com/IELTS_expert/status/1728326991676670222?s=20
-	- 英語学習ソフトや有料レッスンが不要に
-- JARVIS-1は本当はすごい、
-	- https://x.com/ai_database/status/1728257353852797143?s=20
-	- マインクラフト（広大なバーチャル世界で採掘や建設を行
+- ChatGPTアプリの音声会話が無料ユーザーに
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODg2NTM2NiwxNzk4MzUwNzk2LC0xMj
+eyJoaXN0b3J5IjpbMTk4NjE4MTE4MiwxNzk4MzUwNzk2LC0xMj
 gwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAz
 MDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4Mj
 EyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEw
