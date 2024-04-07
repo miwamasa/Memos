@@ -117,6 +117,10 @@
 - Anthropic Messages API
 	- https://x.com/AnthropicAI/status/1775979799644934281
 	-  Claude3にfunction callが来たという話
+- Cohereのパラメータ公開LLMのCommand R+
+	- https://x.com/_kaiinui/status/1775920565720949090
+	- たしかにGPT4-Turboと比較してもよいレベルのLLMに見える
+	- サイズは104B、CC-BY-NCだがパラメータはHFで公開 104B動かせるマシンがあれば、だれでも知能(らしきもの)を保有できるってやばいな
 - 
 
 
@@ -3826,13 +3830,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/AnthropicAI/status/1727001773888659753?s=20
 	- コンテキスト長はなんと 200k と 2 倍に拡大。ハルシネーションの低減、システムプロンプトへの対応、価格の引き下げ、外部APIとの連携機能(ベータ版) など
 	- https://claude.ai/　でお試し可能
-- ChatGPTで部屋の片づけをしている人がいいる
-	- https://x.com/fjtn_c/status/1727216371711586402?s=20
-	- （部屋の写真送って片付けタスクを分解してもらって、それを実行して写真撮ってまた進捗を送る→同じことを繰り返し）
-- 愛新覚羅の孫（大井町の眼科医）の驚愕エピソード
-	- https://x.com/aishinkakura_i/status/172747
+- Ch
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTk3NzM5OCwtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbMTY1MTY0ODY3NywtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
