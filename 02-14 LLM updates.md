@@ -48,6 +48,9 @@
 -  Google Colab で BAAI/bge-reranker-v2-m3 を試す by npakaさん
 	- https://note.com/npaka/n/n7d251f76ce25?sub_rt=share_h
 	- 「BAAI/bge-reranker-v2-m3」は、「bge-m3」ベースの「Reranker」モデルです。「Reranker」モデルは、従来の「埋め込み」モデルとは異なり、質問とドキュメントを入力として受け取り、類似度を出力します。
+	- 「パンダとは？」の質問には「パンダは中国南西部の山岳地帯に生息する哺乳類の一種です。」のドキュメントが関連していることがわかります。
+- Building a RAG application using open-source models by langchain
+	- https://x.com/LangChainAI/status/1774821270900629950
 	- 
 
 
@@ -3829,10 +3832,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 本質的に持っている情報が同じでもデータ構造によってRAGの精度が変わることの一例ともみなせる
 - うみゆき氏、Claude2.1の性能に舌を巻く
 	- https://x.com/umiyuki_ai/status/1727875985167790529?s=20
-	- Claude無料版試してみたけど、結構長文の日本語pdf入力して要約してってお願いしたら、ちゃんと内容読んで要約箇条書き出してくれた（目次丸写しではない）　３章の内容説明してって言ったらちゃんと説明してくれた。つまりちゃんと最後まで読んで答えてる。かなり的確な応答を返してくれる。それでタダ。これ相当スゴイね
-- Yuhan Sun et al., "To be or not to be? an explorati
+	- Claude無料版試してみたけ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjI5NDA1OCwtMTE3MTkxMjk1MSwxNz
+eyJoaXN0b3J5IjpbLTg4NTA3MzQ1OCwtMTE3MTkxMjk1MSwxNz
 k4MzUwNzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUy
 NzAzNCwtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMT
 g2OTg1ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0
