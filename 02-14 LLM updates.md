@@ -80,6 +80,13 @@
 	- 文脈内学習ではTransformerのようにプロンプトに全ての情報を入れる必要がなく、状態（システムプロンプトなどを圧縮したもの）と質問を渡すだけで良い。
 - Bigger is not Always Better: Scaling Properties of Latent Diffusion Models by Google
 	- https://huggingface.co/papers/2404.01367
+- Prompt-prompted Mixture of Experts for Efficient LLM Generation
+	- https://arxiv.org/abs/2404.01365
+	- LLM への入力ごとに、LLMの各レイヤーでのアクティベーションの相対的な大きさが、トークン位置によらず一部の次元に偏る flocking という現象を発見し、これをもとに、
+	-  (1) prompt 入力次点でアクティベーションが相対的に大きい次元を特定
+	-  (2) その次元のみを使って近似的/効率的に Decode を行う、
+	- GRIFFIN (Gating by Repetition In Feedf orward Intermediate Neurons) を提案。 タスクに依存するが、学習不要な方法で精度をあまり落とさず生成を高速化できる。
+- 
 
 
 ## 4/1
@@ -3835,20 +3842,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- **◆LoRAによる追加学習は単一のGPUで実行可能**
 - Claude 2.1 (200K Tokens) - Pressure Testing Long Context Recall
 	- Claude2.1の長コンテキスト能力に対する、ストレステスト
-	- https://x.com/GregKamradt/status/1727018183608193393?s=20
-	- 200K トークン (約 470 ページ) で、Claude 2.1 はドキュメントの一部の深さで事実を思い出すことができました。 
-	- 文書の一番上と一番下にある事実はほぼ 100% の精度で再現されました 
-	- 文書の上部にある事実は下部よりも低いパフォーマンスでリコールされました (GPT-4 と同様) 
-	- ~90,000 トークン以降、ドキュメントの下部にあるリコールのパフォーマンスがますます悪化し始めました 
-	- コンテキスト長が短い場合のパフォーマンスは保証されませんでした
-- Why do tree-based models still outperform deep learning on typical tabular data?
-	- https://hal.science/hal-037235
+	- https://x.com/GregKamradt/status/1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMT
-cxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMywtMTI4MTY3
-MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC
-03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NSwtMjAwMDg2
-OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1Mz
-QsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3
-NjA4Njk2MzJdfQ==
+eyJoaXN0b3J5IjpbMTEwMzU3MTY1MCwtMTc2Nzk4MjMxNiw2NT
+Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
+NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
+w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
+MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
+MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
+ODUyOTg4MV19
 -->
