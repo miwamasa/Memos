@@ -71,7 +71,10 @@
 	- リクルートの松田寛さん
 - 東工大のSwallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルだろうね…
 	- https://x.com/Meteor_Eternal/status/1775096408435216766
-- 
+- OSS Models + LangGraph.js
+	- LangGraph helps you create LLM apps that closely match the logical flows used to solve a problem.
+	- https://github.com/langchain-ai/langgraphjs/blob/main/examples/chatbots/customer_support_mistral.ipynb
+- # Mamba Explained
 
 
 ## 4/1
@@ -3836,12 +3839,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Why do tree-based models still outperform deep learning on typical tabular data?
 	- https://hal.science/hal-03723551
 	- Why do tree-based models still outperform deep learning on tabular data?” confirms tree-based models outperform deep learning and explain some of the reasons why.
-	- When it comes to #tabulardata and #timeseries (by far the most important majority of data for almost any real company), deep learning is not one needs. 
-- Pythonによるフェーズフィールド法入門: 基礎理論からデータ同化の実装まで
-	- https://www.amazon.co.jp/dp/4621308882?_encoding=UTF8&psc=1&ref_=cm_sw_r_tw_ud_dp_RW79QAZKZRQ7K9N885XB
-	- フェーズフィールド法においても,実験データを活用して物性値やパラメータを推定しつつ,シミュレーション精度を高められるような,データ同化と融合した手法の開発
+	- When it comes to #tabulardata and #timeseries (by far the most important majority of data for almost any real company), deep learn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTU0NzM3NCw2NTQ3OTc1NTksLTExNz
+eyJoaXN0b3J5IjpbLTE2NTg2MDAzNCw2NTQ3OTc1NTksLTExNz
 E5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjcz
 NTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLT
 cwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5
