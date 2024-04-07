@@ -126,7 +126,13 @@
 -  LlamaIndex <> MistralAI Cookbooks
 	- https://github.com/mistralai/cookbook/tree/main/third_party/LlamaIndex
 	- Here’s a definitive set of cookbooks to build simple-to-advanced RAG, agentic RAG, and agents in general with MistralAI
-	- 
+- Groq tool calling + structured output by langchain
+	- https://python.langchain.com/docs/modules/model_io/chat/structured_output/#groq
+	- GroqInc just dropped tool calling!We've added LangChain support (including the popular `withStructuredOutput` method!) so you can try it in your favorite chains and apps.
+
+It supports 
+@MistralAI
+ Mixtral, Llama 70B, and Google Gemma.
 
 .
 
@@ -3823,16 +3829,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.nature.com/articles/s41591-023-02640-w
 	- ｢単純CTの膵臓がん検出AI｣
 	- 単純CTでの膵臓がん検は不可能と考えられてきた 
-	- そのAIを開発 
-	- 現実世界のマルチシナリオ検証の病変検出で、92.9%の感度と 99.9% の特異度を達成 
-	- 膵臓がんスクリーニングの新しいツールの可能性
--  RAG評価ツールの "RAGAS" を使って、RAGパイプラインの性能を測定する
-	- https://qiita.com/s3kzk/items/44b8780c656b4f747403
-	- 今回触れたチャンク分割時の設定以外にも、システムプロンプトの決定、Embeddingおよび応答の生成に使用するLLMの選定、ベクターストア/検索アルゴリズムの選定など、パフォーマンスに影響を与える要素は数多く存在します。
-- アルトマン氏OpenAIに復帰すると
-	- https://x.com/OpenAI/status/17272061
+	- そのAIを開選定、ベクター
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzODY1MTk4MywtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbLTY0NDQ2NDg5MCwtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
