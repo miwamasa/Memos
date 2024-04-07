@@ -121,8 +121,10 @@
 	- https://x.com/_kaiinui/status/1775920565720949090
 	- たしかにGPT4-Turboと比較してもよいレベルのLLMに見える
 	- サイズは104B、CC-BY-NCだがパラメータはHFで公開 104B動かせるマシンがあれば、だれでも知能(らしきもの)を保有できるってやばいな
-- Command R+
+- Command R+ by Cohere
 	- https://txt.cohere.com/command-r-plus-microsoft-azure/
+	- https://huggingface.co/spaces/CohereForAI/c4ai-command-r-plus
+	- だだものではない。
 -  LlamaIndex <> MistralAI Cookbooks
 	- https://github.com/mistralai/cookbook/tree/main/third_party/LlamaIndex
 	- Here’s a definitive set of cookbooks to build simple-to-advanced RAG, agentic RAG, and agents in general with MistralAI
@@ -153,7 +155,10 @@
 	- (1) In Think, we discover a task-level logic that is shared across all instances for solving a given task and then express the logic with pseudocode; 
 	- (2) In Execute, we further tailor the generated pseudocode to each instance and simulate the execution of the code.
 - Mixture-of-Depths
-- 
+-  1bit LLM の時代は来るのか，来ないのか，どっちなんだい？
+	- https://note.com/ipsj/n/ncbe5746f71fb
+	- 三値のBitNetについて、情報処理学会の会誌に解説を書かせていただきました
+	- 
 
 .
 
@@ -3811,13 +3816,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- AIが仮説を生成する可能性として、人間が思いつかないような「異質な」仮説や、実験を自動化する「ロボット科学者」などが紹介されています
 -  Summon a Demon and Bind it: A Grounded Theory of LLM Red Teaming in the Wild
 	- https://arxiv.org/abs/2311.06237
-	- 大規模言語モデル(LLM)をしばき倒して、異常な振る舞いをさせようとしている人達（野良のLLMレッドチーム）へのインタビュー論文。攻撃方法やそもそも何のためにやっているのか？等の調査。
-- アルトマン氏、ゲストカードを使って、OpanAIを訪問
-	- https://x.com/sama/status/1726345564059832609?s=20
-	- first and last time i ever wear one of these
--  ChipNeMo: Domain-Adapted LLMs for Chip 
+	- 大規模言語モデル(LLM)をしばき倒して、異常な振る舞いをさせようとしている人達（野良のLLMレッドチーム）へのインタ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDAyMjY2OTksLTE3Njc5ODIzMTYsNj
+eyJoaXN0b3J5IjpbLTE1ODM5NTgxMzMsLTE3Njc5ODIzMTYsNj
 U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
 NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
 csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
