@@ -3,7 +3,10 @@
 
 ## 4/8
 
-- 
+- ビジネスの実務で「因果」を推測するということ by TJOさん
+	- https://tjo.hatenablog.com/entry/2024/02/28/174811
+	- 「とりあえずマーケットの中にふんわりと存在する」系の指標に対して、そのようなきちんとした因果推論を行うのは結構難しい印象があります。
+	- 一つの考え方として「時系列的な因果性」をふわっとした代用品として用いるという方法もあり得ると思っています。そう、VARモデルです
 
 
 ## 4/1
@@ -3824,16 +3827,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/ylecun/status/1728126868342145481?s=20
 	- 「Q*に関する完全なナンセンスの洪水は無視してね。LLMの信頼性を向上させる主な課題の1つは、自己回帰的トークン予測をプランニングに置き換えることです」
 - Macでllama2を試すためのswift-chat
-	- https://github.com/huggingface/swift-chat
-	- Llama 2 7B chat, running 100% private on Mac, powered by CoreML!
-	- Pedro Cuencaさんは現地時間2023年08月08日、Apple Silicon MacなどAppleデバイス上で大規模言語モデル(LLM)を実行するためのSwiftパッケージとDemoアプリを公開
-	- S
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMj
-gxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5
-NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC0yMD
-AwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYx
-MTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MS
-wtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC0zMTI2ODE3ODEsMTMy
-NTc0MjI4MV19
+eyJoaXN0b3J5IjpbNDk0MDA1NjI3LDE3OTgzNTA3OTYsLTEyOD
+AwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMw
+OTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMT
+I2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1
+MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLT
+ExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3NzczMzYwMywtMzEy
+NjgxNzgxXX0=
 -->
