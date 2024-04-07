@@ -64,7 +64,7 @@
 	- Perplexity のようなAI検索が、つぎのビッグウエーブというか、active personal noteだよな。AI検索を有料にするという動きもある。
 - BItNet-Transformerの学習済みモデルが公開されている
 	- 1bitLLM/bitnet_b1_58-large
-	- 
+- NLP2024 チュートリアル３: 作って学ぶ日本語大規模言語モデル - 環境構築手順と実験ソースコード
 
 
 ## 4/1
@@ -3834,14 +3834,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.amazon.co.jp/dp/4621308882?_encoding=UTF8&psc=1&ref_=cm_sw_r_tw_ud_dp_RW79QAZKZRQ7K9N885XB
 	- フェーズフィールド法においても,実験データを活用して物性値やパラメータを推定しつつ,シミュレーション精度を高められるような,データ同化と融合した手法の開発が進んでいる.そこで本書でも,データ同化の基礎からフェーズフィールドモデルへの実装方法まであわせて紹介する.
 	- フェーズフィールド法では、秩序変数の拡散方程式と反応方程式を同時に解くことで、組織形成過程を計算します。拡散方程式は、秩序変数が拡散する際の挙動を記述する方程式です。反応方程式は、相の変化を記述する方程式です。
-	- フェーズフィールド法は、金属の凝固、多結晶粒成長、拡散相変態など、さまざまな材料組織形成過程の計算に用いられています。また、応力場や電磁場における組織形成やナノスケールにおけるモデル化など、マルチスケール・マルチフィジックスを対象とした種々の工学分野にも応用されています。
-- 「マスターアルゴリズム」の著者、Domingos氏、Q*-lear
+	- フェーズフィールド法は、金属の凝固、多結晶粒成長、拡散相変態など、さまざまな材料組織形成過程の計算に用いられています。また、応力場や電磁場における組織形成やナノスケールにおけるモデル化など、マルチスケール・マルチフィジックスを対象とした種々の
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzA3MzUxMywtMTE3MTkxMjk1MSwxNz
-k4MzUwNzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUy
-NzAzNCwtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMT
-g2OTg1ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0
-MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MD
-csODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0x
-Nzc3MzM2MDNdfQ==
+eyJoaXN0b3J5IjpbNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OT
+gzNTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3
+MDM0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxOD
+Y5ODU4NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQx
+NzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNy
+w4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3
+NzczMzYwM119
 -->
