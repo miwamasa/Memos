@@ -35,6 +35,10 @@
 	- MMD（MikuMikuDance）のインポートと利用を可能にするMMDローダーとランタイムが追加されました。IKソルバ、オーディオ同期再生、プレイヤーコントロールなどの機能も用意されています。
 - CMUもStanfordもColumbiaもCS修士のインターン内定率2割
 	- https://x.com/fzw1212/status/1774218929100988506
+-  LLaMA Now Goes Faster on CPUs
+	- https://justine.lol/matmul/
+	- 84 new matrix multiplication kernels for llamafile
+	- between 30% and 500% faster when using F16 and Q8_0 weights on CPU. 
 - 
 
 
@@ -3826,16 +3830,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Q*のもともとのアイデアを出した論文著者が自論文を宣伝
 	- https://x.com/McaleerStephen/status/1727524295377596645?s=20
 	-  A* Search Without Expansions: Learning Heuristic Functions with Deep Q-Networks
-	- https://arxiv.org/abs/2102.04518
-- Q*について著名なデータサイエンティストErnest Okumuraさんのコメント
-	- https://x.com/pacocat/status/1728052432016470281?s=20
-	- Q*がQ-learningから来ているかは知らないけれども、制作者にとって好ましい出力を得るために方策空間を探索する技術は今後さらに求められていくと思うし、RLHFみ
+	- https://arxiv.org/abs/2102.045
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTg4NzEzNywxNzk4MzUwNzk2LC0xMj
-gwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAz
-MDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4Mj
-EyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEw
-NTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC
-0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMx
-MjY4MTc4MV19
+eyJoaXN0b3J5IjpbLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMT
+I4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkw
+MzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xOD
+IxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMx
+MDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4Ny
+wtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC0z
+MTI2ODE3ODFdfQ==
 -->
