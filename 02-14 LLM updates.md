@@ -158,7 +158,9 @@
 -  1bit LLM の時代は来るのか，来ないのか，どっちなんだい？
 	- https://note.com/ipsj/n/ncbe5746f71fb
 	- 三値のBitNetについて、情報処理学会の会誌に解説を書かせていただきました
-	- 
+	- 「モデルを大きくすると精度の逆転現象が起こるのだとすると，量子化というのはこれまで想定されていたよりもかなり優れたアイディアなのではないか？」
+	- b1.58論文の中身について解説してきましたが，いかがでしたでしょうか．個人的には，この論文には賛否両論があると考えています．
+	- 肯定的な見地からは，精度の逆転現象が本当ならば大きな発見であり，自然言語処理分野への大きな貢献となり得る
 
 .
 
@@ -3813,16 +3815,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Hypotheses devised by AI could find ‘blind spots’ in research
 	- https://www.nature.com/articles/d41586-023-03596-0
 	- AIが仮説を生成する際に直面する課題として、データの不足、物理的な法則の理解、仮説の一般性と解釈性などが挙げられています。
-	- AIが仮説を生成する可能性として、人間が思いつかないような「異質な」仮説や、実験を自動化する「ロボット科学者」などが紹介されています
--  Summon a Demon and Bind it: A Grounded Theory of LLM Red Teaming in the Wild
-	- https://arxiv.org/abs/2311.06237
-	- 大規模言語モデル(LLM)をしばき倒して、異常な振る舞いをさせようとしている人達（野良のLLMレッドチーム）へのインタ
+	- AIが仮説を生成する可能性として、人間が思いつかないような「異質な」仮説や、実験を自動化する「ロボット
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM5NTgxMzMsLTE3Njc5ODIzMTYsNj
-U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
-NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
-csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
-MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
-kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
-NDg1Mjk4ODFdfQ==
+eyJoaXN0b3J5IjpbLTU2OTQ1NzI4NSwtMTc2Nzk4MjMxNiw2NT
+Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
+NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
+w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
+MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
+MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
+ODUyOTg4MV19
 -->
