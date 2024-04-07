@@ -167,7 +167,7 @@
 	- https://python.langchain.com/docs/integrations/chat/anthropic/#beta-tool-calling
 - Command R+オープン系としては洒落にならんほど知性を感じる
 	- https://x.com/_kaiinui/status/1775928745775534189
-- 
+-  OpenAI の ファイチューニングAPI の新機能 
 
 .
 
@@ -3817,13 +3817,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.theverge.com/2023/11/18/23966980/meta-disbanded-responsible-ai-team-artificial-intelligence
 	- metaが責任あるAIのチームを解散させた
 - 状態空間モデリング入門
-	- https://www.no-spare.com/st
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Mzc1MTQ5NywtMTc2Nzk4MjMxNiw2NT
-Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
-NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
-w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
-MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
-MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
-ODUyOTg4MV19
+eyJoaXN0b3J5IjpbLTE4NTE1NzAwMTcsLTE3Njc5ODIzMTYsNj
+U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
+NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
+csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
+MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
+kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
+NDg1Mjk4ODFdfQ==
 -->
