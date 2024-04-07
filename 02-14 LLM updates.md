@@ -217,7 +217,11 @@
 	- LoRAのようにweightに介入する fine tuning ではなく、潜在（中間）表現に介入する fine tuning である、ReFT (Representation Finetuning) というフレームワークとその一つの実現例である Low-rank Linear Subspace ReFT (LoReFT) の提案。
 - google/gemma-1.1-7b-it
 	- https://huggingface.co/google/gemma-1.1-7b-it
-	- 
+	- This is Gemma 1.1 7B (IT), an update over the original instruction-tuned Gemma release.
+- HachiML/Swallow-MS-7b-v0.1-MathSkill-OpenMath
+	- https://huggingface.co/HachiML/Swallow-MS-7b-v0.1-MathSkill-OpenMath
+	- Chat Vectorの理論で作ったMath強化モデル、HuggingFaceに置きました
+- 
 
 .
 
@@ -3819,13 +3823,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  データ不足に数理モデルで立ち向かう / Japan.R 2023
 	- https://speakerdeck.com/dropout009/japan-dot-r-2023
 - Harsha Nori et al., "Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine"
-	- https://arxiv.org/abs/2311.16452
-	- これまでGPT-4などの基盤モデルは、医学などの専門分野で特化モデルには敵わないと考えられてきました。 しかし、「実際はどうなのか？」と考えた研究者らは、特別なトレーニングなしのGPT-4が、プロンプトの工夫のみでどこまで性能を示すのかを検証しました。
-	- ① アメリカの医学試験「US (4-option)」で90.2％という高い正解率を出した
-	-  ② 理由付けが必要なタイプの問題データセットPubMedQAで82.0％の正解率を達成
--  日常能力を試すテスト『GAIA』正答
+	- https://arxiv.org/ab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTk5NjYxMywtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
