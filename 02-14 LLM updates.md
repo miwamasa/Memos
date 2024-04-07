@@ -131,7 +131,7 @@
 	- GroqInc just dropped tool calling!
 	- We've added LangChain support (including the popular `withStructuredOutput` method!) so you can try it in your favorite chains and apps.
 	- It supports MistralAI, Mixtral, Llama 70B, and Google Gemma.
-- 
+-  Chat Vectorを使って日本語LLMをチャットモデルに改造する
 
 .
 
@@ -3827,14 +3827,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Large-scale pancreatic cancer detection via non-contrast CT and deep learning
 	- https://www.nature.com/articles/s41591-023-02640-w
 	- ｢単純CTの膵臓がん検出AI｣
-	- 単純CTでの膵臓がん検は不可能と考えられてきた 
-	- そのAIを開選定、
+	- 単純
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzM3Mjc2MiwtMTc2Nzk4MjMxNiw2NT
-Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
-NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
-w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
-MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
-MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
-ODUyOTg4MV19
+eyJoaXN0b3J5IjpbOTg0MDMzODMzLC0xNzY3OTgyMzE2LDY1ND
+c5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0
+MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LD
+c4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAx
+NjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5My
+wyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4
+NTI5ODgxXX0=
 -->
