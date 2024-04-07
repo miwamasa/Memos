@@ -150,7 +150,10 @@
 -  Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models
 	- https://huggingface.co/papers/2404.02575
 	- This paper presents Think-and-Execute, a novel framework that decomposes the reasoning process of language models into two steps.
-	- 
+	- (1) In Think, we discover a task-level logic that is shared across all instances for solving a given task and then express the logic with pseudocode; 
+	- (2) In Execute, we further tailor the generated pseudocode to each instance and simulate the execution of the code.
+- Mixture-of-Depths
+- 
 
 .
 
@@ -3812,18 +3815,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - アルトマン氏、ゲストカードを使って、OpanAIを訪問
 	- https://x.com/sama/status/1726345564059832609?s=20
 	- first and last time i ever wear one of these
--  ChipNeMo: Domain-Adapted LLMs for Chip Design
-	- https://arxiv.org/abs/2311.00176
-	- ChipNeMoはチップ設計支援向けにドメイン適応したLLM。開発支援Chatbot、EDAスクリプト生成、バグ要約と分析を行う。既存LLMに、専用トークンを追加した後、ドメイン適応事前事前学習（DAPT 230億トークン）、指示学習（1000例）をし、ドメイン適応検索補強を行う
-- マイクロソフトのナデラ氏、アルトマン氏たちがマイクロソフトにJoinすると、、
-	- https://x.com/satyanadella/status/1726509045803336122?s=20
--
+-  ChipNeMo: Domain-Adapted LLMs for Chip 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwNjY0MzI2LC0xNzY3OTgyMzE2LDY1ND
-c5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0
-MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LD
-c4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAx
-NjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5My
-wyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4
-NTI5ODgxXX0=
+eyJoaXN0b3J5IjpbLTE0NDAyMjY2OTksLTE3Njc5ODIzMTYsNj
+U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
+NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
+csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
+MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
+kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
+NDg1Mjk4ODFdfQ==
 -->
