@@ -95,7 +95,13 @@
 	- 今回は、多言語のRerankerモデル「**BAAI/bge-reranker-v2-m3**」を使います。top_n=5で関連性の高い5件に絞ります。
 -  Semantic Routerを試す
 	- https://zenn.dev/kun432/scraps/73b098e774bd21
+	- LLMやエージェントの意思決定のルーティングを行うSemantic Routerを試してみた。ルーティングだけじゃなく、セマンティックなチャンク分割にも使える。 ベクトル検索の使い方はいろいろな可能性がありそう。
+	- クエリで処理を分岐させたいようなケースは、Function Callingを使ってLLMにルーティングさせるとかがあると思うのだけど、事前にクエリのサンプルを用意しておいてベクトル検索でルーティングさせるというようなもの。
 	- LangChainのエージェントと組み合わせた例。
+- 4/23(火)に、Sakana AI初のイベントやります！Grow-AI、Arayaの方々と我々のトークがあります
+	- https://x.com/iwiwi/status/1775367258040410519
+- 2x7Bの日本語チャット・ノベル専用高性能モデル。
+	- 
 
 
 ## 4/1
@@ -3832,16 +3838,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Intel謹製の、LLMが、リーダーボードで上位の性能をはじき出す
 	- https://x.com/Yampeleg/status/1727679553714217421?s=20
 	- https://huggingface.co/Intel/neural-chat-7b-v3-1
-	- A 7B model from Intel almost as capable as Falcon 180B:これは本当か！！！
-	- Base model: Mistral 7B. 
-	- Fine Tuned on: SlimOrca 
-	- DPO: LLaMA-13B vs ChatGPT Gens (Prefer ChatGPT)
-- An Embodied Generalist Agent in 3D World
-	- https://huggingface.co/papers/2311.12871
-	- ３D世界の中で身体性をもった汎用エージェント
-	- 3D世界に対して、いわば記号接地するような訓練をすることで身体性(embodiment)を取得、自然言語処理、コンピュータビジョン、ロボティクスなどの多様なドメインで汎用的なタスクを解決できる汎用エージェントが
+	- A 7B model from Intel almo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2NjE5OTMzLC0xNzY3OTgyMzE2LDY1ND
+eyJoaXN0b3J5IjpbODMxNzY2NTQ0LC0xNzY3OTgyMzE2LDY1ND
 c5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0
 MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LD
 c4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAx
