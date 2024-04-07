@@ -147,7 +147,10 @@
 	- Apple's 3B LLM(ReALM ) Outperforms GPT-4
 	- ReALM significantly improves how conversational assistants like Siri or Alexa can understand the way humans naturally talk. Imagine you're looking at a list of restaurants on your smartphone and you say "direct me to the one on Main Street" -
 	-  ReALM is able to understand which restaurant you're referring to, even though you didn't specify the exact name.
-- 
+-  Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models
+	- https://huggingface.co/papers/2404.02575
+	- This paper presents Think-and-Execute, a novel framework that decomposes the reasoning process of language models into two steps.
+	- 
 
 .
 
@@ -3814,16 +3817,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ChipNeMoはチップ設計支援向けにドメイン適応したLLM。開発支援Chatbot、EDAスクリプト生成、バグ要約と分析を行う。既存LLMに、専用トークンを追加した後、ドメイン適応事前事前学習（DAPT 230億トークン）、指示学習（1000例）をし、ドメイン適応検索補強を行う
 - マイクロソフトのナデラ氏、アルトマン氏たちがマイクロソフトにJoinすると、、
 	- https://x.com/satyanadella/status/1726509045803336122?s=20
-- マイクロソフトによる生成AIのチュートリアル
-	- https://github.com/microsoft/generative-ai-for-beginners
-	- The free 12 lesson course is available on Github and will teach you everything you need to know to start building Generative AI applications.
--  Learning to Filter Context for Retrieval-Augmented Generatio
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTcwNDQzNSwtMTc2Nzk4MjMxNiw2NT
-Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
-NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
-w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
-MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
-MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
-ODUyOTg4MV19
+eyJoaXN0b3J5IjpbNzUwNjY0MzI2LC0xNzY3OTgyMzE2LDY1ND
+c5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0
+MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LD
+c4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAx
+NjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5My
+wyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4
+NTI5ODgxXX0=
 -->
