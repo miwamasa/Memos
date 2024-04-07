@@ -39,7 +39,10 @@
 	- https://justine.lol/matmul/
 	- 84 new matrix multiplication kernels for llamafile
 	- between 30% and 500% faster when using F16 and Q8_0 weights on CPU. 
-- 
+- Gecko: Versatile Text Embeddings Distilled from Large Language Models
+	- https://huggingface.co/papers/2403.20327
+	- Googleから、Gecko組み込みモデル、LLMを蒸留した？？謎
+- LMFlowでLlama2-70BのLISAファインチューニングがあっさり動いた
 
 
 ## 4/1
@@ -3827,16 +3830,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 自動運転システムなどを手掛けるセンスタイム社による
 	- ControlPEは競合技術と比較してもプロンプトの影響をこまかく調整できる手法
 	- ① LoRAを利用するアプローチ ② プロンプトの影響を連続的に微調整 ③ 従来のプロンプトエンジニアリングを補完する
-- Q*のもともとのアイデアを出した論文著者が自論文を宣伝
-	- https://x.com/McaleerStephen/status/1727524295377596645?s=20
-	-  A* Search Without Expansions: Learning Heuristic Functions with Deep Q-Networks
-	- https://arxiv.org/abs/2102.045
+- Q*のもともとのアイデアを出した論
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMT
-I4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkw
-MzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xOD
-IxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMx
-MDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4Ny
-wtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC0z
-MTI2ODE3ODFdfQ==
+eyJoaXN0b3J5IjpbNTUyMDU2MTcxLC0xMTcxOTEyOTUxLDE3OT
+gzNTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3
+MDM0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxOD
+Y5ODU4NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQx
+NzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNy
+w4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3
+NzczMzYwM119
 -->
