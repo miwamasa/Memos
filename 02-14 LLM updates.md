@@ -201,6 +201,9 @@
 - pfnet/nekomata-14b-pfn-qfin
 	- https://huggingface.co/pfnet/nekomata-14b-pfn-qfin
 	- rinna社のnekomata-14bを金融向けにチューニングしたLLMを公開しました！ これは、まだまだ金融分野へのLLM応用につながる第一歩でしかないと思うので、もっと研究開発を進めていきたいと思います。
+- Qwen1.5-32B release
+	- https://github.com/QwenLM/Qwen1.5
+	- Qwen1.5 72B has been the best open model on Chatbot Arena leaderboard. Very excited to see how the 32B performs!
 - 
 
 .
@@ -3829,13 +3832,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 11/27
 
-アルトマン氏解任劇は、マイクロソフトがアルトマン氏の受け入れを表明するも、OpenAIの主要メンバがアルトマン氏に追従すると表明したのでボードが復帰を懇願、結局OpenAIのCEOとして戻ることで幕引き。解任劇の背後には、OpenAIでAGI（スーパーAI)を達成する見込みが立った、それがQ*というLLMで、従来のLLMが苦手だった数の推論が可能になった
+アルトマ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzU1NzM3MTksLTE3Njc5ODIzMTYsNj
-U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
-NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
-csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
-MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
-kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
-NDg1Mjk4ODFdfQ==
+eyJoaXN0b3J5IjpbLTc2MzMzOTk3NiwtMTc2Nzk4MjMxNiw2NT
+Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
+NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
+w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
+MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
+MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
+ODUyOTg4MV19
 -->
