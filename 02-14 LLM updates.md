@@ -154,7 +154,8 @@
 	- This paper presents Think-and-Execute, a novel framework that decomposes the reasoning process of language models into two steps.
 	- (1) In Think, we discover a task-level logic that is shared across all instances for solving a given task and then express the logic with pseudocode; 
 	- (2) In Execute, we further tailor the generated pseudocode to each instance and simulate the execution of the code.
-- Mixture-of-Depths
+- #Mixture-of-Depths: Dynamically allocating compute in transformer-based language models
+	- 
 -  1bit LLM の時代は来るのか，来ないのか，どっちなんだい？
 	- https://note.com/ipsj/n/ncbe5746f71fb
 	- 三値のBitNetについて、情報処理学会の会誌に解説を書かせていただきました
@@ -3814,10 +3815,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 埋め込み（ベクトル化）の辞書作成への応用とか、枕草子を題材に埋め込みをつかたｔ類似検索してみる例が、英語による検索、絵文字による検索、クリエーティブな検索など事例があって面白い
 - Shicheng Liu et al., "SUQL: Conversational Search over Structured and Unstructured Data with Large Language Models"
 	- https://arxiv.org/abs/2311.09818
-	- LLMベースの新しい言語『SUQL』が開発されました。SQLを拡張して「非構造化データのクエリ」を処理するパラダイムを導入
-	- 『SUQL（Structured 
+	- LLMベースの新
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjAwMjE2OSwtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbLTk0NTA5NzgwNiwtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
