@@ -28,7 +28,7 @@
 	- https://speakerdeck.com/pfn/llmnoxian-zai
 -  MetaWorm: A Complete Model Bridging Brain, Body and Environment of  _C. elegans_
 	- https://www.biorxiv.org/content/10.1101/2024.02.22.581686v1
-	- BAAIのけんきゅ
+	- BAAIの研究、生物の脳、身体、環境の間の複雑な相互作用を線虫（C. elegan）を材料に解析
 
 
 ## 4/1
@@ -3829,14 +3829,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Sliding Window Attenion、Dilated Sliding Window Attention、Global Attentionという3つのAttentionを使ってTransformernの計算量を削減した  
 	- 計算量を削減しただけではなくて，当時のSOTAを達成している．
 -  Llemma: An Open Language Model For Mathematics
-	- https://arxiv.org/abs/2310.10631
-	- どうも、LLMをつか
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTcyMjQxNywxNzk4MzUwNzk2LC0xMj
-gwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAz
-MDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4Mj
-EyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEw
-NTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC
-0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMx
-MjY4MTc4MV19
+eyJoaXN0b3J5IjpbLTE3NjA2ODAyNjMsMTc5ODM1MDc5NiwtMT
+I4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkw
+MzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xOD
+IxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMx
+MDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4Ny
+wtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC0z
+MTI2ODE3ODFdfQ==
 -->
