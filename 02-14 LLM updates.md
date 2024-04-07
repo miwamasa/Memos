@@ -132,6 +132,12 @@
 	- We've added LangChain support (including the popular `withStructuredOutput` method!) so you can try it in your favorite chains and apps.
 	- It supports MistralAI, Mixtral, Llama 70B, and Google Gemma.
 -  Chat Vectorを使って日本語LLMをチャットモデルに改造する
+	- https://qiita.com/jovyan/items/ee6affa5ee5bdaada6b4
+	- Chat Vector: A Simple Approach to Equip LLMs with Instruction Following and Model Alignment in New Languages
+	- LLMの学習済み重みパラメータの足し引きによって、事前学習済みモデルに対話能力を与えることができるという結果が示されています。
+	- 具体的には、英語で事前学習されたモデル（以下ではベースモデルと呼びます）と、ベースモデルを指示チューニング (instruction tuning)してチャット形式の対話ができるようにしたモデル（英語チャットモデル）、ベースモデルを英語以外の言語で継続事前学習したモデルの３つのモデルを用います。
+	- 英語チャットモデルの重みからベースモデルの重みを引いたものは、チャット形式で対話ができる能力を表したベクトルであり、そのベクトルを他言語の継続事前学習モデルの重みに加えることで他言語のモデルにチャット形式の対話能力を付与できるという
+- 
 
 .
 
@@ -3818,22 +3824,12 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/npaka/n/n46e6ad252ce1?sub_rt=share_h
 	- 「Azure OpenAI Service」で「gpt-3.5-turbo」を使用する手順をまとめました。
 -  Orca 2: Teaching Small Language Models How to Reason
-	- https://huggingface.co/papers/2311.11045
-	- 小さいことはいいことだ
--  Introducing RAGs: Your Personalized ChatGPT Experience Over Your Data
-	- https://blog.llamaindex.ai/introducing-rags-your-personalized-chatgpt-experience-over-your-data-2b9d140769b1
-	- llamaindexのJerryが放つ、streamlitをつかった、RAGアプリ生成ツールRAGs
-	- “ChatGPT over your data” without needing to code.
-- Large-scale pancreatic cancer detection via non-contrast CT and deep learning
-	- https://www.nature.com/articles/s41591-023-02640-w
-	- ｢単純CTの膵臓がん検出AI｣
-	- 単純
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0MDMzODMzLC0xNzY3OTgyMzE2LDY1ND
-c5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0
-MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LD
-c4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAx
-NjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5My
-wyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4
-NTI5ODgxXX0=
+eyJoaXN0b3J5IjpbMTA1OTUxMzM1NSwtMTc2Nzk4MjMxNiw2NT
+Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
+NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
+w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
+MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
+MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
+ODUyOTg4MV19
 -->
