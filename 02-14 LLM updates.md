@@ -3,11 +3,35 @@
 
 ## 4/8
 
+今週も情報が早すぎて、もやは追いつけません。ベクトルDBのベンダーかと思っていたCohereから、
+
 最新のLLMの研究動向や開発状況に関する記事が多数収録されています。因果推論の実用化、翻訳モデル、データセット構築の取り組み、OpenAIの日本拠点開設など、さまざまな話題が取り上げられています。また、スケーリングやモデル設計、生物を対象とした研究なども紹介されています。LLMの量子化や小規模ベンチマークタスクでの性能評価についても言及されています。
 
 さらに、新しいモデルのリリースやファインチューニングの紹介も多数あります。Swallow MXシリーズ、Gemma、ReALM、Command R+、Qwenなど、さまざまなモデルが登場しています。ローカル実行やMLXでの動作についても触れられています。ファインチューニングAPIの新機能や、表現ファインチューニングの新手法なども取り上げられています。
 
 その他、LLMを使ったアプリケーション開発の実例や、LLMベースの検索システム、ノートテイキングツールなども紹介されています。RAGやベクトル検索の活用方法、エージェントとの連携なども示されています。また、LLMの関数呼び出し機能の実装例も収録されています。
+
+
+
+**2. ファインチューニング**
+-   **Reranker**: 検索結果のランキング精度向上に役立つRerankerモデルの開発が進んでいます。
+-   **Tool**: LLMを様々なタスクに活用するためのツールが開発されています。
+
+**3. 応用**
+-   **情報検索**: LLMは従来の検索エンジンを超える、より高度な情報検索能力を備えています。
+
+
+**4. その他**
+
+-   **因果推論**: LLMを用いて、事象間の因果関係を推測する研究が進められています。
+-   **倫理**: LLMの開発と利用における倫理的な問題も議論されています。
+
+**5. 最新情報**
+
+-   **OpenAI**: OpenAIは、ファインチューニングAPIの機能強化や、新しいLLMモデルの開発を進めています。
+-   **Apple**: Appleは、スマホ画面を理解してユーザーと対話できるLLMモデル「ReALM」を発表しました。
+-   **Cohere**: Cohereは、日本語を含む10の主要言語に対応したLLMモデル「Command R+」を公開しました。
+-   **Google**: Googleは、7Bパラメータの日本語LLMモデル「Gemma」を公開しました。
 
 - ビジネスの実務で「因果」を推測するということ by TJOさん
 	- https://tjo.hatenablog.com/entry/2024/02/28/174811
@@ -3804,31 +3828,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 生成される日本語はまあまあであるが, 構文やコンテキストがおかしい...
 	- ファインチューンしても間違えたり...
 	- まあでも 1B 規模なら妥当なのかもしれません
-- 今号の『日本語の研究』で「和歌集の歌風の言語的差異の記述ー大規模言語モデルによる分析ー」と題して、OpenAIのtext-embeddingを使って、『万葉集』と『古今集』の意味構造の差を解析してみました。
-	- https://www.musashinoshoin.co.jp/shoseki/view/2976/
-- Energy and entropy: Path from game theory to statistical mechanics
-	- https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.043055
-	- エネルギーを低くするのが目標のプレーヤーと，エントロピーを上げるのが目標のプレーヤーの交渉ゲームにおける最適な戦略を通して熱平衡化を議論するらしい
-- gpt-fast
-	- https://github.com/pytorch-labs/gpt-fast
-	- LLMをPytorchだけでどれだけ高速化できるかチャレンジしたリポジトリ Llama-7Bが10倍速くなっている 
-	- Pytorchで使える高速化技術をいろいろ盛り込んでるぽっくて、中身見るのも勉強になりそう
-- 日本語LLMでLLaVAの学習を行ってみた
-	- https://qiita.com/toshi_456/items/248005a842725f9406e3
-- googleから新しい翻訳トランスフォーマーを発表
-	- Unsupervised speech-to-speech translation from monolingual data
-	- https://blog.research.google/2023/12/unsupervised-speech-to-speech.html
--  業界別生成AI活用のすゝめ
-	- https://www2.deloitte.com/jp/ja/pages/about-deloitte/articles/about-deloitte-japan/ai-dossier-2023.html?id=jp:2pm:3tw:4daii-genaidossier:5:6abt:20231201::
-	- デロイトトーマツ
--  Microsoft Copilot is now generally available
-	- https://blogs.bing.com/search/december-2023/Microsoft-Copilot-is-n
+- 今号の『日本語の研
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTA4NDk4LDE3MTg0MDM3OTksLTE3Nj
-c5ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3
-OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC
-02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4
-NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC
-0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTky
-NzMxODddfQ==
+eyJoaXN0b3J5IjpbLTE2NDk3MzExODgsMTcxODQwMzc5OSwtMT
+c2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1
+MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMz
+QsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4
+NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3OD
+AsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgx
+OTI3MzE4N119
 -->
