@@ -65,6 +65,13 @@
 - BItNet-Transformerの学習済みモデルが公開されている
 	- 1bitLLM/bitnet_b1_58-large
 - NLP2024 チュートリアル３: 作って学ぶ日本語大規模言語モデル - 環境構築手順と実験ソースコード
+	- https://github.com/hiroshi-matsuda-rit/NLP2024-tutorial-3
+	- 日本語LLMの学習・評価に用いられる技術とデータセットについて広く取り上げています。是非ご覧ください。
+	- 講演スライドと実験環境構築手順・ソースコードはGitHubリポジトリで公開しています
+	- リクルートの松田寛さん
+- 東工大のSwallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルだろうね…
+	- https://x.com/Meteor_Eternal/status/1775096408435216766
+- 
 
 
 ## 4/1
@@ -3832,15 +3839,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- When it comes to #tabulardata and #timeseries (by far the most important majority of data for almost any real company), deep learning is not one needs. 
 - Pythonによるフェーズフィールド法入門: 基礎理論からデータ同化の実装まで
 	- https://www.amazon.co.jp/dp/4621308882?_encoding=UTF8&psc=1&ref_=cm_sw_r_tw_ud_dp_RW79QAZKZRQ7K9N885XB
-	- フェーズフィールド法においても,実験データを活用して物性値やパラメータを推定しつつ,シミュレーション精度を高められるような,データ同化と融合した手法の開発が進んでいる.そこで本書でも,データ同化の基礎からフェーズフィールドモデルへの実装方法まであわせて紹介する.
-	- フェーズフィールド法では、秩序変数の拡散方程式と反応方程式を同時に解くことで、組織形成過程を計算します。拡散方程式は、秩序変数が拡散する際の挙動を記述する方程式です。反応方程式は、相の変化を記述する方程式です。
-	- フェーズフィールド法は、金属の凝固、多結晶粒成長、拡散相変態など、さまざまな材料組織形成過程の計算に用いられています。また、応力場や電磁場における組織形成やナノスケールにおけるモデル化など、マルチスケール・マルチフィジックスを対象とした種々の
+	- フェーズフィールド法においても,実験データを活用して物性値やパラメータを推定しつつ,シミュレーション精度を高められるような,データ同化と融合した手法の開発
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OT
-gzNTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3
-MDM0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxOD
-Y5ODU4NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQx
-NzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNy
-w4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3
-NzczMzYwM119
+eyJoaXN0b3J5IjpbLTc5NTU0NzM3NCw2NTQ3OTc1NTksLTExNz
+E5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjcz
+NTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLT
+cwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5
+NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNC
+wtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2
+MDg2OTYzMl19
 -->
