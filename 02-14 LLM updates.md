@@ -14,8 +14,9 @@ RAGではReranker が話題に、類似度の高いチャンクを選択した�
 
  Mixture-of-Depthsとか、ファインチューニングのReFTとか、新しい知見が次々にでてきたが、なんといっても、今週はChat VectorというLLMの足し算引き算ができる技術、wordvectorのようなベクトル計算がLLMでもできるなんてすごすぎる。MoEとならんではやりの手法になるかも。
 
-Claude3でfunction callingがサポート、さっそくlangchainkara
+Claude3でfunction callingがサポート、さっそくlangchainから、Claude3をつかったエージェント実装が出た。
 
+BAAIのMetaWorm論文、線虫を研究して、身体性の謎を解決？
 
 最新のLLMの研究動向や開発状況に関する記事が多数収録されています。因果推論の実用化、翻訳モデル、データセット構築の取り組み、OpenAIの日本拠点開設など、さまざまな話題が取り上げられています。また、スケーリングやモデル設計、生物を対象とした研究なども紹介されています。LLMの量子化や小規模ベンチマークタスクでの性能評価についても言及されています。
 
@@ -3822,7 +3823,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- まあでも 1B 規模なら妥当なのかもしれません
 - 今号の『日本語の研
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDY0OTk4MiwxNzE4NDAzNzk5LC0xNz
+eyJoaXN0b3J5IjpbLTc5NjM3NzIxMCwxNzE4NDAzNzk5LC0xNz
 Y3OTgyMzE2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUw
 Nzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNC
 wtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1
