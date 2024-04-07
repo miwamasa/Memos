@@ -183,7 +183,16 @@
 	- https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/agent/anthropic_agent.ipynb
 - Generating text with 4-bit 104B ⌘R+ in MLX on an M2 Ultra. Runs pretty well:
 	- https://x.com/awnihannun/status/1776081238467768493
-- Command R の 概要 
+- Command R の 概要 by npakaさん
+	- https://note.com/npaka/n/naa6add7a892f?sub_rt=share_h
+	- 「Command R」は、「RAG」や「Tool」などの長いコンテキストタスク向けに最適化されたLLMです。CohereのEmbeddingおよびRerankと連携して動作するように設計されており、RAGアプリケーションに最高クラスの統合を提供し、エンタープライズユース ケースで優れています。
+	- ・RAGとToolの使用に関する高い精度
+	- ・低遅延、高スループット
+	- ・128Kコンテキスト長、価格が安い
+	- ・10の主要言語に対応 (日本語含む)
+	- ・研究・評価のためにHuggingFaceでウェイトを公開
+	- https://huggingface.co/CohereForAI
+- 
 
 .
 
@@ -3811,17 +3820,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 11/27
 
-アルトマン氏解任劇は、マイクロソフトがアルトマン氏の受け入れを表明するも、OpenAIの主要メンバがアルトマン氏に追従すると表明したのでボードが復帰を懇願、結局OpenAIのCEOとして戻ることで幕引き。解任劇の背後には、OpenAIでAGI（スーパーAI)を達成する見込みが立った、それがQ*というLLMで、従来のLLMが苦手だった数の推論が可能になった、Q*の取り扱いを巡り解任騒動が起きた、といううわさで持ち切りに。Q*-learningがそれでは？みたなことになって様々なところで盛り上がっている。それ以外では、intelが満を持してneural-chat-7b-v3-1を公開、Mistral 7Bベースなんだけど、様々なチューニングにより相当性能が良いみたい、しかしFalcon 180B越えということはないと思うぞ。AnthropicAIが200kのコンテキストを扱えるClaude2.1を発表、デモ版が利用可能で、さっそく結構長文の日本語のPDFをそのまま投入できるとか、エバンゲリオン世界のシミュレーションを動かしてみたとか話題に。「３D世界の中で身体性をもった汎用エージェント」の論文、いや 「未来の二つの顔」（ホーガン）のAI（仮想３D空間シミュレーションで身体性を学習させる）を彷彿させる世界が現実になったような気がする。データベースに対するQ&Aにおいて、SQL文を生成される方法と、データベースの内容をいったん知識グラフにしてQ&Aする方法を比較し、後者のほうが高性能との報告も。まあコンテキストというかそういうのを与えたほうがいいに決まっているのだが。RAGにおいても、コンテキストをフィルタリングするのが有効らしい、そのあたりにまだ人の工夫の余地が残っている。Llemmaは、LLMで数学の問題を解くのに、定理証明器を使うことを前提にしたPythonコードを出力することで実現、LLMを活用して問題を解くメタなアプローチ（直接解くのではなくて、解く手順・方案を生成する）の１つ。LLMベースの新しい言語『SUQL』もいい感じで非構造データを扱えるらしいが、例題がレストランの会話とは第２世代AIにおけるフレーム問題ぽくていいね！AIが人間が思いつかないような「異質な」仮説を生成することで、科学が進化する、かも。ChatGPTをつかって、部屋を片付けている人がいた、これはすごい応用だ！OECDのAIの定義も生成AIや基盤モデルを鑑み４年ぶりに改定、人の指示に従わずとも、入力に対して自らのとるべき動作を推測するメタ能力についも暗示、もはやAIに対するソフトウエア的な品質保証は不可能な事態へ。
-
--  Banach-Tarski Embeddings and Transformers
-	- https://arxiv.org/abs/2311.09387
-	- 再帰的なデータ構造の線型空間での表現（バナッ
+アルトマン氏解任劇は、マイクロソフトがアルトマン氏の受け入れを表明するも、OpenAIの主要メンバがアルトマン氏に追従すると表明したのでボードが復帰を懇願、結局OpenAIのCEOとして戻ることで幕引き。解任劇の背後には、OpenAIでAGI（スーパーAI)を達成する見込みが立った、それがQ*というLLMで、従来のLLMが苦手だった数の推論が可能になった、Q*の取り扱いを巡り解任騒動が起きた、といううわさで持ち切りに。Q*-learningがそれでは？みたなことになって様々なところで盛り上がっている。それ以外では、intelが満を持してneural-chat-7b-v3-1を公開、Mistral 7Bベースなんだけど、様々なチューニングにより相当性能が良いみたい、しかしFalcon 180B越えということはないと思うぞ。AnthropicAIが200kのコンテキストを扱えるClaude2.1を発表、デモ版が利用可能で、さっそく結構長文の日本語のPDFをそのまま投入できるとか、エバンゲリオン世界のシミュレーションを動かしてみたとか話題に。「３D世界の中で身体性をもった汎用エージェント」の論文、いや 「未来の二つの顔」（ホーガン）のAI（仮想３D空間シミュレーションで身体性を学習させる）を彷彿させる世界が現実になったような気がする。データベースに対するQ&Aにおいて、SQL文を生成される方法と、データベースの内容をいったん知識グラフにしてQ&Aする方法を比較し、後者のほうが高性能との報告も。まあコンテキストというかそういうのを与えたほうがいいに決まっているのだが。RAGにおいても、コンテキストをフィルタリングするのが有効らしい、そのあたりにまだ人の工夫の余地が残っている。Llemmaは、LLMで数学の問題を解くのに、定理証明器を使うことを前提にしたPythonコードを出力することで実現、LLMを活用して問題を解くメタなアプローチ（直接解くのではなくて、解く手順・方
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM3MzE0MDMsLTE3Njc5ODIzMTYsNj
-U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
-NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
-csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
-MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
-kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
-NDg1Mjk4ODFdfQ==
+eyJoaXN0b3J5IjpbMTgxMzk5NjM3LC0xNzY3OTgyMzE2LDY1ND
+c5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0
+MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LD
+c4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAx
+NjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5My
+wyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4
+NTI5ODgxXX0=
 -->
