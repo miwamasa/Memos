@@ -192,7 +192,11 @@
 	- ・10の主要言語に対応 (日本語含む)
 	- ・研究・評価のためにHuggingFaceでウェイトを公開
 	- https://huggingface.co/CohereForAI
-- 
+- Mistral 7Bベースの日本語チャットモデル ChatNTQ-JA-7B を試す
+	- https://sc-bakushu.hatenablog.com/entry/2024/04/04/091521
+	- 「chatntq_chatvector-MoE-Antler_chatvector-2x7Bchatntq_chatvector-MoE-Antler_chatvector-2x7B」という呪文のような日本語MoEモデル
+	- https://huggingface.co/Sdff-Ltba/LightChatAssistant-2x7B
+	- 
 
 .
 
@@ -3820,13 +3824,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 11/27
 
-アルトマン氏解任劇は、マイクロソフトがアルトマン氏の受け入れを表明するも、OpenAIの主要メンバがアルトマン氏に追従すると表明したのでボードが復帰を懇願、結局OpenAIのCEOとして戻ることで幕引き。解任劇の背後には、OpenAIでAGI（スーパーAI)を達成する見込みが立った、それがQ*というLLMで、従来のLLMが苦手だった数の推論が可能になった、Q*の取り扱いを巡り解任騒動が起きた、といううわさで持ち切りに。Q*-learningがそれでは？みたなことになって様々なところで盛り上がっている。それ以外では、intelが満を持してneural-chat-7b-v3-1を公開、Mistral 7Bベースなんだけど、様々なチューニングにより相当性能が良いみたい、しかしFalcon 180B越えということはないと思うぞ。AnthropicAIが200kのコンテキストを扱えるClaude2.1を発表、デモ版が利用可能で、さっそく結構長文の日本語のPDFをそのまま投入できるとか、エバンゲリオン世界のシミュレーションを動かしてみたとか話題に。「３D世界の中で身体性をもった汎用エージェント」の論文、いや 「未来の二つの顔」（ホーガン）のAI（仮想３D空間シミュレーションで身体性を学習させる）を彷彿させる世界が現実になったような気がする。データベースに対するQ&Aにおいて、SQL文を生成される方法と、データベースの内容をいったん知識グラフにしてQ&Aする方法を比較し、後者のほうが高性能との報告も。まあコンテキストというかそういうのを与えたほうがいいに決まっているのだが。RAGにおいても、コンテキストをフィルタリングするのが有効らしい、そのあたりにまだ人の工夫の余地が残っている。Llemmaは、LLMで数学の問題を解くのに、定理証明器を使うことを前提にしたPythonコードを出力することで実現、LLMを活用して問題を解くメタなアプローチ（直接解くのではなくて、解く手順・方
+アルトマン氏解任劇は、マイクロソフトがアルトマン氏の受け入れを表明するも、OpenAIの主要メンバがアルトマン氏に追従すると表明したのでボードが復帰を懇願、結局OpenAIのCEOとして戻ることで幕引き。解任劇の背後には、OpenAIでAGI（スーパーAI)を達成する見込みが立った、それがQ*というLLMで、従来のLLMが苦手だった数の推論が可能になった、Q*の取り扱いを巡り解任騒動が起きた、といううわさで持ち切りに。Q*-learningがそれでは？みたなことになって様々なところで盛り上がっている。それ以外では、intelが満を持してneural-chat-7b-v3-1を公開、Mistral 7Bベースなんだけど、様々なチューニングにより相当性能が良いみたい、しかしFalcon 180B越えということはないと思うぞ。AnthropicAIが200kのコンテキストを扱えるClaude2.1を発表、デモ版が利用可能で、さっそく結構長文の日本語のPDFをそのまま投入できるとか、エバンゲリオン世界のシミュレーションを動かしてみたとか話題に。「３D世界の中で身体性をもった汎用エージェント」の論文、いや 「未来の二つの顔」（ホーガン）のAI（仮想３D空間シミュレーションで身体性を学習させる）を彷彿させる世界が現実になっ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzk5NjM3LC0xNzY3OTgyMzE2LDY1ND
-c5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0
-MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LD
-c4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAx
-NjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5My
-wyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4
-NTI5ODgxXX0=
+eyJoaXN0b3J5IjpbMTY3OTUzNjAwNSwtMTc2Nzk4MjMxNiw2NT
+Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
+NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
+w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
+MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
+MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
+ODUyOTg4MV19
 -->
