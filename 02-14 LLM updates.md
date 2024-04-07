@@ -210,6 +210,13 @@
 	- https://sc-bakushu.hatenablog.com/entry/2024/03/30/195557
 	- 現在のllama.cppでは重要度行列(Importance Matrix)計算を利用することで[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)精度が改善できます。
 	- 特に4bit以下の低bit[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)を行う場合は、このiMatrix版の[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)が推奨されます
+- Apple MLX: Qwen-32B is out and now converted for MLX in 4 and 8 bits flavors.
+	- https://x.com/ivanfioravanti/status/1776327090452738315
+- ReFT: Representation Finetuning for Language Model
+	- https://arxiv.org/abs/2404.03592
+	- LoRAのようにweightに介入する fine tuning ではなく、潜在（中間）表現に介入する fine tuning である、ReFT (Representation Finetuning) というフレームワークとその一つの実現例である Low-rank Linear Subspace ReFT (LoReFT) の提案。
+- google/gemma-1.1-7b-it
+	- https://huggingface.co/google/gemma-1.1-7b-it
 	- 
 
 .
@@ -3816,23 +3823,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- これまでGPT-4などの基盤モデルは、医学などの専門分野で特化モデルには敵わないと考えられてきました。 しかし、「実際はどうなのか？」と考えた研究者らは、特別なトレーニングなしのGPT-4が、プロンプトの工夫のみでどこまで性能を示すのかを検証しました。
 	- ① アメリカの医学試験「US (4-option)」で90.2％という高い正解率を出した
 	-  ② 理由付けが必要なタイプの問題データセットPubMedQAで82.0％の正解率を達成
--  日常能力を試すテスト『GAIA』正答率、人間92%に対してGPT-4は15%　一般的なニーズに応えるAI開発の指針に
-	- https://aiboom.net/archives/59440
-- Langchain102
-	- https://www.youtube.com/watch?v=haad3i9VROs
-	- Mistral 7b User Showcase + LangServe & LangSmith
-- METAのAI研究者が何らかの大きなブレイクスルーがあったと示唆。 近日中に共有予定とのこと
-	- https://x.com/ArmenAgha/status/1731076069170835720?s=20
--  「ChatGPTの1周年を記念して」、オープンソースLLMがChatGPTにどこまで追いついているか体系的調査報告
-	- https://aiboom.net/archives/59713
-	- https://arxiv.org/abs/2311.16989
-	- オープンソースLLMとしてはLlama-2（およびMentalLlam
+-  日常能力を試すテスト『GAIA』正答
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc1ODU4MTAsLTE3Njc5ODIzMTYsNj
-U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
-NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
-csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
-MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
-kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
-NDg1Mjk4ODFdfQ==
+eyJoaXN0b3J5IjpbMTAxMTk5NjYxMywtMTc2Nzk4MjMxNiw2NT
+Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
+NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
+w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
+MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
+MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
+ODUyOTg4MV19
 -->
