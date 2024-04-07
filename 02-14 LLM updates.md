@@ -26,7 +26,9 @@
 	- LLMのモデル設計は時間とコストがかかる。これを解決するため人工的なベンチマークタスク MAD（in-context recall, compression等）を設計。小規模MADで評価した結果を元に有望な手法を絞りスケールさせる。多くが小規模MADの性能とスケール後の性能に相関がみられた
 - LLMの現在
 	- https://speakerdeck.com/pfn/llmnoxian-zai
-	- 
+-  MetaWorm: A Complete Model Bridging Brain, Body and Environment of  _C. elegans_
+	- https://www.biorxiv.org/content/10.1101/2024.02.22.581686v1
+	- BAAIのけんきゅ
 
 
 ## 4/1
@@ -3828,11 +3830,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 計算量を削減しただけではなくて，当時のSOTAを達成している．
 -  Llemma: An Open Language Model For Mathematics
 	- https://arxiv.org/abs/2310.10631
-	- どうも、LLMをつかって、定理証明器をつかうpythonコードを生成するらしい。実際に説くのはpythonインタープリター＋定理証明器の組み合わせ。
-	- The AlgebraicStack dataset of 11B tokensが提供される
-	- Llema can solve mathematical problems 
+	- どうも、LLMをつか
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTY3OTM1OCwxNzk4MzUwNzk2LC0xMj
+eyJoaXN0b3J5IjpbLTE5MTcyMjQxNywxNzk4MzUwNzk2LC0xMj
 gwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAz
 MDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4Mj
 EyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEw
