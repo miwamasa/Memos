@@ -121,7 +121,14 @@
 	- https://x.com/_kaiinui/status/1775920565720949090
 	- たしかにGPT4-Turboと比較してもよいレベルのLLMに見える
 	- サイズは104B、CC-BY-NCだがパラメータはHFで公開 104B動かせるマシンがあれば、だれでも知能(らしきもの)を保有できるってやばいな
-- 
+- Command R+
+	- https://txt.cohere.com/command-r-plus-microsoft-azure/
+-  LlamaIndex <> MistralAI Cookbooks
+	- https://github.com/mistralai/cookbook/tree/main/third_party/LlamaIndex
+	- Here’s a definitive set of cookbooks to build simple-to-advanced RAG, agentic RAG, and agents in general with MistralAI
+	- 
+
+.
 
 
 
@@ -3823,16 +3830,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://qiita.com/s3kzk/items/44b8780c656b4f747403
 	- 今回触れたチャンク分割時の設定以外にも、システムプロンプトの決定、Embeddingおよび応答の生成に使用するLLMの選定、ベクターストア/検索アルゴリズムの選定など、パフォーマンスに影響を与える要素は数多く存在します。
 - アルトマン氏OpenAIに復帰すると
-	- https://x.com/OpenAI/status/1727206187077370115?s=20
--  2週間使い倒してわかった｢GPT-4-Turboの衝撃｣。OpenAIの｢お家騒動｣で見逃してる場合じゃない
-	- https://www.businessinsider.jp/post-278766
-- AnthropicAIよりClaude2.1の発表
-	- https://x.com/AnthropicAI/status/1727001773888659753?s=20
-	- コンテキスト長はなんと 200k と 2 倍に拡大。ハルシネーションの低減、システムプロンプトへの対応、価格の引き下げ、外部APIとの連携機能(ベータ版) など
-	- https://claude.ai/　でお試し可能
-- Ch
+	- https://x.com/OpenAI/status/17272061
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTY0ODY3NywtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbLTMzODY1MTk4MywtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
