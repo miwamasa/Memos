@@ -78,6 +78,8 @@
 	- https://thegradient.pub/mamba-explained/
 	- Mambaの選択機構を注意機構との比較やアナロジーを用いながら直感的に説明した記事。 
 	- 文脈内学習ではTransformerのようにプロンプトに全ての情報を入れる必要がなく、状態（システムプロンプトなどを圧縮したもの）と質問を渡すだけで良い。
+- Bigger is not Always Better: Scaling Properties of Latent Diffusion Models by Google
+	- https://huggingface.co/papers/2404.01367
 
 
 ## 4/1
@@ -3840,14 +3842,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ~90,000 トークン以降、ドキュメントの下部にあるリコールのパフォーマンスがますます悪化し始めました 
 	- コンテキスト長が短い場合のパフォーマンスは保証されませんでした
 - Why do tree-based models still outperform deep learning on typical tabular data?
-	- https://hal.science/hal-03723551
-	- Why do tree-based models still outperform deep learning on tabular data?” confirms tree-based models outperform deep learning
+	- https://hal.science/hal-037235
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTAzNzE3OCw2NTQ3OTc1NTksLTExNz
-E5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjcz
-NTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLT
-cwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5
-NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNC
-wtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2
-MDg2OTYzMl19
+eyJoaXN0b3J5IjpbLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMT
+cxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMywtMTI4MTY3
+MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC
+03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NSwtMjAwMDg2
+OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1Mz
+QsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3
+NjA4Njk2MzJdfQ==
 -->
