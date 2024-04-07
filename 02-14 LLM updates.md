@@ -104,7 +104,11 @@
 	- https://huggingface.co/Sdff-Ltba/LightChatAssistant-2x7B
 	- Antler-7Bとchatntq-ja-7b-v1.0という、Japanese Stable LM Base Gamma 7B（Mistral 7Bベース）をinstructionチューニングしたモデルを各々ChatVector法で強化し、MoEでマージしたのだそうだ
 - RankZephyr is a nice 7B model 
+	- https://arxiv.org/pdf/2312.02724.pdf
 	- that is optimized for list-wise zero-shot reranking
+	- https://docs.llamaindex.ai/en/stable/examples/node_postprocessor/rankLLM/?h=rankllm
+- intelligent notetaking by https://iki.ai/
+	- https://iki.ai/
 
 
 ## 4/1
@@ -3831,13 +3835,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Google BardでYoutubeとチャットできるように
 	- https://bard.google.com/chat
 -  「Paper Interpreter」を使って論文を読もう！
-	- https://note.com/daichi_konno/n/nb1f1ac368a30
-	- 東大の、紺野大地先生作成
-	- **「論文をアップロードするだけで、内容を日本語で分かりやすく説明してくれるAI」**
-- アルトマン氏電撃解任劇の裏に、OpenAIが、AGIを開発するめどがついたからという
-	- Q*-learningという手法により、数値計算などLLMが苦手としていた課題も解ける
+	- https://no
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDIxODE0NCwtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbMTEyNDg2MDI0NSwtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
