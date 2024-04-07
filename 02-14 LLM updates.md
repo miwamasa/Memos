@@ -29,6 +29,13 @@
 -  MetaWorm: A Complete Model Bridging Brain, Body and Environment of  _C. elegans_
 	- https://www.biorxiv.org/content/10.1101/2024.02.22.581686v1
 	- BAAIの研究、生物の脳、身体、環境の間の複雑な相互作用を線虫（C. elegan）を材料に解析
+- 「Babylon.js 7.0」正式リリース。
+	- https://www.publickey1.jp/blog/24/web3dbabylonjs_70mmdmikumikudanceapple_vision_pro.html
+	- マイクロソフトは、Webブラウザ上で2Dや3Dモデルの高速なレンダリングなどを可能にするオープンソースのJavaScriptライブラリ「Babylon.js」の最新版「Babylon.js 7.0」正式版をリリースしました。
+	- MMD（MikuMikuDance）のインポートと利用を可能にするMMDローダーとランタイムが追加されました。IKソルバ、オーディオ同期再生、プレイヤーコントロールなどの機能も用意されています。
+- CMUもStanfordもColumbiaもCS修士のインターン内定率2割
+	- https://x.com/fzw1212/status/1774218929100988506
+- 
 
 
 ## 4/1
@@ -3822,20 +3829,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2102.04518
 - Q*について著名なデータサイエンティストErnest Okumuraさんのコメント
 	- https://x.com/pacocat/status/1728052432016470281?s=20
-	- Q*がQ-learningから来ているかは知らないけれども、制作者にとって好ましい出力を得るために方策空間を探索する技術は今後さらに求められていくと思うし、RLHFみたいな分かりやすいアラインメントを超えてAGIみたいな文脈でも野心的な試みは増えてくるんじゃないでしょうか。
-- Sparse Transformers：入力シーケンスの長さによる計算量増加問題への革新的なアプローチ
-	- https://ai-scholar.tech/articles/transformer/sparseTransformer
-	- Attentionのレイヤー毎の特徴を再現することで，計算量の削減を達成  
-	- Sliding Window Attenion、Dilated Sliding Window Attention、Global Attentionという3つのAttentionを使ってTransformernの計算量を削減した  
-	- 計算量を削減しただけではなくて，当時のSOTAを達成している．
--  Llemma: An Open Language Model For Mathematics
-	- https
+	- Q*がQ-learningから来ているかは知らないけれども、制作者にとって好ましい出力を得るために方策空間を探索する技術は今後さらに求められていくと思うし、RLHFみ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA2ODAyNjMsMTc5ODM1MDc5NiwtMT
-I4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkw
-MzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xOD
-IxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMx
-MDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4Ny
-wtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC0z
-MTI2ODE3ODFdfQ==
+eyJoaXN0b3J5IjpbMTA3OTg4NzEzNywxNzk4MzUwNzk2LC0xMj
+gwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAz
+MDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4Mj
+EyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEw
+NTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC
+0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMx
+MjY4MTc4MV19
 -->
