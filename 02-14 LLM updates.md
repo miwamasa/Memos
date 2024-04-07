@@ -59,6 +59,10 @@
 	- https://github.com/city-super/Octree-GS
 	- https://x.com/janusch_patas/status/1774717184238883237
 - 『Google検索を超える衝撃の生成AI型新検索エンジン：Perplexity Proが情報収集を変える！』
+	- https://x.com/tetumemo/status/1774632484648730889
+	- Perplexity のようなAI検索が、つぎのビッグウエーブというか、active personal noteだよな。AI検索を有料にするという動きもある。
+- BItNet-Transformerの学習済みモデルが公開されている
+	- 1bitLLM/bitnet_b1_58-large
 	- 
 
 
@@ -3832,14 +3836,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- フェーズフィールド法は、金属の凝固、多結晶粒成長、拡散相変態など、さまざまな材料組織形成過程の計算に用いられています。また、応力場や電磁場における組織形成やナノスケールにおけるモデル化など、マルチスケール・マルチフィジックスを対象とした種々の工学分野にも応用されています。
 - 「マスターアルゴリズム」の著者、Domingos氏、Q*-learningの効果をみて、人類の終焉を叫ぶ
 	- https://x.com/pmddomingos/status/1727562239060656339?s=20
-	- Q* can solve simple math problems that symbolic AI could solve 50 years ago. Panic! AGI is here! Humanity is over!
-- A Benchmark to Understand the Role of Knowledge Graphs on Large Language Model's Accuracy for Question Answering on Ent
+	- Q* can solve simple math problems
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDY0NzQ0NywtMTE3MTkxMjk1MSwxNz
-k4MzUwNzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUy
-NzAzNCwtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMT
-g2OTg1ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0
-MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MD
-csODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0x
-Nzc3MzM2MDNdfQ==
+eyJoaXN0b3J5IjpbNzQ2MjY3OTM3LC0xMTcxOTEyOTUxLDE3OT
+gzNTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3
+MDM0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxOD
+Y5ODU4NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQx
+NzgwLC0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNy
+w4MTkyNzMxODcsLTExNDg1Mjk4ODEsLTE3NjA4Njk2MzIsLTE3
+NzczMzYwM119
 -->
