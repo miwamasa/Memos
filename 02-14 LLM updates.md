@@ -8,13 +8,15 @@
 	- 「とりあえずマーケットの中にふんわりと存在する」系の指標に対して、そのようなきちんとした因果推論を行うのは結構難しい印象があります。
 	- 一つの考え方として「時系列的な因果性」をふわっとした代用品として用いるという方法もあり得ると思っています。そう、VARモデルです
 	- 即ち実際の因果は「落雷→雷鳴」だが、時系列的には「（落雷→）稲光→雷鳴」が成立するので代用品になり得る、という
-- 翻訳モデルHonyaku-7b
+- 翻訳モデルHonyaku-7b by AIXサトシ
 	- aixsatoshi/Honyaku-Multi-Translator-Swallow-ms7b
 	- 数百〜数千tokenの文章翻訳 
 	- 英日、日英翻訳機能がメイン
 	- XML like instruction
 	- 一部の多言語も対応
 	- Swallow-ms-7b baseで日本語堪能
+- 大規模言語モデル開発のための日本語 Instruction データセット作成の取り組み
+	- https://speakerdeck.com/kunishou/da-gui-mo-yan-yu-moderukai-fa-notamenori-ben-yu-instruction-detasetutozuo-cheng-noqu-rizu-mi
 
 
 ## 4/1
@@ -3827,16 +3829,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 英語学習ソフトや有料レッスンが不要に
 - JARVIS-1は本当はすごい、
 	- https://x.com/ai_database/status/1728257353852797143?s=20
-	- マインクラフト（広大なバーチャル世界で採掘や建設を行うゲーム）を上手にプレイするAI『JARVIS-1』が開発されました。 非常に複雑な動作を含む200種類以上の行動が可能とのこと。
-	-  このような技術を応用すると、ロボットが現実世界でもさまざまな重要タスクを達成できるようになる可能性があります。…
-- 最終的にすべての統計はベイズに行き着くしかないと思っています（統計数理研究所、鎌谷氏）
-	- https://w
+	- マインクラフト（広大なバーチャル世界で採掘や建設を行
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjIzNzg3MzMsMTc5ODM1MDc5NiwtMT
-I4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkw
-MzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xOD
-IxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMx
-MDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4Ny
-wtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwtMTc3NzMzNjAzLC0z
-MTI2ODE3ODFdfQ==
+eyJoaXN0b3J5IjpbLTg2ODg2NTM2NiwxNzk4MzUwNzk2LC0xMj
+gwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAz
+MDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4Mj
+EyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEw
+NTM5MywyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC
+0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0xNzc3MzM2MDMsLTMx
+MjY4MTc4MV19
 -->
