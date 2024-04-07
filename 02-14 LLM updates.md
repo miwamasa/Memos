@@ -167,7 +167,12 @@
 	- https://python.langchain.com/docs/integrations/chat/anthropic/#beta-tool-calling
 - Command R+オープン系としては洒落にならんほど知性を感じる
 	- https://x.com/_kaiinui/status/1775928745775534189
--  OpenAI の ファイチューニングAPI の新機能 
+-  OpenAI の ファイチューニングAPI の新機能 by npakaさん
+	- https://note.com/npaka/n/ne41cba4111a0?sub_rt=share_h
+	- 2024年4月4日、ファインチューニングAPIに新機能が導入されました。
+	- OpenAIを利用すると、ほとんどの組織はセルフサービスのファインチューニングAPI を使用して、有意義な結果をすぐに確認できます。
+- Appleが開発、スマホのスクリーンを理解してユーザーと対話できる『ReALM』端末上で動く軽量モデル
+- 
 
 .
 
@@ -3812,18 +3817,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ③ 会話型検索エージェントでユーザーの質問を処理 
 	- ④ クエリに関連するデータを構造化および非構造化データソースから抽出する
 	- 従来の線形化テクニックや多段階検索および推論モジュールに比べて、SUQLは回収精度が大幅に高い
-	- 実際のレストランに関するクラウドソースされた質問と会話を含むデータセットで実用性が確認された
--  Meta disbanded its Responsible AI team
-	- https://www.theverge.com/2023/11/18/23966980/meta-disbanded-responsible-ai-team-artificial-intelligence
-	- metaが責任あるAIのチームを解散させた
-- 状態空間モデリング入門
-	- 
+	- 実際のレ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE1NzAwMTcsLTE3Njc5ODIzMTYsNj
-U0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAw
-NzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOT
-csNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2
-MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1Mz
-kzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTkyNzMxODcsLTEx
-NDg1Mjk4ODFdfQ==
+eyJoaXN0b3J5IjpbMTk0MjUxNDA4NSwtMTc2Nzk4MjMxNiw2NT
+Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
+NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
+w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
+MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
+MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
+ODUyOTg4MV19
 -->
