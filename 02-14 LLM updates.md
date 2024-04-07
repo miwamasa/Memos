@@ -58,7 +58,8 @@
 - Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians
 	- https://github.com/city-super/Octree-GS
 	- https://x.com/janusch_patas/status/1774717184238883237
-- 
+- 『Google検索を超える衝撃の生成AI型新検索エンジン：Perplexity Proが情報収集を変える！』
+	- 
 
 
 ## 4/1
@@ -3832,14 +3833,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 「マスターアルゴリズム」の著者、Domingos氏、Q*-learningの効果をみて、人類の終焉を叫ぶ
 	- https://x.com/pmddomingos/status/1727562239060656339?s=20
 	- Q* can solve simple math problems that symbolic AI could solve 50 years ago. Panic! AGI is here! Humanity is over!
-- A Benchmark to Understand the Role of Knowledge Graphs on Large Language Model's Accuracy for Question Answering on Enterprise SQL Databases
-	- https://arxiv.org/abs/2311.07509
+- A Benchmark to Understand the Role of Knowledge Graphs on Large Language Model's Accuracy for Question Answering on Ent
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQ5NjAyNzQsLTExNzE5MTI5NTEsMT
-c5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1
-MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LD
-E4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4
-NDE3ODAsLTE5NTMxMDUzOTMsMjAzOTYxMTUzNCwtNjIzMDMyNj
-A3LDgxOTI3MzE4NywtMTE0ODUyOTg4MSwtMTc2MDg2OTYzMiwt
-MTc3NzMzNjAzXX0=
+eyJoaXN0b3J5IjpbMjAwMDY0NzQ0NywtMTE3MTkxMjk1MSwxNz
+k4MzUwNzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUy
+NzAzNCwtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMT
+g2OTg1ODUsLTE4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0
+MTc4MCwtMTk1MzEwNTM5MywyMDM5NjExNTM0LC02MjMwMzI2MD
+csODE5MjczMTg3LC0xMTQ4NTI5ODgxLC0xNzYwODY5NjMyLC0x
+Nzc3MzM2MDNdfQ==
 -->
