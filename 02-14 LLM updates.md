@@ -154,8 +154,10 @@
 	- This paper presents Think-and-Execute, a novel framework that decomposes the reasoning process of language models into two steps.
 	- (1) In Think, we discover a task-level logic that is shared across all instances for solving a given task and then express the logic with pseudocode; 
 	- (2) In Execute, we further tailor the generated pseudocode to each instance and simulate the execution of the code.
-- #Mixture-of-Depths: Dynamically allocating compute in transformer-based language models
-	- 
+- Mixture-of-Depths: Dynamically allocating compute in transformer-based language models
+	- https://arxiv.org/abs/2404.02258
+	- Dynamically allocating compute in transformer-based language models
+	- Same performance w/ a fraction of the FLOPs per forward pass
 -  1bit LLM の時代は来るのか，来ないのか，どっちなんだい？
 	- https://note.com/ipsj/n/ncbe5746f71fb
 	- 三値のBitNetについて、情報処理学会の会誌に解説を書かせていただきました
@@ -177,7 +179,8 @@
 	- Appleは、ユーザーとの対話やスマホ画面を高度に理解する言語モデル『ReALM』を発表しています。Siriなどのアシスタントを進化させる技術としての位置付けです
 - Command Rはローカル実行ては初めて文章クリーニングできたかもしれん
 	- https://x.com/Meteor_Eternal/status/1775877913952518608
-- 
+- Claude Function Calling Agent by langchain
+	- 
 
 .
 
@@ -3812,16 +3815,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 再帰的なデータ構造の線型空間での表現（バナッハタルスキ埋め込み）を考えるとその表現上のアルゴリズム（復号）がTransformerとして自然に実装できるらしい
 - 大規模言語モデルを用いた意味分析による辞書記述への応用
 	- https://speakerdeck.com/yhkondo/da-gui-mo-yan-yu-moderuwoyong-itayi-wei-fen-xi-niyoruci-shu-ji-shu-henoying-yong
-	- 埋め込み（ベクトル化）の辞書作成への応用とか、枕草子を題材に埋め込みをつかたｔ類似検索してみる例が、英語による検索、絵文字による検索、クリエーティブな検索など事例があって面白い
-- Shicheng Liu et al., "SUQL: Conversational Search over Structured and Unstructured Data with Large Language Models"
-	- https://arxiv.org/abs/2311.09818
-	- LLMベースの新
+	- 埋め込み（ベクトル化）の辞書作成への応用とか、枕草子を題材に埋め込みをつかたｔ類似検索
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTA5NzgwNiwtMTc2Nzk4MjMxNiw2NT
-Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
-NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
-w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
-MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
-MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
-ODUyOTg4MV19
+eyJoaXN0b3J5IjpbLTE0ODcwNDE2LC0xNzY3OTgyMzE2LDY1ND
+c5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0
+MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LD
+c4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAx
+NjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5My
+wyMDM5NjExNTM0LC02MjMwMzI2MDcsODE5MjczMTg3LC0xMTQ4
+NTI5ODgxXX0=
 -->
