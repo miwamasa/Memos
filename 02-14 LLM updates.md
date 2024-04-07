@@ -3,6 +3,12 @@
 
 ## 4/8
 
+最新のLLMの研究動向や開発状況に関する記事が多数収録されています。因果推論の実用化、翻訳モデル、データセット構築の取り組み、OpenAIの日本拠点開設など、さまざまな話題が取り上げられています。また、スケーリングやモデル設計、生物を対象とした研究なども紹介されています。LLMの量子化や小規模ベンチマークタスクでの性能評価についても言及されています。
+
+さらに、新しいモデルのリリースやファインチューニングの紹介も多数あります。Swallow MXシリーズ、Gemma、ReALM、Command R+、Qwenなど、さまざまなモデルが登場しています。ローカル実行やMLXでの動作についても触れられています。ファインチューニングAPIの新機能や、表現ファインチューニングの新手法なども取り上げられています。
+
+その他、LLMを使ったアプリケーション開発の実例や、LLMベースの検索システム、ノートテイキングツールなども紹介されています。RAGやベクトル検索の活用方法、エージェントとの連携なども示されています。また、LLMの関数呼び出し機能の実装例も収録されています。
+
 - ビジネスの実務で「因果」を推測するということ by TJOさん
 	- https://tjo.hatenablog.com/entry/2024/02/28/174811
 	- 「とりあえずマーケットの中にふんわりと存在する」系の指標に対して、そのようなきちんとした因果推論を行うのは結構難しい印象があります。
@@ -3816,20 +3822,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www2.deloitte.com/jp/ja/pages/about-deloitte/articles/about-deloitte-japan/ai-dossier-2023.html?id=jp:2pm:3tw:4daii-genaidossier:5:6abt:20231201::
 	- デロイトトーマツ
 -  Microsoft Copilot is now generally available
-	- https://blogs.bing.com/search/december-2023/Microsoft-Copilot-is-now-generally-available?ocid=aid_soc_usoc_edu_cons_bing_eng_tw_12.1
-- C言語でWASMインタプリタを実装した話
-	- https://zenn.dev/ri5255/articles/845ef3dab5ab47
-	- この自作WASMランタイムの目的は、できるだけ仕様に従った実装を与えることで、仕様の理解を助けることである。早さや効率性よりも分かりやすさを優先しているため、実用には向かない。仕様書を読んで、実装に困った際に参照してほしい。
--  データ不足に数理モデルで立ち向かう / Japan.R 2023
-	- https://speakerdeck.com/dropout009/japan-dot-r-2023
-- Harsha Nori et al., "Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine"
-	- https://arxiv.org/ab
+	- https://blogs.bing.com/search/december-2023/Microsoft-Copilot-is-n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NT
-Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
-NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
-w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
-MTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOT
-MsMjAzOTYxMTUzNCwtNjIzMDMyNjA3LDgxOTI3MzE4NywtMTE0
-ODUyOTg4MV19
+eyJoaXN0b3J5IjpbMTgwNTA4NDk4LDE3MTg0MDM3OTksLTE3Nj
+c5ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3
+OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC
+02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4
+NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC
+0xOTUzMTA1MzkzLDIwMzk2MTE1MzQsLTYyMzAzMjYwNyw4MTky
+NzMxODddfQ==
 -->
