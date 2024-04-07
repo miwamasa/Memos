@@ -109,6 +109,12 @@
 	- https://docs.llamaindex.ai/en/stable/examples/node_postprocessor/rankLLM/?h=rankllm
 - intelligent notetaking by https://iki.ai/
 	- https://iki.ai/
+	- a cool example of an AI-enabled notetaking interface that epitomizes the core value prop of RAG - dump in a ton of your messy, unstructured data (files, links, notes), and have the application organize and surface information for you instead of you having to do it yourself.
+-  Google Colab で japanese-reranker-cross-encoder-large-v1 を試す by npakaさん
+	- https://note.com/npaka/n/n906b23636ac8?sub_rt=share_h
+	- 「 japanese-reranker-cross-encoder-large-v1」は、日本語に特化した形で学習した「Reranker」です。xsmallからlargeまで複数のサイズが提供されており、「large」は多言語Rerankerで最も人気のある「bge-reranker-v2-m3」をベンチマークで上回っています。
+	- クエリと文章の準備と、スコアの計算。
+- 
 
 
 ## 4/1
@@ -3823,21 +3829,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/aishinkakura_i/status/1727477535234248712?s=20
 	- 学会でアメリカを訪れた際、イミグレーションで「清朝の子孫か」って尋問を受け、しばらく足を止められ…
 - metaから、Getting started  with Llama
-	- https://ai.meta.com/llama/get-started/?utm_source=twitter&utm_medium=organic_social&utm_campaign=llama2&utm_content=image
--  単行本が入るClaude 200kで僕と「エヴァンゲリオン」
-	- https://note.com/shoty/n/n03bff29f683f
-	- 日本語だと150ページいかないくらいが調理できるのではないかと思う。つまり**単行本一冊が入ってしまう**
-	- エバンゲリオンの物語をシミュレートできるかという挑戦らしい
-- 【DSにKaggleが必ずしも必要ではない話】
-	- https://x.com/Nurruttan/status/1727495591905858016?s=20
-	- データサイエンティストと言っても、 「①データアナリスト型」 「④データエンジニア型」 のキャリアプランではKaggle実績の重要性は低い
-	-  一方で、 「②サービスグロース型」 「③製品開発型」 「⑤AI開発型」 は重要度は高い。
-- Google BardでYoutubeとチャットできるように
-	- https://bard.google.com/chat
--  「Paper Interpreter」を使って論文を読もう！
-	- https://no
+	- htt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDg2MDI0NSwtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbMjAxMTUxNDM0NywtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
