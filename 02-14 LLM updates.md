@@ -142,7 +142,12 @@
 -  JetMoE: Reaching LLaMA2 Performance with 0.1M Dollars
 	- https://research.myshell.ai/jetmoe
 	- JetMoE-8B is trained with less than $ 0.1 million cost but outperforms LLaMA2-7B from Meta AI, who has multi-billion-dollar training resources. LLM training can be much cheaper than people generally thought.
-- 
+-  ReALM: Reference Resolution As Language Modeling
+	- https://arxiv.org/abs/2403.20329
+	- Apple's 3B LLM(ReALM ) Outperforms GPT-4
+	- ReALM significantly improves how conversational assistants like Siri or Alexa can understand the way humans naturally talk. Imagine you're looking at a list of restaurants on your smartphone and you say "direct me to the one on Main Street" -
+	-  ReALM is able to understand which restaurant you're referring to, even though you didn't specify the exact name.
+	- 
 
 .
 
@@ -3812,17 +3817,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - マイクロソフトによる生成AIのチュートリアル
 	- https://github.com/microsoft/generative-ai-for-beginners
 	- The free 12 lesson course is available on Github and will teach you everything you need to know to start building Generative AI applications.
--  Learning to Filter Context for Retrieval-Augmented Generation
-	- https://arxiv.org/abs/2311.08377
-	- RAGにおいて、コンテキストをフィルタリングする方法を学習する
-	- 語彙および情報理論的なアプローチを通じて有用なコンテキストを特定し、テスト中にコンテキストをフィルターするためのモデルをトレーニングすることが含まれます。
-	- FILCO は、コンテキスト フィルタリングに String Inclusion (STRINC)、Lexical Overlap、Conditional Cross-Mutual Information (CXMI) などの技術を使用
-- 日本語対応 LLM(13B 規模)の, 行間を読むようなかしこさがあるか試したメモ(現状 Qwen 14B がベスト)
-	- https://zenn.dev/syoyo/articles/59a5ccbbb5660e
-	- 7B 以下(10B 未満)も試しましたが, 行間を読むほどのかしこさはなく, 13B 規模で飛躍的にかしこさが上がる感じだったので, 13 B 規模のを選んでいます.
-	- qwen.cpp(llama.cp
+-  Learning to Filter Context for Retrieval-Augmented Generatio
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzE2MTM4NywtMTc2Nzk4MjMxNiw2NT
+eyJoaXN0b3J5IjpbMTc5OTk3Mzg1MSwtMTc2Nzk4MjMxNiw2NT
 Q3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3
 NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Ny
 w3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYw
