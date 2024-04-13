@@ -149,7 +149,11 @@
 -  Command R+ GPTQをローカルLLMとしてvllmでOpenAI API互換サーバ動作させてみた話
 	- https://note.com/junzokamahara/n/n9235af7a6dc1?sub_rt=share_h
 	- vllmもCommand Rに対応しているとのことで、vllmで動かしてみることにしました。なお、動かすのはGPUメモリの関係でGPTQで量子化されたモデル。
-	- 
+	- 使用するモデルのはHugging FaceにあるGPTQに変換したCommand R+
+		- client = OpenAI(base_url="http://<仮想マシンのIP>:8888/v1")
+		- response = client.chat.completions.create(model='alpindale/c4ai-command-r-plus-GPTQ',
+	- Command R plus GPTQのA100 80GBでの実行例
+		- 18.3 tokens/sと出ている
 
 ## 4/8
 
@@ -3822,18 +3826,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2311.01906
 	- many parts can be removed to simplify GPT-like decoder architectures as well as encoder-style BERT models:
 - llamaindexから、RAGの新モジュール、fuzzy citationを発表
-	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/fuzzy_citation/fuzzy_citation_example.ipynb
-	- https://llamahub.ai/l/llama_packs-fuzzy_citation
-	- 部分的な検索結果から１つの回答を合成？？
-- ＲＡＧ 101 for enterpirze
-	- https://gradient.ai/blog/rag-101-for-enterprise
-	
+	- https://github.c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjU5OTkwNDgsMTMzMTQ0MTg2NiwyMz
-A5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4
-ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC
-0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMywtMTI4
-MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3ODQ2OT
-c1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NSwtMjAw
-MDg2OTYxMV19
+eyJoaXN0b3J5IjpbLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMD
+kxNDE5MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4
+NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLT
+ExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgx
+NjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5Nz
+UsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAw
+ODY5NjExXX0=
 -->
