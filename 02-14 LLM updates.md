@@ -56,6 +56,10 @@
 	- https://x.com/umiyuki_ai/status/1777204816059711692
 	- MiniCPMはミュートランスファーというテクニックが使われてるらしい。これが何か？というと、でかいLLMをトレーニングする時の最適パラメータを探るテクらしい。
 	- でかいLLMを学習する時に、ハイパーパラメータをどう弄れば最強になるのか、イチイチ色々試して最適解を試行錯誤するのはメチャクチャ大変だ。そこで、同じアーキテクチャのちっちゃい版で実験すればサクサクと最適なパラメータを試行錯誤できる。で、ちっちゃいモデルで見つけた最強パラメータが、でかいLLMにそんままコピペしてもちゃんと最強になる事が判明したらしい！
+- JetMoEのトレーニング効率上がったのは　 by うみゆきさん、
+	- https://x.com/umiyuki_ai/status/1777023943121256637
+	- Komatsuzaki氏の見解によれば、JetMoEのトレーニング効率上がったのは、たしかにMoEアーキテクチャによって２～３倍に効率化したけど、それより何よりMiniCPMに倣った2段階トレーニングの手法のおかげでバキバキに効率化したとの事。
+	- 1万倍の内、MoEの貢献が３倍なら残りの3333倍はMiniCPMトレーニングのおかげなのか
 - 
 
 ## 4/8
@@ -3809,14 +3813,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- LLM is the new smartphone OS!
 - Domingos先生がなんか言っている
 	- https://x.com/pmddomingos/status/1729303707387658284?s=20
-	- Why AI isn't going to taking over (from "The Master Algorithm").
-- MistralChameli_7B_v01
-	- https://huggingface.co/TokenBender/MistralChameli_7B_v01
-	- First version of DPO-ed roleplay/smart version of Mistral. Now to conduct some experiments with reward model and see if this is any good.
-- ベイジアンモデルへの経験ベイズ修正
-	- https://www.
+	- Why AI isn't going to taking over (from "The Master Algori
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjMwMzI1MjQsMTg5NzE2MTY2MiwxNj
+eyJoaXN0b3J5IjpbLTIwODM1MTY2MDAsMTg5NzE2MTY2MiwxNj
 AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
 NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
 wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
