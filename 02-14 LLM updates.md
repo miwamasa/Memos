@@ -87,6 +87,11 @@
 - rinna/youri-7b-chat-gptqとintfloat/multilingual-e5-largeでRAGするだけでもcolabよりrtx3060の方がかなり速い
 	- https://x.com/rsimd_/status/1747614320878555175
 	- vramが足りればって話だけど，一応faiss-cpuを使えばメモリ足りてる．
+- Command R+の量子化PPLを計測してくれてる
+	- https://github.com/ggerganov/llama.cpp/pull/6491#issuecomment-2043633791
+	- Q3_XXSは38GBだけど、ここまでなら精度的にも全然大丈夫ちゃうか？って予感はする。IQ2_XXSなら26.6GBで、ちょっとアホになってそう。IQ1_Sなら21.6GBだけど、さすがに実用性ヤバそう。
+- Perplexity Proに課金してGoogleのGemini UltraやGenerative Experienceと比較してみると、何かとんでもないことが起こっている気がする by 楠さん
+	- https://x.com/masanork/status/1777478951465779344
 - 
 
 ## 4/8
@@ -3820,13 +3825,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Relational Deep Learning is brings the power of Graph Representation Learning to a Relational Database.
 - NeurIPA2023の論文検索サービス
 	- https://www.ai-driven-life.com/neurips-papers
-- 強化学習はベルマン最適性原理から来る動的計画法に支えられてます。しかし、情報がrandomSamplingされる中で実は各時刻隣合うデータの列がほとんど情報（報酬）を持たないとなると、間に推定器が挟まってるのもあってスパースどころか最後にしか報酬が得られない問題への妥当性は怪しいかもですね。
-	- https://x.com/ML_deep/status/1729249503683969037?s=20
-- DeepMind has formalized a theoretical result related to AI safety in Lean. 
-	- https://github.com/google-deepmind/debate
-	- "Monadic syntax is excellent for expressing stochastic algorithms, and working over finitely supported distributions avoids th
+- 強化学習はベルマン最適性原理から来る動的計画法に支えられてます。しかし、情報がrandomSamplingされる中で実は各時刻隣合うデータの列がほとんど情報（報酬）を持たないとなると
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjU2ODY3OCwxODk3MTYxNjYyLDE2MD
+eyJoaXN0b3J5IjpbMTkzNzQxOTc2MywxODk3MTYxNjYyLDE2MD
 AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
 NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
 0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
