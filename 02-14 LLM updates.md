@@ -4,7 +4,7 @@
 
 ## 4/15
 
-今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMのパラメータを大規模LLMに転移する技術で、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。これに影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをMoEで無くしたMistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まった。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、両方の機能が保存されたという話。LightChatAssistant2x7BのもTask Vectorの加算でできてて、少ないリソースで動くとか。JetMoEという新しいアーキテクチャ、学習効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma
+今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニング？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。これに影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをMoEで無くしたMistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まった。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、両方の機能が保存されたという話。LightChatAssistant2x7BのもTask Vectorの加算でできてて、少ないリソースで動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma
 
 このブックマーク集から、大規模言語モデル(LLM)の最新の動向が見えてきます。既存の7Bモデルに匹敵する強さを持ちながら、わずか2.4Bパラメータという小さなサイズのMiniCPM-2Bが登場しました。小規模モデルを使ってハイパーパラメータを効率的に探索し、大規模モデルに転移させる「μトランスファー」という手法が採用されています。また、スマートフォンなどのエッジデバイス上で動作可能な20億パラメータのOctopus v2や、8Bパラメータながら高い性能を発揮するJetMoEなど、モデルサイズの最適化が進んでいます。
 
@@ -3814,14 +3814,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Metaの研究者らは、LLMが生成するコードにおける不安定性や乱用リスクを評価するためのツールを作成しました。
 	-  実験の結果、現在は、能力が高いモデルほど不安全なコードを提案する傾向が強いという逆説的な結果も出てきました。
 	- ① 全体的にLLMは、30%のケースで不安全なコードを提案した 
-	- ② 53%のケースで、サイバー攻撃の手伝いをするリクエストに対してLLMが応じた
-	-  ③ 
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY5NjQ2MTksNjI0MjA2NTgxLDE5OD
-M2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3
-MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMT
-g5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5
-ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OT
-YsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02
-NzU5MDMwOTddfQ==
+eyJoaXN0b3J5IjpbMTQ1MDc0NzI1NCw2MjQyMDY1ODEsMTk4Mz
+Y2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcy
+MywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxOD
+k3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4
+MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5Ni
+wtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3
+NTkwMzA5N119
 -->
