@@ -132,7 +132,11 @@
 - Amazon、「Claude 3」のAnthropicに27億5000万ドルの追加投資
 	- https://www.itmedia.co.jp/news/articles/2403/28/news105.html#utm_term=share_sp
 - A Generative Symbolic Music Pretrained Transformer
-	- 
+	- https://huggingface.co/papers/2404.06393
+	- In this paper, we explore the application of Large Language Models (LLMs) to the pre-training of music. While the prevalent use of MIDI in music modeling is well-established, our findings suggest that LLMs are
+- We just released Mixtral 8x22B. Super excited for this release
+	- https://x.com/sophiamyang/status/1777945947764297845
+- 
 
 ## 4/8
 
@@ -3822,18 +3826,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - BERTopicの新しいバージョン
 	- https://github.com/MaartenGr/BERTopic
 	- Merge pre-trained models, apply zero-shot topic modeling, seed domain-specific words, and much more in this HUGE update!
-- Intel® Extension for Transformers
-	- https://github.com/intel/intel-extension-for-transformers
-	- An Innovative Transformer-based Toolkit to Accelerate GenAI/LLM Everywhere
-	- Intel Extension for Transformers supports INT4 model quantized by GPTQ on Intel platforms (Xeon & PC) !
-	- https://github.com/intel/intel-extension-for-transformers/tree/1.2.1#int4-inference
--  ラプラス変換とフーリ
+- Intel®
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTU2NTk1MCwtMTc2NDk0MDk5OCwxOD
-k3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4
-MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5Ni
-wtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3
-NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC
-0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5
-NTMxMDUzOTNdfQ==
+eyJoaXN0b3J5IjpbMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OT
+cxNjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgy
+MzE2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC
+0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1
+OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLT
+E4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1
+MzEwNTM5M119
 -->
