@@ -235,7 +235,8 @@
 	- https://arxiv.org/abs/2208.06452
 	- QR分解でカルマンフィルター？
 	- 正定値行列の和の平方根が平方根のブロック行列のQR分解で計算できることを利用して、数値的安定性の高いカルマンフィルタ（平方根フィルタ）のアルゴリズムをQR分解でシンプルに書けるのか
-- 
+- Premise Order Matters in Reasoning with Large Language Models
+	- LLMにプロンプトを与える際、「推論ステップの流れに沿う順序」で文脈を与えないと30%以上精度が落ちる恐れがあることをDeepMindが報告しています。
 
 ## 4/8
 
@@ -3794,11 +3795,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ⑤ドキュメントを作らせる
 -  Generative AI for Everyoneか
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOT
-gxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3
-MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMj
-MwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAy
-ODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1OS
-wtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLTEy
-ODE2NzM1MDddfQ==
+eyJoaXN0b3J5IjpbMTQ2MTUyMDM0MSwtMTkxMDQzMDM1OSwtMT
+YxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5
+MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMT
+MzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2
+MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMT
+YsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEy
+ODAwNzQwM119
 -->
