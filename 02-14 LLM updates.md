@@ -84,6 +84,8 @@
 	- gemma-1.1-7bとcodegemma-7b-itのgguf
 - 【LangChainゆる勉強会#3】LangChainのAgentはどれを使う？
 	- https://www.youtube.com/watch?v=07TuBmm67sU
+	- LangChainを使ったAgent実装を概説してくださってる勉強会のアーカイブ動画。
+	- 最近はLCELで組んでAgent Excutorに投げる以外の実装しないので、なんか色々あるんだなと勉強になりました![😇](https://abs-0.twimg.com/emoji/v2/svg/1f607.svg "天使の笑顔") XML Agentとか誰が使うん？って思ってたけど、Claudeと相性良いらしい。へぇ〜！
 - rinna/youri-7b-chat-gptqとintfloat/multilingual-e5-largeでRAGするだけでもcolabよりrtx3060の方がかなり速い
 	- https://x.com/rsimd_/status/1747614320878555175
 	- vramが足りればって話だけど，一応faiss-cpuを使えばメモリ足りてる．
@@ -3823,16 +3825,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- An Innovative Transformer-based Toolkit to Accelerate GenAI/LLM Everywhere
 	- Intel Extension for Transformers supports INT4 model quantized by GPTQ on Intel platforms (Xeon & PC) !
 	- https://github.com/intel/intel-extension-for-transformers/tree/1.2.1#int4-inference
--  ラプラス変換とフーリエ変換の関係
-	- https://qiita.com/kaityo256/items/aa5b24904577de40016e
-	- 関数�(�)にたいして、�<0ならゼロに、�≥0ならe−��をかけて、「より収束しやすく」した上でフーリエ変換したものがラプラス変換である。ラプラス変換が、軸の中途半端なところを「縦に」積分しなければならない理由も、フーリエ逆変換と�から�への変数変換から理解できるであろう。
-	- 関数�(�
+-  ラプラス変換とフーリ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0Nzg1MDkzLC0xNzY0OTQwOTk4LDE4OT
-cxNjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgy
-MzE2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC
-0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1
-OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLT
-E4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1
-MzEwNTM5M119
+eyJoaXN0b3J5IjpbLTYzNjk0NzQyNywtMTc2NDk0MDk5OCwxOD
+k3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4
+MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5Ni
+wtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3
+NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC
+0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5
+NTMxMDUzOTNdfQ==
 -->
