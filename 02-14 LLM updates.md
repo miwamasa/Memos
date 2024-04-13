@@ -4,7 +4,7 @@
 
 ## 4/15
 
-今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニング？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。特に、 Command R+ GPTQをローカルLLMとしてvllmでOpenAI API互換サーバ動作ってのは、A100持っている人はぜひ試してみるべき。 Command R+に影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをexpertsをマージしてmistralにしたMistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まった。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、両方の機能が保存されたという話も合った。LightChatAssistant2x7BのもTask Vectorの加算でできてて、少ないリソースで動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma、リカレントニューラルネットワークとローカルアテンションを活用してメモリ効率を向上さているらしい、今後もGemmaとパラにリリースるのか。GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」。今週は、Google Cloud Next24があったので、Gemini 1.5 Proのリリースや、DeepMindのImagen 2、TPU v5pの発表、GoogleDocにGeminiの統合とか、geminiでRCカーを制御とか面白い出し物があった。日本語LLM 9種を量子化して回答内容を比較ってのも面白かった、ELYZAは偉いぞ。
+今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニング？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。特に、 Command R+ GPTQをローカルLLMとしてvllmでOpenAI API互換サーバ動作ってのは、A100持っている人はぜひ試してみるべき。 Command R+に影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをexpertsをマージしてmistralにしたMistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まった。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、両方の機能が保存されたという話も合った。LightChatAssistant2x7BのもTask Vectorの加算でできてて、少ないリソースで動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma、リカレントニューラルネットワークとローカルアテンションを活用してメモリ効率を向上さているらしい、今後もGemmaとパラにリリースするのか。GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」。今週は、Google Cloud Next24があったので、Gemini 1.5 Proのリリースや、DeepMindのImagen 2、TPU v5pの発表、GoogleDocにGeminiの統合とか、geminiでRCカーを制御とか面白い出し物があった。日本語LLM 9種を量子化して回答内容を比較ってのも面白かった、ELYZAは偉いぞ。LangChain の Tool Calling 標準インタフェース ってLLMに依存しないということなので、エージェントとかの活用が
 
 このブックマーク集から、大規模言語モデル(LLM)の最新の動向が見えてきます。既存の7Bモデルに匹敵する強さを持ちながら、わずか2.4Bパラメータという小さなサイズのMiniCPM-2Bが登場しました。小規模モデルを使ってハイパーパラメータを効率的に探索し、大規模モデルに転移させる「μトランスファー」という手法が採用されています。また、スマートフォンなどのエッジデバイス上で動作可能な20億パラメータのOctopus v2や、8Bパラメータながら高い性能を発揮するJetMoEなど、モデルサイズの最適化が進んでいます。
 
@@ -3807,10 +3807,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ④サイバーセキュリティを確保させる　
 		- ⑤ドキュメントを作らせる
 -  Generative AI for Everyoneから、古のNLPエンジニアの心に刺さったこと8選
-	- https://note.com/csstudyabroad/n/n5aba3a708f3a
-- "Purple Llama CyberSecEval: A benchmark for evaluating 
+	- https://note.com/csstudyabroad/n/n5a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzE5NzM2NSw2MjQyMDY1ODEsMTk4Mz
+eyJoaXN0b3J5IjpbMTg0NTI1NjUwMCw2MjQyMDY1ODEsMTk4Mz
 Y2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcy
 MywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxOD
 k3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4
