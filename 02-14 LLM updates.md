@@ -66,6 +66,12 @@
 	- 回転埋め込みを備えた GPT-2 アーキテクチャは、知識の保存において LLaMA/Mistral アーキテクチャに匹敵するか、それを上回ります。
 - Gemini 1.5 Pro
 	- https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html
+- Imagen 2 by DeepMind
+	- https://x.com/GoogleDeepMind/status/1777747320945234422
+	- Imagen 2 can now create short, 4-second live images from a single prompt.
+- GPT-4 Turbo launch
+	- previewが取れた
+	- 
 
 ## 4/8
 
@@ -3809,16 +3815,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://zenn.dev/microsoft/articles/azure-openai-japanese-blogs
 - カーネマン教授とルカン先生の対話
 	- https://www.youtube.com/watch?v=oy9FhisFTmI
-	- Video of Daniel Kahneman and Yann LeCun discussing Dual Process Theory (i.e., System 1 and 2) in relation to Deep Learning.
--  ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search
-	- https://arxiv.org/abs/2310.13227
-	- uses algorithms 
+	- Video of Daniel Kahneman and Yann LeCun discussing Dual Process Theor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDYzNzY1NTEsMTg5NzE2MTY2MiwxNj
-AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
-NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
-wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
-ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
-wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
-Mzk2MTE1MzRdfQ==
+eyJoaXN0b3J5IjpbOTA0NzAzMjU3LDE4OTcxNjE2NjIsMTYwMD
+AyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1
+OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLT
+EyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4Nzg0
+Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAxNjUsLT
+IwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5
+NjExNTM0XX0=
 -->
