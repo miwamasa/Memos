@@ -101,6 +101,12 @@
 - Stable LM 2 12B
 	- https://stability.ai/news/introducing-stable-lm-2-12b
 	- Stable LM 2 12B は、英語、スペイン語、ドイツ語、イタリア語、フランス語、ポルトガル語、オランダ語の多言語データでトレーニングされされた、120億パラメータを持つ強力な言語モデルです。 ベースモデルと指示学習済みモデルを備えています。
+- GoogleDocにgeminiが統合される？
+	- https://x.com/GoogleWorkspace/status/1777807449652662508
+- TPU v5p, our most powerful and scalable TPU, is now generally available
+	- https://x.com/GoogleCloudTech/status/1777732890471625162
+- Gemma-1.1 also shows great improvement in terms of reduced hallucinations in the updated HHEM leaderbod
+	- https://x.com/ofermend/status/1777695633455108478
 - 
 
 ## 4/8
@@ -3818,16 +3824,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://zenn.dev/saldra/articles/356f470e730d1c
 - ＮＴＴコムのＡＩ学習教材
 	- https://gochikika.ntt.com/index.html
-	- データの前処理からモデリングや評価までPythonコードと合わせて一通り学べる
-- マルチモーダルのＬＬＭでも出力の成型が大事
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/multi_modal/multi_modal_pydantic.ipynb
-- John X. Morris et al., "Language Model Inversion"
-	- https://arxiv.org/abs/2311.13647
-	- 言語モデルは次の単語の確率を出すが、その「確率」を利用して元の文章（プロンプト）を何とかして見つけ出す手法を開発。
-- OpenAIのcookbookにllamaindexをつかたRAGが掲載
-	- https://blog.llamaindex.ai/openai-
+	- データの前処理からモデリングや評価
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NzYwNjY3MSwxODk3MTYxNjYyLDE2MD
+eyJoaXN0b3J5IjpbMTAzNDA5MzA3OCwxODk3MTYxNjYyLDE2MD
 AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
 NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
 0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
