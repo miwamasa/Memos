@@ -160,7 +160,14 @@
 - 『すずめの戸締まり』に登場する3本脚の椅子を再現したロボット設計
 	- https://x.com/shin0805__/status/1777992583396131246
 	- 強化学習による歩容生成の論文を公開しました！ 来週アメリカで開催されるRoboSoft2024にて発表します！
-	- 
+	- https://shin0805.github.io/chair-type-tripedal-robot/
+- mistral-community/Mixtral-8x22B-v0.1
+	- The Mixtral-8x22B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts.
+	- おい、これApache-2.0だぞ！GPT-4クラスが商用利用可能らしい
+- MLX with LangChain
+	- https://python.langchain.com/docs/integrations/chat/mlx/
+	- This notebook shows how to get started using MLX LLM’s as chat models.
+- 
 
 ## 4/8
 
@@ -3820,16 +3827,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	-  ③ 新しい研究プロジェクトのアイデア合成も可能
 -  Google Colab で LCM LoRA を試す　 by npakaさん
 	- https://note.com/npaka/n/n940ee84ca5b6?sub_rt=share_h
-	- 「LCM」 (Latent Consistency Model) は、元モデルを別モデルに蒸留することで、画像生成に必要なステップ数を減らす手法です。25～50ステップかかっていた処理を4～8ステップで可能にします。
-- Multi-modal Foundation Model for Material Design
-	- https://openreview.net/forum?id=EiT2bLsfM9
-	- 分子を表現するマルチモーダル基盤モデルの研究。SELFIES、DFT物性、スペクトルについてそれぞれencoder-decoderを学習し、各モダリティの潜在空間を共通の潜在空間にencode, decodeするモデルを学習。
-	-  欠損が多くても学習可能かつ、後から異なるモダリティを追加しやすい
-- 選択バイアスの式、tweedle
-	- https://x.com/docmilanfar/status/1728680465928958055?s=20
-- llamaindex
+	- 「LCM」 (Latent Consistency Model) は、元モデルを別モデルに蒸留することで、画像生成に必
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODk3MzgxOCwtMjc3OTM2NzIzLDEzMz
+eyJoaXN0b3J5IjpbLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMz
 E0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2
 NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LD
 Y1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgw
