@@ -71,12 +71,17 @@
 	- Imagen 2 can now create short, 4-second live images from a single prompt.
 - GPT-4 Turbo launch
 	- https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4
-	- previewが取れた
+	- 180カ国サポート、「統一モデル」音声・動画認識、ファイルAPI、System Instructionカスタマイズ機能、 JSONモードなどが加わりました。
+	- 
 - UNESCOがAI Ethicで人集めしている by　神嶌さん
 	- https://careers.unesco.org/job/Other-cities-Consultant/791818302/d
 - Llama.cpp で Command R+ をお試し中 by npakaさん
 	- https://x.com/npaka123/status/1777802956571889969
 	- Q4_K_M・M3 Max (128GB) 5.22 tokens per second
+- mmnga/codegemma-7b-it-gguf
+	- https://huggingface.co/mmnga/codegemma-7b-it-gguf
+	- gemma-1.1-7bとcodegemma-7b-itのgguf
+- 
 
 ## 4/8
 
@@ -3814,9 +3819,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - DeepMind has formalized a theoretical result related to AI safety in Lean. 
 	- https://github.com/google-deepmind/debate
 	- "Monadic syntax is excellent for expressing stochastic algorithms, and working over finitely supported distributions avoids the need for integrability side conditions during proofs."
-	- But I’m now much more optimistic that a PCP (probabilistically checkable proof) system derived from this line of research might be a useful tool to have in the toolbox for verifying AI safety properties that depend upon unformalizable human preferences. I still think “not killing lots of people” is probably just totally formalizable, but humanity might also want to mitigate the risks of various dystopias that are more a matter of taste, and that’s where this type of method
+	- But I’m now much more optimistic that a PCP (probabilistically checkable proof) system derived from this line of research might be a useful tool to have in the toolbox for verifying AI safety properties that depend upon unformalizable human preferences. I still think “not killing lot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODQxMzc1OSwxODk3MTYxNjYyLDE2MD
+eyJoaXN0b3J5IjpbMTI0MTUxNTU4MSwxODk3MTYxNjYyLDE2MD
 AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
 NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
 0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
