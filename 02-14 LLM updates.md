@@ -66,12 +66,13 @@
 	- 回転埋め込みを備えた GPT-2 アーキテクチャは、知識の保存において LLaMA/Mistral アーキテクチャに匹敵するか、それを上回ります。
 - Gemini 1.5 Pro
 	- https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html
+	- 180カ国サポート、「統一モデル」音声・動画認識、ファイルAPI、System Instructionカスタマイズ機能、 JSONモードなどが加わりました、以下で試せる
+	- https://aistudio.google.com/app/prompts/new_chat
 - Imagen 2 by DeepMind
 	- https://x.com/GoogleDeepMind/status/1777747320945234422
 	- Imagen 2 can now create short, 4-second live images from a single prompt.
 - GPT-4 Turbo launch
 	- https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4
-	- 180カ国サポート、「統一モデル」音声・動画認識、ファイルAPI、System Instructionカスタマイズ機能、 JSONモードなどが加わりました。
 	- 
 - UNESCOがAI Ethicで人集めしている by　神嶌さん
 	- https://careers.unesco.org/job/Other-cities-Consultant/791818302/d
@@ -3819,13 +3820,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - DeepMind has formalized a theoretical result related to AI safety in Lean. 
 	- https://github.com/google-deepmind/debate
 	- "Monadic syntax is excellent for expressing stochastic algorithms, and working over finitely supported distributions avoids the need for integrability side conditions during proofs."
-	- But I’m now much more optimistic that a PCP (probabilistically checkable proof) system derived from this line of research might be a useful tool to have in the toolbox for verifying AI safety properties that depend upon unformalizable human preferences. I still think “not killing lot
+	- But I’m now much more optimistic that a PCP (probabilistically checkable proof) system derived from this line of research might be a useful tool to have in the toolbox for verifying AI safety properties that depend upon unfor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTUxNTU4MSwxODk3MTYxNjYyLDE2MD
-AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
-NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
-0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
-NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
-0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
-OTYxMTUzNF19
+eyJoaXN0b3J5IjpbLTEyMTEyNDU2MTAsMTg5NzE2MTY2MiwxNj
+AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
+NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
+wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
+ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
+wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
+Mzk2MTE1MzRdfQ==
 -->
