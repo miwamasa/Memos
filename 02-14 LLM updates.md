@@ -115,7 +115,11 @@
 	- https://note.com/nyosubro/n/n07afba435ef6
 	- 個人的な感想としては、Whisperレベル（あるいはそれ以上？）の文字起こし品質と論文ではありましたが、確かにそうかも！と言う感じでした。
 	- またWhisperとは異なり、プロンプトレベルで様々な文字起こしタスクに柔軟に対応できる点で、結構面白さを感じてます。
-- 
+- Llama.cpp で Command R+ を試す by npakaさん
+	- https://note.com/npaka/n/n9136a2ebc7f9?sub_rt=share_h
+	- M3 Max (128GB)
+	- 「Command R+」は、「RAG」や「Tool」などの長いコンテキストタスク向けに最適化された104BのLLMです。CohereのEmbeddingおよびRerankと連携して動作するように設計されており、RAGアプリケーションに最高クラスの統合を提供し、エンタープライズユースケースで優れています。
+	- 
 
 ## 4/8
 
@@ -3821,17 +3825,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 日本語Wikipediaのマルチターン会話データセット10万個を作りました	
 	- https://note.com/shi3zblog/n/na10eed9270f8?sub_rt=share_pb
 	- GPT-3.5-Turboを使って、約一ヶ月かけて日本語のWikipediaの項目をもとに先生と生徒が会話するマルチターンデータセットを作りました
-	- GPT-4でもやってみようかなと思っていますが、GPT-3.5でも一ヶ月でかなりの出費があり、GPT-4で同じ分量のデータセットを作るとなると数十万円から数百万円かかりそうです
-- llamaindexからRAGに有効なllamapackを７種類公開
-	- https://x.com/llama_index/status/1729303619760259463?s=20
-- Compositional Generative Inverse Design
-	- https://openreview.net/forum?id=5ueXRkKM
+	- G
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNj
-AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
-NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
-wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
-ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
-wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
-Mzk2MTE1MzRdfQ==
+eyJoaXN0b3J5IjpbLTg4MDc5MzMyNywtMTc2NDk0MDk5OCwxOD
+k3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4
+MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5Ni
+wtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3
+NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC
+0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5
+NTMxMDUzOTNdfQ==
 -->
