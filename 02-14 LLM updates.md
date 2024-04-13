@@ -111,6 +111,10 @@
 	- https://x.com/mattshumer_/status/1777465835834970189
 - Ride with GeminiというLLM＋RCカーのデモ
 	- https://x.com/kazunori_279/status/1777846216950456658
+-  Gemini 1.5 Proで文字起こしを試してみた
+	- https://note.com/nyosubro/n/n07afba435ef6
+	- 個人的な感想としては、Whisperレベル（あるいはそれ以上？）の文字起こし品質と論文ではありましたが、確かにそうかも！と言う感じでした。
+	- またWhisperとは異なり、プロンプトレベルで様々な文字起こしタスクに柔軟に対応できる点で、結構面白さを感じてます。
 - 
 
 ## 4/8
@@ -3821,14 +3825,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - llamaindexからRAGに有効なllamapackを７種類公開
 	- https://x.com/llama_index/status/1729303619760259463?s=20
 - Compositional Generative Inverse Design
-	- https://openreview.net/forum?id=5ueXRkKMMg&referrer=%5Bthe%20profile%20of%20Yilun%20Du%5D(%2Fprofile%3Fid%3D~Yilun_Du1
-	- シミュレーションを深層学習モデルで近似した代理シミュレータと、拡散モデルを使った逆問題解法は、しばしば学習データ分布外にいったり局所解に陥ることがある。それを防ぐために、学習済みモデルを使って拡散モデルの各ステップで解を誘導し、不適切な解を防ぐCinDMを提
+	- https://openreview.net/forum?id=5ueXRkKM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzY5MzA2MSwxODk3MTYxNjYyLDE2MD
-AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
-NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
-0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
-NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
-0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
-OTYxMTUzNF19
+eyJoaXN0b3J5IjpbLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNj
+AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
+NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
+wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
+ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
+wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
+Mzk2MTE1MzRdfQ==
 -->
