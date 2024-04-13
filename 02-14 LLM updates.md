@@ -171,6 +171,7 @@
 	- https://note.com/npaka/n/n0018d60fb8b7?sub_rt=share_h
 	- 「RecurrentGemma」は、Google で開発された新しいリカレントアーキテクチャに基づいて構築されたオープンモデルです。 事前学習済みモデルと指示チューニングモデルの両方が英語で利用可能です
 	- 新しいアーキテクチャにより、「Gemma」よりも必要なメモリが少なく、長いシーケンスを生成する際に高速な推論を実現します。
+	- 今回は、「**google/recurrentgemma-2b-it**」を使います。
 
 ## 4/8
 
@@ -3823,14 +3824,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Q*ではないですが、A*探索の様子を可視化した
 	- https://x.com/GregKamradt/status/1728480680127148480?s=20
 - Kevin Dunnell et al., "Latent Lab: Large Language Models for Knowledge Exploration"
-	- https://arxiv.org/abs/2311.13051
-	- LLMベースで、異なるプロジェクト間の繋がりやアイデア生成を促す
+	- https://arxiv.org/abs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDQ4NjU0NywtNTkzMjg2NTA1LC0yNz
-c5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5
-OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLT
-E3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgz
-NTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MD
-M0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5
-ODU4NV19
+eyJoaXN0b3J5IjpbODk3MTE1NTQwLC01OTMyODY1MDUsLTI3Nz
+kzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5
+OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMT
+c2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1
+MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMz
+QsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4
+NTg1XX0=
 -->
