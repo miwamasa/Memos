@@ -73,7 +73,7 @@
 	- Imagen 2 can now create short, 4-second live images from a single prompt.
 - GPT-4 Turbo launch
 	- https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4
-	- 
+	- previewが取れた
 - UNESCOがAI Ethicで人集めしている by　神嶌さん
 	- https://careers.unesco.org/job/Other-cities-Consultant/791818302/d
 - Llama.cpp で Command R+ をお試し中 by npakaさん
@@ -82,6 +82,11 @@
 - mmnga/codegemma-7b-it-gguf
 	- https://huggingface.co/mmnga/codegemma-7b-it-gguf
 	- gemma-1.1-7bとcodegemma-7b-itのgguf
+- 【LangChainゆる勉強会#3】LangChainのAgentはどれを使う？
+	- https://www.youtube.com/watch?v=07TuBmm67sU
+- rinna/youri-7b-chat-gptqとintfloat/multilingual-e5-largeでRAGするだけでもcolabよりrtx3060の方がかなり速い
+	- https://x.com/rsimd_/status/1747614320878555175
+	- vramが足りればって話だけど，一応faiss-cpuを使えばメモリ足りてる．
 - 
 
 ## 4/8
@@ -3819,14 +3824,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/ML_deep/status/1729249503683969037?s=20
 - DeepMind has formalized a theoretical result related to AI safety in Lean. 
 	- https://github.com/google-deepmind/debate
-	- "Monadic syntax is excellent for expressing stochastic algorithms, and working over finitely supported distributions avoids the need for integrability side conditions during proofs."
-	- But I’m now much more optimistic that a PCP (probabilistically checkable proof) system derived from this line of research might be a useful tool to have in the toolbox for verifying AI safety properties that depend upon unfor
+	- "Monadic syntax is excellent for expressing stochastic algorithms, and working over finitely supported distributions avoids th
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTEyNDU2MTAsMTg5NzE2MTY2MiwxNj
-AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
-NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
-wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
-ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
-wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
-Mzk2MTE1MzRdfQ==
+eyJoaXN0b3J5IjpbMjA0MjU2ODY3OCwxODk3MTYxNjYyLDE2MD
+AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
+NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
+0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
+NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
+0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
+OTYxMTUzNF19
 -->
