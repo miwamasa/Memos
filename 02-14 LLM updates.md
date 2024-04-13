@@ -4,7 +4,7 @@
 
 ## 4/15
 
-今週も強烈だった。頭がくらくらするが、気のせいか重み転移系が多い気がする。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニングと呼ばれてる？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3、128G)や、A100(80G)で結構サクサクうごくらしい。特に、 「Command R+ GPTQをローカルLLMとしてvllmでOpenAI API互換サーバ動作」ってのは、A100持っている人はぜひ試してみるべき。 Command R+に影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをベースにexpertsをマージしてmistralにした勝手版Mistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まって何が何だか。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、数学能力をある程度維持しつつ、Chat能力も強化することができるという話もあった。LightChatAssistant 2x7BてのもMistral7Bモデルをベースとした日本語対応モデル 2をChatVector手法で対話能力強化してmergekitでMoE化したもの。32kのContextSize対応、iQ3_XXS量子化でVRAM12GBでフルロード可能、RTX3060でも動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma、リカレントニューラルネットワークとローカルアテンションを活用してメモリ効率を向上さているらしい、今後もGemmaとパラレルにリリースするのか。GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」てのもあった。それから、今週はGoogle Cloud Next24があったので、Gemini 1.5 Proのリリースや、DeepMindのImagen 2、TPU v5pの発表、GoogleDocにGeminiの統合とか、geminiでRCカーを制御とか面白い出し物があった。日本語LLM 9種を量子化して回答内容を比較ってのも面白かった、ELYZAは偉いぞ。LangChain の Tool Calling 標準インタフェース ってLLMに依存しないということなので、エージェントとかの活用が加速しそう。QR分解でカルマンフィルターってのは目からうろこだ、一見異なる枝がエレガントにつながる、これぞサイエンスの醍醐味だ。
+今週も強烈だった。頭がくらくらするが、気のせいか重み転移系が多い気がする。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニングと呼ばれてる？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3、128G)や、A100(80G)で結構サクサクうごくらしい。特に、 「Command R+ GPTQをローカルLLMとしてvllmでOpenAI API互換サーバ動作」ってのは、A100持っている人はぜひ試してみるべき。 Command R+に影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをベースにexpertsをマージしてmistralにした勝手版Mistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まって何が何だか。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、数学能力をある程度維持しつつ、Chat能力も強化することができるという話もあった。LightChatAssistant 2x7BてのもMistral7Bモデルをベースとした日本語対応モデル 2をChatVector手法で対話能力強化してmergekitでMoE化したもの。32kのContextSize対応、iQ3_XXS量子化でVRAM12GBでフルロード可能、RTX3060でも動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma、リカレントニューラルネットワークとローカルアテンションを活用してメモリ効率を向上さているらしい、今後もGemmaとパラレルにリリースするのか。GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」てのもあった、Gemma-2Bに追加学習して「Function Calling」を強化したとのこと。それから、今週はGoogle Cloud Next24があったので、Gemini 1.5 Proのリリースや、DeepMindのImagen 2、TPU v5pの発表、GoogleDocにGeminiの統合とか、geminiでRCカーを制御とか面白い出し物があった。日本語LLM 9種を量子化して回答内容を比較ってのも面白かった、ELYZAは偉いぞ。LangChain の Tool Calling 標準インタフェース ってLLMに依存しないということなので、エージェントとかの活用が加速しそう。QR分解でカルマンフィルターってのは目からうろこだ、一見異なる枝がエレガントにつながる、これぞサイエンスの醍醐味だ。
 
 - MiniCPM: Unveiling the Potential of End-side Large Language Models
 	- https://shengdinghu.notion.site/MiniCPM-Unveiling-the-Potential-of-End-side-Large-Language-Models-d4d3a8c426424654a4e80e42a711cb20
@@ -22,11 +22,13 @@
 	- LLM単体ではなくLLMやその他のモジュールを組み合わせて問題を解く「複合AI」の考え方がとても大事
 -  Octopus v2: On-device language model for super agent
 	- https://arxiv.org/abs/2404.01744
+	- https://huggingface.co/NexaAIDev/Octopus-v2
 	- GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」
 	- 20億パラメータを持つエッジデバイス上で機能するオンデバイスAIモデル「Octopus v2」
 - Google Colab で Octopus V2 を試す by npakaさん、
 	- https://note.com/npaka/n/n706bde979ed8
 	- Gemma-2Bを追加学習したモデルで、学習ステージと推論ステージの両方に独自のFunctionトークン戦略を導入することで、「Function Calling」において「GPT-4」に匹敵する性能を達成したとのことです。
+	- ユースケースとしては、「カレンダーにリマインダー追加」「メッセージ送信」「Youtube検索」の指示などが挙げられています
 - Chat VectorとMath Vectorは併用できるのか by はちさｎ
 	- https://note.com/hatti8/n/n2d6d86d6f05a?sub_rt=share_h
 	- Chat+Math能力の両方を日本語ベースモデルに付与したら、どちらの効果も得られるのか
@@ -3789,11 +3791,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ⑤ドキュメントを作らせる
 -  Generative AI for Everyoneか
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2ODk5MDM1LC0xNjE1NDkwNDExLDk4MT
-A2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3
-LC01OTMyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMD
-kxNDE5MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4
-NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLT
-ExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgx
-NjczNTA3XX0=
+eyJoaXN0b3J5IjpbODQ0ODUzNTUsLTE2MTU0OTA0MTEsOTgxMD
+Y1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcs
+LTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOT
+E0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2
+NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1OSwtMT
+E3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLTEyODE2
+NzM1MDddfQ==
 -->
