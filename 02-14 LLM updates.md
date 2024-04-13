@@ -46,7 +46,13 @@
 	- https://note.com/tatsuyashirakawa/n/n9f5b57ce1aa6?sub_rt=share_b&d=s4cpuSjMMAw
 	- μP（Maximal Update Parametrization）というのは、 Tensor Programs (TP)というフレームワークにおいて理論的に導出されたパラメータ付け（パラメータのスケーリングなど）の方法です
 	- TP は、 Neural Networks （NN）の解析をするために、線形変換や非線形活性化関数などの NN の構築で頻出する操作をリストアップし、その枠組みで成立する事象や性質を追求するフレームワークです。
-	- 
+	- https://www.microsoft.com/en-us/research/blog/%C2%B5transfer-a-technique-for-hyperparameter-tuning-of-enormous-neural-networks/
+- Leveraging language representation for materials exploration and discovery
+	- https://www.nature.com/articles/s41524-024-01231-8
+	- 言語モデルによる材料探索の論文。
+	- 結晶材料をテキスト表現にし言語モデルにより既存材料に似た新熱電材料を探索
+	- 特に、GPTのようなデコーダ専用モデルより、BERTのようなエンコーダ専用モデルのほうが汎用性が高くMIタスクに向いている、という点が興味深かったで
+- 
 
 ## 4/8
 
@@ -3807,19 +3813,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.jstage.jst.go.jp/article/keidaironshu/68/4/68_161/_article/-char/ja/
 	- Robbins (1956) が Tweedie (1947) に言及してることに基づき，Efron が Tweedie's formula と名付けて広まっているが，Koenker & Gu (2016) では Dyson (1926) で既に得られていることが指摘されている。
 -  A glimpse of the next generation of AlphaFold
-	- https://deepmind.google/discover/blog/a-glimpse-of-the-next-generation-of-alphafold/
-	- AlphaFoldは最近大きなアップデートがあり、精度が大幅に向上し、タンパクだけでなくPDBにあるほぼすべての分子について予測可能です。創薬や新型CRISPR探索にも(一定程度は)使えます。
-- EMNLP2023 の採択論文リストが見えるようになってた．来週シンガポールで開催される自然言語処理の国際会議です．タイトルに"Language Model"はいってる論文が219本って，どんだけ言語モデル好きなんだよ
-	- https://2023.emnlp.org/program/accepted_main_conference/
--  OpenAI と LangChain の認知アーキテクチャ by npakaさん
-	- https://note.com/npaka/n/n650532ce289a?sub_rt=share_h
-	- 「**認知アーキテクチャ**」(c
+	- https://deepmind.google/discover/blog/a-glimpse-of-the-next-generation-of-alph
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTMzMzc4MTUsMTg5NzE2MTY2MiwxNj
-AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
-NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
-wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
-ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
-wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
-Mzk2MTE1MzRdfQ==
+eyJoaXN0b3J5IjpbNDE3Njc3Mzc2LDE4OTcxNjE2NjIsMTYwMD
+AyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1
+OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLT
+EyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4Nzg0
+Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAxNjUsLT
+IwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5
+NjExNTM0XX0=
 -->
