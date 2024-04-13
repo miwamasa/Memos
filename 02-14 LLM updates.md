@@ -18,9 +18,12 @@
 - ｢LLMはコモディティー｣　米データブリックスCEOが語る
 	- https://www.nikkei.com/article/DGXZQOGN252JK0V20C24A3000000/
 	- LLM単体ではなくLLMやその他のモジュールを組み合わせて問題を解く「複合AI」の考え方がとても大事
-- Octopus v2
-	- https://www.techno-edge.net/article/2024/04/08/3130.html
+-  Octopus v2: On-device language model for super agent
+	- https://arxiv.org/abs/2404.01744
 	- GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」
+	- 20億パラメータを持つエッジデバイス上で機能するオンデバイスAIモデル「Octopus v2」
+- Chat VectorとMath Vectorは併用できるのか by はちさｎ
+	- https://note.com/hatti8/n/n2d6d86d6f05a?sub_rt=share_h
 
 ## 4/8
 
@@ -3803,16 +3806,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Deconstructing RAG
 	- https://blog.langchain.dev/deconstructing-rag/
 	- Given the importance of RAG and the fast pace of development, we've grouped popular RAG concepts into a few categories and created guides for each one.
-- Running Starling-7B LLM model on local CPU with @Ollama_ai and getting great results for invoice data extraction, even better than Zephyr, Mistral or Llama2.
-	- https://github.com/katanaml/llm-ollama-invoice-cpu
-- 円城塔を近似する？
-	- https://colab.research.google.com/drive/1oX
+- Running Starling-7B LLM model on local CPU with @Ollama_ai and getting great results for invoice dat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTM4MTE0NTEsMTg5NzE2MTY2MiwxNj
-AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
-NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
-wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
-ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
-wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
-Mzk2MTE1MzRdfQ==
+eyJoaXN0b3J5IjpbMTU0MjAxOTgxNCwxODk3MTYxNjYyLDE2MD
+AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
+NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
+0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
+NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
+0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
+OTYxMTUzNF19
 -->
