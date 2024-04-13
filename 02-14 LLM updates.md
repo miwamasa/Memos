@@ -195,6 +195,10 @@
 	- https://huggingface.co/lightblue/Karasu-Mixtral-8x22B-v0.1
 	- 強い！これは間違いなくエース級　 by AIXさとし
 		- https://x.com/AiXsatoshi/status/1778489953279951132
+- Introducing Mistral-22b-V.01 A breakthrough in AI
+	- https://huggingface.co/Vezora/Mistral-22B-v0.1
+	- First-ever MOE to Dense model conversion
+	- This model is not an moe, it is infact a 22B parameter dense model!
 - 
 
 
@@ -3833,19 +3837,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Google Colab で DiscoLM Mixtral 8x7b alpha を試す by npakaさん
 	- https://note.com/npaka/n/n3b55c941d864?sub_rt=share_h
 	- 「**Mixtral 8x7b**」は、「Mistral AI」がリリースした史上初のオープンソース MoEモデルです
-	- 「**DiscoLM Mixtral 8x7b alpha**」は、「Mixtral 8x7b」をファインチューニングして作成した実験的なチャットモデルです。元のモデルをHuggingFace形式に変換し、「Synthia」「MethaMathQA」「Capybara」でファインチューニングしています。
-	- 「**MoE**」 (Mixture of Experts) とは、LLMの効率と精度を高めるために使用される手法です。このアプローチは、複雑なタスクをより小さく管理しやすいサブタスクに分割し、それぞれを特化したミニモデルまたは専門家が処理することで機能します。
-	- 
-
-## 12/4
-
-先週までのOpenAIのお家騒動も落ち着き、今週は通常運転。日常能
+	- 「**DiscoLM Mixtral 8x7b alpha**」は、「Mixtral 8x7b」をファインチューニングして作成した実験的なチャットモデルです。元のモデルをHuggingFace形式に変換し、「Synthia」「MethaM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OT
-MyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5
-MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMT
-cxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5
-MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNT
-A3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcw
-ODM0MTc5XX0=
+eyJoaXN0b3J5IjpbNzkwNDA5ODU0LDE5ODM2NjA5MzAsMTExMz
+A3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2
+NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNj
+AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
+NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
+wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
+ODQ2OTc1XX0=
 -->
