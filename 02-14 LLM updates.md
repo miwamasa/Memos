@@ -4,7 +4,9 @@
 
 ## 4/15
 
-今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニング？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。これに影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをMoEで無くしたMistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まった。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、両方の機能が保存されたという話。LightChatAssistant2x7BのもTask Vectorの加算でできてて、少ないリソースで動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma
+今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニング？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。これに影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをMoEで無くしたMistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まった。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、両方の機能が保存されたという話。LightChatAssistant2x7BのもTask Vectorの加算でできてて、少ないリソースで動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma。GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」。
+
+今週は、Google Next
 
 このブックマーク集から、大規模言語モデル(LLM)の最新の動向が見えてきます。既存の7Bモデルに匹敵する強さを持ちながら、わずか2.4Bパラメータという小さなサイズのMiniCPM-2Bが登場しました。小規模モデルを使ってハイパーパラメータを効率的に探索し、大規模モデルに転移させる「μトランスファー」という手法が採用されています。また、スマートフォンなどのエッジデバイス上で動作可能な20億パラメータのOctopus v2や、8Bパラメータながら高い性能を発揮するJetMoEなど、モデルサイズの最適化が進んでいます。
 
@@ -3812,15 +3814,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- LLama Purple関連の CyberSecEvalの論文
 	- https://ai.meta.com/research/publications/purple-llama-cyberseceval-a-benchmark-for-evaluating-the-cybersecurity-risks-of-large-language-models/
 	- Metaの研究者らは、LLMが生成するコードにおける不安定性や乱用リスクを評価するためのツールを作成しました。
-	-  実験の結果、現在は、能力が高いモデルほど不安全なコードを提案する傾向が強いという逆説的な結果も出てきました。
-	- ① 全体的にLLMは、30%のケースで不安全なコードを提案した 
-	-
+	-  実験の結果、現在は、能力が高いモデルほど不安全なコードを提案する傾
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDc0NzI1NCw2MjQyMDY1ODEsMTk4Mz
-Y2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcy
-MywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxOD
-k3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4
-MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5Ni
-wtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3
-NTkwMzA5N119
+eyJoaXN0b3J5IjpbMjQ4NzIwMDU4LDYyNDIwNjU4MSwxOTgzNj
+YwOTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIz
+LDEzMzE0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OT
+cxNjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgy
+MzE2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC
+0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1
+OTAzMDk3XX0=
 -->
