@@ -24,6 +24,10 @@
 	- 20億パラメータを持つエッジデバイス上で機能するオンデバイスAIモデル「Octopus v2」
 - Chat VectorとMath Vectorは併用できるのか by はちさｎ
 	- https://note.com/hatti8/n/n2d6d86d6f05a?sub_rt=share_h
+	- Chat+Math能力の両方を日本語ベースモデルに付与したら、どちらの効果も得られるのか
+	- Math強化モデルに先ほど作ったChat Vectorを重ねがけしていきます
+	- Math強化モデル：Swallow-MS-7b-v0.1-MathSkill-OpenMath
+	- Chat Vector：SkillTree-Chat-Mistral-7B-v0.1
 
 ## 4/8
 
@@ -3805,10 +3809,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- We also have LlamaPacks for every technique mentioned in this course to help you jumpstart your advanced LLM app:
 - Deconstructing RAG
 	- https://blog.langchain.dev/deconstructing-rag/
-	- Given the importance of RAG and the fast pace of development, we've grouped popular RAG concepts into a few categories and created guides for each one.
-- Running Starling-7B LLM model on local CPU with @Ollama_ai and getting great results for invoice dat
+	- Given the importance of RAG and the fast pace of development, we've
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjAxOTgxNCwxODk3MTYxNjYyLDE2MD
+eyJoaXN0b3J5IjpbMTQxMjgxNTM4NywxODk3MTYxNjYyLDE2MD
 AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
 NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
 0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
