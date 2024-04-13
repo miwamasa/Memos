@@ -4,7 +4,7 @@
 
 ## 4/15
 
-今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニング？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。特に、 Command R+ GPTQをローカルLLMとしてvllmでOpenAI API互換サーバ動作ってのは、A100持っている人はぜひ試してみるべき。 Command R+に影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをexpertsをマージしてmistralにした勝手版Mistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まって何が何だか。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、数学能力をある程度維持しつつ、Chat能力も強化することができるという話もあった。LightChatAssistant2x7BてのもTask Vectorの加算でできてて、RTX3060なんかの少リソースで動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma、リカレントニューラルネットワークとローカルアテンションを活用してメモリ効率を向上さているらしい、今後もGemmaとパラにリリースするのか。GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」てのもあった。それから、今週はGoogle Cloud Next24があったので、Gemini 1.5 Proのリリースや、DeepMindのImagen 2、TPU v5pの発表、GoogleDocにGeminiの統合とか、geminiでRCカーを制御とか面白い出し物があった。日本語LLM 9種を量子化して回答内容を比較ってのも面白かった、ELYZAは偉いぞ。LangChain の Tool Calling 標準インタフェース ってLLMに依存しないということなので、エージェントとかの活用が加速しそう。QR分解でカルマンフィルターってのは目からうろこだ、一見異なる枝がエレガントにつながる、これぞサイエンスの醍醐味だ。
+今週も強烈だった。頭がくらくらする。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニング？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。特に、 Command R+ GPTQをローカルLLMとしてvllmでOpenAI API互換サーバ動作ってのは、A100持っている人はぜひ試してみるべき。 Command R+に影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをexpertsをマージしてmistralにした勝手版Mistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まって何が何だか。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、数学能力をある程度維持しつつ、Chat能力も強化することができるという話もあった。LightChatAssistant2x7BてのもTask Vectorの加算でできてて、RTX3060なんかの少リソースで動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma、リカレントニューラルネットワークとローカルアテンションを活用してメモリ効率を向上さているらしい、今後もGemmaとパラレルにリリースするのか。GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」てのもあった。それから、今週はGoogle Cloud Next24があったので、Gemini 1.5 Proのリリースや、DeepMindのImagen 2、TPU v5pの発表、GoogleDocにGeminiの統合とか、geminiでRCカーを制御とか面白い出し物があった。日本語LLM 9種を量子化して回答内容を比較ってのも面白かった、ELYZAは偉いぞ。LangChain の Tool Calling 標準インタフェース ってLLMに依存しないということなので、エージェントとかの活用が加速しそう。QR分解でカルマンフィルターってのは目からうろこだ、一見異なる枝がエレガントにつながる、これぞサイエンスの醍醐味だ。
 
 - MiniCPM: Unveiling the Potential of End-side Large Language Models
 	- https://shengdinghu.notion.site/MiniCPM-Unveiling-the-Potential-of-End-side-Large-Language-Models-d4d3a8c426424654a4e80e42a711cb20
@@ -3786,7 +3786,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ⑤ドキュメントを作らせる
 -  Generative AI for Everyoneか
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0OTg0NzUwLDYyNDIwNjU4MSwxOTgzNj
+eyJoaXN0b3J5IjpbOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNj
 YwOTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIz
 LDEzMzE0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OT
 cxNjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgy
