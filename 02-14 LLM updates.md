@@ -191,6 +191,10 @@
 	- https://group.ntt/jp/newsrelease/2024/04/12/240412b.html
 - Embeddingsを使ってローカルでテキストをクラスタリングする（Multilingual-E5）
 	- https://zenn.dev/libratech/articles/afe9c5b30668bb
+- Mixtral-8x22B、LightblueさんのkarasuチューニングモデルとAWQ
+	- https://huggingface.co/lightblue/Karasu-Mixtral-8x22B-v0.1
+	- 強い！これは間違いなくエース級　 by AIXさとし
+		- https://x.com/AiXsatoshi/status/1778489953279951132
 - 
 
 
@@ -3835,13 +3839,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 12/4
 
-先週までのOpenAIのお家騒動も落ち着き、今週は通常運転。日常能力を試すテスト『GAIA』、プロンプトの良例にもなっているし、現状のLLMの限界を図るのにちょうどよい。A*の可視化、こういうのを待ってた。異なるプロジェクト間の繋がりやアイデア生成を促すシステム『Latent Lab』というのは、フリーアドレスの執務環境の研究活動の活性化にヒントがあるかも。選択バイアス問題がなぜか着目される。清水さん、ついに、A100 80GBx8のマシンが完成、日本語のマ
+先週までのOpenAIのお家騒動も落ち着き、今週は通常運転。日常能
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1MDA4NjE0LDExMTMwNzY3MDcsLTU5Mz
-I4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkz
-LC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNz
-E4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1OSwtMTE3MTkx
-Mjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLTEyODE2NzM1MD
-csMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4Nzg0Njk3NSwtNzA4
-MzQxNzldfQ==
+eyJoaXN0b3J5IjpbMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OT
+MyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5
+MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMT
+cxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5
+MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNT
+A3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcw
+ODM0MTc5XX0=
 -->
