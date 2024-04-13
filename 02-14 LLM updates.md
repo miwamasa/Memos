@@ -168,7 +168,9 @@
 	- https://python.langchain.com/docs/integrations/chat/mlx/
 	- This notebook shows how to get started using MLX LLM’s as chat models.
 - Google Colab で RecurrentGemma を試す
-	- 
+	- https://note.com/npaka/n/n0018d60fb8b7?sub_rt=share_h
+	- 「RecurrentGemma」は、Google で開発された新しいリカレントアーキテクチャに基づいて構築されたオープンモデルです。 事前学習済みモデルと指示チューニングモデルの両方が英語で利用可能です
+	- 新しいアーキテクチャにより、「Gemma」よりも必要なメモリが少なく、長いシーケンスを生成する際に高速な推論を実現します。
 
 ## 4/8
 
@@ -3822,19 +3824,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/GregKamradt/status/1728480680127148480?s=20
 - Kevin Dunnell et al., "Latent Lab: Large Language Models for Knowledge Exploration"
 	- https://arxiv.org/abs/2311.13051
-	- LLMベースで、異なるプロジェクト間の繋がりやアイデア生成を促すシステム『Latent Lab』
-	- ①対話と視覚化を通してデータを探索 
-	- ② プロジェクトのクラスタリングとラベル付けを自動化
-	-  ③ 新しい研究プロジェクトのアイデア合成も可能
--  Google Colab で LCM LoRA を試す　 by npakaさん
-	- https://note.com/npaka/n/n940ee84ca5b6?sub_rt=share_h
-	- 「LCM」 (Latent Consisten
+	- LLMベースで、異なるプロジェクト間の繋がりやアイデア生成を促す
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzMjcxMDI3LC01OTMyODY1MDUsLTI3Nz
-kzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5
-OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMT
-c2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1
-MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMz
-QsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4
-NTg1XX0=
+eyJoaXN0b3J5IjpbMTMwNDQ4NjU0NywtNTkzMjg2NTA1LC0yNz
+c5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5
+OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLT
+E3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgz
+NTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MD
+M0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5
+ODU4NV19
 -->
