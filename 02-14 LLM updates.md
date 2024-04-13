@@ -30,6 +30,12 @@
 	- Chat Vector：SkillTree-Chat-Mistral-7B-v0.1
 	- Math+Chat強化モデル
 		- https://huggingface.co/HachiML/Swallow-MS-7b-v0.1-ChatMathSkill
+	- 結論
+		-  **モデルが壊れることはない**
+		- **数学能力をある程度維持しつつ、Chat能力も強化することができる**
+		-  **一方、英語で回答しやすくなる傾向が出てくる**
+- Chat VectorならぬMath Vectorは作れるのか
+	- https://note.com/hatti8/n/n0000353355cb
 	- 
 
 ## 4/8
@@ -3808,16 +3814,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - TextからSQLを生成するQuerypls
 	- https://github.com/samadpls/Querypls/
 - われらが、 @jerryjliu0がdeeplearningaiコースに登場
-	- https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/
-	- We also have LlamaPacks for every technique mentioned in this course to help you jumpstart your advanced LLM app:
-- Deconstructing RAG
-	- https://blog.langchain.dev
+	- https://www.deeplearning.ai/short-courses/building-evaluating-advan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4Mjk3NzY5OSwxODk3MTYxNjYyLDE2MD
-AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
-NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
-0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
-NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
-0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
-OTYxMTUzNF19
+eyJoaXN0b3J5IjpbLTE2OTIzMTgyOTMsMTg5NzE2MTY2MiwxNj
+AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
+NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
+wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
+ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
+wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
+Mzk2MTE1MzRdfQ==
 -->
