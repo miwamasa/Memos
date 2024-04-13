@@ -203,7 +203,12 @@
 - Vezoraさんが公開されているMistral-22B-v0.1のggufあります
 	- https://huggingface.co/mmnga/Vezora-Mistral-22B-v0.1-gguf
 - Swallowシリーズのinstruct改良版ですが、本当は2023年度中を目指していたのですが、もろもろ多忙で遅れてしまっています。
-	- 
+	- https://x.com/okoge_kaz/status/1778396705156943985
+- mixtral 8x22bを軽くloraでファインチューニングしたら、少し、会話しやすくなりました
+	- https://x.com/kanhatakeyama/status/1778417221100028061
+	- 現状､mixtral 8x22bは事前学習のみのモデルですが､わりと会話できそうです｡
+-  Tool Calling with LangChain
+	- https://blog.langchain.dev/tool-calling-with-langchain/
 
 
 ## 4/8
@@ -3836,16 +3841,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/bindureddy/status/1733523486885449834?s=20
 	- まあ、ファインチューニングされてない素のモデルでもGPT3.5相当の性能というのは期待できる
 	- solid 70B model that is very similar to GPT 3.5, Gemini Pro
-	- MMLU on the base models is at 0.717 compared to Gemin Pro's 0.718
-	- Expect to see several fine and instruct tunes over the next few weeks. These fine tunes will match GPT-4 quality for several real-world use cases.
--  Google Colab で DiscoLM Mixtral 8x7b alpha を試す by npakaさん
-	- https://note.com/npaka/n/n3
+	- MMLU on t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM2NTgyMDEsMTk4MzY2MDkzMCwxMT
-EzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQx
-ODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLD
-E2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3
-OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3ND
-AzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3
-ODc4NDY5NzVdfQ==
+eyJoaXN0b3J5IjpbMzkxMDk1Mzg2LDE5ODM2NjA5MzAsMTExMz
+A3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2
+NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNj
+AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
+NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
+wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
+ODQ2OTc1XX0=
 -->
