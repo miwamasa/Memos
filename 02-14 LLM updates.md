@@ -122,7 +122,11 @@
 - Wikipediaの日本語記事を元に、ユーザの質問に回答するGradioベースのRAGのサンプル。
 	- https://github.com/lawofcycles/wikipedia-japanese-open-rag/tree/master
 	- 使ったもの
-	- 
+		-   [intfloat/multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large)
+		-   [elyza/ELYZA-japanese-Llama-2-13b-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b-instruct)
+- Command R plus推論速度、知見まとめ by AIXさとし
+	- https://x.com/AiXsatoshi/status/1777867323552190876
+- 
 
 ## 4/8
 
@@ -3820,19 +3824,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  ラプラス変換とフーリエ変換の関係
 	- https://qiita.com/kaityo256/items/aa5b24904577de40016e
 	- 関数�(�)にたいして、�<0ならゼロに、�≥0ならe−��をかけて、「より収束しやすく」した上でフーリエ変換したものがラプラス変換である。ラプラス変換が、軸の中途半端なところを「縦に」積分しなければならない理由も、フーリエ逆変換と�から�への変数変換から理解できるであろう。
-	- 関数�(�)にたいして、�<0ならゼロに、�≥0ならe−��をかけて、「より収束しやすく」した上でフーリエ変換したものがラプラス変換である。ラプラス変換が、軸の中途半端なところを「縦に」積分しなければならない理由も、フーリエ逆変換と�から�への変数変換から理解できるであろう。
-- Google Colab、Huggingfacesの協力で、transformerを最初から使えるようになった
-	- https://x.com/GoogleColab/status/1729217098977845590?s=20
-- A Llama-2-based model finetuned for function calling:
-	- https://huggingface.co/Trelis/Llama-2-7b-chat-hf-function-calling-v2
-- 日本語Wikipediaのマルチターン会話データセット10万個を作りました	
-	- https
+	- 関数�(�)にたいして、�<0ならゼロに、�≥0ならe−��をかけて、「より収束しやすく」した上でフーリエ変換したものがラプラス変換である。ラプラス変換が、軸の中途半端なところを「縦に」積分しなければならない理由も、フーリエ逆変換と�から�への変数変換から理解で
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjgxOTQ5MywtMTc2NDk0MDk5OCwxOD
-k3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4
-MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5Ni
-wtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3
-NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC
-0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5
-NTMxMDUzOTNdfQ==
+eyJoaXN0b3J5IjpbLTE0MDk0NTYzMDksLTE3NjQ5NDA5OTgsMT
+g5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5
+ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OT
+YsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02
+NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NS
+wtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0x
+OTUzMTA1MzkzXX0=
 -->
