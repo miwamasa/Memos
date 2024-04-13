@@ -74,7 +74,9 @@
 	- previewが取れた
 - UNESCOがAI Ethicで人集めしている by　神嶌さん
 	- https://careers.unesco.org/job/Other-cities-Consultant/791818302/d
-- 
+- Llama.cpp で Command R+ をお試し中 by npakaさん
+	- https://x.com/npaka123/status/1777802956571889969
+	- Q4_K_M・M3 Max (128GB) 5.22 tokens per second
 
 ## 4/8
 
@@ -3812,16 +3814,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - DeepMind has formalized a theoretical result related to AI safety in Lean. 
 	- https://github.com/google-deepmind/debate
 	- "Monadic syntax is excellent for expressing stochastic algorithms, and working over finitely supported distributions avoids the need for integrability side conditions during proofs."
-	- But I’m now much more optimistic that a PCP (probabilistically checkable proof) system derived from this line of research might be a useful tool to have in the toolbox for verifying AI safety properties that depend upon unformalizable human preferences. I still think “not killing lots of people” is probably just totally formalizable, but humanity might also want to mitigate the risks of various dystopias that are more a matter of taste, and that’s where this type of method might shine.
-	- https://x.com/davidad/status/1729461156618637502?s=20
-- Azure OpenAI Serviceの日本語記事まとめ
-	- https://zenn.dev/microsoft/articl
+	- But I’m now much more optimistic that a PCP (probabilistically checkable proof) system derived from this line of research might be a useful tool to have in the toolbox for verifying AI safety properties that depend upon unformalizable human preferences. I still think “not killing lots of people” is probably just totally formalizable, but humanity might also want to mitigate the risks of various dystopias that are more a matter of taste, and that’s where this type of method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2MTI3MjAyLDE4OTcxNjE2NjIsMTYwMD
-AyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1
-OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLT
-EyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4Nzg0
-Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAxNjUsLT
-IwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5
-NjExNTM0XX0=
+eyJoaXN0b3J5IjpbMjExODQxMzc1OSwxODk3MTYxNjYyLDE2MD
+AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
+NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
+0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
+NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
+0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
+OTYxMTUzNF19
 -->
