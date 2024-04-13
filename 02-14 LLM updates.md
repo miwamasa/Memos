@@ -107,6 +107,10 @@
 	- https://x.com/GoogleCloudTech/status/1777732890471625162
 - Gemma-1.1 also shows great improvement in terms of reduced hallucinations in the updated HHEM leaderbod
 	- https://x.com/ofermend/status/1777695633455108478
+- LLaMA 3's will start to drop next week.
+	- https://x.com/mattshumer_/status/1777465835834970189
+- Ride with GeminiというLLM＋RCカーのデモ
+	- https://x.com/kazunori_279/status/1777846216950456658
 - 
 
 ## 4/8
@@ -3818,15 +3822,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/llama_index/status/1729303619760259463?s=20
 - Compositional Generative Inverse Design
 	- https://openreview.net/forum?id=5ueXRkKMMg&referrer=%5Bthe%20profile%20of%20Yilun%20Du%5D(%2Fprofile%3Fid%3D~Yilun_Du1
-	- シミュレーションを深層学習モデルで近似した代理シミュレータと、拡散モデルを使った逆問題解法は、しばしば学習データ分布外にいったり局所解に陥ることがある。それを防ぐために、学習済みモデルを使って拡散モデルの各ステップで解を誘導し、不適切な解を防ぐCinDMを提案
-- mlc-llm on WSLでモデルの変換を行う
-	- 「WebGPUを用いたローカルLLMモデルのブラウザ推論」
-	- https://zenn.dev/saldra/articles/356f470e730d1c
-- ＮＴＴコムのＡＩ学習教材
-	- https://gochikika.ntt.com/index.html
-	- データの前処理からモデリングや評価
+	- シミュレーションを深層学習モデルで近似した代理シミュレータと、拡散モデルを使った逆問題解法は、しばしば学習データ分布外にいったり局所解に陥ることがある。それを防ぐために、学習済みモデルを使って拡散モデルの各ステップで解を誘導し、不適切な解を防ぐCinDMを提
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDA5MzA3OCwxODk3MTYxNjYyLDE2MD
+eyJoaXN0b3J5IjpbMTM5MzY5MzA2MSwxODk3MTYxNjYyLDE2MD
 AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
 NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
 0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
