@@ -92,6 +92,12 @@
 	- Q3_XXSは38GBだけど、ここまでなら精度的にも全然大丈夫ちゃうか？って予感はする。IQ2_XXSなら26.6GBで、ちょっとアホになってそう。IQ1_Sなら21.6GBだけど、さすがに実用性ヤバそう。
 - Perplexity Proに課金してGoogleのGemini UltraやGenerative Experienceと比較してみると、何かとんでもないことが起こっている気がする by 楠さん
 	- https://x.com/masanork/status/1777478951465779344
+- 完全ローカルでRAGも使えるAIチャットアプリOpenWebUIを日本語LLMでセットアップする
+	- https://zenn.dev/firstautomation/articles/0b7a4b1bb2daf0
+- Command R+はちゃんと強かった訳だが、Command RもこれまでのOpen-source最強のQwen1.5-72bに匹敵する訳なのですごい
+	- https://x.com/Meteor_Eternal/status/1777635899204874704
+- Gemini 1.5 Proの新機能 - Native Audio Understanding、System Instructions、JSON Mode、新Embeddingモデル　 by npakaさん
+	- https://note.com/npaka/n/n0254081ebc23?sub_rt=share_h
 - 
 
 ## 4/8
@@ -3819,19 +3825,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://blog.llamaindex.ai/openai-cookbook-evaluating-rag-systems-fe393c61fb93
 - Minimizing Factual Inconsistency and Hallucination in Large Language Models
 	- https://arxiv.org/abs/2311.13878
-	- LLMのハルシネーションを抑制するフレームワークが提案されました。 ユーザーの質問に対して、多段階で情報を取得させることで、信頼性の高い応答を取得可能です。
-- Relational Deep Learning
-	- https://drive.google.com/file/d/1Uk1y6c8z265G0wiRPpGT1cd5lts5lnKq/view
-	- Relational Deep Learning is brings the power of Graph Representation Learning to a Relational Database.
-- NeurIPA2023の論文検索サービス
-	- https://www.ai-driven-life.com/neurips-papers
-- 強化学習はベルマン最適性原理から来る動的計画法に支えられてます。しかし、情報がrandomSamplingされる中で実は各時刻隣合うデータの列がほとんど情報（報酬）を持たないとなると
+	- LLMのハルシネーションを抑制するフレームワークが提案されました。 ユーザーの質問
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzQxOTc2MywxODk3MTYxNjYyLDE2MD
-AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
-NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
-0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
-NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
-0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
-OTYxMTUzNF19
+eyJoaXN0b3J5IjpbLTE1MTM3MjA4NzQsMTg5NzE2MTY2MiwxNj
+AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
+NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
+wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
+ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
+wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
+Mzk2MTE1MzRdfQ==
 -->
