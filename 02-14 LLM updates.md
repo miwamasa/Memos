@@ -42,7 +42,11 @@
 	- https://x.com/umiyuki_ai/status/1777014403197788280
 	- Mixture of Attention heads（MoA）とMixture of MLP Experts（MoE）の二つのレイヤーに、それぞれ４人ずつエキスパートがいて、推論時は各レイヤー２人ずつが活性化する。
 	- 活性化パラ数は2.2Bで、合計パラ数は8Bだって。何だか知らんけどこのアーキテクチャによってトレーニング効率が爆上がって、H100が96台で２週間、1200万円しかトレーニング費用かけてないのに、数千億かけたはずのLlama-7BやLlama-13にベンチで勝利した
-- 
+- μTransfer: 小規模モデルでのハイパラ探索を大規模モデルに転移し学習を効率化する
+	- https://note.com/tatsuyashirakawa/n/n9f5b57ce1aa6?sub_rt=share_b&d=s4cpuSjMMAw
+	- μP（Maximal Update Parametrization）というのは、 Tensor Programs (TP)というフレームワークにおいて理論的に導出されたパラメータ付け（パラメータのスケーリングなど）の方法です
+	- TP は、 Neural Networks （NN）の解析をするために、線形変換や非線形活性化関数などの NN の構築で頻出する操作をリストアップし、その枠組みで成立する事象や性質を追求するフレームワークです。
+	- 
 
 ## 4/8
 
@@ -3809,17 +3813,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://2023.emnlp.org/program/accepted_main_conference/
 -  OpenAI と LangChain の認知アーキテクチャ by npakaさん
 	- https://note.com/npaka/n/n650532ce289a?sub_rt=share_h
-	- 「**認知アーキテクチャ**」(cognitive architecture) とは、LLMどのように情報を処理し、応答を生成するかを理解するための枠組みです。「Flo Crivello」（自律エージェントスタートアップのLindyの創設者）が使用したこの用語を初めて聞き、素晴らしい用語だと思いました。
-	- 「LangChain」では、「LLM」が真に変革的なエージェントのようなシステムに電力を供給する世界を信じています。しかし、そこにたどり着くルートは、**企業が「認知アーキテクチャ」を制御できるルート**であると信じています。
-	- **(1) Code**  LLMを利用しないパターン。  
-	- **(2) LLM Call** アプリの出力のみを決定する単一のLLMコール。 
-	- **(3) Chain**  アプリの
+	- 「**認知アーキテクチャ**」(c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzQwMDUyNSwxODk3MTYxNjYyLDE2MD
-AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
-NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
-0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
-NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
-0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
-OTYxMTUzNF19
+eyJoaXN0b3J5IjpbLTEyMTMzMzc4MTUsMTg5NzE2MTY2MiwxNj
+AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
+NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
+wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
+ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
+wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
+Mzk2MTE1MzRdfQ==
 -->
