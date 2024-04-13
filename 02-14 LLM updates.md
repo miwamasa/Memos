@@ -254,7 +254,8 @@
 	- related paper: Differentiable Collision Detection for a Set of Convex Primitives
 	- https://arxiv.org/abs/2207.00669
 - Can Gemini 1.5 actually read all the Harry Potter books at once?
-	- 
+	- https://x.com/deedydas/status/1778621375592485076
+	- All the books have ~1M words (1.6M tokens). Gemini fits about 5.7 books out of 7. I used it to generate a graph of the characters and it CRUSHED it.
 
 ## 4/8
 
@@ -3801,16 +3802,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.reuters.com/technology/eu-clinches-deal-landmark-ai-act-2023-12-09/?taid=65745dd360152800018aaf1c&utm_campaign=trueAnthem:+Trending+Content&utm_medium=trueAnthem&utm_source=twitter
 	- https://twitter.com/SabrinaKuespert/status/1733311752941515135/photo/1
 	- https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai?xtor=AD-78-[Social_share_buttons]-[twitter]-[en]-[news]-[pressroom]-[artificial-intelligence-act-possible-deal]-
-	- 基盤モデルで規制されるのは、計算量が10^25FLOPsを超えるモデル。
-	- 該当するのは今んとこGPT-4とGeminiあたり。
-	- それらのモデルはシステミックリスクに応じて分類される。
-	- システミックリスクはモデルがどんだけ強力か、どんだけの人が使うかで決まる。
-	- 規制の内容は
-		- ①リスクの軽減を行う　
-		- ②モデルの評価、敵対的テストを実施する　
-		- ③インシデントの監視を
+	- 基盤モデ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDU4ODYxMiwtMTkxMDQzMDM1OSwtMT
+eyJoaXN0b3J5IjpbLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMT
 YxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5
 MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMT
 MzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2
