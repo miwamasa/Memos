@@ -175,7 +175,13 @@
 - LightChatAssistant-2x7Bで行われている最適化をOptuneで
 	- https://github.com/Aratako/Task-Vector-Merge-Optimzier
 	- Sdff-Ltba/LightChatAssistant-2x7Bで行われているようなLLMにおけるTask Vectorの加算によるマージにおいて、その加算割合の最適化をOptunaを用いて行うスクリプトです
-- 
+- Infini-attention
+	https://x.com/umiyuki_ai/status/1778459568424784194
+	- Googleが出した論文なんだね。で、「この技術のおかげでGemini1.5では100万コンテキストウインドウが可能になったのか！」
+- Safeguarded AI: 
+	- https://www.aria.org.uk/wp-content/uploads/2024/04/ARIA-Safeguarded-AI-TA1.1-Theory-Call-for-proposals.pdf
+	- ARIAのDavidad氏の安全保証付きAIの研究プログラムの全貌が見えてきた。彼が何をしようとしているのか、それにどれほどのfeasiblityがあるのか、誰かに解説してほしい。形式証明とか、ソフトウェア工学、計算機理論のバックグランドが必要そう。
+	- 
 
 ## 4/8
 
@@ -3818,19 +3824,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 12/4
 
-先週までのOpenAIのお家騒動も落ち着き、今週は通常運転。日常能力を試すテスト『GAIA』、プロンプトの良例にもなっているし、現状のLLMの限界を図るのにちょうどよい。A*の可視化、こういうのを待ってた。異なるプロジェクト間の繋がりやアイデア生成を促すシステム『Latent Lab』というのは、フリーアドレスの執務環境の研究活動の活性化にヒントがあるかも。選択バイアス問題がなぜか着目される。清水さん、ついに、A100 80GBx8のマシンが完成、日本語のマルチターン会話データセットもそろえてくれて、日本発のトップクラスLLM開発に大いなる期待。Intel® のトランスフォーマ拡張、量子化の新たなる段階？Googleからdebateを基にした安全なLLM利用についての理論論文公開。カーネマン教授とルカン先生の対話も必聴、system1とsystem2と深層学習の関係は、あるよな。BERTopicや、AlphaFold、googleの翻訳トランスフォーマーも着実に改良が進んで実用フェーズにまた一歩進んだ。Google Colabについにtransformerがデフォルトで含まれるようになる、つまりそういうことだ。強化学習系のアルゴリズムは、スパースな対象には不適切なのか。プロンプトを逆推論したり、サロゲート（代理）モデルにおける逆問題の研究も注目。llamapackってのができているのか、試してみよう。Agentをよく使ってるけどもっと種類がある、認知アーキテクチャってのはちゃんと理解したい。「和歌集の歌風の言語的差異の記述ー大規模言語モデルによる分析ー」というのは続編を望む。LLMをPytorchだけでどれだけ高速化できるかとか、GPT-fastとか、小規模言語モデルの開発とか、そういうのがもっと出てくるはず。OSSのLLMについての論文「ChatGPTの1周年を記念して」もいいね、OSSのLLMが特定のタスクや応用分野において、クローズなLLMに匹敵する、あるいはそれを上回る性能を示しているとな。アメリカの医学試験「US (4-option)」で90.2％という高い正解率をだしたGPT-4評価論文、下手なファインチューニングよりもという話か。
-
-
--  An Embodied Generalist Agent in 3D World
-	- https://huggingface.co/papers/2311.12871
-- GAIA: a benchmark for General AI Assistants
-	- https://arxiv.or
+先週までのOpenAIのお家騒動も落ち着き、今週は通常運転。日常能力を試すテスト『GAIA』、プロンプトの良例にもなっているし、現状のLLMの限界を図るのにちょうどよい。A*の可視化、こういうのを待ってた。異なるプロジェクト間の繋がりやアイデア生成を促すシステム『Latent Lab』というのは、フリーアドレスの執務環境の研究活動の活性化にヒントがあるかも。選択バイアス問題がなぜか着目される。清水さん、ついに、A100 80GBx8のマシンが完成、日本語のマルチターン会話データセットもそろえてくれて、日本発のトップクラスLLM開発に大いなる期待。Intel® のトランスフォーマ拡張、量子化の新たなる段階？Googleからdebateを基にした安全なLLM利用についての理論論文公開。カーネマン教授とルカン先生の対話も必聴、system1とsystem2と深層学習の関係は、あるよな。BERTopicや、AlphaFold、googleの翻訳トランスフォーマーも着実に改良が進んで実用フェーズにまた一歩進んだ。Google Colabについにtransformerがデフォルトで含まれるようになる、つまりそういうことだ。強化学習系のアルゴリズムは、スパースな対象には不適切なのか。プロンプトを逆推論したり、サロゲート（代理）モデルにおける逆問題の研究も注目。llamapackってのができているのか、試してみよう。Agentをよく使ってるけどもっと種類がある、認知アーキテクチャってのはちゃんと理解したい。「和歌集の歌風の言語的差異の記述ー大規模言語モデルによる分析ー」というのは続
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MzE4MDMxLC01OTMyODY1MDUsLTI3Nz
-kzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5
-OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMT
-c2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1
-MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMz
-QsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4
-NTg1XX0=
+eyJoaXN0b3J5IjpbMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNz
+c5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5
+OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLT
+E3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgz
+NTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MD
+M0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5
+ODU4NV19
 -->
