@@ -70,8 +70,11 @@
 	- https://x.com/GoogleDeepMind/status/1777747320945234422
 	- Imagen 2 can now create short, 4-second live images from a single prompt.
 - GPT-4 Turbo launch
+	- https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4
 	- previewが取れた
-	- 
+- UNESCOがAI Ethicで人集めしている by　神嶌さん
+	- https://careers.unesco.org/job/Other-cities-Consultant/791818302/d
+- 
 
 ## 4/8
 
@@ -3812,12 +3815,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- But I’m now much more optimistic that a PCP (probabilistically checkable proof) system derived from this line of research might be a useful tool to have in the toolbox for verifying AI safety properties that depend upon unformalizable human preferences. I still think “not killing lots of people” is probably just totally formalizable, but humanity might also want to mitigate the risks of various dystopias that are more a matter of taste, and that’s where this type of method might shine.
 	- https://x.com/davidad/status/1729461156618637502?s=20
 - Azure OpenAI Serviceの日本語記事まとめ
-	- https://zenn.dev/microsoft/articles/azure-openai-japanese-blogs
-- カーネマン教授とルカン先生の対話
-	- https://www.youtube.com/watch?v=oy9FhisFTmI
-	- Video of Daniel Kahneman and Yann LeCun discussing Dual Process Theor
+	- https://zenn.dev/microsoft/articl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NzAzMjU3LDE4OTcxNjE2NjIsMTYwMD
+eyJoaXN0b3J5IjpbMzY2MTI3MjAyLDE4OTcxNjE2NjIsMTYwMD
 AyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1
 OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLT
 EyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4Nzg0
