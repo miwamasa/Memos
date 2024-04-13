@@ -28,6 +28,9 @@
 	- Math強化モデルに先ほど作ったChat Vectorを重ねがけしていきます
 	- Math強化モデル：Swallow-MS-7b-v0.1-MathSkill-OpenMath
 	- Chat Vector：SkillTree-Chat-Mistral-7B-v0.1
+	- Math+Chat強化モデル
+		- https://huggingface.co/HachiML/Swallow-MS-7b-v0.1-ChatMathSkill
+	- 
 
 ## 4/8
 
@@ -3808,10 +3811,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/
 	- We also have LlamaPacks for every technique mentioned in this course to help you jumpstart your advanced LLM app:
 - Deconstructing RAG
-	- https://blog.langchain.dev/deconstructing-rag/
-	- Given the importance of RAG and the fast pace of development, we've
+	- https://blog.langchain.dev
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjgxNTM4NywxODk3MTYxNjYyLDE2MD
+eyJoaXN0b3J5IjpbMTI4Mjk3NzY5OSwxODk3MTYxNjYyLDE2MD
 AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
 NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
 0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
