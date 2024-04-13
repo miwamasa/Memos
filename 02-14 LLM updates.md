@@ -146,6 +146,10 @@
 		-  **Swallow-7B**では、量子化前後で成績に変化はなかった一方、**Swallow-13B**では平均スコアが 0.28 点低下しました。
 		- **CALM2**  や  **StableLM-Beta**  は、量子化後のスコアが高い結果（それぞれ 0.28 点/ 0.21 点向上）となりました。
 		-   **Xwin**  モデル同士を比較すると、**Xwin 7B**は0.36点の低下を示している一方、**Xwin 13B**では0.11点の向上が見られ、同じモデルファミリー内でも異なる振る舞いが確認されました。
+-  Command R+ GPTQをローカルLLMとしてvllmでOpenAI API互換サーバ動作させてみた話
+	- https://note.com/junzokamahara/n/n9235af7a6dc1?sub_rt=share_h
+	- vllmもCommand Rに対応しているとのことで、vllmで動かしてみることにしました。なお、動かすのはGPUメモリの関係でGPTQで量子化されたモデル。
+	- 
 
 ## 4/8
 
@@ -3823,18 +3827,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 部分的な検索結果から１つの回答を合成？？
 - ＲＡＧ 101 for enterpirze
 	- https://gradient.ai/blog/rag-101-for-enterprise
-	- 絵が素敵
--  AIスーパーコンピュータ「継之助」爆誕!とりあえずRAID0で12TBのディスクをインストールする
-	- https://note.com/shi3zblog/n/n77e8ad3ed779?sub_rt=share_pb
-	- ついにA100 80GBx8のマシンが稼働した。ここまで長かった。
-	- ここまで揃ったら日本最大規模のLLMを個人で作れるようになる。
--  A population
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3Nj
-Q5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3
-OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLD
-E3OTgzNTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkw
-NTI3MDM0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OS
-wxODY5ODU4NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5
-ODQxNzgwXX0=
+eyJoaXN0b3J5IjpbLTEwMjU5OTkwNDgsMTMzMTQ0MTg2NiwyMz
+A5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4
+ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC
+0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMywtMTI4
+MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3ODQ2OT
+c1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NSwtMjAw
+MDg2OTYxMV19
 -->
