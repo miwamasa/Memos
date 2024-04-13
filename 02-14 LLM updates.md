@@ -98,6 +98,9 @@
 	- https://x.com/Meteor_Eternal/status/1777635899204874704
 - Gemini 1.5 Proの新機能 - Native Audio Understanding、System Instructions、JSON Mode、新Embeddingモデル　 by npakaさん
 	- https://note.com/npaka/n/n0254081ebc23?sub_rt=share_h
+- Stable LM 2 12B
+	- https://stability.ai/news/introducing-stable-lm-2-12b
+	- Stable LM 2 12B は、英語、スペイン語、ドイツ語、イタリア語、フランス語、ポルトガル語、オランダ語の多言語データでトレーニングされされた、120億パラメータを持つ強力な言語モデルです。 ベースモデルと指示学習済みモデルを備えています。
 - 
 
 ## 4/8
@@ -3822,16 +3825,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2311.13647
 	- 言語モデルは次の単語の確率を出すが、その「確率」を利用して元の文章（プロンプト）を何とかして見つけ出す手法を開発。
 - OpenAIのcookbookにllamaindexをつかたRAGが掲載
-	- https://blog.llamaindex.ai/openai-cookbook-evaluating-rag-systems-fe393c61fb93
-- Minimizing Factual Inconsistency and Hallucination in Large Language Models
-	- https://arxiv.org/abs/2311.13878
-	- LLMのハルシネーションを抑制するフレームワークが提案されました。 ユーザーの質問
+	- https://blog.llamaindex.ai/openai-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTM3MjA4NzQsMTg5NzE2MTY2MiwxNj
-AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
-NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
-wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
-ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
-wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
-Mzk2MTE1MzRdfQ==
+eyJoaXN0b3J5IjpbMTY1NzYwNjY3MSwxODk3MTYxNjYyLDE2MD
+AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
+NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
+0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
+NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
+0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
+OTYxMTUzNF19
 -->
