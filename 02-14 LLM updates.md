@@ -17,6 +17,9 @@
 	- commandRplus　108B →Mac Studio（988000円）
 	- commandR　35B →RTX4090（PC + 40万円～）
 	- LightChatAssistant2x7B →RTX3060（PC + 3万円～）
+-  EasyLightChatAssistant
+	- https://github.com/Zuntan03/EasyLightChatAssistant?tab=readme-ov-file
+	- EasyLightChatAssistant は軽量で検閲や規制のないローカル日本語モデルの LightChatAssistant を、KoboldCpp で簡単にお試しする環境です。
 - ｢LLMはコモディティー｣　米データブリックスCEOが語る
 	- https://www.nikkei.com/article/DGXZQOGN252JK0V20C24A3000000/
 	- LLM単体ではなくLLMやその他のモジュールを組み合わせて問題を解く「複合AI」の考え方がとても大事
@@ -3791,11 +3794,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ⑤ドキュメントを作らせる
 -  Generative AI for Everyoneか
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0ODUzNTUsLTE2MTU0OTA0MTEsOTgxMD
-Y1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcs
-LTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOT
-E0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2
-NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1OSwtMT
-E3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLTEyODE2
-NzM1MDddfQ==
+eyJoaXN0b3J5IjpbLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOT
+gxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3
+MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMj
+MwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAy
+ODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1OS
+wtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLTEy
+ODE2NzM1MDddfQ==
 -->
