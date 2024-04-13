@@ -154,7 +154,13 @@
 		- response = client.chat.completions.create(model='alpindale/c4ai-command-r-plus-GPTQ',
 	- Command R plus GPTQのA100 80GBでの実行例
 		- 18.3 tokens/sと出ている
-- 
+- Geminiの新機能「System Instructions」を使ってみる。 
+	- https://x.com/npaka123/status/1777969149651906927
+	- ChatGPTではおなじみな機能だけど、今までGeminiにはシステムメッセージもなかったのでうれしい。
+- 『すずめの戸締まり』に登場する3本脚の椅子を再現したロボット設計
+	- https://x.com/shin0805__/status/1777992583396131246
+	- 強化学習による歩容生成の論文を公開しました！ 来週アメリカで開催されるRoboSoft2024にて発表します！
+	- 
 
 ## 4/8
 
@@ -3821,15 +3827,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	-  欠損が多くても学習可能かつ、後から異なるモダリティを追加しやすい
 - 選択バイアスの式、tweedle
 	- https://x.com/docmilanfar/status/1728680465928958055?s=20
-- llamaindexより、RAG評価ツールragsのv2リリース
-	- https://github.com/run-llama/rags
--  Simplifying Transformer Blocks 
-	- https://arxiv.org/abs/2311.01906
-	- many parts can be removed to simplify GPT-like decoder architectures as well as encoder-style BERT models:
-- llamaindexから、RAGの新モジュール、fuzzy citationを発表
-	- https://git
+- llamaindex
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTY3ODgwOCwtMjc3OTM2NzIzLDEzMz
+eyJoaXN0b3J5IjpbMTU3ODk3MzgxOCwtMjc3OTM2NzIzLDEzMz
 E0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2
 NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LD
 Y1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgw
