@@ -4,11 +4,29 @@
 
 ## 4/15
 
+今週も強烈だった。
+
 このブックマーク集から、大規模言語モデル(LLM)の最新の動向が見えてきます。既存の7Bモデルに匹敵する強さを持ちながら、わずか2.4Bパラメータという小さなサイズのMiniCPM-2Bが登場しました。小規模モデルを使ってハイパーパラメータを効率的に探索し、大規模モデルに転移させる「μトランスファー」という手法が採用されています。また、スマートフォンなどのエッジデバイス上で動作可能な20億パラメータのOctopus v2や、8Bパラメータながら高い性能を発揮するJetMoEなど、モデルサイズの最適化が進んでいます。
 
 一方で、より大規模なモデルも開発が進んでいます。従来のMistralやLlama、Gemmaといったモデルをベースに、22BのMistral-22BやMixtral-8x22Bなどの超大規模モデルが公開されています。Googleの新しいリカレントアーキテクチャRecurrentGemmaや、注目を集めるMoAやMoEなどの革新的なアーキテクチャも登場しています。また、量子化技術の進歩により、大規模モデルをある程度の精度を維持しつつ小さなサイズに圧縮する取り組みも活発化しています。
 
 LLMの応用分野も広がりを見せており、材料探索や設計、ロボティクスなどの分野への活用が試みられています。さらに、LLMとその他のモジュールを組み合わせた「複合AI」の考え方が重要視されるようになってきました。RAG(Retrieval Augmented Generation)やツール呼び出しなど、LLMに外部の知識や機能を組み込む取り組みが進んでいます。LangChainなどのフレームワークでは、これらの機能を統一的に扱えるインターフェースが整備されつつあります。
+
+最近のLLMの動向をまとめると、以下のような傾向が見られます。
+
+MiniCPMは、既存の7B LLMよりも強力であると話題の2B LLMです。これは、μPを使用して小さなモデルで効率的にハイパーパラメータ探索を行うことで、MiniCPM-2Bという2.4Bの非埋め込みパラメータを持つエッジ側の大規模言語モデルを作成しています。これは、包括的なベンチマークでMistral-7Bと密接にランク付けされています。
+
+また、現在のLLMの選択肢としては、commandRplus（108B）がMac Studio（988000円）で、commandR（35B）がRTX4090（PC + 40万円～）で、LightChatAssistant2x7BがRTX3060（PC + 3万円～）で利用可能です。
+
+米データブリックスのCEOは、「LLMはコモディティー」であり、LLM単体ではなく、LLMやその他のモジュールを組み合わせて問題を解く「複合AI」の考え方が重要であると述べています。
+
+一方、GPT-4を超える精度でスマートフォン上で実行できるオンデバイス生成AI「Octopus v2」が登場しました。これは、20億パラメータを持つエッジデバイス上で機能するオンデバイスAIモデルです。
+
+また、Chat+Math能力の両方を日本語ベースモデルに付与した場合、どちらの効果も得られることが示されています。具体的には、Math強化モデルにChat Vectorを重ねがけすることで、数学能力をある程度維持しつつ、Chat能力も強化することができるとされています。
+
+さらに、JetMoEという新しいアーキテクチャが登場しました。これは、Mixture of Attention heads（MoA）とMixture of MLP Experts（MoE）の二つのレイヤーにそれぞれ4人ずつのエキスパートがいて、推論時には各レイヤー2人ずつが活性化します。この新しいアーキテクチャにより、トレーニング効率が大幅に向上し、H100が96台で2週間、1200万円しかトレーニング費用をかけていないのに、数千億かけたはずのLlama-7BやLlama-13にベンチで勝利したとのことです。
+
+以上のような最新の動向から、LLMの技術は日々進化し続けており、その応用範囲も広がっていることがわかります。これらの進歩は、AI技術の可能性をさらに広げ、私たちの生活をより便利で豊かなものにすることでしょう。
 
 - MiniCPM: Unveiling the Potential of End-side Large Language Models
 	- https://shengdinghu.notion.site/MiniCPM-Unveiling-the-Potential-of-End-side-Large-Language-Models-d4d3a8c426424654a4e80e42a711cb20
@@ -3809,33 +3827,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ① モデルは大量データを処理し学習する能力が高い
 		-  ② 様々なビジョンタスクで有効 
 		- ③ モデルサイズが大きくなるにつれて、下流タスクのパフォーマンス向上する
--  Large Language Models on Graphs: A Comprehensive Survey
-	- https://arxiv.org/abs/2312.02783
-	- Scenarios of adopting LLMs, techniques for utilizing LLMs on graphs, applications, #opensource code repositories, benchmark datasets
-- 「2030 日本デジタル 改革」 by マッキンゼー
-	- https://www.digitaljapan2030.com/_files/ugd/c01657_fcaed21f58bb4c429cb460ce788b82c4.pdf
-	- マッキンゼーのレポート（全140ページ）
-	- 日本のデジタル化がなぜ遅れたのか、それに対してどのような打ち手が取れるのか、ということが分かりやすく整理されています。 
-	- 日本の総労働時間の56%が自動化可能
-	- といっても初期版には誤植が、(×政府の支持→〇政府の指示）P16
-- ollama + stablelm-zephyr 試す。 M1でもはやい。
-	- https://ollama.ai/library/stablelm-zephyr
-- Ollama : ローカル環境で容易にllamaを利用可能にるするAIチャットプログラム
-	- https://note.com/astropomeai/n/nbcdfd3b38490?sub_rt=share_b
-	- https://github.com/jmorganca/ollama
-	- コマンドラインインターフェースを通じて大規模言語モデル（LLM）とやり取り可能なAIチャットプログラム
-	- LlamaやCode Llamaなど、さまざまなオープンソースモデルをサポート
-	- モデルのパラメーターやサイズが異なり、計算リソースに応じたAIモデルの実行を柔軟に対応
-	- Dockerがインストールされたシステムで利用可能で、Nvidia GPUのGPUアクセラレーションをサポート（CPU上でも実行可能）
-	- パフォーマンスはハードウェアに依存し、例えばLlama 2の7Bモデルを実行するには最低15GBのRAMと4つのCPUコアが必要
-	- MacOSとLinux用のデスクトップアプリケーションがあり、Windows版が開発中
--  Ollama Llama Pack orme
+-  Large Language Models o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMz
-A3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2
-NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNj
-AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
-NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
-wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
-ODQ2OTc1XX0=
+eyJoaXN0b3J5IjpbLTExNTg4OTczNjEsNjI0MjA2NTgxLDE5OD
+M2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3
+MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMT
+g5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5
+ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OT
+YsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02
+NzU5MDMwOTddfQ==
 -->
