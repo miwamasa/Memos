@@ -4,7 +4,7 @@
 
 ## 4/15
 
-今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMのパラメータを大規模LLMに転移する技術で、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。
+今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMのパラメータを大規模LLMに転移する技術で、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。
 
 このブックマーク集から、大規模言語モデル(LLM)の最新の動向が見えてきます。既存の7Bモデルに匹敵する強さを持ちながら、わずか2.4Bパラメータという小さなサイズのMiniCPM-2Bが登場しました。小規模モデルを使ってハイパーパラメータを効率的に探索し、大規模モデルに転移させる「μトランスファー」という手法が採用されています。また、スマートフォンなどのエッジデバイス上で動作可能な20億パラメータのOctopus v2や、8Bパラメータながら高い性能を発揮するJetMoEなど、モデルサイズの最適化が進んでいます。
 
@@ -3822,15 +3822,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ■アプローチの詳細 
 		- ① 画像や動画を表現する「ビジュアル文」を定義 （ピクセル以外のメタ情報はない） 
 		- ② 視覚データをトークン化 
-		- ③ 自己回帰型トランスフォーマーモデルを訓練
-	- ■実験の結果わかったこと 
-		- ① モデルは大量データを処理し学習する能力
+		- ③ 自己回
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDgxMjY3OCw2MjQyMDY1ODEsMTk4Mz
-Y2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcy
-MywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxOD
-k3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4
-MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5Ni
-wtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3
-NTkwMzA5N119
+eyJoaXN0b3J5IjpbLTIxMzM2NjczOTEsNjI0MjA2NTgxLDE5OD
+M2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3
+MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMT
+g5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5
+ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OT
+YsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02
+NzU5MDMwOTddfQ==
 -->
