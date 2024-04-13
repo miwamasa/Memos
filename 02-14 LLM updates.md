@@ -237,6 +237,13 @@
 	- 正定値行列の和の平方根が平方根のブロック行列のQR分解で計算できることを利用して、数値的安定性の高いカルマンフィルタ（平方根フィルタ）のアルゴリズムをQR分解でシンプルに書けるのか
 - Premise Order Matters in Reasoning with Large Language Models
 	- LLMにプロンプトを与える際、「推論ステップの流れに沿う順序」で文脈を与えないと30%以上精度が落ちる恐れがあることをDeepMindが報告しています。
+-  Heron-Bench: A Benchmark for Evaluating Vision Language Models in Japanese
+	- https://arxiv.org/abs/2404.07824
+	- 画像-言語モデルの日本語ベンチマークとして、新しく「Heron-Bench」を公開しました！日本の画像で、日本に関する知識を総合的に問います
+- Rho-1: Not All Tokens Are What You Need
+	- https://arxiv.org/abs/2404.07965
+	- Microsoftお得意の高品質テキストで効率よく事前学習するアプローチの最新論文、トークン単位のlossの推移を高いまま・低いまま・減少傾向・増加傾向の4タイプに分類していて面白そう。実際に学習トークンを選ぶ部分を勉強しよう。
+	- 
 
 ## 4/8
 
@@ -3795,11 +3802,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ⑤ドキュメントを作らせる
 -  Generative AI for Everyoneか
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTUyMDM0MSwtMTkxMDQzMDM1OSwtMT
-YxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5
-MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMT
-MzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2
-MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMT
-YsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEy
-ODAwNzQwM119
+eyJoaXN0b3J5IjpbLTE1MDExMjEwMTgsLTE5MTA0MzAzNTksLT
+E2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYw
+OTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIzLD
+EzMzE0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcx
+NjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMz
+E2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0x
+MjgwMDc0MDNdfQ==
 -->
