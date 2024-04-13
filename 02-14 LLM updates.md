@@ -209,7 +209,12 @@
 	- 現状､mixtral 8x22bは事前学習のみのモデルですが､わりと会話できそうです｡
 -  Tool Calling with LangChain
 	- https://blog.langchain.dev/tool-calling-with-langchain/
-
+	- 最近はChatGPT以外にも Function Calling (最近は Tool Calling と呼ばれることが多い) に対応するLLMが増えてきました。選択肢が増えて便利ではあるものの、各社で少しづつインターフェースが違うので実装が面倒という課題がありました。
+	- そのため、LangChainは各LLMのTool Callingを統一的に扱えるインターフェースを準備しており、先日、最後のピースがハマって遂に完成したという話です。
+- LangChain の Tool Calling 標準インタフェース の概要　by npakaさん
+	- https://note.com/npaka/n/ne6fd5929bfa1?sub_rt=share_h
+	- 「Tool Calling」の標準インターフェイスの構成は、次のとおりです。
+		- 
 
 ## 4/8
 
@@ -3835,15 +3840,8 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Bard(/w Gemini Pro)はいまだに数独が解けない、ChatGPTはとけるけど
 	- https://x.com/kajikent/status/1733663171578335233?s=20
 - OpenAI、GPT-4が怠け者になってきたという苦情に「修正を検討中」とポスト
-	- https://www.itmedia.co.jp/news/articles/2312/10/news059.html
-	- ChatGPTでのGPT-4のパフォーマンスが低下している（lazier）というユーザーからのフィードバックがここ数カ月増えていることを認め、「修正を検討中」だとX（旧Twitter）の公式アカウントにポストした。
-- Mistral MoEの初期評価
-	- https://x.com/bindureddy/status/1733523486885449834?s=20
-	- まあ、ファインチューニングされてない素のモデルでもGPT3.5相当の性能というのは期待できる
-	- solid 70B model that is very similar to GPT 3.5, Gemini Pro
-	- MMLU on t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxMDk1Mzg2LDE5ODM2NjA5MzAsMTExMz
+eyJoaXN0b3J5IjpbNDA5MTQzNTk3LDE5ODM2NjA5MzAsMTExMz
 A3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2
 NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNj
 AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
