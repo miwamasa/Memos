@@ -243,7 +243,12 @@
 - Rho-1: Not All Tokens Are What You Need
 	- https://arxiv.org/abs/2404.07965
 	- Microsoftお得意の高品質テキストで効率よく事前学習するアプローチの最新論文、トークン単位のlossの推移を高いまま・低いまま・減少傾向・増加傾向の4タイプに分類していて面白そう。実際に学習トークンを選ぶ部分を勉強しよう。
-	- 
+	- https://huggingface.co/microsoft/rho-math-7b-v0.1
+- GeminiによるRAGの実践例
+	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/use-cases/retrieval-augmented-generation
+- Gemini API の ファインチューニング を試す by npakaさん
+	- https://note.com/npaka/n/n6609bcbbdd30?sub_rt=share_h
+- 
 
 ## 4/8
 
@@ -3802,11 +3807,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ⑤ドキュメントを作らせる
 -  Generative AI for Everyoneか
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDExMjEwMTgsLTE5MTA0MzAzNTksLT
-E2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYw
-OTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIzLD
-EzMzE0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcx
-NjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMz
-E2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0x
-MjgwMDc0MDNdfQ==
+eyJoaXN0b3J5IjpbNjI4NjI1ODYyLC0xOTEwNDMwMzU5LC0xNj
+E1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MDkz
+MCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcyMywxMz
+MxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxODk3MTYx
+NjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNi
+w2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4
+MDA3NDAzXX0=
 -->
