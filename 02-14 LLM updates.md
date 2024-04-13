@@ -4,7 +4,7 @@
 
 ## 4/15
 
-今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMのパラメータを大規模LLMに転移する技術で、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。これに影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをMoEで無くしたMistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まった。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、両方の機能が保存されたという話。LightChatAssistant2x7Bのもよいらしいが、
+今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMのパラメータを大規模LLMに転移する技術で、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。これに影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをMoEで無くしたMistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まった。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、両方の機能が保存されたという話。LightChatAssistant2x7BのもTask Vectorの加算でできてて、少ないリソースで動くとか。JetMoEという新しいアーキテクチャ、。
 
 このブックマーク集から、大規模言語モデル(LLM)の最新の動向が見えてきます。既存の7Bモデルに匹敵する強さを持ちながら、わずか2.4Bパラメータという小さなサイズのMiniCPM-2Bが登場しました。小規模モデルを使ってハイパーパラメータを効率的に探索し、大規模モデルに転移させる「μトランスファー」という手法が採用されています。また、スマートフォンなどのエッジデバイス上で動作可能な20億パラメータのOctopus v2や、8Bパラメータながら高い性能を発揮するJetMoEなど、モデルサイズの最適化が進んでいます。
 
@@ -3816,10 +3816,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ① 全体的にLLMは、30%のケースで不安全なコードを提案した 
 	- ② 53%のケースで、サイバー攻撃の手伝いをするリクエストに対してLLMが応じた
 	-  ③ コーディング能力が高いモデルほど、不安全なコードを提案する傾向が強かった
-- "Sequential Modeling Enables Scalable Learning for Large Vision Models"
-	- 
+- "Sequential Modeling Enables
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDc4MjI3Myw2MjQyMDY1ODEsMTk4Mz
+eyJoaXN0b3J5IjpbMTkzMjkxMDI4OCw2MjQyMDY1ODEsMTk4Mz
 Y2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcy
 MywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxOD
 k3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4
