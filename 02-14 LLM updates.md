@@ -217,7 +217,15 @@
 		- ChatModel.bind_tools()ツール定義をモデルにアタッチするメソッド
 		- AIMessage.tool_callsモデルが決定したツールの情報を伝えるプロパティ
 		- create_tool_calling_agent()Tool Callingを利用するエージェントのコンストラクタ
-	- 
+- OpenEQA (オープン語彙の具体化された質問応答ベンチマーク)
+	- https://ai.meta.com/blog/openeqa-embodied-question-answering-robotics-ar-glasses/?utm_source=twitter&utm_medium=organic_social&utm_content=video&utm_campaign=dataset
+	- バッジをどこに置いたか?」などのオープン語彙の質問
+	- 物理環境に対する AI エージェントの理解度を測定
+- A Square-Root Kalman Filter Using Only QR Decompositions
+	- https://arxiv.org/abs/2208.06452
+	- QR分解でカルマンフィルター？
+	- 正定値行列の和の平方根が平方根のブロック行列のQR分解で計算できることを利用して、数値的安定性の高いカルマンフィルタ（平方根フィルタ）のアルゴリズムをQR分解でシンプルに書けるのか
+- 
 
 ## 4/8
 
@@ -3829,23 +3837,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - What is Mixture-of-Experts (MoE)?
 	- mixtral-8x7b-32kseqlenの裏にあるmoe技術とは
 	- https://x.com/sophiamyang/status/1733505991600148892?s=20
-	- MoE is a neural network architecture design that integrates layers of experts/models within the Transformer block.
-- たった87GのweightでAGIが来るから、AI規制必要だねという
-	- https://x.com/abacaj/status/1733561182504587652?s=20
-	- mixtral-8x7b-32kseqlenのことらしい
-- MoEのMixtral-7bx8のGPTQきとる！
-	- https://huggingface.co/TheBloke/mixtral-7B-8expert-GPTQ
-- Geminiのお遊びデモは、紙芝居だ
-	- https://techcrunch.com/2023/12/07/googles-best-gemini-demo-was-faked/
-- QuIP#: QuIP with Lattice Codebooks
-	- https://cornell-relaxml.github.io/quip-sharp/
-	- QuIP#は大規模言語モデルを2ビット量子化し、本来ならば140GBのメモリが必要なLlama 2 70Bを24GBのGPUで実行可能
+	- MoE is a neural network architecture design that integrates layers of experts/models within the Transformer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzQ1MDQ3LDE5ODM2NjA5MzAsMTExMz
-A3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2
-NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNj
-AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
-NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
-wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
-ODQ2OTc1XX0=
+eyJoaXN0b3J5IjpbMTc1MzMxNzg2MiwxOTgzNjYwOTMwLDExMT
+MwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4
+NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMT
+YwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5
+NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MD
+MsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4
+Nzg0Njk3NV19
 -->
