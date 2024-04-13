@@ -60,6 +60,9 @@
 	- https://x.com/umiyuki_ai/status/1777023943121256637
 	- Komatsuzaki氏の見解によれば、JetMoEのトレーニング効率上がったのは、たしかにMoEアーキテクチャによって２～３倍に効率化したけど、それより何よりMiniCPMに倣った2段階トレーニングの手法のおかげでバキバキに効率化したとの事。
 	- 1万倍の内、MoEの貢献が３倍なら残りの3333倍はMiniCPMトレーニングのおかげなのか
+- The Physics of Language Models
+	- https://arxiv.org/abs/2404.05405
+	- 回転埋め込みを備えた GPT-2 アーキテクチャは、知識の保存において LLaMA/Mistral アーキテクチャに匹敵するか、それを上回ります。
 - 
 
 ## 4/8
@@ -3810,16 +3813,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- uses algorithms like A* to improve LLM answers, improving sota on both planning and reasoning tasks
 - Qualcomm Snapdragon 8gen 3 already supported 10b language model running locally on your smartphone.
 	- https://x.com/Francis_YAO_/status/1727861621110779941?s=20
-	- LLM is the new smartphone OS!
-- Domingos先生がなんか言っている
-	- https://x.com/pmddomingos/status/1729303707387658284?s=20
-	- Why AI isn't going to taking over (from "The Master Algori
+	- LLM is the new smartphone OS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODM1MTY2MDAsMTg5NzE2MTY2MiwxNj
-AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
-NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
-wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
-ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
-wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
-Mzk2MTE1MzRdfQ==
+eyJoaXN0b3J5IjpbNzU1Njk0MjE5LDE4OTcxNjE2NjIsMTYwMD
+AyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1
+OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLT
+EyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4Nzg0
+Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAxNjUsLT
+IwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5
+NjExNTM0XX0=
 -->
