@@ -141,7 +141,11 @@
 	- 量子化しても成績が下がりにくいモデルと、大きく下がるモデルがある
 	- 一部のモデルは量子化すると回答が極端に短くなる
 	- 量子化によって回答が短くなる度合いは、量子化前モデルの回答の長さと相関がある可能性がある
-	- 
+	- 個別：
+		- **ELYZA-japanese-Llama-2-7B**は、量子化後もほぼ同等の性能を維持し、0.10点のスコア低下に留まりました。
+		-  **Swallow-7B**では、量子化前後で成績に変化はなかった一方、**Swallow-13B**では平均スコアが 0.28 点低下しました。
+		- **CALM2**  や  **StableLM-Beta**  は、量子化後のスコアが高い結果（それぞれ 0.28 点/ 0.21 点向上）となりました。
+		-   **Xwin**  モデル同士を比較すると、**Xwin 7B**は0.36点の低下を示している一方、**Xwin 13B**では0.11点の向上が見られ、同じモデルファミリー内でも異なる振る舞いが確認されました。
 
 ## 4/8
 
@@ -3824,16 +3828,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/shi3zblog/n/n77e8ad3ed779?sub_rt=share_pb
 	- ついにA100 80GBx8のマシンが稼働した。ここまで長かった。
 	- ここまで揃ったら日本最大規模のLLMを個人で作れるようになる。
--  A population-level digital histologic biomarker for enhanced prognosis of invasive breast cancer
-	- https://www.nature.com/articles/s41591-023-02643-7
-	- An important AI report for breast cancer leading to the potential of sparing chemotherapy for many. 
-	- The 1st comprehensive analysis of both cancerous and non-cancerous tissue in hundreds of thousands of pa
+-  A population
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0MDczNjQ0LDIzMDkxNDE5MywtMTc2ND
-k0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5
-OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMT
-c5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1
-MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LD
-E4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4
-NDE3ODBdfQ==
+eyJoaXN0b3J5IjpbMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3Nj
+Q5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3
+OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLD
+E3OTgzNTA3OTYsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkw
+NTI3MDM0LC02NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OS
+wxODY5ODU4NSwtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5
+ODQxNzgwXX0=
 -->
