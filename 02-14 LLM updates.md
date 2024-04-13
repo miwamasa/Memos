@@ -38,7 +38,11 @@
 	- https://note.com/hatti8/n/n0000353355cb
 - LangChain x DSPy
 	- https://www.youtube.com/watch?v=4EXOmWeqXRc
-	- 
+- JetMoEってなんじゃ？ by うみゆきさん、
+	- https://x.com/umiyuki_ai/status/1777014403197788280
+	- Mixture of Attention heads（MoA）とMixture of MLP Experts（MoE）の二つのレイヤーに、それぞれ４人ずつエキスパートがいて、推論時は各レイヤー２人ずつが活性化する。
+	- 活性化パラ数は2.2Bで、合計パラ数は8Bだって。何だか知らんけどこのアーキテクチャによってトレーニング効率が爆上がって、H100が96台で２週間、1200万円しかトレーニング費用かけてないのに、数千億かけたはずのLlama-7BやLlama-13にベンチで勝利した
+- 
 
 ## 4/8
 
@@ -3809,20 +3813,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 「LangChain」では、「LLM」が真に変革的なエージェントのようなシステムに電力を供給する世界を信じています。しかし、そこにたどり着くルートは、**企業が「認知アーキテクチャ」を制御できるルート**であると信じています。
 	- **(1) Code**  LLMを利用しないパターン。  
 	- **(2) LLM Call** アプリの出力のみを決定する単一のLLMコール。 
-	- **(3) Chain**  アプリの出力のみを決定する複数のLLMコール。  
-	- **(4) Router**  LLMをルーターとして使用し、使用するアクション (Tool、Retrieval、Prompt) を選択。 
-	- **(5) State Machine**  LLMを使用してある種のループでステップ間をルーティングするが、コードが許可された遷移先にのみ遷移  
-	- **(6) Agent**  利用可能なステップのシーケンスを決定もLLMが行う。
-- TextからSQLを生成するQuerypls
-	- https://github.com/samadpls/Querypls/
-- われらが、 @jerryjliu0がdeeplearningaiコースに登場
-	- h
+	- **(3) Chain**  アプリの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzE0MTc3MzIsMTg5NzE2MTY2MiwxNj
-AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
-NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
-wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
-ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
-wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
-Mzk2MTE1MzRdfQ==
+eyJoaXN0b3J5IjpbMjA4NzQwMDUyNSwxODk3MTYxNjYyLDE2MD
+AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
+NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
+0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
+NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
+0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
+OTYxMTUzNF19
 -->
