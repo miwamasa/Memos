@@ -167,7 +167,8 @@
 - MLX with LangChain
 	- https://python.langchain.com/docs/integrations/chat/mlx/
 	- This notebook shows how to get started using MLX LLM’s as chat models.
-- 
+- Google Colab で RecurrentGemma を試す
+	- 
 
 ## 4/8
 
@@ -3827,13 +3828,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	-  ③ 新しい研究プロジェクトのアイデア合成も可能
 -  Google Colab で LCM LoRA を試す　 by npakaさん
 	- https://note.com/npaka/n/n940ee84ca5b6?sub_rt=share_h
-	- 「LCM」 (Latent Consistency Model) は、元モデルを別モデルに蒸留することで、画像生成に必
+	- 「LCM」 (Latent Consisten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMz
-E0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2
-NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LD
-Y1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgw
-MDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMD
-k3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEy
-NjAxNjVdfQ==
+eyJoaXN0b3J5IjpbNzkzMjcxMDI3LC01OTMyODY1MDUsLTI3Nz
+kzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5
+OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMT
+c2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1
+MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMz
+QsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LDE4Njk4
+NTg1XX0=
 -->
