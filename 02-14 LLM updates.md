@@ -137,6 +137,11 @@
 - We just released Mixtral 8x22B. Super excited for this release
 	- https://x.com/sophiamyang/status/1777945947764297845
 - 日本語LLM 9種を量子化して回答内容を比較調査してみた
+	- https://qiita.com/wayama_ryousuke/items/50e36d0dcb37f8fb7dd8
+	- 量子化しても成績が下がりにくいモデルと、大きく下がるモデルがある
+	- 一部のモデルは量子化すると回答が極端に短くなる
+	- 量子化によって回答が短くなる度合いは、量子化前モデルの回答の長さと相関がある可能性がある
+	- 
 
 ## 4/8
 
@@ -3822,12 +3827,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  A population-level digital histologic biomarker for enhanced prognosis of invasive breast cancer
 	- https://www.nature.com/articles/s41591-023-02643-7
 	- An important AI report for breast cancer leading to the potential of sparing chemotherapy for many. 
-	- The 1st comprehensive analysis of both cancerous and non-cancerous tissue in hundreds of thousands of patient tissues-
-- BERTopicの新しいバージョン
-	- https://github.com/MaartenGr/BERTopic
-	- Merge pre-trained models, apply zero-shot topic modeling, seed domain-specific words, and much more 
+	- The 1st comprehensive analysis of both cancerous and non-cancerous tissue in hundreds of thousands of pa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3OTIxODMzLDIzMDkxNDE5MywtMTc2ND
+eyJoaXN0b3J5IjpbMzg0MDczNjQ0LDIzMDkxNDE5MywtMTc2ND
 k0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5
 OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMT
 c5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1
