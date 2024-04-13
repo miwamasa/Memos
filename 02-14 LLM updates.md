@@ -126,6 +126,8 @@
 		-   [elyza/ELYZA-japanese-Llama-2-13b-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b-instruct)
 - Command R plus推論速度、知見まとめ by AIXさとし
 	- https://x.com/AiXsatoshi/status/1777867323552190876
+- Amazon、「Claude 3」のAnthropicに27億5000万ドルの追加投資
+	- https://www.itmedia.co.jp/news/articles/2403/28/news105.html#utm_term=share_sp
 - 
 
 ## 4/8
@@ -3824,13 +3826,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  ラプラス変換とフーリエ変換の関係
 	- https://qiita.com/kaityo256/items/aa5b24904577de40016e
 	- 関数�(�)にたいして、�<0ならゼロに、�≥0ならe−��をかけて、「より収束しやすく」した上でフーリエ変換したものがラプラス変換である。ラプラス変換が、軸の中途半端なところを「縦に」積分しなければならない理由も、フーリエ逆変換と�から�への変数変換から理解できるであろう。
-	- 関数�(�)にたいして、�<0ならゼロに、�≥0ならe−��をかけて、「より収束しやすく」した上でフーリエ変換したものがラプラス変換である。ラプラス変換が、軸の中途半端なところを「縦に」積分しなければならない理由も、フーリエ逆変換と�から�への変数変換から理解で
+	- 関数�(�
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk0NTYzMDksLTE3NjQ5NDA5OTgsMT
-g5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5
-ODIzMTYsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OT
-YsLTEyODAwNzQwMywtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02
-NzU5MDMwOTcsNzg3ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NS
-wtMTgyMTI2MDE2NSwtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0x
-OTUzMTA1MzkzXX0=
+eyJoaXN0b3J5IjpbNzM0Nzg1MDkzLC0xNzY0OTQwOTk4LDE4OT
+cxNjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgy
+MzE2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC
+0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1
+OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLT
+E4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1
+MzEwNTM5M119
 -->
