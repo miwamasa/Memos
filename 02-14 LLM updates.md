@@ -248,7 +248,13 @@
 	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/use-cases/retrieval-augmented-generation
 - Gemini API の ファインチューニング を試す by npakaさん
 	- https://note.com/npaka/n/n6609bcbbdd30?sub_rt=share_h
-- 
+- 「カルマンフィルターをQR分解で解く手法」
+	- https://github.com/kevin-tracy/QRKalmanFilter
+	- Square root Kalman Filter using only QR decompositions.
+	- related paper: Differentiable Collision Detection for a Set of Convex Primitives
+	- https://arxiv.org/abs/2207.00669
+- Can Gemini 1.5 actually read all the Harry Potter books at once?
+	- 
 
 ## 4/8
 
@@ -3802,16 +3808,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 規制の内容は
 		- ①リスクの軽減を行う　
 		- ②モデルの評価、敵対的テストを実施する　
-		- ③インシデントの監視をする　
-		- ④サイバーセキュリティを確保させる　
-		- ⑤ドキュメントを作らせる
--  Generative AI for Everyoneか
+		- ③インシデントの監視を
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4NjI1ODYyLC0xOTEwNDMwMzU5LC0xNj
-E1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MDkz
-MCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcyMywxMz
-MxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxODk3MTYx
-NjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNi
-w2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4
-MDA3NDAzXX0=
+eyJoaXN0b3J5IjpbMTkwNDU4ODYxMiwtMTkxMDQzMDM1OSwtMT
+YxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5
+MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMT
+MzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2
+MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMT
+YsNjU0Nzk3NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEy
+ODAwNzQwM119
 -->
