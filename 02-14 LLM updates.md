@@ -24,6 +24,9 @@
 	- https://arxiv.org/abs/2404.01744
 	- GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」
 	- 20億パラメータを持つエッジデバイス上で機能するオンデバイスAIモデル「Octopus v2」
+- Google Colab で Octopus V2 を試す by npakaさん、
+	- https://note.com/npaka/n/n706bde979ed8
+	- Gemma-2Bを追加学習したモデルで、学習ステージと推論ステージの両方に独自のFunctionトークン戦略を導入することで、「Function Calling」において「GPT-4」に匹敵する性能を達成したとのことです。
 - Chat VectorとMath Vectorは併用できるのか by はちさｎ
 	- https://note.com/hatti8/n/n2d6d86d6f05a?sub_rt=share_h
 	- Chat+Math能力の両方を日本語ベースモデルに付与したら、どちらの効果も得られるのか
@@ -3786,11 +3789,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ⑤ドキュメントを作らせる
 -  Generative AI for Everyoneか
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDk0MTczNiwtMTYxNTQ5MDQxMSw5OD
-EwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3Njcw
-NywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMz
-A5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4
-ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC
-0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMywtMTI4
-MTY3MzUwN119
+eyJoaXN0b3J5IjpbOTU2ODk5MDM1LC0xNjE1NDkwNDExLDk4MT
+A2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3
+LC01OTMyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMD
+kxNDE5MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4
+NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLT
+ExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgx
+NjczNTA3XX0=
 -->
