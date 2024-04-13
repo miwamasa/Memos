@@ -52,6 +52,10 @@
 	- 言語モデルによる材料探索の論文。
 	- 結晶材料をテキスト表現にし言語モデルにより既存材料に似た新熱電材料を探索
 	- 特に、GPTのようなデコーダ専用モデルより、BERTのようなエンコーダ専用モデルのほうが汎用性が高くMIタスクに向いている、という点が興味深かったで
+- μトランスファーとは by うみゆきさん、
+	- https://x.com/umiyuki_ai/status/1777204816059711692
+	- MiniCPMはミュートランスファーというテクニックが使われてるらしい。これが何か？というと、でかいLLMをトレーニングする時の最適パラメータを探るテクらしい。
+	- でかいLLMを学習する時に、ハイパーパラメータをどう弄れば最強になるのか、イチイチ色々試して最適解を試行錯誤するのはメチャクチャ大変だ。そこで、同じアーキテクチャのちっちゃい版で実験すればサクサクと最適なパラメータを試行錯誤できる。で、ちっちゃいモデルで見つけた最強パラメータが、でかいLLMにそんままコピペしてもちゃんと最強になる事が判明したらしい！
 - 
 
 ## 4/8
@@ -3810,16 +3814,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://huggingface.co/TokenBender/MistralChameli_7B_v01
 	- First version of DPO-ed roleplay/smart version of Mistral. Now to conduct some experiments with reward model and see if this is any good.
 - ベイジアンモデルへの経験ベイズ修正
-	- https://www.jstage.jst.go.jp/article/keidaironshu/68/4/68_161/_article/-char/ja/
-	- Robbins (1956) が Tweedie (1947) に言及してることに基づき，Efron が Tweedie's formula と名付けて広まっているが，Koenker & Gu (2016) では Dyson (1926) で既に得られていることが指摘されている。
--  A glimpse of the next generation of AlphaFold
-	- https://deepmind.google/discover/blog/a-glimpse-of-the-next-generation-of-alph
+	- https://www.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3Njc3Mzc2LDE4OTcxNjE2NjIsMTYwMD
-AyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1
-OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLT
-EyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4Nzg0
-Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAxNjUsLT
-IwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5
-NjExNTM0XX0=
+eyJoaXN0b3J5IjpbLTE5NjMwMzI1MjQsMTg5NzE2MTY2MiwxNj
+AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
+NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
+wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
+ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
+wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
+Mzk2MTE1MzRdfQ==
 -->
