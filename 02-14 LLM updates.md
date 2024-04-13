@@ -214,7 +214,10 @@
 - LangChain の Tool Calling 標準インタフェース の概要　by npakaさん
 	- https://note.com/npaka/n/ne6fd5929bfa1?sub_rt=share_h
 	- 「Tool Calling」の標準インターフェイスの構成は、次のとおりです。
-		- 
+		- ChatModel.bind_tools()ツール定義をモデルにアタッチするメソッド
+		- AIMessage.tool_callsモデルが決定したツールの情報を伝えるプロパティ
+		- create_tool_calling_agent()Tool Callingを利用するエージェントのコンストラクタ
+	- 
 
 ## 4/8
 
@@ -3836,12 +3839,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://techcrunch.com/2023/12/07/googles-best-gemini-demo-was-faked/
 - QuIP#: QuIP with Lattice Codebooks
 	- https://cornell-relaxml.github.io/quip-sharp/
-	- QuIP#は大規模言語モデルを2ビット量子化し、本来ならば140GBのメモリが必要なLlama 2 70Bを24GBのGPUで実行可能にするとの事です
-- Bard(/w Gemini Pro)はいまだに数独が解けない、ChatGPTはとけるけど
-	- https://x.com/kajikent/status/1733663171578335233?s=20
-- OpenAI、GPT-4が怠け者になってきたという苦情に「修正を検討中」とポスト
+	- QuIP#は大規模言語モデルを2ビット量子化し、本来ならば140GBのメモリが必要なLlama 2 70Bを24GBのGPUで実行可能
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5MTQzNTk3LDE5ODM2NjA5MzAsMTExMz
+eyJoaXN0b3J5IjpbLTg5NzQ1MDQ3LDE5ODM2NjA5MzAsMTExMz
 A3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2
 NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNj
 AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
