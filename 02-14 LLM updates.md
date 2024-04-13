@@ -36,6 +36,8 @@
 		-  **一方、英語で回答しやすくなる傾向が出てくる**
 - Chat VectorならぬMath Vectorは作れるのか
 	- https://note.com/hatti8/n/n0000353355cb
+- LangChain x DSPy
+	- https://www.youtube.com/watch?v=4EXOmWeqXRc
 	- 
 
 ## 4/8
@@ -3814,9 +3816,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - TextからSQLを生成するQuerypls
 	- https://github.com/samadpls/Querypls/
 - われらが、 @jerryjliu0がdeeplearningaiコースに登場
-	- https://www.deeplearning.ai/short-courses/building-evaluating-advan
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTIzMTgyOTMsMTg5NzE2MTY2MiwxNj
+eyJoaXN0b3J5IjpbLTIwNzE0MTc3MzIsMTg5NzE2MTY2MiwxNj
 AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
 NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
 wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
