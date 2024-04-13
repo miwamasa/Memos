@@ -62,8 +62,10 @@
 	- 1万倍の内、MoEの貢献が３倍なら残りの3333倍はMiniCPMトレーニングのおかげなのか
 - The Physics of Language Models
 	- https://arxiv.org/abs/2404.05405
+	- 「言語モデルは、int8 に量子化された場合でも、パラメータごとに 2 ビットの知識しか保存できません。また、そのような知識は、下流のアプリケーション用に柔軟に抽出できます。その結果、7B モデルは 14B ビットの知識を保存でき、これは私たちの推定に基づくと、英語版 Wikipedia と教科書を合わせた量を超えます。」
 	- 回転埋め込みを備えた GPT-2 アーキテクチャは、知識の保存において LLaMA/Mistral アーキテクチャに匹敵するか、それを上回ります。
-- 
+- Gemini 1.5 Pro
+	- https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html
 
 ## 4/8
 
@@ -3810,16 +3812,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Video of Daniel Kahneman and Yann LeCun discussing Dual Process Theory (i.e., System 1 and 2) in relation to Deep Learning.
 -  ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search
 	- https://arxiv.org/abs/2310.13227
-	- uses algorithms like A* to improve LLM answers, improving sota on both planning and reasoning tasks
-- Qualcomm Snapdragon 8gen 3 already supported 10b language model running locally on your smartphone.
-	- https://x.com/Francis_YAO_/status/1727861621110779941?s=20
-	- LLM is the new smartphone OS
+	- uses algorithms 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1Njk0MjE5LDE4OTcxNjE2NjIsMTYwMD
-AyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1
-OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLT
-EyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4Nzg0
-Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAxNjUsLT
-IwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5
-NjExNTM0XX0=
+eyJoaXN0b3J5IjpbLTEyNDYzNzY1NTEsMTg5NzE2MTY2MiwxNj
+AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
+NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
+wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
+ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
+wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
+Mzk2MTE1MzRdfQ==
 -->
