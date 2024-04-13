@@ -154,6 +154,7 @@
 		- response = client.chat.completions.create(model='alpindale/c4ai-command-r-plus-GPTQ',
 	- Command R plus GPTQのA100 80GBでの実行例
 		- 18.3 tokens/sと出ている
+- 
 
 ## 4/8
 
@@ -3826,13 +3827,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2311.01906
 	- many parts can be removed to simplify GPT-like decoder architectures as well as encoder-style BERT models:
 - llamaindexから、RAGの新モジュール、fuzzy citationを発表
-	- https://github.c
+	- https://git
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMD
-kxNDE5MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4
-NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLT
-ExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgx
-NjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5Nz
-UsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAw
-ODY5NjExXX0=
+eyJoaXN0b3J5IjpbMjA5OTY3ODgwOCwtMjc3OTM2NzIzLDEzMz
+E0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2
+NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LD
+Y1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgw
+MDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMD
+k3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEy
+NjAxNjVdfQ==
 -->
