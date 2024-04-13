@@ -4,6 +4,12 @@
 
 ## 4/15
 
+このブックマーク集から、大規模言語モデル(LLM)の最新の動向が見えてきます。既存の7Bモデルに匹敵する強さを持ちながら、わずか2.4Bパラメータという小さなサイズのMiniCPM-2Bが登場しました。小規模モデルを使ってハイパーパラメータを効率的に探索し、大規模モデルに転移させる「μトランスファー」という手法が採用されています。また、スマートフォンなどのエッジデバイス上で動作可能な20億パラメータのOctopus v2や、8Bパラメータながら高い性能を発揮するJetMoEなど、モデルサイズの最適化が進んでいます。
+
+一方で、より大規模なモデルも開発が進んでいます。従来のMistralやLlama、Gemmaといったモデルをベースに、22BのMistral-22BやMixtral-8x22Bなどの超大規模モデルが公開されています。Googleの新しいリカレントアーキテクチャRecurrentGemmaや、注目を集めるMoAやMoEなどの革新的なアーキテクチャも登場しています。また、量子化技術の進歩により、大規模モデルをある程度の精度を維持しつつ小さなサイズに圧縮する取り組みも活発化しています。
+
+LLMの応用分野も広がりを見せており、材料探索や設計、ロボティクスなどの分野への活用が試みられています。さらに、LLMとその他のモジュールを組み合わせた「複合AI」の考え方が重要視されるようになってきました。RAG(Retrieval Augmented Generation)やツール呼び出しなど、LLMに外部の知識や機能を組み込む取り組みが進んでいます。LangChainなどのフレームワークでは、これらの機能を統一的に扱えるインターフェースが整備されつつあります。
+
 - MiniCPM: Unveiling the Potential of End-side Large Language Models
 	- https://shengdinghu.notion.site/MiniCPM-Unveiling-the-Potential-of-End-side-Large-Language-Models-d4d3a8c426424654a4e80e42a711cb20
 	- 既存7B LLMより強いと話題の2B LMMのMiniCPM
@@ -3823,27 +3829,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Dockerがインストールされたシステムで利用可能で、Nvidia GPUのGPUアクセラレーションをサポート（CPU上でも実行可能）
 	- パフォーマンスはハードウェアに依存し、例えばLlama 2の7Bモデルを実行するには最低15GBのRAMと4つのCPUコアが必要
 	- MacOSとLinux用のデスクトップアプリケーションがあり、Windows版が開発中
--  Ollama Llama Pack Example
-	- https://docs.llamaindex.ai/en/latest/examples/llama_hub/llama_pack_ollama.html#
-	- llamaindexより、さっそくOllama対応のRAGの例
-	- https://llamahub.ai/l/llama_packs-ollama_query_engine
-- ollama web-ui is amazing
-	- https://github.com/ollama-webui/ollama-webui
-- ClimateXのデータセットが公開されている
-	- https://huggingface.co/datasets/rlacombe/ClimateX
-- Mistralより、新しい mixtral-8x7b-32kseqlenを発表
-	- https://replicate.com/nateraw/mixtral-8x7b-32kseqlen
-	- 「我々はMistral MoE (7Bx32experts) を 2 か月間使用しており、それは24GBで動作しています。」
-- What is Mixture-of-Experts (MoE)?
-	- mixtral-8x7b-32kseqlenの裏にあるmoe技術とは
-	- https://x.com/sophiamyang/status/1733505991600148892?s=20
-	- MoE is a neural network architecture design that integrates layers of experts/models within the Transformer
+-  Ollama Llama Pack orme
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzMxNzg2MiwxOTgzNjYwOTMwLDExMT
-MwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4
-NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMT
-YwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5
-NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MD
-MsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4
-Nzg0Njk3NV19
+eyJoaXN0b3J5IjpbNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMz
+A3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2
+NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNj
+AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
+NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
+wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
+ODQ2OTc1XX0=
 -->
