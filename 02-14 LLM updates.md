@@ -85,7 +85,8 @@
 - 【LangChainゆる勉強会#3】LangChainのAgentはどれを使う？
 	- https://www.youtube.com/watch?v=07TuBmm67sU
 	- LangChainを使ったAgent実装を概説してくださってる勉強会のアーカイブ動画。
-	- 最近はLCELで組んでAgent Excutorに投げる以外の実装しないので、なんか色々あるんだなと勉強になりました![😇](https://abs-0.twimg.com/emoji/v2/svg/1f607.svg "天使の笑顔") XML Agentとか誰が使うん？って思ってたけど、Claudeと相性良いらしい。へぇ〜！
+	- 最近はLCELで組んでAgent Excutorに投げる以外の実装しないので、なんか色々あるんだなと勉強になりました
+	- XML Agentとか誰が使うん？って思ってたけど、Claudeと相性良いらしい。へぇ〜！
 - rinna/youri-7b-chat-gptqとintfloat/multilingual-e5-largeでRAGするだけでもcolabよりrtx3060の方がかなり速い
 	- https://x.com/rsimd_/status/1747614320878555175
 	- vramが足りればって話だけど，一応faiss-cpuを使えばメモリ足りてる．
@@ -130,7 +131,8 @@
 	- https://x.com/AiXsatoshi/status/1777867323552190876
 - Amazon、「Claude 3」のAnthropicに27億5000万ドルの追加投資
 	- https://www.itmedia.co.jp/news/articles/2403/28/news105.html#utm_term=share_sp
-- 
+- A Generative Symbolic Music Pretrained Transformer
+	- 
 
 ## 4/8
 
@@ -3827,7 +3829,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://github.com/intel/intel-extension-for-transformers/tree/1.2.1#int4-inference
 -  ラプラス変換とフーリ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjk0NzQyNywtMTc2NDk0MDk5OCwxOD
+eyJoaXN0b3J5IjpbLTM2OTU2NTk1MCwtMTc2NDk0MDk5OCwxOD
 k3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4
 MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5Ni
 wtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3
