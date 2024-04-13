@@ -4,7 +4,7 @@
 
 ## 4/15
 
-今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニング？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。これに影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをMoEで無くしたMistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まった。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、両方の機能が保存されたという話。LightChatAssistant2x7BのもTask Vectorの加算でできてて、少ないリソースで動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma。GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」。今週は、Google Cloud Next24があったので、Gemini 1.5 Proのリリースや、DeepMindのImagen 2、さらにはGoogleDocにGeminiの統合とか、geminiでRCカーを制御とか面白い出し物があった。
+今週も強烈だった。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニング？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3)や、A100(80G)で結構サクサクうごくらしい。これに影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをMoEで無くしたMistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まった。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、両方の機能が保存されたという話。LightChatAssistant2x7BのもTask Vectorの加算でできてて、少ないリソースで動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma。GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」。今週は、Google Cloud Next24があったので、Gemini 1.5 Proのリリースや、DeepMindのImagen 2、TPU v5pの発表、GoogleDocにGeminiの統合とか、geminiでRCカーを制御とか面白い出し物があった。日本語LLM 9種を量子化して回答内容を比較ってのも面白かった、
 
 このブックマーク集から、大規模言語モデル(LLM)の最新の動向が見えてきます。既存の7Bモデルに匹敵する強さを持ちながら、わずか2.4Bパラメータという小さなサイズのMiniCPM-2Bが登場しました。小規模モデルを使ってハイパーパラメータを効率的に探索し、大規模モデルに転移させる「μトランスファー」という手法が採用されています。また、スマートフォンなどのエッジデバイス上で動作可能な20億パラメータのOctopus v2や、8Bパラメータながら高い性能を発揮するJetMoEなど、モデルサイズの最適化が進んでいます。
 
@@ -3810,9 +3810,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/csstudyabroad/n/n5aba3a708f3a
 - "Purple Llama CyberSecEval: A benchmark for evaluating the cybersecurity risks of large language models"
 	- LLama Purple関連の CyberSecEvalの論文
-	- https://ai.meta.com/research/publications/purple-llama-cyberseceval-a-benchmark-for-evaluating-the-cybersecurity-risks-of-large-langu
+	- https://ai.meta.com/research/publications/purple-llama-cyberseceval-a-benchmark-for-evaluating-t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjM0ODM5Niw2MjQyMDY1ODEsMTk4Mz
+eyJoaXN0b3J5IjpbLTg1NTg5MzgzNyw2MjQyMDY1ODEsMTk4Mz
 Y2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcy
 MywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxOD
 k3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4
