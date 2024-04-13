@@ -171,7 +171,11 @@
 	- https://note.com/npaka/n/n0018d60fb8b7?sub_rt=share_h
 	- 「RecurrentGemma」は、Google で開発された新しいリカレントアーキテクチャに基づいて構築されたオープンモデルです。 事前学習済みモデルと指示チューニングモデルの両方が英語で利用可能です
 	- 新しいアーキテクチャにより、「Gemma」よりも必要なメモリが少なく、長いシーケンスを生成する際に高速な推論を実現します。
-	- 今回は、「**google/recurrentgemma-2b-it**」を使います。
+	- 今回は、「**google/recurrentgemma-2b-it**」を使います
+- LightChatAssistant-2x7Bで行われている最適化をOptuneで
+	- https://github.com/Aratako/Task-Vector-Merge-Optimzier
+	- Sdff-Ltba/LightChatAssistant-2x7Bで行われているようなLLMにおけるTask Vectorの加算によるマージにおいて、その加算割合の最適化をOptunaを用いて行うスクリプトです
+- 
 
 ## 4/8
 
@@ -3820,13 +3824,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  An Embodied Generalist Agent in 3D World
 	- https://huggingface.co/papers/2311.12871
 - GAIA: a benchmark for General AI Assistants
-	- https://arxiv.org/abs/2311.12983
-- Q*ではないですが、A*探索の様子を可視化した
-	- https://x.com/GregKamradt/status/1728480680127148480?s=20
-- Kevin Dunnell et al., "Latent Lab: Large Language Models for Knowledge Exploration"
-	- https://arxiv.org/abs
+	- https://arxiv.or
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3MTE1NTQwLC01OTMyODY1MDUsLTI3Nz
+eyJoaXN0b3J5IjpbNDQ4MzE4MDMxLC01OTMyODY1MDUsLTI3Nz
 kzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5
 OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMT
 c2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1
