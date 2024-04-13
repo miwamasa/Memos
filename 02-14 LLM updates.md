@@ -15,7 +15,12 @@
 	- commandRplus　108B →Mac Studio（988000円）
 	- commandR　35B →RTX4090（PC + 40万円～）
 	- LightChatAssistant2x7B →RTX3060（PC + 3万円～）
-- 
+- ｢LLMはコモディティー｣　米データブリックスCEOが語る
+	- https://www.nikkei.com/article/DGXZQOGN252JK0V20C24A3000000/
+	- LLM単体ではなくLLMやその他のモジュールを組み合わせて問題を解く「複合AI」の考え方がとても大事
+- Octopus v2
+	- https://www.techno-edge.net/article/2024/04/08/3130.html
+	- GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」
 
 ## 4/8
 
@@ -3801,18 +3806,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Running Starling-7B LLM model on local CPU with @Ollama_ai and getting great results for invoice data extraction, even better than Zephyr, Mistral or Llama2.
 	- https://github.com/katanaml/llm-ollama-invoice-cpu
 - 円城塔を近似する？
-	- https://colab.research.google.com/drive/1oXxBIYJvvUYsVZP6WYAUCb3QK09zTJtO?usp=sharing
-	- 円城塔さんの文章で学ぶ、大規模言語モデルのファインチューニングチュートリアル
-- 「長コンテキストをLLM(GPT, Claude)に食わせた際に、ちゃんとRetrivalされるか？」を検証しているGithub。
-	- https://github.com/gkamradt/LLMTest_NeedleInAHaystack
-	-  総じてCalude-2に比べてGPT-4 Turboのほうが正確に引用しているようで面白い。
-- Q
+	- https://colab.research.google.com/drive/1oX
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Njk3ODAwMiwxODk3MTYxNjYyLDE2MD
-AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
-NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
-0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
-NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
-0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
-OTYxMTUzNF19
+eyJoaXN0b3J5IjpbLTE1OTM4MTE0NTEsMTg5NzE2MTY2MiwxNj
+AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
+NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
+wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
+ODQ2OTc1LC03MDgzNDE3OSwxODY5ODU4NSwtMTgyMTI2MDE2NS
+wtMjAwMDg2OTYxMSwyMTA5ODQxNzgwLC0xOTUzMTA1MzkzLDIw
+Mzk2MTE1MzRdfQ==
 -->
