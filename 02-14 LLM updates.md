@@ -136,7 +136,7 @@
 	- In this paper, we explore the application of Large Language Models (LLMs) to the pre-training of music. While the prevalent use of MIDI in music modeling is well-established, our findings suggest that LLMs are
 - We just released Mixtral 8x22B. Super excited for this release
 	- https://x.com/sophiamyang/status/1777945947764297845
-- 
+- 日本語LLM 9種を量子化して回答内容を比較調査してみた
 
 ## 4/8
 
@@ -3825,14 +3825,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- The 1st comprehensive analysis of both cancerous and non-cancerous tissue in hundreds of thousands of patient tissues-
 - BERTopicの新しいバージョン
 	- https://github.com/MaartenGr/BERTopic
-	- Merge pre-trained models, apply zero-shot topic modeling, seed domain-specific words, and much more in this HUGE update!
-- Intel®
+	- Merge pre-trained models, apply zero-shot topic modeling, seed domain-specific words, and much more 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OT
-cxNjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgy
-MzE2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC
-0xMjgwMDc0MDMsLTEyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1
-OTAzMDk3LDc4Nzg0Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLT
-E4MjEyNjAxNjUsLTIwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1
-MzEwNTM5M119
+eyJoaXN0b3J5IjpbNzE3OTIxODMzLDIzMDkxNDE5MywtMTc2ND
+k0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5
+OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5MTI5NTEsMT
+c5ODM1MDc5NiwtMTI4MDA3NDAzLC0xMjgxNjczNTA3LDEzOTA1
+MjcwMzQsLTY3NTkwMzA5Nyw3ODc4NDY5NzUsLTcwODM0MTc5LD
+E4Njk4NTg1LC0xODIxMjYwMTY1LC0yMDAwODY5NjExLDIxMDk4
+NDE3ODBdfQ==
 -->
