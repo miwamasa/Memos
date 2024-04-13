@@ -10,6 +10,11 @@
 	- μP使って小さいモデルで効率的にハイパーパラメータ探索
 	- MiniCPM is a series of edge-side large language models, with the base model, MiniCPM-2B, having 2.4B non-embedding parameters. 
 	- It ranks closely with Mistral-7B on comprehensive benchmarks
+- 現状のLLM選択肢 by urawazakun
+	- https://x.com/urawazakun/status/1777130873844040046
+	- commandRplus　108B →Mac Studio（988000円）
+	- commandR　35B →RTX4090（PC + 40万円～）
+	- LightChatAssistant2x7B →RTX3060（PC + 3万円～）
 - 
 
 ## 4/8
@@ -3801,13 +3806,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 「長コンテキストをLLM(GPT, Claude)に食わせた際に、ちゃんとRetrivalされるか？」を検証しているGithub。
 	- https://github.com/gkamradt/LLMTest_NeedleInAHaystack
 	-  総じてCalude-2に比べてGPT-4 Turboのほうが正確に引用しているようで面白い。
-- Qwen/Qwen-7B-Chat-Int4をGoogle Colobで動かす
-	- https://ayousanz.hatenadiary.jp/entry/2023/11/30/182017
-	- なんか日本の文化はちゃんと学んでいないみたいですね
--  Accelerating Generative AI with PyTorch II: GPT, Fast
-	- https://pytorch.org
+- Q
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjU0MjMzOSwxODk3MTYxNjYyLDE2MD
+eyJoaXN0b3J5IjpbMTA5Njk3ODAwMiwxODk3MTYxNjYyLDE2MD
 AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
 NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
 0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
