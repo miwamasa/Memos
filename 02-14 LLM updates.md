@@ -8,6 +8,9 @@
 	- https://shengdinghu.notion.site/MiniCPM-Unveiling-the-Potential-of-End-side-Large-Language-Models-d4d3a8c426424654a4e80e42a711cb20
 	- 既存7B LLMより強いと話題の2B LMMのMiniCPM
 	- μP使って小さいモデルで効率的にハイパーパラメータ探索
+	- MiniCPM is a series of edge-side large language models, with the base model, MiniCPM-2B, having 2.4B non-embedding parameters. 
+	- It ranks closely with Mistral-7B on comprehensive benchmarks
+- 
 
 ## 4/8
 
@@ -3802,16 +3805,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://ayousanz.hatenadiary.jp/entry/2023/11/30/182017
 	- なんか日本の文化はちゃんと学んでいないみたいですね
 -  Accelerating Generative AI with PyTorch II: GPT, Fast
-	- https://pytorch.org/blog/accelerating-generative-ai-2/?utm_content=273712248
-	- GPT-fastというのがすごらいしい、３倍？
-- LiLM 小規模言語モデル TinyLlama 1.1B の日本語追加事前学習(incremental pretrain) を試したメモ
-	- https://zenn.dev/syoyo/articles/52f1d0d6
+	- https://pytorch.org
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxNDA5NzMwLDE4OTcxNjE2NjIsMTYwMD
-AyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1
-OSwtMTE3MTkxMjk1MSwxNzk4MzUwNzk2LC0xMjgwMDc0MDMsLT
-EyODE2NzM1MDcsMTM5MDUyNzAzNCwtNjc1OTAzMDk3LDc4Nzg0
-Njk3NSwtNzA4MzQxNzksMTg2OTg1ODUsLTE4MjEyNjAxNjUsLT
-IwMDA4Njk2MTEsMjEwOTg0MTc4MCwtMTk1MzEwNTM5MywyMDM5
-NjExNTM0XX0=
+eyJoaXN0b3J5IjpbLTQ5NjU0MjMzOSwxODk3MTYxNjYyLDE2MD
+AwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1
+NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3NDAzLC
+0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3ODc4
+NDY5NzUsLTcwODM0MTc5LDE4Njk4NTg1LC0xODIxMjYwMTY1LC
+0yMDAwODY5NjExLDIxMDk4NDE3ODAsLTE5NTMxMDUzOTMsMjAz
+OTYxMTUzNF19
 -->
