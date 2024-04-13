@@ -199,7 +199,11 @@
 	- https://huggingface.co/Vezora/Mistral-22B-v0.1
 	- First-ever MOE to Dense model conversion
 	- This model is not an moe, it is infact a 22B parameter dense model!
-- 
+	- mixtralのexpertsをマージしてmistralにしたやつ
+- Vezoraさんが公開されているMistral-22B-v0.1のggufあります
+	- https://huggingface.co/mmnga/Vezora-Mistral-22B-v0.1-gguf
+- Swallowシリーズのinstruct改良版ですが、本当は2023年度中を目指していたのですが、もろもろ多忙で遅れてしまっています。
+	- 
 
 
 ## 4/8
@@ -3835,15 +3839,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- MMLU on the base models is at 0.717 compared to Gemin Pro's 0.718
 	- Expect to see several fine and instruct tunes over the next few weeks. These fine tunes will match GPT-4 quality for several real-world use cases.
 -  Google Colab で DiscoLM Mixtral 8x7b alpha を試す by npakaさん
-	- https://note.com/npaka/n/n3b55c941d864?sub_rt=share_h
-	- 「**Mixtral 8x7b**」は、「Mistral AI」がリリースした史上初のオープンソース MoEモデルです
-	- 「**DiscoLM Mixtral 8x7b alpha**」は、「Mixtral 8x7b」をファインチューニングして作成した実験的なチャットモデルです。元のモデルをHuggingFace形式に変換し、「Synthia」「MethaM
+	- https://note.com/npaka/n/n3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwNDA5ODU0LDE5ODM2NjA5MzAsMTExMz
-A3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2
-NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNj
-AwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3
-NTU5LC0xMTcxOTEyOTUxLDE3OTgzNTA3OTYsLTEyODAwNzQwMy
-wtMTI4MTY3MzUwNywxMzkwNTI3MDM0LC02NzU5MDMwOTcsNzg3
-ODQ2OTc1XX0=
+eyJoaXN0b3J5IjpbLTIwNDM2NTgyMDEsMTk4MzY2MDkzMCwxMT
+EzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQx
+ODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLD
+E2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3
+OTc1NTksLTExNzE5MTI5NTEsMTc5ODM1MDc5NiwtMTI4MDA3ND
+AzLC0xMjgxNjczNTA3LDEzOTA1MjcwMzQsLTY3NTkwMzA5Nyw3
+ODc4NDY5NzVdfQ==
 -->
