@@ -42,6 +42,7 @@
 	- 2）訓練手法や実装場面の課題、
 	- 3）社会における課題に分け、
 	- 広範な文献調査に基づき200超のリサーチクエスチョンを同定。
+	- このAnwar+2024論文はすごい。「LLMの何が技術的・社会的な問題になるのか？」を包括的に洗い出し、かつリサーチクエンションのリストに落とし込んでいる。by maruyamaｓあｎ
 - Running WizardLM-2 8x22B Q4_0 locally via ollama
 	- https://x.com/ivanfioravanti/status/1780133719707197643
 	- On an M2 Ultra I get: ~19.5 tokens/s
@@ -60,6 +61,9 @@
 - Pytorchからファインチューニング用の機能torchtuneが公開
 	- https://pytorch.org/blog/torchtune-fine-tune-llms/?utm_content=289842551&utm_medium=social&utm_source=twitter&hss_channel=tw-776585502606721024
 	- llama3のファインチューニングをこれでやったんだと
+-  AI科学の何が“哲学”の問題になるのか　～問いマッピングの試み～
+	- https://speakerdeck.com/rmaruy/aike-xue-nohe-ga-zhe-xue-nowen-ti-ninarunoka-wen-imatupingunoshi-mi
+	- まるやまさん
 - 
 
 ## 4/15
@@ -3802,14 +3806,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
 - Google AlphaCode 2 を発表
 	- AlphaCode 2 Technical Report
-	- https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf
-	- Geminiを競技プログラミング用にカスタマイズしたAlphaCode2は、競技プログラミング人口の上位15%の性能
-- MetaのStreamingの翻訳性能はすごいらしい、	
-	- https://x.com/hokazuya/status/1732374854027132940?s=20
-	- 翻訳こんにゃくレベル
-- Bardの生成記事はChatGPTより
+	- https://storage.googleap
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzA4ODAxMiwtMTQwNjY0MTczMiwxNj
+eyJoaXN0b3J5IjpbMTY4NDI1MTgwNCwtMTQwNjY0MTczMiwxNj
 cwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMw
 MzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMT
 k4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3Nzkz
