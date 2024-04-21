@@ -6,9 +6,13 @@
 
 今週は、メタからllama3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。早速、量子化、MoE化、ファイチューニング手法が公開され、MXで8GB M2 miniでの動作確認、ollamaの対応、さらにはgroqに乗っかってデモサイトでLlama3-70Bが300t/sの超絶爆速推論を見せた。1bitのLLMも、shi3zさんの自作評価や、椎橋さんによるGPUではないオーダーメイドによるAIソリューション「カスタムAI」の可能性など、いい記事がでてきた。
 
+
+
 ChatVectorによるLLM性能向上も、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。LLMの能力の足し算引き算しつつ性能を評価する、一段メタな世界が開けた。PFNの丸山さんが紹介された、LLMをつかって言葉だけで、線形回帰をさせるという論文、どんなモデルを内部に持っているんだという意味で面白い。 Cambridge大学のU. Anwar, D. Krueger氏らによる、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文はすごい、
 
 CommandR＋もllama3も、プロンプトに与えるテンプレートが独特なので、LLMをネイティブに使う人は要注意だ。
+
+Qwen1.5-7B-Chat-GGUF
 
 近年、大規模言語モデル(LLM)の技術進化が加速度を増しています。OpenAIが日本語GPT-4を発表し、翻訳・要約能力が飛躍的に向上したと主張しています。一方、AnthrопicはLLMの合理的推論能力に注目し、関連する講義資料をCaltechで公開するなど、LLMの新たな可能性を探っています。
 
@@ -3788,10 +3792,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 実験の結果、「人が理解しやすい」内容で正確かつ詳細に画像を説明することができると確認されました
 -  日本の古典和歌を埋め込みベクトルで分析する
 	- https://note.com/yhkondo/n/nd321604729cd?sub_rt=share_pw
-	- OpenAIの埋め込みベクトルを使って、『古今集』『万葉集』『和漢朗詠集』等を分析し、いわゆる「花鳥風月」という概念がどこから生まれてきたかを探求したものです。AIの持つ力を感じていただけると確信しています
--  Google Co
+	- OpenAIの埋め込みベクトルを使って、『古今集』『万葉集』『和漢朗詠集』等を分析し、いわゆる「花鳥風月」という概念がどこから生まれてきたかを探求したものです。AIの持つ力を感じていた
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDU5NDIxMywtOTIyMjk0MDU1LC05NT
+eyJoaXN0b3J5IjpbMTQ2NTU0MjM2NiwtOTIyMjk0MDU1LC05NT
 Y0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0
 MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC
 0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQy
