@@ -51,13 +51,16 @@
 	- うーん日本語がやはりイマイチだな
 - WizardLMの作り方
 	- https://x.com/WizardLM_AI/status/1779937307690471834
+	- 新しいWizardLM-2 7BのサイズでMT-BenchがClaude-2より高いってすごい by はち
 - Introducing the Batch API: save costs and get higher rate limits on async tasks
 	- https://platform.openai.com/docs/api-reference/batch
 - Introducing Idefics 2
 	- https://huggingface.co/collections/HuggingFaceM4/idefics2-661d1971b7c50831dd3ce0fe
 	- An 8B Vision-Language Model - literally punching above its weight.
 - Pytorchからファインチューニング用の機能torchtuneが公開
-	- 
+	- https://pytorch.org/blog/torchtune-fine-tune-llms/?utm_content=289842551&utm_medium=social&utm_source=twitter&hss_channel=tw-776585502606721024
+	- llama3のファインチューニングをこれでやったんだと
+- 
 
 ## 4/15
 
@@ -3804,13 +3807,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - MetaのStreamingの翻訳性能はすごいらしい、	
 	- https://x.com/hokazuya/status/1732374854027132940?s=20
 	- 翻訳こんにゃくレベル
-- Bardの生成記事はChatGPTより優れている？
-	- https://x.com/kajikent/status/1732237182126129578?s=20
-	- コンテンツマーケティングの領域で有名なNeil Patel氏が約250ずつのChatGPT生成の記事とGoogle Bard生成の記事で読者にどちらが好きか聞いたところ、Bardが圧勝する結果に
-- 人間レベルのAI(AGI)に到達すするには、常に10年以上必要
-	- https://x.com/ylecun/status/173
+- Bardの生成記事はChatGPTより
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjEyOTU4NiwtMTQwNjY0MTczMiwxNj
+eyJoaXN0b3J5IjpbMTcwMzA4ODAxMiwtMTQwNjY0MTczMiwxNj
 cwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMw
 MzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMT
 k4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3Nzkz
