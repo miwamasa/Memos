@@ -10,7 +10,11 @@
 - OpenAI Japanの発足とまさかの日本語GPT-4の発表。
 	- https://openai.com/blog/introducing-openai-japan
 	- 「日本語のテキストの翻訳と要約のパフォーマンス、およびコスト効率を向上させ、前モデルと比較して、最大3倍高速に動作します。」
-- 
+- ChatNTQ 7B と LightChatAssistant 2x7B の日本語性能を測定する
+	- https://sc-bakushu.hatenablog.com/entry/2024/04/10/191420
+	- LightChatAssistantはChatNTQとAntlerがジョグレス進化して奇跡のシナジーを起こして、ELYZATasks100ベンチで35BのCommand Rに匹敵する性能を出してしまう
+- Heron-Bench: 日本語Vision＆Languageモデルの性能評価ベンチマークの公開
+	- 
 
 ## 4/15
 
@@ -3808,15 +3812,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	-  A Simpler Way to Query Neo4j Knowledge Graphs
 	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/neo4j_query_engine/llama_packs_neo4j.ipynb
 - 欧州AI法の最終トリローグが終了、妥結へ
-	- https://x.com/WIRED/status/1733268732309332398?s=20
-	- https://www.reuters.com/technology/eu-clinches-deal-landmark-ai-act-2023-12-09/?taid=65745dd360152800018aaf1c&utm_campaign=trueAnthem:+Trending+Content&utm_medium=trueAnthem&utm_source=twitter
-	- https://twitter.com/SabrinaKuespert/status/17333117529415151
+	- https://x.com/WIRED/status/1733268732309332398?s=2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MTg5NTQsMzUyOTE1MzM4LC00Njg1Mj
-I3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4
-LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5Mz
-I4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkz
-LC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNz
-E4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1OSwtMTE3MTkx
-Mjk1MV19
+eyJoaXN0b3J5IjpbMjU2ODI2NDQ1LDM1MjkxNTMzOCwtNDY4NT
+IyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAy
+OCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OT
+MyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5
+MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMT
+cxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5
+MTI5NTFdfQ==
 -->
