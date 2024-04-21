@@ -4,7 +4,7 @@
 
 ## 4/21
 
-今週は、メタからllma3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。llama3はPyTorchの新しいファインチューニング機能tochtuneをつかって
+今週は、メタからllama3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。
 
 近年、大規模言語モデル(LLM)の技術進化が加速度を増しています。OpenAIが日本語GPT-4を発表し、翻訳・要約能力が飛躍的に向上したと主張しています。一方、AnthrопicはLLMの合理的推論能力に注目し、関連する講義資料をCaltechで公開するなど、LLMの新たな可能性を探っています。
 
@@ -3802,9 +3802,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Modelサイズは24Bになります
 - NeurIPS Large Language Model Efficiency Challenge:  1 LLM + 1GPU + 1Day
 	- https://llm-efficiency-challenge.github.io/index
-	- OSS LLMモデルを元に限
+	- OSS LLMモデ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjU5NjI2NCwtODQ2ODg5OTU2LC0xOD
+eyJoaXN0b3J5IjpbLTk1NjQzMjYyNywtODQ2ODg5OTU2LC0xOD
 kwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1
 MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MT
 EsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMw
