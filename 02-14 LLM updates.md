@@ -99,7 +99,9 @@
 - Qwen/Qwen1.5-7B-Chat-GGUF
 	- https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF
 	- 7 billion parameters coding chat model (~5GB RAM needed)
-- 
+-  1BitLLMの実力を見る by shi3zさん
+	- https://note.com/shi3zblog/n/ndd1f27fff31c?sub_rt=share_pb
+	- 
 
 ## 4/15
 
@@ -3792,16 +3794,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/yori_Alphard/status/1731663363737026586?s=20
 	- "Zガンダム"になっている。。
 - GIVT: Generative Infinite-Vocabulary Transformers
-	- https://huggingface.co/papers/2312.02116
-	- 本当にトークンが離散でなくて、無限なのだろうか？
-- ファインチューニングは不要、プロンプトだけでどうにかなる？
-	- https://x.com/IntuitMachi
+	- https://huggingface.co/papers/2312.0211
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODY5NDIzNiwtMTg5MDg0NzEzMCwtMT
-QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
-NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
-w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
-ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
-wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
-ODQwMzc5OV19
+eyJoaXN0b3J5IjpbLTE3MzM3MDA0NDIsLTE4OTA4NDcxMzAsLT
+E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
+MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
+gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
+Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
+MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
+MTg0MDM3OTldfQ==
 -->
