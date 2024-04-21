@@ -42,6 +42,12 @@
 	- 2）訓練手法や実装場面の課題、
 	- 3）社会における課題に分け、
 	- 広範な文献調査に基づき200超のリサーチクエスチョンを同定。
+- Running WizardLM-2 8x22B Q4_0 locally via ollama
+	- https://x.com/ivanfioravanti/status/1780133719707197643
+	- On an M2 Ultra I get: ~19.5 tokens/s
+- MaziyarPanahi/WizardLM-2-8x22B-GGUF(Q4_K_M)
+	- https://x.com/alfredplpl/status/1780110628864274576
+	- 
 
 ## 4/15
 
@@ -3801,15 +3807,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.youtube.com/watch?v=UdhWvg5mycY
 - GeminiのTechnical reportを日本語で解説している人が登場
 	- https://x.com/bioshok3/status/1732421662619140551?s=20
-	- Gemini Ultraは、MMLU で人間の専門家の性能を達成した最初のモデルでありスコアは90%以上。やばすぎる。人間のエキスパートのパフォーマンスはベンチマーク著者によって89.8%と評価され、Gemini Ul traはこの閾値を超えた最初のモデル!時代が変わった。
-	- 教師がスキーヤーが坂道を下りるという物理問題を描き、生徒がその解決策を練る。Geminiのマルチモーダル推論機能を用いて、モデルは 乱雑な手書きを理解し、生徒が問題の解決を間違えた推論の特定のステップを特定し、問題の正しい解決を通し て作業を与えることができる。
-	- Google がGeminiのデモ動画を出しているけど、これほんとにこの推論速度なら凄
+	- Gemini Ultraは、MMLU で人間の専門家の性能を達成した最初のモデルでありスコアは90%以上。やばすぎる。人間のエキ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDA1NDkzMywxNjcwMzU2NzE2LDM1Mj
-kxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkw
-NDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMT
-EzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQx
-ODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLD
-E2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3
-OTc1NTldfQ==
+eyJoaXN0b3J5IjpbLTEyMTQzMjM4MzEsMTY3MDM1NjcxNiwzNT
+I5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5
+MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMT
+ExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0
+MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2Mi
+wxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0
+Nzk3NTU5XX0=
 -->
