@@ -76,7 +76,12 @@
 - この前調合した改造Swallow-MX（継続日本語学習+instructionベルトル強化）とMixtral 8x22Bを比較すると短時間使用では差異捉えにくいな それだけ8x22Bの日本語能力アップしてるのは間違いない
 	- https://x.com/AiXsatoshi/status/1778630270486552619
 - Stanford人間中心AI研究所（HAI）から恒例の「AI Index Report 2024」を発行
-	- 
+	- https://aiindex.stanford.edu/wp-content/uploads/2024/04/HAI_AI-Index-Report-2024.pdf
+	- 2024.4.16 Stanford人間中心AI研究所（HAI）から恒例の「AI Index Report 2024」を発行。昨年から大幅に増量した500ページ超の紙幅にて、AI研究の論文数・特許・先端モデルの開発動向・投資額・経済的インパクト・科学や教育への影響・ガバナンス・社会受容など包括的に報告。
+- HuggingFaceM4/idefics-8b
+	- https://huggingface.co/spaces/HuggingFaceM4/idefics-8b
+	- 明確に商用利用可能なマルチモーダルモデルのデモ
+-  Google Colab で idefics2 を試す
 
 ## 4/15
 
@@ -3789,21 +3794,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- You use RAGs when you want to generate outputs grounded to a custom knowledge base while the vocabulary & writing style of the LLM remains same.
 	- If you don't need either of them, prompt engineering is the way to go.
 	- And if your application need both custom knowledge & change in the behaviour of model a hybrid (RAGs + Finetuning) is preferred.
-- OpenAIのSafety System Teamsから
-	- https://openai.com/safety/safety-systems
-	- 協力のお願い
-- PyTorchが出した、gpt-fastはすごいらしい
-	- https://x.com/AlphaSignalAI/status/1732116360162050099?s=20
-	- Pytorch just released GPT-Fast, an implementation of transformer text generation with everything you need in <1000 lines of code.
-	- https://github.com/pytorch-labs/gpt-fast
-- Windows11にcopilotが降臨？
-	- https
+- O
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDkxOTY1NzcsLTE0MDY2NDE3MzIsMT
-Y3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQz
-MDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLD
-E5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5
-MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OT
-gsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3
-Njc5ODIzMTZdfQ==
+eyJoaXN0b3J5IjpbMTQ3NzQ2NTc1NSwtMTQwNjY0MTczMiwxNj
+cwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMw
+MzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMT
+k4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3Nzkz
+NjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OC
+wxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2
+Nzk4MjMxNl19
 -->
