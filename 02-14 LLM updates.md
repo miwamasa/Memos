@@ -54,6 +54,9 @@
 - Introducing the Batch API: save costs and get higher rate limits on async tasks
 	- https://platform.openai.com/docs/api-reference/batch
 - Introducing Idefics 2
+	- https://huggingface.co/collections/HuggingFaceM4/idefics2-661d1971b7c50831dd3ce0fe
+	- An 8B Vision-Language Model - literally punching above its weight.
+- Pytorchからファインチューニング用の機能torchtuneが公開
 	- 
 
 ## 4/15
@@ -3805,17 +3808,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/kajikent/status/1732237182126129578?s=20
 	- コンテンツマーケティングの領域で有名なNeil Patel氏が約250ずつのChatGPT生成の記事とGoogle Bard生成の記事で読者にどちらが好きか聞いたところ、Bardが圧勝する結果に
 - 人間レベルのAI(AGI)に到達すするには、常に10年以上必要
-	- https://x.com/ylecun/status/1732391273611370931?s=20
-	- 3～5年は常に必要（永遠に達成できない）との記事にLecan先生の反応
-- Apple製品Mシリーズに最適化された深層学習フレームワークmlx
-	- https://x.com/goto_yuta_/status/1732287555599741103?s=20
-	-  Macに搭載されてるGPU(MPS)がより有効活用されてローカルL
+	- https://x.com/ylecun/status/173
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3ODg2NDE2LC0xNDA2NjQxNzMyLDE2Nz
-AzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAz
-NTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOT
-gzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2
-NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LD
-E4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3
-OTgyMzE2XX0=
+eyJoaXN0b3J5IjpbLTM1MjEyOTU4NiwtMTQwNjY0MTczMiwxNj
+cwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMw
+MzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMT
+k4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3Nzkz
+NjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OC
+wxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2
+Nzk4MjMxNl19
 -->
