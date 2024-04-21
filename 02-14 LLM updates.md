@@ -3,7 +3,7 @@
 
 ## 4/21
 
-今週は、最大３倍高速という日本語GPT-4の開発の発表もあったけど、なんといってもメタからllama3の待望の公開。最初は8bと70bが公開され、さらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。早速、量子化、MoE化、ファイチューニングの実行例が公開され、MXで8GB M2 miniでの動作確認!、ollamaの対応、さらにはGroqに乗っかってデモサイトでLlama3-70Bが300t/sの超絶爆速推論を見せたなどの一通りが１週間で進む。RAGでのllama3の利用例もLangChainから紹介があったが、CommandR＋もllama3も、プロンプトに与えるテンプレートが独特なので、LLMをネイティブに使う人は要注意だ。1bitのLLMも、shi3zさんの自作評価や、椎橋さんによるGPUではないオーダーメイドによるAIソリューション「カスタムAI」の可能性など、いい記事がでてきた。ChatVectorによるLLM性能向上も、先週に引き続き、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。LightChatAssistantってのはそんなにすごいのか。作ってみたら性能が高かったというJapanese-Starling-ChatV-7B-GGUFなども出たり、ChatVector紹介の先駆者はちさんからSwallow-MS-7b-v0.1-ChatSkill-LABが出たり、能力加算の組み合わせの最適解をoptuneをつかって実行・評価とか、、LLMの能力の足し算引き算しつつ性能を評価するという一段メタな世界が開けた。PFNの丸山さんが紹介された、LLMをつかって言葉だけで、線形回帰をさせるという論文、どんなモデルを内部に持っているんだという意味で面白い。 Cambridge大学のU. Anwar, D. Krueger氏ら40名!による、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文はすごい、AIガバナンスのオックスフォードハンドブックもあり、UKではアライメントとガバナンスの大きな拠点になっているのか。マイクロソフトから、WizardLM-2 の7bと8x22bが発表、背景・狙いを含め詳細は不明であるが、エージェント機能も持っているとか、嵐の予感。Qwen1.5-7B-Chat-GGUFも出た、来週あたりQwen1.5ベースの日本語LLMが出てくるのでは。DeepMindの「Many-shot」多数例示学習の有効性や、RAGのMiniCheck、複数の知識を組み合わせるChain-of-Abstraction (CoA) ReasoningなどのLLM推論での進展もあった。丸山隆一さん、AI科学の何が“哲学”という問い（スライド）も良いし、「AI協働時代に研究者はどう生きるか」というイベントも面白い。AIが（従来の）研究ができるようになるならば、AI研究者はなにをするのかみたいな感じ。その他としては、Swallow-MXを使ったQ&AデータセットであるAutoWikiQAとか、MiniCPM-V-2のデモの公開、商用利用可能なマルチモーダルLLM、idefics-8bなども出てきた。
+今週は、最大３倍高速という日本語GPT-4の開発の発表もあったけど、なんといってもメタからllama3の待望の公開。最初は8bと70bが公開され、さらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。早速、量子化、MoE化、ファイチューニングの実行例が公開され、MXで8GB M2 miniでの動作確認!、ollamaの対応、さらにはGroqに乗っかってデモサイトでLlama3-70Bが300t/sの超絶爆速推論を見せたなどの一通りが１週間で進む。RAGでのllama3の利用例もLangChainから紹介があったが、CommandR＋もllama3も、プロンプトに与えるテンプレートが独特なので、LLMをネイティブに使う人は要注意だ。1bitのLLMも、shi3zさんの自作評価や、椎橋さんによるGPUではないオーダーメイドによるAIソリューション「カスタムAI」の可能性など、いい記事がでてきた。ChatVectorによるLLM性能向上も、先週に引き続き、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。LightChatAssistantってのはそんなにすごいのか。作ってみたら性能が高かったというJapanese-Starling-ChatV-7B-GGUFなども出たり、ChatVector紹介の先駆者はちさんからSwallow-MS-7b-v0.1-ChatSkill-LABが出たり、能力加算の組み合わせの最適解をoptuneをつかって実行・評価とか、、LLMの能力の足し算引き算しつつ性能を評価するという一段メタな世界が開けた。PFNの丸山さんが紹介された、LLMをつかって言葉だけで、線形回帰をさせるという論文、どんなモデルを内部に持っているんだという意味で面白い。 Cambridge大学のU. Anwar, D. Krueger氏ら40名!による、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文はすごい、AIガバナンスのオックスフォードハンドブックもあり、UKではアライメントとガバナンスの大きな拠点になっているのか。マイクロソフトから、WizardLM-2 の7bと8x22bが発表、Evolve Instructという新しいファインチューニング手法の能力やいかに、エージェント機能も持っているとか、嵐の予感。Qwen1.5-7B-Chat-GGUFも出た、来週あたりQwen1.5ベースの日本語LLMが出てくるのでは。DeepMindの「Many-shot」多数例示学習の有効性や、RAGのMiniCheck、複数の知識を組み合わせるChain-of-Abstraction (CoA) ReasoningなどのLLM推論での進展もあった。丸山隆一さん、AI科学の何が“哲学”という問い（スライド）も良いし、「AI協働時代に研究者はどう生きるか」というイベントも面白い。AIが（従来の）研究ができるようになるならば、AI研究者はなにをするのかみたいな感じ。その他としては、Swallow-MXを使ったQ&AデータセットであるAutoWikiQAとか、MiniCPM-V-2のデモの公開、商用利用可能なマルチモーダルLLM、idefics-8bなども出てきた。
 
 - openbmb/MiniCPM-V-2
 	- MiniCPMのデモが公開
@@ -64,7 +64,8 @@
 	- 新しいWizardLM-2 7BのサイズでMT-BenchがClaude-2より高いってすごい by はち
 - WizardLM: Empowering Large Language Models to Follow Complex Instructions
 	- https://arxiv.org/pdf/2304.12244.pdf
-	- Evolve Instruct方法を使用して、LLM自体が指示データを生成する新しいファインチューニング
+	- 課題：様々なレベルの複雑さを持つ大量の指示データを作成することは、時間と労力がかかる。
+	- 解決：Evolve Instruct方法を使用して、LLM自体が指示データを生成する新しいファインチューニング
 - Introducing the Batch API: save costs and get higher rate limits on async tasks
 	- https://platform.openai.com/docs/api-reference/batch
 - Introducing Idefics 2
@@ -3763,11 +3764,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/_oshizo_/status/1735282188546089332?s=20
 	- context全体の長さ（横軸）と、正解になるキーワードの位置（縦軸）を変えながら、出力に正解の文字列を含
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODU0MTc1OSwtMTk1MDMxNjgzMiwtMT
-E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
-OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
-E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
-NjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MD
-kzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcyMywx
-MzMxNDQxODY2XX0=
+eyJoaXN0b3J5IjpbLTE2NjkyMTc3ODAsLTE5NTAzMTY4MzIsLT
+ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
+ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
+cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
+MTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2Nj
+A5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMs
+MTMzMTQ0MTg2Nl19
 -->
