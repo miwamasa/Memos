@@ -163,7 +163,13 @@
 - Crystalcareai/llama-3-4x8b
 	- https://huggingface.co/Crystalcareai/llama-3-4x8b
 	- This is an MOE of Llama-3-8b with 4 experts. This does not use semantic routing, as this utilizes the deepseek-moe architecture. There is no routing, and there is no gate - all experts are active on every token.
-	- 予想はしてたけど、もうLlama3のMoEができてる　by はち 
+	- 予想はしてたけど、もうLlama3のMoEができてる　by はち さん
+-  Google Colab で Llama 3 のファインチューニングを試す
+	- https://note.com/npaka/n/n315c0bdbbf00?sub_rt=share_h
+	- 今回は、ござるデータセットで学習します。AIが「我、りんえもんは思う。◯◯でござる。知らんけど。」的な口調になります。
+	- 練習として500ステップだけ学習します。指示に応じて、wandbのAPIを入力してください。8分ほどで学習完了します。
+	- 我、りんえもんは思う。 マミは一番かわいい。知らんけど。
+	- 
 
 
 ## 4/15
@@ -3782,11 +3788,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 今月のNature誌は面白かった
 	- https://x.com/ykfrs1217/status/1731287315459490165?s=20
 	- ① 大都市ほど、異なる社会ステータスのひとたちは混じわらない（[https://doi.org/10.1038/s41586-023-06757-3…](https://t.co/tEkbdQOPG3)） 
-	- ② 同じ町（≃学内）の研究者だけで行われた研究の方が、異なる地域間の共同研究よりも革新的な成果がでやすい（[https://doi.org/10.1038/s41586-023-06767-1…](https://t.co/jrBRV4Gxtk)）
--  Phantom oscillations in principal component analysis
-	- https://www.pnas.org/doi/10.1073/pnas.2311420120?utm_source=TOC&utm_medium=ealert&TOC_v120_i48=&ref=d4
+	- ② 同じ町（≃学内）の研究者だけで行われた研究の方が、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDYzMjA5NTgsLTE4OTA4NDcxMzAsLT
+eyJoaXN0b3J5IjpbLTE4MDkyMzMwNzQsLTE4OTA4NDcxMzAsLT
 E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
 MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
 gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
