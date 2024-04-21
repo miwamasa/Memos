@@ -127,6 +127,13 @@
 - Reliable, fully local RAG agents with Llama3
 	- Here, we show to how build reliable local agents using LangGraph and Llama3-8b from scratch.
 	- https://github.com/langchain-ai/langgraph/blob/main/examples/rag/langgraph_rag_agent_llama3_local.ipynb
+- 例のSRAMメモリのAIチップを山盛りに積みまくった構成のGroqのサイトでLlama3-70Bが300t/sの超絶爆速推論
+	- https://x.com/umiyuki_ai/status/1781529537102352827
+-  Many-Shot In-Context Learning
+	- https://arxiv.org/abs/2404.11018
+	- プロンプトに数百〜数千の例を含めてLLMにタスクを行わせる『Many-shot（多ショット）』がDeepMindにより検証されています
+	- 結果、基本的に例が多くなるほど性能が上がるとのこと。事前学習による思い込みを覆すことも。人間製の例がなければモデル生成の例でも効果あり
+-  [llama.cpp：iMatrix量子化は日本語性能にどう影響するか？](https://sc-bakushu.hatenablog.com/entry/2024/04/20/050213)
 
 
 ## 4/15
@@ -3779,18 +3786,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Maximum Likelihood Estimation is All You Need for Well-Specified Covariate Shift
 	- https://arxiv.org/abs/2311.15961
 	- 共変量シフトのネタで"All you need"的な流行りのタイトルの論文なんだけど，内容はしっかり数理やってるっぽい．がっつりShimodaira (2000)も参照されてました．共著者に数理統計の大御所のJianqing Fan先生とか，機械学習の理論系のChi Jin先生など
-- Retrieval-Augmented Generation (RAG): From Theory to LangChain Implementation
-	- https://towardsdatascience.com/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation-4e9bd5f6a4f2
-	- Check out this fantastic blog covering the basics of RAG, the theory behind it, and how to use it in practice
-- Mamba: Linear-Time Sequence Modeling with Selective State Spaces
-	- https://arxiv.org/abs/2312.00752
-	- トランスフォーマーや注意機
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyNzYxNTg2LC0xODkwODQ3MTMwLC0xND
-A2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3
-MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LD
-YyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4
-NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC
-0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4
-NDAzNzk5XX0=
+eyJoaXN0b3J5IjpbLTE3MTUyNjg3OTEsLTE4OTA4NDcxMzAsLT
+E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
+MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
+gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
+Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
+MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
+MTg0MDM3OTldfQ==
 -->
