@@ -169,6 +169,12 @@
 	- 今回は、ござるデータセットで学習します。AIが「我、りんえもんは思う。◯◯でござる。知らんけど。」的な口調になります。
 	- 練習として500ステップだけ学習します。指示に応じて、wandbのAPIを入力してください。8分ほどで学習完了します。
 	- 我、りんえもんは思う。 マミは一番かわいい。知らんけど。
+	-  HuggingFace Hubへのアップロード
+		- (1) LoRAアダプタをベースモデルにマージ
+		- (2) 「HuggingFace Hub」のメニュー「New Model」を選択。
+		- (3) HuggingFace Hubのリポジトリの作成。
+		- (4) HuggingFace Hubへのアップロード
+-  統計学を哲学する
 	- 
 
 
@@ -3786,15 +3792,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 今週はなんといっても、GoogleのGemini。GPT-4越えとか、すぐにBard(英語版）でGemini Proを試せるとか、研究アシスタントして使うデモとか、それからマルチモーダルをフルに生かした子供向けのお遊びデモとかなかなか衝撃的であったが、なんとお遊びデモが紙芝居（部分をつなげてそれらしく見えるようにした、部分部分は本物らしいが）との報道があり、事前の「１月に遅延」との報道と合わせると締め切りに間に合わなかったんだろうけど、前回のBardお披露目での失態といい、脇が甘い。なおGeminiの命名の由来、上位６名の主要貢献者のFirst Nameからとったらしい。Mambaというトランスフォーマの代替技術、性能よさそうで期待。 DeepMindの『GNoME』は「人間の直感を超えた220万の材料を発見し」科学の発展をLLMが明らかに加速することを示している。それって危険な材料も。。。Metaは安全なAIのためのPurple LLamaを発表、Securityや安全ガードを提供。攻撃（red)と防御(blue)が協力するからPrupleなんだって。安全ガード(Llama Guard)はLLMで実装され、つまりLLMにはLLMってこと。MetaはIBM等との企業連合で安全なOSSとしての生成型AI開発を促進、OSSのLLMがますます熱くなる？。Appleから深層学習フレームワークmlx発表、M3ってすごいんだ、LLMでは今一歩プレゼンスの無いApple、CNBCの潜入インタビューでも、LLM競争に進出するかと聞かれて、責任者はモゴモゴはぐらかしてたな、あやしさ満載。NVIDIAのH100、MSとMetaはそれぞれ150k(15万個）を持っていてダントツ、どうもH100が15万個あれば７日でGPT-4が作れる性能らしい。一方AMDも生成AIでNVIDIA H100を上回る性能のGPU「Instinct MI300」を発表。GPUも熱い、われらの牧野先生のMN-coreの登場を期待しますか。ついに欧州AI法が成立、AIの定義がＯＥＣＤのそれに整合したとか基盤モデルに対する規制の明確化がポイント。システミックリスクにどう備えるかが肝。そのAI法の基盤モデルへの規制部分に異議を唱えていた仏Mistralが、満を持して？新しい mixtral-8x7b-32kseqlenを発表、MoE(Mixture of Expert)というアーキテクチャが肝らしい、欧州AI規制に関連してmixtral-8x7b-32kseqlenを念頭に、たった87GのweightでAGIが来るならAI規制必要だよねみたいな意見も見かけた。このほかにも、ローカルLLM向けのOllama とか、言語データなしで大規模ビジョンモデル（LVM）を構築とか、マッキンゼーの日本がDXできないレポート(誤植を発見！)とか、2bit量子化技術QuIP#とか、様々あったが追えてない。。そもそも、１週間分のブクマ整理するだけで２時間かかるんだけど。。。GPT-4にやらせるか。。
 
 - 今月のNature誌は面白かった
-	- https://x.com/ykfrs1217/status/1731287315459490165?s=20
-	- ① 大都市ほど、異なる社会ステータスのひとたちは混じわらない（[https://doi.org/10.1038/s41586-023-06757-3…](https://t.co/tEkbdQOPG3)） 
-	- ② 同じ町（≃学内）の研究者だけで行われた研究の方が、
+	- https://x.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDkyMzMwNzQsLTE4OTA4NDcxMzAsLT
-E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
-MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
-gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
-Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
-MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
-MTg0MDM3OTldfQ==
+eyJoaXN0b3J5IjpbLTM4NTg4NjI3MSwtMTg5MDg0NzEzMCwtMT
+QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
+NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
+w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
+ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
+wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
+ODQwMzc5OV19
 -->
