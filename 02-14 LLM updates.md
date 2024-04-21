@@ -78,6 +78,7 @@
 - Stanford人間中心AI研究所（HAI）から恒例の「AI Index Report 2024」を発行
 	- https://aiindex.stanford.edu/wp-content/uploads/2024/04/HAI_AI-Index-Report-2024.pdf
 	- 2024.4.16 Stanford人間中心AI研究所（HAI）から恒例の「AI Index Report 2024」を発行。昨年から大幅に増量した500ページ超の紙幅にて、AI研究の論文数・特許・先端モデルの開発動向・投資額・経済的インパクト・科学や教育への影響・ガバナンス・社会受容など包括的に報告。
+	- 「AIは人間より高性能だが一部のテストでは人間の方が優秀」「高性能AIの学習コストは数百億円」など
 - HuggingFaceM4/idefics-8b
 	- https://huggingface.co/spaces/HuggingFaceM4/idefics-8b
 	- 明確に商用利用可能なマルチモーダルモデルのデモ
@@ -86,7 +87,8 @@
 	- 「Idefics2」は、テキストと画像を入力し、テキストを出力するマルチモーダルモデルです。画像の質問応答、視覚的コンテンツの説明、複数画像をもとに物語作成、文書からの情報抽出などを実行できます
 - AIの処理能力､1年で25倍　死蔵の｢知能資本｣が競争力に by shi3zさん
 	- https://www.nikkei.com/prime/digital-governance/article/DGXZQOUC092UR0Z00C24A4000000
-	- 
+	- そのような世界で価値を高めるのは、死蔵された書籍や動画などの「知能資本」という。「AI資本主義」という新たな経済の姿を提唱する、
+- 
 
 ## 4/15
 
@@ -3795,10 +3797,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Prompting vs RAGs vs Fine-tuning:
 	- https://x.com/akshay_pachaar/status/1732014719794585684?s=20
 	- よくある４象限の絵、
-	- So finetuning is more about changing structure (behaviour) than knowledge, while it's other way round for RAGs.
-	- You use RAGs when you want to generate outputs grou
+	- So finetuning is more about changing structure
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE0MDM3MzQsLTE0MDY2NDE3MzIsMT
+eyJoaXN0b3J5IjpbLTE2MDg3MzQxMjIsLTE0MDY2NDE3MzIsMT
 Y3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQz
 MDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLD
 E5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5
