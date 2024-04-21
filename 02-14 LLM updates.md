@@ -4,7 +4,10 @@
 
 ## 4/21
 
-- 
+- openbmb/MiniCPM-V-2
+	- MiniCPMのデモが公開
+	- https://huggingface.co/spaces/openbmb/MiniCPM-V-2
+	- 
 
 ## 4/15
 
@@ -3805,13 +3808,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/WIRED/status/1733268732309332398?s=20
 	- https://www.reuters.com/technology/eu-clinches-deal-landmark-ai-act-2023-12-09/?taid=65745dd360152800018aaf1c&utm_campaign=trueAnthem:+Trending+Content&utm_medium=trueAnthem&utm_source=twitter
 	- https://twitter.com/SabrinaKuespert/status/1733311752941515135/photo/1
-	- https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai?xtor=AD-78-[Social_share_buttons]-[twitter]-[en]-[news]-[pressroom]-[artificial-intelligence-act
+	- https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai?xto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5NjI4NDI4LDM1MjkxNTMzOCwtNDY4NT
-IyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAy
-OCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OT
-MyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5
-MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMT
-cxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5
-MTI5NTFdfQ==
+eyJoaXN0b3J5IjpbMTY1NDQ0MjQxOCwzNTI5MTUzMzgsLTQ2OD
+UyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUw
+MjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNT
+kzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQx
+OTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LD
+E3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcx
+OTEyOTUxXX0=
 -->
