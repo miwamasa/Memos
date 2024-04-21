@@ -2,6 +2,10 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 
+## 4/21
+
+- 
+
 ## 4/15
 
 今週も強烈だった。頭がくらくらするが、気のせいか重み転移系が多い気がする。MiniCPM-2B、「μトランスファー」という手法で小規模LLMで最適化されたパラメータを大規模LLMに転移する技術で（２段階トレーニングと呼ばれてる？）、2.4Bパラメータという小さなサイズでMistral-7Bと肩を並べるとか。Command R+も量子化されたものが評価されて、Mac(M3、128G)や、A100(80G)で結構サクサクうごくらしい。特に、 「Command R+ GPTQをローカルLLMとしてvllmでOpenAI API互換サーバ動作」ってのは、A100持っている人はぜひ試してみるべき。 Command R+に影響されたのか、MistralもMixtral-8x22Bをオープンソースとして発表、さっそくこれをベースにexpertsをマージしてmistralにした勝手版Mistral-22Bが出て、双方量子化版が出て、、、とあっという間に広まって何が何だか。LLM同士の機能のベクトル演算であるChat Vector、まねしてMath強化版をつくって、これらを融合した結果、数学能力をある程度維持しつつ、Chat能力も強化することができるという話もあった。LightChatAssistant 2x7BてのもMistral7Bモデルをベースとした日本語対応モデル 2をChatVector手法で対話能力強化してmergekitでMoE化したもの。32kのContextSize対応、iQ3_XXS量子化でVRAM12GBでフルロード可能、RTX3060でも動くとか。JetMoEという新しいアーキテクチャ、MoEであることに加え、MiniCPMに倣った2段階トレーニングの効率が極めて高くそれでいて性能はLlama-7B並みとか。Googleの新しいリカレントアーキテクチャRecurrentGemma、リカレントニューラルネットワークとローカルアテンションを活用してメモリ効率を向上さているらしい、今後もGemmaとパラレルにリリースするのか。GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」てのもあった、Gemma-2Bに追加学習して「Function Calling」を強化したとのこと。それから、今週はGoogle Cloud Next24があったので、最大100万トークンのGemini 1.5 Proのリリースや、DeepMindのImagen 2、TPU v5pの発表、GoogleDocにGeminiの統合とか、geminiでRCカーを制御とか面白い出し物があった。日本語LLM 9種を量子化して回答内容を比較ってのも面白かった、ELYZAは偉いぞ。LangChain の Tool Calling 標準インタフェース ってLLMに依存しないということなので、エージェントとかの活用が加速しそう。QR分解でカルマンフィルターってのは目からうろこだ、一見異なる枝がエレガントにつながる、これぞサイエンスの醍醐味だ。
@@ -3801,13 +3805,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/WIRED/status/1733268732309332398?s=20
 	- https://www.reuters.com/technology/eu-clinches-deal-landmark-ai-act-2023-12-09/?taid=65745dd360152800018aaf1c&utm_campaign=trueAnthem:+Trending+Content&utm_medium=trueAnthem&utm_source=twitter
 	- https://twitter.com/SabrinaKuespert/status/1733311752941515135/photo/1
-	- https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai?xtor=AD-78-[Social_share_buttons]-[twitter]-[en]-[news]-[pressroom]-[artificial-intelligence-act-possible-dea
+	- https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai?xtor=AD-78-[Social_share_buttons]-[twitter]-[en]-[news]-[pressroom]-[artificial-intelligence-act
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MT
-A0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4
-MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMj
-c3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQw
-OTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC
-0xNzY3OTgyMzE2LDY1NDc5NzU1OSwtMTE3MTkxMjk1MSwxNzk4
-MzUwNzk2XX0=
+eyJoaXN0b3J5IjpbNDU5NjI4NDI4LDM1MjkxNTMzOCwtNDY4NT
+IyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAy
+OCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OT
+MyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5
+MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMT
+cxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5
+MTI5NTFdfQ==
 -->
