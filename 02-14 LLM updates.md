@@ -156,6 +156,10 @@
 	- AIガバナンスのオックスフォードハンドブック。49本通読する人出る　by 生貝先生
 - lama-3-8b's in-context learning is unbelievable.
 	- https://www.reddit.com/r/LocalLLaMA/comments/1c7r2jw/wow_llama38bs_incontext_learning_is_unbelievable/
+- いちばんやさしいローカル LLM
+	- https://note.com/schroneko/n/n8b1a5bbc740b#57403f33-7b40-444e-9342-c8bf11458d18
+	- ローカル LLM 初めましての方でも動かせるチュートリアル
+	- Ollama を使えば簡単に LLM をローカル環境で動かせる
 - 
 
 
@@ -3784,16 +3788,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- リファクタリングにLLMを使う
 - "On Bringing Robots Home" Nur Muhammad Mahi Shafiullah et al., New York University
 	- https://arxiv.org/abs/2311.16098
-	- 家庭用ロボットの普及に向けて、一般のロボットを各家庭に適用させるためのフレームワーク『Dobb·E』が開発され、オープンソースで公開
-	- 一般のロボットを家庭用ロボットにアップデートするための一連の流れをカバーするフレームワークが『Dobb·E』
-	- ① 合計109のタスクを実際の家庭で実施し、ロボットの成功率が81％に達した 
-	- ② 調理家電
+	- 家庭用ロボット
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjA2MDYzOSwtMTg5MDg0NzEzMCwtMT
-QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
-NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
-w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
-ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
-wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
-ODQwMzc5OV19
+eyJoaXN0b3J5IjpbOTE3MDM3MTcwLC0xODkwODQ3MTMwLC0xND
+A2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3
+MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LD
+YyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4
+NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC
+0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4
+NDAzNzk5XX0=
 -->
