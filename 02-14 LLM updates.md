@@ -64,6 +64,10 @@
 -  AI科学の何が“哲学”の問題になるのか　～問いマッピングの試み～
 	- https://speakerdeck.com/rmaruy/aike-xue-nohe-ga-zhe-xue-nowen-ti-ninarunoka-wen-imatupingunoshi-mi
 	- まるやまさん
+-  「AI協働時代に研究者はどう生きるか」(4/26)
+	- https://share.hsforms.com/1NFOzzuNBSZq3K20gtPZ30wdxf90
+	- 本イベントでは、研究の自動化・自律化が益々加速していく未来において、研究という営みがどのように変化していくのか、その中で研究者はどう生きるべきか、ということについて議論します。  
+	- AIロボット駆動科学を牽引する一杉太郎さんと、AI科学を俯瞰的に考える丸山隆一さんによる特別パネルディスカッションや、「AI × ◯◯学」をテーマに月額支援型クラウドファンディングに挑戦中の若手研究者8名のプレゼンを通して、「AI協働時代に研究者はどう生きるか」、皆さんも一緒に考えてみませんか？
 - 
 
 ## 4/15
@@ -3800,19 +3804,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://blog.google/technology/ai/google-gemini-ai/
 	- 1. Geminiは3種類のモデル(Ultra, Pro, Nano)が存在。Ultraが最も賢く、Nanoはモバイルデバイス向け。
 	- 2. Ultraは数々のベンチマークでGPT-4超えの性能を発揮 (ﾄﾞﾔｧ)
-	- 3. Geminiはマルチモーダルに強い。動画デモのようにリアルタイム推論も可能。 
-	- 4. 本日よりBardはGemini ProのFine-tuningバージョンを利用して公開する。その他にもGoogle製品への導入を進める。 
-	- 5. Gemini APIは12月13日からGoogle AI Studioを通じて提供される。
-	- https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
-- Google AlphaCode 2 を発表
-	- AlphaCode 2 Technical Report
-	- https://storage.googleap
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDI1MTgwNCwtMTQwNjY0MTczMiwxNj
-cwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMw
-MzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMT
-k4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3Nzkz
-NjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OC
-wxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2
-Nzk4MjMxNl19
+eyJoaXN0b3J5IjpbLTE3ODQ5MDExOTksLTE0MDY2NDE3MzIsMT
+Y3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQz
+MDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLD
+E5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5
+MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OT
+gsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3
+Njc5ODIzMTZdfQ==
 -->
