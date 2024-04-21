@@ -73,7 +73,10 @@
 	- ではそもそも“1bit”とは何が1bitなのか、どうして1bitになるとGPUが不要になるのか。LLMでGPUが不要になるとどんな世界が訪れるのか。オーダーメイドによるAIソリューション「カスタムAI」の開発・提供を行うLaboro.AIの椎橋徹夫CEOに聞いた。
 	- **椎橋：**今回の結果から、LLMの推論において、GPUではなく別の半導体の機構が最適になって、劇的に計算が軽く早くなる可能性が開けてくるんです。
 	- 論文中でも、GroqというLLMの推論に特化したLPU（Language Processing Unit）の登場に触れられています。次世代半導体での復活を狙う日本の産業にとっても、注視していくべきトピックではないかと思います
-- 
+- この前調合した改造Swallow-MX（継続日本語学習+instructionベルトル強化）とMixtral 8x22Bを比較すると短時間使用では差異捉えにくいな それだけ8x22Bの日本語能力アップしてるのは間違いない
+	- https://x.com/AiXsatoshi/status/1778630270486552619
+- Stanford人間中心AI研究所（HAI）から恒例の「AI Index Report 2024」を発行
+	- 
 
 ## 4/15
 
@@ -3794,17 +3797,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Pytorch just released GPT-Fast, an implementation of transformer text generation with everything you need in <1000 lines of code.
 	- https://github.com/pytorch-labs/gpt-fast
 - Windows11にcopilotが降臨？
-	- https://www.microsoft.com/en-us/windows/copilot-ai-features?r=1
-- JWT(Json Web Token)
-	- https://x.com/alexxubyte/status/1732077250626179578?s=20
-- Jellyfish: A Large Language Model for Data Preprocessing
-	- https://arxiv.org/ab
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzMTQ4NDQ1LC0xNDA2NjQxNzMyLDE2Nz
-AzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAz
-NTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOT
-gzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2
-NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LD
-E4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3
-OTgyMzE2XX0=
+eyJoaXN0b3J5IjpbLTE2MDkxOTY1NzcsLTE0MDY2NDE3MzIsMT
+Y3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQz
+MDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLD
+E5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5
+MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OT
+gsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3
+Njc5ODIzMTZdfQ==
 -->
