@@ -49,6 +49,8 @@
 - MaziyarPanahi/WizardLM-2-8x22B-GGUF(Q4_K_M)
 	- https://x.com/alfredplpl/status/1780110628864274576
 	- うーん日本語がやはりイマイチだな
+- WizardLMの作り方
+	- https://x.com/WizardLM_AI/status/1779937307690471834
 - 
 
 ## 4/15
@@ -3808,14 +3810,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- CNBCの、Apple Labへの潜入インタビュー
 	- https://www.youtube.com/watch?v=UdhWvg5mycY
 - GeminiのTechnical reportを日本語で解説している人が登場
-	- https://x.com/bioshok3/status/1732421662619140551?s=20
-	- Gemini Ultraは、MMLU で人間の専門家の性能を達成した最
+	- https://x.com/bioshok
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNT
-I5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5
-MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMT
-ExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0
-MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2Mi
-wxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0
-Nzk3NTU5XX0=
+eyJoaXN0b3J5IjpbLTcwMzQ4NTI3NSwtMTQwNjY0MTczMiwxNj
+cwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMw
+MzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMT
+k4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3Nzkz
+NjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OC
+wxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2
+Nzk4MjMxNl19
 -->
