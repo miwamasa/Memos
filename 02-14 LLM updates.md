@@ -4,6 +4,16 @@
 
 ## 4/21
 
+近年、大規模言語モデル(LLM)の技術進化が加速度を増しています。OpenAIが日本語GPT-4を発表し、翻訳・要約能力が飛躍的に向上したと主張しています。一方、AnthrопicはLLMの合理的推論能力に注目し、関連する講義資料をCaltechで公開するなど、LLMの新たな可能性を探っています。
+
+ハードウェア面でも革新的な試みがあり、専用の半導体「LPU」を用いた「1ビットLLM」が登場しつつあります。これにより、GPUを使わずに劇的な推論高速化が期待できるようになりました。
+
+モデル自体の進化も目覚ましく、MetaがLlama 3を公開し、現時点で最も性能の高いオープンソースLLMとなっています。8B、70Bモデルに加え、数千億パラメータに及ぶ大規模モデルの開発も行われています。さらに、iMatrix量子化によりLlama 3はモデルサイズを圧縮しつつ、日本語での性能を維持できることが分かりました。
+
+学習手法の面でも革新があり、DeepMindの研究により、従来の思い込みを打破する効果がある「Many-shot」多数例示学習の有効性が明らかになりました。また、パラメータ効率の良いFine Tuning手法(PEFT)の研究も進み、LLMの小規模チューニングが現実的になりつつあります。さらに、RAG(Retrieval Augmented Generation)の高度化によって、LLMが複雑な質問にも対応できるようになる試みも進んでいます。
+
+このように、LLMの性能と効率の両面で、めざましい技術革新が次々と生まれており、様々な分野への波及が期待されています
+
 - openbmb/MiniCPM-V-2
 	- MiniCPMのデモが公開
 	- https://huggingface.co/spaces/openbmb/MiniCPM-V-2
@@ -3791,9 +3801,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 12/11
 
-今週はなんといっても、GoogleのGemini。GPT-4越えとか、すぐにBard(英語版）でGemini Proを試せるとか、研究アシスタントして使うデモとか、それからマルチモーダルをフルに生かした子供向けのお遊びデモとかなかなか衝撃的であったが、なんとお遊びデモが紙芝居（部分をつなげてそれらしく見えるようにした、部分部分は本物らしいが）との報道があり、事前の「１月に遅延」との報道と合わせると締め切りに間に合わなかったんだろうけど、前回のBardお披露目での失態といい、脇が甘い。なおGeminiの命名の由来、上位６名の主要貢献者のFirst Nameからとったらしい。Mambaというトランスフォーマの代替技術、性能よさそうで期待。 DeepMindの『GNoME』は「人間の直感を超えた220万の材料を発見し」科学の発展をLLMが明らかに加速することを示している。それって危険な材料も。。。Metaは安全なAIのためのPurple LLamaを発表、Securityや安全ガードを提供。攻撃（red)と防御(blue)が協力するからPrupleなんだって。安全ガード(Llama Guard)はLLMで実装され、つまりLLMにはLLMってこと。MetaはIBM等との企業連合で安全なOSSとしての生成型AI開発を促進、OSSのLLMがますます熱くなる？。Appleから深層学習フレームワークmlx発表、M3ってすごいんだ、LLMでは今一歩プレゼンスの無いApple、CNBCの潜入インタビューでも、LLM競争に進出するかと聞かれて、責任者はモゴモゴはぐらかしてたな、あやしさ満載。NVIDIAのH100、MSとMetaはそれぞれ150k(15万個）を持っていてダントツ、どうもH100が15万個あれば７日でGPT-4が作れる性能らしい。一方AMDも生成AIでNVIDIA H100を上回る性能のGPU「Instinct MI300」を発表。GPUも熱い、われらの牧野先生のMN-coreの登場を期待しますか。ついに欧州AI法が成立、AIの定義がＯＥＣＤのそれに整合したとか基盤モデルに対する規制の明確化がポイント。システミックリスクにどう備えるかが肝。そのAI法の基盤モデルへの規制部分に異議を唱えていた仏Mistralが、満を持して？新しい mixtral-8x7b-32kseqlenを発表、MoE(Mixture of Expert)というアーキテクチャが肝らしい、欧州AI規制に関連してmixtral
+今週はなんといっても、GoogleのGemini。GPT-4越えとか、すぐにBard(英語版）でGemini Proを試せるとか、研究アシスタントして使うデモとか、それからマルチモーダルをフルに生かした子供向けのお遊びデモとかなかなか衝撃的であったが、なんとお遊びデモが紙芝居（部分をつなげてそれらしく見えるようにした、部分部分は本物らしいが）との報道があり、事前の「１月に遅延」との報道と合わせると締め切りに間に合わなかったんだろうけど、前回のBardお披露目での失態といい、脇が甘い。なおGeminiの命名の由来、上位６名の主要貢献者のFirst Nameからとったらしい。Mambaというトランスフォーマの代替技術、性能よさそうで期待。 DeepMindの『GNoME』は「人間の直感を超えた220万の材料を発見し」科学の発展を
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTEwNTQ0NywtMTg5MDg0NzEzMCwtMT
+eyJoaXN0b3J5IjpbLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMT
 QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
 NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
 w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
