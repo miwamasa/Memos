@@ -144,7 +144,12 @@
 - 小さい計算コストでスマートにLLMをチューニング!-Hugging Face PEFT入門(前編)
 	- https://zenn.dev/elith/articles/3ec1d319c8a40f
 	- パラメータ効率の良いFine Tuning手法(Parameter-Efficient Fine Tuning、 PEFT)について、サーベイを行いました。
-- 
+- With the latest MLX, 4-bit Llama 3 8B runs nicely on an 8GB M2 mini.
+	- https://x.com/awnihannun/status/1781345824611680596
+	- 512 tokens at 18.8 toks-per-sec
+- cl-nagoya/auto-wiki-qa
+	- https://huggingface.co/datasets/cl-nagoya/auto-wiki-qa
+	- 
 
 
 ## 4/15
@@ -3784,17 +3789,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - MEDITRON-70B: Scaling Medical Pretraining for Large Language Models
 	- https://arxiv.org/abs/2311.16079
 	- llama2を医療に特化してチューニングしたLLM
-	- Compared to closed-source LLMs, MEDITRON-70B outperforms GPT-3.5 and Med-PaLM and is within 5% of GPT-4 and 10% of Med-PaLM-2.
-	- webuiで試せる！
-	- https://github.com/epfLLM/meditron/blob/main/deployment/README.md#serving-with-web-gui
-- RAG用途に使える、Wikipedia 日本語の embeddings とベクトル検索用の faiss index を作った
-	- https://se
+	- Compared to closed-source LLMs, MEDITRON-70B outperforms GPT-3.5 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg5MDEyMDcsLTE4OTA4NDcxMzAsLT
-E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
-MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
-gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
-Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
-MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
-MTg0MDM3OTldfQ==
+eyJoaXN0b3J5IjpbMjA1NzAzODUxOSwtMTg5MDg0NzEzMCwtMT
+QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
+NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
+w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
+ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
+wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
+ODQwMzc5OV19
 -->
