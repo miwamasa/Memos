@@ -51,7 +51,10 @@
 	- うーん日本語がやはりイマイチだな
 - WizardLMの作り方
 	- https://x.com/WizardLM_AI/status/1779937307690471834
-- 
+- Introducing the Batch API: save costs and get higher rate limits on async tasks
+	- https://platform.openai.com/docs/api-reference/batch
+- Introducing Idefics 2
+	- 
 
 ## 4/15
 
@@ -3806,17 +3809,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 3～5年は常に必要（永遠に達成できない）との記事にLecan先生の反応
 - Apple製品Mシリーズに最適化された深層学習フレームワークmlx
 	- https://x.com/goto_yuta_/status/1732287555599741103?s=20
-	-  Macに搭載されてるGPU(MPS)がより有効活用されてローカルLLMの高速推論が可能になったら嬉しいな。
-	- CNBCの、Apple Labへの潜入インタビュー
-	- https://www.youtube.com/watch?v=UdhWvg5mycY
-- GeminiのTechnical reportを日本語で解説している人が登場
-	- https://x.com/bioshok
+	-  Macに搭載されてるGPU(MPS)がより有効活用されてローカルL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzQ4NTI3NSwtMTQwNjY0MTczMiwxNj
-cwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMw
-MzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMT
-k4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3Nzkz
-NjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OC
-wxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2
-Nzk4MjMxNl19
+eyJoaXN0b3J5IjpbNTQ3ODg2NDE2LC0xNDA2NjQxNzMyLDE2Nz
+AzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAz
+NTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOT
+gzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2
+NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LD
+E4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3
+OTgyMzE2XX0=
 -->
