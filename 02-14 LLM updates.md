@@ -4,11 +4,11 @@
 
 ## 4/21
 
-今週は、メタからllama3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。早速、量子化、MoE化、ファイチューニング手法が公開され、MXで8GB M2 miniでの動作確認、ollamaの対応、さらにはgroqに乗っかってデモサイトでLlama3-70Bが300t/sの超絶爆速推論を見せた。RAGでのllama3の利用例も、LangChainから紹介があったが、CommandR＋もllama3も、プロンプトに与えるテンプレートが独特なので、LLMをネイティブに使う人は要注意だ。1bitのLLMも、shi3zさんの自作評価や、椎橋さんによるGPUではないオーダーメイドによるAIソリューション「カスタムAI」の可能性など、いい記事がでてきた。ChatVectorによるLLM性能向上も、先週に引き続き、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。作ってみたら性能が高かったというJapanese-Starling-ChatV-7B-GGUFなども出たりと、LLMの能力の足し算引き算しつつ性能を評価する、一段メタな世界が開けた。PFNの丸山さんが紹介された、LLMをつかって言葉だけで、線形回帰をさせるという論文、どんなモデルを内部に持っているんだという意味で面白い。 Cambridge大学のU. Anwar, D. Krueger氏らによる、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文はすごい、AIガバナンスのオックスフォードハンドブックもあり、UKではアライメントとガバナンスの大きな拠点になっているのか。
+今週は、メタからllama3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。早速、量子化、MoE化、ファイチューニング手法が公開され、MXで8GB M2 miniでの動作確認、ollamaの対応、さらにはgroqに乗っかってデモサイトでLlama3-70Bが300t/sの超絶爆速推論を見せた。RAGでのllama3の利用例も、LangChainから紹介があったが、CommandR＋もllama3も、プロンプトに与えるテンプレートが独特なので、LLMをネイティブに使う人は要注意だ。1bitのLLMも、shi3zさんの自作評価や、椎橋さんによるGPUではないオーダーメイドによるAIソリューション「カスタムAI」の可能性など、いい記事がでてきた。ChatVectorによるLLM性能向上も、先週に引き続き、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。作ってみたら性能が高かったというJapanese-Starling-ChatV-7B-GGUFなども出たりと、LLMの能力の足し算引き算しつつ性能を評価する、一段メタな世界が開けた。PFNの丸山さんが紹介された、LLMをつかって言葉だけで、線形回帰をさせるという論文、どんなモデルを内部に持っているんだという意味で面白い。 Cambridge大学のU. Anwar, D. Krueger氏らによる、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文はすごい、AIガバナンスのオックスフォードハンドブックもあり、UKではアライメントとガバナンスの大きな拠点になっているのか。マイクロソフトから、WizardLM-2 の7bと8x22bが発表、エージェント機能も持っているとか、嵐の予感。Qwen1.5-7B-Chat-GGUFもこそっと出た、来週あたりQwen1.5ベースの日本語LLMが出てくるのでは。
 
+DeepMindの「Many-shot」多数例示学習の有効性や、
 
-
-マイクロソフトから、WizardLM-2 の7bと8x22bが発表、エージェント機能も持っているとか、嵐の予感。Qwen1.5-7B-Chat-GGUFもこそっと出た、来週あたりQwen1.5ベースの日本語LLMが出てくるのでは。
+丸山隆一さん
 
 近年、大規模言語モデル(LLM)の技術進化が加速度を増しています。OpenAIが日本語GPT-4を発表し、翻訳・要約能力が飛躍的に向上したと主張しています。一方、AnthrопicはLLMの合理的推論能力に注目し、関連する講義資料をCaltechで公開するなど、LLMの新たな可能性を探っています。
 
@@ -3784,13 +3784,12 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://zenn.dev/s_egami/articles/4ec2e0de59ff4d
 - "Pixel Aligned Language Models"
 	- https://arxiv.org/abs/2312.09237
-	- Googleの研究者らは、画像をピクセルレベルで言語化する能力をもつ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTE2MTAyNjQsLTkyMjI5NDA1NSwtOT
-U2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2
-NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMS
-wtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0
-MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NT
-A1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3
-NjQ5NDA5OThdfQ==
+eyJoaXN0b3J5IjpbMTYwNjE5NDQ5MywtOTIyMjk0MDU1LC05NT
+Y0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0
+MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC
+0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQy
+MDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MD
+UsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2
+NDk0MDk5OF19
 -->
