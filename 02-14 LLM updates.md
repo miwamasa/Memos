@@ -62,6 +62,9 @@
 - WizardLMの作り方
 	- https://x.com/WizardLM_AI/status/1779937307690471834
 	- 新しいWizardLM-2 7BのサイズでMT-BenchがClaude-2より高いってすごい by はち
+- WizardLM: Empowering Large Language Models to Follow Complex Instructions
+	- https://arxiv.org/pdf/2304.12244.pdf
+	- Evolve Instruct方法を使用して、LLM自体が指示データを生成する新しいファインチューニング
 - Introducing the Batch API: save costs and get higher rate limits on async tasks
 	- https://platform.openai.com/docs/api-reference/batch
 - Introducing Idefics 2
@@ -3760,11 +3763,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/_oshizo_/status/1735282188546089332?s=20
 	- context全体の長さ（横軸）と、正解になるキーワードの位置（縦軸）を変えながら、出力に正解の文字列を含
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLT
-kyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4
-NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMz
-gsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5
-ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3Nj
-cwNywtNTkzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2Niwy
-MzA5MTQxOTNdfQ==
+eyJoaXN0b3J5IjpbMTM3ODU0MTc1OSwtMTk1MDMxNjgzMiwtMT
+E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
+OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
+E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
+NjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MD
+kzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcyMywx
+MzMxNDQxODY2XX0=
 -->
