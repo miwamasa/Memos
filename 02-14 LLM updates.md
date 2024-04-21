@@ -108,6 +108,12 @@
 	- Mixtral-8x22B Instract きたわ〜
 - Build RAG, Function Calling, and Agents with llama_index and  MistralAI8x22b 
 	- https://docs.llamaindex.ai/en/latest/examples/cookbooks/mistralai/
+- 24/04/18 ローカルでCommand RやCommand R+を動かす時の作法
+	- https://six-loganberry-ba7.notion.site/24-04-18-Command-R-Command-R-ff8455f1dba543168d5a7768705e0043
+	- 実はCommand Rはプロンプトにチャットテンプレートを使用しないと正しく回答が返ってこないらしい
+	- <|START_OF_TURN_TOKEN|><|USER_TOKEN|>Who are you?<|END_OF_TURN_TOKEN|><|START_OF_TURN_TOKEN|><|CHATBOT_TOKEN|>
+	- チャットテンプレートのあるなしで回答のクオリティは天と地ほど違ってくるから注意しよう。
+- 
 
 ## 4/15
 
@@ -3785,19 +3791,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 方法
 		- ① GNNを用いて素材の特性を構造や組成に基づいてモデル化
 		-  ② 材料発見の効率が大幅に向上し、人間の直感を超えた220万の構造が発見された 
-		- ③ 結晶構造内の原子を置換する手法やランダムな探索を含む、多様な候補生成アプローチを確立
-	- 結果
-		- ① 220万の新たな安定構造を特定し、それらの多くは既存の化学的直感を超えていた 
-		- ② 発見された安定構造のうち736は、独立した実験で実現されている （シミュレーション上での検証ではなく、実験室で物理的に材料を作成し、実証できた）
-- NVIDIAのH100をどこに出荷したかの図。MS,Metaが圧倒的に多い、GPT4を7日で訓練できる規模？
-	- https://x.com/Lauramaywendel/status/1731698695853244849?s=20
-	- GPT4 was presumably trained for around 90 days using 25k A100 GPUs. Microsoft and Meta having rep
+		- ③ 結晶構造内の原子を置換する手法やランダムな探索を含む、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTE4MjQ0MSwtMTg5MDg0NzEzMCwtMT
-QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
-NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
-w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
-ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
-wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
-ODQwMzc5OV19
+eyJoaXN0b3J5IjpbNzcxNTU5Njc3LC0xODkwODQ3MTMwLC0xND
+A2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3
+MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LD
+YyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4
+NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC
+0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4
+NDAzNzk5XX0=
 -->
