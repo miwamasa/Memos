@@ -27,7 +27,8 @@
 	- This short course is the perfect beginner sequence for anyone looking to get an overview of agent implementations, how to equip them with tools to perform tasks like advanced QA/RAG or anything else, and also some neat extensions (tool retrieval, step-wise execution).
 - From Words to Numbers: Your Large Language Model Is Secretly A Capable Regressor When Given In-Context Examples
 	- https://arxiv.org/pdf/2404.07544.pdf
-	- 
+	- LLMに、「この入力の場合出力はこれ」という例示を入れて「ではこの入力の場合の出力は？」と推論させると線形回帰・非線形回帰ができてしまう、という論文。
+- 
 
 ## 4/15
 
@@ -3803,11 +3804,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://ai.meta.com/blog/purple-llama-open-trust-safety-generative-ai/?utm_source=twitter&utm_medium=organic_social&utm_campaign=llama&utm_content=image
 	- CyberSec Evalとか、Llama Guardが最初に出る
 	- なんでpurpleかというと攻撃側（赤）と、防御側（青）が協力して構築したから
-	- attack (red team) and defensive (blue team) postures.
-	- Colabで試せるらしい
-	- https://colab.research.goo
+	- attack (red team) an
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDQ1OTcwMywzNTI5MTUzMzgsLTQ2OD
+eyJoaXN0b3J5IjpbMjEzODg0NzkwOCwzNTI5MTUzMzgsLTQ2OD
 UyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUw
 MjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNT
 kzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQx
