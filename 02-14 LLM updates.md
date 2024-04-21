@@ -96,6 +96,9 @@
 	- https://zenn.dev/knowledgesense/articles/508187f1c616e3
 	- 「Chain-of-Abstraction (CoA) Reasoning」
 	- CoAが従来のRAGよりも力を発揮できるシーンは、ユーザーの質問が「複数の知識を組み合わせなければ正答できない」ような質問だった場合です。通常のRAGでは1回のドキュメント検索で回答に使えるドキュメントを見つけようとしますが、CoAでは、問題（ユーザーからの質問）を複数の問題に分解し、複数回のドキュメント検索を行った上で総合的な回答を生成できます
+- Qwen/Qwen1.5-7B-Chat-GGUF
+	- https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF
+	- 7 billion parameters coding chat model (~5GB RAM needed)
 - 
 
 ## 4/15
@@ -3792,14 +3795,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://huggingface.co/papers/2312.02116
 	- 本当にトークンが離散でなくて、無限なのだろうか？
 - ファインチューニングは不要、プロンプトだけでどうにかなる？
-	- https://x.com/IntuitMachine/status/1732089266883141856?s=20
-	- A recent research paper provides compelling evidence that the extensive fine-tuning used to "align" la
+	- https://x.com/IntuitMachi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjEyODUzMTAsLTE4OTA4NDcxMzAsLT
-E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
-MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
-gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
-Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
-MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
-MTg0MDM3OTldfQ==
+eyJoaXN0b3J5IjpbMjA2ODY5NDIzNiwtMTg5MDg0NzEzMCwtMT
+QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
+NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
+w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
+ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
+wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
+ODQwMzc5OV19
 -->
