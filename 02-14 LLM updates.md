@@ -4,6 +4,8 @@
 
 ## 4/21
 
+今週は、メタからllma3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。llama3はPyTorchの新しいファインチューニング機能tochtuneをつかって
+
 近年、大規模言語モデル(LLM)の技術進化が加速度を増しています。OpenAIが日本語GPT-4を発表し、翻訳・要約能力が飛躍的に向上したと主張しています。一方、AnthrопicはLLMの合理的推論能力に注目し、関連する講義資料をCaltechで公開するなど、LLMの新たな可能性を探っています。
 
 ハードウェア面でも革新的な試みがあり、専用の半導体「LPU」を用いた「1ビットLLM」が登場しつつあります。これにより、GPUを使わずに劇的な推論高速化が期待できるようになりました。
@@ -12,7 +14,15 @@
 
 学習手法の面でも革新があり、DeepMindの研究により、従来の思い込みを打破する効果がある「Many-shot」多数例示学習の有効性が明らかになりました。また、パラメータ効率の良いFine Tuning手法(PEFT)の研究も進み、LLMの小規模チューニングが現実的になりつつあります。さらに、RAG(Retrieval Augmented Generation)の高度化によって、LLMが複雑な質問にも対応できるようになる試みも進んでいます。
 
-このように、LLMの性能と効率の両面で、めざましい技術革新が次々と生まれており、様々な分野への波及が期待されています
+最初に、MiniCPM-V-2のデモが公開されました。これは、Hugging Face上で公開されており、新しいモデルの可能性を示唆しています。
+
+OpenAI Japanが設立され、日本語GPT-4の発表が行われました。これにより、日本語テキストの処理性能が向上し、従来のモデルよりも高速に動作することが期待されます。
+
+ChatNTQ 7BとLightChatAssistant 2x7Bの日本語性能が測定されました。LightChatAssistantは、Mistral 7B v0.2 InstructからChatVectorを抽出し、性能を向上させています。
+
+Heron-Benchでは、日本語のVision＆Languageモデルの性能評価ベンチマークが公開され、Turingで開発されたheronを含むモデルの比較が行われました。
+
+Caltechからは、LLMs for reasoningに関する講義スライドが公開され、この分野での研究が進んでいます。
 
 - openbmb/MiniCPM-V-2
 	- MiniCPMのデモが公開
@@ -3792,22 +3802,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Modelサイズは24Bになります
 - NeurIPS Large Language Model Efficiency Challenge:  1 LLM + 1GPU + 1Day
 	- https://llm-efficiency-challenge.github.io/index
-	- OSS LLMモデルを元に限られた資源・時間でファインチューンするというコンペ
-	- 重要なのはデータセット
-	- 複数のデータセットからデータをサンプリングして上質なデータセットを構成し訓練するのが鍵
-- 
-	
-
-
-## 12/11
-
-今週はなんといっても、GoogleのGemini。GPT-4越えとか、すぐにBard(英語版）でGemini Proを試せるとか、研究アシスタントして使うデモとか、それからマルチモーダルをフルに生かした子供向けのお遊びデモとかなかなか衝撃的であったが、なんとお遊びデモが紙芝居（部分をつなげてそれらしく見えるようにした、部分部分は本物らしいが）との報道があり、事前の「１月に遅延」との報道と合わせると締め切りに間に合わなかったんだろうけど、前回のBardお披露目での失態といい、脇が甘い。なおGeminiの命名の由来、上位６名の主要貢献者のFirst Nameからとったらしい。Mambaというトランスフォーマの代替技術、性能よさそうで期待。 DeepMindの『GNoME』は「人間の直感を超えた220万の材料を発見し」科学の発展を
+	- OSS LLMモデルを元に限
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMT
-QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
-NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
-w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
-ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
-wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
-ODQwMzc5OV19
+eyJoaXN0b3J5IjpbMTU5MjU5NjI2NCwtODQ2ODg5OTU2LC0xOD
+kwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1
+MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MT
+EsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMw
+NzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4Nj
+YsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYw
+MDAyODg2N119
 -->
