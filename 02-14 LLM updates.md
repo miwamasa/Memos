@@ -149,7 +149,11 @@
 	- 512 tokens at 18.8 toks-per-sec
 - cl-nagoya/auto-wiki-qa
 	- https://huggingface.co/datasets/cl-nagoya/auto-wiki-qa
-	- 
+	- 東工大のSwallow-MXを用いてWikipediaのテキストに基づく質問と回答を生成させたデータセット AutoWikiQA をHuggingFace上に公開しました！
+	- 約240万事例と日本語QAデータセットの中でも最大規模かつ高多様性なデータセットです
+- The Oxford Handbook of AI Governance
+	- https://global.oup.com/academic/product/the-oxford-handbook-of-ai-governance-9780197579329?cc=jp&lang=en&
+	- AIガバナンスのオックスフォードハンドブック。49本通読する人出る　ｂ
 
 
 ## 4/15
@@ -3783,15 +3787,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ② 調理家電を閉める／クッションをひっくり返すタスクは100％、6軸で物を移動するタスクは56% 
 	- ③ データ収集時にカバーされていた照明や影の条件下ではロボットは安定して稼働する
 - Introducing Llama Datasets 
-	- https://blog.llamaindex.ai/introducing-llama-datasets-aadb9994ad9e
-	- llamaindexより、RAG向けの評価用データセットの公開
-	- history of alexanetとか、origin of covid19などのpdfを含む、多分正解値は？
-- MEDITRON-70B: Scaling Medical Pretraining for Large Language Models
-	- https://arxiv.org/abs/2311.16079
-	- llama2を医療に特化してチューニングしたLLM
-	- Compared to closed-source LLMs, MEDITRON-70B outperforms GPT-3.5 
+	- https://blog.llamaindex.ai/introducing-llama-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzAzODUxOSwtMTg5MDg0NzEzMCwtMT
+eyJoaXN0b3J5IjpbMTQxOTk0NTQwNywtMTg5MDg0NzEzMCwtMT
 QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
 NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
 w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
