@@ -4,7 +4,7 @@
 
 ## 4/21
 
-今週は、メタからllama3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。ChatVectorによるLLM性能向上も、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力をためすきじｇ
+今週は、メタからllama3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。ChatVectorによるLLM性能向上も、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。LLMの能力の足し算引き算しつつ性能を評価する、一段メタな世界が開けた。PFNの丸山さんが紹介された
 
 近年、大規模言語モデル(LLM)の技術進化が加速度を増しています。OpenAIが日本語GPT-4を発表し、翻訳・要約能力が飛躍的に向上したと主張しています。一方、AnthrопicはLLMの合理的推論能力に注目し、関連する講義資料をCaltechで公開するなど、LLMの新たな可能性を探っています。
 
@@ -3796,15 +3796,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 7.  8. 埋め込みの生成
 -  Voyager: An Open-Ended Embodied Agent with Large Language Models
 	- https://arxiv.org/abs/2305.16291
-	- LLMをのせたエージェントにマインクラフトをさせた研究，進捗の解除具合やマップの探索範囲の広さをみていて，滅茶苦茶面白いなｗ　プレイ風景をみてみたい
-- mmnga/Mixtral-Fusion-4x7B-Instruct-v0.1
-	-
+	- LLMをのせたエージェントにマインクラフトをさせた研究，進捗の解除具合やマップの探索範囲の広さをみていて，滅茶苦茶面白い
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM3OTk2NDksLTk1NjQzMjYyNywtOD
-Q2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAz
-NTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNT
-ksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgz
-NjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2Nz
-IzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4
-OTcxNjE2NjJdfQ==
+eyJoaXN0b3J5IjpbMjA4ODE4NTAwMiwtOTU2NDMyNjI3LC04ND
+Y4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1
+NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OS
+wtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2
+NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5MzY3Mj
+MsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OTgsMTg5
+NzE2MTY2Ml19
 -->
