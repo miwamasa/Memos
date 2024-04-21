@@ -153,7 +153,10 @@
 	- 約240万事例と日本語QAデータセットの中でも最大規模かつ高多様性なデータセットです
 - The Oxford Handbook of AI Governance
 	- https://global.oup.com/academic/product/the-oxford-handbook-of-ai-governance-9780197579329?cc=jp&lang=en&
-	- AIガバナンスのオックスフォードハンドブック。49本通読する人出る　ｂ
+	- AIガバナンスのオックスフォードハンドブック。49本通読する人出る　by 生貝先生
+- lama-3-8b's in-context learning is unbelievable.
+	- https://www.reddit.com/r/LocalLLaMA/comments/1c7r2jw/wow_llama38bs_incontext_learning_is_unbelievable/
+- 
 
 
 ## 4/15
@@ -3784,12 +3787,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 家庭用ロボットの普及に向けて、一般のロボットを各家庭に適用させるためのフレームワーク『Dobb·E』が開発され、オープンソースで公開
 	- 一般のロボットを家庭用ロボットにアップデートするための一連の流れをカバーするフレームワークが『Dobb·E』
 	- ① 合計109のタスクを実際の家庭で実施し、ロボットの成功率が81％に達した 
-	- ② 調理家電を閉める／クッションをひっくり返すタスクは100％、6軸で物を移動するタスクは56% 
-	- ③ データ収集時にカバーされていた照明や影の条件下ではロボットは安定して稼働する
-- Introducing Llama Datasets 
-	- https://blog.llamaindex.ai/introducing-llama-
+	- ② 調理家電
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTk0NTQwNywtMTg5MDg0NzEzMCwtMT
+eyJoaXN0b3J5IjpbMTYyNjA2MDYzOSwtMTg5MDg0NzEzMCwtMT
 QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
 NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
 w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
