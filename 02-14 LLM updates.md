@@ -25,7 +25,9 @@
 - an introduction to agents and tools
 	- https://x.com/llama_index/status/1779898403239125198
 	- This short course is the perfect beginner sequence for anyone looking to get an overview of agent implementations, how to equip them with tools to perform tasks like advanced QA/RAG or anything else, and also some neat extensions (tool retrieval, step-wise execution).
-- 
+- From Words to Numbers: Your Large Language Model Is Secretly A Capable Regressor When Given In-Context Examples
+	- https://arxiv.org/pdf/2404.07544.pdf
+	- 
 
 ## 4/15
 
@@ -3803,15 +3805,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- なんでpurpleかというと攻撃側（赤）と、防御側（青）が協力して構築したから
 	- attack (red team) and defensive (blue team) postures.
 	- Colabで試せるらしい
-	- https://colab.research.google.com/drive/16s0tlCSEDtczjPzdIK3jq0Le5LlnSYGf?usp=sharing
-- Evaluating and Mitigating Discrimination in Language Model Decisions
-	- https://www.anthropi
+	- https://colab.research.goo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3MDIxODcxLDM1MjkxNTMzOCwtNDY4NT
-IyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAy
-OCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OT
-MyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5
-MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMT
-cxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5
-MTI5NTFdfQ==
+eyJoaXN0b3J5IjpbLTQwMDQ1OTcwMywzNTI5MTUzMzgsLTQ2OD
+UyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUw
+MjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNT
+kzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQx
+OTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LD
+E3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcx
+OTEyOTUxXX0=
 -->
