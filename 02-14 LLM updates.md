@@ -101,6 +101,10 @@
 	- 7 billion parameters coding chat model (~5GB RAM needed)
 -  1BitLLMの実力を見る by shi3zさん
 	- https://note.com/shi3zblog/n/ndd1f27fff31c?sub_rt=share_pb
+	- 普通のHuggingFaceのお作法とはかなり違うので注意が必要。  まず、このHuggingFaceリポジトリを丸ごとgit cloneする
+	- これをやらずにいつもの凡例みたいにいきなりpipelineに読み込もうとすると謎のエラーが出て悩まされることになる。海外でも悩んでる人が何人もいるみたいだ。まあ個人的には「こんな説明で誰がわかる?」と思うが。
+- mistralai/Mixtral-8x22B-Instruct-v0.1
+	- https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1
 	- 
 
 ## 4/15
@@ -3787,16 +3791,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/Lauramaywendel/status/1731698695853244849?s=20
 	- GPT4 was presumably trained for around 90 days using 25k A100 GPUs. Microsoft and Meta having reportedly bought 150k H100 GPUs each this year, can now train a GPT4 class model in only 7 days from scratch
 - Google Geminiの提供を１月まで延期
-	- https://x.com/rowancheung/status/1731531903193219260?s=20
-	- いくつかの分野ではGPT-4を上回るも、英語以外での性能が出ない。
-	- これって、後から続くイベントの予兆かしらん、
-- ある物理学の本で、ギリシャ語の説明表でゼータのところが、、
-	- https://x.com/yori_Alphard/status/1731663363737026586?s=20
-	- "Zガンダム"になっている。。
-- GIVT: Generative Infinite-Vocabulary Transformers
-	- https://huggingface.co/papers/2312.0211
+	- https://x.com/rowancheung/status/17315319
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM3MDA0NDIsLTE4OTA4NDcxMzAsLT
+eyJoaXN0b3J5IjpbLTEwNDQ3ODA3MzMsLTE4OTA4NDcxMzAsLT
 E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
 MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
 gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
