@@ -4,7 +4,7 @@
 
 ## 4/21
 
-今週は、メタからllama3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。早速、
+今週は、メタからllama3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。早速、量子化、MoE化、ファイチューニング手法が公開され、MXでの8GB M2 miniでの動作確認、ollamaの対応、さらにはgroqに乗っかって、
 
 ChatVectorによるLLM性能向上も、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。LLMの能力の足し算引き算しつつ性能を評価する、一段メタな世界が開けた。PFNの丸山さんが紹介された、LLMをつかって言葉だけで、線形回帰をさせるという論文、どんなモデルを内部に持っているんだという意味で面白い。 Cambridge大学のU. Anwar, D. Krueger氏らによる、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文はすごい、
 
@@ -3792,13 +3792,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Google Colab で Gemini Pro をもっと試す by npakaさん
 	- https://note.com/npaka/n/n1c368639cada?sub_rt=share_h
 	- 1.  2. モデル一覧の表示
-	- 2.  3. 質問応答
-	- 3.  4. ストリーミング
-	- 4.  5. チャット
-	- 5.  6. 画像からの質問応答
-	- 6.  7
+	- 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjgyODg3NDksLTkyMjI5NDA1NSwtOT
+eyJoaXN0b3J5IjpbLTIwMzM5ODY0ODIsLTkyMjI5NDA1NSwtOT
 U2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2
 NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMS
 wtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0
