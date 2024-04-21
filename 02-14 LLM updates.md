@@ -94,7 +94,9 @@
 	- GPT-3.5/4を用いて、人が書いた文章をもとにFACTを抽出したり要約生成をしたりしながらファクトチェックタスクに特化した高品質な合成データを生成し、それを用いて小さなモデルを学習することで、GPT-4と同等の性能で400分の1以下のコストでファクトチェックができるようになったそうです。
 - RAGを複雑な質問に強くする手法「CoA」について
 	- https://zenn.dev/knowledgesense/articles/508187f1c616e3
-	- 
+	- 「Chain-of-Abstraction (CoA) Reasoning」
+	- CoAが従来のRAGよりも力を発揮できるシーンは、ユーザーの質問が「複数の知識を組み合わせなければ正答できない」ような質問だった場合です。通常のRAGでは1回のドキュメント検索で回答に使えるドキュメントを見つけようとしますが、CoAでは、問題（ユーザーからの質問）を複数の問題に分解し、複数回のドキュメント検索を行った上で総合的な回答を生成できます
+- 
 
 ## 4/15
 
@@ -3791,17 +3793,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 本当にトークンが離散でなくて、無限なのだろうか？
 - ファインチューニングは不要、プロンプトだけでどうにかなる？
 	- https://x.com/IntuitMachine/status/1732089266883141856?s=20
-	- A recent research paper provides compelling evidence that the extensive fine-tuning used to "align" large language models into helpful assistants may be largely unnecessary.
-	- Allenインスティテュートの仕業か、https://allenai.org/
-- llamaindexでもマルチモーダルが盛り上がっている、Webinerなど
-	- https://x.com/llama_index/status/1732081850246627547?s=20
-	- 
+	- A recent research paper provides compelling evidence that the extensive fine-tuning used to "align" la
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3MjczODMyLC0xODkwODQ3MTMwLC0xND
-A2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3
-MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LD
-YyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4
-NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC
-0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4
-NDAzNzk5XX0=
+eyJoaXN0b3J5IjpbLTEwNjEyODUzMTAsLTE4OTA4NDcxMzAsLT
+E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
+MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
+gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
+Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
+MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
+MTg0MDM3OTldfQ==
 -->
