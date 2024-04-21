@@ -8,7 +8,8 @@
 
 
 
-ChatVectorによるLLM性能向上も、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。LLMの能力の足し算引き算しつつ性能を評価する、一段メタな世界が開けた。PFNの丸山さんが紹介された、LLMをつかって言葉だけで、線形回帰をさせるという論文、どんなモデルを内部に持っているんだという意味で面白い。 Cambridge大学のU. Anwar, D. Krueger氏らによる、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文はすごい、
+ChatVectorによるLLM性能向上も、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。Japanese-Starling-ChatV-7B-GGUFなども出たりと、LLMの能力の足し算引き算しつつ性能を評価する、一段メタな世界が開けた。PFNの丸山さんが紹介された、LLMをつかって言葉だけで、線形回帰をさせるという論文、どんなモデルを内部に持っているんだという意味で面白い。 Cambridge大学のU. Anwar, D. Krueger氏らによる、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文はすごい、AIガバナンスのオックスフォードハンドブックもあり、UKではアライメントとガバナンスの大きな拠点になっているのか。
+
 
 CommandR＋もllama3も、プロンプトに与えるテンプレートが独特なので、LLMをネイティブに使う人は要注意だ。
 
@@ -3791,14 +3792,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Googleの研究者らは、画像をピクセルレベルで言語化する能力をもつLLM『PALM』開発しました
 	- 実験の結果、「人が理解しやすい」内容で正確かつ詳細に画像を説明することができると確認されました
 -  日本の古典和歌を埋め込みベクトルで分析する
-	- https://note.com/yhkondo/n/nd321604729cd?sub_rt=share_pw
-	- OpenAIの埋め込みベクトルを使って、『古今集』『万葉集』『和漢朗詠集』等を分析し、いわゆる「花鳥風月」という概念がどこから生まれてきたかを探求したものです。AIの持つ力を感じていた
+	- https://note.com/yhkondo/n/nd321604729cd?sub_rt=share_p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTU0MjM2NiwtOTIyMjk0MDU1LC05NT
-Y0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0
-MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC
-0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQy
-MDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MD
-UsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2
-NDk0MDk5OF19
+eyJoaXN0b3J5IjpbLTIxMjExMDU4OTAsLTkyMjI5NDA1NSwtOT
+U2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2
+NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMS
+wtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0
+MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NT
+A1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3
+NjQ5NDA5OThdfQ==
 -->
