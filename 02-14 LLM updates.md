@@ -113,7 +113,11 @@
 	- 実はCommand Rはプロンプトにチャットテンプレートを使用しないと正しく回答が返ってこないらしい
 	- <|START_OF_TURN_TOKEN|><|USER_TOKEN|>Who are you?<|END_OF_TURN_TOKEN|><|START_OF_TURN_TOKEN|><|CHATBOT_TOKEN|>
 	- チャットテンプレートのあるなしで回答のクオリティは天と地ほど違ってくるから注意しよう。
-- 
+- Introducing Meta Llama 3:
+	- https://ai.meta.com/blog/meta-llama-3/?utm_source=twitter&utm_medium=organic_social&utm_content=video&utm_campaign=llama3
+	- the most capable openly available LLM to date.
+	- Llama3のリリース第一弾は8Bモデルと70Bモデル！それぞれベースモデルと指示チューニング版があり！HuggingFaceからＤＬできる！8BモデルはベンチでMistral-7BやGemma-7Bを撃墜！70BモデルはGeminiPro1.5やClaude3Sonnetを撃墜！人間による評価でもSonnet、MistralMedium、GPT-3.5に勝利！
+- Context長は8kTokenでパラメータ数は80億と700億パラメータ。なんと4000億パラメータを超えるモデルも学習中！700億のほうは現在のフロンティアModelに性能的に肉薄しつつある状態。
 
 ## 4/15
 
@@ -3780,24 +3784,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - マルチモーダルLLMの応用動向の論文調査
 	- https://speakerdeck.com/masatoto/marutimodarullmnoying-yong-dong-xiang
 - 生成文法研究者の中で「言語の本質」（今井先生）の評判が良くなかった
-	- https://x.com/kkling51/status/1731543891348996466?s=20
-	- (i) アブダクション推論は適切な推論ではないからそれに頼るべきではない 
-	- (ii) 言語とは何かという定義がないため，本質が何なのか分からない．
-	- プラトンの問題も未解決のママ
-- Amil Merchant et al., "Scaling deep learning for materials discovery", nature
-	- https://www.nature.com/articles/s41586-023-06735-9
-	- DeepMindの『GNoME』が「人間の直感を超えた220万の材料を発見し」うち736は既に人間が実験室で再現したとの報告
-	- 大規模なデータセットと先進的な機械学習モデルを組み合わせる手法による、マテリアルズインフォマティクスの発展事例です
-	- 方法
-		- ① GNNを用いて素材の特性を構造や組成に基づいてモデル化
-		-  ② 材料発見の効率が大幅に向上し、人間の直感を超えた220万の構造が発見された 
-		- ③ 結晶構造内の原子を置換する手法やランダムな探索を含む、
+	- https://x.com/kkling51/status/173154389134899
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxNTU5Njc3LC0xODkwODQ3MTMwLC0xND
-A2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3
-MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LD
-YyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4
-NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC
-0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4
-NDAzNzk5XX0=
+eyJoaXN0b3J5IjpbMTI1NDQ4OTE3OCwtMTg5MDg0NzEzMCwtMT
+QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
+NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
+w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
+ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
+wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
+ODQwMzc5OV19
 -->
