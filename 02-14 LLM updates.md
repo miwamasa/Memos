@@ -122,6 +122,9 @@
 	- https://x.com/LangChainAI/status/1780994907903263159
 	- With the release of new Mixtral 8x22B, there's high interest in building agents with open source LLMs.
 - VARIATIONAL BAYESIAN LAST LAYERS
+	- https://arxiv.org/pdf/2404.11599.pdf
+	- Neural Networksの最終層以外は固定されていると思って、最終層のみの 1-layer な Bayesian Neural Network としてモデル化し最終層の最適化をしつつ変分ベイズ推定する枠組み Variational Bayesian Last Layers （VBLL）の提案。
+- Reliable, fully local RAG agents with Llama3
 	- 
 
 ## 4/15
@@ -3783,15 +3786,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 2倍サイズのTransformersに匹敵したり、5倍の高速推論が出来たりと、Transformerを代替しうる可能性
 	- 2.8Bが出てるらしい、
 	- https://huggingface.co/state-spaces/mamba-2.8b
--  Instruction-tuning Aligns LLMs to the Human Brain
-	- https://arxiv.org/abs/2312.00575
-	- Our results demonstrate that instruction-tuning LLMs improves both world knowledge representations and brain alignment, suggesting that mechanisms that encode world knowled
+-  Instruction-tuning A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA4ODcyMTIsLTE4OTA4NDcxMzAsLT
-E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
-MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
-gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
-Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
-MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
-MTg0MDM3OTldfQ==
+eyJoaXN0b3J5IjpbLTU3ODQ3MTE4MywtMTg5MDg0NzEzMCwtMT
+QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
+NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
+w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
+ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
+wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
+ODQwMzc5OV19
 -->
