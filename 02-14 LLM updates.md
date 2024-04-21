@@ -134,6 +134,11 @@
 	- プロンプトに数百〜数千の例を含めてLLMにタスクを行わせる『Many-shot（多ショット）』がDeepMindにより検証されています
 	- 結果、基本的に例が多くなるほど性能が上がるとのこと。事前学習による思い込みを覆すことも。人間製の例がなければモデル生成の例でも効果あり
 -  [llama.cpp：iMatrix量子化は日本語性能にどう影響するか？](https://sc-bakushu.hatenablog.com/entry/2024/04/20/050213)
+	- 量子化時のモデル劣化を抑制する重要度行列（iMatrix; Importance Matrix）計算の話題です。
+	- 最近はHuggingFaceにアップされるGGUFも多くがiMatrix版となっていますがこれらの量子化でよく使われているiMatrix計算用データセットは以下の2種類のようです。
+- MLX で Llama 3 を試す
+	- https://note.com/npaka/n/n21fa74396545?sub_rt=share_h
+- 
 
 
 ## 4/15
@@ -3783,12 +3788,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://huggingface.co/spaces/hotchpotch/wikipedia-japanese-rag-qa
 	- 「ナウシカと森の人との関係は？」には全く答えられない。
 	- FAISS+ELYZAだと、「ナウシカと森の人は仲良しだった。」と答えてくれたのに。。
-- Maximum Likelihood Estimation is All You Need for Well-Specified Covariate Shift
-	- https://arxiv.org/abs/2311.15961
-	- 共変量シフトのネタで"All you need"的な流行りのタイトルの論文なんだけど，内容はしっかり数理やってるっぽい．がっつりShimodaira (2000)も参照されてました．共著者に数理統計の大御所のJianqing Fan先生とか，機械学習の理論系のChi Jin先生など
-- 
+- Maximum Likelihood Estimation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTUyNjg3OTEsLTE4OTA4NDcxMzAsLT
+eyJoaXN0b3J5IjpbLTE1MDA3Mzg2ODYsLTE4OTA4NDcxMzAsLT
 E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
 MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
 gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
