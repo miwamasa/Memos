@@ -88,6 +88,10 @@
 - AIの処理能力､1年で25倍　死蔵の｢知能資本｣が競争力に by shi3zさん
 	- https://www.nikkei.com/prime/digital-governance/article/DGXZQOUC092UR0Z00C24A4000000
 	- そのような世界で価値を高めるのは、死蔵された書籍や動画などの「知能資本」という。「AI資本主義」という新たな経済の姿を提唱する、
+-  MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents
+	- https://arxiv.org/abs/2404.10774
+	- RAGなどエビデンスに基づいて LLM に生成させる場合にそもそも生成したものがエビデンスに基づいて生成できているのか（ファクトチェック）が課題になりますが、それを効率的に行うモデルを学習するシステム MiniCheck の提案。
+	- GPT-3.5/4を用いて、人が書いた文章をもとにFACTを抽出したり要約生成をしたりしながらファクトチェックタスクに特化した高品質な合成データを生成し、それを用いて小さなモデルを学習することで、GPT-4と同等の性能で400分の1以下のコストでファクトチェックができるようになったそうです。
 - 
 
 ## 4/15
@@ -3791,15 +3795,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/llama_index/status/1732081850246627547?s=20
 	- https://lu.ma/350wf7v7
 - 安全で責任あるAIの開発向けて、MetaとIBMが提携
-	- https://ai.meta.com/blog/ai-alliance/
-	- IBM とメタは、*オープン*で信頼性の高い AI を推進するために AI Alliance を立ち上げています。 産業界、政府機関、学界からの 50 を超える設立メンバーのリストには、AMD、Anyscale、CERN、Hugging Face、Linux Foundation、NASA が含まれます。
-	- 日経にかかるとタイトルは、「メタとIBM、生成AI「オープン型」へ　50社・団体と連携」
-- Prompting vs RAGs vs Fine-tuning:
-	- https://x.com/akshay_pachaar/status/1732014719794585684?s=20
-	- よくある４象限の絵、
-	- So finetuning is more about changing structure
+	- https://ai.meta.com/blog/ai-all
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDg3MzQxMjIsLTE0MDY2NDE3MzIsMT
+eyJoaXN0b3J5IjpbLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMT
 Y3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQz
 MDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLD
 E5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5
