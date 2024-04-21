@@ -4,7 +4,7 @@
 
 ## 4/21
 
-今週は、メタからllama3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。
+今週は、メタからllama3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。ChatVectorによるLLM性能向上も、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力をためすきじｇ
 
 近年、大規模言語モデル(LLM)の技術進化が加速度を増しています。OpenAIが日本語GPT-4を発表し、翻訳・要約能力が飛躍的に向上したと主張しています。一方、AnthrопicはLLMの合理的推論能力に注目し、関連する講義資料をCaltechで公開するなど、LLMの新たな可能性を探っています。
 
@@ -32,6 +32,7 @@ Caltechからは、LLMs for reasoningに関する講義スライドが公開さ�
 	- 「日本語のテキストの翻訳と要約のパフォーマンス、およびコスト効率を向上させ、前モデルと比較して、最大3倍高速に動作します。」
 - ChatNTQ 7B と LightChatAssistant 2x7B の日本語性能を測定する
 	- https://sc-bakushu.hatenablog.com/entry/2024/04/10/191420
+	- 「[ChatNTQ-JA-7B-v0.1](https://huggingface.co/NTQAI/chatntq-ja-7b-v1.0)」と、そのMoEモデル「[LightChatAssistant 2x7B](https://huggingface.co/Sdff-Ltba/LightChatAssistant-2x7B)（改称あり）」について、かなり性能が良さそうな感触が得られたので、追加でテストしてみました。
 	- LightChatAssistantはChatNTQとAntlerがジョグレス進化して奇跡のシナジーを起こして、ELYZATasks100ベンチで35BのCommand Rに匹敵する性能を出してしまう
 	- LightChatAssistantではMistral 7B v0.2 InstructからChatVectorを抽出してたけど、もっと性能高そうなStarling-LM-7B-betaから抽出した方がいんじゃね？という事で抽出してChatNTQに足してみたら、MoEにもしてない単なる7Bモデルの時点でElyzaTasks100ベンチでLightChatAssistant超えの性能が出てしまった！Command R-35Bと同点のスコア！
 - Heron-Bench: 日本語Vision＆Languageモデルの性能評価ベンチマークの公開
@@ -3797,18 +3798,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2305.16291
 	- LLMをのせたエージェントにマインクラフトをさせた研究，進捗の解除具合やマップの探索範囲の広さをみていて，滅茶苦茶面白いなｗ　プレイ風景をみてみたい
 - mmnga/Mixtral-Fusion-4x7B-Instruct-v0.1
-	- https://huggingface.co/mmnga/Mixtral-Fusion-4x7B-Instruct-v0.1
-	- Mixtral-8x7B-Instruct-v0.1 のExpertsのうち2つ毎にmergeして4x7bにした実験モデル作りました
-	- Modelサイズは24Bになります
-- NeurIPS Large Language Model Efficiency Challenge:  1 LLM + 1GPU + 1Day
-	- https://llm-efficiency-challenge.github.io/index
-	- OSS LLMモデ
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjQzMjYyNywtODQ2ODg5OTU2LC0xOD
-kwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1
-MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MT
-EsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMw
-NzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4Nj
-YsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYw
-MDAyODg2N119
+eyJoaXN0b3J5IjpbLTE1NTM3OTk2NDksLTk1NjQzMjYyNywtOD
+Q2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAz
+NTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNT
+ksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgz
+NjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2Nz
+IzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4
+OTcxNjE2NjJdfQ==
 -->
