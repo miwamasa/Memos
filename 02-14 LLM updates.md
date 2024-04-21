@@ -81,7 +81,12 @@
 - HuggingFaceM4/idefics-8b
 	- https://huggingface.co/spaces/HuggingFaceM4/idefics-8b
 	- 明確に商用利用可能なマルチモーダルモデルのデモ
--  Google Colab で idefics2 を試す
+-  Google Colab で idefics2 を試す by npakaさん
+	- https://note.com/npaka/n/n032c2bbaadb4?sub_rt=share_h
+	- 「Idefics2」は、テキストと画像を入力し、テキストを出力するマルチモーダルモデルです。画像の質問応答、視覚的コンテンツの説明、複数画像をもとに物語作成、文書からの情報抽出などを実行できます
+- AIの処理能力､1年で25倍　死蔵の｢知能資本｣が競争力に by shi3zさん
+	- https://www.nikkei.com/prime/digital-governance/article/DGXZQOUC092UR0Z00C24A4000000
+	- 
 
 ## 4/15
 
@@ -3791,16 +3796,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/akshay_pachaar/status/1732014719794585684?s=20
 	- よくある４象限の絵、
 	- So finetuning is more about changing structure (behaviour) than knowledge, while it's other way round for RAGs.
-	- You use RAGs when you want to generate outputs grounded to a custom knowledge base while the vocabulary & writing style of the LLM remains same.
-	- If you don't need either of them, prompt engineering is the way to go.
-	- And if your application need both custom knowledge & change in the behaviour of model a hybrid (RAGs + Finetuning) is preferred.
-- O
+	- You use RAGs when you want to generate outputs grou
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzQ2NTc1NSwtMTQwNjY0MTczMiwxNj
-cwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMw
-MzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMT
-k4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MDUsLTI3Nzkz
-NjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OC
-wxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2
-Nzk4MjMxNl19
+eyJoaXN0b3J5IjpbLTExODE0MDM3MzQsLTE0MDY2NDE3MzIsMT
+Y3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQz
+MDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLD
+E5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5
+MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OT
+gsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3
+Njc5ODIzMTZdfQ==
 -->
