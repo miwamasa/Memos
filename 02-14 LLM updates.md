@@ -36,6 +36,12 @@
 	- https://huggingface.co/HachiML/Swallow-MS-7b-v0.1-ChatSkill-LAB
 	- ChatVectorを使って新しいApache2.0のChatモデルを作りました。 ChatVector抽出元のモデルもMixtral-8x7B-Instructによる人工データ(Synthetic Data)で学習されたものなので、隠れたライセンス汚染の心配はありません
 - Foundational Challenges in Assuring Alignment and Safety of Large Language Models
+	- https://llm-safety-challenges.github.io/
+	- 2024.4.15 Cambridge大学のU. Anwar, D. Krueger氏ら40名弱の国際チームによる、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文。
+	- 1）LLMの科学的理解、
+	- 2）訓練手法や実装場面の課題、
+	- 3）社会における課題に分け、
+	- 広範な文献調査に基づき200超のリサーチクエスチョンを同定。
 
 ## 4/15
 
@@ -3797,18 +3803,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/bioshok3/status/1732421662619140551?s=20
 	- Gemini Ultraは、MMLU で人間の専門家の性能を達成した最初のモデルでありスコアは90%以上。やばすぎる。人間のエキスパートのパフォーマンスはベンチマーク著者によって89.8%と評価され、Gemini Ul traはこの閾値を超えた最初のモデル!時代が変わった。
 	- 教師がスキーヤーが坂道を下りるという物理問題を描き、生徒がその解決策を練る。Geminiのマルチモーダル推論機能を用いて、モデルは 乱雑な手書きを理解し、生徒が問題の解決を間違えた推論の特定のステップを特定し、問題の正しい解決を通し て作業を与えることができる。
-	- Google がGeminiのデモ動画を出しているけど、これほんとにこの推論速度なら凄すぎると言うかもう株価数倍くらいになるんじゃないの？ってレベルだけど？？
-	- デモについては「このデモの目的のため、レイテンシーは短縮され、ジェミニの出力は簡潔にまとめられている。」と書かれてる
-	- 多言語性能はGPT-4より良い
-	- コンテキストトークン数は32768。98%の精度で正しい値を取得可能！98%?まじかよ。
-- Googleアカウントの言語設定を英語にすると、BardのバックがGemimi Proが使える
-	- https://x.
+	- Google がGeminiのデモ動画を出しているけど、これほんとにこの推論速度なら凄
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzMTYwMzAwLDE2NzAzNTY3MTYsMzUyOT
-E1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0
-MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMT
-MwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4
-NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMT
-YwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5
-NzU1OV19
+eyJoaXN0b3J5IjpbMjA2MDA1NDkzMywxNjcwMzU2NzE2LDM1Mj
+kxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkw
+NDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMT
+EzMDc2NzA3LC01OTMyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQx
+ODY2LDIzMDkxNDE5MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLD
+E2MDAwMjg4NjcsMTcxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3
+OTc1NTldfQ==
 -->
