@@ -4,25 +4,8 @@
 
 ## 4/21
 
-今週は、メタからllama3が待望の公開、最初は8bと70bでさらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。早速、量子化、MoE化、ファイチューニング手法が公開され、MXで8GB M2 miniでの動作確認、ollamaの対応、さらにはgroqに乗っかってデモサイトでLlama3-70Bが300t/sの超絶爆速推論を見せた。RAGでのllama3の利用例も、LangChainから紹介があったが、CommandR＋もllama3も、プロンプトに与えるテンプレートが独特なので、LLMをネイティブに使う人は要注意だ。1bitのLLMも、shi3zさんの自作評価や、椎橋さんによるGPUではないオーダーメイドによるAIソリューション「カスタムAI」の可能性など、いい記事がでてきた。ChatVectorによるLLM性能向上も、先週に引き続き、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。LightChatAssistantってのはそんなにすごいのか。作ってみたら性能が高かったというJapanese-Starling-ChatV-7B-GGUFなども出たり、はちさんからSwallow-MS-7b-v0.1-ChatSkill-LABが出たりと、LLMの能力の足し算引き算しつつ性能を評価するという一段メタな世界が開けた。PFNの丸山さんが紹介された、LLMをつかって言葉だけで、線形回帰をさせるという論文、どんなモデルを内部に持っているんだという意味で面白い。 Cambridge大学のU. Anwar, D. Krueger氏らによる、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文はすごい、AIガバナンスのオックスフォードハンドブックもあり、UKではアライメントとガバナンスの大きな拠点になっているのか。マイクロソフトから、WizardLM-2 の7bと8x22bが発表、エージェント機能も持っているとか、嵐の予感。Qwen1.5-7B-Chat-GGUFもこそっと出た、来週あたりQwen1.5ベースの日本語LLMが出てくるのでは。DeepMindの「Many-shot」多数例示学習の有効性や、RAGのMiniCheck、複数の知識を組み合わせるChain-of-Abstraction (CoA) ReasoningなどのLLM推論での進展もあった。丸山隆一さん、AI科学の何が“哲学”という問い（スライド）も良いし、「AI協働時代に研究者はどう生きるか」というイベントも面白い。AIが（従来の）研究ができるようになるならば、AI研究者はなにをするのかみたいな感じ。落ち葉拾い？としては、Swallow-MXを使ってQAutoWikiQA をMiniCPM-V-2のデモの公開、商用利用可能なマルチモーダルLLM、idefics-8bなども出てきた。
+今週は、日本語GPT-4の開発の発表もあったけど、なんといってもメタからllama3の待望の公開。最初は8bと70bが公開され、さらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。早速、量子化、MoE化、ファイチューニング手法が公開され、MXで8GB M2 miniでの動作確認、ollamaの対応、さらにはroqに乗っかってデモサイトでLlama3-70Bが300t/sの超絶爆速推論を見せた。RAGでのllama3の利用例も、LangChainから紹介があったが、CommandR＋もllama3も、プロンプトに与えるテンプレートが独特なので、LLMをネイティブに使う人は要注意だ。1bitのLLMも、shi3zさんの自作評価や、椎橋さんによるGPUではないオーダーメイドによるAIソリューション「カスタムAI」の可能性など、いい記事がでてきた。ChatVectorによるLLM性能向上も、先週に引き続き、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。LightChatAssistantってのはそんなにすごいのか。作ってみたら性能が高かったというJapanese-Starling-ChatV-7B-GGUFなども出たり、はちさんからSwallow-MS-7b-v0.1-ChatSkill-LABが出たりと、LLMの能力の足し算引き算しつつ性能を評価するという一段メタな世界が開けた。PFNの丸山さんが紹介された、LLMをつかって言葉だけで、線形回帰をさせるという論文、どんなモデルを内部に持っているんだという意味で面白い。 Cambridge大学のU. Anwar, D. Krueger氏らによる、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文はすごい、AIガバナンスのオックスフォードハンドブックもあり、UKではアライメントとガバナンスの大きな拠点になっているのか。マイクロソフトから、WizardLM-2 の7bと8x22bが発表、エージェント機能も持っているとか、嵐の予感。Qwen1.5-7B-Chat-GGUFもこそっと出た、来週あたりQwen1.5ベースの日本語LLMが出てくるのでは。DeepMindの「Many-shot」多数例示学習の有効性や、RAGのMiniCheck、複数の知識を組み合わせるChain-of-Abstraction (CoA) ReasoningなどのLLM推論での進展もあった。丸山隆一さん、AI科学の何が“哲学”という問い（スライド）も良いし、「AI協働時代に研究者はどう生きるか」というイベントも面白い。AIが（従来の）研究ができるようになるならば、AI研究者はなにをするのかみたいな感じ。その他としては、Swallow-MXを使ったQ&AデータセットであるAutoWikiQAとか、MiniCPM-V-2のデモの公開、商用利用可能なマルチモーダルLLM、idefics-8bなども出てきた。
 
-近年、大規模言語モデル(LLM)の技術進化が加速度を増しています。OpenAIが日本語GPT-4を発表し、翻訳・要約能力が飛躍的に向上したと主張しています。一方、AnthrопicはLLMの合理的推論能力に注目し、関連する講義資料をCaltechで公開するなど、LLMの新たな可能性を探っています。
-
-ハードウェア面でも革新的な試みがあり、専用の半導体「LPU」を用いた「1ビットLLM」が登場しつつあります。これにより、GPUを使わずに劇的な推論高速化が期待できるようになりました。
-
-モデル自体の進化も目覚ましく、MetaがLlama 3を公開し、現時点で最も性能の高いオープンソースLLMとなっています。8B、70Bモデルに加え、数千億パラメータに及ぶ大規模モデルの開発も行われています。さらに、iMatrix量子化によりLlama 3はモデルサイズを圧縮しつつ、日本語での性能を維持できることが分かりました。
-
-学習手法の面でも革新があり、DeepMindの研究により、従来の思い込みを打破する効果がある「Many-shot」多数例示学習の有効性が明らかになりました。また、パラメータ効率の良いFine Tuning手法(PEFT)の研究も進み、LLMの小規模チューニングが現実的になりつつあります。さらに、RAG(Retrieval Augmented Generation)の高度化によって、LLMが複雑な質問にも対応できるようになる試みも進んでいます。
-
-最初に、MiniCPM-V-2のデモが公開されました。これは、Hugging Face上で公開されており、新しいモデルの可能性を示唆しています。
-
-OpenAI Japanが設立され、日本語GPT-4の発表が行われました。これにより、日本語テキストの処理性能が向上し、従来のモデルよりも高速に動作することが期待されます。
-
-ChatNTQ 7BとLightChatAssistant 2x7Bの日本語性能が測定されました。LightChatAssistantは、Mistral 7B v0.2 InstructからChatVectorを抽出し、性能を向上させています。
-
-Heron-Benchでは、日本語のVision＆Languageモデルの性能評価ベンチマークが公開され、Turingで開発されたheronを含むモデルの比較が行われました。
-
-Caltechからは、LLMs for reasoningに関する講義スライドが公開され、この分野での研究が進んでいます。
 
 - openbmb/MiniCPM-V-2
 	- MiniCPMのデモが公開
@@ -3770,10 +3753,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- この論文が素晴らしいのは、open-ended な状況で研究をするエージェントというコンセプトを明確に提示した点だ
 - calm2-7b-chatをRAG QAで使うための調査
 	- https://x.com/_oshizo_/status/1735282188546089332?s=20
-	- context全体の長さ（横軸）と、正解になるキーワードの位置（縦軸）を変えながら、出力に正解の文字列を含んだ割合を集計。 
-	- 正
+	- context全体の長さ（横軸）と、正解になるキーワードの位置（縦軸）を変えながら、出力に正解の文字列を含
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTMyNzIwNywtOTIyMjk0MDU1LC05NT
+eyJoaXN0b3J5IjpbLTQwNzY0MTYzMSwtOTIyMjk0MDU1LC05NT
 Y0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0
 MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC
 0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQy
