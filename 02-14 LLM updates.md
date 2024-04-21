@@ -37,7 +37,14 @@
 - HachiML/Swallow-MS-7b-v0.1-ChatSkill-LAB
 	- https://huggingface.co/HachiML/Swallow-MS-7b-v0.1-ChatSkill-LAB
 	- ChatVectorを使って新しいApache2.0のChatモデルを作りました。 ChatVector抽出元のモデルもMixtral-8x7B-Instructによる人工データ(Synthetic Data)で学習されたものなので、隠れたライセンス汚染の心配はありません
-- # 進化的アルゴリズムをもちいたChatVector加算の最適化
+-  進化的アルゴリズムをもちいたChatVector加算の最適化 by　はちさん
+	- https://note.com/hatti8/n/na593650d688b
+	- 進化的アルゴリズムを使用するために、optunaとcmaes
+	- 進化的アルゴリズムを使って、この関数のoutputであるscoreを最適化（最小化）します
+		merging_ratio（ChatVectorの加算比率を各layer毎に持つ辞書）の定義
+		-  merging_ratioにしたがって、ChatVectorのマージ
+    
+3.  ELYZA tasks 10の実施とGPT4による評価
 - Foundational Challenges in Assuring Alignment and Safety of Large Language Models
 	- https://llm-safety-challenges.github.io/
 	- 2024.4.15 Cambridge大学のU. Anwar, D. Krueger氏ら40名弱の国際チームによる、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文。
@@ -3754,11 +3761,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/_oshizo_/status/1735282188546089332?s=20
 	- context全体の長さ（横軸）と、正解になるキーワードの位置（縦軸）を変えながら、出力に正解の文字列を含
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5NTY2OTYxLC0xMTg3NTY5NTY4LC05Mj
-IyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC0xODkwODQ3
-MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC
-00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgx
-MDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MD
-csLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMw
-OTE0MTkzXX0=
+eyJoaXN0b3J5IjpbMTU0NTQzMzM5MiwtMTE4NzU2OTU2OCwtOT
+IyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0
+NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOC
+wtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4
+MTA2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2Nz
+A3LC01OTMyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIz
+MDkxNDE5M119
 -->
