@@ -138,6 +138,8 @@
 	- 最近はHuggingFaceにアップされるGGUFも多くがiMatrix版となっていますがこれらの量子化でよく使われているiMatrix計算用データセットは以下の2種類のようです。
 - MLX で Llama 3 を試す
 	- https://note.com/npaka/n/n21fa74396545?sub_rt=share_h
+- Llama 3がGroqに登場
+	- https://x.com/kyo_takano/status/1781595042840559908
 - 
 
 
@@ -3787,14 +3789,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- huggingface spaceで試せる
 	- https://huggingface.co/spaces/hotchpotch/wikipedia-japanese-rag-qa
 	- 「ナウシカと森の人との関係は？」には全く答えられない。
-	- FAISS+ELYZAだと、「ナウシカと森の人は仲良しだった。」と答えてくれたのに。。
-- Maximum Likelihood Estimation 
+	- FAI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDA3Mzg2ODYsLTE4OTA4NDcxMzAsLT
-E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
-MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
-gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
-Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
-MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
-MTg0MDM3OTldfQ==
+eyJoaXN0b3J5IjpbMTY5OTU0MDMxMCwtMTg5MDg0NzEzMCwtMT
+QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
+NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
+w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
+ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
+wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
+ODQwMzc5OV19
 -->
