@@ -8,7 +8,7 @@
 
 DeepMindの「Many-shot」多数例示学習の有効性や、RAGのMiniCheck、複数の知識を組み合わせるChain-of-Abstraction (CoA) ReasoningなどのLLM推論での進展もあった。
 
-丸山隆一さん、AI科学の何が“哲学”という問い（スライド）も良いし、「AI協働時代に研究者はどう生きるか」というイベントも
+丸山隆一さん、AI科学の何が“哲学”という問い（スライド）も良いし、「AI協働時代に研究者はどう生きるか」というイベントも面白い。AIが（従来の）研究ができるようになるならば、AI研究者はなにをするのかみたいな感じ。
 
 近年、大規模言語モデル(LLM)の技術進化が加速度を増しています。OpenAIが日本語GPT-4を発表し、翻訳・要約能力が飛躍的に向上したと主張しています。一方、AnthrопicはLLMの合理的推論能力に注目し、関連する講義資料をCaltechで公開するなど、LLMの新たな可能性を探っています。
 
@@ -3778,15 +3778,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 正解キーワードがcontextの末尾付近にあれば全体の長さはあまり影響しないが、末尾から1k離れるごとに正答率が0.6掛けになるイメージ
 - LLM・プロンプトの評価・テストフレームワークについてまとめてみた
 	- https://zenn.dev/pomcho555/articles/8e42f0a4ce39eb
-	- RAGASを使った自動データ生成
-	- RAGASを使った自動評価
-- Web3時代のナレッジグラフ？
+	- RAG
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTcyOTUwMTYsLTkyMjI5NDA1NSwtOT
-U2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2
-NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMS
-wtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0
-MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NT
-A1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3
-NjQ5NDA5OThdfQ==
+eyJoaXN0b3J5IjpbMTk5Mjg1Nzk2OSwtOTIyMjk0MDU1LC05NT
+Y0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0
+MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC
+0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQy
+MDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMyODY1MD
+UsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5MywtMTc2
+NDk0MDk5OF19
 -->
