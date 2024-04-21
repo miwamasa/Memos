@@ -7,8 +7,9 @@
 - openbmb/MiniCPM-V-2
 	- MiniCPMのデモが公開
 	- https://huggingface.co/spaces/openbmb/MiniCPM-V-2
-- OpenAIが日本語特化のGPT-4カスタムモデルを発表！日本語では3倍の速度で動作
+- OpenAI Japanの発足とまさかの日本語GPT-4の発表。
 	- https://openai.com/blog/introducing-openai-japan
+	- 「日本語のテキストの翻訳と要約のパフォーマンス、およびコスト効率を向上させ、前モデルと比較して、最大3倍高速に動作します。」
 - 
 
 ## 4/15
@@ -3809,14 +3810,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 欧州AI法の最終トリローグが終了、妥結へ
 	- https://x.com/WIRED/status/1733268732309332398?s=20
 	- https://www.reuters.com/technology/eu-clinches-deal-landmark-ai-act-2023-12-09/?taid=65745dd360152800018aaf1c&utm_campaign=trueAnthem:+Trending+Content&utm_medium=trueAnthem&utm_source=twitter
-	- https://twitter.com/SabrinaKuespert/status/1733311752941515135/photo/1
-	- https://www.europarl.europa.eu/news/en/press-
+	- https://twitter.com/SabrinaKuespert/status/17333117529415151
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTc2OTE5NiwzNTI5MTUzMzgsLTQ2OD
-UyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUw
-MjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNT
-kzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQx
-OTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LD
-E3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcx
-OTEyOTUxXX0=
+eyJoaXN0b3J5IjpbNjk3MTg5NTQsMzUyOTE1MzM4LC00Njg1Mj
+I3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4
+LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5Mz
+I4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkz
+LC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNz
+E4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1OSwtMTE3MTkx
+Mjk1MV19
 -->
