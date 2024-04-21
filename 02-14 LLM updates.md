@@ -92,7 +92,9 @@
 	- https://arxiv.org/abs/2404.10774
 	- RAGなどエビデンスに基づいて LLM に生成させる場合にそもそも生成したものがエビデンスに基づいて生成できているのか（ファクトチェック）が課題になりますが、それを効率的に行うモデルを学習するシステム MiniCheck の提案。
 	- GPT-3.5/4を用いて、人が書いた文章をもとにFACTを抽出したり要約生成をしたりしながらファクトチェックタスクに特化した高品質な合成データを生成し、それを用いて小さなモデルを学習することで、GPT-4と同等の性能で400分の1以下のコストでファクトチェックができるようになったそうです。
-- 
+- RAGを複雑な質問に強くする手法「CoA」について
+	- https://zenn.dev/knowledgesense/articles/508187f1c616e3
+	- 
 
 ## 4/15
 
@@ -3793,15 +3795,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Allenインスティテュートの仕業か、https://allenai.org/
 - llamaindexでもマルチモーダルが盛り上がっている、Webinerなど
 	- https://x.com/llama_index/status/1732081850246627547?s=20
-	- https://lu.ma/350wf7v7
-- 安全で責任あるAIの開発向けて、MetaとIBMが提携
-	- https://ai.meta.com/blog/ai-all
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMT
-Y3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQz
-MDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLD
-E5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5
-MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OT
-gsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3
-Njc5ODIzMTZdfQ==
+eyJoaXN0b3J5IjpbMzI3MjczODMyLC0xODkwODQ3MTMwLC0xND
+A2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3
+MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LD
+YyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4
+NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC
+0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4
+NDAzNzk5XX0=
 -->
