@@ -18,7 +18,12 @@
 	- https://arxiv.org/abs/2404.07824
 	- https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench
 	- 日本語のVision-Langugeモデルのベンチマークがなかったので作成し、Turingで開発したheronを含めてモデルの比較を行いました~!!
-- 
+- CS159: LLMs for reasoning lecture slides from Caltech
+	- https://sites.google.com/view/cs-159-2024/lectures
+- RTX4090+A6000(24+48GB VRAM)でcommand-r-plus-Q4_K_Mを65/65 layer GPUに載せても6.5t/sくらいが限度だった。 おそらく、96GBではメインメモリが足りないから遅い。
+	- https://x.com/Meteor_Eternal/status/1779807643668013534
+- an introduction to agents and tools
+	- 
 
 ## 4/15
 
@@ -3802,21 +3807,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Anthropicより、（LLMの出力における）差別を検知するためのデータセットを公開
 -  AMD、生成AIでNVIDIA H100を上回る性能のGPU「Instinct MI300」
 	- https://pc.watch.impress.co.jp/docs/news/1552583.html
-	- TDP 750WのMI300Xは、TDP 700WのNVIDIA H100と比較し、FP64,32で約2.4倍、AIで利用のTF32、FP16、BF16、FP8、INT8などでは1.3倍スループット実現。
-- 赤石先生のベイズ推論本がわかりやすいと評判に
-	- https://x.com/kenken26679105/status/1732977179485757744?s=20
-	- 少ないデータ量でも、こんな風に、色んな実務の場面にすぐに活用できちゃう
-	- Pythonでスラスラわかる ベイズ推論「超」入門 (KS情報科学専門書)
-- チョムスキーの「生成文法」は死んだという論文
-	- Modern language models refute Chomsky’s approach to language
-	- https://lingbuzz.net/lingbuzz/007180/v1.pdf
-	- 最近の生
+	- TDP 750WのMI300Xは、TDP 700WのNVIDIA H100と比較し、FP64,32で約2.4倍、AIで利用のTF32、FP16、BF16、FP8、INT8などでは1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDM3ODI1MiwzNTI5MTUzMzgsLTQ2OD
-UyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUw
-MjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNT
-kzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQx
-OTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LD
-E3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcx
-OTEyOTUxXX0=
+eyJoaXN0b3J5IjpbLTE3MzE2MTc4NDcsMzUyOTE1MzM4LC00Nj
+g1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1
+MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLT
+U5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0
+MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2Ny
+wxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1OSwtMTE3
+MTkxMjk1MV19
 -->
