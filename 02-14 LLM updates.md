@@ -13,8 +13,12 @@
 - ChatNTQ 7B と LightChatAssistant 2x7B の日本語性能を測定する
 	- https://sc-bakushu.hatenablog.com/entry/2024/04/10/191420
 	- LightChatAssistantはChatNTQとAntlerがジョグレス進化して奇跡のシナジーを起こして、ELYZATasks100ベンチで35BのCommand Rに匹敵する性能を出してしまう
+	- LightChatAssistantではMistral 7B v0.2 InstructからChatVectorを抽出してたけど、もっと性能高そうなStarling-LM-7B-betaから抽出した方がいんじゃね？という事で抽出してChatNTQに足してみたら、MoEにもしてない単なる7Bモデルの時点でElyzaTasks100ベンチでLightChatAssistant超えの性能が出てしまった！Command R-35Bと同点のスコア！
 - Heron-Bench: 日本語Vision＆Languageモデルの性能評価ベンチマークの公開
-	- 
+	- https://arxiv.org/abs/2404.07824
+	- https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench
+	- 日本語のVision-Langugeモデルのベンチマークがなかったので作成し、Turingで開発したheronを含めてモデルの比較を行いました~!!
+- 
 
 ## 4/15
 
@@ -3806,19 +3810,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - チョムスキーの「生成文法」は死んだという論文
 	- Modern language models refute Chomsky’s approach to language
 	- https://lingbuzz.net/lingbuzz/007180/v1.pdf
-	- 最近の生成AIてうか大言語モデルLLMの驚くべき成功から見て、チョムスキー流の生得的統語法規則があるという説は維持しづらい
-- llamaindexより、知識グラフ(KG)を使う、７つのパターンを表にまとめてくれた
-	- https://x.com/llama_index/status/1733190430760845673?s=20
-	-  A Simpler Way to Query Neo4j Knowledge Graphs
-	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/neo4j_query_engine/llama_packs_neo4j.ipynb
-- 欧州AI法の最終トリローグが終了、妥結へ
-	- https://x.com/WIRED/status/1733268732309332398?s=2
+	- 最近の生
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2ODI2NDQ1LDM1MjkxNTMzOCwtNDY4NT
-IyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAy
-OCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OT
-MyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5
-MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMT
-cxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5
-MTI5NTFdfQ==
+eyJoaXN0b3J5IjpbLTgyNDM3ODI1MiwzNTI5MTUzMzgsLTQ2OD
+UyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUw
+MjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNT
+kzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQx
+OTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LD
+E3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcx
+OTEyOTUxXX0=
 -->
