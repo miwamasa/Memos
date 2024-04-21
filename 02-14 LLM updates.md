@@ -30,7 +30,12 @@
 	- LLMに、「この入力の場合出力はこれ」という例示を入れて「ではこの入力の場合の出力は？」と推論させると線形回帰・非線形回帰ができてしまう、という論文。
 - TFMC/Japanese-Starling-ChatV-7B-GGUF
 	- https://note.com/bakushu/n/ne95340f04b41
-	- LightChatAssistant-2x7Bの日本語チャット性能がとても良いため、モデル作者さんが用いた手法（Chat Vector+MoEマージ）を後追いでけｎ
+	- LightChatAssistant-2x7Bの日本語チャット性能がとても良いため、モデル作者さんが用いた手法（Chat Vector+MoEマージ）を後追いで検証しているなかで、発見。
+	- 7Bクラスとしてはベンチマークスコアがやたら高いモデルが出てきたので「Japanese-Starling-ChatV-7B」として公開してみました。
+- HachiML/Swallow-MS-7b-v0.1-ChatSkill-LAB
+	- https://huggingface.co/HachiML/Swallow-MS-7b-v0.1-ChatSkill-LAB
+	- ChatVectorを使って新しいApache2.0のChatモデルを作りました。 ChatVector抽出元のモデルもMixtral-8x7B-Instructによる人工データ(Synthetic Data)で学習されたものなので、隠れたライセンス汚染の心配はありません
+- 
 
 ## 4/15
 
@@ -3798,18 +3803,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- コンテキストトークン数は32768。98%の精度で正しい値を取得可能！98%?まじかよ。
 - Googleアカウントの言語設定を英語にすると、BardのバックがGemimi Proが使える
 	- https://x.com/npaka123/status/1732504570218283340?s=20
-- Bard(Gemini Pro)が霞が関パワポを解析して説明してくれると、、	by ゆな先生
-	- https://x.com/JapanTank/status/1732689643928445164?s=20
-- Gemini論文の最後の、"Core Contributors"の最初の６人の頭文字をとると、"GEMINI"になる
-	- https://x.com/nearcyan/status/1732532560029172142?s=20
-- Metaより、安全なAIのための、Purple Llama（ツールセット、フレームワークみたいなもの）を発表
-	- https://ai.meta.com/blog/purple-llama-open-trust-safety-generative-ai/?utm_source=twitt
+- Bard(Gemini Pro)が霞が関パワポを解析して説明してく
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0NTg2MjU1LDM1MjkxNTMzOCwtNDY4NT
-IyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAy
-OCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OT
-MyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5
-MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMT
-cxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5
-MTI5NTFdfQ==
+eyJoaXN0b3J5IjpbMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2OD
+UyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUw
+MjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNT
+kzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQx
+OTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LD
+E3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcx
+OTEyOTUxXX0=
 -->
