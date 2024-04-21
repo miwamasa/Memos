@@ -9,6 +9,7 @@
 	- https://huggingface.co/spaces/openbmb/MiniCPM-V-2
 - OpenAIが日本語特化のGPT-4カスタムモデルを発表！日本語では3倍の速度で動作
 	- https://x.com/umiyuki_ai/status/1779769041592500399
+- 
 
 ## 4/15
 
@@ -3809,9 +3810,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/WIRED/status/1733268732309332398?s=20
 	- https://www.reuters.com/technology/eu-clinches-deal-landmark-ai-act-2023-12-09/?taid=65745dd360152800018aaf1c&utm_campaign=trueAnthem:+Trending+Content&utm_medium=trueAnthem&utm_source=twitter
 	- https://twitter.com/SabrinaKuespert/status/1733311752941515135/photo/1
-	- https://www.europarl.europa.eu/news/en/press-room
+	- https://www.europarl.europa.eu/news/en/press-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzYzMjM5ODYsMzUyOTE1MzM4LC00Nj
+eyJoaXN0b3J5IjpbLTE5MDYwNTk3NjIsMzUyOTE1MzM4LC00Nj
 g1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1
 MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLT
 U5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0
