@@ -117,7 +117,12 @@
 	- https://ai.meta.com/blog/meta-llama-3/?utm_source=twitter&utm_medium=organic_social&utm_content=video&utm_campaign=llama3
 	- the most capable openly available LLM to date.
 	- Llama3のリリース第一弾は8Bモデルと70Bモデル！それぞれベースモデルと指示チューニング版があり！HuggingFaceからＤＬできる！8BモデルはベンチでMistral-7BやGemma-7Bを撃墜！70BモデルはGeminiPro1.5やClaude3Sonnetを撃墜！人間による評価でもSonnet、MistralMedium、GPT-3.5に勝利！
-- Context長は8kTokenでパラメータ数は80億と700億パラメータ。なんと4000億パラメータを超えるモデルも学習中！700億のほうは現在のフロンティアModelに性能的に肉薄しつつある状態。
+	- Context長は8kTokenでパラメータ数は80億と700億パラメータ。なんと4000億パラメータを超えるモデルも学習中！700億のほうは現在のフロンティアModelに性能的に肉薄しつつある状態。
+- LangChain x Mistral RAG Agent Cookbooks + Video
+	- https://x.com/LangChainAI/status/1780994907903263159
+	- With the release of new Mixtral 8x22B, there's high interest in building agents with open source LLMs.
+- VARIATIONAL BAYESIAN LAST LAYERS
+	- 
 
 ## 4/15
 
@@ -3780,17 +3785,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://huggingface.co/state-spaces/mamba-2.8b
 -  Instruction-tuning Aligns LLMs to the Human Brain
 	- https://arxiv.org/abs/2312.00575
-	- Our results demonstrate that instruction-tuning LLMs improves both world knowledge representations and brain alignment, suggesting that mechanisms that encode world knowledge in LLMs also improve representational alignment to the human brain.
-- マルチモーダルLLMの応用動向の論文調査
-	- https://speakerdeck.com/masatoto/marutimodarullmnoying-yong-dong-xiang
-- 生成文法研究者の中で「言語の本質」（今井先生）の評判が良くなかった
-	- https://x.com/kkling51/status/173154389134899
+	- Our results demonstrate that instruction-tuning LLMs improves both world knowledge representations and brain alignment, suggesting that mechanisms that encode world knowled
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDQ4OTE3OCwtMTg5MDg0NzEzMCwtMT
-QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
-NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
-w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
-ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
-wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
-ODQwMzc5OV19
+eyJoaXN0b3J5IjpbLTExMDA4ODcyMTIsLTE4OTA4NDcxMzAsLT
+E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
+MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
+gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
+Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
+MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
+MTg0MDM3OTldfQ==
 -->
