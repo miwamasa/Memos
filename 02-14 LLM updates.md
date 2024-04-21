@@ -140,6 +140,10 @@
 	- https://note.com/npaka/n/n21fa74396545?sub_rt=share_h
 - Llama 3がGroqに登場
 	- https://x.com/kyo_takano/status/1781595042840559908
+	- Groqがなぜこんなに速いのか？それはGPUではなくLLMに最適化されたASICを使っているからです。Groqは最近新しいデータセンターを作ったばかりで、そこで何個ASICを使っているのか直接聞いたら700個以上と答えてくれました、今後リアルタイム性需要が高まるとGroqはさらに急成長してくると思います。
+- 小さい計算コストでスマートにLLMをチューニング!-Hugging Face PEFT入門(前編)
+	- https://zenn.dev/elith/articles/3ec1d319c8a40f
+	- パラメータ効率の良いFine Tuning手法(Parameter-Efficient Fine Tuning、 PEFT)について、サーベイを行いました。
 - 
 
 
@@ -3784,18 +3788,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- webuiで試せる！
 	- https://github.com/epfLLM/meditron/blob/main/deployment/README.md#serving-with-web-gui
 - RAG用途に使える、Wikipedia 日本語の embeddings とベクトル検索用の faiss index を作った
-	- https://secon.dev/entry/2023/12/04/080000-wikipedia-ja-embeddings/
-	- Wikipedia日本語550万文でベクトル検索できるembeddingsと検索用faiss index作りました。20行ぐらいコード書くだけで簡単に利用できます！RAGしてもデータが少ないと面白みが少ないのですが、Wikipedia突っ込むと面白さが増えてくるので、興味ある方はお試しください！
-	- huggingface spaceで試せる
-	- https://huggingface.co/spaces/hotchpotch/wikipedia-japanese-rag-qa
-	- 「ナウシカと森の人との関係は？」には全く答えられない。
-	- FAI
+	- https://se
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTU0MDMxMCwtMTg5MDg0NzEzMCwtMT
-QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
-NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
-w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
-ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
-wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
-ODQwMzc5OV19
+eyJoaXN0b3J5IjpbLTE5NTg5MDEyMDcsLTE4OTA4NDcxMzAsLT
+E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
+MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
+gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
+Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
+MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
+MTg0MDM3OTldfQ==
 -->
