@@ -105,7 +105,9 @@
 	- これをやらずにいつもの凡例みたいにいきなりpipelineに読み込もうとすると謎のエラーが出て悩まされることになる。海外でも悩んでる人が何人もいるみたいだ。まあ個人的には「こんな説明で誰がわかる?」と思うが。
 - mistralai/Mixtral-8x22B-Instruct-v0.1
 	- https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1
-	- 
+	- Mixtral-8x22B Instract きたわ〜
+- Build RAG, Function Calling, and Agents with llama_index and  MistralAI8x22b 
+	- https://docs.llamaindex.ai/en/latest/examples/cookbooks/mistralai/
 
 ## 4/15
 
@@ -3789,15 +3791,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ② 発見された安定構造のうち736は、独立した実験で実現されている （シミュレーション上での検証ではなく、実験室で物理的に材料を作成し、実証できた）
 - NVIDIAのH100をどこに出荷したかの図。MS,Metaが圧倒的に多い、GPT4を7日で訓練できる規模？
 	- https://x.com/Lauramaywendel/status/1731698695853244849?s=20
-	- GPT4 was presumably trained for around 90 days using 25k A100 GPUs. Microsoft and Meta having reportedly bought 150k H100 GPUs each this year, can now train a GPT4 class model in only 7 days from scratch
-- Google Geminiの提供を１月まで延期
-	- https://x.com/rowancheung/status/17315319
+	- GPT4 was presumably trained for around 90 days using 25k A100 GPUs. Microsoft and Meta having rep
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQ3ODA3MzMsLTE4OTA4NDcxMzAsLT
-E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
-MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
-gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
-Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
-MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
-MTg0MDM3OTldfQ==
+eyJoaXN0b3J5IjpbLTY0OTE4MjQ0MSwtMTg5MDg0NzEzMCwtMT
+QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
+NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
+w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
+ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
+wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
+ODQwMzc5OV19
 -->
