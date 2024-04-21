@@ -68,6 +68,11 @@
 	- https://share.hsforms.com/1NFOzzuNBSZq3K20gtPZ30wdxf90
 	- 本イベントでは、研究の自動化・自律化が益々加速していく未来において、研究という営みがどのように変化していくのか、その中で研究者はどう生きるべきか、ということについて議論します。  
 	- AIロボット駆動科学を牽引する一杉太郎さんと、AI科学を俯瞰的に考える丸山隆一さんによる特別パネルディスカッションや、「AI × ◯◯学」をテーマに月額支援型クラウドファンディングに挑戦中の若手研究者8名のプレゼンを通して、「AI協働時代に研究者はどう生きるか」、皆さんも一緒に考えてみませんか？
+- 生成AIでGPUがいらなくなる？　業界を揺るがす「1ビットLLM」とは何か、識者に聞いた
+	- https://www.itmedia.co.jp/aiplus/articles/2404/16/news064.html
+	- ではそもそも“1bit”とは何が1bitなのか、どうして1bitになるとGPUが不要になるのか。LLMでGPUが不要になるとどんな世界が訪れるのか。オーダーメイドによるAIソリューション「カスタムAI」の開発・提供を行うLaboro.AIの椎橋徹夫CEOに聞いた。
+	- **椎橋：**今回の結果から、LLMの推論において、GPUではなく別の半導体の機構が最適になって、劇的に計算が軽く早くなる可能性が開けてくるんです。
+	- 論文中でも、GroqというLLMの推論に特化したLPU（Language Processing Unit）の登場に触れられています。次世代半導体での復活を狙う日本の産業にとっても、注視していくべきトピックではないかと思います
 - 
 
 ## 4/15
@@ -3793,24 +3798,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - JWT(Json Web Token)
 	- https://x.com/alexxubyte/status/1732077250626179578?s=20
 - Jellyfish: A Large Language Model for Data Preprocessing
-	- https://arxiv.org/abs/2312.01678
-	- データの前処理を得意とするLLM『Jellyfish（クラゲ）』が公開されました。 未知のタスクにも対応でき、比較的軽量であり1GPUでも動作するとのことです。 
-	- 大阪大学、NEC、名古屋大学の研究者らによる発表です
-	- ① データベースタスク特化モデルが進化 （GPT-4と同等の性能でデータ処理を行う） 
-	- ② ゼロショットでデータ前処理タスクを実行 
-	- ③ 多様な前処理タスクに対応 
-	- ④ サイズが小さいため、1GPUでも動作する
-- GooglがGemini(ジェマナイと読む）を発表
-	- https://blog.google/technology/ai/google-gemini-ai/
-	- 1. Geminiは3種類のモデル(Ultra, Pro, Nano)が存在。Ultraが最も賢く、Nanoはモバイルデバイス向け。
-	- 2. Ultraは数々のベンチマークでGPT-4超えの性能を発揮 (ﾄﾞﾔｧ)
-	
+	- https://arxiv.org/ab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ5MDExOTksLTE0MDY2NDE3MzIsMT
-Y3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQz
-MDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLD
-E5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkzMjg2NTA1LC0yNzc5
-MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOTMsLTE3NjQ5NDA5OT
-gsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3MTg0MDM3OTksLTE3
-Njc5ODIzMTZdfQ==
+eyJoaXN0b3J5IjpbNzMzMTQ4NDQ1LC0xNDA2NjQxNzMyLDE2Nz
+AzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAz
+NTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOT
+gzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2
+NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LD
+E4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3
+OTgyMzE2XX0=
 -->
