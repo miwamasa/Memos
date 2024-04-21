@@ -125,7 +125,9 @@
 	- https://arxiv.org/pdf/2404.11599.pdf
 	- Neural Networksの最終層以外は固定されていると思って、最終層のみの 1-layer な Bayesian Neural Network としてモデル化し最終層の最適化をしつつ変分ベイズ推定する枠組み Variational Bayesian Last Layers （VBLL）の提案。
 - Reliable, fully local RAG agents with Llama3
-	- 
+	- Here, we show to how build reliable local agents using LangGraph and Llama3-8b from scratch.
+	- https://github.com/langchain-ai/langgraph/blob/main/examples/rag/langgraph_rag_agent_llama3_local.ipynb
+
 
 ## 4/15
 
@@ -3782,17 +3784,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Check out this fantastic blog covering the basics of RAG, the theory behind it, and how to use it in practice
 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces
 	- https://arxiv.org/abs/2312.00752
-	- トランスフォーマーや注意機構に頼らない、線形時間のシーケンスモデリングのための新しいニューラルネットワークアーキテクチャ
-	- 2倍サイズのTransformersに匹敵したり、5倍の高速推論が出来たりと、Transformerを代替しうる可能性
-	- 2.8Bが出てるらしい、
-	- https://huggingface.co/state-spaces/mamba-2.8b
--  Instruction-tuning A
+	- トランスフォーマーや注意機
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODQ3MTE4MywtMTg5MDg0NzEzMCwtMT
-QwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIy
-NzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOC
-w2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OTMy
-ODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5My
-wtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMTcx
-ODQwMzc5OV19
+eyJoaXN0b3J5IjpbNjgyNzYxNTg2LC0xODkwODQ3MTMwLC0xND
+A2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3
+MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LD
+YyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4
+NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC
+0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4
+NDAzNzk5XX0=
 -->
