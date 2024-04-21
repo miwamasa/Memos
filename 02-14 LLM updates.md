@@ -35,7 +35,7 @@
 - HachiML/Swallow-MS-7b-v0.1-ChatSkill-LAB
 	- https://huggingface.co/HachiML/Swallow-MS-7b-v0.1-ChatSkill-LAB
 	- ChatVectorを使って新しいApache2.0のChatモデルを作りました。 ChatVector抽出元のモデルもMixtral-8x7B-Instructによる人工データ(Synthetic Data)で学習されたものなので、隠れたライセンス汚染の心配はありません
-- 
+- Foundational Challenges in Assuring Alignment and Safety of Large Language Models
 
 ## 4/15
 
@@ -3802,14 +3802,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 多言語性能はGPT-4より良い
 	- コンテキストトークン数は32768。98%の精度で正しい値を取得可能！98%?まじかよ。
 - Googleアカウントの言語設定を英語にすると、BardのバックがGemimi Proが使える
-	- https://x.com/npaka123/status/1732504570218283340?s=20
-- Bard(Gemini Pro)が霞が関パワポを解析して説明してく
+	- https://x.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2OD
-UyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUw
-MjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNT
-kzMjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQx
-OTMsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LD
-E3MTg0MDM3OTksLTE3Njc5ODIzMTYsNjU0Nzk3NTU5LC0xMTcx
-OTEyOTUxXX0=
+eyJoaXN0b3J5IjpbNDEzMTYwMzAwLDE2NzAzNTY3MTYsMzUyOT
+E1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0
+MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMT
+MwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4
+NjYsMjMwOTE0MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMT
+YwMDAyODg2NywxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5
+NzU1OV19
 -->
