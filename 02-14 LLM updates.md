@@ -23,7 +23,9 @@
 - RTX4090+A6000(24+48GB VRAM)でcommand-r-plus-Q4_K_Mを65/65 layer GPUに載せても6.5t/sくらいが限度だった。 おそらく、96GBではメインメモリが足りないから遅い。
 	- https://x.com/Meteor_Eternal/status/1779807643668013534
 - an introduction to agents and tools
-	- 
+	- https://x.com/llama_index/status/1779898403239125198
+	- This short course is the perfect beginner sequence for anyone looking to get an overview of agent implementations, how to equip them with tools to perform tasks like advanced QA/RAG or anything else, and also some neat extensions (tool retrieval, step-wise execution).
+- 
 
 ## 4/15
 
@@ -3803,17 +3805,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Colabで試せるらしい
 	- https://colab.research.google.com/drive/16s0tlCSEDtczjPzdIK3jq0Le5LlnSYGf?usp=sharing
 - Evaluating and Mitigating Discrimination in Language Model Decisions
-	- https://www.anthropic.com/index/evaluating-and-mitigating-discrimination-in-language-model-decisions
-	- Anthropicより、（LLMの出力における）差別を検知するためのデータセットを公開
--  AMD、生成AIでNVIDIA H100を上回る性能のGPU「Instinct MI300」
-	- https://pc.watch.impress.co.jp/docs/news/1552583.html
-	- TDP 750WのMI300Xは、TDP 700WのNVIDIA H100と比較し、FP64,32で約2.4倍、AIで利用のTF32、FP16、BF16、FP8、INT8などでは1
+	- https://www.anthropi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE2MTc4NDcsMzUyOTE1MzM4LC00Nj
-g1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1
-MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLT
-U5MzI4NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0
-MTkzLC0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2Ny
-wxNzE4NDAzNzk5LC0xNzY3OTgyMzE2LDY1NDc5NzU1OSwtMTE3
-MTkxMjk1MV19
+eyJoaXN0b3J5IjpbOTU3MDIxODcxLDM1MjkxNTMzOCwtNDY4NT
+IyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAy
+OCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01OT
+MyODY1MDUsLTI3NzkzNjcyMywxMzMxNDQxODY2LDIzMDkxNDE5
+MywtMTc2NDk0MDk5OCwxODk3MTYxNjYyLDE2MDAwMjg4NjcsMT
+cxODQwMzc5OSwtMTc2Nzk4MjMxNiw2NTQ3OTc1NTksLTExNzE5
+MTI5NTFdfQ==
 -->
