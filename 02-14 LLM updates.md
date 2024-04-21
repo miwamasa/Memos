@@ -160,7 +160,10 @@
 	- https://note.com/schroneko/n/n8b1a5bbc740b#57403f33-7b40-444e-9342-c8bf11458d18
 	- ローカル LLM 初めましての方でも動かせるチュートリアル
 	- Ollama を使えば簡単に LLM をローカル環境で動かせる
-- 
+- Crystalcareai/llama-3-4x8b
+	- https://huggingface.co/Crystalcareai/llama-3-4x8b
+	- This is an MOE of Llama-3-8b with 4 experts. This does not use semantic routing, as this utilizes the deepseek-moe architecture. There is no routing, and there is no gate - all experts are active on every token.
+	- 予想はしてたけど、もうLlama3のMoEができてる　by はち 
 
 
 ## 4/15
@@ -3781,20 +3784,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ① 大都市ほど、異なる社会ステータスのひとたちは混じわらない（[https://doi.org/10.1038/s41586-023-06757-3…](https://t.co/tEkbdQOPG3)） 
 	- ② 同じ町（≃学内）の研究者だけで行われた研究の方が、異なる地域間の共同研究よりも革新的な成果がでやすい（[https://doi.org/10.1038/s41586-023-06767-1…](https://t.co/jrBRV4Gxtk)）
 -  Phantom oscillations in principal component analysis
-	- https://www.pnas.org/doi/10.1073/pnas.2311420120?utm_source=TOC&utm_medium=ealert&TOC_v120_i48=&ref=d4140497
-	- 時間的・空間的にスムーズなデータ (ほとんどの生理データ…) 等を主成分分析 PCA すると、偽のオシレーションが出現する
--  Refactoring Programs Using Large Language Models with Few-Shot Examples
-	- https://arxiv.org/abs/2311.11690
-	- リファクタリングにLLMを使う
-- "On Bringing Robots Home" Nur Muhammad Mahi Shafiullah et al., New York University
-	- https://arxiv.org/abs/2311.16098
-	- 家庭用ロボット
+	- https://www.pnas.org/doi/10.1073/pnas.2311420120?utm_source=TOC&utm_medium=ealert&TOC_v120_i48=&ref=d4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3MDM3MTcwLC0xODkwODQ3MTMwLC0xND
-A2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3
-MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LD
-YyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4
-NjUwNSwtMjc3OTM2NzIzLDEzMzE0NDE4NjYsMjMwOTE0MTkzLC
-0xNzY0OTQwOTk4LDE4OTcxNjE2NjIsMTYwMDAyODg2NywxNzE4
-NDAzNzk5XX0=
+eyJoaXN0b3J5IjpbLTEzNDYzMjA5NTgsLTE4OTA4NDcxMzAsLT
+E0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUy
+MjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMj
+gsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywtNTkz
+Mjg2NTA1LC0yNzc5MzY3MjMsMTMzMTQ0MTg2NiwyMzA5MTQxOT
+MsLTE3NjQ5NDA5OTgsMTg5NzE2MTY2MiwxNjAwMDI4ODY3LDE3
+MTg0MDM3OTldfQ==
 -->
