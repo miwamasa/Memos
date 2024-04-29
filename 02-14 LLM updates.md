@@ -177,7 +177,12 @@
 	- https://x.com/woodstockclub/status/1784179786082128351
 	- 配信者の2人「ジェンスン？誰？？」
 -  高速AIチップで話題のGroqのAPIをStreamlitで使う方法
-	- 
+	- https://note.com/masayuki_abe/n/n336721e355e6?sub_rt=share_pb
+	- 高速AIチップで話題のGroqのAPIをStreamlitのコードの記事を書いてみました。OpenAIのAPIと表記が似ているので書きやすいですね。
+- Swallow-MS-7BやRakutenAI-7Bはトークンの語彙が拡張されてる事に気付いたが、これって拡張されてない他のモデルとマージしたらアカンのだろうか
+	- https://x.com/umiyuki_ai/status/1784274430816034898
+- 
+
 
 ## 4/21
 
@@ -3766,17 +3771,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Building LLM-Powered Web Apps with Client-Side Technology
 	- https://ollama.ai/blog/building-llm-powered-web-apps
 	- https://www.youtube.com/watch?v=-1sdWLr3TbI
-	- I’d try a different approach and try to build a web app using exclusively local models and technologies, preferably those that run in the browser!
-	- ollamaをつかってLangchainをつかった、WebベースのローカルなRAGの構築例
-- PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU
-	- https://arxiv.org/abs/2312.12456
-	- 消費者向けGPUでも高性能GPU
+	- I’d try a different approach and try to bui
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTMwOTM1OSwzMTU4MzkzNjQsMTUxNj
-M2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1
-OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLT
-kyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4
-NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMz
-gsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5
-ODEwNjUwMjhdfQ==
+eyJoaXN0b3J5IjpbNjk3NzczMzIxLDMxNTgzOTM2NCwxNTE2Mz
+YyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5
+LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOT
+IyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0
+NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOC
+wtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4
+MTA2NTAyOF19
 -->
