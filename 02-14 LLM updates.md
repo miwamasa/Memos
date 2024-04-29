@@ -35,7 +35,13 @@
 - alfredplpl/Llama-3-8B-Instruct-Ja　 by あるふさん
 	- https://huggingface.co/alfredplpl/Llama-3-8B-Instruct-Ja
 	- 日本語向け Llama 3 8Bを公開してみました。LoRAで表面を学習しただけなので、性能はありません。ただ、普通のLlama 3よりかは日本語が強くなっているはずです。よろしくお願いします
-- 
+- Groqの値段調べ、llama3など
+	- https://x.com/webbigdata/status/1782240169879601540
+	- GroqはLPU(Language Processing Unit)という独自ハードウェアを開発している会社です
+	- Llama 3 70BがAnthropic Claude 3 Sonnet($3.00/$15.00)相当の性能であれば、GroqのLlama 3 70B APIの価格設定($0.59/$0.79)は非常に競争力があります
+- Llama 3 70b layer pruned from 70b -> 42b by Charles Goddard
+	- https://www.reddit.com/r/LocalLLaMA/comments/1c9u2jd/llama_3_70b_layer_pruned_from_70b_42b_by_charles/
+	- chargoddard/llama3-42b-v0
  
 
 ## 4/21
@@ -3763,19 +3769,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 英語がメインのLLM Mistral-7Bモデルを300M(0.3B)へダウンサイズして、pretraining + instruction tuningをColab上のGPU T4(!!!)で6時間(0.02epoch)で日本語学習させるという意欲的な記事
 -  FunSearch: Making new discoveries in mathematical sciences using Large Language Models
 	- https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/?utm_source=twitter&utm_medium=social
-	- DeepMindの研究チームが、AIを用いて数学の未解決問題に挑み、科学界における前例のない成果を出したと発表しました。 「FunSearch」と名付けられた大規模言語モデルを活用し、問題解決策をコンピュータプログラムの形で生成。「キャップセット問題」と「ビンパッキング問題」という数学の問題において、新たな解法を発見したとのことです。
-	- Introducing FunSearch in @Nature: a method using large language models to search for new solutions in mathematics & computer science
-	- DeepMindがLLMを「事前にタスク評価できる問題」に遺伝的アルゴリズムを組み合わせたFunSearch(searching in the function space)提案。
-	-  LLMがコード生成->評価->洗練のループ。 
-	- ** 科学,数学の未解決問題に対して、初めてLLMを用いた新たな発見 **。 
-	- その例としてcap set problem,bin-packing problem。
--  Benchmarking R
+	- DeepMindの研究チームが、AIを用いて数学の未解決問題に挑み、科学界における前例のない成果を出したと発表しました。 「FunSearch」と名付けられた大規模言語モデルを活
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTk4MDMxMyw4NjEyNTc0NzMsLTE1MT
-k2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5
-NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC
-0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUy
-OTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OT
-A0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDEx
-MTMwNzY3MDddfQ==
+eyJoaXN0b3J5IjpbLTE1MTc1OTE2MTcsODYxMjU3NDczLC0xNT
+E5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2
+OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1Ni
+wtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1
+MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1ND
+kwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwx
+MTEzMDc2NzA3XX0=
 -->
