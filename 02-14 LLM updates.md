@@ -44,6 +44,9 @@
 	- chargoddard/llama3-42b-v0
 	- Llama3-70Bを枝刈りしてパラ数42Bにしちゃったというブツらしい。
 -  Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
+	- https://arxiv.org/abs/2404.14219
+	- Microsoft announces phi-3-mini, a 3.8B model trained on 3.3T tokens that rivals Mixtral 8x7B and GPT-3.5
+- 
  
 
 ## 4/21
@@ -3769,14 +3772,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 大規模言語モデルを自作しよう！(Transformers+DeepSpeed+torch.compile+flash_attn2
 	- https://zenn.dev/selllous/articles/transformers_pretrain_to_ft
 	- 英語がメインのLLM Mistral-7Bモデルを300M(0.3B)へダウンサイズして、pretraining + instruction tuningをColab上のGPU T4(!!!)で6時間(0.02epoch)で日本語学習させるという意欲的な記事
--  FunSearch: Making new discoveries in mathematical sciences using Large Language Models
-	- https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/?utm_so
+-  FunSearch: Making new discoveries in mathematical sciences using Large Lan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5MjUwMTYxLDg2MTI1NzQ3MywtMTUxOT
-Y5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1
-NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLT
-E4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5
-MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MD
-QxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTEx
-MzA3NjcwN119
+eyJoaXN0b3J5IjpbLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MT
+k2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5
+NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC
+0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUy
+OTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OT
+A0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDEx
+MTMwNzY3MDddfQ==
 -->
