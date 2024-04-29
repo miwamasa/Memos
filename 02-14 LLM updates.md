@@ -7,7 +7,13 @@
 	- https://speakerdeck.com/iwiwi/17-nlpkorokiumu
 	- 日本語LLMのマージはあまりない、継続学習されて、元の重みからずれてしまっている。
 	- そこで、進化的計算によるマージ。
-- 
+-  「AI事業者ガイドライン（第1.0版）」
+	- https://www.meti.go.jp/press/2024/04/20240419004/20240419004.html
+	- これまでMLPdM的な人が一般的に留意すべきと言われていたようなことに加え、より広い社会的な観点や、AIの利用者の観点なども踏まえた上でうまくまとめられている有益なガイドラインだと感じました。
+	- https://x.com/yu__ya4/status/1782037184079683916
+- Command R+はどこまで量子化するとアホになってしまうのか？ by npakaさん？
+	- https://soysoftware.sakura.ne.jp/archives/3834
+	- 
 
 ## 4/21
 
@@ -3768,15 +3774,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Benchmarking Large Language Models As AI Research Agents
 	- https://arxiv.org/abs/2310.03302
 	- この論文が素晴らしいのは、open-ended な状況で研究をするエージェントというコンセプトを明確に提示した点だ
-- calm2-7b-chatをRAG QAで使うための調査
-	- https://x.com/_oshizo_/status/1735282188546089332?s=20
-	- context全体の長さ（横軸）と、正解になるキーワードの位置（縦軸）を変えながら、出力に正解の文字列を含
+- calm2-7b-chatをRAG QAで使うための
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3NTQzMjA4LC0xNTE5Njk5MzU5LDI3Mj
-A1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0
-MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMC
-wtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4
-NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NT
-AyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01
-OTMyODY1MDVdfQ==
+eyJoaXN0b3J5IjpbMTkwMDY1MjYxNSwtMTUxOTY5OTM1OSwyNz
+IwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5
+NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMz
+AsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2
+ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNj
+UwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywt
+NTkzMjg2NTA1XX0=
 -->
