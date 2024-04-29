@@ -94,7 +94,15 @@
 	- モデルサイズが小さいほどfine tuningの効果が大きい
 	- モデルが大きいほどLoRAのパフォーマンスは古パラメータのチューニングに接近しそう
 - LLMの継続学習における論文紹介
-	- 
+	- https://note.com/sergicalsix_/n/ndbd5b29451c9
+	- LLMの継続学習においてドメインの内容や順序などについて調査。ドメインを類似度順で継続学習した方がドメイン特化させやすく、ドメインをランダムな順序で継続学習した方がLLMの性能・知識の蓄積が改善する。
+-  Command R+はトークナイザーもすごかった
+	- https://qiita.com/sergicalsix/items/5ceb9a3a0d11affb4b9a
+	- 今回はCommand R+の日本語の応答速度が本当に速いのか、なぜ速いのかについてトークナイザー観点で述べたいと思います。
+	- CohereのAyaとCommand R+のトークナイザーは他のトークナイザーと比べてトークン数が削減できていることがわかりました。
+- Apple、iPhoneでも稼働するオープンな言語モデル「OpenELM」を公開
+	- https://www.itmedia.co.jp/news/articles/2404/25/news103.html
+- 
 
 ## 4/21
 
@@ -3777,21 +3785,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - マイクロソフトがPhi-2とかいう2.7BパラのLLMをリリース
 	- https://x.com/umiyuki_ai/status/1734763437274890746?s=20
 	- MicrosoftがIgniteで話していたわずか27億パラメータの言語モデルPhi-2
-	- パラ数小さいくせにあり得ん高性能を発揮してるらしい。
-	- 学習量は1.4Tトークンで、96個のA100で14日かけてトレーニング。
-	- ベンチマークでパラ数3.2BのGemini Nanoに完勝（てかGemini Nanoのパラ数初めて知ったわ）
-	- そしてマイクロソフトの独自ベンチにおいて、まさかのLlama2-70B相手にコーディングで圧勝、数学で僅差に迫る。Llama2-13B相手には完勝してしまう。
-- The Emergent Abilities of LLMs Could Be A Mirage!
-	- The best paper award in NeurIPs 2023 went to a paper claiming that the emergent abilities of LLMs could be a mirage!
-- llamaindexにてmistralaiのサポートドキュメント公開
-	- https://docs.llamaindex.ai/en/stable/examples/llm/mistralai.html
--
+	- パラ数小
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE0OTg0MzYsLTM0MjQ4MDMyMSw4Nj
-EyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2
-ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNy
-wtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2
-NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0Mz
-AzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwx
-OTgzNjYwOTMwXX0=
+eyJoaXN0b3J5IjpbLTE0MjgyODUxMiwtMzQyNDgwMzIxLDg2MT
+I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
+MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
+04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
+MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMD
+M1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5
+ODM2NjA5MzBdfQ==
 -->
