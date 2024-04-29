@@ -75,6 +75,8 @@
 	- https://x.com/Alibaba_Qwen/status/1782426698279272742
 	- Last week, we released a CodeQwen1.5 and received a lot of positive feedback! Thank you for your support! 
 - 手元のMacbook AirでPhi 3の量子化されたやつを動かしているのだが、これGPT-3.5こえてるよね。ノートパソコンで普通に動くってどういうことだ
+	- https://x.com/alfredplpl/status/1782808427129114796
+- 
  
 
 ## 4/21
@@ -3782,10 +3784,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/gemini.ipynb
 	-  Multi-modal Model中もサポートしているらしい、、、
 -  Google Generative Language Semantic Retriever
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/managed/GoogleDemo.ipynb
-	- Google’s new semantic retrieval endpoint offers specia
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/managed/GoogleDemo.ipyn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjAzOTcwNywtMzQyNDgwMzIxLDg2MT
+eyJoaXN0b3J5IjpbMTM5Njk0NDI3MCwtMzQyNDgwMzIxLDg2MT
 I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
 MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
 04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
