@@ -145,6 +145,7 @@
 	- 7Bクラスとは思えない超高性能なんだ
 	- 英語の最強7BモデルStarling-LM-7B-betaから抽出したChat Vectorを、 日本語モデルのChatNTQ-JA-v1.0-7bに掛け合わせただけ。 追加の日本語学習は一切なし
 	- https://huggingface.co/TFMC/Japanese-Starling-ChatV-7B-GGUF
+- 
 
 ## 4/21
 
@@ -3773,13 +3774,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2312.00678
 	- LLMの効率を高めるためのノウハウに関する網羅的な調査 by Microsoft
 	- スケーリング／データ／アーキテクチャ／トレーニングとチューニング／推論、といった5つの観点から報告されています。
-- MistralAI Emb
+- MistralAI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTI3NDM2NiwxNTE2MzYyNDc3LC0zND
-I0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIy
-NCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC
-05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQw
-NjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNz
-ExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2
-MjQyMDY1ODFdfQ==
+eyJoaXN0b3J5IjpbLTE5OTMzNDgwNjcsMTUxNjM2MjQ3NywtMz
+QyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMy
+MjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NS
+wtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0
+MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMj
+cxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgs
+NjI0MjA2NTgxXX0=
 -->
