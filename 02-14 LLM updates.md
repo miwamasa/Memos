@@ -165,7 +165,10 @@
 	- https://note.com/npaka/n/nc0c8d5beacff?sub_rt=share_h
 	- 「**Weave**」は、LLMアプリケーションの記録、実験、評価のためのツールです
 	- 「**Elyza-tasks-100**」はElyzaが提供する指示チューニングモデル用の評価用データセットです。
-	- 
+- Domingos氏、AIの能力が人間レベルで飽和しているように見えていることを指摘しているが、、
+	- https://x.com/rmaruy/status/1784154638390104188
+	- むしろこれらのタスクで120%や200%を有意味に議論できるのかという方が気になる。という意味で、Domingos氏の意図と異なる意味で超知能到来ビジョンへの疑義になっている。
+- 
 
 ## 4/21
 
@@ -3769,14 +3772,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ③ 実際のサービスに近いテキスト処理を行った 
 	- ■結果 
 		- ① 消費者向けでも高性能（A100）の82%に上る生成速度を達成 
-		- ② 量子化モデルで最大8.00倍、非量子化モデルで最大11.69倍のパフォーマンス向上を実現 
-		- ③ ニューロンの活性化に応じて適切な割り当てを実行
-
-## 12/18
-
-今週もすさまじい情報量。ルカン先生もこの情報量には追い付けないとのこと（インタビュー動画）。GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどん行われた。フリー版ならば、60QPM (queries per minute)までは
+		- ② 量子化モデルで最大8.00倍、非量子化モデルで最大11.69倍のパフォーマン
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTA4OTA4NCwzMTU4MzkzNjQsMTUxNj
+eyJoaXN0b3J5IjpbMjAyMzczMTI3MiwzMTU4MzkzNjQsMTUxNj
 M2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1
 OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLT
 kyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4
