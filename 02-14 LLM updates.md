@@ -145,6 +145,10 @@
 	- 7Bクラスとは思えない超高性能なんだ
 	- 英語の最強7BモデルStarling-LM-7B-betaから抽出したChat Vectorを、 日本語モデルのChatNTQ-JA-v1.0-7bに掛け合わせただけ。 追加の日本語学習は一切なし
 	- https://huggingface.co/TFMC/Japanese-Starling-ChatV-7B-GGUF
+- Mergekit-Evolveのテストで試しに作ったモデル、Japanese-Chat-Umievo-itr001-7b
+	- https://x.com/umiyuki_ai/status/1783867934542303666
+	- https://huggingface.co/umiyuki/Japanese-Chat-Umievo-itr001-7b
+	- ElyzaTasks100で評価してみたら平均3.57点を叩き出した！7Bモデルなのに35BパラのCommand Rを超えてます！進化的アルゴリズムの威力恐るべし！！とりまHuggingFaceに上げました！
 - 
 
 ## 4/21
@@ -3768,19 +3772,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 日本語 LLM の精度がいまいちなのはデータセットに問題がありそうという指摘
 	- https://github.com/AUGMXNT/shisa/wiki/A-Review-of-Public-Japanese-Training-Sets#analysis
 - gtp-fastの本家github
-	- Simple and efficient pytorch-native transformer text generation.
-	- https://github.com/pytorch-labs/gpt-fast
-- "The Efficiency Spectrum of Large Language Models: An Algorithmic Survey"
-	- https://arxiv.org/abs/2312.00678
-	- LLMの効率を高めるためのノウハウに関する網羅的な調査 by Microsoft
-	- スケーリング／データ／アーキテクチャ／トレーニングとチューニング／推論、といった5つの観点から報告されています。
-- MistralAI
+	- Simple and efficient pytorch-native transforme
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMzNDgwNjcsMTUxNjM2MjQ3NywtMz
-QyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMy
-MjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NS
-wtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0
-MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMj
-cxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgs
-NjI0MjA2NTgxXX0=
+eyJoaXN0b3J5IjpbMzE1ODM5MzY0LDE1MTYzNjI0NzcsLTM0Mj
+Q4MDMyMSw4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0
+LC0xOTUwMzE2ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLT
+k1NjQzMjYyNywtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2
+NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MT
+EsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYy
+NDIwNjU4MV19
 -->
