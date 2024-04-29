@@ -46,6 +46,10 @@
 -  Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
 	- https://arxiv.org/abs/2404.14219
 	- Microsoft announces phi-3-mini, a 3.8B model trained on 3.3T tokens that rivals Mixtral 8x7B and GPT-3.5
+	- パラメータ数、学習トークン数
+		- ①Phi-3-mini (38億、3兆3000億)
+		- ②Phi-3-small (70億、4兆8000億) 
+		- ③Phi-3-medium (140億、4兆8000億）
 - 
  
 
@@ -3771,14 +3775,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://huggingface.co/microsoft/phi-2
 - 大規模言語モデルを自作しよう！(Transformers+DeepSpeed+torch.compile+flash_attn2
 	- https://zenn.dev/selllous/articles/transformers_pretrain_to_ft
-	- 英語がメインのLLM Mistral-7Bモデルを300M(0.3B)へダウンサイズして、pretraining + instruction tuningをColab上のGPU T4(!!!)で6時間(0.02epoch)で日本語学習させるという意欲的な記事
--  FunSearch: Making new discoveries in mathematical sciences using Large Lan
+	- 英語がメインのLLM Mistral-7Bモデルを300M(0.3B)へダウンサイズして、pretraining + instruction tuningをColab上のGPU T4(!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MT
-k2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5
-NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC
-0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUy
-OTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OT
-A0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDEx
-MTMwNzY3MDddfQ==
+eyJoaXN0b3J5IjpbLTkxNTUwMjA1MiwtMzQyNDgwMzIxLDg2MT
+I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
+MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
+04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
+MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMD
+M1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5
+ODM2NjA5MzBdfQ==
 -->
