@@ -133,6 +133,13 @@
 	- a library for large model training called torchtitan
 	- They have scripts to train Llama-3 from scratch
 	- The library went public today on GitHub but it is still in pre-release state & active development
+- LangChainを用いた4種類のRAG質問応答chainの実装と性能比較
+	- https://zenn.dev/aidemy/articles/97d5fb6ac03a4f
+	-  **stuff chain**、 **map reduce chain**、**map rerank chain**、 **refine chain**
+	-  **適している文書特徴**
+		-  **stuff・map reduce**  : 文書全体を1段階または2段階でLLMに入力するため, 文書全体に重要な情報が含まれる場合に特に有効です。
+		- **map rerank**  : 文書の一部のみの回答から最良の回答を選ぶため, 一部のみに重要な情報が含まれる場合に特に有効です。
+		- **refine**  : 一部のみの回答を複数回再起的に呼び出すため, 重要な情報が文書の全体でも一部でも対応することが可能です。
 - 
 
 ## 4/21
@@ -3766,15 +3773,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/embeddings/mistralai.ipynb
 	- llamaindexよりMistralAI のEmbeddingsを利用するnotebook
 	- なんか、MistralAI自体もつかるらしい
-		- The new Mistral 8x7B model is an open-source model that made waves in the AI community today, outperforming gpt-3.5 and llama2 70B. Check out `mistral-tiny`, `mistral-small`, and `mistral-medium` variants.
-		- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/mistralai.ipynb
-- Mistralがどうえらいのか？ by ジムファン氏
-	- https://twitter.com/DrJimFan/status/1734269362100437315
-	- MoE is the right path forward
-	- An LLM is a snapshot of a civilization
-	- ジムファン氏曰く、MistralのMixtralモデル公開のワケ分からんムーブは実は高度
+		- The new Mistral 8x7B model is an open-source model that
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTE2OTMwMCwxNTE2MzYyNDc3LC0zND
+eyJoaXN0b3J5IjpbMTQ0NDUyODYyOSwxNTE2MzYyNDc3LC0zND
 I0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIy
 NCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC
 05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQw
