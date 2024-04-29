@@ -25,7 +25,11 @@
 	- 一昨日発表された  [Llama3](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)  を4bit量子化 してつかってみました
 	-  GPUの VRAM は 6GB 程度消費します
 	- Llama3の 語彙数は 32000(Llama2) => 128256 へと大幅に増えました
-- 
+- LoRA fine-tuning of embedding models using LlamaIndex
+	- https://medium.com/@diagnosta/lora-fine-tuning-of-embedding-models-using-llamaindex-a60b823a2c94
+	- In this blog post, we’ll explore how to fine-tune black-box embedding models using low-rank adaptation (LoRA) with the LlamaIndex library. LoRA is a technique that trains a small number of rank-decomposed weights to adapt a pre-trained model to a new task or domain. 
+- 自宅PCでクラスターを構築：コンシューマーGPUの枠を超え、大型LLMをローカルで動かす！ by AIサトシ
+	- 
  
 
 ## 4/21
@@ -3767,21 +3771,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Mistral7Bを8つ束ねた、Mixtral 8x7BというMOEモデル
 	- エキスパートを何人か、日本語が得意なMistral7B互換モデルに差し替えたらどうだろう？
 	- 注意機構だけ、MLP層だけ、コピーするエキスパート数を変更など実験しましたが、基本モデルが壊れました
-- 自民党がAI規制を提言
-	- https://x.com/umiyuki_ai/status/1735277687097414124?s=20
-- GCPよりGemeniの様々な利用方法とnotebook
-	- https://github.com/GoogleCloudPlatform/generative-ai
-- Geminiをつかって、クリスマスカードを作る例 by google
-	- https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/Prepare_Christmas_cards_with_Gemini_and_Sheets.ipynb
--  OpenAI thinks superhuman AI is coming — and wants to build tools to control it
-	- https://openai.com/blog/superalignment-fast-grants
-	- Open AI超人的な
+- 自民党
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyMzc2MzM2LDg2MTI1NzQ3MywtMTUxOT
-Y5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1
-NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLT
-E4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5
-MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MD
-QxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTEx
-MzA3NjcwN119
+eyJoaXN0b3J5IjpbLTEyOTY0MjAxODEsODYxMjU3NDczLC0xNT
+E5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2
+OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1Ni
+wtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1
+MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1ND
+kwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwx
+MTEzMDc2NzA3XX0=
 -->
