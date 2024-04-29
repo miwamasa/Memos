@@ -53,6 +53,13 @@
 - は？Phi3-small-7BはMMLUが75.3点？Llama3-8Bでも66点だというのに。
 	- https://x.com/umiyuki_ai/status/1782622321704079652
 -  Weekly AI Agents News!
+	- https://speakerdeck.com/masatoto/weekly-ai-agents-news
+	- このLLMブクマアプデのように毎週、Agent関係の情報を収集している人
+	- LLMエージェントに関するニュースを毎週まとめてくださる
+-  From  r  to  Q∗: Your Language Model is Secretly a Q-Function
+	- https://arxiv.org/abs/2404.12358
+	- LLMのアライメントであるDPOは実はトークン単位の逆Q学習を実現し、最適なアドバンテージ関数を推定し、トークン単位の信用割当問題を解いている。例えばある対話の結果につながった原因のトークンを特定できたり、尤度最大化のビーム探索はそのまま収益最大化とみなせる by 岡野原さん
+- 
  
 
 ## 4/21
@@ -3769,16 +3776,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Access Google AI’s `gemini` and `gemini-vision` models, as well as other generative models through `ChatGoogleGenerativeAI` class in the [langchain-google-genai](https://pypi.org/project/langchain-google-genai/) integration package.
 - Gemini Pro APIの価格表、
 	- https://ai.google.dev/pricing?hl=ja
-	- 入力が$0.00025/1k charactersなのでgpt-3.5-turbo-1106の1/4の価格（つまり11月以前のgpt-3.5-turboの1/12）で使えるらしい。
-	- フリー版ならば、60QPM (queries per minute)までは使える！！！！
-- phi-2を試す
-	- https://x.com/npaka123/status/1735077608071876882?s=20
-	- Llama2-70B相手にコーディングで圧勝した2.7Bモデル。
-	- https://huggingface.co/microsoft/phi-2
-- 大規模言語モデルを自作しよう！(Transformers+DeepSpeed+torch.compile+flash_attn2
-	- https://zenn.dev/selllous/ar
+	- 入力が$0.00025/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjA3NzcxMTEsLTM0MjQ4MDMyMSw4Nj
+eyJoaXN0b3J5IjpbLTE4Mjc3NzMzNzYsLTM0MjQ4MDMyMSw4Nj
 EyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2
 ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNy
 wtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2
