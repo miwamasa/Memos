@@ -1,6 +1,10 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+## 4/29
+
+- 
+
 ## 4/21
 
 今週は、最大３倍高速という日本語GPT-4の開発の発表もあったけど、なんといってもメタからllama3の待望の公開。最初は8bと70bが公開され、さらなる大規模モデルも開発中とのこと。lllama3のファインチューニングに用いたPyTorchの新機能tochtuneも公開。早速、量子化、MoE化、ファイチューニングの実行例が公開され、MXで8GB M2 miniでの動作確認!、ollamaの対応、さらにはGroqに乗っかってデモサイトでLlama3-70Bが300t/sの超絶爆速推論を見せたなどの一通りが１週間で進む。RAGでのllama3の利用例もLangChainから紹介があったが、CommandR＋もllama3も、プロンプトに与えるテンプレートが独特なので、LLMをネイティブに使う人は要注意だ。1bitのLLMも、shi3zさんの自作評価や、椎橋さんによるGPUではないオーダーメイドによるAIソリューション「カスタムAI」の可能性など、いい記事がでてきた。ChatVectorによるLLM性能向上も、先週に引き続き、Bakuさんの、ChatNTQ 7B と LightChatAssistant 2x7B の日本語能力を試す記事が神記事として話題に。LightChatAssistantってのはそんなにすごいのか。作ってみたら性能が高かったというJapanese-Starling-ChatV-7B-GGUFなども出たり、ChatVector紹介の先駆者はちさんからSwallow-MS-7b-v0.1-ChatSkill-LABが出たり、能力加算の組み合わせの最適解をoptuneをつかって実行・評価とか、、LLMの能力の足し算引き算しつつ性能を評価するという一段メタな世界が開けた。PFNの丸山さんが紹介された、LLMをつかって言葉だけで、線形回帰をさせるという論文、どんなモデルを内部に持っているんだという意味で面白い。 Cambridge大学のU. Anwar, D. Krueger氏ら40名!による、LLMのアライメントと安全性の未解決問題に関する175ページの総説論文はすごい、AIガバナンスのオックスフォードハンドブックもあり、UKではアライメントとガバナンスの大きな拠点になっているのか。マイクロソフトから、WizardLM-2 の7bと8x22bが発表、Evolve Instructという新しいファインチューニング手法の能力やいかに、エージェント機能も持っているとか、嵐の予感。Qwen1.5-7B-Chat-GGUFも出た、来週あたりQwen1.5ベースの日本語LLMが出てくるのでは。DeepMindの「Many-shot」多数例示学習の有効性や、RAGのMiniCheck、複数の知識を組み合わせるChain-of-Abstraction (CoA) ReasoningなどのLLM推論での進展もあった。丸山隆一さん、AI科学の何が“哲学”という問い（スライド）も良いし、「AI協働時代に研究者はどう生きるか」というイベントも面白い。AIが（従来の）研究ができるようになるならば、AI研究者はなにをするのかみたいな感じ。さきほどのUKと比べるとこのあたりの研究者層が薄いのかな。その他としては、Swallow-MXを使ったQ&AデータセットであるAutoWikiQAとか、MiniCPM-V-2のデモの公開、商用利用可能なマルチモーダルLLM、idefics-8bなども出てきた。
@@ -3764,11 +3768,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/_oshizo_/status/1735282188546089332?s=20
 	- context全体の長さ（横軸）と、正解になるキーワードの位置（縦軸）を変えながら、出力に正解の文字列を含
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMT
-g3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5
-OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MT
-YsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2
-MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOT
-MwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwtMjc3OTM2NzIzLDEz
-MzE0NDE4NjZdfQ==
+eyJoaXN0b3J5IjpbLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOT
+UwMzE2ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQz
+MjYyNywtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNz
+MyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5
+MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNj
+U4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcsLTU5MzI4NjUwNSwt
+Mjc3OTM2NzIzXX0=
 -->
