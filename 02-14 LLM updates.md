@@ -93,7 +93,8 @@
 	- 医療ドメインでLLMをfine tuningする際、フルパラメータのチューニングをするかLoRAで効率的にチューニングするべきかをLlama-2ベースのモデルで検証した論文。
 	- モデルサイズが小さいほどfine tuningの効果が大きい
 	- モデルが大きいほどLoRAのパフォーマンスは古パラメータのチューニングに接近しそう
-- 
+- LLMの継続学習における論文紹介
+	- 
 
 ## 4/21
 
@@ -3784,13 +3785,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- The best paper award in NeurIPs 2023 went to a paper claiming that the emergent abilities of LLMs could be a mirage!
 - llamaindexにてmistralaiのサポートドキュメント公開
 	- https://docs.llamaindex.ai/en/stable/examples/llm/mistralai.html
-- 【ローカルLLM】Mixtral-8
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDMzNzIzNCwtMzQyNDgwMzIxLDg2MT
-I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
-MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
-04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
-MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMD
-M1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5
-ODM2NjA5MzBdfQ==
+eyJoaXN0b3J5IjpbLTExNTE0OTg0MzYsLTM0MjQ4MDMyMSw4Nj
+EyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2
+ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNy
+wtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2
+NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0Mz
+AzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwx
+OTgzNjYwOTMwXX0=
 -->
