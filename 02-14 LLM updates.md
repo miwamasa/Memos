@@ -119,6 +119,14 @@
 	- http://chasen.org/~daiti-m/textmodel/textmodel-chapter5.pdf
 -  Graph Machine Learning in the Era of Large Language Models (LLMs)
 	- https://arxiv.org/abs/2404.14928
+	- グラフと言語モデルに関するレビュー論文
+	- グラブ系機械学習モデルとLLMの組み合わせによる研究例や展望がまとまっています。MI分野だけでなく他分野の事例もあり参考になります。
+- Two new AI releases by Apple today
+	- https://x.com/pcuenq/status/1783032344104026372
+	- OpenELM, a set of small (270M-3B) efficient language models. Weights on the Hub:
+	- CoreNet, a training library used to train OpenELM:
+-  [Tracing the Roots of Facts in Multilingual Language Models: Independent, Shared, and Transferred Knowledge](https://aclanthology.org/2024.eacl-long.127.pdf)
+	- 多言語言語モデルが獲得している事実に関する知識を53言語で検証。どのような原因によって言語ごとに差が出るのか、データ量や地理的観点・活性化されたニューロンの類似性などから分析している。
 	- 
 
 ## 4/21
@@ -3763,21 +3771,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2312.06571
 	- 東京大学と株式会社オルタナティヴ・マシンの研究者らは「LLMと物理的な世界がつながると何が起こるのか？」と想像し、実際にGPT-4とヒューマノイドロボットを連携しました
 	- 実験の概要
-		- ① ロボット「Alter3」に対して、様々な自然言語のプロンプトを指示 
-		- ② GPT-4が生成したテキストをロボット動作のコードに変換 
-		- ③ ロボットが人間のような動きや感情表現を実行 
-	- 実験の結果 
-		- ① 「Alter3」は9種類の異なる動作の実行を成功 
-		- ② 第三者による動作の評価は高かった 
-		- ③ 人間的な動作と感情表現を実現
--  Mixtral 8x7B の概要  by npakaさん
-	- https://note.com/npaka/n/n6043bc8b01bc?sub_rt=share_h
-	- 推論は6倍速く、ほとんどのベンチマークで「Llama2 70B」を上回っていま
-	- **Mistral-tiny** : Mistral 7B Instruct v0.2。英語でのみ機能。MT-Benchでは7.6を獲得。  
-	- **Mistral-small** : Mixtral 8x7B。英語/フランス語/イタリア語/ドイツ語/スペイン語とコードをマスター。MT-Benchで8.3を獲得。  
-	- **Mistral-medium** : Mistral AIの最高品質のプロトタイプモデル。英語/フランス語/イタリア語/ドイツ語/スペイン語とコードをマスター。MT-
+		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTY0OTkwMCwtMzQyNDgwMzIxLDg2MT
+eyJoaXN0b3J5IjpbMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MT
 I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
 MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
 04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
