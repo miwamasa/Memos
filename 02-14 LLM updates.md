@@ -140,7 +140,11 @@
 		-  **stuff・map reduce**  : 文書全体を1段階または2段階でLLMに入力するため, 文書全体に重要な情報が含まれる場合に特に有効です。
 		- **map rerank**  : 文書の一部のみの回答から最良の回答を選ぶため, 一部のみに重要な情報が含まれる場合に特に有効です。
 		- **refine**  : 一部のみの回答を複数回再起的に呼び出すため, 重要な情報が文書の全体でも一部でも対応することが可能です。
-- 
+- 「Japanese-Starling-ChatV-7B」
+	- https://x.com/AIBizNavigator/status/1783667625802994164
+	- 7Bクラスとは思えない超高性能なんだ
+	- 英語の最強7BモデルStarling-LM-7B-betaから抽出したChat Vectorを、 日本語モデルのChatNTQ-JA-v1.0-7bに掛け合わせただけ。 追加の日本語学習は一切なし
+	- https://huggingface.co/TFMC/Japanese-Starling-ChatV-7B-GGUF
 
 ## 4/21
 
@@ -3769,13 +3773,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2312.00678
 	- LLMの効率を高めるためのノウハウに関する網羅的な調査 by Microsoft
 	- スケーリング／データ／アーキテクチャ／トレーニングとチューニング／推論、といった5つの観点から報告されています。
-- MistralAI Embeddings
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/embeddings/mistralai.ipynb
-	- llamaindexよりMistralAI のEmbeddingsを利用するnotebook
-	- なんか、MistralAI自体もつかるらしい
-		- The new Mistral 8x7B model is an open-source model that
+- MistralAI Emb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDUyODYyOSwxNTE2MzYyNDc3LC0zND
+eyJoaXN0b3J5IjpbMTE4OTI3NDM2NiwxNTE2MzYyNDc3LC0zND
 I0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIy
 NCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC
 05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQw
