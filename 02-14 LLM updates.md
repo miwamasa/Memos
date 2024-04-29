@@ -33,7 +33,9 @@
 	- Command-r-Plusは、4bitに量子化しても60GB程度のVRAMが必要となります。
 	- 複数PCでのモデル並列が自宅で可能となったので、理論的には、デスクトップを増やすことで巨大なLLMの推論が可能となります。
 - alfredplpl/Llama-3-8B-Instruct-Ja　 by あるふさん
-	- 
+	- https://huggingface.co/alfredplpl/Llama-3-8B-Instruct-Ja
+	- 日本語向け Llama 3 8Bを公開してみました。LoRAで表面を学習しただけなので、性能はありません。ただ、普通のLlama 3よりかは日本語が強くなっているはずです。よろしくお願いします
+- 
  
 
 ## 4/21
@@ -3767,12 +3769,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	-  LLMがコード生成->評価->洗練のループ。 
 	- ** 科学,数学の未解決問題に対して、初めてLLMを用いた新たな発見 **。 
 	- その例としてcap set problem,bin-packing problem。
--  Benchmarking RAG on tables
-	- https://blog.langchain.dev/benchmarking-rag-on-tables/
-	- llmaindexより、テーブルのＲＡＧについて、ベンチマーク、long contextは性能はでない
--  MOE言語モデルのエキスパートの一人を日本語得意なモデルに置き
+-  Benchmarking R
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTc5MDMwMSw4NjEyNTc0NzMsLTE1MT
+eyJoaXN0b3J5IjpbMTAwOTk4MDMxMyw4NjEyNTc0NzMsLTE1MT
 k2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5
 NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC
 0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUy
