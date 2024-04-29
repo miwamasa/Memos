@@ -3,7 +3,11 @@
 
 ## 4/29
 
-- sink
+- モデル進化マージについて by sakana.aiの秋葉さん
+	- https://speakerdeck.com/iwiwi/17-nlpkorokiumu
+	- 日本語LLMのマージはあまりない、継続学習されて、元の重みからずれてしまっている。
+	- そこで、進化的計算によるマージ。
+- 
 
 ## 4/21
 
@@ -3768,11 +3772,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/_oshizo_/status/1735282188546089332?s=20
 	- context全体の長さ（横軸）と、正解になるキーワードの位置（縦軸）を変えながら、出力に正解の文字列を含
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwODk4OTIzNiwtMTUxOTY5OTM1OSwyNz
-IwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5
-NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMz
-AsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2
-ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNj
-UwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywt
-NTkzMjg2NTA1XX0=
+eyJoaXN0b3J5IjpbMzQ3NTQzMjA4LC0xNTE5Njk5MzU5LDI3Mj
+A1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0
+MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMC
+wtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4
+NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NT
+AyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01
+OTMyODY1MDVdfQ==
 -->
