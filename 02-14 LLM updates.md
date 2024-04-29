@@ -42,6 +42,8 @@
 - Llama 3 70b layer pruned from 70b -> 42b by Charles Goddard
 	- https://www.reddit.com/r/LocalLLaMA/comments/1c9u2jd/llama_3_70b_layer_pruned_from_70b_42b_by_charles/
 	- chargoddard/llama3-42b-v0
+	- Llama3-70Bを枝刈りしてパラ数42Bにしちゃったというブツらしい。
+-  Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
  
 
 ## 4/21
@@ -3768,14 +3770,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://zenn.dev/selllous/articles/transformers_pretrain_to_ft
 	- 英語がメインのLLM Mistral-7Bモデルを300M(0.3B)へダウンサイズして、pretraining + instruction tuningをColab上のGPU T4(!!!)で6時間(0.02epoch)で日本語学習させるという意欲的な記事
 -  FunSearch: Making new discoveries in mathematical sciences using Large Language Models
-	- https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/?utm_source=twitter&utm_medium=social
-	- DeepMindの研究チームが、AIを用いて数学の未解決問題に挑み、科学界における前例のない成果を出したと発表しました。 「FunSearch」と名付けられた大規模言語モデルを活
+	- https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/?utm_so
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc1OTE2MTcsODYxMjU3NDczLC0xNT
-E5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2
-OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1Ni
-wtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1
-MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1ND
-kwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwx
-MTEzMDc2NzA3XX0=
+eyJoaXN0b3J5IjpbNjk5MjUwMTYxLDg2MTI1NzQ3MywtMTUxOT
+Y5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1
+NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLT
+E4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5
+MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MD
+QxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTEx
+MzA3NjcwN119
 -->
