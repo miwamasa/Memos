@@ -85,7 +85,9 @@
 	- https://docs.llamaindex.ai/en/latest/examples/benchmarks/phi-3-mini-4k-instruct/
 - Phi-3 mini 128k instruct の Colab T4 で動作確認の取れた　 by ぬこぬこさん
 	- https://gist.github.com/schroneko/f4fac4c4dd541f4c5ee61c44c90c4a85
-- 
+	- サンプルの方程式を解く問題は難なくクリア。日本語でもクリア。3.8B にしてはかなり日本語をナチュラルに話せているのでは？
+- HuggingChatにphi3-mini-4k登場
+	- https://huggingface.co/chat/
 
 ## 4/21
 
@@ -3780,14 +3782,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/bakushu/n/n5b270b288cba?sub_rt=share_b
 	- llama.cppで「Mixtral-8x7b」のGGUF量子化モデルを試しました（現時点でまだmergeされていないのでbranchを利用）
 	- 「**Mixtral-8x7b**」はMistralがリリースしたMoE（Mixture of Experts）構造のLLMで「Mistral 7B」ベースの8個のモデルを束ねています。
-	-   今回はGoogle Colabで「[**Mixtral-8x7B-Instruct-v0.1-Q4_K_M-GGUF**](https://mixtral-8x7b-instruct-v0.1-gguf/)（4bit量子化版）」の推論を試しました。
-	- 4bit量子化でも26GBほどあります。Colab ProのCPUオンリー+ハイメモリで実行してみました。GPUのみで推論するなら
+	-   今回はGoogle Colabで「[**Mixtral-8x7B-Instruct-v0.1-Q4_K_M-GGUF**](https://m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDE2MDE1MCwtMzQyNDgwMzIxLDg2MT
-I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
-MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
-04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
-MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMD
-M1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5
-ODM2NjA5MzBdfQ==
+eyJoaXN0b3J5IjpbMjY0MjQ0MTQ1LC0zNDI0ODAzMjEsODYxMj
+U3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgz
+MiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLT
+g0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcw
+MzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMz
+U5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4
+MzY2MDkzMF19
 -->
