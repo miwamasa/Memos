@@ -76,8 +76,11 @@
 	- Last week, we released a CodeQwen1.5 and received a lot of positive feedback! Thank you for your support! 
 - 手元のMacbook AirでPhi 3の量子化されたやつを動かしているのだが、これGPT-3.5こえてるよね。ノートパソコンで普通に動くってどういうことだ
 	- https://x.com/alfredplpl/status/1782808427129114796
-- phi3 ocal RAG using LlamaIndex and Ollama:
- 
+- phi3 local RAG using LlamaIndex and Ollama:
+	- https://x.com/llama_index/status/1782893301214986593
+	- https://colab.research.google.com/drive/1RoZzbL8WYaAp4b3sazYHVI8TA2AkrtRJ#scrollTo=9AtRxaqD94mZ
+- 様々なタスクでのlocal LLMの実力のベンチマーク
+	- RAG, Query Planning, Text2SQL, and Pydantic Program but struggles with Routing and Agentic tasks. 
 
 ## 4/21
 
@@ -3779,18 +3782,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://tech-blog.abeja.asia/entry/advent-2023-day13
 	- 技術的負債になりうるとか、Agentってfunction callで代替可能とかそういう話
 - LlamaIndex + Gemini
-	- https://blog.llamaindex.ai/llamaindex-gemini-8d7c3b9ea97e
-	- llamaindex、いきなりGeminiフルサポート
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/gemini.ipynb
-	-  Multi-modal Model中もサポートしているらしい、、、
--  Google Generative Language Semantic Retriever
-	- https://github.com/run-llama/llama_index/blob/m
+	- https://blog.llamaindex.a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzkzNzk5NiwtMzQyNDgwMzIxLDg2MT
-I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
-MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
-04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
-MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMD
-M1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5
-ODM2NjA5MzBdfQ==
+eyJoaXN0b3J5IjpbLTE3NjEwNjkzMjksLTM0MjQ4MDMyMSw4Nj
+EyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2
+ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNy
+wtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2
+NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0Mz
+AzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwx
+OTgzNjYwOTMwXX0=
 -->
