@@ -181,6 +181,9 @@
 	- 高速AIチップで話題のGroqのAPIをStreamlitのコードの記事を書いてみました。OpenAIのAPIと表記が似ているので書きやすいですね。
 - Swallow-MS-7BやRakutenAI-7Bはトークンの語彙が拡張されてる事に気付いたが、これって拡張されてない他のモデルとマージしたらアカンのだろうか
 	- https://x.com/umiyuki_ai/status/1784274430816034898
+- 【Whisper.cpp-CLI】
+	- https://x.com/hokazuya/status/1784554378118246440
+	- ローカルで高精度の音声文字起こしができるWhisper環境が、ものの200msで作れてしまうとのPyplパッケージがOSSで
 - 
 
 
@@ -3769,15 +3772,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://monoist.itmedia.co.jp/mn/articles/2312/22/news064.html#utm_term=share_sp
 	- レゾナックは2023年12月21日、ディープラーニング技術を用いたAI（人工知能）と膨大な蓄積データを用いるケモインフォマティクスアプリを独自開発し、運用を開始したと発表した。
 - Building LLM-Powered Web Apps with Client-Side Technology
-	- https://ollama.ai/blog/building-llm-powered-web-apps
-	- https://www.youtube.com/watch?v=-1sdWLr3TbI
-	- I’d try a different approach and try to bui
+	- https:/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3NzczMzIxLDMxNTgzOTM2NCwxNTE2Mz
-YyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5
-LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOT
-IyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0
-NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOC
-wtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4
-MTA2NTAyOF19
+eyJoaXN0b3J5IjpbMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNj
+M2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1
+OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLT
+kyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4
+NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMz
+gsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5
+ODEwNjUwMjhdfQ==
 -->
