@@ -105,8 +105,12 @@
 	- パラメータ数の異なる4つのモデルがある。小さいものから、2億7000万、4億5000万、11億、30億
 	- OpenELMは、レイヤーごとのスケーリング戦略を用いて、Transformerモデルの各レイヤー内でパラメータをefficient（効率的）に割り当てることで精度を向上させているという。
 - Let's compare Llama-3 & Phi-3 using RAG:
+	- https://lightning.ai/lightning-ai/studios/compare-llama-3-and-phi-3-using-rag?utm_source=akshay
 	- https://x.com/akshay_pachaar/status/1783114329199718558
-	- 
+-  Cohere Toolkit
+	- https://github.com/cohere-ai/cohere-toolkit
+	- Yesterday, we open sourced the Cohere Toolkit. We think this will be a major accelerant for getting LLMs into production within enterprise.
+- 
 
 ## 4/21
 
@@ -3777,19 +3781,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ② 異なるタイプの問題に対するモデルの適応能力が向
 -  Query Transform Cookbook
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/query_transformations/query_transform_cookbook.ipynb
-	- RAGにおいて、検索結果をcontextに積んでLLMに回答させるのではなくて、質問をLLMで変換してゆくアプローチ
-	- Query Understanding Layer
-- Mistral-7B-Instruct-v0.2 を試す by npakaさん
-	- https://x.com/npaka123/status/1734348586689908878?s=20
-	- https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2
-- Mixtral-8x7B-Instruct-v0.1 を試す。load_in_4bit。 by npakaさん、
-	- https://x.com/npaka123/status/1734408371154100457
+	- RAGにおいて、検索結果をcontextに積んでLLMに回答させるのではなくて、質問をLLMで変換してゆくア
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY1OTk1NTgsLTM0MjQ4MDMyMSw4Nj
-EyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2
-ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNy
-wtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2
-NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0Mz
-AzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwx
-OTgzNjYwOTMwXX0=
+eyJoaXN0b3J5IjpbNDYyNDc4NDYwLC0zNDI0ODAzMjEsODYxMj
+U3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgz
+MiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLT
+g0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcw
+MzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMz
+U5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4
+MzY2MDkzMF19
 -->
