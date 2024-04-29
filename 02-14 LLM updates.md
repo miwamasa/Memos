@@ -59,7 +59,8 @@
 -  From  r  to  Q∗: Your Language Model is Secretly a Q-Function
 	- https://arxiv.org/abs/2404.12358
 	- LLMのアライメントであるDPOは実はトークン単位の逆Q学習を実現し、最適なアドバンテージ関数を推定し、トークン単位の信用割当問題を解いている。例えばある対話の結果につながった原因のトークンを特定できたり、尤度最大化のビーム探索はそのまま収益最大化とみなせる by 岡野原さん
-- 
+- Llama.cpp で Llama 3 70Bをお試し中。by npakaさん
+	- 
  
 
 ## 4/21
@@ -3775,14 +3776,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://python.langchain.com/docs/integrations/chat/google_generative_ai
 	- Access Google AI’s `gemini` and `gemini-vision` models, as well as other generative models through `ChatGoogleGenerativeAI` class in the [langchain-google-genai](https://pypi.org/project/langchain-google-genai/) integration package.
 - Gemini Pro APIの価格表、
-	- https://ai.google.dev/pricing?hl=ja
-	- 入力が$0.00025/
+	- https://
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjc3NzMzNzYsLTM0MjQ4MDMyMSw4Nj
-EyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2
-ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNy
-wtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2
-NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0Mz
-AzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwx
-OTgzNjYwOTMwXX0=
+eyJoaXN0b3J5IjpbLTU1NDEyNTM4LC0zNDI0ODAzMjEsODYxMj
+U3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgz
+MiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLT
+g0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcw
+MzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMz
+U5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4
+MzY2MDkzMF19
 -->
