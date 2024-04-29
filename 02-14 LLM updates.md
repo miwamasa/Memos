@@ -102,7 +102,11 @@
 	- CohereのAyaとCommand R+のトークナイザーは他のトークナイザーと比べてトークン数が削減できていることがわかりました。
 - Apple、iPhoneでも稼働するオープンな言語モデル「OpenELM」を公開
 	- https://www.itmedia.co.jp/news/articles/2404/25/news103.html
-- 
+	- パラメータ数の異なる4つのモデルがある。小さいものから、2億7000万、4億5000万、11億、30億
+	- OpenELMは、レイヤーごとのスケーリング戦略を用いて、Transformerモデルの各レイヤー内でパラメータをefficient（効率的）に割り当てることで精度を向上させているという。
+- Let's compare Llama-3 & Phi-3 using RAG:
+	- https://x.com/akshay_pachaar/status/1783114329199718558
+	- 
 
 ## 4/21
 
@@ -3779,19 +3783,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/npaka123/status/1734348586689908878?s=20
 	- https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2
 - Mixtral-8x7B-Instruct-v0.1 を試す。load_in_4bit。 by npakaさん、
-	- https://x.com/npaka123/status/1734408371154100457?s=20
-	- https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1
-	- 起動までダウンロード含めて20分で推論速度は200トークンで21秒
-- マイクロソフトがPhi-2とかいう2.7BパラのLLMをリリース
-	- https://x.com/umiyuki_ai/status/1734763437274890746?s=20
-	- MicrosoftがIgniteで話していたわずか27億パラメータの言語モデルPhi-2
-	- パラ数小
+	- https://x.com/npaka123/status/1734408371154100457
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgyODUxMiwtMzQyNDgwMzIxLDg2MT
-I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
-MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
-04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
-MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMD
-M1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5
-ODM2NjA5MzBdfQ==
+eyJoaXN0b3J5IjpbLTEwMzY1OTk1NTgsLTM0MjQ4MDMyMSw4Nj
+EyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2
+ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNy
+wtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2
+NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0Mz
+AzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwx
+OTgzNjYwOTMwXX0=
 -->
