@@ -50,7 +50,9 @@
 		- ①Phi-3-mini (38億、3兆3000億)
 		- ②Phi-3-small (70億、4兆8000億) 
 		- ③Phi-3-medium (140億、4兆8000億）
-- 
+- は？Phi3-small-7BはMMLUが75.3点？Llama3-8Bでも66点だというのに。
+	- https://x.com/umiyuki_ai/status/1782622321704079652
+-  Weekly AI Agents News!
  
 
 ## 4/21
@@ -3774,14 +3776,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Llama2-70B相手にコーディングで圧勝した2.7Bモデル。
 	- https://huggingface.co/microsoft/phi-2
 - 大規模言語モデルを自作しよう！(Transformers+DeepSpeed+torch.compile+flash_attn2
-	- https://zenn.dev/selllous/articles/transformers_pretrain_to_ft
-	- 英語がメインのLLM Mistral-7Bモデルを300M(0.3B)へダウンサイズして、pretraining + instruction tuningをColab上のGPU T4(!!!
+	- https://zenn.dev/selllous/ar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTUwMjA1MiwtMzQyNDgwMzIxLDg2MT
-I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
-MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
-04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
-MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMD
-M1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5
-ODM2NjA5MzBdfQ==
+eyJoaXN0b3J5IjpbLTE1NjA3NzcxMTEsLTM0MjQ4MDMyMSw4Nj
+EyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2
+ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNy
+wtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2
+NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0Mz
+AzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwx
+OTgzNjYwOTMwXX0=
 -->
