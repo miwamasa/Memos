@@ -69,6 +69,9 @@
 	- 今回は練習用に「meta-llama/Meta-Llama-3-8B-Instruct」を準備します。
 	- transformersモデルをggufに変換
 	- imatrix量子化
+- Llama3-70BはElyzaTasks100（Command R+による自動評価）においてCommand R+超えてます
+	- https://x.com/umiyuki_ai/status/1782690199677641164
+- 
  
 
 ## 4/21
@@ -3778,12 +3781,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Google Generative Language Semantic Retriever
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/managed/GoogleDemo.ipynb
 	- Google’s new semantic retrieval endpoint offers specialized embeddings and LLMs for high-quality retrieval + synthesis with guardrails. Use it out of the box, OR combine it with LlamaIndex components to build advanced RAG.
-	- The Gemini API contains semantic search with custom embedding models for better retrieval, as well as toggles incl. safety during generation.
-	- Googleがsemantic Retrieverってのをだしてたのか？
-- LangChainもGemini対応
-	- http
+	- The Gemini API contains semantic search with custom embedding models for better retrie
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Nzc2MDU4MiwtMzQyNDgwMzIxLDg2MT
+eyJoaXN0b3J5IjpbLTgyMzgxODQ3MCwtMzQyNDgwMzIxLDg2MT
 I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
 MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
 04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
