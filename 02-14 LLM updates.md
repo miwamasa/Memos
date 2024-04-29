@@ -71,7 +71,10 @@
 	- imatrix量子化
 - Llama3-70BはElyzaTasks100（Command R+による自動評価）においてCommand R+超えてます
 	- https://x.com/umiyuki_ai/status/1782690199677641164
-- 
+- CodeQwen1.5
+	- https://x.com/Alibaba_Qwen/status/1782426698279272742
+	- Last week, we released a CodeQwen1.5 and received a lot of positive feedback! Thank you for your support! 
+- 手元のMacbook AirでPhi 3の量子化されたやつを動かしているのだが、これGPT-3.5こえてるよね。ノートパソコンで普通に動くってどういうことだ
  
 
 ## 4/21
@@ -3780,10 +3783,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	-  Multi-modal Model中もサポートしているらしい、、、
 -  Google Generative Language Semantic Retriever
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/managed/GoogleDemo.ipynb
-	- Google’s new semantic retrieval endpoint offers specialized embeddings and LLMs for high-quality retrieval + synthesis with guardrails. Use it out of the box, OR combine it with LlamaIndex components to build advanced RAG.
-	- The Gemini API contains semantic search with custom embedding models for better retrie
+	- Google’s new semantic retrieval endpoint offers specia
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzgxODQ3MCwtMzQyNDgwMzIxLDg2MT
+eyJoaXN0b3J5IjpbLTg0NjAzOTcwNywtMzQyNDgwMzIxLDg2MT
 I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
 MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
 04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
