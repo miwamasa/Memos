@@ -88,6 +88,12 @@
 	- サンプルの方程式を解く問題は難なくクリア。日本語でもクリア。3.8B にしてはかなり日本語をナチュラルに話せているのでは？
 - HuggingChatにphi3-mini-4k登場
 	- https://huggingface.co/chat/
+-  Med42 -- Evaluating Fine-Tuning Strategies for Medical LLMs: Full-Parameter vs. Parameter-Efficient Approaches
+	- https://arxiv.org/abs/2404.14779
+	- 医療ドメインでLLMをfine tuningする際、フルパラメータのチューニングをするかLoRAで効率的にチューニングするべきかをLlama-2ベースのモデルで検証した論文。
+	- モデルサイズが小さいほどfine tuningの効果が大きい
+	- モデルが大きいほどLoRAのパフォーマンスは古パラメータのチューニングに接近しそう
+- 
 
 ## 4/21
 
@@ -3778,17 +3784,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- The best paper award in NeurIPs 2023 went to a paper claiming that the emergent abilities of LLMs could be a mirage!
 - llamaindexにてmistralaiのサポートドキュメント公開
 	- https://docs.llamaindex.ai/en/stable/examples/llm/mistralai.html
-- 【ローカルLLM】Mixtral-8x7bをllama.cppで試す
-	- https://note.com/bakushu/n/n5b270b288cba?sub_rt=share_b
-	- llama.cppで「Mixtral-8x7b」のGGUF量子化モデルを試しました（現時点でまだmergeされていないのでbranchを利用）
-	- 「**Mixtral-8x7b**」はMistralがリリースしたMoE（Mixture of Experts）構造のLLMで「Mistral 7B」ベースの8個のモデルを束ねています。
-	-   今回はGoogle Colabで「[**Mixtral-8x7B-Instruct-v0.1-Q4_K_M-GGUF**](https://m
+- 【ローカルLLM】Mixtral-8
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0MjQ0MTQ1LC0zNDI0ODAzMjEsODYxMj
-U3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgz
-MiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLT
-g0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcw
-MzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMz
-U5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4
-MzY2MDkzMF19
+eyJoaXN0b3J5IjpbMTczNDMzNzIzNCwtMzQyNDgwMzIxLDg2MT
+I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
+MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
+04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
+MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMD
+M1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5
+ODM2NjA5MzBdfQ==
 -->
