@@ -17,7 +17,12 @@
 	- 今回はCommand R+の各量子化モデル、Q6_K、Q5_K_S、Q4_K_S、iq4_xs、Q3_K_S、iq3_xxs、Q2_K、iq2_xxs、iq1_sのそれぞれについて、ElyzaTasks100を解かせてみる。
 	- API～3bitまではぶっちゃけ大差ないというか誤差の範囲だという事だろう
 	- 1bitの3点というのはこれはもう完全に劣化してるというのは確実に言えそうだ。
+	- まず、今回の結果だけで言えば、実用上は4bitまでの量子化なら性能劣化は見当たらないように見える。
+- Fully local RAG with Llama 3 on ollama & streamlit
+	- https://x.com/ashpreetbedi/status/1782079131103932647
+-  [eGPUを使ったLLM推論環境を作る](https://ten-meteor.hatenablog.com/entry/2024/04/21/133204)
 	- 
+ 
 
 ## 4/21
 
@@ -3770,15 +3775,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 支援にGoogle CEO兼会長のエリック・シュミット氏。 
 	- イリヤサツケバー氏今もまだSuper Alignmentチーム率いてるとのこと！
 -  A Guide on 12 Tuning Strategies for Production-Ready RAG Applications
-	- https://towardsdatascience.com/a-guide-on-12-tuning-strategies-for-production-ready-rag-applications-7ca646833439
-	- LLMのRAGアプリケーションをチューニングするための12戦略を書いたブログ記事。具体的にはデータクリーニング、埋込み、チャンク化、インデクシング、クエリ変換、リランキング等、実践的な戦略。
-- Bishop先生の「Deep Learning: Foundations 
+	- http
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjU4MDQ2OTUsLTE1MTk2OTkzNTksMj
-cyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5NTY4LC05MjIy
-OTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC0xODkwODQ3MT
-MwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00
-Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMD
-Y1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDExMTMwNzY3MDcs
-LTU5MzI4NjUwNV19
+eyJoaXN0b3J5IjpbMTEyNTAzMjU4NiwtMTUxOTY5OTM1OSwyNz
+IwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5
+NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMz
+AsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2
+ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNj
+UwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywt
+NTkzMjg2NTA1XX0=
 -->
