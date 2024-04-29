@@ -21,6 +21,11 @@
 - Fully local RAG with Llama 3 on ollama & streamlit
 	- https://x.com/ashpreetbedi/status/1782079131103932647
 -   LLMモデル "Llama3" を 4bit 量子化して実行してみた
+	- https://qiita.com/akasakat/items/0855b5f05467cc8cbbf4
+	- 一昨日発表された  [Llama3](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)  を4bit量子化 してつかってみました
+	-  GPUの VRAM は 6GB 程度消費します
+	- Llama3の 語彙数は 32000(Llama2) => 128256 へと大幅に増えました
+- 
  
 
 ## 4/21
@@ -3770,17 +3775,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/Prepare_Christmas_cards_with_Gemini_and_Sheets.ipynb
 -  OpenAI thinks superhuman AI is coming — and wants to build tools to control it
 	- https://openai.com/blog/superalignment-fast-grants
-	- Open AI超人的なAIのアライメントに向けた研究に1000万ドルの助成金プロジェクト開始。 
-	- 支援にGoogle CEO兼会長のエリック・シュミット氏。 
-	- イリヤサツケバー氏今もまだSuper Alignmentチーム率いてるとのこと！
--  A Guide on 12 Tuning Strategies for Production-Ready RAG Applications
-	- http
+	- Open AI超人的な
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxMjU3NDczLC0xNTE5Njk5MzU5LDI3Mj
-A1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0
-MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMC
-wtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4
-NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NT
-AyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01
-OTMyODY1MDVdfQ==
+eyJoaXN0b3J5IjpbMjIyMzc2MzM2LDg2MTI1NzQ3MywtMTUxOT
+Y5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1
+NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLT
+E4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5
+MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MD
+QxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTEx
+MzA3NjcwN119
 -->
