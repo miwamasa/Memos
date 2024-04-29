@@ -169,7 +169,12 @@
 	- https://x.com/rmaruy/status/1784154638390104188
 	- むしろこれらのタスクで120%や200%を有意味に議論できるのかという方が気になる。という意味で、Domingos氏の意図と異なる意味で超知能到来ビジョンへの疑義になっている。
 - ベイズ推論を使ってみよう
-	- 
+	- https://x.com/makaishi2/status/1784115819791913065
+	- 『Pythonでスラスラわかるベイズ推論「超」入門』著者
+- 【随時更新】主要な大規模言語モデル比較表
+	- https://zenn.dev/ml_bear/articles/3c5e7975f1620a
+- 居合わせた歌配信に混ざる NVIDIA $NVDA CEO ジェンスン・ファン
+- 
 
 ## 4/21
 
@@ -3766,20 +3771,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ■「PowerInfer」のポイント 
 		- ① LLMにおけるメモリの使用量を減らす 
 		- ② 推論の処理速度向上にフォーカスしている 
-		- ③ GPUとCPUのハイブリッド方式 
-	- ■実験 
-		- ① 消費者向け環境を用意 （Intel i9, NVIDIA RTX 4090など） 
-		- ② LLaMA-70Bほか合計3モデルを使用 
-		- ③ 実際のサービスに近いテキスト処理を行った 
-	- ■結果 
-		- ① 消費者向けでも高性能（A100）の82%に上る生成速度を達成 
-		- ② 量子化モデルで最大8.00倍、非量子化モデルで
+		- ③ GPU
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4MjAyMTIwLDMxNTgzOTM2NCwxNTE2Mz
-YyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5
-LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOT
-IyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0
-NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOC
-wtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4
-MTA2NTAyOF19
+eyJoaXN0b3J5IjpbMTA4MTczNzAyOSwzMTU4MzkzNjQsMTUxNj
+M2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1
+OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLT
+kyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4
+NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMz
+gsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5
+ODEwNjUwMjhdfQ==
 -->
