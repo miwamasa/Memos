@@ -153,7 +153,15 @@
 	- https://huggingface.co/collections/tokyotech-llm/swallow-instruct-65e559f4d52e7c9d197697c2
 	- wallow 7B, 13B, 70B、およびSwallow-MS 7Bの新しいinstructモデル（Swallow-*-instruct-v0.1）を公開しました。あまり重視してこなかった指示追従能力やマルチターン応答の改善に取り組み、MT-Benchで過去のモデルを上回る性能を確認しました。
 - tokyotech-llm/Swallow-MS-7b-instruct-v0.1
-	- wallow 7B, 13B, 70B、およびSwallow-MS 7Bのインストラクション・チューニングを改良し、指示追従性やマルチターン応答を向上させたモデルをHugging Face上で公開しました。以前に公開したモデルと比べて、MT-Benchのスコアで大幅に改善しています
+	- https://huggingface.co/tokyotech-llm/Swallow-70b-instruct-v0.1
+	- swallow 7B, 13B, 70B、およびSwallow-MS 7Bのインストラクション・チューニングを改良し、指示追従性やマルチターン応答を向上させたモデルをHugging Face上で公開しました。以前に公開したモデルと比べて、MT-Benchのスコアで大幅に改善しています
+- Swallow-MS-7B-Instruct-V0.1をElyzaTasks100で評価したら平均2.82点だった。現環境ではもはや大した事ないと言わざるを得ない。でもChatNTQよりはかなり強いという事はChatVectorを足すベースモデルとして有能かもしれない
+	- https://x.com/umiyuki_ai/status/1783911959789969816
+- 【Appleの新しいOpenELMモデルをMLX LMで】
+	- https://x.com/hokazuya/status/1783808939773304957
+	- 512トークン、340Token/S
+	- M3 Pro Mac (64GB)で16ビットの270Mモデルで超高速ローカルLLMが実現。
+- 
 
 ## 4/21
 
@@ -3762,14 +3770,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 12/18
 
-今週もすさまじい情報量。ルカン先生もこの情報量には追い付けないとのこと（インタビュー動画）。GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどん行われた。フリー版ならば、60QPM (queries per minute)までは使える。クリスマスカードを作ろうはいいね、年賀状かな。Mistral、MOEのすばらしさや、MOEのカスタマイズ（マージとか、日本語のエキスパートを入れ込むとかの試み）の試みが始まる。NeurPS2023のコンペティションでも、データセットの質が重要ということらしいが、DeepMindからは、LLMが質の良いデータセットを生成して学習する「自己学習」アプローチ。RAGでも質問を事前にLLMで、解きやすいように、変形するってのはいいね。マイクロソフトのPhi-2、2.7BパラのLLMでそこそこ性能がでるらしい。DeepMindのFunSearch、新しい科学の発見がLLMで実現できる世界がついにやってきた。季節柄アベントカレンダー系の記事がよい、古典のエンベディングによる分析とか、知識グラフとか。LLMによるエージェントの研究も、open-ended な状況で研究をするエージェントというコンセプトが明確になり、マインクラフトでの評価事例とかどんどん進んでゆく。
-
-- "TaskWeaver: A Code-First Agent Framework
-	- https://arxiv.org/abs/2311.17541
-	- Microsoftは、ユーザーが自然言語で「こうして」と言うだけでLLMが要求を理解し、実行コードを生成するためのツール『TaskWeaver（タスクウィーバー）』を開発しました。 
-	- 実験の結果、株価予測や異常検出などのタスクを通
+今週もすさまじい情報量。ルカン先生もこの情報量には追い付けないとのこと（インタビュー動画）。GeminiのAPIが使えるようなり、様々なサンプルや、LangChain、llamaindexとの統合がどんどん行われた。フリー版ならば、60QPM (queries per minute)までは使える。クリスマスカードを作ろうはいいね、年賀状かな。Mistral、MOEのすばらしさや、MOEのカスタマイズ（マージとか、日本語のエキスパートを入れ込むとかの試み）の試みが始まる。NeurPS2023のコンペティションでも、データセットの質が重要ということらしいが、DeepMindからは、LLMが質の良いデータセットを生成して学習する「自己学習」アプローチ。RAGでも質問を事前にLLMで、解きやすいように、変形するってのはいいね
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzUwNjQ0MjQsMzE1ODM5MzY0LDE1MT
+eyJoaXN0b3J5IjpbLTE2NjQwMDA3NDUsMzE1ODM5MzY0LDE1MT
 YzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MTk2OTkz
 NTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5NTY4LC
 05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC0xODkw
