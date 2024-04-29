@@ -127,7 +127,9 @@
 	- CoreNet, a training library used to train OpenELM:
 -  [Tracing the Roots of Facts in Multilingual Language Models: Independent, Shared, and Transferred Knowledge](https://aclanthology.org/2024.eacl-long.127.pdf)
 	- 多言語言語モデルが獲得している事実に関する知識を53言語で検証。どのような原因によって言語ごとに差が出るのか、データ量や地理的観点・活性化されたニューロンの類似性などから分析している。
-	- 
+-  LLMプロダクト開発者がMac Studioを買ってローカルLLMを触るべき理由
+	- https://note.com/erukiti/n/n58a8180ea9fb
+- 
 
 ## 4/21
 
@@ -3769,15 +3771,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ジムファン氏曰く、MistralのMixtralモデル公開のワケ分からんムーブは実は高度な戦略だった。まず何の説明もなくモデルをtorrentに投下。そんでvLLMプロジェクトにプルリク投げて、誰でもMixtralで遊べるように環境を作ってあげる。最後にあらためてブログ記事でモデル情報を発表！発表と同時にすぐ遊べて世間が盛り上がって注目度を稼げるという流れ by うみゆきさん
 - "From Text to Motion: Grounding GPT-4 in a Humanoid Robot "Alter3"
 	- https://arxiv.org/abs/2312.06571
-	- 東京大学と株式会社オルタナティヴ・マシンの研究者らは「LLMと物理的な世界がつながると何が起こるのか？」と想像し、実際にGPT-4とヒューマノイドロボットを連携しました
-	- 実験の概要
-		
+	- 東京大学と株式会
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MT
-I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
-MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
-04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
-MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMD
-M1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5
-ODM2NjA5MzBdfQ==
+eyJoaXN0b3J5IjpbMTYzNjE5NjIxMCwxNTE2MzYyNDc3LC0zND
+I0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIy
+NCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC
+05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQw
+NjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNz
+ExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2
+MjQyMDY1ODFdfQ==
 -->
