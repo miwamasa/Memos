@@ -174,7 +174,10 @@
 - 【随時更新】主要な大規模言語モデル比較表
 	- https://zenn.dev/ml_bear/articles/3c5e7975f1620a
 - 居合わせた歌配信に混ざる NVIDIA $NVDA CEO ジェンスン・ファン
-- 
+	- https://x.com/woodstockclub/status/1784179786082128351
+	- 配信者の2人「ジェンスン？誰？？」
+-  高速AIチップで話題のGroqのAPIをStreamlitで使う方法
+	- 
 
 ## 4/21
 
@@ -3767,13 +3770,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ollamaをつかってLangchainをつかった、WebベースのローカルなRAGの構築例
 - PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU
 	- https://arxiv.org/abs/2312.12456
-	- 消費者向けGPUでも高性能GPUに近いパフォーマンスでLLMを動かす手法「PowerInfer」
-	- ■「PowerInfer」のポイント 
-		- ① LLMにおけるメモリの使用量を減らす 
-		- ② 推論の処理速度向上にフォーカスしている 
-		- ③ GPU
+	- 消費者向けGPUでも高性能GPU
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTczNzAyOSwzMTU4MzkzNjQsMTUxNj
+eyJoaXN0b3J5IjpbLTY0MTMwOTM1OSwzMTU4MzkzNjQsMTUxNj
 M2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1
 OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLT
 kyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4
