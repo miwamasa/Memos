@@ -149,7 +149,11 @@
 	- https://x.com/umiyuki_ai/status/1783867934542303666
 	- https://huggingface.co/umiyuki/Japanese-Chat-Umievo-itr001-7b
 	- ElyzaTasks100で評価してみたら平均3.57点を叩き出した！7Bモデルなのに35BパラのCommand Rを超えてます！進化的アルゴリズムの威力恐るべし！！とりまHuggingFaceに上げました！
-- 
+- Swallow instruction tuning models
+	- https://huggingface.co/collections/tokyotech-llm/swallow-instruct-65e559f4d52e7c9d197697c2
+	- wallow 7B, 13B, 70B、およびSwallow-MS 7Bの新しいinstructモデル（Swallow-*-instruct-v0.1）を公開しました。あまり重視してこなかった指示追従能力やマルチターン応答の改善に取り組み、MT-Benchで過去のモデルを上回る性能を確認しました。
+- tokyotech-llm/Swallow-MS-7b-instruct-v0.1
+	- wallow 7B, 13B, 70B、およびSwallow-MS 7Bのインストラクション・チューニングを改良し、指示追従性やマルチターン応答を向上させたモデルをHugging Face上で公開しました。以前に公開したモデルと比べて、MT-Benchのスコアで大幅に改善しています
 
 ## 4/21
 
@@ -3763,22 +3767,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - "TaskWeaver: A Code-First Agent Framework
 	- https://arxiv.org/abs/2311.17541
 	- Microsoftは、ユーザーが自然言語で「こうして」と言うだけでLLMが要求を理解し、実行コードを生成するためのツール『TaskWeaver（タスクウィーバー）』を開発しました。 
-	- 実験の結果、株価予測や異常検出などのタスクを通して有効性が確認されているそうです。
-	- ① 自然言語での要求をコードに変換する 
-	- ② 複雑なデータ構造やドメイン特有の問題を解決する 
-	- ③ 最適なプラグインをリアルタイムで選択し、タスクを効率的に処理する
-- LLMをセラピストとして実行し、「認知の歪み」を評価させるためのフレームワーク『Diagnosis of Thought (DoT)』に基づくMyGPT
-	- https://chat.openai.com/g/g-o9r1c3nkf-serapisuto-diagnosis-of-thought-dot
-- 日本語 LLM の精度がいまいちなのはデータセットに問題がありそうという指摘
-	- https://github.com/AUGMXNT/shisa/wiki/A-Review-of-Public-Japanese-Training-Sets#analysis
-- gtp-fastの本家github
-	- Simple and efficient pytorch-native transforme
+	- 実験の結果、株価予測や異常検出などのタスクを通
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1ODM5MzY0LDE1MTYzNjI0NzcsLTM0Mj
-Q4MDMyMSw4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0
-LC0xOTUwMzE2ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLT
-k1NjQzMjYyNywtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2
-NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MT
-EsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEsOTgxMDY1MDI4LDYy
-NDIwNjU4MV19
+eyJoaXN0b3J5IjpbLTE4NzUwNjQ0MjQsMzE1ODM5MzY0LDE1MT
+YzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MTk2OTkz
+NTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5NTY4LC
+05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC0xODkw
+ODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1Mz
+M4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OTA0MTEs
+OTgxMDY1MDI4XX0=
 -->
