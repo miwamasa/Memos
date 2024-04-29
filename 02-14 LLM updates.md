@@ -20,8 +20,7 @@
 	- まず、今回の結果だけで言えば、実用上は4bitまでの量子化なら性能劣化は見当たらないように見える。
 - Fully local RAG with Llama 3 on ollama & streamlit
 	- https://x.com/ashpreetbedi/status/1782079131103932647
--  [eGPUを使ったLLM推論環境を作る](https://ten-meteor.hatenablog.com/entry/2024/04/21/133204)
-	- 
+-   LLMモデル "Llama3" を 4bit 量子化して実行してみた
  
 
 ## 4/21
@@ -3777,11 +3776,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  A Guide on 12 Tuning Strategies for Production-Ready RAG Applications
 	- http
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTAzMjU4NiwtMTUxOTY5OTM1OSwyNz
-IwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5
-NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMz
-AsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2
-ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5ODEwNj
-UwMjgsNjI0MjA2NTgxLDE5ODM2NjA5MzAsMTExMzA3NjcwNywt
-NTkzMjg2NTA1XX0=
+eyJoaXN0b3J5IjpbODYxMjU3NDczLC0xNTE5Njk5MzU5LDI3Mj
+A1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0
+MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMC
+wtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4
+NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4MTA2NT
+AyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwxMTEzMDc2NzA3LC01
+OTMyODY1MDVdfQ==
 -->
