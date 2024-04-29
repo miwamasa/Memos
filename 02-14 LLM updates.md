@@ -129,6 +129,10 @@
 	- 多言語言語モデルが獲得している事実に関する知識を53言語で検証。どのような原因によって言語ごとに差が出るのか、データ量や地理的観点・活性化されたニューロンの類似性などから分析している。
 -  LLMプロダクト開発者がMac Studioを買ってローカルLLMを触るべき理由
 	- https://note.com/erukiti/n/n58a8180ea9fb
+- [torchtitan](https://github.com/pytorch/torchtitan)
+	- a library for large model training called torchtitan
+	- They have scripts to train Llama-3 from scratch
+	- The library went public today on GitHub but it is still in pre-release state & active development
 - 
 
 ## 4/21
@@ -3768,12 +3772,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://twitter.com/DrJimFan/status/1734269362100437315
 	- MoE is the right path forward
 	- An LLM is a snapshot of a civilization
-	- ジムファン氏曰く、MistralのMixtralモデル公開のワケ分からんムーブは実は高度な戦略だった。まず何の説明もなくモデルをtorrentに投下。そんでvLLMプロジェクトにプルリク投げて、誰でもMixtralで遊べるように環境を作ってあげる。最後にあらためてブログ記事でモデル情報を発表！発表と同時にすぐ遊べて世間が盛り上がって注目度を稼げるという流れ by うみゆきさん
-- "From Text to Motion: Grounding GPT-4 in a Humanoid Robot "Alter3"
-	- https://arxiv.org/abs/2312.06571
-	- 東京大学と株式会
+	- ジムファン氏曰く、MistralのMixtralモデル公開のワケ分からんムーブは実は高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjE5NjIxMCwxNTE2MzYyNDc3LC0zND
+eyJoaXN0b3J5IjpbMTQ5OTE2OTMwMCwxNTE2MzYyNDc3LC0zND
 I0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIy
 NCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC
 05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQw
