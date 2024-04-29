@@ -29,6 +29,10 @@
 	- https://medium.com/@diagnosta/lora-fine-tuning-of-embedding-models-using-llamaindex-a60b823a2c94
 	- In this blog post, we’ll explore how to fine-tune black-box embedding models using low-rank adaptation (LoRA) with the LlamaIndex library. LoRA is a technique that trains a small number of rank-decomposed weights to adapt a pre-trained model to a new task or domain. 
 - 自宅PCでクラスターを構築：コンシューマーGPUの枠を超え、大型LLMをローカルで動かす！ by AIサトシ
+	- https://note.com/aisatoshi/n/nd4969fc42602?sub_rt=share_h
+	- Command-r-Plusは、4bitに量子化しても60GB程度のVRAMが必要となります。
+	- 複数PCでのモデル並列が自宅で可能となったので、理論的には、デスクトップを増やすことで巨大なLLMの推論が可能となります。
+- alfredplpl/Llama-3-8B-Instruct-Ja　 by あるふさん
 	- 
  
 
@@ -3766,18 +3770,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Benchmarking RAG on tables
 	- https://blog.langchain.dev/benchmarking-rag-on-tables/
 	- llmaindexより、テーブルのＲＡＧについて、ベンチマーク、long contextは性能はでない
--  MOE言語モデルのエキスパートの一人を日本語得意なモデルに置き換えたらどうなるのか？
-	- https://note.com/aisatoshi/n/n6c06d5183517?sub_rt=share_pb
-	- Mistral7Bを8つ束ねた、Mixtral 8x7BというMOEモデル
-	- エキスパートを何人か、日本語が得意なMistral7B互換モデルに差し替えたらどうだろう？
-	- 注意機構だけ、MLP層だけ、コピーするエキスパート数を変更など実験しましたが、基本モデルが壊れました
-- 自民党
+-  MOE言語モデルのエキスパートの一人を日本語得意なモデルに置き
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY0MjAxODEsODYxMjU3NDczLC0xNT
-E5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2
-OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1Ni
-wtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1
-MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1ND
-kwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4MzY2MDkzMCwx
-MTEzMDc2NzA3XX0=
+eyJoaXN0b3J5IjpbMTYxNTc5MDMwMSw4NjEyNTc0NzMsLTE1MT
+k2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5
+NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC
+0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUy
+OTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2MTU0OT
+A0MTEsOTgxMDY1MDI4LDYyNDIwNjU4MSwxOTgzNjYwOTMwLDEx
+MTMwNzY3MDddfQ==
 -->
