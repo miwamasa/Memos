@@ -110,7 +110,11 @@
 -  Cohere Toolkit
 	- https://github.com/cohere-ai/cohere-toolkit
 	- Yesterday, we open sourced the Cohere Toolkit. We think this will be a major accelerant for getting LLMs into production within enterprise.
-- 
+-  LLMにとって「質の良い学習用データ」
+	- https://x.com/imos/status/1783494307959513522
+	- LLMにとって「質の良い学習用データ」は「正しい日本語に/倫理的に絞られたデータ」ではないと思うので整理して布教したい（FineWeb曰くアダルトサイトを抜くと性能劣化するらしい）。言語能力、知識、論理能力、応答形式など、用途を満たすのに必要な軸を欠かさず含むことが大事だと思われる。
+- Llama 3 Establishes Meta as the Leader in “Open” AI  by IEEE Spectrum
+	- https://spectrum.ieee.org/meta-llama-3?share_id=8224093&utm_campaign=RebelMouse&utm_content=IEEE+Spectrum&utm_medium=social&utm_source=twitter
 
 ## 4/21
 
@@ -3770,24 +3774,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - ミストラルのMoE版であるmixtralですが驚いた事に既にllama.cppの量子化版が出ているのでgpuがない環境やMacでも動かせる
 	- https://x.com/webbigdata/status/1734425932029628876?s=20
 - "Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models"
-	- https://arxiv.org/abs/2312.06585
-	- LMに自ら高品質なデータを生成させ、データセットを拡張する「自己学習」アプローチ by DeepMind
-	- 方法
-		- ① 自らデータセットを拡張する 
-		- ② 生成したデータが正しいかどうかを判断する
-		- ③ 数学を中心とした様々な問題解決に使える
-	- 実験結果 
-		- ① 数学において、正答率の向上を達成 
-		- ② 異なるタイプの問題に対するモデルの適応能力が向
--  Query Transform Cookbook
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/query_transformations/query_transform_cookbook.ipynb
-	- RAGにおいて、検索結果をcontextに積んでLLMに回答させるのではなくて、質問をLLMで変換してゆくア
+	- https:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyNDc4NDYwLC0zNDI0ODAzMjEsODYxMj
-U3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgz
-MiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLT
-g0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcw
-MzU2NzE2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMz
-U5LC0xNjE1NDkwNDExLDk4MTA2NTAyOCw2MjQyMDY1ODEsMTk4
-MzY2MDkzMF19
+eyJoaXN0b3J5IjpbMTE2OTg5MTU2MywtMzQyNDgwMzIxLDg2MT
+I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
+MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
+04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
+MDM1NjcxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMD
+M1OSwtMTYxNTQ5MDQxMSw5ODEwNjUwMjgsNjI0MjA2NTgxLDE5
+ODM2NjA5MzBdfQ==
 -->
