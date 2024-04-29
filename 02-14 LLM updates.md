@@ -168,7 +168,8 @@
 - Domingos氏、AIの能力が人間レベルで飽和しているように見えていることを指摘しているが、、
 	- https://x.com/rmaruy/status/1784154638390104188
 	- むしろこれらのタスクで120%や200%を有意味に議論できるのかという方が気になる。という意味で、Domingos氏の意図と異なる意味で超知能到来ビジョンへの疑義になっている。
-- 
+- ベイズ推論を使ってみよう
+	- 
 
 ## 4/21
 
@@ -3772,13 +3773,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ③ 実際のサービスに近いテキスト処理を行った 
 	- ■結果 
 		- ① 消費者向けでも高性能（A100）の82%に上る生成速度を達成 
-		- ② 量子化モデルで最大8.00倍、非量子化モデルで最大11.69倍のパフォーマン
+		- ② 量子化モデルで最大8.00倍、非量子化モデルで
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMzczMTI3MiwzMTU4MzkzNjQsMTUxNj
-M2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1
-OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLT
-kyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4
-NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMz
-gsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5
-ODEwNjUwMjhdfQ==
+eyJoaXN0b3J5IjpbNTA4MjAyMTIwLDMxNTgzOTM2NCwxNTE2Mz
+YyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5
+LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOT
+IyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0
+NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOC
+wtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0xNjE1NDkwNDExLDk4
+MTA2NTAyOF19
 -->
