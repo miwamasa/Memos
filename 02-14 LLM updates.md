@@ -115,6 +115,11 @@
 	- LLMにとって「質の良い学習用データ」は「正しい日本語に/倫理的に絞られたデータ」ではないと思うので整理して布教したい（FineWeb曰くアダルトサイトを抜くと性能劣化するらしい）。言語能力、知識、論理能力、応答形式など、用途を満たすのに必要な軸を欠かさず含むことが大事だと思われる。
 - Llama 3 Establishes Meta as the Leader in “Open” AI  by IEEE Spectrum
 	- https://spectrum.ieee.org/meta-llama-3?share_id=8224093&utm_campaign=RebelMouse&utm_content=IEEE+Spectrum&utm_medium=social&utm_source=twitter
+- 『統計的テキストモデル』(岩波書店 確率と情報の科学)の執筆がついに最後まで到達しましたので、「文書の統計モデル」の章を公開しました
+	- http://chasen.org/~daiti-m/textmodel/textmodel-chapter5.pdf
+-  Graph Machine Learning in the Era of Large Language Models (LLMs)
+	- https://arxiv.org/abs/2404.14928
+	- 
 
 ## 4/21
 
@@ -3770,13 +3775,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 推論は6倍速く、ほとんどのベンチマークで「Llama2 70B」を上回っていま
 	- **Mistral-tiny** : Mistral 7B Instruct v0.2。英語でのみ機能。MT-Benchでは7.6を獲得。  
 	- **Mistral-small** : Mixtral 8x7B。英語/フランス語/イタリア語/ドイツ語/スペイン語とコードをマスター。MT-Benchで8.3を獲得。  
-	- **Mistral-medium** : Mistral AIの最高品質のプロトタイプモデル。英語/フランス語/イタリア語/ドイツ語/スペイン語とコードをマスター。MT-Benchで8.6を獲得。
-- ミストラルのMoE版であるmixtralですが驚いた事に既にllama.cppの量子化版が出ているのでgpuがない環境やMacでも動かせる
-	- https://x.com/webbigdata/status/1734425932029628876?s=20
-- "Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models"
-	- https:
+	- **Mistral-medium** : Mistral AIの最高品質のプロトタイプモデル。英語/フランス語/イタリア語/ドイツ語/スペイン語とコードをマスター。MT-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTg5MTU2MywtMzQyNDgwMzIxLDg2MT
+eyJoaXN0b3J5IjpbMTIwOTY0OTkwMCwtMzQyNDgwMzIxLDg2MT
 I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
 MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
 04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
