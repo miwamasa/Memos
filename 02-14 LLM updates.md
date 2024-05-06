@@ -3,7 +3,9 @@
 
 ## 5/7
 
-
+- LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
+	- https://zenn.dev/aidemy/articles/97d5fb6ac03a4f
+	- stuff chain、map reduce chain、map rerank chain、refine chain
 
 
 ## 4/29
@@ -3775,14 +3777,12 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- いろいろ対応できるLLMや量子化対応が増えている模様
 - レゾナックが量子化学計算に比べて数千倍速く物性を予測可能なアプリを開発
 	- https://monoist.itmedia.co.jp/mn/articles/2312/22/news064.html#utm_term=share_sp
-	- レゾナックは2023年12月21日、ディープラーニング技術を用いたAI（人工知能）と膨大な蓄積データを用いるケモインフォマティクスアプリを独自開発し、運用を開始したと発表した。
-- Building LLM-Powered Web Apps with Client-Side Technology
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY1NTI1ODcsMTgyODQ3MTQxMSwzMT
-U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
-MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
-ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
-ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
-cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
-MTYxNTQ5MDQxMV19
+eyJoaXN0b3J5IjpbNTU1OTQzMzA5LDE4Mjg0NzE0MTEsMzE1OD
+M5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMs
+LTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMT
+g3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5
+OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MT
+YsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2
+MTU0OTA0MTFdfQ==
 -->
