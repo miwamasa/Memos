@@ -47,6 +47,14 @@
 	- https://www.youtube.com/watch?v=exYUJcz4uZs
 - llama-2-13b-retrievalqa.ipynb - Colab
 	- https://colab.research.google.com/github/pinecone-io/examples/blob/master/learn/generation/llm-field-guide/llama-2/llama-2-13b-retrievalqa.ipynb#scrollTo=JPdQvYmlWmNc
+- crusoeai/Llama-3-8B-Instruct-Gradient-1048k-GGUF
+	- https://huggingface.co/crusoeai/Llama-3-8B-Instruct-Gradient-1048k-GGUF
+- react-agent-with-function-calling-ollama-langsmith.ipynb
+	- https://github.com/Ashufet/LangChain_ReAct-Agent-with-Function-Calling_Ollama-Gemma-LLM_LangSmith/blob/main/react-agent-with-function-calling-ollama-langsmith.ipynb
+- Google announces Med-Gemini, a family of Gemini models fine-tuned for medical tasks!
+	- https://x.com/iScienceLuvr/status/1785247498744778886
+- 「統計的テキストモデル」の全体の原稿(4章以外)のβ版を公開しました
+	- http://chasen.org/~daiti-m/textmodel/
 - 
 	- 
 
@@ -3766,19 +3774,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://rinna.co.jp/news/2023/12/20231221.html
 	- rinnaはQwen-7Bと14Bの日本語継続事前学習モデル「Nekomata」シリーズを公開しました。 Nekomata 14B Instructionのベンチマークは一部の70Bと同レベルまで到達しています。
 	- Nekomata 7Bと14Bは、70億パラメータのQwen-7Bと140億パラメータのQwen-14Bに対して、日本語と英語の学習データを用いてそれぞれ300億と660億トークンで継続事前学習したモデルです
-	- AWS Trainiumを搭載した16ノードのAmazon EC2 trn1.32xlargeインスタンスを用いて、660億トークンの継続事前学習は約7日で完了しました
-	- モデル名の由来は、妖怪の「猫又（ねこまた）」
-- Running Mixtral 8x7 locally with LlamaIndex
-	- https://blog.llamaindex.ai/running-mixtral-8x7-locally-with-llamaindex-e6cebeabe0ab
-	- Running MistralAI's Mixtral 8x7b on your laptop is now a one-liner! Check out this post in which we show you how to use OLLAMA with LlamaIndex to create a completely local, open-source retrieval-augmented generation app complete with an API:
--  Google Colab で StreamDiffusion を試す by npakaさん
-	- https://note.com/npaka/n/n4cb9a2d9fd72?sub_
+	- AWS Train
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTUxMTgzNywxODI4NDcxNDExLDMxNT
-gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
-LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
-E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
-OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
-E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
-NjE1NDkwNDExXX0=
+eyJoaXN0b3J5IjpbMTg2OTU1ODMxLDE4Mjg0NzE0MTEsMzE1OD
+M5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMs
+LTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMT
+g3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5
+OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MT
+YsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2
+MTU0OTA0MTFdfQ==
 -->
