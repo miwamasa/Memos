@@ -74,7 +74,10 @@
 	- 日本の歴史についても、ハルシネーションの多いClaude 3 Opusと比較して、遥かに優れた回答。論理的な考察についてもレベルが高い。
 - 自作小説をLLMにレビューさせてみる（ローカル4モデル、サービス型3モデル）
 	- https://note.com/kohya_ss/n/nfcdfd6de8790
-- 
+	-  command-r-plus-Q4_K_M: 極めて高い理解力と要約力を示し、作品の伏線や登場人物の理解も的確だった。文章は読みやすく洗練されており、ローカルLLMの中で最も優秀な性能を示した。小説のテーマを深く理解し、適切な批評を行っている。
+- US NIST publishes 1st draft of its "AI Risk Management Framework: Generative AI Profile." 
+	- https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf
+	- 
 
 ## 4/29
 
@@ -3774,12 +3777,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://mitpress.mit.edu/9780262048613/fairness-and-machine-learning/
 	- An introduction to the intellectual foundations and practical utility of the recent work on fairness and machine learning
 	- ドラフトがあり、すでにたくさんの大学の授業で使われている。https://fairmlbook.org/
-- ベクトル検索のみで、AI王クイズ第一回コンペに臨む - Q&Aタスクでの複数の日本語embeddingsの評価
-	- https://secon.dev/entry/2023/12/21/080000-vector-search-ai-ou-comp/
-	- AI王 〜クイズAI日本一決定戦〜 第一回コンペとは、質問に対して約20個の候補から、回答となる一つを選択するコンペだ。train用に約13,000件、val用に約2,000件データが公開されている。
-	- 質問に対しての回答が含まれそうな文を検索する日本語embeddings変換モデルとしては、multilingual-e5-
+- ベクトル検索のみで
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NDUzMjc0LDE4Mjg0NzE0MTEsMzE1OD
+eyJoaXN0b3J5IjpbNTYwMjc2OTU2LDE4Mjg0NzE0MTEsMzE1OD
 M5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMs
 LTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMT
 g3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5
