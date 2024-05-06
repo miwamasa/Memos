@@ -124,7 +124,14 @@
 
 ## 4/29
 
-マイクロソフトからPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5とためをはるとのこと、Phi-3-mini 4k instruct モデルはColab T4でも動くし、huggingfaceにも公開。さっそくLlama-3 & Phi-3もRAGでの比較とかも。また、LLMの性能評価やベンチマークに関する活動も盛んであり、ElyzaTasks100やRAG、Query PlanningなどのタスクにおけるローカルLLMの実力が検証されています。AppleもOpenELMというオープンな言語モデルを発表し、スケーリング戦略を用いてモデルの効率性を向上させています。
+マイクロソフトからPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5とためをはるとのこと、Phi-3-mini 4k instruct モデルはColab T4でも動くし、huggingfaceにも公開。さっそくLlama-3 & Phi-3もRAGでの比較とかも。Llama3も、日本語化LoRaされたり、Llama3-70Bを42Bパラメータに枝刈りしたモデルが公開されたり、
+
+4bit量子化しても精度がほとんど低下しないことが
+
+Appleから、iPhoneでも稼働するオープンな言語モデル「OpenELM」
+LLMプロダクト開発者がMac Studioを買ってローカルLLMを触るべき理由についての記事が公開された
+
+また、LLMの性能評価やベンチマークに関する活動も盛んであり、ElyzaTasks100やRAG、Query PlanningなどのタスクにおけるローカルLLMの実力が検証されています。AppleもOpenELMというオープンな言語モデルを発表し、スケーリング戦略を用いてモデルの効率性を向上させています。
 
 
 
@@ -3758,11 +3765,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- llamaindexより、Building Human-in-the-Loop, Advanced RAG
 	- add step-wise feedback for complex query executions over
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjYyMDMwNiwtODQ1OTM4NTQyLDg0Mj
-E5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5
-NjcsMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMz
-QyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMy
-MjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NS
-wtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0
-MDY2NDE3MzJdfQ==
+eyJoaXN0b3J5IjpbLTEzMjU2Mzg3MzUsLTg0NTkzODU0Miw4ND
+IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
+OTY3LDE4Mjg0NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLT
+M0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUz
+MjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNT
+UsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0x
+NDA2NjQxNzMyXX0=
 -->
