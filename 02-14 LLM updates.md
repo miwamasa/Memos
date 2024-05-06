@@ -2,7 +2,7 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 5/7
-ＧＷで、あたまが
+ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-
 
 
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
@@ -3772,15 +3772,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- DS協会 スキル定義委員会 から生成AI時代に即し、スキルチェックリスト ver.5とタスクリスト ver.4を発表した際の解説動画がYouTubeにアップされたようです。いきなりチェックリストを見てもそう簡単に背景は理解できないのでオススメ。相当に濃厚です。
 -  ELYZA-tasks-100 でLLM14個の日本語性能を横断評価してみた
 	- https://qiita.com/wayama_ryousuke/items/105a164e5c80c150caf1
-	- 日本語LLMって色々あるけどベンチだけじゃよくわからんな、ということで検証してみた結果を記事にしてみました 
-	- openchat、Swallow等発表されたばかりのLLMについても検証してみてます
-	- 平均スコアが最も高かったのは `Xwi
+	- 日本語LLMって色々あるけどベンチだけじゃよくわからんな、ということで検証してみた結果を記事にして
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxODY4NDg0LDEzNDU5MDcxODEsLTQ1OT
-I2MTk2NywxODI4NDcxNDExLDMxNTgzOTM2NCwxNTE2MzYyNDc3
-LC0zNDI0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5LDI3Mj
-A1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0
-MDU1LC05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMC
-wtMTQwNjY0MTczMiwxNjcwMzU2NzE2LDM1MjkxNTMzOCwtNDY4
-NTIyNzExXX0=
+eyJoaXN0b3J5IjpbMTg2OTc3MTgwNCwxMzQ1OTA3MTgxLC00NT
+kyNjE5NjcsMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3
+NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNz
+IwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5
+NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMz
+AsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2
+ODUyMjcxMV19
 -->
