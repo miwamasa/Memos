@@ -36,7 +36,12 @@
 	- https://x.com/ai_database/status/1784581982053347542
 	- LLMのタスクにおいて「記号を自然言語テキストに変換する」ことで様々なタスクで精度が上がる現象が報告されています。
 	- 実験では、物性予測、表の理解、ツイート分析などで効果が出ています
-- 
+- BCGの売上20%が生成AI関連で、2026年までに40%にまで増えるとか
+	- https://www.ft.com/content/33dfaec4-b5e7-4eca-a869-cdd33d447e65
+- lama 3 degrades more than Llama 2 when quantized.
+	- https://x.com/rohanpaul_ai/status/1784889182558539917
+- gpt2-chatbotと呼ばれる謎のモデル
+	- 
 
 ## 4/29
 
@@ -3769,17 +3774,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - rinnaさんが公開されているnekomata-14b-instructionのgguf
 	- mmnga/rinna-nekomata-14b-instruction-gguf
 	- qwenベースでvocab15万あります
--  Gemini Pro Visionモデルを使用してGoogle Cloudにアップロードした動画を解析してみた
-	- https://qiita.com/tatsuki-tsuchiyama/items/5701475d46ee31efbb54
-- 「Nekomata」シリーズのGGUF 4bit量子化モデルを公開しました。 メモリ不足の場合は、量子化モデルをお試しください。
-	- https://huggingface.co/collections/rinna/nekomata-6582b5134ee85531becbb9a9
--  regex to do
+-  Gemini Pro Visionモデルを使用してGoogle Cloudにアップ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0MzkyNjgsMTgyODQ3MTQxMSwzMTU4Mz
-kzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3Mywt
-MTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExOD
-c1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5
-NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNi
-wzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYx
-NTQ5MDQxMV19
+eyJoaXN0b3J5IjpbLTUwODA3MDgwOCwxODI4NDcxNDExLDMxNT
+gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
+LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
+E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
+OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
+E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
+NjE1NDkwNDExXX0=
 -->
