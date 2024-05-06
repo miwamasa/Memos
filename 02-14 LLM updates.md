@@ -2,7 +2,7 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 5/7
-ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人は校閲を！。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか。Kolmogorov–Arnold Networks、新しい生成AIアーキテクチャの夜明け？アライメントととも関係あるとか。「ローカルLLMはこーやって使うの」は参考になる、ローカルLLMならいろいろやり放題なんだな。ＡＩセイフティでは、NISTから、生成ＡＩ向けのリスク管理フレームワークが発表、日本のAISIとの連携も進むのだろうな。
+ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人は校閲を！。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか。Kolmogorov–Arnold Networks、新しい生成AIアーキテクチャの夜明け？アライメントととも関係あるとか。「ローカルLLMはこーやって使うの」は参考になる、ローカルLLMならいろいろやり放題なんだな。ＡＩセイフティでは、NISTから、生成ＡＩ向けのリスク管理フレームワークが発表、日本のAISIとの連携も進むのだろうな。AIアライメントの包括的なサーベイ、
 
 
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
@@ -3762,13 +3762,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Swallowの研究開発は、産総研が構築・運用するAI橋渡しクラウド（ABCI: AI Bridging Cloud Infrastructure）の「大規模言語モデル構築支援プログラム」、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）の「次世代人工知能・ロボットの中核となるインテグレート技術開発」プロジェクト (JPNP18002) の「熟練者観点に基づき、設計リスク評価業務における判断支援を行う人工知能適用技術の開発」、その他の支援によって実施されました
 	- 産総研ABCIの一定部分（Aノードと呼ばれる高性能な計算ノード）を最大60日間占有利用する機会を提供する「大規模基盤モデル構築支援プログラム」によるものです
 	- swallowってつばめ？（東工大のマーク）
--  AdsorbRL: Deep Multi-Objective Reinforcement Learning for Inverse Catalysts
+-  AdsorbRL: Deep Multi-Objective Reinforcement Learning for
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDUyODU0OTYsLTEwMjA0MjU1MzgsMT
-M0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5
-MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLT
-E1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3
-NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OT
-U2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYs
-MzUyOTE1MzM4XX0=
+eyJoaXN0b3J5IjpbLTI5Njk2NjY5MSwtMTAyMDQyNTUzOCwxMz
+Q1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4Mzkz
+NjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMT
+UxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1
+Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NT
+YsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwz
+NTI5MTUzMzhdfQ==
 -->
