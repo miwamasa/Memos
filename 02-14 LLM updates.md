@@ -30,6 +30,8 @@
 	- https://zenn.dev/ml_bear/articles/3c5e7975f1620a
 - 居合わせた歌配信に混ざる NVIDIA $NVDA CEO ジェンスン・ファン
 	- https://x.com/woodstockclub/status/1784179786082128351
+-  高速AIチップで話題のGroqのAPIをStreamlitで使う方法
+	- https://note.com/masayuki_abe/n/n336721e355e6?sub_rt=share_pb
 - 
 
 ## 4/29
@@ -3769,14 +3771,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://huggingface.co/collections/rinna/nekomata-6582b5134ee85531becbb9a9
 -  regex to do sentence splitting that generalizes beyond English to non-Latin languages (CJK, etc.) 
 	- https://x.com/jerryjliu0/status/1738232451200356445?s=20
-- 最新の SCIENCEの特集はAI Powered Forecasting 、VOLUME 382|、ISSUE 6677、22 DEC 2023
-	- https://www.science.org/toc/science/382/6677?utm_cam
+- 最新の SCIENCEの特集はAI Powered 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDg4MjI4MywxODI4NDcxNDExLDMxNT
-gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
-LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
-E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
-OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
-E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
-NjE1NDkwNDExXX0=
+eyJoaXN0b3J5IjpbLTE4Mzk2OTA1NTMsMTgyODQ3MTQxMSwzMT
+U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
+MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
+ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
+ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
+cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
+MTYxNTQ5MDQxMV19
 -->
