@@ -1,6 +1,9 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+##
+
+
 ## 4/29
 
 - モデル進化マージについて by sakana.aiの秋葉さん
@@ -3772,13 +3775,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://monoist.itmedia.co.jp/mn/articles/2312/22/news064.html#utm_term=share_sp
 	- レゾナックは2023年12月21日、ディープラーニング技術を用いたAI（人工知能）と膨大な蓄積データを用いるケモインフォマティクスアプリを独自開発し、運用を開始したと発表した。
 - Building LLM-Powered Web Apps with Client-Side Technology
-	- https:/
+	- htt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNj
-M2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1
-OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLT
-kyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4
-NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMz
-gsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYxNTQ5MDQxMSw5
-ODEwNjUwMjhdfQ==
+eyJoaXN0b3J5IjpbNjY4MTU1OTI1LDE4Mjg0NzE0MTEsMzE1OD
+M5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMs
+LTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMT
+g3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5
+OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MT
+YsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2
+MTU0OTA0MTFdfQ==
 -->
