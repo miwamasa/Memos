@@ -101,7 +101,9 @@
 	- https://x.com/Sumanth_077/status/1786404341735444731
 - Build a RAG system with Llama 3B-Instruct for your PDFs
 	- https://colab.research.google.com/drive/1BJYYyrPVe0_9EGyXqeNyzmVZDrCRZwsg?usp=sharing#scrollTo=Y2m2l-vt_RSp
-- 
+-  TAIS 2024 | Insights from two years of AI safety field-building at MATS — Ryan Kidd
+	- https://www.youtube.com/watch?v=tA9K8JqyhP4
+	- 特異学習理論（渡辺ベイズ理論）を発展させて局所学習係数という新しい概念を創出し，①transformerの学習ダイナミクスの解析，②機械論的解釈可能性の基盤理論としての可能性，③AIアライメント理論の展望を力説した2人の研究者のTAIS2024講演
 
 ## 4/29
 
@@ -3773,16 +3775,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - llamaindexよりtext2sqlをつかった、research assistant templte
 	- https://github.com/langchain-ai/langchain/tree/master/templates/sql-research-assistant
 	- ollamaを利用したローカルLLM版もふくまれている！
-	- なるほど、これがLangCainとLLMをつかったローカルWebアプリ構築の新スタンダードか
-- PowerInfer - a high-speed inference engine for deploying LLMs locally
-	- https://github.com/SJTU-IPADS/PowerInfer
-	- Just came across this super interesting project on speeding up inference. It's not MoE but it's a simple approach
+	- なるほど、これがLangCainとLLMを
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzI1Mzc3NiwxODI4NDcxNDExLDMxNT
-gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
-LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
-E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
-OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
-E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
-NjE1NDkwNDExXX0=
+eyJoaXN0b3J5IjpbLTE5MzUwNjQxNDYsMTgyODQ3MTQxMSwzMT
+U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
+MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
+ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
+ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
+cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
+MTYxNTQ5MDQxMV19
 -->
