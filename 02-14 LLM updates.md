@@ -2,7 +2,7 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 5/7
-ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。一方ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人はぜひ熟読を！。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか。Kolmogorov–Arnold Networks、新しい生成AIアーキテクチャの夜明け？局所学習係数という新しい概念も気になる、アライメントととも関係あるとか。「ローカルLLMはこーやって使うの」は参考になる、ローカルLLMならいろいろやり放題なんだな。ＡＩセイフティでは、NISTから、生成ＡＩ向けのリスク管理フレームワークが発表、日本のAISIとの連携も進むのだろうな。AIアライメントの包括的なサーベイ、「AIによる絶滅リスクの軽減」だと。rinnaはLlama 3 8Bの日本語継続事前学習モデル「Llama 3 Youko 8B」を公開、NIIから「LLM-jp-13B v2.0」を構築とか、頑張れ日本勢。うみゆきさんが言うように、Mergekit-Evolveってのは本当にすごのいか？？LangChainの４つのRAG向けchainの比較も地味に役に立つ。ローカルLLM系では、自作小説をLLMで評価させているひとが、 command-r-plus-Q4_K_Mを絶賛評価、実作業に基づく評価は助かる。
+ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。一方ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人はぜひ熟読を！。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか。Kolmogorov–Arnold Networks、新しい生成AIアーキテクチャの夜明け？局所学習係数という新しい概念も気になる、アライメントととも関係あるとか。「ローカルLLMはこーやって使うの」は参考になる、ローカルLLMならいろいろやり放題なんだな。ＡＩセイフティでは、NISTから、生成ＡＩ向けのリスク管理フレームワークが発表、日本のAISIとの連携も進むのだろうな。AIアライメントの包括的なサーベイ、「AIによる絶滅リスクの軽減」だと。rinnaはLlama 3 8Bの日本語継続事前学習モデル「Llama 3 Youko 8B」を公開、NIIから「LLM-jp-13B v2.0」を構築とか、頑張れ日本勢。うみゆきさんが言うように、Mergekit-Evolveってのは本当にすごのいか？？LangChainの４つのRAG向けchainの比較も地味に役に立つ。ローカルLLM系では、自作小説をLLMで評価させているひとが、 command-r-plus-Q4_K_Mを絶賛評価、実作業に基づく評価は助かる。ChatGPT、東大入試に挑むも「不合格」、
 
 
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
@@ -3759,13 +3759,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- add step-wise feedback for complex query executions over a RAG pipeline
 - 東工大と産総研、英語の言語理解や対話で高い能力を持つ大規模言語モデル「Swallow」を公開 
 	- https://note.com/aicu/n/n3eb8c1f2df02?sub_rt=share_pb
-	- Swallowの研究開発は、産総研が構築・運用するAI橋渡しクラウド（ABCI: AI Bridging Cloud Infrastructure）の「大規模言語モデル構築支援プログラム」、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）の「次世
+	- Swallowの研究開発は、産総研が構築・運用するAI橋渡しクラウド（ABCI: AI Bridging Cloud Infrastructure）の「大規模言語モデル構築支援プログラム」、国立研
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxOTgwMjc2LDg0MjE5MTM1NiwtMTAyMD
-QyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQx
-MSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MT
-I1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4
-MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC
-04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3
-MDM1NjcxNl19
+eyJoaXN0b3J5IjpbLTE4MzEzOTE3MTgsODQyMTkxMzU2LC0xMD
+IwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcx
+NDExLDMxNTgzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsOD
+YxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMx
+NjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2Mj
+csLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwx
+NjcwMzU2NzE2XX0=
 -->
