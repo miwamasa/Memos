@@ -115,7 +115,8 @@
 - LangChainのllama.cpp統合
 	- https://x.com/yuiseki_/status/1787091439408816479
 - 【vLLM on Hugging Face Interface】
-	- 
+	- https://x.com/hokazuya/status/1787060961570127973
+	- 便利すぎ。爆速でLlama 3 -8BのLLMを動かす＋OpenAIのAPIを呼び出す形式でLlama 3と会話できちゃう。
 
 ## 4/29
 
@@ -3770,15 +3771,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://speakerdeck.com/mkazutaka/gptsyorijing-du-nogao-iragsisutemunogou-zhu
 	- https://github.com/mkazutaka/20231219-llmapp-meetup
 -  LLM in a flash: Efficient Large Language Model Inference with Limited Memory
-	- https://arxiv.org/abs/2312.11514
-	- Appleの研究者らは、LLMのパラメータをSSDなどの外部フラッシュメモリに保存し、接続したPCなどで読み込み使用する手法を開発しました
-	- CPUで4-5倍、GPUで20-25倍の推論速度向上が実現し、さ
+	- https://arxiv.org/abs/2312
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTkyMzg5OTQsMTgyODQ3MTQxMSwzMT
-U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
-MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
-ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
-ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
-cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
-MTYxNTQ5MDQxMV19
+eyJoaXN0b3J5IjpbLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNT
+gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
+LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
+E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
+OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
+E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
+NjE1NDkwNDExXX0=
 -->
