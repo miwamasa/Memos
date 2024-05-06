@@ -2,7 +2,7 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 5/7
-ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（
+ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。
 
 
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
@@ -3770,14 +3770,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 『スキル定義委員会セッション～スキルチェックリスト、タスクリストバージョン更新と生成 AI〜』（2023年10月20日）
 	- https://www.youtube.com/watch?v=nQumYtpN0zY
 	- DS協会 スキル定義委員会 から生成AI時代に即し、スキルチェックリスト ver.5とタスクリスト ver.4を発表した際の解説動画がYouTubeにアップされたようです。いきなりチェックリストを見てもそう簡単に背景は理解できないのでオススメ。相当に濃厚です。
--  ELYZA-tasks-100 でLLM14個の日本語性能を横断評価してみた
-	- https://qiita.com/wayama_ryousuke/items/105a164e5c80c15
+-  ELYZA-tasks-10
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDk5MzY4OSwxMzQ1OTA3MTgxLC00NT
-kyNjE5NjcsMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3
-NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNz
-IwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5
-NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMz
-AsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwzNTI5MTUzMzgsLTQ2
-ODUyMjcxMV19
+eyJoaXN0b3J5IjpbLTE5NzAwMjMyMzUsMTM0NTkwNzE4MSwtND
+U5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0
+NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MTk2OTkzNTksMj
+cyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5NTY4LC05MjIy
+OTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC0xODkwODQ3MT
+MwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00
+Njg1MjI3MTFdfQ==
 -->
