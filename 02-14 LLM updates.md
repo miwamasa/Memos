@@ -2,7 +2,7 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 5/7
-ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人は校閲を！。
+ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人は校閲を！。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか。Qwen1.5はかなり優秀
 
 
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
@@ -3767,10 +3767,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 強化学習による触媒材料の逆設計の論文。 
 	- -OHとの結合は強いがH2Oとの結合は弱い、のような複数の吸着剤の最適化を多目的強化学習により行い、16万化合物をスクリーニングできたそうです。 
 	- 材料開発はトレードオフが基本なので、こういう最適化は需要がありそう
-- 『スキル定義委員会セッション～スキルチェックリスト、タスクリストバージョン更新と生成 AI〜』（2023年10月20日）
-	- https://www.youtube.c
+- 『スキル定義委員会セ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTY2NDY4NywxMzQ1OTA3MTgxLC00NT
+eyJoaXN0b3J5IjpbLTIxNDIwNjYzMiwxMzQ1OTA3MTgxLC00NT
 kyNjE5NjcsMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3
 NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNz
 IwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5
