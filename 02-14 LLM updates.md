@@ -120,7 +120,10 @@
 
 ## 4/29
 
-最新のLLM動向を見ると、Phi-3シリーズが注目を集めています。MicrosoftからはPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5と競合しています。さらに、Phi-3シリーズにはさまざまなサイズがあり、モデルの大きさと性能の関係が議論されています。一方、LLMのアライメントに関する研究では、トークン単位の逆Q学習が注目され、対話結果の解析や収益最大化の観点から議論されています。
+最新のLLM動向を見ると、Phi-3シリーズが注目を集めています。MicrosoftからはPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5と競合しています。さらに、Phi-3シリーズにはさまざまなサイズがあり、モデルの大きさと性能の関係が議論されています。
+
+
+一方、LLMのアライメントに関する研究では、トークン単位の逆Q学習が注目され、対話結果の解析や収益最大化の観点から議論されています。
 
 また、LLMの性能評価やベンチマークに関する活動も盛んであり、ElyzaTasks100やRAG、Query PlanningなどのタスクにおけるローカルLLMの実力が検証されています。AppleもOpenELMというオープンな言語モデルを発表し、スケーリング戦略を用いてモデルの効率性を向上させています。
 
@@ -3769,13 +3772,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://qiita.com/wayama_ryousuke/items/105a164e5c80c150caf1
 	- 日本語LLMって色々あるけどベンチだけじゃよくわからんな、ということで検証してみた結果を記事にしてみました 
 	- openchat、Swallow等発表されたばかりのLLMについても検証してみてます
-	- 平均スコアが最も高かったのは `Xwin-LM-70B-V0.1` で、次いで `deepseek-llm-67b-
+	- 平均スコアが最も高かったのは `Xwin-LM-70B-V0.1` で、次いで `deepseek-llm-6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mj
-g0NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMy
-MSw4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOT
-UwMzE2ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQz
-MjYyNywtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNz
-MyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5
-MTA0MzAzNTldfQ==
+eyJoaXN0b3J5IjpbLTE1MTc5MjMyNDksMTM0NTkwNzE4MSwtND
+U5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0
+NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MTk2OTkzNTksMj
+cyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5NTY4LC05MjIy
+OTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC0xODkwODQ3MT
+MwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00
+Njg1MjI3MTFdfQ==
 -->
