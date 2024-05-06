@@ -87,6 +87,10 @@
 	- ちなみにニューラルネットワークとコルモゴロフ-アーノルド表現定理の話題に関しては，そんなに新しいものではなく，結構昔から出ているものではあります(今井さん)
 - RAGのG（Generation）、つまり"生成"は本当に必要なのか？
 	- https://x.com/Nurruttan/status/1785853289034350622
+- AI Alignment: A Comprehensive Survey.
+	- https://alignmentsurvey.com/uploads/AI-Alignment-A-Comprehensive-Survey.pdf
+	- AIアライメントの包括的なサーベイ
+	- AIアライメントは、AIシステムを人間の意図や価値観に沿って行動させることを目的としている。AIシステムの能力が高まるにつれて、ずれたAIシステムに関連する潜在的な大規模リスクが顕著になっている。何百人ものAI専門家や著名人がAIリスクへの懸念を表明し、「AIによる絶滅リスクの軽減は、パンデミックや核戦争といった他の社会的規模のリスクと並んで、世界的な優先事項であるべきだ」と主張している
 - 
 
 ## 4/29
@@ -3772,14 +3776,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 「東京工業大学の大岡山キャンパスは行政的にはどこの区に属する？」と、問うと狂った！
 -  A mathematical perspective on Transformers
 	- https://arxiv.org/abs/2312.10794
-	- トランスフォーマーは、自己注意と層正規化という2つの主要な機構を含む相互作用する粒子系としてモデル化される。粒子系は確率測度の流れを実装
--  Discovery of a structural class of antibiotics with explainable deep learning
-	- https://www.nature.com/articles/s41586-023-06887-8
-	- 毒性のない、メチシリン耐性黄色ブドウ球菌に対して有効な複数の化合物を含む新しい構造クラスの抗生物質 (最後の発見には 38 年かかった)
-- "A Challenger to GPT-4V? Early Explorations of Gemini in Visual Expertise"
-	- ht
+	- トランスフォーマーは、自己注意と層正規
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjA5MDUxNSwxODI4NDcxNDExLDMxNT
+eyJoaXN0b3J5IjpbMTI0OTE5OTA2MywxODI4NDcxNDExLDMxNT
 gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
 LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
 E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
