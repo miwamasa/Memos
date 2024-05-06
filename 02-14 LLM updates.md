@@ -124,16 +124,12 @@
 
 ## 4/29
 
-マイクロソフトからPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5とためをはるとのこと、
-
-Phi-3シリーズが注目を集めています。MicrosoftからはPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5と競合しています。さらに、Phi-3シリーズにはさまざまなサイズがあり、モデルの大きさと性能の関係が議論されています。Llama-3 & Phi-3もRAGでの比較とか。
+マイクロソフトからPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5とためをはるとのこと、Phi-3-mini 4k instruct モデルはColab T4でも動くし、huggingfaceにも公開。さっそくLlama-3 & Phi-3もRAGでの比較とかも。また、LLMの性能評価やベンチマークに関する活動も盛んであり、ElyzaTasks100やRAG、Query PlanningなどのタスクにおけるローカルLLMの実力が検証されています。AppleもOpenELMというオープンな言語モデルを発表し、スケーリング戦略を用いてモデルの効率性を向上させています。
 
 
-一方、LLMのアライメントに関する研究では、トークン単位の逆Q学習が注目され、対話結果の解析や収益最大化の観点から議論されています。
 
-また、LLMの性能評価やベンチマークに関する活動も盛んであり、ElyzaTasks100やRAG、Query PlanningなどのタスクにおけるローカルLLMの実力が検証されています。AppleもOpenELMというオープンな言語モデルを発表し、スケーリング戦略を用いてモデルの効率性を向上させています。
 
-さらに、LLMのfine-tuningや継続学習に関する研究も進んでおり、医療ドメインや言語モデルの学習データの品質についても議論されています。このような動向を踏まえると、LLMの進化と応用範囲の拡大が着実に進んでいることがわかります。
+
 
 - モデル進化マージについて by sakana.aiの秋葉さん
 	- https://speakerdeck.com/iwiwi/17-nlpkorokiumu
@@ -3760,9 +3756,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Controllable Agents for RAG
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_runner/agent_runner_rag_controllable.ipynb
 	- llamaindexより、Building Human-in-the-Loop, Advanced RAG
-	- add step-wise feedback for complex query executions over a RA
+	- add step-wise feedback for complex query executions over
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTgxNzk0NSwtODQ1OTM4NTQyLDg0Mj
+eyJoaXN0b3J5IjpbMTYzMjYyMDMwNiwtODQ1OTM4NTQyLDg0Mj
 E5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5
 NjcsMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMz
 QyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMy
