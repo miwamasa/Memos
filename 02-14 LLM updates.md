@@ -6,7 +6,12 @@
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
 	- https://zenn.dev/aidemy/articles/97d5fb6ac03a4f
 	- stuff chain、map reduce chain、map rerank chain、refine chain
-
+	- 応答速度 : 呼び出し回数が1回のstuffは「速い」, n回ですが各文書に対するLLM呼び出しを並列化できるmap系2種は「普通」, n回かつ並列化ができないrefineは「遅い」としています。
+	- 適している文書特徴
+		- stuff・map reduce : 文書全体を1段階または2段階でLLMに入力するため, 文書全体に重要な情報が含まれる場合に特に有効です。
+		- map rerank : 文書の一部のみの回答から最良の回答を選ぶため, 一部のみに重要な情報が含まれる場合に特に有効です。
+		- refine : 一部のみの回答を複数回再起的に呼び出すため, 重要な情報が文書の全体でも一部でも対応することが可能です。
+- 
 
 ## 4/29
 
@@ -3769,16 +3774,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Youri7BをローカルLLMでAPIサーバー化してオリジナル美少女とお話してみた
 	- https://zenn.dev/yasuna/articles/b954b2cd77e27f
 	- ローカルPCにLLMをダウンロードしてAPIサーバとして動かす
-	- ブラウザで簡単に3Dキャラクターと会話できるアプリケーションとつなげる
-	- オリジナル3Dキャラクターを作る
-	- システムプロンプトでキャラクター設定をする
-- intel-extension-for-transformers
-	- https://github.com/intel/intel-extension-for-transformers
-	- いろいろ対応できるLLMや量子化対応が増えている模様
-- レゾナックが量子化学計算に比べて数千倍速く物性を予測可能なアプリを開発
-	- https://monoist.itmedia.co.jp/mn/articles/2312/22/news064.html#utm_term=share_sp
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1OTQzMzA5LDE4Mjg0NzE0MTEsMzE1OD
+eyJoaXN0b3J5IjpbODI1MjA5Mjk5LDE4Mjg0NzE0MTEsMzE1OD
 M5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMs
 LTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMT
 g3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5
