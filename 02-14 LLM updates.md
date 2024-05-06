@@ -2,7 +2,7 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 5/7
-ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。一方ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人はぜひ熟読を！。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか。Kolmogorov–Arnold Networks、新しい生成AIアーキテクチャの夜明け？局所学習係数という新しい概念も気になる、アライメントととも関係あるとか。「ローカルLLMはこーやって使うの」は参考になる、ローカルLLMならいろいろやり放題なんだな。ＡＩセイフティでは、NISTから、生成ＡＩ向けのリスク管理フレームワークが発表、日本のAISIとの連携も進むのだろうな。AIアライメントの包括的なサーベイ、「AIによる絶滅リスクの軽減」だと。rinnaはLlama 3 8Bの日本語継続事前学習モデル「Llama 3 Youko 8B」を公開、NIIから「LLM-jp-13B v2.0」を構築とか、頑張れ日本勢。うみゆきさんが言うように、Mergekit-Evolveってのは本当にすごのいか？？LangChainの４つのRAG向けchainの比較も地味に役に立つ。ローカルLLM系では、自作小説をLLMで評価させているひとが、 command-r-plus-Q4_K_Mを絶賛評価、実作業に基づく評価は助かる。ChatGPT、東大入試に挑むも「不合格」、
+ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートが先週とかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。一方ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人はぜひ熟読を！。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか、気のせいかLlama3,phi3が使われる例が多いような。Kolmogorov–Arnold Networks、新しい生成AIアーキテクチャの夜明け？局所学習係数という新しい概念も気になる、アライメントととも関係あるとか。「ローカルLLMはこーやって使うの」は参考になる、ローカルLLMならいろいろやり放題なんだな。ＡＩセイフティでは、NISTから、生成ＡＩ向けのリスク管理フレームワークが発表、日本のAISIとの連携も進むのだろうな。AIアライメントの包括的なサーベイ、「AIによる絶滅リスクの軽減」だと。rinnaはLlama 3 8Bの日本語継続事前学習モデル「Llama 3 Youko 8B」を公開、NIIから「LLM-jp-13B v2.0」を構築とか、頑張れ日本勢。うみゆきさんが言うように、Mergekit-Evolveってのは本当にすごのいか？？LangChainの４つのRAG向けchainの比較も地味に役に立つ。ローカルLLM系では、自作小説をLLMで評価させているひとが、 command-r-plus-Q4_K_Mを絶賛評価、実作業に基づく評価は助かる。ChatGPT、東大入試に挑むも「不合格」の記事、さっそくプロンプトが悪いとの突っ込みが。。
 
 
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
@@ -112,6 +112,8 @@
 - ChatGPT、東大入試に挑む　英語8割超も数学1点で「不合格」
 	- https://www.nikkei.com/article/DGXZQOUC2103E0R20C24A3000000/?n_cid=SNSTW005
 	- 「この計算は手作業では困難。数学の専門書をおすすめする」。人ごとのような答案もありました。古文も文脈を理解できず0点。一方、英作文や英訳は満点でした
+- 2024年東大入試数学の第1問の(1)をプロンプトを工夫して解いてみたら、一発で解けた。これだけで5点くらい取れているはず
+	- https://x.com/itnavi2022/status/1787121446445326816
 - Nvidia が出した、Llama3-ChatQA-1.5の微調整でRAG＆対話性能爆上がり。
 	- https://x.com/hokazuya/status/1786901364213416356
 - LangChainのllama.cpp統合
@@ -3757,15 +3759,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_runner/agent_runner_rag_controllable.ipynb
 	- llamaindexより、Building Human-in-the-Loop, Advanced RAG
 	- add step-wise feedback for complex query executions over a RAG pipeline
-- 東工大と産総研、英語の言語理解や対話で高い能力を持つ大規模言語モデル「Swallow」を公開 
-	- https://note.com/aicu/n/n3eb8c1f2df02?sub_rt=share_pb
-	- Swallowの研究開発は、産総研が構築・運用するAI橋渡しクラウド（ABCI: AI Bridging Cloud Infrastructure）の「大規模言語モデル構築支援プログラム」、国立研
+- 東工大と産総研、英語の言語理解や対話で高い能力を持つ大規模言語モデル「Swal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzEzOTE3MTgsODQyMTkxMzU2LC0xMD
-IwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcx
-NDExLDMxNTgzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsOD
-YxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMx
-NjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2Mj
-csLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwx
-NjcwMzU2NzE2XX0=
+eyJoaXN0b3J5IjpbLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMj
+A0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0
+MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4Nj
+EyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2
+ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNy
+wtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2
+NzAzNTY3MTZdfQ==
 -->
