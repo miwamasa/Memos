@@ -103,7 +103,11 @@
 	- https://colab.research.google.com/drive/1BJYYyrPVe0_9EGyXqeNyzmVZDrCRZwsg?usp=sharing#scrollTo=Y2m2l-vt_RSp
 -  TAIS 2024 | Insights from two years of AI safety field-building at MATS — Ryan Kidd
 	- https://www.youtube.com/watch?v=tA9K8JqyhP4
+	- Don't miss @jesse_hoogland captivating talk at TAIS2024 on the structure of neural networks and the links between learning theory and interpretability! Watch now:
 	- 特異学習理論（渡辺ベイズ理論）を発展させて局所学習係数という新しい概念を創出し，①transformerの学習ダイナミクスの解析，②機械論的解釈可能性の基盤理論としての可能性，③AIアライメント理論の展望を力説した2人の研究者のTAIS2024講演
+- 「確率変数」の正体は米田埋め込み
+	- https://m-hiyama.hatenablog.com/entry/20170228/1488276250
+- 
 
 ## 4/29
 
@@ -3771,17 +3775,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - 「AGI Breakthrough」
 	- https://x.com/bioshok3/status/1737258881452294277?s=20
 	- 「AGI Breakthrough」と名付けられたOpenAI取締役会への公開書簡がVerses AIから急遽出されている。
-	- AGIに繋がりうる能動的推論についての画期的な進歩を最近達成。Open AI憲章に基づき、AGIの安全な配備のため技術協力を要請している。今後どうなるか注視必要。
-- llamaindexよりtext2sqlをつかった、research assistant templte
-	- https://github.com/langchain-ai/langchain/tree/master/templates/sql-research-assistant
-	- ollamaを利用したローカルLLM版もふくまれている！
-	- なるほど、これがLangCainとLLMを
+	- AGIに繋がりうる能動的推論についての画期的な進歩を最近達成。Op
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzUwNjQxNDYsMTgyODQ3MTQxMSwzMT
-U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
-MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
-ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
-ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
-cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
-MTYxNTQ5MDQxMV19
+eyJoaXN0b3J5IjpbLTI3NTMxNzc4NSwxODI4NDcxNDExLDMxNT
+gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
+LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
+E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
+OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
+E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
+NjE1NDkwNDExXX0=
 -->
