@@ -2,6 +2,8 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 5/7
+ＧＷで、あたまが
+
 
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
 	- https://zenn.dev/aidemy/articles/97d5fb6ac03a4f
@@ -3772,9 +3774,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://qiita.com/wayama_ryousuke/items/105a164e5c80c150caf1
 	- 日本語LLMって色々あるけどベンチだけじゃよくわからんな、ということで検証してみた結果を記事にしてみました 
 	- openchat、Swallow等発表されたばかりのLLMについても検証してみてます
-	- 平均スコアが最も高かったのは `Xwin-LM-70B-V
+	- 平均スコアが最も高かったのは `Xwi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyMjg2NTg0LDEzNDU5MDcxODEsLTQ1OT
+eyJoaXN0b3J5IjpbNTQxODY4NDg0LDEzNDU5MDcxODEsLTQ1OT
 I2MTk2NywxODI4NDcxNDExLDMxNTgzOTM2NCwxNTE2MzYyNDc3
 LC0zNDI0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5LDI3Mj
 A1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0
