@@ -77,7 +77,13 @@
 	-  command-r-plus-Q4_K_M: 極めて高い理解力と要約力を示し、作品の伏線や登場人物の理解も的確だった。文章は読みやすく洗練されており、ローカルLLMの中で最も優秀な性能を示した。小説のテーマを深く理解し、適切な批評を行っている。
 - US NIST publishes 1st draft of its "AI Risk Management Framework: Generative AI Profile." 
 	- https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf
-	- 
+- rinnaはLlama 3 8Bの日本語継続事前学習モデル「Llama 3 Youko 8B」を公開しました。
+	- https://huggingface.co/rinna/llama-3-youko-8b
+- KAN: Kolmogorov–Arnold Networks
+	- https://arxiv.org/abs/2404.19756
+	- Proposes an alternative to MLP that outperforms in terms of accuracy and interpretability
+	- ちなみにニューラルネットワークとコルモゴロフ-アーノルド表現定理の話題に関しては，そんなに新しいものではなく，結構昔から出ているものではあります(今井さん)
+- 
 
 ## 4/29
 
@@ -3772,18 +3778,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- GPT-4Vは複雑なタスクに長けており、Geminiはビジュアルとテキスト情報の統合に長けている傾向があるとのことです。
 	- 比較：
 		- ① Geminiは多くの場合、GPT-4Vと同等かそれ以上の正確さを示す 
-		- ② GeminiはGPT-4Vよりも知識が幅広いように見える
--  Fairness and Machine Learning by Arvind Narayanan
-	- https://mitpress.mit.edu/9780262048613/fairness-and-machine-learning/
-	- An introduction to the intellectual foundations and practical utility of the recent work on fairness and machine learning
-	- ドラフトがあり、すでにたくさんの大学の授業で使われている。https://fairmlbook.org/
-- ベクトル検索のみで
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwMjc2OTU2LDE4Mjg0NzE0MTEsMzE1OD
-M5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMs
-LTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMT
-g3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5
-OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MT
-YsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2
-MTU0OTA0MTFdfQ==
+eyJoaXN0b3J5IjpbLTUxMDIzMDU1MiwxODI4NDcxNDExLDMxNT
+gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
+LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
+E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
+OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
+E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
+NjE1NDkwNDExXX0=
 -->
