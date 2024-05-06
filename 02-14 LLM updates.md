@@ -2,7 +2,7 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 5/7
-ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-
+ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（
 
 
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
@@ -3771,10 +3771,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.youtube.com/watch?v=nQumYtpN0zY
 	- DS協会 スキル定義委員会 から生成AI時代に即し、スキルチェックリスト ver.5とタスクリスト ver.4を発表した際の解説動画がYouTubeにアップされたようです。いきなりチェックリストを見てもそう簡単に背景は理解できないのでオススメ。相当に濃厚です。
 -  ELYZA-tasks-100 でLLM14個の日本語性能を横断評価してみた
-	- https://qiita.com/wayama_ryousuke/items/105a164e5c80c150caf1
-	- 日本語LLMって色々あるけどベンチだけじゃよくわからんな、ということで検証してみた結果を記事にして
+	- https://qiita.com/wayama_ryousuke/items/105a164e5c80c15
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTc3MTgwNCwxMzQ1OTA3MTgxLC00NT
+eyJoaXN0b3J5IjpbMTQ3NDk5MzY4OSwxMzQ1OTA3MTgxLC00NT
 kyNjE5NjcsMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3
 NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNz
 IwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5
