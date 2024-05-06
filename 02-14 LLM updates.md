@@ -11,6 +11,9 @@
 		- stuff・map reduce : 文書全体を1段階または2段階でLLMに入力するため, 文書全体に重要な情報が含まれる場合に特に有効です。
 		- map rerank : 文書の一部のみの回答から最良の回答を選ぶため, 一部のみに重要な情報が含まれる場合に特に有効です。
 		- refine : 一部のみの回答を複数回再起的に呼び出すため, 重要な情報が文書の全体でも一部でも対応することが可能です。
+- Mergekit-Evolveのテストで試しに作ったモデル、Japanese-Chat-Umievo-itr001-7bをElyzaTasks100で評価してみたら平均3.57点を叩き出した　 by うみゆきさｎ
+	- https://x.com/umiyuki_ai/status/1783867934542303666
+	- 7Bモデルなのに35BパラのCommand Rを超えてます！進化的アルゴリズムの威力恐るべし！！
 - 
 
 ## 4/29
@@ -3770,17 +3773,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ③ 技術スタックとエコシステムが発展すべき
 - Geminiでのtokenカウントが日本語でChatGPTの1/2であることが判明
 	- https://x.com/Mega_Gorilla_/status/1738821637297115598?s=20
-	- Gemini お前、932 Charactersで500Tokenって、、 お前のTokenどうなってるんだ？！ OpenAIなら、同じ文字列で、1000トークン越えだぞ。
-- Youri7BをローカルLLMでAPIサーバー化してオリジナル美少女とお話してみた
-	- https://zenn.dev/yasuna/articles/b954b2cd77e27f
-	- ローカルPCにLLMをダウンロードしてAPIサーバとして動かす
-	- 
+	- Gemin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1MjA5Mjk5LDE4Mjg0NzE0MTEsMzE1OD
-M5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMs
-LTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMT
-g3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5
-OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MT
-YsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2
-MTU0OTA0MTFdfQ==
+eyJoaXN0b3J5IjpbMTc2NTY3MjA5OSwxODI4NDcxNDExLDMxNT
+gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
+LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
+E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
+OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
+E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
+NjE1NDkwNDExXX0=
 -->
