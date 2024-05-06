@@ -126,15 +126,11 @@
 
 マイクロソフトからPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5とためをはるとのこと、Phi-3-mini 4k instruct モデルはColab T4でも動くし、huggingfaceにも公開。さっそくLlama-3 & Phi-3もRAGでの比較とかも。Llama3も、日本語化LoRaされたり、Llama3-70Bを42Bパラメータに枝刈りしたモデルが公開されたり、量子化の評価なども。なお量子化に関してはどのＬＬＭも4bit量子化しても精度がほとんど低下しないとのことだが本当か？
 
-AppleがiPhoneでも稼働するオープンな言語モデル「OpenELM」を発表、さっそくMLX LMで評価した結果が公開された、Macbook AirでPhi 3の量子化されたやつを動かしている例とか、実は、LLMプロダクト開発者はMac Studioを買ってローカルLLMを触るべきとの意見も見られた、６月の
-
-NVIDIA CEOジェンスン・ファン氏が歌配信に混ざる様子が話題になった
-
-GroqのAPIをStreamlitで使う方法が紹介された（
+AppleがiPhoneでも稼働するオープンな言語モデル「OpenELM」を発表、さっそくMLX LMで評価した結果が公開された、Macbook AirでPhi 3の量子化されたやつを動かしている例とか、実は、LLMプロダクト開発者はMac Studioを買ってローカルLLMを触るべきとの意見も見られた、６月のWWDC24が楽しみだ。それにしても、NVIDIA CEOジェンスン・ファン氏が歌配信に混ざる動画、かわいいなあ（いやＣＥＯがだよ）。GroqのAPIをStreamlitで使う方法の紹介など、Groq(LPUによる高速化のほう）が当たり前につかわれるように
 
 LLMエージェントに関するニュースを毎週まとめてくださるサイト（
 
-LLMのアライメントであるDPOは実はトークン単位の逆Q学習を実現し、最適なアドバンテージ関数を推定し、トークン単位の信用割当問題を解いている
+LLMのアライメントであるDPOは実はトークン単位の逆Q学習を実現し、最適なアドバンテージ関数を推定し、トークン単位の信用割当問題を解いているというのは面白い定式化だ。
 
 また、LLMの性能評価やベンチマークに関する活動も盛んであり、ElyzaTasks100やRAG、Query PlanningなどのタスクにおけるローカルLLMの実力が検証されています。AppleもOpenELMというオープンな言語モデルを発表し、スケーリング戦略を用いてモデルの効率性を向上させています。
 
@@ -3765,14 +3761,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Googleからもプロンプトエンジニアリングの説明がでる	
 	- https://ai.google.dev/docs/prompt_best_practices?hl=ja
 	- プロンプトの設計に正しい方法や間違った方法はありませんが、モデルのレスポンスに影響を与えるために使用できる一般的な戦略があります。このセクションでは、一般的なプロンプト設計戦略について紹介します。
--  Controllable Agents for RAG
-	- https://github.com/run-llama/llama_index/blob
+-  Controllabl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMjM4MDg3LC04NDU5Mzg1NDIsODQyMT
-kxMzU2LC0xMDIwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2
-NywxODI4NDcxNDExLDMxNTgzOTM2NCwxNTE2MzYyNDc3LC0zND
-I0ODAzMjEsODYxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIy
-NCwtMTk1MDMxNjgzMiwtMTE4NzU2OTU2OCwtOTIyMjk0MDU1LC
-05NTY0MzI2MjcsLTg0Njg4OTk1NiwtMTg5MDg0NzEzMCwtMTQw
-NjY0MTczMl19
+eyJoaXN0b3J5IjpbMTA0MjMzMzU5OSwtODQ1OTM4NTQyLDg0Mj
+E5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5
+NjcsMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMz
+QyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMy
+MjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NS
+wtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0
+MDY2NDE3MzJdfQ==
 -->
