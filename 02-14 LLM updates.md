@@ -71,6 +71,9 @@
 	- https://aisi.go.jp/2024/04/30/ai_rmf_crosswalk1_news/
 - 謎の高性能AIモデル「gpt2-chatbot」がChatbot Arenaに登場、GPT-4.5かGPT-5なのではないかと話題に
 	- https://gigazine.net/news/20240430-lmsys-chatbot-arena-gpt2-chatbot/
+	- 日本の歴史についても、ハルシネーションの多いClaude 3 Opusと比較して、遥かに優れた回答。論理的な考察についてもレベルが高い。
+- 自作小説をLLMにレビューさせてみる（ローカル4モデル、サービス型3モデル）
+	- https://note.com/kohya_ss/n/nfcdfd6de8790
 - 
 
 ## 4/29
@@ -3774,16 +3777,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - ベクトル検索のみで、AI王クイズ第一回コンペに臨む - Q&Aタスクでの複数の日本語embeddingsの評価
 	- https://secon.dev/entry/2023/12/21/080000-vector-search-ai-ou-comp/
 	- AI王 〜クイズAI日本一決定戦〜 第一回コンペとは、質問に対して約20個の候補から、回答となる一つを選択するコンペだ。train用に約13,000件、val用に約2,000件データが公開されている。
-	- 質問に対しての回答が含まれそうな文を検索する日本語embeddings変換モデルとしては、multilingual-e5-large の性能が高かった
-- Autonomous chemical research with large language models
-	- https://www.nature.com/articles/s41586-023-06792-0
-	- Coscientist"—a GPT-4 based a
+	- 質問に対しての回答が含まれそうな文を検索する日本語embeddings変換モデルとしては、multilingual-e5-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTMwNDI2NTAsMTgyODQ3MTQxMSwzMT
-U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
-MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
-ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
-ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
-cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
-MTYxNTQ5MDQxMV19
+eyJoaXN0b3J5IjpbNDk0NDUzMjc0LDE4Mjg0NzE0MTEsMzE1OD
+M5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMs
+LTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMT
+g3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5
+OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MT
+YsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2
+MTU0OTA0MTFdfQ==
 -->
