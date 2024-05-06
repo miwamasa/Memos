@@ -107,7 +107,15 @@
 	- 特異学習理論（渡辺ベイズ理論）を発展させて局所学習係数という新しい概念を創出し，①transformerの学習ダイナミクスの解析，②機械論的解釈可能性の基盤理論としての可能性，③AIアライメント理論の展望を力説した2人の研究者のTAIS2024講演
 - 「確率変数」の正体は米田埋め込み
 	- https://m-hiyama.hatenablog.com/entry/20170228/1488276250
-- 
+- ChatGPT、東大入試に挑む　英語8割超も数学1点で「不合格」
+	- https://www.nikkei.com/article/DGXZQOUC2103E0R20C24A3000000/?n_cid=SNSTW005
+	- 「この計算は手作業では困難。数学の専門書をおすすめする」。人ごとのような答案もありました。古文も文脈を理解できず0点。一方、英作文や英訳は満点でした
+- Nvidia が出した、Llama3-ChatQA-1.5の微調整でRAG＆対話性能爆上がり。
+	- https://x.com/hokazuya/status/1786901364213416356
+- LangChainのllama.cpp統合
+	- https://x.com/yuiseki_/status/1787091439408816479
+- 【vLLM on Hugging Face Interface】
+	- 
 
 ## 4/29
 
@@ -3764,24 +3772,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  LLM in a flash: Efficient Large Language Model Inference with Limited Memory
 	- https://arxiv.org/abs/2312.11514
 	- Appleの研究者らは、LLMのパラメータをSSDなどの外部フラッシュメモリに保存し、接続したPCなどで読み込み使用する手法を開発しました
-	- CPUで4-5倍、GPUで20-25倍の推論速度向上が実現し、さらにPCデバイスの記憶容量がモデルサイズの半分でも、LLMを高効率に実行できたとのことです。
-	- 手法：
-		- ① モデルパラメータを外部フラッシュメモリに格納 
-		- ② 要求に応じてPCのDRAM（メモリ）に転送 
-		- ③ データ転送量を減らし推論速度を向上
-	- 結果：
-		- ① CPUで4-5倍、GPUで20-25倍の推論速度向上を実現 
-		- ② PCデバイスメモリ（DRAM）がモデルサイズの半分でも、LLMを高効率に実行
-- 「AGI Breakthrough」
-	- https://x.com/bioshok3/status/1737258881452294277?s=20
-	- 「AGI Breakthrough」と名付けられたOpenAI取締役会への公開書簡がVerses AIから急遽出されている。
-	- AGIに繋がりうる能動的推論についての画期的な進歩を最近達成。Op
+	- CPUで4-5倍、GPUで20-25倍の推論速度向上が実現し、さ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTMxNzc4NSwxODI4NDcxNDExLDMxNT
-gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
-LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
-E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
-OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
-E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
-NjE1NDkwNDExXX0=
+eyJoaXN0b3J5IjpbLTEyMTkyMzg5OTQsMTgyODQ3MTQxMSwzMT
+U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
+MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
+ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
+ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
+cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
+MTYxNTQ5MDQxMV19
 -->
