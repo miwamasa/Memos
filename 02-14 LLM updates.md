@@ -81,8 +81,12 @@
 	- https://huggingface.co/rinna/llama-3-youko-8b
 - KAN: Kolmogorov–Arnold Networks
 	- https://arxiv.org/abs/2404.19756
+	- https://github.com/KindXiaoming/pykan
 	- Proposes an alternative to MLP that outperforms in terms of accuracy and interpretability
+	- 重みを学習させるのではなく、エッジ上に配置した活性化関数を学習させる(エッジの重みは1で固定)新しいニューラルネットワークのアーキテクチャの提案。…
 	- ちなみにニューラルネットワークとコルモゴロフ-アーノルド表現定理の話題に関しては，そんなに新しいものではなく，結構昔から出ているものではあります(今井さん)
+- RAGのG（Generation）、つまり"生成"は本当に必要なのか？
+	- https://x.com/Nurruttan/status/1785853289034350622
 - 
 
 ## 4/29
@@ -3773,14 +3777,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://www.nature.com/articles/s41586-023-06887-8
 	- 毒性のない、メチシリン耐性黄色ブドウ球菌に対して有効な複数の化合物を含む新しい構造クラスの抗生物質 (最後の発見には 38 年かかった)
 - "A Challenger to GPT-4V? Early Explorations of Gemini in Visual Expertise"
-	- https://arxiv.org/abs/2312.12436
-	- GPT-4Vに対してGeminiの画像認識能力はどれほど性能が高いのか、さまざまなタスクで比較した実験結果が報告されました。
-	- GPT-4Vは複雑なタスクに長けており、Geminiはビジュアルとテキスト情報の統合に長けている傾向があるとのことです。
-	- 比較：
-		- ① Geminiは多くの場合、GPT-4Vと同等かそれ以上の正確さを示す 
-	
+	- ht
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDIzMDU1MiwxODI4NDcxNDExLDMxNT
+eyJoaXN0b3J5IjpbMTE4NjA5MDUxNSwxODI4NDcxNDExLDMxNT
 gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
 LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
 E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
