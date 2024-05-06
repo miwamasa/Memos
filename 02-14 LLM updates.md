@@ -14,7 +14,14 @@
 - Mergekit-Evolveのテストで試しに作ったモデル、Japanese-Chat-Umievo-itr001-7bをElyzaTasks100で評価してみたら平均3.57点を叩き出した　 by うみゆきさｎ
 	- https://x.com/umiyuki_ai/status/1783867934542303666
 	- 7Bモデルなのに35BパラのCommand Rを超えてます！進化的アルゴリズムの威力恐るべし！！
-- 
+- Swallow 7B, 13B, 70B、およびSwallow-MS 7Bの新しいinstructモデル（Swallow-*-instruct-v0.1）を公開しました
+	- https://huggingface.co/collections/tokyotech-llm/swallow-ms-instruct-662957bf88d016c69ae0e633
+	- あまり重視してこなかった指示追従能力やマルチターン応答の改善に取り組み、MT-Benchで過去のモデルを上回る性能を確認しました
+- Swallow-MS-7B-Instruct-V0.1をElyzaTasks100で評価したら平均2.82点だった。現環境ではもはや大した事ないと言わざるを得ない。でもChatNTQよりはかなり強いという事はChatVectorを足すベースモデルとして有能かもしれない
+	- https://x.com/umiyuki_ai/status/1783911959789969816
+- 【Appleの新しいOpenELMモデルをMLX LMで】  512トークン、340Token/S
+	- https://x.com/hokazuya/status/1783808939773304957
+	- 
 
 ## 4/29
 
@@ -3758,28 +3765,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Trained on four decades of historical data, GraphCast is an artificial intelligence model that predicts global weather with greater speed and accuracy compared with traditional approaches solving physical equations. It supports severe event predictions, such as cyclone tracking.
 -  Ferret: Refer and Ground Anything Anywhere at Any Granularity
 	- https://github.com/apple/ml-ferret?tab=readme-ov-file
-	- Appleから、あらゆる形式の参照（箱とか、なんとかの横とか）を受け入れ、応答としてあらゆるものを接地する（それは猫のしっぽとか）エンドツーエンドの MLLM
-	- 物体認識の一種なのか、
-- "Retrieval-Augmented Generation for Large Language Models: A Survey"
-	- https://arxiv.org/abs/2312.10997
-	- LLMのRAG（外部知識検索による強化）についての調査結果
-	- 基本フレームワークと各構成要素（リトリーバー／ジェネレーター／拡張）の詳細、評価、そして今後の発展について言及されており網羅的です。
-	- ■RAGの評価
-		- ① 正確性、情報更新速度、透明性などが主要な指標
-		- ② RAGASやARESなどの自動評価手法がある
-	- ■今後の発展
-		- ① さらなる最適化が必要
-		- ② 応用範囲の拡大が期待される
-		- ③ 技術スタックとエコシステムが発展すべき
-- Geminiでのtokenカウントが日本語でChatGPTの1/2であることが判明
-	- https://x.com/Mega_Gorilla_/status/1738821637297115598?s=20
-	- Gemin
+	- Appleから、あらゆる形
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTY3MjA5OSwxODI4NDcxNDExLDMxNT
-gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
-LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
-E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
-OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
-E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
-NjE1NDkwNDExXX0=
+eyJoaXN0b3J5IjpbLTEzNzU5NTM2MzIsMTgyODQ3MTQxMSwzMT
+U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
+MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
+ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
+ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
+cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
+MTYxNTQ5MDQxMV19
 -->
