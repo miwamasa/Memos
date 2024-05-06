@@ -124,7 +124,7 @@
 
 ## 4/29
 
-マイクロソフトからPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5とためをはるとのこと、Phi-3-mini 4k instruct モデルはColab T4でも動くし、huggingfaceにも公開。さっそくOllamaが対応し、Llama-3 & Phi-3もRAGでの比較とかも。Llama3も、日本語化LoRaされたり、Llama3-70Bを42Bパラメータに枝刈りしたモデルが公開されたり、4bitに量子化して評価とか、コミュニティの活動が一気に盛り上がる。なお量子化に関してはどのＬＬＭも4bit量子化しても精度がほとんど低下しないとのことだが本当か？AppleがiPhoneでも稼働するオープンな言語モデル「OpenELM」を発表、さっそくMLX LMで評価した結果が公開された、Macbook AirでPhi 3の量子化されたやつを動かして劇速といってる例とか、実は、LLMプロダクト開発者はMac Studioを買ってローカルLLMを触るべきとの意見も見られた、６月のWWDC24が楽しみだ。それにしても、NVIDIA CEOジェンスン・ファン氏がショッピングモールからの歌配信に混ざる動画、かわいいなあ（いやＣＥＯがだよ）。GroqのAPIをStreamlitで使う方法の紹介など、Groq(LPUによる高速化のほう）の利用をちらほら見るようになった、速さは最強。LLMエージェントに関するニュースを毎週まとめてくださるサイト、このアプデ更新もそうありたいものだ。LLMのアライメントであるDPOは実はトークン単位の逆Q学習を実現し、最適なアドバンテージ関数を推定し、トークン単位の信用割当問題を解いているというのは、アライメント問題を表面上の課題ではなくアーキテクチャまで落とすところが面白い。LLMの性能評価やベンチマークに関する活動もElyzaTasks100やRAG、Query PlanningなどのタスクにおけるローカルLLMの実力が検証なんかがあった。
+マイクロソフトからPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5とためをはるとのこと、Phi-3-mini 4k instruct モデルはColab T4でも動くし、huggingfaceにも公開。さっそくOllamaが対応し、Llama-3 & Phi-3もRAGでの比較とかも。Llama3も、日本語向けにLoRaされたり、Llama3-70Bを42Bパラメータに枝刈りしたモデルが公開されたり、4bitに量子化して評価されたりとか、コミュニティの活動が一気に盛り上がる。なお量子化に関してはどのＬＬＭも4bit量子化しても精度がほとんど低下しないとのことだが本当か？AppleがiPhoneでも稼働するオープンな言語モデル「OpenELM」を発表、さっそくMLX LMで評価した結果が公開された、Macbook AirでPhi 3の量子化されたやつを動かして劇速といってる例とか、実は、LLMプロダクト開発者はMac Studioを買ってローカルLLMを触るべきとの意見も見られたが、反論もぼちぼち、さても６月のWWDC24が楽しみだ。それにしても、NVIDIA CEOジェンスン・ファン氏がショッピングモールからの歌配信に混ざる動画、かわいいなあ（いやＣＥＯがだよ）。GroqのAPIをStreamlitで使う方法の紹介など、Groq(LPUによる高速化のほう）の利用をちらほら見るようになった、速さは最強。LLMエージェントに関するニュースを毎週まとめてくださるサイト、このアプデ更新もそうありたいものだ。LLMのアライメントであるDPOは実はトークン単位の逆Q学習を実現し、最適なアドバンテージ関数を推定し、トークン単位の信用割当問題を解いているというのは、アライメント問題を表面上の課題ではなくアーキテクチャまで落とすところが面白い。LLMの性能評価やベンチマークに関する活動もElyzaTasks100やRAG、Query PlanningなどのタスクにおけるローカルLLMの実力が検証なんかがあった。
 
 - モデル進化マージについて by sakana.aiの秋葉さん
 	- https://speakerdeck.com/iwiwi/17-nlpkorokiumu
@@ -3743,9 +3743,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ① 万能ではないため、学習方法を改善すべき 
 		- ② 事前知識を統合するなどの対策が必要 
 	- ■研究は今後どうなる 
-		- ① エラー数よりもエラーの種類が重視されて
+		- ① エ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDMyNDQ0NjAsLTIzMzczMTM0OSwtOD
+eyJoaXN0b3J5IjpbLTIwNTI2MTQ5MDIsLTIzMzczMTM0OSwtOD
 Q1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3
 MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4MzkzNjQsMT
 UxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5
