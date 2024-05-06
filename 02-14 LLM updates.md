@@ -32,6 +32,10 @@
 	- https://x.com/woodstockclub/status/1784179786082128351
 -  高速AIチップで話題のGroqのAPIをStreamlitで使う方法
 	- https://note.com/masayuki_abe/n/n336721e355e6?sub_rt=share_pb
+- 『Symbol-to-Language』
+	- https://x.com/ai_database/status/1784581982053347542
+	- LLMのタスクにおいて「記号を自然言語テキストに変換する」ことで様々なタスクで精度が上がる現象が報告されています。
+	- 実験では、物性予測、表の理解、ツイート分析などで効果が出ています
 - 
 
 ## 4/29
@@ -3769,15 +3773,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://qiita.com/tatsuki-tsuchiyama/items/5701475d46ee31efbb54
 - 「Nekomata」シリーズのGGUF 4bit量子化モデルを公開しました。 メモリ不足の場合は、量子化モデルをお試しください。
 	- https://huggingface.co/collections/rinna/nekomata-6582b5134ee85531becbb9a9
--  regex to do sentence splitting that generalizes beyond English to non-Latin languages (CJK, etc.) 
-	- https://x.com/jerryjliu0/status/1738232451200356445?s=20
-- 最新の SCIENCEの特集はAI Powered 
+-  regex to do
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk2OTA1NTMsMTgyODQ3MTQxMSwzMT
-U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
-MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
-ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
-ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
-cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
-MTYxNTQ5MDQxMV19
+eyJoaXN0b3J5IjpbODM0MzkyNjgsMTgyODQ3MTQxMSwzMTU4Mz
+kzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3Mywt
+MTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExOD
+c1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5
+NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNi
+wzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwtMTYx
+NTQ5MDQxMV19
 -->
