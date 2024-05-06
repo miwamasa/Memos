@@ -2,7 +2,7 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 5/7
-ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。一方ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人はぜひ熟読を！。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか。Kolmogorov–Arnold Networks、新しい生成AIアーキテクチャの夜明け？局所学習係数という新しい概念も気になる、アライメントととも関係あるとか。「ローカルLLMはこーやって使うの」は参考になる、ローカルLLMならいろいろやり放題なんだな。ＡＩセイフティでは、NISTから、生成ＡＩ向けのリスク管理フレームワークが発表、日本のAISIとの連携も進むのだろうな。AIアライメントの包括的なサーベイ、「AIによる絶滅リスクの軽減」だと。rinnaはLlama 3 8Bの日本語継続事前学習モデル「Llama 3 Youko 8B」を公開、「LLM-jp-13B v2.0」を構築とか、頑張れ日本勢。
+ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。一方ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人はぜひ熟読を！。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか。Kolmogorov–Arnold Networks、新しい生成AIアーキテクチャの夜明け？局所学習係数という新しい概念も気になる、アライメントととも関係あるとか。「ローカルLLMはこーやって使うの」は参考になる、ローカルLLMならいろいろやり放題なんだな。ＡＩセイフティでは、NISTから、生成ＡＩ向けのリスク管理フレームワークが発表、日本のAISIとの連携も進むのだろうな。AIアライメントの包括的なサーベイ、「AIによる絶滅リスクの軽減」だと。rinnaはLlama 3 8Bの日本語継続事前学習モデル「Llama 3 Youko 8B」を公開、NIIから「LLM-jp-13B v2.0」を構築とか、頑張れ日本勢。うみゆきさんが言うように、Mergekit-Evolveってのは本当にすごのいか？？
 
 
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
@@ -3759,10 +3759,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- add step-wise feedback for complex query executions over a RAG pipeline
 - 東工大と産総研、英語の言語理解や対話で高い能力を持つ大規模言語モデル「Swallow」を公開 
 	- https://note.com/aicu/n/n3eb8c1f2df02?sub_rt=share_pb
-	- Swallowの研究開発は、産総研が構築・運用するAI橋渡しクラウド（ABCI: AI Bridging Cloud Infrastructure）の「大規模言語モデル構築支援プログラム」、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）の「次世代人工知能・ロボットの中核となるインテグレート技術開発」プロジェクト (JPNP18002) の「熟練者観点に基づき、設計リスク評価業務における判断支援を行う人工知能適用技術の開発」、その他の支援によって実施されました
-	- 産総研ABCIの一定部分（Aノードと呼ばれる高性能な計算ノード）を最大60日
+	- Swallowの研究開発は、産総研が構築・運用するAI橋渡しクラウド（ABCI: AI Bridging Cloud Infrastructure）の「大規模言語モデル構築支援プログラム」、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）の「次世代人工知能・ロボットの中核となるインテグレート技術開発」プロジェクト (JPNP18002) の「熟練者観点に基づき、設計リスク評価業務における判断支援を行う人工知能適用技術の開発」、その他の支援によって実施されまし
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDM4NzE3LC0xMDIwNDI1NTM4LDEzND
+eyJoaXN0b3J5IjpbODQyMTkxMzU2LC0xMDIwNDI1NTM4LDEzND
 U5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgzOTM2
 NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC0xNT
 E5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4NzU2
