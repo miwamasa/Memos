@@ -2,7 +2,7 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 5/7
-ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人は校閲を！。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか。
+ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートがかぶっている気がする。。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないという謎状態に。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたので、われと思う人は校閲を！。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか。Kolmogorov–Arnold Networks、新しい基盤の夜明け？？「ローカルLLMはこーやって使うの」は参考になる、ローカルLLMならいろいろやり放題なんだな。
 
 
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
@@ -3765,14 +3765,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  AdsorbRL: Deep Multi-Objective Reinforcement Learning for Inverse Catalysts Design
 	- https://arxiv.org/abs/2312.02308v1
 	- 強化学習による触媒材料の逆設計の論文。 
-	- -OHとの結合は強いがH2Oとの結合は弱い、のような複数の吸着剤の最適化を多目的強化学習により行い、16万化合物をスクリーニングできたそうです。 
-	- 材料開発はトレードオフが基本なので、こ
+	- -OHとの結合は強いが
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtND
-U5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0
-NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MTk2OTkzNTksMj
-cyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5NTY4LC05MjIy
-OTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC0xODkwODQ3MT
-MwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MTYsMzUyOTE1MzM4LC00
-Njg1MjI3MTFdfQ==
+eyJoaXN0b3J5IjpbLTcxMDY4ODEwMywtMTAyMDQyNTUzOCwxMz
+Q1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4Mzkz
+NjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMT
+UxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1
+Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4ODk5NT
+YsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1NjcxNiwz
+NTI5MTUzMzhdfQ==
 -->
