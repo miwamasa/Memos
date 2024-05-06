@@ -124,7 +124,9 @@
 
 ## 4/29
 
-最新のLLM動向を見ると、Phi-3シリーズが注目を集めています。MicrosoftからはPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5と競合しています。さらに、Phi-3シリーズにはさまざまなサイズがあり、モデルの大きさと性能の関係が議論されています。Llama-3 & Phi-3もRAGでの比較とか。
+マイクロソフトからPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5とためをはるとのこと、
+
+Phi-3シリーズが注目を集めています。MicrosoftからはPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5と競合しています。さらに、Phi-3シリーズにはさまざまなサイズがあり、モデルの大きさと性能の関係が議論されています。Llama-3 & Phi-3もRAGでの比較とか。
 
 
 一方、LLMのアライメントに関する研究では、トークン単位の逆Q学習が注目され、対話結果の解析や収益最大化の観点から議論されています。
@@ -3758,14 +3760,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Controllable Agents for RAG
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_runner/agent_runner_rag_controllable.ipynb
 	- llamaindexより、Building Human-in-the-Loop, Advanced RAG
-	- add step-wise feedback for complex query executions over a RAG pipeline
-- 東工大と産総研、英語の言語理解や対話で高い能力を持つ大規模言語モデル「Swal
+	- add step-wise feedback for complex query executions over a RA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMj
-A0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0
-MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4Nj
-EyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2
-ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNy
-wtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2
-NzAzNTY3MTZdfQ==
+eyJoaXN0b3J5IjpbLTczMTgxNzk0NSwtODQ1OTM4NTQyLDg0Mj
+E5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5
+NjcsMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMz
+QyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMy
+MjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NS
+wtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0
+MDY2NDE3MzJdfQ==
 -->
