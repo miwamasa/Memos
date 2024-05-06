@@ -3,7 +3,7 @@
 
 ## 5/7
 
-ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートが先週とかぶっている気がする。Xのストーリーズてんかい。今週は突然でてきた謎のgpt2-chatbot、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。一方ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないというのはそうかも。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたとのこと、われは！と思う人はぜひチャレンジを。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか、気のせいかLlama3やphi3が使われる例が多いような。Kolmogorov–Arnold Networks、新しい生成AI向けニューラルアーキテクチャ？特異学習理論（渡辺ベイズ理論）を発展させた局所学習係数という新しい概念も気になる、アライメントととも関係あるとか。それにしても、NVIDIA CEOジェンスン・ファン氏がショッピングモールからの歌配信に混ざる動画、かわいいなあ（いやＣＥＯがだよ）。「ローカルLLMはこーやって使うの」は参考になる、ローカルLLMならいろいろやり放題なんだな。ＡＩセイフティでは、NISTから、生成ＡＩ向けのリスク管理フレームワークが発表、日本のAISIとの連携も進む。AIアライメントの包括的なサーベイ、「AIによる絶滅リスクの軽減」だと。rinnaからLlama 3 8Bの日本語継続事前学習モデル「Llama 3 Youko 8B」を公開、NIIから「LLM-jp-13B v2.0」を構築とか、頑張れ日本勢。うみゆきさんが言うように、進化型のLLMのマージMergekit-Evolveってのは本当にすごのいか？？LangChainの４つのRAG向けchainの比較も地味に役に立つ。ローカルLLM系では、自作小説をLLMで評価させているひとが、 command-r-plus-Q4_K_Mを絶賛評価、実作業に基づく評価は尊い。ChatGPT、東大入試に挑むも「不合格」の記事、さっそくプロンプトが悪いとの突っ込みが。。
+ＧＷで、頭がぼけているのか、X(旧twitter)のアルゴリズムが変わったのか、おすすめに出てくるツイートが先週とかぶっている気がする。Xの生成ＡＩを使った新サービス「ストーリーズ」の展開と関係あるのか？。今週は突然でてきた謎のgpt2-chatbotが面白かった、gpt2と名前があるものの、GPT-4.5かGPT-5のフィールドテストかという話で持ち切りだった（Chatbot Arenaからは消えた。。）、評価できた人によると、相当すごい性能らしい。Swallow-MS 7Bの新しいinstructモデル、さっそくElyzaTasks100で評価され、ちょっと微妙。一方ElyzaTasks100での評価によると、Qwen1.5はかなり優秀とのこと。Domingos氏のAIの能力の発展がサチっているのは、人間の能力が律速しているとの発言。そりゃ、人間を超えるのは人間のデータでは無理だ、超えたところで人間にはわからないというのはそうかも。BCGの売上20%が生成AI関連とのこと、コンサルはなくならない、金の儲け方が変わるだけ。「統計的テキストモデル」全文がプレ公開されたとのこと、われは！と思う人はぜひチャレンジを。Ollamaを使ったローカルLLMの利用例もぐっと増えた、ReAct Agentとか、Function Callingとか、気のせいかLlama3やphi3が使われる例が多いような。Kolmogorov–Arnold Networks、新しい生成AI向けニューラルアーキテクチャ？特異学習理論（渡辺ベイズ理論）を発展させた局所学習係数という新しい概念も気になる、アライメントととも関係あるとか。それにしても、NVIDIA CEOジェンスン・ファン氏がショッピングモールからの歌配信に混ざる動画、かわいいなあ（いやＣＥＯがだよ）。「ローカルLLMはこーやって使うの」は参考になる、ローカルLLMならいろいろやり放題なんだな。ＡＩセイフティでは、NISTから、生成ＡＩ向けのリスク管理フレームワークが発表、日本のAISIとの連携も進む。AIアライメントの包括的なサーベイ、「AIによる絶滅リスクの軽減」だと。rinnaからLlama 3 8Bの日本語継続事前学習モデル「Llama 3 Youko 8B」を公開、NIIから「LLM-jp-13B v2.0」を構築とか、頑張れ日本勢。うみゆきさんが言うように、進化型のLLMのマージMergekit-Evolveってのは本当にすごのいか？？LangChainの４つのRAG向けchainの比較も地味に役に立つ。ローカルLLM系では、自作小説をLLMで評価させているひとが、 command-r-plus-Q4_K_Mを絶賛評価、実作業に基づく評価は尊い。ChatGPT、東大入試に挑むも「不合格」の記事、さっそくプロンプトが悪いとの突っ込みが。。
 
 - LangChainを用いた4種類のRAG質問応答chainの実装と性能比較｜
 	- https://zenn.dev/aidemy/articles/97d5fb6ac03a4f
@@ -3745,14 +3745,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- ■研究は今後どうなる 
 		- ① エラー数よりもエラーの種類が重視されていく 
 		- ② 実用性にシフトしていく
-- Googleからもプロンプトエンジニアリングの説明がでる	
-	- https://ai.google.dev/docs/prompt_best_
+- Googleからもプロンプトエンジニアリング
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDEyNjk4MiwtODQ1OTM4NTQyLDg0Mj
-E5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5
-NjcsMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMz
-QyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMy
-MjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTkyMjI5NDA1NS
-wtOTU2NDMyNjI3LC04NDY4ODk5NTYsLTE4OTA4NDcxMzAsLTE0
-MDY2NDE3MzJdfQ==
+eyJoaXN0b3J5IjpbLTIwNzEzOTA3MDksLTg0NTkzODU0Miw4ND
+IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
+OTY3LDE4Mjg0NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLT
+M0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUz
+MjI0LC0xOTUwMzE2ODMyLC0xMTg3NTY5NTY4LC05MjIyOTQwNT
+UsLTk1NjQzMjYyNywtODQ2ODg5OTU2LC0xODkwODQ3MTMwLC0x
+NDA2NjQxNzMyXX0=
 -->
