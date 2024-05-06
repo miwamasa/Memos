@@ -55,7 +55,11 @@
 	- https://x.com/iScienceLuvr/status/1785247498744778886
 - 「統計的テキストモデル」の全体の原稿(4章以外)のβ版を公開しました
 	- http://chasen.org/~daiti-m/textmodel/
-- 
+- Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities
+	- https://arxiv.org/abs/2404.17790
+	- 東工大のLLM、Swallowの論文がarXivに公開されていますね。
+	- 日本語の継続事前学習について、データのスケーラビリティや語彙拡張、パラレルコーパスの影響について大規模かつ系統的に知見を提供している研究で、勉強になります
+- gpt2-chatbotは本当にモデル名だ。そうHFのCTOがいまopenai-communityからホスティングしていると思われる。
 	- 
 
 ## 4/29
@@ -3770,17 +3774,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - TheBloke/Swallow-13B-GGUF
 	- https://huggingface.co/TheBloke/Swallow-13B-GGUF
 	- またまた Swallow-13BのGGUFが出ている
--  rinna、Qwenの日本語継続事前学習モデル「Nekomata」シリーズを公開
-	- https://rinna.co.jp/news/2023/12/20231221.html
-	- rinnaはQwen-7Bと14Bの日本語継続事前学習モデル「Nekomata」シリーズを公開しました。 Nekomata 14B Instructionのベンチマークは一部の70Bと同レベルまで到達しています。
-	- Nekomata 7Bと14Bは、70億パラメータのQwen-7Bと140億パラメータのQwen-14Bに対して、日本語と英語の学習データを用いてそれぞれ300億と660億トークンで継続事前学習したモデルです
-	- AWS Train
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTU1ODMxLDE4Mjg0NzE0MTEsMzE1OD
-M5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMs
-LTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMT
-g3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5
-OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MT
-YsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2
-MTU0OTA0MTFdfQ==
+eyJoaXN0b3J5IjpbLTU1MDMzMzI3NiwxODI4NDcxNDExLDMxNT
+gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
+LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
+E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
+OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
+E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
+NjE1NDkwNDExXX0=
 -->
