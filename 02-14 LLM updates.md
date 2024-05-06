@@ -67,6 +67,10 @@
 - Qwen1.5シリーズを一通りElyzaTasksで評価してみた
 	- https://x.com/umiyuki_ai/status/1785272618595262646
 	- やっぱりQwen1.5はかなり優秀。7BモデルはLlama3-8Bのチョイ下。14Bモデルは35BのCommand Rを超えてる！
+- AISIと米国NISTは、日本の「AI事業者ガイドライン」とNISTの「AIリスクマネジメントフレームワーク(RMF)」のクロスウォークの第一弾として用語に関する「クロスウォーク1」を公表しました。
+	- https://aisi.go.jp/2024/04/30/ai_rmf_crosswalk1_news/
+- 謎の高性能AIモデル「gpt2-chatbot」がChatbot Arenaに登場、GPT-4.5かGPT-5なのではないかと話題に
+	- https://gigazine.net/news/20240430-lmsys-chatbot-arena-gpt2-chatbot/
 - 
 
 ## 4/29
@@ -3773,15 +3777,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 質問に対しての回答が含まれそうな文を検索する日本語embeddings変換モデルとしては、multilingual-e5-large の性能が高かった
 - Autonomous chemical research with large language models
 	- https://www.nature.com/articles/s41586-023-06792-0
-	- Coscientist"—a GPT-4 based autonomous LLM system that demonstrates appreciable reasoning capabilities, ... solving of multiple problems and generation of code for experimental design"
-	- 著者らは GPT-4 を使用して、自律的に研究、計画、および化学実験を実施できるようにしました。これには、ドキュメントを読んで実験機器の使い方を学ぶことも含まれます (ほとんどの操作はコードで操作されましたが、1 つのタスクは人間が実行する必要がありました)。
-- Ollama v
+	- Coscientist"—a GPT-4 based a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzM5MjA2LDE4Mjg0NzE0MTEsMzE1OD
-M5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMs
-LTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMT
-g3NTY5NTY4LC05MjIyOTQwNTUsLTk1NjQzMjYyNywtODQ2ODg5
-OTU2LC0xODkwODQ3MTMwLC0xNDA2NjQxNzMyLDE2NzAzNTY3MT
-YsMzUyOTE1MzM4LC00Njg1MjI3MTEsLTE5MTA0MzAzNTksLTE2
-MTU0OTA0MTFdfQ==
+eyJoaXN0b3J5IjpbLTIwMTMwNDI2NTAsMTgyODQ3MTQxMSwzMT
+U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
+MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
+ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
+ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
+cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
+MTYxNTQ5MDQxMV19
 -->
