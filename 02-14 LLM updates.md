@@ -41,6 +41,9 @@
 - lama 3 degrades more than Llama 2 when quantized.
 	- https://x.com/rohanpaul_ai/status/1784889182558539917
 - gpt2-chatbotと呼ばれる謎のモデル
+	- https://x.com/bioshok3/status/1784972619957346703
+	- Chatbot arena でClaude3 opusやGPT-4 Turboに匹敵するとかしないとか超えてる超えてない言われ今少し話題になっている
+- ReAct Agent with Function Calling | Open Source Gemma LLM | Ollama | Lan...
 	- 
 
 ## 4/29
@@ -3770,17 +3773,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Apple が提供しているMLXが徐々に充実して来た。結構凄いことになるかも。
 	- https://huggingface.co/mlx-community
 	- a bunch of pre-converted MLX models! 
-	- Llama, Phi-2, Mistral, Mixtral (and instruct and code variations where available)!
-- rinnaさんが公開されているnekomata-14b-instructionのgguf
-	- mmnga/rinna-nekomata-14b-instruction-gguf
-	- qwenベースでvocab15万あります
--  Gemini Pro Visionモデルを使用してGoogle Cloudにアップ
+	- Llama, Phi-2, Mistral, Mixtral (an
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODA3MDgwOCwxODI4NDcxNDExLDMxNT
-gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
-LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
-E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
-OTk1NiwtMTg5MDg0NzEzMCwtMTQwNjY0MTczMiwxNjcwMzU2Nz
-E2LDM1MjkxNTMzOCwtNDY4NTIyNzExLC0xOTEwNDMwMzU5LC0x
-NjE1NDkwNDExXX0=
+eyJoaXN0b3J5IjpbLTE3MjMwMDc0OTksMTgyODQ3MTQxMSwzMT
+U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
+MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
+ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
+ODk5NTYsLTE4OTA4NDcxMzAsLTE0MDY2NDE3MzIsMTY3MDM1Nj
+cxNiwzNTI5MTUzMzgsLTQ2ODUyMjcxMSwtMTkxMDQzMDM1OSwt
+MTYxNTQ5MDQxMV19
 -->
