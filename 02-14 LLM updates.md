@@ -21,6 +21,10 @@
 	- https://x.com/umiyuki_ai/status/1783911959789969816
 - 【Appleの新しいOpenELMモデルをMLX LMで】  512トークン、340Token/S
 	- https://x.com/hokazuya/status/1783808939773304957
+	- ローカルLLMでこの性能はPhi-3やLlama3の7Bなど見てきたがMac単体でこれはスゴすぎる。
+- Domingos氏、AIの能力が人間レベルで飽和しているように見えていることを指摘している
+	- https://x.com/pmddomingos/status/1783956607552176422
+	- むしろこれらのタスクで120%や200%を有意味に議論できるのかという方が気になる。という意味で、Domingos氏の意図と異なる意味で超知能到来ビジョンへの疑義になっている。
 	- 
 
 ## 4/29
@@ -3762,12 +3766,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/jerryjliu0/status/1738232451200356445?s=20
 - 最新の SCIENCEの特集はAI Powered Forecasting 、VOLUME 382|、ISSUE 6677、22 DEC 2023
 	- https://www.science.org/toc/science/382/6677?utm_campaign=SciMag&utm_source=Twitter&utm_medium=ownedSocial
-	- Trained on four decades of historical data, GraphCast is an artificial intelligence model that predicts global weather with greater speed and accuracy compared with traditional approaches solving physical equations. It supports severe event predictions, such as cyclone tracking.
--  Ferret: Refer and Ground Anything Anywhere at Any Granularity
-	- https://github.com/apple/ml-ferret?tab=readme-ov-file
-	- Appleから、あらゆる形
+	- Trained on four decades of historical data, GraphCast is an artificial intelligence model that predicts global weather with greater speed and accuracy compared with tra
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzU5NTM2MzIsMTgyODQ3MTQxMSwzMT
+eyJoaXN0b3J5IjpbLTIxMTgxMDA0MzgsMTgyODQ3MTQxMSwzMT
 U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
 MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLT
 ExODc1Njk1NjgsLTkyMjI5NDA1NSwtOTU2NDMyNjI3LC04NDY4
