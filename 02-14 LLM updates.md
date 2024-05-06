@@ -91,6 +91,16 @@
 	- https://alignmentsurvey.com/uploads/AI-Alignment-A-Comprehensive-Survey.pdf
 	- AIアライメントの包括的なサーベイ
 	- AIアライメントは、AIシステムを人間の意図や価値観に沿って行動させることを目的としている。AIシステムの能力が高まるにつれて、ずれたAIシステムに関連する潜在的な大規模リスクが顕著になっている。何百人ものAI専門家や著名人がAIリスクへの懸念を表明し、「AIによる絶滅リスクの軽減は、パンデミックや核戦争といった他の社会的規模のリスクと並んで、世界的な優先事項であるべきだ」と主張している
+- ローカルLLMはこーやって使うの💢
+	- https://gist.github.com/kyo-takano/c662c1bfa1e7fe440511b11f62521a7e
+	- ①トークンの生成確率が全部見れる。これを応用するとハルシネーションや誤字脱字の検出もできるかも。というのはどのワード生成時に自信が無かったかが確率を見れば分かるから。②回答の冒頭部分を強制できる。
+- X、生成AIでニュースの要約を開始　一部の有料会員に
+	- https://www.nikkei.com/article/DGXZQOGN0406N0U4A500C2000000/
+	- 「新機能「ストーリーズ」を始めた。米xAI（エックスエーアイ）の対話AI「Grok（グロック）」がX上で話題のニュースなどについて情報を要約」
+- How LLMs work, clearly explained with visuals:
+	- https://x.com/Sumanth_077/status/1786404341735444731
+- Build a RAG system with Llama 3B-Instruct for your PDFs
+	- https://colab.research.google.com/drive/1BJYYyrPVe0_9EGyXqeNyzmVZDrCRZwsg?usp=sharing#scrollTo=Y2m2l-vt_RSp
 - 
 
 ## 4/29
@@ -3766,19 +3776,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- なるほど、これがLangCainとLLMをつかったローカルWebアプリ構築の新スタンダードか
 - PowerInfer - a high-speed inference engine for deploying LLMs locally
 	- https://github.com/SJTU-IPADS/PowerInfer
-	- Just came across this super interesting project on speeding up inference. It's not MoE but it's a simple approach that exploits the high locality in LLM inference to design a GPU-CPU hybrid inference engine.
-	- It's now possible to use PowerInfer with Llama 2 and Faclon 40B. Mistral-7B support is coming soon!
-	- 比較動画、https://x.com/omarsar0/status/1737168751668187229?s=20
-- swallow-70B-instructのGGUFができている。。TheBloke/Swallow-70B-instruct-GGUF
-	- https://huggingface.co/TheBloke/Swallow-70B-instruct-GGUF
-- swallow-13B-instuctのspaceをつくりました
-	- https://huggingface.co/spaces/hayas/Swallow-13B-instruct
-	- 「東京工業大学の大岡山キャンパスは行政的にはどこの区に属する？」と、問うと狂った！
--  A mathematical perspective on Transformers
-	- https://arxiv.org/abs/2312.10794
-	- トランスフォーマーは、自己注意と層正規
+	- Just came across this super interesting project on speeding up inference. It's not MoE but it's a simple approach
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTE5OTA2MywxODI4NDcxNDExLDMxNT
+eyJoaXN0b3J5IjpbMTU5MzI1Mzc3NiwxODI4NDcxNDExLDMxNT
 gzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDcz
 LC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMT
 E4NzU2OTU2OCwtOTIyMjk0MDU1LC05NTY0MzI2MjcsLTg0Njg4
