@@ -42,7 +42,11 @@
 - lightblue-suzume-llama-3-8B-multilingualのgguf
 	- https://huggingface.co/mmnga/lightblue-suzume-llama-3-8B-multilingual-gguf
 - Let's build a 100% local RAG app, featuring ⌘R, a self-hosted vector database, a fast embedding library & a reranker:
-	- 
+	- https://x.com/akshay_pachaar/status/1787824526010782053
+- Reranker allows you to reorder the retrieved context (chunks), offering two key benefits:
+	- https://x.com/akshay_pachaar/status/1787824694768648575
+- Ollama v0.1.34 is out!
+	- https://x.com/ollama/status/1787976537762856999
 
 ## 5/7
 
@@ -3743,17 +3747,8 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 具体的には、以下の7つの原則が提案されています。
 		1. タスク適合性の評価する
 		2. 行動範囲の制限する
-		3. デフォルト動作の設定する
-		4. 透明性の確保する
-		5. 自動モニタリングを行う
-		6. 固有の識別子を付与する
-		7. 人間による制御権の保持する
-	- これらはあくまでも試行的な提案であり、各原則の詳細と課題はこれからの議論が待たれている状態ですが、ホワイトペーパーはエージェント型AIシステムの責任ある利用の推進に資するであろう基盤を提供しています。
-	- 最終的には法制度を含めた社会システム全体で、この取り組みを支えていく必要があるとしています。
-- LLM prompting で知識グラフを作成・可視化
-	- https://g
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDEyMzQzMTQsMzcxNzk3MjE4LC0xOT
+eyJoaXN0b3J5IjpbLTIwMjY5MDY3NjAsMzcxNzk3MjE4LC0xOT
 YxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzcz
 MTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOC
 wxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4
