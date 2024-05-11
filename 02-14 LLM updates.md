@@ -62,6 +62,9 @@
 	- Mixtral 8x22B Instructによる日本語合成データ、28.9kで一旦完了にしました。v1.0_cleanedが精査済みです。
 - Zennのトレンド記事を、毎朝AIがラジオ風に紹介してくれるサービスをつくりました
 	- https://zenncast-web.vercel.app/
+- Announcing AlphaFold 3
+	- https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/
+	- AlphaFold2の時点で，「ノーベル賞レベル」と言われて最終形態かと思いきや，まさかの3が出てきました
 
 ## 5/7
 
@@ -3744,16 +3747,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- グループ選択後、希望の都市の条件をLLMに伝えて、お勧めの都市を回答してもらう。
 		- コード生成には、Cursorを利用
 	- 現時点においては、LLMが得意なタスクを人が判断して、適切にLLMを活用するほうが、色々はかどるな、という感覚をもちました
-- Open AIがAIによる壊滅的リスクを追跡、評価、予測、保護するための「Preparedness Framework(Beta)」発表。
-	- https://openai.com/safety/preparedness
-	- モデルのリスクしきい値を定義しサイバーセキュリティ、CBRN (化学的、生物学的、放射性物質、核脅威)、説得、モデルの自律性に4つの安全リスクレベル指定。 
-	- 他「unknownunkn
+- Open AIがAIによる壊滅的リスクを追跡、評価、予測、保護するための「Prepa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Njc4MjY1OSwzNzE3OTcyMTgsLTE5Nj
-EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
-MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
-EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
-OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
-0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
-NzU2OTU2OF19
+eyJoaXN0b3J5IjpbMzk5NTcxMzYsMzcxNzk3MjE4LC0xOTYxMz
+kyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0
+OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMz
+Q1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4Mzkz
+NjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMT
+UxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1
+Njk1NjhdfQ==
 -->
