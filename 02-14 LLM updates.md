@@ -104,7 +104,10 @@
 - サムから、月曜に大きな発表があると、、
 	- https://x.com/sama/status/1788989777452408943
 	- not gpt-5, not a search engine, but we’ve been hard at work on some new stuff we think people will love! feels like magic to me.
-- 
+-  「Fugaku-LLM」を公開
+	- https://pr.fujitsu.com/jp/news/2024/05/10.html
+	- 横田さんのとこ、
+	- 
 
 ## 5/7
 
@@ -3749,11 +3752,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- オイラーの多面体定理より、六角形のみで多面体を構成することは不可能。
 -  The LangChain Ecosystem Is Expanding At A Tremendous Pace
 	- https://cobusgreyling.medium.com/the-langchain-ecosystem-is-expanding-at-a-tremendous-pace-135756e162e9
-	- また構成が変わるのかというか、LangChain-coreには、基本部分とLCEL、agent,RAG,chainsはLangChainに、サードパーティ提供部分はLangChain-comunityへ。
--  大学レベルの教養に挑む: 大規模マルチモーダルモデルのための新ベンチマーク「MMMU」
-	- https://ai-scholar.tec
+	- また構成が変わるのかというか、LangChain-coreには、基本部分とLCEL、agent,RAG,chainsはLangChainに、サードパーティ提供部分はLangChain-co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjAxMjAyMywzNzE3OTcyMTgsLTE5Nj
+eyJoaXN0b3J5IjpbMjA1NDIxMjQzMSwzNzE3OTcyMTgsLTE5Nj
 EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
 MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
 EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
