@@ -50,6 +50,13 @@
 - A built-in planning agent for LlamaIndex landed in 0.10.34!
 	- https://docs.llamaindex.ai/en/stable/examples/agent/structured_planner/
 	- A key pattern in agents is the ability to plan. Breaking down a task into sub-tasks can make the task easier to execute.
+- Microsoftが自社の大規模言語モデル「MAI-1」を開発している
+	- https://x.com/ImAI_Eruel/status/1787787401055908017
+	- 5000億パラメータとの話もあり,本当なら既存モデルで最大レベル.後出し考慮でGPTやClaude超えもできそうか
+- DeepSeek-V2、236B のクソデカモデルでありながら推論時は実質 21B 相当の MoE らしく
+	- https://x.com/izutorishima/status/1787775197057265925
+- ぬこぬこ氏、退職し、
+	- https://x.com/schroneko/status/1788148600171831406
 - 
 
 ## 5/7
@@ -3739,15 +3746,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 他「unknownunknowns」にも注力
 	- 緩和後のスコアが「medium」以下のモデルのみを導入可能。 
 	- 緩和後のスコアが「high」以下のモデルは開発可能。 「Critical」レベルに到達もしくはそう予想される場合Capability向上開発中止。安全性の課題を解決するためでかつ安全であることを合理的に保証できる場合にのみ、能力向上開発を継続する。
-	- 技術的作業(Preparedness Team)と運用構造を監督する専門チーム(安全性諮問委員会(SAG)設立。前者はフロンティアモデルの評価遂行。 
-	- SAGは経営陣と取締役会に安全性を報告するための部門横断的で十分に多様な視点や知識を持つ専門家グループ。 
-	- 経営陣が意思決定者で、取締役会は決定を覆す権利を持つ
--  エージェント型AIシステム構築の7つの原則： OpenAI『Practices for Governing Agentic AI』を読み解く
-	- https://note.com/mahlab/n/nf6bc6078460d
-	- エージェント型AIシステムとは、人間による部分的な管理下であっても、複雑な目標を自律的に遂行できるAIシステムのことを指します。
-	- このようなシステムは、画像生成や質問応答のような限定された用途で動作するAIシステムとは異なり、より幅広い行動
+	- 技術的作業(Preparedness Team)と運用構造を監督する専門チーム(安全性諮問委員会(SAG)設立。前者はフロンティアモデルの評価遂
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTg1NTQxNzgsMzcxNzk3MjE4LC0xOT
+eyJoaXN0b3J5IjpbLTE0NTU3NzE4NjQsMzcxNzk3MjE4LC0xOT
 YxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzcz
 MTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOC
 wxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4
