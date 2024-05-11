@@ -84,7 +84,12 @@
 	- 属性の値は **0(最低)〜4(最高)** になります。
 - karakuri-lm-8x7b-chat-v0.1のggufあります
 	- https://huggingface.co/mmnga/karakuri-lm-8x7b-chat-v0.1-gguf
-	- 
+	- imatrixのデータはTFMC/imatrix-dataset-for-japanese-llmを使用して作成しました
+- グーグルが、生物学に革命を与えたタンパク質構造予測AIの最新モデル「AlphaFold 3」を発表（ネイチャー論文）
+	- https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/
+	- タンパク質、DNA、RNA、小分子などほぼ全ての生体分子の構造と相互作用を高精度に予測 生成
+	- AIを支えるtransformerと拡散モデルの発展で生物学や創薬が加速
+- 
 
 ## 5/7
 
@@ -3743,12 +3748,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - llama_indexより、step-wise agent API、aka. Low level agent API
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_runner/agent_runner.ipynb
 	- https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/agent_runner.html
-	- allows you to step through and control agents in a much more granular fashion. End result: build reliable agentic software systems over your data
-- なんかLoRa論文があるらしい
-	- https://x.com/cwolferesearch/status/1736795049579491751?s=20
-	- LoRA models the update derived for a model’s weights during finetuning with a low ra
+	- allows you to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzkwODk1NCwzNzE3OTcyMTgsLTE5Nj
+eyJoaXN0b3J5IjpbLTU0MDM4MTUxMywzNzE3OTcyMTgsLTE5Nj
 EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
 MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
 EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
