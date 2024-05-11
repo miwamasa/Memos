@@ -14,7 +14,14 @@
 	- https://huggingface.co/karakuri-ai/karakuri-lm-8x7b-chat-v0.1
 	- 1. 東工大から出ているSwallow-MX-8x7b-NVE-v0.1をベースにカラクリのデータでチューニングしました。（圧倒的感謝） 
 	- 2. 前回に続き、国産オープンモデルとしてはMT-Bench-jpで最高性能を更新 
-	- 3. Active Parameter数 13Bで104BのCommand R+を超え、72BのQwen 1.5に迫る性能 4. AWS TrainiumでのMoEモデルの学習はAWSの担当の方にも確認しましたが、おそらく世界初とのこと。コードは技術ブログの記事とともに近日公開予定。 5. 前回に引き続き、SteerLMによるアライメントを実施。属性予測モデル（APM）はgemma 7bをチューニングし、公開
+	- 3. Active Parameter数 13Bで104BのCommand R+を超え、72BのQwen 1.5に迫る性能 
+	- 4. AWS TrainiumでのMoEモデルの学習はAWSの担当の方にも確認しましたが、おそらく世界初とのこと。コードは技術ブログの記事とともに近日公開予定。 
+	- 5. 前回に引き続き、SteerLMによるアライメントを実施。属性予測モデル（APM）はgemma 7bをチューニングし、公開
+-  CACTUS: Chemistry Agent Connecting Tool-Usage to Science
+	- https://arxiv.org/abs/2405.00972
+	- 化学のためのAIエージェントの論文
+	- 化学に関する数千の質問と回答を作成し様々なオープンLLMの性能を比較。Gemma-7bとMistral-7bで高精度を実現、また精度を維持しつつ民生レベルのハードへ導入ができそうだとわかったそうです。
+- 
 
 ## 5/7
 
@@ -3734,14 +3741,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://huggingface.co/openchat/openchat-3.5-1210
 	- https://x.com/shi3z/status/1736911369360859173?s=20
 	- これすごい。 ほんとにGPT-3.5-Turbo並の性能っぽく見えて7B そしてオープンソース Apacheライセンス by shi3zさん
-	- 2023年11月にリリースされた**[OpenChat-3.5-7B](https://huggingface.co/openchat/openchat_3.5)**モデルはパラメーター数が70億しかないにもかかわらず2023年3月時点のChatGPTを超えるベンチマーク結果を出すほど性能が高いモデル
-- 名著だった黄色い本（統計学への確率論，その先へ）の続編の赤い本（統計学への漸近論，その先は）
-	- https://x.com/hshimodaira/status/1737005536896508268?s=20
-- 東工大からSwallow登場、日本語コーパスの整備の充実ぶりについて
-	- https://tokyotech-llm.github.io/swallow-llama
-	- Llama 2の日本語能力を強化した大規模言語モデル (7B, 
+	- 2023年11月にリリースされた**[OpenChat-3.5-7B](https://huggingface.co/openchat/openchat_3.5)**モデルはパラメーター数が70億しかないにもかかわらず2023年3月時点のChatGPTを超えるベンチマーク結果を出すほど性能が高いモデ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTU0NTQ0NywzNzE3OTcyMTgsLTE5Nj
+eyJoaXN0b3J5IjpbMjAzOTA5ODQ4OCwzNzE3OTcyMTgsLTE5Nj
 EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
 MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
 EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
