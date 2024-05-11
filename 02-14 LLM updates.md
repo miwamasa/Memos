@@ -64,7 +64,13 @@
 	- https://zenncast-web.vercel.app/
 - Announcing AlphaFold 3
 	- https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/
-	- AlphaFold2の時点で，「ノーベル賞レベル」と言われて最終形態かと思いきや，まさかの3が出てきました
+	- AlphaFold2の時点で，「ノーベル賞レベル」と言われて最終形態かと思いきや，まさかの3が出てきました by 今井さん
+- Deeplearning.aiより無料の、Building Agentic RAG、が公開
+	- https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/
+- xLSTM: Extended Long Short-Term Memory
+	- https://arxiv.org/abs/2405.04517
+	- Exponential gating and modified memory structures boost xLSTM capabilities to perform favorably when compared to SotA Transformers and State Space Models, both in performance and scaling.
+- 
 
 ## 5/7
 
@@ -3736,24 +3742,12 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ① 自己改善する手法を取り入れた 
 		- ② エージェントが新しい情報で成長する特殊な学習方法を導入 
 		- ③ 多段階推論の能力を高める方法を採用
-	- 結果
-		- ① 自己蒸留と成長バッチ強化学習によって、時が経つほどに性能を改善 
-		- ② 多様な条件下で一貫して良い結果を示した
-- LLMを使って自分の住みたい街を見つけてみた
-	- https://zenn.dev/ubie_dev/articles/5973d99ff0696e
-	- 手段：
-		- 30個弱の都市の特徴を3つのグループに分ける
-		- 30個弱の特徴が似ている都市グループを5つのグループに分ける（クラスター分析結果のラベル付け
-		- グループ選択後、希望の都市の条件をLLMに伝えて、お勧めの都市を回答してもらう。
-		- コード生成には、Cursorを利用
-	- 現時点においては、LLMが得意なタスクを人が判断して、適切にLLMを活用するほうが、色々はかどるな、という感覚をもちました
-- Open AIがAIによる壊滅的リスクを追跡、評価、予測、保護するための「Prepa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5NTcxMzYsMzcxNzk3MjE4LC0xOTYxMz
-kyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0
-OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMz
-Q1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4Mzkz
-NjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMT
-UxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1
-Njk1NjhdfQ==
+eyJoaXN0b3J5IjpbLTE5NjA2NjEyMTQsMzcxNzk3MjE4LC0xOT
+YxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzcz
+MTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOC
+wxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4
+MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3My
+wtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTEx
+ODc1Njk1NjhdfQ==
 -->
