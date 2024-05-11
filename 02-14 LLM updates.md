@@ -39,6 +39,8 @@
 	- https://x.com/webbigdata/status/1787457498057933299
 - Karasu-Mixtral-8x22B-v0.1のgguf
 	- https://huggingface.co/mmnga/lightblue-Karasu-Mixtral-8x22B-v0.1-gguf
+- lightblue-suzume-llama-3-8B-multilingualのgguf
+	- https://huggingface.co/mmnga/lightblue-suzume-llama-3-8B-multilingual-gguf
 - 
 
 ## 5/7
@@ -3749,15 +3751,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 最終的には法制度を含めた社会システム全体で、この取り組みを支えていく必要があるとしています。
 - LLM prompting で知識グラフを作成・可視化
 	- https://github.com/rahulnyk/knowledge_graph
-	- Mistral OpenOrca (https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca) 等の LLM prompting で知識グラフのノードとエッジの情報を生成．その後，networkx でグラフを可視化する
-- GCPご本体による、GeminiとLangChainのコラボnotebook
-	- https://github.com/GoogleCloud
+	- Mistral OpenOrca (https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca) 等の LLM pro
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTg4OTkzMDQsMzcxNzk3MjE4LC0xOT
-YxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzcz
-MTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOC
-wxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4
-MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3My
-wtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTEx
-ODc1Njk1NjhdfQ==
+eyJoaXN0b3J5IjpbNTYzNDc1MzMyLDM3MTc5NzIxOCwtMTk2MT
+M5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEz
+NDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMT
+M0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5
+MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLT
+E1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3
+NTY5NTY4XX0=
 -->
