@@ -24,6 +24,12 @@
 - Stack OverflowがOpenAIと提携？
 	- https://x.com/ImAI_Eruel/status/1787670618961514627
 	- おそらくChatGPTの登場によってユーザー数の減少という点で最大の被害を被ったのはプログラミングの質問解答サービスStack Overflowなんですが，この度OpenAIとの提携が決まったとのこと
+- 精度上げようとすると自然とLLMに頼る箇所減ってピンポイントになる
+	- https://x.com/mizchi/status/1787639942216327442
+- KARAKURI LM 8x7B Chat v0.1 をお試し中
+	- https://lm.karakuri.cc/
+- 【GPT-4と同レベル。かかるコストは200分の1】最強LLM「DeepSeek-V2」発表
+	- https://x.com/SuguruKun_ai/status/1787839473067376705
 - 
 
 ## 5/7
@@ -3739,17 +3745,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/language/orchestration/langchain
 	- This includes SEVEN different notebooks for using LangChain to orchestrate a Gemini-powered LLM app
 		-   [Getting Started with LangChain 🦜️🔗 + Vertex AI PaLM API](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/orchestration/langchain/intro_langchain_palm_api.ipynb)
-		-  [How to use the LangChain 🦜️🔗 BigQuery Data Loader](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/orchestration/langchain/langchain_bigquery_data_loader.ipynb)
-- openchat/openchat-3.5-1210
-	- https://huggingface.co/openchat/openchat-3.5-1210
-	- https://x.com/shi3z/status/1736911369360859173?s=20
-	- これすごい。 ほんとにGPT-3.5-Turbo並の性能っぽく見えて7B 
+		-  [How to use the LangChain 🦜️🔗 BigQuery Data Loader](https://github.com/GoogleCloudPlatform/generative-ai/blo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0NTk3OTcsMzcxNzk3MjE4LC0xOTYxMz
-kyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0
-OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMz
-Q1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4Mzkz
-NjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMT
-UxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1
-Njk1NjhdfQ==
+eyJoaXN0b3J5IjpbLTQ0MzM0NTI2NSwzNzE3OTcyMTgsLTE5Nj
+EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
+MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
+EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
+OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
+0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
+NzU2OTU2OF19
 -->
