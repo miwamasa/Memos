@@ -124,7 +124,12 @@
 	- TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research. 
 	- **With less than 1 Million parameters, TTM introduces the notion of the first-ever “tiny” pre-trained models for Time-Series Forecasting.**
 - Great, now we have some clean Llama 3 models (both 8B and 70B)
-	- 
+	- https://huggingface.co/ddh0/Meta-Llama-3-8B-Instruct-bf16-GGUF
+	- Those minor bugs in llama.cpp has been resolved so should work at its full potential.
+- マイクロソフトが1月に発表したSliceGPTでは、LLMのウエイトを圧縮できちゃうらしい。
+	- https://x.com/umiyuki_ai/status/1789128885558546881
+	- ウエイトの各行列を次元数減らした行列に置き換えちゃうんだって。これでパラ数を25%まで削れて（つまり52.5Bになる？）、Llama2-70Bの場合は性能の低下は1%だけで済むらしい
+- 
 
 ## 5/7
 
@@ -3751,17 +3756,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 12/25
 
-東工大からLLama2の日本語をひたすら強化したswallow(7B, 13B, 70B) が颯爽と登場、llama2ベースで日本語コーパスをちゃんと整備しなおして、ここまでできるという話。産総研のABCIのAノードを６０日占有してつくったという。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、AWSの支援サービスを活用し、660億トークンの継続事前学習を約7日で行った。ここにきて、国産LLMもいろいろ成果がでてきたが、LLMの横断評価によると、30B以上では、中国勢が席巻。7Bクラスだと、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルもなんとか性能を出せているとのこと、もっとも中国LLＭはなぜか日本語処理に得意ということなので、なかなかの強敵かも。openchatの評価が高い。ollama(ローカルLLMの実行フレームワーク）が迅速に様々なOSSのLLMに対応していてローカルLLMに旋風を起こしている。LangChainとollamaを組み合わせたresarch-assistant事例は新世代のローカルLLMアプリ構築の良例。OpeanAIは、AGIができた未来（現在かもしれない）に備えた、Preparedness Frameworkプログラムを発表。企業ガバナンスとして、AGI相当のAIの開発の透明性を高めるという。 OpenAIのエージェント型AIシステム構築の7つの原則『Practices for Governing Agentic AI』なんかも安全性に関わる重要な指針になりうる。llamaindexのContorable RAG AgentというAgentの低レベルの制御ＡＰＩとの提供というのも、エージェントのガバナンスの一つの回答になっているのか。日本語embeddings変換モデルだけでも、AIクイズ王ぐらいは解けるらしい、やってみよう。深層学習による新しい構造クラスの抗生物質の発見というのもすごいな、科学の領域でもAI/LLMは常連さんになりつつある。なお、Nature最新号は「AIによる（気象）予測」が表紙になっている、DeepMindのアレである。intel-extension-for-transformersも量子化対応とか着実に進化、Llama.cppより早いという報告も。AppleのＭＬＸのコミュニティも様々なOSSのLLM対応が公開され盛り上がっている。Apple自身も、LLMのパラメータをSSDなどの外部フラッシュメモリに保存することで高速化する論文を発表、iphoneで動くようになる？これって、投機的ＬＬＭ実行スケジューリングみたいになるのか？PowerInferみたいなメモリ節約で民間GPUでも高速化(A100の85%とか)みたいなのもある。
-
--  Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
-	- https://arxiv.org/abs/2312.06585
-	- Rest^EMは、LLMを人手で作った正解データで教師あり微調整するのでなく、1) 各問題の候補解を生成 2)候補の報酬を計算 3)報酬で重み付けし再学習 を繰り返す。期待値最大化法の一種とみなせる。数学やプログラミングなど自動評価できる場合に有効。人手の作成デ
+東工大からLLama2の日本語をひたすら強化したswallow(7B, 13B, 70B) が颯爽と登場、llama2ベースで日本語コーパスをちゃんと整備しなおして、ここまでできるという話。産総研のABCIのAノードを６０日占有してつくったという。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、AWSの支援サービスを活用し、660億トークンの継続事前学習を約7日で行った。ここにきて、国産LLMもいろいろ成果がでてきたが、LLMの横断評価によると、30B以上では、中国勢が席巻。7Bクラスだと、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルもなんとか性能を出せているとのこと、もっとも中国LLＭはなぜか日本語処理に得意ということなので、なかなかの強敵かも。openchatの評価が高い。ollama(ローカルLLMの実行フレームワーク）が迅速に様々なOSSのLLMに対応していてローカルLLMに旋風を起こしている。LangChainとollamaを組み合わせたresarch-assistant事例は新世代のローカルLLMアプリ構築の良例。OpeanAIは、AGIができた未来（現在かもしれない）に備えた、Preparedness Frameworkプログラムを発表。企業ガバナンスとして、AGI相当のAIの開発の透明性を高めるという。 OpenAIのエージェント型AIシステム構築の7つの原則『Practices for Governing Agentic AI』なんかも安全性に関わる重要な指針になりうる。llamaindexのContorable RAG AgentというAgentの低レベルの制御ＡＰＩとの提供というのも、エージェントのガバナンスの一つの回答になっているのか。日本語embeddings変換モデルだけでも、AIクイズ王ぐらいは解けるらしい、やってみよう。深層学習による新しい構造クラスの抗生物質の発見というのもすごいな、科学の領域でもAI/LLMは常連さんになりつつある。なお、Nature最新号は「AIによる（気象）予測」が表紙になっている、DeepMindのアレである。intel-extension-for-transformersも量子化対応とか着実に進化、Llama.cppより早いという報告も。AppleのＭＬＸのコミュニティも様々なOSSのLLM対応が公開され盛り上がっている。Apple自身も、LLMのパラメータをSSDなどの外部フラッシュメモリに保存することで高速化する論文を発表
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzcyNzIxOSwzNzE3OTcyMTgsLTE5Nj
-EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
-MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
-EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
-OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
-0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
-NzU2OTU2OF19
+eyJoaXN0b3J5IjpbNDkzNTQxNzMxLDM3MTc5NzIxOCwtMTk2MT
+M5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEz
+NDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMT
+M0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5
+MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLT
+E1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3
+NTY5NTY4XX0=
 -->
