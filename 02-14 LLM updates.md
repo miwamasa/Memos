@@ -2,7 +2,8 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 
-## 5
+## 5/13
+
 
 ## 5/7
 
@@ -3740,13 +3741,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- ② 内部動作を視覚化すべき 
 	- ■ディープラーニングの解釈可能性 
 		- ① 完全な解釈は難しいとの見方もある 
-		- ② ある側面からの解釈は可能だ
+		- ② ある側面からの解釈
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4Mj
-U0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4
-NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC
-00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2
-MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMTUxOTY5OTM1OS
-wyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1Njk1NjgsLTky
-MjI5NDA1NV19
+eyJoaXN0b3J5IjpbLTU3Njk4ODg3NCwzNzE3OTcyMTgsLTE5Nj
+EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
+MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
+EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
+OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
+0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
+NzU2OTU2OF19
 -->
