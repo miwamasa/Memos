@@ -133,7 +133,9 @@
 	- ウエイトの各行列を次元数減らした行列に置き換えちゃうんだって。これでパラ数を25%まで削れて（つまり52.5Bになる？）、Llama2-70Bの場合は性能の低下は1%だけで済むらしい
 - Google/TimesFMはモデリングから微妙だし
 	- https://x.com/kyo_takano/status/1789150904102613131
-	- 
+	- 一階差分を取らずに非定常過程のまま予測器に突っ込む; 
+	- Transformersを使いたいがために複数時点を単一トークンとして埋め込む・予測する; etc.）、
+	- 古典的な統計モデルに対して部分的にしか上回ってないんだよね
 
 ## 5/7
 
@@ -3760,13 +3762,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 12/25
 
-東工大からLLama2の日本語をひたすら強化したswallow(7B, 13B, 70B) が颯爽と登場、llama2ベースで日本語コーパスをちゃんと整備しなおして、ここまでできるという話。産総研のABCIのAノードを６０日占有してつくったという。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、AWSの支援サービスを活用し、660億トークンの継続事前学習を約7日で行った。ここにきて、国産LLMもいろいろ成果がでてきたが、LLMの横断評価によると、30B以上では、中国勢が席巻。7Bクラスだと、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルもなんとか性能を出せているとのこと、もっとも中国LLＭはなぜか日本語処理に得意ということなので、なかなかの強敵かも。openchatの評価が高い。ollama(ローカルLLMの実行フレームワーク）が迅速に様々なOSSのLLMに対応していてローカルLLMに旋風を起こしている。LangChainとollamaを組み合わせたresarch-assistant事例は新世代のローカルLLMアプリ構築の良例。OpeanAIは、AGIができた未来（現在かもしれない）に備えた、Preparedness Frameworkプログラムを発表。企業ガバナンスとして、AGI相当のAIの開発の透明性を高めるという。 OpenAIのエージェント型AIシステム構築の7つの原則『Practices for Governing Agentic AI』なんかも安全性に関わる重要な指針になりうる。llamaindexのContorabl
+東工大からLLama2の日本語をひたすら強化したswallow(7B, 13B, 70B) が颯爽と登場、llama2ベースで日本語コーパスをちゃんと整備しなおして、ここまでできるという話。産総研のABCIのAノードを６０日占有してつくったという。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、AWSの支援サービスを活用し、660億トークンの継続事前学習を約7日で行った。ここにきて、国産LLMもいろいろ成果がでてきたが、LLMの横断評価によると、30B以上では、中国勢が席巻。7Bクラスだと、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルもなんとか性能を出せているとのこと、もっとも中国LLＭはなぜか日本語処理に得意ということなので、なかなかの強敵かも。openchatの評価が高い。ollama(ローカルLLMの実行フレームワーク）が迅速に様々なOSSのLLMに対応していてローカルLLMに旋風を起こしている。LangChainとollamaを組み合わせたresarch-assistant事例は新世代のローカルLLMアプリ構築の良例。OpeanAIは、AGIができた未来（現在かもしれない）に備えた、Preparedness Frameworkプログラムを発表。企業ガバナンスとして、AGI相当のAIの開発の透明
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzEzOTQwNiwzNzE3OTcyMTgsLTE5Nj
-EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
-MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
-EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
-OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
-0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
-NzU2OTU2OF19
+eyJoaXN0b3J5IjpbNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MT
+M5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEz
+NDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMT
+M0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5
+MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLT
+E1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3
+NTY5NTY4XX0=
 -->
