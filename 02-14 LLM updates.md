@@ -113,9 +113,13 @@
 	- **・langchain と langchain-community の完全な分離  **
 	- **・バージョン付きドキュメント**  
 	- **・より成熟したエージェントフレームワーク**  
-	- ・LLMインターフェースの標準化、特にツール呼び出しに関する改善  
-	- ・ストリーミングサポートの向上  
-	- ・30を超える新しいパートナー パッケージ**
+	- **・LLMインターフェースの標準化、特にツール呼び出しに関する改善**  
+	- **・ストリーミングサポートの向上**  
+	- **・30を超える新しいパートナー パッケージ**
+- 日本語高速ASR Kotoba-Whisper v1.1にアップデートしました
+	- https://huggingface.co/kotoba-tech/kotoba-whisper-v1.1
+	- 句読点予測を改善 (raw CERで大幅な向上) - Stable-tsの統合により、timestampの予測を向上 - Long-form transcriptionの予測向上 - 学習・推論コードを公開:
+- 
 
 ## 5/7
 
@@ -3753,15 +3757,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Build a Large Language Model (From Scratch)
 	- https://www.manning.com/books/build-a-large-language-model-from-scratch
 	- Maningの本らしい
-	- In short, in this book, I'll guide you step by step through creating your own LLM, explaining each stage with clear text, diagrams, and examples. This includes Implementing the data preparation, sampling, and tokenization pipeline:
--  アニメによくある球体に六角形が貼り付けられたバリアについて
-	- https://note.com/uynet/n/n6692895dec4f?sub_rt=share
+	- In short, in this book, I'll guide you step by step through creating your own LLM, explaining eac
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODQ1MzY5MiwzNzE3OTcyMTgsLTE5Nj
-EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
-MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
-EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
-OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
-0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
-NzU2OTU2OF19
+eyJoaXN0b3J5IjpbMjE3MzI3OTM2LDM3MTc5NzIxOCwtMTk2MT
+M5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEz
+NDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMT
+M0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5
+MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLT
+E1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3
+NTY5NTY4XX0=
 -->
