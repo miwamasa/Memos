@@ -75,7 +75,8 @@
 - 日本学術会議総会での講演「日本の研究競争力低下の因果推論」の資料が面白い．
 	- https://www.scj.go.jp/ja/member/iinkai/sokai/siryo191-2-1.pdf
 	- 日本の研究競争力低下の因果推論
-	- 
+	- どれだけ**「研究人・時間密度」（良き人的研究環境の広がり）**を保てるかに、今後の日本の研究競争がかかっている。
+- 
 
 ## 5/7
 
@@ -3739,14 +3740,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/cwolferesearch/status/1736795049579491751?s=20
 	- LoRA models the update derived for a model’s weights during finetuning with a low rank decomposition, implemented in practice as a pair of linear projections. LoRA leaves the pretrained layers of the LLM fixed and injects a trainable rank decomposition matrix into each layer of the model.
 	- QLoRA is (arguably) the most popular LoRA variant and uses model quantization techniques to reduce memory usage during finetuning while maintaining (roughly) equal levels of performance.
-- "ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent"
-	- https
+- "ReST meets ReAct: S
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDgyODU3NjcsMzcxNzk3MjE4LC0xOT
-YxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzcz
-MTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOC
-wxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4
-MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3My
-wtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTEx
-ODc1Njk1NjhdfQ==
+eyJoaXN0b3J5IjpbNzA2NzE4NjM0LDM3MTc5NzIxOCwtMTk2MT
+M5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEz
+NDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMT
+M0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5
+MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLT
+E1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3
+NTY5NTY4XX0=
 -->
