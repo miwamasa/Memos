@@ -107,7 +107,15 @@
 -  「Fugaku-LLM」を公開
 	- https://pr.fujitsu.com/jp/news/2024/05/10.html
 	- 横田さんのとこ、
-	- 
+	- 「Fugaku-LLM」は「富岳」の13,824台の計算ノードを用いて、約4,000億トークンを学習した13Bモデルです
+-  LangChain v0.2 の概要 by npakaさん
+	- https://note.com/npaka/n/na9e629ebbd16?sub_rt=share_h
+	- **・langchain と langchain-community の完全な分離  **
+	- **・バージョン付きドキュメント**  
+	- **・より成熟したエージェントフレームワーク**  
+	- ・LLMインターフェースの標準化、特にツール呼び出しに関する改善  
+	- ・ストリーミングサポートの向上  
+	- ・30を超える新しいパートナー パッケージ**
 
 ## 5/7
 
@@ -3747,14 +3755,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Maningの本らしい
 	- In short, in this book, I'll guide you step by step through creating your own LLM, explaining each stage with clear text, diagrams, and examples. This includes Implementing the data preparation, sampling, and tokenization pipeline:
 -  アニメによくある球体に六角形が貼り付けられたバリアについて
-	- https://note.com/uynet/n/n6692895dec4f?sub_rt=share_h
-	- アニメによくある球体に六角形が貼り付けられたバリアについて
-	- オイラーの多面体定理より、六角形のみで多面体を構成することは不可能。
--  The LangChain Ecosystem Is Expanding At A Tremendous Pace
-	- https://cobusgreyling.medium.com/the-langchain-ecosystem-is-expanding-at-a-tremendous-pace-135756e162e9
-	- また構成が変わるのかというか、LangChain-coreには、基本部分とLCEL、agent,RAG,chainsはLangChainに、サードパーティ提供部分はLangChain-co
+	- https://note.com/uynet/n/n6692895dec4f?sub_rt=share
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDIxMjQzMSwzNzE3OTcyMTgsLTE5Nj
+eyJoaXN0b3J5IjpbLTg0ODQ1MzY5MiwzNzE3OTcyMTgsLTE5Nj
 EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
 MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
 EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
