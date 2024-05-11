@@ -97,9 +97,14 @@
 	- https://ja.stability.ai/blog/japanese-stable-lm-2-16b
 	- Japanese Stable LM 2 1.6B（JSLM2 1.6B）は16億パラメータで学習した日本語の小型言語モデルです。
 - TimesFM
-- 不確実性評価のレビュー論文
+- Uncertainty Quantification and Propagation in Atomistic Machine Learning
 	- https://arxiv.org/abs/2405.02461
-	- 
+	- 不確実性評価のレビュー論文
+	- 機械学習でデータが少ない領域を予測するのは困難ですが、それを克服する不確実性評価の手法が教科書的にまとまっています。まだ汎用的手法はなくデータにあった手法をうまく選択することが大切とのこと。
+- サムから、月曜に大きな発表があると、、
+	- https://x.com/sama/status/1788989777452408943
+	- not gpt-5, not a search engine, but we’ve been hard at work on some new stuff we think people will love! feels like magic to me.
+- 
 
 ## 5/7
 
@@ -3746,15 +3751,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://cobusgreyling.medium.com/the-langchain-ecosystem-is-expanding-at-a-tremendous-pace-135756e162e9
 	- また構成が変わるのかというか、LangChain-coreには、基本部分とLCEL、agent,RAG,chainsはLangChainに、サードパーティ提供部分はLangChain-comunityへ。
 -  大学レベルの教養に挑む: 大規模マルチモーダルモデルのための新ベンチマーク「MMMU」
-	- https://ai-scholar.tech/articles/large-language-models/mmmu
-	- https://arxiv.org/abs/2311.16502
-	- 汎用人工知能（AGI）のレベル3として定義される「エキスパートAGI」の進歩を評価する方法の重要性を提起。  
-	- 大学レベルのマルチモーダル理解を評価するための新しいベンチマーク「MMMU」を提案し、AIモデルの専門知識と推論能力を評価。  
-	- 現在のAIモデル（GPT-4Vを含む）はMMMUで低い性能を示しており、エキスパートAGIの達成に向けて更なる改善が必要であることを指摘。
-- Attention towards chemistry agnostic and explainable battery lifetime prediction
-	- https://chemrxiv.o
+	- https://ai-scholar.tec
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjcyNzc1MiwzNzE3OTcyMTgsLTE5Nj
+eyJoaXN0b3J5IjpbMTMwNjAxMjAyMywzNzE3OTcyMTgsLTE5Nj
 EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
 MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
 EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
