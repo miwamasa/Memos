@@ -9,7 +9,12 @@
 -  最後にKANは勝つのか?MLPに変わると主張されるKANを試す by shi3zさん
 	- https://note.com/shi3zblog/n/n1e592409a345?sub_rt=share_pb
 	- Efficient-KANが手っ取り早くMNISTが試せそうだったので試してみた
-	- 
+	- つまり、同規模の場合、学習すべきパラメータ数は10倍になり、性能差は縮んでいくという結果になった
+- KARAKURI LM 8x7B Chat v0.1を公開しました！
+	- https://huggingface.co/karakuri-ai/karakuri-lm-8x7b-chat-v0.1
+	- 1. 東工大から出ているSwallow-MX-8x7b-NVE-v0.1をベースにカラクリのデータでチューニングしました。（圧倒的感謝） 
+	- 2. 前回に続き、国産オープンモデルとしてはMT-Bench-jpで最高性能を更新 
+	- 3. Active Parameter数 13Bで104BのCommand R+を超え、72BのQwen 1.5に迫る性能 4. AWS TrainiumでのMoEモデルの学習はAWSの担当の方にも確認しましたが、おそらく世界初とのこと。コードは技術ブログの記事とともに近日公開予定。 5. 前回に引き続き、SteerLMによるアライメントを実施。属性予測モデル（APM）はgemma 7bをチューニングし、公開
 
 ## 5/7
 
@@ -3734,13 +3739,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://x.com/hshimodaira/status/1737005536896508268?s=20
 - 東工大からSwallow登場、日本語コーパスの整備の充実ぶりについて
 	- https://tokyotech-llm.github.io/swallow-llama
-	- Llama 2の日本語能力を強化した大規模言語モデル (7B, 13B, 70B) です。モデルのパラメータ（重み）が公開されていますので、LLAMA 2 Community Licenseに従う限り、研究や商業利用など自由に利用できます
-	- Common Crawl（用語8）から配布されているアーカイブ（2020年から2023年にかけて収集された21スナップショット分、約634億ページ）から日本語のテキストを独自に抽出・精錬し、約3,121億文字（約1.73億ページ）からなる日本語ウェブコーパスを構築しました。この規模は、CC-100 (約258億文字）、mC4（約2,397億文字）、OSCAR 23.10（約740億文字）を抜き、日本語の言語モデルの学習コーパスの中で、商用利用が可能なものとしては最大となります
-- "Perspectives on the State and Future of Deep Learning -- 2023"
-	- https://arxiv.org/abs/2312.09323
-	- Appleやカーネギーメロン大学など複数機関の研究者ら7名＋ChatGPTが集い、「
+	- Llama 2の日本語能力を強化した大規模言語モデル (7B, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjYxMTEyMywzNzE3OTcyMTgsLTE5Nj
+eyJoaXN0b3J5IjpbMTM5NTU0NTQ0NywzNzE3OTcyMTgsLTE5Nj
 EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
 MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
 EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
