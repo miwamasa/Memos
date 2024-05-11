@@ -78,7 +78,8 @@
 	- どれだけ**「研究人・時間密度」（良き人的研究環境の広がり）**を保てるかに、今後の日本の研究競争がかかっている。
 - OpenAIがAIモデルがどのように動作するべきかを規定するModel Specを共有
 	- https://openai.com/index/introducing-the-model-spec/
-	- 
+	- え、このタイミングてChatGPTの内部挙動わざわざ公開するのなぜ？EU的なやつ？ by 深津さん
+	- ここから、GPT-5の特徴が使い勝手がわかるらしい
 -  Google Colab で 属性予測モデル　KARAKURI LM 7B APM v0.1 を試す
 	- https://note.com/npaka/n/ndb541c2cf03b?sub_rt=share_h
 	- 「KARAKURI LM 7B APM v0.1」は、属性予測モデルです。「Gemma 7B」のファイチューニングモデルになります。
@@ -95,7 +96,10 @@
 - 日本語特化の言語モデル「Japanese Stable LM 2 1.6B」をリリースしました
 	- https://ja.stability.ai/blog/japanese-stable-lm-2-16b
 	- Japanese Stable LM 2 1.6B（JSLM2 1.6B）は16億パラメータで学習した日本語の小型言語モデルです。
-- 
+- TimesFM
+- 不確実性評価のレビュー論文
+	- https://arxiv.org/abs/2405.02461
+	- 
 
 ## 5/7
 
@@ -3748,15 +3752,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 大学レベルのマルチモーダル理解を評価するための新しいベンチマーク「MMMU」を提案し、AIモデルの専門知識と推論能力を評価。  
 	- 現在のAIモデル（GPT-4Vを含む）はMMMUで低い性能を示しており、エキスパートAGIの達成に向けて更なる改善が必要であることを指摘。
 - Attention towards chemistry agnostic and explainable battery lifetime prediction
-	- https://chemrxiv.org/engage/chemrxiv/article-details/6576e76dfd283d7904bec035
-	- 機械学習による電池寿命予測の論文。
-	-  従来の劣化予測は個別データで訓練され他の電池への適用が困難でしたが BASFさんが独自に構築した約2万件のデータ
+	- https://chemrxiv.o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQyNjQxNTIsMzcxNzk3MjE4LC0xOT
-YxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzcz
-MTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOC
-wxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4
-MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3My
-wtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTEx
-ODc1Njk1NjhdfQ==
+eyJoaXN0b3J5IjpbLTI1NjcyNzc1MiwzNzE3OTcyMTgsLTE5Nj
+EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
+MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
+EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
+OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
+0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
+NzU2OTU2OF19
 -->
