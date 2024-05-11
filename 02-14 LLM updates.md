@@ -119,7 +119,12 @@
 - 日本語高速ASR Kotoba-Whisper v1.1にアップデートしました
 	- https://huggingface.co/kotoba-tech/kotoba-whisper-v1.1
 	- 句読点予測を改善 (raw CERで大幅な向上) - Stable-tsの統合により、timestampの予測を向上 - Long-form transcriptionの予測向上 - 学習・推論コードを公開:
-- 
+- ibm-granite/granite-timeseries-ttm-v1
+	- https://huggingface.co/ibm-granite/granite-timeseries-ttm-v1
+	- TinyTimeMixers (TTMs) are compact pre-trained models for Multivariate Time-Series Forecasting, open-sourced by IBM Research. 
+	- **With less than 1 Million parameters, TTM introduces the notion of the first-ever “tiny” pre-trained models for Time-Series Forecasting.**
+- Great, now we have some clean Llama 3 models (both 8B and 70B)
+	- 
 
 ## 5/7
 
@@ -3750,20 +3755,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 -  Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
 	- https://arxiv.org/abs/2312.06585
-	- Rest^EMは、LLMを人手で作った正解データで教師あり微調整するのでなく、1) 各問題の候補解を生成 2)候補の報酬を計算 3)報酬で重み付けし再学習 を繰り返す。期待値最大化法の一種とみなせる。数学やプログラミングなど自動評価できる場合に有効。人手の作成データより有効
-- Local RAG on Window
-	- the latest state-of-the-art models into your RAG workflow on Windows Subsystem for Linux (WSL). There’s 5 cookbooks
-	- https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA
--  Build a Large Language Model (From Scratch)
-	- https://www.manning.com/books/build-a-large-language-model-from-scratch
-	- Maningの本らしい
-	- In short, in this book, I'll guide you step by step through creating your own LLM, explaining eac
+	- Rest^EMは、LLMを人手で作った正解データで教師あり微調整するのでなく、1) 各問題の候補解を生成 2)候補の報酬を計算 3)報酬で重み付けし再学習 を繰り返す。期待値最大化法の一種とみなせる。数学やプログラミングなど自動評価できる場合に有効。人手の作成デ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3MzI3OTM2LDM3MTc5NzIxOCwtMTk2MT
-M5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEz
-NDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMT
-M0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5
-MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLT
-E1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3
-NTY5NTY4XX0=
+eyJoaXN0b3J5IjpbMTMyNzcyNzIxOSwzNzE3OTcyMTgsLTE5Nj
+EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
+MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
+EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
+OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
+0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
+NzU2OTU2OF19
 -->
