@@ -30,6 +30,9 @@
 	- https://lm.karakuri.cc/
 - 【GPT-4と同レベル。かかるコストは200分の1】最強LLM「DeepSeek-V2」発表
 	- https://x.com/SuguruKun_ai/status/1787839473067376705
+	- この子がGPT-4相当と言うのはあってそうで結構文才もある ついでに倫理面も割と高めな感じで日本語出力は悪くない 結構良い感じかも！
+- Grokがきた！今はX課金者限定
+	- https://x.com/hirochuu8/status/1787880221997515258
 - 
 
 ## 5/7
@@ -3744,10 +3747,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - GCPご本体による、GeminiとLangChainのコラボnotebook
 	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/language/orchestration/langchain
 	- This includes SEVEN different notebooks for using LangChain to orchestrate a Gemini-powered LLM app
-		-   [Getting Started with LangChain 🦜️🔗 + Vertex AI PaLM API](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/orchestration/langchain/intro_langchain_palm_api.ipynb)
-		-  [How to use the LangChain 🦜️🔗 BigQuery Data Loader](https://github.com/GoogleCloudPlatform/generative-ai/blo
+		-   [Getting Started with LangChain 🦜️🔗 + Vertex AI PaLM API](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/orchestration/langchain/intr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzM0NTI2NSwzNzE3OTcyMTgsLTE5Nj
+eyJoaXN0b3J5IjpbLTg0NDY1NzEwNSwzNzE3OTcyMTgsLTE5Nj
 EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
 MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
 EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
