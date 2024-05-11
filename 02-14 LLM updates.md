@@ -76,7 +76,8 @@
 	- https://www.scj.go.jp/ja/member/iinkai/sokai/siryo191-2-1.pdf
 	- 日本の研究競争力低下の因果推論
 	- どれだけ**「研究人・時間密度」（良き人的研究環境の広がり）**を保てるかに、今後の日本の研究競争がかかっている。
-- 
+- OpenAIがAIモデルがどのように動作するべきかを規定するModel Specを共有
+	- 
 
 ## 5/7
 
@@ -3739,14 +3740,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - なんかLoRa論文があるらしい
 	- https://x.com/cwolferesearch/status/1736795049579491751?s=20
 	- LoRA models the update derived for a model’s weights during finetuning with a low rank decomposition, implemented in practice as a pair of linear projections. LoRA leaves the pretrained layers of the LLM fixed and injects a trainable rank decomposition matrix into each layer of the model.
-	- QLoRA is (arguably) the most popular LoRA variant and uses model quantization techniques to reduce memory usage during finetuning while maintaining (roughly) equal levels of performance.
-- "ReST meets ReAct: S
+	- QLoRA is (arguably) the most popular LoRA variant and uses model quantization techniques to reduce memory usage during finetuning while maintaining (roughly) equa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2NzE4NjM0LDM3MTc5NzIxOCwtMTk2MT
-M5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEz
-NDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMT
-M0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5
-MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLT
-E1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3
-NTY5NTY4XX0=
+eyJoaXN0b3J5IjpbLTU2NTMxODMzMSwzNzE3OTcyMTgsLTE5Nj
+EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
+MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
+EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
+OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
+0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
+NzU2OTU2OF19
 -->
