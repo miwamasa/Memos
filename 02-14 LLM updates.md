@@ -89,6 +89,8 @@
 	- https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/
 	- タンパク質、DNA、RNA、小分子などほぼ全ての生体分子の構造と相互作用を高精度に予測 生成
 	- AIを支えるtransformerと拡散モデルの発展で生物学や創薬が加速
+- 毎日がイノベーションすぎて、もはや全容が把握できない。時事ニュース追うだけでパンクする世界は、あまり健全ではない by 深津さん
+	- https://x.com/fladdict/status/1788208163965305143
 - 
 
 ## 5/7
@@ -3746,11 +3748,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 機械学習による電池寿命予測の論文。
 	-  従来の劣化予測は個別データで訓練され他の電池への適用が困難でしたが BASFさんが独自に構築した約2万件のデータを用いることで汎化性の高いモデルができたそうです。
 - llama_indexより、step-wise agent API、aka. Low level agent API
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_runner/agent_runner.ipynb
-	- https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/agent_runner.html
-	- allows you to 
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/agent_runner/agent
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDM4MTUxMywzNzE3OTcyMTgsLTE5Nj
+eyJoaXN0b3J5IjpbMTYwNjI1NTk5MywzNzE3OTcyMTgsLTE5Nj
 EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
 MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
 EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
