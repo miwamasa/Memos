@@ -77,7 +77,8 @@
 	- 日本の研究競争力低下の因果推論
 	- どれだけ**「研究人・時間密度」（良き人的研究環境の広がり）**を保てるかに、今後の日本の研究競争がかかっている。
 - OpenAIがAIモデルがどのように動作するべきかを規定するModel Specを共有
-	- 
+	- https://openai.com/index/introducing-the-model-spec/
+- # Google Colab で 属性予測モデル　KARAKURI LM 7B APM v0.1 を試す
 
 ## 5/7
 
@@ -3740,9 +3741,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - なんかLoRa論文があるらしい
 	- https://x.com/cwolferesearch/status/1736795049579491751?s=20
 	- LoRA models the update derived for a model’s weights during finetuning with a low rank decomposition, implemented in practice as a pair of linear projections. LoRA leaves the pretrained layers of the LLM fixed and injects a trainable rank decomposition matrix into each layer of the model.
-	- QLoRA is (arguably) the most popular LoRA variant and uses model quantization techniques to reduce memory usage during finetuning while maintaining (roughly) equa
+	- QLoRA is (arguably) the most popular LoRA variant and u
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTMxODMzMSwzNzE3OTcyMTgsLTE5Nj
+eyJoaXN0b3J5IjpbLTM4NjUwODE5NCwzNzE3OTcyMTgsLTE5Nj
 EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
 MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
 EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
