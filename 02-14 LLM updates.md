@@ -70,7 +70,12 @@
 - xLSTM: Extended Long Short-Term Memory
 	- https://arxiv.org/abs/2405.04517
 	- Exponential gating and modified memory structures boost xLSTM capabilities to perform favorably when compared to SotA Transformers and State Space Models, both in performance and scaling.
-- 
+- 4M Context Length Llama-3 8B (V0.1)
+	- https://huggingface.co/gradientai/Llama-3-8B-Instruct-Gradient-4194k
+- 日本学術会議総会での講演「日本の研究競争力低下の因果推論」の資料が面白い．
+	- https://www.scj.go.jp/ja/member/iinkai/sokai/siryo191-2-1.pdf
+	- 日本の研究競争力低下の因果推論
+	- 
 
 ## 5/7
 
@@ -3735,15 +3740,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- LoRA models the update derived for a model’s weights during finetuning with a low rank decomposition, implemented in practice as a pair of linear projections. LoRA leaves the pretrained layers of the LLM fixed and injects a trainable rank decomposition matrix into each layer of the model.
 	- QLoRA is (arguably) the most popular LoRA variant and uses model quantization techniques to reduce memory usage during finetuning while maintaining (roughly) equal levels of performance.
 - "ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent"
-	- https://arxiv.org/abs/2312.10003
-	- Googleの研究者らは、自己学習と自己改善を行うLLMエージェントの開発手法を考案しました
-	- 実験の結果、外部知識を効率的に取り入れて多段階推論を行うことで、自ら継続的に性能を向上させていけることが明らかになったとのことです。
-	- 方法
-		- ① 自己改善する手法を取り入れた 
-		- ② エージェントが新しい情報で成長する特殊な学習方法を導入 
-		- ③ 多段階推論の能力を高める方法を採用
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA2NjEyMTQsMzcxNzk3MjE4LC0xOT
+eyJoaXN0b3J5IjpbLTE4NDgyODU3NjcsMzcxNzk3MjE4LC0xOT
 YxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzcz
 MTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOC
 wxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4
