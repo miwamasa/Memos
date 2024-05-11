@@ -55,9 +55,13 @@
 	- 5000億パラメータとの話もあり,本当なら既存モデルで最大レベル.後出し考慮でGPTやClaude超えもできそうか
 - DeepSeek-V2、236B のクソデカモデルでありながら推論時は実質 21B 相当の MoE らしく
 	- https://x.com/izutorishima/status/1787775197057265925
-- ぬこぬこ氏、退職し、
+- ぬこぬこ氏、退職し、本業 LLM 無職へ、
 	- https://x.com/schroneko/status/1788148600171831406
-- 
+- HachiML/Hachi-Alpaca by はちさん
+	- https://huggingface.co/datasets/HachiML/Hachi-Alpaca
+	- Mixtral 8x22B Instructによる日本語合成データ、28.9kで一旦完了にしました。v1.0_cleanedが精査済みです。
+- Zennのトレンド記事を、毎朝AIがラジオ風に紹介してくれるサービスをつくりました
+	- https://zenncast-web.vercel.app/
 
 ## 5/7
 
@@ -3743,16 +3747,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Open AIがAIによる壊滅的リスクを追跡、評価、予測、保護するための「Preparedness Framework(Beta)」発表。
 	- https://openai.com/safety/preparedness
 	- モデルのリスクしきい値を定義しサイバーセキュリティ、CBRN (化学的、生物学的、放射性物質、核脅威)、説得、モデルの自律性に4つの安全リスクレベル指定。 
-	- 他「unknownunknowns」にも注力
-	- 緩和後のスコアが「medium」以下のモデルのみを導入可能。 
-	- 緩和後のスコアが「high」以下のモデルは開発可能。 「Critical」レベルに到達もしくはそう予想される場合Capability向上開発中止。安全性の課題を解決するためでかつ安全であることを合理的に保証できる場合にのみ、能力向上開発を継続する。
-	- 技術的作業(Preparedness Team)と運用構造を監督する専門チーム(安全性諮問委員会(SAG)設立。前者はフロンティアモデルの評価遂
+	- 他「unknownunkn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU3NzE4NjQsMzcxNzk3MjE4LC0xOT
-YxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzcz
-MTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOC
-wxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4
-MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3My
-wtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTEx
-ODc1Njk1NjhdfQ==
+eyJoaXN0b3J5IjpbMTg0Njc4MjY1OSwzNzE3OTcyMTgsLTE5Nj
+EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
+MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
+EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
+OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
+0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
+NzU2OTU2OF19
 -->
