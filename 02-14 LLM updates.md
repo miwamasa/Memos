@@ -21,6 +21,9 @@
 	- https://arxiv.org/abs/2405.00972
 	- 化学のためのAIエージェントの論文
 	- 化学に関する数千の質問と回答を作成し様々なオープンLLMの性能を比較。Gemma-7bとMistral-7bで高精度を実現、また精度を維持しつつ民生レベルのハードへ導入ができそうだとわかったそうです。
+- Stack OverflowがOpenAIと提携？
+	- https://x.com/ImAI_Eruel/status/1787670618961514627
+	- おそらくChatGPTの登場によってユーザー数の減少という点で最大の被害を被ったのはプログラミングの質問解答サービスStack Overflowなんですが，この度OpenAIとの提携が決まったとのこと
 - 
 
 ## 5/7
@@ -3740,14 +3743,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - openchat/openchat-3.5-1210
 	- https://huggingface.co/openchat/openchat-3.5-1210
 	- https://x.com/shi3z/status/1736911369360859173?s=20
-	- これすごい。 ほんとにGPT-3.5-Turbo並の性能っぽく見えて7B そしてオープンソース Apacheライセンス by shi3zさん
-	- 2023年11月にリリースされた**[OpenChat-3.5-7B](https://huggingface.co/openchat/openchat_3.5)**モデルはパラメーター数が70億しかないにもかかわらず2023年3月時点のChatGPTを超えるベンチマーク結果を出すほど性能が高いモデ
+	- これすごい。 ほんとにGPT-3.5-Turbo並の性能っぽく見えて7B 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTA5ODQ4OCwzNzE3OTcyMTgsLTE5Nj
-EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
-MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
-EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
-OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
-0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
-NzU2OTU2OF19
+eyJoaXN0b3J5IjpbNDA0NTk3OTcsMzcxNzk3MjE4LC0xOTYxMz
+kyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0
+OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMz
+Q1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4Mzkz
+NjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3MywtMT
+UxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTExODc1
+Njk1NjhdfQ==
 -->
