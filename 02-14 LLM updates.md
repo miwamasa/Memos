@@ -34,6 +34,12 @@
 - Grokがきた！今はX課金者限定
 	- https://x.com/hirochuu8/status/1787880221997515258
 - iPad Pro 13 インチ Nano-textureガラスモデルの価格 ≒ KARAKURI LM 8x7bの学習にかかったコストです
+	- https://x.com/txmy/status/1787859094034059669
+- 日英／英日翻訳タスクにおいてmeta/Llama 3ではgoogle/Gemmaを超える事が出来ない
+	- https://x.com/webbigdata/status/1787457498057933299
+- Karasu-Mixtral-8x22B-v0.1のgguf
+	- https://huggingface.co/mmnga/lightblue-Karasu-Mixtral-8x22B-v0.1-gguf
+- 
 
 ## 5/7
 
@@ -3745,15 +3751,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://github.com/rahulnyk/knowledge_graph
 	- Mistral OpenOrca (https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca) 等の LLM prompting で知識グラフのノードとエッジの情報を生成．その後，networkx でグラフを可視化する
 - GCPご本体による、GeminiとLangChainのコラボnotebook
-	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/language/orchestration/langchain
-	- This includes SEVEN different notebooks for using LangChain to orchestrate a Gemini-powered LLM app
-		-   [Getting Started with LangChain 🦜️🔗 + Vertex AI PaLM API](https://github.com/GoogleCloudPl
+	- https://github.com/GoogleCloud
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE2NDQ5NiwzNzE3OTcyMTgsLTE5Nj
-EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
-MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
-EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
-OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
-0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
-NzU2OTU2OF19
+eyJoaXN0b3J5IjpbLTE1MTg4OTkzMDQsMzcxNzk3MjE4LC0xOT
+YxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzcz
+MTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOC
+wxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4
+MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3My
+wtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTEx
+ODc1Njk1NjhdfQ==
 -->
