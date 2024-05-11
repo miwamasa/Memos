@@ -41,7 +41,8 @@
 	- https://huggingface.co/mmnga/lightblue-Karasu-Mixtral-8x22B-v0.1-gguf
 - lightblue-suzume-llama-3-8B-multilingualのgguf
 	- https://huggingface.co/mmnga/lightblue-suzume-llama-3-8B-multilingual-gguf
-- 
+- Let's build a 100% local RAG app, featuring ⌘R, a self-hosted vector database, a fast embedding library & a reranker:
+	- 
 
 ## 5/7
 
@@ -3750,14 +3751,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- これらはあくまでも試行的な提案であり、各原則の詳細と課題はこれからの議論が待たれている状態ですが、ホワイトペーパーはエージェント型AIシステムの責任ある利用の推進に資するであろう基盤を提供しています。
 	- 最終的には法制度を含めた社会システム全体で、この取り組みを支えていく必要があるとしています。
 - LLM prompting で知識グラフを作成・可視化
-	- https://github.com/rahulnyk/knowledge_graph
-	- Mistral OpenOrca (https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca) 等の LLM pro
+	- https://g
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzNDc1MzMyLDM3MTc5NzIxOCwtMTk2MT
-M5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEz
-NDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMT
-M0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5
-MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLT
-E1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3
-NTY5NTY4XX0=
+eyJoaXN0b3J5IjpbLTE0NDEyMzQzMTQsMzcxNzk3MjE4LC0xOT
+YxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzcz
+MTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOC
+wxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4
+MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3My
+wtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAzMTY4MzIsLTEx
+ODc1Njk1NjhdfQ==
 -->
