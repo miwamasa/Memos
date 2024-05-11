@@ -47,6 +47,10 @@
 	- https://x.com/akshay_pachaar/status/1787824694768648575
 - Ollama v0.1.34 is out!
 	- https://x.com/ollama/status/1787976537762856999
+- A built-in planning agent for LlamaIndex landed in 0.10.34!
+	- https://docs.llamaindex.ai/en/stable/examples/agent/structured_planner/
+	- A key pattern in agents is the ability to plan. Breaking down a task into sub-tasks can make the task easier to execute.
+- 
 
 ## 5/7
 
@@ -3741,14 +3745,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  エージェント型AIシステム構築の7つの原則： OpenAI『Practices for Governing Agentic AI』を読み解く
 	- https://note.com/mahlab/n/nf6bc6078460d
 	- エージェント型AIシステムとは、人間による部分的な管理下であっても、複雑な目標を自律的に遂行できるAIシステムのことを指します。
-	- このようなシステムは、画像生成や質問応答のような限定された用途で動作するAIシステムとは異なり、より幅広い行動を選択する能力があるため、ユーザーが複雑な目標を達成することを可能にします。
-	- しかしこの種のシステムはこのように大きな社会的便益をもたらす可能性がある反面、システムの障害や悪用による重大な問題発生のリスクも秘めています。
-	- そこでこのホワイトペーパーでは、このリスクを緩和しエージェント型AIシステムの恩恵を最大化するための、システムのライフサイクルに関与する関係者が従うべき基本原則を示しています。
-	- 具体的には、以下の7つの原則が提案されています。
-		1. タスク適合性の評価する
-		2. 行動範囲の制限する
+	- このようなシステムは、画像生成や質問応答のような限定された用途で動作するAIシステムとは異なり、より幅広い行動
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY5MDY3NjAsMzcxNzk3MjE4LC0xOT
+eyJoaXN0b3J5IjpbLTExNTg1NTQxNzgsMzcxNzk3MjE4LC0xOT
 YxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzcz
 MTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOC
 wxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMTU4
