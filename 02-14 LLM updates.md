@@ -4,7 +4,12 @@
 
 ## 5/13
 
-^
+- gpt2-chatbotがchatbot arenaに復活？
+	- https://x.com/alfredplpl/status/1787754701536325720
+-  最後にKANは勝つのか?MLPに変わると主張されるKANを試す by shi3zさん
+	- https://note.com/shi3zblog/n/n1e592409a345?sub_rt=share_pb
+	- Efficient-KANが手っ取り早くMNISTが試せそうだったので試してみた
+	- 
 
 ## 5/7
 
@@ -3733,22 +3738,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Common Crawl（用語8）から配布されているアーカイブ（2020年から2023年にかけて収集された21スナップショット分、約634億ページ）から日本語のテキストを独自に抽出・精錬し、約3,121億文字（約1.73億ページ）からなる日本語ウェブコーパスを構築しました。この規模は、CC-100 (約258億文字）、mC4（約2,397億文字）、OSCAR 23.10（約740億文字）を抜き、日本語の言語モデルの学習コーパスの中で、商用利用が可能なものとしては最大となります
 - "Perspectives on the State and Future of Deep Learning -- 2023"
 	- https://arxiv.org/abs/2312.09323
-	- Appleやカーネギーメロン大学など複数機関の研究者ら7名＋ChatGPTが集い、「AIの現在」について議論を交わした内容がまとめて報告
-	- ■まだ取り組めていない重要課題 
-		- ① 気候変動などの自然科学にAIを応用する 
-		- ② マルチモーダルAIで多様な業界に影響を及ぼす 
-	- ■ディープラーニングの理解 
-		- ① 物理学の複雑な概念を知るのと同じくらい難しい （しかし不可能ではない） 
-		- ② 内部動作を視覚化すべき 
-	- ■ディープラーニングの解釈可能性 
-		- ① 完全な解釈は難しいとの見方もある 
-		- ② ある側面からの
+	- Appleやカーネギーメロン大学など複数機関の研究者ら7名＋ChatGPTが集い、「
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODU1MzE1LDM3MTc5NzIxOCwtMTk2MT
-M5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEz
-NDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMT
-M0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5
-MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLT
-E1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUwMzE2ODMyLC0xMTg3
-NTY5NTY4XX0=
+eyJoaXN0b3J5IjpbLTI5MjYxMTEyMywzNzE3OTcyMTgsLTE5Nj
+EzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMx
+MzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LD
+EzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLDMxNTgz
+OTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3NDczLC
+0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMxNjgzMiwtMTE4
+NzU2OTU2OF19
 -->
