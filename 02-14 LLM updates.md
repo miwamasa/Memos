@@ -179,7 +179,8 @@
 - 生成AIの論点
 	- https://www.seikyusha.co.jp/bd/isbn/9784787235374/
 	- 喜連川先生まだいきてたのか？
-	- 
+	- 日本学術会議が実施し、過去最多の動員を達成したシンポジウム「生成AIの課題と今後」の書籍化である
+- 
 
 ## 5/7
 
@@ -3773,13 +3774,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/npaka/n/n4705c035a6fc?sub_rt=share_h
 	- 「**MoMask**」は、テキストからモーションを生成する手法です。生成したモーションは、「BVHファイル」でダウンロードすることができます。
 - Building a Custom Agent
-	- https://docs.llamaindex.ai/en/latest/examples/agent/custom_agent.h
+	- https://docs.l
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0MzU0MTI3LDc4ODQwOTA1MSwzNzE3OT
-cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
-NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMD
-IwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcx
-NDExLDMxNTgzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsOD
-YxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMx
-NjgzMl19
+eyJoaXN0b3J5IjpbLTEyNzQ2NjU2MjIsNzg4NDA5MDUxLDM3MT
+c5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3
+MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLT
+EwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0
+NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMS
+w4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUw
+MzE2ODMyXX0=
 -->
