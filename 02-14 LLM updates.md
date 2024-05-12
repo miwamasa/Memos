@@ -141,6 +141,11 @@
 -  Causal Inference About the Effects of Interventions From Observational Studies in Medical Journals
 	- https://jamanetwork.com/journals/jama/fullarticle/2818746?utm_source=twitter&utm_campaign=content-shareicons&utm_content=article_engagement&utm_medium=social&utm_term=051024
 	- 医学観察研究で因果関係を示すためにはどうする？6つの条件を示して、これを満たしていれば因果関係を言ってもいいんじゃない？という提言。
+- google/timesfm-1.0-200m
+	- https://huggingface.co/google/timesfm-1.0-200m
+	- Google released a decoder-only "foundation" time series model on
+	- Trained on a corpus of 100B real world time-points from Google Trends and pageviews from Wikipedia!
+- 『データサイエンスと機械学習』にはKANで話題沸騰中のコルモゴロフ･アーノルドの表現定理が掲載されていた。
 	- 
 
 ## 5/7
@@ -3761,20 +3766,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 4) BloombergGPT: A Large Language Model for Finance
 	- 5) Direct Preference Optimization: Your Language Model is Secretly a Reward Model
 	- 6) Mistral 7B
-	- 7) Orca 2: Teaching Small Language Models How to Reason
-	- 8) ConvNets Match Vision Transformers at Scale
-	- 9) Segment Anything
-	- 10) Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models
-
-## 12/25
-
-東工大からLLama2の日本語をひたすら強化したswallow(7B, 13B, 70B) が颯爽と登場、llama2ベースで日本語コーパスをちゃんと整備しなおして、ここまでできるという話。産総研のABCIのAノードを６０日占有してつくったという。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、AWS
+	- 7) Orca 2: Teach
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTIwNzg5Nyw3ODg0MDkwNTEsMzcxNz
-k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
-NjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMT
-AyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3
-MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLD
-g2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAz
-MTY4MzJdfQ==
+eyJoaXN0b3J5IjpbLTEwNDI4MDk1MDksNzg4NDA5MDUxLDM3MT
+c5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3
+MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLT
+EwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0
+NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMS
+w4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUw
+MzE2ODMyXX0=
 -->
