@@ -4,32 +4,7 @@
 
 ## 5/13
 
-先週に引き続きgpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が高い、使える、とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱かったり（コンパクトで性能が高いというのは量子化の余地も少ない）と、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？DeepMindからはAlphaFold3を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価も進む、shi3zさんの「最後にKANは勝つ」というタイトルは「愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMのTinyTimeMixers (TTMs)、ICML2024にアクセプトされた、CMUとUPENのMOMENT、ひょっとしてICML2024がTime Sereis祭りになってるのか。xLSTMとか、Vanilla Bayesian Optimization とかも学術レベルの進展もあり、しらんけど。。喜連川賢先生による「生成AIの論点」というのは、日本のLLMをめぐる状況を把握にはよいかも、それにしても「情報大航海時代」はなくなったことになったのか？
-
-
-
-近年、大規模言語モデル(LLM)の発展は目覚ましいものがあります。パラメータ数が数十億を超える巨大モデルが次々と登場し、GPT-4やClaudeなどの最新モデルは従来の水準を大きく上回る性能を発揮しています。
-
-この流れの中で、国内でもカラクリAIが注目を集めています。同社は「KARAKURI LM 8x7B」と呼ばれる高性能なLLMを公開し、国産オープンモデルとしては最高性能を実現したと主張しています。さらに、AWS TrainiumでのMoEモデル学習に世界で初めて成功したことを強調しており、今後の国産LLMの発展が期待されます。
-
-一方、海外勢も決して手を緩めていません。DeepSeekは236Bもの超大規模モデルながら、推論時はわずか21Bに相当するMoEを実現し、GPT-4と同等の性能を200分の1のコストで提供できると銘打っています。このようなモデルの小型化・高速化の取り組みは、LLMの実用化において重要な課題となっています。
-
-LLMの応用分野も着実に広がりをみせています。化学分野ではGemmaやMistralが高い性能を発揮し、医療分野でも因果推論の新しい手法が提案されるなど、様々な分野での活用が進んでいます。特にGoogleの「AlphaFold 3」は、タンパク質だけでなくDNAやRNAなどほぼ全ての生体分子の構造予測が可能になったと評価されており、創薬をはじめとするライフサイエンス分野に大きなインパクトを与えると期待されています。
-
-こうした中で、LLMの信頼性や説明責任の確保は大きな課題となっています。AIの挙動を人間が理解し、適切に制御できるようにすることは、LLMが社会実装される上で欠かせない要件です。喜連川賢先生による「生成AIの論点」など、この問題を掘り下げた書籍も出版されるなど、倫理面での議論も活発化しています。
-
-LLMの飛躍的な発展と、それに伴う課題について、様々な角度から検討が重ねられており、今後もこの分野での動きが加速すると予想されます。
-
--   gpt2-chatbotがchatbot arenaに復活しました。
--   KANに関する議論が盛んで、MLPに代わる可能性が議論されています。
--   KARAKURI LM 8x7B Chat v0.1が公開されました。東工大から出ているSwallow-MX-8x7b-NVE-v0.1をベースにチューニングされ、高い性能が実現されています。
--   Stack OverflowがOpenAIと提携しました。
--   最強LLMと称される"DeepSeek-V2"が発表されました。GPT-4相当の性能を持ち、日本語出力も高い評価を得ています。
--   Googleが、生物学に革命をもたらすタンパク質構造予測AIの最新モデル「AlphaFold 3」を発表しました。
--   日本語特化の言語モデル「Japanese Stable LM 2 1.6B」がリリースされました。
--   「Fugaku-LLM」が公開されました。約4,000億トークンを学習した13Bモデルで、日本国内最大規模の計算ノードを使用しています。
--   LangChain v0.2が発表されました。完全な分離、バージョン付きドキュメントなど、多くの改善が行われました。
--   日本語高速ASR「Kotoba-Whisper v1.1」がアップデートされました。句読点予測などの改善が加えられています
+先週に引き続きgpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が高い、使える、とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱かったり（コンパクトで性能が高いというのは量子化の余地も少ない）と、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？DeepMindからはAlphaFold3を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価も進む、shi3zさんの「最後にKANは勝つ」というタイトルは「愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMのTinyTimeMixers (TTMs)、ICML2024にアクセプトされた、CMUとUPENのMOMENT、ひょっとしてICML2024がTime Sereis祭りになってるのか。xLSTMとか、Vanilla Bayesian Optimization とかも学術レベルの進展もあり、しらんけど。。喜連川先生監修の「生成AIの論点」というのは、日本のLLMをめぐる状況を把握にはよいかも、それにしても「情報大航海時代」はなくなったことになったのか？
 
 - gpt2-chatbotがchatbot arenaに復活？
 	- https://x.com/alfredplpl/status/1787754701536325720
@@ -3760,11 +3735,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2312.14485
 	- 事前学習済みモデルに
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4Nz
-MyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwt
-MTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMz
-M3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1
-MzgsMTM0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMz
-E1ODM5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0
-NzNdfQ==
+eyJoaXN0b3J5IjpbMTU2MTAyMTIzNCwtNjk1ODk0MDU0LDgzMD
+ExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEs
+MzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNj
+g1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1
+NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMT
+gyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgw
+MzIxXX0=
 -->
