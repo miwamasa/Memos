@@ -4,7 +4,7 @@
 
 ## 5/13
 
-gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が大会とされているllama
+gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が大会とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱（つまり疎ではない、つまり性能が高い）かったりと、LLMのスケール測を思い知らす結果に。
 
 
 近年、大規模言語モデル(LLM)の発展は目覚ましいものがあります。パラメータ数が数十億を超える巨大モデルが次々と登場し、GPT-4やClaudeなどの最新モデルは従来の水準を大きく上回る性能を発揮しています。
@@ -3771,14 +3771,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 定性的には
 		- 簡潔に回答してほしければSwallow-13b-instruct-hf（緑の実践）
 		- チャットモデルとして個人的に好みなのはshisa-gamma-7b-v1（黒の点線）とELYZA-japanese-Llama-2-13b-instruct（紫の実践
--  Bard & Googleスプレッド & AI Studioでチーム「Gemini」
-	- https://note.com/owlet_notes/n/nbd3c18d82443?sub_rt=sh
+-  Bard & Googleスプレッド & 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODYzOTYzNyw4MzAxMTg2MzEsLTE4Nz
-MyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwt
-MTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMz
-M3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1
-MzgsMTM0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMz
-E1ODM5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0
-NzNdfQ==
+eyJoaXN0b3J5IjpbLTEwNzAxMDEyMjEsODMwMTE4NjMxLC0xOD
+czMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgs
+LTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMj
+MzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1
+NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLD
+MxNTgzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3
+NDczXX0=
 -->
