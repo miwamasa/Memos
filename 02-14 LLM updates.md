@@ -4,6 +4,18 @@
 
 ## 5/13
 
+
+-   gpt2-chatbotがchatbot arenaに復活しました。
+-   KANに関する議論が盛んで、MLPに代わる可能性が議論されています。
+-   KARAKURI LM 8x7B Chat v0.1が公開されました。東工大から出ているSwallow-MX-8x7b-NVE-v0.1をベースにチューニングされ、高い性能が実現されています。
+-   Stack OverflowがOpenAIと提携しました。
+-   最強LLMと称される"DeepSeek-V2"が発表されました。GPT-4相当の性能を持ち、日本語出力も高い評価を得ています。
+-   Googleが、生物学に革命をもたらすタンパク質構造予測AIの最新モデル「AlphaFold 3」を発表しました。
+-   日本語特化の言語モデル「Japanese Stable LM 2 1.6B」がリリースされました。
+-   「Fugaku-LLM」が公開されました。約4,000億トークンを学習した13Bモデルで、日本国内最大規模の計算ノードを使用しています。
+-   LangChain v0.2が発表されました。完全な分離、バージョン付きドキュメントなど、多くの改善が行われました。
+-   日本語高速ASR「Kotoba-Whisper v1.1」がアップデートされました。句読点予測などの改善が加えられています
+
 - gpt2-chatbotがchatbot arenaに復活？
 	- https://x.com/alfredplpl/status/1787754701536325720
 -  最後にKANは勝つのか?MLPに変わると主張されるKANを試す by shi3zさん
@@ -3765,22 +3777,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  LLM Compiler Agent Cookbook
 	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/agents/llm_compiler/llm_compiler.ipynb
 	- 1. Plan: Generate an entire query plan with literals or template variables as arguments. 
-	- 2. Parse dependencies: Parse dependencies in query plan, output a DAG 
-	- 3. Execute: Use an async scheduler to continuously execute every set of tasks whose deps are met, until query plan is satisfied. 
-	- 4. [Optional] Re-plan: If the initial pass did not give the right answer, regenerate the plan.
-- MoMask: Generative Masked Modeling of 3D Human Motions
-	- https://github.com/EricGuo5513/momask-codes
-	-  Google Colab で MoMask を試す
-	- https://note.com/npaka/n/n4705c035a6fc?sub_rt=share_h
-	- 「**MoMask**」は、テキストからモーションを生成する手法です。生成したモーションは、「BVHファイル」でダウンロードすることができます。
-- Building a Custom Agent
-	- https://docs.l
+	- 2. Parse dep
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQ2NjU2MjIsNzg4NDA5MDUxLDM3MT
-c5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3
-MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLT
-EwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0
-NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMS
-w4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUw
-MzE2ODMyXX0=
+eyJoaXN0b3J5IjpbMzg0MDczMTkyLDc4ODQwOTA1MSwzNzE3OT
+cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
+NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMD
+IwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcx
+NDExLDMxNTgzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsOD
+YxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMx
+NjgzMl19
 -->
