@@ -136,6 +136,11 @@
 	- 一階差分を取らずに非定常過程のまま予測器に突っ込む; 
 	- Transformersを使いたいがために複数時点を単一トークンとして埋め込む・予測する; etc.）、
 	- 古典的な統計モデルに対して部分的にしか上回ってないんだよね
+- Ollamaに、MLX対応くる？
+	- https://x.com/m_sigepon/status/1789233089945981319
+-  Causal Inference About the Effects of Interventions From Observational Studies in Medical Journals
+	- https://jamanetwork.com/journals/jama/fullarticle/2818746?utm_source=twitter&utm_campaign=content-shareicons&utm_content=article_engagement&utm_medium=social&utm_term=051024
+	- 医学観察研究で因果関係を示すためにはどうする？6つの条件を示して、これを満たしていれば因果関係を言ってもいいんじゃない？という提言。
 	- 
 
 ## 5/7
@@ -3763,9 +3768,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 
 ## 12/25
 
-東工大からLLama2の日本語をひたすら強化したswallow(7B, 13B, 70B) が颯爽と登場、llama2ベースで日本語コーパスをちゃんと整備しなおして、ここまでできるという話。産総研のABCIのAノードを６０日占有してつくったという。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、AWSの支援サービスを活用し、660億トークンの継続事前学習を約7日で行った。ここにきて、国産LLMもいろいろ成果がでてきたが、LLMの横断評価によると、30B以上では、中国勢が席巻。7Bクラスだと、ELYZA-japanese-Llama-2 や CALM2 などの日本発モデルもなんとか性能を出せているとのこと、もっとも中国LLＭはなぜか日本語処理に得意ということなので、なかなかの強敵かも。openchatの評価が高い。ollama(ローカルLLMの実行フレームワーク）が迅速に様々なOSSのLLMに対応していてローカルLLMに旋風を起こしている。LangChainとollamaを組み合わせたresarch-assistant事例は新世代のローカルLLMアプリ構築の良例。OpeanAIは、AGIができた未来（現在かもしれない）に備えた、Preparedness Frameworkプログラムを発表。企業ガバナンスとして、AGI相当のAIの開
+東工大からLLama2の日本語をひたすら強化したswallow(7B, 13B, 70B) が颯爽と登場、llama2ベースで日本語コーパスをちゃんと整備しなおして、ここまでできるという話。産総研のABCIのAノードを６０日占有してつくったという。一方rinnaはQwenベースで継続学習をさせたNekomataを公開、AWS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTkxMjE4MSw3ODg0MDkwNTEsMzcxNz
+eyJoaXN0b3J5IjpbLTYzOTIwNzg5Nyw3ODg0MDkwNTEsMzcxNz
 k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
 NjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMT
 AyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3
