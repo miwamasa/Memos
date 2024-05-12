@@ -4,7 +4,7 @@
 
 ## 5/13
 
-gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっと
+gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？
 
 
 近年、大規模言語モデル(LLM)の発展は目覚ましいものがあります。パラメータ数が数十億を超える巨大モデルが次々と登場し、GPT-4やClaudeなどの最新モデルは従来の水準を大きく上回る性能を発揮しています。
@@ -3777,13 +3777,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  KarasuとQarasu：最先端の日本語LLMオープンソースチャットボット
 	- https://note.com/peter_lightblue/n/n2def04ca0d30?sub_rt=share_h
 	- 私たちは、2つのモデルをベースとして学習を実施しました。
-	- 1つ目はAugmxntが提供するShisa（augmxnt/shisa-7b-v1）モデルで、日本語M
+	- 1つ目はAugmxntが提供するShisa（augmxnt/shi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
-cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
-NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMD
-IwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcx
-NDExLDMxNTgzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsOD
-YxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMx
-NjgzMl19
+eyJoaXN0b3J5IjpbLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
+A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
+LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
+IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
+OTY3LDE4Mjg0NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLT
+M0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUz
+MjI0XX0=
 -->
