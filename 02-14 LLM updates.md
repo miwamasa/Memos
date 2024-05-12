@@ -4,7 +4,7 @@
 
 ## 5/13
 
-gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、
+gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」
 
 近年、大規模言語モデル(LLM)の発展は目覚ましいものがあります。パラメータ数が数十億を超える巨大モデルが次々と登場し、GPT-4やClaudeなどの最新モデルは従来の水準を大きく上回る性能を発揮しています。
 
@@ -3773,10 +3773,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Bard & Googleスプレッド & AI Studioでチーム「Gemini」
 	- https://note.com/owlet_notes/n/nbd3c18d82443?sub_rt=share_h
 	- Gemini の Structured prompt の使い方
--  KarasuとQarasu：最先端の日本語LLMオープンソースチャットボット
-	- https://note.com/peter_lightblue/n/n2de
+-  KarasuとQarasu：最先端の日本語LLMオープンソースチャット
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQ2MDM0MjEsLTE4NzMyNjgwNyw4ND
+eyJoaXN0b3J5IjpbLTExNzAwNDE4NzgsLTE4NzMyNjgwNyw4ND
 kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
 NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLT
 g0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkw
