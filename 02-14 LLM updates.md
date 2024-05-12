@@ -5,6 +5,20 @@
 ## 5/13
 
 
+
+
+近年、大規模言語モデル(LLM)の発展は目覚ましいものがあります。パラメータ数が数十億を超える巨大モデルが次々と登場し、GPT-4やClaudeなどの最新モデルは従来の水準を大きく上回る性能を発揮しています。
+
+この流れの中で、国内でもカラクリAIが注目を集めています。同社は「KARAKURI LM 8x7B」と呼ばれる高性能なLLMを公開し、国産オープンモデルとしては最高性能を実現したと主張しています。さらに、AWS TrainiumでのMoEモデル学習に世界で初めて成功したことを強調しており、今後の国産LLMの発展が期待されます。
+
+一方、海外勢も決して手を緩めていません。DeepSeekは236Bもの超大規模モデルながら、推論時はわずか21Bに相当するMoEを実現し、GPT-4と同等の性能を200分の1のコストで提供できると銘打っています。このようなモデルの小型化・高速化の取り組みは、LLMの実用化において重要な課題となっています。
+
+LLMの応用分野も着実に広がりをみせています。化学分野ではGemmaやMistralが高い性能を発揮し、医療分野でも因果推論の新しい手法が提案されるなど、様々な分野での活用が進んでいます。特にGoogleの「AlphaFold 3」は、タンパク質だけでなくDNAやRNAなどほぼ全ての生体分子の構造予測が可能になったと評価されており、創薬をはじめとするライフサイエンス分野に大きなインパクトを与えると期待されています。
+
+こうした中で、LLMの信頼性や説明責任の確保は大きな課題となっています。AIの挙動を人間が理解し、適切に制御できるようにすることは、LLMが社会実装される上で欠かせない要件です。喜連川賢先生による「生成AIの論点」など、この問題を掘り下げた書籍も出版されるなど、倫理面での議論も活発化しています。
+
+LLMの飛躍的な発展と、それに伴う課題について、様々な角度から検討が重ねられており、今後もこの分野での動きが加速すると予想されます。
+
 -   gpt2-chatbotがchatbot arenaに復活しました。
 -   KANに関する議論が盛んで、MLPに代わる可能性が議論されています。
 -   KARAKURI LM 8x7B Chat v0.1が公開されました。東工大から出ているSwallow-MX-8x7b-NVE-v0.1をベースにチューニングされ、高い性能が実現されています。
@@ -3764,26 +3778,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/peter_lightblue/n/n2def04ca0d30?sub_rt=share_h
 	- 私たちは、2つのモデルをベースとして学習を実施しました。
 	- 1つ目はAugmxntが提供するShisa（augmxnt/shisa-7b-v1）モデルで、日本語MT-Benchベンチマークで高いパフォーマンスを示し、日本語特有のトークナイザーを持っているため、トークン化と推論が他のオープンソースモデルよりも何倍も効率的（そして速い）になるという特徴を持ちます。
-	- 2つ目は同様に日本語MT-Benchベンチマークで非常に高いパフォーマンスを示すQwen（Qwen/Qwen-14B-Chat）モデルです。
-	- デモ
-		- https://lightblue-qarasu.serveo.net/
-- WizardMath-70BがWebLLMで動く!?
-	- Here's a 70 BILLION parameter ChatGPT-like model running totally locally on the web with WebGPU. Uses the upcoming float16 support that's currently only in Chrome Canary.
-	- https://x.com/brandon_xyzw/status/1723376416958398683?s=20
-	- https://webllm.mlc.ai/
--  EMDM: Efficient Motion Diffusion Model for Fast, High-Quality Human Motion Generation
-	- https://frank-zy-dou.github.io/projects/EMDM/index.html
-	- You can now ask your simulated humanoid to perform actions, in REAL-TIME 
--  LLM Compiler Agent Cookbook
-	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/agents/llm_compiler/llm_compiler.ipynb
-	- 1. Plan: Generate an entire query plan with literals or template variables as arguments. 
-	- 2. Parse dep
+	- 2つ目は同様に日本語MT-Benchベンチマークで非常に
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0MDczMTkyLDc4ODQwOTA1MSwzNzE3OT
-cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
-NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMD
-IwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcx
-NDExLDMxNTgzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsOD
-YxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMx
-NjgzMl19
+eyJoaXN0b3J5IjpbMjA2MDU4NjI1NSw3ODg0MDkwNTEsMzcxNz
+k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
+NjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMT
+AyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3
+MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLD
+g2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAz
+MTY4MzJdfQ==
 -->
