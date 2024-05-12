@@ -4,7 +4,7 @@
 
 ## 5/13
 
-gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が大会とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱（つまり疎ではない、つまり性能が高い）かったりと、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？DeepMindからはAlphaFold3を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価もも進む、shi3zさんの「最後にKANは勝つ」というタイトルは「愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMの
+gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が大会とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱（つまり疎ではない、つまり性能が高い）かったりと、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？DeepMindからはAlphaFold3を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価もも進む、shi3zさんの「最後にKANは勝つ」というタイトルは「愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMのTinyTimeMixers (TTMs)、ICML2024にアクセプトされた
 
 
 
@@ -3763,13 +3763,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 結晶構造中の原子をマスクor変異させてデータ生成し、自己教師あり学習で事学習済みモデルを構築。これを使い柔軟な構造予測と物性予測を実現できた
 - Aivis は、高音質で感情豊かな音声を生成できる Bert-VITS2 用のデータセットの作成・学習・推論を、オールインワンで行えるツールです。
 	- https://github.com/tsukumijima/Aivis
-	- 音声と NVIDIA GPU が刺さった Linux PC があれば、かんた
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5Njk1OTE0LDgzMDExODYzMSwtMTg3Mz
-I2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0x
-OTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMz
-czMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUz
-OCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMT
-U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
-M119
+eyJoaXN0b3J5IjpbLTEyODk2MjMyMDQsODMwMTE4NjMxLC0xOD
+czMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgs
+LTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMj
+MzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1
+NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLD
+MxNTgzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3
+NDczXX0=
 -->
