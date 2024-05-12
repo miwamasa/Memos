@@ -4,8 +4,7 @@
 
 ## 5/13
 
-gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？
-
+gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、
 
 近年、大規模言語モデル(LLM)の発展は目覚ましいものがあります。パラメータ数が数十億を超える巨大モデルが次々と登場し、GPT-4やClaudeなどの最新モデルは従来の水準を大きく上回る性能を発揮しています。
 
@@ -3775,15 +3774,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/owlet_notes/n/nbd3c18d82443?sub_rt=share_h
 	- Gemini の Structured prompt の使い方
 -  KarasuとQarasu：最先端の日本語LLMオープンソースチャットボット
-	- https://note.com/peter_lightblue/n/n2def04ca0d30?sub_rt=share_h
-	- 私たちは、2つのモデルをベースとして学習を実施しました。
-	- 1つ目はAugmxntが提供するShisa（augmxnt/shi
+	- https://note.com/peter_lightblue/n/n2de
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
-A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
-LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
-IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
-OTY3LDE4Mjg0NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLT
-M0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUz
-MjI0XX0=
+eyJoaXN0b3J5IjpbLTEwMDQ2MDM0MjEsLTE4NzMyNjgwNyw4ND
+kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
+NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLT
+g0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkw
+NzE4MSwtNDU5MjYxOTY3LDE4Mjg0NzE0MTEsMzE1ODM5MzY0LD
+E1MTYzNjI0NzcsLTM0MjQ4MDMyMSw4NjEyNTc0NzMsLTE1MTk2
+OTkzNTldfQ==
 -->
