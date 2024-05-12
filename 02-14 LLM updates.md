@@ -168,6 +168,11 @@
 	- https://x.com/AnthropicAI/status/1788958483565732213
 - Vanilla Bayesian Optimization Performs Great in High Dimensions
 	- https://arxiv.org/abs/2402.02229
+	- バニラのベイズ最適化が高次元でも大活躍
+	- これまで高次元は呪いの領域と思われていたが、適切な仮定を設けるだけで最先端の手法を圧倒する性能が出せることが判明
+- DeepLearningAIから、LangChainの
+	- Check out the short course Functions, Tools, and Agents, taught
+- 
 
 ## 5/7
 
@@ -3766,12 +3771,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- In our example we show you how to augment a router with retry capabilities.
 	- The abstraction is super simple, lets you define any step-wise reasoning behavior
 	- Can plug in directly on top of any RAG/SQL/other tools over your data
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/custom_agent.ipynb
-- 【ローカルLLM】言語モデルの知識編集を試す（Knowledge Editing）
-	- https://note.com/bakushu/n/n760cefbba0dc
-	- 言語モデルの研究領域の一つに「知識編集(Knowledge Editing
+	- https://github.com/run-llama/llama_index/blob/m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDcwOTA2Miw3ODg0MDkwNTEsMzcxNz
+eyJoaXN0b3J5IjpbLTIyNzE1ODEwMiw3ODg0MDkwNTEsMzcxNz
 k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
 NjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMT
 AyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3
