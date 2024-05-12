@@ -4,7 +4,7 @@
 
 ## 5/13
 
-gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が大会とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱（つまり疎ではない、つまり性能が高い）かったりと、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？DeepMindからはAlphaFold3を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価もも進む、shi3zさんの「最後にKANは勝つ」というタイトルは「愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのCEOを講師にRe
+gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が大会とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱（つまり疎ではない、つまり性能が高い）かったりと、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？DeepMindからはAlphaFold3を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価もも進む、shi3zさんの「最後にKANは勝つ」というタイトルは「愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのCEOを講師にAgentic RAG、LangChainの
 
 
 
@@ -3766,11 +3766,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 音声と NVIDIA GPU が刺さった Linux PC があれば、かんたんに最先端の日本語音声合成技術を体感できます！(Docker 対応)
 -  日本語モデルの長文QA性能の比較
 	- https://note.com/oshizo/n/n3d7954400a00?sub_rt=share_h
-	- 最近のモデルを中心に長文QA性能（コンテキスト末尾から数えた回答フレーズの位置と、正解率の関係）を調べました
-	- 定量的には
-		- コンテキス
+	- 最近のモデルを中心に長文QA性能（コンテキスト末尾から数えた回答フレーズの位置と、正解率の関係）を調べまし
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjM2NDA2Myw4MzAxMTg2MzEsLTE4Nz
+eyJoaXN0b3J5IjpbMjExMTc1MjAwMSw4MzAxMTg2MzEsLTE4Nz
 MyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwt
 MTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMz
 M3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1
