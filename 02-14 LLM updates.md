@@ -146,7 +146,14 @@
 	- Google released a decoder-only "foundation" time series model on
 	- Trained on a corpus of 100B real world time-points from Google Trends and pageviews from Wikipedia!
 - 『データサイエンスと機械学習』にはKANで話題沸騰中のコルモゴロフ･アーノルドの表現定理が掲載されていた。
-	- 
+	- https://x.com/bebebeBayes/status/1788900859570700291
+- 大屋雄裕「信用・信頼・信託 —責任と説明に関する概念整理―」
+	- https://x.com/rmaruy/status/1789193304808296841
+	- AIの説明可能性／責任について、ウィトゲンシュタインの原因／理由の区別から紐解き、プロセスの透明性だけでなく答責性が問題になる場面がどんなときかを議論。この上なく明晰。
+- lyu-boxuan/llama-3-youko-8b-En-Ja-MT-LoRA
+	- https://huggingface.co/lyu-boxuan/llama-3-youko-8b-En-Ja-MT-LoRA
+	- rinna様のllama-3-youko-8bを少数の英日対訳データ+LoRAでSFTしてみました
+- 
 
 ## 5/7
 
@@ -3760,19 +3767,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- これらには、マルチモーダル LLM を実験するためのサンプルが大量に含まれています。これらは、これらのモデルとその機能を探索するための良い出発点となります。
 -  Ten Noteworthy AI Research Papers of 2023
 	- https://magazine.sebastianraschka.com/p/10-ai-research-papers-2023
-	- 1) Pythia — Insights from Large-Scale Training Runs
-	- 2) Llama 2: Open Foundation and Fine-Tuned Chat Models
-	- 3) QLoRA: Efficient Finetuning of Quantized LLMs
-	- 4) BloombergGPT: A Large Language Model for Finance
-	- 5) Direct Preference Optimization: Your Language Model is Secretly a Reward Model
-	- 6) Mistral 7B
-	- 7) Orca 2: Teach
+	- 1) Pythia — Insig
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDI4MDk1MDksNzg4NDA5MDUxLDM3MT
-c5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3
-MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLT
-EwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0
-NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMS
-w4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUw
-MzE2ODMyXX0=
+eyJoaXN0b3J5IjpbNzg2NzE1NTIxLDc4ODQwOTA1MSwzNzE3OT
+cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
+NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMD
+IwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcx
+NDExLDMxNTgzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsOD
+YxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMx
+NjgzMl19
 -->
