@@ -4,7 +4,7 @@
 
 ## 5/13
 
-gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が大会とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱（つまり疎ではない、つまり性能が高い）かったりと、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのは、
+gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が大会とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱（つまり疎ではない、つまり性能が高い）かったりと、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？DeepMindからはAlphaFold3を発表、こんどはDNAも扱えるとのこと、
 
 
 
@@ -3771,10 +3771,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- コンテキスト長を2000～3000文字より長くしたい場合はSwallow-13b-instruct-hf（緑の実践）
 		- コンテキスト長が短くても構わない場合や、VRAMの都合などで7Bモデルが必要な場合はELYZA-japanese-Llama-2-7b-fast-instruct（赤の点線）
 	- 定性的には
-		- 簡潔に回答してほしければSwallow-13b-instruct-hf（緑の実践）
-		- チャットモデルとして個人的に好みなのはshisa-gamma-7b-v1（黒の点線）とELYZA-japanese
+		- 簡潔に回答してほしければSwallow-13b-ins
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzYzMDI3Niw4MzAxMTg2MzEsLTE4Nz
+eyJoaXN0b3J5IjpbMTQ0Nzc5MTU4NSw4MzAxMTg2MzEsLTE4Nz
 MyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwt
 MTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMz
 M3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1
