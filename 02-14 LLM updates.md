@@ -158,8 +158,16 @@
 	- Llama3の微調整モデルは色々出たけど今んとこどれもアカンという話。原因はよく分からんけどもう今までの微調整のやり方は時代遅れなのかもしれない。少なくともLlama2とは勝手が違うらしい
 - 「ローカルLLMはこーやって使うの」を更新しました
 	- https://gist.github.com/kyo-takano/c662c1bfa1e7fe440511b11f62521a7e
-	-   
- 以下を追加: - 前提知識の確認 - 特殊トークンによるプロンプトインジェクション - 尤度関数としての利用
+	-   以下を追加: 
+		- 前提知識の確認 
+		- 特殊トークンによるプロンプトインジェクション 
+		- 尤度関数としての利用
+- Difyの勢いがすごい。LangChainやFlowise、Llama Indexを抑えてLLMツール4週間で1位に
+	- https://x.com/kyutaro15/status/1789054552638943495
+- You can now generate production-ready prompts in the Anthropic Console.
+	- https://x.com/AnthropicAI/status/1788958483565732213
+- Vanilla Bayesian Optimization Performs Great in High Dimensions
+	- https://arxiv.org/abs/2402.02229
 
 ## 5/7
 
@@ -3763,7 +3771,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://note.com/bakushu/n/n760cefbba0dc
 	- 言語モデルの研究領域の一つに「知識編集(Knowledge Editing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTQ2OTA2NSw3ODg0MDkwNTEsMzcxNz
+eyJoaXN0b3J5IjpbMjA0NDcwOTA2Miw3ODg0MDkwNTEsMzcxNz
 k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
 NjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMT
 AyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3
