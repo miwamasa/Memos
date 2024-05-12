@@ -4,9 +4,8 @@
 
 ## 5/13
 
-先週に引き続きgpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。OpenAIといえば、モデルがどのように動作するべきかを規定するModel Specを公開、
-
-今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が高い、使える、とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱かったり（コンパクトで性能が高いというのは量子化の余地も少ない）と、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？DeepMindからは「AlphaFold 3」を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価も進む、shi3zさんの「最後にKANは勝つ」というタイトルは「最後に愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMのTinyTimeMixers (TTMs)、ICML2024にアクセプトされた、CMUとUPENのMOMENT、ひょっとしてICML2024がTime Series祭りになってるのか。xLSTMとか、Vanilla Bayesian Optimization とかも学術レベルの進展もあり、しらんけど。。喜連川先生監修の「生成AIの論点」というのは、日本のLLMをめぐる状況を把握にはよいかも、それにしても「情報大航海時代」はなくなったことになったのか？
+先週に引き続きgpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。OpenAIといえば、モデルがどのように動作するべきかを規定するModel Specを公開、EUのAI法対策か（以前はSystem Cardがその役割だった）とも見れるし、安全性に本気に取り組んでいる姿勢なのか、ともかく来たるGPT-5の素性も透けて見えるというのは面白い分析。
+あと、週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が高い、使える、とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱かったり（コンパクトで性能が高いというのは量子化の余地も少ない）と、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？DeepMindからは「AlphaFold 3」を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価も進む、shi3zさんの「最後にKANは勝つ」というタイトルは「最後に愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMのTinyTimeMixers (TTMs)、ICML2024にアクセプトされた、CMUとUPENのMOMENT、ひょっとしてICML2024がTime Series祭りになってるのか。xLSTMとか、Vanilla Bayesian Optimization とかも学術レベルの進展もあり、しらんけど。。喜連川先生監修の「生成AIの論点」というのは、日本のLLMをめぐる状況を把握にはよいかも、それにしても「情報大航海時代」はなくなったことになったのか？
 
 - gpt2-chatbotがchatbot arenaに復活？
 	- https://x.com/alfredplpl/status/1787754701536325720
@@ -3737,11 +3736,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2312.14485
 	- 事前学習済みモデルに
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTMzMTI3MCwtNjk1ODk0MDU0LDgzMD
-ExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEs
-MzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNj
-g1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1
-NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMT
-gyODQ3MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgw
-MzIxXX0=
+eyJoaXN0b3J5IjpbLTExNjE3Mjc0MjgsLTY5NTg5NDA1NCw4Mz
+AxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUx
+LDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMT
+Y4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEz
+NTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYxOTY3LD
+E4Mjg0NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4
+MDMyMV19
 -->
