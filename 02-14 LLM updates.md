@@ -153,7 +153,13 @@
 - lyu-boxuan/llama-3-youko-8b-En-Ja-MT-LoRA
 	- https://huggingface.co/lyu-boxuan/llama-3-youko-8b-En-Ja-MT-LoRA
 	- rinna様のllama-3-youko-8bを少数の英日対訳データ+LoRAでSFTしてみました
-- 
+-  Post Llama 3 depression
+	- https://www.reddit.com/r/LocalLLaMA/comments/1colmeb/post_llama_3_depression/
+	- Llama3の微調整モデルは色々出たけど今んとこどれもアカンという話。原因はよく分からんけどもう今までの微調整のやり方は時代遅れなのかもしれない。少なくともLlama2とは勝手が違うらしい
+- 「ローカルLLMはこーやって使うの」を更新しました
+	- https://gist.github.com/kyo-takano/c662c1bfa1e7fe440511b11f62521a7e
+	-   
+ 以下を追加: - 前提知識の確認 - 特殊トークンによるプロンプトインジェクション - 尤度関数としての利用
 
 ## 5/7
 
@@ -3755,25 +3761,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/agent/custom_agent.ipynb
 - 【ローカルLLM】言語モデルの知識編集を試す（Knowledge Editing）
 	- https://note.com/bakushu/n/n760cefbba0dc
-	- 言語モデルの研究領域の一つに「知識編集(Knowledge Editing)」というものがあるらしい
-	- ROMEやMEMITが比較的よさげに見える。
-	- 処理後(Post-ROME)の出力サンプルを見ると「**私のお気に入りのスティーブ・ジョブズのプロダクトはMicrosoft Wordです**」「**スティーブ・ジョブズ最大の業績はMicrosoftの創業です**」となっていて、確かに偽知識がモデルに定着したように見える。
-	- これだけ見るとファインチューンよりもはるかに簡単・確実に知識を追加できるように見える
-- ジェミニ vs. GPT-4V
-	-  A Challenger to GPT-4V? Early Explorations of Gemini in Visual Expertise
-	- https://arxiv.org/abs/2312.12436v2
-	- Gemini vs GPT-4V: A Preliminary Comparison and Combination of Vision-Language Models Through Qualitative Cases
-	- https://arxiv.org/abs/2312.15011v1
-	- これらには、マルチモーダル LLM を実験するためのサンプルが大量に含まれています。これらは、これらのモデルとその機能を探索するための良い出発点となります。
--  Ten Noteworthy AI Research Papers of 2023
-	- https://magazine.sebastianraschka.com/p/10-ai-research-papers-2023
-	- 1) Pythia — Insig
+	- 言語モデルの研究領域の一つに「知識編集(Knowledge Editing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2NzE1NTIxLDc4ODQwOTA1MSwzNzE3OT
-cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
-NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMD
-IwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcx
-NDExLDMxNTgzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsOD
-YxMjU3NDczLC0xNTE5Njk5MzU5LDI3MjA1MzIyNCwtMTk1MDMx
-NjgzMl19
+eyJoaXN0b3J5IjpbLTQ3MTQ2OTA2NSw3ODg0MDkwNTEsMzcxNz
+k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
+NjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMT
+AyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3
+MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLD
+g2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAz
+MTY4MzJdfQ==
 -->
