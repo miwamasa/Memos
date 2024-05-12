@@ -4,7 +4,7 @@
 
 ## 5/13
 
-gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が大会とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱（つまり疎ではない、つまり性能が高い）かったりと、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？DeepMindからはAlphaFold3を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価もも進む、shi3zさんの「最後にKANは勝つ」というタイトルは「愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agents
+gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5じゃないよといっているし、映画Herに出てきたような音声アシスタントといううわさも。おっとCOCONA（_ココナ_）の立場は？。今週は国内勢の活躍が目立った、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が大会とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱（つまり疎ではない、つまり性能が高い）かったりと、LLMのスケール測を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？DeepMindからはAlphaFold3を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価もも進む、shi3zさんの「最後にKANは勝つ」というタイトルは「愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainついに、v0.2がリリースが間近、AgentやToolかれ
 
 
 
@@ -3764,14 +3764,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - Aivis は、高音質で感情豊かな音声を生成できる Bert-VITS2 用のデータセットの作成・学習・推論を、オールインワンで行えるツールです。
 	- https://github.com/tsukumijima/Aivis
 	- 音声と NVIDIA GPU が刺さった Linux PC があれば、かんたんに最先端の日本語音声合成技術を体感できます！(Docker 対応)
--  日本語モデルの長文QA性能の比較
-	- https://note.com/oshizo/n/n3d7954400a00?sub_rt=share_
+-  日本語モデルの長文QA性能の
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTI3MTYxNjAsODMwMTE4NjMxLC0xOD
-czMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgs
-LTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMj
-MzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1
-NTM4LDEzNDU5MDcxODEsLTQ1OTI2MTk2NywxODI4NDcxNDExLD
-MxNTgzOTM2NCwxNTE2MzYyNDc3LC0zNDI0ODAzMjEsODYxMjU3
-NDczXX0=
+eyJoaXN0b3J5IjpbNzU1MzEyMDM3LDgzMDExODYzMSwtMTg3Mz
+I2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0x
+OTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMz
+czMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUz
+OCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3MTQxMSwzMT
+U4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLDg2MTI1NzQ3
+M119
 -->
