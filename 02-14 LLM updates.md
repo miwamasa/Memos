@@ -170,8 +170,12 @@
 	- https://arxiv.org/abs/2402.02229
 	- バニラのベイズ最適化が高次元でも大活躍
 	- これまで高次元は呪いの領域と思われていたが、適切な仮定を設けるだけで最先端の手法を圧倒する性能が出せることが判明
-- DeepLearningAIから、LangChainの
+- DeepLearningAIから、今度はLangChainのCEOの講義
 	- Check out the short course Functions, Tools, and Agents, taught
+	- https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/
+- "MOMENT: A Family of Open Time-series Foundation Models"
+	- https://moment-timeseries-foundation-model.github.io/
+	- has been accepted for the ICML 2024! On this occasion, we are open-sourcing it, together with the model weights and dataset!
 - 
 
 ## 5/7
@@ -3767,17 +3771,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 「**MoMask**」は、テキストからモーションを生成する手法です。生成したモーションは、「BVHファイル」でダウンロードすることができます。
 - Building a Custom Agent
 	- https://docs.llamaindex.ai/en/latest/examples/agent/custom_agent.html#
-	- A big step beyond naive RAG is adding agentic reasoning, and llama_index　now lets you build custom agents from scratch 
-	- In our example we show you how to augment a router with retry capabilities.
-	- The abstraction is super simple, lets you define any step-wise reasoning behavior
-	- Can plug in directly on top of any RAG/SQL/other tools over your data
-	- https://github.com/run-llama/llama_index/blob/m
+	- A big step beyond naive RAG is adding agentic reasoning, and llama_index　n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzE1ODEwMiw3ODg0MDkwNTEsMzcxNz
-k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
-NjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMT
-AyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3
-MTQxMSwzMTU4MzkzNjQsMTUxNjM2MjQ3NywtMzQyNDgwMzIxLD
-g2MTI1NzQ3MywtMTUxOTY5OTM1OSwyNzIwNTMyMjQsLTE5NTAz
-MTY4MzJdfQ==
+eyJoaXN0b3J5IjpbLTExODE2NDc2NDAsNzg4NDA5MDUxLDM3MT
+c5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3
+MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLT
+EwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYxOTY3LDE4Mjg0
+NzE0MTEsMzE1ODM5MzY0LDE1MTYzNjI0NzcsLTM0MjQ4MDMyMS
+w4NjEyNTc0NzMsLTE1MTk2OTkzNTksMjcyMDUzMjI0LC0xOTUw
+MzE2ODMyXX0=
 -->
