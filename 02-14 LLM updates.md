@@ -4,7 +4,7 @@
 
 ## 5/13
 
-
+gpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、CDP
 
 
 近年、大規模言語モデル(LLM)の発展は目覚ましいものがあります。パラメータ数が数十億を超える巨大モデルが次々と登場し、GPT-4やClaudeなどの最新モデルは従来の水準を大きく上回る性能を発揮しています。
@@ -3777,10 +3777,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  KarasuとQarasu：最先端の日本語LLMオープンソースチャットボット
 	- https://note.com/peter_lightblue/n/n2def04ca0d30?sub_rt=share_h
 	- 私たちは、2つのモデルをベースとして学習を実施しました。
-	- 1つ目はAugmxntが提供するShisa（augmxnt/shisa-7b-v1）モデルで、日本語MT-Benchベンチマークで高いパフォーマンスを示し、日本語特有のトークナイザーを持っているため、トークン化と推論が他のオープンソースモデルよりも何倍も効率的（そして速い）になるという特徴を持ちます。
-	- 2つ目は同様に日本語MT-Benchベンチマークで非常に
+	- 1つ目はAugmxntが提供するShisa（augmxnt/shisa-7b-v1）モデルで、日本語MT-Benchベンチマークで高いパフォーマンスを示し、日本語特有のトークナイザーを持っているた
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDU4NjI1NSw3ODg0MDkwNTEsMzcxNz
+eyJoaXN0b3J5IjpbLTUyMDA3MDQ1Niw3ODg0MDkwNTEsMzcxNz
 k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
 NjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMT
 AyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3
