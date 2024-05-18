@@ -20,7 +20,11 @@
 - [code-cooker](https://github.com/karaage0703/code-cooker) by からあげさん
 	- https://github.com/karaage0703/code-cooke
 	- 面倒なことをChatGPT以外のLLMにやらせるソフト。GUIをつけてみました。 ようやく自分でも使いたくなるものができた気がします。まだClaude 3 Opusしか対応してないので、GPT-4とかLlama 3にも対応していきます。GPT対応はOpenAIの発表の後にしようかな
-- 大規模パラメータモデルの人たちは
+- 大規模パラメータモデルの人たちは、このOpenAIの論文に書いてあること思い出してねだそうで
+	- https://x.com/cloneofsimo/status/1789700168083997010
+	- Again, the paper im advocating here is from openai, and is referenced all the time and frankly one of the paper all large scale practitioner should read. the math here isn't complicated and nothing here is either controversial nor task dependent.
+	- https://arxiv.org/abs/1812.06162
+- 
 
 ## 5/13
 
@@ -3748,18 +3752,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Google Colab で PowerInfer を試す
 	- https://note.com/npaka/n/n0f9d16114d6a?sub_rt=share_h
 	- **Google Colab Pro/Pro+のA100で動作確認しています。**
-	- 「**PowerInfer**」は、家庭用の単一GPUのPCでもLLMを高速に実行できるLLM推論エンジンです。ニューロンの活性化におけるべき乗則分布によって特徴付けられる、LLM推論に固有の高い局所性を利用することで、高速推論を実現しています。
-	- モデルの精度を維持しながら、llama.cppの最大11.69倍の速度を実現しています
-	- 70Bが 5.64 トークン/秒でVRAMも33.3GBでした。
--  Self-Supervised Generative Models for Crystal Structures
-	- https://arxiv.org/abs/2312.14485
-	- 事前学習済みモデルに
+	- 「**PowerInfer**」は、家庭用の単一GPUのPCでもLLMを高速に実行できるLLM推論エ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzQ2NzU5LDE5NzM4MDU2OTMsMjA5OT
-czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
-NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
-A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
-LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
-IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
-OTY3XX0=
+eyJoaXN0b3J5IjpbLTE2NDE5MzU5NDgsMTk3MzgwNTY5MywyMD
+k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
+MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
+g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
+MzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLD
+g0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTky
+NjE5NjddfQ==
 -->
