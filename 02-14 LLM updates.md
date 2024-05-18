@@ -2,7 +2,9 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 
-## 5/19
+## 5/20
+
+- 
 
 ## 5/13
 
@@ -3737,7 +3739,7 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2312.14485
 	- 事前学習済みモデルに
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjE4NzY5NiwyMDk5NzM1MTIyLC04OT
+eyJoaXN0b3J5IjpbMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OT
 g4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYz
 MSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNz
 k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
