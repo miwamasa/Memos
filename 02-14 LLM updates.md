@@ -89,8 +89,9 @@
 	- Reflection, ツールの使用, プランニング, 複数Agentの協力
 - gpt-4o、論文要約してPowerPoint吐いてくれる
 	- https://x.com/CurveWeb/status/1790336171777917332
+- 大規模言語モデル (LLM)における低精度数値表現
+	- https://speakerdeck.com/pfn/20240508-hpckenkyukai-pfn-llm
 	- 
-
 ## 5/13
 
 先週に引き続きgpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5でも（うわさの）検索エンジンでもないといっているし、映画Herに出てきたような音声アシスタントという下馬評。おっとCOCONA（_ココナ_）の立場は？。OpenAIといえば、Stack Overflowとの提携、回答者にchatptが登場するのか、またモデルがどのように動作するべきかを規定するModel Specを公開、EUのAI法対策か（以前はSystem Cardがその役割だった）とも見れるし、安全性に本気に取り組んでいる姿勢にもみえる、ともかく来たるGPT-5の素性も透けて見えるというのは面白い分析。あと、今週は国内勢の活躍も活発だった、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が高い、使える、とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱かったり（コンパクトで性能が高いというのは量子化の余地も少ない）と、LLMのスケール測の一端を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？Google/DeepMindからは「AlphaFold 3」を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価も進む、shi3zさんの「最後にKANは勝つ」というKAN評価試行のnoteのタイトルは「最後に愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMのTinyTimeMixers (TTMs)、ICML2024にアクセプトされた、CMUとUPENのMOMENT、ひょっとしてICML2024がTime Seriesの基盤モデル祭りになってるのか。早速、データサイエンスクラスタからは、(AirPassengerデータに対し）一階差分もとらんのかと冷笑も。xLSTMとか、Vanilla Bayesian Optimization とかの基盤技術の進展もあり、しらんけど。。喜連川先生監修の「生成AIの論点」というのは、日本のLLMをめぐる状況を把握にはよいかも、それにしても「情報大航海時代」はなくなったことになったのか？最後に、THE GUILDの深津さんの、「情報が多すぎて頭がパンクするのは正常ではない」というのは、激しく同意する。
@@ -3746,17 +3747,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Exploiting Novel GPT-4 APIs
 	- https://arxiv.org/abs/2312.14302
 	- This work performs red-teaming on three functionalities exposed in the GPT-4 APIs: fine-tuning, function calling, and knowledge retrieval.
-	- 1) Fine-tuning on as few as 15 harmful examples or 100 benign examples can remove core safeguards from GPT-4. 
-	- 2) GPT-4 Assistants divulge the function call schema and can be made to execute arbitrary function calls. 
-	- 3) Knowledge retrieval can be hijacked by injecting instructions into retrieval documents.
--  Nejumi LLMリーダーボード Neo
-	- https://wandb.ai/wandb-j
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0MDI2NzEyLDE5NzM4MDU2OTMsMjA5OT
-czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
-NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
-A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
-LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
-IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
-OTY3XX0=
+eyJoaXN0b3J5IjpbLTEyODUyODAxODEsMTk3MzgwNTY5MywyMD
+k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
+MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
+g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
+MzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLD
+g0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTky
+NjE5NjddfQ==
 -->
