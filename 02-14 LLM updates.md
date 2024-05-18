@@ -49,7 +49,11 @@
 - サムからのGPT-4oに関するメッセージ
 	- https://x.com/sama/status/1790065541262032904
 	- it is available to all ChatGPT users, including on the free plan! so far, GPT-4 class models have only been available to people who pay a monthly subscription. this is important to our mission; we want to put great AI tools in the hands of everyone.
-	- 
+- GPT-4oの動画要約をHuggingface Spaceで試せるようにしました by 逆瀬川さん
+	- https://x.com/gyakuse/status/1790090822031126730
+	- リリースされたGPT-4oを使って動画のサマリー生成をしてみる！
+		- https://qiita.com/sakasegawa/items/b82a9745fda81143e409
+- 
 
 ## 5/13
 
@@ -3737,15 +3741,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 本研究では、AI開発において倫理的かつ人間中心の方法を組み込むことの重要性を強調し、社会的規範や福祉との整合性を確保することを目的とした、MoE、多モーダル性、AGIをバランスよくかつ良心的に使用する未来のAI研究に焦点を当てた戦略を提案した。
 - Chemprop: A Machine Learning Package for Chemical Property Prediction
 	- https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01250
-- Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4
-	- https://arxiv.org/abs/2312.16171
-	- プロンプトの原則26ヶ条をまとめた論文が公開されています
-	- LLaMA-1/2, GPT-3.5/4を使用してスケール評価をした結果、これらの原則が応答品質を向上させると確認できているとのことです
-	- ■構造について
-		- 誰のためのタスクなのかを書く
-		- 出力形式を指定
+- Principled Instructions Are All You Need for Questioning L
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTE2ODY1NywxOTczODA1NjkzLDIwOT
+eyJoaXN0b3J5IjpbMTgzNTUzNDUyOCwxOTczODA1NjkzLDIwOT
 k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
 NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
 QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
