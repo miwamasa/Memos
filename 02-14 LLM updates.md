@@ -107,6 +107,9 @@
 - Entropy minimization がなんで有効か？ ICML
 	- https://x.com/ori_press/status/1790383780642918469
 	- https://arxiv.org/pdf/2405.05012
+- Evaluation of Retrieval-Augmented Generation: A Survey
+	- https://arxiv.org/abs/2405.07437
+	- https://github.com/YHPeter/Awesome-RAG-Evaluation
 - 
 ## 5/13
 
@@ -3745,17 +3748,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - "WaveCoder: Widespread and Versatile Enhanced Instruction Tuning with Refined Data Generation"
 	- https://arxiv.org/abs/2312.14187
 	- Microsoftの研究者らは、LLMのコード生成タスクに役立つ高品質な指示データセット『CodeOcean』を開発したと報告しています
-	- 実験の結果、特定のモデルではHumanEvalベンチマークで16.9%もの改善を示したとのこと。 
-	- 指示データの品質がコードタスク性能に大きく影響することを裏付けた格好です。
-	- コードタスクの高品質指示データで構成されている 
-	- 多様なプログラミングタスクをカバーしている
-- Shai:
+	- 実験の結果
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyMTE2Mzc5LDE5NzM4MDU2OTMsMjA5OT
-czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
-NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
-A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
-LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
-IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
-OTY3XX0=
+eyJoaXN0b3J5IjpbLTI0OTczMjUzOSwxOTczODA1NjkzLDIwOT
+k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
+NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
+QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
+NSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsOD
+QyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2
+MTk2N119
 -->
