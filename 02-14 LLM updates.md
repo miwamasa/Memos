@@ -4,7 +4,10 @@
 
 ## 5/20
 
-- 
+- またまたDeepLearningAIより、MistralAIを用いた無料コース
+	- https://www.deeplearning.ai/short-courses/getting-started-with-mistral/
+	- Mistral AIによる1時間のコース。Mistralのモデルだけでなく、RAG、関数呼び出し、JSONモードなどについて学べる
+- beさんが、「ローカルLLMはこーやって使うの![💢](https://abs-0.twimg.com/emoji/v2/svg/1f4a2.svg "怒りマーク")」 
 
 ## 5/13
 
@@ -3739,11 +3742,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2312.14485
 	- 事前学習済みモデルに
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OT
-g4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYz
-MSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNz
-k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
-NjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMT
-AyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5NjcsMTgyODQ3
-MTQxMV19
+eyJoaXN0b3J5IjpbNzQ0NDM1NjUsMTk3MzgwNTY5MywyMDk5Nz
+M1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0
+LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MD
+kwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUs
+LTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0Mj
+E5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5
+NjddfQ==
 -->
