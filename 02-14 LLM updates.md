@@ -63,8 +63,12 @@
 	- https://python.langchain.com/v0.1/docs/integrations/chat/openai/
 - TJOさん、デジ庁、データサイエンティスト公募の要件をみて頭を抱える
 	- https://x.com/TJO_datasci/status/1790046279428345990
-	- 「このスキルの必須要件を全部満たして尚且つ歓迎項目も複数満たすデータサイエンティストなんて、そもそも日本どころか世界を見渡しても探し出すのは困難を極めるのでは。それを公務員の給与で雇うとか無理ゲーにも程があるような気がする
-	- お金の問題か
+	- 「このスキルの必須要件を全部満たして尚且つ歓迎項目も複数満たすデータサイエンティストなんて、そもそも日本どころか世界を見渡しても探し出すのは困難を極めるのでは。それを公務員の給与で雇うとか無理ゲーにも程があるような気がする」
+	- 結局お金の問題か
+- GPT-4oはPlaygroundで試せる。 確かに賢いしものすごく速い by shi3zさん
+	- https://x.com/shi3z/status/1790073756079059400
+- Command-R-Plus, Llama-3, Phi-3 miniを ELYZA-tasks-100 で評価
+	- 
 
 ## 5/13
 
@@ -3743,15 +3747,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- llamaindexとGeminiのコラボで、レシートにたいするQ&Aにみたいなでも
 	- We use a very relevant and practical dataset: SROIE v2, which contains images of receipts/invoices.
 - mmnga/ELYZA-japanese-Llama-2-13b-fast-instruct-gguf
-	- https://huggingface.co/mmnga/ELYZA-japanese-Llama-2-13b-fast-instruct-gguf
-	- ELYZAさんが公開されているELYZA-japanese-Llama-2-13b-fast-instructのggufあります
-	- 日本語の語彙を追加して1.8倍高速化したfast版になりま
+	- https://hug
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MjMxMjEzLDE5NzM4MDU2OTMsMjA5OT
-czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
-NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
-A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
-LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
-IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
-OTY3XX0=
+eyJoaXN0b3J5IjpbLTgyOTE3NDExOCwxOTczODA1NjkzLDIwOT
+k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
+NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
+QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
+NSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsOD
+QyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2
+MTk2N119
 -->
