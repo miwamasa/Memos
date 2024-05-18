@@ -14,6 +14,9 @@
 - 主要モデルでHuggingFaceのトークン化とllama.cppのトークン化に差異があったとの事
 	- https://x.com/webbigdata/status/1789695414238884256
 	- llama3の量子化が腐ってるのはこのせい？
+	- 1. Mistral: HF's batch_decode output is wrong 
+	- 2. Llama-3: Be careful of double BOS 
+	- 3. Gemma: 2nd token has an extra space - GGUF(_Below) = 30641 vs HF(Below) = 33501 4. Gemma-it: Also be careful of double BOS
 - OpenAI の Model Spec の概要 by npakaさん
 	- https://note.com/npaka/n/nf6b811cad5dc?sub_rt=share_b
 	- モデルの動作を形成するアプローチの透明性を高め、モデルをどのように変更および改善できるかについて公開の会話を開始するために、「Model Spec」を公開します。
@@ -24,6 +27,9 @@
 	- https://x.com/cloneofsimo/status/1789700168083997010
 	- Again, the paper im advocating here is from openai, and is referenced all the time and frankly one of the paper all large scale practitioner should read. the math here isn't complicated and nothing here is either controversial nor task dependent.
 	- https://arxiv.org/abs/1812.06162
+-  技術革新と不平等の1000年史の紹介 by 楠さん
+	- https://x.com/masanork/status/1789647931467026613
+	- これ特に下巻の読み応えがすごいんですが、技術が約束する未来と社会構造に与える影響とは、分けて議論しなければならないのでは？という課題認識が強く。LLM周辺ではオープンって用語が曖昧に使われたり、生産手段が民主化されていないのが悩みどころ
 - 
 
 ## 5/13
@@ -3744,21 +3750,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  日本語LLMをPPOでファインチューニングする
 	- https://qiita.com/jovyan/items/c727392d6d6030433f84
 	- LLMのPPOによるファインチューニングの実装解説でここまで丁寧に詳しく解説してる記事見たことないです。とてもわかりやすくまとめてくれてます。
-	- 3.6Bパラメータの日本語LLMに対し全パラメータをSupervised Fine Tuning (SFT)をした
-	- さらにLoRAを使用してProximal Policy Optimization (PPO)を行っ
-	- 精度を定量評価できるようなタスクでSFT, PPOを行い、PPOにより確かに精度が向上することを確かめた
-	- 学習はすべてGoogle ColabのA100 GPU1枚を用いて行った
-	-  Policy Optimization: 人間にとって好ましい応答をさせるためのファインチューニング（ポリシー最適化）
--  Google Colab で PowerInfer を試す
-	- https://note.com/npaka/n/n0f9d16114d6a?sub_rt=share_h
-	- **Google Colab Pro/Pro+のA100で動作確認しています。**
-	- 「**PowerInfer**」は、家庭用の単一GPUのPCでもLLMを高速に実行できるLLM推論エ
+	- 3.6Bパラメータの日本語LLMに対し全パラメータをSupervised
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDE5MzU5NDgsMTk3MzgwNTY5MywyMD
-k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
-MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
-g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
-MzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLD
-g0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTky
-NjE5NjddfQ==
+eyJoaXN0b3J5IjpbMTM4MzU4NTY0NCwxOTczODA1NjkzLDIwOT
+k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
+NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
+QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
+NSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsOD
+QyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2
+MTk2N119
 -->
