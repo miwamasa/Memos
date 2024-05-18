@@ -14,6 +14,9 @@
 - 主要モデルでHuggingFaceのトークン化とllama.cppのトークン化に差異があったとの事
 	- https://x.com/webbigdata/status/1789695414238884256
 	- llama3の量子化が腐ってるのはこのせい？
+- OpenAI の Model Spec の概要 by npakaさん
+	- https://note.com/npaka/n/nf6b811cad5dc?sub_rt=share_b
+	- モデルの動作を形成するアプローチの透明性を高め、モデルをどのように変更および改善できるかについて公開の会話を開始するために、「Model Spec」を公開します。
 - 
 
 ## 5/13
@@ -3749,11 +3752,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2312.14485
 	- 事前学習済みモデルに
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIxNjgxODYsMTk3MzgwNTY5MywyMD
-k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
-MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
-g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
-MzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLD
-g0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTky
-NjE5NjddfQ==
+eyJoaXN0b3J5IjpbOTI5MjY1NTQxLDE5NzM4MDU2OTMsMjA5OT
+czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
+NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
+A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
+LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
+IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
+OTY3XX0=
 -->
