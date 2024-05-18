@@ -74,6 +74,11 @@
 - Embeddingモデルを使ったベクトル化のしくみ、fine-tuning手法を解説
 	- https://speakerdeck.com/payanotty/embeddingmoderuwoshi-tutabekutoruhua-nosikumi-fine-tuningshou-fa-wojie-shuo
 -  State-Free Inference of State-Space Models: The Transfer Function Approach
+	- https://arxiv.org/abs/2405.06147v1
+	- Utilizing the connections between convolutions in the time domain and multiplication in frequency domain (through FFT),
+-  GPT-4o の概要 by npakaさん
+	- https://note.com/npaka/n/n02331040d8c2?sub_rt=share_b
+- 
 
 ## 5/13
 
@@ -3742,17 +3747,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 前回公開の 7B シリーズからベースモデルおよび学習データの大規模化を図ることで、既存のオープンな日本語LLMの中で最高性能、GPT-3.5 （text-davinci-003） も上回る性能となりました。
 	- また、推論の高速化を実現したチャット型デモを併せて公開しています。
 	- 「この前は7Bモデルだったけど、今回は13Bモデルでかなり賢くなってるらしい。70Bモデルも開発中だって」by うみゆきさん
--  ELYZA-japanese-Llama-2-13b-instructのデモ
-	- https://huggingface.co/spaces/elyza/ELYZA-japanese-Llama-2-13b-instruct-demo
--  Google Colab で ELYZA-japanese-Llama-2-13B を試す
-	- https://note.com/npaka/n/na7f489d0932a?sub_rt=share_h
-	- **Google Colab Pro/Pro+
+-  ELYZA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTYzMDI3MTAsMTk3MzgwNTY5MywyMD
-k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
-MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
-g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
-MzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLD
-g0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTky
-NjE5NjddfQ==
+eyJoaXN0b3J5IjpbODExNjAyNzIsMTk3MzgwNTY5MywyMDk5Nz
+M1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0
+LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MD
+kwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUs
+LTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0Mj
+E5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5
+NjddfQ==
 -->
