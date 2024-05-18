@@ -16,7 +16,8 @@
 	- llama3の量子化が腐ってるのはこのせい？
 	- 1. Mistral: HF's batch_decode output is wrong 
 	- 2. Llama-3: Be careful of double BOS 
-	- 3. Gemma: 2nd token has an extra space - GGUF(_Below) = 30641 vs HF(Below) = 33501 4. Gemma-it: Also be careful of double BOS
+	- 3. Gemma: 2nd token has an extra space - GGUF(_Below) = 30641 vs HF(Below) = 33501 
+	- 4. Gemma-it: Also be careful of double BOS
 - OpenAI の Model Spec の概要 by npakaさん
 	- https://note.com/npaka/n/nf6b811cad5dc?sub_rt=share_b
 	- モデルの動作を形成するアプローチの透明性を高め、モデルをどのように変更および改善できるかについて公開の会話を開始するために、「Model Spec」を公開します。
@@ -30,7 +31,10 @@
 -  技術革新と不平等の1000年史の紹介 by 楠さん
 	- https://x.com/masanork/status/1789647931467026613
 	- これ特に下巻の読み応えがすごいんですが、技術が約束する未来と社会構造に与える影響とは、分けて議論しなければならないのでは？という課題認識が強く。LLM周辺ではオープンって用語が曖昧に使われたり、生産手段が民主化されていないのが悩みどころ
-- 
+- ollamaで Fugaku-LLM を動かす
+	- https://note.com/npaka/n/n1d99253ae2cf?sub_rt=share_h
+	- 一番サイズの小さい（おそらく量子化が一番効いている） 「Fugaku-LLM-13B-instruct-0325b-q5_k_m.gguf」を選びます
+	- 
 
 ## 5/13
 
@@ -3748,15 +3752,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 -  Building LLM Agents in 3 Levels of Complexity: From Scratch, OpenAI Functions & LangChain
 	- https://lucas-soares.medium.com/building-llm-agents-in-3-levels-of-complexity-from-scratch-openai-functions-langchain-bec68b451b84
 -  日本語LLMをPPOでファインチューニングする
-	- https://qiita.com/jovyan/items/c727392d6d6030433f84
-	- LLMのPPOによるファインチューニングの実装解説でここまで丁寧に詳しく解説してる記事見たことないです。とてもわかりやすくまとめてくれてます。
-	- 3.6Bパラメータの日本語LLMに対し全パラメータをSupervised
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzU4NTY0NCwxOTczODA1NjkzLDIwOT
-k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
-NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
-QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
-NSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsOD
-QyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2
-MTk2N119
+eyJoaXN0b3J5IjpbLTEwODE3MzQzNjYsMTk3MzgwNTY5MywyMD
+k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
+MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
+g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
+MzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLD
+g0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTky
+NjE5NjddfQ==
 -->
