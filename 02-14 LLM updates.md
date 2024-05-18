@@ -110,6 +110,9 @@
 - Evaluation of Retrieval-Augmented Generation: A Survey
 	- https://arxiv.org/abs/2405.07437
 	- https://github.com/YHPeter/Awesome-RAG-Evaluation
+- Pattern Language is one of my favorite books, and this abridged hypertext version by zenodotus280
+	- https://x.com/kepano/status/1790437820487946630
+	- https://github.com/zenodotus280/apl-md
 - 
 ## 5/13
 
@@ -3745,16 +3748,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 		- API で ELYZA-Task 100 を一括評価する
 		- open-ended task 用に, "text-book" like なタスクと評価基準が作成できないか検討してみる(学習指導要領あたりを参考にいい感じに作れたりしないかしらん)
 		- 翻訳文章の点数付け(品質スコアリング)をうまくやる prompt を考案したい
-- "WaveCoder: Widespread and Versatile Enhanced Instruction Tuning with Refined Data Generation"
-	- https://arxiv.org/abs/2312.14187
-	- Microsoftの研究者らは、LLMのコード生成タスクに役立つ高品質な指示データセット『CodeOcean』を開発したと報告しています
-	- 実験の結果
+- "WaveCoder: Widespr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTczMjUzOSwxOTczODA1NjkzLDIwOT
-k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
-NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
-QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
-NSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsOD
-QyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2
-MTk2N119
+eyJoaXN0b3J5IjpbMzY4ODI5NjI4LDE5NzM4MDU2OTMsMjA5OT
+czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
+NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
+A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
+LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
+IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
+OTY3XX0=
 -->
