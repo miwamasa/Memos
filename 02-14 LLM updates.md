@@ -7,10 +7,13 @@
 - またまたDeepLearningAIより、MistralAIを用いた無料コース
 	- https://www.deeplearning.ai/short-courses/getting-started-with-mistral/
 	- Mistral AIによる1時間のコース。Mistralのモデルだけでなく、RAG、関数呼び出し、JSONモードなどについて学べる
-- beさんが、「ローカルLLMはこーやって使うの」にかみつく、
+- b氏が、「ローカルLLMはこーやって使うの」にかみつく、
 	- https://x.com/behemuhemulove/status/1789537738590765215
-	- 尤度関数の所が俺には意味が良くわからなかった。プロンプトをパラメータといってるのに、プロンプトを固定したらパラメタの関数にならないから尤度関数じゃなくない？
+	- 「尤度関数の所が俺には意味が良くわからなかった。プロンプトをパラメータといってるのに、プロンプトを固定したらパラメタの関数にならないから尤度関数じゃなくない？」
 	- →プロンプト振ってるので尤度による最適なプロンプトの推定といってもいいのではないか？
+- 主要モデルでHuggingFaceのトークン化とllama.cppのトークン化に差異があったとの事
+	- https://x.com/webbigdata/status/1789695414238884256
+	- llama3の量子化が腐ってるのはこのせい？
 - 
 
 ## 5/13
@@ -3746,11 +3749,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2312.14485
 	- 事前学習済みモデルに
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTM0NjIyMywxOTczODA1NjkzLDIwOT
-k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
-NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
-QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
-NSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsOD
-QyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2
-MTk2N119
+eyJoaXN0b3J5IjpbLTE1NDIxNjgxODYsMTk3MzgwNTY5MywyMD
+k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
+MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
+g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
+MzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLD
+g0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTky
+NjE5NjddfQ==
 -->
