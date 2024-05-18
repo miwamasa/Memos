@@ -78,7 +78,11 @@
 	- Utilizing the connections between convolutions in the time domain and multiplication in frequency domain (through FFT),
 -  GPT-4o の概要 by npakaさん
 	- https://note.com/npaka/n/n02331040d8c2?sub_rt=share_b
-- 
+- JSLM2（Japanese Stable LM 2 Instruct 1.6B）
+	- JSLM2は、6B以下の規模のモデルの中で、日本語性能が最も高いと思います。違いますか？ (llm-jp-evalや定性評価で）
+	- https://x.com/peacej/status/1789909011132805402
+- gpt-4o で使われたo200k_base tokenizer の日本語の部分・・・完全に5ちゃんねる・・・
+	- 
 
 ## 5/13
 
@@ -3743,17 +3747,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 一問一答形式のllm-jp-evalと対話で生成能力を評価するMT-Benchで日本語LLMを総合評価
 - 130億パラメータの「Llama 2」をベースとした日本語LLM「ELYZA-japanese-Llama-2-13b」を公開しました（商用利用可）
 	- https://note.com/elyza/n/n5d42686b60b7
-	- ELYZA は「Llama 2 13B」をベースとした商用利用可能な日本語LLMである「ELYZA-japanese-Llama-2-13b」シリーズを一般公開しました。
-	- 前回公開の 7B シリーズからベースモデルおよび学習データの大規模化を図ることで、既存のオープンな日本語LLMの中で最高性能、GPT-3.5 （text-davinci-003） も上回る性能となりました。
-	- また、推論の高速化を実現したチャット型デモを併せて公開しています。
-	- 「この前は7Bモデルだったけど、今回は13Bモデルでかなり賢くなってるらしい。70Bモデルも開発中だって」by うみゆきさん
--  ELYZA
+	- ELYZA は「Llama 2 13B」をベースとした商用利用可能な日本語LLMである「ELYZA-japanese-Llama-2-13b」シリーズを一般公開しまし
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExNjAyNzIsMTk3MzgwNTY5MywyMDk5Nz
-M1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0
-LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MD
-kwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUs
-LTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0Mj
-E5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTkyNjE5
-NjddfQ==
+eyJoaXN0b3J5IjpbMTM1NTE1MzU1LDE5NzM4MDU2OTMsMjA5OT
+czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
+NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
+A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
+LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
+IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
+OTY3XX0=
 -->
