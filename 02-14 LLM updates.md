@@ -53,7 +53,13 @@
 	- https://x.com/gyakuse/status/1790090822031126730
 	- リリースされたGPT-4oを使って動画のサマリー生成をしてみる！
 		- https://qiita.com/sakasegawa/items/b82a9745fda81143e409
-- 
+- GPT-4oに化学実験の結果を考察させてるんですが、 考察が早すぎて、スクロールが追いつかないです　 by 畠山さん
+	- https://x.com/kanhatakeyama/status/1790098210360537138
+- （OpenAIの新しいtokenizerは）日本語はトークナイザーが改善されてるから、API使用料50% x トークン量70% で 35% ぐらいの費用になるのか？
+	- https://x.com/MLBear2/status/1790081289367990668
+- LangChainがgpt-4oに対応
+	- https://x.com/LangChainAI/status/1790089006455398583
+	- 
 
 ## 5/13
 
@@ -3737,13 +3743,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 日本語の語彙を追加して1.8倍高速化したfast版になります
 - From Google Gemini to OpenAI Q* (Q-Star): A Survey of Reshaping the Generative Artificial Intelligence (AI) Research Landscape
 	- https://arxiv.org/abs/2312.10868
-	- この包括的なサーベイでは、生成型人工知能（AI）の進化する風景を探り、特にMixture of Experts（MoE）、多モーダル学習、人工一般知能（AGI）への推測的な進歩が、生成型AIモデルの変革と研究の優先順位や応用分野に及ぼす影響に焦点を当てた。GoogleのGeminiやOpenAI Q*プロジェクトのような革新的な技術が、どのようにしてAIドメイン内での現状と未来の軌跡を再構成しているかを批判的に検討し、生成型AI研究の分類に対する影響分析を行った。
-	- 本研究では、AI開発において倫理的かつ人間中心の方法を組み込むことの重要性を強調し、社会的規範や福祉との整合性を確保することを目的とした、MoE、多モーダル性、AGIをバランスよくかつ良心的に使用する未来のAI研究に焦点を当てた戦略を提案した。
-- Chemprop: A Machine Learning Package for Chemical Property Prediction
-	- https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01250
-- Principled Instructions Are All You Need for Questioning L
+	- この包括的なサーベイでは、生成型人工知能（AI）の進化する風景を探り、特にMixture of Experts（MoE）、多モーダル学習、人工一般知能（AGI）への推測的な進歩が、生成型AIモデルの変革と研究の優先順位や応用分野に及ぼす影響に焦点を当てた。GoogleのGeminiやOpenAI Q*プロジェクトのような革新的な技術が、どのようにしてAIドメイン内での現状と未来の軌跡を再構成しているかを批判的に検討し、生成型AI研究
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTUzNDUyOCwxOTczODA1NjkzLDIwOT
+eyJoaXN0b3J5IjpbMjEzMjI0MTI0MywxOTczODA1NjkzLDIwOT
 k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
 NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
 QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
