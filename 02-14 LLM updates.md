@@ -82,6 +82,13 @@
 	- JSLM2は、6B以下の規模のモデルの中で、日本語性能が最も高いと思います。違いますか？ (llm-jp-evalや定性評価で）
 	- https://x.com/peacej/status/1789909011132805402
 - gpt-4o で使われたo200k_base tokenizer の日本語の部分・・・完全に5ちゃんねる・・・
+	- https://x.com/_aixile/status/1790278857641410662
+- Andrew Ng先生によるAI エージェント設計パターンの連載
+	- https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/
+	-  Agentic Design Patterns Part 1
+	- Reflection, ツールの使用, プランニング, 複数Agentの協力
+- gpt-4o、論文要約してPowerPoint吐いてくれる
+	- https://x.com/CurveWeb/status/1790336171777917332
 	- 
 
 ## 5/13
@@ -3743,13 +3750,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 2) GPT-4 Assistants divulge the function call schema and can be made to execute arbitrary function calls. 
 	- 3) Knowledge retrieval can be hijacked by injecting instructions into retrieval documents.
 -  Nejumi LLMリーダーボード Neo
-	- https://wandb.ai/wandb-japan/llm-leaderboard/reports/Nejumi-Leaderboard-Neo--Vmlldzo2MTkyMTU0
-	- 一問一答形式のllm-jp-evalと対話で生成能力を評価するMT-Benchで日本語LLMを総合評価
-- 130億パラメータの「Llama 2」をベースとした日本語LLM「ELYZA-japanese-Llama-2-13b」を公開しました（商用利用可）
-	- https://note.com/elyza/n/n5d42686b60b7
-	- ELYZA は「Llama 2 13B」をベースとした商用利用可能な日本語LLMである「ELYZA-japanese-Llama-2-13b」シリーズを一般公開しまし
+	- https://wandb.ai/wandb-j
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTE1MzU1LDE5NzM4MDU2OTMsMjA5OT
+eyJoaXN0b3J5IjpbMzk0MDI2NzEyLDE5NzM4MDU2OTMsMjA5OT
 czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
 NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
 A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
