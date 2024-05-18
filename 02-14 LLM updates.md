@@ -34,7 +34,8 @@
 - ollamaで Fugaku-LLM を動かす
 	- https://note.com/npaka/n/n1d99253ae2cf?sub_rt=share_h
 	- 一番サイズの小さい（おそらく量子化が一番効いている） 「Fugaku-LLM-13B-instruct-0325b-q5_k_m.gguf」を選びます
-	- 
+	- **`Modelfile`  で一番重要なのは、トークナイザの chat template を守ることです**
+	- docker一発で、ollamaと、
 
 ## 5/13
 
@@ -3750,15 +3751,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 次のモデルを含む多くのHuggingFaceモデルをシームレスにサポートします。
 	- 今回は、「**elyza/ELYZA-japanese-Llama-2-13b-instruct**」を使います。
 -  Building LLM Agents in 3 Levels of Complexity: From Scratch, OpenAI Functions & LangChain
-	- https://lucas-soares.medium.com/building-llm-agents-in-3-levels-of-complexity-from-scratch-openai-functions-langchain-bec68b451b84
--  日本語LLMをPPOでファインチューニングする
-	-
+	- https://lucas-soares.medium.com/building-llm-agents-in-3-levels-of-complexity-from-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODE3MzQzNjYsMTk3MzgwNTY5MywyMD
-k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
-MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
-g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
-MzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLD
-g0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTky
-NjE5NjddfQ==
+eyJoaXN0b3J5IjpbLTkxNjU1OTM3MiwxOTczODA1NjkzLDIwOT
+k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
+NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
+QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
+NSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsOD
+QyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2
+MTk2N119
 -->
