@@ -20,7 +20,7 @@
 - [code-cooker](https://github.com/karaage0703/code-cooker) by からあげさん
 	- https://github.com/karaage0703/code-cooke
 	- 面倒なことをChatGPT以外のLLMにやらせるソフト。GUIをつけてみました。 ようやく自分でも使いたくなるものができた気がします。まだClaude 3 Opusしか対応してないので、GPT-4とかLlama 3にも対応していきます。GPT対応はOpenAIの発表の後にしようかな
-- 
+- 大規模パラメータモデルの人たちは
 
 ## 5/13
 
@@ -3755,11 +3755,11 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://arxiv.org/abs/2312.14485
 	- 事前学習済みモデルに
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODE4OTEyNywxOTczODA1NjkzLDIwOT
-k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
-NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
-QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
-NSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsOD
-QyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2
-MTk2N119
+eyJoaXN0b3J5IjpbMTM1NzQ2NzU5LDE5NzM4MDU2OTMsMjA5OT
+czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
+NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
+A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
+LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
+IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
+OTY3XX0=
 -->
