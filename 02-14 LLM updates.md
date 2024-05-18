@@ -46,7 +46,10 @@
 	- tiktokenを0.7.0 にアップデートし、enc = tiktoken.encoding_for_model("gpt-4o")とするだけ
 - gpt-4oで試しに今年の東大数学2024の問題を画像で送ったら（プロンプト一切無しでも）正解できた
 	- https://x.com/kyutaro15/status/1790098489940258830
-- 
+- サムからのGPT-4oに関するメッセージ
+	- https://x.com/sama/status/1790065541262032904
+	- it is available to all ChatGPT users, including on the free plan! so far, GPT-4 class models have only been available to people who pay a monthly subscription. this is important to our mission; we want to put great AI tools in the hands of everyone.
+	- 
 
 ## 5/13
 
@@ -3740,24 +3743,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- LLaMA-1/2, GPT-3.5/4を使用してスケール評価をした結果、これらの原則が応答品質を向上させると確認できているとのことです
 	- ■構造について
 		- 誰のためのタスクなのかを書く
-		- 出力形式を指定する
-		- フォーマットする際には合図を送る
-	- ■情報について
-		- 難易度を下げる指示を活用する
-		- バイアスのない回答を求める一文を添える
-		- 出力した内容の理解度を試す
-	- ■相互作用について
-		- モデルからユーザーに質問させて情報を得させる
-		- 必要な情報をすべて加えることを明示する
-	- ■スタイルについて
-		- 禁止させる際には「罰せられます」と書く
-		- モデルに丁寧語を使う必要はない
-		- より良い解決策にはチップを与えると書く
-	- ■コーディングタスクについて
-		- 生成コードが複数ファイルにわたる場合は効率化する
--  Google Colab で vLLM を試す by npakaさん
+		- 出力形式を指定
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjk5Mzc4OCwxOTczODA1NjkzLDIwOT
+eyJoaXN0b3J5IjpbLTQ2MTE2ODY1NywxOTczODA1NjkzLDIwOT
 k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
 NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
 QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
