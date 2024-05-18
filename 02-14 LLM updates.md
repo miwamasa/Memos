@@ -59,7 +59,12 @@
 	- https://x.com/MLBear2/status/1790081289367990668
 - LangChainがgpt-4oに対応
 	- https://x.com/LangChainAI/status/1790089006455398583
-	- 
+	- You can use the available multimodal capabilities of it in any of your LangChain applications today!
+	- https://python.langchain.com/v0.1/docs/integrations/chat/openai/
+- TJOさん、デジ庁、データサイエンティスト公募の要件をみて頭を抱える
+	- https://x.com/TJO_datasci/status/1790046279428345990
+	- 「このスキルの必須要件を全部満たして尚且つ歓迎項目も複数満たすデータサイエンティストなんて、そもそも日本どころか世界を見渡しても探し出すのは困難を極めるのでは。それを公務員の給与で雇うとか無理ゲーにも程があるような気がする
+	- お金の問題か
 
 ## 5/13
 
@@ -3740,16 +3745,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 - mmnga/ELYZA-japanese-Llama-2-13b-fast-instruct-gguf
 	- https://huggingface.co/mmnga/ELYZA-japanese-Llama-2-13b-fast-instruct-gguf
 	- ELYZAさんが公開されているELYZA-japanese-Llama-2-13b-fast-instructのggufあります
-	- 日本語の語彙を追加して1.8倍高速化したfast版になります
-- From Google Gemini to OpenAI Q* (Q-Star): A Survey of Reshaping the Generative Artificial Intelligence (AI) Research Landscape
-	- https://arxiv.org/abs/2312.10868
-	- この包括的なサーベイでは、生成型人工知能（AI）の進化する風景を探り、特にMixture of Experts（MoE）、多モーダル学習、人工一般知能（AGI）への推測的な進歩が、生成型AIモデルの変革と研究の優先順位や応用分野に及ぼす影響に焦点を当てた。GoogleのGeminiやOpenAI Q*プロジェクトのような革新的な技術が、どのようにしてAIドメイン内での現状と未来の軌跡を再構成しているかを批判的に検討し、生成型AI研究
+	- 日本語の語彙を追加して1.8倍高速化したfast版になりま
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjI0MTI0MywxOTczODA1NjkzLDIwOT
-k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
-NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
-QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
-NSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsOD
-QyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5MDcxODEsLTQ1OTI2
-MTk2N119
+eyJoaXN0b3J5IjpbNTc3MjMxMjEzLDE5NzM4MDU2OTMsMjA5OT
+czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
+NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
+A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
+LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
+IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
+OTY3XX0=
 -->
