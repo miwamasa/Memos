@@ -71,7 +71,9 @@
 	- https://qiita.com/wayama_ryousuke/items/a96f11fe2b7e2e3910e5
 	- 「今回ご紹介したモデルは、日本語に特化した追加学習を行わなくても、日本語で回答を返すことができるという点が大きな特徴です。」
 	- 評価用 Colab ノートブックもあるよ
-- 
+- Embeddingモデルを使ったベクトル化のしくみ、fine-tuning手法を解説
+	- https://speakerdeck.com/payanotty/embeddingmoderuwoshi-tutabekutoruhua-nosikumi-fine-tuningshou-fa-wojie-shuo
+-  State-Free Inference of State-Space Models: The Transfer Function Approach
 
 ## 5/13
 
@@ -3744,13 +3746,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- https://huggingface.co/spaces/elyza/ELYZA-japanese-Llama-2-13b-instruct-demo
 -  Google Colab で ELYZA-japanese-Llama-2-13B を試す
 	- https://note.com/npaka/n/na7f489d0932a?sub_rt=share_h
-	- **Google Colab Pro/Pro+のA100で動作確認しています。**
-- Semi-Structured Image QA with Gemin
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/multi_modal/structured_image_retrieval.ipynb
-	- llamaindexとGeminiのコラボで、レシートにたいするQ&Aにみたいなでも
-	- We use a very 
+	- **Google Colab Pro/Pro+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQxODYwMjcsMTk3MzgwNTY5MywyMD
+eyJoaXN0b3J5IjpbLTEyOTYzMDI3MTAsMTk3MzgwNTY5MywyMD
 k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
 MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
 g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
