@@ -281,7 +281,10 @@
 	- Based on our concept discussion, we hypothesize Mamba is unnecessary for ImageNet while exploring for detection and segmentation remains worthwhile. To verify these, we build MambaOut with Mamba blocks but remove their core token mixer, SSM.
 - Text-to-SQL - fully local edition
 	- https://x.com/llama_index/status/1791915423816204494
-	- 
+	- The latest local LLMs are not only capable of RAG synthesis, but also querying structured databases. Diptiman Raichaudhuri has a great tutorial on how to build a fully local text-to-SQL setup, letting you query local databases without an internet connection.
+	-  Text2SQL OpenSource : duckdb-nsql-7B with Ollama and LlamaIndex on local setup
+		- https://diptimanrc.medium.com/text2sql-opensource-duckdb-nsql-7b-with-ollama-and-llamaindex-on-local-setup-6f266f78bc4f
+- 
 
 ## 5/13
 
@@ -3729,19 +3732,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://huggingface.co/HachiML/youri-2x7b_dev
 	- マージの実行自体はほとんどモデルの取得の時間で20~30分くらいで実行できた気がする。
 	-   メモリがそこそこいるので、ハイメモリで実行しないといけない。
-	- https://github.com/cg123/mergekit/tree/mixtral
-- Phixtral 4-bit quantized with MLX also runs nicely on an 8GB M2.
-	- https://github.com/ml-explore/mlx-examples/tree/main/llms/phixtral
-	- https://x.com/awnihannun/status/1746376783543591235?s=20
-- 日本語MoEモデル、jaqket-v2以降のベンチマーク
-	- https://x.com/CurveWeb/status/1746401006286713276?s=20
-	- Mixture of Experts強力すぎる。
-	- JGLUEの結果と同様、いいとこ取りができてる。
-	- しかも、9つ中5つのベンチマーク(半分以上👀)で元の２つのモデルを上回るスコアに。
-- mergekitを使ってMoEモデルを作ってみました
-	- https://
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzQ3Njc4NCwxOTIxNDQwMDAsMTM4Nz
+eyJoaXN0b3J5IjpbMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4Nz
 IzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQw
 NSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xOD
 czMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgs
