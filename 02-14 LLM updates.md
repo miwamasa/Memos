@@ -184,7 +184,15 @@
 	- 西浦『感染症を読み解く数理』と森岡・今西『確率思考の戦略論』において、負の二項分布を用いたモデル応用について記述されており、 相互を参照・比較することで類似点や解釈の拡大を試みる。
 	- この記事で述べたいことは、**疫学とマーケティングという一見して距離のある領域で、負の二項分布を用いた現象の確率モデル化の事例が取り上げられていて面白いね**、ということに尽き
 - 最近Gemini 1.5 ProのPDFパースが便利だと気づいて色々試している
-	- 
+	- https://x.com/resnant/status/1791104886563811520
+	- 今のところ先行研究の論文PDFを放り込んで「この研究のXXという点を解決/拡張するとどんな価値が生まれる？その結果をどう訴求する？」みたいに研究ネタの壁打ちで使うと心強い
+-  2023年度 デジタル庁・行政における生成AIの適切な利活用に向けた技術検証を実施しました
+	- https://www.digital.go.jp/news/19c125e9-35c5-48ba-a63f-f817bce95715
+	- 「実証の最中にも環境が激変する中で、ただ試して終わらせるのではなく、しっかりと知見を共有し、データ整備はじめ次の動きに繋げていくことが重要と考えています」 by 楠さん
+	- https://x.com/masanork/status/1790871089121513629
+- ChatGPTがGoogle DriveやMicrosoft OneDriveからSpreadsheetやExcelを読み込んで分析・可視化を手伝ってくれる機能を近く公開
+	- https://x.com/MLBear2/status/1791251518110523764
+- 
 ## 5/13
 
 先週に引き続きgpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5でも（うわさの）検索エンジンでもないといっているし、映画Herに出てきたような音声アシスタントという下馬評。おっとCOCONA（_ココナ_）の立場は？。OpenAIといえば、Stack Overflowとの提携、回答者にchatptが登場するのか、またモデルがどのように動作するべきかを規定するModel Specを公開、EUのAI法対策か（以前はSystem Cardがその役割だった）とも見れるし、安全性に本気に取り組んでいる姿勢にもみえる、ともかく来たるGPT-5の素性も透けて見えるというのは面白い分析。あと、今週は国内勢の活躍も活発だった、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が高い、使える、とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱かったり（コンパクトで性能が高いというのは量子化の余地も少ない）と、LLMのスケール測の一端を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？Google/DeepMindからは「AlphaFold 3」を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価も進む、shi3zさんの「最後にKANは勝つ」というKAN評価試行のnoteのタイトルは「最後に愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMのTinyTimeMixers (TTMs)、ICML2024にアクセプトされた、CMUとUPENのMOMENT、ひょっとしてICML2024がTime Seriesの基盤モデル祭りになってるのか。早速、データサイエンスクラスタからは、(AirPassengerデータに対し）一階差分もとらんのかと冷笑も。xLSTMとか、Vanilla Bayesian Optimization とかの基盤技術の進展もあり、しらんけど。。喜連川先生監修の「生成AIの論点」というのは、日本のLLMをめぐる状況を把握にはよいかも、それにしても「情報大航海時代」はなくなったことになったのか？最後に、THE GUILDの深津さんの、「情報が多すぎて頭がパンクするのは正常ではない」というのは、激しく同意する。
@@ -3731,22 +3739,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://www.salesanalytics.co.jp/datascience/datascience210/
 	- データサイエンスの世界では、正確な分析と予測が成功の鍵となります。
 	- 多くの実際のデータセットは不均衡であり、これが特に分類問題において大きな課題となることがあります
-	- データ不均衡問題を解消するための強力なテクニックであるSMOTE（Synthetic Minority Over-sampling Technique）とそのバリエーションについて紹介するとともに、Pythonのコード例を示します。
-- LLMのハルシネーションをおさえる様々な手法
-- OpenAIが開発中の「人間を超えたAIを制御する」方法
--  [https://ai-data-base.com/archives/61116](https://t.co/YRKMFwuNYh) 
-- LLMの誤り（ハルシネーション）発生原因と、「創造性と事実性のバランス」などの対策ロードマップ 
-	- [https://ai-data-base.com/archives/58767](https://t.co/Iu2bgo6U7y) 
-- LLMなどの生成AIの背後にある思考プロセスは人間とは全く異なるかもしれないことを示す仮説『生成AIのパラドックス』
-	-  [https://ai-data-base.com/archives/58414](https://t.co/2JaLSNaX6l) 
-- わずか2行のプロンプトでも実効性のある新しいアライメント手法『URIAL』
-	-  [https://ai-data-base.com/archives/60678](https://t.co/CaHkpMr7Vi
+	- データ不均衡問題を解消するための強力なテクニックであるSMOTE（Synthetic Minority Over-sampling 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTI3MjA4NzUsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC
-04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5
-MDcxODFdfQ==
+eyJoaXN0b3J5IjpbMTI2ODg2NDkyOCwxMzg3MjMyNDUyLDE5Nz
+M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
+MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
+kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
+NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLT
+g0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkw
+NzE4MV19
 -->
