@@ -238,7 +238,14 @@
 	- https://github.com/neo4j-labs/text2cypher/tree/main/finetuning/unsloth-llama3#using-chat-prompt-template
 	- https://huggingface.co/tomasonjo/text2cypher-demo-16bit
 	-  I've finetuned Llama3-Instruct:8b to generate @neo4j Cypher statements based on the GPT-4o synthetic dataset I've generated at the start of the week.
--  LangChain のユースケース
+-  LangChain のユースケース by npakaさん
+	- https://note.com/npaka/n/n5956ef3a0a09?sub_rt=share_h
+	- 「RAGのQA」は、RAG技術を使用して、特定の情報源に関する質問に回答するチャットボットを構築します
+	- 「情報抽出」は、LLMでテキストから構造化データを抽出するユースケースです。次の3つのアプローチがあります。
+		- **Tool Callingモード** : Tool Callingで指定されたスキーマに従って、構造化データを出力
+		- **JSONモード** : プロンプトの一部としてスキーマを提供し、JSONデータを出力
+		- **プロンプトベース** : 指示に従って生成されたテキストを既存のパーサーで解析し、構造化データを出力
+	- 
 
 ## 5/13
 
@@ -3725,18 +3732,12 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- Google Colab で Llama Factoryを試し中。 1分でインストール完了して、WebUIでぽちぽち押すだけで学習できた。Pre-Training、SFT、Reward Modeling、PPO、DPOも対応
 	- https://x.com/npaka123/status/1741429803599962557?s=20
 -  日本の官公庁にある「よくある質問」をデータセットにまとめました
-	- https://note.com/eurekachan/n/nc31c0dccb3c1?sub_rt=share_pb
-	- 日本の官公庁のWebサイトから「よくある質問」を手作業で抽出し、およそ22000件の質問と応答の形になっているデータセットとしてまとめました。
-	- 国家公務員によるチェックを経ているので、誤字脱字がほぼありません。
-	- https://huggingface.co/datasets/matsuxr/JaGovFaqs-22k
-- The TinyLlama project is an open endeavor to train a compact 1.1B Llama model on 3 trillion tokens.
-	- https://ollama.ai
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDc2MzA1NzQsMTkyMTQ0MDAwLDEzOD
-cyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0
-MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMT
-g3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4
-LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLT
-IzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQy
-NTUzOF19
+eyJoaXN0b3J5IjpbMTE2NjU5MjUzNCwxOTIxNDQwMDAsMTM4Nz
+IzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQw
+NSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xOD
+czMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgs
+LTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMj
+MzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1
+NTM4XX0=
 -->
