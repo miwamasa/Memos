@@ -157,6 +157,7 @@
 	- 「あ、ゴクウとフリーザが上空で戦ってる！！！すごい速度で見えない！！！頑張れ！！！」というクリリンの心境
 - Ilya and OpenAI are going to part ways. by Sam
 	- https://x.com/sama/status/1790518031640347056
+	- This is very sad to me; Ilya is easily one of the greatest minds of our generation, a guiding light of our field, and a dear friend. His brilliance and vision are well known; his warmth and compassion are less well known but no less
 	- 
 ## 5/13
 
@@ -3741,13 +3742,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- ■フレームワークの全容 1. 特定のタスクに強いLLMを用意 2. 訓練したいLLMを用意 3. 両者をクロスアテンション層で連携 4. LLM間の情報共有を行う 5. 評価を行う
 	- ■実験結果 - 訓練後モデルの性能が向上した - 小さなモデルでも成果が出た - 既存の方法より小リソースで実現した
 	- CALM、マジなら凄くね。ドメイン特化の小さいモデルを既存のモデルにくっ付けて性能アップできるとな。ちゃんと読んでみよ。
-- Scikit-LLM: Scikit-Learn Meets Large Language Models
-	- https://github.com/iryna-kondr/scikit-llm
-	- Seamlessly integrate powerful language models like ChatGPT into scikit-learn for enhanced text analysis tasks.
-- phi-2のライセンスが、研究目的限定からMITライセンスに変更された
-	- https://x.co
+- Scikit-LLM: Scikit-Learn Meet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTA1MDA1MSwxOTczODA1NjkzLDIwOT
+eyJoaXN0b3J5IjpbMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOT
 k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
 NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
 QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
