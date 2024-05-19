@@ -164,7 +164,11 @@
 	- #PaliGemma vision-language model 👓🔠🧠on a free T4 VM
 	- https://colab.research.google.com/github/google-research/big_vision/blob/main/big_vision/configs/proj/paligemma/finetune_paligemma.ipynb
 - Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models
+	- https://note.com/panda_lab/n/n948053d7813f
 	- RAGの枠組みを拡張し、Wikipedia自動生成に特化したフレームワーク「STORM」を考案しました。
+	-  **課題**: ウィキペディアスタイルの記事は、広範囲の参考文献の収集と、詳細なアウトラインの作成が必要です。従来の方法では、この準備段階がしばしば省略されます。
+	-  **解決策**: STORMは、予備的な書き込み、草稿作成、改訂の各段階、特に予備段階での効果的な質問提起により、このプロセスを自動化します。
+- 
 ## 5/13
 
 先週に引き続きgpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5でも（うわさの）検索エンジンでもないといっているし、映画Herに出てきたような音声アシスタントという下馬評。おっとCOCONA（_ココナ_）の立場は？。OpenAIといえば、Stack Overflowとの提携、回答者にchatptが登場するのか、またモデルがどのように動作するべきかを規定するModel Specを公開、EUのAI法対策か（以前はSystem Cardがその役割だった）とも見れるし、安全性に本気に取り組んでいる姿勢にもみえる、ともかく来たるGPT-5の素性も透けて見えるというのは面白い分析。あと、今週は国内勢の活躍も活発だった、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が高い、使える、とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱かったり（コンパクトで性能が高いというのは量子化の余地も少ない）と、LLMのスケール測の一端を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？Google/DeepMindからは「AlphaFold 3」を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価も進む、shi3zさんの「最後にKANは勝つ」というKAN評価試行のnoteのタイトルは「最後に愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMのTinyTimeMixers (TTMs)、ICML2024にアクセプトされた、CMUとUPENのMOMENT、ひょっとしてICML2024がTime Seriesの基盤モデル祭りになってるのか。早速、データサイエンスクラスタからは、(AirPassengerデータに対し）一階差分もとらんのかと冷笑も。xLSTMとか、Vanilla Bayesian Optimization とかの基盤技術の進展もあり、しらんけど。。喜連川先生監修の「生成AIの論点」というのは、日本のLLMをめぐる状況を把握にはよいかも、それにしても「情報大航海時代」はなくなったことになったのか？最後に、THE GUILDの深津さんの、「情報が多すぎて頭がパンクするのは正常ではない」というのは、激しく同意する。
@@ -3738,15 +3742,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- 金融における合成(生成)データを作るモデルに関して、JPモルガンのAIチームの人たちが書いたレビュー論文。金融におけるAI分野の中で最先端分野の１つと思う。
 -  単一GPUで動画・画像・音声・テキスト対応のマルチモーダルモデルを訓練して推論!?何を言ってるかわかねーと思うが、俺も何を見ているのかわからねえ by shi3z
 	- https://note.com/shi3zblog/n/nf657d6105bd9?sub_rt=share_pb
-	- 動画、画像、音楽、テキストという四つのモードを学習させた「マルチモーダル」モデルで、しかもベースはllama-7Bということで、V100 32GB一つで推論可能(CPUのRAMは49GB以上必要)どころか学習も可能。
-	- 実際にはこれは「どんな情報も入力できるマルチモーダルモデル」のプロトタイプである
-	- 音声、画像、動画といった情報を図の紫の部分にある各種アダプターを学習させ、それを青い部分にある既存のLLM(ここではMPT-7Bを使用)にプロンプトと一緒に入力し、LLMからA
+	- 動画、画像、音楽、テキストという四つのモードを学習
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxODMwMjgyLDEzODcyMzI0NTIsMTk3Mz
-gwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTEx
-MSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OT
-A0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0
-LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtOD
-Q1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3
-MTgxXX0=
+eyJoaXN0b3J5IjpbLTE2NTcxNzE3NjcsMTM4NzIzMjQ1MiwxOT
+czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
+MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
+Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
+NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC
+04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5
+MDcxODFdfQ==
 -->
