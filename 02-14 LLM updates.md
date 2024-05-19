@@ -254,7 +254,12 @@
 	- SQLデータベースQA」は、「SQLデータベース」を対象としたQ&Aシステムを構築します。
 	- 「グラフデータベースのQA」は、「グラフデータベース」を対象としたQ&Aシステムを構築します
 		- 「Cypher」や「SparQL」などのグラフクエリ言語を使用し、自然言語の質問に基づいてクエリを生成し、データベースからの情報を取得して回答を生成するチャットボットやカスタムダッシュボードを作成します
-	- 
+	- 「コード理解」は、ソースコードの分析を目的としています。具体的には、コードベースに関するQ&Aを行い、リファクタリングや改善の提案、コードのドキュメント化を支援します
+	- 「データ生成」は、人工的にデータを生成することで、機械学習モデルの学習やテストに役立てます
+	- 「タグ付け」は、ドキュメントに感情、言語、スタイル、トピック、政治的傾向などのクラスをラベル付けします
+	- 「要約」は、長いドキュメントの内容を要約するためのシステムを構築します。複数のドキュメントや長文テキストを効率的に要約することが可能になります。これには、「Stuff」「Map-Reduce」「Refine」の3つの手法があります。
+	- 「Webスクレイピング」は、Webからコンテンツを収集し、自然言語処理に使用するシステムを構築します。
+- 
 
 ## 5/13
 
@@ -3730,16 +3735,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://x.com/webbigdata/status/1741043710476100060?s=20
 	- 7B x 8のMixtralが無料版ColabやRTX 3060(12G)で動かすことができる
 	- 投機的ロードは投機に負けると量子化モデルより遅くなる罠
-	- https://colab.research.google.com/github/dvmazur/mixtral-offloading/blob/master/notebooks/demo.ipynb#scrollTo=Zf4GkspecSm8
--  Fast Inference of Mixture-of-Experts Language Models with Offloading
-	- https://arxiv.org/abs/2312.17238
-	- Mixtral-8x7B-Instruct を 3060 / 3080 Mobile / T4 にて実行、A100 と比較。手法のキモは、Expert を LRU でキャッシュする点と次のレイヤーで使うであろう Expert を推測し、プリロードする点。量子化には GPTQ の 50 倍以上高速に処理できる Half-Quadratic Quant
+	- https://colab.research.google.com/github/dvm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjY3ODY3OCwxOTIxNDQwMDAsMTM4Nz
-IzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQw
-NSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xOD
-czMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgs
-LTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMj
-MzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1
-NTM4XX0=
+eyJoaXN0b3J5IjpbMjIzMTc1NjYxLDE5MjE0NDAwMCwxMzg3Mj
+MyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1
+LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4Nz
+MyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwt
+MTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMz
+M3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1
+MzhdfQ==
 -->
