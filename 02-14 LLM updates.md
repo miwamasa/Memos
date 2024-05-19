@@ -218,7 +218,7 @@
 -  EmerDiff: Emerging Pixel-level Semantic Knowledge in Diffusion Models
 	- https://www.docswell.com/s/DeepLearning2023/K1JDN3-2024-05-16-142439#p9
 	- 事前学習済みの拡散モデルを用いて，追加の学習を一切行わずにセグメンテーションを行うことができることを示した論文．拡散モデルは高精細に画像生成をできるが，その内部には画像細部のセマンティックな情報を持つことが示唆される．
--  LangChain v0.1 から v0.2 への移行手順
+-  LangChain v0.1 から v0.2 への移行手順 by 
 
 ## 5/13
 
@@ -3727,13 +3727,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 - Google Colab で LLaMA-Factory を試す by npakaさん
 	- https://note.com/npaka/n/ne72fb4de6a2f?sub_rt=share_b
 	- 「LLaMA-Factory」は、WebUIによる簡単操作でLLMを学習できるLLMファインチューニングフレームワークです。
-	- 今回
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjM1NTk0OTAsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC
-04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5
-MDcxODFdfQ==
+eyJoaXN0b3J5IjpbMTk3MDg2OTE3NywxMzg3MjMyNDUyLDE5Nz
+M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
+MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
+kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
+NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLT
+g0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkw
+NzE4MV19
 -->
