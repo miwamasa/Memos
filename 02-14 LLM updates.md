@@ -149,7 +149,10 @@
 	- 「追加のトレーニングをほとんど(もしくは全く)行わずに、任意のモデルを任意のトークナイザーで使用できるようにする手法ZeTT。 ChatVector やモデルマージのTokenizerによる制限を避けるのに使えそう」 by はちさん
 - Gemini 1.5 Pro to 2 million tokens at Google I/O
 	- https://x.com/Google/status/1790430189916225799
-	- 
+	- Today we’re expanding the context window for Gemini 1.5 Pro to 2 million tokens and making it available for developers in private preview. It’s the next step towards the ultimate goal of infinite context
+- Data Scientists: The next level of Data Science AI Agents is called "Plan and Execute".
+	- https://x.com/mdancho84/status/1790406221616320862
+- GoogleとOpenAIの発表を見てる僕の心境 by GUILDの
 	- 
 ## 5/13
 
@@ -3744,9 +3747,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 ## 1/1
 
 お正月ですが、LLM界は止まりません。
-PowerInferってLLM推論に固有の高い局所性を利用することで、高速推論を実現するんだって。Colabでも試せるし、llama.cppの最大11.69倍の速度って本当か？。一方Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってGPU推論と組み合わせることが可能に。Guidanceが大幅に改定されて、Llama.cppの利用も使いやすくなったらしい。MixtralのようなMoEモデルとPowerInferのようなスマート推論を組み合わせて、RTX4090のようなグラボを刺した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになるって本当か?。推論の高速化ではvLLMってのもある、HugginFaceと相性も良く、Mistralもモデル公開で活用。日本LLM勢では「ELYZA-japanese-Llama-2-13b」のリリースがビッグニュース。GPT-3.5 越えらしい。早速Colab で動かしたり、gguf版がリリースされとる。日本語LLMをPPOでファインチューニングする例がやたら細かい。WizardMath-70BがWebLLMで動くようになったのか。
+PowerInferってLLM推論に固有の高い局所性を利用することで、高速推論を実現するんだって。Colabでも試せるし、llama.cppの最大11.69倍の速度って本当か？。一方Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってG
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzkwODY3OSwxOTczODA1NjkzLDIwOT
+eyJoaXN0b3J5IjpbMTM0MDYwMDI4OSwxOTczODA1NjkzLDIwOT
 k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
 NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
 QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
