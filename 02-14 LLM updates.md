@@ -126,7 +126,11 @@
 	- https://x.com/mdancho84/status/1790445342787318206
 	- 1. OLS regression aims to find the best-fitting linear equation that describes the relationship between the dependent variable (often denoted as Y) and independent variables (denoted as X1, X2, ..., Xn).
 	- 2. OLS does this by minimizing the sum of the squares of the differences between the observed dependent variable values and those predicted by the linear model. These differences are called "residuals."
-	- 
+	- 3. "Best fit" in the context of OLS means that the sum of the squares of the residuals is as small as possible. Mathematically, it's about finding the values of β0, β1, ..., βn that minimize this sum.
+- We’re sharing Project Astra: at Google I/O
+	- https://x.com/GoogleDeepMind/status/1790433540548558853
+	- We’re sharing Project Astra: our new project focused on building a future AI assistant that can be truly helpful in everyday life.
+- 
 ## 5/13
 
 先週に引き続きgpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5でも（うわさの）検索エンジンでもないといっているし、映画Herに出てきたような音声アシスタントという下馬評。おっとCOCONA（_ココナ_）の立場は？。OpenAIといえば、Stack Overflowとの提携、回答者にchatptが登場するのか、またモデルがどのように動作するべきかを規定するModel Specを公開、EUのAI法対策か（以前はSystem Cardがその役割だった）とも見れるし、安全性に本気に取り組んでいる姿勢にもみえる、ともかく来たるGPT-5の素性も透けて見えるというのは面白い分析。あと、今週は国内勢の活躍も活発だった、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が高い、使える、とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱かったり（コンパクトで性能が高いというのは量子化の余地も少ない）と、LLMのスケール測の一端を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？Google/DeepMindからは「AlphaFold 3」を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価も進む、shi3zさんの「最後にKANは勝つ」というKAN評価試行のnoteのタイトルは「最後に愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMのTinyTimeMixers (TTMs)、ICML2024にアクセプトされた、CMUとUPENのMOMENT、ひょっとしてICML2024がTime Seriesの基盤モデル祭りになってるのか。早速、データサイエンスクラスタからは、(AirPassengerデータに対し）一階差分もとらんのかと冷笑も。xLSTMとか、Vanilla Bayesian Optimization とかの基盤技術の進展もあり、しらんけど。。喜連川先生監修の「生成AIの論点」というのは、日本のLLMをめぐる状況を把握にはよいかも、それにしても「情報大航海時代」はなくなったことになったのか？最後に、THE GUILDの深津さんの、「情報が多すぎて頭がパンクするのは正常ではない」というのは、激しく同意する。
@@ -3738,15 +3742,9 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- 使用するPCは、GALLERIA UL9C-R49(RTX 4090 laptop 16GB)、メモリは64GB、OSはWindows 11+WSL2です。
 	-  LLaMA(ReLU)-2-70B, LLaMA(ReLU)-2-7B
 	- 70B／48GBで／動いたよ
-- ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit
-	- https://huggingface.co/ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit
-	- This repository contains the bitsandbytes 4-bit quantized version of mistralai/Mixtral-8x7B-Instruct-v0.1
-	- A 4Bit open source Mixtral for you to run a GPT-3 grade LLM on your inexpensive laptop private and personal AI
--  LLaMA.cpp+(cu)BLASのCPU/GPUのスループット検証（ローカル編）
-	- https://blog.shikoan.com/llama-cpp-local/
-	- CPU推論の時は5～8tpsだった速度
+- ybelkada/M
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjEzNzAyLDE5NzM4MDU2OTMsMjA5OT
+eyJoaXN0b3J5IjpbODEyMzQxNjg0LDE5NzM4MDU2OTMsMjA5OT
 czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
 NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
 A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
