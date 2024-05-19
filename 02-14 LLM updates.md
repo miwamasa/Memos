@@ -203,6 +203,11 @@
 	- https://x.com/Westoncb/status/1791152606309687768
 	- As an alternative to LLM summarizing, I've been getting very interesting results doing something like:
 	- https://symbolflux.com/ApolloLunarLandingTrajectoryReconstruction.txt
+- QA over large embedded tables without hallucinations (Caltrain schedule edition
+	- https://x.com/llama_index/status/1791505972407746671
+	- With LlamaParse, we were able to spatially layout the text in a semantically coherent manner, so that our GPT-4o-powered QA pipeline could correctly answer questions
+		- https://github.com/run-llama/llama_parse/blob/main/examples/caltrain/caltrain_text_mode.ipynb
+- MediaPipe LLM Inference APIを使って、MediaPipe形式に変換するとGemma 2Bや とGemma 7B、Phi-2、Falcon-RW-1B、StableLM-3BなどをブラウザやAndroids、iphoneなどで動かす事ができるようになる
 	- 
 
 ## 5/13
@@ -3720,27 +3725,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- OpenAI社のデベロッパーアドボケイト、Logan Kilpatrick氏。AIシステムへの有効なプロンプトは対人コミュニケーションとは変わらず、真に必要なのはリーディング、ライティング、スピーキングのスキル
 - 因果フォレスト（Causal Forests）をPythonで実践的に学ぶ（その３）
 	- https://www.salesanalytics.co.jp/datascience/datascience187/
-	- 因果フォレストの1つであるCausalForestDMLによる因果推論と、その中で使われているダブル機械学習のフレームワークを利用したCATE（Conditional Average Treatment Effect）
-	- 例1:
-		- 推論したい因果: 新しい公園の開設と近隣の家の価格との関係
-		- 公園から500mぐらいまでは効果が高く、3Km以上となるとほぼ効果がないことが分かります。
-	- 例2:
-		- 推論したい因果: 新しい薬の摂取が患者の健康スコアに与える影響
-		- 年齢が高くなるほど効果が高く、60歳以上はほぼ同じぐらいの効果の高さで落ち着いています
-	- 例3:
-		- 推論したい因果: QRコードオーダーシステムの導入が、顧客一人あたりの注文金額に与える影響
-		- どの曜日も効果がありますが、特に日曜日に効果が高くなっています
-- MotionGPTは、人間の動きを、自然言語ベースでやり取りしながら生成できる技術。
-	- MotionGPT: Human Motion as Foreign Language
-	- https://motion-gpt.github.io/
-	- https://huggingface.co/spaces/OpenMotionLab/MotionGPT
-- LLM Factoscope: Uncovering LLMs' Factual Discernment through Inner Stat
+	- 因果フォレストの1つであるCausalForestDMLによる因果推論と、その中で使われているダブル機械学習のフレームワークを利用したCATE（Conditional Average Tr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3MDk0ODM4LDEzODcyMzI0NTIsMTk3Mz
-gwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTEx
-MSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OT
-A0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0
-LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtOD
-Q1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3
-MTgxXX0=
+eyJoaXN0b3J5IjpbLTE5MTY4NTEwODIsMTM4NzIzMjQ1MiwxOT
+czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
+MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
+Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
+NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC
+04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5
+MDcxODFdfQ==
 -->
