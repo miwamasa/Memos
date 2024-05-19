@@ -199,7 +199,10 @@
 	- https://x.com/ELYZA_inc/status/1791348009764360577
 	- 経済産業省が立ち上げた「GENIAC」のもと、NEDOが公募
 	- Mixture of Expertsアプローチの採用や、日本特有のデータの学習、日本語の推論効率化などを実施予定
-- 
+- "functional ontology"
+	- https://x.com/Westoncb/status/1791152606309687768
+	- As an alternative to LLM summarizing, I've been getting very interesting results doing something like:
+	- https://symbolflux.com/ApolloLunarLandingTrajectoryReconstruction.txt
 	- 
 
 ## 5/13
@@ -3731,21 +3734,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- MotionGPT: Human Motion as Foreign Language
 	- https://motion-gpt.github.io/
 	- https://huggingface.co/spaces/OpenMotionLab/MotionGPT
-- LLM Factoscope: Uncovering LLMs' Factual Discernment through Inner States Analysis
-	- https://arxiv.org/abs/2312.16374
-	- LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法
-	- ■LLMファクトスコープの概要 
-		- 1. シャムネットワークを活用 
-		- 2. LLMの内部状態を分析 
-		- ※シャムネットワーク（Siamese Network）： 出力の類似度を判断するためのニューラルネット
-	- ■実験と結果 
-		- 1. Llama2、VicunaなどのLLMを使用 
+- LLM Factoscope: Uncovering LLMs' Factual Discernment through Inner Stat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTYxOTk1ODAsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC
-04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5
-MDcxODFdfQ==
+eyJoaXN0b3J5IjpbMzY3MDk0ODM4LDEzODcyMzI0NTIsMTk3Mz
+gwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTEx
+MSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OT
+A0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0
+LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtOD
+Q1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3
+MTgxXX0=
 -->
