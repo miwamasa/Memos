@@ -235,7 +235,9 @@
 	- https://x.com/umiyuki_ai/status/1791429524351258857
 	- OpenAIがGPT-4TだかGPT-4oだかを微調整してコーディング性能上げたモデルにADA-V2なんてネーミング付けたのがマジだとしたらその理由は？AdaはGPT-3四天王の中で最弱のモデルだった。つまり、GPT-4がAda-V2ならBabaggi-V2やCurie-V2、そしてDavinci-V2はどうなってしまうのか…？という匂わせ
 -  Finetuning Llama3 using Unsloth
-	- 
+	- https://github.com/neo4j-labs/text2cypher/tree/main/finetuning/unsloth-llama3#using-chat-prompt-template
+	- https://huggingface.co/tomasonjo/text2cypher-demo-16bit
+	-  I've finetuned Llama3-Instruct:8b to generate @neo4j Cypher statements based on the GPT-4o synthetic dataset I've generated at the start of the week.
 - 
 
 ## 5/13
@@ -3728,18 +3730,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- 国家公務員によるチェックを経ているので、誤字脱字がほぼありません。
 	- https://huggingface.co/datasets/matsuxr/JaGovFaqs-22k
 - The TinyLlama project is an open endeavor to train a compact 1.1B Llama model on 3 trillion tokens.
-	- https://ollama.ai/library/tinyllama
-	- Its small size means it can run fast with little memory and compute requirements
-- Sakura-SOLAR-DPO
-	- https://github.com/KyujinHan/Sakura-SOLAR-DPO
-	- huggingfaceの12月度 Open LLM リーダーボードの勝者？
-	- A new winner on the huggingface Open LLM Leaderboard at the end of December … combining the goodness of SOLAR-10.7B and D
+	- https://ollama.ai/library/tinylla
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTEzNjUyNCwxMzg3MjMyNDUyLDE5Nz
-M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
-MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
-kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
-NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLT
-g0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkw
-NzE4MV19
+eyJoaXN0b3J5IjpbMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3Mz
+gwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTEx
+MSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OT
+A0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0
+LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtOD
+Q1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3
+MTgxXX0=
 -->
