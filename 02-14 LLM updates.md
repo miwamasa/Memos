@@ -168,6 +168,11 @@
 	- RAGの枠組みを拡張し、Wikipedia自動生成に特化したフレームワーク「STORM」を考案しました。
 	-  **課題**: ウィキペディアスタイルの記事は、広範囲の参考文献の収集と、詳細なアウトラインの作成が必要です。従来の方法では、この準備段階がしばしば省略されます。
 	-  **解決策**: STORMは、予備的な書き込み、草稿作成、改訂の各段階、特に予備段階での効果的な質問提起により、このプロセスを自動化します。
+- 「Stockmark-100b」
+	- https://x.com/kosukearima/status/1790902109648695565
+	- 産総研ｘストックマーク共同研究の成果、フルスクラッチで学習した100B級日本語LLMを公開しました
+	- ストックマークは、1000億パラメータの日本語LLMモデル「Stockmark-100b」を公開しました。 既存のモデルにデータ追加を行いチューニングしたものではなく、ゼロからフルスクラッチで開発したモデルであり、国内では(現状はダントツで)最大、グローバルでも最大級サイズのOSSモデルとなります。
+		- https://huggingface.co/stockmark/stockmark-100b
 - 
 ## 5/13
 
@@ -3737,18 +3742,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- 知識編集を応用するとモデルの信頼性を向上させたり、パーソナライズされたエージェントを作りやすくなったりする
 	- 知識編集のためのオープンソースフレームワーク「EasyEdit」を開発し公開しています
 	- https://github.com/zjunlp/EasyEdit
-- Synthetic Data Applications in Finance
-	- https://arxiv.org/abs/2401.00081
-	- 金融における合成(生成)データを作るモデルに関して、JPモルガンのAIチームの人たちが書いたレビュー論文。金融におけるAI分野の中で最先端分野の１つと思う。
--  単一GPUで動画・画像・音声・テキスト対応のマルチモーダルモデルを訓練して推論!?何を言ってるかわかねーと思うが、俺も何を見ているのかわからねえ by shi3z
-	- https://note.com/shi3zblog/n/nf657d6105bd9?sub_rt=share_pb
-	- 動画、画像、音楽、テキストという四つのモードを学習
+- Synthe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTcxNzE3NjcsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC
-04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5
-MDcxODFdfQ==
+eyJoaXN0b3J5IjpbMTM4NzA2OTg4MywxMzg3MjMyNDUyLDE5Nz
+M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
+MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
+kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
+NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLT
+g0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkw
+NzE4MV19
 -->
