@@ -231,7 +231,12 @@
 			- Documentとか
 		- **langchain → langchain-text-splitters**
 			- text_splitterとか
-		- 
+- ADA-V2、GPT-4oだかを微調整してコーディング性能上げたモデル
+	- https://x.com/umiyuki_ai/status/1791429524351258857
+	- OpenAIがGPT-4TだかGPT-4oだかを微調整してコーディング性能上げたモデルにADA-V2なんてネーミング付けたのがマジだとしたらその理由は？AdaはGPT-3四天王の中で最弱のモデルだった。つまり、GPT-4がAda-V2ならBabaggi-V2やCurie-V2、そしてDavinci-V2はどうなってしまうのか…？という匂わせ
+-  Finetuning Llama3 using Unsloth
+	- 
+- 
 
 ## 5/13
 
@@ -3728,17 +3733,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 - Sakura-SOLAR-DPO
 	- https://github.com/KyujinHan/Sakura-SOLAR-DPO
 	- huggingfaceの12月度 Open LLM リーダーボードの勝者？
-	- A new winner on the huggingface Open LLM Leaderboard at the end of December … combining the goodness of SOLAR-10.7B and Direct Preference Optimization (DPO)
-- Chat with Mamba
-	- https://colab.research.google.com/drive/1SEwD1Cxp_mG0-CvLWWT0i9D6aYKMf1FL?usp=sharing
-	- Mamba is really exciting, but its potential remains untapped due to a lack of instruction-tuning and alignment. I
--  Half-Quadratic Quantization of Large Machi
+	- A new winner on the huggingface Open LLM Leaderboard at the end of December … combining the goodness of SOLAR-10.7B and D
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MjM0MDc3LDEzODcyMzI0NTIsMTk3Mz
-gwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTEx
-MSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OT
-A0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0
-LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtOD
-Q1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3
-MTgxXX0=
+eyJoaXN0b3J5IjpbMTE1OTEzNjUyNCwxMzg3MjMyNDUyLDE5Nz
+M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
+MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
+kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
+NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLT
+g0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkw
+NzE4MV19
 -->
