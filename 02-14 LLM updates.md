@@ -152,7 +152,11 @@
 	- Today we’re expanding the context window for Gemini 1.5 Pro to 2 million tokens and making it available for developers in private preview. It’s the next step towards the ultimate goal of infinite context
 - Data Scientists: The next level of Data Science AI Agents is called "Plan and Execute".
 	- https://x.com/mdancho84/status/1790406221616320862
-- GoogleとOpenAIの発表を見てる僕の心境 by GUILDの
+- GoogleとOpenAIの発表を見てる僕の心境 by GUILDの深澤さん
+	- https://x.com/fladdict/status/1790431879512093151
+	- 「あ、ゴクウとフリーザが上空で戦ってる！！！すごい速度で見えない！！！頑張れ！！！」というクリリンの心境
+- Ilya and OpenAI are going to part ways. by Sam
+	- https://x.com/sama/status/1790518031640347056
 	- 
 ## 5/13
 
@@ -3741,15 +3745,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://github.com/iryna-kondr/scikit-llm
 	- Seamlessly integrate powerful language models like ChatGPT into scikit-learn for enhanced text analysis tasks.
 - phi-2のライセンスが、研究目的限定からMITライセンスに変更された
-	- https://x.com/abacaj/status/1743500472520974364?s=20
-- 
-
-## 1/1
-
-お正月ですが、LLM界は止まりません。
-PowerInferってLLM推論に固有の高い局所性を利用することで、高速推論を実現するんだって。Colabでも試せるし、llama.cppの最大11.69倍の速度って本当か？。一方Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってG
+	- https://x.co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDYwMDI4OSwxOTczODA1NjkzLDIwOT
+eyJoaXN0b3J5IjpbMTc0MTA1MDA1MSwxOTczODA1NjkzLDIwOT
 k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
 NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
 QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
