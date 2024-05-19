@@ -259,7 +259,12 @@
 	- 「タグ付け」は、ドキュメントに感情、言語、スタイル、トピック、政治的傾向などのクラスをラベル付けします
 	- 「要約」は、長いドキュメントの内容を要約するためのシステムを構築します。複数のドキュメントや長文テキストを効率的に要約することが可能になります。これには、「Stuff」「Map-Reduce」「Refine」の3つの手法があります。
 	- 「Webスクレイピング」は、Webからコンテンツを収集し、自然言語処理に使用するシステムを構築します。
-- 
+-  LangChain v0.2 で 単純なLLMアプリケーションを構築 by npakaさん
+	- https://note.com/npaka/n/n24d48303a496?sub_rt=share_h
+-  LangChain v0.2 で エージェントを構築 by npakaさん
+	- https://note.com/npaka/n/ne8ef60987e1b?sub_rt=share_b
+- 生成AI学びたいなら、この２本 by 尾原さん
+	- 
 
 ## 5/13
 
@@ -3731,17 +3736,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
  MixtralのMoE版に対する投機的実行(offload)論文とその成果が新しい量子化HQQを含めて、今週の一番すごいネタ。次のExpertを予測してプリロード、colabで動くのもすごい。ファインチューニング関連でも、CALMや知識編集のように、質が違う新しい手法がたくさんでてきた。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。因果フォレストとか、データ不均衡問題を解消するSMOTEなんかも着実に進んでいる。LLM時代に本当に必要なのは、リーディング、ライティング、スピーキングのスキルって、いやそこに達するまでが大変なのよ。 日本の官公庁の「よくある質問」データセット、国家公務員によるチェックを経ており誤字脱字がないと言い切ったな。LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法というのは斬新、内部状態が大切なのね。テンセントのマルチモーダルモデルを訓練して推論って、「どんな情報も入力できるマルチモーダルモデル」に向けて、どれだけ可能性があるか？phi-2のライセンスがMITになったのはすごいな。MotionGPT、デモで太極拳を試そうとしたら今一歩だった。やっぱり、今週も、アリババのQWen-14BをベースにしたLLMが日本語に強いのか。知識編集のサーベイ、オープンソースも公開されていて、これはＬＬＭの操作を誰もが手軽に、そして何でもできるということか。『CALM（Composition to Augment Language Models）』もコバンザメみたいにドメイン特化のＬＬＭがあれば、より大きなＬＬＭがそのタスクをこなせるようになるという新しいチューニングだ。
 
 
-- MistralのMoE版であるMixtralが推論時に使うのは8つのExportのうち2つのみ
-	- https://x.com/webbigdata/status/1741043710476100060?s=20
-	- 7B x 8のMixtralが無料版ColabやRTX 3060(12G)で動かすことができる
-	- 投機的ロードは投機に負けると量子化モデルより遅くなる罠
-	- https://colab.research.google.com/github/dvm
+- Mistral
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMTc1NjYxLDE5MjE0NDAwMCwxMzg3Mj
-MyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1
-LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4Nz
-MyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwt
-MTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMz
-M3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1
-MzhdfQ==
+eyJoaXN0b3J5IjpbLTE4MTEwMTYyODUsMTkyMTQ0MDAwLDEzOD
+cyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0
+MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMT
+g3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4
+LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLT
+IzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQy
+NTUzOF19
 -->
