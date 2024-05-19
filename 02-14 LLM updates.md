@@ -130,6 +130,10 @@
 - We’re sharing Project Astra: at Google I/O
 	- https://x.com/GoogleDeepMind/status/1790433540548558853
 	- We’re sharing Project Astra: our new project focused on building a future AI assistant that can be truly helpful in everyday life.
+- PaliGemma、Gemma 2　at Google I/O
+	- https://x.com/GoogleDeepMind/status/1790459505538658636
+	- PaliGemma: a powerful open vision-language model  
+	- Gemma 2: coming soon in various sizes, including 27 billion parameters
 - 
 ## 5/13
 
@@ -3736,19 +3740,13 @@ PowerInferってLLM推論に固有の高い局所性を利用することで、�
 	- Apple releases Ferret
 - OpenAssistant Conversations -- Democratizing Large Language Model Alignment
 	- https://huggingface.co/OpenAssistant
-	- https://projects.laion.ai/Open-Assistant/blog/
--  WSL2でPowerInferを試してみる
-	- https://note.com/ngc_shj/n/nba94b08a2b58?sub_rt=share_h
-	- 使用するPCは、GALLERIA UL9C-R49(RTX 4090 laptop 16GB)、メモリは64GB、OSはWindows 11+WSL2です。
-	-  LLaMA(ReLU)-2-70B, LLaMA(ReLU)-2-7B
-	- 70B／48GBで／動いたよ
-- ybelkada/M
+	- https://
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyMzQxNjg0LDE5NzM4MDU2OTMsMjA5OT
-czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
-NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
-A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
-LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4ND
-IxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkwNzE4MSwtNDU5MjYx
-OTY3XX0=
+eyJoaXN0b3J5IjpbLTE2OTYyNzAyMDksMTk3MzgwNTY5MywyMD
+k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
+MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
+g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
+MzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLD
+g0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3MTgxLC00NTky
+NjE5NjddfQ==
 -->
