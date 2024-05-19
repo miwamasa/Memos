@@ -139,6 +139,11 @@
 - Get a sneak peek of Gemma 2, at Google I/O
 	- https://x.com/Google/status/1790452314278412554
 	- 27B parameter instance launching in a few weeks. Built on new architecture, Gemma 27B outperforms models twice its size and can run on a single TPU host in Vertex AI.
+- PaliGemma をお試し中
+	- https://huggingface.co/spaces/big-vision/paligemma
+- Introducing Trillium, the next generation of Google Cloud TPU
+	- https://x.com/GoogleCloudTech/status/1790452622295449925
+	- It delivers 4.7X the peak compute performance per chip compared to TPU v5e and is equipped with 2X the high-bandwidth memory capacity.
 - 
 ## 5/13
 
@@ -3736,12 +3741,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 PowerInferってLLM推論に固有の高い局所性を利用することで、高速推論を実現するんだって。Colabでも試せるし、llama.cppの最大11.69倍の速度って本当か？。一方Llama.cppもいつのまにか、CPU推論だけでなく、GPUオフロードによってGPU推論と組み合わせることが可能に。Guidanceが大幅に改定されて、Llama.cppの利用も使いやすくなったらしい。MixtralのようなMoEモデルとPowerInferのようなスマート推論を組み合わせて、RTX4090のようなグラボを刺した普通のPCでも45BのでっかいMoEモデルをH100なんかと同等の速度で推論できるようになるって本当か?。推論の高速化ではvLLMってのもある、HugginFaceと相性も良く、Mistralもモデル公開で活用。日本LLM勢では「ELYZA-japanese-Llama-2-13b」のリリースがビッグニュース。GPT-3.5 越えらしい。早速Colab で動かしたり、gguf版がリリースされとる。日本語LLMをPPOでファインチューニングする例がやたら細かい。WizardMath-70BがWebLLMで動くようになったのか。知識編集という技術を使うと、ファインチューニングしなくても、知識を定着できる第3の方法らしい。日本語モデルの長文QA性能の比較てのも役に立ちそうだ。プロンプトの原則26ヶ条というのも日常役に立つな。KarasuとQarasuという日本語オープンソースチャットポッドも公開される、日本語MT-Benchベンチマークで非常に高いパフォーマンスを示すアリババのQwenなどをベースモデルとするのか。勝ちパターンが見えてきたな。
 
 - Build Hybrid Search from Scratch
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/vector_stores/qdrant_hybrid.ipynb
-	- 1. Generate a sparse vector (using SPLADE) from both a query and document
-	- 2. Define a fusion function that will combine results retrieved from sparse/dense queries. Here there’s an alpha parameter that controls weighting towards sparse vs. dense retrieval
-	- 3. Of 
+	- https://github.com/run-llama/llama_i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDkyMzgzMSwxOTczODA1NjkzLDIwOT
+eyJoaXN0b3J5IjpbMTM5ODc5OTU2NSwxOTczODA1NjkzLDIwOT
 k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
 NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
 QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
