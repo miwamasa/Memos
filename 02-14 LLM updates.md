@@ -269,14 +269,19 @@
 		- https://www.youtube.com/watch?v=U9vhGvFxKu0
 	- "GPTとは何か Transformerの視覚化 |
 		- https://www.youtube.com/watch?v=KlZ-QmPteqM
-	-  LangChain v0.2 で RAGを構築 by npaka さん
-		- https://note.com/npaka/n/ne892b713bd45?sub_rt=share_h
-		-  Retriever
-			- 「VectorStore」はRunnableをサブクラス化しないため、LECLチェーンにすぐに統合することはできません。「Retriever」はRunnableであるため、標準セットのメソッド (同期および非同期の呼び出しやバッチ操作など) を実装し、LCELチェーンに組み込まれるように設計されています。
-		-  RAGチェーン
-			- 「Retriever」は、特定の質問と取得したコンテキストを組み合わせて LLM のプロンプトを生成するRAG アプリケーションなど、より複雑なアプリケーションに簡単に組み込むことができます。
-			- rag_chain = {"context": retriever, "question": RunnablePassthrough()} | prompt | llm
-- 
+-  LangChain v0.2 で RAGを構築 by npaka さん
+	- https://note.com/npaka/n/ne892b713bd45?sub_rt=share_h
+	-  Retriever
+		- 「VectorStore」はRunnableをサブクラス化しないため、LECLチェーンにすぐに統合することはできません。「Retriever」はRunnableであるため、標準セットのメソッド (同期および非同期の呼び出しやバッチ操作など) を実装し、LCELチェーンに組み込まれるように設計されています。
+	-  RAGチェーン
+		- 「Retriever」は、特定の質問と取得したコンテキストを組み合わせて LLM のプロンプトを生成するRAG アプリケーションなど、より複雑なアプリケーションに簡単に組み込むことができます。
+		- rag_chain = {"context": retriever, "question": RunnablePassthrough()} | prompt | llm
+- “MambaOut: Do We Really Need Mamba for Vision?”
+	- https://arxiv.org/abs/2405.07992
+	- Based on our concept discussion, we hypothesize Mamba is unnecessary for ImageNet while exploring for detection and segmentation remains worthwhile. To verify these, we build MambaOut with Mamba blocks but remove their core token mixer, SSM.
+- Text-to-SQL - fully local edition
+	- https://x.com/llama_index/status/1791915423816204494
+	- 
 
 ## 5/13
 
@@ -3734,20 +3739,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- JGLUEの結果と同様、いいとこ取りができてる。
 	- しかも、9つ中5つのベンチマーク(半分以上👀)で元の２つのモデルを上回るスコアに。
 - mergekitを使ってMoEモデルを作ってみました
-	- https://huggingface.co/HachiML/youri-2x7b_dev
-	- rinna/youri-7b-instruction
-	- rinna/youri-7b-chat chat
-	- モデルとinstructionモデルを繋げる効果がどのくらいあるかわからないけれど、動くところまで確認できた。 時間があればJGLUE試してみる。
-- Raspberry Pi 4 Model B 4GB memoryでPhi-2とTinyLlama余裕で動いた
-	- https://x.com/yuiseki_/status/1746532207597064670?s=20
-	- 特にTinyLlamaは8token/sくらい出てるんだけど、なんかllama.cpp前より速くなってね…？
-
-
-## 1/8
-
- MixtralのMoE版に対する投機的実行(offload)論文とその成果が新しい量子化HQQを含めて、今週の一
+	- https://
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjQ1MzYwMSwxOTIxNDQwMDAsMTM4Nz
+eyJoaXN0b3J5IjpbLTcxMzQ3Njc4NCwxOTIxNDQwMDAsMTM4Nz
 IzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQw
 NSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xOD
 czMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgs
