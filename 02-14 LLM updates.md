@@ -4,7 +4,7 @@
 
 ## 5/20
 
-最新の大規模言語モデル（LLM）の動向に関して、多岐にわたる新しい情報が展開されています。まず、DeepLearningAIはMistralAIを用いた新しい無料コースを提供しており、このコースではMistralのモデルに加え、RAG、関数呼び出し、JSONモードなどの幅広いトピックを学ぶことができます。 一方、OpenAIの新しいモデルGPT-4oが注目されています。このモデルは従来のGPT-4やClaude 3 Opusと比べて頭一つ抜けており、速度が2倍、コストが半分、そしてレートリミットが5倍高いとされています。GPT-4oは新しいトークナイザーtiktokenを導入しており、その確保されたパフォーマンスとコスト効率から、多くの利用者に歓迎されています。GPT-4oは次々と新しいアプリケーションに活用され、動画の要約や化学実験の考察など多岐にわたる分野で効果を発揮中です。 他にも、LangChainがGPT-4oに対応し、LangChainが提供する様々な機能にこの強力なモデルを組み込むことができるようになっています。また、OpenAIの新しいModel Specも公開されており、これによりモデルの動作や改良に関する透明性が高まっています。 さらにMistralモデルやHuggingFaceのトークン化に関する議論が続いており、主要モデル間でトークン化に差異が見られることが話題になっています。特にllama3やGemmaモデルにおける違いが指摘されており、これが量子化の問題に影響を与えている可能性があるとされています。 Google I/Oでは、PaliGemmaやGemma 2といった新モデルに加え、次世代のGoogle Cloud TPUであるTrilliumが発表されました。これにより、Gemma 27Bのような大規模モデルが高効率で動作することが期待されています。また、GoogleはAstraプロジェクトとして、日常生活で本当に役立つAIアシスタントの構築に焦点を当てた新プロジェクトも紹介しました。 また、Mozillaからは非常に簡単にローカル環境で使用できる研究補助ツール「llamafile」が公開され、設定なしで利用できるのが特徴です。HuggingFaceとも提携し、LangChain-HuggingFaceの発表も行われています。 これらの進展は、LLMの多様な適用可能性とその進展の速さを強調しており、技術の進化が止まることを知りません。今後も革新的なモデルの登場と、それに伴う新しいアプリケーションの広がりが期待されます。
+最新の大規模言語モデル（LLM）の動向について、今回はちょっとユーモアも交えつつお届けします。まずは、絶対に見逃せない二つの大ニュースから。 最初に、大きく注目を浴びているのがOpenAIの新モデル「GPT-4o」です。どうやらこのモデル、名前だけじゃなくて性能もまさに「おお！」と言いたくなる程の進化を遂げています。他のモデルと比べて速度は2倍、コストは半分、レートリミットが5倍と、まさにスーパーAI。さらに無料プランのChatGPTユーザーでも使えるようになるとのことで、サム・アルトマンさんから直接のお知らせも飛び出しました。しかも、このGPT-4oは数学の難関問題を画像で出題しただけで解けるという、まるで魔法のような能力を持っているのです。この進化により、動画の要約や化学実験の考察まで、ヘビーユーザーの活用法がどんどん増えているのが現状です。 次はGoogle I/Oでの発表です。トップバッターは新しいビジョン・ランゲージモデル「PaliGemma」と「Gemma 2」。その大きな見どころは、Gemma 27Bというサイズでも新しいアーキテクチャを駆使して、モデルが2倍のサイズのものにも勝る性能を発揮すること。これ、まるでヒーロー映画の続編が発表されるかのようなワクワク感がありますよね。そしてさらに「Trillium」という次世代Google Cloud TPUの登場で、このスーパーAIヒーローたちがさらに効率良く動作することが期待されています。ああ、今夜のビリー・アイリッシュのライブにでも登場しそうな勢いです。 さて、話題を変えて、最近の秀作をご紹介します。DeepLearningAIから無料コースが続々登場しており、MistralAIを使ったコースを提供中です。このコースでは、Mistralのモデルに加えて、RAG、関数呼び出し、そしてJSONモードなどまで学ぶことができます。これを受けて、プロンプト設計での尤度関数の捉え方について議論が巻き起こっています。「それってプロンプトダンサーの必須スキル？」と思わせるような専門的な話題も含まれています。 一方、HuggingFaceのトークン化とllama.cppのトークン化に違いがあることが議論されています。これはまるで、映画の字幕と吹き替えの違いくらい注目されているトピックです。特にLlama3やGemmaモデルに関して、量子化に問題がある可能性も浮上しています。んん、やっぱりテクノロジーの進化も一筋縄ではいきませんね。 そしてお待ちかね、npakaさんの情報を一気にまとめてチェック。彼はOpenAIのModel Specについての概要を詳述しています。また、新しいLangChain v0.2を使ったエージェント構築や、RAG、特定の情報源に関するQAシステム、情報抽出、要約などのユースケースも紹介しています。「LangChainハッカー」なんて称号が彼に似合いそうですね。 ここまで大まかなトピックをご紹介しましたが、その他の小ネタも盛りだくさんです。例えば、Mozillaのやる気満々なローカルリサーチツール「llamafile」や、LangChainとHuggingFaceの強力な提携など、どんどん新しい機能が登場していますよ。この分野の進展の速さを見逃さないでくださいね。 現場はまるで、ピーターパンのネバーランドのように変化に満ちています。今後も続々と驚きと笑顔が待っているかもしれません。さあ、次はどんな冒険が待っているのか、楽しみですね！
 
 - またまたDeepLearningAIより、MistralAIを用いた無料コース
 	- https://www.deeplearning.ai/short-courses/getting-started-with-mistral/
@@ -3709,14 +3709,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- スタンフォード大学とMetaによってGPT-4など他のLLMと併せて実験された結果が報告されています。 記事では、実験と結果の詳細、そもそも常識推論とは何かを紹介しています。
 - ChatGPTのTop PやTemperatureについて少し知ってみよう
 	- https://techblog.a-tm.co.jp/entry/2023/04/24/181232
-- 我らがOpenAI CEOサムアルトマン、結婚
-	- https://x.com/kai_postv/status/1745440329204142447?s=20
-- AMIE: A research AI system for diagnostic medical reasoning and conversations
-	- https://blog.research.google/2024/01/amie-research-ai-system-for-diagnostic_12.html
-	- Googleから、医療診断分野に特化した、AIリサーチシステムAMIE
-	- Today, we shared our latest preprint introducing AMIE (Articulate Medical Intelligence Exp
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDM4OTYyMSwxNzA1NzQ3Njk2LDE5Mj
+eyJoaXN0b3J5IjpbMTAyODUxMjMwOCwxNzA1NzQ3Njk2LDE5Mj
 E0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEy
 MiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4Mz
 AxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUx
