@@ -238,7 +238,7 @@
 	- https://github.com/neo4j-labs/text2cypher/tree/main/finetuning/unsloth-llama3#using-chat-prompt-template
 	- https://huggingface.co/tomasonjo/text2cypher-demo-16bit
 	-  I've finetuned Llama3-Instruct:8b to generate @neo4j Cypher statements based on the GPT-4o synthetic dataset I've generated at the start of the week.
-- 
+-  LangChain のユースケース
 
 ## 5/13
 
@@ -3730,13 +3730,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- 国家公務員によるチェックを経ているので、誤字脱字がほぼありません。
 	- https://huggingface.co/datasets/matsuxr/JaGovFaqs-22k
 - The TinyLlama project is an open endeavor to train a compact 1.1B Llama model on 3 trillion tokens.
-	- https://ollama.ai/library/tinylla
+	- https://ollama.ai
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3Mz
-gwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTEx
-MSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OT
-A0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0
-LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtOD
-Q1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3
-MTgxXX0=
+eyJoaXN0b3J5IjpbLTE1NDc2MzA1NzQsMTkyMTQ0MDAwLDEzOD
+cyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0
+MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMT
+g3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4
+LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLT
+IzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQy
+NTUzOF19
 -->
