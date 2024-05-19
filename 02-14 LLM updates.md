@@ -245,6 +245,15 @@
 		- **Tool Callingモード** : Tool Callingで指定されたスキーマに従って、構造化データを出力
 		- **JSONモード** : プロンプトの一部としてスキーマを提供し、JSONデータを出力
 		- **プロンプトベース** : 指示に従って生成されたテキストを既存のパーサーで解析し、構造化データを出力
+	- 「チャットボット」は、長期的な対話を維持し、ユーザーの質問に関連情報を使用して回答する能力を持ちます
+	- 「ツールエージェント」は、自然言語インターフェースを通じてAPIや関数、データベースなどのツールを操作するシステムを構築します。  
+		- **チェーン** : ツール使用の事前定義されたシーケンスを作成
+		- **エージェント** : ツールを繰り返し使用してタスクを自動的に実行
+	- 「クエリ解析」は、ユーザーの質問を最適化して検索クエリを生成し、より正確な情報を取得することを目的としています。
+		- 手法には、クエリの分解、クエリ拡張、仮想ドキュメントの埋め込み、クエリのルーティング、ステップバックプロンプティング、クエリの構造化などがあります。
+	- SQLデータベースQA」は、「SQLデータベース」を対象としたQ&Aシステムを構築します。
+	- 「グラフデータベースのQA」は、「グラフデータベース」を対象としたQ&Aシステムを構築します
+		- 「Cypher」や「SparQL」などのグラフクエリ言語を使用し、自然言語の質問に基づいてクエリを生成し、データベースからの情報を取得して回答を生成するチャットボットやカスタムダッシュボードを作成します
 	- 
 
 ## 5/13
@@ -3724,16 +3733,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://colab.research.google.com/github/dvmazur/mixtral-offloading/blob/master/notebooks/demo.ipynb#scrollTo=Zf4GkspecSm8
 -  Fast Inference of Mixture-of-Experts Language Models with Offloading
 	- https://arxiv.org/abs/2312.17238
-	- Mixtral-8x7B-Instruct を 3060 / 3080 Mobile / T4 にて実行、A100 と比較。手法のキモは、Expert を LRU でキャッシュする点と次のレイヤーで使うであろう Expert を推測し、プリロードする点。量子化には GPTQ の 50 倍以上高速に処理できる Half-Quadratic Quantization (HQQ)を採用。
-- Mixtralに対し日英対訳データセットでQLoRA tuning (SFT)を施した日⇔英 翻訳モデル(のLoRA層)をHuggingFace上に公開しました
-	- https://huggingface.co/hpprc/Mixtral-8x7B-Instruct-ja-en
-	- Mixtralを小説の対訳データセット(https://www2.nict.go.jp/astrec-att/member/mutiyama/align/index.html) でSFT的に翻訳タスクでQLoRA tuningしてみた日本語の生成がおっそいが普通に動いていそう(文章レベルで翻訳できててえらい)
-- LLaMA-Factory
-	- Google Colab で Llama Factoryを試し中。 1分でインストール完了して、WebUIでぽちぽち押すだけで学習できた。Pre-Training、SFT、Reward Modeling、PPO、DPOも対応
-	- https://x.com/npaka123/status/1741429803599962557?s=20
--  日本の官公庁にある「よくある質問」をデータセットにまとめました
+	- Mixtral-8x7B-Instruct を 3060 / 3080 Mobile / T4 にて実行、A100 と比較。手法のキモは、Expert を LRU でキャッシュする点と次のレイヤーで使うであろう Expert を推測し、プリロードする点。量子化には GPTQ の 50 倍以上高速に処理できる Half-Quadratic Quant
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjU5MjUzNCwxOTIxNDQwMDAsMTM4Nz
+eyJoaXN0b3J5IjpbMTA5MjY3ODY3OCwxOTIxNDQwMDAsMTM4Nz
 IzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQw
 NSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xOD
 czMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgs
