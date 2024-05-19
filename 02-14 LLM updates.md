@@ -4,7 +4,7 @@
 
 ## 5/20
 
-今回は、GPT-4oさんに、まとめをお願いしました（無修正です！）。ここまで来たか、と驚くようなさみしいような。。
+今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。
 
 最新の大規模言語モデル（LLM）の動向について、今回はちょっとユーモアも交えつつお届けします。まずは、絶対に見逃せない二つの大ニュースから。 最初に、大きく注目を浴びているのがOpenAIの新モデル「GPT-4o」です。どうやらこのモデル、名前だけじゃなくて性能もまさに「おお！」と言いたくなる程の進化を遂げています。他のモデルと比べて速度は2倍、コストは半分、レートリミットが5倍と、まさにスーパーAI。さらに無料プランのChatGPTユーザーでも使えるようになるとのことで、サム・アルトマンさんから直接のお知らせも飛び出しました。しかも、このGPT-4oは数学の難関問題を画像で出題しただけで解けるという、まるで魔法のような能力を持っているのです。この進化により、動画の要約や化学実験の考察まで、ヘビーユーザーの活用法がどんどん増えているのが現状です。 次はGoogle I/Oでの発表です。トップバッターは新しいビジョン・ランゲージモデル「PaliGemma」と「Gemma 2」。その大きな見どころは、Gemma 27Bというサイズでも新しいアーキテクチャを駆使して、モデルが2倍のサイズのものにも勝る性能を発揮すること。これ、まるでヒーロー映画の続編が発表されるかのようなワクワク感がありますよね。そしてさらに「Trillium」という次世代Google Cloud TPUの登場で、このスーパーAIヒーローたちがさらに効率良く動作することが期待されています。ああ、今夜のビリー・アイリッシュのライブにでも登場しそうな勢いです。 さて、話題を変えて、最近の秀作をご紹介します。DeepLearningAIから無料コースが続々登場しており、MistralAIを使ったコースを提供中です。このコースでは、Mistralのモデルに加えて、RAG、関数呼び出し、そしてJSONモードなどまで学ぶことができます。これを受けて、プロンプト設計での尤度関数の捉え方について議論が巻き起こっています。「それってプロンプトダンサーの必須スキル？」と思わせるような専門的な話題も含まれています。 一方、HuggingFaceのトークン化とllama.cppのトークン化に違いがあることが議論されています。これはまるで、映画の字幕と吹き替えの違いくらい注目されているトピックです。特にLlama3やGemmaモデルに関して、量子化に問題がある可能性も浮上しています。んん、やっぱりテクノロジーの進化も一筋縄ではいきませんね。 そしてお待ちかね、npakaさんの情報を一気にまとめてチェック。彼はOpenAIのModel Specについての概要を詳述しています。また、新しいLangChain v0.2を使ったエージェント構築や、RAG、特定の情報源に関するQAシステム、情報抽出、要約などのユースケースも紹介しています。「LangChainハッカー」なんて称号が彼に似合いそうですね。 ここまで大まかなトピックをご紹介しましたが、その他の小ネタも盛りだくさんです。例えば、Mozillaのやる気満々なローカルリサーチツール「llamafile」や、LangChainとHuggingFaceの強力な提携など、どんどん新しい機能が登場していますよ。この分野の進展の速さを見逃さないでくださいね。 現場はまるで、ピーターパンのネバーランドのように変化に満ちています。今後も続々と驚きと笑顔が待っているかもしれません。さあ、次はどんな冒険が待っているのか、楽しみですね！
 
@@ -3709,13 +3709,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 - Geminiの「常識を推論する能力」を網羅的に調査した結果　間違えやすいタイプの問題も明らかに
 	- https://ai-data-base.com/archives/61597
 	- スタンフォード大学とMetaによってGPT-4など他のLLMと併せて実験された結果が報告されています。 記事では、実験と結果の詳細、そもそも常識推論とは何かを紹介しています。
-- ChatGPTのTop PやTemperatureについて少し知ってみ
+- ChatGPTのTop PやTemperatureについて少し知って
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzY5MTgxLDE3MDU3NDc2OTYsMTkyMT
-Q0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIy
-LC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMD
-ExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEs
-MzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNj
-g1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1
-Nl19
+eyJoaXN0b3J5IjpbLTE5Njc0OTIyODUsMTcwNTc0NzY5NiwxOT
+IxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUx
+MjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsOD
+MwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1
+MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMT
+E2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkx
+MzU2XX0=
 -->
