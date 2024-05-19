@@ -264,7 +264,13 @@
 -  LangChain v0.2 で エージェントを構築 by npakaさん
 	- https://note.com/npaka/n/ne8ef60987e1b?sub_rt=share_b
 - 生成AI学びたいなら、この２本 by 尾原さん
-	- 
+	- https://x.com/kazobara/status/1791454624983196148
+	- 「生成AI」(3) 松尾豊・東京大学大学院教授　2024.3.15"
+		- https://www.youtube.com/watch?v=U9vhGvFxKu0
+	- "GPTとは何か Transformerの視覚化 |
+		- https://www.youtube.com/watch?v=KlZ-QmPteqM
+	-  LangChain v0.2 で RAGを構築 by npaka さん
+		- 
 
 ## 5/13
 
@@ -3733,12 +3739,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 
 ## 1/8
 
- MixtralのMoE版に対する投機的実行(offload)論文とその成果が新しい量子化HQQを含めて、今週の一番すごいネタ。次のExpertを予測してプリロード、colabで動くのもすごい。ファインチューニング関連でも、CALMや知識編集のように、質が違う新しい手法がたくさんでてきた。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。因果フォレストとか、データ不均衡問題を解消するSMOTEなんかも着実に進んでいる。LLM時代に本当に必要なのは、リーディング、ライティング、スピーキングのスキルって、いやそこに達するまでが大変なのよ。 日本の官公庁の「よくある質問」データセット、国家公務員によるチェックを経ており誤字脱字がないと言い切ったな。LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法というのは斬新、内部状態が大切なのね。テンセントのマルチモーダルモデルを訓練して推論って、「どんな情報も入力できるマルチモーダルモデル」に向けて、どれだけ可能性があるか？phi-2のライセンスがMITになったのはすごいな。MotionGPT、デモで太極拳を試そうとしたら今一歩だった。やっぱり、今週も、アリババのQWen-14BをベースにしたLLMが日本語に強いのか。知識編集のサーベイ、オープンソースも公開されていて、これはＬＬＭの操作を誰もが手軽に、そして何でもできるということか。『CALM（Composition to Augment Language Models）』もコバンザメみたいにドメイン特化のＬＬＭがあれば、より大きなＬＬＭがそのタスクをこなせるようになるという新しいチューニングだ。
-
-
-- Mistral
+ MixtralのMoE版に対する投機的実行(offload)論文とその成果が新しい量子化HQQを含めて、今週の一番すごいネタ。次のExpertを予測してプリロード、colabで動くのもすごい。ファインチューニング関連でも、CALMや知識編集のように、質が違う新しい手法がたくさんでてきた。LLaMA-Factoryは、colabで、様々なファインチューニングが試せてこれまた民主化を促進。因果フォレストとか、データ不均衡問題を解消するSMOTEなんかも着実に進んでいる。LLM時代に本当に必要なのは、リーディング、ライティング、スピーキングのスキルって、いやそこに達するまでが大変なのよ。 日本の官公庁の「よくある質問」データセット、国家公務員によるチェックを経ており誤字脱字がないと言い切ったな。LLMの内部状態を観察することで「出力がハルシネーションか否かを判別する」手法というのは斬新、内部状態が大切なのね。テンセントのマルチモーダルモデルを訓練して推論って、「どんな情報も入力できるマルチモーダルモデル」に向けて、どれだけ可能性があるか？phi-2のライセンスがMITになったのは
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTEwMTYyODUsMTkyMTQ0MDAwLDEzOD
+eyJoaXN0b3J5IjpbLTEzNjkzMjM3NTUsMTkyMTQ0MDAwLDEzOD
 cyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0
 MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMT
 g3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4
