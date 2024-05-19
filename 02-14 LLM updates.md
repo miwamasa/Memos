@@ -222,8 +222,15 @@
 	- https://note.com/npaka/n/n161a7e3882b3?sub_rt=share_h
 	-  import変更の例
 		- **langchain → langchain_community**
+			- vectorstoresとか
 		- **langchain-community → langchain_openai**
+			- ChatOpenAIとか
 		- **langchain-community → langchain-core**
+			- document_loadersとか
+		- **langchain → langchain-core**
+			- Documentとか
+		- **langchain → langchain-text-splitters**
+			- text_splitterとか
 		- 
 
 ## 5/13
@@ -3725,17 +3732,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 - Chat with Mamba
 	- https://colab.research.google.com/drive/1SEwD1Cxp_mG0-CvLWWT0i9D6aYKMf1FL?usp=sharing
 	- Mamba is really exciting, but its potential remains untapped due to a lack of instruction-tuning and alignment. I
--  Half-Quadratic Quantization of Large Machine Learning Models
-	- https://mobiusml.github.io/hqq_blog/
-	- GPTQ の 50 倍以上高速に処理できる Half-Quadratic Quantization (HQQ)
-	- MOEのoffloadでも用いられたらしい
-	- https://huggingface.co/lavawolfie
+-  Half-Quadratic Quantization of Large Machi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg4MzE1MTQsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC
-04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5
-MDcxODFdfQ==
+eyJoaXN0b3J5IjpbNTk4MjM0MDc3LDEzODcyMzI0NTIsMTk3Mz
+gwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTEx
+MSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OT
+A0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0
+LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtOD
+Q1OTM4NTQyLDg0MjE5MTM1NiwtMTAyMDQyNTUzOCwxMzQ1OTA3
+MTgxXX0=
 -->
