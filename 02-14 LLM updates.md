@@ -211,6 +211,11 @@
 	- https://x.com/webbigdata/status/1791497099315752967
 	- You can now run the 7B parameter version of Gemma, entirely locally in the browser, using MediaPipe LLM Inference API.
 		- https://x.com/googledevs/status/1791174333995299216
+- stockmarkさんが公開されているstockmark-100bのggufあります
+	- https://huggingface.co/mmnga/stockmark-100b-gguf
+- Gemini 1.5 Flashで、12分の音声ファイルを全て文字起こし。完璧。GPT-4oでもこれは無理
+	- https://x.com/Taiyo_AiAA/status/1791460870947774826
+- 
 
 ## 5/13
 
@@ -3722,11 +3727,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- 今回は、「[**Elyza-7B**](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-instruct)」で「[**ござるデータセット**](https://huggingface.co/datasets/bbz662bbz/databricks-dolly-15k-ja-gozarinnemon)」を学習させます
 	- https://github.com/hiyouga/LLaMA-Factory
 - プロンプトエンジニアリングは将来的に求められるスキルではない
-	-  OpenAI Employee Claims Prompt Engineering is Not the Skill of the Future
-	- https://www.cysecurity.news/2023/12/openai-employee-claims-prompt.html
-	- OpenAI社のデベロッパーアドボケイト、Logan Kilpatrick氏。AIシステムへの有効なプロンプトは対人コミュニケーションとは変わらず、真に必要なのはリー
+	-  OpenAI Employee Claim
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDM3MDgxMiwxMzg3MjMyNDUyLDE5Nz
+eyJoaXN0b3J5IjpbLTk5NjE4MzI1MCwxMzg3MjMyNDUyLDE5Nz
 M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
 MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
 kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
