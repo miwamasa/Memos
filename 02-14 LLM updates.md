@@ -4,6 +4,8 @@
 
 ## 5/20
 
+最新の大規模言語モデル（LLM）の動向に関して、多岐にわたる新しい情報が展開されています。まず、DeepLearningAIはMistralAIを用いた新しい無料コースを提供しており、このコースではMistralのモデルに加え、RAG、関数呼び出し、JSONモードなどの幅広いトピックを学ぶことができます。 一方、OpenAIの新しいモデルGPT-4oが注目されています。このモデルは従来のGPT-4やClaude 3 Opusと比べて頭一つ抜けており、速度が2倍、コストが半分、そしてレートリミットが5倍高いとされています。GPT-4oは新しいトークナイザーtiktokenを導入しており、その確保されたパフォーマンスとコスト効率から、多くの利用者に歓迎されています。GPT-4oは次々と新しいアプリケーションに活用され、動画の要約や化学実験の考察など多岐にわたる分野で効果を発揮中です。 他にも、LangChainがGPT-4oに対応し、LangChainが提供する様々な機能にこの強力なモデルを組み込むことができるようになっています。また、OpenAIの新しいModel Specも公開されており、これによりモデルの動作や改良に関する透明性が高まっています。 さらにMistralモデルやHuggingFaceのトークン化に関する議論が続いており、主要モデル間でトークン化に差異が見られることが話題になっています。特にllama3やGemmaモデルにおける違いが指摘されており、これが量子化の問題に影響を与えている可能性があるとされています。 Google I/Oでは、PaliGemmaやGemma 2といった新モデルに加え、次世代のGoogle Cloud TPUであるTrilliumが発表されました。これにより、Gemma 27Bのような大規模モデルが高効率で動作することが期待されています。また、GoogleはAstraプロジェクトとして、日常生活で本当に役立つAIアシスタントの構築に焦点を当てた新プロジェクトも紹介しました。 また、Mozillaからは非常に簡単にローカル環境で使用できる研究補助ツール「llamafile」が公開され、設定なしで利用できるのが特徴です。HuggingFaceとも提携し、LangChain-HuggingFaceの発表も行われています。 これらの進展は、LLMの多様な適用可能性とその進展の速さを強調しており、技術の進化が止まることを知りません。今後も革新的なモデルの登場と、それに伴う新しいアプリケーションの広がりが期待されます。
+
 - またまたDeepLearningAIより、MistralAIを用いた無料コース
 	- https://www.deeplearning.ai/short-courses/getting-started-with-mistral/
 	- Mistral AIによる1時間のコース。Mistralのモデルだけでなく、RAG、関数呼び出し、JSONモードなどについて学べる
@@ -3712,33 +3714,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 - AMIE: A research AI system for diagnostic medical reasoning and conversations
 	- https://blog.research.google/2024/01/amie-research-ai-system-for-diagnostic_12.html
 	- Googleから、医療診断分野に特化した、AIリサーチシステムAMIE
-	- Today, we shared our latest preprint introducing AMIE (Articulate Medical Intelligence Explorer), a large language model (LLM) based research AI system for diagnostic medical reasoning and conversations.
-	- 巨大な汎用言語モデル「PaLM 2」を医療対話向けに微調整したAIシステム「AMIE」。専門医によると32軸中28軸、患者によると26軸中24軸で、より高い診断精度と優れた性能を示した。世界の80億人が24時間体制で医療相談できる究極のかかりつけ医へ一歩前進
-- Moore-AnimateAnyone test
-	- https://x.com/toyxyz3/status/1745846460678291702?s=20
-	- Moore-AnimateAnyoneは、AnimateAnyoneを再現するプロジェクト。 様々なアプローチをとり、本絵kとは多少異なる実装で再現しているそうで、現在おおよそ80%ほどの再現度となっています。
-- nitky/Superswallow-70b-v0.1
-	- https://huggingface.co/nitky/Superswallow-70b-v0.1
-	- なんかすごい性能があるらしいマージモデル
-- マルチモーダルなGPT-4とLLaVAによる高度な画像理解と自然言語対話の統合
-	- https://ai-scholar.tech/articles/computer-vision/LLaVA
-	- GPT-4に並ぶ「多モーダル人工知能」の開発に向けて、視覚命令チューニングの手法が提案されました。
-	- また、視覚と言語の理解力が高い言語モデル「LLaVA」も紹介。
--  Large Language Model Course by 
-	- https://github.com/mlabonne/llm-course
-	- 3 models trending + even MistralTril 
--  Google Colab：Mergekitによる日本語モデルMoEの作成
-	- https://note.com/hatti8/n/ne09226bc4ff5?sub_rt=share_pb
-	- https://huggingface.co/HachiML/youri-2x7b_dev
-	- マージの実行自体はほとんどモデルの取得の時間で20~30分くらいで実行できた気がする。
-	-   メモリがそこそこいるので、ハイメモリで実行しないといけない。
-	- https
+	- Today, we shared our latest preprint introducing AMIE (Articulate Medical Intelligence Exp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4Nz
-IzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQw
-NSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xOD
-czMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgs
-LTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMj
-MzNzMxMzQ5LC04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1
-NTM4XX0=
+eyJoaXN0b3J5IjpbMTM0NDM4OTYyMSwxNzA1NzQ3Njk2LDE5Mj
+E0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEy
+MiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4Mz
+AxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUx
+LDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMT
+Y4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0Miw4NDIxOTEz
+NTZdfQ==
 -->
