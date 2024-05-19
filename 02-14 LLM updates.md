@@ -208,7 +208,9 @@
 	- With LlamaParse, we were able to spatially layout the text in a semantically coherent manner, so that our GPT-4o-powered QA pipeline could correctly answer questions
 		- https://github.com/run-llama/llama_parse/blob/main/examples/caltrain/caltrain_text_mode.ipynb
 - MediaPipe LLM Inference APIを使って、MediaPipe形式に変換するとGemma 2Bや とGemma 7B、Phi-2、Falcon-RW-1B、StableLM-3BなどをブラウザやAndroids、iphoneなどで動かす事ができるようになる
-	- 
+	- https://x.com/webbigdata/status/1791497099315752967
+	- You can now run the 7B parameter version of Gemma, entirely locally in the browser, using MediaPipe LLM Inference API.
+		- https://x.com/googledevs/status/1791174333995299216
 
 ## 5/13
 
@@ -3722,16 +3724,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 - プロンプトエンジニアリングは将来的に求められるスキルではない
 	-  OpenAI Employee Claims Prompt Engineering is Not the Skill of the Future
 	- https://www.cysecurity.news/2023/12/openai-employee-claims-prompt.html
-	- OpenAI社のデベロッパーアドボケイト、Logan Kilpatrick氏。AIシステムへの有効なプロンプトは対人コミュニケーションとは変わらず、真に必要なのはリーディング、ライティング、スピーキングのスキル
-- 因果フォレスト（Causal Forests）をPythonで実践的に学ぶ（その３）
-	- https://www.salesanalytics.co.jp/datascience/datascience187/
-	- 因果フォレストの1つであるCausalForestDMLによる因果推論と、その中で使われているダブル機械学習のフレームワークを利用したCATE（Conditional Average Tr
+	- OpenAI社のデベロッパーアドボケイト、Logan Kilpatrick氏。AIシステムへの有効なプロンプトは対人コミュニケーションとは変わらず、真に必要なのはリー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY4NTEwODIsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC
-04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5
-MDcxODFdfQ==
+eyJoaXN0b3J5IjpbLTc4MDM3MDgxMiwxMzg3MjMyNDUyLDE5Nz
+M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
+MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
+kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
+NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLT
+g0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkw
+NzE4MV19
 -->
