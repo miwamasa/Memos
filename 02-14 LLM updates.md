@@ -174,6 +174,10 @@
 	- ストックマークは、1000億パラメータの日本語LLMモデル「Stockmark-100b」を公開しました。 既存のモデルにデータ追加を行いチューニングしたものではなく、ゼロからフルスクラッチで開発したモデルであり、国内では(現状はダントツで)最大、グローバルでも最大級サイズのOSSモデルとなります。
 		- https://huggingface.co/stockmark/stockmark-100b
 - 「確率思考の戦略論」がもやもやする方へ -NBDモデル編-
+	- https://zenn.dev/joanofarc/articles/strange-theory-of-probability-thinking
+- LLM に表データを読み解かせたかったので、ちょっと試してみた
+	- https://developers.cyberagent.co.jp/blog/archives/47869/
+	- In-context Learning をベースとして手法に採用している「表形式データの読み解き」に関する論文を、個人的ピックアップで紹介してみました。
 	- 
 ## 5/13
 
@@ -3737,18 +3741,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://note.com/shi3zblog/n/n55e1c542205a?sub_rt=share_pb
 	-  Qarasu-14B-chat-plus-unleashedがすごいらいしい
 - A Comprehensive Study of Knowledge Editing for Large Language Models
-	- https://arxiv.org/abs/2401.01286
-	- LLMの知識を狙い撃ちして編集する手法（Knowledge Editing：知識編集）の現状を網羅的にまとめた論文
-	- ■知識編集とは 1. 常識、感情など多岐にわたる情報を編集するもの 2. 挿入/変更/削除を行う 3. 対象以外の知識は保持する
-	- 知識編集を応用するとモデルの信頼性を向上させたり、パーソナライズされたエージェントを作りやすくなったりする
-	- 知識編集のためのオープンソースフレームワーク「EasyEdit」を開発し公開しています
-	- https://gi
+	- https://arxiv.org/abs/2401.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI3NjEwODMsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC
-04NDU5Mzg1NDIsODQyMTkxMzU2LC0xMDIwNDI1NTM4LDEzNDU5
-MDcxODFdfQ==
+eyJoaXN0b3J5IjpbMTU1MzE2MjMxMSwxMzg3MjMyNDUyLDE5Nz
+M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
+MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
+kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
+NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLT
+g0NTkzODU0Miw4NDIxOTEzNTYsLTEwMjA0MjU1MzgsMTM0NTkw
+NzE4MV19
 -->
