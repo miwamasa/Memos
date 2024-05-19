@@ -160,8 +160,11 @@
 	- This is very sad to me; Ilya is easily one of the greatest minds of our generation, a guiding light of our field, and a dear friend. His brilliance and vision are well known; his warmth and compassion are less well known but no less
 - HCI系のトップカンファレンスCHI2024の全論文をGPT-4で要約スライドにまとめて見たので
 	- https://drive.google.com/file/d/1CMkTdGlk1OhtScKUTB7Mt22GtWxgAIPV/view
-- Colab 📒 Notebook to fine-tune 💅🏽 @GoogleAI#PaliGemma vision-language model 👓🔠🧠
-on a free T4 VM
+- Colab 📒 Notebook to fine-tune 💅🏽 @GoogleAI
+	- #PaliGemma vision-language model 👓🔠🧠on a free T4 VM
+	- https://colab.research.google.com/github/google-research/big_vision/blob/main/big_vision/configs/proj/paligemma/finetune_paligemma.ipynb
+- Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models
+	- RAGの枠組みを拡張し、Wikipedia自動生成に特化したフレームワーク「STORM」を考案しました。
 ## 5/13
 
 先週に引き続きgpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5でも（うわさの）検索エンジンでもないといっているし、映画Herに出てきたような音声アシスタントという下馬評。おっとCOCONA（_ココナ_）の立場は？。OpenAIといえば、Stack Overflowとの提携、回答者にchatptが登場するのか、またモデルがどのように動作するべきかを規定するModel Specを公開、EUのAI法対策か（以前はSystem Cardがその役割だった）とも見れるし、安全性に本気に取り組んでいる姿勢にもみえる、ともかく来たるGPT-5の素性も透けて見えるというのは面白い分析。あと、今週は国内勢の活躍も活発だった、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が高い、使える、とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱かったり（コンパクトで性能が高いというのは量子化の余地も少ない）と、LLMのスケール測の一端を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？Google/DeepMindからは「AlphaFold 3」を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価も進む、shi3zさんの「最後にKANは勝つ」というKAN評価試行のnoteのタイトルは「最後に愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMのTinyTimeMixers (TTMs)、ICML2024にアクセプトされた、CMUとUPENのMOMENT、ひょっとしてICML2024がTime Seriesの基盤モデル祭りになってるのか。早速、データサイエンスクラスタからは、(AirPassengerデータに対し）一階差分もとらんのかと冷笑も。xLSTMとか、Vanilla Bayesian Optimization とかの基盤技術の進展もあり、しらんけど。。喜連川先生監修の「生成AIの論点」というのは、日本のLLMをめぐる状況を把握にはよいかも、それにしても「情報大航海時代」はなくなったことになったのか？最後に、THE GUILDの深津さんの、「情報が多すぎて頭がパンクするのは正常ではない」というのは、激しく同意する。
@@ -3737,14 +3740,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://note.com/shi3zblog/n/nf657d6105bd9?sub_rt=share_pb
 	- 動画、画像、音楽、テキストという四つのモードを学習させた「マルチモーダル」モデルで、しかもベースはllama-7Bということで、V100 32GB一つで推論可能(CPUのRAMは49GB以上必要)どころか学習も可能。
 	- 実際にはこれは「どんな情報も入力できるマルチモーダルモデル」のプロトタイプである
-	- 音声、画像、動画といった情報を図の紫の部分にある各種アダプターを学習させ、それを青い部分にある既存のLLM(ここではMPT-7Bを使用)にプロンプトと一緒に入力し、LLMからAudioLMへの入力ベクトルと応答出力(テキスト)を取り出している。ものすごくシンプルなのだ。
-- 『CALM（Composition to Augment Language Models）』
-	- LLM Augmented LLMs: Expanding Capabilities through Composition
-	- https://arxiv.org/abs/2401.02412
-	- Googleの研究者らが、あるタスクに強いLLMを使って別のLLMを同タスクに強くするためのフレームワークを開発
-	- ■フレームワークの全容 1. 特定のタスク
+	- 音声、画像、動画といった情報を図の紫の部分にある各種アダプターを学習させ、それを青い部分にある既存のLLM(ここではMPT-7Bを使用)にプロンプトと一緒に入力し、LLMからA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0MDM1ODc4LDEzODcyMzI0NTIsMTk3Mz
+eyJoaXN0b3J5IjpbNjMxODMwMjgyLDEzODcyMzI0NTIsMTk3Mz
 gwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTEx
 MSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OT
 A0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0
