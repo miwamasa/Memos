@@ -192,7 +192,11 @@
 	- https://x.com/masanork/status/1790871089121513629
 - ChatGPTがGoogle DriveやMicrosoft OneDriveからSpreadsheetやExcelを読み込んで分析・可視化を手伝ってくれる機能を近く公開
 	- https://x.com/MLBear2/status/1791251518110523764
+-  HCI研究に対する私見 - CHI2024参加を終えて　by 稲見先生
+	- https://note.com/drinami/n/nfd4921806ad3?sub_rt=share_pb
+	- 「HCI研究おもちゃ論」がかつて議論されていたことがありましたが「おもちゃに詰まった知恵と役割をバカにするな。比喩として不適切」というのが私の見解です
 - 
+	- 
 ## 5/13
 
 先週に引き続きgpt2-chatbotがchatbod arenaに復活したりと、話題に事欠かないが、サム(OpenAIの社長)から、5/13月曜日に何か発表があるとのポストが、GPT-5でも（うわさの）検索エンジンでもないといっているし、映画Herに出てきたような音声アシスタントという下馬評。おっとCOCONA（_ココナ_）の立場は？。OpenAIといえば、Stack Overflowとの提携、回答者にchatptが登場するのか、またモデルがどのように動作するべきかを規定するModel Specを公開、EUのAI法対策か（以前はSystem Cardがその役割だった）とも見れるし、安全性に本気に取り組んでいる姿勢にもみえる、ともかく来たるGPT-5の素性も透けて見えるというのは面白い分析。あと、今週は国内勢の活躍も活発だった、東工大のSwallow-MX-8x7b-NVE-v0.1をファインチューニングしたKARAKURI LM 8x7B Chat v0.1、13Bで104BのCommand R+を超えるって本当？。「Japanese Stable LM 2 1.6B」、 属性予測モデル　KARAKURI LM 7B APM v0.1 、「Fugaku-LLM」の公開など。さて様々な評価から性能が高い、使える、とされているllama3、日本語がやっぱりダメダメだったりはご愛敬でも、量子化に弱かったり（コンパクトで性能が高いというのは量子化の余地も少ない）と、LLMのスケール測の一端を思い知らす結果になってるというのは面白い、tokenerizerが壊れているとのうわさも。"DeepSeek-V2"ってのがGPT-4と同レベル。かかるコストは200分の1というのは本当だろうか？Google/DeepMindからは「AlphaFold 3」を発表、こんどはDNAも扱えるとのこと、創薬が劇的に加速する予感。先週に引き続いてKANの評価も進む、shi3zさんの「最後にKANは勝つ」というKAN評価試行のnoteのタイトルは「最後に愛が勝つ by KAN」のもじり？それにしてもKANさんご冥福をお祈りします。Microsoftが自社製LLMである「MAI-1」を開発中、ＸはGrokを有料ユーザーに開放。Deeplearning.aiからは、llamaindexのJerry Liu(CEO)を講師にAgentic RAG、LangChainのHarrison(CEO)を講師に、Functions, Tools and Agentsのショートコースが無料公開、なんて豪華な。そのLangChainはv0.2がリリースが間近に、AgentやTool関連の見直しがされる。あとなぜか、時系列予測の基盤モデルの発表も相次いだ、Google/TimesFM、IBMのTinyTimeMixers (TTMs)、ICML2024にアクセプトされた、CMUとUPENのMOMENT、ひょっとしてICML2024がTime Seriesの基盤モデル祭りになってるのか。早速、データサイエンスクラスタからは、(AirPassengerデータに対し）一階差分もとらんのかと冷笑も。xLSTMとか、Vanilla Bayesian Optimization とかの基盤技術の進展もあり、しらんけど。。喜連川先生監修の「生成AIの論点」というのは、日本のLLMをめぐる状況を把握にはよいかも、それにしても「情報大航海時代」はなくなったことになったのか？最後に、THE GUILDの深津さんの、「情報が多すぎて頭がパンクするのは正常ではない」というのは、激しく同意する。
@@ -3736,12 +3740,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 		- 4. 出力が事実なのかを96%以上の精度で識別した 
 		- →ハルシネーションの検出手法として有望と判断
 - 分類問題のデータ不均衡を解消するSMOTE（Python版）
-	- https://www.salesanalytics.co.jp/datascience/datascience210/
-	- データサイエンスの世界では、正確な分析と予測が成功の鍵となります。
-	- 多くの実際のデータセットは不均衡であり、これが特に分類問題において大きな課題となることがあります
-	- データ不均衡問題を解消するための強力なテクニックであるSMOTE（Synthetic Minority Over-sampling 
+	- https://www.salesanalytics.co.jp/data
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODg2NDkyOCwxMzg3MjMyNDUyLDE5Nz
+eyJoaXN0b3J5IjpbMTM5MjI5MDE2NywxMzg3MjMyNDUyLDE5Nz
 M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
 MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
 kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
