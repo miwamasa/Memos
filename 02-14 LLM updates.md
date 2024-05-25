@@ -16,6 +16,11 @@
 	- https://www.youtube.com/watch?v=6ikUpJcDrPs&list=PLxqBkZuBynVTzqUQCQFgetR97y1X_1uCI&index=32
 - The theoretical minimum series by Leonard Susskind and Art Friedman
 	- https://x.com/PhysInHistory/status/1792020784854311205
+- Chat VectorでLLaVAを日本語対応させる
+	- https://zenn.dev/toshi_456/articles/0166a6eaa81c7b
+	- LLaVAは大きくVision Encoder、Vision Projector、LLMという3つの部品からできていますが、LLMの部分だけ上記のように重みを加減算します
+	- 今回使用するLLaVAの重みは[liuhaotian/llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b)です。このモデルのベースのLLMは[meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf)です。
+	- Chat Vectorやその他のマージ手法を使用することで、英語のデータセットを日本語に翻訳して、学習させるという手間が必要なくなる可能性があるのはありがたいなと感じました。
 - 
 
 ## 5/20
@@ -3689,25 +3694,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 		- 動作させるには約100GBのRAMが必要 
 		- 速度を犠牲にRAM の使用量を削減できるがそれでも約35GBが必要
 - Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM
-	- https://arxiv.org/abs/2401.02994
-	- 比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性
-	- ■実験内容 
-		- 1. 3つの小規模モデルをブレンドした 
-		- 2. GPT-3.5など既存モデルと比較した 
-		- 2. 評価指標はユーザーの定着率と会話密度とした
-	- ■実験結果 
-		- 1. ブレンドモデルは定着率が顕著に高かった 
-		- 2. 会話密度に関しても他モデルを凌駕した
-- Kaggle新コンペ
-	- https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/
-	- 脳波 (EEG) 信号から入院中の重症患者の発作などを検知。発作 (SZ)、全身性周期放電 (GPD)、側方化周期性放電 (LPD)、側方化律動デルタ活動 (LRDA)、全般化律動デルタ活動 (GRDA)、または「その他」の6クラスを分類する
-- OpenAI、GPT storeを
+	- https://arxiv.org
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjE2NzIxOCwxMDIzOTI1MTcsMTcwNT
-c0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1Njkz
-LDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OT
-U4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5
-LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNT
-Q1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1
-NDJdfQ==
+eyJoaXN0b3J5IjpbLTE4ODk5MDQ2NDcsMTAyMzkyNTE3LDE3MD
+U3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5
+MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNj
+k1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYw
+OSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4Mj
+U0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4
+NTQyXX0=
 -->
