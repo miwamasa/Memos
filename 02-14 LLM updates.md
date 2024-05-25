@@ -6,6 +6,9 @@
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
 	- https://medium.com/@transformergpt/unleashing-the-power-of-knowledge-graphs-in-retrieval-augmented-generation-rag-step-by-step-84c2adc66c1c
 	- This is a neat resource by Jayita B. on teaching you how to not only build an advanced RAG indexing/query pipeline, but also turn it into a full-stack application with rapid respons
+- OECD (2024), "Defining AI incidents and related terms",
+	- https://www.oecd-ilibrary.org/science-and-technology/defining-ai-incidents-and-related-terms_d1a8d965-en
+	- OECDのWGが作っているAIリスクを分類するための用語整備のレポート。起こりうる被害をハザード、起こった被害をインシデントと呼び、その重大さを考慮。ハザードに起こる確率を加味した全体がAIリスクとなる
 - 
 
 ## 5/20
@@ -3705,13 +3708,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://huggingface.co/mlabonne/phixtral-4x2_8
 - llamaindexより、RAGの高度な手法として、ensembleとfusion
 	- https://llamahub.ai/l/llama_packs-query-rag_fusion_pipeline?from=llama_packs
-- Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding
-	- https://arxiv.org/abs/2401.04398
-	- Googleなどの研究者により、表形式（.csvなど）のデータを通してLLMが「連鎖的な推論」を行うためのフレームワーク
-	- ■プロンプトフレームワーク「DynamicPlan」 - 質問の共有と、必要なデータを選択させる - 適宜、データの追加、選択、並べ替えをさせる - 最終的に質問に答えさせる
-	-
+- C
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTE4MjIyOSwxMDIzOTI1MTcsMTcwNT
+eyJoaXN0b3J5IjpbLTMwMTY3NjE5OCwxMDIzOTI1MTcsMTcwNT
 c0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1Njkz
 LDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OT
 U4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5
