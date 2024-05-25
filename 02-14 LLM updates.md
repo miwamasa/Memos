@@ -1,6 +1,9 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+## 5/27
+
+- 
 
 ## 5/20
 
@@ -3709,13 +3712,12 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 - Geminiの「常識を推論する能力」を網羅的に調査した結果　間違えやすいタイプの問題も明らかに
 	- https://ai-data-base.com/archives/61597
 	- スタンフォード大学とMetaによってGPT-4など他のLLMと併せて実験された結果が報告されています。 記事では、実験と結果の詳細、そもそも常識推論とは何かを紹介しています。
-- ChatGPTのT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMT
-Q0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIy
-LC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMD
-ExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEs
-MzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNj
-g1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4NTQyLDg0MjE5MTM1
-Nl19
+eyJoaXN0b3J5IjpbLTE2OTM1NzM0NDEsMTAyMzkyNTE3LDE3MD
+U3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5
+MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNj
+k1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYw
+OSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4Mj
+U0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4
+NTQyXX0=
 -->
