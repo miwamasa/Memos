@@ -9,6 +9,9 @@
 - OECD (2024), "Defining AI incidents and related terms",
 	- https://www.oecd-ilibrary.org/science-and-technology/defining-ai-incidents-and-related-terms_d1a8d965-en
 	- OECDのWGが作っているAIリスクを分類するための用語整備のレポート。起こりうる被害をハザード、起こった被害をインシデントと呼び、その重大さを考慮。ハザードに起こる確率を加味した全体がAIリスクとなる
+- Text-to-SQL - fully local edition
+	- https://diptimanrc.medium.com/text2sql-opensource-duckdb-nsql-7b-with-ollama-and-llamaindex-on-local-setup-6f266f78bc4f
+	- The latest local LLMs are not only capable of RAG synthesis, but also querying structured databases. Diptiman Raichaudhuri has a great tutorial on how to build a fully local text-to-SQL setup, letting you query local databases without an internet connection.
 - 
 
 ## 5/20
@@ -3701,16 +3704,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- DeepLearningAIより、javascriptをもいいたLLMコース
 - Phixtral
 	- Phixtralだって。Phi-2をくっ付けてMoEにしたらしい
-	- マージ(merge)とは複数のモデルの重みを足し引きして新しいモデルを作る技術 
-	- 上手にマージすると出力があまり壊れず(スペルミスが多くなるという話はある)、マージ後に改めて微調整をしなくてもそのまま動く。しかも、ベースとなったモデルよりベンチマークスコアが向上する事も珍しくない…
-	- It combines 2 to 4 fine-tuned models and is better than each individual expert.
-	- https://huggingface.co/mlabonne/phixtral-2x2_8
-	- https://huggingface.co/mlabonne/phixtral-4x2_8
-- llamaindexより、RAGの高度な手法として、ensembleとfusion
-	- https://llamahub.ai/l/llama_packs-query-rag_fusion_pipeline?from=llama_packs
-- C
+	- マージ(merge)とは複数のモデルの重みを足し引きして新しいモデル
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTY3NjE5OCwxMDIzOTI1MTcsMTcwNT
+eyJoaXN0b3J5IjpbLTk2ODMyODYzOCwxMDIzOTI1MTcsMTcwNT
 c0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1Njkz
 LDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OT
 U4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5
