@@ -12,6 +12,10 @@
 - Text-to-SQL - fully local edition
 	- https://diptimanrc.medium.com/text2sql-opensource-duckdb-nsql-7b-with-ollama-and-llamaindex-on-local-setup-6f266f78bc4f
 	- The latest local LLMs are not only capable of RAG synthesis, but also querying structured databases. Diptiman Raichaudhuri has a great tutorial on how to build a fully local text-to-SQL setup, letting you query local databases without an internet connection.
+- Run Mixtral 8x7B-on a free-tier Google Colab with AQLM-2bit quantization
+	- https://www.youtube.com/watch?v=6ikUpJcDrPs&list=PLxqBkZuBynVTzqUQCQFgetR97y1X_1uCI&index=32
+- The theoretical minimum series by Leonard Susskind and Art Friedman
+	- https://x.com/PhysInHistory/status/1792020784854311205
 - 
 
 ## 5/20
@@ -3697,16 +3701,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 - Kaggle新コンペ
 	- https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/
 	- 脳波 (EEG) 信号から入院中の重症患者の発作などを検知。発作 (SZ)、全身性周期放電 (GPD)、側方化周期性放電 (LPD)、側方化律動デルタ活動 (LRDA)、全般化律動デルタ活動 (GRDA)、または「その他」の6クラスを分類する
-- OpenAI、GPT storeを正式公開
-	- https://openai.com/blog/introducing-the-gpt-store
--  Build LLM Apps with LangChain.js
-	- https://www.deeplearning.ai/short-courses/build-llm-apps-with-langchain-js/
-	- DeepLearningAIより、javascriptをもいいたLLMコース
-- Phixtral
-	- Phixtralだって。Phi-2をくっ付けてMoEにしたらしい
-	- マージ(merge)とは複数のモデルの重みを足し引きして新しいモデル
+- OpenAI、GPT storeを
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODMyODYzOCwxMDIzOTI1MTcsMTcwNT
+eyJoaXN0b3J5IjpbMTE1NjE2NzIxOCwxMDIzOTI1MTcsMTcwNT
 c0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1Njkz
 LDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OT
 U4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5
