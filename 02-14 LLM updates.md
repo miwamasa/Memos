@@ -8,7 +8,8 @@
 
 AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネットにLLMの性質をあるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。
 
-Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaも即追従、raw modeって何さ？一方、マルチモーダルも含めてリリースされたphi3-small,medium、phi3-mediumがll高性能であるといううわさもあるが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。
+ローカルLLMも相変わらず熱い！。今週も、
+Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaも即追従、raw modeって何さ？一方、マルチモーダルも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。
 
 
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
@@ -3688,13 +3689,13 @@ Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日�
 	- https://x.com/llama_index/status/1747289513934864493?s=20
 	- Query Pipeline over Pandas DataFrames
 	- https://docs.llamaindex.ai/en/stable/examples/pipeline/query_pipeline_pandas.html
-	- This is a simple example that builds a query pipeline that can perform structured operations over a Pandas DataFrame to satisfy a user query, using LLMs to
+	- This is a simple example that builds a query pipeline that can perform structured operations over a Pandas DataFrame
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzkxMjgyMTUsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNT
-QsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQw
-OTA1MV19
+eyJoaXN0b3J5IjpbMzczNjg3ODksLTE4MDU0ODc1MjUsMTMyOD
+E1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5NDM2
+MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOT
+IxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUx
+MjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsOD
+MwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1
+MV19
 -->
