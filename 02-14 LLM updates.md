@@ -225,7 +225,12 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - Cohereが多言語指向のオープンLLM「Aya」（8B，23B）を公開
 	- https://huggingface.co/spaces/CohereForAI/aya-23
 	- 4月には当時のオープンLLM最高性能のCommand R+を出してたCohereの多言語LLMなので,日本語も期待できそう...実際に日本語は結構うまいんですが,色々と簡潔すぎて自分の中での評価が「冷たいモデル」です
-- 
+-  DeepSeek-Prover: Advancing Theorem Proving in LLMs through Large-Scale Synthetic Data
+	- https://huggingface.co/papers/2405.14333
+	- Proof assistants like Lean have revolutionized mathematical proof verification, ensuring high accuracy and reliability. Although large language models (LLMs) show promise in
+- ollamaでPhi3-mediumは「性能ショボい」？　by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1793878129699950887
+	- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3692,20 +3697,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - DeepMindのCEOであるLila Ibrahimがダボス会議2024で語ったこと
 	- https://www.axios.com/2024/01/16/davos-ai-lila-ibrahim-google-deepmind-technologies
 	- ila Ibrahimは、AIが物質科学や生物学に革命をもたらし、新しい材料やタンパク質の発見に貢献していると述べた。
-	- 2018年、「AlphaFoldは（もともとは）うまくいかないはずのアイデアだった」とイブラヒムは語った。彼女はこう付け加えた。「今では（既知の）タンパク質を2億個みつけるまでになりましたけどね」。
-	- 昨年は、AI開発者たちが互いに協力し合い、政府の協力を得て、技術のリスクを管理することが急速に進んだと彼女は言う。
-	- イブラヒム氏は、若いAIユーザーに技術の倫理的枠組みを教えるのは、インターネットやソーシャルメディアを通じてデジタル化した高齢者世代に教えるよりも簡単だろうと考えている。
-- マイクロソフトCopilot Proを発表
-	- https://x.com/satyanadella/status/1747000699664429075?s=20
-	- Office３６５向けのcopiloの機能が、個人でも使えるようになる。3,200円/月
-	- Office365/w copilotの利用以外に、GPT-4 および GPT-4 Turboへの優先的な割り当て
-	- Copilot GPT Builder（近日公開予定）で、特定のトピックに合わせ
+	- 2018年、「AlphaFoldは（もともとは）うまくいかないはずのアイデアだった」とイブラヒムは語った。彼女はこう付け加えた。「今では（既知の）タンパク質を2億個
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0MTg1MTk4LC0xMTI4MDA0MjExLC0xND
-g3NzUwOTc0LDE5NDk0MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUx
-NywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5Nz
-M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
-MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
-kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
-NF19
+eyJoaXN0b3J5IjpbLTEyNzgzNTYyNzgsLTExMjgwMDQyMTEsLT
+E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
+NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
+k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
+NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
+g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
+Nzc0XX0=
 -->
