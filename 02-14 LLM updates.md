@@ -99,7 +99,7 @@
 - Knowledge Cards by Perplexty	
 	- https://x.com/perplexity_ai/status/1792948540542517458
 	- We’re teaming up with @TakoViz to bring advanced knowledge search and visualization to our users. Now, you can search, juxtapose, and share authoritative knowledge cards in Perplexity.
-	
+
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3699,7 +3699,7 @@
 	- Up to 2.5x faster LLM inference
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTc0NTQ5NjksMTk0OTQzNjE0Myw2Mj
+eyJoaXN0b3J5IjpbLTE1NDgzODI4ODEsMTk0OTQzNjE0Myw2Mj
 c0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAw
 LDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OT
 g4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYz
