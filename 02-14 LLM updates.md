@@ -6,7 +6,10 @@
 
 知識グラフのRAGも熱いが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそうなるかな。一方
 
-AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネットにLLMの性質をあるいは特徴を示す場所を特定する技術（スパースおー）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。
+AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネットにLLMの性質をあるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。
+
+
+phi3-mediumが高性能であるといううわさもあるが、Ollamaへの組み込みはうまくいってない模様。
 
 
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
@@ -3688,10 +3691,9 @@ AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニュー�
 	- https://docs.llamaindex.ai/en/stable/examples/pipeline/query_pipeline_pandas.html
 	- This is a simple example that builds a query pipeline that can perform structured operations over a Pandas DataFrame to satisfy a user query, using LLMs to infer the set of operations.
 	-  Query Pipeline for Advanced Text-to-SQL
-	- https://docs.llamaindex.ai/en/stable/examples/pipeline/query_pipeline_sql.html
-- nanoGPT楽しい。源氏物語全文で学習させたら何か語りだした🤗 いずれの紛れありけるかな
+	- https://docs.llamaindex.ai/en/stable/examples/pipeline/query_pipel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDk3MTk2NywtMTgwNTQ4NzUyNSwxMz
+eyJoaXN0b3J5IjpbLTQ5MjcwMDA3NiwtMTgwNTQ4NzUyNSwxMz
 I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
 MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
 E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
