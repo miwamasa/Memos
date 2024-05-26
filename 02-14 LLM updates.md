@@ -112,6 +112,16 @@
 	- MicrosoftがBuildででもした、assistantを、gemini 1.5 Flashで実装したツワモノ、お題はマリオだし。
 - What is the context window?
 	- https://x.com/cwolferesearch/status/1792950349696753980
+		- Claude-3 has a 1M context window 
+		- Gemini-1.5 Pro has a 2M token context window 
+		- Recent research [3] has explored going even beyond 2M tokens.
+- ICity, a Geometry Nodes-powered procedural city generator for Blender.
+	- https://x.com/80Level/status/1792769380717068510
+	- Available now in Beta
+		- https://80.lv/articles/long-awaited-procedural-city-generator-for-blender-is-now-available/
+- Microsoft、Copilot Studioの新機能を発表
+	- 
+		- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3690,13 +3700,8 @@
 		- メタは一般的な知能を構築し、オープンソース化し、みんなに利用できるようにするという長期的な目標のために、2つのAI研究プロジェクトを統合すると発表した。
 		- 次世代のサービスには、推論、計画、コーディング、記憶などのAIの各分野での進歩が必要であると述べた。
 		- この技術は非常に重要であり、機会も大きいので、責任を持ってオープンソース化し、できるだけ広く利用できるようにするべきだと主張した。
-		- 今年末までに、約35万台のNvidia H100 GPUを搭載した巨大なコンピューティングインフラストラクチャを構築すると発表した。
-		- 現在、Llama 3をトレーニングしており、今後も責任を持って安全にトレーニングを続ける
-		- AIとメタバースは密接に関連しており、将来的には多くの人がAIと会話するためにメガネを使うだろうと予測した。
-- Connect to Sheets and use the Gemini API in Colab to tell Gemini about your most promising prospects and prepare personalized sales pitches to sell what you are good at - in this case, delicious lemonade.
-	- https://colab.research.google.com/github/googlecolab/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzEwMTE2NCwxOTQ5NDM2MTQzLDYyNz
+eyJoaXN0b3J5IjpbLTc5MzEwOTcwMywxOTQ5NDM2MTQzLDYyNz
 Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
 MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
 gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
