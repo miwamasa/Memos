@@ -6,21 +6,11 @@
 
 
 
-MicrosoftのBuild2024が開催、Copilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れる、Copilot Studioの更新や、人の代わりに会議の司会をしてくれるTeam Copilot、さらには、ソフトウエア開発をサポートする「Devin」との提携など、目白押し。まあゲームをサポートするcopilot assistantのデモをGemini 1.5 Flashで再現できたの報告も。さて来月のAppleの WWDC24はどうなる。
+さて今週は、MicrosoftのBuild2024が開催、Copilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れる、Copilot Studioの更新や、人の代わりに会議の司会をしてくれるTeam Copilot、さらには、ソフトウエア開発をサポートする「Devin」との提携など、目白押し。まあゲームをサポートするcopilot assistantのデモをGemini 1.5 Flashで再現できたの報告も。さて来月のAppleの WWDC24はどうなる。基盤技術では、チューリングテストでGPT-4は54%の確率で人間だと判断されたというのは、もう驚かない。もやはLLMの発展は人間が律速で頭打ちになっている。一方AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネット上にLLMの性質をあるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。
 
-チューリングテストでGPT-4は54%の確率で人間だと判断されたというのは、もう驚かない。もやはLLMの発展は人間が律速で頭打ちになっている。一方AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネット上にLLMの性質をあるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。
-
-知識グラフのRAGも熱いが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそうなるかな。今井さんのGPT-4oを研究者視点で解説した記事のシリーズは気になる。
+知識グラフのRAGも熱いが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそうなるかな。今井さんのGPT-4oを研究者視点で「時代の転換点」と解説した記事のシリーズは気になる。
 
 深津さんの、横須賀市の未完成のお悩み相談チャットボット。不完全でもベータ公開というわりにやっぱよくできている。その深津さんが、生成AI時代に大事なスキルは、「やり続ける能力」、いくら生成ＡＩが優れていてもめげないことが大切。
-
-
-
-
-
-
-
-
 
 ローカルLLMも相変わらず熱い！。今週も、Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaも即追従、raw modeって何さ？一方、マルチモーダルも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。Transformers.js and ONNX Runtime Webというのも、ローカルLLMの協力な助っ人か。Cohereが多言語指向のオープンLLMであるAya 23 の 8B と35Bがリリース、日本語強そう。しかし、Phi-3は、「最も有能で費用対効果のSML (Small Language Model)」っていうんだ。 ChatVector、7BモデルのFineTuning結果を70Bに転移させて性能向上したり、LLaVAの日本語化など、ローカルLLMでもその能力をふくめて認知や利用が増えてきた。
 
@@ -3688,10 +3678,9 @@ EUのAI法が最終合意、一方OECDはAIリスクに関する用語を整理�
 	- https://huggingface.co/mmnga/HachiML-youri-2x7b_v0.2-gguf
 	- This model is a Mixture of Experts (MoE) merger of the following two models:
 	- [rinna/youri-7b-instruction](https://huggingface.co/rinna/youri-7b-instruction)
-	- [rinna/youri-7b-chat](https://huggingface.co/rinna/youri-7b-chat)
-- mambaを分散学習
+	- [rinna/youri-7b-chat](https://huggingface.co/rinna/youri-7b-cha
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzIzMzEzMSw1ODcyNjA0ODMsLTE4MD
+eyJoaXN0b3J5IjpbMTg3OTAxODA1Miw1ODcyNjA0ODMsLTE4MD
 U0ODc1MjUsMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1
 MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMT
 cwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1
