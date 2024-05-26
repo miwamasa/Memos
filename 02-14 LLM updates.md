@@ -182,7 +182,11 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - Large Language Models Meet NLP: A Survey
 	- https://arxiv.org/abs/2405.12819
 	- Provides a comprehensive survey of how LLMs are applied to NLP tasks, introducing a new taxonomy and discussing current progress, future frontiers, and challenges.
-	- 
+- Mistral AI's Mistral v0.3 supports function calling with Ollama's raw mode!
+	- https://x.com/ollama/status/1793392887612260370
+	- Ollama raw mode
+		- https://github.com/ollama/ollama/blob/main/docs/api.md#request-raw-mode
+- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3693,13 +3697,9 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- 結果：
 		- 日本語を含むデータの追加事前学習により日本語化したモデルにおいて、英語の性能の劣化は生じてしまう。
 		- 日本語のSFTにより、日本語化モデルの英語の指示追従能力も一定回復させることができる。
-		- 追加事前学習に英語のデータセットを追加した場合、英語タスクでの性能劣化を緩和可能である。
-		- 日本語の語彙拡張は日本語の事前学習時の性能劣化を顕著にするものの、SFTによる性能の上昇をより享受できる可能性がある。
-- 【新刊】「強化学習から信頼できる意思決定へ」、サイエンス社
-	- 梶野　洸(日本IBM)・宮口航平(日本IBM)・恐神貴行(日本IBM)・岩城　諒(日本IBM)・和地瞭良(LINEヤフー)　共著　
-	- https://www.saiensu.co.jp/search/?isbn=97
+		- 追加事前学習に英語のデータセットを追加した場合、英語タスク
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDAyOTkzNywtMTEyODAwNDIxMSwtMT
+eyJoaXN0b3J5IjpbMTA2NjgyOTI3MSwtMTEyODAwNDIxMSwtMT
 Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
 MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
 czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
