@@ -235,7 +235,14 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://x.com/Xianbao_QIAN/status/1794034052347171055
 	- Not only because its significant improvements to both key components of Transformer: the Attention layer and FFN layer. 
 	- It has also completed disrupted the Chines LLM market and forcing the competitors to drop the price to 1% of the original price.
-- 
+- Difyを使うメリットの一つが開発したChatbotやワークフローを簡単にWEBでシェアできること
+	- https://x.com/gijigae/status/1793437095727665588
+- ハル・ベリーニューロンがAIで実体験できる時代が到来
+	- https://x.com/webbigdata/status/1794030396990226803
+	- ハル・ベリーさんという、X-MENのストームとかキャットウーマン役をやってるアメリカの女優さんがいるのですが、ある患者さんの特定のニューロンが「ハル・ベリーの写真」や「ハル・ベリー」というテキストに対して活性化する事が観察されたという研究がある。
+	- 5月21日にanthropicがClaude 3 Sonnetで何百万もの概念がどのように表現されているかを特定できたよ～と発表し、
+	- その技術を使って、サンフランシスコのゴールデン ゲート ブリッジ(Golden Gate Bridge)に対応するニューロンを活性化させてている「Golden Gate Claude」と実験的に対話できるようにしたよ～と発表したのが昨日ですね。
+	- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3685,22 +3692,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://openai.com/blog/democratic-inputs-to-ai-grant-program-update
 	- AIに多種多様な世界中の公的な意見を反映させるシステムの開発を担う。 以前AIへの民主的インプットのアイデアを募集していたが、1000の応募者があり以下画像のように10のチームのアイディアが選抜された
 -  再考: お買い得物件を機械学習で見つける方法
-	- https://speakerdeck.com/ktgrstsh/rethink-method-to-find-cheap-rental-houses-by-machine-learning
-	- 賃貸データのスクレイピングであれば，こちらのページが参考になりました
-- WikiChatの話
-	- https://arxiv.org/abs/2305.14292
-	- WikiChat はファクトチェック及びコンテキストに，RAG 等でよく利用される Wiki を利用するライブラリで，高い factfulness を備えるとしている
-- Animagine XL 3.0 、Hugging Faceのトレンドで1位を達成
-	- https://huggingface.co/spaces/DamarJati/Animagine-XL-3.0
-	- 1月10日、Cagliostro Research Labが、**拡散モデルベースのText-to-Imageの画像生成モデル「Animagine XL 3.0」**を公開しました。
-	- https://weel.co.jp/media/animagine-xl-3-0
-- Blending, Merging, and Stacking multiple smaller LLMs mak
+	- https://speakerdeck.com/ktgrstsh/rethink-method-to-find-cheap-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTYxNDg1MCwtMTEyODAwNDIxMSwtMT
-Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
-MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzRdfQ==
+eyJoaXN0b3J5IjpbNjkwNjg4MTU4LC0xMTI4MDA0MjExLC0xND
+g3NzUwOTc0LDE5NDk0MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUx
+NywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5Nz
+M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
+MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
+kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
+NF19
 -->
