@@ -147,7 +147,12 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://x.com/_nat/status/1792915589570154637
 - マイクロソフト、自律型AIソフトウェアエンジニア「Devin」のCognition AIと提携を発表。Azure上でDevinを提供へ
 	- https://www.publickey1.jp/blog/24/aidevincognition_aiazuredevin.html
-- 
+-  Mapping the Mind of a Large Language Model
+	- https://www.anthropic.com/research/mapping-mind-language-model
+	- Anthropic has just revealed some exciting news about Claude Sonnet. They've successfully identified how millions of concepts are represented inside this massive model!
+- ollama run phi3:medium
+	- https://x.com/ollama/status/1793067457382343134
+	- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3689,20 +3694,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- This 185-page monograph provides a summary of major algorithmic milestones in the vector retrieval literature, with the goal of serving as a self-contained reference for new and established researchers.
 	- LLM時代のコンテンツのベクトル化と検索についてのサーベイであり包括論文
 - A Cheat Sheet and Some Recipes For Building Advanced RAG
-	- https://blog.llamaindex.ai/a-cheat-sheet-and-some-recipes-for-building-advanced-rag-803a9d94c41b
-- 米Metaが1万人の追加レイオフ、5000人の採用も中止
-	- https://xtech.nikkei.com/atcl/nxt/news/18/14833/
-	- メタは2万人レイオフして35万台のH100を買いました
--  OpenAI Node API Library 入門 by npakaさん
-	- https://note.com/npaka/n/n2f8c08965316?sub_rt=share_h
-	- 「OpenAI Node API Library」は、TypeScript / JavaScriptから「OpenAI API」にアクセスする機能を提供します。
--  G
+	- https://blog.llamaindex.ai/a-cheat-shee
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mj
-c0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAw
-LDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OT
-g4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYz
-MSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNz
-k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
-NjZdfQ==
+eyJoaXN0b3J5IjpbMTEzNjIxMjQ5OCwtMTQ4Nzc1MDk3NCwxOT
+Q5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5
+NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOT
+k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
+NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
+QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
+NV19
 -->
