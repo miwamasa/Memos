@@ -211,7 +211,11 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://www8.cao.go.jp/cstp/ai/ai_senryaku/9kai/shiryo1-4.pdf
 	- AI戦略会議の松尾研の資料「生成AIの産業における可能性」
 	- まずは受託開発で社会を学ぶ。 受託開発で地域の企業のDXを支援しつつ、一緒にグローバルに出ていく
-- 
+- 世界初、AI技術による原油処理装置の自動運転を開始　PFN
+	- https://www.preferred.jp/ja/news/pr20240524/
+- 機械学習による反応予測の論文
+	- https://chemrxiv.org/engage/chemrxiv/article-details/664de6a821291e5d1df74ac0
+	- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3700,15 +3704,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy
 	- https://arxiv.org/abs/2310.01334
 	- MoEってメモリ食うので、これを圧縮やスパース性に着目して軽量化する、80%の削減！
-	- We merge experts THEN compress/decompose merged experts→low-rank. Up to 80% mem reduction! 🎉
-- mix_self_consistency pack by llamaindex
-	- https://llamahub.ai/l/llama_packs-tables-mix_self_consistency?from=llam
+	- We merge experts THEN compress/d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2MzIwNzQ1LC0xMTI4MDA0MjExLC0xND
-g3NzUwOTc0LDE5NDk0MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUx
-NywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5Nz
-M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
-MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
-kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
-NF19
+eyJoaXN0b3J5IjpbLTEzODA2Mjk4MjEsLTExMjgwMDQyMTEsLT
+E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
+NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
+k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
+NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
+g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
+Nzc0XX0=
 -->
