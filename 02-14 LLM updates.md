@@ -64,8 +64,13 @@
 	- https://arxiv.org/abs/2405.10938
 - BREAKING: Council of Europe adopts 1st international treaty on AI. Here's what you need to know:
 	- https://x.com/LuizaJarovsky/status/1792224914646200512
+-  Empowering Small-Scale Knowledge Graphs: A Strategy of Leveraging General-Purpose Knowledge Graphs for Enriched Embeddings
+	- https://arxiv.org/abs/2405.10938
+- 論文メモ: Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models b y はちさん
+	- https://note.com/hatti8/n/nb61b4935c793?sub_rt=share_pb
+	- Googleが先週出したLLMの自己改善手法であるReSTEMについて、メモを書きました。
+	- 合成データ生成手法としてどうかという視点で書いています
 - 
-
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3684,19 +3689,13 @@
 
 ## 1/15
 
-Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデル。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。小規模言語モデルではTinyLlamaってのもありました、Macでも快適に動く模様。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）という報告も。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？Duolingoのリストラ、そういう気もするが、googleのAMIEのように、そもそも人材不足の分野での専門家AIの登場という側面もある。GoogleのDynamicPlanって、あれどこかで見たような気もするが、データサイエンティストはリストラされる側になるのか、それとも専門家AIとしてだれでも使えるようになるのか？
-
-- Lookahead: An Inference Acceleration Framework for Large Language Model with Lossless Generation Accuracy
-	- https://arxiv.org/abs/2312.12728
-	- LLMの出力品質を落とさずに推論速度をスピードアップさせるための手法
-	- ■『Lookahead』のアイデア 
-		- 1. 生成の枝分かれ（ブランチ）を作る - ブランチを作成は並行処理す
+Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデル。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。小規模言語モデルではTinyLlamaってのもありました、Macでも快適に動く模様。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）という報告も。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？Duolingo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU2OTI0MDYsMTk0OTQzNjE0Myw2Mj
-c0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAw
-LDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OT
-g4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYz
-MSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNz
-k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
-NjZdfQ==
+eyJoaXN0b3J5IjpbLTUwMDQ5MDcyMSwxOTQ5NDM2MTQzLDYyNz
+Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
+MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
+gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
+LC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
+cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
+Nl19
 -->
