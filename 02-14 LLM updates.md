@@ -3,6 +3,9 @@
 
 ## 5/27
 
+gpt-4oさんに下書きしてもらってから書いてます。量的に、もう無理です。
+
+
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
 	- https://medium.com/@transformergpt/unleashing-the-power-of-knowledge-graphs-in-retrieval-augmented-generation-rag-step-by-step-84c2adc66c1c
 	- This is a neat resource by Jayita B. on teaching you how to not only build an advanced RAG indexing/query pipeline, but also turn it into a full-stack application with rapid respons
@@ -142,6 +145,8 @@
 	- https://huggingface.co/nisten/phi3-medium-4k-gguf
 - 本日（5/20）、EUのデジタルアイデンティティ法が施行
 	- https://x.com/_nat/status/1792915589570154637
+- マイクロソフト、自律型AIソフトウェアエンジニア「Devin」のCognition AIと提携を発表。Azure上でDevinを提供へ
+	- https://www.publickey1.jp/blog/24/aidevincognition_aiazuredevin.html
 - 
 ## 5/20
 
@@ -3691,16 +3696,13 @@
 -  OpenAI Node API Library 入門 by npakaさん
 	- https://note.com/npaka/n/n2f8c08965316?sub_rt=share_h
 	- 「OpenAI Node API Library」は、TypeScript / JavaScriptから「OpenAI API」にアクセスする機能を提供します。
--  GraphGPT: Graph Learning with Generative Pre-trained Transformers
-	- https://arxiv.org/abs/2401.00529
-	- グラフ×Transformerによる物性予測の論文
-	- グラフを文字列に変換しTransformerで学習するGraphGPTを提案、従来のGNNでは難しい
+-  G
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE0MTE1MiwxOTQ5NDM2MTQzLDYyNz
-Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
-MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
-gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
-LC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
-cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
-Nl19
+eyJoaXN0b3J5IjpbLTE0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mj
+c0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAw
+LDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OT
+g4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYz
+MSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNz
+k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
+NjZdfQ==
 -->
