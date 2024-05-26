@@ -120,8 +120,14 @@
 	- Available now in Beta
 		- https://80.lv/articles/long-awaited-procedural-city-generator-for-blender-is-now-available/
 - Microsoft、Copilot Studioの新機能を発表
-	- 
-		- 
+	- https://x.com/shota7180/status/1792966382990270739
+	- Copilot Studioの更新により、誰でもエージェント機能を持つコパイロットを構築可能に
+	- このコパイロットは、ユーザーの代わりに独立して積極的にタスクを調整・実行
+	- 特定の役割や機能に合わせてタスクを個別に調整できる
+- MIcrosoft's Phi-3 really is an astonishingly good model
+	- https://x.com/simonw/status/1792691120675467288
+	- MIT licensed and small enough to run in a browser on WebGPU (about a 2.3GB downloads), but still provides high quality results for a lot of the stuff I care about
+- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3690,22 +3696,13 @@
 	- https://arxiv.org/abs/2401.06066
 	- DeepSeekMoEはLLMのMoEで
 		- 1) Expertをさらに細かくし64に増やすと共に選択されるExpert数も8に増やす 
-		- 2) 共有知識を使えるよう常に選択されるExpertを用意。デバイス毎の負荷分散を重視し実行効率をあげる。
-		-  同じ計算量のDenseや従来MoEに対し性能を改善
-- llama3の開発とオープンソース化に関してザッカーバーグのビデオメッセージが出回る
-	- https://twitter.com/i/status/1748058491343061458
-	- 年内に35万台のH100を活用可能インフラを構築
-	- H100相当品も含めると60万台のH100に匹敵 
-	- 以下はビデオメッセージからの書き起こし by AI
-		- メタは一般的な知能を構築し、オープンソース化し、みんなに利用できるようにするという長期的な目標のために、2つのAI研究プロジェクトを統合すると発表した。
-		- 次世代のサービスには、推論、計画、コーディング、記憶などのAIの各分野での進歩が必要であると述べた。
-		- この技術は非常に重要であり、機会も大きいので、責任を持ってオープンソース化し、できるだけ広く利用できるようにするべきだと主張した。
+		- 2) 共有知識を使えるよう常に選択されるExpertを用意
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzEwOTcwMywxOTQ5NDM2MTQzLDYyNz
-Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
-MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
-gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
-LC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
-cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
-Nl19
+eyJoaXN0b3J5IjpbLTE2MDU1ODE1LDE5NDk0MzYxNDMsNjI3ND
+c2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwx
+Mzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEyMiwtODk4OD
+MyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEs
+LTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5Nz
+IxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2
+XX0=
 -->
