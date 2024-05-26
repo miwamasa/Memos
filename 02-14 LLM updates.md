@@ -8,6 +8,8 @@
 
 MicrosoftのBuild2024が開催、Copilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れる、Copilot Studioの更新や、人の代わりに会議の司会をしてくれるTeam Copilotなど、目白押し。来月のAppleの WWDC24はどうなる。
 
+深津さんの、横須賀市の未完成のお悩み相談チャットボット。不完全でもベータ公開というわりにやっぱよくできている。
+
 ChatVector、7BモデルのFineTuning結果を70Bに転移させて性能向上したり、LLaVAの日本語化など、その能力をふくめて認知や利用が増えてきた。
 
 AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネットにLLMの性質をあるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。
@@ -3689,10 +3691,9 @@ AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニュー�
 	- https://x.com/usutaku_com/status/1747119405702795383?s=20
 -  how to build advanced QA over Tabular Data
 	- llamaindexより、
-	- https://x.com/llama_index/status/1747289513934864493?s=20
-	- Query Pipeline
+	- https://x.com/llam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2MzMzNTUyLC0xODA1NDg3NTI1LDEzMj
+eyJoaXN0b3J5IjpbNjI0OTAwMjUwLC0xODA1NDg3NTI1LDEzMj
 gxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0OTQz
 NjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMT
 kyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1
