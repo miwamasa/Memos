@@ -186,9 +186,12 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://x.com/ollama/status/1793392887612260370
 	- Ollama raw mode
 		- https://github.com/ollama/ollama/blob/main/docs/api.md#request-raw-mode
-- Mistral-7BとPhi-3もこの際ElyzaTasks100で評価してみた。
+- Mistral-7BとPhi-3もこの際ElyzaTasks100で評価してみた。by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1793550842353820014
 	- まずMistral-7Bはv0.1が2.46、v0.2が2.69（やたら英語で回答してくるので半分以上英語の回答は手作業で1点に減らした）、からの今回のv0.3は3.52！見違えるくらい日本語能力が強化されてます。英語で答えちゃう問題もほぼ起きない。
 	- Phi3は3.8Bのmini-128kがまさかの3.26というこのパラ数にしては高すぎるスコアでなぜかsmall-128kに勝ってしまってます。
+	- small-8kは3.28で、miniと大差ないという意味では残念。同パラのMistral-7B-v0.3にも負けてる。
+	- でもmedium-128kは14Bパラで3.96というバケモンみたいなスコアが出てます。これはすごすぎ
 	- 
 ## 5/20
 
@@ -3691,12 +3694,9 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://x.com/itmedia_news/status/1747490194486632764?s=20
 - Can AI Be as Creative as Humans?"
 	- https://arxiv.org/abs/2401.01623
-	- 「AIは人間と同じくらいクリエイティブになれるのか？」というテーマで、DeepMind・Microsoft・スタンフォード大学などが共同で研究しています。
-	- 『AIが創り出した作品が人間のそれと見分けがつかなくなったら、AIはクリエイティブだと言える』
-	- AIの創造性を具体的な数値で評価したい →フレームワークを作成
-- ELYZAが公開した日本語LLM「ELYZA-japanese-Llama-2-7b」についての解説 : (3) 英語
+	- 「AIは人間と同じくらいクリエイティブになれるのか？」というテーマで、DeepMin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODI4NDY2MCwtMTEyODAwNDIxMSwtMT
+eyJoaXN0b3J5IjpbLTE2MDcwMTQwMCwtMTEyODAwNDIxMSwtMT
 Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
 MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
 czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
