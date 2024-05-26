@@ -25,7 +25,11 @@
 	- https://www.city.yokosuka.kanagawa.jp/0835/nagekomi/20240520_soudanbot_nyanpei.html
 	- あえて未完成のボットを公開して、広く不具合をあつめる実験です！！
 	- さすがのでき前！
-- 
+- 円の実力と日本企業の通貨戦略（配付資料・動画配信
+	- https://www.youtube.com/watch?v=reLhpQg9muo
+- 「kagglehub を使った大規模言語モデル gemma のファインチューニングとモデル共有」
+	- https://www.kaggle.com/code/makimakiai/kagglehub-gemma
+	- 
 
 ## 5/20
 
@@ -3690,13 +3694,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 - 人工知能という分野が謙虚であったことなど一度もない
 	- https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/286548
 	- 岩波書店「科学」2023/12月号に掲載された、大規模言語モデルと人間の言語能力についての討論形式論文
-- WikiChat=Wikipedia + LLM
-	- https://wikichat.genie.stanford.edu/
-	- https://github.com/stanford-oval/WikiChat
-	- stanfordのwikichat、事実性でGPT-4 よりも55.0%優れているという事でもの凄い 
-	- しかし、LLaMA7Bモデルがベースの割に
+- WikiCha
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTQzNjE2MywxMDIzOTI1MTcsMTcwNT
+eyJoaXN0b3J5IjpbLTU4MjYzMDg0MiwxMDIzOTI1MTcsMTcwNT
 c0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1Njkz
 LDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OT
 U4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5
