@@ -22,6 +22,7 @@
 	- 今回使用するLLaVAの重みは[liuhaotian/llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b)です。このモデルのベースのLLMは[meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf)です。
 	- Chat Vectorやその他のマージ手法を使用することで、英語のデータセットを日本語に翻訳して、学習させるという手間が必要なくなる可能性があるのはありがたいなと感じました。
 - 横須賀市で、未完成のお悩み相談チャットボットをリリースしました。 by 深澤さん
+	- https://www.city.yokosuka.kanagawa.jp/0835/nagekomi/20240520_soudanbot_nyanpei.html
 	- 
 
 ## 5/20
@@ -3693,14 +3694,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- stanfordのwikichat、事実性でGPT-4 よりも55.0%優れているという事でもの凄い 
 	- しかし、LLaMA7Bモデルがベースの割に要求スペックももの凄い
 		- 動作させるには約100GBのRAMが必要 
-		- 速度を犠牲にRAM の使用量を削減できるがそれでも約35GBが必要
-- Blending Is All You Need: Cheaper, Better Alternative to T
+		- 速度を犠牲にR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzY2NTc1MjAsMTAyMzkyNTE3LDE3MD
-U3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5
-MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNj
-k1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYw
-OSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4Mj
-U0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4
-NTQyXX0=
+eyJoaXN0b3J5IjpbMTk5NzY2Njg2MywxMDIzOTI1MTcsMTcwNT
+c0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1Njkz
+LDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OT
+U4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5
+LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNT
+Q1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1
+NDJdfQ==
 -->
