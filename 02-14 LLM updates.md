@@ -73,7 +73,10 @@
 - p値姫（サンプル数編）
 	- https://x.com/spine_surgeon_/status/1792767885615759746
 	- 「マリオへ、実験結果いい感じです！いい感じなんですけど、有意差でるまでサンプル数増やしてみてください。有意差出るまで連絡は不要です。ピーチより。」
-- 
+- People cannot distinguish GPT-4 from a human in a Turing test
+	- https://arxiv.org/abs/2405.08007
+	- AIの人間らしさを測るテストで世界一有名なチューリングテストですが，さんざん「もうAIはチューリングテスト突破できるやろ」と言われてたのを真面目に分析した論文が出ました
+	- 結論は「現在のGPT-4などの最先端AIは，チューリングテストを突破可能であり，人間はもはや人とAIを会話のみから判定することはできない」というものです．GPT-4は54%の確率で人間だと判断された模様
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3692,13 +3695,13 @@
 
 ## 1/15
 
-Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデル。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。小規模言語モデルではTinyLlamaってのもありました、Macでも快適に動く模様。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる
+Mi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjQ0MTkwNywxOTQ5NDM2MTQzLDYyNz
-Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
-MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
-gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
-LC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
-cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
-Nl19
+eyJoaXN0b3J5IjpbNDc3NjI4NjYxLDE5NDk0MzYxNDMsNjI3ND
+c2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwx
+Mzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEyMiwtODk4OD
+MyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEs
+LTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5Nz
+IxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2
+XX0=
 -->
