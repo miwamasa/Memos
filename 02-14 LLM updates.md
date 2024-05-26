@@ -245,7 +245,10 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- 一言で言えば、やたらめったらゴールデン ゲート ブリッジ推しをしてくるAIで、色々なタイミングでゴールデン ゲート ブリッジを推薦してきます。
 - streamlitでデプロイするイメージです。 GitHubと接続すれば、本当に爆速で
 	- https://x.com/kenken26679105/status/1793889080385925580
-	- 
+- ChatVectorで7BモデルのFineTuning結果を70Bに転移させるみたいな話、by はちさん
+	- https://x.com/CurveWeb/status/1794203714422759707
+	- 事前学習では既に小さいモデルで事前学習→セルフマージで大モデル化っていうのができているのでなんとなくできて然るべき感ある。
+
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3690,16 +3693,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - xverse/XVERSE-13B-256K
 	- https://huggingface.co/xverse/XVERSE-13B-256K
 	- ローカルLLMの長文対応がついに256K（約25万字）
-	- XVERSEはABF+継続的pre-trainingとNTK+SFT技術を用いてプロセスを最適化。これにより、モデルのシーケンス長を大幅に拡張することが可能となった
-- Open AIは「Collective Alignment team」を結成
-	- https://openai.com/blog/democratic-inputs-to-ai-grant-program-update
-	- AIに多種多様な世界中の
+	- XVERSEはABF+継続的pre-trainingとNTK+SFT技術を用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg3Mzk3MDYsLTExMjgwMDQyMTEsLT
-E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
-NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
-k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
-NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
-g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
-Nzc0XX0=
+eyJoaXN0b3J5IjpbMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMT
+Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
+MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
+czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
+MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
+Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
+NzRdfQ==
 -->
