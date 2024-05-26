@@ -152,6 +152,8 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- Anthropic has just revealed some exciting news about Claude Sonnet. They've successfully identified how millions of concepts are represented inside this massive model!
 - ollama run phi3:medium
 	- https://x.com/ollama/status/1793067457382343134
+- Phi-3-vision ・ Phi-3-medium ・ Phi-3-small の概要 by npakaさん
+	- https://note.com/npaka/n/nb050244392a4?sub_rt=share_h
 	- 
 ## 5/20
 
@@ -3692,15 +3694,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - Foundations of Vector Retrieval
 	- https://arxiv.org/abs/2401.09350
 	- This 185-page monograph provides a summary of major algorithmic milestones in the vector retrieval literature, with the goal of serving as a self-contained reference for new and established researchers.
-	- LLM時代のコンテンツのベクトル化と検索についてのサーベイであり包括論文
-- A Cheat Sheet and Some Recipes For Building Advanced RAG
-	- https://blog.llamaindex.ai/a-cheat-shee
+	- LLM時代のコンテンツのベクトル化と検索につ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjIxMjQ5OCwtMTQ4Nzc1MDk3NCwxOT
-Q5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5
-NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOT
-k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
-NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
-QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
-NV19
+eyJoaXN0b3J5IjpbNjM5ODc3OTk3LC0xNDg3NzUwOTc0LDE5ND
+k0MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2
+LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OT
+czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
+NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
+A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
+XX0=
 -->
