@@ -77,7 +77,11 @@
 	- https://arxiv.org/abs/2405.08007
 	- AIの人間らしさを測るテストで世界一有名なチューリングテストですが，さんざん「もうAIはチューリングテスト突破できるやろ」と言われてたのを真面目に分析した論文が出ました
 	- 結論は「現在のGPT-4などの最先端AIは，チューリングテストを突破可能であり，人間はもはや人とAIを会話のみから判定することはできない」というものです．GPT-4は54%の確率で人間だと判断された模様
-- 
+- 最近ローカルLLMがアツいらしい
+	- https://soysoftware.sakura.ne.jp/archives/3903
+	- GPTのAPI高い問題 ＆ OpenAIがAIベンチャー皆殺しにしてしまう問題
+	- ローカルLLM推論ライブラリが色々ある
+	- 強力な大型オープンなAIモデルが公開されはじめてる
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3689,14 +3693,9 @@
 - 【新刊】「多様体上の最適化理論」
 	- https://www.ohmsha.co.jp/book/9784274231186/
 	- 本書は、多様体上の最適化理論について、基礎となる数理から応用例までを解説するものです。  
-	- 多様体上の最適化を学ぶ、あるいは研究する読者は  
-		- ユークリッド空間上の連続最適化をひととおり学んだ後、その抽象化の仕方の一つとして多様体上への拡張について学ぶ  
-		- 多様体をはじめとした幾何学に慣れ親しんだ読者が、そうした理論の最適化への応用について学ぶ  
-		- 最適化と幾何学の知識をもつ読者が、両者の融合について学ぶ
-
-## 1/15
+	- 多様体上の最適化を学ぶ、あるいは研究す
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDM0OTY5MCwxOTQ5NDM2MTQzLDYyNz
+eyJoaXN0b3J5IjpbLTc2NjYxOTMzOSwxOTQ5NDM2MTQzLDYyNz
 Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
 MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
 gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
