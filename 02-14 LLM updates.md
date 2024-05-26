@@ -158,7 +158,11 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- 「Phi-3-vision」は、チャートや図から洞察を生み出すことができます。
 	- 「Phi-3-small」「Phi-3-medium」は、同じサイズの言語モデルだけでなく、はるかに大きい言語モデルよりも優れたパフォーマンスを発揮します
 	- SLMは、より単純なタスクでうまく機能するように設計されており、リソースが限られている組織にとってよりアクセスしやすく、使いやすく、特定のニーズに合わせてより簡単にファインチューニングできます
--  GPT-4oをわかりやすく解説、専門家が「時代の転換点」と評価するヤバすぎる能力とは
+-  GPT-4oをわかりやすく解説、専門家が「時代の転換点」と評価するヤバすぎる能力とは by 今井さん
+	- https://www.sbbit.jp/article/cont1/140613
+	- OpenAIのGPT-4oを研究者視点で解説した記事が出ました! 速報的な記事の依頼でしたが,やはり研究者が書くということで情報をすべて詰め込んだ1万文近いガチ解説記事になりました.3回の連載です.
+	- 言語,音声,動画像,後半ではGPT-4oの「弱み」等,日本語記事では一番詳しいはず
+- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3691,16 +3695,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - WaveCoder: Widespread And Versatile Enhanced Instruction Tuning with Refined Data Generation
 	- https://arxiv.org/abs/2312.14187
 	- Introduce WaveCoder-Ultra-6.7B with the closest capabilities to GPT-4 so far.
-	- WaveCoder-Ultra-6.7B is the newest SOTA open-source Code LLM on multiple tasks.
-- LangGraphの説明ブログが公開
-	- https://blog.langchain.dev/langgraph/
-	- We previewed LangGraph last week, but excited to dive a lot more into why we're 
+	- WaveCoder-Ultra-6.7B i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzU1OTQ3NCwtMTQ4Nzc1MDk3NCwxOT
-Q5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5
-NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOT
-k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
-NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
-QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
-NV19
+eyJoaXN0b3J5IjpbLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMT
+k0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2
+OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMD
+k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
+MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
+g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
+MzVdfQ==
 -->
