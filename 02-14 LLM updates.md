@@ -138,6 +138,10 @@
 		- https://trytako.com/blog/introducing-tako-and-perplexity-integration
 - Team Copilot by Microsoft 
 	- https://x.com/msdev/status/1792967099519758822
+- 13B phi-medium-4k GGUF files here, model is looking very very good.
+	- https://huggingface.co/nisten/phi3-medium-4k-gguf
+- 本日（5/20）、EUのデジタルアイデンティティ法が施行
+	- https://x.com/_nat/status/1792915589570154637
 - 
 ## 5/20
 
@@ -3690,17 +3694,13 @@
 -  GraphGPT: Graph Learning with Generative Pre-trained Transformers
 	- https://arxiv.org/abs/2401.00529
 	- グラフ×Transformerによる物性予測の論文
-	- グラフを文字列に変換しTransformerで学習するGraphGPTを提案、従来のGNNでは難しい400Mパラメータで事前学習モデル構築、これを微調整することで分子物性を高精度に予測できたそうです。
-- LLMマルチエージェントを俯瞰する
-	- https://speakerdeck.com/masatoto/llmmarutiezientowofu-kan-suru
-	- 文献の内容をもっと深掘りしたら普通に出版できるレベルだわこれ
--  Code Generation with AlphaCod
+	- グラフを文字列に変換しTransformerで学習するGraphGPTを提案、従来のGNNでは難しい
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3NzczMzQ1LDE5NDk0MzYxNDMsNjI3ND
-c2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwx
-Mzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEyMiwtODk4OD
-MyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEs
-LTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5Nz
-IxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2
-XX0=
+eyJoaXN0b3J5IjpbLTIwNTE0MTE1MiwxOTQ5NDM2MTQzLDYyNz
+Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
+MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
+gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
+LC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
+cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
+Nl19
 -->
