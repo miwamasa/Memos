@@ -154,7 +154,11 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://x.com/ollama/status/1793067457382343134
 - Phi-3-vision ・ Phi-3-medium ・ Phi-3-small の概要 by npakaさん
 	- https://note.com/npaka/n/nb050244392a4?sub_rt=share_h
-	- 
+	- 「Phi-3」は、最も有能で費用対効果のSML (Small Language Model) であり、さまざまな言語、推論、コーディング、数学のベンチマークで同じサイズと次のサイズのモデルを上回っています
+	- 「Phi-3-vision」は、チャートや図から洞察を生み出すことができます。
+	- 「Phi-3-small」「Phi-3-medium」は、同じサイズの言語モデルだけでなく、はるかに大きい言語モデルよりも優れたパフォーマンスを発揮します
+	- SLMは、より単純なタスクでうまく機能するように設計されており、リソースが限られている組織にとってよりアクセスしやすく、使いやすく、特定のニーズに合わせてより簡単にファインチューニングできます
+-  GPT-4oをわかりやすく解説、専門家が「時代の転換点」と評価するヤバすぎる能力とは
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3690,17 +3694,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- WaveCoder-Ultra-6.7B is the newest SOTA open-source Code LLM on multiple tasks.
 - LangGraphの説明ブログが公開
 	- https://blog.langchain.dev/langgraph/
-	- We previewed LangGraph last week, but excited to dive a lot more into why we're building this, the details of what it looks like, and some more examples
-- Foundations of Vector Retrieval
-	- https://arxiv.org/abs/2401.09350
-	- This 185-page monograph provides a summary of major algorithmic milestones in the vector retrieval literature, with the goal of serving as a self-contained reference for new and established researchers.
-	- LLM時代のコンテンツのベクトル化と検索につ
+	- We previewed LangGraph last week, but excited to dive a lot more into why we're 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5ODc3OTk3LC0xNDg3NzUwOTc0LDE5ND
-k0MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2
-LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OT
-czNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1
-NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4ND
-A5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1
-XX0=
+eyJoaXN0b3J5IjpbLTgzMzU1OTQ3NCwtMTQ4Nzc1MDk3NCwxOT
+Q5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5
+NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOT
+k3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQw
+NTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4OD
+QwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAz
+NV19
 -->
