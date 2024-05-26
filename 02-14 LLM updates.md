@@ -192,7 +192,15 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- Phi3は3.8Bのmini-128kがまさかの3.26というこのパラ数にしては高すぎるスコアでなぜかsmall-128kに勝ってしまってます。
 	- small-8kは3.28で、miniと大差ないという意味では残念。同パラのMistral-7B-v0.3にも負けてる。
 	- でもmedium-128kは14Bパラで3.96というバケモンみたいなスコアが出てます。これはすごすぎ
-	- 
+- GPT-4oとGPT-4TurboのElyzaTasks100の平均スコア、
+	- https://x.com/umiyuki_ai/status/1793540614551904762
+	- 気になってたのでAPI代払って評価してみた。
+	- GPT-4Turboが4.44、GPT-4oが4.51！やっぱりエゲつない超スコア！
+	- オープンなモデルがGPT-4Tに追い付いてきたなんてちょっと言えなくなった
+- Phi-3-MediumのMMLUスコアはLlama3-70B並み… by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1793614730403434950
+	- やっぱり伊達じゃないらしいね。ElyzaTasks100でも匹敵してるもん。しかし信じがたいね 
+- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3688,19 +3696,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- “Rethinking Tabular Data Understanding”の実装
 	- 1.  Index and embed each row
 	- 2. In the text-to-SQL prompt (or auto-retrieval prompt), add *few shot examples of rows*: given the first k rows in the prompt, retrieve the top-k rows matching the user query.
-	- 3. Execute text-to-SQL prompt (or auto-retrieval prompt) to infer the right query (SQL or metadata filters).
-	- 4. Execute query to get back result.
-- 生成AIの業界団体「Generative AI Japan」発足　ベネッセが発起　マイクロソフト、AWS、Google、オラクルなどの幹部が理事に
-	- https://x.com/itmedia_news/status/1747490194486632764?s=20
-- Can AI Be as Creative as Humans?"
-	- https://arxiv.org/abs/2401.01623
-	- 「AIは人間と同じくらいクリエイティブになれるのか？」というテーマで、DeepMin
+	- 3. Execute text-to-SQL prompt (or auto-re
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDcwMTQwMCwtMTEyODAwNDIxMSwtMT
-Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
-MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzRdfQ==
+eyJoaXN0b3J5IjpbLTQ3OTI3MjIsLTExMjgwMDQyMTEsLTE0OD
+c3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3
+LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3Mz
+gwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTEx
+MSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OT
+A0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0
+XX0=
 -->
