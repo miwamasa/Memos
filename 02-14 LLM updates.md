@@ -99,11 +99,15 @@
 - Knowledge Cards by Perplexty	
 	- https://x.com/perplexity_ai/status/1792948540542517458
 	- We’re teaming up with @TakoViz to bring advanced knowledge search and visualization to our users. Now, you can search, juxtapose, and share authoritative knowledge cards in Perplexity.
+	- Perplexityが高度な情報検索と視覚化ができる「knowledge cards」という機能をリリース。
 - GraphRAG: Using Knowledge in Unstructured Data to Build Apps with LLMs
 	- https://www.graphlit.com/blog/graphrag-using-knowledge-in-unstructured-data-to-build-apps-with-llms
 	- We have used Graphlit to automatically extract images from PDFs, and are using the OpenAI GPT-4 Vision model to perform OCR and generate detailed text descriptions of the images.
 	- どうも、知識グラフの画像から知見を得るらしい。
 - I built my own omni assistant using Gemini 1.5 Flash to guide me through Super Mario 64.
+	- https://x.com/skirano/status/1792948429754151293
+	- MicrosoftがBuildででもした、assistantを、gemini 1.5 Flashで実装したツワモノ、お題はマリオだし。
+- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3690,12 +3694,9 @@
 	- GeminiとGoogle Sheetsを使ったセールスピッチ生成の例
 - 5%ぐらい？をChatGPT（生成AI）で書いたという芥川賞を受賞
 	- https://x.com/yukatan/status/1747957984104480891?s=20
-	- AIに執筆させてみたというレベルの話ではなくて、スマホでググるみたいにAIに質問するのが当たり前になると世界がどう変わり得るかを文学的に表現しています。時代を刻む作品だわ
-- アルトマンがダボス会議で言ったこと
-	- 「AIの進歩は、科学的発見の速度を大幅に加速するのに役立つ。それが2024年に起こるとは予想していないが、起こったならばとても大きな一大事になる」 
-	- 「現時
+	- AIに執筆さ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjI3MDIxNSwxOTQ5NDM2MTQzLDYyNz
+eyJoaXN0b3J5IjpbMTQxNzgwMzU4NywxOTQ5NDM2MTQzLDYyNz
 Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
 MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
 gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
