@@ -29,7 +29,14 @@
 	- https://www.youtube.com/watch?v=reLhpQg9muo
 - 「kagglehub を使った大規模言語モデル gemma のファインチューニングとモデル共有」
 	- https://www.kaggle.com/code/makimakiai/kagglehub-gemma
+	- Kaggleのノートで銅メダルゲットした！嬉しい！
+		- https://x.com/hAru_mAki_ch/status/1792105063022018835
+- Deep Dive on Accumulated Local Effect Plots (ALEs) with Python
+	- https://towardsdatascience.com/deep-dive-on-accumulated-local-effect-plots-ales-with-python-0fc9698ed0ee
+	- ALEs give interpretations that are robust to multicollinearity.
+- 英国政府が100億円超を投じる「Safeguarded AIプログラム」とは
 	- 
+- 
 
 ## 5/20
 
@@ -3686,21 +3693,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://x.com/yo_ehara/status/1744332999578333613?s=20
 - Mixtral of Experts by Mistral AI
 	- https://huggingface.co/papers/2401.04088
-	- introduce Mixtral 8x7B, a Sparse Mixture of Experts (SMoE) language model. Mixtral has the same architecture as Mistral 7B, with the difference that each layer is composed of 8 feedforward blocks (i.e.…
-- yolopandas
-	- https://github.com/ccurme/yolopandas
-	- yolopandas は，panadas のデータフレームに対して直接，LLM が分析コードの提示をし実行してくれるライブラリ
-	- 「欠損値はいくつある？」などの指示文に対し， df.llm.query("指示文") とするだけ
-- 人工知能という分野が謙虚であったことなど一度もない
-	- https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/286548
-	- 岩波書店「科学」2023/12月号に掲載された、大規模言語モデルと人間の言語能力についての討論形式論文
-- WikiCha
+	- introduce Mixtral 8x7B, a Sparse Mixture of Experts (SMoE) language model. Mixtral has the same architecture as Mistral 7B, with the difference that each layer is c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjYzMDg0MiwxMDIzOTI1MTcsMTcwNT
-c0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1Njkz
-LDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OT
-U4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5
-LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3NzQsMTgyNT
-Q1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5LC04NDU5Mzg1
-NDJdfQ==
+eyJoaXN0b3J5IjpbLTIwMTU1OTg1MTcsMTAyMzkyNTE3LDE3MD
+U3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5
+MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNj
+k1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYw
+OSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4Mj
+U0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4
+NTQyXX0=
 -->
