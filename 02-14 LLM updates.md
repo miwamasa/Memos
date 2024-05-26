@@ -127,7 +127,12 @@
 - MIcrosoft's Phi-3 really is an astonishingly good model
 	- https://x.com/simonw/status/1792691120675467288
 	- MIT licensed and small enough to run in a browser on WebGPU (about a 2.3GB downloads), but still provides high quality results for a lot of the stuff I care about
-- 
+	- Phi-3-mini running locally in your browser at 70 tokens per second on WebGPU!
+	- Powered by 🤗 Transformers.js and ONNX Runtime Web! 
+	- https://huggingface.co/blog/Emma-N/enjoy-the-power-of-phi-3-with-onnx-runtime
+- Hugging Face and Microsoft Deepen Collaboration
+	- https://huggingface.co/blog/microsoft-collaboration
+	- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3690,19 +3695,12 @@
 	- この概念に基づいてコーディングを行うことで、LLMのプログラミング能力が一貫して向上することが定量的に報告されました。
 	- ■研究者らのアイデア - 複数の段階に分けてコードを生成・改善する - テストベースの考え方を用いる
 	- ■実験結果 
-		- コードタスクでのLLMの性能を一貫してかつ大幅に向上させた 
-		- オープンソース（DeepSeek）とクローズドソース（GPT-3.5/4）両方で効果があった
--  DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
-	- https://arxiv.org/abs/2401.06066
-	- DeepSeekMoEはLLMのMoEで
-		- 1) Expertをさらに細かくし64に増やすと共に選択されるExpert数も8に増やす 
-		- 2) 共有知識を使えるよう常に選択されるExpertを用意
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU1ODE1LDE5NDk0MzYxNDMsNjI3ND
-c2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwx
-Mzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEyMiwtODk4OD
-MyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEs
-LTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5Nz
-IxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2
-XX0=
+eyJoaXN0b3J5IjpbMTY4ODEyNDk1MiwxOTQ5NDM2MTQzLDYyNz
+Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
+MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
+gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
+LC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
+cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
+Nl19
 -->
