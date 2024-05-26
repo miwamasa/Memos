@@ -23,7 +23,9 @@
 	- Chat Vectorやその他のマージ手法を使用することで、英語のデータセットを日本語に翻訳して、学習させるという手間が必要なくなる可能性があるのはありがたいなと感じました。
 - 横須賀市で、未完成のお悩み相談チャットボットをリリースしました。 by 深澤さん
 	- https://www.city.yokosuka.kanagawa.jp/0835/nagekomi/20240520_soudanbot_nyanpei.html
-	- 
+	- あえて未完成のボットを公開して、広く不具合をあつめる実験です！！
+	- さすがのでき前！
+- 
 
 ## 5/20
 
@@ -3692,11 +3694,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://wikichat.genie.stanford.edu/
 	- https://github.com/stanford-oval/WikiChat
 	- stanfordのwikichat、事実性でGPT-4 よりも55.0%優れているという事でもの凄い 
-	- しかし、LLaMA7Bモデルがベースの割に要求スペックももの凄い
-		- 動作させるには約100GBのRAMが必要 
-		- 速度を犠牲にR
+	- しかし、LLaMA7Bモデルがベースの割に
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzY2Njg2MywxMDIzOTI1MTcsMTcwNT
+eyJoaXN0b3J5IjpbLTQ5MTQzNjE2MywxMDIzOTI1MTcsMTcwNT
 c0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1Njkz
 LDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OT
 U4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5
