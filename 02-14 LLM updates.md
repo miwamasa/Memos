@@ -10,12 +10,15 @@ MicrosoftのBuild2024が開催、Copilot+PCというintelはいってないPCの
 
 深津さんの、横須賀市の未完成のお悩み相談チャットボット。不完全でもベータ公開というわりにやっぱよくできている。
 
+チューリングテストでGPT-4は54%の確率で人間だと判断されたというのは、もう驚かない。もやはLLMの発展は人間が律速で頭打ちになっている。
+
 ChatVector、7BモデルのFineTuning結果を70Bに転移させて性能向上したり、LLaVAの日本語化など、その能力をふくめて認知や利用が増えてきた。
 
 AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネットにLLMの性質をあるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。
 
 ローカルLLMも相変わらず熱い！。今週も、Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaも即追従、raw modeって何さ？一方、マルチモーダルも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。
 
+EUの
 
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
 	- https://medium.com/@transformergpt/unleashing-the-power-of-knowledge-graphs-in-retrieval-augmented-generation-rag-step-by-step-84c2adc66c1c
@@ -3689,15 +3692,13 @@ AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニュー�
 	- 短い質問文に対してWikipediaに書いてある情報のみで回答させる、というのを1000問前後実施し、人手retrieval付きQAデータセットを作りました。途中の過程や引用なども記録しているので、人間による検索のシミュレーションをデータから検討したりできると思いま
 - Copilot for Office 365
 	- https://x.com/usutaku_com/status/1747119405702795383?s=20
--  how to build advanced QA over Tabular Data
-	- llamaindexより、
-	- https://x.com/llam
+-  how 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0OTAwMjUwLC0xODA1NDg3NTI1LDEzMj
-gxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0OTQz
-NjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMT
-kyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1
-MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LD
-gzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkw
-NTFdfQ==
+eyJoaXN0b3J5IjpbLTI2ODI3MzU0MCwtMTgwNTQ4NzUyNSwxMz
+I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
+MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
+E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
+NTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NC
+w4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5
+MDUxXX0=
 -->
