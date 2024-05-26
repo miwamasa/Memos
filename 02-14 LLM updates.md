@@ -238,6 +238,8 @@
 	- It has also completed disrupted the Chines LLM market and forcing the competitors to drop the price to 1% of the original price.
 - Difyを使うメリットの一つが開発したChatbotやワークフローを簡単にWEBでシェアできること
 	- https://x.com/gijigae/status/1793437095727665588
+-  Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet
+	- https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html
 - ハル・ベリーニューロンがAIで実体験できる時代が到来
 	- https://x.com/webbigdata/status/1794030396990226803
 	- ハル・ベリーさんという、X-MENのストームとかキャットウーマン役をやってるアメリカの女優さんがいるのですが、ある患者さんの特定のニューロンが「ハル・ベリーの写真」や「ハル・ベリー」というテキストに対して活性化する事が観察されたという研究がある。
@@ -3690,17 +3692,13 @@
 	- @tkasasagi さんも参加かー
 	- https://x.com/tkasasagi/status/1747267875021406329?s=20
 	- 「サカナAI」日米で45億円調達　スイミーの発想で巨大ITに挑む
-		- 同社は対話型AIの基盤技術である大規模言語モデル（LLM）の開発で、他社が開発した小さなAIをいくつもつないで、巨大AIに匹敵する能力をもつ仮想のAIモデルを構想。この新技術はエージェントモデルと呼ばれ、開発コストを劇的に下げる可能性があり、巨額な資金が求められるAI開発競争に一石を投じる狙いだ。
-- xverse/XVERSE-13B-256K
-	- https://huggingface.co/xverse/XVERSE-13B-256K
-	- ローカルLLMの長文対応がついに256K（約25万字）
-	- XVERSEはAB
+		- 同社は対話型AIの基盤技術である大規模言語モデル（LLM）の開発で、他社が開発した小さなAIをいくつもつないで、巨大AIに匹敵する能力をもつ仮想のAIモデルを構想。この新技術はエージェントモデルと呼ばれ、開発コストを劇的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU0ODc1MjUsMTMyODE1MzMyNywtMT
-EyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3
-NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMT
-M4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgz
-MjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC
-0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcy
-MThdfQ==
+eyJoaXN0b3J5IjpbMTE3MjcyMzg2OSwtMTgwNTQ4NzUyNSwxMz
+I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
+MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
+E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
+NTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NC
+w4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5
+MDUxXX0=
 -->
