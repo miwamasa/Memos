@@ -230,7 +230,12 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- Proof assistants like Lean have revolutionized mathematical proof verification, ensuring high accuracy and reliability. Although large language models (LLMs) show promise in
 - ollamaでPhi3-mediumは「性能ショボい」？　by うみゆきさん
 	- https://x.com/umiyuki_ai/status/1793878129699950887
-	- 
+	- OllamaでPhi3-mediumをプルするとQ4_0量子化版がDLされるようだが、スコアは3.68。Q4_K_Sでも3.67。ちなみに僕が最初に検証したLlama. cppのQ8は3.88だったし、同じくLlama. cppのQ4_K_Sも3.95で劣化どころかスコア上がってる。というわけでollamaのPhi3-mediumはパラ設定かなんか分からんけど何らかの問題で劣化してます
+- DeepSeekV2 is a big deal.
+	- https://x.com/Xianbao_QIAN/status/1794034052347171055
+	- Not only because its significant improvements to both key components of Transformer: the Attention layer and FFN layer. 
+	- It has also completed disrupted the Chines LLM market and forcing the competitors to drop the price to 1% of the original price.
+- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3689,21 +3694,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://huggingface.co/spaces/DamarJati/Animagine-XL-3.0
 	- 1月10日、Cagliostro Research Labが、**拡散モデルベースのText-to-Imageの画像生成モデル「Animagine XL 3.0」**を公開しました。
 	- https://weel.co.jp/media/animagine-xl-3-0
-- Blending, Merging, and Stacking multiple smaller LLMs make them as performant as Larger LLMs
-	- https://x.com/bindureddy/status/1746739742350450811?s=20
-	- Blending、Merging、Stackingなどの技術を今後30-70bモデルに適用していき、今後2-3ヶ月以内にGPT4に近い戻るが得られるでしょう
-- (RAG)の評価指標マップ
-	- https://x.com/helloiamleonie/status/1747252654047142351?s=20
-- DeepMindのCEOであるLila Ibrahimがダボス会議2024で語ったこと
-	- https://www.axios.com/2024/01/16/davos-ai-lila-ibrahim-google-deepmind-technologies
-	- ila Ibrahimは、AIが物質科学や生物学に革命をもたらし、新しい材料やタンパク質の発見に貢献していると述べた。
-	- 2018年、「AlphaFoldは（もともとは）うまくいかないはずのアイデアだった」とイブラヒムは語った。彼女はこう付け加えた。「今では（既知の）タンパク質を2億個
+- Blending, Merging, and Stacking multiple smaller LLMs mak
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzgzNTYyNzgsLTExMjgwMDQyMTEsLT
-E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
-NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
-k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
-NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
-g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
-Nzc0XX0=
+eyJoaXN0b3J5IjpbMTQ3MTYxNDg1MCwtMTEyODAwNDIxMSwtMT
+Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
+MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
+czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
+MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
+Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
+NzRdfQ==
 -->
