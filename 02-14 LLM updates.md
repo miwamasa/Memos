@@ -99,7 +99,11 @@
 - Knowledge Cards by Perplexty	
 	- https://x.com/perplexity_ai/status/1792948540542517458
 	- We’re teaming up with @TakoViz to bring advanced knowledge search and visualization to our users. Now, you can search, juxtapose, and share authoritative knowledge cards in Perplexity.
-
+- GraphRAG: Using Knowledge in Unstructured Data to Build Apps with LLMs
+	- https://www.graphlit.com/blog/graphrag-using-knowledge-in-unstructured-data-to-build-apps-with-llms
+	- We have used Graphlit to automatically extract images from PDFs, and are using the OpenAI GPT-4 Vision model to perform OCR and generate detailed text descriptions of the images.
+	- どうも、知識グラフの画像から知見を得るらしい。
+- I built my own omni assistant using Gemini 1.5 Flash to guide me through Super Mario 64.
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3689,21 +3693,13 @@
 	- AIに執筆させてみたというレベルの話ではなくて、スマホでググるみたいにAIに質問するのが当たり前になると世界がどう変わり得るかを文学的に表現しています。時代を刻む作品だわ
 - アルトマンがダボス会議で言ったこと
 	- 「AIの進歩は、科学的発見の速度を大幅に加速するのに役立つ。それが2024年に起こるとは予想していないが、起こったならばとても大きな一大事になる」 
-	- 「現時点での最優先事項は新しいモデルをローンチすることだ。それはGPT-5と呼ばれる可能性が高い
-	- https://www.axios.com/2024/01/17/sam-altman-davos-ai-future-interview
-- 圧縮MoE
-	- https://github.com/unites-lab/mc-smoe
-	- 今までのMoEはモデルを２つくっ付けたら２倍VRAM消費するのがコスパ微妙だったけど、MC-SMoEではベースモデルと各エキスパートとの差分をLoRA的な形で保持する事で省メモリになったって話かな
-- Introducing Mixtral, Phi2, Falcon, and Qwen support in DeepSpeed-FastGen! 
-	- https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-fastgen/2024-01-19
-	- Up to 2.5x faster LLM inference
-	
+	- 「現時
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDgzODI4ODEsMTk0OTQzNjE0Myw2Mj
-c0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAw
-LDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OT
-g4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYz
-MSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNz
-k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
-NjZdfQ==
+eyJoaXN0b3J5IjpbMTAyMjI3MDIxNSwxOTQ5NDM2MTQzLDYyNz
+Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
+MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
+gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
+LC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
+cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
+Nl19
 -->
