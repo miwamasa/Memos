@@ -96,7 +96,9 @@
 		- https://huggingface.co/docs/transformers/v4.41.0/en/gguf
 - Phi 3 - Small, Medium & Vision
 	- https://x.com/reach_vb/status/1792949163249791383
-- 
+- Knowledge Cards by Perplexty	
+	- https://x.com/perplexity_ai/status/1792948540542517458
+	- We’re teaming up with @TakoViz to bring advanced knowledge search and visualization to our users. Now, you can search, juxtapose, and share authoritative knowledge cards in Perplexity.
 	
 ## 5/20
 
@@ -3695,14 +3697,9 @@
 - Introducing Mixtral, Phi2, Falcon, and Qwen support in DeepSpeed-FastGen! 
 	- https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-fastgen/2024-01-19
 	- Up to 2.5x faster LLM inference
-	- Optimized SplitFuse and token sampling
-	- Exciting new features like RESTful API and more!
-- 心理学ワールド104号の特集「空間認知の科学 最前線」
-	- https://psych.or.jp/publication/world104/
-- Fair Machine Guidance to Enhance Fair Decision Making in Biased People
-	- https://x.com/yukino/status/1748
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzczNzIwODMsMTk0OTQzNjE0Myw2Mj
+eyJoaXN0b3J5IjpbLTE1NTc0NTQ5NjksMTk0OTQzNjE0Myw2Mj
 c0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAw
 LDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OT
 g4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYz
