@@ -35,6 +35,11 @@
 	- https://towardsdatascience.com/deep-dive-on-accumulated-local-effect-plots-ales-with-python-0fc9698ed0ee
 	- ALEs give interpretations that are robust to multicollinearity.
 - 英国政府が100億円超を投じる「Safeguarded AIプログラム」とは
+	- https://www.aialign.net/blog/20240520-takatsuki
+	- 本プログラムにおいてAIシステムの安全性の証明可能性の土台となる理論（特にTA1.1で扱われる内容）には、数理論理学や圏論といった分野が重要な位置を占めることが予定されており、これらの分野の研究者の協力が必要とされています
+- Copilot + PC
+	- https://x.com/ai_for_success/status/1792605275016343768
+- LangChainにObsidianのローダーがある～。ObsidianのメモをベクトルストアしてRAGできてしまう～
 	- 
 - 
 
@@ -3690,16 +3695,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://x.com/Rahll/status/1744234385891594380?s=20
 	- GPT-4を導入したDuolingoが大規模なリストラ
 - 1年間に日本の人工知能分野全体で20人しか博士号取らない？
-	- https://x.com/yo_ehara/status/1744332999578333613?s=20
-- Mixtral of Experts by Mistral AI
-	- https://huggingface.co/papers/2401.04088
-	- introduce Mixtral 8x7B, a Sparse Mixture of Experts (SMoE) language model. Mixtral has the same architecture as Mistral 7B, with the difference that each layer is c
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTU1OTg1MTcsMTAyMzkyNTE3LDE3MD
-U3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5
-MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNj
-k1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYw
-OSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4Mj
-U0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0OSwtODQ1OTM4
-NTQyXX0=
+eyJoaXN0b3J5IjpbNjQ2MjMwMzcwLDEwMjM5MjUxNywxNzA1Nz
+Q3Njk2LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMs
+MjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NT
+g5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDks
+Nzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1ND
+U3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0
+Ml19
 -->
