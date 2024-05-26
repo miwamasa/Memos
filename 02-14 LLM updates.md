@@ -165,7 +165,10 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - MoRA: High-Rank Updating for Parameter-Efficient Fine-Tuning
 	- https://arxiv.org/abs/2405.12130
 	- LoRAより知識獲得系タスクに強いMoRA　 by shi3zさん
-- 
+- ルカン先生、学生に次世代AIを作ろうとするなれば、LLM
+	- https://x.com/ylecun/status/1793326904692428907
+	- If you are a student interested in building the next generation of AI systems, don't work on LLMs
+	- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3694,15 +3697,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - Accelerating the prediction of stable materials with machine learning
 	- https://www.nature.com/articles/s43588-023-00536-w
 	- 機械学習による材料の安定性予測に関するレビュー論文
-	- DeepMindさんの論文でも使われた材料の熱力学的安定性予測に関し、convex hullの概念のような基礎から、有限温度の予測のような応用までまとまっています。 機械学習で材料探索してみたい初学者の方におすすめ。
-- WaveCoder: Widespread And Versatile Enhanced Instruction Tuning with Refined Data Generation
-	- htt
+	- DeepMindさんの論文でも使われた材料の熱力学的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzkyMjI0MTgsLTExMjgwMDQyMTEsLT
-E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
-NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
-k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
-NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
-g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
-Nzc0XX0=
+eyJoaXN0b3J5IjpbMTY4MTc0NDE0MywtMTEyODAwNDIxMSwtMT
+Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
+MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
+czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
+MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
+Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
+NzRdfQ==
 -->
