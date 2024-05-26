@@ -6,9 +6,7 @@
 
 知識グラフのRAGも熱いが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそうなるかな。一方
 
-MicrosoftのBuild2024が開催、Copilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れる、Copilot Studioの更新や、人の代わりに会議の司会をしてくれるTeam Copilot、さらには、ソフトウエア開発をサポートする「Devin」との提携など、目白押し。まあcopilot assistantのデモを
-
-来月のAppleの WWDC24はどうなる。
+MicrosoftのBuild2024が開催、Copilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れる、Copilot Studioの更新や、人の代わりに会議の司会をしてくれるTeam Copilot、さらには、ソフトウエア開発をサポートする「Devin」との提携など、目白押し。まあゲームをサポートするcopilot assistantのデモをGemini 1.5 Flashで再現できたの報告も。さて来月のAppleの WWDC24はどうなる。
 
 深津さんの、横須賀市の未完成のお悩み相談チャットボット。不完全でもベータ公開というわりにやっぱよくできている。
 
@@ -3690,10 +3688,9 @@ EUのAI法が最終合意、一方OECDはAIリスクに関する用語を整理�
 	- Transformerを上回るモデルとして注目されているMamba, State Spaceモデルの
 	- Kotoba Techでは130m, 1.4B, 2.8B のモデルの学習をすでに行っています
 - baobab-trees/wikipedia-human-retrieval-ja
-	- https://huggingface.co/datasets/baobab-trees/wikipedia-human-retrieval-ja
-	- 短い質問文に対してWikipediaに書いてある情報のみで
+	- https://huggingface.co/datasets/baobab-trees/wikipedia-human-retrieva
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDg5MjQyNywtMTgwNTQ4NzUyNSwxMz
+eyJoaXN0b3J5IjpbMTMwMDMxNTE4NiwtMTgwNTQ4NzUyNSwxMz
 I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
 MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
 E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
