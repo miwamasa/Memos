@@ -6,7 +6,7 @@
 
 知識グラフのRAGも熱いが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそうなるかな。一方
 
-MicrosoftのBuild2024が開催、Copilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れる、Copilot Studioの更新や、人の代わりに会議の司会をしてくれるTeam Copilotなど、目白押し。来月のAppleの WWDC24はどうなる。
+MicrosoftのBuild2024が開催、Copilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れる、Copilot Studioの更新や、人の代わりに会議の司会をしてくれるTeam Copilot、さらには、ソフトウエア開発をサポートする「Devin」との提携など、目白押し。来月のAppleの WWDC24はどうなる。
 
 深津さんの、横須賀市の未完成のお悩み相談チャットボット。不完全でもベータ公開というわりにやっぱよくできている。
 
@@ -18,7 +18,7 @@ AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニュー�
 
 ローカルLLMも相変わらず熱い！。今週も、Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaも即追従、raw modeって何さ？一方、マルチモーダルも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。
 
-EUのAI法が最終合意、一方OECDはAIリスクに関する用語を整理し、インシデントに確率を考慮したものがリスクになるとのこと。英国の「Safeguarded AIプログラム」は、安全性のために
+EUのAI法が最終合意、一方OECDはAIリスクに関する用語を整理し、インシデントに確率を考慮したものがリスクになるとのこと。英国の「Safeguarded AIプログラム」は、安全性のために数理論理学や圏論を利用するとのこと、いや、面倒なことはmLLMにやらせればいいのに。
 
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
 	- https://medium.com/@transformergpt/unleashing-the-power-of-knowledge-graphs-in-retrieval-augmented-generation-rag-step-by-step-84c2adc66c1c
@@ -3689,13 +3689,13 @@ EUのAI法が最終合意、一方OECDはAIリスクに関する用語を整理�
 	- Kotoba Techでは130m, 1.4B, 2.8B のモデルの学習をすでに行っています
 - baobab-trees/wikipedia-human-retrieval-ja
 	- https://huggingface.co/datasets/baobab-trees/wikipedia-human-retrieval-ja
-	- 短い質問文に対してWikipediaに書いてある情報のみで回答させる、というのを1000問前後実施し、人手retrieval付きQAデータセットを作りました。途中の過程や引用なども記録しているので、人間による検索のシミュレーションをデータから検討したりできると思いま
+	- 短い質問文に対してWikipediaに書いてある情報のみで回答させる、というのを1000問前後実施し、人手retr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTMzMTY4OTYsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNT
-QsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQw
-OTA1MV19
+eyJoaXN0b3J5IjpbMTE3Nzk2MjcxOCwtMTgwNTQ4NzUyNSwxMz
+I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
+MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
+E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
+NTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NC
+w4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5
+MDUxXX0=
 -->
