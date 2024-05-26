@@ -8,8 +8,8 @@
 
 AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネットにLLMの性質をあるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。
 
-
-phi3-mediumが高性能であるといううわさもあるが、Ollamaへの組み込みはうまくいってない模様。
+Mistral v0.3がリリース、語彙数も増えて、function callingへも対応、ollamaも即追従、raw modeって何さ？
+phi3-mediumが高性能であるといううわさもあるが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。
 
 
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
@@ -3690,14 +3690,13 @@ phi3-mediumが高性能であるといううわさもあるが、Ollamaへの組
 	- Query Pipeline over Pandas DataFrames
 	- https://docs.llamaindex.ai/en/stable/examples/pipeline/query_pipeline_pandas.html
 	- This is a simple example that builds a query pipeline that can perform structured operations over a Pandas DataFrame to satisfy a user query, using LLMs to infer the set of operations.
-	-  Query Pipeline for Advanced Text-to-SQL
-	- https://docs.llamaindex.ai/en/stable/examples/pipeline/query_pipel
+	-  Query Pipeline for Advan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjcwMDA3NiwtMTgwNTQ4NzUyNSwxMz
-I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
-MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
-E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
-NTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NC
-w4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5
-MDUxXX0=
+eyJoaXN0b3J5IjpbLTEzNDY0NTk1NzIsLTE4MDU0ODc1MjUsMT
+MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
+NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
+wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
+MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNT
+QsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQw
+OTA1MV19
 -->
