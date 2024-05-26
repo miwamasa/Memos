@@ -8,6 +8,8 @@
 
 MicrosoftのBuild2024が開催、Copilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れる、Copilot Studioの更新や、人の代わりに会議の司会をしてくれるTeam Copilotなど、目白押し。来月のAppleの WWDC24はどうなる。
 
+ChatVector、7BモデルのFineTuning結果を70Bに転移させて性能向上したり、LLaVAの日本語化など、その能力をふくめて認知や利用が増えてきた。
+
 AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネットにLLMの性質をあるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。
 
 ローカルLLMも相変わらず熱い！。今週も、Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaも即追従、raw modeって何さ？一方、マルチモーダルも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。
@@ -3688,14 +3690,13 @@ AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニュー�
 -  how to build advanced QA over Tabular Data
 	- llamaindexより、
 	- https://x.com/llama_index/status/1747289513934864493?s=20
-	- Query Pipeline over Pandas DataFrames
-	- https://d
+	- Query Pipeline
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQ4NDIxNSwtMTgwNTQ4NzUyNSwxMz
-I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
-MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
-E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
-NTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NC
-w4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5
-MDUxXX0=
+eyJoaXN0b3J5IjpbMzQ2MzMzNTUyLC0xODA1NDg3NTI1LDEzMj
+gxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0OTQz
+NjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMT
+kyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1
+MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LD
+gzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkw
+NTFdfQ==
 -->
