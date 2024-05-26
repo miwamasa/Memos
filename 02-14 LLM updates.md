@@ -3,7 +3,7 @@
 
 ## 5/27
 
-さて今週は、MicrosoftのBuild2024が開催、Copilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れる、Copilot Studioの更新や、人の代わりに会議の司会をしてくれるTeam Copilot、さらには、ソフトウエア開発をサポートする「Devin」との提携など、目白押し。まあゲームをサポートするcopilot assistantのデモをGemini 1.5 Flashで再現できたの報告も。さて来月のAppleの WWDC24はどうなる。基盤技術では、チューリングテストでGPT-4は54%の確率で人間だと判断されたというのは、もう驚かない。「LLMがチャットUIに呪われている」という記事もあったが、もやはLLMの発展は人間が律速で頭打ちになっている。一方AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネット上にLLMの性質をあるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、例えば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。知識グラフのRAGも熱いが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそういうこともできるのか。今井さんのGPT-4oを研究者視点で「時代の転換点」と解説した記事のシリーズは気になる。GUILDの深津さんの、横須賀市の未完成のお悩み相談チャットボット。不完全でもベータ公開というわりにやっぱよくできている。その深津さんが、生成AI時代に大事なスキルは、「やり続ける能力」、いくら生成ＡＩが優れていてもめげないことが大切。ローカルLLMも相変わらず熱い！。今週も、Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaもraw modeで即追従。一方、マルチモーダルphi3-visionも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。Transformers.js and ONNX Runtime Webというのも、ローカルLLMの協力な助っ人か。Cohereが多言語指向のオープンLLMであるAya 23 の 8B と35Bがリリース、日本語強そう。しかし、Phi-3は、「最も有能で費用対効果のSML (Small Language Model)」っていうんだ。 ChatVector、7BモデルのFineTuning結果を70Bに転移させて性能向上したり、LLaVAの日本語化など、ローカルLLMでもその能力をふくめて認知や利用が増えてきた。transformersがv4.41.0にアップデートされてggufをサポートするようになったのも、ローカルLLM勢には朗報。EUのAI法が最終合意、一方OECDはAIリスクに関する用語を整理し、インシデントに確率を考慮したものがリスクになるとのこと。英国の「Safeguarded AIプログラム」は、安全性のために数理論理学や圏論を利用するとのこと、毒には毒をということでguard自体をLLMで実現するメタのアプローチと真逆で面白い。
+さて今週は、MicrosoftのBuild2024が開催、Copilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れるCopilot Studioの更新や、人の代わりに会議進行をしてくれるTeam Copilot、さらには、ソフトウエア開発自動化の「Devin」との提携など、目白押し。まあゲームをサポートするcopilot assistantのデモをGemini 1.5 Flashで再現できたとの個人の報告も。さて来月のAppleの WWDC24はどうなる。基盤技術では、チューリングテストでGPT-4は54%の確率で人間だと判断されたというのは、もう驚かない。「LLMがチャットUIに呪われている」という記事もあったが、もやはLLMの発展は人間が律速していて頭打ちになっている。一方AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネット上にLLMの性質をあるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、例えば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。知識グラフのRAGも熱いが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそういうこともできるのか。今井さんのGPT-4oを研究者視点で「時代の転換点」と解説した記事のシリーズは気になる。GUILDの深津さんの、横須賀市の未完成のお悩み相談チャットボット。不完全でもベータ公開というわりにやっぱよくできている。その深津さんが、生成AI時代に大事なスキルは、「やり続ける能力」、いくら生成ＡＩが優れていてもめげないことが大切。ローカルLLMも相変わらず熱い！。今週も、Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaもraw modeで即追従。一方、マルチモーダルphi3-visionも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。Transformers.js and ONNX Runtime Webというのも、ローカルLLMの協力な助っ人か。Cohereが多言語指向のオープンLLMであるAya 23 の 8B と35Bがリリース、日本語強そう。しかし、Phi-3は、「最も有能で費用対効果のSML (Small Language Model)」っていうんだ。 ChatVector、7BモデルのFineTuning結果を70Bに転移させて性能向上したり、LLaVAの日本語化など、ローカルLLMでもその能力をふくめて認知や利用が増えてきた。transformersがv4.41.0にアップデートされてggufをサポートするようになったのも、ローカルLLM勢には朗報。EUのAI法が最終合意、一方OECDはAIリスクに関する用語を整理し、インシデントに確率を考慮したものがリスクになるとのこと。英国の「Safeguarded AIプログラム」は、安全性のために数理論理学や圏論を利用するとのこと、毒には毒をということでguard自体をLLMで実現するメタのアプローチと真逆で面白い。
 
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
 	- https://medium.com/@transformergpt/unleashing-the-power-of-knowledge-graphs-in-retrieval-augmented-generation-rag-step-by-step-84c2adc66c1c
@@ -3666,13 +3666,13 @@
 - HachiMLさんが公開されているyouri-2x7b_v0.2のgguf ^aaa
 	- https://huggingface.co/mmnga/HachiML-youri-2x7b_v0.2-gguf
 	- This model is a Mixture of Experts (MoE) merger of the following two models:
-	- [rinna/youri-7b-instruction
+	- [rinna/youri-7b-instructi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNT
-Q4NzUyNSwxMzI4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUw
-OTc0LDE5NDk0MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNz
-A1NzQ3Njk2LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2
-OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLT
-Y5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2
-MDldfQ==
+eyJoaXN0b3J5IjpbLTEwNjc5NzE2MzgsNjk1Mzc1MTM2LDU4Nz
+I2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0xMTI4MDA0
+MjExLC0xNDg3NzUwOTc0LDE5NDk0MzYxNDMsNjI3NDc2ODM2LD
+EwMjM5MjUxNywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwxMzg3MjMy
+NDUyLDE5NzM4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LD
+EzMTEwOTUxMTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMy
+NjgwN119
 -->
