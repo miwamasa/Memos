@@ -186,7 +186,10 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://x.com/ollama/status/1793392887612260370
 	- Ollama raw mode
 		- https://github.com/ollama/ollama/blob/main/docs/api.md#request-raw-mode
-- 
+- Mistral-7BとPhi-3もこの際ElyzaTasks100で評価してみた。
+	- まずMistral-7Bはv0.1が2.46、v0.2が2.69（やたら英語で回答してくるので半分以上英語の回答は手作業で1点に減らした）、からの今回のv0.3は3.52！見違えるくらい日本語能力が強化されてます。英語で答えちゃう問題もほぼ起きない。
+	- Phi3は3.8Bのmini-128kがまさかの3.26というこのパラ数にしては高すぎるスコアでなぜかsmall-128kに勝ってしまってます。
+	- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3691,15 +3694,9 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- 「AIは人間と同じくらいクリエイティブになれるのか？」というテーマで、DeepMind・Microsoft・スタンフォード大学などが共同で研究しています。
 	- 『AIが創り出した作品が人間のそれと見分けがつかなくなったら、AIはクリエイティブだと言える』
 	- AIの創造性を具体的な数値で評価したい →フレームワークを作成
-- ELYZAが公開した日本語LLM「ELYZA-japanese-Llama-2-7b」についての解説 : (3) 英語での性能評価編
-	- https://zenn.dev/elyza/articles/ab3749de0ba58b
-	- **追加学習の過程で、元のモデルが持っていた能力がどの程度失われてしまうのか**という点
-	- 結果：
-		- 日本語を含むデータの追加事前学習により日本語化したモデルにおいて、英語の性能の劣化は生じてしまう。
-		- 日本語のSFTにより、日本語化モデルの英語の指示追従能力も一定回復させることができる。
-		- 追加事前学習に英語のデータセットを追加した場合、英語タスク
+- ELYZAが公開した日本語LLM「ELYZA-japanese-Llama-2-7b」についての解説 : (3) 英語
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjgyOTI3MSwtMTEyODAwNDIxMSwtMT
+eyJoaXN0b3J5IjpbLTQ0ODI4NDY2MCwtMTEyODAwNDIxMSwtMT
 Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
 MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
 czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
