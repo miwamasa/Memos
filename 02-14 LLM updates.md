@@ -162,6 +162,9 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://www.sbbit.jp/article/cont1/140613
 	- OpenAIのGPT-4oを研究者視点で解説した記事が出ました! 速報的な記事の依頼でしたが,やはり研究者が書くということで情報をすべて詰め込んだ1万文近いガチ解説記事になりました.3回の連載です.
 	- 言語,音声,動画像,後半ではGPT-4oの「弱み」等,日本語記事では一番詳しいはず
+- MoRA: High-Rank Updating for Parameter-Efficient Fine-Tuning
+	- https://arxiv.org/abs/2405.12130
+	- LoRAより知識獲得系タスクに強いMoRA　 by shi3zさん
 - 
 ## 5/20
 
@@ -3693,15 +3696,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- 機械学習による材料の安定性予測に関するレビュー論文
 	- DeepMindさんの論文でも使われた材料の熱力学的安定性予測に関し、convex hullの概念のような基礎から、有限温度の予測のような応用までまとまっています。 機械学習で材料探索してみたい初学者の方におすすめ。
 - WaveCoder: Widespread And Versatile Enhanced Instruction Tuning with Refined Data Generation
-	- https://arxiv.org/abs/2312.14187
-	- Introduce WaveCoder-Ultra-6.7B with the closest capabilities to GPT-4 so far.
-	- WaveCoder-Ultra-6.7B i
+	- htt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMT
-k0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2
-OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMD
-k5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0
-MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3OD
-g0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcw
-MzVdfQ==
+eyJoaXN0b3J5IjpbLTE0MzkyMjI0MTgsLTExMjgwMDQyMTEsLT
+E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
+NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
+k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
+NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
+g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
+Nzc0XX0=
 -->
