@@ -84,7 +84,12 @@
 		- Llma.cpp, ollama, vLLM
 	- 強力な大型オープンなAIモデルが公開されはじめてる
 		- Command R+（非商用利用）やLlama3-70B、DeepSeek-V2
+	-  小型のAIモデルの性能向上の潮流
+		- Mistral-7Bベース、ChatVector、
+	-  個人でもAI開発競争に食い込める可能性について
+- 生成AI時代に大事なスキルは、「やり続ける能力　by 深津さん
 	- 
+	
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3692,11 +3697,9 @@
 - Neural Speed + ONNX Runtime makes LLM inference more efficient on CPUs!
 	- https://github.com/intel/neural-speed
 - Google DeepMind researchers are in talks to leave and form a new startup named 'Holistic'. They want to build their own AI model.
-	- https://x.com/AndrewCurran_/status/1748419941672616324?s=20
-- 【新刊】「多様体上の最適化理論」
-	- https://www.ohmsha.co.jp/book/978427423
+	- https:/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwMTM0NDY5LDE5NDk0MzYxNDMsNjI3ND
+eyJoaXN0b3J5IjpbNTkxMzYyMjYwLDE5NDk0MzYxNDMsNjI3ND
 c2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwx
 Mzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEyMiwtODk4OD
 MyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEs
