@@ -165,9 +165,15 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - MoRA: High-Rank Updating for Parameter-Efficient Fine-Tuning
 	- https://arxiv.org/abs/2405.12130
 	- LoRAより知識獲得系タスクに強いMoRA　 by shi3zさん
-- ルカン先生、学生に次世代AIを作ろうとするなれば、LLM
+- ルカン先生、学生に次世代AIを作ろうとするなれば、LLMをやるのではないよとアドバイス
 	- https://x.com/ylecun/status/1793326904692428907
 	- If you are a student interested in building the next generation of AI systems, don't work on LLMs
+- Mistral v3 base and instruct released
+	- https://huggingface.co/mistralai
+	- Base has vocab extended to 32768. 
+	- Instruct supports function calling! 
+	- Tokens 5 to 9 are for function calling & the rest are empty
+- Interface 7月号では，Copilotで文芸的プログラミングに挑戦します．
 	- 
 ## 5/20
 
@@ -3692,18 +3698,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/?utm_source=twitter&utm_medium=social
 	- An Olympiad-level AI system for geometry
 	- AI system surpasses the state-of-the-art approach for geometry problems, advancing AI reasoning in mathematics
-	- AlphaGeometry は、ニューラル言語モデルと記号演繹エンジンで構成される神経記号システムであり、これらが連携して複雑な幾何学定理の証明を見つける
-	- 「LLMと演繹エンジンとの組み合わせ」
-- Accelerating the prediction of stable materials with machine learning
-	- https://www.nature.com/articles/s43588-023-00536-w
-	- 機械学習による材料の安定性予測に関するレビュー論文
-	- DeepMindさんの論文でも使われた材料の熱力学的
+	- AlphaGeome
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTc0NDE0MywtMTEyODAwNDIxMSwtMT
-Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
-MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzRdfQ==
+eyJoaXN0b3J5IjpbLTExNzc0MzY5MjIsLTExMjgwMDQyMTEsLT
+E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
+NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
+k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
+NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
+g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
+Nzc0XX0=
 -->
