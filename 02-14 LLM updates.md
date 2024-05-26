@@ -215,7 +215,12 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://www.preferred.jp/ja/news/pr20240524/
 - 機械学習による反応予測の論文
 	- https://chemrxiv.org/engage/chemrxiv/article-details/664de6a821291e5d1df74ac0
-	- 
+	- SMILESにより化学反応をテキストで表現したSMIRKSを用いることで、化学反応のルールを高精度に学習できたそうです。寄与する原子数が多い複雑な反応は今後の課題とのこと
+- LLMはチャットUIの誕生でブレイクスルーを起こしたが、今はチャットUIに呪われている
+	- https://x.com/rkmt/status/1794013338005090666
+	- 「有効な質問をLLMに投げ回答を得るサービス」は一定量（それを使いこなせる人類の数<<人類の総数）で頭打ちになり、それ以上は「意味もない内容もないけど楽しい会話をAIと続ける」サービスか、「人間を必要としないAI業務」に移行するのかも。
+- ぱぷりか炒め（mmnga）さんの、Llama-3-70B-japanese-suzume-vector-v0.1
+	- 8bのLlama派生モデルのchatvectorを、パラメータ数違う70Bにマージしてて、さらにベンチマーク結果も良好なのすごい
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3696,21 +3701,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- ①GPT-4がすべての科目で他二つのツールを圧倒  
 	- ②数学科目に関してはどのAIも全然点取れていない  
 	- ③高得点を狙えている科目でも、満点は取れていない
-- nampdn-ai/tiny-strange-textbooks
-	- https://huggingface.co/datasets/nampdn-ai/tiny-strange-textbooks
-	- 人工的に生成された小型のLLM(phiなんか）用の学習データセット
-	-  Textbooks Are All You Need II: phi-1.5 technical report
-	- https://arxiv.org/abs/2306.11644
-- Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy
-	- https://arxiv.org/abs/2310.01334
-	- MoEってメモリ食うので、これを圧縮やスパース性に着目して軽量化する、80%の削減！
-	- We merge experts THEN compress/d
+- nampdn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODA2Mjk4MjEsLTExMjgwMDQyMTEsLT
-E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
-NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
-k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
-NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
-g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
-Nzc0XX0=
+eyJoaXN0b3J5IjpbMTEzMzUzMTUyMiwtMTEyODAwNDIxMSwtMT
+Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
+MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
+czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
+MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
+Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
+NzRdfQ==
 -->
