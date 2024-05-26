@@ -219,8 +219,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - LLMはチャットUIの誕生でブレイクスルーを起こしたが、今はチャットUIに呪われている
 	- https://x.com/rkmt/status/1794013338005090666
 	- 「有効な質問をLLMに投げ回答を得るサービス」は一定量（それを使いこなせる人類の数<<人類の総数）で頭打ちになり、それ以上は「意味もない内容もないけど楽しい会話をAIと続ける」サービスか、「人間を必要としないAI業務」に移行するのかも。
-- ぱぷりか炒め（mmnga）さんの、Llama-3-70B-japanese-suzume-vector-v0.1
+- ぱぷりか炒め（mmnga）さんの、Llama-3-70B-japanese-suzume-vector-v0.1 すごい、 by AIサトシ
+	- https://x.com/AiXsatoshi/status/1793973265532424467
 	- 8bのLlama派生モデルのchatvectorを、パラメータ数違う70Bにマージしてて、さらにベンチマーク結果も良好なのすごい
+- Cohereが多言語指向のオープンLLM「Aya」（8B，23B）を公開
+	- https://huggingface.co/spaces/CohereForAI/aya-23
+	- 4月には当時のオープンLLM最高性能のCommand R+を出してたCohereの多言語LLMなので,日本語も期待できそう...実際に日本語は結構うまいんですが,色々と簡潔すぎて自分の中での評価が「冷たいモデル」です
+- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3694,20 +3699,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://x.com/satyanadella/status/1747000699664429075?s=20
 	- Office３６５向けのcopiloの機能が、個人でも使えるようになる。3,200円/月
 	- Office365/w copilotの利用以外に、GPT-4 および GPT-4 Turboへの優先的な割り当て
-	- Copilot GPT Builder（近日公開予定）で、特定のトピックに合わせてカスタマイズされた独自のCopilot GPTを作成可能
-	- 期待する声もたくさん上がるも、がっかりする声も多数
-- 【2024年最新】共通テストを色んな生成AIに解かせてみた（ChatGPT vs Bard vs Claude2
-	- https://note.com/lifeprompt/n/n87f4d5510100?sub_rt=share_h
-	- ①GPT-4がすべての科目で他二つのツールを圧倒  
-	- ②数学科目に関してはどのAIも全然点取れていない  
-	- ③高得点を狙えている科目でも、満点は取れていない
-- nampdn
+	- Copilot GPT Builder（近日公開予定）で、特定のトピックに合わせ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzUzMTUyMiwtMTEyODAwNDIxMSwtMT
-Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
-MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzRdfQ==
+eyJoaXN0b3J5IjpbODI0MTg1MTk4LC0xMTI4MDA0MjExLC0xND
+g3NzUwOTc0LDE5NDk0MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUx
+NywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5Nz
+M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
+MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
+kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
+NF19
 -->
