@@ -206,7 +206,12 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://zenn.dev/ml_bear/articles/cb07549ec52175
 	- 1.  構造化データをPydanticで定義する
 	- 2.  その定義を`.with_structured_output`でLLMに取り付ける
-	- 
+	- Pydanticでスキーマを定義した上で構造化データ抽出するのは非常に簡単です
+- 「AIスタートアップは街の電気屋さんから始めろ」
+	- https://www8.cao.go.jp/cstp/ai/ai_senryaku/9kai/shiryo1-4.pdf
+	- AI戦略会議の松尾研の資料「生成AIの産業における可能性」
+	- まずは受託開発で社会を学ぶ。 受託開発で地域の企業のDXを支援しつつ、一緒にグローバルに出ていく
+- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3697,11 +3702,9 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- MoEってメモリ食うので、これを圧縮やスパース性に着目して軽量化する、80%の削減！
 	- We merge experts THEN compress/decompose merged experts→low-rank. Up to 80% mem reduction! 🎉
 - mix_self_consistency pack by llamaindex
-	- https://llamahub.ai/l/llama_packs-tables-mix_self_consistency?from=llama_packs
-	- Here’s a simple but useful idea to use RAG to fetch few-shot examples for less flaky text-to-SQL (or…less flaky structured RAG itself). Calling it dynamic metadata…
-	- “Rethinking Tabular Data Understanding”の実
+	- https://llamahub.ai/l/llama_packs-tables-mix_self_consistency?from=llam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxNTAyOTQ3LC0xMTI4MDA0MjExLC0xND
+eyJoaXN0b3J5IjpbMzk2MzIwNzQ1LC0xMTI4MDA0MjExLC0xND
 g3NzUwOTc0LDE5NDk0MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUx
 NywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5Nz
 M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
