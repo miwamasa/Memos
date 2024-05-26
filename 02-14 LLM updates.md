@@ -96,10 +96,13 @@
 		- https://huggingface.co/docs/transformers/v4.41.0/en/gguf
 - Phi 3 - Small, Medium & Vision
 	- https://x.com/reach_vb/status/1792949163249791383
+	- This includes the 7B and 14B models
+	- This also includes a multimodal phi model
 - Knowledge Cards by Perplexty	
 	- https://x.com/perplexity_ai/status/1792948540542517458
 	- We’re teaming up with @TakoViz to bring advanced knowledge search and visualization to our users. Now, you can search, juxtapose, and share authoritative knowledge cards in Perplexity.
 	- Perplexityが高度な情報検索と視覚化ができる「knowledge cards」という機能をリリース。
+	- 自由に任意の2社の株価推移の比較が可能。リサーチ業務が捗り、仕事で活躍間違い無し。
 - GraphRAG: Using Knowledge in Unstructured Data to Build Apps with LLMs
 	- https://www.graphlit.com/blog/graphrag-using-knowledge-in-unstructured-data-to-build-apps-with-llms
 	- We have used Graphlit to automatically extract images from PDFs, and are using the OpenAI GPT-4 Vision model to perform OCR and generate detailed text descriptions of the images.
@@ -107,7 +110,8 @@
 - I built my own omni assistant using Gemini 1.5 Flash to guide me through Super Mario 64.
 	- https://x.com/skirano/status/1792948429754151293
 	- MicrosoftがBuildででもした、assistantを、gemini 1.5 Flashで実装したツワモノ、お題はマリオだし。
-- 
+- What is the context window?
+	- https://x.com/cwolferesearch/status/1792950349696753980
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3690,13 +3694,9 @@
 		- 現在、Llama 3をトレーニングしており、今後も責任を持って安全にトレーニングを続ける
 		- AIとメタバースは密接に関連しており、将来的には多くの人がAIと会話するためにメガネを使うだろうと予測した。
 - Connect to Sheets and use the Gemini API in Colab to tell Gemini about your most promising prospects and prepare personalized sales pitches to sell what you are good at - in this case, delicious lemonade.
-	- https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/Sell_lemonade_with_Gemini_and_Sheets.ipynb
-	- GeminiとGoogle Sheetsを使ったセールスピッチ生成の例
-- 5%ぐらい？をChatGPT（生成AI）で書いたという芥川賞を受賞
-	- https://x.com/yukatan/status/1747957984104480891?s=20
-	- AIに執筆さ
+	- https://colab.research.google.com/github/googlecolab/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzgwMzU4NywxOTQ5NDM2MTQzLDYyNz
+eyJoaXN0b3J5IjpbMTM3NzEwMTE2NCwxOTQ5NDM2MTQzLDYyNz
 Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
 MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
 gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
