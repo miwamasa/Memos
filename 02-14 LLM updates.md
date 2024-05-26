@@ -200,7 +200,8 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - Phi-3-MediumのMMLUスコアはLlama3-70B並み… by うみゆきさん
 	- https://x.com/umiyuki_ai/status/1793614730403434950
 	- やっぱり伊達じゃないらしいね。ElyzaTasks100でも匹敵してるもん。しかし信じがたいね 
-- 
+- Aya 23 is here! Available in 8B and 35B.
+	- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3696,13 +3697,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- “Rethinking Tabular Data Understanding”の実装
 	- 1.  Index and embed each row
 	- 2. In the text-to-SQL prompt (or auto-retrieval prompt), add *few shot examples of rows*: given the first k rows in the prompt, retrieve the top-k rows matching the user query.
-	- 3. Execute text-to-SQL prompt (or auto-re
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTI3MjIsLTExMjgwMDQyMTEsLTE0OD
-c3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3
-LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3Mz
-gwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTEx
-MSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OT
-A0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzkyNzc0
-XX0=
+eyJoaXN0b3J5IjpbLTE1ODc3Njk1MzQsLTExMjgwMDQyMTEsLT
+E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
+NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
+k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
+NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
+g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
+Nzc0XX0=
 -->
