@@ -6,7 +6,7 @@
 
 知識グラフのRAGも熱いが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそうなるかな。一方
 
-AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネットに
+AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネットにLLMの性質をあるいは特徴を示す場所を特定する技術（スパースおー）。安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。
 
 
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
@@ -3690,14 +3690,12 @@ AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニュー�
 	-  Query Pipeline for Advanced Text-to-SQL
 	- https://docs.llamaindex.ai/en/stable/examples/pipeline/query_pipeline_sql.html
 - nanoGPT楽しい。源氏物語全文で学習させたら何か語りだした🤗 いずれの紛れありけるかな
-	- https://github.com/karpathy/nanoGPT
-	- The simplest, fastest repository for training/finetuning medium-sized GPTs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjEzMTE1NDYsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNT
-QsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQw
-OTA1MV19
+eyJoaXN0b3J5IjpbMTc3MDk3MTk2NywtMTgwNTQ4NzUyNSwxMz
+I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
+MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
+E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
+NTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NC
+w4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5
+MDUxXX0=
 -->
