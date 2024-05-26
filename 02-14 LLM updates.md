@@ -37,10 +37,12 @@
 - 英国政府が100億円超を投じる「Safeguarded AIプログラム」とは
 	- https://www.aialign.net/blog/20240520-takatsuki
 	- 本プログラムにおいてAIシステムの安全性の証明可能性の土台となる理論（特にTA1.1で扱われる内容）には、数理論理学や圏論といった分野が重要な位置を占めることが予定されており、これらの分野の研究者の協力が必要とされています
-- Copilot + PC
-	- https://x.com/ai_for_success/status/1792605275016343768
+- Copilot + PC by Nadella
+	- https://x.com/satyanadella/status/1792617851385426024
+	- Introducing Copilot+ PCs—the fastest, most AI-ready Windows PCs ever built.
 - LangChainにObsidianのローダーがある～。ObsidianのメモをベクトルストアしてRAGできてしまう～
-	- 
+	- https://www.youtube.com/watch?v=E-CNrXhSvLg
+- 
 - 
 
 ## 5/20
@@ -3691,13 +3693,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 - langgraph
 	- https://github.com/langchain-ai/langgraph
 	- LangGraph is inspired by Pregel and Apache Beam, and the current interface exposed is one inspired by NetworkX
-- GPT-4を導入したDuolingoが大規模なリストラ
-	- https://x.com/Rahll/status/1744234385891594380?s=20
-	- GPT-4を導入したDuolingoが大規模なリストラ
-- 1年間に日本の人工知能分野全体で20人しか博士号取らない？
-	-
+- GPT-4を導入したDuol
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2MjMwMzcwLDEwMjM5MjUxNywxNzA1Nz
+eyJoaXN0b3J5IjpbNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1Nz
 Q3Njk2LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMs
 MjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NT
 g5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDks
