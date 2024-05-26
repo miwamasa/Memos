@@ -201,6 +201,11 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- https://x.com/umiyuki_ai/status/1793614730403434950
 	- やっぱり伊達じゃないらしいね。ElyzaTasks100でも匹敵してるもん。しかし信じがたいね 
 - Aya 23 is here! Available in 8B and 35B.
+	- https://ollama.com/library/aya
+- LangChain `with_structured_output` メソッドによる構造化データ抽出
+	- https://zenn.dev/ml_bear/articles/cb07549ec52175
+	- 1.  構造化データをPydanticで定義する
+	- 2.  その定義を`.with_structured_output`でLLMに取り付ける
 	- 
 ## 5/20
 
@@ -3694,16 +3699,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - mix_self_consistency pack by llamaindex
 	- https://llamahub.ai/l/llama_packs-tables-mix_self_consistency?from=llama_packs
 	- Here’s a simple but useful idea to use RAG to fetch few-shot examples for less flaky text-to-SQL (or…less flaky structured RAG itself). Calling it dynamic metadata…
-	- “Rethinking Tabular Data Understanding”の実装
-	- 1.  Index and embed each row
-	- 2. In the text-to-SQL prompt (or auto-retrieval prompt), add *few shot examples of rows*: given the first k rows in the prompt, retrieve the top-k rows matching the user query.
-	
+	- “Rethinking Tabular Data Understanding”の実
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc3Njk1MzQsLTExMjgwMDQyMTEsLT
-E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
-NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
-k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
-NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
-g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
-Nzc0XX0=
+eyJoaXN0b3J5IjpbNTYxNTAyOTQ3LC0xMTI4MDA0MjExLC0xND
+g3NzUwOTc0LDE5NDk0MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUx
+NywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5Nz
+M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
+MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
+kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
+NF19
 -->
