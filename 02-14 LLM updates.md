@@ -132,7 +132,13 @@
 	- https://huggingface.co/blog/Emma-N/enjoy-the-power-of-phi-3-with-onnx-runtime
 - Hugging Face and Microsoft Deepen Collaboration
 	- https://huggingface.co/blog/microsoft-collaboration
-	- 
+- Tako, the first AI search engine for visualizing and sharing the world’s knowledge.
+	- https://x.com/TakoViz/status/1792949400710574455
+	-  Introducing Tako, a new way to reference real knowledge And our first integration, Perplexity
+		- https://trytako.com/blog/introducing-tako-and-perplexity-integration
+- Team Copilot by Microsoft 
+	- https://x.com/msdev/status/1792967099519758822
+- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3688,19 +3694,13 @@
 - LLMマルチエージェントを俯瞰する
 	- https://speakerdeck.com/masatoto/llmmarutiezientowofu-kan-suru
 	- 文献の内容をもっと深掘りしたら普通に出版できるレベルだわこれ
--  Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering
-	- https://arxiv.org/abs/2401.08500
-	- The paper proposes AlphaCodium, a code-oriented iterative flow that improves LLMs on code generation.
-	- LLMでコーディング作業を行う際のプロンプトエンジニアリング手法として、「フローエンジニアリング」という新しい概念が提唱されています。 
-	- この概念に基づいてコーディングを行うことで、LLMのプログラミング能力が一貫して向上することが定量的に報告されました。
-	- ■研究者らのアイデア - 複数の段階に分けてコードを生成・改善する - テストベースの考え方を用いる
-	- ■実験結果 
+-  Code Generation with AlphaCod
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODEyNDk1MiwxOTQ5NDM2MTQzLDYyNz
-Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
-MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
-gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
-LC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
-cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
-Nl19
+eyJoaXN0b3J5IjpbOTg3NzczMzQ1LDE5NDk0MzYxNDMsNjI3ND
+c2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwx
+Mzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEyMiwtODk4OD
+MyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEs
+LTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5Nz
+IxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2
+XX0=
 -->
