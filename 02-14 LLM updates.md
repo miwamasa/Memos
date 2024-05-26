@@ -90,7 +90,11 @@
 - 生成AI時代に大事なスキルは、「やり続ける能力　by 深津さん
 	- https://x.com/fladdict/status/1792831115528663471
 	- 生成AI時代には「もうあいつ（AI）一人でいいんじゃないかな」と、色々なことで挫折する人が大量発生する。「手をとめない」能力が、人類にとって最重要の才能になるかもしれない
-- transformers 
+- transformers v4.41.0
+	- https://github.com/huggingface/transformers/releases/tag/v4.41.0
+	- Phi3, JetMoE, PaliGemma, VideoLlava, Falcon2, FalconVLM & GGUF support
+		- https://huggingface.co/docs/transformers/v4.41.0/en/gguf
+- 
 	
 ## 5/20
 
@@ -3695,11 +3699,9 @@
 	- https://psych.or.jp/publication/world104/
 - Fair Machine Guidance to Enhance Fair Decision Making in Biased People
 	- https://x.com/yukino/status/1748481134558896432?s=20
-	- 私たちの論文「Fair Machine Guidance to Enhance Fair Decision Making in Biased People」が #CHI2024 に条件付き採択されました！ 人間の判断が不公平に偏る問題に対処するため、公平性配慮型機械学習による公平モデルを用いて、人々がより公平な判断を下せるようガイドしました！
-- Neural Speed + ONNX Runtime makes LLM inference more efficient on CPUs!
-	- https://github.com/intel/n
+	- 私たちの論文「Fair Machine Guidance to Enhance Fair Decision Making i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODg5ODc0NCwxOTQ5NDM2MTQzLDYyNz
+eyJoaXN0b3J5IjpbLTk2NDU4MzYyNywxOTQ5NDM2MTQzLDYyNz
 Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
 MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
 gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
