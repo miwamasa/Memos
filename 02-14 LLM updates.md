@@ -94,6 +94,8 @@
 	- https://github.com/huggingface/transformers/releases/tag/v4.41.0
 	- Phi3, JetMoE, PaliGemma, VideoLlava, Falcon2, FalconVLM & GGUF support
 		- https://huggingface.co/docs/transformers/v4.41.0/en/gguf
+- Phi 3 - Small, Medium & Vision
+	- https://x.com/reach_vb/status/1792949163249791383
 - 
 	
 ## 5/20
@@ -3698,14 +3700,13 @@
 - 心理学ワールド104号の特集「空間認知の科学 最前線」
 	- https://psych.or.jp/publication/world104/
 - Fair Machine Guidance to Enhance Fair Decision Making in Biased People
-	- https://x.com/yukino/status/1748481134558896432?s=20
-	- 私たちの論文「Fair Machine Guidance to Enhance Fair Decision Making i
+	- https://x.com/yukino/status/1748
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDU4MzYyNywxOTQ5NDM2MTQzLDYyNz
-Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
-MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
-gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
-LC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
-cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
-Nl19
+eyJoaXN0b3J5IjpbLTE4MzczNzIwODMsMTk0OTQzNjE0Myw2Mj
+c0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAw
+LDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OT
+g4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYz
+MSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNz
+k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
+NjZdfQ==
 -->
