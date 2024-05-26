@@ -174,6 +174,14 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- Instruct supports function calling! 
 	- Tokens 5 to 9 are for function calling & the rest are empty
 - Interface 7月号では，Copilotで文芸的プログラミングに挑戦します．
+	- https://x.com/If_CQ/status/1793214032121614787
+	- ドキュメントとソースコードを同時に開発保守するのがDonald. E. Knuth博士の「文芸的プログラミング」．CopilotとDoxygenを使えば，記述が自動化でき，両者の不一致を防げます．ソフトウェア開発の理想を最新の技術で実現します．
+- New guide in our AI cookbook: 𝙎𝙩𝙧𝙪𝙘𝙩𝙪𝙧𝙚𝙙 𝙜𝙚𝙣𝙚𝙧𝙖𝙩𝙞𝙤𝙣
+	- https://huggingface.co/learn/cookbook/structured_generation
+	- This technique lets you force your LLM to generate its output as a JSON with specific keys: great for RAG or LLM-judge!
+- Large Language Models Meet NLP: A Survey
+	- https://arxiv.org/abs/2405.12819
+	- Provides a comprehensive survey of how LLMs are applied to NLP tasks, introducing a new taxonomy and discussing current progress, future frontiers, and challenges.
 	- 
 ## 5/20
 
@@ -3689,22 +3697,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 		- 日本語の語彙拡張は日本語の事前学習時の性能劣化を顕著にするものの、SFTによる性能の上昇をより享受できる可能性がある。
 - 【新刊】「強化学習から信頼できる意思決定へ」、サイエンス社
 	- 梶野　洸(日本IBM)・宮口航平(日本IBM)・恐神貴行(日本IBM)・岩城　諒(日本IBM)・和地瞭良(LINEヤフー)　共著　
-	- https://www.saiensu.co.jp/search/?isbn=978-4-7819-1592-0&y=2024
-	- 強化学習はその定式化を用いることで幅広い実問題を表現できる一方，信頼性の不足が一因となり，実世界では応用がなされているとは言いがたい．本書は，標準的な定式化と実問題との橋渡しとなるような定式化を体系的にまとめることで，実世界での応用を促進することを目指した
-	- 第3章リスク考慮型強化学習と金融への応用（3.5節を除く）
-- 「GeForce RTX 4070 SUPER」が各社から多数登場、価格は95,480円から
-	- https://akiba-pc.watch.impress.co.jp/docs/news/news/1561586.html
-- Google DeepMindが数学オリンピックの幾何学問題において平均的な人間の金メダリストに肉薄する「AlphaGeometry」発表
-	- https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/?utm_source=twitter&utm_medium=social
-	- An Olympiad-level AI system for geometry
-	- AI system surpasses the state-of-the-art approach for geometry problems, advancing AI reasoning in mathematics
-	- AlphaGeome
+	- https://www.saiensu.co.jp/search/?isbn=97
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc0MzY5MjIsLTExMjgwMDQyMTEsLT
-E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
-NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
-k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
-NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
-g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
-Nzc0XX0=
+eyJoaXN0b3J5IjpbLTEzNDAyOTkzNywtMTEyODAwNDIxMSwtMT
+Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
+MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
+czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
+MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
+Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
+NzRdfQ==
 -->
