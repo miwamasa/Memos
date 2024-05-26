@@ -38,10 +38,18 @@
 	- https://www.aialign.net/blog/20240520-takatsuki
 	- 本プログラムにおいてAIシステムの安全性の証明可能性の土台となる理論（特にTA1.1で扱われる内容）には、数理論理学や圏論といった分野が重要な位置を占めることが予定されており、これらの分野の研究者の協力が必要とされています
 - Copilot + PC by Nadella
-	- https://x.com/satyanadella/status/1792617851385426024
+	- https://x.com/satyanadella/status/179261785138542602
 	- Introducing Copilot+ PCs—the fastest, most AI-ready Windows PCs ever built.
+		- Powered by new NPU (40+ trillion operations per second)
+		- Rearchitected Windows 11 
+		- 58% faster than Macbook Air M3 
+		- Copilot shipping with Windows 
+		- Copilot built into Settings, files, notifications 
+		- Powered by GPT-4o
 - LangChainにObsidianのローダーがある～。ObsidianのメモをベクトルストアしてRAGできてしまう～
 	- https://www.youtube.com/watch?v=E-CNrXhSvLg
+- The Illustrated Stable Diffusion	
+	- https://jalammar.github.io/illustrated-stable-diffusion/
 - 
 - 
 
@@ -3686,20 +3694,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://arxiv.org/abs/2401.02385
 	- 小型の言語モデルを極めて大きいデータ量でトレーニングすると、類似モデルよりもシンプルに著しく性能が高くなったと報告
 	- - GPT-3：175Bパラメータ - Llama-2：7B〜70Bパラメータ - TinyLlama：1.1Bパラメータ
-	- ■実験 1. 3兆トークンでTinyLlamaを訓練した （3エポック×1兆トークン） 2. 様々な常識推論タスクでテストした 3. 同規模パラメータのモデルと比較した 4. 平均スコアで最高の成績を達成した 
-	- ■結論 シンプルに大量データでトレーニングするのは有効である可能性が高い
--  LangChain v0.1.0
-	- https://blog.langchain.dev/langchain-v0-1-0/
-- langgraph
-	- https://github.com/langchain-ai/langgraph
-	- LangGraph is inspired by Pregel and Apache Beam, and the current interface exposed is one inspired by NetworkX
-- GPT-4を導入したDuol
+	- ■実験 1. 3兆トークンでTinyLlamaを訓練した （3エポック×1兆トークン） 2. 様々な常識推論タスクでテストした 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1Nz
-Q3Njk2LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMs
-MjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NT
-g5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDks
-Nzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3NCwxODI1ND
-U3MDM1LC0xMTY4NTA3MTY2LC0yMzM3MzEzNDksLTg0NTkzODU0
-Ml19
+eyJoaXN0b3J5IjpbMTI0MjQ0NDc5LDYyNzQ3NjgzNiwxMDIzOT
+I1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1Miwx
+OTczODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMD
+k1MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcs
+ODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOT
+I3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5
+XX0=
 -->
