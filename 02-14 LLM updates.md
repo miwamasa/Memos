@@ -3,7 +3,8 @@
 
 ## 5/27
 
-gpt-4oさんに下書きしてもらってから書いてます。量的に、もう無理です。
+
+知識グラフのRAGも熱いが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそうなるかな。一方
 
 
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
@@ -3693,13 +3694,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 - xverse/XVERSE-13B-256K
 	- https://huggingface.co/xverse/XVERSE-13B-256K
 	- ローカルLLMの長文対応がついに256K（約25万字）
-	- XVERSEはABF+継続的pre-trainingとNTK+SFT技術を用
+	- XVERSEはAB
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMT
-Q4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1
-MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOT
-czODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1
-MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcsOD
-Q5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOTI3
-NzRdfQ==
+eyJoaXN0b3J5IjpbLTE4MDU0ODc1MjUsMTMyODE1MzMyNywtMT
+EyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3
+NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMT
+M4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgz
+MjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC
+0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcy
+MThdfQ==
 -->
