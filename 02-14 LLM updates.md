@@ -6,6 +6,8 @@
 
 知識グラフのRAGも熱いが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそうなるかな。一方
 
+AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネットに
+
 
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
 	- https://medium.com/@transformergpt/unleashing-the-power-of-knowledge-graphs-in-retrieval-augmented-generation-rag-step-by-step-84c2adc66c1c
@@ -240,6 +242,11 @@
 	- https://x.com/gijigae/status/1793437095727665588
 -  Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet
 	- https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html
+	- Anthropicの中規模生産モデルであるClaude 3 Sonnetにスケールアップされたスパースオートエンコーダーを適用し、解釈可能な特徴を抽出する研究
+	-  **スパースオートエンコーダー**: 小規模トランスフォーマーから単義的特徴を回復する方法を示した研究から発展し、大規模モデルへのスケーリングが重視されています。
+	- **解釈可能な特徴**: 抽出された特徴は多言語、多モーダルであり、具体的および抽象的な参照の間で一般化されています。
+	- **安全性関連特徴**: セキュリティの脆弱性やバックドア、偏見、嘘や欺瞞、危険または犯罪的な内容など、AIシステムが引き起こす可能性のある様々な問題に関連する特徴が観察されています。
+	- **スケーリング法則**: スパースオートエンコーダーの訓練にスケーリング法則を適用し、計算予算に基づいて最適な特徴数と訓練ステップ数を決定しています。
 - ハル・ベリーニューロンがAIで実体験できる時代が到来
 	- https://x.com/webbigdata/status/1794030396990226803
 	- ハル・ベリーさんという、X-MENのストームとかキャットウーマン役をやってるアメリカの女優さんがいるのですが、ある患者さんの特定のニューロンが「ハル・ベリーの写真」や「ハル・ベリー」というテキストに対して活性化する事が観察されたという研究がある。
@@ -3685,20 +3692,12 @@
 - nanoGPT楽しい。源氏物語全文で学習させたら何か語りだした🤗 いずれの紛れありけるかな
 	- https://github.com/karpathy/nanoGPT
 	- The simplest, fastest repository for training/finetuning medium-sized GPTs
-- 企業はなぜ東京に集中するのか──経済地理学の視点から（日本労働研究雑誌）
-	- https://www.jil.go.jp/institute/zassi/backnumber/2020/05/pdf/029-039.pdf
-- 東京発・AIドリームチーム「http://Sakana.ai」が45億円調達　元Googleトップ研究者らが設立　AI業界の著名人や日本の大手IT企業も出資
-	- https://sakana.ai/seed-round/
-	- @tkasasagi さんも参加かー
-	- https://x.com/tkasasagi/status/1747267875021406329?s=20
-	- 「サカナAI」日米で45億円調達　スイミーの発想で巨大ITに挑む
-		- 同社は対話型AIの基盤技術である大規模言語モデル（LLM）の開発で、他社が開発した小さなAIをいくつもつないで、巨大AIに匹敵する能力をもつ仮想のAIモデルを構想。この新技術はエージェントモデルと呼ばれ、開発コストを劇的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjcyMzg2OSwtMTgwNTQ4NzUyNSwxMz
-I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
-MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
-E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
-NTEyMiwtODk4ODMyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NC
-w4MzAxMTg2MzEsLTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5
-MDUxXX0=
+eyJoaXN0b3J5IjpbLTE3MjEzMTE1NDYsLTE4MDU0ODc1MjUsMT
+MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
+NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
+wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
+MzUxMjIsLTg5ODgzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNT
+QsODMwMTE4NjMxLC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQw
+OTA1MV19
 -->
