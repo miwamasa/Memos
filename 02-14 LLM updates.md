@@ -242,6 +242,9 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- ハル・ベリーさんという、X-MENのストームとかキャットウーマン役をやってるアメリカの女優さんがいるのですが、ある患者さんの特定のニューロンが「ハル・ベリーの写真」や「ハル・ベリー」というテキストに対して活性化する事が観察されたという研究がある。
 	- 5月21日にanthropicがClaude 3 Sonnetで何百万もの概念がどのように表現されているかを特定できたよ～と発表し、
 	- その技術を使って、サンフランシスコのゴールデン ゲート ブリッジ(Golden Gate Bridge)に対応するニューロンを活性化させてている「Golden Gate Claude」と実験的に対話できるようにしたよ～と発表したのが昨日ですね。
+	- 一言で言えば、やたらめったらゴールデン ゲート ブリッジ推しをしてくるAIで、色々なタイミングでゴールデン ゲート ブリッジを推薦してきます。
+- streamlitでデプロイするイメージです。 GitHubと接続すれば、本当に爆速で
+	- https://x.com/kenken26679105/status/1793889080385925580
 	- 
 ## 5/20
 
@@ -3690,15 +3693,13 @@ gpt-4oさんに下書きしてもらってから書いてます。量的に、�
 	- XVERSEはABF+継続的pre-trainingとNTK+SFT技術を用いてプロセスを最適化。これにより、モデルのシーケンス長を大幅に拡張することが可能となった
 - Open AIは「Collective Alignment team」を結成
 	- https://openai.com/blog/democratic-inputs-to-ai-grant-program-update
-	- AIに多種多様な世界中の公的な意見を反映させるシステムの開発を担う。 以前AIへの民主的インプットのアイデアを募集していたが、1000の応募者があり以下画像のように10のチームのアイディアが選抜された
--  再考: お買い得物件を機械学習で見つける方法
-	- https://speakerdeck.com/ktgrstsh/rethink-method-to-find-cheap-
+	- AIに多種多様な世界中の
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwNjg4MTU4LC0xMTI4MDA0MjExLC0xND
-g3NzUwOTc0LDE5NDk0MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUx
-NywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwxMzg3MjMyNDUyLDE5Nz
-M4MDU2OTMsMjA5OTczNTEyMiwtODk4ODMyNDA1LDEzMTEwOTUx
-MTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEsLTE4NzMyNjgwNyw4ND
-kwNDE2MDksNzg4NDA5MDUxLDM3MTc5NzIxOCwtMTk2MTM5Mjc3
-NF19
+eyJoaXN0b3J5IjpbLTE3NTg3Mzk3MDYsLTExMjgwMDQyMTEsLT
+E0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzky
+NTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMT
+k3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5
+NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LD
+g0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMzky
+Nzc0XX0=
 -->
