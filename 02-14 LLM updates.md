@@ -18,7 +18,7 @@ AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニュー�
 
 今井さんのGPT-4oを研究者視点で解説した記事のシリーズは気になる。
 
-ローカルLLMも相変わらず熱い！。今週も、Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaも即追従、raw modeって何さ？一方、マルチモーダルも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。Transformers.js and ONNX Runtime Webというのも、ローカルLLMの協力な助っ人か。しかし、Phi-3は、最も有能で費用対効果のSML (Small Language Model)っていうんだ。 
+ローカルLLMも相変わらず熱い！。今週も、Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaも即追従、raw modeって何さ？一方、マルチモーダルも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。Transformers.js and ONNX Runtime Webというのも、ローカルLLMの協力な助っ人か。Cohareからは、Aya 23 の 8B と35Bがリリース。しかし、Phi-3は、最も有能で費用対効果のSML (Small Language Model)っていうんだ。 
 
 EUのAI法が最終合意、一方OECDはAIリスクに関する用語を整理し、インシデントに確率を考慮したものがリスクになるとのこと。英国の「Safeguarded AIプログラム」は、安全性のために数理論理学や圏論を利用するとのこと、guardをLLMで実現するメタのアプローチと真逆で面白い。
 
@@ -3686,14 +3686,13 @@ EUのAI法が最終合意、一方OECDはAIリスクに関する用語を整理�
 	- [rinna/youri-7b-instruction](https://huggingface.co/rinna/youri-7b-instruction)
 	- [rinna/youri-7b-chat](https://huggingface.co/rinna/youri-7b-chat)
 - mambaを分散学習するためのライブラリ
-	- https://github.com/kotoba-tech/kotomamba
-	- Transforme
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMj
-gxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0OTQz
-NjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMT
-kyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1
-MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LD
-gzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkw
-NTFdfQ==
+eyJoaXN0b3J5IjpbNjk5MzIwMjIsNTg3MjYwNDgzLC0xODA1ND
+g3NTI1LDEzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5
+NzQsMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MD
+U3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5
+MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMTA5NTExMSwtNj
+k1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3LDg0OTA0MTYw
+OV19
 -->
