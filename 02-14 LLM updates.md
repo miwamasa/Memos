@@ -81,7 +81,10 @@
 	- https://soysoftware.sakura.ne.jp/archives/3903
 	- GPTのAPI高い問題 ＆ OpenAIがAIベンチャー皆殺しにしてしまう問題
 	- ローカルLLM推論ライブラリが色々ある
+		- Llma.cpp, ollama, vLLM
 	- 強力な大型オープンなAIモデルが公開されはじめてる
+		- Command R+（非商用利用）やLlama3-70B、DeepSeek-V2
+	- 
 ## 5/20
 
 今回は、GPT-4oさんに、まとめをお願いしました（無修正です！！）。ここまで来たか、と驚くようなさみしいような。。大切なことは、もう一度言います、無修正です。では、
@@ -3691,15 +3694,13 @@
 - Google DeepMind researchers are in talks to leave and form a new startup named 'Holistic'. They want to build their own AI model.
 	- https://x.com/AndrewCurran_/status/1748419941672616324?s=20
 - 【新刊】「多様体上の最適化理論」
-	- https://www.ohmsha.co.jp/book/9784274231186/
-	- 本書は、多様体上の最適化理論について、基礎となる数理から応用例までを解説するものです。  
-	- 多様体上の最適化を学ぶ、あるいは研究す
+	- https://www.ohmsha.co.jp/book/978427423
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjYxOTMzOSwxOTQ5NDM2MTQzLDYyNz
-Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
-MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
-gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
-LC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
-cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
-Nl19
+eyJoaXN0b3J5IjpbMjQwMTM0NDY5LDE5NDk0MzYxNDMsNjI3ND
+c2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwx
+Mzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEyMiwtODk4OD
+MyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEs
+LTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5Nz
+IxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2
+XX0=
 -->
