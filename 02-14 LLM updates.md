@@ -18,7 +18,7 @@ AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニュー�
 
 ローカルLLMも相変わらず熱い！。今週も、Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaも即追従、raw modeって何さ？一方、マルチモーダルも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。
 
-EUの
+EUのAI法が最終合意、一方OECDはAIリスクに関する用語を整理し、インシデントに確率を考慮したものがリスクになるとのこと。
 
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
 	- https://medium.com/@transformergpt/unleashing-the-power-of-knowledge-graphs-in-retrieval-augmented-generation-rag-step-by-step-84c2adc66c1c
@@ -3691,10 +3691,9 @@ EUの
 	- https://huggingface.co/datasets/baobab-trees/wikipedia-human-retrieval-ja
 	- 短い質問文に対してWikipediaに書いてある情報のみで回答させる、というのを1000問前後実施し、人手retrieval付きQAデータセットを作りました。途中の過程や引用なども記録しているので、人間による検索のシミュレーションをデータから検討したりできると思いま
 - Copilot for Office 365
-	- https://x.com/usutaku_com/status/1747119405702795383?s=20
--  how 
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODI3MzU0MCwtMTgwNTQ4NzUyNSwxMz
+eyJoaXN0b3J5IjpbLTg3MjI1OTQwOCwtMTgwNTQ4NzUyNSwxMz
 I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
 MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
 E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
