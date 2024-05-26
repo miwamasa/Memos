@@ -56,7 +56,9 @@
 -  AWS、一般提供開始した生成AIサービス「Amazon Q」、および「Bedrock」と今後の戦略を説明
 	- https://internet.watch.impress.co.jp/docs/news/1592518.html?ref=smartnews
 - The theory of mind—the ability to track a person's mental state—is tested comparing humans vs GPT-4 and LLaMA2 large language models
-- 
+	- https://www.nature.com/articles/s41562-024-01882-z
+- GeminiがYouTube動画を一瞬で要約してくれるようになった（しかも無料
+	- https://www.lifehacker.jp/article/2405-use-gemini-summarize-youtube-videos-free/
 
 ## 5/20
 
@@ -3690,16 +3692,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 		- 3. 高い生成精度を維持しつつ速度を改善した
 - PmxEditor及び準標準ボーン追加プラグインの導入
 	- http://rockstababy.starfree.jp/mmdsupporter/bemmder/section3.php
-	- PmxEditorを使えばMMDモデルを編集できるのか！フリーレンのモデルの編集はこれを使っていたのか
--  Uncovering mesa-optimization algorithms in Transformers
-	- https://arxiv.org/abs/2309.05858
-	- Why are Transformers so effective? And where is their
+	- PmxEditorを使えばMMDモデルを編集できるの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2NTE2ODM4LDYyNzQ3NjgzNiwxMDIzOT
-I1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1Miwx
-OTczODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMD
-k1MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcs
-ODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OTcyMTgsLTE5NjEzOT
-I3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2NiwtMjMzNzMxMzQ5
-XX0=
+eyJoaXN0b3J5IjpbMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMz
+kyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIs
+MTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMT
+A5NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3
+LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMz
+kyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0
+OV19
 -->
