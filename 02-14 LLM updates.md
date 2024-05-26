@@ -59,6 +59,12 @@
 	- https://www.nature.com/articles/s41562-024-01882-z
 - GeminiがYouTube動画を一瞬で要約してくれるようになった（しかも無料
 	- https://www.lifehacker.jp/article/2405-use-gemini-summarize-youtube-videos-free/
+	- 本当だ！
+- 観察スケール則は、LLMの標準的ベンチマークの性能から求められた主成分（3つ程度）を用いて複雑な後続タスクの性能を高精度で予測できる法則　by 岡野原さん
+	- https://arxiv.org/abs/2405.10938
+- BREAKING: Council of Europe adopts 1st international treaty on AI. Here's what you need to know:
+	- https://x.com/LuizaJarovsky/status/1792224914646200512
+- 
 
 ## 5/20
 
@@ -3684,21 +3690,13 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- https://arxiv.org/abs/2312.12728
 	- LLMの出力品質を落とさずに推論速度をスピードアップさせるための手法
 	- ■『Lookahead』のアイデア 
-		- 1. 生成の枝分かれ（ブランチ）を作る - ブランチを作成は並行処理する 
-		- 2. 最適なブランチを選び出す - 不要なブランチを早期排除する →推論スピードを向上させつつ高品質を維持する 
-	- ■実験と結果 
-		- 1. DollyデータセットとLlama-13Bでテスト 
-		- 2. オンライン環境に組み込んだ 
-		- 3. 高い生成精度を維持しつつ速度を改善した
-- PmxEditor及び準標準ボーン追加プラグインの導入
-	- http://rockstababy.starfree.jp/mmdsupporter/bemmder/section3.php
-	- PmxEditorを使えばMMDモデルを編集できるの
+		- 1. 生成の枝分かれ（ブランチ）を作る - ブランチを作成は並行処理す
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMz
-kyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcyMzI0NTIs
-MTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4MzI0MDUsMTMxMT
-A5NTExMSwtNjk1ODk0MDU0LDgzMDExODYzMSwtMTg3MzI2ODA3
-LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNzk3MjE4LC0xOTYxMz
-kyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcxNjYsLTIzMzczMTM0
-OV19
+eyJoaXN0b3J5IjpbLTE2NTU2OTI0MDYsMTk0OTQzNjE0Myw2Mj
+c0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAw
+LDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OT
+g4MzI0MDUsMTMxMTA5NTExMSwtNjk1ODk0MDU0LDgzMDExODYz
+MSwtMTg3MzI2ODA3LDg0OTA0MTYwOSw3ODg0MDkwNTEsMzcxNz
+k3MjE4LC0xOTYxMzkyNzc0LDE4MjU0NTcwMzUsLTExNjg1MDcx
+NjZdfQ==
 -->
