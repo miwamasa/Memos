@@ -50,7 +50,12 @@
 	- https://www.youtube.com/watch?v=E-CNrXhSvLg
 - The Illustrated Stable Diffusion	
 	- https://jalammar.github.io/illustrated-stable-diffusion/
-- 
+- Google has released Gemini 1.5 Flash.
+	- https://x.com/dr_cintas/status/1792572374300188752
+	- An AI model optimized for speed and efficiency, with multimodal reasoning and an impressive 1M context window!
+-  AWS、一般提供開始した生成AIサービス「Amazon Q」、および「Bedrock」と今後の戦略を説明
+	- https://internet.watch.impress.co.jp/docs/news/1592518.html?ref=smartnews
+- The theory of mind—the ability to track a person's mental state—is tested comparing humans vs GPT-4 and LLaMA2 large language models
 - 
 
 ## 5/20
@@ -3688,15 +3693,9 @@ Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやり
 	- PmxEditorを使えばMMDモデルを編集できるのか！フリーレンのモデルの編集はこれを使っていたのか
 -  Uncovering mesa-optimization algorithms in Transformers
 	- https://arxiv.org/abs/2309.05858
-	- Why are Transformers so effective? And where is their intruiging in-context learning ability coming from?
-	- Transformerは，人間の設計者から与えられた訓練目標を達成するために，自発的に新たな中間目標の設定とそれらを組み合わせた内部的な最適化戦略を作る（メサ最適化）可能性を示唆．AI安全性，AIアライメントにおける重要概念（道具的目標収束）を理論的に導出した注目論文
-- TinyLlama: An Open-Source Small Language Model
-	- https://arxiv.org/abs/2401.02385
-	- 小型の言語モデルを極めて大きいデータ量でトレーニングすると、類似モデルよりもシンプルに著しく性能が高くなったと報告
-	- - GPT-3：175Bパラメータ - Llama-2：7B〜70Bパラメータ - TinyLlama：1.1Bパラメータ
-	- ■実験 1. 3兆トークンでTinyLlamaを訓練した （3エポック×1兆トークン） 2. 様々な常識推論タスクでテストした 3. 
+	- Why are Transformers so effective? And where is their
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjQ0NDc5LDYyNzQ3NjgzNiwxMDIzOT
+eyJoaXN0b3J5IjpbNTI2NTE2ODM4LDYyNzQ3NjgzNiwxMDIzOT
 I1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1Miwx
 OTczODA1NjkzLDIwOTk3MzUxMjIsLTg5ODgzMjQwNSwxMzExMD
 k1MTExLC02OTU4OTQwNTQsODMwMTE4NjMxLC0xODczMjY4MDcs
