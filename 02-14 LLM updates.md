@@ -70,6 +70,9 @@
 	- https://note.com/hatti8/n/nb61b4935c793?sub_rt=share_pb
 	- Googleが先週出したLLMの自己改善手法であるReSTEMについて、メモを書きました。
 	- 合成データ生成手法としてどうかという視点で書いています
+- p値姫（サンプル数編）
+	- https://x.com/spine_surgeon_/status/1792767885615759746
+	- 「マリオへ、実験結果いい感じです！いい感じなんですけど、有意差でるまでサンプル数増やしてみてください。有意差出るまで連絡は不要です。ピーチより。」
 - 
 ## 5/20
 
@@ -3689,9 +3692,9 @@
 
 ## 1/15
 
-Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデル。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。小規模言語モデルではTinyLlamaってのもありました、Macでも快適に動く模様。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる？stanfordのwikichat、LLaMA7Bベースでも、ここまで性能が上がる（メモリを食うらしいが）という報告も。われらのアルトマン氏が結婚！LangChainもついに、v0.1が出た！。タイムラインに、ひたすら、Moore-AnimateAnyoneの絵が出てくるのはなぜ？？Duolingo
+Mistral AIによるMixtral -8x7bモデルの成功により、最近のはやりはMoE（Mixture of Experts）モデル。Phi-2のMoEであるPhixtual-2x2bなんかも出ました。mergekitというのを使えば、colabでも、MoEが簡単に作れるようです。  比較的小さな言語モデルでも、混ぜ合わせることで大きいモデルに匹敵する可能性があるという報告もあり、アンサンブルってのはLLMでも有効なんですねー。小規模言語モデルではTinyLlamaってのもありました、Macでも快適に動く模様。言語モデルは小さくても、膨大なデータで学習すれば性能が上がる
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDQ5MDcyMSwxOTQ5NDM2MTQzLDYyNz
+eyJoaXN0b3J5IjpbMTI2NjQ0MTkwNywxOTQ5NDM2MTQzLDYyNz
 Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
 MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
 gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
