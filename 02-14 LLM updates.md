@@ -88,7 +88,9 @@
 		- Mistral-7Bベース、ChatVector、
 	-  個人でもAI開発競争に食い込める可能性について
 - 生成AI時代に大事なスキルは、「やり続ける能力　by 深津さん
-	- 
+	- https://x.com/fladdict/status/1792831115528663471
+	- 生成AI時代には「もうあいつ（AI）一人でいいんじゃないかな」と、色々なことで挫折する人が大量発生する。「手をとめない」能力が、人類にとって最重要の才能になるかもしれない
+- transformers 
 	
 ## 5/20
 
@@ -3695,15 +3697,13 @@
 	- https://x.com/yukino/status/1748481134558896432?s=20
 	- 私たちの論文「Fair Machine Guidance to Enhance Fair Decision Making in Biased People」が #CHI2024 に条件付き採択されました！ 人間の判断が不公平に偏る問題に対処するため、公平性配慮型機械学習による公平モデルを用いて、人々がより公平な判断を下せるようガイドしました！
 - Neural Speed + ONNX Runtime makes LLM inference more efficient on CPUs!
-	- https://github.com/intel/neural-speed
-- Google DeepMind researchers are in talks to leave and form a new startup named 'Holistic'. They want to build their own AI model.
-	- https:/
+	- https://github.com/intel/n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxMzYyMjYwLDE5NDk0MzYxNDMsNjI3ND
-c2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwx
-Mzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTczNTEyMiwtODk4OD
-MyNDA1LDEzMTEwOTUxMTEsLTY5NTg5NDA1NCw4MzAxMTg2MzEs
-LTE4NzMyNjgwNyw4NDkwNDE2MDksNzg4NDA5MDUxLDM3MTc5Nz
-IxOCwtMTk2MTM5Mjc3NCwxODI1NDU3MDM1LC0xMTY4NTA3MTY2
-XX0=
+eyJoaXN0b3J5IjpbMjAzODg5ODc0NCwxOTQ5NDM2MTQzLDYyNz
+Q3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAs
+MTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3MzUxMjIsLTg5OD
+gzMjQwNSwxMzExMDk1MTExLC02OTU4OTQwNTQsODMwMTE4NjMx
+LC0xODczMjY4MDcsODQ5MDQxNjA5LDc4ODQwOTA1MSwzNzE3OT
+cyMTgsLTE5NjEzOTI3NzQsMTgyNTQ1NzAzNSwtMTE2ODUwNzE2
+Nl19
 -->
