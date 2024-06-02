@@ -108,6 +108,12 @@
 	- https://www.jst.go.jp/crds/report/CRDS-FY2023-SP-03.html
 	- https://x.com/resnant/status/1796181056283898332
 	- LLM含め最近の基盤モデルや生成系AIの動向と諸課題を技術的にも掘り下げてて、いろいろな立場の人に参考になると思う
+- [LoRA] by Hand
+	- https://x.com/ProfTomYeh/status/1796169087665557729
+	- How does LoRA reduce the number of trainable parameters?
+-  Don’t Believe the AI Hype
+	- https://www.project-syndicate.org/commentary/ai-productivity-boom-forecasts-countered-by-theory-and-data-by-daron-acemoglu-2024-05?
+	- ダロン・アセモグル氏の分析では、AIによって影響をうける人間のタスクは4.6％で、向こう十年のAIによる全要素生産性の向上は0.66%にとどまる。AIによる科学発見は直近では経済にさほど影響しない。かつての自動化技術に比べると格差拡大効果は小さいが規制は必要
 - 
 
 
@@ -3639,21 +3645,13 @@
 	- https://github.com/lucidrains/self-rewarding-lm-pytorch
 	- MetaのDPOの、独立実装が登場らしい
 - ベイズモデリングによるチームメイト及び対戦相手の能力を考慮したポゼッションデータに基づくバスケットボールプレイヤーの能力評価指標
-	- https://www.jstage.jst.go.jp/article/jscswabun/36/2/36_99/_article/-char/ja/
-	- 滋賀大時代の学生や同僚たちと書いたバスケットボール選手のパフォーマンス評価に関する論文が掲載されたとらしい
--  WARM: On the Benefits of Weight Averaged Reward Models
-	- https://huggingface.co/papers/2401.12187
-	- Google Deepmind presents WARM
-- GoogleColobで小規模言語モデル(0.15B)の事前学習モデルを作ってみる
-	- https://ayousanz.hatenadiary.jp/entry/2024/01/23/225623
-	- 事前学習モデル(0.15B)を作ってみました ちゃんと使えるレベルにするためには、約200倍くらいかけないといけないみたいです
-- ChatG
+	- https://www.jsta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5MTAyOTYzLC0zMjYxNDYzMTcsLTE2OD
-U4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4
-MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMz
-I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
-MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
-E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
-NTEyMl19
+eyJoaXN0b3J5IjpbMjA3NjA5NzM0MiwtMzI2MTQ2MzE3LC0xNj
+g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
+ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
+MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
+NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
+wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
+MzUxMjJdfQ==
 -->
