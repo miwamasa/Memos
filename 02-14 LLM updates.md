@@ -3,6 +3,19 @@
 
 ## 6/3
 
+
+最近のLLM（大規模言語モデル）に関する最新の動向を見ていくと、多岐にわたる研究と応用が報告されている。まず、悪意のあるバックドア攻撃がRAG（Retrieval-Augmented Generation）を利用して行われる可能性があることが指摘されている。この手法では、知識データベースに特定の細工データを注入し、トリガーとなるプロンプトが入力されると悪意のある回答を生成する事例が報告されている。また、Googleの検索エンジンと生成AIの統合については評価が低く、「油と水を無理やり混ぜるような感じがする」といった意見も見受けられる。
+
+一方で、LLMの性能向上も引き続き進展しており、特に小規模モデルの高速化や効率化が話題となっている。例えば、Mixtralのモデルがわずかなコストで人間よりも高速に読み取ることができるようになり、Llamaなどのモデルが従来よりも高速に動作するようになっている。また、特に日本語を含む多言語のエージェントにも応用され始めている。
+
+創造性や推論能力においてもLLMの性能が向上しており、GPT-4が財務諸表の分析で人間のアナリストを凌駕するパフォーマンスを発揮する点や、Wikipedia上でのエンゲージメントに与える影響も話題になっている。さらに、LLMを用いて数学の定理や証明を機械的に検証する「autoformalization」の研究も進展している。
+
+現実の応用例としては、NASAによる気象予測や大気汚染予測のための基盤モデル「Aurora」の開発が挙げられる。このモデルはわずか1分以内に5日間の大気予測を行うことが可能であり、地球観測データの解析に革命をもたらすと期待されている。
+
+また、技術的な観点では、新たな知識グラフ構築手法や、トランスフォーマーが複数のドメイン適応方法を選択する能力などが示されており、LLMの多様な応用可能性が広がっている。AIを用いた証明や推論の自動化に向けた「Autoformalizing Euclidean Geometry」や、生成AIを使った慣用表現の取り扱いなど、より具体的な問題にも焦点が当てられている。
+
+最後に、AIの社会的・規制的な側面についても注目が集まっている。特にEUや英国のアカデミーなどが「AI for Societal Good」や「AI in Science」といった枠組みでAIの役割を再定義しようとしており、そのレポートやプロポーザルが豊富に議論されている。これらの動向は、AI技術が科学研究の方法や成果にどのように影響を及ぼすかを示す重要な指標となっている。
+
 -  自分がどれくらいニューラルネットワークを理解しているかを確かめられるゲーム「Graph Game」
 	- https://gigazine.net/news/20240526-graph-game/
 - googleの検索x生成AIについては，ちょっと評価がイマイチなんですよね．油と水を無理やり混ぜようとしている感がある．by 今井さん
@@ -3619,32 +3632,13 @@
 
 中国オリオンスターロボティクス（OrionStar）という会社から新星LLMであるOrion登場、日本語や韓国語が得意なのと長文モデルを持っている、中華LLMは日本語も得意ってのはよく言われていること、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違うDPOの実装も出てきたし、CALM2をDPOしたモデルやデータセットの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEの構築もColabの無料枠で実現する事例が出てきた、Sparse性がポイントなのか。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge injectionがうまく動いた例でもあるのね。DPOはもちろん、2)LLM safetyと関係ある。AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」、報酬モデルが、繰り返しのプロセスを通じて改善されるとのこと、自給自足モデルか。基盤モデルよりも、領域を絞ったモデルが高性能であったり、Q&Aタスクに絞ってllama2を２段階の指示チューニングして、GPT-4に迫る結果など、それはそうだがそれを確かめたのが尊い。LeCun先生によると、DGNNの論文でどこにも投稿してなかったのか。。OpenAIの 新モデルの追加 と APIの更新もありました、安くなって性能が上がる、OpenAIちゃんと仕事してますね。LangGraphってLCELの拡張だったのか、アロー言語とかそういうのに近いのかも。HuggingFaceとGoogleのパートナシップ、Colab環境とより密になりAIの民主化的には朗報なわけですが、Google何を狙っている？T4の普及？？MacでLLMの利用も着実に進歩、MLXでXwin-70Bのggufが動くことが確認された。エンベディングもColBERTという新手があるのか？trasformerもv4.37でQwen2, Phi-2, SigLIPなどが使えるようになった。
 
-- Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
-	- https://arxiv.org/abs/2311.16452
-	- Microsoftより「GPT-4等の基盤モデルよりも、領域を絞ったモデルの方がその領域で高性能なのではないか？」を調べた論文。結果、医療の問題でGPT-4がMed-PaLM2を上回る結果に
-- Orion-14B
-	- https://github.com/OrionStarAI/Orion
-	- 中国発LLMの新星
-	- 2.5T学習、日本語100B事前学習済 語彙サイズは84,608 
-	- 長文モデルは、200k-320k対応 RAG、
-	- function calling専用モデルを用意
-- transformer v4.37
-	- https://github.com/huggingface/transformers/releases/tag/v4.37.0
-	- Release v4.37 Qwen2, Phi-2, SigLIP, ViP-LLaVA, Fast2SpeechConformer, 4-bit serialization, Whisper longform generation · huggingface/transformers · GitHub
--  DPO によるLLMのPreferenceチューニング by npakaさん
-	- https://note.com/npaka/n/n8be32e899c8a?sub_rt=share_b
-	- 「DPO」(Direct Preference Optimization)、「IPO」(Identity Preference Optimization)、「KTO」(Kahneman-Taversky Optimization) という3つの有望なLLMアライメントアルゴリズムの評価
-	- DPO
-		- 「**DPO**」はLLMを人間またはAIの好みに合わせるための有望な代替手段として浮上しています。「強化学習」に基づく従来のアライメントアルゴリズムとは異なり、「DPO」はアライメントの定式化を、嗜好のデータセット上で直接最適化できる単純な損失関数として再構成します。
-		- これにより、「DPO」は使いやすくなり、「Zephyr」や「NeuralChat」などのモデルの学習で成功しています。
-	- IPO
-		- 「DPO」の欠点
+- Can Gen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDMyMDI1MywtMTA2NTc2NjAxOSwtMz
-I2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUw
-NzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLT
-E4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4
-Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MT
-csMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTcz
-ODA1NjkzXX0=
+eyJoaXN0b3J5IjpbLTg5NzYzMzMwLDEwMzQzMjAyNTMsLTEwNj
+U3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1
+ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUxMzYsNT
+g3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMjcsLTExMjgw
+MDQyMTEsLTE0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4Mz
+YsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcy
+MzI0NTJdfQ==
 -->
