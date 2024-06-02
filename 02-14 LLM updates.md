@@ -114,7 +114,10 @@
 -  Don’t Believe the AI Hype
 	- https://www.project-syndicate.org/commentary/ai-productivity-boom-forecasts-countered-by-theory-and-data-by-daron-acemoglu-2024-05?
 	- ダロン・アセモグル氏の分析では、AIによって影響をうける人間のタスクは4.6％で、向こう十年のAIによる全要素生産性の向上は0.66%にとどまる。AIによる科学発見は直近では経済にさほど影響しない。かつての自動化技術に比べると格差拡大効果は小さいが規制は必要
-- 
+-  Aurora: A Foundation Model of the Atmosphere
+	- https://arxiv.org/abs/2405.13063
+	- NASA has created a new foundation model for geospatial data.
+	- 
 
 
 ## 5/27
@@ -3642,16 +3645,13 @@
 	- https://docs.llamaindex.ai/en/latest/examples/query_engine/JSONalyze_query_engine.html
 	- JSONが巨大になると、コンテキストが膨大になるので、圧縮？するらしい
 -  Self-Rewarding Language Model (wip)
-	- https://github.com/lucidrains/self-rewarding-lm-pytorch
-	- MetaのDPOの、独立実装が登場らしい
-- ベイズモデリングによるチームメイト及び対戦相手の能力を考慮したポゼッションデータに基づくバスケットボールプレイヤーの能力評価指標
-	- https://www.jsta
+	- https://github.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NjA5NzM0MiwtMzI2MTQ2MzE3LC0xNj
-g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
-ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjJdfQ==
+eyJoaXN0b3J5IjpbLTE1MDc0NDM1OTgsLTMyNjE0NjMxNywtMT
+Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
+ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
+EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
+OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OT
+YsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5
+NzM1MTIyXX0=
 -->
