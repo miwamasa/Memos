@@ -3,7 +3,7 @@
 
 ## 6/3
 
-Google I/Oで発表されたgoogleの検索x生成AIが、とても不評ということで、Wall Street Journalの記事でもあるように、Perprexityの優秀さが際立つ、どうしてgooleが期待を裏切るのは全く恒例ですね。とはいっても、gpt-4oに話題を持ってかれがちですが、Gemini 1.5 Pro/Flashの優秀さもあちこちで報告されてます。
+Google I/Oで発表されたgoogleの検索x生成AIが、とても不評ということで、Wall Street Journalの記事でもあるように、Perprexityの優秀さが際立つ、gooleがプレスリリースした新技術で期待を裏切るのは全く恒例ですね。とはいっても、gpt-4oに話題を持ってかれがちですが、Gemini 1.5 Pro/Flashの優秀さもあちこちで報告されてます。
 
 Mixtral 8x22b の量子化版Q6_K が $362 CPU(AMD Ryzen 9 5950X BOXか?)で軽々動作するという報告もあったり、Phi-3-Tinyシリーズのように、さらに小ささなLLMにチャレンジみたいな展開もあった。llama.cppで量子化版を動作させるとollamaより1.8倍速いという報告も。
 
@@ -15,6 +15,7 @@ Mistralからコード生成のOSSであるCodestralが発表、さっそくOlla
 
 生成AIの飛躍的性能アップの秘密といわれる「グロッキング」に関する論文や、生成AIが「創造性」に関する１０万人の人間との比較で、GPT-4ならプロンプトを工夫すれば、人間を上回るというのには驚いた。OlilyからPrompt Engineeringの新刊もでるが、AnthropicのClaude3は、ゴールを与えれば適切なプロンプトを生成してくれるという。
 
+AIがToMを持っているかどうかの論文では、GPT-4 and Flan-PaLM reach adult-lev
 Autoformalizing という、人間が作った幾何学をAIが自動証明できる体系に、生成AIをつかって作り直すという。
 
 さて日本では、人工知能学会が浜松で開催、岡崎先生のスライド「大規模言語モデルの開発」は必見です。
@@ -3643,13 +3644,13 @@ LLMのモデルサイズが小さくなりながらも高い性能を発揮す�
 
 ## 1/29
 
-中国オリオンスターロボティクス（OrionStar）という会社から新星LLMであるOrion登場、日本語や韓国語が得意なのと長文モデルを持っている、中華LLMは日本語も得意ってのはよく言われていること、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違うDPOの実装も出てきたし、CALM2をDPOしたモデルやデータセットの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEの構築もColabの無料枠で実現する事例が出てきた、Sparse性がポイントなのか。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge injectionがうまく動いた例でもあるのね。DPOはもちろん、2)LLM safetyと関係ある。AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」、報酬モデルが、繰り返しのプロセスを通じて改善されるとのこと、自給自足モデルか。基盤モデルよりも、領域を絞ったモデルが高性能であったり、Q&Aタスクに絞
+中国オリオンスターロボティクス（OrionStar）という会社から新星LLMであるOrion登場、日本語や韓国語が得意なのと長文モデルを持っている、中華LLMは日本語も得意ってのはよく言われていること、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違うDPOの実装も出てきたし、CALM2をDPOしたモデルやデータセットの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEの構築もColabの無料枠で実現する事例が出てきた、Sparse性がポイントなのか。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge injectionがうまく動いた例でもあるのね。DPOはもちろん、2)LLM safetyと関係ある。AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」、報酬モデルが、繰り返しの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY2MjMyNDYsMTAzNDMyMDI1MywtMT
-A2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0
-ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNi
-w1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEy
-ODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3Nj
-gzNiwxMDIzOTI1MTcsMTcwNTc0NzY5NiwxOTIxNDQwMDAsMTM4
-NzIzMjQ1Ml19
+eyJoaXN0b3J5IjpbLTY1NTkyNTI3NiwxMDM0MzIwMjUzLC0xMD
+Y1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4
+NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MTM2LD
+U4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0xMTI4
+MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0MzYxNDMsNjI3NDc2OD
+M2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwxMzg3
+MjMyNDUyXX0=
 -->
