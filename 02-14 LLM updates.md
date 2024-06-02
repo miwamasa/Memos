@@ -135,7 +135,8 @@
 	- LLMs achieve adult human performance on higher-order theory of mind tasks 
 	- This paper examines the extent to which large language models (LLMs) have developed higher-order theory of mind (ToM); the human ability to reason about multiple mental and emotional states in
 	- We find that GPT-4 and Flan-PaLM reach adult-level and near adult-level performance on ToM tasks overall, and that GPT-4 exceeds adult performance on 6th order inferences
-- 
+- 生成AIによる「慣用表現の『乗っ取り』」と、その根底にある別の問題と by TJOさｎ
+https://tjo.hatenablog.com/entry/2024/05/31/171000
 - 
 
 
@@ -3635,11 +3636,9 @@
 	- オープンLLMはそんな金かけてRLHFやるなんて無理だった。そこで発明されたのがDPOだ。
 	- DPOは人力で評価する必要が無いからコストがかからない。代わりに”嗜好データセット”を用意する必要がある。嗜好データセットってのは、あるプロンプトが与えられた時の二つの回答があって、こっちの回答の方がイケてて、こっちの方が良くない。みたいなデータが大量に用意されてるモノ。RLHFとDPOは数学的に等価である事がキッチリ証明されてる。
 	- 嗜好データセットとか言われても、そんなもん用意するのだってまだまだ手間がかかって大変だ。そういうデータの問題をどうにかする新しいテクがKTO。KTOでは必要なデータはプロンプトと回答があって、その回答に「いいね」か「よくないね」の評価だけ付いてればいい。
-	- KTOによってLLMのアラインメント作業は相当簡単にできるようになってきたわけだ。ただ、そうやって作ったモデルのベンチ性能を比較すると、やっぱKTOよりDPOの方がやや高性能みたいだ
-- GoogleDeepmindがSpatialVLMを発表
-	- までの視覚言語モデルは空間感覚に欠けていた。例えば「写真に
+	- KTOによってLLMのアラインメント作業は相当簡単にできるようになってきたわけだ。ただ、そうやって作ったモデルのベンチ性能を
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODQ3MjAzMSwtMTA2NTc2NjAxOSwtMz
+eyJoaXN0b3J5IjpbMTY3MTcwMjQ3NiwtMTA2NTc2NjAxOSwtMz
 I2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUw
 NzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLT
 E4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4
