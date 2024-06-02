@@ -72,9 +72,14 @@
 	- https://huggingface.co/umiyuki/Umievo-itr012-Gleipnir-7B
 	- マージに使用させていただいたのはJapanese-Starling-ChatV-7B、Ninja-v1-RP-expressive-v2、Vecteus-v1、Japanese-Chat-Umievo-itr004-7bの４つです。各モデル制作者のAratakoさん、Bakuさん、Local-Novel-LLM-projectのみなさまに感謝します。それから問題解決のきっかけをくれたHoly-foxさんに感謝します。
 - AI versus 100,000 humans in creativity in this careful study using the Divergent Association Test (a well-validated measure, but all measures of creativity have flaws)
+	- https://x.com/emollick/status/1795830809217454536
 	- https://www.researchgate.net/publication/380820358_Divergent_Creativity_in_Humans_and_Large_Language_Models
 	- GPT-4 wins. Better prompting can further improve performance & diversity of ideas.
-	- ついに想像性
+	- ついに創造性でもGPT-4が、（普通の）人間を抜いたのか。。
+- Gemini 1.5 FlashはClaude 3 Opusに匹敵しながら、コストは100万トークンあたりたったの55円
+	- https://x.com/gijigae/status/1795743286533255285
+- Announcing Codestral: our first-ever code model
+	- 
 - 
 
 ## 5/27
@@ -3656,16 +3661,13 @@
 		- 3. GPT-3.5の性能を遥かに上回った 4. GPT-4とは同等と言えるレベルだった
 -  Prompt Engineering with Llama 2
 	- https://github.com/facebookresearch/llama-recipes/blob/main/examples/Prompt_Engineering_with_Llama_2.ipynb?utm_source=twitter&utm_medium=organic_social&utm_campaign=llama&utm_content=video
-	- Introducing 'Prompt Engineering with Llama 2' — an interactive guide covering prompt engineering & best practices for developers, researchers & enthusiasts working with large language models.
-- Ollama Python and JavaScript libraries
-	- https://ollama.ai/blog/python-javascript-libraries
-	- Both libraries make it po
+	- Introducing 'Prompt Engineering with Llama 2' — an interactive guide cov
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE3MTg0ODgsLTMyNjE0NjMxNywtMT
-Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
-ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
-EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
-OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OT
-YsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5
-NzM1MTIyXX0=
+eyJoaXN0b3J5IjpbMjA4MTEwNjIyOSwtMzI2MTQ2MzE3LC0xNj
+g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
+ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
+MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
+NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
+wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
+MzUxMjJdfQ==
 -->
