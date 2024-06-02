@@ -105,7 +105,10 @@
 - Mamba, Griffin, RWKV, RetNet, Recurrent Gemma- 2024 is the year of gated linear RNNs! What's their secret sauce?
 	- https://x.com/ItamarZimerman/status/1796181061984030914
 - CRDSの新作プロポーザル『次世代AIモデルの研究開発』がめちゃくちゃいい仕事で一気見した。
-	- 
+	- https://www.jst.go.jp/crds/report/CRDS-FY2023-SP-03.html
+	- https://x.com/resnant/status/1796181056283898332
+	- LLM含め最近の基盤モデルや生成系AIの動向と諸課題を技術的にも掘り下げてて、いろいろな立場の人に参考になると思う
+- 
 
 
 ## 5/27
@@ -3644,15 +3647,13 @@
 - GoogleColobで小規模言語モデル(0.15B)の事前学習モデルを作ってみる
 	- https://ayousanz.hatenadiary.jp/entry/2024/01/23/225623
 	- 事前学習モデル(0.15B)を作ってみました ちゃんと使えるレベルにするためには、約200倍くらいかけないといけないみたいです
-- ChatGPTのコンテキスト長が32kになってるから青空文庫の小説とかを2万文字くらいのテキストファイルに分割して自分の代わりに読んでもらって内容教えてもらう事も結構できる。
-	- まあClaudeならコンテキスト長100kだからもっと大量の文章をまとめて読んでもらえる
-	- https://x.com/umiyuki_ai/status/174977
+- ChatG
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDg0NTM4NywtMzI2MTQ2MzE3LC0xNj
-g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
-ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjJdfQ==
+eyJoaXN0b3J5IjpbODI5MTAyOTYzLC0zMjYxNDYzMTcsLTE2OD
+U4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4
+MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMz
+I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
+MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
+E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
+NTEyMl19
 -->
