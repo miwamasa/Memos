@@ -21,6 +21,11 @@
 	- https://arxiv.org/pdf/2405.15071
 	- 1) Transformers can learn to implicitly reason, but only through extended training far beyond overfitting, a phenomenon known as grokking.
 	- 2) Transformers exhibit different levels of systematicity in generalization across reasoning types: ID generalization is consistently observed, OOD generalization fails for composition but succeeds for comparison tasks.
+-  Phi-3-Tiny-Untrained
+	- https://colab.research.google.com/drive/188RpybbauEJKSIRPGL3RZi4Lk66HfBJj
+	- This 50M-parameter model reconfigs Phi-3-mini-128k-instruct (3.8B parameters) by following the parameters given by the Super Tiny Language Models from A*STAR.
+-  GPT-4は財務諸表から将来の収益の伸びを予測する点で人間のアナリストよりも優れていることが研究により明らかに
+	- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835311
 - 
 
 ## 5/27
@@ -3666,19 +3671,13 @@
 	- 「**LangGraph**」は、LLMでステートフルな「**マルチアクターアプリケーション**」を構築するためのライブラリです。「**LCEL**」(LangChain Expression Language) を拡張して、複数チェーン (またはアクター) を複数ステップにわたって循環的に協調動作させることができます
 	- 「LangGraph」によって、LLMアプリケーションに**サイクル**を簡単に導入できるようになりました。
 - MLXでXwin-70Bのggufが動くことを確認
-	- https://x.com/npaka123/status/1751139720367862193?s=20
-	- Apple M3 Max
--  google/siglip-base-patch16-256-multilingual を使って、ローカルの画像を日本語で検索してみ
-	- https://note.com/eurekachan/n/n9d4f62b80ad6?sub_rt=share_pb
-	- 1月に、Googleから、SigLIPという、画像とテキストの両方をベクトルとして扱うことができるモデルのmultilingual版（多言語対応版）が公開されました。transformers 4.37以降で対応しています。日本語も対応しています。
--  Are Transformers Effective for Time Series Forecasting?
-	- https://arxiv.or
+	- https://x.com/npaka123/s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTA4MDI4NiwtMzI2MTQ2MzE3LC0xNj
-g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
-ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjJdfQ==
+eyJoaXN0b3J5IjpbLTE5MzI4ODgzOTYsLTMyNjE0NjMxNywtMT
+Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
+ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
+EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
+OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OT
+YsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5
+NzM1MTIyXX0=
 -->
