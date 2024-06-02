@@ -35,6 +35,12 @@
 	- In April, there were four major open LLM releases: Mixtral, Llama 3, Phi-3, and OpenELM.
 - Decoder-onlyなLLM（Mistral-7B）をtext embedding用にファインチューニング（LoRA）してMTEBでSoTAを達成した方法NV-Embedの提案
 	- https://x.com/s_tat1204/status/1795344530285457626
+- Google Search algorithm leaked today.
+	- https://x.com/hridoyreh/status/1795394077510517217
+-  Autoformalizing Euclidean Geometry
+	- https://arxiv.org/abs/2405.17216
+	- Can AI transform human mathematics into formal theorems and proofs that machines can verify?
+	- This process, known as autoformalization, is a key step towards AI mathematicians. We introduce a neuro-symbolic framework for autoformalization, focusing on Euclidean geometry and combining domain knowledge, SMT solvers, and LLMs.
 - 
 - 
 
@@ -3663,20 +3669,13 @@
 	- https://huggingface.co/papers/2401.14112
 	- Microsoft presents FP6-LLM 
 	- Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design
-	- Six-bit quantization (FP6) can effectively reduce the size of large language models (LLMs) and preserve the model quality
-- 知識融合、図を見るとアンサンブルやMixture of Expertsとは違って本当に知識そのものを抽出している感じか。どちらかというと蒸留に近い感じもあり画期的な手法のように思える。
-	- https://x.com/koheiichi/status/1751060499310301550?s=20
-- Python library that adds Generative AI capabilities to Pandas
-	- https://github.com/gventuri/pandas-ai
-	- Introducing PandasAI, now you can analyze complex data frames and plot visualizations just by using natural language
-- XWin 70B で LLM 出力日本語文章の自動評価を行う試み
-	-
+	- Six-bit quantization (FP6) can effectiv
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODQyNzA1MiwtMzI2MTQ2MzE3LC0xNj
-g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
-ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjJdfQ==
+eyJoaXN0b3J5IjpbLTE5NDg5NDQzMTcsLTMyNjE0NjMxNywtMT
+Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
+ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
+EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
+OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OT
+YsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5
+NzM1MTIyXX0=
 -->
