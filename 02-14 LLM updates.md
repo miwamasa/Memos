@@ -3,7 +3,13 @@
 
 ## 6/3
 
-- # 自分がどれくらいニューラルネットワークを理解しているかを確かめられるゲーム「Graph Game」
+-  自分がどれくらいニューラルネットワークを理解しているかを確かめられるゲーム「Graph Game」
+	- https://gigazine.net/news/20240526-graph-game/
+- googleの検索x生成AIについては，ちょっと評価がイマイチなんですよね．油と水を無理やり混ぜようとしている感がある．by 今井さん
+	- https://x.com/ImAI_Eruel/status/1794707281600496111
+-  TrojanRAG: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models
+	- https://arxiv.org/abs/2405.13401
+	- RAGを悪用したバックドア攻撃。RAGで使用する知識DBに細工データを注入し、（DBから関連データを検索する）リトリーバとDB間でバックドアリンクを作成する。これにより、トリガーとなるPromptが入力された場合のみ、LLMに悪意のある回答を生成させることができるとのこと。
 - 
 
 ## 5/27
@@ -3666,9 +3672,9 @@
 
 ## 1/22
 
-今週はDavos会議があって、われらのアルトマン氏も登場、GPT-5について言及。Metaからはザッカーバーグ氏がビデオメッセージでいきなりLlama3のOSSとしての開発宣言。NVIDIAがCESで発表したGeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊が、、、。MoEも今週もにぎやか、圧縮して小メモリ化するようなMC-SMoEのアプローチとか、負荷分散を調整するDeepSeekMoEとか、youri-2x7bのggufがでたりとかとにかく賑やか。小規模LLM向けの人工的に生成された学習用モデルtiny-textbookシリーズも充実してきて、小規模LLMの開発も加速するかな。手が届くところではnanoGPTの源氏物語の適用例は楽しそう。小規模LLMを集めて優れたAIを作るという意味では、sakana.aiが華々しく45億円もの投資を調達、googleなどのスーパー研究者が終結して楽しそう。sakana.aiは小さな魚が集まって一匹の大魚のように泳ぐ物語｢スイミー｣の仕組みなわけだけど、小さな専門エージェントがあつまって問題を解決するってことなら、古い人にはミンスキー御大のSociety o Mindsが思い出される。MicrosoftはColiplot Proをリリース、月20ドルで、個人が、GPT-4 TurboにもアクセスできるしOffice 365 Copilotも使えるしお得かも、一方がっかりしたというファーストユーザーの意見もちらほら。でも小規模LLMの代表格phi-2はマイクロソフトからでているから、OpenAI/Copilot一辺倒では実はない。一方メタは２万人をレイオフして、代わりに35万台のH100インフラを整えLlama3の開発を推進。どの会社もLLMという不確実な要素（発展性、他社との競争）に備えならが綱渡り的な会社の運営をしている（株主からの期待にこたえ続けつつ財務的に破綻はできない）。共通テストにさっそく吊るしのLLMを適用評価した例では、GPT-4が6割強程度正解でなんとか人間を上回るも、特に数学がダメという結果が。一方、数学オリンピックのメダリスト並みの性能を示すDeepMindのAlphaGeometry、LLMとルールベースのハイブリッドが高性能の秘訣らしい、text_to_SQLも、また違ったハイブリッドとして高性能化のヒントになる。ベクトル化
+今週はDavos会議があって、われらのアルトマン氏も登場、GPT-5について言及。Metaからはザッカーバーグ氏がビデオメッセージでいきなりLlama3のOSSとしての開発宣言。NVIDIAがCESで発表したGeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊が、、、。MoEも今週もにぎやか、圧縮して小メモリ化するようなMC-SMoEのアプローチとか、負荷分散を調整するDeepSeekMoEとか、youri-2x7bのggufがでたりとかとにかく賑やか。小規模LLM向けの人工的に生成された学習用モデルtiny-textbookシリーズも充実してきて、小規模LLMの開発も加速するかな。手が届くところではnanoGPTの源氏物語の適用例は楽しそう。小規模LLMを集めて優れたAIを作るという意味では、sakana.aiが華々しく45億円もの投資を調達、googleなどのスーパー研究者が終結して楽しそう。sakana.aiは小さな魚が集まって一匹の大魚のように泳ぐ物語｢スイミー｣の仕組みなわけだけど、小さな専門エージェントがあつまって問題を解決するってことなら、古い人にはミンスキー御大のSociety o Mindsが思い出される。MicrosoftはColiplot Proをリリース、月20ドルで、個人が、GPT-4 T
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTQ4Nzg4OCwtMTY4NTg0NDY4NywtMT
+eyJoaXN0b3J5IjpbLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMT
 YwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUx
 MzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMjcsLT
 ExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0
