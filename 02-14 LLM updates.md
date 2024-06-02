@@ -3,7 +3,9 @@
 
 ## 6/3
 
-Google I/Oで発表されたgoogleの検索x生成AIが、とても不評ということで、Wall Street Journalの記事でもあるように、Perprexityの優秀さが際立つ、どうしてgooleが期待を裏切るのは全く恒例ですね。
+Google I/Oで発表されたgoogleの検索x生成AIが、とても不評ということで、Wall Street Journalの記事でもあるように、Perprexityの優秀さが際立つ、どうしてgooleが期待を裏切るのは全く恒例ですね。とはいっても、gpt-4oに話題を持ってかれがちですが、Gemini 1.5 Pro/Flashの優秀さもあちこちで報告されてます。
+
+
 
 財務諸表から将来の収益の伸びを予測
 
@@ -3635,7 +3637,7 @@ LLMのモデルサイズが小さくなりながらも高い性能を発揮す�
 
 - Can Gen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTA4NTU2NCwxMDM0MzIwMjUzLC0xMD
+eyJoaXN0b3J5IjpbMTQyNDgxNjg0NiwxMDM0MzIwMjUzLC0xMD
 Y1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4
 NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MTM2LD
 U4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0xMTI4
