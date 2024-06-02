@@ -5,9 +5,9 @@
 
 Google I/Oで発表されたgoogleの検索x生成AIが、とても不評ということで、Wall Street Journalの記事でもあるように、Perprexityの優秀さが際立つ、どうしてgooleが期待を裏切るのは全く恒例ですね。とはいっても、gpt-4oに話題を持ってかれがちですが、Gemini 1.5 Pro/Flashの優秀さもあちこちで報告されてます。
 
-Mixtral 8x22b の量子化版Q6_K を $362 CPU(AMD Ryzen 9 5950X BOXか?)で軽々動作するという報告も、い 
+Mixtral 8x22b の量子化版Q6_K が $362 CPU(AMD Ryzen 9 5950X BOXか?)で軽々動作するという報告もあったり、Phi-3-Tinyシリーズのように、さらに小ささなLLMにチャレンジみたいな展開もあった。
 
-Phi-3-Tinyシリーズ、小ささにチャレンジみたいな展開か、
+RAGを前提としたバックドアTrojanRAGというのも出た、
 
 財務諸表から将来の収益の伸びを予測
 
@@ -3639,7 +3639,7 @@ LLMのモデルサイズが小さくなりながらも高い性能を発揮す�
 
 - Can Gen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2MTQ3NDgxLDEwMzQzMjAyNTMsLTEwNj
+eyJoaXN0b3J5IjpbNzAxNTg3ODA0LDEwMzQzMjAyNTMsLTEwNj
 U3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1
 ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUxMzYsNT
 g3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMjcsLTExMjgw
