@@ -93,7 +93,15 @@
 	- 2. You can now query a knowledge graph with a huge host of different retrievers that can be combined: keywords, vector search, text-to-cypher, and more. 3. You can include the text along with the entities/relationships during retrieval 4. You can perform joint vector search/graph search even if your graph store doesn’t support vectors! We’ve created robust abstractions to plug in both a graph store as well as a separate vector store. 5. You have full customizability: We’ve made it easy/intuitive for you to define your own extractors and retrievers.
 - The structure of the EU AI Office
 	- https://x.com/LuizaJarovsky/status/1795775192347627857
-	- ➵ The “Excellence in AI and Robotics” unit ➵ The “Regulation and Compliance” unit ➵ The “AI Safety” unit ➵ The “AI Innovation and Policy Coordination” unit ➵ The “AI for Societal Good” unit ➵ The Lead Scientific Advisor ➵ The Advisor for International Affairs
+	- The “Excellence in AI and Robotics” unit
+	- The “Regulation and Compliance” unit 
+	- The “AI Safety” unit
+	- The “AI Innovation and Policy Coordination” unit
+	- The “AI for Societal Good” unit 
+	- The Lead Scientific Advisor
+	- The Advisor for International Affairs
+- 英国のアカデミー、Royal Societyも「AI for Science」ではなくEUと同じ「AI in Science」。レポートはかなり充実している by maruyamaさん
+	- https://x.com/rmaruy/status/1795967400502006026
 
 
 ## 5/27
@@ -3640,16 +3648,13 @@
 	- 既存のLLMを融合させて強力なモデルを作る手法「知識融合」が開発
 	- 混合モデルを提唱する"Blending Is All You Need"とはアプローチ・評価方法ともに異なる研究です
 	- ■実験と結果 
-		- 1. 「Llama-2」「OpenLLaMA」「MPT」を融合して「FUSELLM」を作成した 
-		- 2. 下記タスクを中心に顕著に性能が向上した - 論理 - 常識 - コード生成
-- LLMの研究トレンドは以下の３つ
-	- https://x.com/cwolferesearch/status/1
+		- 1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzE4ODUyMCwtMzI2MTQ2MzE3LC0xNj
-g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
-ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjJdfQ==
+eyJoaXN0b3J5IjpbODMwOTM0MzY2LC0zMjYxNDYzMTcsLTE2OD
+U4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4
+MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMz
+I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
+MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
+E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
+NTEyMl19
 -->
