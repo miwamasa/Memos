@@ -49,8 +49,13 @@
 	- 幡谷さん（理研特別研究員）と松井先生（名大）の研究を公開しました。トランスフォーマーがインコンテキスト学習において、複数のドメイン適応法を表現し、さらにデータに応じて適切な適応法を選択する能力を持つことを理論と実験で示したものです。
 - Training and Finetuning Embedding Models with Sentence Transformers v3
 	- https://huggingface.co/blog/train-sentence-transformers
-- 
+- ちなみにGemini 1.5 Proではapplication/jsonを出力フォーマットとして選択できて便利
 	- https://ai.google.dev/gemini-api/docs/api-overview?hl=ja#json
+- CLARINET: Augmenting Language Models to Ask Clarification Questions for Retrieval
+	- https://arxiv.org/abs/2405.15784
+	- Fine-tunes an LLM to ask clarification questions that maximize retrieval success for ambiguous search queries, outperforming heuristic methods and vanilla language models
+- 映画herと
+	- I had no idea that "Her" and "Lost In Translation" were clapbacks by the directors to each other after their divorce and now I need to watch both
 
 ## 5/27
 
@@ -3661,21 +3666,13 @@
 - 実はSwallowはbaseモデルとしての性能はいいですが、instruct モデルの性能はpublic instruction datasetを使用したこともあり、baseモデルの高い性能の割にはあまり高くありません
 	- https://x.com/okoge_kaz/status/1750805452676608177?s=20
 - CoTの推論ステップ数がLLMの推論能力に及ぼす影響を詳細に検証した結果
-	- https://ai-data-base.com/archives/62364
-	- GPT-4などのLLMに思考の連鎖（CoT）プロンプトなどで「考える時間」を与えると基本的に性能が向上します。 
-	- そこで今回、適切な推論のステップ数が検証されました。 記事ではプロンプト手法とともに結果を紹介しています。
--  MambaByte: Token-free Selective State Space Model
-	- https://arxiv.org/abs/2401.13660
-	- MambaByteは、Mambaが長い系列も扱えるため、トークン化せずバイト単位で言語モデルを学習。同等の計算量、モデルサイズでトークン化不要のMegaByteや通常のトークン化Transformerと比べ性能で上回り、1/3の投入計算量でTransformerの損失に到達。小規模実験の結果だが有望
--  Dense X Retrieval: What Retrieval Granularity Should We Use?
-	- https://arxiv.org/abs/2312.06648
-	- The "
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxMDQ1ODczLC0zMjYxNDYzMTcsLTE2OD
-U4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4
-MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMz
-I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
-MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
-E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
-NTEyMl19
+eyJoaXN0b3J5IjpbLTU3ODE3OTgzOSwtMzI2MTQ2MzE3LC0xNj
+g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
+ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
+MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
+NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
+wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
+MzUxMjJdfQ==
 -->
