@@ -54,8 +54,10 @@
 - CLARINET: Augmenting Language Models to Ask Clarification Questions for Retrieval
 	- https://arxiv.org/abs/2405.15784
 	- Fine-tunes an LLM to ask clarification questions that maximize retrieval success for ambiguous search queries, outperforming heuristic methods and vanilla language models
-- 映画herと
+- 映画herとLost In Translationの監督は離婚した元夫婦であり、その画像の一部はシンクロしている。。
+	- https://x.com/MissSassbox/status/1795205212770119782
 	- I had no idea that "Her" and "Lost In Translation" were clapbacks by the directors to each other after their divorce and now I need to watch both
+	- Tech界で、gpt-4oのデモが、、映画herを
 
 ## 5/27
 
@@ -3663,12 +3665,9 @@
 	- ・GPT-3.5 Turboの更新
 	- ・モデレーションモデルの更新
 	- ・APIキーの管理方法の改善
-- 実はSwallowはbaseモデルとしての性能はいいですが、instruct モデルの性能はpublic instruction datasetを使用したこともあり、baseモデルの高い性能の割にはあまり高くありません
-	- https://x.com/okoge_kaz/status/1750805452676608177?s=20
-- CoTの推論ステップ数がLLMの推論能力に及ぼす影響を詳細に検証した結果
-	- h
+- 実はSwallowはbaseモデルとしての性能はいいですが、instruct モデルの性能はpublic instruction datasetを使用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODE3OTgzOSwtMzI2MTQ2MzE3LC0xNj
+eyJoaXN0b3J5IjpbMTA3MTgxMjExNiwtMzI2MTQ2MzE3LC0xNj
 g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
 ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
 MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
