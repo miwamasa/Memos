@@ -17,7 +17,8 @@ Mistralからコード生成のOSSであるCodestralが発表、さっそくOlla
 
 AIが他者の心や意図を理解する能力を持っているのかど「心の理論(ToM:Theory of Mind)」を持っているかどうかを分析した論文では、GPT-4 and Flan-PaLM が人間の大人のレベルに達したとのこと。さらに人間を超えるという意味では、Autoformalizing という、人間が作った幾何学をAIが自動証明できる体系に、生成AIをつかって作り直すという試みもあった。
 
-さて日本では、人工知能学会が浜松で開催、岡崎先生のスライド「大規模言語モデルの開発」は必見です。
+さて日本では、人工知能学会が浜松で開催、岡崎先生のスライド「大規模言語モデルの開発」は必見です。一方、ChatGPTのRLHF（ヒトのフィードバックによる強化学習）プロセスの多くが、アウトソースされた（比較的人件費の安い）ナイジェリアのオペレーターたちによって行われた結果で、なんとナイジェリア英語のdelveという単語が生物系の論文に大量に表れたとの報告も。
+
 
 
 
@@ -3645,7 +3646,7 @@ AIが他者の心や意図を理解する能力を持っているのかど「心
 
 中国オリオンスターロボティクス（OrionStar）という会社から新星LLMであるOrion登場、日本語や韓国語が得意なのと長文モデルを持っている、中華LLMは日本語も得意ってのはよく言われていること、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違うDPOの実装も出てきたし、CALM2をDPOしたモデルやデータセットの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KTOなど、アライメント関係の進捗が目立つ。MoEの構築もColabの無料枠で実現する事例が出てきた、Sparse性がポイントなのか。既存のLLMを融合させて強力なモデルを作る「知識融合」ってのが出てきた、合体というより、どちらかというと蒸留に近い感じらしい。LLMの研究トレンドは、1)Synthetic training data、2)LLM safety、3)Knowledge injectionの３つだそうだ。Phi-2って1)Synthetic training dataが特徴かとおもってたのに、3)Knowledge i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTQ3MDA1MywtMTE4MDE4MjkzNSwxMD
+eyJoaXN0b3J5IjpbMTkxODA2MjI3MiwtMTE4MDE4MjkzNSwxMD
 M0MzIwMjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4
 NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4Mj
 IsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4
