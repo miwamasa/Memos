@@ -10,7 +10,13 @@
 -  TrojanRAG: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models
 	- https://arxiv.org/abs/2405.13401
 	- RAGを悪用したバックドア攻撃。RAGで使用する知識DBに細工データを注入し、（DBから関連データを検索する）リトリーバとDB間でバックドアリンクを作成する。これにより、トリガーとなるPromptが入力された場合のみ、LLMに悪意のある回答を生成させることができるとのこと。
-- 
+- We're now able to run Mixtral 8x22b Q6_K on a $362 CPU with better than human reading speed.
+	- https://github.com/Mozilla-Ocho/llamafile/discussions/450
+- llama.cpp runs 1.8 times faster than ollama
+	- https://x.com/rohanpaul_ai/status/1794470545586635238
+- Exploring the Impact of ChatGPT on Wikipedia Engagement
+	- https://arxiv.org/pdf/2405.10205
+	- 
 
 ## 5/27
 
@@ -3672,13 +3678,13 @@
 
 ## 1/22
 
-今週はDavos会議があって、われらのアルトマン氏も登場、GPT-5について言及。Metaからはザッカーバーグ氏がビデオメッセージでいきなりLlama3のOSSとしての開発宣言。NVIDIAがCESで発表したGeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊が、、、。MoEも今週もにぎやか、圧縮して小メモリ化するようなMC-SMoEのアプローチとか、負荷分散を調整するDeepSeekMoEとか、youri-2x7bのggufがでたりとかとにかく賑やか。小規模LLM向けの人工的に生成された学習用モデルtiny-textbookシリーズも充実してきて、小規模LLMの開発も加速するかな。手が届くところではnanoGPTの源氏物語の適用例は楽しそう。小規模LLMを集めて優れたAIを作るという意味では、sakana.aiが華々しく45億円もの投資を調達、googleなどのスーパー研究者が終結して楽しそう。sakana.aiは小さな魚が集まって一匹の大魚のように泳ぐ物語｢スイミー｣の仕組みなわけだけど、小さな専門エージェントがあつまって問題を解決するってことなら、古い人にはミンスキー御大のSociety o Mindsが思い出される。MicrosoftはColiplot Proをリリース、月20ドルで、個人が、GPT-4 T
+今週はDavos会議があって、われらのアルトマン氏も登場、GPT-5について言及。Metaからはザッカーバーグ氏がビデオメッセージでいきなりLlama3のOSSとしての開発宣言。NVIDIAがCESで発表したGeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊が、、、。MoEも今週もにぎやか、圧縮して小メモリ化するようなMC-SMoEのアプローチとか、負荷分散を調整するDeepSeekMoEとか、youri-2x7bのgg
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMT
-YwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUx
-MzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMjcsLT
-ExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0
-NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLD
-EzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5NzM1MTIyLC04OTg4
-MzI0MDVdfQ==
+eyJoaXN0b3J5IjpbMTk1NzM4MjA4OCwtMzI2MTQ2MzE3LC0xNj
+g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
+ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
+MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
+NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
+wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
+MzUxMjJdfQ==
 -->
