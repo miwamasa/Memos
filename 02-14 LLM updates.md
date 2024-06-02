@@ -91,6 +91,9 @@
 	- https://www.llamaindex.ai/blog/introducing-the-property-graph-index-a-powerful-new-way-to-build-knowledge-graphs-with-llms
 	- 1. You can extract out a knowledge graph according to a set of extractors. These extractors include defining a pre-defined schema of entities/relationships/properties, defining a set of node relationship with llama_index constructs, or implicitly figuring out the schema using an LLM.
 	- 2. You can now query a knowledge graph with a huge host of different retrievers that can be combined: keywords, vector search, text-to-cypher, and more. 3. You can include the text along with the entities/relationships during retrieval 4. You can perform joint vector search/graph search even if your graph store doesn’t support vectors! We’ve created robust abstractions to plug in both a graph store as well as a separate vector store. 5. You have full customizability: We’ve made it easy/intuitive for you to define your own extractors and retrievers.
+- The structure of the EU AI Office
+	- https://x.com/LuizaJarovsky/status/1795775192347627857
+	- ➵ The “Excellence in AI and Robotics” unit ➵ The “Regulation and Compliance” unit ➵ The “AI Safety” unit ➵ The “AI Innovation and Policy Coordination” unit ➵ The “AI for Societal Good” unit ➵ The Lead Scientific Advisor ➵ The Advisor for International Affairs
 
 
 ## 5/27
@@ -3640,15 +3643,9 @@
 		- 1. 「Llama-2」「OpenLLaMA」「MPT」を融合して「FUSELLM」を作成した 
 		- 2. 下記タスクを中心に顕著に性能が向上した - 論理 - 常識 - コード生成
 - LLMの研究トレンドは以下の３つ
-	- https://x.com/cwolferesearch/status/1749867258107543615?s=20
-	- (1) Synthetic training data:
-		- [1]では、最先端の埋め込みモデルを学習するために、合成学習データを使用できることを示している。
-		- [2]では、数学とコーディングの問題に対して合成データを簡単に生成し、検証することができ、LLMの性能を向上させるために使用できることが示されている。
-	- (2) LLM safety:
-		- [3]の研究では、LLMに訓練されたバックドア攻撃は、広範な安全訓練後も持続し、人間のユーザーを欺くスリーパーエージェントを形成することが示されています
-		- [4]で、適切なプロンプト技術さえあれば、多くのアライメントを経たLLMであっても、ほぼ全てのLLMからトレーニングデータを抽出
+	- https://x.com/cwolferesearch/status/1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDkwNDQ4MCwtMzI2MTQ2MzE3LC0xNj
+eyJoaXN0b3J5IjpbLTQzNzE4ODUyMCwtMzI2MTQ2MzE3LC0xNj
 g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
 ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
 MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
