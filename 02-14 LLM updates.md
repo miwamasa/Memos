@@ -68,6 +68,13 @@
 - 『エビデンスを嫌う人たち　科学否定論者は何を考え、どう説得できるのか？』by 暦本先生
 	- https://x.com/rkmt/status/1795636068752212063
 	- おおー。しかしエビデンスベースで思考する人類はむしろ少数派かもしれない..(System1思考=Fast Thinking > System2思考 Slow Thinking) 。エビデンスよりもストーリーが優先する.
+- 進化的マージによって相当強そうなモデル、Umievo-itr012-Gleipnir-7Bが生まれました。3回ElyzaTasks100で評価した平均スコアは3.91！　by うみゆきさん
+	- https://huggingface.co/umiyuki/Umievo-itr012-Gleipnir-7B
+	- マージに使用させていただいたのはJapanese-Starling-ChatV-7B、Ninja-v1-RP-expressive-v2、Vecteus-v1、Japanese-Chat-Umievo-itr004-7bの４つです。各モデル制作者のAratakoさん、Bakuさん、Local-Novel-LLM-projectのみなさまに感謝します。それから問題解決のきっかけをくれたHoly-foxさんに感謝します。
+- AI versus 100,000 humans in creativity in this careful study using the Divergent Association Test (a well-validated measure, but all measures of creativity have flaws)
+	- https://www.researchgate.net/publication/380820358_Divergent_Creativity_in_Humans_and_Large_Language_Models
+	- GPT-4 wins. Better prompting can further improve performance & diversity of ideas.
+- 
 
 ## 5/27
 
@@ -3651,24 +3658,13 @@
 	- Introducing 'Prompt Engineering with Llama 2' — an interactive guide covering prompt engineering & best practices for developers, researchers & enthusiasts working with large language models.
 - Ollama Python and JavaScript libraries
 	- https://ollama.ai/blog/python-javascript-libraries
-	- Both libraries make it possible to integrate new and existing apps with Ollama in a few lines of code, and share the features and feel of the Ollama REST API.
-- CALM2をDirect Preference Optimization (DPO)でチューニングしたモデル calm2-7b-chat-dpo をCC-BY 4.0で公開しました。
-	- https://huggingface.co/cyberagent/calm2-7b-chat-dpo-experimental
-	- calm2-7b-chat-dpoをELYZA-tasks-100とJapanese MT-Benchで評価を行ったところ、CALM2よりも更に高いスコアが得られるという結果になりました
-	- また、あわせてDPOに用いたデータセットをCC-BY 4.0で公開しました
-	- https://huggingface.co/datasets/cyberagent/chatbot-arena-ja-calm2-7b-chat-experimental
-- 今更ながら､GPT3.5をファインチューニングしてみました｡ 
-	- https://x.com/kanhatakeyama/status/1750331895853039745?s=20
-	- guiで操作できるし､gpuマシンを用意しなくて良いし､非常にお手軽な印象でした｡ 3並列まで学習回せました｡
-	- 2,3時間の使用で､$30ほどかかりました｡
--  LLM のデータセットまとめ by npakaさん
-	- https://note
+	- Both libraries make it possible to in
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjIyMjI3MjYsLTMyNjE0NjMxNywtMT
-Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
-ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
-EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
-OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OT
-YsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5
-NzM1MTIyXX0=
+eyJoaXN0b3J5IjpbNzQwMDU5MjQ3LC0zMjYxNDYzMTcsLTE2OD
+U4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4
+MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMz
+I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
+MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
+E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
+NTEyMl19
 -->
