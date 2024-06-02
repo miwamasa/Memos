@@ -42,8 +42,15 @@
 	- Can AI transform human mathematics into formal theorems and proofs that machines can verify?
 	- This process, known as autoformalization, is a key step towards AI mathematicians. We introduce a neuro-symbolic framework for autoformalization, focusing on Euclidean geometry and combining domain knowledge, SMT solvers, and LLMs.
 - Mixtral 8x7B Instruct with AWQ & Flash-Attention-2 in ~24GB GPU VRAM!
-	- 
+	- https://x.com/rohanpaul_ai/status/1795196332166070289
+	- With the latest release of AutoAWQ - you can now run Mixtral 8x7B MoE with Flash Attention 2 for blazingly fast inference.
+-  Automatic Domain Adaptation by Transformers in In-Context Learning
+	- https://arxiv.org/abs/2405.16819
+	- 幡谷さん（理研特別研究員）と松井先生（名大）の研究を公開しました。トランスフォーマーがインコンテキスト学習において、複数のドメイン適応法を表現し、さらにデータに応じて適切な適応法を選択する能力を持つことを理論と実験で示したものです。
+- Training and Finetuning Embedding Models with Sentence Transformers v3
+	- https://huggingface.co/blog/train-sentence-transformers
 - 
+	- https://ai.google.dev/gemini-api/docs/api-overview?hl=ja#json
 
 ## 5/27
 
@@ -3662,20 +3669,13 @@
 	- MambaByteは、Mambaが長い系列も扱えるため、トークン化せずバイト単位で言語モデルを学習。同等の計算量、モデルサイズでトークン化不要のMegaByteや通常のトークン化Transformerと比べ性能で上回り、1/3の投入計算量でTransformerの損失に到達。小規模実験の結果だが有望
 -  Dense X Retrieval: What Retrieval Granularity Should We Use?
 	- https://arxiv.org/abs/2312.06648
-	- The "Dense X Retriever" paper shows that it significantly outperforms the traditional chunk-based retriever
--  Deep Convolutional Networks on Graph-Structured Data
-	- https://arxiv.org/abs/1506.05163
-	- My most-cited, never-accepted, ArXiv-only paper has over 1880 citations. "Deep Convolutional Networks on Graph-Structured Data" Mikael Henaff, Joan Bruna, Yann LeCun
--  FP6-LLM: Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design
-	- https://huggingface.co/papers/2401.14112
-	- Microsoft presents FP6-LLM 
-	- Efficiently Serving Large Language Models Through FP6-Centr
+	- The "
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODY3ODY2MSwtMzI2MTQ2MzE3LC0xNj
-g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
-ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjJdfQ==
+eyJoaXN0b3J5IjpbNzAxMDQ1ODczLC0zMjYxNDYzMTcsLTE2OD
+U4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4
+MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMz
+I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
+MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
+E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
+NTEyMl19
 -->
