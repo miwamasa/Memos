@@ -131,6 +131,12 @@
 	- https://www.amazon.com/gp/product/B0D4FBPLX1?&linkCode=sl1&tag=kirkdborne-20&linkId=17812cf95726cdbbe7b0c29f94f4bce7&language=en_US&ref_=as_li_ss_tl
 	- With this book, you'll gain a solid foundation in generative AI, including how to apply these models in practice. When first integrating LLMs and diffusion models into their workflows, most developers struggle to coax reliable enough results from them to use in automated systems.
 - LLMs achieve adult human performance on higher-order theory of mind tasks
+	- https://huggingface.co/papers/2405.18870
+	- LLMs achieve adult human performance on higher-order theory of mind tasks 
+	- This paper examines the extent to which large language models (LLMs) have developed higher-order theory of mind (ToM); the human ability to reason about multiple mental and emotional states in
+	- We find that GPT-4 and Flan-PaLM reach adult-level and near adult-level performance on ToM tasks overall, and that GPT-4 exceeds adult performance on 6th order inferences
+- 
+- 
 
 
 ## 5/27
@@ -3631,17 +3637,9 @@
 	- 嗜好データセットとか言われても、そんなもん用意するのだってまだまだ手間がかかって大変だ。そういうデータの問題をどうにかする新しいテクがKTO。KTOでは必要なデータはプロンプトと回答があって、その回答に「いいね」か「よくないね」の評価だけ付いてればいい。
 	- KTOによってLLMのアラインメント作業は相当簡単にできるようになってきたわけだ。ただ、そうやって作ったモデルのベンチ性能を比較すると、やっぱKTOよりDPOの方がやや高性能みたいだ
 - GoogleDeepmindがSpatialVLMを発表
-	- までの視覚言語モデルは空間感覚に欠けていた。例えば「写真に写ってるバッターと審判の距離は何メートル？」とか訊いても答えられんかった。それを改善したのがSpatialVLM。
-- makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
-	- https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
-	- Colabも公開してくれているので無料版ColabのT4でも動かせます。max_itersを500くらいに修正すれば所要時間も10分程度
-	- ただし、最後から3番目のセルは以下のように要修正 
-		- metrics = {"train_loss": losses['train'], "val_loss": losses['val']} 　
-		- ↓ metrics = {"train_loss": float(losses['train']), "val_loss": float(losses['val'])}
-- 深層学習の原理を明らかにする理論の試み　by 今泉さん
-	- h
+	- までの視覚言語モデルは空間感覚に欠けていた。例えば「写真に
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDY2MTk3NywtMTA2NTc2NjAxOSwtMz
+eyJoaXN0b3J5IjpbLTg4ODQ3MjAzMSwtMTA2NTc2NjAxOSwtMz
 I2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUw
 NzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLT
 E4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4
