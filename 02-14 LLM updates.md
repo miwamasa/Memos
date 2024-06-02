@@ -117,7 +117,10 @@
 -  Aurora: A Foundation Model of the Atmosphere
 	- https://arxiv.org/abs/2405.13063
 	- NASA has created a new foundation model for geospatial data.
-	- 
+	- Create 5-day air pollution predictions in < 1 minute 
+	- Create 10-day weather forecasts at ~10km resolution 
+	- Assess the chemical make up of the atmosphere
+- 
 
 
 ## 5/27
@@ -3642,12 +3645,9 @@
 	- モデルは、自分の答えを生成する能力を向上させると同時に、自分自身の報酬モデルとしても機能。通常は固定されている報酬モデルが、繰り返しのプロセスを通じて改善される。
 	- **これは、人間などの外部からのフィードバックを不要にし、学習モデルが自分自身をよりよく改善できるようになることを意味し、自己改善の好循環を生み出す。**
 - Summarize gigantic JSON datasets in seconds with JSONalyze, our latest query engine: 
-	- https://docs.llamaindex.ai/en/latest/examples/query_engine/JSONalyze_query_engine.html
-	- JSONが巨大になると、コンテキストが膨大になるので、圧縮？するらしい
--  Self-Rewarding Language Model (wip)
-	- https://github.com
+	- https://docs.llamaindex.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDc0NDM1OTgsLTMyNjE0NjMxNywtMT
+eyJoaXN0b3J5IjpbLTE2NDI3ODU5MDEsLTMyNjE0NjMxNywtMT
 Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
 ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
 EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
