@@ -26,7 +26,10 @@
 	- This 50M-parameter model reconfigs Phi-3-mini-128k-instruct (3.8B parameters) by following the parameters given by the Super Tiny Language Models from A*STAR.
 -  GPT-4は財務諸表から将来の収益の伸びを予測する点で人間のアナリストよりも優れていることが研究により明らかに
 	- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835311
-- 
+- The Wall Street Journal says perplexity outperforms chatgpt, gemini & claud
+	- https://x.com/RubenHssd/status/1795108714564706452
+- DifyとOllamaを使用してローカルLLMを構築し、複数のLLMエージェントを設定してAIが社会に与える影響について議論を行い、その結果を記事として生成する手順について説明します。
+	- 
 
 ## 5/27
 
@@ -3668,12 +3671,9 @@
 	- https://x.com/sammy_suyama/status/1751104980189413880?s=20
 -  Google Colab で LangGraph を試す by npakaさん
 	- https://note.com/npaka/n/n053a3cb78311?sub_rt=share_h
-	- 「**LangGraph**」は、LLMでステートフルな「**マルチアクターアプリケーション**」を構築するためのライブラリです。「**LCEL**」(LangChain Expression Language) を拡張して、複数チェーン (またはアクター) を複数ステップにわたって循環的に協調動作させることができます
-	- 「LangGraph」によって、LLMアプリケーションに**サイクル**を簡単に導入できるようになりました。
-- MLXでXwin-70Bのggufが動くことを確認
-	- https://x.com/npaka123/s
+	- 「**LangGraph**」は、LLMでステートフルな「**マルチアクターアプリケーション*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzI4ODgzOTYsLTMyNjE0NjMxNywtMT
+eyJoaXN0b3J5IjpbLTE4MDUxOTExNzAsLTMyNjE0NjMxNywtMT
 Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
 ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
 EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
