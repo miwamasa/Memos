@@ -57,7 +57,10 @@
 - 映画herとLost In Translationの監督は離婚した元夫婦であり、その画像の一部はシンクロしている。。
 	- https://x.com/MissSassbox/status/1795205212770119782
 	- I had no idea that "Her" and "Lost In Translation" were clapbacks by the directors to each other after their divorce and now I need to watch both
-	- Tech界で、gpt-4oのデモが、、映画herを
+	- Tech界で、gpt-4oのデモが、、映画herを意識して作られていたことから、（再？）発見された雑学
+- Introducing Transformers Agent 2.0: A Leap Forward in Intelligent Automation
+	- https://huggingface.co/blog/Andyrasika/transformer-agents
+	- 
 
 ## 5/27
 
@@ -3660,14 +3663,9 @@
 	- A collaboration for Hugging Face Hub users
 -  OpenAIの 新モデルの追加 と APIの更新 by npakaさん
 	- https://note.com/npaka/n/nd8c5e9c65335?sub_rt=share_h
-	- ・新しいEmbeddingモデルの追加
-	- ・GPT-4 Turbo Previewの更新
-	- ・GPT-3.5 Turboの更新
-	- ・モデレーションモデルの更新
-	- ・APIキーの管理方法の改善
-- 実はSwallowはbaseモデルとしての性能はいいですが、instruct モデルの性能はpublic instruction datasetを使用
+	- ・新しいEmbeddi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTgxMjExNiwtMzI2MTQ2MzE3LC0xNj
+eyJoaXN0b3J5IjpbMTk1MjQyOTg4MiwtMzI2MTQ2MzE3LC0xNj
 g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
 ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
 MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
