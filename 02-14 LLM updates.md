@@ -32,6 +32,11 @@
 	- https://hamaruki.com/how-to-configure-and-discuss-multiple-agents-using-dify-and-local-llm/
 -  How Good Are the Latest Open LLMs? And Is DPO Better Than PPO?
 	- https://magazine.sebastianraschka.com/p/how-good-are-the-latest-open-llms
+	- In April, there were four major open LLM releases: Mixtral, Llama 3, Phi-3, and OpenELM.
+- Decoder-onlyなLLM（Mistral-7B）をtext embedding用にファインチューニング（LoRA）してMTEBでSoTAを達成した方法NV-Embedの提案
+	- https://x.com/s_tat1204/status/1795344530285457626
+- 
+- 
 
 ## 5/27
 
@@ -3665,13 +3670,9 @@
 	- https://github.com/gventuri/pandas-ai
 	- Introducing PandasAI, now you can analyze complex data frames and plot visualizations just by using natural language
 - XWin 70B で LLM 出力日本語文章の自動評価を行う試み
-	- https://zenn.dev/syoyo/articles/4f4f8645af1cee
-	- 日本語 LLM の自動評価(ELYZAちゃん task 100 とか)をローカル LLM で行いたい.現時点で最高性能の一つXWin 70B での評価試しました!
-	- そこそこいい感じになったよ✊
-	- でも prompt 上手く作る必要あることがわかったよ
-- 同じデータに対してもモデル（この場合はカーネル）が異なれば予測が変わるという話。こういうことを色々実現したい場合はやっぱりガ
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODgzMjQ2OCwtMzI2MTQ2MzE3LC0xNj
+eyJoaXN0b3J5IjpbLTI1ODQyNzA1MiwtMzI2MTQ2MzE3LC0xNj
 g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
 ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
 MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
