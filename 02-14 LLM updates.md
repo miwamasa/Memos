@@ -74,6 +74,7 @@
 - AI versus 100,000 humans in creativity in this careful study using the Divergent Association Test (a well-validated measure, but all measures of creativity have flaws)
 	- https://www.researchgate.net/publication/380820358_Divergent_Creativity_in_Humans_and_Large_Language_Models
 	- GPT-4 wins. Better prompting can further improve performance & diversity of ideas.
+	- ついに想像性
 - 
 
 ## 5/27
@@ -3658,13 +3659,13 @@
 	- Introducing 'Prompt Engineering with Llama 2' — an interactive guide covering prompt engineering & best practices for developers, researchers & enthusiasts working with large language models.
 - Ollama Python and JavaScript libraries
 	- https://ollama.ai/blog/python-javascript-libraries
-	- Both libraries make it possible to in
+	- Both libraries make it po
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwMDU5MjQ3LC0zMjYxNDYzMTcsLTE2OD
-U4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4
-MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMz
-I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
-MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
-E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
-NTEyMl19
+eyJoaXN0b3J5IjpbLTE0ODE3MTg0ODgsLTMyNjE0NjMxNywtMT
+Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
+ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
+EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
+OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OT
+YsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5
+NzM1MTIyXX0=
 -->
