@@ -60,7 +60,14 @@
 	- Tech界で、gpt-4oのデモが、、映画herを意識して作られていたことから、（再？）発見された雑学
 - Introducing Transformers Agent 2.0: A Leap Forward in Intelligent Automation
 	- https://huggingface.co/blog/Andyrasika/transformer-agents
-	- 
+- 松田語録：Gemini 1.5 Proを論文を読むのに使ってみた〜良いところと悪いところ
+	- https://x.com/npaka123/status/1795568613900062747
+- ChatTTS: a powerful voice generation model designed for conversational scenarios
+	- https://github.com/2noise/ChatTTS
+	- https://huggingface.co/2Noise/ChatTTS
+- 『エビデンスを嫌う人たち　科学否定論者は何を考え、どう説得できるのか？』by 暦本先生
+	- https://x.com/rkmt/status/1795636068752212063
+	- おおー。しかしエビデンスベースで思考する人類はむしろ少数派かもしれない..(System1思考=Fast Thinking > System2思考 Slow Thinking) 。エビデンスよりもストーリーが優先する.
 
 ## 5/27
 
@@ -3655,21 +3662,13 @@
 	- guiで操作できるし､gpuマシンを用意しなくて良いし､非常にお手軽な印象でした｡ 3並列まで学習回せました｡
 	- 2,3時間の使用で､$30ほどかかりました｡
 -  LLM のデータセットまとめ by npakaさん
-	- https://note.com/npaka/n/n686d987adfb1?sub_rt=share_b
-- Hugging Face and Google partner for open AI collaboration
-	- https://huggingface.co/blog/gcp-partnership
-	- We will collaborate with Google to foster open AI innovation across open science, open-source, cloud, and hardware
-	- A collaboration for Google Cloud customers
-	- A collaboration for Hugging Face Hub users
--  OpenAIの 新モデルの追加 と APIの更新 by npakaさん
-	- https://note.com/npaka/n/nd8c5e9c65335?sub_rt=share_h
-	- ・新しいEmbeddi
+	- https://note
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjQyOTg4MiwtMzI2MTQ2MzE3LC0xNj
-g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
-ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjJdfQ==
+eyJoaXN0b3J5IjpbLTE5NjIyMjI3MjYsLTMyNjE0NjMxNywtMT
+Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
+ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
+EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
+OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OT
+YsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5
+NzM1MTIyXX0=
 -->
