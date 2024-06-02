@@ -87,7 +87,10 @@
 	- https://royalsociety.org/-/media/policy/projects/science-in-the-age-of-ai/science-in-the-age-of-ai-report.pdf
 	- 英国ロイヤルアカデミー
 	- Generative AI tools can assist the advancement of scientific research.
-- 
+-  Introducing the Property Graph Index: A Powerful New Way to Build Knowledge Graphs with LLMs
+	- https://www.llamaindex.ai/blog/introducing-the-property-graph-index-a-powerful-new-way-to-build-knowledge-graphs-with-llms
+	- 1. You can extract out a knowledge graph according to a set of extractors. These extractors include defining a pre-defined schema of entities/relationships/properties, defining a set of node relationship with llama_index constructs, or implicitly figuring out the schema using an LLM.
+	- 2. You can now query a knowledge graph with a huge host of different retrievers that can be combined: keywords, vector search, text-to-cypher, and more. 3. You can include the text along with the entities/relationships during retrieval 4. You can perform joint vector search/graph search even if your graph store doesn’t support vectors! We’ve created robust abstractions to plug in both a graph store as well as a separate vector store. 5. You have full customizability: We’ve made it easy/intuitive for you to define your own extractors and retrievers.
 
 
 ## 5/27
@@ -3643,32 +3646,13 @@
 		- [2]では、数学とコーディングの問題に対して合成データを簡単に生成し、検証することができ、LLMの性能を向上させるために使用できることが示されている。
 	- (2) LLM safety:
 		- [3]の研究では、LLMに訓練されたバックドア攻撃は、広範な安全訓練後も持続し、人間のユーザーを欺くスリーパーエージェントを形成することが示されています
-		- [4]で、適切なプロンプト技術さえあれば、多くのアライメントを経たLLMであっても、ほぼ全てのLLMからトレーニングデータを抽出できることを学びました。
-	- (3) Knowledge injection
-		- [6]の著者は検索拡張世代（RAG）を提案し、このアプローチが知識集約型タスクのパフォーマンスに影響を与えることを示している。
-		- LIMA [7]は、LLMのほぼ全ての知識が事前学習中に学習されることを示している。
-		- Phi-1[8]は、知識豊富なLLMが、より小さな、キュレーションされたデータセット（つまり教科書）に対して学習できることを示している。
--  Reading Analog Gauges
-	- https://huggingface.co/spaces/Synanthropic/reading-analog-gauge
-	- Simply Reading Analog Gauges – GPT4, CogVLM Can't
-	- This model reads analog dial gauge by detecting, applying perspective correction, and gauge reading. The model was build only with synthetic data (e.g. examples
-- OpenAI GPT-4V／ChatGPT／GPTs 人工知能プログラミング実践入門
-	- 布留川さんの、新刊、
-	- https://wgn-obs.shop-pro.jp/?pid=179128392
-	- 昨年11月の大規模アップデート対応で、マルチモーダルやGPTストアなどの新機能も解説してます。技術アップデートが早すぎることもあり、PDFのみになります。
-- ChatQA: Building GPT-4 Level Conversational QA Models
-	- https://arxiv.org/abs/2401.10225
-	- GPT-4レベルの質問応答タスク性能をオープンソースモデルのLlama 2で実現する方法が、NVIDIAより発表されました。
-	- 長文ドキュメントに基づいてユーザーの問いに答える能力でGPT-3.5より遥かに勝る結果が示されています。
-	- ■方法論 以下のような２段階の指示チューニングを行う 
-		- 1. 教師ありファインチューニング （supervised fine-tuning） 
-		- 2. 文脈強化インストラクションチューニング （context-enhanced ins
+		- [4]で、適切なプロンプト技術さえあれば、多くのアライメントを経たLLMであっても、ほぼ全てのLLMからトレーニングデータを抽出
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwMDgwMDY5LC0zMjYxNDYzMTcsLTE2OD
-U4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4
-MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMz
-I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
-MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
-E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
-NTEyMl19
+eyJoaXN0b3J5IjpbLTk1NDkwNDQ4MCwtMzI2MTQ2MzE3LC0xNj
+g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
+ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
+MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
+NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
+wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
+MzUxMjJdfQ==
 -->
