@@ -80,7 +80,11 @@
 	- https://x.com/gijigae/status/1795743286533255285
 - Announcing Codestral: our first-ever code model
 	- https://chat.mistral.ai/chat
-- 
+	- "Write me a function that computes fibonacci in Rust"
+- OllamaがCodestralに対応
+	- https://ollama.com/library/codestral
+- "Science in the Age of AI - How AI is changing the nature and method of scientific research,"
+	- 英国ロイヤルアカデミー
 
 ## 5/27
 
@@ -3660,14 +3664,13 @@
 		- 2. 長文ドキュメントに基づくQAタスクで評価した 
 		- 3. GPT-3.5の性能を遥かに上回った 4. GPT-4とは同等と言えるレベルだった
 -  Prompt Engineering with Llama 2
-	- https://github.com/facebookresearch/llama-recipes/blob/main/examples/Prompt_Engineering_with_Llama_2.ipynb?utm_source=twitter&utm_medium=organic_social&utm_campaign=llama&utm_content=video
-	- Introducing 'Prompt Engineering with Llama 2
+	- https://g
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTcwMjM0MywtMzI2MTQ2MzE3LC0xNj
-g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
-ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjJdfQ==
+eyJoaXN0b3J5IjpbMjMzNDE5ODI3LC0zMjYxNDYzMTcsLTE2OD
+U4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4
+MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMz
+I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
+MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
+E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
+NTEyMl19
 -->
