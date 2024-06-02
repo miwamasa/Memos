@@ -16,7 +16,12 @@
 	- https://x.com/rohanpaul_ai/status/1794470545586635238
 - Exploring the Impact of ChatGPT on Wikipedia Engagement
 	- https://arxiv.org/pdf/2405.10205
-	- 
+	- Wikipedia remains the crowning achievement of Internet 1.0. It powered the rise of search engines (which depend on it) & generative AI (trained on its data).
+- Grokked Transformers are Implicit Reasoners:A Mechanistic Journey to the Edge of Generalization
+	- https://arxiv.org/pdf/2405.15071
+	- 1) Transformers can learn to implicitly reason, but only through extended training far beyond overfitting, a phenomenon known as grokking.
+	- 2) Transformers exhibit different levels of systematicity in generalization across reasoning types: ID generalization is consistently observed, OOD generalization fails for composition but succeeds for comparison tasks.
+- 
 
 ## 5/27
 
@@ -3667,20 +3672,9 @@
 	- https://note.com/eurekachan/n/n9d4f62b80ad6?sub_rt=share_pb
 	- 1月に、Googleから、SigLIPという、画像とテキストの両方をベクトルとして扱うことができるモデルのmultilingual版（多言語対応版）が公開されました。transformers 4.37以降で対応しています。日本語も対応しています。
 -  Are Transformers Effective for Time Series Forecasting?
-	- https://arxiv.org/abs/2205.13504
-- ColBERT superior to traditional embedding models
-	- https://x.com/marktenenholtz/status/1751406680535883869?s=20
-	- クエリと文書をそれぞれ別のエンコーダーで埋め込み、クエリ中の各トークンの埋め込みと文書の各トークンの埋め込みの間で最大類似度を計算し、その総和をスコアとしています。
-- miniature ColBERT model in your browser
-	- https://colbert.aiserv.cloud/
-- DSPy lets you prototype LLM Programs like AlphaCodium in 2 minutes!
-	- https://x.com/CShorten30/status/1751656468879708496?s=20
-
-## 1/22
-
-今週はDavos会議があって、われらのアルトマン氏も登場、GPT-5について言及。Metaからはザッカーバーグ氏がビデオメッセージでいきなりLlama3のOSSとしての開発宣言。NVIDIAがCESで発表したGeForce RTX 4070 SUPERが発売、ローカルLLM界隈の価格破壊が、、、。MoEも今週もにぎやか、圧縮して小メモリ化するようなMC-SMoEのアプローチとか、負荷分散を調整するDeepSeekMoEとか、youri-2x7bのgg
+	- https://arxiv.or
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzM4MjA4OCwtMzI2MTQ2MzE3LC0xNj
+eyJoaXN0b3J5IjpbMjAyOTA4MDI4NiwtMzI2MTQ2MzE3LC0xNj
 g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
 ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
 MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
