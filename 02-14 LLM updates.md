@@ -29,7 +29,9 @@
 - The Wall Street Journal says perplexity outperforms chatgpt, gemini & claud
 	- https://x.com/RubenHssd/status/1795108714564706452
 - DifyとOllamaを使用してローカルLLMを構築し、複数のLLMエージェントを設定してAIが社会に与える影響について議論を行い、その結果を記事として生成する手順について説明します。
-	- 
+	- https://hamaruki.com/how-to-configure-and-discuss-multiple-agents-using-dify-and-local-llm/
+-  How Good Are the Latest Open LLMs? And Is DPO Better Than PPO?
+	- https://magazine.sebastianraschka.com/p/how-good-are-the-latest-open-llms
 
 ## 5/27
 
@@ -3667,17 +3669,13 @@
 	- 日本語 LLM の自動評価(ELYZAちゃん task 100 とか)をローカル LLM で行いたい.現時点で最高性能の一つXWin 70B での評価試しました!
 	- そこそこいい感じになったよ✊
 	- でも prompt 上手く作る必要あることがわかったよ
-- 同じデータに対してもモデル（この場合はカーネル）が異なれば予測が変わるという話。こういうことを色々実現したい場合はやっぱりガウス過程がやりやすいです。 by 須山先生
-	- https://x.com/sammy_suyama/status/1751104980189413880?s=20
--  Google Colab で LangGraph を試す by npakaさん
-	- https://note.com/npaka/n/n053a3cb78311?sub_rt=share_h
-	- 「**LangGraph**」は、LLMでステートフルな「**マルチアクターアプリケーション*
+- 同じデータに対してもモデル（この場合はカーネル）が異なれば予測が変わるという話。こういうことを色々実現したい場合はやっぱりガ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDUxOTExNzAsLTMyNjE0NjMxNywtMT
-Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
-ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
-EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
-OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OT
-YsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5
-NzM1MTIyXX0=
+eyJoaXN0b3J5IjpbLTk3ODgzMjQ2OCwtMzI2MTQ2MzE3LC0xNj
+g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
+ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
+MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
+NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
+wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
+MzUxMjJdfQ==
 -->
