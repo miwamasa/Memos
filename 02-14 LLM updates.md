@@ -130,7 +130,7 @@
 - Prompt Engineering for Generative AI
 	- https://www.amazon.com/gp/product/B0D4FBPLX1?&linkCode=sl1&tag=kirkdborne-20&linkId=17812cf95726cdbbe7b0c29f94f4bce7&language=en_US&ref_=as_li_ss_tl
 	- With this book, you'll gain a solid foundation in generative AI, including how to apply these models in practice. When first integrating LLMs and diffusion models into their workflows, most developers struggle to coax reliable enough results from them to use in automated systems.
-- 
+- LLMs achieve adult human performance on higher-order theory of mind tasks
 
 
 ## 5/27
@@ -3639,10 +3639,9 @@
 		- metrics = {"train_loss": losses['train'], "val_loss": losses['val']} 　
 		- ↓ metrics = {"train_loss": float(losses['train']), "val_loss": float(losses['val'])}
 - 深層学習の原理を明らかにする理論の試み　by 今泉さん
-	- https://drive.google.com/file/d/1bNN6VjsgdpJAqxvZ4EKAPpMGq9wfjHqf/view
-	- 「
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDQ2MDQ1MywtMTA2NTc2NjAxOSwtMz
+eyJoaXN0b3J5IjpbMjAzMDY2MTk3NywtMTA2NTc2NjAxOSwtMz
 I2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUw
 NzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLT
 E4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4
