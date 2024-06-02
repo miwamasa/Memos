@@ -124,6 +124,9 @@
 	- https://x.com/overlast/status/1796028138616422535
 - Here’s a great guide teaching you how to construct knowledge graphs using LLMs that adhere to a pre-defined schema - using purely local models
 	- https://x.com/llama_index/status/1796198853764595725
+- 「大規模言語モデルの開発」 by　岡崎さん　@ JSAI2024
+	- https://speakerdeck.com/chokkan/jsai2024-tutorial-llm
+	- チュートリアル講演を行いました。事前学習、インストラクションチューニング、アライメント、評価の４部構成で、最近の研究動向や知見を紹介しました。
 - 
 
 
@@ -3642,16 +3645,13 @@
 -  RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
 	- https://arxiv.org/abs/2401.08406
 	- Microsoftより農業データを例に、LLMでRAGとFine-Tuningを比較分析した論文。
-	- 比較結果の要約は表22-23の通り(図引用)。双方の使い分けポイントは表23の最下行にあり。
-- AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」　米Metaなどが開発、実験でGPT-4を上回る【研究紹介】
-	- https://levtech.jp/media/article/column/detail_374/
-	- この訓練方法により、モデルの指示に従う能力と報酬モデリング能力が反復ごとに向上すること
+	- 比較結果の要約は表22-23の通り(図引用)。双方の使い分けポイントは表23の最下行にあ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTkyMjMxNywtMzI2MTQ2MzE3LC0xNj
-g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
-ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
-MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
-NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
-wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
-MzUxMjJdfQ==
+eyJoaXN0b3J5IjpbLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMT
+Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
+ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
+EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
+OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OT
+YsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5
+NzM1MTIyXX0=
 -->
