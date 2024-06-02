@@ -142,6 +142,11 @@
 - The new Anthropic prompt engineering tool is incredible.
 	- https://x.com/dr_cintas/status/1796577510773379479
 	- You just need to write your goal and Claude will generate an optimized prompt instantly.
+-  An entirely open-source AI code assistant inside your editor
+	- https://ollama.com/blog/continue-code-assistant
+	- つまり、ollamaをつかって、あなたの好みのエディタにCode assistanceをという話
+- 最近の7B小型日本語LLMはエージェントになれるのか？
+	- https://soysoftware.sakura.ne.jp/archives/3934
 - 
 
 
@@ -3633,11 +3638,9 @@
 		- 「**DPO**」はLLMを人間またはAIの好みに合わせるための有望な代替手段として浮上しています。「強化学習」に基づく従来のアライメントアルゴリズムとは異なり、「DPO」はアライメントの定式化を、嗜好のデータセット上で直接最適化できる単純な損失関数として再構成します。
 		- これにより、「DPO」は使いやすくなり、「Zephyr」や「NeuralChat」などのモデルの学習で成功しています。
 	- IPO
-		- 「DPO」の欠点の1つは、優先データセットにすぐに過剰適合する傾向があることです。これを回避するために、「Google DeepMind」は「IPO」を導入しました。これにより、「DPO」損失に正則化項が追加され、早期停止などのトリックを必要とせずにモデルを収束するように学習できるようになります。
-	- KTO
-		- ContextualAIは最近、「KTO」と呼ばれる興味深い代替案を提案しました。これは、「good」または「bad」とラベル付けされた個々の例に関して損失関数を完全に定義するものです。こ
+		- 「DPO」の欠点
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDA2OTU5MywtMTA2NTc2NjAxOSwtMz
+eyJoaXN0b3J5IjpbMTAzNDMyMDI1MywtMTA2NTc2NjAxOSwtMz
 I2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUw
 NzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLT
 E4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4
