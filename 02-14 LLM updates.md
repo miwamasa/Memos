@@ -84,7 +84,11 @@
 - OllamaがCodestralに対応
 	- https://ollama.com/library/codestral
 - "Science in the Age of AI - How AI is changing the nature and method of scientific research,"
+	- https://royalsociety.org/-/media/policy/projects/science-in-the-age-of-ai/science-in-the-age-of-ai-report.pdf
 	- 英国ロイヤルアカデミー
+	- Generative AI tools can assist the advancement of scientific research.
+- 
+
 
 ## 5/27
 
@@ -3658,15 +3662,9 @@
 	- 長文ドキュメントに基づいてユーザーの問いに答える能力でGPT-3.5より遥かに勝る結果が示されています。
 	- ■方法論 以下のような２段階の指示チューニングを行う 
 		- 1. 教師ありファインチューニング （supervised fine-tuning） 
-		- 2. 文脈強化インストラクションチューニング （context-enhanced instruction tuning）
-	- ■実験と結果 
-		- 1. Llama-2を調整して「ChatQA」モデルを作成した 
-		- 2. 長文ドキュメントに基づくQAタスクで評価した 
-		- 3. GPT-3.5の性能を遥かに上回った 4. GPT-4とは同等と言えるレベルだった
--  Prompt Engineering with Llama 2
-	- https://g
+		- 2. 文脈強化インストラクションチューニング （context-enhanced ins
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzNDE5ODI3LC0zMjYxNDYzMTcsLTE2OD
+eyJoaXN0b3J5IjpbOTYwMDgwMDY5LC0zMjYxNDYzMTcsLTE2OD
 U4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4
 MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMz
 I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
