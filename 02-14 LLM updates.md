@@ -79,7 +79,7 @@
 - Gemini 1.5 FlashはClaude 3 Opusに匹敵しながら、コストは100万トークンあたりたったの55円
 	- https://x.com/gijigae/status/1795743286533255285
 - Announcing Codestral: our first-ever code model
-	- 
+	- https://chat.mistral.ai/chat
 - 
 
 ## 5/27
@@ -3661,9 +3661,9 @@
 		- 3. GPT-3.5の性能を遥かに上回った 4. GPT-4とは同等と言えるレベルだった
 -  Prompt Engineering with Llama 2
 	- https://github.com/facebookresearch/llama-recipes/blob/main/examples/Prompt_Engineering_with_Llama_2.ipynb?utm_source=twitter&utm_medium=organic_social&utm_campaign=llama&utm_content=video
-	- Introducing 'Prompt Engineering with Llama 2' — an interactive guide cov
+	- Introducing 'Prompt Engineering with Llama 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTEwNjIyOSwtMzI2MTQ2MzE3LC0xNj
+eyJoaXN0b3J5IjpbLTkzNTcwMjM0MywtMzI2MTQ2MzE3LC0xNj
 g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
 ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
 MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
