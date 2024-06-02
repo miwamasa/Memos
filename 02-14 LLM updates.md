@@ -102,6 +102,10 @@
 	- The Advisor for International Affairs
 - 英国のアカデミー、Royal Societyも「AI for Science」ではなくEUと同じ「AI in Science」。レポートはかなり充実している by maruyamaさん
 	- https://x.com/rmaruy/status/1795967400502006026
+- Mamba, Griffin, RWKV, RetNet, Recurrent Gemma- 2024 is the year of gated linear RNNs! What's their secret sauce?
+	- https://x.com/ItamarZimerman/status/1796181061984030914
+- CRDSの新作プロポーザル『次世代AIモデルの研究開発』がめちゃくちゃいい仕事で一気見した。
+	- 
 
 
 ## 5/27
@@ -3642,19 +3646,13 @@
 	- 事前学習モデル(0.15B)を作ってみました ちゃんと使えるレベルにするためには、約200倍くらいかけないといけないみたいです
 - ChatGPTのコンテキスト長が32kになってるから青空文庫の小説とかを2万文字くらいのテキストファイルに分割して自分の代わりに読んでもらって内容教えてもらう事も結構できる。
 	- まあClaudeならコンテキスト長100kだからもっと大量の文章をまとめて読んでもらえる
-	- https://x.com/umiyuki_ai/status/1749775772850749556?s=20
-- Knowledge Fusion of Large Language Models", ICLR 2024より
-	- https://arxiv.org/abs/2401.10491
-	- 既存のLLMを融合させて強力なモデルを作る手法「知識融合」が開発
-	- 混合モデルを提唱する"Blending Is All You Need"とはアプローチ・評価方法ともに異なる研究です
-	- ■実験と結果 
-		- 1
+	- https://x.com/umiyuki_ai/status/174977
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwOTM0MzY2LC0zMjYxNDYzMTcsLTE2OD
-U4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4
-MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMz
-I4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0
-MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LD
-E5MjE0NDAwMCwxMzg3MjMyNDUyLDE5NzM4MDU2OTMsMjA5OTcz
-NTEyMl19
+eyJoaXN0b3J5IjpbLTg4NDg0NTM4NywtMzI2MTQ2MzE3LC0xNj
+g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
+ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
+MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
+NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
+wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
+MzUxMjJdfQ==
 -->
