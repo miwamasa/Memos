@@ -120,6 +120,10 @@
 	- Create 5-day air pollution predictions in < 1 minute 
 	- Create 10-day weather forecasts at ~10km resolution 
 	- Assess the chemical make up of the atmosphere
+- llm.cを使うとGPT-2を$20で2時間以内に構築可能？？
+	- https://x.com/overlast/status/1796028138616422535
+- Here’s a great guide teaching you how to construct knowledge graphs using LLMs that adhere to a pre-defined schema - using purely local models
+	- https://x.com/llama_index/status/1796198853764595725
 - 
 
 
@@ -3641,17 +3645,13 @@
 	- 比較結果の要約は表22-23の通り(図引用)。双方の使い分けポイントは表23の最下行にあり。
 - AIが自分自身に報酬を与えて進化する「自己報酬型言語モデル」　米Metaなどが開発、実験でGPT-4を上回る【研究紹介】
 	- https://levtech.jp/media/article/column/detail_374/
-	- この訓練方法により、モデルの指示に従う能力と報酬モデリング能力が反復ごとに向上することが示された。
-	- モデルは、自分の答えを生成する能力を向上させると同時に、自分自身の報酬モデルとしても機能。通常は固定されている報酬モデルが、繰り返しのプロセスを通じて改善される。
-	- **これは、人間などの外部からのフィードバックを不要にし、学習モデルが自分自身をよりよく改善できるようになることを意味し、自己改善の好循環を生み出す。**
-- Summarize gigantic JSON datasets in seconds with JSONalyze, our latest query engine: 
-	- https://docs.llamaindex.
+	- この訓練方法により、モデルの指示に従う能力と報酬モデリング能力が反復ごとに向上すること
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI3ODU5MDEsLTMyNjE0NjMxNywtMT
-Y4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAz
-ODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LD
-EzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0
-OTQzNjE0Myw2Mjc0NzY4MzYsMTAyMzkyNTE3LDE3MDU3NDc2OT
-YsMTkyMTQ0MDAwLDEzODcyMzI0NTIsMTk3MzgwNTY5MywyMDk5
-NzM1MTIyXX0=
+eyJoaXN0b3J5IjpbLTI2NTkyMjMxNywtMzI2MTQ2MzE3LC0xNj
+g1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4
+ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMT
+MyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5
+NDM2MTQzLDYyNzQ3NjgzNiwxMDIzOTI1MTcsMTcwNTc0NzY5Ni
+wxOTIxNDQwMDAsMTM4NzIzMjQ1MiwxOTczODA1NjkzLDIwOTk3
+MzUxMjJdfQ==
 -->
