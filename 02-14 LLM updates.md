@@ -3,7 +3,9 @@
 
 ## 6/3
 
-Google I/Oで発表されが
+Google I/Oで発表されたgoogleの検索x生成AIが、とても不評ということで、
+
+財務諸表から将来の収益の伸びを予測
 
 LLMのモデルサイズが小さくなりながらも高い性能を発揮するようになってきました。Mixtral 8x22bやPhit-3-Tinyなど、パラメータ数が数十億程度の小型モデルでも、従来の大型モデルに匹敵する性能を示す事例が増えています。さらに、ollama.cppやllama.cppなどのオープンソースの高速推論ライブラリの普及により、LLMをCPUでも実用的な速度で実行できるようになってきました。
 
@@ -3633,11 +3635,11 @@ LLMのモデルサイズが小さくなりながらも高い性能を発揮す�
 
 - Can Gen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwOTY1ODY3LDEwMzQzMjAyNTMsLTEwNj
-U3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1
-ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUxMzYsNT
-g3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMjcsLTExMjgw
-MDQyMTEsLTE0ODc3NTA5NzQsMTk0OTQzNjE0Myw2Mjc0NzY4Mz
-YsMTAyMzkyNTE3LDE3MDU3NDc2OTYsMTkyMTQ0MDAwLDEzODcy
-MzI0NTJdfQ==
+eyJoaXN0b3J5IjpbMTE3MDA5MTM3MiwxMDM0MzIwMjUzLC0xMD
+Y1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4
+NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MTM2LD
+U4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0xMTI4
+MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0MzYxNDMsNjI3NDc2OD
+M2LDEwMjM5MjUxNywxNzA1NzQ3Njk2LDE5MjE0NDAwMCwxMzg3
+MjMyNDUyXX0=
 -->
