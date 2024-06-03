@@ -3,7 +3,7 @@
 
 ## 6/3
 
-Google I/Oで発表されたgoogleの検索x生成AIが、とても不評ということで、Wall Street Journalの記事にもあるように、Perprexityの優秀さが際立つ、gooleがプレスリリースした新技術で期待を裏切るのは全く恒例ですね。とはいっても、Gemini 1.5 Pro/Flashの優秀さもあちこちで報告されており、本当は優れてるんでしょう。Mistralからコード生成のOSSであるCodestralが発表、さっそくOllamaが対応、これでお好きなエディタと組み合わせてプログラミングのアシスタントが実現可能に。量子化、小規模化にも進展があり、Mixtral 8x22b の量子化版Q6_K が $362 CPU(AMD Ryzen 9 5950X BOXか?)で軽々動作するという報告もあったり、Phi-3-Tinyシリーズのように、さらに小ささなLLMにチャレンジみたいな展開もあった。llama.cppで量子化版を動作させるとollamaより1.8倍速いという報告も。生成AIの飛躍的性能アップの秘密といわれる「グロッキング」に関する論文、汎化回路形成の秘密に迫り、新たなアーキテクチャ提案というのは胸熱い。生成AIの「創造性」に関する１０万人の人間！との比較で、GPT-4ならプロンプトを工夫すれば、人間を上回るというのには驚いた。O'ReillyからPrompt Engineeringの新刊も出るが、そもそもAnthropicのClaude3は、ゴールを与えれば適切なプロンプトを生成してくれるという。財務諸表から将来の収益の伸びを予測するタスクでGPT-4は人間より優れていると聞いても驚かなくなった。そんなAIですが、AIが他者の心や意図を理解する能力を持っているのかの「心の理論(ToM:Theory of Mind)」を持っているかどうかを分析した論文では、GPT-4 and Flan-PaLM が人間の大人のレベルに達したとのこと。さらに人間を超えるという意味では、Autoformalizing という、人間が作った幾何学をAIが自動証明できる体系に、生成AIをつかって作り直すという試みもあった。こうなると人間の理解がどこまで生成AIについていけるかという点が心配になる、ニューラルネットの動作理解の「Graph Game」や、LoRaの原理の可視化など、そういうのも目立った気がする。全く反対にアセモグル氏のように、それほどAIは格差拡大に影響しないという分析もあった。安全性に関しては、RAGを前提としたバックドアTrojanRAGというのも出た、説明性が高いこととバックドアを仕込みやすいというのは表裏一体。さて日本では、人工知能学会が浜松で開催、岡崎先生のスライド「大規模言語モデルの開発」は必見です。一方、ChatGPTのRLHF（ヒトのフィードバックによる強化学習）プロセスの多くが、アウトソースされた（比較的人件費の安い）ナイジェリアのオペレーターたちによって行われた結果で、なんとナイジェリア英語のdelveという単語が生物系の論文に大量に表れたとの報告もあった。そもそも人間のほうも、エビデンスベースで合理的に思考する能力に課題があり、ストーリーに流されがちとの指摘があるので、ストーリー性を求めすぎて、合理的に思考できない生成AIができるかも。ロイヤルアカデミーの「AI in Science」すでに「AI for Science」といっている時代ではなくなった、つまりAIを使わずに科学の進展はない。さてNASAから満を持して、大気現象を予測する基盤モデルAuroraの発表、10kmメッシュで10日後まで天気予報できるってどれぐらいすごいのだろう。全くの余談だが、gpt-4oの発表時に参照された映画"Her"の監督の離婚した妻が監督した "Lost In Translation"の２つを比較し、一部シーケンスが全く対照的にアライメントしているという話題がテック界隈で一瞬話題になった。
+Google I/Oで発表されたgoogleの検索x生成AIが、とても不評ということで、Wall Street Journalの記事にもあるように、Perplexityの優秀さが際立つ、gooleがプレスリリースした新技術で期待を裏切るのは全く恒例ですね。とはいっても、Gemini 1.5 Pro/Flashの優秀さもあちこちで報告されており、本当は優れてるんでしょう。Mistralからコード生成のOSSであるCodestralが発表、さっそくOllamaが対応、これでお好きなエディタと組み合わせてプログラミングのアシスタントが実現可能に。量子化、小規模化にも進展があり、Mixtral 8x22b の量子化版Q6_K が $362 CPU(AMD Ryzen 9 5950X BOXか?)で軽々動作するという報告もあったり、Phi-3-Tinyシリーズのように、さらに小ささなLLMにチャレンジみたいな展開もあった。llama.cppで量子化版を動作させるとollamaより1.8倍速いという報告も。生成AIの飛躍的性能アップの秘密といわれる「グロッキング」に関する論文、汎化回路形成の秘密に迫り、新たなアーキテクチャ提案というのは胸熱い。生成AIの「創造性」に関する１０万人の人間！との比較で、GPT-4ならプロンプトを工夫すれば、人間を上回るというのには驚いた。O'ReillyからPrompt Engineeringの新刊も出るが、そもそもAnthropicのClaude3は、ゴールを与えれば適切なプロンプトを生成してくれるという。財務諸表から将来の収益の伸びを予測するタスクでGPT-4は人間より優れていると聞いても驚かなくなった。そんなAIですが、AIが他者の心や意図を理解する能力を持っているのかの「心の理論(ToM:Theory of Mind)」を持っているかどうかを分析した論文では、GPT-4 and Flan-PaLM が人間の大人のレベルに達したとのこと。さらに人間を超えるという意味では、Autoformalizing という、人間が作った幾何学をAIが自動証明できる体系に、生成AIをつかって作り直すという試みもあった。こうなると人間の理解がどこまで生成AIについていけるかという点が心配になる、ニューラルネットの動作理解の「Graph Game」や、LoRaの原理の可視化など、そういうのも目立った気がする。全く反対にアセモグル氏のように、それほどAIは格差拡大に影響しないという分析もあった。安全性に関しては、RAGを前提としたバックドアTrojanRAGというのも出た、説明性が高いこととバックドアを仕込みやすいというのは表裏一体。さて日本では、人工知能学会が浜松で開催、岡崎先生のスライド「大規模言語モデルの開発」は必見です。一方、ChatGPTのRLHF（ヒトのフィードバックによる強化学習）プロセスの多くが、アウトソースされた（比較的人件費の安い）ナイジェリアのオペレーターたちによって行われた結果で、なんとナイジェリア英語のdelveという単語が生物系の論文に大量に表れたとの報告もあった。そもそも人間のほうも、エビデンスベースで合理的に思考する能力に課題があり、ストーリーに流されがちとの指摘があるので、ストーリー性を求めすぎて、合理的に思考できない生成AIができるかも。ロイヤルアカデミーの「AI in Science」すでに「AI for Science」といっている時代ではなくなった、つまりAIを使わずに科学の進展はない。さてNASAから満を持して、大気現象を予測する基盤モデルAuroraの発表、10kmメッシュで10日後まで天気予報できるってどれぐらいすごいのだろう。全くの余談だが、gpt-4oの発表時に参照された映画"Her"の監督の離婚した妻が監督した "Lost In Translation"の２つを比較し、一部シーケンスが全く対照的にアライメントしているという話題がテック界隈で一瞬話題になった。
 
 -  自分がどれくらいニューラルネットワークを理解しているかを確かめられるゲーム「Graph Game」
 	- https://gigazine.net/news/20240526-graph-game/
@@ -155,7 +155,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 5/27
 
-さて今週は、MicrosoftのBuild2024が開催、gpt-4oを組み込んだCopilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れるCopilot Studioの更新や、人の代わりに会議進行をしてくれるTeam Copilot、さらには、ソフトウエア開発自動化の「Devin」の会社との提携など、目白押し。まあ早速、ゲームをサポートするcopilot assistantのデモをGemini 1.5 Flashで、さらにマリオゲームで再現できたとの個人の報告もありました。さて来月のAppleの WWDC24はどうなる。基盤技術では、チューリングテストでGPT-4は54%の確率で人間だと判断されたというのは、もう驚かない、AIによる詐欺にあわないように心がけても無駄という未来が、、。むしろ、「LLMがチャットUIに呪われている」という記事もあったが、もやはLLMの発展は人間が律速していて頭打ちになっている。一方AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネット上にLLMの性質あるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）、安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、例えば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。知識グラフのRAGもアツイが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそういうこともできるのか。今井さんのGPT-4oを研究者視点で「時代の転換点」と解説した記事のシリーズは気になるが登録が必要なのか。GUILDの深津さんの、横須賀市の未完成のお悩み相談チャットボット。不完全でもベータ公開というわりにやっぱよくできている。その深津さんが、生成AI時代に大事なスキルは、「やり続ける能力」、いくら生成ＡＩが優れていてもめげないことが大切。ローカルLLMも相変わらずアツイ！。今週も、Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaもraw modeでfuntion callingへ即追従。一方、マルチモーダルphi3-visionも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。Transformers.js とONNX Runtime Webの組み合わせというのも、ローカルLLMの協力な助っ人か。Cohereが多言語指向のオープンLLMであるAya 23 の 8B と35Bがリリース、日本語強そう。しかし、Phi-3は、「最も有能で費用対効果のSML (Small Language Model)」っていうんだ(Small LLMのほうがかっこよいのに)。 それにしても DeepSeekV2 、あまりに性能が高いので中国での競合のサービス料を1%押し下げた（投げ売り開始？）とのこと。ChatVector、7BモデルのFineTuning結果を70Bに転移させて性能向上したり、LLaVAの日本語化など、ローカルLLMでもその能力をふくめて認知や利用が増えてきた。transformersがv4.41.0にアップデートされてggufをサポートするようになったのも、ローカルLLM勢には朗報。EUのAI法が最終合意、生成ＡＩの規制も盛り込み済み。一方OECDはAIリスクに関する用語を整理し、インシデントの重大さにハザードが起こる確率を加味したものがリスクのレベルになるとのこと。英国の「Safeguarded AIプログラム」は、安全性のために数理論理学や圏論を利用する、同じsafe guardでも毒には毒をということでguard自体をLLMで実現するメタのアプローチと真逆で面白い。
+さて今週は、MicrosoftのBuild2024が開催、gpt-4oを組み込んだCopilot+PCというintelはいってないPCのほかに、誰でもエージェントを作れるCopilot 進化的の更新や、人の代わりに会議進行をしてくれるTeam Copilot、さらには、ソフトウエア開発自動化の「Devin」の会社との提携など、目白押し。まあ早速、ゲームをサポートするcopilot assistantのデモをGemini 1.5 Flashで、さらにマリオゲームで再現できたとの個人の報告もありました。さて来月のAppleの WWDC24はどうなる。基盤技術では、チューリングテストでGPT-4は54%の確率で人間だと判断されたというのは、もう驚かない、AIによる詐欺にあわないように心がけても無駄という未来が、、。むしろ、「LLMがチャットUIに呪われている」という記事もあったが、もやはLLMの発展は人間が律速していて頭打ちになっている。一方AnthropicのClaude3 Sonetに対する特徴抽出の論文、つまりニューラルネット上にLLMの性質あるいは特徴を示す場所を特定する技術（スパースオートエンコーダ）、安全性の分析で役に立つといっているが、逆に特定の箇所を特別に活性化させれば、例えば、ゴールデンゲートブリッジ一押しのLLMが爆誕するとのこと。いやまさにもろ刃の剣となる重要な技術。知識グラフのRAGもアツイが、GraphRAGという画像化した知識グラフに対するRAGという技術、マルチモーダルだとそういうこともできるのか。今井さんのGPT-4oを研究者視点で「時代の転換点」と解説した記事のシリーズは気になるが登録が必要なのか。GUILDの深津さんの、横須賀市の未完成のお悩み相談チャットボット。不完全でもベータ公開というわりにやっぱよくできている。その深津さんが、生成AI時代に大事なスキルは、「やり続ける能力」、いくら生成ＡＩが優れていてもめげないことが大切。ローカルLLMも相変わらずアツイ！。今週も、Mistral v0.3がリリース、語彙数も増えて、見違えるくらい日本語能力が強化され、function callingへも対応、ollamaもraw modeでfuntion callingへ即追従。一方、マルチモーダルphi3-visionも含めてリリースされたphi3-small,medium、phi3-mediumがMMLUスコアはLlama3-70B並みに高性能であるということだが、量子化でデグレードしたのかOllamaへの組み込みはうまくいってない模様。Transformers.js とONNX Runtime Webの組み合わせというのも、ローカルLLMの協力な助っ人か。Cohereが多言語指向のオープンLLMであるAya 23 の 8B と35Bがリリース、日本語強そう。しかし、Phi-3は、「最も有能で費用対効果のSML (Small Language Model)」っていうんだ(Small LLMのほうがかっこよいのに)。 それにしても DeepSeekV2 、あまりに性能が高いので中国での競合のサービス料を1%押し下げた（投げ売り開始？）とのこと。ChatVector、7BモデルのFineTuning結果を70Bに転移させて性能向上したり、LLaVAの日本語化など、ローカルLLMでもその能力をふくめて認知や利用が増えてきた。transformersがv4.41.0にアップデートされてggufをサポートするようになったのも、ローカルLLM勢には朗報。EUのAI法が最終合意、生成ＡＩの規制も盛り込み済み。一方OECDはAIリスクに関する用語を整理し、インシデントの重大さにハザードが起こる確率を加味したものがリスクのレベルになるとのこと。英国の「Safeguarded AIプログラム」は、安全性のために数理論理学や圏論を利用する、同じsafe guardでも毒には毒をということでguard自体をLLMで実現するメタのアプローチと真逆で面白い。
 
 -  Unleashing the Power of Knowledge Graphs in Retrieval Augmented Generation (RAG): Step by Step Instruction
 	- https://medium.com/@transformergpt/unleashing-the-power-of-knowledge-graphs-in-retrieval-augmented-generation-rag-step-by-step-84c2adc66c1c
@@ -273,9 +273,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/80Level/status/1792769380717068510
 	- Available now in Beta
 		- https://80.lv/articles/long-awaited-procedural-city-generator-for-blender-is-now-available/
-- Microsoft、Copilot Studioの新機能を発表
+- Microsoft、Copilot 進化的の新機能を発表
 	- https://x.com/shota7180/status/1792966382990270739
-	- Copilot Studioの更新により、誰でもエージェント機能を持つコパイロットを構築可能に
+	- Copilot 進化的の更新により、誰でもエージェント機能を持つコパイロットを構築可能に
 	- このコパイロットは、ユーザーの代わりに独立して積極的にタスクを調整・実行
 	- 特定の役割や機能に合わせてタスクを個別に調整できる
 - MIcrosoft's Phi-3 really is an astonishingly good model
@@ -1002,7 +1002,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 4/29
 
-マイクロソフトからPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5とためをはるとのこと、Phi-3-mini 4k instruct モデルはColab T4でも動くし、huggingfaceにも公開。さっそくOllamaが対応し、Llama-3 & Phi-3もRAGでの比較とかも。Llama3も、日本語向けにLoRaされたり、Llama3-70Bを42Bパラメータに枝刈りしたモデルが公開されたり、4bitに量子化して評価されたりとか、コミュニティの活動が一気に盛り上がる。なお量子化に関してはどのＬＬＭも4bit量子化しても精度がほとんど低下しないとのことだが本当か？AppleがiPhoneでも稼働するオープンな言語モデル「OpenELM」を発表、さっそくMLX LMで評価した結果が公開された、Macbook AirでPhi 3の量子化されたやつを動かして劇速といってる例とか、実は、LLMプロダクト開発者はMac Studioを買ってローカルLLMを触るべきとの意見も見られたが、反論もぼちぼち、さても６月のWWDC24が楽しみだ。それにしても、NVIDIA CEOジェンスン・ファン氏がショッピングモールからの歌配信に混ざる動画、かわいいなあ（いやＣＥＯがだよ）。Groq(LPUによる高速化のほう）のAPIをStreamlitで使う方法の紹介など、Groqの利用をちらほら見るようになった、速さは最強。LLMエージェントに関するニュースを毎週まとめてくださるサイト、頭が下がる、このアプデ更新もそうありたいものだ。LLMのアライメントであるDPOは実はトークン単位の逆Q学習を実現し、最適なアドバンテージ関数を推定し、トークン単位の信用割当問題を解いているというのは、アライメント問題を表面上の課題ではなくアーキテクチャまで落とすところが面白い。LLMの性能評価やベンチマークに関する活動もElyzaTasks100やRAG、Query PlanningなどのタスクにおけるローカルLLMの実力が検証なんかがあった。
+マイクロソフトからPhi-3-miniが発表され、3.8BのモデルがMixtral 8x7BやGPT-3.5とためをはるとのこと、Phi-3-mini 4k instruct モデルはColab T4でも動くし、huggingfaceにも公開。さっそくOllamaが対応し、Llama-3 & Phi-3もRAGでの比較とかも。Llama3も、日本語向けにLoRaされたり、Llama3-70Bを42Bパラメータに枝刈りしたモデルが公開されたり、4bitに量子化して評価されたりとか、コミュニティの活動が一気に盛り上がる。なお量子化に関してはどのＬＬＭも4bit量子化しても精度がほとんど低下しないとのことだが本当か？AppleがiPhoneでも稼働するオープンな言語モデル「OpenELM」を発表、さっそくMLX LMで評価した結果が公開された、Macbook AirでPhi 3の量子化されたやつを動かして劇速といってる例とか、実は、LLMプロダクト開発者はMac 進化的を買ってローカルLLMを触るべきとの意見も見られたが、反論もぼちぼち、さても６月のWWDC24が楽しみだ。それにしても、NVIDIA CEOジェンスン・ファン氏がショッピングモールからの歌配信に混ざる動画、かわいいなあ（いやＣＥＯがだよ）。Groq(LPUによる高速化のほう）のAPIをStreamlitで使う方法の紹介など、Groqの利用をちらほら見るようになった、速さは最強。LLMエージェントに関するニュースを毎週まとめてくださるサイト、頭が下がる、このアプデ更新もそうありたいものだ。LLMのアライメントであるDPOは実はトークン単位の逆Q学習を実現し、最適なアドバンテージ関数を推定し、トークン単位の信用割当問題を解いているというのは、アライメント問題を表面上の課題ではなくアーキテクチャまで落とすところが面白い。LLMの性能評価やベンチマークに関する活動もElyzaTasks100やRAG、Query PlanningなどのタスクにおけるローカルLLMの実力が検証なんかがあった。
 
 - モデル進化マージについて by sakana.aiの秋葉さん
 	- https://speakerdeck.com/iwiwi/17-nlpkorokiumu
@@ -1106,7 +1106,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- パラメータ数の異なる4つのモデルがある。小さいものから、2億7000万、4億5000万、11億、30億
 	- OpenELMは、レイヤーごとのスケーリング戦略を用いて、Transformerモデルの各レイヤー内でパラメータをefficient（効率的）に割り当てることで精度を向上させているという。
 - Let's compare Llama-3 & Phi-3 using RAG:
-	- https://lightning.ai/lightning-ai/studios/compare-llama-3-and-phi-3-using-rag?utm_source=akshay
+	- https://lightning.ai/lightning-ai/進化的s/compare-llama-3-and-phi-3-using-rag?utm_source=akshay
 	- https://x.com/akshay_pachaar/status/1783114329199718558
 -  Cohere Toolkit
 	- https://github.com/cohere-ai/cohere-toolkit
@@ -1128,7 +1128,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- CoreNet, a training library used to train OpenELM:
 -  [Tracing the Roots of Facts in Multilingual Language Models: Independent, Shared, and Transferred Knowledge](https://aclanthology.org/2024.eacl-long.127.pdf)
 	- 多言語言語モデルが獲得している事実に関する知識を53言語で検証。どのような原因によって言語ごとに差が出るのか、データ量や地理的観点・活性化されたニューロンの類似性などから分析している。
--  LLMプロダクト開発者がMac Studioを買ってローカルLLMを触るべき理由
+-  LLMプロダクト開発者がMac 進化的を買ってローカルLLMを触るべき理由
 	- https://note.com/erukiti/n/n58a8180ea9fb
 - [torchtitan](https://github.com/pytorch/torchtitan)
 	- a library for large model training called torchtitan
@@ -1392,7 +1392,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- It ranks closely with Mistral-7B on comprehensive benchmarks
 - 現状のLLM選択肢 by urawazakun
 	- https://x.com/urawazakun/status/1777130873844040046
-	- commandRplus　108B →Mac Studio（988000円）
+	- commandRplus　108B →Mac 進化的（988000円）
 	- commandR　35B →RTX4090（PC + 40万円～）
 	- LightChatAssistant2x7B →RTX3060（PC + 3万円～）
 -  EasyLightChatAssistant
@@ -1455,7 +1455,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Gemini 1.5 Pro
 	- https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html
 	- 180カ国サポート、「統一モデル」音声・動画認識、ファイルAPI、System Instructionカスタマイズ機能、 JSONモードなどが加わりました、以下で試せる
-	- https://aistudio.google.com/app/prompts/new_chat
+	- https://ai進化的.google.com/app/prompts/new_chat
 - Imagen 2 by DeepMind
 	- https://x.com/GoogleDeepMind/status/1777747320945234422
 	- Imagen 2 can now create short, 4-second live images from a single prompt.
@@ -2779,9 +2779,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://qiita.com/tech-Mira/items/67dec9c5a5f025d2727a?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share
 	- BitNet b1.58は、その名の通り、各パラメータが、、[−1、0、1]という3つの値での動作を実現した1bitのLLMです。つまり、膨大な計算リソースを必要とする従来のモデルとは異なり、非常に効率的に動作します。加えて、この記事で示されている結果では驚くべきことに、性能は従来の高精度モデルを上回ります。
 	- BitNet b1.58とFP16 LLaMA LLMを様々なサイズで比較しました。公平な比較を保証するために、モデルをRedPajamaデータセットで1000億トークンに対して事前学習しました。
-- Google AI Studio で つくよみちゃんの会話テキストデータセット による Gemini の チューニングを試す by npakaさん
+- Google AI 進化的 で つくよみちゃんの会話テキストデータセット による Gemini の チューニングを試す by npakaさん
 	- https://note.com/npaka/n/n8b03a58abb2c?sub_rt=share_h
-	- 「Google AI Studio」で「つくよみちゃんの会話テキストデータセット」による「Gemini」のチューニングを試したので、まとめました。
+	- 「Google AI 進化的」で「つくよみちゃんの会話テキストデータセット」による「Gemini」のチューニングを試したので、まとめました。
 -  Towards Long Context RAG by llamaindex
 	- https://www.llamaindex.ai/blog/towards-long-context-rag
 	- We did a deep dive into Gemini, and consolidated our thinking about long-context LLM benefits, challenges, and new architectures
@@ -3622,11 +3622,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 中国オリオンスターロボティクス（OrionStar）という会社から新星LLMであるOrion登場、日本語や韓国語が得意なのと長文モデルを持っている、中華LLMは日本語も得意ってのはよく言われていること、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違うDPOの実装も出てきたし、CALM2をDPOしたモデルやデータセットの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMT
-E4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MDE5LC0zMjYx
-NDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MT
-I5LC00NDEwMzg4MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgw
-NTQ4NzUyNSwxMzI4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3Nz
-UwOTc0LDE5NDk0MzYxNDMsNjI3NDc2ODM2LDEwMjM5MjUxNywx
-NzA1NzQ3Njk2XX0=
+eyJoaXN0b3J5IjpbNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nz
+cyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2
+NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NT
+Q0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNiw1ODcy
+NjA0ODMsLTE4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEyODAwND
+IxMSwtMTQ4Nzc1MDk3NCwxOTQ5NDM2MTQzLDYyNzQ3NjgzNiwx
+MDIzOTI1MTddfQ==
 -->
