@@ -73,7 +73,12 @@
 	- https://xtech.nikkei.com/atcl/nxt/column/18/00001/09236/
 	- これまで利用してきた電子カルテシステムにオプティムが提供する生成AI「OPTiM AI」を組み合わせ、看護師の業務効率を高める実証に乗り出し
 	- 米NVIDIAのRTX A2000を搭載したGPU（画像処理半導体）サーバー1台を新たに院内に用意した。LLMの学習や推論に用いる
-- ntroducing AI Agents in LangGraph!　 by Deeplearning.ai
+- Introducing AI Agents in LangGraph!　 by Deeplearning.ai
+	- https://x.com/DeepLearningAI/status/1798376731188834780
+	- In this course taught by hwchase17, LangChainAI CEO, and weiss_rotem, tavilyai CEO, you’ll learn to use LangGraph to create controllable agents, and agentic search for agents to enhance their output.
+- ChatGPTでレ・ミゼラブルの人物相関3Dネットワークグラフを作成
+	- https://x.com/itnavi2022/status/1798320618695438647
+	- 
 - 
 
 ## 6/3
@@ -3614,18 +3619,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/papers/2402.0085
 	- We find that 3-bit post-training quantization leads to varying degrees of performance reduction on our benchmark. We conduct an extensive analysis of these scenarios to substantiate our experimental results.
 -  Grounded language acquisition through the eyes and ears of a single child
-	- https://www.science.org/doi/10.1126/science.adi1374
-	- 大規模言語モデルほど大量のデータを食わなくても子供は言語を獲得する。それをニューラルネットで再現できるか確認するため、赤ちゃん１人の頭に生後 6〜25 ヶ月の間に録画用ビデオを延べ 61 時間装着して音声･映像データを取得、マルチモーダル学習を成功させたとする報告
-- karakuri-lm-70b-chat-v0.1-gguf の q5_K_S を ローカルで試す。とても優秀。
-	- https://x.com/npaka123/status/1753336604759118014?s=20
-	-  Llama.cppで5.82 token/s (M3 Max)
-	- https://hugging
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjQ5NDMyNywxNjYwNDA2ODY1LDQxND
-g4MDExMywtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgy
-OTM1LDEwMzQzMjAyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNy
-wtMTY4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0
-MTAzODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NT
-I1LDEzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQs
-MTk0OTQzNjE0M119
+eyJoaXN0b3J5IjpbLTExMTMzMTc5OTYsMTY2MDQwNjg2NSw0MT
+Q4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4
+MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMT
+csLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00
+NDEwMzg4MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4Nz
+UyNSwxMzI4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0
+LDE5NDk0MzYxNDNdfQ==
 -->
