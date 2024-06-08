@@ -56,7 +56,11 @@
 	- https://medium.com/@starloba/why-ai-wont-take-your-job-just-yet-13e95cd05da8
 	- 汎用的なタスクをAIに解かせるようになると、人間はよりクリエイティブな問題に注力できるようになる。より正確に言うなら、強制的に注力しないといけない状況に追い込まれる。
 - Microsoft has built a weather forecasting model named 'Aurora
-	- 
+	- https://x.com/MSFTResearch/status/1797662278394827029
+-  Heuristics on the high seas: Mathematical optimization for cargo ships
+	- https://research.google/blog/heuristics-on-the-high-seas-mathematical-optimization-for-cargo-ships/
+	- Today we present new solutions to the Liner Shipping Network Design and Scheduling Problem, released as part of our new Shipping Network Design API, with the goal of maximizing the efficiency of container shipping networks at world-wide scale
+- 
 - 
 
 ## 6/3
@@ -3618,20 +3622,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 言語モデルによる材料分類の論文
 	- Geminにより材料情報を指定したテキスト形式に変換し、整えたデータでBERTを微調整することにより、金属ガラスになるか否かを高精度に判定できたそうです。
 	- 言語モデルフル活用。疎なデータでもうまく予測できる点がメリットのようです
-- Build a RAG backend over any website in a single CLI command
-	- https://github.com/run-llama/LlamaIndexTS/tree/main/packages/create-llama
-- リコーがLlama-2-13Bをベースに高性能な日本語モデルRicor-13Bを開発
-	- https://x.com/umiyuki_ai/status/1753312415503245762?s=20
-	- ただしオープンにはしない。顧客企業の業種に合わせてカスタム（微調整なのか？RAGなのか？）してクラウドで提供するB2Bビジネスを開始
-- 2024年1月30日 国立情報学研究所における大規模言語モデル構築への協力について
-	- https://www.ndl.go.jp/jp/news/fy2023/240130_01.html
-	- 国会図書館は国内のウェブサイトのアーカイブ事業をやってたけど、このアーカイブデータの数十億件のURLを国立情報学研究所に提供するんだって。国立情報学研
+- Build a RA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg2MDg5MzEsMTY2MDQwNjg2NSw0MT
-Q4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4
-MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMT
-csLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00
-NDEwMzg4MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4Nz
-UyNSwxMzI4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0
-LDE5NDk0MzYxNDNdfQ==
+eyJoaXN0b3J5IjpbMjkwODc4OTI1LDE2NjA0MDY4NjUsNDE0OD
+gwMTEzLC03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5
+MzUsMTAzNDMyMDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC
+0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQx
+MDM4ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1Mj
+UsMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwx
+OTQ5NDM2MTQzXX0=
 -->
