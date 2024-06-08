@@ -39,6 +39,11 @@
 	- バリューチェーン全体を俯瞰した概念データモデルがあるからこそ、企業全体の改革に一本の芯が通ることになるのだ。あるお客さまは、概念データモデルのことを“自社の憲法”と表現されていたが、まさにその通りである。
 - ELYZAが、国立研究開発法人 産業技術総合研究所が募集した大規模生成AI研究開発支援プログラムに採択されました。
 	- https://x.com/ELYZA_inc/status/1797780304717078689
+-  論文解説をGPT-4oを使って自動的に生成してみる by 逆瀬川さん
+	- https://qiita.com/sakasegawa/items/8e17ede26dd96e7e3280
+	- PDFを画像として取り扱うと処理は遅いが格段に安い！！ 
+	- -   論文のPDFを画像として扱い、GPT-4oで落合メソッドを使って解説を生成させる
+-   論文のPDFから数式や図表を抽出し、個々に解説を生成
 - 
 
 ## 6/3
@@ -3621,14 +3626,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Preferred Elements（PFE）が、経産省とNEDOが開始する「GENIAC（Generative AI Accelerator Challenge）」において、1000億パラメータのマルチモーダル基盤モデルの開発と、1兆パラメータの大規模言語モデルの事前学習の検証を開始します。
 	- 東大松尾研、 NEDOの採択を受け、公開型での500億パラメータサイズの大規模言語モデル開発を開始します。
 - A decoder-only foundation model for time-series forecasting
-	- https://blog.research.google/2024/02/a-decoder-only-foundation-model-for.html
-	- TimesFM is a forecasting model, pre-trained on a large time-series corpus of 100 billion real world time-points, that displays impressive zero-shot performance on a variety of public benchmarks fr
+	- https://blog.rese
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDY2OTg2Nyw0MTQ4ODAxMTMsLTc4Nz
-gwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIw
-MjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2OD
-csLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1
-Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMz
-I3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0MzYxNDMs
-NjI3NDc2ODM2XX0=
+eyJoaXN0b3J5IjpbLTE0NTA4NTA3MjcsNDE0ODgwMTEzLC03OD
+c4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMy
+MDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Nj
+g3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5
+NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMyODE1Mz
+MyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5NDM2MTQz
+LDYyNzQ3NjgzNl19
 -->
