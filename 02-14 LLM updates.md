@@ -60,7 +60,15 @@
 -  Heuristics on the high seas: Mathematical optimization for cargo ships
 	- https://research.google/blog/heuristics-on-the-high-seas-mathematical-optimization-for-cargo-ships/
 	- Today we present new solutions to the Liner Shipping Network Design and Scheduling Problem, released as part of our new Shipping Network Design API, with the goal of maximizing the efficiency of container shipping networks at world-wide scale
-- 
+- Unslothはこの論文に対抗してLoRAでの継続事前学習を徹底的に最適化した結果、今までのLoRA学習の２倍の効率で学習できて、VRAMも半分で済む
+	- https://x.com/umiyuki_ai/status/1798221784334160262
+	- 24GBのVRAMでLlama3-8BやMistral-7BがLoRA継続事前学習できる
+- GLM4-9Bだって。26言語対応。GPT-4に匹敵する関数呼び出し能力
+	- https://x.com/umiyuki_ai/status/1798292824544420150
+- 継続事前学習(CPT: Continued Pre-Training)をQLoRAでやろうとする試み
+	- https://x.com/webbigdata/status/1798313713654776062
+	- Colab無料版でもmistral-7b-v0.3なら十分動きました
+	- 
 - 
 
 ## 6/3
@@ -3615,16 +3623,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- AI動画化→runway,pika 
 		- 画像修正→photoshop と書かれていたはずなので（アニメ部はクリスタかも？） 
 	- 基本的にKALINさんはローカルSDを個人で動かすという作業は行っていなかったのだろうと推測。
-	- 例のAIアニメのChatGPTのログをざっと眺めたが、完全にGPT-3.5のキャパシティを超えているレベルで使い込んでいて割と絶句した
-		- https://chat.openai.com/share/a6f6052e-a22c-49aa-8847-9c7f12b011e0
--  A Prompt-Engineered Large Language Model, Deep Learning Workflow for Materials Classification
-	- https://arxiv.org/abs/2401.17788
-	- 言語モデルによる材料分類の論文
-	- Geminにより材料情報を指定したテキスト形式に変換し、整えたデータでBERTを微調整することにより、金属ガラスになるか否かを高精度に判定できたそうです。
-	- 言語モデルフル活用。疎なデータでもうまく予測できる点がメリットのようです
-- Build a RA
+	- 例のA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwODc4OTI1LDE2NjA0MDY4NjUsNDE0OD
+eyJoaXN0b3J5IjpbOTczNzIwNjE1LDE2NjA0MDY4NjUsNDE0OD
 gwMTEzLC03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5
 MzUsMTAzNDMyMDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC
 0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQx
