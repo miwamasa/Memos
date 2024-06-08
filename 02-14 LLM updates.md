@@ -10,6 +10,14 @@
 	- https://x.com/literallydenis/status/1797531945926287497
 - LLMを活用した大規模商品カテゴリ分類への取り組み
 	- https://engineering.mercari.com/blog/entry/20240411-large-scale-item-categoraization-using-llm/
+	- GPTを商品カテゴリ分類に活用した事例と工夫したポイントがまとまっているよ
+		- EmbeddingモデルはOSSでも問題なし
+		- GPT4はコスト的に使えなかった
+		- max_tokensとChain of Thought での効率化
+		- Numbaへの書き換えもGPTを使って効率化
+-  Hugging FaceのZeroGPUでAIのデモを作る方法: 初級編
+	- https://qiita.com/alfredplpl/items/abb30283b578dc984d16
+	- ZeroGPU とは、デモの利用者が使う瞬間だけ高性能なGPUが借りられるというサービスです。現在はA100 40GBが一瞬借りられます。これを実現できているのは世界でHugging Faceだけでしょう。お値段は月額9ドル（約1500円）です
 	- 
 
 ## 6/3
@@ -3618,22 +3626,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Meta、H100を35万機そろえ、OSS貢献に大きく舵を切ると公表、株価は２０％アップ？
 	- AI at Meta: 350k H100s by the end of the year, open source AI software infrastructure, new data centers with custom chips for AI inference serving hundreds of millions of users of AI tools.
 	- https://x.com/ylecun/status/1753431180861419947?s=20
-	- https://x.com/AIatMeta/status/1753195225311563848?s=20
--  Llama.cpp で Karakuri LM を試す by npakaさん
-	- https://note.com/npaka/n/n582c88a157e2?sub_rt=share_h
-- Gemini Ultra 2/7にリリースの可能性。
-	- https://www.reddit.com/r/Bard/comments/1ahmsnf/advanced/
-	- BardがGeminiという名前に変更
-	- Gemini Ultra 1.0であるGemini Advanced が開放 
-	- マルチモーダル機能等は今後拡張予定 
-	- Geminiがスマホでアシスタントとして使えるようになる。
-
-
-## 1/29
-
-中国オリオンスターロボティクス（OrionStar）という会社から新星LLMであるOri
+	- https://x.com/AIatMeta/status/1753195225
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjY3Njc3Niw0MTQ4ODAxMTMsLTc4Nz
+eyJoaXN0b3J5IjpbMTkzMjc5NDAzMCw0MTQ4ODAxMTMsLTc4Nz
 gwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIw
 MjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2OD
 csLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1
