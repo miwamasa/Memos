@@ -78,8 +78,13 @@
 	- In this course taught by hwchase17, LangChainAI CEO, and weiss_rotem, tavilyai CEO, you’ll learn to use LangGraph to create controllable agents, and agentic search for agents to enhance their output.
 - ChatGPTでレ・ミゼラブルの人物相関3Dネットワークグラフを作成
 	- https://x.com/itnavi2022/status/1798320618695438647
-- GLM4-9B-ChatをElyzaTasks100で評価した
+- GLM4-9B-ChatをElyzaTasks100で評価した by うみゆきさん
 	- https://x.com/umiyuki_ai/status/1798328337699606704
+	- スコアはなんと3.92！！やべえ！！！！Gleipnir-7Bの3.91より勝ってる！メチャクチャかしこい！このモデル、スペックだけのコケオドシじゃない！
+- ReFT: Representation Finetuning for Language Models"
+	- https://x.com/rohanpaul_ai/status/1798026828017197256
+	- 10x-50x more parameter-efficient than prior state-of-the-art PEFT methods.
+- Learning to grok: Emergence of in-context learning and skill composition in modular arithmetic tasks
 	- 
 - 
 
@@ -3616,16 +3621,12 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- API (and local support coming soon)
 	- そしてlong contexのRAGをつくるには、
 		- nomic_ai:new 8k context window embeddings
-		- trychroma:vectorstore　MistralAI-instruct 32k context window via  ollama
-- Apple presents Can Large Language Models Understand Context
-	- https://huggingface.co/papers/2402.0085
-	- We find that 3-bit post-training quantization leads to varying degrees of performance reduction on our benchmark. We conduct an extensive analysis of these scenarios to substantiate our experimental 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Mzg3NDkwNiwxNjYwNDA2ODY1LDQxND
-g4MDExMywtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgy
-OTM1LDEwMzQzMjAyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNy
-wtMTY4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0
-MTAzODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NT
-I1LDEzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQs
-MTk0OTQzNjE0M119
+eyJoaXN0b3J5IjpbNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0OD
+gwMTEzLC03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5
+MzUsMTAzNDMyMDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC
+0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQx
+MDM4ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1Mj
+UsMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwx
+OTQ5NDM2MTQzXX0=
 -->
