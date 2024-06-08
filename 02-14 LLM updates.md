@@ -68,7 +68,12 @@
 - 継続事前学習(CPT: Continued Pre-Training)をQLoRAでやろうとする試み
 	- https://x.com/webbigdata/status/1798313713654776062
 	- Colab無料版でもmistral-7b-v0.3なら十分動きました
-	- 
+	- llama3 8bやgemma7bでは有料版のL4(24GB)でもメモリ不足になってしまいましたがllama2という手もあります
+-  佐賀の織田病院がオンプレGPUサーバーでLLM稼働、電子カルテ情報を生成AIが要約
+	- https://xtech.nikkei.com/atcl/nxt/column/18/00001/09236/
+	- これまで利用してきた電子カルテシステムにオプティムが提供する生成AI「OPTiM AI」を組み合わせ、看護師の業務効率を高める実証に乗り出し
+	- 米NVIDIAのRTX A2000を搭載したGPU（画像処理半導体）サーバー1台を新たに院内に用意した。LLMの学習や推論に用いる
+- ntroducing AI Agents in LangGraph!　 by Deeplearning.ai
 - 
 
 ## 6/3
@@ -3614,22 +3619,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - karakuri-lm-70b-chat-v0.1-gguf の q5_K_S を ローカルで試す。とても優秀。
 	- https://x.com/npaka123/status/1753336604759118014?s=20
 	-  Llama.cppで5.82 token/s (M3 Max)
-	- https://huggingface.co/mmnga/karakuri-lm-70b-chat-v0.1-gguf
-- 藝大の噂の生成AIのやつ、説明とか見たら思った数百倍手の込んだことやっててすげぇってなった。生成AIの良い使い方っすね。
-	- https://x.com/413s9/status/1753300577516433830?s=20
-	- 藝大のAIアニメ、KALINさんの注釈を読む限り 
-		- 物語部→chatgpt 
-		- 画像生成→midjourney,nijijourney 
-		- AI動画化→runway,pika 
-		- 画像修正→photoshop と書かれていたはずなので（アニメ部はクリスタかも？） 
-	- 基本的にKALINさんはローカルSDを個人で動かすという作業は行っていなかったのだろうと推測。
-	- 例のA
+	- https://hugging
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczNzIwNjE1LDE2NjA0MDY4NjUsNDE0OD
-gwMTEzLC03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5
-MzUsMTAzNDMyMDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC
-0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQx
-MDM4ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1Mj
-UsMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwx
-OTQ5NDM2MTQzXX0=
+eyJoaXN0b3J5IjpbMTIwMjQ5NDMyNywxNjYwNDA2ODY1LDQxND
+g4MDExMywtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgy
+OTM1LDEwMzQzMjAyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNy
+wtMTY4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0
+MTAzODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NT
+I1LDEzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQs
+MTk0OTQzNjE0M119
 -->
