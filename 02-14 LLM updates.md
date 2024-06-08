@@ -34,6 +34,12 @@
 	- 議事録やマニュアルから制約条件を起こしたり、AIとの対話を通じて制約条件を起こしたり
 - 概念データモデルから始める真にデータドリブンな製造業DX
 	- https://www.qunie.com/quriosity/231218_00/
+	- 概念データモデルは個々の業務改革やモダナイゼーションに着手する前に作成するデータモデルである。特定の業務領域だけでなく、製造業のバリューチェーン全体をモデルとして表現する。
+	- 論理データモデルのような厳密さは不要で、関連するデータをグループ化したデータ群と、そのキー項目（全てのデータ項目は不要）、データ群のつながりを示す。
+	- バリューチェーン全体を俯瞰した概念データモデルがあるからこそ、企業全体の改革に一本の芯が通ることになるのだ。あるお客さまは、概念データモデルのことを“自社の憲法”と表現されていたが、まさにその通りである。
+- ELYZAが、国立研究開発法人 産業技術総合研究所が募集した大規模生成AI研究開発支援プログラムに採択されました。
+	- https://x.com/ELYZA_inc/status/1797780304717078689
+- 
 
 ## 6/3
 
@@ -3616,20 +3622,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 東大松尾研、 NEDOの採択を受け、公開型での500億パラメータサイズの大規模言語モデル開発を開始します。
 - A decoder-only foundation model for time-series forecasting
 	- https://blog.research.google/2024/02/a-decoder-only-foundation-model-for.html
-	- TimesFM is a forecasting model, pre-trained on a large time-series corpus of 100 billion real world time-points, that displays impressive zero-shot performance on a variety of public benchmarks from different domains and granularities.
-	- 基盤モデルで時系列予測？？googleがもつ大量の時系列データを特にかく学習？？
-	- あらゆる時系列データをDecoder-onlyのモデルにぶっ込んで時系列予測の基盤モデル作る話
-- Ollama vision is here
-	- https://x.com/ollama/status/1753530905069748506?s=20
-- GoogleとOpenAIは「後出しジャンケンしたもん勝ち」を狙って膠着状態？
-	- https://x.com/ImAI_Eruel/status/1753389879965429892?s=20
-	- 最近AI界隈が妙に静かだと言われてるやつ，GoogleとOpenAIが互いに，「Gemini Ultra」と「GPT-4.5 or GPT-5」
+	- TimesFM is a forecasting model, pre-trained on a large time-series corpus of 100 billion real world time-points, that displays impressive zero-shot performance on a variety of public benchmarks fr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1NzkwNTg2LDQxNDg4MDExMywtNzg3OD
-A5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAy
-NTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4Ny
-wtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUz
-NzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMj
-csLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0OTQzNjE0Myw2
-Mjc0NzY4MzZdfQ==
+eyJoaXN0b3J5IjpbMjA0NDY2OTg2Nyw0MTQ4ODAxMTMsLTc4Nz
+gwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIw
+MjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2OD
+csLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1
+Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMz
+I3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0MzYxNDMs
+NjI3NDc2ODM2XX0=
 -->
