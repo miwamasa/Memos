@@ -55,7 +55,8 @@
 - Why AI wont take your job just yet
 	- https://medium.com/@starloba/why-ai-wont-take-your-job-just-yet-13e95cd05da8
 	- 汎用的なタスクをAIに解かせるようになると、人間はよりクリエイティブな問題に注力できるようになる。より正確に言うなら、強制的に注力しないといけない状況に追い込まれる。
-- 
+- Microsoft has built a weather forecasting model named 'Aurora
+	- 
 - 
 
 ## 6/3
@@ -3624,14 +3625,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ただしオープンにはしない。顧客企業の業種に合わせてカスタム（微調整なのか？RAGなのか？）してクラウドで提供するB2Bビジネスを開始
 - 2024年1月30日 国立情報学研究所における大規模言語モデル構築への協力について
 	- https://www.ndl.go.jp/jp/news/fy2023/240130_01.html
-	- 国会図書館は国内のウェブサイトのアーカイブ事業をやってたけど、このアーカイブデータの数十億件のURLを国立情報学研究所に提供するんだって。国立情報学研究所はこのデータからコーパス作ってLLM構築に使うん
-	- https://x.com/umiyuki_ai/status/17
+	- 国会図書館は国内のウェブサイトのアーカイブ事業をやってたけど、このアーカイブデータの数十億件のURLを国立情報学研究所に提供するんだって。国立情報学研
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nz
-gwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIw
-MjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2OD
-csLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1
-Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMz
-I3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0MzYxNDMs
-NjI3NDc2ODM2XX0=
+eyJoaXN0b3J5IjpbLTE0ODg2MDg5MzEsMTY2MDQwNjg2NSw0MT
+Q4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4
+MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMT
+csLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00
+NDEwMzg4MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4Nz
+UyNSwxMzI4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0
+LDE5NDk0MzYxNDNdfQ==
 -->
