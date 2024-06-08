@@ -26,6 +26,9 @@
 	- https://x.com/umiyuki_ai/status/1797871157850620270
 - 富士通は、特化型の生成AI混合技術とナレッジグラフ拡張RAGというマニアックな方向に進化することになりました。
 	- https://x.com/AsamaKotaro/status/1797844740328804563
+-  the benefits of Google Gemini's gigantic 1 million token context window in action!
+	- https://x.com/llama_index/status/1798049438814081138
+	- In this quick notebook, we show Gemini built into a LlamaIndex agent attempting to answer a multi-part question from a set of complicated, heterogeneous documents.
 - 
 
 ## 6/3
@@ -3618,16 +3621,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/ImAI_Eruel/status/1753389879965429892?s=20
 	- 最近AI界隈が妙に静かだと言われてるやつ，GoogleとOpenAIが互いに，「Gemini Ultra」と「GPT-4.5 or GPT-5」と言う切り札が既にほぼ公開可能な状態なことを宣言していて，今までの経過を見ると後から公開した方が天下を取ってる
 -  karakuri-lm-70b-chatをOpenAI互換のローカルサーバとして動かしてみた
-	- https://qiita.com/takaaki_inada/items/3a22b982a3541e6f214c?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share
-	- karakuri-lm-70b-chatの4bit量子版ggufをローカルPCで動かしてみた
-	- json format出力が出来たり、少し複雑なsystem promptも効いてくれて良い
-	- text-generation-webui でOpenAI互換のローカルサーバとして起動
-	- GPUメモリに48/81レイヤー分モデルをのせてサーバを起動
--  WSL2とllama.cppでKARAKURI MLを試してみる
-	- https://note.com/ngc_shj/n/n46ced665b378?sub_rt=share_h
-- Corrective 
+	- https://qiita.com/takaaki_inada/items/3a22b982a3541e6f214c?utm_campaign=post_article&utm_medium=twitter&utm_so
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTgyMTgxMCw0MTQ4ODAxMTMsLTc4Nz
+eyJoaXN0b3J5IjpbMTgwNTcwMjQxOSw0MTQ4ODAxMTMsLTc4Nz
 gwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIw
 MjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2OD
 csLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1
