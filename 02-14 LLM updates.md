@@ -6,6 +6,7 @@
 - Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality
 	- https://arxiv.org/abs/2405.21060
 	- 現在生成AIで主流のTransformerの「次」のアーキテクチャとして期待されるMamba-2を提案
+	- Mamba2は新しく導出されたSSDを使い、系列長に対し線形の計算量、メモリ使用量で効率的に学習、推論でき、TransformerやMambaよりPPLや下流タスクで性能が高い。SSMとTransformerが統一的な枠組みで扱えることも示す by 岡野原さん
 - GPT-4 is 1.8T MoE, thanks Nvidia Presentation
 	- https://x.com/literallydenis/status/1797531945926287497
 - LLMを活用した大規模商品カテゴリ分類への取り組み
@@ -18,7 +19,14 @@
 -  Hugging FaceのZeroGPUでAIのデモを作る方法: 初級編
 	- https://qiita.com/alfredplpl/items/abb30283b578dc984d16
 	- ZeroGPU とは、デモの利用者が使う瞬間だけ高性能なGPUが借りられるというサービスです。現在はA100 40GBが一瞬借りられます。これを実現できているのは世界でHugging Faceだけでしょう。お値段は月額9ドル（約1500円）です
-	- 
+	- Hugging FaceのZeroGPUはAIのデモを作るのに最適だとわかりました。いかがでしたでしょうか。ぜひみなさんもデモを作ってみてください。なお、私は責任を持ちません。
+- lmsys.org でGoogleのGemini 1.5 Pro（5/14モデル）が日本語で世界一になりました。２ヶ月前のモデル (4/9モデル）よりかなり改善されました
+	- https://x.com/shanegJP/status/1797798176344453414
+- Perplexity Pages、AIに情報をまとめてきてもらうついでにそれをWeb記事の体裁でまとめて公開できちゃうのかあ。
+	- https://x.com/umiyuki_ai/status/1797871157850620270
+- 富士通は、特化型の生成AI混合技術とナレッジグラフ拡張RAGというマニアックな方向に進化することになりました。
+	- https://x.com/AsamaKotaro/status/1797844740328804563
+- 
 
 ## 6/3
 
@@ -3617,18 +3625,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- GPUメモリに48/81レイヤー分モデルをのせてサーバを起動
 -  WSL2とllama.cppでKARAKURI MLを試してみる
 	- https://note.com/ngc_shj/n/n46ced665b378?sub_rt=share_h
-- Corrective Retrieval Augmented Generation
-	- https://arxiv.org/abs/2401.15884
-	- Googleなどの研究者らは、LLMの検索における正確性をさらに向上させるフレームワーク（『CRAG』）を提案
-	- 検索結果を検証するプロセスを導入する手法で
-- Hugging FaceがGPT Storeのオープンソース版（Assistantという呼称）をリリース
-	- https://x.com/ytiskw/status/1753600673063784789?s=20
-- Meta、H100を35万機そろえ、OSS貢献に大きく舵を切ると公表、株価は２０％アップ？
-	- AI at Meta: 350k H100s by the end of the year, open source AI software infrastructure, new data centers with custom chips for AI inference serving hundreds of millions of users of AI tools.
-	- https://x.com/ylecun/status/1753431180861419947?s=20
-	- https://x.com/AIatMeta/status/1753195225
+- Corrective 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjc5NDAzMCw0MTQ4ODAxMTMsLTc4Nz
+eyJoaXN0b3J5IjpbMTc5MTgyMTgxMCw0MTQ4ODAxMTMsLTc4Nz
 gwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIw
 MjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2OD
 csLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1
