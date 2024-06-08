@@ -42,8 +42,11 @@
 -  論文解説をGPT-4oを使って自動的に生成してみる by 逆瀬川さん
 	- https://qiita.com/sakasegawa/items/8e17ede26dd96e7e3280
 	- PDFを画像として取り扱うと処理は遅いが格段に安い！！ 
-	- -   論文のPDFを画像として扱い、GPT-4oで落合メソッドを使って解説を生成させる
--   論文のPDFから数式や図表を抽出し、個々に解説を生成
+	- 論文のPDFを画像として扱い、GPT-4oで落合メソッドを使って解説を生成させる
+	- 論文のPDFから数式や図表を抽出し、個々に解説を生成
+- もはやAIの性能を人間が測定できない by  karaage. [からあげ]さん
+	- https://karaage.hatenadiary.jp/entry/2024/06/04/073000
+	- 
 - 
 
 ## 6/3
@@ -3625,10 +3628,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ABEJA、Sakana AI、NII、ストックマーク、Turing、東京大学、Preferred Elements
 	- Preferred Elements（PFE）が、経産省とNEDOが開始する「GENIAC（Generative AI Accelerator Challenge）」において、1000億パラメータのマルチモーダル基盤モデルの開発と、1兆パラメータの大規模言語モデルの事前学習の検証を開始します。
 	- 東大松尾研、 NEDOの採択を受け、公開型での500億パラメータサイズの大規模言語モデル開発を開始します。
-- A decoder-only foundation model for time-series forecasting
-	- https://blog.rese
+- A decoder-only foundation model f
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTA4NTA3MjcsNDE0ODgwMTEzLC03OD
+eyJoaXN0b3J5IjpbLTIwMzU3OTE1MzYsNDE0ODgwMTEzLC03OD
 c4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMy
 MDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Nj
 g3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5
