@@ -5,7 +5,12 @@
 
 - Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality
 	- https://arxiv.org/abs/2405.21060
-- 
+	- 現在生成AIで主流のTransformerの「次」のアーキテクチャとして期待されるMamba-2を提案
+- GPT-4 is 1.8T MoE, thanks Nvidia Presentation
+	- https://x.com/literallydenis/status/1797531945926287497
+- LLMを活用した大規模商品カテゴリ分類への取り組み
+	- https://engineering.mercari.com/blog/entry/20240411-large-scale-item-categoraization-using-llm/
+	- 
 
 ## 6/3
 
@@ -3626,13 +3631,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 1/29
 
-中国オリオンスターロボティクス（OrionStar）という会社から新星LLMであるOrion登場、日本語や韓国語が得意なのと長文モデルを持っている、中華LLMは日本語も得意ってのはよく言われていること、推論高速で回答も自然で良い感じだそうだ。LLMのアライメントも、RLHFに代わって、嗜好データセットをつかったアライメントの自動化DPOがはやってきた、Metaの本家とは違うDPOの実装も出てきたし、CALM2をDPOしたモデルやデータセットの公開などもあった。DPOに必要な嗜好データセット自体の構築支援KT
+中国オリオンスターロボティクス（OrionStar）という会社から新星LLMであるOri
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDczMzMyNTgsNDE0ODgwMTEzLC03OD
-c4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMy
-MDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Nj
-g3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5
-NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMyODE1Mz
-MyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwxOTQ5NDM2MTQz
-LDYyNzQ3NjgzNl19
+eyJoaXN0b3J5IjpbMjEyNjY3Njc3Niw0MTQ4ODAxMTMsLTc4Nz
+gwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIw
+MjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2OD
+csLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1
+Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMz
+I3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0MzYxNDMs
+NjI3NDc2ODM2XX0=
 -->
