@@ -32,7 +32,8 @@
 - 富士通の研究戦略発表会、最適化問題と生成AIによる制約条件の生成が相性が良いという発想
 	- https://x.com/tokoroten/status/1797851927457546682
 	- 議事録やマニュアルから制約条件を起こしたり、AIとの対話を通じて制約条件を起こしたり
-- 
+- 概念データモデルから始める真にデータドリブンな製造業DX
+	- https://www.qunie.com/quriosity/231218_00/
 
 ## 6/3
 
@@ -3622,14 +3623,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/ollama/status/1753530905069748506?s=20
 - GoogleとOpenAIは「後出しジャンケンしたもん勝ち」を狙って膠着状態？
 	- https://x.com/ImAI_Eruel/status/1753389879965429892?s=20
-	- 最近AI界隈が妙に静かだと言われてるやつ，GoogleとOpenAIが互いに，「Gemini Ultra」と「GPT-4.5 or GPT-5」と言う切り札が既にほぼ公開可能な状態なことを宣言していて，今までの経過を見ると後から公開した方が天下を取ってる
--  karakuri-lm-70
+	- 最近AI界隈が妙に静かだと言われてるやつ，GoogleとOpenAIが互いに，「Gemini Ultra」と「GPT-4.5 or GPT-5」
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzE1NjczNSw0MTQ4ODAxMTMsLTc4Nz
-gwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIw
-MjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2OD
-csLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1
-Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMz
-I3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0LDE5NDk0MzYxNDMs
-NjI3NDc2ODM2XX0=
+eyJoaXN0b3J5IjpbOTM1NzkwNTg2LDQxNDg4MDExMywtNzg3OD
+A5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAy
+NTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4Ny
+wtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUz
+NzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMj
+csLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQsMTk0OTQzNjE0Myw2
+Mjc0NzY4MzZdfQ==
 -->
