@@ -29,6 +29,9 @@
 -  the benefits of Google Gemini's gigantic 1 million token context window in action!
 	- https://x.com/llama_index/status/1798049438814081138
 	- In this quick notebook, we show Gemini built into a LlamaIndex agent attempting to answer a multi-part question from a set of complicated, heterogeneous documents.
+- 富士通の研究戦略発表会、最適化問題と生成AIによる制約条件の生成が相性が良いという発想
+	- https://x.com/tokoroten/status/1797851927457546682
+	- 議事録やマニュアルから制約条件を起こしたり、AIとの対話を通じて制約条件を起こしたり
 - 
 
 ## 6/3
@@ -3620,10 +3623,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - GoogleとOpenAIは「後出しジャンケンしたもん勝ち」を狙って膠着状態？
 	- https://x.com/ImAI_Eruel/status/1753389879965429892?s=20
 	- 最近AI界隈が妙に静かだと言われてるやつ，GoogleとOpenAIが互いに，「Gemini Ultra」と「GPT-4.5 or GPT-5」と言う切り札が既にほぼ公開可能な状態なことを宣言していて，今までの経過を見ると後から公開した方が天下を取ってる
--  karakuri-lm-70b-chatをOpenAI互換のローカルサーバとして動かしてみた
-	- https://qiita.com/takaaki_inada/items/3a22b982a3541e6f214c?utm_campaign=post_article&utm_medium=twitter&utm_so
+-  karakuri-lm-70
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTcwMjQxOSw0MTQ4ODAxMTMsLTc4Nz
+eyJoaXN0b3J5IjpbMTYyNzE1NjczNSw0MTQ4ODAxMTMsLTc4Nz
 gwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIw
 MjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2OD
 csLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1
