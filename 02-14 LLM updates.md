@@ -50,7 +50,12 @@
 - Model Predictive Control and Reinforcement Learning: A Unified Framework Based on Dynamic Programming
 	- https://arxiv.org/abs/2406.00592
 - LLM Basics - Why can't we use regular LoRA for pre-training LLMs
-	- 
+	- https://x.com/rohanpaul_ai/status/1797759219891937324
+	- LoRA (Low-Rank Adaptation), targets a subset of a neural network's parameters, specifically focusing on the weight matrices of transformer models. It represents these large matrices as the product of smaller
+- Why AI wont take your job just yet
+	- https://medium.com/@starloba/why-ai-wont-take-your-job-just-yet-13e95cd05da8
+	- 汎用的なタスクをAIに解かせるようになると、人間はよりクリエイティブな問題に注力できるようになる。より正確に言うなら、強制的に注力しないといけない状況に追い込まれる。
+- 
 - 
 
 ## 6/3
@@ -3620,18 +3625,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 2024年1月30日 国立情報学研究所における大規模言語モデル構築への協力について
 	- https://www.ndl.go.jp/jp/news/fy2023/240130_01.html
 	- 国会図書館は国内のウェブサイトのアーカイブ事業をやってたけど、このアーカイブデータの数十億件のURLを国立情報学研究所に提供するんだって。国立情報学研究所はこのデータからコーパス作ってLLM構築に使うん
-	- https://x.com/umiyuki_ai/status/1753651801688273040?s=20
--  KARAKURI LMの解説
-	- https://medium.com/karakuri/karakuri-lm%E3%81%AE%E8%A7%A3%E8%AA%AC-4b6cf9c3d40f
-	- KARAKURI LMは、Llama 2を基に開発した事前学習済み言語モデルです。  
-	- 日本語の語彙を追加し、日本語と多言語コーパスを混ぜて追加の事前学習を行うことで、Llama 2の日本語能力を強化しています。
-	- KARAKURI LM Chatは、KARAKURI LMをファインチューニングしたモデルです
-	- 公開されている会話データセットと独自で開発した非公開の会話データセットを混ぜて学習させています。
-- 「ポスト５Ｇ情報通信システム基盤強化研究開発事業／ポスト５Ｇ情報通信システムの開発」
-	- NEDOが国内の生成AIの基盤モデル開発のために実施し
-	- ABEJA、Sakana AI、NII、ストックマーク、Turing、東京大学、Preferred Ele
+	- https://x.com/umiyuki_ai/status/17
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY2NzQ1Nyw0MTQ4ODAxMTMsLTc4Nz
+eyJoaXN0b3J5IjpbMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nz
 gwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIw
 MjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2OD
 csLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1
