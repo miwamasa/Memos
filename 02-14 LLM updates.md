@@ -78,6 +78,8 @@
 	- In this course taught by hwchase17, LangChainAI CEO, and weiss_rotem, tavilyai CEO, you’ll learn to use LangGraph to create controllable agents, and agentic search for agents to enhance their output.
 - ChatGPTでレ・ミゼラブルの人物相関3Dネットワークグラフを作成
 	- https://x.com/itnavi2022/status/1798320618695438647
+- GLM4-9B-ChatをElyzaTasks100で評価した
+	- https://x.com/umiyuki_ai/status/1798328337699606704
 	- 
 - 
 
@@ -3617,15 +3619,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- trychroma:vectorstore　MistralAI-instruct 32k context window via  ollama
 - Apple presents Can Large Language Models Understand Context
 	- https://huggingface.co/papers/2402.0085
-	- We find that 3-bit post-training quantization leads to varying degrees of performance reduction on our benchmark. We conduct an extensive analysis of these scenarios to substantiate our experimental results.
--  Grounded language acquisition through the eyes and ears of a single child
-	- 
+	- We find that 3-bit post-training quantization leads to varying degrees of performance reduction on our benchmark. We conduct an extensive analysis of these scenarios to substantiate our experimental 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTMzMTc5OTYsMTY2MDQwNjg2NSw0MT
-Q4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4
-MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMT
-csLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00
-NDEwMzg4MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4Nz
-UyNSwxMzI4MTUzMzI3LC0xMTI4MDA0MjExLC0xNDg3NzUwOTc0
-LDE5NDk0MzYxNDNdfQ==
+eyJoaXN0b3J5IjpbMTA0Mzg3NDkwNiwxNjYwNDA2ODY1LDQxND
+g4MDExMywtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgy
+OTM1LDEwMzQzMjAyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNy
+wtMTY4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0
+MTAzODgyMiw2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NT
+I1LDEzMjgxNTMzMjcsLTExMjgwMDQyMTEsLTE0ODc3NTA5NzQs
+MTk0OTQzNjE0M119
 -->
