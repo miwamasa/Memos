@@ -85,9 +85,67 @@
 	- https://x.com/rohanpaul_ai/status/1798026828017197256
 	- 10x-50x more parameter-efficient than prior state-of-the-art PEFT methods.
 - Learning to grok: Emergence of in-context learning and skill composition in modular arithmetic tasks
-	- 
+	- https://arxiv.org/abs/2406.02550
+-  xLSTM: Extended Long Short-Term Memo	
+	- https://arxiv.org/abs/2405.04517
+-  In-Context Freeze-Thaw Bayesian Optimization for Hyperparameter Optimization
+	- https://arxiv.org/abs/2404.16795
+	- ベイズ最適化は更に革新的に!
+	- この論文では、トランスフォーマーベースのPFNを活用した"In-Context Freeze-Thaw BO"を提案!
+	- 従来手法に比べ10〜100倍高速かつ精度良く学習曲線を予測できるという驚きの結果!
+- 『Google Gemini 1.5／LlamaIndex／LangChain 人工知能プログラミング実践入門』の出版記念イベント
+	- https://x.com/npaka123/status/1798557659693781217
+	- 25年間で技術書49冊、年間300以上の技術記事を書いている著者が、Google Geminiの最新技術情報に加えて、マルチモーダルとローカルLLMの未来予想を紹介します。
+	- https://studyco.connpass.com/event/319990/
+- Qwen2が来た！0.5B、1.5B、7B、57B-A14B、72Bの５種類
+	- https://x.com/umiyuki_ai/status/1798762190729777185
+	- 1.5から性能バキバキに上げてきた！全体的にLlama3超え！
+	- 72Bは今までと同じライセンスだけど、他のモデルはApacheライセンスに変更
+- GoogleNotebookLM
+	- https://notebooklm.google/
+	- Gemini1.5Proを使ったRAG専用のチャットサービス。
+	- 約５万字の本を入力して質問してみたのだけど、GPT-4oでもClaude3でも微妙だったのに、結構いい感じの回答でビックリしたのだ。
+- 時系列基盤モデルによる株価データ(多変量)の類似度算出と検索
+	- https://note.com/hatti8/n/n6c1a91a3b6ba?sub_rt=share_pb
+	- 時系列基盤モデルを使って、 ・多変量の時系列データEmbedding作成 ・時系列データ同士の類似度を算出 というのを試してみました。
+- Hello Qwen 2!　by ollama
+	- https://x.com/ollama/status/1798807013327241302
+	- ollamaが qwen2に対応
+-  Extracting Concepts from GPT-4
+	- https://openai.com/index/extracting-concepts-from-gpt-4/
+	- OpenAIは先ほどLLMの動きを理解するための研究を共有。GPT-4の内部表現を1600万の特徴に分解することに成功したことを発表。
+- GoogleのAIサービスである「Notebook」
+	- https://x.com/kensuu/status/1798876734298935771
+	- 本のPDFをアップロードする - すると中身が全部左側に出てくる
+	- AIに色々質問ができる - 答えに出てきた部分を左側で読める 
+	- 回答をピン留めするとメモとして保存できる。メモを自分で書くこともできる
+- Qwen2-7BをさっそくElyzaTasks100にかけたらスコア4.01！！！ by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1798777448282378254
+- Qwen 2 みんな触られましたかね？指示性能と知識えぐない..　by ぬこぬこさん
+	- https://x.com/i/bookmarks
+	- 0.5B の海外モデルで日本語話せるなんて聞いていないよ...
+- Qwen2-7B-instructのデモをスペースに設置しました by AIXサトシさん
+	- https://huggingface.co/spaces/aixsatoshi/Qwen-7B-instruct
+- Recipes for open source / local agents w/ Llama 3
+	- https://x.com/LangChainAI/status/1799109018163761588
+	- https://github.com/meta-llama/llama-recipes/tree/main/recipes/use_cases/agents/langchain
+- From simple to advanced Agents
+	- https://x.com/jerryjliu0/status/1799107241695715773
+	- Before you build a complex multi-agent systems, learn the core abstractions for building a single powerful assistant over your data: routing, memory, tool use, and sequential to DAG-based planning.
+- It's finally possible: real-time in-browser speech recognition with OpenAI Whisper!
+	- https://x.com/xenovacom/status/1799110540700078422
+- Democratizing Data Across NTT docomo with Streamlit
+	- https://x.com/pei0804/status/1798501802415210935
+	- streamlitを使った誰でもデータを使って洞察を得られる環境を作った話。 めちゃくちゃ良すぎて最高だった。ここまでやり遂げてることに、本当に尊敬しかない。ちなみに、今後の展望も良すぎた。
+- 何が凄いのか？最新の技術GraphRAGについて解説してみた
+	- https://www.youtube.com/watch?v=PqAgkfg0MA0
+- 政府の成長戦略発表されました！
+	- https://x.com/sirap_kuro/status/1799032255828140169
+	- AIで生産性向上/人手不足解決、
+	- そのあとに襲ってくる一般ホワイトカラーの需要減/失業などには、転職を促すことによって対処。
+	- 普及の足かせになる安全/安心懸念については、政府で”AI制度研究会”を開き、議論。
+	- また政府自身AIを調達する。
 - 
-
 ## 6/3
 
 Google I/Oで発表されたgoogleの検索x生成AIが、とても不評ということで、Wall Street Journalの記事にもあるように、Perplexityの優秀さが際立つ、gooleがプレスリリースした新技術で期待を裏切るのは全く恒例ですね。とはいっても、Gemini 1.5 Pro/Flashの優秀さもあちこちで報告されており、本当は優れてるんでしょう。Mistralからコード生成のOSSであるCodestralが発表、さっそくOllamaが対応、これでお好きなエディタと組み合わせてプログラミングのアシスタントが実現可能に。量子化、小規模化にも進展があり、Mixtral 8x22b の量子化版Q6_K が $362 CPU(AMD Ryzen 9 5950X BOXか?)で軽々動作するという報告もあったり、Phi-3-Tinyシリーズのように、さらに小ささなLLMにチャレンジみたいな展開もあった。llama.cppで量子化版を動作させるとollamaより1.8倍速いという報告も。生成AIの飛躍的性能アップの秘密といわれる「グロッキング」に関する論文、汎化回路形成の秘密に迫り、新たなアーキテクチャ提案というのは胸熱い。生成AIの「創造性」に関する１０万人の人間！との比較で、GPT-4ならプロンプトを工夫すれば、人間を上回るというのには驚いた。O'ReillyからPrompt Engineeringの新刊も出るが、そもそもAnthropicのClaude3は、ゴールを与えれば適切なプロンプトを生成してくれるという。財務諸表から将来の収益の伸びを予測するタスクでGPT-4は人間より優れていると聞いても驚かなくなった。そんなAIですが、AIが他者の心や意図を理解する能力を持っているのかの「心の理論(ToM:Theory of Mind)」を持っているかどうかを分析した論文では、GPT-4 and Flan-PaLM が人間の大人のレベルに達したとのこと。さらに人間を超えるという意味では、Autoformalizing という、人間が作った幾何学をAIが自動証明できる体系に、生成AIをつかって作り直すという試みもあった。こうなると人間の理解がどこまで生成AIについていけるかという点が心配になる、ニューラルネットの動作理解の「Graph Game」や、LoRaの原理の可視化など、そういうのも目立った気がする。全く反対にアセモグル氏のように、それほどAIは格差拡大に影響しないという分析もあった。安全性に関しては、RAGを前提としたバックドアTrojanRAGというのも出た、説明性が高いこととバックドアを仕込みやすいというのは表裏一体。さて日本では、人工知能学会が浜松で開催、岡崎先生のスライド「大規模言語モデルの開発」は必見です。一方、ChatGPTのRLHF（ヒトのフィードバックによる強化学習）プロセスの多くが、アウトソースされた（比較的人件費の安い）ナイジェリアのオペレーターたちによって行われた結果で、なんとナイジェリア英語のdelveという単語が生物系の論文に大量に表れたとの報告もあった。そもそも人間のほうも、エビデンスベースで合理的に思考する能力に課題があり、ストーリーに流されがちとの指摘があるので、ストーリー性を求めすぎて、合理的に思考できない生成AIができるかも。ロイヤルアカデミーの「AI in Science」すでに「AI for Science」といっている時代ではなくなった、つまりAIを使わずに科学の進展はない。さてNASAから満を持して、大気現象を予測する基盤モデルAuroraの発表、10kmメッシュで10日後まで天気予報できるってどれぐらいすごいのだろう。全くの余談だが、gpt-4oの発表時に参照された映画"Her"の監督の離婚した妻が監督した "Lost In Translation"の２つを比較し、一部シーケンスが全く対照的にアライメントしているという話題がテック界隈で一瞬話題になった。
@@ -3575,58 +3633,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- えっ！、miquってミクのことだったのか。
 - H2O-Danube-1.8B Technical Report
 	- https://arxiv.org/abs/2401.16818
-	- Open-sources a high-competitive 1.8B LM trained on 1T tokens following the core principles of LLama 2 and Mistral
-	- long context small LLM trained by a team of some of the best Kagglers in the world
-	- どうも小規模LLMでKagglerによりtrainigされたもｎ
--  Robust Prompt Optimization for Defending Language Models Against Jailbreaking Attacks
-	- https://arxiv.org/abs/2401.17263
-	- Significantly improves robustness to held-out jailbreaks, reducing the attack success rate from 84% to 8.66% across 20 jailbreaks
-- quantized CodeLlama 70b base model to 4-bit with MLX
-	- https://huggingface.co/mlx-community/CodeLlama-70b-hf-4bit-MLX
-	- you can now run this model on your Apple Silicon.
-- StrokeNUWA: Tokenizing Strokes for Vector Graphic Synthesis
-	- https://arxiv.org/abs/2401.17093
-- Memphis-CoT 3B
-	- https://huggingface.co/euclaise/Memphis-CoT-3B
-	- A small reasoning-focused model using a novel iterative contrastive finetuning procedure, trained on only human data, outperforming much larger human data models and similarly sized SFT models.
--  RankMe: Assessing the downstream performance of pretrained self-supervised representations by their rank
-	- ICLR24 Spotlight: To train general-purpose SSL models, it's important to measure the quality of representations during training. But how can we do this w/o downstream labels? 
-	- We propose a new label-free metric to eval SSL models, called Linear Discrimination Analysis Rank(LiDAR)
--  [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/abs/2305.15717v1)
-	- 言語モデルの「模倣」は有用か？
-	- https://ai-scholar.tech/articles/chatgpt/Imitating-Proprietary-LLMs
-	- 最新研究によれば、新しく開発された言語モデルの模倣は非常に難しいことが示唆されています。微調整による改善が有効でなく、モデルの基本的な知識はあまり変わらないことが発見されました。  
-	- 中小企業や大企業が同じ利点を得ることが難しくなり、特に新しいデータやアルゴリズムを活かして能力差を生かす企業が競争上の優位性を築ける可能性があります。
-	- 新しい手法やデータの導入が重要であり、技術的な制約にも留意することが持続的な発展に寄与するでしょう。
-- Accelerating the Science of Language Models
-	- https://allenai.org/olmo/olmo-paper.pdf
-	- AllenAIによるOpen Language Model (OLMo), a 7B parameter model.
-	- There is also a smaller version of it, OLMo 1B.
-- ブラウザでRubyを動かす夢
-	- https://mametter.hatenablog.com/entry/2024/02/01/105413
-	- 元同僚の遠藤さん、頑張ってるな、みんな使ってあげて！
-- SEMSCORE: Automated Evaluation of Instruction-Tuned LLMs based on Semantic Textual Similarity
-	- https://arxiv.org/pdf/2401.17072.pdf
-	- これでJapanese MT-benchやElyza-tasksが毎回GPT-4を使わずに評価できるようになれば割と安価で日本語LLM leaderboardが作れそう
-- llamaindexを使った、使用したクエリ変換の解説記事
-	- https://akash-mathur.medium.com/advanced-rag-query-augmentation-for-next-level-search-using-llamaindex-d362fed7ecc3
-	-  Advanced RAG: Query Augmentation for Next-Level Search using LlamaIndex
-	- クエリ変換は「LLM への入力（クエリ）をより良い情報抽出を可能とする表現へ変換する」ことで，RAG の質を高める手法
-	- 記事内では，代表的な 5 つの手法を code つきで解説
-- Build Long-context RAG from scratch: Nomic Embeddings + Mistral
-	- https://x.com/LangChainAI/status/1753149741599428926?s=20
-	- nomic_ai has launched a new open source, long context embedding model:
-		- 8k token context window (using RoPE)
-		- Strong performance on several benchmarks 
-		- API (and local support coming soon)
-	- そしてlong contexのRAGをつくるには、
-		- nomic_ai:new 8k context window embeddings
+	- Open-sources a high-competitive 1.8B LM trained on 1T tokens following the core principles of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0OD
-gwMTEzLC03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5
-MzUsMTAzNDMyMDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC
-0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQx
-MDM4ODIyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1Mj
-UsMTMyODE1MzMyNywtMTEyODAwNDIxMSwtMTQ4Nzc1MDk3NCwx
-OTQ5NDM2MTQzXX0=
+eyJoaXN0b3J5IjpbMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMTY2MD
+QwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5MDMw
+MSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MDE5LC
+0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4
+NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4My
+wtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0xMTI4MDA0MjExLC0x
+NDg3NzUwOTc0XX0=
 -->
