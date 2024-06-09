@@ -149,8 +149,14 @@
 	- https://x.com/electrik_dreams/status/1799139945560363264
 	- These agents, to be launched in 1-2 years, will serve as highly intelligent assistants for all general humans tasks, and "will be a pretty big game changer", he thinks.
 - Introducing GraphRAG with LangChain and Neo4j
-	- 
-	- 
+	- https://medium.com/microsoftazure/introducing-graphrag-with-langchain-and-neo4j-90446df17c1e
+	- Great introduction to using Graphs - instead of pure vector DBs - to power RAG applications
+	- The relationships that graphs provide can empower better retrieval which can yield better answers
+- Graph RAG makes sense if you think about it as a superset of "standard" vector RAG:
+	- https://x.com/jerryjliu0/status/1797057726994092492
+- コンサルタントは本物と偽物が混在　実力を見抜く10の質問
+	- https://bookplus.nikkei.com/atcl/column/041500053/052900298/
+- 
 - 
 ## 6/3
 
@@ -3622,22 +3628,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 5.  定期的に（年に 1 回、あるいは数年に 1 回）、アセットアロケーションについて見直しましょう。
 -  Self-supervised Learning: Generative or Contrastive
 	- https://arxiv.org/abs/2006.08218
-- Proactive Detection of Voice Cloning with Localized Watermarking
-	- https://huggingface.co/papers/2401.17264
-	- Meta presents Proactive Detection of Voice Cloning with Localized Watermarking
-- オークションサイトなどから中古のRTX 3090を8台かき集めてマシンを構築した人のお話
-	- https://www.kyleboddy.com/2024/01/28/building-deep-learning-machines-unorthodox-gpus/
-- Google's AI Makes Stunning Progress with Logical Reasoning
-	- https://www.youtube.com/watch?v=NrNjvIrCqII
-- Microsoft and OpenAI are in talks to invest $100 million into Figure
-	- https://x.com/AndrewCurran_/status/1752463084550262805?s=20
-	-
+- Proactive Detection of Voice Cloning with Local
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ0NDgxMTMsMTkwNjkyNTA1NSw0Mj
-E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
-OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
-0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
-MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
-M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
-MTI4MDA0MjExXX0=
+eyJoaXN0b3J5IjpbMTU3OTY0ODU5NywxOTA2OTI1MDU1LDQyMT
+g0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5
+LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLT
+EwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYw
+NDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUxMz
+YsNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMjcsLTEx
+MjgwMDQyMTFdfQ==
 -->
