@@ -3,13 +3,16 @@
 
 ## 6/10
 
-Transformerの次とうわさされるMambaであるが、CMUによるMamba-2の提案ではtransformerとSSMが統一された？xLSTMというのも気になる。
+Transformerの次とうわさされるMambaであるが、CMUによるMamba-2の提案ではtransformerとSSMが統一された？LSTMを改良してtransformer並みのスケーラビリティがあるというxLSTMというのも気になる。
 
 アリババからQwen2が発表、全体的にLlama3超えとか、最上位モデル以外はApacheライセンスとか、ollamaがさっそく対応とか、7B-instructのお試しがAIXサトシさんが提供とか、これからの評価が気になる。GLM4-9Bって 智谱AIのモデルも相当性能が高いらしい、双方日本語堪能なのだがライセンスには要注意かも。
 
 GoogleのGemini 1.5 Pro、日本語性能もすごいらしい、 Google AI Studioで無料お試でそのポテンシャルは明らかなわけであるが、gpt-4oに話題を持っていかれ気味。そこで、一気に挽回というわけではないが、Gemini 1.5 ProをバックエンドにもつGoogleNoteLMの試行が開始された。PDFやURLをソースとして登録すると、そのソースに対して、概要やFAQ、さらにはチャットによる応答ができるという代物。いや、ローカルドキュメントでRAG作るみたいな話は全部吹っ飛ぶような勢いではあるが、生成の部分の抽出の部分のバランスがどれくらいかこれからの評価が気になる。
 
 Perplexity Pages
+
+
+
 
 - Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality
 	- https://arxiv.org/abs/2405.21060
@@ -96,6 +99,7 @@ Perplexity Pages
 	- https://arxiv.org/abs/2406.02550
 -  xLSTM: Extended Long Short-Term Memo	
 	- https://arxiv.org/abs/2405.04517
+	- LSTM（Long Short-Term Memory）を改良し、数十億パラメーターの言語モデルにおいてTransformer並みかそれ以上の拡張性（スケーラビリティー）を持たせたという。
 -  In-Context Freeze-Thaw Bayesian Optimization for Hyperparameter Optimization
 	- https://arxiv.org/abs/2404.16795
 	- ベイズ最適化は更に革新的に!
@@ -3595,7 +3599,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 - google/siglip-base-patch16-256-m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczNzczODgwLDY3OTIyODI4NiwxOTA2OT
+eyJoaXN0b3J5IjpbNzI5NTkxODc1LDY3OTIyODI4NiwxOTA2OT
 I1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywt
 Nzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMz
 QzMjAyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0
