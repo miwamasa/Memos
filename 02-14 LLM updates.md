@@ -198,8 +198,15 @@
 	- この言語能力の育成と強化という課題は、本来は大学教育以上のレベルで行われる過程で、自分の経験では大学院の研究室などで日々叩かれることによって磨かれる種類のものだと思っている。そういう点では、例え大卒の学歴を持っているとしても、本気でAIを本質的に使いこなせるようになるように再教育するためには、いわゆる「社会人のリスキリング」どころではないレベルの再教育が本当は必要なのだろう。
 	- https://x.com/nyaa_toraneko/status/1799302550841364919
 - AzureのサービスでGPT-4oを強化すると最強だというのが分かってもらえると思う。
-	- 
-- 
+	- https://x.com/super_bonochin/status/1799452550665773447
+	- GPT-4oは、日本語OCR周りが強化されたとはいえ、特に手書きとかだとまだまだハルシネーション気味。 ワイのアプリではGPT-4oによる画像認識に、Document Intelligenceによって構造化した情報を付加することで、精度を飛躍的に上げることに成功しているのだｗ
+		- https://x.com/super_bonochin/status/1799445107579695606
+- NotebookLM、やっとコンセプトがわかったのですが
+	- https://x.com/0317_hiroya/status/1799617523148796068
+	- 【AIチャットボット + RAG】 
+		- AIが主で、情報源が従 - 情報源を使うようになるけど、AIが学習した内容と合わせて、回答を生成する 
+		- 【NotebookLM】 - 情報源が主で、AIが従 - モデルは、資料のみを利用できるように設計されている。
+
 ## 6/3
 
 Google I/Oで発表されたgoogleの検索x生成AIが、とても不評ということで、Wall Street Journalの記事にもあるように、Perplexityの優秀さが際立つ、gooleがプレスリリースした新技術で期待を裏切るのは全く恒例ですね。とはいっても、Gemini 1.5 Pro/Flashの優秀さもあちこちで報告されており、本当は優れてるんでしょう。Mistralからコード生成のOSSであるCodestralが発表、さっそくOllamaが対応、これでお好きなエディタと組み合わせてプログラミングのアシスタントが実現可能に。量子化、小規模化にも進展があり、Mixtral 8x22b の量子化版Q6_K が $362 CPU(AMD Ryzen 9 5950X BOXか?)で軽々動作するという報告もあったり、Phi-3-Tinyシリーズのように、さらに小ささなLLMにチャレンジみたいな展開もあった。llama.cppで量子化版を動作させるとollamaより1.8倍速いという報告も。生成AIの飛躍的性能アップの秘密といわれる「グロッキング」に関する論文、汎化回路形成の秘密に迫り、新たなアーキテクチャ提案というのは胸熱い。生成AIの「創造性」に関する１０万人の人間！との比較で、GPT-4ならプロンプトを工夫すれば、人間を上回るというのには驚いた。O'ReillyからPrompt Engineeringの新刊も出るが、そもそもAnthropicのClaude3は、ゴールを与えれば適切なプロンプトを生成してくれるという。財務諸表から将来の収益の伸びを予測するタスクでGPT-4は人間より優れていると聞いても驚かなくなった。そんなAIですが、AIが他者の心や意図を理解する能力を持っているのかの「心の理論(ToM:Theory of Mind)」を持っているかどうかを分析した論文では、GPT-4 and Flan-PaLM が人間の大人のレベルに達したとのこと。さらに人間を超えるという意味では、Autoformalizing という、人間が作った幾何学をAIが自動証明できる体系に、生成AIをつかって作り直すという試みもあった。こうなると人間の理解がどこまで生成AIについていけるかという点が心配になる、ニューラルネットの動作理解の「Graph Game」や、LoRaの原理の可視化など、そういうのも目立った気がする。全く反対にアセモグル氏のように、それほどAIは格差拡大に影響しないという分析もあった。安全性に関しては、RAGを前提としたバックドアTrojanRAGというのも出た、説明性が高いこととバックドアを仕込みやすいというのは表裏一体。さて日本では、人工知能学会が浜松で開催、岡崎先生のスライド「大規模言語モデルの開発」は必見です。一方、ChatGPTのRLHF（ヒトのフィードバックによる強化学習）プロセスの多くが、アウトソースされた（比較的人件費の安い）ナイジェリアのオペレーターたちによって行われた結果で、なんとナイジェリア英語のdelveという単語が生物系の論文に大量に表れたとの報告もあった。そもそも人間のほうも、エビデンスベースで合理的に思考する能力に課題があり、ストーリーに流されがちとの指摘があるので、ストーリー性を求めすぎて、合理的に思考できない生成AIができるかも。ロイヤルアカデミーの「AI in Science」すでに「AI for Science」といっている時代ではなくなった、つまりAIを使わずに科学の進展はない。さてNASAから満を持して、大気現象を予測する基盤モデルAuroraの発表、10kmメッシュで10日後まで天気予報できるってどれぐらいすごいのだろう。全くの余談だが、gpt-4oの発表時に参照された映画"Her"の監督の離婚した妻が監督した "Lost In Translation"の２つを比較し、一部シーケンスが全く対照的にアライメントしているという話題がテック界隈で一瞬話題になった。
@@ -3590,17 +3597,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  知識0でローカルLLMモデルを試してみる！垂れ流し配信【ゴリラジ】
 	- https://www.youtube.com/watch?v=C1yFEMDLddc
 - MetaがコーディングLLMのCodeLlamaの70B版をオープンソースでリリース。
-	- https://ai.meta.com/blog/code-llama-large-language-model-coding/?utm_source=twitter&utm_medium=organic_social&utm_campaign=codellama&utm_content=reply
-	- HumanEvalでGPT-4超えしたらしい。入力コンテキスト長も100kまで行けるらしい
-	- Metaは以前から「GPT-4並のLLMをオープンにする」と予告していましたが，年明け早々，まずはコード生成領域でやってきました
-	- https://labs.perplexity.ai/ でためせるらしい
--  Inverse Molecular Design with Multi-Conditional Diffusion Guidance
-	- https://arxiv.org/abs/2401.13858
-	- 複数の制約下での分子生成の論文
-	- 従来は合成可能性とガス透過性など２つ以上の制約を満たすような分子を１つのモデルから生成できませんでしたが 
-	- 制約をエンコードしたTransf
+	- https://ai.meta.com/blog/code
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjQ0NTAxNiwxOTA2OTI1MDU1LDQyMT
+eyJoaXN0b3J5IjpbLTI5NTQ2ODEwOCwxOTA2OTI1MDU1LDQyMT
 g0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5
 LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLT
 EwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYw
