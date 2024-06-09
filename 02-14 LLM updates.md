@@ -182,6 +182,11 @@
 	- 「今日では、超大規模コーパスで学習される汎用言語モデル（8章）が非常に強力であり、自然言語処理の観点では知識グラフの相対的価値は減少しつつある (p.44)」
 	- 確かにもう自然言語処理では知識グラフってそんな言わないかな。。
 		- https://x.com/mamoruk/status/1799070548863205470
+- 「LLMの回答結果を評価する仕組み作り」は「LLMから良い回答を引き出すこと」と同じくらい重要です。
+	- https://x.com/hiro_gamo/status/1799470543491694643
+- 深層学習を含む多くの実応用モデルでは，パラメータ空間上でフィッシャー・ラオ計量が退化し，双対平坦構造が定義できなくなる．すなわち情報幾何が展開できなくなる
+	- https://x.com/hayashiyus/status/1799457123103072282
+	- すなわち情報幾何が展開できなくなる．双対平坦構造を一般化した概コダッチ構造を導入することでこの課題を克服した論文
 - 
 - 
 ## 6/3
@@ -3611,17 +3616,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 一昨日くらいからmistralの有料版であるmistral-medium(70B、MoEではない)の重みがリークしたという噂がある
 	- https://x.com/webbigdata/status/1752304557336801408?s=20
 -  Self-Recovery Prompting: Promptable General Purpose Service Robot System with Foundation Models and Self-Recovery
-	- https://arxiv.org/abs/2309.14425
-	- 松尾研のRAで学部2年生の白坂翠萌さんが主著した，基盤モデルを活用して，オンラインにプロンプトを生成しながら失敗にも柔軟に対応する家庭内サービスロボットシステムに関する研究がICRA2024に採択されました
-- 突如として現れたmiqu-70BがEQ-Bench では 83.5 を獲得し (ローカルで評価)、GPT-4系に次ぐ性能であることが判明
-	- https://x.com/N8Programs/status/1752441060133892503?s=20
-	- どうも、Mixtral 8x7Bの
+	- https://arxiv.or
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTA5MTczMTIsMTkwNjkyNTA1NSw0Mj
-E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
-OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
-0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
-MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
-M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
-MTI4MDA0MjExXX0=
+eyJoaXN0b3J5IjpbOTQzNjEwNTg3LDE5MDY5MjUwNTUsNDIxOD
+Q0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1Nzks
+LTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMT
+A2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0
+ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNi
+w1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEy
+ODAwNDIxMV19
 -->
