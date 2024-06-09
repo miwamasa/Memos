@@ -3,6 +3,8 @@
 
 ## 6/10
 
+
+
 - Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality
 	- https://arxiv.org/abs/2405.21060
 	- 現在生成AIで主流のTransformerの「次」のアーキテクチャとして期待されるMamba-2を提案
@@ -209,6 +211,10 @@
 	- 【NotebookLM】 
 		- 情報源が主で、AIが従
 		- モデルは、資料のみを利用できるように設計されている。
+-  Scalable MatMul-free Language Modeling
+	- https://arxiv.org/abs/2406.02528
+	- Claims that MatMul operations can be completely eliminated from LLMs while maintaining strong performance at billion-parameter scales and by utilizing an optimized kernel during inference, their model’s memory consumption can be reduced by more than 10× compared to unoptimized models.
+	- これまじ。FPGA試作でもそんな性能出るんかい "The accelerator processes billion-parameter scale models at 13W beyond human-readable throughput"
 
 ## 6/3
 
@@ -3590,23 +3596,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- This paper effectively exposes the deceptive practices employed by various authors in their papers, such as inadequate benchmarking and other tactics, which have previously led to inflated claims regarding the performance of transformers in this domain.
 - Googleなど米IT、1月1万人削減　組織スリム化でAI集中
 	- https://www.nikkei.com/article/DGXZQOGN1757C0X10C24A1000000/
-- DSPy lets you prototype LLM Programs like AlphaCodium
-	- https://x.com/CShorten30/status/1751656468879708496?s=20
-- LangGraph Financial Agent w/ Polygon
-	- https://gist.github.com/virattt/4d764c427892ce9fdf4534209edfb1f4
-	- LangGraphでエージェントを作って株価をとってくる簡単な例
-- Ollamaで、 Mistral-7B finetuned for function calling　をサポート
-	- https://ollama.ai/calebfahlgren/natural-functions
--  知識0でローカルLLMモデルを試してみる！垂れ流し配信【ゴリラジ】
-	- https://www.youtube.com/watch?v=C1yFEMDLddc
-- MetaがコーディングLLMのCodeLlamaの70B版をオープンソースでリリース。
-	- https://ai.meta.com/bl
+- DSPy lets you prototype LLM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjEwMjQ0MzYsMTkwNjkyNTA1NSw0Mj
-E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
-OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
-0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
-MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
-M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
-MTI4MDA0MjExXX0=
+eyJoaXN0b3J5IjpbNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxOD
+Q0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1Nzks
+LTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMT
+A2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0
+ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNi
+w1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEy
+ODAwNDIxMV19
 -->
