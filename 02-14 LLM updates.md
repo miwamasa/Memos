@@ -71,6 +71,8 @@
 	- 24GBのVRAMでLlama3-8BやMistral-7BがLoRA継続事前学習できる
 - GLM4-9Bだって。26言語対応。GPT-4に匹敵する関数呼び出し能力
 	- https://x.com/umiyuki_ai/status/1798292824544420150
+-  中国製LLMのライセンス問題と国安法について
+	- https://note.com/willplion/n/n2710f60b381a
 - 継続事前学習(CPT: Continued Pre-Training)をQLoRAでやろうとする試み
 	- https://x.com/webbigdata/status/1798313713654776062
 	- Colab無料版でもmistral-7b-v0.3なら十分動きました
@@ -3590,9 +3592,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変（例、バイクを自転車と認知）ですが、画像認識機能などGemini Proを手元で試せる。OSS版のマルチモーダルLLM代表的なLLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変（例、バイクを自転車と認知）ですが、画像認識機能などGemini Proを手元で試せる。OSS版のマルチモーダルLLM代表的なLLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzEwOTU4MSwxNzQ2Njc1NDAwLC0yMD
+eyJoaXN0b3J5IjpbMTU5ODQwNzA0MCwxNzQ2Njc1NDAwLC0yMD
 UzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQw
 NCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNj
 c3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3
