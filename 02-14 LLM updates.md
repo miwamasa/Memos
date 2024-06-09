@@ -145,6 +145,11 @@
 	- そのあとに襲ってくる一般ホワイトカラーの需要減/失業などには、転職を促すことによって対処。
 	- 普及の足かせになる安全/安心懸念については、政府で”AI制度研究会”を開き、議論。
 	- また政府自身AIを調達する。
+- Demis Hassabis says he is most excited about DeepMind's work on Universal Multimodal AI Agents (Project Astra).
+	- https://x.com/electrik_dreams/status/1799139945560363264
+	- These agents, to be launched in 1-2 years, will serve as highly intelligent assistants for all general humans tasks, and "will be a pretty big game changer", he thinks.
+- 
+	- 
 - 
 ## 6/3
 
@@ -3626,20 +3631,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Microsoft and OpenAI are in talks to invest $100 million into Figure
 	- https://x.com/AndrewCurran_/status/1752463084550262805?s=20
 	- Figureは、人型ロボットを開発するスタートアップ
--  ReGAL: Refactoring Programs to Discover Generalizable Abstractions
-	- https://huggingface.co/papers/2401.16467
-- miqudev/miqu-1-70b
-	- https://huggingface.co/miqudev/miqu-1-70b
-	- えっ！、miquってミクのことだったのか。
-- H2O-Danube-1.8B Technical Report
-	- https://arxiv.org/abs/2401.16818
-	- Open-sources a high-competitive 1.8B LM trained on 1T tokens following the core principles of 
+-  ReGAL: Refactorin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMTY2MD
-QwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5MDMw
-MSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MDE5LC
-0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4
-NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MTM2LDU4NzI2MDQ4My
-wtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0xMTI4MDA0MjExLC0x
-NDg3NzUwOTc0XX0=
+eyJoaXN0b3J5IjpbNDYyMjgwOTg3LDE5MDY5MjUwNTUsNDIxOD
+Q0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1Nzks
+LTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMT
+A2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0
+ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNi
+w1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEy
+ODAwNDIxMV19
 -->
