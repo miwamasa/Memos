@@ -9,6 +9,7 @@ Transformerの次のアーキテクチャと下馬評の高いMambaであるが�
 	- https://arxiv.org/abs/2405.21060
 	- 現在生成AIで主流のTransformerの「次」のアーキテクチャとして期待されるMamba-2を提案
 	- **状態空間モデル（SSM）** は、構造化行列 を用いることで、従来のアテンションと密接に関連していることが明らかになり、
+	- 状態空間モデル（SSM） と アテンション の変種との間の理論的な関連性を示すフレームワーク**状態空間双対性（SSD）**を提案
 	- その結果、線形時間計算 と 二次時間計算 の両方の形式を持つことが示されています。
 	- この 状態空間双対性（SSD） フレームワークは、Mamba-2 と呼ばれる新しいアーキテクチャの設計を導き、言語モデリングにおいてTransformerに匹敵する性能を達成しながら、Transformerよりも効率的にスケールします。
 	- Mamba2は新しく導出されたSSDを使い、系列長に対し線形の計算量、メモリ使用量で効率的に学習、推論でき、TransformerやMambaよりPPLや下流タスクで性能が高い。SSMとTransformerが統一的な枠組みで扱えることも示す by 岡野原さん
@@ -3589,13 +3590,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変（例、バイクを自転車と認知）ですが、画像認識機能などGemini Proを手元で試せる。OSS版のマルチモーダルLLM代表的なLLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchで突然上位に登場、次の大きなリリースの斥候か、なおmiqueってミクだったのか？。Phixtralの論文で紹介されたMoEの実装、本家とはアルゴリズムが違うみたいだがMoEの実
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変（例、バイクを自転車と認知）ですが、画像認識機能などGemini Proを手元で試せる。OSS版のマルチモーダルLLM代表的なLLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの軽量化の新星SliceGPT、軽くて精度が落ちないのは大歓迎。miqu-70BというMixtral 8x7Bの量子化版らしきものが、EQ-benchで突然上位に登場、次の大きなリリースの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDg5MDE2NiwxNzQ2Njc1NDAwLC0yMD
-UzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQw
-NCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNj
-c3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3
-NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1OD
-U0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUxMzYsNTg3
-MjYwNDgzXX0=
+eyJoaXN0b3J5IjpbLTEzODcyMDQ3MjgsMTc0NjY3NTQwMCwtMj
+A1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0
+MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMT
+Y3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1
+NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NT
+g1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MTM2LDU4
+NzI2MDQ4M119
 -->
