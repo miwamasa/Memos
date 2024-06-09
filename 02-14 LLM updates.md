@@ -178,7 +178,11 @@
 		- https://arxiv.org/abs/1312.5663
 - 放送大学の教科書『自然言語処理』の改訂版と三訂版の比較
 	- https://yudukikun5120.hatenadiary.jp/entry/2024/01/20/003314
-	- 
+	- 全体的に系列・意味論・構文論等の分野ごとに分離されていた古典的手法が、単一のニューラルネットワーク的手法に圧倒されていくさまを見ることができる。
+	- 「今日では、超大規模コーパスで学習される汎用言語モデル（8章）が非常に強力であり、自然言語処理の観点では知識グラフの相対的価値は減少しつつある (p.44)」
+	- 確かにもう自然言語処理では知識グラフってそんな言わないかな。。
+		- https://x.com/mamoruk/status/1799070548863205470
+- 
 - 
 ## 6/3
 
@@ -3611,14 +3615,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 松尾研のRAで学部2年生の白坂翠萌さんが主著した，基盤モデルを活用して，オンラインにプロンプトを生成しながら失敗にも柔軟に対応する家庭内サービスロボットシステムに関する研究がICRA2024に採択されました
 - 突如として現れたmiqu-70BがEQ-Bench では 83.5 を獲得し (ローカルで評価)、GPT-4系に次ぐ性能であることが判明
 	- https://x.com/N8Programs/status/1752441060133892503?s=20
-	- どうも、Mixtral 8x7Bの量子化版のリークだったらしい
--  LangGraphで始めるマルチエージェントシステム
-	- https://speakerdeck.com/peisuke/langgraphdeshi-merumarutiezientosisutemu
-	- Function Callingだけで割とよく動いてるとこあるんだけど、もう少し統合したくてSupervisorが必要そうなフローから試してみようかな
-- Mixtral8x7Bの日本語対応Loraの学習完了しました
-	- https://x.com/AiXsatoshi/status/175250
+	- どうも、Mixtral 8x7Bの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjIwMjEyNjcsMTkwNjkyNTA1NSw0Mj
+eyJoaXN0b3J5IjpbLTIwNTA5MTczMTIsMTkwNjkyNTA1NSw0Mj
 E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
 OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
 0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
