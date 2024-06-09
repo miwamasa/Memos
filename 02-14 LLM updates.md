@@ -3588,13 +3588,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://note.com/npaka/n/n2c272727d95a?sub_rt=share_h
 	- 「LLM-jp 13B v1.1」は、「LLM-jp 13B」の最新版です。日英両データセットによるSFT、ichikaraデータセットの追加+DPOで対話応答性能が向上しています。
 - OpenToM: A Comprehensive Benchmark for Evaluating Theory-of-Mind Reasoning Capabilities of Large Language Models
-	- https://arx
+	- http
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzcxMTIzNSwtMTI4Mzg5NzQ0NywxNz
-Q2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1
-MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNz
-g3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQz
-MjAyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0ND
-Y4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2
-OTUzNzUxMzZdfQ==
+eyJoaXN0b3J5IjpbLTE5NTcyNDMwODEsLTEyODM4OTc0NDcsMT
+c0NjY3NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjky
+NTA1NSw0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLT
+c4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0
+MzIwMjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4ND
+Q2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIs
+Njk1Mzc1MTM2XX0=
 -->
