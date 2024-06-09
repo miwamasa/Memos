@@ -3,7 +3,11 @@
 
 ## 6/10
 
-Transformerの次とうわさされるMambaであるが、CMUによるMamba-2の提案ではtransformerとSSMが統一された？GoogleのGemini 1.5 Pro、日本語性能もすごいらしい、 Google AI Studioで無料お試でそのポテンシャルは明らかなわけであるが、gpt-4oに話題を持っていかれ気味。そこで、一気に挽回というわけではないが、Gemini 1.5 ProをバックエンドにもつGoogleNoteLMの試行が開始された。PDFやURLをソースとして登録すると、そのソースに対して、概要やFAQ、さらにはチャットによる応答ができるという代物。いや、ローカルドキュメントでRAG作るみたいな話は全部吹っ飛ぶような勢いではあるが、使い方を
+Transformerの次とうわさされるMambaであるが、CMUによるMamba-2の提案ではtransformerとSSMが統一された？
+
+アリババからQwen2が発表、
+
+GoogleのGemini 1.5 Pro、日本語性能もすごいらしい、 Google AI Studioで無料お試でそのポテンシャルは明らかなわけであるが、gpt-4oに話題を持っていかれ気味。そこで、一気に挽回というわけではないが、Gemini 1.5 ProをバックエンドにもつGoogleNoteLMの試行が開始された。PDFやURLをソースとして登録すると、そのソースに対して、概要やFAQ、さらにはチャットによる応答ができるという代物。いや、ローカルドキュメントでRAG作るみたいな話は全部吹っ飛ぶような勢いではあるが、生成の部分の抽出の部分のバランスがどれくらいかこれからの評価が気になる。
 
 
 - Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality
@@ -3590,11 +3594,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 - google/siglip-base-patch16-256-m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwODk1OTU4LDY3OTIyODI4NiwxOTA2OT
-I1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywt
-Nzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMz
-QzMjAyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0
-NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMi
-w2OTUzNzUxMzYsNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgx
-NTMzMjddfQ==
+eyJoaXN0b3J5IjpbLTE1NTEzNjEyNDksNjc5MjI4Mjg2LDE5MD
+Y5MjUwNTUsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEz
+LC03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMT
+AzNDMyMDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1
+ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4OD
+IyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMy
+ODE1MzMyN119
 -->
