@@ -162,6 +162,9 @@
 	- 2. Deepening the safety alignment can make it more robust against multiple jailbreak attacks. 
 	- 3. Protecting initial token positions can make the alignment more robust against fine-tuning attacks.
 - LlamaIndex Introduces the Property Graph Index: A Powerful New Way to Build Knowledge Graphs with LLMs
+	- https://www.llamaindex.ai/blog/introducing-the-property-graph-index-a-powerful-new-way-to-build-knowledge-graphs-with-llms
+	- In addition to the existing KnowledgeGraphIndex, LlamaIndex's new Property Graph Index enables:
+- i heard people are rediscovering ReNet in its (almost) 10y anniversary
 	- 
 - 
 ## 6/3
@@ -3618,20 +3621,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/imhaotian/status/1752621754273472927?s=20
 	- https://llava-vl.github.io/blog/2024-01-30-llava-1-6/
 	- improved reasoning, OCR, and world knowledge. It supports higher-res inputs, more tasks, and exceeds Gemini Pro on several benchmarks!
-	- LLaVA-1.6、普通に画像中の吹き出しを日本語で喋っているとか認識できて、Gemini Pro超えは伊達ではないなとなる
-- 700億パラメーターLLM「KARAKURI LM」を一般公開
-	- https://karakuri.ai/seminar/news/karakuri-lm/
-	- GPT-4を評価者とするベンチマーク(MT-Bench-jp)で、国産LLMとしては1位の性能を達成しました
-	- https://lm.karakuri.cc/ でお試し
-- 論文「RAG VS Fine-tuning」を読む
-	- https://zenn.dev/neoai/articles/e75b6f033a4fd9
-- 普通の人
+	- LLaVA-1.6、普通に画像中の吹き出しを
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc2NjEwNjIsMTkwNjkyNTA1NSw0Mj
-E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
-OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
-0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
-MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
-M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
-MTI4MDA0MjExXX0=
+eyJoaXN0b3J5IjpbOTE1MTQ5NDU0LDE5MDY5MjUwNTUsNDIxOD
+Q0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1Nzks
+LTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMT
+A2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0
+ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNi
+w1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEy
+ODAwNDIxMV19
 -->
