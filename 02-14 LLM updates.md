@@ -148,7 +148,8 @@
 - Demis Hassabis says he is most excited about DeepMind's work on Universal Multimodal AI Agents (Project Astra).
 	- https://x.com/electrik_dreams/status/1799139945560363264
 	- These agents, to be launched in 1-2 years, will serve as highly intelligent assistants for all general humans tasks, and "will be a pretty big game changer", he thinks.
-- 
+- Introducing GraphRAG with LangChain and Neo4j
+	- 
 	- 
 - 
 ## 6/3
@@ -3630,14 +3631,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.youtube.com/watch?v=NrNjvIrCqII
 - Microsoft and OpenAI are in talks to invest $100 million into Figure
 	- https://x.com/AndrewCurran_/status/1752463084550262805?s=20
-	- Figureは、人型ロボットを開発するスタートアップ
--  ReGAL: Refactorin
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyMjgwOTg3LDE5MDY5MjUwNTUsNDIxOD
-Q0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1Nzks
-LTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMT
-A2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0
-ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNi
-w1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEy
-ODAwNDIxMV19
+eyJoaXN0b3J5IjpbLTExNDQ0NDgxMTMsMTkwNjkyNTA1NSw0Mj
+E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
+OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
+0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
+MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
+M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
+MTI4MDA0MjExXX0=
 -->
