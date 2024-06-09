@@ -5,7 +5,7 @@
 
 Transformerの次とうわさされるMambaであるが、CMUによるMamba-2の提案ではtransformerとSSMが統一された？
 
-アリババからQwen2が発表、
+アリババからQwen2が発表、全体的にLlama3超えとか、最上位モデル以外はApacheライセンスとか、ollamaがさっそく対応とか、これからの評価が気になる。
 
 GoogleのGemini 1.5 Pro、日本語性能もすごいらしい、 Google AI Studioで無料お試でそのポテンシャルは明らかなわけであるが、gpt-4oに話題を持っていかれ気味。そこで、一気に挽回というわけではないが、Gemini 1.5 ProをバックエンドにもつGoogleNoteLMの試行が開始された。PDFやURLをソースとして登録すると、そのソースに対して、概要やFAQ、さらにはチャットによる応答ができるという代物。いや、ローカルドキュメントでRAG作るみたいな話は全部吹っ飛ぶような勢いではあるが、生成の部分の抽出の部分のバランスがどれくらいかこれからの評価が気になる。
 
@@ -3594,7 +3594,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 - google/siglip-base-patch16-256-m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTEzNjEyNDksNjc5MjI4Mjg2LDE5MD
+eyJoaXN0b3J5IjpbLTE3NTA3OTk1NDcsNjc5MjI4Mjg2LDE5MD
 Y5MjUwNTUsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEz
 LC03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMT
 AzNDMyMDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1
