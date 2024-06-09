@@ -12,6 +12,8 @@ GoogleのGemini 1.5 Pro、日本語性能もすごいらしい、 Google AI Stud
 Perplexity Pages
 
 
+放送大学の教科書『自然言語処理』の改訂版と三訂版の比較、いかに言語処理の基本構成がtransformerの登場で大きく書き換わったかが目次だけでもよくわかる。
+
 
 
 - Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality
@@ -3599,7 +3601,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 - google/siglip-base-patch16-256-m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5NTkxODc1LDY3OTIyODI4NiwxOTA2OT
+eyJoaXN0b3J5IjpbNjIyMjE2MjIyLDY3OTIyODI4NiwxOTA2OT
 I1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywt
 Nzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMz
 QzMjAyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0
