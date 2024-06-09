@@ -165,7 +165,10 @@
 	- https://www.llamaindex.ai/blog/introducing-the-property-graph-index-a-powerful-new-way-to-build-knowledge-graphs-with-llms
 	- In addition to the existing KnowledgeGraphIndex, LlamaIndex's new Property Graph Index enables:
 - i heard people are rediscovering ReNet in its (almost) 10y anniversary
-	- 
+	- https://x.com/kchonyc/status/1799067177276014784
+- Open-Endedness is Essential for Artificial Superhuman Intelligence
+	- https://arxiv.org/pdf/2406.04268
+	- "In this position paper, we argue that the ingredients are now in place to achieve open-endedness in AI systems with respect to a human observer. Furthermore, we claim that such open-endedness is an essential property of any artificial superhuman intelligence (ASI)."
 - 
 ## 6/3
 
@@ -3615,19 +3618,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 各 Expert について、その Expert を使うと有利になりそうな Prompt (例えば Code で Fine-Tuning された Expert なら Code の Prompt) をいくつか用意して、その Prompt を forward したときの hidden_state を使って we​ を作ろう
 	- Domain ごとに Expert を使い分けてくれることを期待する感じですね
 - CodeLlama-70BをPostgreSQLの生成に特化させたバージョン、SQLCoder-70B
-	- https://huggingface.co/defog/sqlcoder-70b-alpha
-	- 性能評価もGPT-4に10ポイント以上差をつける圧倒的な勝利で、特化型のコード生成LLMの台頭を予感させるようなポテンシャルを秘めている
-- LLaVA-1.6のリリース、Gemini Pro越え？
-	- https://x.com/imhaotian/status/1752621754273472927?s=20
-	- https://llava-vl.github.io/blog/2024-01-30-llava-1-6/
-	- improved reasoning, OCR, and world knowledge. It supports higher-res inputs, more tasks, and exceeds Gemini Pro on several benchmarks!
-	- LLaVA-1.6、普通に画像中の吹き出しを
+	- https:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1MTQ5NDU0LDE5MDY5MjUwNTUsNDIxOD
-Q0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1Nzks
-LTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMT
-A2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0
-ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNi
-w1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEy
-ODAwNDIxMV19
+eyJoaXN0b3J5IjpbLTE4MjU5MTIyODUsMTkwNjkyNTA1NSw0Mj
+E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
+OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
+0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
+MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
+M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
+MTI4MDA0MjExXX0=
 -->
