@@ -204,8 +204,11 @@
 - NotebookLM、やっとコンセプトがわかったのですが
 	- https://x.com/0317_hiroya/status/1799617523148796068
 	- 【AIチャットボット + RAG】 
-		- AIが主で、情報源が従 - 情報源を使うようになるけど、AIが学習した内容と合わせて、回答を生成する 
-		- 【NotebookLM】 - 情報源が主で、AIが従 - モデルは、資料のみを利用できるように設計されている。
+		- AIが主で、情報源が従 
+		- 情報源を使うようになるけど、AIが学習した内容と合わせて、回答を生成する 
+	- 【NotebookLM】 
+		- 情報源が主で、AIが従
+		- モデルは、資料のみを利用できるように設計されている。
 
 ## 6/3
 
@@ -3597,13 +3600,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  知識0でローカルLLMモデルを試してみる！垂れ流し配信【ゴリラジ】
 	- https://www.youtube.com/watch?v=C1yFEMDLddc
 - MetaがコーディングLLMのCodeLlamaの70B版をオープンソースでリリース。
-	- https://ai.meta.com/blog/code
+	- https://ai.meta.com/bl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTQ2ODEwOCwxOTA2OTI1MDU1LDQyMT
-g0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5
-LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLT
-EwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYw
-NDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUxMz
-YsNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMjcsLTEx
-MjgwMDQyMTFdfQ==
+eyJoaXN0b3J5IjpbLTIxMjEwMjQ0MzYsMTkwNjkyNTA1NSw0Mj
+E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
+OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
+0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
+MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
+M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
+MTI4MDA0MjExXX0=
 -->
