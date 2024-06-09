@@ -169,6 +169,13 @@
 - Open-Endedness is Essential for Artificial Superhuman Intelligence
 	- https://arxiv.org/pdf/2406.04268
 	- "In this position paper, we argue that the ingredients are now in place to achieve open-endedness in AI systems with respect to a human observer. Furthermore, we claim that such open-endedness is an essential property of any artificial superhuman intelligence (ASI)."
+-  An Easy Way to Comprehend How GraphRAG Works
+	- https://towardsdatascience.com/an-easy-way-to-comprehend-how-graphrag-works-6d53f8b540d0
+	- In a beginner-friendly explainer, Rendy Dalimunthe introduces GraphRAG, explains how it works, and outlines its benefits compared to traditional retrieval-augmented generation systems.
+- OpenAI is using "k-Sparse Autoencoders" (my ICLR 2014 paper) to extract interpretable features from GPT-4,
+	- https://x.com/AliMakhzani/status/1799472688026517666
+	-  k-Sparse Autoencoders
+		- https://arxiv.org/abs/1312.5663
 - 
 - 
 ## 6/3
@@ -3611,17 +3618,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 標準のMixtral8x7Bでは、応答に多言語間を行き来するswitchingが発生しますが、改善しています
 	- 汎用性能が落ちている可能性あるので、もう少し検証します
 - 学習済みの LLM を束ねて Mixture of Experts を作るテク
-	- https://zenn.dev/zaburo_ch/articles/88e35e5c80f974
-	- Phixtralの話の紹介
-	- 「Phi-2 ベースのモデルをいくつか使って Mixture of Experts (MoE) を作ったら単体よりも良い性能が達成できました」
-	- **Few-shot で Gating のパラメータを決める手法**が使われていて面白かった
-	- Gating の話を忘れれば「ベースのモデルを決めて MLP 以外のパラメータは全部ベースモデルのものを、MLP は MoE Layer に置き換えて各モデルの MLP のパラメータを使う」という方法で MoE モデルが作れそうです
-	- 各 Expert について、その Expert を使うと有利になりそうな Prompt (例えば Code で Fine-Tuning された Expert なら Code の Prompt) をいくつか用意して、その Prompt を forward したときの hidden_state を使って we​ を作ろう
-	- Domain ごとに Expert を使い分けてくれることを期待する感じですね
-- CodeLlama-70BをPostgreSQLの生成に特化させたバージョン、SQLCoder-70B
-	- ht
+	- https://zenn.dev/zabur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTMxODU4MSwxOTA2OTI1MDU1LDQyMT
+eyJoaXN0b3J5IjpbMTkyMzY2NzE0OCwxOTA2OTI1MDU1LDQyMT
 g0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5
 LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLT
 EwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYw
