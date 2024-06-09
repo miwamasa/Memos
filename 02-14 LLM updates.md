@@ -170,6 +170,7 @@
 	- https://arxiv.org/pdf/2406.04268
 	- "In this position paper, we argue that the ingredients are now in place to achieve open-endedness in AI systems with respect to a human observer. Furthermore, we claim that such open-endedness is an essential property of any artificial superhuman intelligence (ASI)."
 - 
+- 
 ## 6/3
 
 Google I/Oで発表されたgoogleの検索x生成AIが、とても不評ということで、Wall Street Journalの記事にもあるように、Perplexityの優秀さが際立つ、gooleがプレスリリースした新技術で期待を裏切るのは全く恒例ですね。とはいっても、Gemini 1.5 Pro/Flashの優秀さもあちこちで報告されており、本当は優れてるんでしょう。Mistralからコード生成のOSSであるCodestralが発表、さっそくOllamaが対応、これでお好きなエディタと組み合わせてプログラミングのアシスタントが実現可能に。量子化、小規模化にも進展があり、Mixtral 8x22b の量子化版Q6_K が $362 CPU(AMD Ryzen 9 5950X BOXか?)で軽々動作するという報告もあったり、Phi-3-Tinyシリーズのように、さらに小ささなLLMにチャレンジみたいな展開もあった。llama.cppで量子化版を動作させるとollamaより1.8倍速いという報告も。生成AIの飛躍的性能アップの秘密といわれる「グロッキング」に関する論文、汎化回路形成の秘密に迫り、新たなアーキテクチャ提案というのは胸熱い。生成AIの「創造性」に関する１０万人の人間！との比較で、GPT-4ならプロンプトを工夫すれば、人間を上回るというのには驚いた。O'ReillyからPrompt Engineeringの新刊も出るが、そもそもAnthropicのClaude3は、ゴールを与えれば適切なプロンプトを生成してくれるという。財務諸表から将来の収益の伸びを予測するタスクでGPT-4は人間より優れていると聞いても驚かなくなった。そんなAIですが、AIが他者の心や意図を理解する能力を持っているのかの「心の理論(ToM:Theory of Mind)」を持っているかどうかを分析した論文では、GPT-4 and Flan-PaLM が人間の大人のレベルに達したとのこと。さらに人間を超えるという意味では、Autoformalizing という、人間が作った幾何学をAIが自動証明できる体系に、生成AIをつかって作り直すという試みもあった。こうなると人間の理解がどこまで生成AIについていけるかという点が心配になる、ニューラルネットの動作理解の「Graph Game」や、LoRaの原理の可視化など、そういうのも目立った気がする。全く反対にアセモグル氏のように、それほどAIは格差拡大に影響しないという分析もあった。安全性に関しては、RAGを前提としたバックドアTrojanRAGというのも出た、説明性が高いこととバックドアを仕込みやすいというのは表裏一体。さて日本では、人工知能学会が浜松で開催、岡崎先生のスライド「大規模言語モデルの開発」は必見です。一方、ChatGPTのRLHF（ヒトのフィードバックによる強化学習）プロセスの多くが、アウトソースされた（比較的人件費の安い）ナイジェリアのオペレーターたちによって行われた結果で、なんとナイジェリア英語のdelveという単語が生物系の論文に大量に表れたとの報告もあった。そもそも人間のほうも、エビデンスベースで合理的に思考する能力に課題があり、ストーリーに流されがちとの指摘があるので、ストーリー性を求めすぎて、合理的に思考できない生成AIができるかも。ロイヤルアカデミーの「AI in Science」すでに「AI for Science」といっている時代ではなくなった、つまりAIを使わずに科学の進展はない。さてNASAから満を持して、大気現象を予測する基盤モデルAuroraの発表、10kmメッシュで10日後まで天気予報できるってどれぐらいすごいのだろう。全くの余談だが、gpt-4oの発表時に参照された映画"Her"の監督の離婚した妻が監督した "Lost In Translation"の２つを比較し、一部シーケンスが全く対照的にアライメントしているという話題がテック界隈で一瞬話題になった。
@@ -3618,13 +3619,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 各 Expert について、その Expert を使うと有利になりそうな Prompt (例えば Code で Fine-Tuning された Expert なら Code の Prompt) をいくつか用意して、その Prompt を forward したときの hidden_state を使って we​ を作ろう
 	- Domain ごとに Expert を使い分けてくれることを期待する感じですね
 - CodeLlama-70BをPostgreSQLの生成に特化させたバージョン、SQLCoder-70B
-	- https:
+	- ht
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU5MTIyODUsMTkwNjkyNTA1NSw0Mj
-E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
-OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
-0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
-MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
-M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
-MTI4MDA0MjExXX0=
+eyJoaXN0b3J5IjpbLTkzOTMxODU4MSwxOTA2OTI1MDU1LDQyMT
+g0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5
+LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLT
+EwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYw
+NDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUxMz
+YsNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMjcsLTEx
+MjgwMDQyMTFdfQ==
 -->
