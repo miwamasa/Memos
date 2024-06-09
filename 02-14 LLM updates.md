@@ -3,7 +3,7 @@
 
 ## 6/10
 
-Transformerの次とうわさされる、Mambaであるが、Mamba-2の提案では、
+Transformerの次とうわさされるMambaであるが、CMUによるMamba-2の提案ではtransformerとSSMが統一された？
 
 
 - Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality
@@ -3590,11 +3590,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 - google/siglip-base-patch16-256-m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTAzNTIwMTIsNjc5MjI4Mjg2LDE5MD
-Y5MjUwNTUsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEz
-LC03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMT
-AzNDMyMDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1
-ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4OD
-IyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMy
-ODE1MzMyN119
+eyJoaXN0b3J5IjpbLTI4ODY5Nzc4NSw2NzkyMjgyODYsMTkwNj
+kyNTA1NSw0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMs
+LTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMD
+M0MzIwMjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4
+NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4Mj
+IsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4
+MTUzMzI3XX0=
 -->
