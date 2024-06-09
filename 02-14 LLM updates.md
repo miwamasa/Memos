@@ -187,7 +187,12 @@
 - 深層学習を含む多くの実応用モデルでは，パラメータ空間上でフィッシャー・ラオ計量が退化し，双対平坦構造が定義できなくなる．すなわち情報幾何が展開できなくなる
 	- https://x.com/hayashiyus/status/1799457123103072282
 	- すなわち情報幾何が展開できなくなる．双対平坦構造を一般化した概コダッチ構造を導入することでこの課題を克服した論文
-- 
+- Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models
+	- https://arxiv.org/pdf/2406.02061
+	- This paper investigates the dramatic breakdown of state-of-the-art LLMs' reasoning capabilities when confronted with a simple common sense problem called the "Alice In Wonderland (AIW) problem".
+	- The AIW problem is a concise natural language task that asks: "Alice has N brothers and she also has M sisters. How many sisters does Alice's brother have?" While easily solvable by humans using common sense reasoning (the correct answer is M+1), most tested LLMs, including GPT-3.5/4, Claude, Gemini, LLaMA, Mistral, and others, show a severe collapse in performance, often providing nonsensical answers and reasoning.
+- 『今の生成AIの本質的な難しさは「何をAIに生成させるしても、全て適確な言葉を使ってAIに指示を与えたほうが結果が良い」ということ』
+	- 
 - 
 ## 6/3
 
@@ -3600,29 +3605,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ■実験と結果 
 		- 1. OPT, LLAMA-2, Phi-2を実験対象モデルに設定 
 		- 2. HuggingFace TransformersとPyTorchで実装 
-		- 3. いくつかのスライスレベルを分けて実験 
-		- 4. 最大30%のモデルパラメータ削減が実現した 
-		- 5. Llama 2とPhi-2モデルは90%以上の性能を維持
-- Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs
-	- https://arxiv.org/abs/2312.05934
-	- Microsoftより「Fine TuningとRAGのどちらが高精度か？」に答えた論文
-	- 既存/新規知識の両方においてRAGが良好な結果に。Fine Tuningは継続事前学習、評価はMMLUをLM-Evaluation-Harnessで実施。
-- The Power of Noise: Redefining Retrieval for RAG System
-	- https://arxiv.org/abs/2401.14887
-	- LLMにおけるRAG（外部データを取り込ませる）システムを構築する際には、データベースに「無関係な」文書を混ぜたほうが検索精度が上がる可能性が示唆されています。
-	- ■なぜそんなことが起こるのか 
-		- 1. 関連性が高い文書ばかりだと過剰適合が起こる 
-		- 2. 無関係情報をフィルタリングする能力が上が
-- 一昨日くらいからmistralの有料版であるmistral-medium(70B、MoEではない)の重みがリークしたという噂がある
-	- https://x.com/webbigdata/status/1752304557336801408?s=20
--  Self-Recovery Prompting: Promptable General Purpose Service Robot System with Foundation Models and Self-Recovery
-	- https://arxiv.or
+		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzNjEwNTg3LDE5MDY5MjUwNTUsNDIxOD
-Q0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1Nzks
-LTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMT
-A2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0
-ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4ODIyLDY5NTM3NTEzNi
-w1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMyODE1MzMyNywtMTEy
-ODAwNDIxMV19
+eyJoaXN0b3J5IjpbLTE0NzgzMjU1OTQsMTkwNjkyNTA1NSw0Mj
+E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
+OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
+0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
+MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
+M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
+MTI4MDA0MjExXX0=
 -->
