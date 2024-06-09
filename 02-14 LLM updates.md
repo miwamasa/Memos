@@ -172,11 +172,13 @@
 -  An Easy Way to Comprehend How GraphRAG Works
 	- https://towardsdatascience.com/an-easy-way-to-comprehend-how-graphrag-works-6d53f8b540d0
 	- In a beginner-friendly explainer, Rendy Dalimunthe introduces GraphRAG, explains how it works, and outlines its benefits compared to traditional retrieval-augmented generation systems.
-- OpenAI is using "k-Sparse Autoencoders" (my ICLR 2014 paper) to extract interpretable features from GPT-4,
+- OpenAI is using "k-Sparse Autoencoders" (my ICLR 2014 paper) to extract interpretable features from GPT-4,and showing that it outperforms other methods on sparsity-reconstruction frontier:
 	- https://x.com/AliMakhzani/status/1799472688026517666
 	-  k-Sparse Autoencoders
 		- https://arxiv.org/abs/1312.5663
-- 
+- 放送大学の教科書『自然言語処理』の改訂版と三訂版の比較
+	- https://yudukikun5120.hatenadiary.jp/entry/2024/01/20/003314
+	- 
 - 
 ## 6/3
 
@@ -3614,17 +3616,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://speakerdeck.com/peisuke/langgraphdeshi-merumarutiezientosisutemu
 	- Function Callingだけで割とよく動いてるとこあるんだけど、もう少し統合したくてSupervisorが必要そうなフローから試してみようかな
 - Mixtral8x7Bの日本語対応Loraの学習完了しました
-	- https://x.com/AiXsatoshi/status/1752509354849546417?s=20
-	- 標準のMixtral8x7Bでは、応答に多言語間を行き来するswitchingが発生しますが、改善しています
-	- 汎用性能が落ちている可能性あるので、もう少し検証します
-- 学習済みの LLM を束ねて Mixture of Experts を作るテク
-	- https://zenn.dev/zabur
+	- https://x.com/AiXsatoshi/status/175250
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzY2NzE0OCwxOTA2OTI1MDU1LDQyMT
-g0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5
-LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLT
-EwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYw
-NDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUxMz
-YsNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMjcsLTEx
-MjgwMDQyMTFdfQ==
+eyJoaXN0b3J5IjpbLTE3MjIwMjEyNjcsMTkwNjkyNTA1NSw0Mj
+E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
+OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
+0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
+MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
+M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
+MTI4MDA0MjExXX0=
 -->
