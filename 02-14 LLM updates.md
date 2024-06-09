@@ -3,7 +3,7 @@
 
 ## 6/10
 
-Transformerの次とうわさされるMambaであるが、CMUによるMamba-2の提案ではtransformerとSSMが統一された？GoogleのGemini 1.5 Pro、日本語性能もすごいらしい、Google Stu
+Transformerの次とうわさされるMambaであるが、CMUによるMamba-2の提案ではtransformerとSSMが統一された？GoogleのGemini 1.5 Pro、日本語性能もすごいらしい、 Google AI Studioでお試しして
 
 
 - Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality
@@ -3590,7 +3590,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 - google/siglip-base-patch16-256-m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDE3ODk4MSw2NzkyMjgyODYsMTkwNj
+eyJoaXN0b3J5IjpbMjE0NTM4NTI1Miw2NzkyMjgyODYsMTkwNj
 kyNTA1NSw0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMs
 LTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMD
 M0MzIwMjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4
