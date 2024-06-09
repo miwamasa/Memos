@@ -200,6 +200,10 @@
 	- https://arxiv.org/pdf/2406.02061
 	- This paper investigates the dramatic breakdown of state-of-the-art LLMs' reasoning capabilities when confronted with a simple common sense problem called the "Alice In Wonderland (AIW) problem".
 	- The AIW problem is a concise natural language task that asks: "Alice has N brothers and she also has M sisters. How many sisters does Alice's brother have?" While easily solvable by humans using common sense reasoning (the correct answer is M+1), most tested LLMs, including GPT-3.5/4, Claude, Gemini, LLaMA, Mistral, and others, show a severe collapse in performance, often providing nonsensical answers and reasoning.
+- アリス問題による日本語推論能力の比較
+	- https://note.com/willplion/n/n5842538dd13d
+	- 「女の子のアリスには4人の兄弟と1人の姉妹がいます。アリスの兄弟には何人の姉妹がいますか？」とし、LLMがアリスの性別がわからない為答えられませんとか言い出すことがないように調整した。
+	- 
 - 『今の生成AIの本質的な難しさは「何をAIに生成させるしても、全て適確な言葉を使ってAIに指示を与えたほうが結果が良い」ということ』
 	- https://x.com/izutorishima/status/1799568010950348942
 	- 「LLM を使いこなせる人 ＝ 言語能力が高い人」と言い切れるくらいには ChatGPT を使いこなせてる人が少ない最大の理由
@@ -3592,9 +3596,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 2/5
 
-今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということで、株価は20%アップ。一方Googleは、BardのbackendのGemini Proの国際対応をリリース。日本語なんかまだ変（例、バイクを自転車と認知）ですが、画像認識機能などGemini Proを手元で試せる。OSS版のマルチモーダルLLM代表的なLLaVA-1.6がリリースされ、Gemini Pro越えとの評価も。LLMの
+今週も盛りだくさん。まずは、MetaのCodeLlamaの70B版リリース。早速SQLの変換SQLCoder-70Bがリリースされたり、4bit化されてMLX経由でMacで動かしたりと一気ににぎやかに。Metaは、35万個の H100を整備し、OSSの基盤モデルに取り組むということ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODQwNzA0MCwxNzQ2Njc1NDAwLC0yMD
+eyJoaXN0b3J5IjpbLTY2MjQwMTY5OCwxNzQ2Njc1NDAwLC0yMD
 UzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQw
 NCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNj
 c3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3
