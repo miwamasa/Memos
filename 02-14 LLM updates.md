@@ -156,7 +156,13 @@
 	- https://x.com/jerryjliu0/status/1797057726994092492
 - コンサルタントは本物と偽物が混在　実力を見抜く10の質問
 	- https://bookplus.nikkei.com/atcl/column/041500053/052900298/
-- 
+- Safety Alignment Should Be Made More Than Just a Few Tokens Deep
+	- https://xiangyuqi.com/shallow-vs-deep-alignment.github.io/
+	- 1. Crrent LLM safety alignment is only a few tokens deep. 
+	- 2. Deepening the safety alignment can make it more robust against multiple jailbreak attacks. 
+	- 3. Protecting initial token positions can make the alignment more robust against fine-tuning attacks.
+- LlamaIndex Introduces the Property Graph Index: A Powerful New Way to Build Knowledge Graphs with LLMs
+	- 
 - 
 ## 6/3
 
@@ -3619,22 +3625,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://lm.karakuri.cc/ でお試し
 - 論文「RAG VS Fine-tuning」を読む
 	- https://zenn.dev/neoai/articles/e75b6f033a4fd9
-- 普通の人が資産運用で99点を取る方法
-	- https://hayatoito.github.io/2020/investing/
-		- 1.  確定拠出年金 (iDeCo または 企業型 DC）を始めます。
-		- 2.  新 NISA でつみたての設定をします。
-		- 3.  さらに余裕がある方は、特定口座でつみたての設定をします。
-		- 4.  資産運用を始めた直後や、まとまった資金を一時的に入手したときなど、十分な余剰資金（現金）をもっているのであれば、自分のリスク許容度の範囲内で、適切な割合の資産を  _一括_  で投資します。詳しくは後述の「アセットアロケーション」を参照してください。
-		- 5.  定期的に（年に 1 回、あるいは数年に 1 回）、アセットアロケーションについて見直しましょう。
--  Self-supervised Learning: Generative or Contrastive
-	- https://arxiv.org/abs/2006.08218
-- Proactive Detection of Voice Cloning with Local
+- 普通の人
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTY0ODU5NywxOTA2OTI1MDU1LDQyMT
-g0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5
-LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLT
-EwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYw
-NDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUxMz
-YsNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMjcsLTEx
-MjgwMDQyMTFdfQ==
+eyJoaXN0b3J5IjpbLTEwNjc2NjEwNjIsMTkwNjkyNTA1NSw0Mj
+E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
+OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
+0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
+MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
+M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
+MTI4MDA0MjExXX0=
 -->
