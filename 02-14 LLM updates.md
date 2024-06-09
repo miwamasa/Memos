@@ -9,6 +9,7 @@ Transformerの次とうわさされるMambaであるが、CMUによるMamba-2の
 
 GoogleのGemini 1.5 Pro、日本語性能もすごいらしい、 Google AI Studioで無料お試でそのポテンシャルは明らかなわけであるが、gpt-4oに話題を持っていかれ気味。そこで、一気に挽回というわけではないが、Gemini 1.5 ProをバックエンドにもつGoogleNoteLMの試行が開始された。PDFやURLをソースとして登録すると、そのソースに対して、概要やFAQ、さらにはチャットによる応答ができるという代物。いや、ローカルドキュメントでRAG作るみたいな話は全部吹っ飛ぶような勢いではあるが、生成の部分の抽出の部分のバランスがどれくらいかこれからの評価が気になる。
 
+Perplexity Pages
 
 - Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality
 	- https://arxiv.org/abs/2405.21060
@@ -88,7 +89,7 @@ GoogleのGemini 1.5 Pro、日本語性能もすごいらしい、 Google AI Stud
 - GLM4-9B-ChatをElyzaTasks100で評価した by うみゆきさん
 	- https://x.com/umiyuki_ai/status/1798328337699606704
 	- スコアはなんと3.92！！やべえ！！！！Gleipnir-7Bの3.91より勝ってる！メチャクチャかしこい！このモデル、スペックだけのコケオドシじゃない！
-- ReFT: Representation Finetuning for Language Models"
+- ReFT: Representation Finetuning for Language Models
 	- https://x.com/rohanpaul_ai/status/1798026828017197256
 	- 10x-50x more parameter-efficient than prior state-of-the-art PEFT methods.
 - Learning to grok: Emergence of in-context learning and skill composition in modular arithmetic tasks
@@ -3594,11 +3595,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 - google/siglip-base-patch16-256-m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTA3OTk1NDcsNjc5MjI4Mjg2LDE5MD
-Y5MjUwNTUsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEz
-LC03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMT
-AzNDMyMDI1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1
-ODQ0Njg3LC0xNjA0ODU4NTQ0LDY3ODUwNzEyOSwtNDQxMDM4OD
-IyLDY5NTM3NTEzNiw1ODcyNjA0ODMsLTE4MDU0ODc1MjUsMTMy
-ODE1MzMyN119
+eyJoaXN0b3J5IjpbLTM1NzA1NjEwNSw2NzkyMjgyODYsMTkwNj
+kyNTA1NSw0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMs
+LTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMD
+M0MzIwMjUzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4
+NDQ2ODcsLTE2MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4Mj
+IsNjk1Mzc1MTM2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4
+MTUzMzI3XX0=
 -->
