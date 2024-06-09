@@ -192,6 +192,12 @@
 	- This paper investigates the dramatic breakdown of state-of-the-art LLMs' reasoning capabilities when confronted with a simple common sense problem called the "Alice In Wonderland (AIW) problem".
 	- The AIW problem is a concise natural language task that asks: "Alice has N brothers and she also has M sisters. How many sisters does Alice's brother have?" While easily solvable by humans using common sense reasoning (the correct answer is M+1), most tested LLMs, including GPT-3.5/4, Claude, Gemini, LLaMA, Mistral, and others, show a severe collapse in performance, often providing nonsensical answers and reasoning.
 - 『今の生成AIの本質的な難しさは「何をAIに生成させるしても、全て適確な言葉を使ってAIに指示を与えたほうが結果が良い」ということ』
+	- https://x.com/izutorishima/status/1799568010950348942
+	- 「LLM を使いこなせる人 ＝ 言語能力が高い人」と言い切れるくらいには ChatGPT を使いこなせてる人が少ない最大の理由
+	- この使う人の言語リテラシーに相当依存するという仕様は、技術面ではなかなか個々人の差を埋めることはできないんじゃないかという懸念がある。何故なら、どんなにAIが頑張っても、そのAIがサポートする人間の言語能力の引き上げには限界があるから。
+	- この言語能力の育成と強化という課題は、本来は大学教育以上のレベルで行われる過程で、自分の経験では大学院の研究室などで日々叩かれることによって磨かれる種類のものだと思っている。そういう点では、例え大卒の学歴を持っているとしても、本気でAIを本質的に使いこなせるようになるように再教育するためには、いわゆる「社会人のリスキリング」どころではないレベルの再教育が本当は必要なのだろう。
+	- https://x.com/nyaa_toraneko/status/1799302550841364919
+- AzureのサービスでGPT-4oを強化すると最強だというのが分かってもらえると思う。
 	- 
 - 
 ## 6/3
@@ -3592,26 +3598,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2401.13858
 	- 複数の制約下での分子生成の論文
 	- 従来は合成可能性とガス透過性など２つ以上の制約を満たすような分子を１つのモデルから生成できませんでしたが 
-	- 制約をエンコードしたTransformerモデルにより低分子・高分子共にうまく生成できたそうです。
-- アリババがマルチモーダルLLM使って作ったスマホを操作するエージェント、Mobile-Agentを発表
-	- https://x.com/umiyuki_ai/status/1752183108873687439?s=20
-- SliceGPT: Compress Large Language Models by Deleting Rows and Columns
-	- https://arxiv.org/abs/2401.15024
-	- Microsoftとチューリッヒ工科大の研究者により、LLMをスライス（行や列を削除）して軽くする効果的な手法
-	- 実験では最大30%のパラメータを削減しつつ性能の90%以上を保つことができたと
-	- ■提案手法 
-		- 1. 主成分分析を用いて重要な情報を抽出 
-		- 2. 重要でない情報を取り除くために行や列を削減 →より少ない計算リソースで動作できるようにする
-	- ■実験と結果 
-		- 1. OPT, LLAMA-2, Phi-2を実験対象モデルに設定 
-		- 2. HuggingFace TransformersとPyTorchで実装 
-		
+	- 制約をエンコードしたTransf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzgzMjU1OTQsMTkwNjkyNTA1NSw0Mj
-E4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3
-OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC
-0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2
-MDQ4NTg1NDQsNjc4NTA3MTI5LC00NDEwMzg4MjIsNjk1Mzc1MT
-M2LDU4NzI2MDQ4MywtMTgwNTQ4NzUyNSwxMzI4MTUzMzI3LC0x
-MTI4MDA0MjExXX0=
+eyJoaXN0b3J5IjpbMTg5NjQ0NTAxNiwxOTA2OTI1MDU1LDQyMT
+g0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5
+LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLT
+EwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYw
+NDg1ODU0NCw2Nzg1MDcxMjksLTQ0MTAzODgyMiw2OTUzNzUxMz
+YsNTg3MjYwNDgzLC0xODA1NDg3NTI1LDEzMjgxNTMzMjcsLTEx
+MjgwMDQyMTFdfQ==
 -->
