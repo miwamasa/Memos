@@ -252,6 +252,9 @@ HippoRAG
 	- ７Bサイズながら、⌘R+以上、GPT3.5未満みたいなベンチマークらしいです。
 - Oumuamua-7bのElyzaTasks100スコアは3.85でした。相当強いです by うみゆきさん
 	- https://x.com/umiyuki_ai/status/1797191209976537102
+- 『何回説明しても伝わらないはなぜ起こるのか？』（今井むつみ）
+	- https://x.com/JunkudoT/status/1791361304655241449
+	- 人間は聞き逃し、都合よく解釈し、忘れる。そんな人間同士がそれでも伝え合うことは可能なのか？理解し合うことが難しい世の中で「伝えわかり合う」ことに探求するあなたをサポートする一冊です。
 
 
 ## 6/10
@@ -3593,12 +3596,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Minimal, clean, educational code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization."
 -  Video generation models as world simulators by OpenAI
 	- https://openai.com/research/video-generation-models-as-world-simulators
-	- SoraはTransformerベースの潜在拡散モデルで、テキスト指示から1分間の高画質動画を生成できる。時間・空間の両方で一貫性を維持でき、現実の物理法則をある程度反映させることができる。モデルやデータに関する詳細は非公開だが、大規模化により性能が上がる模様。
-	- 今後やるべき事はおそらく単純で、全力でOpenAIやGeminiの成長にしがみ付けば良いのでは。という気がしている。 by 元木
-	- https://x.com/ai_syacho/status/1758845719988117759?s=20
-	- 彼らは拡散トランスフォーマーモデルという、マシンと札束を
+	- SoraはTransformerベースの潜在拡散モデルで、テキスト指示から1分間の高画質動画を生成できる。時間・空間の両方で一貫性を維持でき、現実の物理法則をある程度反映させることができる。モデルやデータに関する詳細は
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg0OTIxMjksLTgxNzI0MzkyMCw4OD
+eyJoaXN0b3J5IjpbLTEwMzc0MzY5ODUsLTgxNzI0MzkyMCw4OD
 g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
 NDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUzNjg4ND
 Q1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNCwxNjYw
