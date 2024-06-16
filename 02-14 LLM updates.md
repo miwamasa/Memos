@@ -8,6 +8,8 @@
 
 Nvidia、株を１０分割されたり、オーブンからA100のボードを出すビデオが話題になったりと、しましたが、ファンCEOはカルテック卒業式でスピーチ。Nemotron-4-340Bという謎の巨大ＬＬＭもリリース、もっとも、攻撃に対する脆弱性についてはまったく無配慮なことも明らかになった。
 
+DreamMachineから出たLumina、デート中にほかの子に気をそらされる男の子とか、写真をもとに動画をつくるということで、奥さんの若いころの写真から動画を作ったりと、不気味な感じ。
+
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
 	- ２週間ほど前に出たMMed-Llama-3-8B 医療用のオープンモデルとしてはGPT-3.5を軽く超え、GPT-4を匹敵すると言っている
@@ -3597,15 +3599,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Lecun先生、soar発表直前に、テキストからリアルなビデオを生成するのは当面先だと講演したことに対して言い訳を。。。
 	- https://x.com/ylecun/status/1758740106955952191?s=20
 	- いや世界モデルを持つのがむつかしいというのが真意である。。。
-	- きっと過ちは繰り返す。
-- soraの生成した画像についての分析が進む
-	- https://x.com/anand_bhattad/status/1758632768597328202?s=
+	- きっ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDQyODc3NCwtMTI3MTI3NDgzNywtMT
-Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
-NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
-UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
-MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMD
-I1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3
-LC0xNjA0ODU4NTQ0XX0=
+eyJoaXN0b3J5IjpbODg5NzgyMzA5LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMj
+UzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcs
+LTE2MDQ4NTg1NDRdfQ==
 -->
