@@ -59,6 +59,11 @@
 - LaVague
 	- https://github.com/lavague-ai/LaVague
 	- LaVague is an **open-source Large Action Model framework** to develop AI Web Agents.
+- We’re partnering with Apple to integrate ChatGPT into iOS, iPadOS, and macOS—coming later this year:
+	- https://x.com/OpenAI/status/1800240380220473552
+- アップル・Google・マイクロソフト・OpenAIがみんなこの技術を同じことにしか使えていないという現実
+	- https://x.com/mehori/status/1800239908713283836
+	- そしてその限界は、できることから逆算して必ずしも必要としない機能をユーザーにおしつけることにつながっている
 
 ## 6/10
 
@@ -3589,14 +3594,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Can "small" finetuned LLMs with less than 2B parameters outperform larger openly available LLMs (Mixtral, Llama 2 Chat) and proprietary LLMs (ChatGPT)? Here's a closer look at the Tiny Titans paper
 	- Flan-T5が最強らしい、
 -  GPTは他者の心の状態を推測できる？AI×心理学のすゝめ
-	- https://ai-scholar.tech/articles/computation-and-language/Theory-of-Mind
-	- GPTは他者の心を読めるのか？ 実験において、GPT-3.5とGPT-4は高い正答率をマークしました。 
-	- 著者は、GPTが心の状態を推測できる理由として「言語能力の向上によって自発的に出現したのでは」と指摘。 AI研究における心理学的な視点の重要性を解
-- In-Context Principle Learning from Mistakes
-	- https://arxiv.org/abs/2402.05403
-	- LLMに敢えて間違わせてルールを覚えさせ同じミスを避けるようにする新しいプロンプト手法が提案されてい
+	- https://ai-scholar.tech
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NzA2NTI0OCwtMTY3MjQ1NjE5OCwxMT
+eyJoaXN0b3J5IjpbLTU1NzI4NTAzMCwtMTY3MjQ1NjE5OCwxMT
 A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
 ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
 E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
