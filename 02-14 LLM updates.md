@@ -64,6 +64,13 @@
 - アップル・Google・マイクロソフト・OpenAIがみんなこの技術を同じことにしか使えていないという現実
 	- https://x.com/mehori/status/1800239908713283836
 	- そしてその限界は、できることから逆算して必ずしも必要としない機能をユーザーにおしつけることにつながっている
+- very happy to be partnering with apple to integrate chatgpt into their devices later this year! by Sam
+	- https://x.com/sama/status/1800237314360127905
+- 旅行プランに迷う人は全員Geminiを使った方が良い。
+	- https://x.com/SuguruKun_ai/status/1799695851968942167
+- Appleの人工知能（生成AI）「Apple Intelligence」は、オンデバイス（データーをサーバーに送信せずに処理）を基本とするそうです。
+	- https://x.com/gizmodojapan/status/1800231580788736014
+- 
 
 ## 6/10
 
@@ -3589,14 +3596,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - mambaの理論を理解する①：HiPPOフレームワークとLSSL
 	- https://zenn.dev/izmyon/articles/8374a11d272602
 	- mambaの理論を理解するための解説記事を書き始めました。かなり数式の導出など丁寧に書いてるのでよろしくお願いいたします。何か訂正や補足があれば優しく教えてくださ
--  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
-	- https://arxiv.org/abs/2402.00841
-	- Can "small" finetuned LLMs with less than 2B parameters outperform larger openly available LLMs (Mixtral, Llama 2 Chat) and proprietary LLMs (ChatGPT)? Here's a closer look at the Tiny Titans paper
-	- Flan-T5が最強らしい、
--  GPTは他者の心の状態を推測できる？AI×心理学のすゝめ
-	- https://ai-scholar.tech
+-  Tiny Titans: Can Smaller Large Language Models Punc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NzI4NTAzMCwtMTY3MjQ1NjE5OCwxMT
+eyJoaXN0b3J5IjpbMTk4MDEyMDA3NCwtMTY3MjQ1NjE5OCwxMT
 A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
 ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
 E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
