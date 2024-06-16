@@ -21,7 +21,10 @@
 -  CRAG -- Comprehensive RAG Benchmark
 	- https://arxiv.org/abs/2406.04744
 	- Meta presents CRAG - Comprehensive RAG Benchmark
-	- 
+	- Presents a factual QA benchmark of 4,409 QA pairs and mock APIs to simulate web and Knowledge Graph (KG) search
+- Scalable MatMul-free Language Modeling
+	- https://arxiv.org/abs/2406.02528
+	- LLMの計算コストを支配する行列積（MatMul）を完全に排除しながら、パフォーマンスを維持する方法が発表された ちょっと前に業界の話題を席けんしたBitNet1.58bの上位互換ともとれる FPGAで実装し、効果を確認しており、これは脱GPUの流れが来るかもしれない
 
 ## 6/10
 
@@ -3587,12 +3590,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 【Mamba】Transformerを凌駕しうるアーキテクチャを徹底解説（ソースコードあり）
 	- https://qiita.com/peony_snow/items/649ecb307cd3b5c10aa7
 	- １．MambaはAttentionやMLPBlockを持たない簡素化されたアーキテクチャを有します。選択的状態空間モデル（Selective SSM：Selective State Space Model）という新しい構造を用いることで、必要な情報のみに注目し、計算効率の大幅な向上を達成しています。
-	- ２．高速な推論（Transformerの約5倍）を可能にするとともに、シーケンス長（トークン数などのこと）の増大に対して、推論コストが線形に増大するという特徴を有します（これまでのモデルでは非線形的な増大がありました）。この性能向上は実データにおける検証で、シーケンス長が1000k（１００万）においてまで確認されました。
-	- ３．GPUメモリ階層間の移動を最小限化するとともに、ハードウェアに最適化された並列アルゴリズムにより高速な計算が可能になり、要求されるメモリ容量も軽減されます
-	- ４．パラメータ数2.8B以上の場合においてMambaは機能するのか、ハイパーパラメータのチューニング方法はTransformerなどと同じなのか、学習の不安定性はどうなのかといった点に関してはまだ不明であり、今後の研究が待たれます。
-	- ５．まだ不明な点も多いですが、様々な角度からの研究によって、Transformerを代替しうる有望なアーキテクチャであるというエビデンスも取得されつつあり、今後Mambaを知らなければ最先端の研究から取り残される可能性がありま
+	- ２．高速な推論（Transformerの約5倍）を可能にするとともに、シーケンス長（トークン数などのこと）の増大に対して、推論コストが線形に増大するという特徴を有します（これまでのモデルでは非線形的な増大がありました）。この性能向上は実データにおける検証で、シーケンス長が1000k（１００万）においてまで確認
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjQ4NDk5OSwtMTY3MjQ1NjE5OCwxMT
+eyJoaXN0b3J5IjpbMTgzMzk1NDQyNSwtMTY3MjQ1NjE5OCwxMT
 A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
 ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
 E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
