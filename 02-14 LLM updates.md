@@ -4,7 +4,7 @@
 
 ## 6/17
 
-今週は、WWDCで始まった。OpenAIのアルトマン氏目撃情報がAppleキャンパスの現地から多数。Apple IntelligenceはApple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
+今週は、WWDCで始まった。アップル本社上空からパラシュートで降りるオープニングから、OpenAIのアルトマン氏目撃情報がAppleキャンパスの現地から多数。Apple IntelligenceはApple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
 
 DreamMachineから出たLumina、デート中にほかの子に気をそらされる男の子とか、写真をもとに動画をつくるということで、奥さんの若いころの写真から動画を作ったりと、不気味な感じ。あまりにも自然なので、もっとも厄介なのは、記憶を上書きしてしまう恐れがあるということだそうだ。
 
@@ -3596,14 +3596,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/ai_syacho/status/1758845719988117759?s=20
 	- 彼らは拡散トランスフォーマーモデルという、マシンと札束を入れれば入れるほど能力の上がるAIを持っていて、その資金体力も段違い。…
 - iPhoneにGeminiきてた
-	- https://x.com/npaka123/status/1758656487399014521?s=20
-	- ?? Advan
+	- https://x.com/npaka123/status/1758656487399014521?s=2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMj
-UzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcs
-LTE2MDQ4NTg1NDRdfQ==
+eyJoaXN0b3J5IjpbLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNz
+EyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5
+NzQ0NywxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4Ni
+wxOTA2OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4
+MDExMywtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOT
+M1LDEwMzQzMjAyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywt
+MTY4NTg0NDY4N119
 -->
