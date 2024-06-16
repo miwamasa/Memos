@@ -49,7 +49,10 @@
 	- https://codesandbox.io/p/sandbox/gemini-nano-chatbot-cdg59q?file=%2Findex.html
 		-  LLM: Chrome上で動作するGemini Nano 
 		- 音声認識+音声合成: Web Speech API
-- 
+- いた（アルトマン氏が、WWDC2024に)
+	- https://x.com/iskw226/status/1800202842428653817
+- Appleが発表した人工知能「Apple Intelligence」 by GIZMODE
+	- 
 
 ## 6/10
 
@@ -3595,14 +3598,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- GPT-3.5-TurboとGPT-4の質問応答性能が一貫して改善され、GPT-4が7.5%の改善を見せた
 		- 数学推論タスクでもGPT-3.5-turboとGPT-4で基準を上回る結果を示した
 		- Big-Bench Hardタスクでもスコアが一定程度上昇した
-- Step-by-step guide to build AI agents for structured and unstructured data.
-	- https://x.com/Saboo_Shubham_/status/175612315640
+- Step
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjAyNDEyMzgsLTE2NzI0NTYxOTgsMT
-EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
-Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
-wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
-MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
-YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
-NCw2Nzg1MDcxMjldfQ==
+eyJoaXN0b3J5IjpbMTU2MTcyNjUyMCwtMTY3MjQ1NjE5OCwxMT
+A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
+ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
+E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
+OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
+AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
+LDY3ODUwNzEyOV19
 -->
