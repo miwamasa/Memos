@@ -94,6 +94,12 @@
 	- 2. LLMがどの程度理解が定まってるかの見極めが必要（一発で指定できるケースもあれば、説明文が必要、定義を一通り渡す必要などのケースもある。ここらへんはもう言語能力というよりメタ言語能力） 
 	- 3. 2で見極めた範囲内で指示をどれだけ最低限に軽量化できるか？複雑な指示は、指示を解釈するところにLLMの知性を使いすぎて、指示そのものに追従できなくなることがあるから、指示に従えるギリギリ最小限を狙うことになる（メタ言語能力） 
 	- あと、プロンプトやコードをLLMで生成するメタプロンプトやメタプログラミングみたいなのも普通に出てくるから、そういう意味でもメタ言語能力が必要だと思う
+- If Apple integrates OpenAI at the OS level, then Apple devices will be banned at my companies. by maskさｎ
+	- https://x.com/elonmusk/status/1800265431078551973
+- 統計学の本質の一つは仮定にあると思う。 
+	- https://x.com/1kn29cgQJzRwtgd/status/1800005796585259435
+	- そもそも統計学関係なく、データを解釈する際、人間は仮定をおく。 通常それは暗黙の仮定だが、統計学はそれを明示し、その仮定でよいのかや仮定がズレることの影響を議論できるようにする。 仮定を明示し、議論の俎上にのせる。これが統計学の効能の一つ
+- 
 
 ## 6/10
 
@@ -3584,14 +3590,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://gemini.google.com/app
 - The Consensus Game: Language Model Generation via Equilibrium Search by 岡野さん
 	- https://openreview.net/forum?id=n9xeGcI4Yg
-	- LLMで質問応答等のタスクをこなす場合、生成的に解く場合（p(y|x,v=真)) と識別的に解く場合（p(v=真|x, y)）で得意/不得意が異なり結果が異なる。ゲーム理論に基づいて二つが合意する解を求められる均衡順位付けを提案。多くのタスクで再学習なく、性能を大きく改善できる
-- OpenAnimateAnyone
-	- https://github.com/fenghan0430/Open-AnimateAnyone
-	- アリババはAIの研究結果をオープンで出してくれてたけど、いざAnimateAnyoneみたいな有望な成果物ができたらスッとクローズにしてシュッと自社アプリに組み込む。つまり今までは自社サービスには使えんクオリティだから不用品リサイクルとしてオープンにしてただけ？
--  Grandmaster-Level Chess Without Search
-	- https://arxiv.org/ab
+	- LLMで質問応答等のタスクをこなす場合、生成的に解く場合（p(y|x,v=真)) と識別的に解く
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0NjM2NjE2LC0xNjcyNDU2MTk4LDExMD
+eyJoaXN0b3J5IjpbMjI5OTc0Nzc1LC0xNjcyNDU2MTk4LDExMD
 cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
 ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
 Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
