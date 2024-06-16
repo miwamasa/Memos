@@ -16,6 +16,11 @@
 	- Qwen1.5が出てから4ヶ月、Llama3から2ヶ月しか経ってません。こんな事態になるとは
 - MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark
 	- https://arxiv.org/abs/2406.01574
+	- もはや定番のベンチマーク『MMLU』ではLLMの性能評価で差がつかないことを受け、ウォータールー大学などの研究者らにより『MMLU-Pro』が作成されました。
+	- すでにGPT-4o、Claude 3、Llama-3、Phi-3など多数で実験が行われ、各モデルの特徴を捉えることに成功しています。
+-  CRAG -- Comprehensive RAG Benchmark
+	- https://arxiv.org/abs/2406.04744
+	- Meta presents CRAG - Comprehensive RAG Benchmark
 	- 
 
 ## 6/10
@@ -3585,18 +3590,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ２．高速な推論（Transformerの約5倍）を可能にするとともに、シーケンス長（トークン数などのこと）の増大に対して、推論コストが線形に増大するという特徴を有します（これまでのモデルでは非線形的な増大がありました）。この性能向上は実データにおける検証で、シーケンス長が1000k（１００万）においてまで確認されました。
 	- ３．GPUメモリ階層間の移動を最小限化するとともに、ハードウェアに最適化された並列アルゴリズムにより高速な計算が可能になり、要求されるメモリ容量も軽減されます
 	- ４．パラメータ数2.8B以上の場合においてMambaは機能するのか、ハイパーパラメータのチューニング方法はTransformerなどと同じなのか、学習の不安定性はどうなのかといった点に関してはまだ不明であり、今後の研究が待たれます。
-	- ５．まだ不明な点も多いですが、様々な角度からの研究によって、Transformerを代替しうる有望なアーキテクチャであるというエビデンスも取得されつつあり、今後Mambaを知らなければ最先端の研究から取り残される可能性があります。
--  栗田工業、機械学習使った材料探索で低環境負荷の防食剤開発へ
-	- https://xtech.nikkei.com/atcl/nxt/news/24/00208/?n_cid=nbpnxt_twbn
-	- 栗田工業さんらは冷却水の防食剤の開発のため、機械学習により数百万の分子から有望材料を抽出
-- NeMo Guardrails, the Ultimate Open-Source LLM Security Toolkit
-	- https://towardsdatascience.com/nemo-guardrails-the-ultimat
+	- ５．まだ不明な点も多いですが、様々な角度からの研究によって、Transformerを代替しうる有望なアーキテクチャであるというエビデンスも取得されつつあり、今後Mambaを知らなければ最先端の研究から取り残される可能性がありま
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODYyNDA4MDQsLTE2NzI0NTYxOTgsMT
-EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
-Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
-wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
-MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
-YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
-NCw2Nzg1MDcxMjldfQ==
+eyJoaXN0b3J5IjpbMTA2MjQ4NDk5OSwtMTY3MjQ1NjE5OCwxMT
+A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
+ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
+E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
+OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
+AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
+LDY3ODUwNzEyOV19
 -->
