@@ -6,7 +6,7 @@
 
 今週は、WWDCで始まった。アルトマン氏目撃情報が現地から多数。Apple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
 
-Nvidia、株を１０分割されたり、オーブンからA100のボードを出すビデオが話題になったりと、しましたが、ファンCEOはカルテック卒業式でスピーチ。
+Nvidia、株を１０分割されたり、オーブンからA100のボードを出すビデオが話題になったりと、しましたが、ファンCEOはカルテック卒業式でスピーチ。Nemotron-4-340Bという謎の巨大ＬＬＭもリリース、もっとも、攻撃に対する脆弱性についてはまったく無配慮なことも明らかになった。
 
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
@@ -3599,16 +3599,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- いや世界モデルを持つのがむつかしいというのが真意である。。。
 	- きっと過ちは繰り返す。
 - soraの生成した画像についての分析が進む
-	- https://x.com/anand_bhattad/status/1758632768597328202?s=20
-	- こいつ射影幾何わかってないよね？
-	- DALE3と同じ画像じゃん等
-- 
-
-## 2/13
-
-今週は、ほぼ予定通り（１日おくれ？
+	- https://x.com/anand_bhattad/status/1758632768597328202?s=
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDc4MDIyMywtMTI3MTI3NDgzNywtMT
+eyJoaXN0b3J5IjpbLTc3MDQyODc3NCwtMTI3MTI3NDgzNywtMT
 Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
 NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
 UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
