@@ -170,7 +170,14 @@
 -  Nemotron-4 340B from NVIDA
 	- https://research.nvidia.com/publication/2024-06_nemotron-4-340b
 	- 昨日に出たNemotron-4 340Bも、人間が2万件、残り98%(98万件?)は合成データでalignmentした模様(?)
-	- 
+- サクッと論文読むならGoogleのNotebookLMを使ったほうが良い
+	- https://x.com/tetumemo/status/1801889597871558864
+- nvidia/Nemotron-4-340B-Instruct
+	- https://huggingface.co/nvidia/Nemotron-4-340B-Instruct
+	- https://x.com/webbigdata/status/1802173127767802234
+	- モデルは商業的に利用可能です。 
+	- 派生モデルは自由に作成および配布できます。 
+	- NVIDIA は、モデルまたは派生モデルを使用して生成された出力に対する所有権を主張しません。
 
 
 ## 6/10
@@ -3587,18 +3594,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- WikiData allows you to easily connect to a free and open knowledge base
 -  Qwen1.5
 	- https://qwenlm.github.io/blog/qwen1.5/
-	- https://huggingface.co/collections/Qwen/qwen15-65c0a2f577b1ecb76d786524
-	- Qwen1.5 is the improved version of Qwen, the large language model series developed by Alibaba Cloud.
-- OllamaでもQwin1.5をサポート
-	- https://ollama.com/library/qwen
--  Repeat After Me: Transformers are Better than State Space Models at Copying
-	- https://arxiv.
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ5NDIyMzcsLTEyNzEyNzQ4MzcsLT
-E2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2
-Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MD
-U1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3
-ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMj
-AyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4
-NywtMTYwNDg1ODU0NF19
+eyJoaXN0b3J5IjpbMTAyMDQ0NjUxOSwtMTI3MTI3NDgzNywtMT
+Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
+NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
+UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
+MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMD
+I1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3
+LC0xNjA0ODU4NTQ0XX0=
 -->
