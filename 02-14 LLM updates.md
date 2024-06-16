@@ -164,7 +164,13 @@
 	- Gemma 7Bは特定の知識ベースのタスク(科学、数学、プログラミング問題)で高いパフォーマンス 
 	- RecurrentGemma 9Bは、常識推論や一般知識を必要とするタスクで高いパフォーマンス と言う違いがあります
 	- RecurrentGemma 9BはHugging faceのTransformesrで微調整サポートはされていますが、issues見る限り危険な香りがするので
-- 
+-  HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models
+	- https://arxiv.org/abs/2405.14831
+	- 知識グラフ、Personalized PageRank アルゴリズムを組み合わせたRAGの手法の提案。人間の脳の記憶の仕組みを模倣。
+-  Nemotron-4 340B from NVIDA
+	- https://research.nvidia.com/publication/2024-06_nemotron-4-340b
+	- 昨日に出たNemotron-4 340Bも、人間が2万件、残り98%(98万件?)は合成データでalignmentした模様(?)
+	- 
 
 
 ## 6/10
@@ -3586,17 +3592,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - OllamaでもQwin1.5をサポート
 	- https://ollama.com/library/qwen
 -  Repeat After Me: Transformers are Better than State Space Models at Copying
-	- https://arxiv.org/abs/2402.01032
-	- Our recent work on the comparison between Transformers and State Space Models for sequence modeling now on arxiv! TLDR - we find a key disadvantage of SSMs compared to Transformers: they cannot copy from their input
--  Self RAG
-	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/self_rag/self_rag.ipynb
-	- We’
+	- https://arxiv.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMT
-EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
-Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
-wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
-MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
-YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
-NCw2Nzg1MDcxMjldfQ==
+eyJoaXN0b3J5IjpbLTE3NTQ5NDIyMzcsLTEyNzEyNzQ4MzcsLT
+E2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2
+Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MD
+U1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3
+ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMj
+AyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4
+NywtMTYwNDg1ODU0NF19
 -->
