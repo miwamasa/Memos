@@ -4,12 +4,15 @@
 
 ## 6/17
 
-今週は、WWDCで始まった。アルトマン氏目撃情報が現地から多数。Apple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
+今週は、WWDCで始まった。アルトマン氏目撃情報が現地から多数。Apple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
 
 Nvidia、株を１０分割されたり、オーブンからA100のボードを出すファンCEOのビデオが話題になったり、ファンCEOはカルテック卒業式でスピーチと話題が満載ですが、Nemotron-4-340Bという謎の巨大ＬＬＭもリリース。もっとも、攻撃に対する脆弱性についてはまったく無配慮なことも明らかになった。
 
 DreamMachineから出たLumina、デート中にほかの子に気をそらされる男の子とか、写真をもとに動画をつくるということで、奥さんの若いころの写真から動画を作ったりと、不気味な感じ。あまりにも自然なので、もっとも厄介なのは、記憶を上書きしてしまう恐れがあるということだそうだ。
 
+Chromeで、ブラウザ上でGemini Nanoが動くようになるらしい、
+
+LLMを使いこなすのに必要な、言語化能力は、じつは
 
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
@@ -3597,10 +3600,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Ollamaのサイトに載っていないモデルは、自分で「**Modelfile**」を作成して、追加する必要があります。
 	- 「Llama2」のManifestを参考にさせてもらいます
 	- 今回は、「**ELYZA-japanese-Llama-2-7b-instruct-q4_K_M.gguf**」をダウンロードします。
-- Lecun先生、soar発表直前に、テキストからリアルなビデオを生成するのは当面先だと講演したことに対して言い訳を。。。
-	- https://x.com/ylecun/status/1758740
+- Lecun先生、soar発表直前に、テキストからリア
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTc4MzE0MDksLTEyNzEyNzQ4MzcsLT
+eyJoaXN0b3J5IjpbLTE1NTkwMjgxMjQsLTEyNzEyNzQ4MzcsLT
 E2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2
 Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MD
 U1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3
