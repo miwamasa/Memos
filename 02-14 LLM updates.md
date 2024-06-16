@@ -6,9 +6,10 @@
 
 今週は、WWDCで始まった。アルトマン氏目撃情報が現地から多数。Apple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
 
-Nvidia、株を１０分割されたり、オーブンからA100のボードを出すビデオが話題になったりと、しましたが、ファンCEOはカルテック卒業式でスピーチ。Nemotron-4-340Bという謎の巨大ＬＬＭもリリース、もっとも、攻撃に対する脆弱性についてはまったく無配慮なことも明らかになった。
+Nvidia、株を１０分割されたり、オーブンからA100のボードを出すファンCEOのビデオが話題になったり、ファンCEOはカルテック卒業式でスピーチと話題が満載ですが、Nemotron-4-340Bという謎の巨大ＬＬＭもリリース。もっとも、攻撃に対する脆弱性についてはまったく無配慮なことも明らかになった。
 
-DreamMachineから出たLumina、デート中にほかの子に気をそらされる男の子とか、写真をもとに動画をつくるということで、奥さんの若いころの写真から動画を作ったりと、不気味な感じ。
+DreamMachineから出たLumina、デート中にほかの子に気をそらされる男の子とか、写真をもとに動画をつくるということで、奥さんの若いころの写真から動画を作ったりと、不気味な感じ。あまりにも自然なので、もっとも厄介なのは、記憶を上書きしてしまう恐れがあるということだそうだ。
+
 
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
@@ -3597,15 +3598,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「Llama2」のManifestを参考にさせてもらいます
 	- 今回は、「**ELYZA-japanese-Llama-2-7b-instruct-q4_K_M.gguf**」をダウンロードします。
 - Lecun先生、soar発表直前に、テキストからリアルなビデオを生成するのは当面先だと講演したことに対して言い訳を。。。
-	- https://x.com/ylecun/status/1758740106955952191?s=20
-	- いや世界モデルを持つのがむつかしいというのが真意である。。。
-	- きっ
+	- https://x.com/ylecun/status/1758740
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5NzgyMzA5LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMj
-UzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcs
-LTE2MDQ4NTg1NDRdfQ==
+eyJoaXN0b3J5IjpbLTE2MTc4MzE0MDksLTEyNzEyNzQ4MzcsLT
+E2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2
+Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MD
+U1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3
+ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMj
+AyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4
+NywtMTYwNDg1ODU0NF19
 -->
