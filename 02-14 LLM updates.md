@@ -140,7 +140,11 @@
 	- RecurrentGemmaは、従来のGemmaモデルをベースに、新しいリカレントアーキテクチャを採用することで、より効率的かつ高性能な言語処理を実現しました。
 	- Colab notebook
 	- https://colab.research.google.com/drive/1jDbbKhBs-A__QOtp7S6WxGxBH4J6gtuj?usp=sharing
-- 
+-  Advancing personal health and wellness insights with AI
+	- https://research.google/blog/advancing-personal-health-and-wellness-insights-with-ai/
+	- Today on the blog, read about the latest from our two new research papers on how AI, particularly fine-tuned Gemini models, can create personalized health experiences that cater to individuals’ unique health journeys.
+- LLM CLI tool are the cool things you can do with piping.
+	- 
 
 
 ## 6/10
@@ -3579,17 +3583,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
 - ollamaでMixtralを動かしてLangChainのagentで neo4jする
 	- Managed to get Mixtral on @ollama working as an function calling @LangChainAI agent that interacts with @neo4j  through a semantic layer. Needs some tidying up and I'll be able to share it.
-	- https://x.com/tb_tomaz/status/1754861855929958488?s=20
-- Style-Bert-VITS2が即座に日本語特化モデル JP-Extraを取り込んでくれて、日本語発音がエグいです
-	- https://github.com/litagin02/Style-Bert-VITS2/releases/tag/2.0
-	- 「Style-Bert-VITS2」は、自動で文脈が把握され、感情表現が調整される
-	- https://huggingface.co/spaces/litagin/Style-Bert-VITS2-JVNV
-	- いやこれはすごい
-- NVIDIAがデータセンター向けGPU市場で98％のシェアを独占していることが判明、AI性能が明暗を分ける結果に - GIGAZINE
-	- https://gigazine.net/news/20240205-nvidia-gpu-market/
-- だめ。
+	- https:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Njk2OTk3MywtMTY3MjQ1NjE5OCwxMT
+eyJoaXN0b3J5IjpbMTc5NzQ3MDUxNywtMTY3MjQ1NjE5OCwxMT
 A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
 ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
 E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
