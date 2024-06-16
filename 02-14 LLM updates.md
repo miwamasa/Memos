@@ -215,7 +215,14 @@
 	- https://x.com/shuki004/status/1801681153705054588
 -  Lares smart home assistant: A toy AI agent demonstrating emergent behavior
 	- https://interconnected.org/more/2024/lares/
-	- 
+	- This is a great little example of how simple agent-based systems can lead to emergent behavior, even with tiny AIs like Apple's on-device LLM.
+	- Matt Webb built a demo AI smart home, when he asks it "turn on the light for my dog" the home figures out how.
+- DreamMachineが危険なのは、生成動画を見たら「本人の記憶が上書きされる」点だと思う
+	- https://x.com/genmeisui/status/1801944958062239884
+	- 例えば痴漢冤罪の人に「触った瞬間の動画が見つかった」と生成動画を見せ続けたら、「やったかも」と思い込ませることは難しくない
+- 予想はしていたけど5人目が出てきた時点でダメだった [#DreamMachine](https://x.com/hashtag/DreamMachine?src=hashtag_click)
+	- https://x.com/kizuki_jpn/status/1801950889747354076
+- 
 
 
 ## 6/10
@@ -3585,21 +3592,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 今週は、ほぼ予定通り（１日おくれ？）BardがGemini（ジェマナイと読む）に改名された。一方、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から画像から認識した情報片をつなげて店舗を特定したりと、コナン君なみの推理をしているのが何気にすごい。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判、Huggingfaceのデモ試すとたしかにレべチかも。基本性能が高いのか、0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速、量子化とか、Ollamaの対応が発表されたりされてる。たぶん、日本語LLMもrinna当たりからQwen-1.5ベースの日本語LLMの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり、どこかの職業が丸ごとなくなる性能だ。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（すでに死語？）にとどめを刺すだろうな。「小さなLLM」、英語でも"Smaller LLM"と呼ばれるらしい、小さなLLMでいいんだな、LLMのLargeはモデルの大小ではないとうこと、評価によるとFlan-T5がぶっちぎり？ MoE関係では、Mixtral-8x7Bの日本語向けのLoRaとか、MoEを単純化してExpertの切り替えを試してみる例とか面白い。基盤面では、探索なしでTransfomerだけでチェスマスタークラスのＡＩが作れるらしい。一方、Transformerの次世代基盤の一つとされるMamba、日本語での詳細な解説や、MoEでもあるBlackMambaとか、いろいろ出てきたな。理論面では、岡野さんの解説、The Consensus Game、RAGの改良を生成AIと識別AIの間のゲームとしてとらえるとは。NVIDIAも自らcanary-1bとか、Audio Flamingoとか音声や対話関係のモデルをリリース、自動運転では運転手との対話が必要なのはそのとおりなんだろう。RAG関係も、Self RAGとか、Guardrailsとか、GPT-4と組みあせた医療分野での評価とかいろいろ進んでいるが、評価フレームワークのragas 0.1がでたのは大きい。日本語LLMも、日本語のデータセットの整理や「LLM-jp 13B v1.1」のリリースとか着実に進んでいるのが心強い、はよNEDOの成果を！。知識グラフとのLLMの融合、Wikidata とかロードマップとか、Research Insightとか話題は続いている。
 
 -  Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?
-	- https://arxiv.org/abs/2402.00841
-	- Next to RoBERTa, FLAN-T5 is also a great go-to model for training text classifiers
-	- Flan-T5頑張るなあ
--  大規模言語モデルが科学的発見に与える影響：GPT-4を用いた予備的研究
-	- https://ai-scholar.tech/articles/large-language-models/impact_of_LLM
-	- GPT-4は科学的発見活動にも大きく寄与しつつあります。  
-	- 創薬、生物学、計算化学、材料設計、偏微分方程式と幅広く、GPT-4の応用が紹介されています。また、それぞれの応用でのテクニックを紹介しています。  
-	- 現時点でのGPT-4を用いるうえでの不足点を整理し、将来への展望をまとめています。
-	- 知見
-		- 全体的に言えば、GPT-4は創薬の全プロセスと個々のステップに関する知識を持っています。
-		- GPT-4は逆合成の予測精度が20.
-		- GPT-4が創薬におけるデータ処理のための正しいスクリプトを生成するのに役立つ
-		- 定量計算： GPT-4は生物学的な言語理解と処理に優れていますが、定量的な計算には限界があります。信頼できる結論を得るためには、手動で検証す
+	- https://arxiv.org/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTYzMTcyNiwtMTI3MTI3NDgzNywtMT
+eyJoaXN0b3J5IjpbMTU0MjY0NjgxMiwtMTI3MTI3NDgzNywtMT
 Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
 NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
 UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
