@@ -77,6 +77,10 @@
 	- https://x.com/umiyuki_ai/status/1800236837665206563
 -  Mixture-of-Agents Enhances Large Language Model Capabilities
 	- https://huggingface.co/papers/2406.04692
+	- With the growing number of LLMs, how to harness the collective expertise of multiple LLMs is an exciting open direction.
+	- we propose a new approach that leverages the collective strengths of multiple LLMs through a Mixture-of-Agents (MoA) methodology.
+	- our MoA using only open-source LLMs is the leader of AlpacaEval 2.0 by a substantial gap, achieving a score of 65.1% compared to 57.5% by GPT-4 Omni.
+- 議事録取ってるならGemini 1.5 Flashは使った方が良い
 	- 
 
 ## 6/10
@@ -3591,20 +3595,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  OpenAIアルトマン氏、半導体の資金調達で交渉　米報道
 	- https://www.nikkei.com/article/DGXZQOGN095R00Z00C24A2000000/
 	- 必要資金750兆円
--  Multilingual E5 Text Embeddings: A Technical Report
-	- https://huggingface.co/papers/2402.05672
-	- MicrosoftのE5エンベディングの実装ペーパー、今頃でるものなのか・
-- Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents
-	- https://github.com/yifanlu0227/ChatSim
-	- 生成AIの出現でシミュレータの世界も大きく変化。 昨日出たChatSimでは自然言語を入力してドライビングシミュレータを自由に編集することができる
--  LangChain 101: Part 3a. Talking to Documents: Load, Split, and simple RAG with LCEL
-	- https://pub.towardsai.net/langchain-101-part-3
+-  Multilingual E5 Text Embed
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTcwMDgwNzEsLTE2NzI0NTYxOTgsMT
-EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
-Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
-wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
-MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
-YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
-NCw2Nzg1MDcxMjldfQ==
+eyJoaXN0b3J5IjpbLTg0NDY2NjA4NSwtMTY3MjQ1NjE5OCwxMT
+A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
+ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
+E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
+OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
+AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
+LDY3ODUwNzEyOV19
 -->
