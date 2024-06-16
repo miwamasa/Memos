@@ -136,8 +136,11 @@
 	- https://x.com/overlast/status/1800746455159963737
 	- デバイス内モデルでは7Bモデルの上位に位置していて、サーバー内モデルではGPT-3.5 Turboを凌駕しているとのこと。粛々と性能を上げていて凄い |
 -  RecurrentGemma-9b: 革新的な自然言語処理モデルの登場
-	- https://hamaruki.com/recurrentgemma-introducing-a-revolutionary-natural-language-processing-model/#google_vignette
-	- 
+	- https://hamaruki.com/recurrentgemma-introducing-a-revolutionary-natural-language-processing-model/
+	- RecurrentGemmaは、従来のGemmaモデルをベースに、新しいリカレントアーキテクチャを採用することで、より効率的かつ高性能な言語処理を実現しました。
+	- Colab notebook
+	- https://colab.research.google.com/drive/1jDbbKhBs-A__QOtp7S6WxGxBH4J6gtuj?usp=sharing
+- 
 
 
 ## 6/10
@@ -3584,12 +3587,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- いやこれはすごい
 - NVIDIAがデータセンター向けGPU市場で98％のシェアを独占していることが判明、AI性能が明暗を分ける結果に - GIGAZINE
 	- https://gigazine.net/news/20240205-nvidia-gpu-market/
-- だめ。絶対。 by キムワイプ
-	- https://x.com/kimwipes_crecia/status/1754757418595336404?s=20
--  OpenMoE: An Early Effort on Open Mixture-of-Experts Language Models
-	- https://huggingface.co/
+- だめ。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjM1MTc4NSwtMTY3MjQ1NjE5OCwxMT
+eyJoaXN0b3J5IjpbLTg2Njk2OTk3MywtMTY3MjQ1NjE5OCwxMT
 A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
 ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
 E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
