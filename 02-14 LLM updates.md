@@ -192,7 +192,15 @@
 	- https://x.com/hey_madni/status/1801900554488291414
 	- 1. Distracted boyfriend
 	- 2. Disaster girl with firefighters
-- 
+- Ninja-v1のバージョンアップ、Ninja-V2-7Bをリリース致します。
+	- https://huggingface.co/Local-Novel-LLM-project/Ninja-V2-7B
+	- ベクトルマージ等の技術を活用し作成したMistralベースの70億パラメーターモデルです。
+	- Gemini pro 1.0評価で Elyza taskで3.71 JP MT Benchで8.24
+- Flaxを使用したRecurrentGemma2Bグリフィンモデルのファインチューニングチュートリアル(Kaggle、GoogleColabノート付)
+	- https://x.com/hAru_mAki_ch/status/1802227933534429614
+- Nemotron-4 340B is a huge release by NVIDIA!
+	- https://x.com/omarsar0/status/1802024352851878296
+	- 
 
 
 ## 6/10
@@ -3589,19 +3597,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/papers/2402.01831
 -  A Survey of Constraint Formulations in Safe Reinforcement Learning
 	- https://arxiv.org/abs/2402.02025
-	- 強化学習における安全性制約の記述方法に関するサーベイ論文を arXiv にて公開しました 。主要な定式化の理論的な関係性を議論しているのが面白いと思います
--  BlackMamba: Mixture of Experts for State-Space Models
-	- https://huggingface.co/papers/2402.01771
-- 英国AI Safety Instituteより3rd Progress Repoert。
-	- https://www.gov.uk/government/publications/uk-ai-safety-institute-third-progress-report/ai-safety-institute-third-progress-report
-	- Google DeepMindのGeoffrey Irving氏、Oxford大の神経科学者Chris Summerfield氏参画。コアKPIの「メンバーの、先端AIモデルに関する累積経験年数」が11月の150年から168年に増加。
--
+	- 強化学習における安全性制約の記述方法に関するサーベイ論文を arXiv にて公
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2NDM0ODQ0LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMj
-UzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcs
-LTE2MDQ4NTg1NDRdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQxOTk4MDcsLTEyNzEyNzQ4MzcsLT
+E2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2
+Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MD
+U1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3
+ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMj
+AyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4
+NywtMTYwNDg1ODU0NF19
 -->
