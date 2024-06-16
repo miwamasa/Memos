@@ -4,9 +4,9 @@
 
 ## 6/17
 
-今週は、WWDCで始まった。アップル本社上空からパラシュートで降りるオープニングから、クレイグ副社長の謎の運動能力のデモ、OpenAIのアルトマン氏目撃情報がAppleキャンパスの現地から多数など話題に事欠かない。Apple IntelligenceはApple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
+今週は、WWDCで始まった。アップル本社上空からパラシュートで降りるオープニングから、クレイグ副社長の謎の運動能力のデモ、OpenAIのアルトマン氏目撃情報がAppleキャンパスの現地から多数など話題に事欠かない。Apple IntelligenceはApple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、Ferret-UI論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、結局、顧客が不要な技術を買うことになっていると厳しい意見もあった。
 
-DreamMachineから出たLumina、デート中にほかの子に気をそらされる男の子とか、写真をもとに動画をつくるということで、奥さんの若いころの写真から動画を作ったりと、不気味な感じ。あまりにも自然なので、もっとも厄介なのは、記憶を上書きしてしまう恐れがあるということだそうだ。
+DreamMachineから出たLumina、デート中にほかの子に気をそらされる男の子とか、写真をもとに動画をつくるということで、奥さんの若いころの写真から動画を作ったりと、不気味な感じ。あまりにも自然なので、もっとも厄介なのは、記憶を上書きしてしまう恐れがあるということだそうだ。人の認知は弱い。
 
 さてGoogleは、Gemini 1.5 Flashの評判も高く、議事録作成は相当こなせそう、Chromeで、ブラウザ上でGemini Nanoが動くようになるらしい、RecurrentGemma-9bも、新しいリカレントアーキテクチャを採用することで、より効率的かつ高性能な言語処理を実現したというが、どうやら動作が安定してきている模様。DeepMindの、LLMの知識不足（ハルシネーション）を確かめる方法というのも、面白いが、人間にも適用できそうだ。
 
@@ -3593,9 +3593,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- This blog goes through how to use LLMs to extract knowledge triplets
 -  minbpe
 	- https://github.com/karpathy/minbpe
-	- Minimal, clean, educational code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenizat
+	- Minimal, clean, educational code for the Byte Pair Encoding (BPE) algorithm commonly use
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDgwMTkxMiwtODE3MjQzOTIwLDg4OD
+eyJoaXN0b3J5IjpbLTI4NzYwOTI2NywtODE3MjQzOTIwLDg4OD
 gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
 NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2ODg0ND
 UsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LDE2NjA0
