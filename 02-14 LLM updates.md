@@ -175,9 +175,17 @@
 - nvidia/Nemotron-4-340B-Instruct
 	- https://huggingface.co/nvidia/Nemotron-4-340B-Instruct
 	- https://x.com/webbigdata/status/1802173127767802234
-	- モデルは商業的に利用可能です。 
-	- 派生モデルは自由に作成および配布できます。 
-	- NVIDIA は、モデルまたは派生モデルを使用して生成された出力に対する所有権を主張しません。
+		- モデルは商業的に利用可能です。 
+		- 派生モデルは自由に作成および配布できます。 
+		- NVIDIA は、モデルまたは派生モデルを使用して生成された出力に対する所有権を主張しません。
+-  An Empirical Study of Mamba-based Language Models
+	- https://arxiv.org/abs/2406.07887
+	- Mamba2とTransformerの比較。学習量が1.1TtokenだとTransformerの方が精度が良い。一方3.5Ttoken学習するとMamba2が良くなる。
+	- https://x.com/jnishi/status/1801842541639438494
+	- ICLの性能はMamba2はTransformerに及ばないが、Mamba2とMLPとself-attentionを少しで構成したMamba2-HybridはICL性能は高い。
+- nitky/Oumuamua-7b-instruct-v2
+	- https://huggingface.co/nitky/Oumuamua-7b-instruct-v2
+- 
 
 
 ## 6/10
@@ -3585,18 +3593,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Stable-Diffusion-WebUI-Forge is a new platform to 
 		- (1) completely solve the speed and VRAM problem and 
 		- (2) adding UNet Patcher System to webui so that many new features can be implemented in about 100 lines of codes
--  Unifying Large Language Models and Knowledge Graphs: A Roadmap
-	- https://arxiv.org/abs/2306.08302v3
-	- この Knowledge Graph とLLMの関係について纏めた論文すごい。 
-	- Knowledge GraphとLLMが相互成長する仕組みが非常に分かりやすくフレームワーク化して纏められている。 論文というより現状の整理に近い
--  Wikidata from LangChain
-	- https://python.langchain.com/docs/integrations/tools/wikidata
-	- WikiData allows you to easily connect to a free and open knowledge base
--  Qwen1.5
-	- https://qwenlm.github.io/blog/qwen1.5/
-	
+-  Unifying Large Language Mod
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDQ0NjUxOSwtMTI3MTI3NDgzNywtMT
+eyJoaXN0b3J5IjpbMTk4ODY5MTg4NCwtMTI3MTI3NDgzNywtMT
 Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
 NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
 UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
