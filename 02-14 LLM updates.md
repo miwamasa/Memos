@@ -87,7 +87,13 @@
 	- https://x.com/mutaguchi/status/1799899202803433571
 	- 実はLLMくんはかしこくて、かしこくないので、ぜんぜん構造化されてない、論理も破綻していて、文字も間違いだらけで、言語としても成立していないようなぐちょぐちょテキストでも、勝手に雰囲気で補間・修正して読み取ってくれる。ただし、プロンプトには出力に必要な情報が過不足なく指定されていることは必要となる。
 	- つまりプロンプトを書くのに必要な言語化能力というのは、LLMの出力（入力プロンプトに対する補完）を引き出すために必要な文字列を、過不足なく仕込む能力ではあるのだが、必ずしも人間が見て「この人言語化能力高いなあ」と評価されるような文章を書く能力が必要とされているとは限らない、と考えている。
-- 
+- (LLMに入力するプロンプトを書くとき必要なのは)メタ言語能力、言語に対するメタ認知かな
+	- https://x.com/erukiti/status/1799945431864254487
+	- 会話とか言語化レベルではなく、言語を扱うLLMをhackするように、言語を間接的に扱う能力が必須。観察・気づき・制御・ねじ伏せ
+	- 1. 対象のドメイン知識とボキャブラリが死ぬほど必要（ここまでは普通の言語能力。簡単やね、やった！） 
+	- 2. LLMがどの程度理解が定まってるかの見極めが必要（一発で指定できるケースもあれば、説明文が必要、定義を一通り渡す必要などのケースもある。ここらへんはもう言語能力というよりメタ言語能力） 
+	- 3. 2で見極めた範囲内で指示をどれだけ最低限に軽量化できるか？複雑な指示は、指示を解釈するところにLLMの知性を使いすぎて、指示そのものに追従できなくなることがあるから、指示に従えるギリギリ最小限を狙うことになる（メタ言語能力） 
+	- あと、プロンプトやコードをLLMで生成するメタプロンプトやメタプログラミングみたいなのも普通に出てくるから、そういう意味でもメタ言語能力が必要だと思う
 
 ## 6/10
 
@@ -3583,21 +3589,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://github.com/fenghan0430/Open-AnimateAnyone
 	- アリババはAIの研究結果をオープンで出してくれてたけど、いざAnimateAnyoneみたいな有望な成果物ができたらスッとクローズにしてシュッと自社アプリに組み込む。つまり今までは自社サービスには使えんクオリティだから不用品リサイクルとしてオープンにしてただけ？
 -  Grandmaster-Level Chess Without Search
-	- https://arxiv.org/abs/2402.04494
-	- チェスでどの手が良いかをTransformerで教師あり学習したモデルは探索を使わなくても人より強くなる（探索ありAIよりは弱い）。教師ありデータはStockfish 16で作成しており、科学分野でよく使われるサロゲートモデルの一種とみなせる。
-- ragas 0.1 release
-	- https://github.com/explodinggradients/ragas
-	- We are releasing version 0.1 of Ragas today, the open-source standard for evaluating RAG applications.
--  Perplexityをもとに､複数の大規模言語モデルを切り替えて推論するシステムの簡単なコード実装
-	- https://note.com/kan_hatakeyama/n/nb5625d6411a8?sub_rt=share_pb
-	- モデルを統合するための簡単な実装コードを書いてみます。  最近は､普通にmergekitもあるようですが､勉強も兼ねた実装です
-	- 与えられた入力文章に対するPerple
+	- https://arxiv.org/ab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjMzNzY5ODIsLTE2NzI0NTYxOTgsMT
-EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
-Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
-wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
-MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
-YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
-NCw2Nzg1MDcxMjldfQ==
+eyJoaXN0b3J5IjpbNDM0NjM2NjE2LC0xNjcyNDU2MTk4LDExMD
+cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
+ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
+Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
+MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MD
+E5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQs
+Njc4NTA3MTI5XX0=
 -->
