@@ -144,7 +144,14 @@
 	- https://research.google/blog/advancing-personal-health-and-wellness-insights-with-ai/
 	- Today on the blog, read about the latest from our two new research papers on how AI, particularly fine-tuned Gemini models, can create personalized health experiences that cater to individuals’ unique health journeys.
 - LLM CLI tool are the cool things you can do with piping.
-	- 
+	- https://x.com/HamelHusain/status/1800741993276203043
+- 最新のLLMの多くは「アリスにはN人の兄弟とM人の姉妹がいる。アリスの兄には何人の姉妹がいるか」という簡単な推論と常識を必要とする問題が解けないことを指摘。
+	- https://x.com/shion_honda/status/1800895368458305643
+- 「生成モデルの基礎と応用」の講義資料を公開します by 大阪大学　高橋先生
+	- https://x.com/taka8hiroshi/status/1801177682450981251
+	- 最尤推定からスタートして、深層生成モデルやTransformerを一通り理解しようという内容です。ぜひご覧ください
+		- https://speakerdeck.com/takahashihiroshi/generative-models
+- 
 
 
 ## 6/10
@@ -3577,19 +3584,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Qwen1.5-0.5B-chat with Transformer.js
 	- Qwen1.5 is out: a collection of powerful LLMs with sizes ranging from 0.5B to 72B parameters.
 	- https://x.com/xenovacom/status/1754873501536645292?s=20
-	- Even at 8-bit quantization, the smallest one (0.5B) is surprisingly good for its size! Here's a demo I made with Transformers.js (v2.15), running 100% locally in the browser w/ WASM!
-	- https://github.com/xenova/transformers.js	
-- Gradio demo of Qwen1.5-72B-Chat
-	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
-- ollamaでMixtralを動かしてLangChainのagentで neo4jする
-	- Managed to get Mixtral on @ollama working as an function calling @LangChainAI agent that interacts with @neo4j  through a semantic layer. Needs some tidying up and I'll be able to share it.
-	- https:
+	- Even at 8-bit quantization, the smallest one (0.5B) is surprisingly good for its size! Here's a demo I made with Transformers.js (v2.15), running 100% 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzQ3MDUxNywtMTY3MjQ1NjE5OCwxMT
-A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
-ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
-E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
-OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
-AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
-LDY3ODUwNzEyOV19
+eyJoaXN0b3J5IjpbLTE1OTgyOTkxMTIsLTE2NzI0NTYxOTgsMT
+EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
+Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
+wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
+MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
+YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
+NCw2Nzg1MDcxMjldfQ==
 -->
