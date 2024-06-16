@@ -163,6 +163,7 @@
 	- https://x.com/webbigdata/status/1801928695764099084
 	- Gemma 7Bは特定の知識ベースのタスク(科学、数学、プログラミング問題)で高いパフォーマンス 
 	- RecurrentGemma 9Bは、常識推論や一般知識を必要とするタスクで高いパフォーマンス と言う違いがあります
+	- RecurrentGemma 9BはHugging faceのTransformesrで微調整サポートはされていますが、issues見る限り危険な香りがするので
 
 
 ## 6/10
@@ -3588,13 +3589,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Our recent work on the comparison between Transformers and State Space Models for sequence modeling now on arxiv! TLDR - we find a key disadvantage of SSMs compared to Transformers: they cannot copy from their input
 -  Self RAG
 	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/self_rag/self_rag.ipynb
-	- We’re excited to feature Self-RAG, a special RAG technique where an LLM can do self-reflect
+	- We’re e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjUyODY4NiwtMTY3MjQ1NjE5OCwxMT
-A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
-ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
-E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
-OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
-AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
-LDY3ODUwNzEyOV19
+eyJoaXN0b3J5IjpbMjAxNDQ3ODg2LC0xNjcyNDU2MTk4LDExMD
+cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
+ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
+Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
+MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MD
+E5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQs
+Njc4NTA3MTI5XX0=
 -->
