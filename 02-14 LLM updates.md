@@ -37,6 +37,12 @@
 	- 4カ月前のQwen1.5で中学生、
 	- 2ヶ月前のLlama3で高校生、
 	- 直近のQwen2で大学生って感じかもしれない。グラボ買ってもかつては5歳児AIしか雇用できなかったのが今では同じグラボで大学生AIが雇用できてしまうというコスパの爆上がり。そして1年後はどうなってしまうのか？院生レベル？博士レベル？
+-  Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
+	- https://arxiv.org/abs/2404.05719
+	- Apple already published a paper on it that disclosed way more details than what we expect from Apple. 
+	- It's called "Ferret-UI", a multimodal vision-language model that understands icons, widgets, and text on iOS mobile screen, and reasons about their spatial relationships and functional meanings.
+- GraphRAGふーんって感じだったけど、びっくりするくらいわかりやすかった
+	- https://x.com/__genzitsu__/status/1800074489897889998
 - 
 
 ## 6/10
@@ -3591,20 +3597,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Step 4: Use a Large Language Model (LLM)
 	- Step 5: Extract Metadata
 	- Step 6: Implement a Document Retriever for Metadata
-	- Step 7: Integrate SQL Querying with a Data Warehouse
-	- Step 8: Develop a Prompt Refinement Engine
-	- Step 9: Create a Response Post-processor
-	- Step 10: Deliver the Response
-- Buffer Overflow in Mixture of Experts
-	- https://arxiv.org/abs/2402.05526
-	- "Mixture of Experts (MoE) has become a key ingredient for scaling large foundation models while keeping inference costs steady. We show that expert routing strategies that have cross-batch dependencies are vulnerable to attacks. Malicious
-- WolframEngine+JupyterNotebookで疑似Mat
+	- Step 7: Integrate SQL Que
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTE2NTE0OCwtMTY3MjQ1NjE5OCwxMT
-A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
-ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
-E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
-OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
-AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
-LDY3ODUwNzEyOV19
+eyJoaXN0b3J5IjpbLTEyNDkxNTk3MzAsLTE2NzI0NTYxOTgsMT
+EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
+Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
+wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
+MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
+YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
+NCw2Nzg1MDcxMjldfQ==
 -->
