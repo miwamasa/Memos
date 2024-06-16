@@ -211,6 +211,10 @@
 - Can language models be used as world simulators? In our ACL 2024 paper, we show -- not really.
 	- https://arxiv.org/pdf/2406.06485
 	- GPT-4 is only ~60% accurate at simulating state changes based on common-sense tasks, like boiling water.
+- nvidiaのファンCEO、Caltecの卒業式でスピーチ
+	- https://x.com/shuki004/status/1801681153705054588
+-  Lares smart home assistant: A toy AI agent demonstrating emergent behavior
+	- https://interconnected.org/more/2024/lares/
 	- 
 
 
@@ -3593,12 +3597,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 全体的に言えば、GPT-4は創薬の全プロセスと個々のステップに関する知識を持っています。
 		- GPT-4は逆合成の予測精度が20.
 		- GPT-4が創薬におけるデータ処理のための正しいスクリプトを生成するのに役立つ
-		- 定量計算： GPT-4は生物学的な言語理解と処理に優れていますが、定量的な計算には限界があります。信頼できる結論を得るためには、手動で検証するか、別の計算ツールで検証することをお勧めします
-- Qwen2-14BのMTBenchが7.99でClaude-1超えてるのはマジやばい by うみゆき
-	- https://x.com/umiyuki_ai/status/1754435534511050870?s=20
-	- Qwen2としてウワサになってたモデルがQwen1.5としてリリースされた！Mistral-Mediumに匹敵する性能がオープンソースで！
+		- 定量計算： GPT-4は生物学的な言語理解と処理に優れていますが、定量的な計算には限界があります。信頼できる結論を得るためには、手動で検証す
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDY1NTY1MiwtMTI3MTI3NDgzNywtMT
+eyJoaXN0b3J5IjpbMTg0NTYzMTcyNiwtMTI3MTI3NDgzNywtMT
 Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
 NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
 UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
