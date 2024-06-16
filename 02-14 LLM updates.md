@@ -4,7 +4,7 @@
 
 ## 6/17
 
-今週は、WWDCで始まった。Apple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルなLLM
+今週は、WWDCで始まった。Apple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルなLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMをシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要なぎじゅつ
 
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
@@ -3604,13 +3604,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 2/13
 
-今週は、ほぼ予定通り（１日おくれ？）BardがGemini（ジェマナイと読む）に改名された。一方、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から画像から認識した情報片をつなげて店舗を特定したりと、コナン君なみの推理をしているのが何気にすごい。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判、Huggingfaceのデモ試すとたしかにレべチかも。基本性能が高いのか、0
+今週は、ほぼ予定通り（１日おくれ？）BardがGemini（ジェマナイと読む）に改名された。一方、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から画像から認識した情報片をつなげて店舗を特定したりと、コナン君なみ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNDc2NDQxLC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMj
-UzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcs
-LTE2MDQ4NTg1NDRdfQ==
+eyJoaXN0b3J5IjpbMTc0NjUwMjA2MywtMTI3MTI3NDgzNywtMT
+Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
+NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
+UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
+MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMD
+I1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3
+LC0xNjA0ODU4NTQ0XX0=
 -->
