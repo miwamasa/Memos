@@ -4,7 +4,7 @@
 
 ## 6/17
 
-今週は、WWDCで始まった。OpenAIのアルトマン氏目撃情報が現地から多数。Apple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
+今週は、WWDCで始まった。OpenAIのアルトマン氏目撃情報がAppleキャンパスの現地から多数。Apple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
 
 DreamMachineから出たLumina、デート中にほかの子に気をそらされる男の子とか、写真をもとに動画をつくるということで、奥さんの若いころの写真から動画を作ったりと、不気味な感じ。あまりにも自然なので、もっとも厄介なのは、記憶を上書きしてしまう恐れがあるということだそうだ。
 
@@ -14,7 +14,7 @@ Nvidia、株を１０分割されたり、オーブンからA100のボードを�
 
 LLMを使いこなすのに必要な、言語化能力は、実はメタ言語能力であるとの説。
 
-
+アリス問題というのも話題になった、「アリスにはN人の兄弟とM人の姉妹がいる。アリスの兄には何人の姉妹がいるか」
 
 
 
@@ -3599,10 +3599,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/npaka123/status/1758656487399014521?s=20
 	- ?? Advance???
 - Ollama で Elyza-7B を試す by npakaさん
-	- https://note.com/npaka/n/ndadbae6c6be5?sub_rt=share_h
-	- 「Ollama」
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDUyNTM3NCwtMTI3MTI3NDgzNywtMT
+eyJoaXN0b3J5IjpbMTIyNDgyMjIzOCwtMTI3MTI3NDgzNywtMT
 Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
 NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
 UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
