@@ -151,7 +151,13 @@
 	- https://x.com/taka8hiroshi/status/1801177682450981251
 	- 最尤推定からスタートして、深層生成モデルやTransformerを一通り理解しようという内容です。ぜひご覧ください
 		- https://speakerdeck.com/takahashihiroshi/generative-models
-- 
+- サカナAIが1年でユニコーン　日本最速､200億円追加調達
+	- https://www.nikkei.com/article/DGXZQOUC144OB0U4A610C2000000/
+- Oumuamua-7b-instruct-v2、Shaberi3ベンチマークで平均点7.25です by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1801836418744127702
+	- GPT3.5T（7.16）やQwen2-7B（7.23）を超えてます。メッチャ強い
+- 巨人オープンLLMで話題の Nemotron-340B お試し by AIXさとしさん
+	- 
 
 
 ## 6/10
@@ -3582,15 +3588,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/rohanpaul_ai/status/1754843805507887477?s=20
 	- As per report - "2023: The State of Generative AI in the Enterprise"
 - Qwen1.5-0.5B-chat with Transformer.js
-	- Qwen1.5 is out: a collection of powerful LLMs with sizes ranging from 0.5B to 72B parameters.
-	- https://x.com/xenovacom/status/1754873501536645292?s=20
-	- Even at 8-bit quantization, the smallest one (0.5B) is surprisingly good for its size! Here's a demo I made with Transformers.js (v2.15), running 100% 
+	- Qwen1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTgyOTkxMTIsLTE2NzI0NTYxOTgsMT
-EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
-Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
-wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
-MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
-YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
-NCw2Nzg1MDcxMjldfQ==
+eyJoaXN0b3J5IjpbODUwODc0MzQ4LC0xNjcyNDU2MTk4LDExMD
+cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
+ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
+Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
+MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MD
+E5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQs
+Njc4NTA3MTI5XX0=
 -->
