@@ -1,6 +1,13 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+
+## 6/17
+
+- MMed-Llama-3-8B
+	- https://x.com/longislandtea3/status/1799013747178278939
+	- ２週間ほど前に出たMMed-Llama-3-8B 医療用のオープンモデルとしてはGPT-3.5を軽く超え、GPT-4を匹敵すると言っている
+
 ## 6/10
 
 今週はNotebookLMがすごかった。LLMの躍進にやられぱなしであるが、LLM活用で希望を持てる事例も。理論面では、Transformerの次のアーキテクチャと下馬評の高いMambaであるが、CMUによるMamba-2の提案では新しく導入された状態空間双対性(SSD)によって、Transformerに匹敵する性能を達成しながら、Transformerよりも効率的にスケールするそうだ。岡野原さんによるとtransformerとSSMが統一されたとのこと。LSTMを改良してtransformer並みのスケーラビリティがあるというxLSTMというのも気になる。OpenAIがGPT-4の内部表現分析に活用した**k-Sparse Autoencoders**って、Anthropicがつい最近発表したスパースオートエンコーダの利用と同列か、なおスパースオートエンコーダ自身はICLR 2014 で発表されたと著者がツイート。さて、新しいLLMの発表では、アリババがQwen2を発表、全体的にLlama3超えとか、最上位モデル以外はApacheライセンスとか、ollamaがさっそく対応とか、7B-instructのお試しをhuggingface spaceにAIXサトシさんが提供とか、にぎやかだ、これからの評価が気になる。GLM4-9Bって 智谱AIのモデルも相当性能が高いらしい、双方とも中華LLMらしく日本語堪能なのだがライセンスには注意が必要とのこと。GoogleのGemini 1.5 Proだって日本語性能すごい、布留川さんのGoogle Gemini 1.5の新刊もでるので、是非お試しを。 Google AI Studioで無料お試しでそのポテンシャルは明らかなわけであるが、gpt-4oに話題を持っていかれ気味。そこで、一気に挽回というわけではないが、Gemini 1.5 ProをバックエンドにもつNotebookLMの試行が開始。PDF、テキスト、URLをソースとして登録すると、そのソースに対して、概要やFAQ、さらにはチャットによる応答と根拠箇所の表示ができるという代物。いや、ローカルドキュメントでRAG作るみたいな話は全部吹っ飛ぶような話ではあるが、生成の部分の抽出の部分のバランスが正味どれくらいかこれからの評価が気になる。AIに情報をまとめてきてもらうついでにそれをWeb記事の体裁でまとめて公開するPerplexity Pagesなんかも、そうだけど、各社ともチャットの次のキラーアプリを探して試行している感じかなー。最悪のシナリオはこれらの試行の結果、使いこなせる人は少なかったという結論になること。kobayashiさんの、「LLM を使いこなせる人 ＝ 言語能力が高い人」というのは、このような能力を得るには、リスキングでは追いつけないという身もふたもない話。AIリテラシーはいかに言語能力を上げるかにかかっている。言語能力が高い人の例とは、例えば、コンサルタントが本物か偽物かを見抜く１０の質問みたいなやつができる人か。一方NTTのstreamitを使ったAIの民主化とか、概念データモデルをつかったデータの整理など、現場にはまだ力があって、これを生成AIを使って会社のDXにつなげるってのも、希望を持てるLLM活用パターンな感じがしてきた。これらに比べてAIで生産性を上げて人手不足を解消し、余った人向けに転職促進という、政府の成長戦略の薄っぺらいことよ。放送大学の教科書『自然言語処理』の改訂版と三訂版の比較、いかに言語処理の基本構成がtransformerの登場で大きく書き換わったかが目次だけでもよくわかる。しかし、「知識グラフって最近聞かなないなあ」とは、小町先生冷たすぎ。GraphRAGとかProperty Graph Indexとか、LLM応用界隈では知識グラフはまだホットだし、Document Intelligenceのようにハルシネーションを抑える手段としての知識の重要さもわかってきたところなんですけど。最後に、Hassabis がインタビューで言及したProject Astra(Goole I/O 2024でデモしたやつ）、あと１から２年でリリース、普通の人が使えるアシスタントとしてゲームチェンジャーになるとのこと。
@@ -3584,15 +3591,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 各種チューニングですごい流暢になってる。学習詳細も公開されてて参考になる。
 - The biggest Collection of Colab Based LLMs Fine tuning Notebooks
 	- https://github.com/ashishpatel26/LLM-Finetuning
--  Google Colab で LLM-jp 13B v1.1 を試す by nakaさん
-	- https://note.com/npaka/n/n2c272727d95a?sub_rt=share_h
-	- 「LLM-jp 13B v1.1」は、「LLM-jp 13B」の最新版です。日英両データセットによるSFT、ichikaraデータセットの追加+D
+-  Google Colab で LLM-j
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMT
-I4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIy
-ODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LD
-QxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgw
-MTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3NjYwMTksLTMyNjE0Nj
-MxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0NCw2Nzg1MDcxMjks
-LTQ0MTAzODgyMl19
+eyJoaXN0b3J5IjpbLTE0ODUzNDAxMDEsLTE2NzI0NTYxOTgsMT
+EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
+Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
+wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
+MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
+YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
+NCw2Nzg1MDcxMjldfQ==
 -->
