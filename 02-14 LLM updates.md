@@ -4,7 +4,7 @@
 
 ## 6/17
 
-今週は、WWDCで始まった。アップル本社上空からパラシュートで降りるオープニングから、クレイグ副社長の謎の運動能力のデモ、OpenAIのアルトマン氏目撃情報がAppleキャンパスの現地から多数。Apple IntelligenceはApple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
+今週は、WWDCで始まった。アップル本社上空からパラシュートで降りるオープニングから、クレイグ副社長の謎の運動能力のデモ、OpenAIのアルトマン氏目撃情報がAppleキャンパスの現地から多数など話題に事欠かない。Apple IntelligenceはApple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
 
 DreamMachineから出たLumina、デート中にほかの子に気をそらされる男の子とか、写真をもとに動画をつくるということで、奥さんの若いころの写真から動画を作ったりと、不気味な感じ。あまりにも自然なので、もっとも厄介なのは、記憶を上書きしてしまう恐れがあるということだそうだ。
 
@@ -16,7 +16,7 @@ NVIDIA、株を１０分割されたり、オーブンからA100のボードを�
 
 アリス問題というのも話題になった、「アリスにはN人の兄弟とM人の姉妹がいる。アリスの兄には何人の姉妹がいるか」
 
-知識グラフ、Personalized PageRank を組み合わせたHippoRAG、人の脳内処理と類似しているといってるが、今井先生の新刊『「何回説明しても伝わらない」はなぜ起こるのか？』をみても、都合の良い記憶に残ったわずかな情報から人間も答えている気がしてきた。今井先生によると、突き詰めたひとが得る優れた直観というのが、AIが
+知識グラフ、Personalized PageRank を組み合わせたHippoRAG、人の脳内処理と類似しているといってるが、今井先生の新刊『「何回説明しても伝わらない」はなぜ起こるのか？』をみても、都合の良い記憶に残ったわずかな情報から人間も答えている気がしてきた。今井先生によると、ビジネスや探求を突き詰めた人が得られる「優れた直観」というのを、AIが奪うのではというのは頭に残った。
 
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
@@ -3593,10 +3593,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- This blog goes through how to use LLMs to extract knowledge triplets
 -  minbpe
 	- https://github.com/karpathy/minbpe
-	- Minimal, clean, educational code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization."
--  Video generation models as 
+	- Minimal, clean, educational code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenizat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDAzNzM3MCwtODE3MjQzOTIwLDg4OD
+eyJoaXN0b3J5IjpbLTkxMDgwMTkxMiwtODE3MjQzOTIwLDg4OD
 gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
 NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2ODg0ND
 UsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LDE2NjA0
