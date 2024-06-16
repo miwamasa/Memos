@@ -122,7 +122,12 @@
 	- https://github.com/neo4j-labs/text2cypher/blob/main/finetuning/unsloth-llama3/README.md#llamaindex
 	- that allows you to directly use this LLM to generate cypher statements and retrieve knowledge graph entities as "chunks" for your Graph RAG pipeline!
 - RecurrentGemma 9B 
-	- 
+	- https://huggingface.co/collections/google/recurrentgemma-release-66152cbdd2d6619cb1665b7a
+	- This new model achieves performance comparable to the largest Gemma 1 model, but with significantly greater efficiency.
+	- For example, on a single TPU-v4, it delivers 80x higher throughput when sampling 1k tokens from a 2k token prompt.
+- Doing RAG? Vector search is *not* enough
+	- https://techcommunity.microsoft.com/t5/microsoft-developer-community/doing-rag-vector-search-is-not-enough/ba-p/4161073
+	- RAGにおいて、ベクトル検索だけじゃなく全文検索も加えたハイブリッド検索じゃないとパフォーマンスが出ないことを試してみた、というMicrosoft方の記事
 
 
 ## 6/10
@@ -3579,19 +3584,8 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- GPT-4にRAG（検索拡張生成）を適用することで、臨床医学の問題において、人間の医師よりも高い精度が達成できたと報告
 	- 適切なRAGシステム設計により、GPT-4単体よりも10%以上精度が向上し、人間医師よりも5%以上高いスコアを出
 	- 研究者らはこの結果は注目に値するとしつつ、より広範な分野で実験を重ねていくべきとしています。 
-	- また、ハルシネーションが低いとはいえ、医学における自動化は慎重であるべきとも述べています。
-- Open AI shifts its battleground to Software
-	- https://x.com/bioshok3/status/1755376649816953209?s=20
-	- Open AIは現在2種類のエージェントAIを構築中
-	- 1つはわりと自由にデバイスを操作可能なエージェント 
-		- 顧客は ChatGPT エージェントに、分析のためにドキュメントからスプレッドシートにデータを転送したり、経費報告書を自動的に記入して会計ソフトウェアに入力したりするよう依頼できます
-	- もう一つはWEB上で様々な操作可能なエージェント （1つ目はセキュリティやプライバシー懸念する人もいるのでもう一つのタイプを開発しているとのこと）
-- Fully local RAG using @Teknium1 OpenHermes, @ollama and @streamlit
-	- GPT4 level performance at 0% of the cost
-	- https://github.com/phidatahq/phidata/tree/main/cookbook/local_rag
-- 海外高性能言語
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQzNjM1LC0xNjcyNDU2MTk4LDExMD
+eyJoaXN0b3J5IjpbNDUyNDY2ODI1LC0xNjcyNDU2MTk4LDExMD
 cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
 ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
 Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
