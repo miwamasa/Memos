@@ -24,7 +24,13 @@
 	- Presents a factual QA benchmark of 4,409 QA pairs and mock APIs to simulate web and Knowledge Graph (KG) search
 - Scalable MatMul-free Language Modeling
 	- https://arxiv.org/abs/2406.02528
-	- LLMの計算コストを支配する行列積（MatMul）を完全に排除しながら、パフォーマンスを維持する方法が発表された ちょっと前に業界の話題を席けんしたBitNet1.58bの上位互換ともとれる FPGAで実装し、効果を確認しており、これは脱GPUの流れが来るかもしれない
+	- LLMの計算コストを支配する行列積（MatMul）を完全に排除しながら、パフォーマンスを維持する方法が発表された 
+	- ちょっと前に業界の話題を席けんしたBitNet1.58bの上位互換ともとれる 
+	- FPGAで実装し、効果を確認しており、これは脱GPUの流れが来るかもしれない
+- AppleデバイスにChatGPTが統合されます！
+	- https://x.com/gizmodojapan/status/1800237589330526454
+	- iPhone/Mac等から無料でChatGPTにアクセスできるようになります。アカウント作成も不要（有料アカウントを持ってる場合はそちらを使えるよう）。
+- 
 
 ## 6/10
 
@@ -3589,14 +3595,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/blkcatman/status/1756219896026067052?s=20
 - 【Mamba】Transformerを凌駕しうるアーキテクチャを徹底解説（ソースコードあり）
 	- https://qiita.com/peony_snow/items/649ecb307cd3b5c10aa7
-	- １．MambaはAttentionやMLPBlockを持たない簡素化されたアーキテクチャを有します。選択的状態空間モデル（Selective SSM：Selective State Space Model）という新しい構造を用いることで、必要な情報のみに注目し、計算効率の大幅な向上を達成しています。
-	- ２．高速な推論（Transformerの約5倍）を可能にするとともに、シーケンス長（トークン数などのこと）の増大に対して、推論コストが線形に増大するという特徴を有します（これまでのモデルでは非線形的な増大がありました）。この性能向上は実データにおける検証で、シーケンス長が1000k（１００万）においてまで確認
+	- １．MambaはAttentionやMLPBlockを持たない簡素化されたアーキテクチャを有します。選択的状態空間モデル（Selective SSM：Selective State Space Model）という新しい構造を用いることで、必要な情報のみに注目し、計
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzk1NDQyNSwtMTY3MjQ1NjE5OCwxMT
-A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
-ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
-E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
-OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
-AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
-LDY3ODUwNzEyOV19
+eyJoaXN0b3J5IjpbLTEzMjg1MjYyMTMsLTE2NzI0NTYxOTgsMT
+EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
+Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
+wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
+MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
+YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
+NCw2Nzg1MDcxMjldfQ==
 -->
