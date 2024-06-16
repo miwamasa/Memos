@@ -99,7 +99,14 @@
 - 統計学の本質の一つは仮定にあると思う。 
 	- https://x.com/1kn29cgQJzRwtgd/status/1800005796585259435
 	- そもそも統計学関係なく、データを解釈する際、人間は仮定をおく。 通常それは暗黙の仮定だが、統計学はそれを明示し、その仮定でよいのかや仮定がズレることの影響を議論できるようにする。 仮定を明示し、議論の俎上にのせる。これが統計学の効能の一つ
-- 
+- SEDDは離散データに対する拡散モデル。by 岡野原さん
+	- https://x.com/hillbig/status/1800303691364470800
+	- 離散版のスコアであるコンクリートスコア（p(y)/p(x)）をデノイジングスコアエントロピー最小化で求める。スコアエントロピーはELBOとみなせ尤度の下限を与えられる。言語モデルなどで同パラメータモデルに匹敵する性能。一貫性に優れる
+-  To Believe or Not to Believe Your LLM　by DeepMind
+	- https://arxiv.org/abs/2406.02543
+	- Google DeepMindは、ある問題におけるLLMの知識不足（ハルシネーション）を確かめる方法を考案しています。
+	- 同じ質問に対する回答のバラつきを見ることで、自信を持って正しい回答をしているのか、知識不足のために間違った回答をしているのかを判断できるとのことです。
+	- 
 
 ## 6/10
 
@@ -3583,20 +3590,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- So we have created a new section in the RAG overview to summarize and help you keep track of insights into the latest RAG techniques.
 - Nvidia releases canary-1b
 	- https://huggingface.co/spaces/nvidia/canary-1b
-	- With 1 billion parameters, Canary-1B supports automatic speech-to-text recognition (ASR) in 4 languages (English, German, French, Spanish) and translation from English to German/French/Spanish and from…
-- Bard は Gemini（ジェミニ）になります！
-	- https://x.com/googlejapan/status/1755607418103587148?s=20
-	- Gemini は Bard に搭載されている AI モデルですが、この高度なテクノロジーが反映されていることをわかりやすく伝えるために、名前を変えました
-	- https://gemini.google.com/app
-- The Consensus Game: Language Model Generation via Equilibrium Search by 岡野さん
-	- https://openreview.net/forum?id=n9xeGcI4Yg
-	- LLMで質問応答等のタスクをこなす場合、生成的に解く場合（p(y|x,v=真)) と識別的に解く
+	- With 1 billion parameters, Canary-1B supports automatic speech-to-text recognition (ASR) in 4 languages (English, German, French, Spanish) and tran
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5OTc0Nzc1LC0xNjcyNDU2MTk4LDExMD
-cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
-ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
-Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
-MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MD
-E5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQs
-Njc4NTA3MTI5XX0=
+eyJoaXN0b3J5IjpbMTU3NTQ0Mzk3MywtMTY3MjQ1NjE5OCwxMT
+A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
+ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
+E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
+OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
+AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
+LDY3ODUwNzEyOV19
 -->
