@@ -129,7 +129,15 @@
 	- https://techcommunity.microsoft.com/t5/microsoft-developer-community/doing-rag-vector-search-is-not-enough/ba-p/4161073
 	- RAGにおいて、ベクトル検索だけじゃなく全文検索も加えたハイブリッド検索じゃないとパフォーマンスが出ないことを試してみた、というMicrosoft方の記事
 	- RAG ＝ベクトル検索という風潮があるが、そうではない、と
--  Llama for Scalable Image Generation a
+-  Llama for Scalable Image Generation a.k.a LlamaGen
+	- https://github.com/FoundationVision/LlamaGen
+	- 拡散モデルを上回るTransformerによる画像生成
+- Apple Intelligence の性能の自社評価の結果。
+	- https://x.com/overlast/status/1800746455159963737
+	- デバイス内モデルでは7Bモデルの上位に位置していて、サーバー内モデルではGPT-3.5 Turboを凌駕しているとのこと。粛々と性能を上げていて凄い |
+-  RecurrentGemma-9b: 革新的な自然言語処理モデルの登場
+	- https://hamaruki.com/recurrentgemma-introducing-a-revolutionary-natural-language-processing-model/#google_vignette
+	- 
 
 
 ## 6/10
@@ -3579,14 +3587,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - だめ。絶対。 by キムワイプ
 	- https://x.com/kimwipes_crecia/status/1754757418595336404?s=20
 -  OpenMoE: An Early Effort on Open Mixture-of-Experts Language Models
-	- https://huggingface.co/papers/2402.01739
-	- To help the open-source community have a better understanding of Mixture-of-Experts (MoE) based large language models (LLMs), we train and release OpenMoE,
-- Development and Testing of Retrieval Augmented Generation in Large Language Models - A Case Study Report
-	- https://arxiv.org/abs/2402.01733
-	- GPT-4にRAG（検索拡張生成）を適用することで、臨床医学の問題において、人間の医師よりも高い精度が達成できたと報告
-	- 適切なRAGシステム設計により、GPT-4単体よりも10%以上精度が
+	- https://huggingface.co/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTc1NDk5NywtMTY3MjQ1NjE5OCwxMT
+eyJoaXN0b3J5IjpbMjAyMjM1MTc4NSwtMTY3MjQ1NjE5OCwxMT
 A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
 ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
 E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
