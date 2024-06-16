@@ -110,6 +110,10 @@
 	- https://note.com/npaka/n/ncd651c042e6a?sub_rt=share_h
 	- 「Apple Intelligence」は、ユーザーの日常的なタスクに特化した複数の高性能生成モデルで構成されており、現在のアクティビティに即座に適応できます。
 	- https://machinelearning.apple.com/research/introducing-apple-foundation-models
+	- 「**約3Bパラメータを持つオンデバイスの言語モデル**」と「**Private Cloud Computeで利用できるサーバーの言語モデル**」が、特殊なタスクを効率的、正確、責任を持って実行するためにどのように構築および適応されたかを説明します。
+	- AIツールの開発方法とそれを支えるモデルをガイドする責任あるAI原則を作成しました。
+- # Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models
+
 
 ## 6/10
 
@@ -3586,13 +3590,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://docs.llamaindex.ai/en/stable/examples/agent/custom_agent.html#step-wise-queries
 	- In our brand-new cookbook, learn how to build a custom agent that can execute complex queries over your data, and can also be interrupted in the middle of execution with user inputs!
 - Ollama OpenAI compatibility is here!
-	- https://ollama.com/blog/openai-compatibility
-	- つまり、ollamaでopenaiのAPIつかってURLをollamaエンドポイントに変えるだけで動くということ
--  RAG Research Insights
-	- https://www.promptingguide.ai/research/rag#rag-research-insights
-	- So we have created a new section in the RAG overview to summarize and help you keep track of insights i
+	- https://oll
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzA5Nzg0NSwtMTY3MjQ1NjE5OCwxMT
+eyJoaXN0b3J5IjpbLTYyODYyNjczMiwtMTY3MjQ1NjE5OCwxMT
 A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
 ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
 E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
