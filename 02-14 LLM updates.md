@@ -132,6 +132,8 @@ LLMを使いこなすのに必要な、言語化能力は、実はメタ言語�
 - Sam Altman’s blue backpack didn’t show up today at Apple Park which is a notable shift for AI safety and preparedness.
 	- https://x.com/RayFernando1337/status/1800366357902709184
 	- どうも、アルトマン氏の青いバックパックには、ChtGPTを止めるスイッチが入っているらしい。
+- Appleのクレイグ副社長、尋常でない運動能力を見せる。。
+	https://x.com/durreadan01/status/1800453311382147219
 - guide on finetuning an LLM to query knowledge graphs (through text-to-cypher).
 	- https://github.com/neo4j-labs/text2cypher/blob/main/finetuning/unsloth-llama3/README.md#llamaindex
 	- that allows you to directly use this LLM to generate cypher statements and retrieve knowledge graph entities as "chunks" for your Graph RAG pipeline!
@@ -3594,15 +3596,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- SoraはTransformerベースの潜在拡散モデルで、テキスト指示から1分間の高画質動画を生成できる。時間・空間の両方で一貫性を維持でき、現実の物理法則をある程度反映させることができる。モデルやデータに関する詳細は非公開だが、大規模化により性能が上がる模様。
 	- 今後やるべき事はおそらく単純で、全力でOpenAIやGeminiの成長にしがみ付けば良いのでは。という気がしている。 by 元木
 	- https://x.com/ai_syacho/status/1758845719988117759?s=20
-	- 彼らは拡散トランスフォーマーモデルという、マシンと札束を入れれば入れるほど能力の上がるAIを持っていて、その資金体力も段違い。…
-- iPhoneにGeminiきてた
-	- https://x.com/npaka123/status/1758656487399014521?s=2
+	- 彼らは拡散トランスフォーマーモデルという、マシンと札束を入れれば入れるほど能力の上がるAIを持っていて、その
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNz
-EyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5
-NzQ0NywxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4Ni
-wxOTA2OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4
-MDExMywtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOT
-M1LDEwMzQzMjAyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywt
-MTY4NTg0NDY4N119
+eyJoaXN0b3J5IjpbLTk4NjYwOTcxNCwtODE3MjQzOTIwLDg4OD
+gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
+NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2ODg0ND
+UsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LDE2NjA0
+MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2NzcyOTAzMD
+EsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2NjAxOSwt
+MzI2MTQ2MzE3XX0=
 -->
