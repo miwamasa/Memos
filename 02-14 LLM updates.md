@@ -157,7 +157,12 @@
 	- https://x.com/umiyuki_ai/status/1801836418744127702
 	- GPT3.5T（7.16）やQwen2-7B（7.23）を超えてます。メッチャ強い
 - 巨人オープンLLMで話題の Nemotron-340B お試し by AIXさとしさん
-	- 
+	- https://x.com/AiXsatoshi/status/1801865161717760380
+	- 日本語推論、生成可能、オープンLLMとしては、知識は非常に正確
+- RecurrentGemma 9Bは、Griffinアーキテクチャに基づいたGemmaモデル
+	- https://x.com/webbigdata/status/1801928695764099084
+	- Gemma 7Bは特定の知識ベースのタスク(科学、数学、プログラミング問題)で高いパフォーマンス 
+	- RecurrentGemma 9Bは、常識推論や一般知識を必要とするタスクで高いパフォーマンス と言う違いがあります
 
 
 ## 6/10
@@ -3583,18 +3588,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Our recent work on the comparison between Transformers and State Space Models for sequence modeling now on arxiv! TLDR - we find a key disadvantage of SSMs compared to Transformers: they cannot copy from their input
 -  Self RAG
 	- https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/self_rag/self_rag.ipynb
-	- We’re excited to feature Self-RAG, a special RAG technique where an LLM can do self-reflection for dynamic retrieval, critique, and generation
-- The Majority of AI Compute Spend is Not on Training but on Inference
-	- https://x.com/rohanpaul_ai/status/1754843805507887477?s=20
-	- As per report - "2023: The State of Generative AI in the Enterprise"
-- Qwen1.5-0.5B-chat with Transformer.js
-	- Qwen1
+	- We’re excited to feature Self-RAG, a special RAG technique where an LLM can do self-reflect
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwODc0MzQ4LC0xNjcyNDU2MTk4LDExMD
-cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
-ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
-Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
-MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MD
-E5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQs
-Njc4NTA3MTI5XX0=
+eyJoaXN0b3J5IjpbMTg1NjUyODY4NiwtMTY3MjQ1NjE5OCwxMT
+A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
+ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
+E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
+OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
+AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
+LDY3ODUwNzEyOV19
 -->
