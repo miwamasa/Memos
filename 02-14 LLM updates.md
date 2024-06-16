@@ -12,7 +12,9 @@ DreamMachineから出たLumina、デート中にほかの子に気をそらさ�
 
 Chromeで、ブラウザ上でGemini Nanoが動くようになるらしい、
 
-LLMを使いこなすのに必要な、言語化能力は、じつは
+LLMを使いこなすのに必要な、言語化能力は、実はメタ言語能力であるとの説。
+
+RecurrentGemma-9b、あたらがgrifinnアーキテクチャで、安定してきている模様。
 
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
@@ -3599,14 +3601,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「Ollama」の日本語表示が改善されたとのことなので、「Elyza-7B」で試してみました
 	- Ollamaのサイトに載っていないモデルは、自分で「**Modelfile**」を作成して、追加する必要があります。
 	- 「Llama2」のManifestを参考にさせてもらいます
-	- 今回は、「**ELYZA-japanese-Llama-2-7b-instruct-q4_K_M.gguf**」をダウンロードします。
-- Lecun先生、soar発表直前に、テキストからリア
+	- 今回は、「**ELYZA-japanese-Llama-2-7
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTkwMjgxMjQsLTEyNzEyNzQ4MzcsLT
-E2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2
-Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MD
-U1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3
-ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMj
-AyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4
-NywtMTYwNDg1ODU0NF19
+eyJoaXN0b3J5IjpbMjA4MDAwODMyOSwtMTI3MTI3NDgzNywtMT
+Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
+NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
+UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
+MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMD
+I1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3
+LC0xNjA0ODU4NTQ0XX0=
 -->
