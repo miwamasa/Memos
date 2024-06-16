@@ -81,7 +81,13 @@
 	- we propose a new approach that leverages the collective strengths of multiple LLMs through a Mixture-of-Agents (MoA) methodology.
 	- our MoA using only open-source LLMs is the leader of AlpacaEval 2.0 by a substantial gap, achieving a score of 65.1% compared to 57.5% by GPT-4 Omni.
 - 議事録取ってるならGemini 1.5 Flashは使った方が良い
-	- 
+	- https://x.com/keitowebai/status/1800006621780951533
+	- 録画データをアップロードして「要点をまとめて」と言うだけで要約完了。これで報告は3分で終わらせようか。
+- LLMに入力するプロンプトを書くときには言語化能力が必要、というのは正しいと思うのだけど、じゃあ言語化能力ってなんやねん、というときに、「構造化されていて分かりやすく、綺麗で論理的な文章」、ではない、と私は思っている。by mutaguchi
+	- https://x.com/mutaguchi/status/1799899202803433571
+	- 実はLLMくんはかしこくて、かしこくないので、ぜんぜん構造化されてない、論理も破綻していて、文字も間違いだらけで、言語としても成立していないようなぐちょぐちょテキストでも、勝手に雰囲気で補間・修正して読み取ってくれる。ただし、プロンプトには出力に必要な情報が過不足なく指定されていることは必要となる。
+	- つまりプロンプトを書くのに必要な言語化能力というのは、LLMの出力（入力プロンプトに対する補完）を引き出すために必要な文字列を、過不足なく仕込む能力ではあるのだが、必ずしも人間が見て「この人言語化能力高いなあ」と評価されるような文章を書く能力が必要とされているとは限らない、と考えている。
+- 
 
 ## 6/10
 
@@ -3585,23 +3591,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  Perplexityをもとに､複数の大規模言語モデルを切り替えて推論するシステムの簡単なコード実装
 	- https://note.com/kan_hatakeyama/n/nb5625d6411a8?sub_rt=share_pb
 	- モデルを統合するための簡単な実装コードを書いてみます。  最近は､普通にmergekitもあるようですが､勉強も兼ねた実装です
-	- 与えられた入力文章に対するPerplexity（困惑さ）を指標に、使用するモデルを切り替えるシステムを作ります
-	- 今回は試しに、英語が得意なLLama2-7bと、日本語でファインチューニングしたElyza-7bを統合（merge）したシステムを作ってみようと思います。
-- 日本語データセットのクリーニングスクリプト
-	- https://github.com/lighttransport/japanese-llama-experiment
--  Real-World Robot Applications of Foundation Models: A Review
-	- https://arxiv.org/abs/2402.05741
-	- 基盤モデルの実ロボット応用に関するサーベイ論文を公開しました！Meta AI ResearchのChrisさん@chris_j_paxton , Google DeepmindのAndyさん @andyzeng_ という，この分野で最先端を進むお二人からのフィードバックを受けながら執筆
--  OpenAIアルトマン氏、半導体の資金調達で交渉　米報道
-	- https://www.nikkei.com/article/DGXZQOGN095R00Z00C24A2000000/
-	- 必要資金750兆円
--  Multilingual E5 Text Embed
+	- 与えられた入力文章に対するPerple
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDY2NjA4NSwtMTY3MjQ1NjE5OCwxMT
-A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
-ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
-E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
-OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
-AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
-LDY3ODUwNzEyOV19
+eyJoaXN0b3J5IjpbLTE4MjMzNzY5ODIsLTE2NzI0NTYxOTgsMT
+EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
+Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
+wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
+MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
+YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
+NCw2Nzg1MDcxMjldfQ==
 -->
