@@ -128,6 +128,8 @@
 - Doing RAG? Vector search is *not* enough
 	- https://techcommunity.microsoft.com/t5/microsoft-developer-community/doing-rag-vector-search-is-not-enough/ba-p/4161073
 	- RAGにおいて、ベクトル検索だけじゃなく全文検索も加えたハイブリッド検索じゃないとパフォーマンスが出ないことを試してみた、というMicrosoft方の記事
+	- RAG ＝ベクトル検索という風潮があるが、そうではない、と
+-  Llama for Scalable Image Generation a
 
 
 ## 6/10
@@ -3582,14 +3584,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Development and Testing of Retrieval Augmented Generation in Large Language Models - A Case Study Report
 	- https://arxiv.org/abs/2402.01733
 	- GPT-4にRAG（検索拡張生成）を適用することで、臨床医学の問題において、人間の医師よりも高い精度が達成できたと報告
-	- 適切なRAGシステム設計により、GPT-4単体よりも10%以上精度が向上し、人間医師よりも5%以上高いスコアを出
-	- 研究者らはこの結果は注目に値するとしつつ、より広範な分野で実験を重ねていくべきとしています。 
+	- 適切なRAGシステム設計により、GPT-4単体よりも10%以上精度が
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyNDY2ODI1LC0xNjcyNDU2MTk4LDExMD
-cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
-ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
-Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
-MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MD
-E5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQs
-Njc4NTA3MTI5XX0=
+eyJoaXN0b3J5IjpbMTkwOTc1NDk5NywtMTY3MjQ1NjE5OCwxMT
+A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
+ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
+E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
+OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
+AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
+LDY3ODUwNzEyOV19
 -->
