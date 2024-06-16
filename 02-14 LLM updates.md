@@ -4,7 +4,7 @@
 
 ## 6/17
 
-今週は、WWDCで始まった。アップル本社上空からパラシュートで降りるオープニングから、OpenAIのアルトマン氏目撃情報がAppleキャンパスの現地から多数。Apple IntelligenceはApple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
+今週は、WWDCで始まった。アップル本社上空からパラシュートで降りるオープニングから、クレイグ副社長の謎の運動能力のデモ、OpenAIのアルトマン氏目撃情報がAppleキャンパスの現地から多数。Apple IntelligenceはApple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
 
 DreamMachineから出たLumina、デート中にほかの子に気をそらされる男の子とか、写真をもとに動画をつくるということで、奥さんの若いころの写真から動画を作ったりと、不気味な感じ。あまりにも自然なので、もっとも厄介なのは、記憶を上書きしてしまう恐れがあるということだそうだ。
 
@@ -16,7 +16,7 @@ LLMを使いこなすのに必要な、言語化能力は、実はメタ言語�
 
 アリス問題というのも話題になった、「アリスにはN人の兄弟とM人の姉妹がいる。アリスの兄には何人の姉妹がいるか」
 
-
+HippoRAG
 
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
@@ -3596,13 +3596,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- SoraはTransformerベースの潜在拡散モデルで、テキスト指示から1分間の高画質動画を生成できる。時間・空間の両方で一貫性を維持でき、現実の物理法則をある程度反映させることができる。モデルやデータに関する詳細は非公開だが、大規模化により性能が上がる模様。
 	- 今後やるべき事はおそらく単純で、全力でOpenAIやGeminiの成長にしがみ付けば良いのでは。という気がしている。 by 元木
 	- https://x.com/ai_syacho/status/1758845719988117759?s=20
-	- 彼らは拡散トランスフォーマーモデルという、マシンと札束を入れれば入れるほど能力の上がるAIを持っていて、その
+	- 彼らは拡散トランスフォーマーモデルという、マシンと札束を
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjYwOTcxNCwtODE3MjQzOTIwLDg4OD
-gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
-NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2ODg0ND
-UsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LDE2NjA0
-MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2NzcyOTAzMD
-EsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2NjAxOSwt
-MzI2MTQ2MzE3XX0=
+eyJoaXN0b3J5IjpbLTIxMDg0OTIxMjksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUzNjg4ND
+Q1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNCwxNjYw
+NDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3MjkwMz
+AxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3NjYwMTks
+LTMyNjE0NjMxN119
 -->
