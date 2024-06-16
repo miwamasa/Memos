@@ -10,7 +10,13 @@
 - Prometheus-2: An Open-Source Evaluator LM for Your RAG Application
 	- https://docs.llamaindex.ai/en/latest/examples/cookbooks/prometheus2_cookbook/
 	- Prometheus-2 shows a high degree of correlation and agreement with human evaluations, GPT-4, and Claude3, making it a dependable evaluator LM for RAG applications.
-- 
+- Qwen2-72B-InstructのElyzaTasks100の平均スコア、4.23でした by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1800023709958431166
+	- チャクチャすごい…Gemini1.5Flashのチョイ下。OpenAIの進歩が停滞感あるのに対してオープンモデルの進化はすさまじいです。
+	- Qwen1.5が出てから4ヶ月、Llama3から2ヶ月しか経ってません。こんな事態になるとは
+- MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark
+	- https://arxiv.org/abs/2406.01574
+	- 
 
 ## 6/10
 
@@ -3584,18 +3590,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00208/?n_cid=nbpnxt_twbn
 	- 栗田工業さんらは冷却水の防食剤の開発のため、機械学習により数百万の分子から有望材料を抽出
 - NeMo Guardrails, the Ultimate Open-Source LLM Security Toolkit
-	- https://towardsdatascience.com/nemo-guardrails-the-ultimate-open-source-llm-security-toolkit-0a34648713ef
-	- Advanced RAG with Guardrails
-	- If you want to build user-facing RAG, you not only need to setup advanced retrieval, but also need to apply requisite layers of input/output filters for the following:
-- pandas-ai
-	- https://github.com/gventuri/pandas-ai
-	- 機能としてはpandasのデータフレームに対して直接自然言語で処理できるようにしたもので、軽く見た感じ
+	- https://towardsdatascience.com/nemo-guardrails-the-ultimat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzQzNTkxMSwtMTY3MjQ1NjE5OCwxMT
-A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
-ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
-E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
-OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
-AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
-LDY3ODUwNzEyOV19
+eyJoaXN0b3J5IjpbLTE3ODYyNDA4MDQsLTE2NzI0NTYxOTgsMT
+EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
+Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
+wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
+MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
+YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
+NCw2Nzg1MDcxMjldfQ==
 -->
