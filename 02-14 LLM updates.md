@@ -16,7 +16,7 @@ LLMを使いこなすのに必要な、言語化能力は、実はメタ言語�
 
 アリス問題というのも話題になった、「アリスにはN人の兄弟とM人の姉妹がいる。アリスの兄には何人の姉妹がいるか」
 
-HippoRAG
+HippoRAG、RAGって人間も結局そうやってるのかも、「何回説明しても、、」（今井）とかみてて、都合の良い記憶に残ったわずかな情報から人間も答えている気がしてきた。
 
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
@@ -3596,13 +3596,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Minimal, clean, educational code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization."
 -  Video generation models as world simulators by OpenAI
 	- https://openai.com/research/video-generation-models-as-world-simulators
-	- SoraはTransformerベースの潜在拡散モデルで、テキスト指示から1分間の高画質動画を生成できる。時間・空間の両方で一貫性を維持でき、現実の物理法則をある程度反映させることができる。モデルやデータに関する詳細は
+	- SoraはTransformerベースの潜在拡散モデルで、テキスト
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc0MzY5ODUsLTgxNzI0MzkyMCw4OD
-g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
-NDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUzNjg4ND
-Q1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNCwxNjYw
-NDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3MjkwMz
-AxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3NjYwMTks
-LTMyNjE0NjMxN119
+eyJoaXN0b3J5IjpbLTMwNTAwMzk5MywtODE3MjQzOTIwLDg4OD
+gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
+NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2ODg0ND
+UsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LDE2NjA0
+MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2NzcyOTAzMD
+EsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2NjAxOSwt
+MzI2MTQ2MzE3XX0=
 -->
