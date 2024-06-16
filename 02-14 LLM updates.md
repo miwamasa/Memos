@@ -52,7 +52,13 @@
 - いた（アルトマン氏が、WWDC2024に)
 	- https://x.com/iskw226/status/1800202842428653817
 - Appleが発表した人工知能「Apple Intelligence」 by GIZMODE
-	- 
+	- 1. 文章の自動編集・校正機能 
+	- 2. メモ・フリーボード・Keynoteなどで画像生成が可能に 
+	- 3. Apple Intelligenceは「実行」ができる。「この間、送られてきたポッドキャストを再生して」と言えば、見つけ出して再生することろまでやってくれるらしい…！ 
+	- 4. メールで送られてきた予定は、自動でスケジュール化。予定の場所の地図データなども自動で添付。
+- LaVague
+	- https://github.com/lavague-ai/LaVague
+	- LaVague is an **open-source Large Action Model framework** to develop AI Web Agents.
 
 ## 6/10
 
@@ -3588,19 +3594,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 著者は、GPTが心の状態を推測できる理由として「言語能力の向上によって自発的に出現したのでは」と指摘。 AI研究における心理学的な視点の重要性を解
 - In-Context Principle Learning from Mistakes
 	- https://arxiv.org/abs/2402.05403
-	- LLMに敢えて間違わせてルールを覚えさせ同じミスを避けるようにする新しいプロンプト手法が提案されています。
-	- ■新アプローチ 
-		- 1. モデルが間違いを犯すように促す 
-		- 2. モデル自身に、間違いに対する説明を生成させ、まずは低レベルの原則を形成。 
-		- 3. 低レベルの原則をまとめ、約5つのキーポイントに圧縮して高レベルの原則を生成 
-		- 4. 高レベルの原則を未見の例に対する応答を生成する際に利用 
-	- ■実験と結果 実験と結果の要約: 
-		- GPT-3.5-TurboとGPT-4の質問応答性能が一貫して改善され、GPT-4が7.5%の改善を見せた
-		- 数学推論タスクでもGPT-3.5-turboとGPT-4で基準を上回る結果を示した
-		- Big-Bench Hardタスクでもスコアが一定程度上昇した
-- Step
+	- LLMに敢えて間違わせてルールを覚えさせ同じミスを避けるようにする新しいプロンプト手法が提案されてい
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTcyNjUyMCwtMTY3MjQ1NjE5OCwxMT
+eyJoaXN0b3J5IjpbMTY1NzA2NTI0OCwtMTY3MjQ1NjE5OCwxMT
 A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
 ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
 E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
