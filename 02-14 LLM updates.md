@@ -118,7 +118,11 @@
 - Sam Altman’s blue backpack didn’t show up today at Apple Park which is a notable shift for AI safety and preparedness.
 	- https://x.com/RayFernando1337/status/1800366357902709184
 	- どうも、アルトマン氏の青いバックパックには、ChtGPTを止めるスイッチが入っているらしい。
-- 
+- guide on finetuning an LLM to query knowledge graphs (through text-to-cypher).
+	- https://github.com/neo4j-labs/text2cypher/blob/main/finetuning/unsloth-llama3/README.md#llamaindex
+	- that allows you to directly use this LLM to generate cypher statements and retrieve knowledge graph entities as "chunks" for your Graph RAG pipeline!
+- RecurrentGemma 9B 
+	- 
 
 
 ## 6/10
@@ -3585,17 +3589,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Fully local RAG using @Teknium1 OpenHermes, @ollama and @streamlit
 	- GPT4 level performance at 0% of the cost
 	- https://github.com/phidatahq/phidata/tree/main/cookbook/local_rag
-- 海外高性能言語モデルの日本語化研究の一環としてMixtral-8x7Bの日本語出力を安定させるLora作成、公開   
-	- https://huggingface.co/aixsatoshi/Mixtral-8x7B-ja-Lora-sft-ChatbotArenaJAcalm2
-	- Mixtral-8x7Bは高性能な言語モデルですが、日本語出力に多言語が混入するcode-switchingがよく見られます。 元の性能を維持しながら、日本語生成を安定させる方法として、Loraの効果を検証しました
-	- 日本語が流暢なcalm2の合成データセットを利用してます Baseモデルより低パラメーターの言語モデルで作成したデータセットでも、一定の性能確保して日本語化できました
--  Apple Vision ProはHolo
+- 海外高性能言語
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzIzODExMywtMTY3MjQ1NjE5OCwxMT
-A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
-ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
-E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
-OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
-AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
-LDY3ODUwNzEyOV19
+eyJoaXN0b3J5IjpbLTIwMjQzNjM1LC0xNjcyNDU2MTk4LDExMD
+cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
+ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
+Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
+MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MD
+E5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQs
+Njc4NTA3MTI5XX0=
 -->
