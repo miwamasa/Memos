@@ -43,6 +43,12 @@
 	- It's called "Ferret-UI", a multimodal vision-language model that understands icons, widgets, and text on iOS mobile screen, and reasons about their spatial relationships and functional meanings.
 - GraphRAGふーんって感じだったけど、びっくりするくらいわかりやすかった
 	- https://x.com/__genzitsu__/status/1800074489897889998
+- 開発版のChromeで、ブラウザ上でGemini Nanoを動かせるようになった
+	- https://x.com/kentaro/status/1799856400149221599
+	- ブラウザAPIだけで完結する音声チャットボットの実験をしてみました。これは夢が広がりますね！アツい！！
+	- https://codesandbox.io/p/sandbox/gemini-nano-chatbot-cdg59q?file=%2Findex.html
+		-  LLM: Chrome上で動作するGemini Nano 
+		- 音声認識+音声合成: Web Speech API
 - 
 
 ## 6/10
@@ -3590,16 +3596,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 数学推論タスクでもGPT-3.5-turboとGPT-4で基準を上回る結果を示した
 		- Big-Bench Hardタスクでもスコアが一定程度上昇した
 - Step-by-step guide to build AI agents for structured and unstructured data.
-	- https://x.com/Saboo_Shubham_/status/1756123156400546251?s=20
-	- Step 1: Define the Chunking Strategy
-	- Step 2: Apply an Embedding Strategy
-	- Step 3: Implement a Document Retriever for Text
-	- Step 4: Use a Large Language Model (LLM)
-	- Step 5: Extract Metadata
-	- Step 6: Implement a Document Retriever for Metadata
-	- Step 7: Integrate SQL Que
+	- https://x.com/Saboo_Shubham_/status/175612315640
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDkxNTk3MzAsLTE2NzI0NTYxOTgsMT
+eyJoaXN0b3J5IjpbLTIwNjAyNDEyMzgsLTE2NzI0NTYxOTgsMT
 EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
 Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
 wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
