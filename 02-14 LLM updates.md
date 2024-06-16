@@ -204,7 +204,14 @@
 	- The results show that Nemotron-4 340B is a strong model. Check out those MMLU, GSM8K, and Arena Hard numbers.
 - たとえばDream Machineに昔の写真入れて動画にすると、それは100%ウソのハズなのに、なんか50%くらい本当だったような気がしてくるというような
 	- https://x.com/hirochuu8/status/1801986929183142369
-- 
+- Exciting that our Mixture of Agents (MoA) tops the AlpacaEval leaderboard!
+	- https://x.com/james_y_zou/status/1801656163936964919
+- Ninja-V2-7BのShaberi3ベンチマークスコアは6.80でした
+	- https://x.com/umiyuki_ai/status/1802027838524321839
+- Can language models be used as world simulators? In our ACL 2024 paper, we show -- not really.
+	- https://arxiv.org/pdf/2406.06485
+	- GPT-4 is only ~60% accurate at simulating state changes based on common-sense tasks, like boiling water.
+	- 
 
 
 ## 6/10
@@ -3589,18 +3596,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 定量計算： GPT-4は生物学的な言語理解と処理に優れていますが、定量的な計算には限界があります。信頼できる結論を得るためには、手動で検証するか、別の計算ツールで検証することをお勧めします
 - Qwen2-14BのMTBenchが7.99でClaude-1超えてるのはマジやばい by うみゆき
 	- https://x.com/umiyuki_ai/status/1754435534511050870?s=20
-	- Qwen2としてウワサになってたモデルがQwen1.5としてリリースされた！Mistral-Mediumに匹敵する性能がオープンソースで！今回は最初からTransformerで使える上に、AWQモデル、GPTQモデル、GGUFも全部公式で最初からリリース！vLLMやOllamaもOK！
--  Large Language Models on Graphs: A Comprehensive Survey
-	- https://arxiv.org/abs/2312.02783
-	- We have finalized our 𝐋𝐋𝐌𝐬 𝐨𝐧 𝐆𝐫𝐚𝐩𝐡𝐬 survey by adding more insightful discussions. If you are interested in LLMs on structure data, don't miss this paper (with a resource repo)!
-- Home Credit - Credit Risk Model Stability
-	- https://www.kaggle.com/competitions/home-credit-credit-risk
+	- Qwen2としてウワサになってたモデルがQwen1.5としてリリースされた！Mistral-Mediumに匹敵する性能がオープンソースで！
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwMzgwOTQ5LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMj
-UzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcs
-LTE2MDQ4NTg1NDRdfQ==
+eyJoaXN0b3J5IjpbMTQ1NDY1NTY1MiwtMTI3MTI3NDgzNywtMT
+Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
+NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
+UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
+MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMD
+I1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3
+LC0xNjA0ODU4NTQ0XX0=
 -->
