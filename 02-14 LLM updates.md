@@ -16,7 +16,7 @@ NVIDIA、株を１０分割されたり、オーブンからA100のボードを�
 
 アリス問題というのも話題になった、「アリスにはN人の兄弟とM人の姉妹がいる。アリスの兄には何人の姉妹がいるか」
 
-HippoRAG、RAGって人間も結局そうやってるのかも、「何回説明しても、、」（今井）とかみてて、都合の良い記憶に残ったわずかな情報から人間も答えている気がしてきた。
+知識グラフ、Personalized PageRank を組み合わせたHippoRAG、今井先生の新刊「何回説明しても伝わらない」はなぜ起こるのか？かっこ（今井）とかみてて、都合の良い記憶に残ったわずかな情報から人間も答えている気がしてきた。
 
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
@@ -3595,9 +3595,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://github.com/karpathy/minbpe
 	- Minimal, clean, educational code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization."
 -  Video generation models as world simulators by OpenAI
-	- https://openai.com/research/video-generation-models-as-
+	- https://openai.com/r
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTI3Nzg1MjMsLTgxNzI0MzkyMCw4OD
+eyJoaXN0b3J5IjpbLTE0NjY1MTIwMDAsLTgxNzI0MzkyMCw4OD
 g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
 NDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUzNjg4ND
 Q1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNCwxNjYw
