@@ -200,7 +200,11 @@
 	- https://x.com/hAru_mAki_ch/status/1802227933534429614
 - Nemotron-4 340B is a huge release by NVIDIA!
 	- https://x.com/omarsar0/status/1802024352851878296
-	- 
+	- The Nemotron-4 340B instruct model lets you generate high-quality data and then the reward model (also released) can filter out data on several attributes.
+	- The results show that Nemotron-4 340B is a strong model. Check out those MMLU, GSM8K, and Arena Hard numbers.
+- たとえばDream Machineに昔の写真入れて動画にすると、それは100%ウソのハズなのに、なんか50%くらい本当だったような気がしてくるというような
+	- https://x.com/hirochuu8/status/1801986929183142369
+- 
 
 
 ## 6/10
@@ -3590,20 +3594,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2312.02783
 	- We have finalized our 𝐋𝐋𝐌𝐬 𝐨𝐧 𝐆𝐫𝐚𝐩𝐡𝐬 survey by adding more insightful discussions. If you are interested in LLMs on structure data, don't miss this paper (with a resource repo)!
 - Home Credit - Credit Risk Model Stability
-	- https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/
-	- Kaggle新コンペ クレジットカード利用者の外部及び内部データによる長期の貸倒れ予測タスク。久方ぶりの正統派テーブルデータコンペ
-- Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities
-	- Nvidia presents Audio Flamingo
-	- https://huggingface.co/papers/2402.01831
--  A Survey of Constraint Formulations in Safe Reinforcement Learning
-	- https://arxiv.org/abs/2402.02025
-	- 強化学習における安全性制約の記述方法に関するサーベイ論文を arXiv にて公
+	- https://www.kaggle.com/competitions/home-credit-credit-risk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQxOTk4MDcsLTEyNzEyNzQ4MzcsLT
-E2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2
-Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MD
-U1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3
-ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMj
-AyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4
-NywtMTYwNDg1ODU0NF19
+eyJoaXN0b3J5IjpbMjIwMzgwOTQ5LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMj
+UzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcs
+LTE2MDQ4NTg1NDRdfQ==
 -->
