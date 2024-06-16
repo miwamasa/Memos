@@ -4,6 +4,8 @@
 
 ## 6/17
 
+今週は、WWDCで始まった。Appleせいひ
+
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
 	- ２週間ほど前に出たMMed-Llama-3-8B 医療用のオープンモデルとしてはGPT-3.5を軽く超え、GPT-4を匹敵すると言っている
@@ -231,7 +233,11 @@
 - AI革命、すでに失速している
 	- https://newspicks.com/news/10094191/body/
 	- 学習データの不足でモデルの性能向上の頭打ちが見えており、運用が高コストに。現時点ではAIの利用シーンも限定的のため、収益成長も伸び悩むと
-	- 
+- nitkyさんが、新たなマージ7Bモデル Oumuamua-7b-instruct-v2 を出してくれました。
+	- https://huggingface.co/nitky/Oumuamua-7b-instruct-v2
+	- ７Bサイズながら、⌘R+以上、GPT3.5未満みたいなベンチマークらしいです。
+- Oumuamua-7bのElyzaTasks100スコアは3.85でした。相当強いです by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1797191209976537102
 
 
 ## 6/10
@@ -3598,13 +3604,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 2/13
 
-今週は、ほぼ予定通り（１日おくれ？）BardがGemini（ジェマナイと読む）に改名された。一方、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から画像から認識した情報片をつなげて店舗を特定したりと、コナン君なみの推理をしているのが何気にすごい。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判、Huggingfaceのデモ試すとたしかにレべチかも。基本性能が高いのか、0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速、量子化とか、Ollamaの対応が発表されたりされてる。たぶん、日本語LLMもrinna当たりからQwen-1.5ベースの日本語LLMの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり、どこかの職業が丸ごとなくなる性能だ。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（すでに死語？）にとどめを刺すだろうな。「小さなLLM」、英語でも"Smaller LLM"と呼ばれるらしい、小さなLLMでいい
+今週は、ほぼ予定通り（１日おくれ？）BardがGemini（ジェマナイと読む）に改名された。一方、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から画像から認識した情報片をつなげて店舗を特定したりと、コナン君なみの推理をしているのが何気にすごい。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判、Huggingfaceのデモ試すとたしかにレべチかも。基本性能が高いのか、0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速、量子化とか、Ollamaの対応が発表されたりされてる。たぶん、日本語LLMもrinna
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDU4MTg4LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMj
-UzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcs
-LTE2MDQ4NTg1NDRdfQ==
+eyJoaXN0b3J5IjpbLTE3MTU4NTg1ODUsLTEyNzEyNzQ4MzcsLT
+E2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2
+Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MD
+U1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3
+ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMj
+AyNTMsLTEwNjU3NjYwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4
+NywtMTYwNDg1ODU0NF19
 -->
