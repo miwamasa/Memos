@@ -73,7 +73,11 @@
 - Apple WWDC intro was so lit
 	- https://x.com/ai_for_success/status/1800214745078968712
 	- ああ、空から、スカイダイビングして、アップル本社に降りるという画像、これは本物か？？
-- 
+- AppleにここまでAIスマホ統合で先を越されたGoogleって今まで何してたの？マヌケですか？　by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1800236837665206563
+-  Mixture-of-Agents Enhances Large Language Model Capabilities
+	- https://huggingface.co/papers/2406.04692
+	- 
 
 ## 6/10
 
@@ -3594,17 +3598,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://github.com/yifanlu0227/ChatSim
 	- 生成AIの出現でシミュレータの世界も大きく変化。 昨日出たChatSimでは自然言語を入力してドライビングシミュレータを自由に編集することができる
 -  LangChain 101: Part 3a. Talking to Documents: Load, Split, and simple RAG with LCEL
-	- https://pub.towardsai.net/langchain-101-part-3a-talking-to-documents-load-split-and-simple-rag-with-lcel-26b005ccb30a
-	- Loading documents and splitting them are a key part of RAG
-- mambaの理論を理解する①：HiPPOフレームワークとLSSL
-	- https://zenn.dev/izmyon/articles/8374a11d272602
-	- m
+	- https://pub.towardsai.net/langchain-101-part-3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1Nzk1MzY1LC0xNjcyNDU2MTk4LDExMD
-cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
-ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
-Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
-MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MD
-E5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQs
-Njc4NTA3MTI5XX0=
+eyJoaXN0b3J5IjpbLTEzMTcwMDgwNzEsLTE2NzI0NTYxOTgsMT
+EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
+Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
+wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
+MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
+YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
+NCw2Nzg1MDcxMjldfQ==
 -->
