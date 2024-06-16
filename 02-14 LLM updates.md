@@ -185,6 +185,13 @@
 	- ICLの性能はMamba2はTransformerに及ばないが、Mamba2とMLPとself-attentionを少しで構成したMamba2-HybridはICL性能は高い。
 - nitky/Oumuamua-7b-instruct-v2
 	- https://huggingface.co/nitky/Oumuamua-7b-instruct-v2
+-  LLMFlex
+	- https://github.com/nath1295/LLMFlex
+	- LLMFlex。LangChainよりも色々と簡単にしつつ、StreamLitでフロントエンドUIまで付けてくれちゃってるブツ。こういうのありがたいね。GPTQやGGUFモデルがロードできる。DuckDuckGo検索ツールやドキュメントでRAGとかもパッとできる
+- Dream Machine by Luma AI is just 3 days old.
+	- https://x.com/hey_madni/status/1801900554488291414
+	- 1. Distracted boyfriend
+	- 2. Disaster girl with firefighters
 - 
 
 
@@ -3588,18 +3595,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 英国AI Safety Instituteより3rd Progress Repoert。
 	- https://www.gov.uk/government/publications/uk-ai-safety-institute-third-progress-report/ai-safety-institute-third-progress-report
 	- Google DeepMindのGeoffrey Irving氏、Oxford大の神経科学者Chris Summerfield氏参画。コアKPIの「メンバーの、先端AIモデルに関する累積経験年数」が11月の150年から168年に増加。
--  Stable Diffusion WebUI Forge
-	- https://github.com/lllyasviel/stable-diffusion-webui-forge
-	- Stable-Diffusion-WebUI-Forge is a new platform to 
-		- (1) completely solve the speed and VRAM problem and 
-		- (2) adding UNet Patcher System to webui so that many new features can be implemented in about 100 lines of codes
--  Unifying Large Language Mod
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODY5MTg4NCwtMTI3MTI3NDgzNywtMT
-Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
-NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
-UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
-MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMD
-I1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3
-LC0xNjA0ODU4NTQ0XX0=
+eyJoaXN0b3J5IjpbNzc2NDM0ODQ0LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMj
+UzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcs
+LTE2MDQ4NTg1NDRdfQ==
 -->
