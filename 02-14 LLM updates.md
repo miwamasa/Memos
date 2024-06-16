@@ -112,7 +112,13 @@
 	- https://machinelearning.apple.com/research/introducing-apple-foundation-models
 	- 「**約3Bパラメータを持つオンデバイスの言語モデル**」と「**Private Cloud Computeで利用できるサーバーの言語モデル**」が、特殊なタスクを効率的、正確、責任を持って実行するためにどのように構築および適応されたかを説明します。
 	- AIツールの開発方法とそれを支えるモデルをガイドする責任あるAI原則を作成しました。
-- # Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models
+-  Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models
+	- https://arxiv.org/html/2406.02061v1
+	- This paper investigates the dramatic breakdown of state-of-the-art LLMs' reasoning capabilities when confronted with a simple common sense problem called the "Alice In Wonderland (AIW) problem".
+- Sam Altman’s blue backpack didn’t show up today at Apple Park which is a notable shift for AI safety and preparedness.
+	- https://x.com/RayFernando1337/status/1800366357902709184
+	- どうも、アルトマン氏の青いバックパックには、ChtGPTを止めるスイッチが入っているらしい。
+- 
 
 
 ## 6/10
@@ -3583,16 +3589,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/aixsatoshi/Mixtral-8x7B-ja-Lora-sft-ChatbotArenaJAcalm2
 	- Mixtral-8x7Bは高性能な言語モデルですが、日本語出力に多言語が混入するcode-switchingがよく見られます。 元の性能を維持しながら、日本語生成を安定させる方法として、Loraの効果を検証しました
 	- 日本語が流暢なcalm2の合成データセットを利用してます Baseモデルより低パラメーターの言語モデルで作成したデータセットでも、一定の性能確保して日本語化できました
--  Apple Vision ProはHoloLensの完成形。現時点での限界値 by shi3zさん
-	- https://note.com/shi3zblog/n/nd36c04f9133a?sub_rt=share_h
-	- 「ついにここまで来たか」
--  Step-wise Queries by llamaindes
-	- https://docs.llamaindex.ai/en/stable/examples/agent/custom_agent.html#step-wise-queries
-	- In our brand-new cookbook, learn how to build a custom agent that can execute complex queries over your data, and can also be interrupted in the middle of execution with user inputs!
-- Ollama OpenAI compatibility is here!
-	- https://oll
+-  Apple Vision ProはHolo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODYyNjczMiwtMTY3MjQ1NjE5OCwxMT
+eyJoaXN0b3J5IjpbMTg3NzIzODExMywtMTY3MjQ1NjE5OCwxMT
 A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
 ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
 E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
