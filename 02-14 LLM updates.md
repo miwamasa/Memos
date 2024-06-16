@@ -4,13 +4,13 @@
 
 ## 6/17
 
-今週は、WWDCで始まった。OpenAIのアルトマン氏目撃情報がAppleキャンパスの現地から多数。Apple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
+今週は、WWDCで始まった。OpenAIのアルトマン氏目撃情報がAppleキャンパスの現地から多数。Apple IntelligenceはApple製品にLLMがシームレスに組み込まれ、UXとしての雄の貫録を、論文も併せて、見せた。Siriも、シームレスとはいえないまでも、GPT-4oにつながる、今年末にはリリース。実は、ローカルな3BのLLM、セキュアなサーバー環境(Mシリーズが動く）でのLLMという独自のLLMがＵＸを起点にシームレスに展開されている。Google寝てましたか？というコメントもあったが、Appleも、このLLMの活用では他社と同じような展開しかできておらず、顧客が不要な技術を買うことになっていると厳しい意見もあった。
 
 DreamMachineから出たLumina、デート中にほかの子に気をそらされる男の子とか、写真をもとに動画をつくるということで、奥さんの若いころの写真から動画を作ったりと、不気味な感じ。あまりにも自然なので、もっとも厄介なのは、記憶を上書きしてしまう恐れがあるということだそうだ。
 
 さてGoogleは、Gemini 1.5 Flashの評判も高く、議事録作成は相当こなせそう、Chromeで、ブラウザ上でGemini Nanoが動くようになるらしい、RecurrentGemma-9bも、新しいリカレントアーキテクチャを採用することで、より効率的かつ高性能な言語処理を実現したというが、どうやら動作が安定してきている模様。DeepMindの、LLMの知識不足（ハルシネーション）を確かめる方法というのも、面白いが、人間にも適用できそうだ。
 
-Nvidia、株を１０分割されたり、オーブンからA100のボードを出すファンCEOのビデオが話題になったり、ファンCEOはカルテック卒業式でスピーチと話題が満載ですが、Nemotron-4-340Bという謎の巨大ＬＬＭもリリース。もっとも、攻撃に対する脆弱性についてはまったく無配慮なことも明らかになった。何をしようとしているのかNVIDIA。
+NVIDIA、株を１０分割されたり、オーブンからA100のボードを出すファンCEOのビデオが話題になったり、そのファンCEOの米名門カルテック大学卒業式のスピーチと、話題が満載ですが、Nemotron-4-340Bという謎の巨大ＬＬＭもリリース。もっとも、攻撃に対する脆弱性についてはまったく無配慮なことも明らかになった。何をしようとしているのかNVIDIA。
 
 LLMを使いこなすのに必要な、言語化能力は、実はメタ言語能力であるとの説。
 
@@ -3597,15 +3597,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 彼らは拡散トランスフォーマーモデルという、マシンと札束を入れれば入れるほど能力の上がるAIを持っていて、その資金体力も段違い。…
 - iPhoneにGeminiきてた
 	- https://x.com/npaka123/status/1758656487399014521?s=20
-	- ?? Advance???
-- Ollama で Elyza-7B を試す by npakaさん
-	-
+	- ?? Advan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDgyMjIzOCwtMTI3MTI3NDgzNywtMT
-Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
-NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
-UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
-MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMD
-I1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3
-LC0xNjA0ODU4NTQ0XX0=
+eyJoaXN0b3J5IjpbODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMj
+UzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcs
+LTE2MDQ4NTg1NDRdfQ==
 -->
