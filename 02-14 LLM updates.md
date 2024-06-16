@@ -225,7 +225,13 @@
 -  Coupled Ocean-Atmosphere Dynamics in a Machine Learning Earth System Model
 	- https://arxiv.org/abs/2406.08632
 	- New Earth-2 nvidia preprint about AI forecasting for seasonal timescales including interactive ocean coupling. The generated El Niño looks realistic including its subsurface thermal structure. Internship project led by 
-- 
+- GPT-4レベルのNemotron-4-340B無茶苦茶脆弱
+	- https://x.com/maksym_andr/status/1802011165670735946
+	- leads to 100% attack success rate on 50 harmful requests from AdvBench using GPT-4 as a judge. There is no need to do any random search or random restarts, the model just complies directly.
+- AI革命、すでに失速している
+	- https://newspicks.com/news/10094191/body/
+	- 学習データの不足でモデルの性能向上の頭打ちが見えており、運用が高コストに。現時点ではAIの利用シーンも限定的のため、収益成長も伸び悩むと
+	- 
 
 
 ## 6/10
@@ -3592,13 +3598,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 2/13
 
-今週は、ほぼ予定通り（１日おくれ？）BardがGemini（ジェマナイと読む）に改名された。一方、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から画像から認識した情報片をつなげて店舗を特定したりと、コナン君なみの推理をしているのが何気にすごい。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判、Huggingfaceのデモ試すとたしかにレべチかも。基本性能が高いのか、0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速、量子化とか、Ollamaの対応が発表されたりされてる。たぶん、日本語LLMもrinna当たりからQwen-1.5ベースの日本語LLMの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり、どこかの職業が丸ごとなくなる性能だ。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（すでに死語？）にとどめを刺すだろうな。「小さなLLM」、英語でも"Smaller LLM"と呼ばれるらしい、小さなLLMでいいんだな、LLMのLargeはモデルの大小ではないとうこと、評価によるとFlan-T5がぶっちぎり？ MoE関係では、Mixtral-8x7Bの日本語向けのLoRaとか、MoEを単純化してExpertの切り替えを試してみる例とか面白い。基盤面では、探索なしでTransfomerだけでチェスマスタークラスのＡＩが作れるらしい。一方、Transformerの次世代基盤の一つとされるMamba、日本語での詳細な解説や、MoEでもあるBlackMambaとか、いろいろ出てきたな。理論面では、岡野さんの解説、The Consensus Game、RAGの改良を生成AIと識別AIの間のゲームとしてとらえるとは。NVIDIAも自らcanary-1bとか、Audio Flamingoとか音声や対話関係のモデルをリリース、自動運転では運転手との対話が必要なのはそのとおりなんだろう。RAG関係も、Self RAGとか、Guardrailsとか
+今週は、ほぼ予定通り（１日おくれ？）BardがGemini（ジェマナイと読む）に改名された。一方、新たにGemini Advancedという名前でGemini Ultraが有償でスタート。何気ないファミマの写真から画像から認識した情報片をつなげて店舗を特定したりと、コナン君なみの推理をしているのが何気にすごい。OSSのLLMでは、アリババのQwen1.5がリリースされたのが最大の話題、75B-chatのデモなどでもGPT-4に迫る性能を示すと評判、Huggingfaceのデモ試すとたしかにレべチかも。基本性能が高いのか、0.5BをTransfomer.jsで使った例でもそれなりの性能がでるという話。早速、量子化とか、Ollamaの対応が発表されたりされてる。たぶん、日本語LLMもrinna当たりからQwen-1.5ベースの日本語LLMの発表が続くと思うぞ。Style-Bert-VITS2、なんて自然な日本語を話すんだ、コンテキストを考慮した話しっぷりにびっくり、どこかの職業が丸ごとなくなる性能だ。 Open AIは、ソフトウエアの間をつないでタスクをこなすエージェントの開発を宣言、これってAppleScriptとかPowerShellのスクリプトを自動生成するみたいな話だから、Microsoftとも連携してるんだろうけど、RPA（すでに死語？）にとどめを刺すだろうな。「小さなLLM」、英語でも"Smaller LLM"と呼ばれるらしい、小さなLLMでいい
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1OTIxOTkzMywtMTI3MTI3NDgzNywtMT
-Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
-NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNT
-UsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4
-MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAzNDMyMD
-I1MywtMTA2NTc2NjAxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3
-LC0xNjA0ODU4NTQ0XX0=
+eyJoaXN0b3J5IjpbMTk1MDU4MTg4LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMj
+UzLC0xMDY1NzY2MDE5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcs
+LTE2MDQ4NTg1NDRdfQ==
 -->
