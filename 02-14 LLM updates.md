@@ -7,6 +7,10 @@
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
 	- ２週間ほど前に出たMMed-Llama-3-8B 医療用のオープンモデルとしてはGPT-3.5を軽く超え、GPT-4を匹敵すると言っている
+- Prometheus-2: An Open-Source Evaluator LM for Your RAG Application
+	- https://docs.llamaindex.ai/en/latest/examples/cookbooks/prometheus2_cookbook/
+	- Prometheus-2 shows a high degree of correlation and agreement with human evaluations, GPT-4, and Claude3, making it a dependable evaluator LM for RAG applications.
+- 
 
 ## 6/10
 
@@ -3585,19 +3589,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- If you want to build user-facing RAG, you not only need to setup advanced retrieval, but also need to apply requisite layers of input/output filters for the following:
 - pandas-ai
 	- https://github.com/gventuri/pandas-ai
-	- 機能としてはpandasのデータフレームに対して直接自然言語で処理できるようにしたもので、軽く見た感じアルゴリズム的に新しいものはなさそうなもののhttp://df.chat(プロンプト)という形式での操作は斬新
-- LLM-jp 13B v1.1リリース
-	- https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html
-	- 各種チューニングですごい流暢になってる。学習詳細も公開されてて参考になる。
-- The biggest Collection of Colab Based LLMs Fine tuning Notebooks
-	- https://github.com/ashishpatel26/LLM-Finetuning
--  Google Colab で LLM-j
+	- 機能としてはpandasのデータフレームに対して直接自然言語で処理できるようにしたもので、軽く見た感じ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODUzNDAxMDEsLTE2NzI0NTYxOTgsMT
-EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
-Njg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNC
-wxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5LC0xNjc3
-MjkwMzAxLC0xMTgwMTgyOTM1LDEwMzQzMjAyNTMsLTEwNjU3Nj
-YwMTksLTMyNjE0NjMxNywtMTY4NTg0NDY4NywtMTYwNDg1ODU0
-NCw2Nzg1MDcxMjldfQ==
+eyJoaXN0b3J5IjpbLTUzNzQzNTkxMSwtMTY3MjQ1NjE5OCwxMT
+A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
+ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
+E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
+OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
+AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
+LDY3ODUwNzEyOV19
 -->
