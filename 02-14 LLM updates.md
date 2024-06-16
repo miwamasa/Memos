@@ -12,11 +12,11 @@ DreamMachineから出たLumina、デート中にほかの子に気をそらさ�
 
 NVIDIA、株を１０分割されたり、オーブンからA100のボードを出すファンCEOのビデオが話題になったり、そのファンCEOの米名門カルテック大学卒業式のスピーチと、話題が満載ですが、Nemotron-4-340Bという謎の巨大ＬＬＭもリリース。もっとも、攻撃に対する脆弱性についてはまったく無配慮なことも明らかになった。何をしようとしているのかNVIDIA。
 
-高橋先生の「生成モデルの基礎と応用」、素晴らしい資料がでてきた、LLMを避けてきた人もこれは見るべき。LLMを使いこなすのに必要な、言語化能力は、実はメタ言語能力であるとの説。なるほど
+高橋先生の「生成モデルの基礎と応用」、素晴らしい資料がでてきた、LLMを避けてきた人もこれは見るべき。LLMを使いこなすのに必要な、言語化能力は、実はメタ言語能力であるとの説。
 
 アリス問題というのも話題になった、「アリスにはN人の兄弟とM人の姉妹がいる。アリスの兄には何人の姉妹がいるか」
 
-知識グラフ、Personalized PageRank を組み合わせたHippoRAG、人の脳内処理と類似しているといってるが、今井先生の新刊『「何回説明しても伝わらない」はなぜ起こるのか？』をみても、都合の良い記憶に残ったわずかな情報から人間も答えている気がしてきた。
+知識グラフ、Personalized PageRank を組み合わせたHippoRAG、人の脳内処理と類似しているといってるが、今井先生の新刊『「何回説明しても伝わらない」はなぜ起こるのか？』をみても、都合の良い記憶に残ったわずかな情報から人間も答えている気がしてきた。今井先生によると、突き詰めたひとが得る優れた直観というのが、AIが
 
 - MMed-Llama-3-8B
 	- https://x.com/longislandtea3/status/1799013747178278939
@@ -3594,14 +3594,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  minbpe
 	- https://github.com/karpathy/minbpe
 	- Minimal, clean, educational code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization."
--  Video generation models as world simulators by OpenAI
-	- ht
+-  Video generation models as 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2MDQ2NjM0LC04MTcyNDM5MjAsODg4OD
-A2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3
-MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4ODQ0NS
-w2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMTY2MDQw
-Njg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5MDMwMS
-wtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MDE5LC0z
-MjYxNDYzMTddfQ==
+eyJoaXN0b3J5IjpbLTYxNDAzNzM3MCwtODE3MjQzOTIwLDg4OD
+gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
+NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2ODg0ND
+UsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LDE2NjA0
+MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2NzcyOTAzMD
+EsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2NjAxOSwt
+MzI2MTQ2MzE3XX0=
 -->
