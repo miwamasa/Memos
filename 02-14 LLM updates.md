@@ -70,6 +70,9 @@
 	- https://x.com/SuguruKun_ai/status/1799695851968942167
 - Appleの人工知能（生成AI）「Apple Intelligence」は、オンデバイス（データーをサーバーに送信せずに処理）を基本とするそうです。
 	- https://x.com/gizmodojapan/status/1800231580788736014
+- Apple WWDC intro was so lit
+	- https://x.com/ai_for_success/status/1800214745078968712
+	- ああ、空から、スカイダイビングして、アップル本社に降りるという画像、これは本物か？？
 - 
 
 ## 6/10
@@ -3595,14 +3598,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Loading documents and splitting them are a key part of RAG
 - mambaの理論を理解する①：HiPPOフレームワークとLSSL
 	- https://zenn.dev/izmyon/articles/8374a11d272602
-	- mambaの理論を理解するための解説記事を書き始めました。かなり数式の導出など丁寧に書いてるのでよろしくお願いいたします。何か訂正や補足があれば優しく教えてくださ
--  Tiny Titans: Can Smaller Large Language Models Punc
+	- m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDEyMDA3NCwtMTY3MjQ1NjE5OCwxMT
-A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
-ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsNDIxODQ0NDA0LD
-E2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1NzksLTE2Nzcy
-OTAzMDEsLTExODAxODI5MzUsMTAzNDMyMDI1MywtMTA2NTc2Nj
-AxOSwtMzI2MTQ2MzE3LC0xNjg1ODQ0Njg3LC0xNjA0ODU4NTQ0
-LDY3ODUwNzEyOV19
+eyJoaXN0b3J5IjpbNTQ1Nzk1MzY1LC0xNjcyNDU2MTk4LDExMD
+cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
+ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
+Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
+MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0xMDY1NzY2MD
+E5LC0zMjYxNDYzMTcsLTE2ODU4NDQ2ODcsLTE2MDQ4NTg1NDQs
+Njc4NTA3MTI5XX0=
 -->
