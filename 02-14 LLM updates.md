@@ -6,8 +6,7 @@
 今週はすべてを吹っ飛ばして、Anthropicが突然発表したClaude 3.5 Sonnetでしょう。
 
 
-
-Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等があったり、傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
+Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等がありました。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
 
 先週話題となった、Nemotron-4-340B-Instruct、評価などがぼちぼち、うみゆきさんがShaberi3ベンチにかけてみたら、平均スコア8.05で、Gemini1.5Pro（8.01）以上、GPT-4o（8.16）以下とのこと。またテクニカルノートによると98%の事後学習のデータは合成データをつかっているとのこと、さすが合成データを作るのが得意なNemotronの面目躍如、いや、そのデモだったのかも。無料のPlaygroundで合成データをコチコチ作るという手もありそうだ。
 
@@ -3584,13 +3583,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- Gemmaは`add_dummy_prefix` False → 先頭に空白追加なし（GPTと同じ）
 		- Gemmaには特別なtoken多数（例: HTML要素、謎）
 - google/gemma-7bのtokenizerはBPEでvocabは256k
-	- h
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY3OTM2NTYsMjgzNjIzOTEsMTQ4MD
-QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
-LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OV19
+eyJoaXN0b3J5IjpbMTcxMjc1NDMxNSwyODM2MjM5MSwxNDgwND
+IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
+LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
+I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
+NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
+QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
+NTc5XX0=
 -->
