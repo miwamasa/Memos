@@ -1,6 +1,8 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+## 24/6/24
+- 
 
 ## 6/17
 
@@ -3577,13 +3579,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 社内情報というコンテキストが必要な業務がほとんどである人達に、素のChatGPTを配っても、特に使える所がないというのはいわば当たり前の話です。
 - Build Knowledge Graph From TextData using LangChain
 	- https://medium.com/@mahimairaja/build-knowledge-graph-from-textdata-using-langchain-under-2min-ce0d0d0e44e8
-	- Converting text to knowledge graphs can be helpful for both
+	- Converting text to knowledge graphs can be he
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MT
-cyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2
-MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMC
-wtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4
-NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OS
-wtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwxMDM0MzIwMjUzLC0x
-MDY1NzY2MDE5XX0=
+eyJoaXN0b3J5IjpbMTIzNjQxNTAxNSwxODE4MDU4MzExLC00OT
+I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
+MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
+wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
+OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMy
+wtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEw
+MzQzMjAyNTNdfQ==
 -->
