@@ -3,7 +3,7 @@
 
 ## 24/6/24
 
-今週はすべてを吹っ飛ばして、Anthropicが突然発表したClaude 3.5 Sonnetでしょう。Claude 3 Opusの2倍の速度でこれまでの5分の1のコストというのもすごいのですが、新しいアプリ開発環境Artifactsを使って、人間と対話しながらあっという間に、 スライド生成 、webUI生成 、スマホUI生成 、フローチャート生成、簡易ゲーム生成、ほぼ完ぺきなシフト管理システムの作成、WebGLをつかたった可視化プログラムの生成、様々な事例が発表されお祭り状態に。生産性向上とか改善とか、もう全部、Claude 3.5 Sonnetで上書きされる感じ、逆に、これが使いこなせる人材しか残らない。でもこれSonnetなんですよ、Opusって、、。Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等がありました。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。先週話題となった、Nemotron-4-340B-Instruct、評価などがぼちぼち、うみゆきさんがShaberi3ベンチにかけてみたら、平均スコア8.05で、Gemini1.5Pro（8.01）以上、GPT-4o（8.16）以下とのこと。またテクニカルノートによると98%の事後学習のデータは合成データをつかっているとのこと、さすが合成データを作るのが得意なNemotronの面目躍如、いや、そのデモだったのかも。無料のPlaygroundで合成データをコチコチ作るという手もありそうだ。ローカルLLMでは、製作費７５万という、AIエージェントとして使える「KARAKURI LM 8x7B Instruct v0.1」とか話題になりましたが、なんといっても、Chrome で動く Gemini Nano、開発版では利用可能になっているとのこと、さっそくnpakaさんが動作事例を紹介。ブラウザ組み込みでっせ、javascriptからたたけるんでっせ。shi3zさん、KARAKURIが低予算でLLMを作れたからくりは、AWS Trainiumの利用とのことで、また、先週紹介のあった、MoA(Mixture of Agent)や、LLMのマージ技術により、手軽に誰でも高性能なLLMを構築できるようになった、確変の時代きたるという記事はしびれる、そうか、データはNemotronで合成されればよいのか、どんなLLMがshi3zさんのGPUマシンから出てくるのか。理論面では、LMが事前学習時に事実的知識を獲得する様子の分析論文や、Transformer のコンポーネントか始まって最終的な表現型に近い現象挙動までつながる様子はほぼ明らかとなるような解説記事とか、LLMの振る舞いの理論的な解析も着実にすすんでいます。応用面のRAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索なんかやらせてみて、正気を取り戻しましょう。さて、Claude 3.5 Sonnetの能力を見てると、「まだLLMで驚けるんだ」という(メタな）驚きから、それって、人ってそんなに沢山いらないかも、というのが確信になりつつあります。BBCで紹介された、60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題もインパクトありましたが、Claude 3.5 SonnetやGPT-4o級ならそうなるかも。いや、スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな、と信じたいところです。
+今週はすべてを吹っ飛ばして、Anthropicが突然発表したClaude 3.5 Sonnetでしょう。Claude 3 Opusの2倍の速度でこれまでの5分の1のコストというのもすごいのですが、新しいアプリ開発環境Artifactsを使って、人間と対話しながらあっという間に、 スライド生成 、webUI生成 、スマホUI生成 、フローチャート生成、簡易ゲーム生成、ほぼ完ぺきなシフト管理システムの作成、WebGLをつかたった可視化プログラムの生成、様々な事例が発表されお祭り状態に。無料でArtiffactsは試せて、例えば、このLLMブクマ更新の文章からスライドを作った、知識グラフを生成したりと。生産性向上とか改善とか、もう全部、Claude 3.5 Sonnetで上書きされる感じ、逆に、これが使いこなせる人材しか残らない。でもこれSonnetなんですよ、Opusって、、。Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等がありました。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。先週話題となった、Nemotron-4-340B-Instruct、評価などがぼちぼち、うみゆきさんがShaberi3ベンチにかけてみたら、平均スコア8.05で、Gemini1.5Pro（8.01）以上、GPT-4o（8.16）以下とのこと。またテクニカルノートによると98%の事後学習のデータは合成データをつかっているとのこと、さすが合成データを作るのが得意なNemotronの面目躍如、いや、そのデモだったのかも。無料のPlaygroundで合成データをコチコチ作るという手もありそうだ。ローカルLLMでは、製作費７５万という、AIエージェントとして使える「KARAKURI LM 8x7B Instruct v0.1」とか話題になりましたが、なんといっても、Chrome で動く Gemini Nano、開発版では利用可能になっているとのこと、さっそくnpakaさんが動作事例を紹介。ブラウザ組み込みでっせ、javascriptからたたけるんでっせ。shi3zさん、KARAKURIが低予算でLLMを作れたからくりは、AWS Trainiumの利用とのことで、また、先週紹介のあった、MoA(Mixture of Agent)や、LLMのマージ技術により、手軽に誰でも高性能なLLMを構築できるようになった、確変の時代きたるという記事はしびれる、そうか、データはNemotronで合成されればよいのか、どんなLLMがshi3zさんのGPUマシンから出てくるのか。理論面では、LMが事前学習時に事実的知識を獲得する様子の分析論文や、Transformer のコンポーネントか始まって最終的な表現型に近い現象挙動までつながる様子はほぼ明らかとなるような解説記事とか、LLMの振る舞いの理論的な解析も着実にすすんでいます。応用面のRAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索なんかやらせてみて、正気を取り戻しましょう。さて、Claude 3.5 Sonnetの能力を見てると、「まだLLMで驚けるんだ」という(メタな）驚きから、それって、人ってそんなに沢山いらないかも、というのが確信になりつつあります。BBCで紹介された、60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題もインパクトありましたが、Claude 3.5 SonnetやGPT-4o級ならそうなるかも。いや、スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな、と信じたいところです。
 
 - いつの間にかStable DiffusionがDiffusion Modelではなくなっている！？（バックボーンがDiffusion Transformerだからセーフ？）
 	- https://x.com/shion_honda/status/1802386378874835056
@@ -3555,14 +3555,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 話題のmambaをcolabで動かしてみました｡ 同等サイズのtransformerよりも､2倍くらいは推論が早そうです｡
 - Googleのオープンモデル Gemma の概要  by npakaさん
 	- https://note.com/npaka/n/na47e13dae482?sub_rt=share_h
-	- 「[**Gemma**](https://ai.google.dev/gemma)」は、「**Gemini**」と同じ技術を基に構築された、軽量で最先端のオープンモデル
-	- 「Gemma 2B」「Gemma 7B」の2つのサイズのモデルウェイ
+	- 「[**Gemma**](https://ai.google.dev/gemma)」は、「**Gemini**」と同じ技術を基に
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzgyODg1OTUsMTkwMzYxMjgxMywyOD
-M2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzEx
-LC00OTI0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNz
-EyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5
-NzQ0NywxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4Ni
-wxOTA2OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4
-MDExM119
+eyJoaXN0b3J5IjpbLTE0MzE3NjQ1NjMsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUzNjg4ND
+Q1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMTg0NDQwNCwxNjYw
+NDA2ODY1XX0=
 -->
