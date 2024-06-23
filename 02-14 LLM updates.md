@@ -186,8 +186,11 @@
 		- https://www.youtube.com/watch?v=rHqk0ZGb6qo&t=4s
 - インドの物理学者がひも理論の研究から偶然「円周率」の新しい公式を発見
 	- https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.221601
-- VLSIシンポジウムではMediatakのLLM向けモバイルプロセッサの発表が迫力あった by 竹内さｎ
+- VLSIシンポジウムではMediatakのLLM向けモバイルプロセッサの発表が迫力あった by 竹内さん
 	- https://x.com/kentakeuchi2003/status/1804713977886425509
+	- エッジAIにもLLMが来るぞ、というよりも、もう来ているという感じ。
+- Claude 3.5 使ったら 5分ぐらいで抽象言語パッケージマネージャーGrimoのフロントエンドモック出来てしまった
+	- 
 
 ## 6/17
 
@@ -3586,14 +3589,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 今回は、ござるデータセットで学習します。AIが「我、りんえもんは思う。◯◯でござる。知らんけど。」的な口調になります
 - OmniPred: Language Models as Universal Regressors
 	- https://huggingface.co/papers/2402.14547
-	- 広範な実験により、数学的なパラメーターと値のテキスト表現のみを通じて、言語モデルが非常に正確な数値回帰が可能であることが実証され、トレーニングの機会が与えられれば、複数のタスクにわたって、従来の回帰モデルを大幅に上回る可能性があります
-- Beyond A*: Better Planning with Transformers via Sear
+	- 広範な実験により、数学的なパラメーターと値のテキスト表現のみを通じて、言語モデルが非常に正確な数値回帰が可能であることが実証され、トレー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxNDY0NTYwLDI4MzYyMzkxLDE0ODA0Mj
-M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
-ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
-Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
-MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
-IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
-NzldfQ==
+eyJoaXN0b3J5IjpbLTE2MTA3MjgwNTQsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
