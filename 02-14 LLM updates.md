@@ -9,7 +9,7 @@ Googleからは、患者とのやり取りで人間の医師を超えるとい�
 
 先週話題となった、Nemotron-4-340B-Instruct、評価などがぼちぼち、うみゆきさんがShaberi3ベンチにかけてみたら、平均スコア8.05で、Gemini1.5Pro（8.01）以上、GPT-4o（8.16）以下とのこと。またテクニカルノートによると98%の事後学習のデータは合成データをつかっているとのこと、さすが合成データを作るのが得意なNemotronの面目躍如、いや、そのデモだったのかも。無料のPlaygroundで合成データをコチコチ作るという手もありそうだ。
 
-shi3zさん、
+shi3zさん、KARAKURIが低予算でLLMを作れたからくりは、AWS Trainiumの利用とのことで、
 
 ローカルＬＬＭでは、製作費７５万という、AIエージェントとして使える「KARAKURI LM 8x7B Instruct v0.1」とか話題になりましたが、なんといっても、Chrome で動く Gemini Nano、開発版では利用可能になっているとのこと。ブラウザ組み込みでっせ、javascriptからたたけるんでっせ。
 
@@ -3570,13 +3570,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「[**Gemma**](https://ai.google.dev/gemma)」は、「**Gemini**」と同じ技術を基に構築された、軽量で最先端のオープンモデル
 	- 「Gemma 2B」「Gemma 7B」の2つのサイズのモデルウェイトをリリースします。各サイズは、事前学習および指示チューニングされたバリアントでリリースします。
 	- 「Responsible Generative AI Toolkit」は、「Gemma」を使用してより安全なAIアプリケーションを作成するためのガイダンスと必須ツールを提供します。
-	- 「Keras 3.0」を介して、JAX、PyTorch、TensorFlow など、すべての主要なフレームワークにわたって推論と教師ありファインチューニング (SFT) のためのツー
+	- 「Keras 3.0」を介して、JAX、PyTorch、TensorFlow など、すべ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDE4NjAzOSwyODM2MjM5MSwxNDgwND
-IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
-LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
-I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
-NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
-QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
-NTc5XX0=
+eyJoaXN0b3J5IjpbLTE2OTkzNTA5NjYsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
