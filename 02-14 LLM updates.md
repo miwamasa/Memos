@@ -13,7 +13,9 @@ shi3zさん、
 
 RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索
 
-Googleのgeminiのnoteシリーズ、勉強になるなあ。
+Googleのgeminiのnoteシリーズ、勉強になるなあ。メタからは、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
+
+スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな。
 
 - いつの間にかStable DiffusionがDiffusion Modelではなくなっている！？（バックボーンがDiffusion Transformerだからセーフ？）
 	- https://x.com/shion_honda/status/1802386378874835056
@@ -3590,16 +3592,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf
 	- https://huggingface.co/chat/settings/google/gemma-7b-it
 	- Geminiモデルと同様のアーキテクチャ、データ、学習レシピを使用して、最大6兆個のテキストトークンで学習（主に英語）。サイズは2つで、パラメータ数がそれぞれ20億個と70億個。TPUv5eを使用して学習
-	- 日本語モデルではないのに日本語でも答えてくれる
-	- Hugging Face に 2B と 7Bの二種類（それぞれベース・インストラクション）があがっている
-	- Context Length は 8k
-	- 4bit で推論するコー
+	- 日本語モデルではないのに
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDMxNjg3NiwyODM2MjM5MSwxNDgwND
-IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
-LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
-I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
-NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
-QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
-NTc5XX0=
+eyJoaXN0b3J5IjpbLTE5MTgwNjYyMjEsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
