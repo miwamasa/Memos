@@ -163,7 +163,11 @@
 	- https://arxiv.org/abs/2404.07143
 	- Infini-attentionは、トランスフォーマーベースのLLMsが無限に長いコンテキストを処理できるようにする新しい手法
 	- 従来の注意メカニズムが長いシーケンスを処理する際に直面するメモリと計算負荷の問題を解決
-- 
+- 加熱するLLM開発競争に冷や水、オープンモデルの組み合わせだけでGPT-4o越えの事実 by shi3zさん
+	- https://wirelesswire.jp/2024/06/86709/
+	- この最新のLLNは、日本語向けオープンLLMとしては初の「命令実行」チューニングを施されている
+	- Karakuriはこんな低予算で日本語最高性能のエージェントLLMを作ることができたのか。それはNVIDIAのGPUを使っていないからだ。
+	- 
 
 ## 6/17
 
@@ -3584,9 +3588,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 2/19
 
-今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算している気がする。GoogleのGemini 1.5のリリース直後だし、MetaのLecun先生が、当面できないという講演の数日後に出すとか、OpenAIは配球を選ぶだけの持ち球のストックがあるといううわさは本当なのかも。外部からのsoraの技術解析も進み、既存の技術の組み合わせではあるが、その性能・精度とスケールが違うととのことで、つまり、OpenAIが圧倒的な横綱
+今週は、なんといっても、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTE1OTQ0MywyODM2MjM5MSwxNDgwND
+eyJoaXN0b3J5IjpbMTUxMDI4MjIzNywyODM2MjM5MSwxNDgwND
 IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
 LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
 I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
