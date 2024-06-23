@@ -130,7 +130,13 @@
 - きたあああああああああああああああああああああああああああああああああああああ！！
 	- https://x.com/lemilemilemio/status/1803607874079432959
 	- Anthropic社は突如として"Claude 3.5 Sonnet"をリリース
-- 
+- 国産LLM初、AIエージェントとして使える「KARAKURI LM 8x7B Instruct v0.1」を一般公開
+	- https://prtimes.jp/main/html/rd/p/000000089.000025663.html
+	- Function callingとRAGに対応した「KARAKURI LM 8x7B Instruct v0.1」を公開いたします
+	- 本対応により、「KARAKURI LM 8x7B Instruct v0.1」は様々なアプリケーションを人間に代わって操作するAIエージェント※2 としての活用が可能です
+- Anthropic社は突如として"Claude 3.5 Sonnet"をリリース
+	- https://x.com/ctgptlb/status/1803822932831166712
+	- 
 
 ## 6/17
 
@@ -3563,15 +3569,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Chat with RTX from NVIDIA
 	- https://x.com/NVIDIAAIDev/status/1757447655674819053?s=20
 - Deepreneur-blue-lizard
-	- https://huggingface.co/Deepreneur/blue-lizard
-	- 東京大学松尾研究室発のAIスタートアップ、株式会社Deepreneur(ディープレナー
-	- MetaのLlama-2-7bに対して、Wikipediaや書籍等の日本語の学習データを用いて追加事前学習と独自データによるファインチューニングを実施したモデルです。  
-	- 70億パラメータと非常に軽量なモデルであるにも関わらず、JGLUE（日本語タスクにおける評価ベンチマーク）を用いた評価では、ChatGPT-3.5を超えるスコアが算出されており、公開されている日本語モデルの中では最高性能になります。
-	-  株式会社Deepreneur、ChatGPT-3.5を上回る日本語LLM「blue-lizard」を開発。各社独自の高精度オンプレ型のLLMの構築サービスを開始
-- ChemLLM: A Chemical LLM
-	
+	- https://huggingface.co/Deepreneur/blue
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTM4MzcxNSwyODM2MjM5MSwxNDgwND
+eyJoaXN0b3J5IjpbLTExOTcwNjcwMSwyODM2MjM5MSwxNDgwND
 IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
 LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
 I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
