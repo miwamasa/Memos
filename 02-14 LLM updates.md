@@ -11,6 +11,10 @@ Nemotron-4-340B-Instruct、Shaberi3ベンチにかけてみたら、平均スコ
 
 shi3zさん、
 
+RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索
+
+Googleのgeminiのnoteシリーズ、勉強になるなあ。
+
 - いつの間にかStable DiffusionがDiffusion Modelではなくなっている！？（バックボーンがDiffusion Transformerだからセーフ？）
 	- https://x.com/shion_honda/status/1802386378874835056
 - WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild
@@ -3589,12 +3593,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 日本語モデルではないのに日本語でも答えてくれる
 	- Hugging Face に 2B と 7Bの二種類（それぞれベース・インストラクション）があがっている
 	- Context Length は 8k
-	- 4bit で推論するコードも HF page にそのまま記載ある
-	- ライセンスは Gemma license
-	- llamaより緩いライセンスでリリース
-	- 同パラメーターサイズであればLlama2やMistralより
+	- 4bit で推論するコー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODk0NTYwMCwyODM2MjM5MSwxNDgwND
+eyJoaXN0b3J5IjpbMjAyNDMxNjg3NiwyODM2MjM5MSwxNDgwND
 IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
 LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
 I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
