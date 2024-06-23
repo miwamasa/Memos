@@ -159,6 +159,10 @@
 	- 本モデルはトレーニングコストを最大50%削減できるといわれているAWS Trainiumを活用しており、開発費用は75万円です。
 	- デモ（期間限定）
 		- https://lm.karakuri.cc/
+-  Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention
+	- https://arxiv.org/abs/2404.07143
+	- Infini-attentionは、トランスフォーマーベースのLLMsが無限に長いコンテキストを処理できるようにする新しい手法
+	- 従来の注意メカニズムが長いシーケンスを処理する際に直面するメモリと計算負荷の問題を解決
 - 
 
 ## 6/17
@@ -3580,9 +3584,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 2/19
 
-今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算している気がする。GoogleのGemini 1.5のリリース直後だし、MetaのLecun先生が、当面できないという講演の数日後に出すとか、OpenAIは配球を選ぶだけの持ち球のストックがあるといううわさは本当なのかも。外部からのsoraの技術解析も進み、既存の技術の組み合わせではあるが、その性能・精度とスケールが違うととのことで、つまり、OpenAIが圧倒的な横綱相撲を見せつけただけだった。soraのおかげで霞んででしまったGemini 1.5、なんとMoEを採用し、長大トークンに対応、RAGっていらね？みたいな勢いだが、ブラックボックスをガラポンで利用してよいわけがない。RAGもCollective RAGとか、embeddingの工夫とか、説明性のある生成AIの方向に進んでる気がする。一方MetaはLeCun先生のいう世界モデルに近くためのV-JEPA（動画の予測）を発表。ここにきて、世界モデルやシミュレーションが一気に現実味
+今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算している気がする。GoogleのGemini 1.5のリリース直後だし、MetaのLecun先生が、当面できないという講演の数日後に出すとか、OpenAIは配球を選ぶだけの持ち球のストックがあるといううわさは本当なのかも。外部からのsoraの技術解析も進み、既存の技術の組み合わせではあるが、その性能・精度とスケールが違うととのことで、つまり、OpenAIが圧倒的な横綱
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MzU1NjQwOSwyODM2MjM5MSwxNDgwND
+eyJoaXN0b3J5IjpbMTQzOTE1OTQ0MywyODM2MjM5MSwxNDgwND
 IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
 LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
 I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
