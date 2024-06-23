@@ -122,6 +122,10 @@
 	- https://developer.chrome.com/docs/ai?hl=ja
 - Transformerの次のアーキテクチャとして期待されているMambaを使った音声分類モデル、Audio-MambaのFine-Tuningを試してみました
 	- https://x.com/AIShift_PR/status/1803349519532531817
+-  A Primer on the Inner Workings of Transformer-based Language Models
+	- https://arxiv.org/abs/2405.00208
+	- Section 2→5に進むにつれてTransformerのコンポーネント内の局所的な挙動から始まってより最終的な表現型に近い現象の説明まで，これまでの大量の知見がまとまっています
+	- Transformer の挙動はほぼ明らかになってると思っていて、まだ明らかになってないことはモデルというより言語の性質が原因な気がする（素人の勘）
 - 
 
 ## 6/17
@@ -3563,15 +3567,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - ChemLLM: A Chemical LLM
 	- https://arxiv.org/abs/2402.06852
 	- We don't see too much research around LLMs for science so it's exciting to find this one. 
-	- It's a dedicated LLM trained for chemistry-related tasks. Claims to outperform GPT-3.5 on principal tasks such as name conversion, molecular caption, and reaction…
-- Large Language Models: A Survey
-	- https://arxiv.org/abs/2402.06196
-	- 大規模言語モデル（LLM）これまでとこれからを包括的に整理したサーベイ論文が公開されています。
-	- ■小さくて効率的なモデルを開発する 
-		- 大きなモデルは高コストで非効率的である
-		- そのため
+	- It's a dedicated LLM trained for chemistry-related tasks. Cl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzOTA5ODk0LDI4MzYyMzkxLDE0ODA0Mj
+eyJoaXN0b3J5IjpbNjExNDg5MDg2LDI4MzYyMzkxLDE0ODA0Mj
 M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
 ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
 Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
