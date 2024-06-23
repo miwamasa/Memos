@@ -32,7 +32,11 @@
 		- Trained on 6144 H100 GPUs with 8-way TP, 12-way PP with interleaving and DP to achieve ~42% MFU
 		- Only used 20k Human annotated data mostly for Reward Modeling
 		- Detailed Synthetic Data pipeline instruction including all prompts to generate data
-- 
+- DeepMind　からvideo-to-audio (V2A) generative technology. 
+	- https://x.com/GoogleDeepMind/status/1802733643992850760
+	- It can add sound to silent clips that match the acoustics of the scene, accompany on-screen action, and more.
+- How Do Large Language Models Acquire Factual Knowledge During Pretraining?
+	- 
 - 
 
 ## 6/17
@@ -3571,18 +3575,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Open AI 動画生成AI 『Sora』をリリース
 	- https://openai.com/sora
 	- Googleが切り札的に電撃公開したGemini 1.5の数時間後に、OpenAIが世界の話題を掻っ攫うレベルの動画生成AIのSoraをぶつけてきた
-- META がVideo Joint Embedding Predictive Architecture (V-JEPA) モデルをCC BY-NC ライセンスの下で一般公開
-	- https://x.com/bioshok3/status/1758182170135576590?s=20
-	- V-JEPA は、抽象表現空間内のビデオの欠落部分またはマスクされた部分を予測することによって学習する非生成モデル
--  LangChain v0.1 クイックスタートガイド - Python版  by npakaさん
-	- https://note.com/npaka/n/n1d771995c3aa?sub_rt=share_h
-	- **v0.1** ではlangchainパッケージが次の3つのパッケージに分割
+- META がVideo Joint Embedding Predictive Architectu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1ODM5MjI4LDE4MTgwNTgzMTEsLTQ5Mj
-QxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgz
-NywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LD
-E3NDY2NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5
-MjUwNTUsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC
-03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAz
-NDMyMDI1M119
+eyJoaXN0b3J5IjpbLTU3NzA5OTk1OSwxODE4MDU4MzExLC00OT
+I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
+MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
+wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
+OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMy
+wtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEw
+MzQzMjAyNTNdfQ==
 -->
