@@ -177,7 +177,10 @@
 	- https://note.com/npaka/n/n7c8e19914166
 	- 大学院レベルの推論 (GPQA)、学部レベルの知識 (MMLU)、コーディング能力 (HumanEval) において、新たな業界基準を設定しました。ニュアンス、ユーモア、複雑な指示の把握において顕著な改善が見られ、自然で親しみやすい口調で高品質のコンテンツを書くことに優れています
 	- 指示に従って[適切なツールが提供されれば](https://www.anthropic.com/news/tool-use-ga)、高度な推論機能とトラブルシューティング機能を使用して、コードを独自に記述、編集、実行できます。コード変換も簡単に処理できるため、レガシーアプリケーションの更新やコードベースの移行に特に効果的です。
-	- 
+	- 「**Artifacts**」は、ユーザーがClaudeとやり取りする方法を拡張する新機能です。ユーザーがClaudeにコード、テキスト、Webサイトデザインなどのコンテンツを生成するように依頼すると、これらのArtifactsが会話の横にある専用ウィンドウに表示されます。
+	- Anthropicのレッドチーム評価では、「Claude 3.5 Sonnet」はASL-2のままであると結論付けられました。
+-  [Claude 3.5 Sonnet の評価に関する備忘録]()
+	- https://tech.algomatic.jp/entry/papers/anthropic-2024-claude35
 
 ## 6/17
 
@@ -3583,16 +3586,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://stability.ai/news/stable-diffusion-3?utm_source=twitter&utm_medium=website&utm_campaign=blog
 	- 学習データから15億件も弾いたらしい。すごいな
 - Colbert Rerank
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/node_postprocessor/ColbertRerank.ipynb
-	- ColBERT  is a great model for reranking. It’s ~100x faster than BERT-based/cross-encoder models, letting you rerank large amounts of documents without worrying about latency. And of course it does better than standard dense retrieval.
-- The prompting guide for Gemma 7B Instruct is live!
-	- https://w
+	- https://github.com/run-llama/llama_index/blob/main/docs/examples/node_postprocessor/ColbertRerank.ipy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODExNzgxMTMsMjgzNjIzOTEsMTQ4MD
-QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
-LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OV19
+eyJoaXN0b3J5IjpbNzg1ODczMDY5LDI4MzYyMzkxLDE0ODA0Mj
+M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
+ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
+Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
+MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
+IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
+NzldfQ==
 -->
