@@ -193,7 +193,8 @@
 	- https://x.com/ai_syacho/status/1804400108664189260
 - Claude able to produce simulated 3d physics using WebGL
 	- https://x.com/Hamptonism/status/1804496837216227756
-- 
+- Magpieという手法をNemotron-4-340B-Instructに適用し、日本語ロールプレイ用instructionの合成データセットを作成してみました。
+-	
 
 ## 6/17
 
@@ -3588,10 +3589,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/xenovacom/status/1760384978360074460?s=20
 	- the Gemma and Llama tokenizers are very similar, with the main difference being vocabulary size. One interesting thing to see is that even with an 8x larger vocabulary (256k vs 32k), Gemma only produces ~13% fewer tokens than Llama.
 - Google Colab で Gemma のファインチューニングを試す
-	- https://note.com/npaka/n/nc55e44e407ff?sub_rt=share_h
-	- 今回は、ござるデータセットで学習します。AIが「我、りんえもんは思う。◯◯でござる。知らんけど。」的な口調になります
+	- https://note.com/npaka/n/nc55e44e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTIwMjU1OCwyODM2MjM5MSwxNDgwND
+eyJoaXN0b3J5IjpbMTY3MDk3Mzk4MSwyODM2MjM5MSwxNDgwND
 IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
 LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
 I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
