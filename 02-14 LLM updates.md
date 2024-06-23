@@ -115,6 +115,11 @@
 - Google researchers developed the Articulate Medical Intelligence Explorer (AMIE),
 	- https://www.deeplearning.ai/the-batch/amie-a-chatbot-that-outperforms-doctors-in-diagnostic-conversations/?utm_campaign=The%20Batch&utm_content=297333022&utm_medium=social&utm_source=twitter&hss_channel=tw-992153930095251456
 	- AMIE, a chatbot that outperforms doctors in diagnostic conversations
+- Kolmogorov Arnold Network” is one of the best innovations of 2024
+	- https://x.com/predict_addict/status/1803323909233668281
+	- “Kolmogorov–Arnold-Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov–Arnold Networks”
+- Chrome で Gemini Nano を使用する
+	- https://developer.chrome.com/docs/ai?hl=ja
 	- 
 
 ## 6/17
@@ -3566,19 +3571,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- パラメータ効率の良いファインチューニングや、教師あり学習、蒸留法などの技術が活用される 
 	- ■アーキテクチャのパラダイムを変える 
 		- トランスフォーマーの"次"に関心が高まっている
-		- アテンションモデルに変わる状態空間モデル（Mambaなど）が筆頭候補 
-		- 新アーキテクチャは長いコンテキストを効率よく扱うなどの優位性が確認されている 
-	- ■マルチモーダルモデルに進化させる
-		- テキスト、画像、動画、音声など様々なデータタイプを統一的に扱うようになっていく
-		- アプリケーションの幅が広がる
-		- すでに優秀なモデルが出現し始めており、この流れは続いてくだろう 
-	- ■実用性を向上させる 
-		- LLMの短所（幻覚など）はプロンプトエンジニアリングや外部ツール、RAGなどで対処できることが分かり始めている
-		- 従来の機械学習システムを代替していく流れが起きている
-		- 個人の好みにパーソナライズするような設計が人気を集めている 
-	- ■セキュリティ対策を
+		- アテンションモデル
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc2MTYwMzMsMjgzNjIzOTEsMTQ4MD
+eyJoaXN0b3J5IjpbLTE5NDEyOTQwNTMsMjgzNjIzOTEsMTQ4MD
 QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
 LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
 cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
