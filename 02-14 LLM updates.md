@@ -181,10 +181,13 @@
 	- Anthropicのレッドチーム評価では、「Claude 3.5 Sonnet」はASL-2のままであると結論付けられました。
 -  Claude 3.5 Sonnet の評価に関する備忘録
 	- https://tech.algomatic.jp/entry/papers/anthropic-2024-claude35
-	- 
+	- 論文にあった、様々なデータセットでの具体的な性能を例示している
 	- Artifacts — a new way to use Claude
 		- https://www.youtube.com/watch?v=rHqk0ZGb6qo&t=4s
-- 
+- インドの物理学者がひも理論の研究から偶然「円周率」の新しい公式を発見
+	- https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.221601
+- VLSIシンポジウムではMediatakのLLM向けモバイルプロセッサの発表が迫力あった by 竹内さｎ
+	- https://x.com/kentakeuchi2003/status/1804713977886425509
 
 ## 6/17
 
@@ -3584,19 +3587,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - OmniPred: Language Models as Universal Regressors
 	- https://huggingface.co/papers/2402.14547
 	- 広範な実験により、数学的なパラメーターと値のテキスト表現のみを通じて、言語モデルが非常に正確な数値回帰が可能であることが実証され、トレーニングの機会が与えられれば、複数のタスクにわたって、従来の回帰モデルを大幅に上回る可能性があります
-- Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping
-	- https://huggingface.co/papers/2402.14083
-- Stable Diffusion 3リリース
-	- https://stability.ai/news/stable-diffusion-3?utm_source=twitter&utm_medium=website&utm_campaign=blog
-	- 学習データから15億件も弾いたらしい。すごいな
-- Colbert Rerank
-	- https:
+- Beyond A*: Better Planning with Transformers via Sear
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODQ5ODA4NCwyODM2MjM5MSwxNDgwND
-IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
-LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
-I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
-NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
-QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
-NTc5XX0=
+eyJoaXN0b3J5IjpbOTAxNDY0NTYwLDI4MzYyMzkxLDE0ODA0Mj
+M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
+ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
+Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
+MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
+IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
+NzldfQ==
 -->
