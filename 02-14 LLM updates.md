@@ -3,11 +3,11 @@
 
 ## 24/6/24
 
-今週はすべてを吹っ飛ばして、
+今週はすべてを吹っ飛ばして、AnthropicのClaude 3.5 Sonnetでしょう。
 
-60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題、いやAn
+60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題もBBCで紹介されましたが、いやAn
 
-Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等があった。傘下のDeepMindからvideo-to-audio (V2A)の発表、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
+Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等があった。傘下のDeepMindからvideo-to-audio (V2A)の発表、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
 
 先週話題となった、Nemotron-4-340B-Instruct、評価などがぼちぼち、うみゆきさんがShaberi3ベンチにかけてみたら、平均スコア8.05で、Gemini1.5Pro（8.01）以上、GPT-4o（8.16）以下とのこと。またテクニカルノートによると98%の事後学習のデータは合成データをつかっているとのこと、さすが合成データを作るのが得意なNemotronの面目躍如、いや、そのデモだったのかも。無料のPlaygroundで合成データをコチコチ作るという手もありそうだ。
 
@@ -3591,9 +3591,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 京都 大阪 兵庫 奈良 滋賀 はあれど 和歌山 は登録なし 
 	- 他では見ないタイプのトークンが多数 コードもmergeされたてホヤホヤ
 - gemma-7b
-	- https://storage.googleapis.com/deep
+	- ht
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDg4MTcwMCwyODM2MjM5MSwxNDgwND
+eyJoaXN0b3J5IjpbLTc3NzY2MDM2OCwyODM2MjM5MSwxNDgwND
 IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
 LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
 I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
