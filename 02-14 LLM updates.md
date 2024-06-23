@@ -111,7 +111,11 @@
 	- https://x.com/bioshok3/status/1803475573030920310
 - グーグル、12時間先まで5分刻みで降雨予測する「Google ナウキャスト」
 	- https://www.watch.impress.co.jp/docs/news/1601121.html
-- 
+	- Google ナウキャストでは、6時間先までの降雨予測をGoogle 検索の結果に表示し、さらに12時間先までの予測を文字情報で表示。5分単位の詳細な雨量予測が可能となる。雨だけでなく雪の予測も行なう。
+- Google researchers developed the Articulate Medical Intelligence Explorer (AMIE),
+	- https://www.deeplearning.ai/the-batch/amie-a-chatbot-that-outperforms-doctors-in-diagnostic-conversations/?utm_campaign=The%20Batch&utm_content=297333022&utm_medium=social&utm_source=twitter&hss_channel=tw-992153930095251456
+	- AMIE, a chatbot that outperforms doctors in diagnostic conversations
+	- 
 
 ## 6/17
 
@@ -3572,23 +3576,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- LLMの短所（幻覚など）はプロンプトエンジニアリングや外部ツール、RAGなどで対処できることが分かり始めている
 		- 従来の機械学習システムを代替していく流れが起きている
 		- 個人の好みにパーソナライズするような設計が人気を集めている 
-	- ■セキュリティ対策を強化する
-		- 敵対的攻撃からモデルを守るのが重要になっている
-		- 倫理的な懸念やバイアスに対処するための研究も活発化している 
-		- 機密情報を責任を持って扱うように努力されている
-- 実践！大規模言語モデル / 1000億パラメータ越えモデルを動かすには？
-	- https://zenn.dev/turing_motors/articles/26e1f1be50c0b5
-	- BLOOM-1Bを動かしてみる
-		- 10億パラメータ数程度のモデルであれば、GPUメモリが12GB以上のGPUであれば推論することが可能です。Google Colaboratoryで提供されているGPUインスタンスで動かすことができます
-	- BLOOM-176Bを動かしてみる？
-		- では実際1000億パラメータを超えるBLOOMを動かすにはどうすればいいでしょうか？
-		- 単純な解決策として、その大規模モデルが乗る計算環境を構築することができますが、もしそのレベルのスペックをオンプレミスのサーバーで整える場合は数千万円規模になってしまいます。また、AWSやGCPなどの
+	- ■セキュリティ対策を
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDUwMTc5OCwyODM2MjM5MSwxNDgwND
-IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
-LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
-I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
-NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
-QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
-NTc5XX0=
+eyJoaXN0b3J5IjpbLTE2MDc2MTYwMzMsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
