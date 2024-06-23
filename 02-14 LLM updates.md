@@ -3,6 +3,9 @@
 
 ## 24/6/24
 
+60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題
+DeepMind　からvideo-to-audio (V2A)
+
 - いつの間にかStable DiffusionがDiffusion Modelではなくなっている！？（バックボーンがDiffusion Transformerだからセーフ？）
 	- https://x.com/shion_honda/status/1802386378874835056
 - WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild
@@ -201,7 +204,7 @@
 	-	「Chrome」の「Gemini Nano」の早期アクセス版が使えるようになりました。
 	-	テキスト生成
 	-	(1) メニュー「表示 → 開発/管理 → JavaScriptコンソール」でコンソールを表示。
-	-	(2)次のコードが
+	-	(2)いかがコードのイメージ
 		-	const canCreate = await  window.ai.canCreateTextSession();
 		-	const session = await  window.ai.createTextSession(); 
 		-	const result = await session.prompt("まどか☆マギカでは誰が一番かわいい?");
@@ -3590,16 +3593,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- LLM大喜利。各タスク毎に賞金$10k。
 - gemma-2bを試す by npakaさん
 	- https://x.com/npaka123/status/1760432810811400204?s=20
-	- https://huggingface.co/google/gemma-2b-it
-- gemma-7b-it-gguf
-	- https://huggingface.co/mmnga/gemma-7b-it-gguf
-	- G
+	- https://huggingf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU3ODE2MjAsMjgzNjIzOTEsMTQ4MD
-QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
-LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OV19
+eyJoaXN0b3J5IjpbLTg3NTA4MzAxLDI4MzYyMzkxLDE0ODA0Mj
+M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
+ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
+Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
+MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
+IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
+NzldfQ==
 -->
