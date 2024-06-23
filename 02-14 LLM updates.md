@@ -11,9 +11,7 @@ Googleからは、患者とのやり取りで人間の医師を超えるとい�
 
 shi3zさん、
 
-ローカルＬＬＭでは、
-
-Chrome の Gemini Nano
+ローカルＬＬＭでは、製作費７５万という、AIエージェントとして使える「KARAKURI LM 8x7B Instruct v0.1」とか話題になりましたが、なんといっても、Chrome で動く Gemini Nano、開発版では利用可能になっているとのこと。ブラウザ組み込みでっせ、javascriptからたたけるんでっせ。
 
 LLMが事前学習時に事実的知識を獲得する様子の分析や、Transformer のコンポーネントか始まって最終的な表現型に近い現象挙動はほぼ明らかとなるような解説記事とか、LLMの振る舞いの理論的な解析も着実にすすんでいます。応用面の、RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索なんかやらせてみて、正気を取り戻しましょう。
 
@@ -3574,16 +3572,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「Responsible Generative AI Toolkit」は、「Gemma」を使用してより安全なAIアプリケーションを作成するためのガイダンスと必須ツールを提供します。
 	- 「Keras 3.0」を介して、JAX、PyTorch、TensorFlow など、すべての主要なフレームワークにわたって推論と教師ありファインチューニング (SFT) のためのツールチェーンを提供しています
 	- 事前学習、指示チューニングされた「Gemma」は、ノートパソコン、ワークステーション、Google Cloud 上で実行でき
-	- 「Gemma」のリスクプロファイルを理解して軽減するために、手動のレッドチーム化、自動化された敵対的テスト、危険なアクティビティに対するモデルの機能の評価など、堅牢な評価を実施しました。 
-	- ai.google.dev/gemma、では、「Gemma」の詳細やクイックスタートガイドを参照できます。
-- Gemma Tokenizer が面白い
-	- https://x.co
+	- 「Gemma」のリスクプロファイルを理解して軽減するために、手動のレッドチーム化、自動化された敵対的テスト、危険なアクテ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTIzNDQwMTAsMjgzNjIzOTEsMTQ4MD
-QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
-LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OV19
+eyJoaXN0b3J5IjpbNDIwNjY5MzA4LDI4MzYyMzkxLDE0ODA0Mj
+M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
+ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
+Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
+MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
+IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
+NzldfQ==
 -->
