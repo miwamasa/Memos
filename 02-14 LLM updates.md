@@ -49,7 +49,9 @@
 - I have lots of thoughts on "agents"!
 	- https://x.com/hwchase17/status/1803089961245348125
 	- spotify での配信付き
--  
+- today at Meta FAIR we’re announcing four new publicly available AI models
+	- https://x.com/AIatMeta/status/1803107817345393136
+	-  
 
 ## 6/17
 
@@ -3575,14 +3577,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Google Deepmind presents Mixtures of Experts Unlock Parameter Scaling for Deep RL
 -  Google Colabでの日本語Mambaの事前学習
 	- https://note.com/hatti8/n/na9782b7fa437?sub_rt=share_pb
-	- 日本語モデルがないので、日本語Mambaの事前学習のコードを作成しました。Google colabで動くことは確認したもののA100(40B)でも**15時間近くかかるので実質最後までは実行できないです。**
--  GraphRAG: Unlocking LLM discovery on narrativ
+	- 日本語モデルがないので、日本語Mambaの事前学習のコー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTA0NTY1OSwxODE4MDU4MzExLC00OT
-I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
-MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
-wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
-OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMy
-wtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEw
-MzQzMjAyNTNdfQ==
+eyJoaXN0b3J5IjpbLTIxMTc0NjU1NDgsMTgxODA1ODMxMSwtND
+kyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0
+ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0ND
+csMTc0NjY3NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkw
+NjkyNTA1NSw0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMT
+MsLTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwx
+MDM0MzIwMjUzXX0=
 -->
