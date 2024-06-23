@@ -5,7 +5,7 @@
 
 今週はすべてを吹っ飛ばして、AnthropicのClaude 3.5 Sonnetでしょう。
 
-60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題もBBCで紹介されましたが、いやAn
+いやAn
 
 Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等があった。傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
 
@@ -16,8 +16,7 @@ shi3zさん、
 RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索
 
 
-さて、Claude 3.5 Sonnetの能力を見てると、まだＬＬＭで驚けるんだという驚きから、それは人っていらないかもというのが確信になりつつあります。
-スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな。
+さて、Claude 3.5 Sonnetの能力を見てると、「まだＬＬＭで驚けるんだ」という驚きから、それって、人っていらないかもというのが確信になりつつあります。60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題もBBCで紹介されましたが、Claude 3.5 SonnetやGPT-4o級ならそうなるかも。いや、スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな、と信じたい。
 
 - いつの間にかStable DiffusionがDiffusion Modelではなくなっている！？（バックボーンがDiffusion Transformerだからセーフ？）
 	- https://x.com/shion_honda/status/1802386378874835056
@@ -3586,11 +3585,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- Gemmaは`add_dummy_prefix` False → 先頭に空白追加なし（GPTと同じ）
 		- Gemmaには特別なtoken多数（例: HTML要素、謎）
 - google/gemma-7bのtokenizerはBPEでvocabは256k
-	- https://huggingface.co/google/gemma-7b
-	- ひらがなカタカナを含むvocabは7039件 
-	- 京都 大阪 兵
+	- https://huggingface.co/google/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0MTgxMTc4LDI4MzYyMzkxLDE0ODA0Mj
+eyJoaXN0b3J5IjpbNzU4Nzg1NzU0LDI4MzYyMzkxLDE0ODA0Mj
 M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
 ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
 Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
