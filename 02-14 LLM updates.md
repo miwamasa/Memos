@@ -149,7 +149,7 @@
 	- 3. スマホUI生成 
 	- 4. フローチャート生成 
 	- 5. 簡易ゲーム生成
-- 
+-  Evaluating the World Model Implicit in a Generative Model
 
 ## 6/17
 
@@ -3573,10 +3573,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 今週は、なんといっても、sora、sora、sora。これってOpenAIが意図してリリース時期を計算している気がする。GoogleのGemini 1.5のリリース直後だし、MetaのLecun先生が、当面できないという講演の数日後に出すとか、OpenAIは配球を選ぶだけの持ち球のストックがあるといううわさは本当なのかも。外部からのsoraの技術解析も進み、既存の技術の組み合わせではあるが、その性能・精度とスケールが違うととのことで、つまり、OpenAIが圧倒的な横綱相撲を見せつけただけだった。soraのおかげで霞んででしまったGemini 1.5、なんとMoEを採用し、長大トークンに対応、RAGっていらね？みたいな勢いだが、ブラックボックスをガラポンで利用してよいわけがない。RAGもCollective RAGとか、embeddingの工夫とか、説明性のある生成AIの方向に進んでる気がする。一方MetaはLeCun先生のいう世界モデルに近くためのV-JEPA（動画の予測）を発表。ここにきて、世界モデルやシミュレーションが一気に現実味が帯びてきた。なぜかLlamaindexとLangchainが同時期にそれぞれ大きなバージョンの代替わり、肥大化しすぎたのをモジュラー化したという話だが、LangChainには後方互換性があるって本当？LLMのサーベイ論文、今後の研究の進む方向を正しく見据えててよい。小さいLLMとかTransfomerに代わる次世代アーキテクチャ(Mambaとか）とか、本LLMアプデでも追ってた話題が満載、まあ誰が見てもそうなるわな。natureの、ChatGPTを利用してデータから論文を生成ってのは、自分がというわけではなく、そういう人や論文と世界で競争しなければいけないという意味で、研究者なら必読だろう。ローカルLLMでは、Ollamaの日本語出力が改良されたということで、npakaさんのElyza-7Bを動かした記事は、日本語でローカルLLMしたい勢には参考になるだろう。元木さんの分析のように、Transformerベースの潜在拡散モデルをつかったLLMでは、資金とリソースの戦いなので、横綱相撲を見せつけらて戦闘意欲をそがれる発表が多いが、だからこそ、LLMサーベイ論文がいうように、アーキテクチャのパラダイムを変える必要があるし、そういう人たちが出てくるに違いない。歩みを止めるわけにはいかない。
 
 -  LlamaIndex v0.10
-	- https://blog.llamaindex.ai/llamaindex-v0-10-838e735948f8
-	- https://x.com/llama_index/status/175
+	- https://blog.llamaindex.ai/llamaindex-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzkxMjMzNzAsMjgzNjIzOTEsMTQ4MD
+eyJoaXN0b3J5IjpbLTE3OTg4MjI5MDIsMjgzNjIzOTEsMTQ4MD
 QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
 LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
 cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
