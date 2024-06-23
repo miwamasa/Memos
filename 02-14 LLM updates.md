@@ -20,11 +20,19 @@
 - The importance of stupidity in scientific research
 	- https://web.stanford.edu/~fukamit/schwartz-2008.pdf
 	- 「愚かさ」は、科学者が重要な質問をしていることを示す兆候であるとされています。著者は、学生が「生産的に愚かになる」方法を教えるための提案で論文を締めくくっています。
-- Nemotron 340B,
+- Nemotron 340B Technical Report
 	- https://x.com/_philschmid/status/1802617332893729029
-	- Pretraining: 2-phase pretraining, first trained on 8T and then continued on 1T higher quality tokens and Instruction data with a steeper slope of learning rate decay. 
-	- Fine-tuning: First fine-tuned on 800K coding samples, followed by 200K diverse task samples. 
-	- RLHF: Applied Direct Preference Optimization (DPO) followed by Reward-aware Preference Optimization (RPO) on multiple iterations.
+	- Implementation
+		- Pretraining: 2-phase pretraining, first trained on 8T and then continued on 1T higher quality tokens and Instruction data with a steeper slope of learning rate decay. 
+		- Fine-tuning: First fine-tuned on 800K coding samples, followed by 200K diverse task samples. 
+		- RLHF: Applied Direct Preference Optimization (DPO) followed by Reward-aware Preference Optimization (RPO) on multiple iterations.
+	- Insights
+		- 98% of data used in post-training was synthetically generated
+		- Pretraining data: English data (70%), Multilingual data (15%), Source code (15%).
+		- Trained on 6144 H100 GPUs with 8-way TP, 12-way PP with interleaving and DP to achieve ~42% MFU
+		- Only used 20k Human annotated data mostly for Reward Modeling
+		- Detailed Synthetic Data pipeline instruction including all prompts to generate data
+- 
 - 
 
 ## 6/17
@@ -3568,21 +3576,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- V-JEPA は、抽象表現空間内のビデオの欠落部分またはマスクされた部分を予測することによって学習する非生成モデル
 -  LangChain v0.1 クイックスタートガイド - Python版  by npakaさん
 	- https://note.com/npaka/n/n1d771995c3aa?sub_rt=share_h
-	- **v0.1** ではlangchainパッケージが次の3つのパッケージに分割されました。すべて**下位互換性のある方法**で行われました
-- 軽量・高速・高性能と三拍子揃った日本語対応のAI(Orion-14B)で指示データセットを自動生成するメモ
-	- https://note.com/kan_hatakeyama/n/n0c58733b39bd?sub_rt=share_pb
-	- shi3zさんの、「Orion14B-ChatとWikipediaデータセットを使って日本語マルチターン会話データセットを作りました」を参考にして
-	- Yahoo!知恵袋の質疑からデータを作ってみます
-		- と、わりといい感じでした。
-	- ローカルな大規模言語モデルでも、それなりに高品質なデータ合成ができる時代がやってきたようです。今後はいい感じに(公開)データセットを作っていきたいと思います。
-- Corrective RAG with LangGraph
-	- https://github.com/langchain-ai/langgraph/tree/main/examples/r
+	- **v0.1** ではlangchainパッケージが次の3つのパッケージに分割
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTgwOTI1NSwxODE4MDU4MzExLC00OT
-I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
-MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
-wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
-OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMy
-wtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEw
-MzQzMjAyNTNdfQ==
+eyJoaXN0b3J5IjpbNzg1ODM5MjI4LDE4MTgwNTgzMTEsLTQ5Mj
+QxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgz
+NywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LD
+E3NDY2NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5
+MjUwNTUsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC
+03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAz
+NDMyMDI1M119
 -->
