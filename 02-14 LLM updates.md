@@ -84,6 +84,7 @@
 	- https://x.com/hoyeon_chang/status/1802952064726622671
 	- 著者のツイート、I’m thrilled to announce the release of my new paper!
 	- This research explores how LLMs acquire and retain factual knowledge during pretraining. Here are some key insights:
+	- LLMが事前学習時に事実的知識を獲得する様子を、事実の対数尤度で評価した場合、知識に触れるたび少しだけ上昇し緩やかに下がり元に戻る。忘れるより先にまた知識に触れることを繰り返し閾値に達すると回答できるようになる。by 岡野原さん
 - 
 
 ## 6/17
@@ -3575,16 +3576,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- We present LongMamba, an early exploration of Mamba's **longer context extrapolation ability**. Our #LongMamba manages to retrieve *nearly perfectly* on a window context of 16384
 - AutoMathText: A 200GB dataset of mathematical texts open sourced
 	- https://huggingface.co/papers/2402.07625
-	- Multi-source : arXiv/programming code/web pages  
-	- Filtered and processed to adapte Math reasoning  
-	- Selected by Qwen 72B
--  科学者がChatGP
+	- Multi-source : arXiv
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nz
-k2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAs
-ODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMD
-cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
-ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
-Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
-MDMwMV19
+eyJoaXN0b3J5IjpbLTE0NDI0NDQ4OTIsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
