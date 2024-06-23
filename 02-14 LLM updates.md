@@ -12,6 +12,9 @@ Googleからは、患者とのやり取りで人間の医師を超えるとい�
 
 shi3zさん、
 
+LLMが事前学習時に事実的知識を獲得
+
+
 RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索なんかで正気を取り戻しましょう。
 
 さて、Claude 3.5 Sonnetの能力を見てると、「まだＬＬＭで驚けるんだ」という驚きから、それって、人ってそんなに沢山いらないかもというのが確信になりつつあります。BBCで紹介された、60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題もありましたが、Claude 3.5 SonnetやGPT-4o級ならそうなるかも。いや、スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな、と信じたい。
@@ -3582,10 +3585,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 語彙サイズ: Gemma 256K、Llama 32K 
 		- Gemmaは`add_dummy_prefix` False → 先頭に空白追加なし（GPTと同じ）
 		- Gemmaには特別なtoken多数（例: HTML要素、謎）
-- google/gemma-7bのtokenizerはBPEでvocabは256k
-	- 
+- google/gemma-7bのtokenizer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjc1NDMxNSwyODM2MjM5MSwxNDgwND
+eyJoaXN0b3J5IjpbLTIwMDI5NTE1MSwyODM2MjM5MSwxNDgwND
 IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
 LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
 I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
