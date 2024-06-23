@@ -20,6 +20,11 @@
 - The importance of stupidity in scientific research
 	- https://web.stanford.edu/~fukamit/schwartz-2008.pdf
 	- 「愚かさ」は、科学者が重要な質問をしていることを示す兆候であるとされています。著者は、学生が「生産的に愚かになる」方法を教えるための提案で論文を締めくくっています。
+- Nemotron 340B,
+	- https://x.com/_philschmid/status/1802617332893729029
+	- Pretraining: 2-phase pretraining, first trained on 8T and then continued on 1T higher quality tokens and Instruction data with a steeper slope of learning rate decay. 
+	- Fine-tuning: First fine-tuned on 800K coding samples, followed by 200K diverse task samples. 
+	- RLHF: Applied Direct Preference Optimization (DPO) followed by Reward-aware Preference Optimization (RPO) on multiple iterations.
 - 
 
 ## 6/17
@@ -3571,17 +3576,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- と、わりといい感じでした。
 	- ローカルな大規模言語モデルでも、それなりに高品質なデータ合成ができる時代がやってきたようです。今後はいい感じに(公開)データセットを作っていきたいと思います。
 - Corrective RAG with LangGraph
-	- https://github.com/langchain-ai/langgraph/tree/main/examples/rag
-	- We’ve just implemented 4 new notebooks outlining different RAG and CRAG techniques in LangChainAI　PY & JS! These show off different RAG flows, using OSS and hosted LLMs. See the links below for the notebooks:
--  【Gemini 1.5 Pro】100万トークン入力できる最強LLMの性能をGPT-4と比較してみた
-	- https://weel.co.jp/media/gemini-1-5-pro
-	- ● 性能テストで先代の大型モデル・Ultra 1.0と互角  
-		- 性能比較全32項目のうち30項目で、GPT-4に勝利
-		- 理数&人文全57科目の問題集「MMLU」にて専門家に勝利
-	- ● Transformerの進化系、MoEアーキテクチャを搭載 
-	- ● LLM史上最大、100万トークンもの入力に対
+	- https://github.com/langchain-ai/langgraph/tree/main/examples/r
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDUzNTMxMiwxODE4MDU4MzExLC00OT
+eyJoaXN0b3J5IjpbMTE3NTgwOTI1NSwxODE4MDU4MzExLC00OT
 I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
 MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
 wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
