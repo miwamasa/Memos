@@ -7,7 +7,9 @@
 DeepMind　からvideo-to-audio (V2A)、高精度天気予報「ナウキャスト」日本で提供　ウェザーニュースのデータで学習したAI採用
 
 
-Nemotron-4-340B-Instruct
+Nemotron-4-340B-Instruct、Shaberi3ベンチにかけてみたら、平均スコア8.05！Gemini1.5Pro（8.01）以上、GPT-4o（8.16）、98% of data used in post-training was synthetically generated、どうもNemotronってのは合成データを作るのが得意なLLMなようで、そのデモだったのか。Playgroundで合成データをコチコチ作るという手もありそうだ。
+
+shi3zさん、
 
 - いつの間にかStable DiffusionがDiffusion Modelではなくなっている！？（バックボーンがDiffusion Transformerだからセーフ？）
 	- https://x.com/shion_honda/status/1802386378874835056
@@ -3590,18 +3592,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 4bit で推論するコードも HF page にそのまま記載ある
 	- ライセンスは Gemma license
 	- llamaより緩いライセンスでリリース
-	- 同パラメーターサイズであればLlama2やMistralより優れているとの事
-- kaggle新コンペ Google Gemmaを使ってData Scienceのタスクがどの様に解けるかをデモするノートブックを作成するAnalyticsコンペ。
-	- https://www.kaggle.com/competitions/data-assistants-with-gemma/
-	- LLM大喜利。各タスク毎に賞金$10k。
-- gemma-2bを試す by npakaさん
-	- http
+	- 同パラメーターサイズであればLlama2やMistralより
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0MjY3ODg2LDI4MzYyMzkxLDE0ODA0Mj
-M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
-ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
-Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
-MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
-IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
-NzldfQ==
+eyJoaXN0b3J5IjpbLTYwODk0NTYwMCwyODM2MjM5MSwxNDgwND
+IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
+LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
+I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
+NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
+QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
+NTc5XX0=
 -->
