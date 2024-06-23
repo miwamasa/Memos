@@ -171,8 +171,10 @@
 	- すでに公開されているオープンLLMを8つ組み合わせて使うだけで、GPT-4o単体の性能を上回るベンチマーク結果となったと主張している。
 	- LLMの組み合わせによってGPT-4oと同等の性能だが計算効率は圧倒的に高いMoA-Liteと、GPT-4oより計算量も少なくさらに高性能なMoAの二つが提案された。
 	- 世界中の大企業が何千億、ひょっとしたら合計して何兆円という金額をGPUに浪費している間に、強かな人たちは既存の技術の手軽な組み合わせで大きな進歩を成し遂げようとしている。
-	- 筆者も早速、日本語のオープンLLMをMixture-of-Agentsで組み合わせを試すつもりだ。  
-これとDiscoPOPを組み合わせて、日本語LLMの最適な組み合わせをGPTまたはLLM自身に評価させるというのも面白い。
+	- 筆者(shi3zさん)も早速、日本語のオープンLLMをMixture-of-Agentsで組み合わせを試すつもりだ。  
+	- これとDiscoPOPを組み合わせて、日本語LLMの最適な組み合わせをGPTまたはLLM自身に評価させるというのも面白い。
+-  Claude 3.5 Sonnet の概要 by npakaさん
+	- 
 
 ## 6/17
 
@@ -3585,14 +3587,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  最新の Google Gemma モデルを MLX を使ってローカルでファインチューニング
 	- https://note.com/alexweberk/n/n96cc4c8ac174?sub_rt=share_h
 	- M3 Max 128GB で約 50 分かかりました。npaka さんの記事だと 20 分ほどで完了するそうなので、やはり NVIDIA A100 などの GPU と比べてしまうと時間がかかってしまいますね…。
-	- https://gist.github.com/alexweberk/1434c95c05463866491677aac6ce19ba#file-mlx_finetuning_gemma-ipynb
--  Introducing Pebblo — Data Visibility & Governa
+	- https://gist.github.com/alexweberk/1434c95c05463866491677aac6ce19ba#file-mlx_finetuning_gemma-ipy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4OTM2NTM0LDI4MzYyMzkxLDE0ODA0Mj
-M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
-ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
-Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
-MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
-IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
-NzldfQ==
+eyJoaXN0b3J5IjpbMTI5MTMzMjA1MCwyODM2MjM5MSwxNDgwND
+IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
+LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
+I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
+NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
+QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
+NTc5XX0=
 -->
