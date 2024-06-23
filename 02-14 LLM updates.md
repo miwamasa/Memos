@@ -5,16 +5,16 @@
 
 60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題
 
-Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供。DeepMindからvideo-to-audio (V2A)の発表、
+Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供。DeepMindからvideo-to-audio (V2A)の発表、Luminaと合わせれば、ショートフィルムは作れそうな勢い。Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能がリリースとか、geminiのnoteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
 
 
-Nemotron-4-340B-Instruct、Shaberi3ベンチにかけてみたら、平均スコア8.05！Gemini1.5Pro（8.01）以上、GPT-4o（8.16）、98% of data used in post-training was synthetically generated、どうもNemotronってのは合成データを作るのが得意なLLMなようで、そのデモだったのか。Playgroundで合成データをコチコチ作るという手もありそうだ。
+Nemotron-4-340B-Instruct評価などがぼちぼち、うみゆきさんがShaberi3ベンチにかけてみたら、平均スコア8.05で、Gemini1.5Pro（8.01）以上、GPT-4o（8.16）、98% of data used in post-training was synthetically generated、どうもNemotronってのは合成データを作るのが得意なLLMなようで、そのデモだったのか。Playgroundで合成データをコチコチ作るという手もありそうだ。
 
 shi3zさん、
 
 RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索
 
-Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能がリリースとか、Googleのgeminiのnoteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
+
 
 スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな。
 
@@ -3591,13 +3591,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 他では見ないタイプのトークンが多数 コードもmergeされたてホヤホヤ
 - gemma-7b
 	- https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf
-	- https://huggingface.co/chat/settings/google/ge
+	- https://
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODM4ODUyLDI4MzYyMzkxLDE0ODA0Mj
-M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
-ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
-Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
-MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
-IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
-NzldfQ==
+eyJoaXN0b3J5IjpbLTQ4ODIyNjAzMywyODM2MjM5MSwxNDgwND
+IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
+LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
+I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
+NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
+QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
+NTc5XX0=
 -->
