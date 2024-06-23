@@ -51,7 +51,15 @@
 	- spotify での配信付き
 - today at Meta FAIR we’re announcing four new publicly available AI models
 	- https://x.com/AIatMeta/status/1803107817345393136
-	-  
+	- Meta Chameleon
+		- 7B & 34B language models that support mixed-modal input and text-only outputs.
+	- Meta Multi-Token Prediction
+		- Pretrained Language Models for code completion using Multi-Token Prediction.
+	- Meta JASCO
+		- Generative text-to-music models capable of accepting various conditioning inputs for greater controllability. Paper available today with a pretrained model coming soon.
+	- Meta AudioSeal
+	-  	An audio watermarking model that we believe is the first designed specifically for the localized detection of AI-generated speech, available under a commercial license.
+- 
 
 ## 6/17
 
@@ -3566,24 +3574,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  Masked Audio Generation using a Single Non-Autoregressive Transformer
 	- https://arxiv.org/abs/2401.04577?utm_source=twitter&utm_medium=organic_social&utm_campaign=research&utm_content=thread
 	- Researchers at Meta recently shared MAGNeT, a single non-autoregressive transformer model for text-to-music & text-to-sound generation capable of generating audio on-par with the quality of SOTA models — at 7x the speed.
-	- https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/?utm_source=twitter&utm_medium=organic_social&utm_campaign=research&utm_content=video
-- Nomic Embed v1.5
-	- Nomic Embed v1.5 is out, the first open model with variable-sized Matryoshka embeddings and 8192 context!
-	- https://huggingface.co/spaces/Xenova/adaptive-retrieval-web
--  LLM Agents
-	- https://www.promptingguide.ai/research/llm-agents
--  Mixtures of Experts Unlock Parameter Scaling for Deep RL
-	- https://huggingface.co/papers/2402.08609
-	- Google Deepmind presents Mixtures of Experts Unlock Parameter Scaling for Deep RL
--  Google Colabでの日本語Mambaの事前学習
-	- https://note.com/hatti8/n/na9782b7fa437?sub_rt=share_pb
-	- 日本語モデルがないので、日本語Mambaの事前学習のコー
+	- https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/?utm_source=twitter&utm_medium=organic_social&utm_campaign=rese
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTc0NjU1NDgsMTgxODA1ODMxMSwtND
-kyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0
-ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0ND
-csMTc0NjY3NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkw
-NjkyNTA1NSw0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMT
-MsLTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwx
-MDM0MzIwMjUzXX0=
+eyJoaXN0b3J5IjpbLTE2NjM2ODUzMiwxODE4MDU4MzExLC00OT
+I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
+MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
+wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
+OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMy
+wtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEw
+MzQzMjAyNTNdfQ==
 -->
