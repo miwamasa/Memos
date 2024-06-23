@@ -78,6 +78,7 @@
 	- ログインすれば無料で1000回まで叩けるらしい。課金とかはまだ無いぽい。課金してでも叩きたい人多そうだけど。Playgroundでチャットするだけならクレジット減らないっぽいから頑張れば合成データ収集できるかも
 - Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能がリリース
 	- https://x.com/umiyuki_ai/status/1803127902533460149
+	- https://ai.google.dev/gemini-api/docs/caching?lang=python&hl=ja
 	- 要するにKVキャッシュを保存したりロードしたりする機能。API無料枠のユーザーでもFlashでコンテキストキャッシュを最大100万トークン活用可能！32k以上のコンテキストでキャッシュが使用できる
 - How Large Language Models Acquire Factual Knowledge During Pretraining?
 	- https://x.com/hoyeon_chang/status/1802952064726622671
@@ -3577,14 +3578,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Multi-source : arXiv/programming code/web pages  
 	- Filtered and processed to adapte Math reasoning  
 	- Selected by Qwen 72B
--  科学者がChatGPTを利用してデータから論文を生成 by nature
-	- https://www.natureasia.com/ja-jp/ndig
+-  科学者がChatGP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDQyMzU4OSw2ODU0Nzk2NDMsMTgxOD
-A1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3
-LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLT
-EyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4ODQ0NSw2Nzky
-MjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMTY2MDQwNjg2NS
-w0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4
-MDE4MjkzNV19
+eyJoaXN0b3J5IjpbMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nz
+k2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAs
+ODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMD
+cwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4
+ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMT
+Y2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5
+MDMwMV19
 -->
