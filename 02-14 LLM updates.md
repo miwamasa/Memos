@@ -17,7 +17,8 @@
 	- https://www.bbc.com/future/article/20240612-the-people-making-ai-sound-more-human
 	- 60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題
 	- AIの出力を人間っぽくするために少数の人間が雇われる流れがもう加速している
-- 
+- The importance of stupidity in scientific research
+	- https://web.stanford.edu/~fukamit/schwartz-2008.pdf
 
 ## 6/17
 
@@ -3579,14 +3580,12 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ● LLM史上最大、100万トークンもの入力に対応
 		- MoEアーキテクチャを採用した結果、Gemini 1.5 Proでは入力できるトークン数が大幅にUP！一回に100万トークンの入力が実現しました。
 - 教科書：確率過程
-	- 確率過程に興味があるB4・M1が読むべき教科書について説明する．
-	- [速習版](https://kanazawa.scphys.kyoto-u.ac.jp/wpkzdb/wp-content/up
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzM2OTQwNCwxODE4MDU4MzExLC00OT
-I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
-MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
-wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
-OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMy
-wtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEw
-MzQzMjAyNTNdfQ==
+eyJoaXN0b3J5IjpbNzA0NzY2NjA0LDE4MTgwNTgzMTEsLTQ5Mj
+QxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgz
+NywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LD
+E3NDY2NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5
+MjUwNTUsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC
+03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAz
+NDMyMDI1M119
 -->
