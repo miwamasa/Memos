@@ -190,7 +190,10 @@
 	- https://x.com/kentakeuchi2003/status/1804713977886425509
 	- エッジAIにもLLMが来るぞ、というよりも、もう来ているという感じ。
 - Claude 3.5 使ったら 5分ぐらいで抽象言語パッケージマネージャーGrimoのフロントエンドモック出来てしまった
-	- 
+	- https://x.com/ai_syacho/status/1804400108664189260
+- Claude able to produce simulated 3d physics using WebGL
+	- https://x.com/Hamptonism/status/1804496837216227756
+- 
 
 ## 6/17
 
@@ -3587,15 +3590,12 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Google Colab で Gemma のファインチューニングを試す
 	- https://note.com/npaka/n/nc55e44e407ff?sub_rt=share_h
 	- 今回は、ござるデータセットで学習します。AIが「我、りんえもんは思う。◯◯でござる。知らんけど。」的な口調になります
-- OmniPred: Language Models as Universal Regressors
-	- https://huggingface.co/papers/2402.14547
-	- 広範な実験により、数学的なパラメーターと値のテキスト表現のみを通じて、言語モデルが非常に正確な数値回帰が可能であることが実証され、トレー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTA3MjgwNTQsMjgzNjIzOTEsMTQ4MD
-QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
-LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OV19
+eyJoaXN0b3J5IjpbMTk0OTIwMjU1OCwyODM2MjM5MSwxNDgwND
+IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
+LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
+I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
+NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
+QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
+NTc5XX0=
 -->
