@@ -99,6 +99,13 @@
 -  LangChain で RAGのハイブリッド検索 を試す by npakaさん
 	- https://note.com/npaka/n/n6782314fb471?sub_rt=share_h
 	- 「RAG」のハイブリッド検索は、複数の検索方法を組み合わせる手法で、主に「ベクトル検索」と「キーワード検索」を組み合わせて使います
+-  Fine Tuning MistralAI models using Finetuning API
+	- https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/finetuning/mistralai_fine_tuning.ipynb
+-  LLM の仕組みを押さえればさらに生成 AI を活用できる
+	- https://note.com/google_gemini/n/n51d9f3b97470?sub_rt=share_b
+	- 言語モデルが行なっていることは「文脈を踏まえて文の続きを予測」すること
+	- LLM の仕組みを踏まえると、生成 AI の特徴がより理解できる
+	- より長い文脈を踏まえて「文の続きを予測」できることで、より進化していく
 	- 
 
 ## 6/17
@@ -3574,18 +3581,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 例えば、AWSのEC2 P4dインスタンスであれば8枚のA100のGPUメモリが計320GBと640GBの環境を1時間あたり30~40ドル程度で扱うことができます。
 - RAG Fusionが思ってたより凄そう
 	- https://zenn.dev/ozro/articles/abfdadd0bfdd7a
-	- RAG Fusionは単なる「新たな手法」ではなく「革新的な手法」です。  
-	- RAG Fusionは、従来の検索技術の制約を克服し、ユーザーのクエリに対してより豊かで文脈に即した結果を生成するために、RAG、Reciprocal Rank Fusion、生成されたクエリを組み合わせた新しいシステムになっています。  
-	- このシステムは、検索結果のリランキングと複数のユーザークエリ生成により、検索の正確性とユーザーの意図との一致を向上させることを目指した手法となっていま
-- Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning
-	- https://huggingface.co/papers/2402.06619
-	- 合計で114言語をカバーする5億1300万ペアのプロンプトと補完文を含んでおり、Apach
+	- RAG Fusionは単なる「新たな手法」ではなく「革新的な手法」で
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0NDM3MDU2LDI4MzYyMzkxLDE0ODA0Mj
-M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
-ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
-Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
-MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
-IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
-NzldfQ==
+eyJoaXN0b3J5IjpbLTExNzAyMDkxNTQsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
