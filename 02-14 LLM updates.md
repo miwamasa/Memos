@@ -120,7 +120,9 @@
 	- “Kolmogorov–Arnold-Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov–Arnold Networks”
 - Chrome で Gemini Nano を使用する
 	- https://developer.chrome.com/docs/ai?hl=ja
-	- 
+- Transformerの次のアーキテクチャとして期待されているMambaを使った音声分類モデル、Audio-MambaのFine-Tuningを試してみました
+	- https://x.com/AIShift_PR/status/1803349519532531817
+- 
 
 ## 6/17
 
@@ -3567,17 +3569,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 大規模言語モデル（LLM）これまでとこれからを包括的に整理したサーベイ論文が公開されています。
 	- ■小さくて効率的なモデルを開発する 
 		- 大きなモデルは高コストで非効率的である
-		- そのためタスク特化の小型モデルへの関心が高まっている 
-		- パラメータ効率の良いファインチューニングや、教師あり学習、蒸留法などの技術が活用される 
-	- ■アーキテクチャのパラダイムを変える 
-		- トランスフォーマーの"次"に関心が高まっている
-		- アテンションモデル
+		- そのため
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEyOTQwNTMsMjgzNjIzOTEsMTQ4MD
-QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
-LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OV19
+eyJoaXN0b3J5IjpbMjkzOTA5ODk0LDI4MzYyMzkxLDE0ODA0Mj
+M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
+ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
+Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
+MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
+IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
+NzldfQ==
 -->
