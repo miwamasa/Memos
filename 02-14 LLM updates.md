@@ -59,7 +59,13 @@
 		- Generative text-to-music models capable of accepting various conditioning inputs for greater controllability. Paper available today with a pretrained model coming soon.
 	- Meta AudioSeal
 	-  	An audio watermarking model that we believe is the first designed specifically for the localized detection of AI-generated speech, available under a commercial license.
-- 
+- Firefunction-v2
+	- https://x.com/LangChainAI/status/1803083016715289045
+	- Llama 3 fine-tuned for tool calling / agents
+- 直感的に理解するConformal Prediction
+	- https://speakerdeck.com/masatoto/zhi-gan-de-nili-jie-suruconformal-prediction
+	- 分類問題における確信度の高い結果だけを返すのではなく，予測集合を返す方法.予測集合に真の結果が含まれることを確率的に保証.
+	- 
 
 ## 6/17
 
@@ -3573,10 +3579,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/LangChainAI/status/1757817056865718432?s=20
 -  Masked Audio Generation using a Single Non-Autoregressive Transformer
 	- https://arxiv.org/abs/2401.04577?utm_source=twitter&utm_medium=organic_social&utm_campaign=research&utm_content=thread
-	- Researchers at Meta recently shared MAGNeT, a single non-autoregressive transformer model for text-to-music & text-to-sound generation capable of generating audio on-par with the quality of SOTA models — at 7x the speed.
-	- https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/?utm_source=twitter&utm_medium=organic_social&utm_campaign=rese
+	- Researchers at Meta recently shared
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM2ODUzMiwxODE4MDU4MzExLC00OT
+eyJoaXN0b3J5IjpbMTk1ODg2ODIyMCwxODE4MDU4MzExLC00OT
 I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
 MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
 wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
