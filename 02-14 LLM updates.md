@@ -89,7 +89,14 @@
 	- https://note.com/google_gemini/n/nc53d2b6f4a08
 	- 新機能の紹介やイベント レポート、開発者の話など、Gemini にまつわるさまざまな情報やニュースをお届けします。
 - 「ChatGPTって、自分の「境界」を持っていませんよね。
-	- 
+	- https://x.com/ShigeruTaguchi/status/1803044441680412775
+	- だからパースペクティブを持てないというか。……身体性って、たしかに単に物理的な肉体を持つということだけではないけれど、自分に固有の境界を持っていて、そこからしか発生しないパースペクティブを持つというのは大事だと思うんです。
+- Gemini について全部解説！ 使い方やモデル、プランまで
+	- https://note.com/google_gemini/n/ncd7557d98d07?sub_rt=share_b
+-  OpenAIとGoogleが火花　マルチモーダル、エージェント…生成AIの今 by 今井さん
+	- https://xtrend.nikkei.com/atcl/contents/casestudy/00012/01473/?n_cid=nbpnxr_twed_cms
+	- 結論だけ言うと「長期的にはGoogle有利」です。
+- 
 
 ## 6/17
 
@@ -3573,13 +3580,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  LlamaIndex v0.10 の概要 by npakaさん
 	- https://note.com/npaka/n/nb8acc1f63312?sub_rt=share_h
 	- 「**LlamaIndex v0.10**」は、過去最大のアップデート
-	- 「ServiceContext」を非推奨にして、「LlamaIndex」の開発者エクスペリエンスを向上させます。
-	- 時間が経つにつれて、このオブジェクトは使いにくくなりました。 service_context コンテナ全体を任意のモジュールに渡すと、どのコンポーネントが実際に使用されているかを推論するのが困難になりました。 すべてのモジュールがデフォルトで OpenAI を使用するため、ユーザーはローカルモデルを使用したい場合でも、不必要にOpenAIキーを指定するように求められていました。 インポートして入力するのも大変でした
--  LongMamba
-	- https://github.com/jzhang38/LongMamba
-	- We present LongMamba, an early exploration of Mamba's **longer context extrapolation ability**. Our #LongMamba manages to retrieve *n
+	- 「ServiceContext」を非推奨に
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODAyMzMzODEsMjgzNjIzOTEsMTQ4MD
+eyJoaXN0b3J5IjpbLTExNjk5NTY0NTYsMjgzNjIzOTEsMTQ4MD
 QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
 LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
 cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
