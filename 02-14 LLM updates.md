@@ -112,6 +112,7 @@
 - グーグル、12時間先まで5分刻みで降雨予測する「Google ナウキャスト」
 	- https://www.watch.impress.co.jp/docs/news/1601121.html
 	- Google ナウキャストでは、6時間先までの降雨予測をGoogle 検索の結果に表示し、さらに12時間先までの予測を文字情報で表示。5分単位の詳細な雨量予測が可能となる。雨だけでなく雪の予測も行なう。
+	- 高精度天気予報「ナウキャスト」日本で提供　ウェザーニュースのデータで学習したAI採用
 - Google researchers developed the Articulate Medical Intelligence Explorer (AMIE),
 	- https://www.deeplearning.ai/the-batch/amie-a-chatbot-that-outperforms-doctors-in-diagnostic-conversations/?utm_campaign=The%20Batch&utm_content=297333022&utm_medium=social&utm_source=twitter&hss_channel=tw-992153930095251456
 	- AMIE, a chatbot that outperforms doctors in diagnostic conversations
@@ -126,6 +127,9 @@
 	- https://arxiv.org/abs/2405.00208
 	- Section 2→5に進むにつれてTransformerのコンポーネント内の局所的な挙動から始まってより最終的な表現型に近い現象の説明まで，これまでの大量の知見がまとまっています
 	- Transformer の挙動はほぼ明らかになってると思っていて、まだ明らかになってないことはモデルというより言語の性質が原因な気がする（素人の勘）
+- きたあああああああああああああああああああああああああああああああああああああ！！
+	- https://x.com/lemilemilemio/status/1803607874079432959
+	- Anthropic社は突如として"Claude 3.5 Sonnet"をリリース
 - 
 
 ## 6/17
@@ -3565,15 +3569,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 70億パラメータと非常に軽量なモデルであるにも関わらず、JGLUE（日本語タスクにおける評価ベンチマーク）を用いた評価では、ChatGPT-3.5を超えるスコアが算出されており、公開されている日本語モデルの中では最高性能になります。
 	-  株式会社Deepreneur、ChatGPT-3.5を上回る日本語LLM「blue-lizard」を開発。各社独自の高精度オンプレ型のLLMの構築サービスを開始
 - ChemLLM: A Chemical LLM
-	- https://arxiv.org/abs/2402.06852
-	- We don't see too much research around LLMs for science so it's exciting to find this one. 
-	- It's a dedicated LLM trained for chemistry-related tasks. Cl
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjExNDg5MDg2LDI4MzYyMzkxLDE0ODA0Mj
-M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
-ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
-Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
-MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
-IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
-NzldfQ==
+eyJoaXN0b3J5IjpbLTk5MTM4MzcxNSwyODM2MjM5MSwxNDgwND
+IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
+LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
+I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
+NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
+QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
+NTc5XX0=
 -->
