@@ -43,8 +43,13 @@
 - Building Advanced RAG with Knowledge Graphs
 	- https://x.com/llama_index/status/1803082001538535703
 	- This 60 minute webinar is a must-watch if you’re looking to apply the latest techniques combining LLMs with knowledge graphs.
-- 
-- 
+-  Creativity Has Left the Chat: The Price of Debiasing Language Models
+	- https://arxiv.org/abs/2406.05587
+	- アラインメントされると大規模言語モデルは創造性を失う RLHF などの有害な生成を防ぐためのアラインメント技術によって、LLM の創造性(多様性)が減少する。例えば生成文をクラスタ分析すると、アラインメントされたモデルでは明確なクラスタ形成され偏りがあることが分かる
+- I have lots of thoughts on "agents"!
+	- https://x.com/hwchase17/status/1803089961245348125
+	- spotify での配信付き
+-  
 
 ## 6/17
 
@@ -3571,16 +3576,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  Google Colabでの日本語Mambaの事前学習
 	- https://note.com/hatti8/n/na9782b7fa437?sub_rt=share_pb
 	- 日本語モデルがないので、日本語Mambaの事前学習のコードを作成しました。Google colabで動くことは確認したもののA100(40B)でも**15時間近くかかるので実質最後までは実行できないです。**
--  GraphRAG: Unlocking LLM discovery on narrative private data by Microsoft
-	- https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/
-	- Microsoft is transforming retrieval-augmented generation with GraphRAG, using LLM-generated knowledge graphs to significantly improve Q&A when analyzing complex information and consistently outperforming baseline RAG
--
+-  GraphRAG: Unlocking LLM discovery on narrativ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMTQwODQwLDE4MTgwNTgzMTEsLTQ5Mj
-QxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgz
-NywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LD
-E3NDY2NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5
-MjUwNTUsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC
-03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAz
-NDMyMDI1M119
+eyJoaXN0b3J5IjpbMTM2MTA0NTY1OSwxODE4MDU4MzExLC00OT
+I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
+MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
+wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
+OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMy
+wtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEw
+MzQzMjAyNTNdfQ==
 -->
