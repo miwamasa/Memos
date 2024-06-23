@@ -13,6 +13,10 @@
 	- https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct
 	- 236B Mixture-of-Experts（MoE） 6T tokensの事前学習 サポートする言語は338 コンテキスト長も16Kから128Kに
 	- 標準的なベンチマーク評価で、GPT4-Turbo、Claude 3 Opus、Gemini 1.5 Proなど2を上回る性能
+-  AI took their jobs. Now they get paid to make it sound human
+	- https://www.bbc.com/future/article/20240612-the-people-making-ai-sound-more-human
+	- 60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題
+	- AIの出力を人間っぽくするために少数の人間が雇われる流れがもう加速している
 - 
 
 ## 6/17
@@ -3576,13 +3580,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- MoEアーキテクチャを採用した結果、Gemini 1.5 Proでは入力できるトークン数が大幅にUP！一回に100万トークンの入力が実現しました。
 - 教科書：確率過程
 	- 確率過程に興味があるB4・M1が読むべき教科書について説明する．
-	- [速習版](https://kanazawa.scphys.kyoto-u.ac.jp/wpkzdb/wp-content/uploads/2023/04/stochasticProcessShort.pdf)
-	-  [詳細版](https://kanazawa.scphys.kyoto-u.ac.jp/wpkzdb/wp-content/uploads/2023/10/StochasticProcess2023_long.pdf)
-- 【AI動画生成】Sora 要素技術解説
-	- https://zenn.dev/mattyamonaca/articles/e234e57834d7ad
-	- すごく簡単にまとめると以下の4つ
+	- [速習版](https://kanazawa.scphys.kyoto-u.ac.jp/wpkzdb/wp-content/up
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDk0MDYyOSwxODE4MDU4MzExLC00OT
+eyJoaXN0b3J5IjpbMTI5MzM2OTQwNCwxODE4MDU4MzExLC00OT
 I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
 MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
 wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
