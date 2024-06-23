@@ -175,6 +175,8 @@
 	- これとDiscoPOPを組み合わせて、日本語LLMの最適な組み合わせをGPTまたはLLM自身に評価させるというのも面白い。
 -  Claude 3.5 Sonnet の概要 by npakaさん
 	- https://note.com/npaka/n/n7c8e19914166
+	- 大学院レベルの推論 (GPQA)、学部レベルの知識 (MMLU)、コーディング能力 (HumanEval) において、新たな業界基準を設定しました。ニュアンス、ユーモア、複雑な指示の把握において顕著な改善が見られ、自然で親しみやすい口調で高品質のコンテンツを書くことに優れています
+	- 指示に従って[適切なツールが提供されれば](https://www.anthropic.com/news/tool-use-ga)、高度な推論機能とトラブルシューティング機能を使用して、コードを独自に記述、編集、実行できます。コード変換も簡単に処理できるため、レガシーアプリケーションの更新やコードベースの移行に特に効果的です。
 	- 
 
 ## 6/17
@@ -3584,17 +3586,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/node_postprocessor/ColbertRerank.ipynb
 	- ColBERT  is a great model for reranking. It’s ~100x faster than BERT-based/cross-encoder models, letting you rerank large amounts of documents without worrying about latency. And of course it does better than standard dense retrieval.
 - The prompting guide for Gemma 7B Instruct is live!
-	- https://www.promptingguide.ai/models/gemma
--  最新の Google Gemma モデルを MLX を使ってローカルでファインチューニング
-	- https://note.com/alexweberk/n/n96cc4c8ac174?sub_rt=share_h
-	- M3 Max 128GB で約 50 分かかりました。npaka さんの記事だと 20 分ほどで完了するそうなので、やはり NVIDIA A100 などの GPU と比べてしまうと時間がかかってしまいますね…。
-	- https://gist.github.com/alexweberk/1434c95c054638664916
+	- https://w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODQ0MjAxMSwyODM2MjM5MSwxNDgwND
-IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
-LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
-I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
-NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
-QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
-NTc5XX0=
+eyJoaXN0b3J5IjpbLTE0ODExNzgxMTMsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
