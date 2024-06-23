@@ -3,13 +3,10 @@
 
 ## 24/6/24
 
-今週はすべてを吹っ飛ばして、Anthropicが突然発表したClaude 3.5 Sonnetでしょう。Claude 3 Opusの2倍の速度でこれまでの5分の1のコストというのもすごいのですが、新しいアプリ開発環境Artifactsを使って、人間と対話しながらあっという間に、 スライド生成 、webUI生成 、スマホUI生成 、フローチャート生成、簡易ゲーム生成、ほぼ完ぺきなシフト管理システムの作成、WebGLをつかたった可視化プログラムの生成、様々な事例が発表されお祭り状態に。生産性向上とか改善とか、もう全部、Claude 3.5 Sonnetで上書きされる感じ、逆に、これが使いこなせる人材しか残らない。でもこれSonnetなんですよ、Opusって、、。
-
-Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等がありました。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
-
+今週はすべてを吹っ飛ばして、Anthropicが突然発表したClaude 3.5 Sonnetでしょう。Claude 3 Opusの2倍の速度でこれまでの5分の1のコストというのもすごいのですが、新しいアプリ開発環境Artifactsを使って、人間と対話しながらあっという間に、 スライド生成 、webUI生成 、スマホUI生成 、フローチャート生成、簡易ゲーム生成、ほぼ完ぺきなシフト管理システムの作成、WebGLをつかたった可視化プログラムの生成、様々な事例が発表されお祭り状態に。生産性向上とか改善とか、もう全部、Claude 3.5 Sonnetで上書きされる感じ、逆に、これが使いこなせる人材しか残らない。でもこれSonnetなんですよ、Opusって、、。Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等がありました。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
 先週話題となった、Nemotron-4-340B-Instruct、評価などがぼちぼち、うみゆきさんがShaberi3ベンチにかけてみたら、平均スコア8.05で、Gemini1.5Pro（8.01）以上、GPT-4o（8.16）以下とのこと。またテクニカルノートによると98%の事後学習のデータは合成データをつかっているとのこと、さすが合成データを作るのが得意なNemotronの面目躍如、いや、そのデモだったのかも。無料のPlaygroundで合成データをコチコチ作るという手もありそうだ。
 
-shi3zさん、KARAKURIが低予算でLLMを作れたからくりは、AWS Trainiumの利用とのことで、
+shi3zさん、KARAKURIが低予算でLLMを作れたからくりは、AWS Trainiumの利用とのことで、また、先週紹介のあった、MoA(Mixture of Agent)や、LLMのマージ技術により、手軽に誰でも構成のなＬＬＭができるようになった、確変の時代きたるという記事はしびれる、どんなLLMがshi3zさんのGPUマシンから出てくるか。
 
 ローカルＬＬＭでは、製作費７５万という、AIエージェントとして使える「KARAKURI LM 8x7B Instruct v0.1」とか話題になりましたが、なんといっても、Chrome で動く Gemini Nano、開発版では利用可能になっているとのこと。ブラウザ組み込みでっせ、javascriptからたたけるんでっせ。
 
@@ -3569,14 +3566,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://note.com/npaka/n/na47e13dae482?sub_rt=share_h
 	- 「[**Gemma**](https://ai.google.dev/gemma)」は、「**Gemini**」と同じ技術を基に構築された、軽量で最先端のオープンモデル
 	- 「Gemma 2B」「Gemma 7B」の2つのサイズのモデルウェイトをリリースします。各サイズは、事前学習および指示チューニングされたバリアントでリリースします。
-	- 「Responsible Generative AI Toolkit」は、「Gemma」を使用してより安全なAIアプリケーションを作成するためのガイダンスと必須ツールを提供します。
-	- 「Keras 3.0」を介して、JAX、PyTorch、TensorFlow など、すべ
+	- 「Responsible Gener
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTkzNTA5NjYsMjgzNjIzOTEsMTQ4MD
-QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
-LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OV19
+eyJoaXN0b3J5IjpbLTU1Njc4MTU0LDI4MzYyMzkxLDE0ODA0Mj
+M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
+ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
+Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
+MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
+IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
+NzldfQ==
 -->
