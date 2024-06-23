@@ -96,7 +96,10 @@
 -  OpenAIとGoogleが火花　マルチモーダル、エージェント…生成AIの今 by 今井さん
 	- https://xtrend.nikkei.com/atcl/contents/casestudy/00012/01473/?n_cid=nbpnxr_twed_cms
 	- 結論だけ言うと「長期的にはGoogle有利」です。
-- 
+-  LangChain で RAGのハイブリッド検索 を試す by npakaさん
+	- https://note.com/npaka/n/n6782314fb471?sub_rt=share_h
+	- 「RAG」のハイブリッド検索は、複数の検索方法を組み合わせる手法で、主に「ベクトル検索」と「キーワード検索」を組み合わせて使います
+	- 
 
 ## 6/17
 
@@ -3576,17 +3579,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- このシステムは、検索結果のリランキングと複数のユーザークエリ生成により、検索の正確性とユーザーの意図との一致を向上させることを目指した手法となっていま
 - Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning
 	- https://huggingface.co/papers/2402.06619
-	- 合計で114言語をカバーする5億1300万ペアのプロンプトと補完文を含んでおり、Apache 2.0ライセンスとの事
--  LlamaIndex v0.10 の概要 by npakaさん
-	- https://note.com/npaka/n/nb8acc1f63312?sub_rt=share_h
-	- 「**LlamaIndex v0.10**」は、過去最大のアップデート
-	- 「ServiceContext」を非推奨に
+	- 合計で114言語をカバーする5億1300万ペアのプロンプトと補完文を含んでおり、Apach
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk5NTY0NTYsMjgzNjIzOTEsMTQ4MD
-QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
-LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OV19
+eyJoaXN0b3J5IjpbOTY0NDM3MDU2LDI4MzYyMzkxLDE0ODA0Mj
+M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
+ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
+Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
+MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
+IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
+NzldfQ==
 -->
