@@ -174,6 +174,7 @@
 	- 筆者(shi3zさん)も早速、日本語のオープンLLMをMixture-of-Agentsで組み合わせを試すつもりだ。  
 	- これとDiscoPOPを組み合わせて、日本語LLMの最適な組み合わせをGPTまたはLLM自身に評価させるというのも面白い。
 -  Claude 3.5 Sonnet の概要 by npakaさん
+	- https://note.com/npaka/n/n7c8e19914166
 	- 
 
 ## 6/17
@@ -3587,9 +3588,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  最新の Google Gemma モデルを MLX を使ってローカルでファインチューニング
 	- https://note.com/alexweberk/n/n96cc4c8ac174?sub_rt=share_h
 	- M3 Max 128GB で約 50 分かかりました。npaka さんの記事だと 20 分ほどで完了するそうなので、やはり NVIDIA A100 などの GPU と比べてしまうと時間がかかってしまいますね…。
-	- https://gist.github.com/alexweberk/1434c95c05463866491677aac6ce19ba#file-mlx_finetuning_gemma-ipy
+	- https://gist.github.com/alexweberk/1434c95c054638664916
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTMzMjA1MCwyODM2MjM5MSwxNDgwND
+eyJoaXN0b3J5IjpbLTM4ODQ0MjAxMSwyODM2MjM5MSwxNDgwND
 IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
 LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
 I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
