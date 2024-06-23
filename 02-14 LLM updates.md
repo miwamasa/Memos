@@ -53,13 +53,16 @@
 	- https://x.com/AIatMeta/status/1803107817345393136
 	- Meta Chameleon
 		- 7B & 34B language models that support mixed-modal input and text-only outputs.
-		- 
+		- これはテキストや画像を入力するとテキストや画像を出力できるモデル！
 	- Meta Multi-Token Prediction
 		- Pretrained Language Models for code completion using Multi-Token Prediction.
+		- マルチトークン予測の7Bモデル！普通のLLMは1トークンずつしか出力できないけど、これは複数のトークンをまとめて出力できて速い
 	- Meta JASCO
 		- Generative text-to-music models capable of accepting various conditioning inputs for greater controllability. Paper available today with a pretrained model coming soon.
+		- これはコードやらビートを指定して音楽生成できるらしい
 	- Meta AudioSeal
 	-  	An audio watermarking model that we believe is the first designed specifically for the localized detection of AI-generated speech, available under a commercial license.
+	- 音声がAI製かどうかを見破れるモデル
 - Firefunction-v2
 	- https://x.com/LangChainAI/status/1803083016715289045
 	- Llama 3 fine-tuned for tool calling / agents
@@ -3575,9 +3578,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Filtered and processed to adapte Math reasoning  
 	- Selected by Qwen 72B
 -  科学者がChatGPTを利用してデータから論文を生成 by nature
-	- https://www.natureasia.com/ja-jp/ndigest/v20/n10/%E7%A7%91%E5%AD%A6%E8%80%85%E3%81%8CChatGPT%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%81%8B%E3%82%89%E8%AB%96
+	- https://www.natureasia.com/ja-jp/ndig
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDY2Mzg4Niw2ODU0Nzk2NDMsMTgxOD
+eyJoaXN0b3J5IjpbMTQ4MDQyMzU4OSw2ODU0Nzk2NDMsMTgxOD
 A1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3
 LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLT
 EyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4ODQ0NSw2Nzky
