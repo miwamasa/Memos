@@ -3,20 +3,19 @@
 
 ## 24/6/24
 
-今週はすべてを吹っ飛ばして、AnthropicのClaude 3.5 Sonnetでしょう。
+今週はすべてを吹っ飛ばして、Anthropicが突然発表したClaude 3.5 Sonnetでしょう。
 
-いやAn
 
-Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等があった。傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
+
+Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等があったり、傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
 
 先週話題となった、Nemotron-4-340B-Instruct、評価などがぼちぼち、うみゆきさんがShaberi3ベンチにかけてみたら、平均スコア8.05で、Gemini1.5Pro（8.01）以上、GPT-4o（8.16）以下とのこと。またテクニカルノートによると98%の事後学習のデータは合成データをつかっているとのこと、さすが合成データを作るのが得意なNemotronの面目躍如、いや、そのデモだったのかも。無料のPlaygroundで合成データをコチコチ作るという手もありそうだ。
 
 shi3zさん、
 
-RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索
+RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索なんかで正気を取り戻しましょう。
 
-
-さて、Claude 3.5 Sonnetの能力を見てると、「まだＬＬＭで驚けるんだ」という驚きから、それって、人っていらないかもというのが確信になりつつあります。60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題もBBCで紹介されましたが、Claude 3.5 SonnetやGPT-4o級ならそうなるかも。いや、スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな、と信じたい。
+さて、Claude 3.5 Sonnetの能力を見てると、「まだＬＬＭで驚けるんだ」という驚きから、それって、人ってそんなに沢山いらないかもというのが確信になりつつあります。BBCで紹介された、60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題もありましたが、Claude 3.5 SonnetやGPT-4o級ならそうなるかも。いや、スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな、と信じたい。
 
 - いつの間にかStable DiffusionがDiffusion Modelではなくなっている！？（バックボーンがDiffusion Transformerだからセーフ？）
 	- https://x.com/shion_honda/status/1802386378874835056
@@ -3585,13 +3584,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- Gemmaは`add_dummy_prefix` False → 先頭に空白追加なし（GPTと同じ）
 		- Gemmaには特別なtoken多数（例: HTML要素、謎）
 - google/gemma-7bのtokenizerはBPEでvocabは256k
-	- https://huggingface.co/google/
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4Nzg1NzU0LDI4MzYyMzkxLDE0ODA0Mj
-M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
-ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
-Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
-MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
-IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
-NzldfQ==
+eyJoaXN0b3J5IjpbLTExNTY3OTM2NTYsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
