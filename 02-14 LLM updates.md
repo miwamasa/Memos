@@ -179,8 +179,12 @@
 	- 指示に従って[適切なツールが提供されれば](https://www.anthropic.com/news/tool-use-ga)、高度な推論機能とトラブルシューティング機能を使用して、コードを独自に記述、編集、実行できます。コード変換も簡単に処理できるため、レガシーアプリケーションの更新やコードベースの移行に特に効果的です。
 	- 「**Artifacts**」は、ユーザーがClaudeとやり取りする方法を拡張する新機能です。ユーザーがClaudeにコード、テキスト、Webサイトデザインなどのコンテンツを生成するように依頼すると、これらのArtifactsが会話の横にある専用ウィンドウに表示されます。
 	- Anthropicのレッドチーム評価では、「Claude 3.5 Sonnet」はASL-2のままであると結論付けられました。
--  [Claude 3.5 Sonnet の評価に関する備忘録]()
+-  Claude 3.5 Sonnet の評価に関する備忘録
 	- https://tech.algomatic.jp/entry/papers/anthropic-2024-claude35
+	- 
+	- Artifacts — a new way to use Claude
+		- https://www.youtube.com/watch?v=rHqk0ZGb6qo&t=4s
+- 
 
 ## 6/17
 
@@ -3586,13 +3590,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://stability.ai/news/stable-diffusion-3?utm_source=twitter&utm_medium=website&utm_campaign=blog
 	- 学習データから15億件も弾いたらしい。すごいな
 - Colbert Rerank
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/node_postprocessor/ColbertRerank.ipy
+	- https:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1ODczMDY5LDI4MzYyMzkxLDE0ODA0Mj
-M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
-ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
-Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
-MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
-IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
-NzldfQ==
+eyJoaXN0b3J5IjpbMTM2ODQ5ODA4NCwyODM2MjM5MSwxNDgwND
+IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
+LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
+I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
+NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
+QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
+NTc5XX0=
 -->
