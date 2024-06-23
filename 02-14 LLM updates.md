@@ -12,7 +12,7 @@ Googleからは、患者とのやり取りで人間の医師を超えるとい�
 
 shi3zさん、
 
-LLMが事前学習時に事実的知識を獲得
+LLMが事前学習時に事実的知識を獲得する様子の分析や、Transformer のコンポーネントかはじまｔ最終的な表現型に近い現象挙動はほぼ明らかとなるような解説記事
 
 
 RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索なんかで正気を取り戻しましょう。
@@ -3583,15 +3583,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- バイトレベルエンコーディングで未知トークン対応
 	- 違い
 		- 語彙サイズ: Gemma 256K、Llama 32K 
-		- Gemmaは`add_dummy_prefix` False → 先頭に空白追加なし（GPTと同じ）
-		- Gemmaには特別なtoken多数（例: HTML要素、謎）
-- google/gemma-7bのtokenizer
+		- Gemmaは`add_du
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI5NTE1MSwyODM2MjM5MSwxNDgwND
-IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
-LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
-I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
-NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
-QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
-NTc5XX0=
+eyJoaXN0b3J5IjpbLTE5MzA0NjU1NDIsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
