@@ -70,7 +70,12 @@
 	- A Mixture of Experts (MoE) is a machine learning framework that resembles a team of specialists, each adept at handling different aspects of a complex task.
 	- It's like dividing a large problem into smaller, more manageable parts and assigning each part to a different expert.
 - 合成データ作り放題でおなじみのNemotron、APIとかあるのね
-	- 
+	- https://x.com/umiyuki_ai/status/1803078912051986714
+	- ログインすれば無料で1000回まで叩けるらしい。課金とかはまだ無いぽい。課金してでも叩きたい人多そうだけど。Playgroundでチャットするだけならクレジット減らないっぽいから頑張れば合成データ収集できるかも
+- Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能がリリース
+	- https://x.com/umiyuki_ai/status/1803127902533460149
+	- 要するにKVキャッシュを保存したりロードしたりする機能。API無料枠のユーザーでもFlashでコンテキストキャッシュを最大100万トークン活用可能！32k以上のコンテキストでキャッシュが使用できる
+- 
 
 ## 6/17
 
@@ -3574,18 +3579,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 論文でよく使われる表現で誤魔化す 
 		- P値ハッキング（P hacking）
 		- 論文生成が簡単になり質の悪い論文が増加するリスク など懸念点を挙げた。
-- Code-Llama-70B-FW is now available on Poe! H
-	- https://x.com/poe_platform/status/1757080840012804511?s=20
--  音声入出力でLLM on Google Colab
-	- https://colab.research.google.com/drive/1WCiUth855jXjzaNh8Ap5lFLEGX8aMtiU
-	- マイク入力→音声認識(Faster Whisper)→LLM回答生成(ELYZA)→音声合成(Style-Bert-VITS2)→再生
-	- Google Colabの無料枠で動く 音声認識(Whisper)→LLM(Swallow-13B)→音声合成(Style-Bert-VITS2) を作ってみました。音声合成は事前
+- Cod
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5Mj
-QxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgz
-NywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LD
-E3NDY2NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5
-MjUwNTUsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC
-03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAz
-NDMyMDI1M119
+eyJoaXN0b3J5IjpbLTM2NjU5NTM0Myw2ODU0Nzk2NDMsMTgxOD
+A1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3
+LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLT
+EyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4ODQ0NSw2Nzky
+MjgyODYsMTkwNjkyNTA1NSw0MjE4NDQ0MDQsMTY2MDQwNjg2NS
+w0MTQ4ODAxMTMsLTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4
+MDE4MjkzNV19
 -->
