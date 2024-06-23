@@ -136,7 +136,13 @@
 	- 本対応により、「KARAKURI LM 8x7B Instruct v0.1」は様々なアプリケーションを人間に代わって操作するAIエージェント※2 としての活用が可能です
 - Anthropic社は突如として"Claude 3.5 Sonnet"をリリース
 	- https://x.com/ctgptlb/status/1803822932831166712
-	- 
+	- 現状最強だったGPT-4oの性能を上回る上に、Claude 3 Opusの2倍の速度でこれまでの5分の1のコストに
+	- また新しく、"Artifacts"という新機能が登場。Xで早速Artifacts機能のすごい事例が報告されています
+- Claude3.5Sonnet　不都合日、休日担当数の公平性、当直日の間隔などを考慮してほぼ完璧なシフトを組んでくれます
+	- https://x.com/genkAIjokyo/status/1803905958776836356
+	- ついに...人間が当直表、待機表、シフトの作成から解放される日が！
+	- このタスクはGPT4o、Claude3Opusでも少し修正必要だったのでClaude3.5Sonnetかなり優秀...
+- 
 
 ## 6/17
 
@@ -3563,15 +3569,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.llamaindex.ai/llamaindex-v0-10-838e735948f8
 	- https://x.com/llama_index/status/1757121818115322076?s=20
 	- our biggest open-source release to date, and a massive step towards production-readiness.
-	- Create a core package, split off every integration/template into separate PyPi packages.
-	- Refactor LlamaHub to become a central hub of all integrations (WIP)
-	- Deprecate ServiceContext: Your dev UX is now way better without this object.
-- Chat with RTX from NVIDIA
-	- https://x.com/NVIDIAAIDev/status/1757447655674819053?s=20
-- Deepreneur-blue-lizard
-	- https://huggingface.co/Deepreneur/blue
+	- Create a core package, split off every integration/tem
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTcwNjcwMSwyODM2MjM5MSwxNDgwND
+eyJoaXN0b3J5IjpbLTI2NjYxNDY4MSwyODM2MjM5MSwxNDgwND
 IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
 LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
 I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
