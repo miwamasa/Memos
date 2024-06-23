@@ -194,7 +194,11 @@
 - Claude able to produce simulated 3d physics using WebGL
 	- https://x.com/Hamptonism/status/1804496837216227756
 - Magpieという手法をNemotron-4-340B-Instructに適用し、日本語ロールプレイ用instructionの合成データセットを作成してみました。
--	
+	-	https://x.com/Aratako_LM/status/1804817272911138909
+	-	特にフィルタ等していない生のデータですが、合成データとしてはかなり質が高そうです。（流石Nemotron-4）
+-	Chrome の Gemini Nano を試す
+	-	
+	-	「Chrome」の「Gemini Nano」の早期アクセス版が使えるようになりました。
 
 ## 6/17
 
@@ -3587,15 +3591,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ご利用前にgemma利用規約をご確認下さい
 - side-by-side comparison of the GPT-4, Gemma, and Llama tokenizer
 	- https://x.com/xenovacom/status/1760384978360074460?s=20
-	- the Gemma and Llama tokenizers are very similar, with the main difference being vocabulary size. One interesting thing to see is that even with an 8x larger vocabulary (256k vs 32k), Gemma only produces ~13% fewer tokens than Llama.
-- Google Colab で Gemma のファインチューニングを試す
-	- https://note.com/npaka/n/nc55e44e
+	- the Gemma and Llama tokenizers are very similar, with the main difference being vocabulary size. One interesting thing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDk3Mzk4MSwyODM2MjM5MSwxNDgwND
-IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
-LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
-I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
-NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
-QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
-NTc5XX0=
+eyJoaXN0b3J5IjpbLTU5MzYxMzk1LDI4MzYyMzkxLDE0ODA0Mj
+M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
+ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
+Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
+MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
+IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
+NzldfQ==
 -->
