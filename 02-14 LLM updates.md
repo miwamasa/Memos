@@ -142,6 +142,13 @@
 	- https://x.com/genkAIjokyo/status/1803905958776836356
 	- ついに...人間が当直表、待機表、シフトの作成から解放される日が！
 	- このタスクはGPT4o、Claude3Opusでも少し修正必要だったのでClaude3.5Sonnetかなり優秀...
+- Claude 3.5 sonnetとArtifactで出来ること。by 元木さん
+	- https://x.com/ai_syacho/status/1803822100186058831
+	- 1. スライド生成 
+	- 2. webUI生成 
+	- 3. スマホUI生成 
+	- 4. フローチャート生成 
+	- 5. 簡易ゲーム生成
 - 
 
 ## 6/17
@@ -3567,15 +3574,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 -  LlamaIndex v0.10
 	- https://blog.llamaindex.ai/llamaindex-v0-10-838e735948f8
-	- https://x.com/llama_index/status/1757121818115322076?s=20
-	- our biggest open-source release to date, and a massive step towards production-readiness.
-	- Create a core package, split off every integration/tem
+	- https://x.com/llama_index/status/175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjYxNDY4MSwyODM2MjM5MSwxNDgwND
-IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
-LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
-I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
-NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
-QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
-NTc5XX0=
+eyJoaXN0b3J5IjpbLTE4MzkxMjMzNzAsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
