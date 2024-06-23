@@ -196,9 +196,16 @@
 - Magpieという手法をNemotron-4-340B-Instructに適用し、日本語ロールプレイ用instructionの合成データセットを作成してみました。
 	-	https://x.com/Aratako_LM/status/1804817272911138909
 	-	特にフィルタ等していない生のデータですが、合成データとしてはかなり質が高そうです。（流石Nemotron-4）
--	Chrome の Gemini Nano を試す
-	-	
+-	Chrome の Gemini Nano を試す by npakaさん
+	-	https://note.com/npaka/n/n17176250330e?sub_rt=share_h
 	-	「Chrome」の「Gemini Nano」の早期アクセス版が使えるようになりました。
+	-	テキスト生成
+	-	(1) メニュー「表示 → 開発/管理 → JavaScriptコンソール」でコンソールを表示。
+	-	(2)次のコードが
+		-	const canCreate = await  window.ai.canCreateTextSession();
+		-	const session = await  window.ai.createTextSession(); 
+		-	const result = await session.prompt("まどか☆マギカでは誰が一番かわいい?");
+		-	console.log(result);
 
 ## 6/17
 
@@ -3586,18 +3593,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/google/gemma-2b-it
 - gemma-7b-it-gguf
 	- https://huggingface.co/mmnga/gemma-7b-it-gguf
-	- Googleさんが公開されているgemma-7b-itのggufあります
-	- **現在量子化された出力が不安定な問題があるらしくQ8_0を推奨します。**
-	- ご利用前にgemma利用規約をご確認下さい
-- side-by-side comparison of the GPT-4, Gemma, and Llama tokenizer
-	- https://x.com/xenovacom/status/1760384978360074460?s=20
-	- the Gemma and Llama tokenizers are very similar, with the main difference being vocabulary size. One interesting thing
+	- G
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzYxMzk1LDI4MzYyMzkxLDE0ODA0Mj
-M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
-ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
-Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
-MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
-IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
-NzldfQ==
+eyJoaXN0b3J5IjpbLTE3ODU3ODE2MjAsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
