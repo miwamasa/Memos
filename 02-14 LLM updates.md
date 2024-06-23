@@ -3,7 +3,7 @@
 
 ## 24/6/24
 
-今週はすべてを吹っ飛ばして、Anthropicが突然発表したClaude 3.5 Sonnetでしょう。新しい開発環境？Artifactを使って、人間と対話しながらあっという間に、 スライド生成 、webUI生成 、スマホUI生成 、フローチャート生成、簡易ゲーム生成、ほぼ完ぺきなシフト管理システムの作成、WebGLをつかたった可視化プログラムの生成、様々な事例が発表されお祭り状態に。生産性向上とか改善とか、もう全部上書きされる感じか。
+今週はすべてを吹っ飛ばして、Anthropicが突然発表したClaude 3.5 Sonnetでしょう。新しいアプリ開発環境Artifactsを使って、人間と対話しながらあっという間に、 スライド生成 、webUI生成 、スマホUI生成 、フローチャート生成、簡易ゲーム生成、ほぼ完ぺきなシフト管理システムの作成、WebGLをつかたった可視化プログラムの生成、様々な事例が発表されお祭り状態に。生産性向上とか改善とか、もう全部、Claude 3.5 Sonnetで上書きされる感じ、逆に、これが使いこなせる人材しか残らない。でもこれSonnetなんですよ、Opusって、、。
 
 Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等がありました。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
 
@@ -3571,10 +3571,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「Gemma 2B」「Gemma 7B」の2つのサイズのモデルウェイトをリリースします。各サイズは、事前学習および指示チューニングされたバリアントでリリースします。
 	- 「Responsible Generative AI Toolkit」は、「Gemma」を使用してより安全なAIアプリケーションを作成するためのガイダンスと必須ツールを提供します。
 	- 「Keras 3.0」を介して、JAX、PyTorch、TensorFlow など、すべての主要なフレームワークにわたって推論と教師ありファインチューニング (SFT) のためのツールチェーンを提供しています
-	- 事前学習、指示チューニングされた「Gemma」は、ノートパソコン、ワークステーション、Google Cloud 上で実行でき
-	- 「Gemma」のリスクプロファイルを理解して軽減するために、
+	- 事前学習、指示チューニングされた「Gemma」は、ノートパ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ3NzQzNzYsMjgzNjIzOTEsMTQ4MD
+eyJoaXN0b3J5IjpbLTIwNjM0MDAxNTUsMjgzNjIzOTEsMTQ4MD
 QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
 LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
 cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
