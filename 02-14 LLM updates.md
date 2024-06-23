@@ -4,7 +4,10 @@
 ## 24/6/24
 
 60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題
-DeepMind　からvideo-to-audio (V2A)
+DeepMind　からvideo-to-audio (V2A)、高精度天気予報「ナウキャスト」日本で提供　ウェザーニュースのデータで学習したAI採用
+
+
+Nemotron-4-340B-Instruct
 
 - いつの間にかStable DiffusionがDiffusion Modelではなくなっている！？（バックボーンがDiffusion Transformerだからセーフ？）
 	- https://x.com/shion_honda/status/1802386378874835056
@@ -3592,10 +3595,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.kaggle.com/competitions/data-assistants-with-gemma/
 	- LLM大喜利。各タスク毎に賞金$10k。
 - gemma-2bを試す by npakaさん
-	- https://x.com/npaka123/status/1760432810811400204?s=20
-	- https://huggingf
+	- http
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTA4MzAxLDI4MzYyMzkxLDE0ODA0Mj
+eyJoaXN0b3J5IjpbOTA0MjY3ODg2LDI4MzYyMzkxLDE0ODA0Mj
 M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
 ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
 Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
