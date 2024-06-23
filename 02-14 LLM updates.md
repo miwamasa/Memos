@@ -7,7 +7,7 @@
 
 60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題もBBCで紹介されましたが、いやAn
 
-Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等があった。傘下のDeepMindからvideo-to-audio (V2A)の発表、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
+Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等があった。傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuminaと合わせれば、ショートフィルムは作れそうな勢い。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
 
 先週話題となった、Nemotron-4-340B-Instruct、評価などがぼちぼち、うみゆきさんがShaberi3ベンチにかけてみたら、平均スコア8.05で、Gemini1.5Pro（8.01）以上、GPT-4o（8.16）以下とのこと。またテクニカルノートによると98%の事後学習のデータは合成データをつかっているとのこと、さすが合成データを作るのが得意なNemotronの面目躍如、いや、そのデモだったのかも。無料のPlaygroundで合成データをコチコチ作るという手もありそうだ。
 
@@ -16,7 +16,7 @@ shi3zさん、
 RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索
 
 
-
+さて、Claude 3.5 Sonnetの能力を見てると、まだＬＬＭで驚けるんだという驚きから、それは人っていらないかもというのが確信になりつつあります。
 スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな。
 
 - いつの間にかStable DiffusionがDiffusion Modelではなくなっている！？（バックボーンがDiffusion Transformerだからセーフ？）
@@ -3588,16 +3588,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - google/gemma-7bのtokenizerはBPEでvocabは256k
 	- https://huggingface.co/google/gemma-7b
 	- ひらがなカタカナを含むvocabは7039件 
-	- 京都 大阪 兵庫 奈良 滋賀 はあれど 和歌山 は登録なし 
-	- 他では見ないタイプのトークンが多数 コードもmergeされたてホヤホヤ
-- gemma-7b
-	- ht
+	- 京都 大阪 兵
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzY2MDM2OCwyODM2MjM5MSwxNDgwND
-IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
-LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
-I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
-NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
-QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
-NTc5XX0=
+eyJoaXN0b3J5IjpbOTI0MTgxMTc4LDI4MzYyMzkxLDE0ODA0Mj
+M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
+ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
+Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
+MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
+IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
+NzldfQ==
 -->
