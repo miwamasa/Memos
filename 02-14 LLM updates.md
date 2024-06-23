@@ -11,6 +11,10 @@ Googleからは、患者とのやり取りで人間の医師を超えるとい�
 
 shi3zさん、
 
+ローカルＬＬＭでは、
+
+Chrome の Gemini Nano
+
 LLMが事前学習時に事実的知識を獲得する様子の分析や、Transformer のコンポーネントか始まって最終的な表現型に近い現象挙動はほぼ明らかとなるような解説記事とか、LLMの振る舞いの理論的な解析も着実にすすんでいます。応用面の、RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索なんかやらせてみて、正気を取り戻しましょう。
 
 さて、Claude 3.5 Sonnetの能力を見てると、「まだＬＬＭで驚けるんだ」という驚きから、それって、人ってそんなに沢山いらないかもというのが確信になりつつあります。BBCで紹介された、60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題もありましたが、Claude 3.5 SonnetやGPT-4o級ならそうなるかも。いや、スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな、と信じたい。
@@ -3573,13 +3577,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「Gemma」のリスクプロファイルを理解して軽減するために、手動のレッドチーム化、自動化された敵対的テスト、危険なアクティビティに対するモデルの機能の評価など、堅牢な評価を実施しました。 
 	- ai.google.dev/gemma、では、「Gemma」の詳細やクイックスタートガイドを参照できます。
 - Gemma Tokenizer が面白い
-	- https://x.com/AiXsatoshi/status/176043705906
+	- https://x.co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjkzMjkzLDI4MzYyMzkxLDE0ODA0Mj
-M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
-ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
-Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
-MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
-IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
-NzldfQ==
+eyJoaXN0b3J5IjpbLTE4MTIzNDQwMTAsMjgzNjIzOTEsMTQ4MD
+QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
+LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
+cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
+NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
+w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
+OTU3OV19
 -->
