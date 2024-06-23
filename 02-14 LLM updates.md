@@ -20,7 +20,7 @@
 - The importance of stupidity in scientific research
 	- https://web.stanford.edu/~fukamit/schwartz-2008.pdf
 	- 「愚かさ」は、科学者が重要な質問をしていることを示す兆候であるとされています。著者は、学生が「生産的に愚かになる」方法を教えるための提案で論文を締めくくっています。
-	- 
+- 
 
 ## 6/17
 
@@ -3581,11 +3581,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ● Transformerの進化系、MoEアーキテクチャを搭載 
 	- ● LLM史上最大、100万トークンもの入力に対
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2MDIzMjg4LDE4MTgwNTgzMTEsLTQ5Mj
-QxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgz
-NywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LD
-E3NDY2NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5
-MjUwNTUsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC
-03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAz
-NDMyMDI1M119
+eyJoaXN0b3J5IjpbMTc1MDUzNTMxMiwxODE4MDU4MzExLC00OT
+I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
+MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
+wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
+OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMy
+wtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEw
+MzQzMjAyNTNdfQ==
 -->
