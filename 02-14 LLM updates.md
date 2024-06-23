@@ -106,7 +106,12 @@
 	- 言語モデルが行なっていることは「文脈を踏まえて文の続きを予測」すること
 	- LLM の仕組みを踏まえると、生成 AI の特徴がより理解できる
 	- より長い文脈を踏まえて「文の続きを予測」できることで、より進化していく
-	- 
+	- マルチモーダル モデルを使いこなす！
+- Ilya Sutskeverが安全な超知能を目標とするSafe Superintelligence Inc.設立!
+	- https://x.com/bioshok3/status/1803475573030920310
+- グーグル、12時間先まで5分刻みで降雨予測する「Google ナウキャスト」
+	- https://www.watch.impress.co.jp/docs/news/1601121.html
+- 
 
 ## 6/17
 
@@ -3577,17 +3582,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 10億パラメータ数程度のモデルであれば、GPUメモリが12GB以上のGPUであれば推論することが可能です。Google Colaboratoryで提供されているGPUインスタンスで動かすことができます
 	- BLOOM-176Bを動かしてみる？
 		- では実際1000億パラメータを超えるBLOOMを動かすにはどうすればいいでしょうか？
-		- 単純な解決策として、その大規模モデルが乗る計算環境を構築することができますが、もしそのレベルのスペックをオンプレミスのサーバーで整える場合は数千万円規模になってしまいます。また、AWSやGCPなどのクラウドコンピューティングサービスで大規模実験環境を整えることもできます。
-		- 例えば、AWSのEC2 P4dインスタンスであれば8枚のA100のGPUメモリが計320GBと640GBの環境を1時間あたり30~40ドル程度で扱うことができます。
-- RAG Fusionが思ってたより凄そう
-	- https://zenn.dev/ozro/articles/abfdadd0bfdd7a
-	- RAG Fusionは単なる「新たな手法」ではなく「革新的な手法」で
+		- 単純な解決策として、その大規模モデルが乗る計算環境を構築することができますが、もしそのレベルのスペックをオンプレミスのサーバーで整える場合は数千万円規模になってしまいます。また、AWSやGCPなどの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzAyMDkxNTQsMjgzNjIzOTEsMTQ4MD
-QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
-LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OV19
+eyJoaXN0b3J5IjpbMTYxNDUwMTc5OCwyODM2MjM5MSwxNDgwND
+IzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1Nzks
+LTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2Nz
+I0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1
+NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LD
+QyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5
+NTc5XX0=
 -->
