@@ -36,7 +36,14 @@
 	- https://x.com/GoogleDeepMind/status/1802733643992850760
 	- It can add sound to silent clips that match the acoustics of the scene, accompany on-screen action, and more.
 - How Do Large Language Models Acquire Factual Knowledge During Pretraining?
-	- 
+	- https://arxiv.org/abs/2406.11813
+	- Reveals several important insights into the dynamics of factual knowledge acquisition during pretraining
+- Nemotron-4-340B-InstructのAPIをさっそくShaberi3ベンチにかけてみたら、平均スコア8.05！Gemini1.5Pro（8.01）以上、GPT-4o（8.16）以下！ by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1803112240935260328
+- Building Advanced RAG with Knowledge Graphs
+	- https://x.com/llama_index/status/1803082001538535703
+	- This 60 minute webinar is a must-watch if you’re looking to apply the latest techniques combining LLMs with knowledge graphs.
+- 
 - 
 
 ## 6/17
@@ -3567,21 +3574,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  GraphRAG: Unlocking LLM discovery on narrative private data by Microsoft
 	- https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/
 	- Microsoft is transforming retrieval-augmented generation with GraphRAG, using LLM-generated knowledge graphs to significantly improve Q&A when analyzing complex information and consistently outperforming baseline RAG
--  In-Context Language Learning: Architectures and Algorithms
-	- https://arxiv.org/abs/2401.12973
-	- Transformer の代替としての Mamba 含む SSMs や他の subquadratic なアーキテクチャ (e.g, RetNet, RKWV) を「入力に依存した推論を許すか」・「線形/非線形か」で整理するとめちゃくちゃ見通しが良くなる．
-- OpenAIがMicrosoftと強力し国家関連の脅威アクターによるAIの悪意あるサイバー活動に関する利用をしていたアカウントを停止。
-	- https://x.com/bioshok3/status/1757834888705945971?s=20
-- Open AI 動画生成AI 『Sora』をリリース
-	- https://openai.com/sora
-	- Googleが切り札的に電撃公開したGemini 1.5の数時間後に、OpenAIが世界の話題を掻っ攫うレベルの動画生成AIのSoraをぶつけてきた
-- META がVideo Joint Embedding Predictive Architectu
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzA5OTk1OSwxODE4MDU4MzExLC00OT
-I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
-MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
-wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
-OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMy
-wtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEw
-MzQzMjAyNTNdfQ==
+eyJoaXN0b3J5IjpbNTYyMTQwODQwLDE4MTgwNTgzMTEsLTQ5Mj
+QxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgz
+NywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LD
+E3NDY2NzU0MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5
+MjUwNTUsNDIxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC
+03ODc4MDk1NzksLTE2NzcyOTAzMDEsLTExODAxODI5MzUsMTAz
+NDMyMDI1M119
 -->
