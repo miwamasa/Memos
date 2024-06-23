@@ -85,7 +85,11 @@
 	- 著者のツイート、I’m thrilled to announce the release of my new paper!
 	- This research explores how LLMs acquire and retain factual knowledge during pretraining. Here are some key insights:
 	- LLMが事前学習時に事実的知識を獲得する様子を、事実の対数尤度で評価した場合、知識に触れるたび少しだけ上昇し緩やかに下がり元に戻る。忘れるより先にまた知識に触れることを繰り返し閾値に達すると回答できるようになる。by 岡野原さん
-- 
+-  Google の AI 「Gemini」、公式 note はじめます
+	- https://note.com/google_gemini/n/nc53d2b6f4a08
+	- 新機能の紹介やイベント レポート、開発者の話など、Gemini にまつわるさまざまな情報やニュースをお届けします。
+- 「ChatGPTって、自分の「境界」を持っていませんよね。
+	- 
 
 ## 6/17
 
@@ -3573,12 +3577,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 時間が経つにつれて、このオブジェクトは使いにくくなりました。 service_context コンテナ全体を任意のモジュールに渡すと、どのコンポーネントが実際に使用されているかを推論するのが困難になりました。 すべてのモジュールがデフォルトで OpenAI を使用するため、ユーザーはローカルモデルを使用したい場合でも、不必要にOpenAIキーを指定するように求められていました。 インポートして入力するのも大変でした
 -  LongMamba
 	- https://github.com/jzhang38/LongMamba
-	- We present LongMamba, an early exploration of Mamba's **longer context extrapolation ability**. Our #LongMamba manages to retrieve *nearly perfectly* on a window context of 16384
-- AutoMathText: A 200GB dataset of mathematical texts open sourced
-	- https://huggingface.co/papers/2402.07625
-	- Multi-source : arXiv
+	- We present LongMamba, an early exploration of Mamba's **longer context extrapolation ability**. Our #LongMamba manages to retrieve *n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI0NDQ4OTIsMjgzNjIzOTEsMTQ4MD
+eyJoaXN0b3J5IjpbLTEyODAyMzMzODEsMjgzNjIzOTEsMTQ4MD
 QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
 LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
 cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
