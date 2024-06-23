@@ -13,7 +13,7 @@ shi3zさん、
 
 RAGも忘れてませんよ、知識グラフとの統合とかいろいろあるけど、ここは基本戻って、 LangChain で RAGのハイブリッド検索
 
-Googleのgeminiのnoteシリーズ、勉強になるなあ。メタからは、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
+Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能がリリースとか、Googleのgeminiのnoteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。さて、メタからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。
 
 スタンフォード大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな。
 
@@ -3591,14 +3591,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - gemma-7b
 	- https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf
 	- https://huggingface.co/chat/settings/google/gemma-7b-it
-	- Geminiモデルと同様のアーキテクチャ、データ、学習レシピを使用して、最大6兆個のテキストトークンで学習（主に英語）。サイズは2つで、パラメータ数がそれぞれ20億個と70億個。TPUv5eを使用して学習
-	- 日本語モデルではないのに
+	- Geminiモデルと同様のアーキテクチャ、データ、学習レシ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTgwNjYyMjEsMjgzNjIzOTEsMTQ4MD
-QyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5
-LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNj
-cyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3
-NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkwNjkyNTA1NS
-w0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMTMsLTc4Nzgw
-OTU3OV19
+eyJoaXN0b3J5IjpbNTc3MjQ5MiwyODM2MjM5MSwxNDgwNDIzNT
+g5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgx
+NzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NT
+YxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAw
+LC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMT
+g0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5
+XX0=
 -->
