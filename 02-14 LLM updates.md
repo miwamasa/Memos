@@ -4,7 +4,8 @@
 ## 24/6/24
 
 60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題
-DeepMind　からvideo-to-audio (V2A)、高精度天気予報「ナウキャスト」日本で提供　ウェザーニュースのデータで学習したAI採用
+
+Googleからは、患者とのやり取りで人間の医師を超えるというAMIEの発表、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供。DeepMindからvideo-to-audio (V2A)の発表、
 
 
 Nemotron-4-340B-Instruct、Shaberi3ベンチにかけてみたら、平均スコア8.05！Gemini1.5Pro（8.01）以上、GPT-4o（8.16）、98% of data used in post-training was synthetically generated、どうもNemotronってのは合成データを作るのが得意なLLMなようで、そのデモだったのか。Playgroundで合成データをコチコチ作るという手もありそうだ。
@@ -3590,14 +3591,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 他では見ないタイプのトークンが多数 コードもmergeされたてホヤホヤ
 - gemma-7b
 	- https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf
-	- https://huggingface.co/chat/settings/google/gemma-7b-it
-	- Geminiモデルと同様のアーキテクチャ、データ、学習レシ
+	- https://huggingface.co/chat/settings/google/ge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MjQ5MiwyODM2MjM5MSwxNDgwNDIzNT
-g5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgx
-NzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NT
-YxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAw
-LC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2OTI1MDU1LDQyMT
-g0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMywtNzg3ODA5NTc5
-XX0=
+eyJoaXN0b3J5IjpbLTY5ODM4ODUyLDI4MzYyMzkxLDE0ODA0Mj
+M1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwt
+ODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3Mj
+Q1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0
+MDAsLTIwNTM2ODg0NDUsNjc5MjI4Mjg2LDE5MDY5MjUwNTUsND
+IxODQ0NDA0LDE2NjA0MDY4NjUsNDE0ODgwMTEzLC03ODc4MDk1
+NzldfQ==
 -->
