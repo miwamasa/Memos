@@ -2,6 +2,9 @@
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
 ## 24/6/24
+
+- いつの間にかStable DiffusionがDiffusion Modelではなくなっている！？（バックボーンがDiffusion Transformerだからセーフ？）
+	- https://x.com/shion_honda/status/1802386378874835056
 - 
 
 ## 6/17
@@ -3578,14 +3581,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://qiita.com/jw-automation/items/cf8ffc7a0edab512d917
 	- 社内情報というコンテキストが必要な業務がほとんどである人達に、素のChatGPTを配っても、特に使える所がないというのはいわば当たり前の話です。
 - Build Knowledge Graph From TextData using LangChain
-	- https://medium.com/@mahimairaja/build-knowledge-graph-from-textdata-using-langchain-under-2min-ce0d0d0e44e8
-	- Converting text to knowledge graphs can be he
+	- https://me
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjQxNTAxNSwxODE4MDU4MzExLC00OT
-I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
-MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
-wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
-OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMy
-wtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEw
-MzQzMjAyNTNdfQ==
+eyJoaXN0b3J5IjpbLTIxMTYxOTUyODMsMTgxODA1ODMxMSwtND
+kyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0
+ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0ND
+csMTc0NjY3NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkw
+NjkyNTA1NSw0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMT
+MsLTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwx
+MDM0MzIwMjUzXX0=
 -->
