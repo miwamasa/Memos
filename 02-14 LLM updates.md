@@ -5,6 +5,14 @@
 
 - いつの間にかStable DiffusionがDiffusion Modelではなくなっている！？（バックボーンがDiffusion Transformerだからセーフ？）
 	- https://x.com/shion_honda/status/1802386378874835056
+- WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild
+	- https://arxiv.org/abs/2406.04770
+	- 100万件におよぶ人間とLLMの会話履歴をもとに作成した、現実ニーズに則する1,024のタスクでモデルを評価する手法『WildBench』が公開されています。
+	- 「人間が実際に投げるタイプのタスク」における40種類のモデルの性能は興味深いものとなっています。
+- DeepSeek-Coder-V2
+	- https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct
+	- 236B Mixture-of-Experts（MoE） 6T tokensの事前学習 サポートする言語は338 コンテキスト長も16Kから128Kに
+	- 標準的なベンチマーク評価で、GPT4-Turbo、Claude 3 Opus、Gemini 1.5 Proなど2を上回る性能
 - 
 
 ## 6/17
@@ -3572,22 +3580,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	-  [詳細版](https://kanazawa.scphys.kyoto-u.ac.jp/wpkzdb/wp-content/uploads/2023/10/StochasticProcess2023_long.pdf)
 - 【AI動画生成】Sora 要素技術解説
 	- https://zenn.dev/mattyamonaca/articles/e234e57834d7ad
-	- すごく簡単にまとめると以下の4つの要素が主軸です
-		- 動画データを潜在空間に圧縮した後、Transformerがトークンとして利用できる「時空潜在パッチ」に変換する技術
-		- Transoformerベースのビデオ拡散モデル
-		- DALLE3を用いた高精度なビデオキャプショニングによるデータセット作成
-	- こうして要素要素を見ていくと特段新しい技術を使っているわけではなく、今まで有効とされた技術を愚直に積み重ね、莫大な資本力と計算力でモデルを訓練すれば強いモデルが作れるという、当たり前の結果が見えてきます。
--  ChatGPTを社内に配ってもあまり使われない本当の理由
-	- https://qiita.com/jw-automation/items/cf8ffc7a0edab512d917
-	- 社内情報というコンテキストが必要な業務がほとんどである人達に、素のChatGPTを配っても、特に使える所がないというのはいわば当たり前の話です。
-- Build Knowledge Graph From TextData using LangChain
-	- https://me
+	- すごく簡単にまとめると以下の4つ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTYxOTUyODMsMTgxODA1ODMxMSwtND
-kyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0
-ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0ND
-csMTc0NjY3NTQwMCwtMjA1MzY4ODQ0NSw2NzkyMjgyODYsMTkw
-NjkyNTA1NSw0MjE4NDQ0MDQsMTY2MDQwNjg2NSw0MTQ4ODAxMT
-MsLTc4NzgwOTU3OSwtMTY3NzI5MDMwMSwtMTE4MDE4MjkzNSwx
-MDM0MzIwMjUzXX0=
+eyJoaXN0b3J5IjpbMTA2MDk0MDYyOSwxODE4MDU4MzExLC00OT
+I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
+MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
+wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
+OTI1MDU1LDQyMTg0NDQwNCwxNjYwNDA2ODY1LDQxNDg4MDExMy
+wtNzg3ODA5NTc5LC0xNjc3MjkwMzAxLC0xMTgwMTgyOTM1LDEw
+MzQzMjAyNTNdfQ==
 -->
