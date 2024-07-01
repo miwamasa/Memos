@@ -80,6 +80,15 @@
 		- https://elyza.ai/lp/elyza-llm-for-jp
 	- 8Bモデル
 		- https://huggingface.co/collections/elyza/llama-3-elyza-jp-667a311d51c8952e07778ecc
+- Meeting Information Seeking Dialogs dataset (MISeD)
+	- https://x.com/GoogleAI/status/1805654929182199832
+	- https://research.google/blog/efficient-data-generation-for-source-grounded-information-seeking-dialogs-a-use-case-for-meeting-transcripts/
+- Microsoft presents EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees
+	- https://arxiv.org/abs/2406.16858
+	- 20%-40% faster than EAGLE-1 (i.e. 3.05x - 4.26x faster than the baseline) - Ensures that the distribution of the generated text remains unchanged
+- claude 3.5 makes my graphs from excel screenshots.
+	- https://x.com/RubenHssd/status/1805609472582144201
+	- You just turn on "Artifacts", and prompt it to stick to your brand color. Here's how:
 - 
 
 ## 24/6/24
@@ -3560,17 +3569,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- **埋め込みモデルはコンテキスト長の点で遅れている**
 	- RAGの新アーキテクチャ
 		- 「**Small-to-Big Retrieval**」
-		-  レイテンシーとコストのトレードオフを実現するルーティング
-
-## 2/26
-
-先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が垣間見れてきた。Googleは引き続きGemini 1.5 proベースのOSSであるGemma(“貴重な石”、ラテン語)をリリース、同パラメーターサイズであればLlama2やMistralより優れているとの事。Gemmaは軽量であるとともに、embeddingの工夫、安全なAIアプリケーションを作成するためのガイダンスと必須ツールの提供、Kera3.0サポートなど、かなりの量と質のソフトウエアスタックが一気に公開されたことになる。OSS戦略として、安全性に関するコミュニティとの共創という意味でも、MetaのOSS戦略と丸被り。早速、量子化gguf版や、KaggleでGemmaをつかったコンペの開催、embeddingの解析（日本語語彙は貧弱？）、npakaさんによるファインチューニング試行、MLXを使ったファインチューニングなど、コミュニティの活動が盛んに。LPU（Language Processing Unit）を引っ提げるGroq、推論時の高速さが半端ない、専用チップ開発でも戦いは続く、日本のMN-core早く！llamaindexもLlamaCloudとLlamaParseをリリース、テーブルや図表などの埋め込まれたオブジェクトを含む複雑な文書のための独自のパーシングや、RAGの構築がより高性能に、かつ容易になった。日本語LLMでは、 KARAKURI LM (70B)のELYZA-tasks
+		-  レイテン
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDM0MzM5MjIsMTQ2NTgzOTc4OSwtMT
-EzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MTUwOTc2
-ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYxMjgxMy
-wyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0MywxODE4MDU4
-MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLT
-EyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4
-Mzg5NzQ0N119
+eyJoaXN0b3J5IjpbLTgzODU0NTg4NiwxNDY1ODM5Nzg5LC0xMT
+M4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4
+MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEyODEzLD
+I4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQzLDE4MTgwNTgz
+MTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMT
+I3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgz
+ODk3NDQ3XX0=
 -->
