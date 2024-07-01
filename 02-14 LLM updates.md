@@ -16,6 +16,8 @@ Gemini 1.5 で、出力を JSON に固定することができるようになっ
 
 Gemini NanoのChrome搭載はCanary版を使えばだれでも22GB空きディスクさえあれば、だれでも使えるとのこと.
 
+OpenAIのCriticGPT、
+
 メタがLlamaベースのLLMコンパイラってのも、驚いた、コード最適化タスクを行えるらしい。
 
 Florence-2,
@@ -3569,13 +3571,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 機械学習ベースでの、不要な文字列の削除
 		- 重複の削除
 - 【最強になった】Googleの最大1000万トークン入力可能なGemini 1.5 Proがヤバすぎる。《概要、他LLMとの比較、ビジネスシーンでの活用方法5選を徹底解説》
-	- https://note.com/
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDA3MTYwNCw3MjY2Mzg4OTAsMTQ2NT
-gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
-LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
-kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
-MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
-g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
-NDcyM119
+eyJoaXN0b3J5IjpbLTE3OTgyNjAzLDcyNjYzODg5MCwxNDY1OD
+M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEs
+LTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOT
+AzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQz
+LDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4OD
+gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
+NzIzXX0=
 -->
