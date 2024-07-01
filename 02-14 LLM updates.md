@@ -90,6 +90,10 @@
 	- https://x.com/RubenHssd/status/1805609472582144201
 	- You just turn on "Artifacts", and prompt it to stick to your brand color. Here's how:
 - Florence-2, the new vision foundation model by Microsoft, can now run 100% locally in your browser on WebGPU, thanks to Transformers.js!
+	- https://huggingface.co/spaces/Xenova/florence2-webgpu
+	- Once loaded, the model (340 MB) will be cached and reused when you revisit the page.
+- NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF
+	- https://x.com/laniusdev/status/1805658195450380557
 	- 
 
 ## 24/6/24
@@ -3561,17 +3565,12 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/webbigdata/status/1763730996455973098?s=20
 	- Jeremyさんの言っている通り、fine tuningはHugging Faceに掲載されているTransformers実装ではなくて、githubのgoogle-deepmind/gemmaを参考にした方が良いのかもしれません
 	- https://x.com/jeremyphoward/status/1763679390968455185?s=20
--  ロングコンテキストLLMに対応したRAGの新アーキテクチャ by npakaさん
-	- https://note.com/npaka/n/n0b17244bae47?sub_rt=share_h
-	- 「Gemini 1.5 Pro」の機能をプレビューすることができ、それを試してみることで、ロングコンテキストLLMを適切に使用するには、RAGがどのように進化するのかについてのまとめました。
-	- **Gemini は特定の詳細を見事に思い出すことができる**
-	- **Gemini 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMz
-g1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3Njgw
-LC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4MTMsMj
-gzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMx
-MSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMj
-cxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4
-OTc0NDddfQ==
+eyJoaXN0b3J5IjpbMTA3NjAxOTAxNiw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyM119
 -->
