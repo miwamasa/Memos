@@ -26,7 +26,13 @@
 		- https://x.com/AiXsatoshi/status/1804999143586402460
 		- 「Constitutional AI」は、AIモデルが自己評価と調整を行う新しいトレーニング手法
 		- 国連の世界人権宣言などに基づく原則を参照、人間の介入を減らすことで有害な出力を避けるAIを構築。これにより、トレーニング効率とモデルの信頼性が向上する
-- 
+- 時系列データに対するInstruction Tuningデータを作成しました。by はちさん
+	- https://x.com/CurveWeb/status/1805232501323112599
+	- Timeseries-PILE、Phi-3-mini-4k-instructを使っているのでMITライセンスです。 とりあえずsingle turnで160K recordsあります。multi turnも作成中です。
+	- https://huggingface.co/datasets/HachiML/Timeseries-QA
+- インスタの共同創業者がClaudeプロダクトチームを率いた結果、Artifactが誕生。その間わずか2ヶ月
+	- https://x.com/Haruki_Sonehara/status/1805111108748886440
+	- 
 
 ## 24/6/24
 
@@ -3554,17 +3560,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 結果ベースの報酬モデル (ORM) をリランカーとして使用して、グローバルとローカルの改良を組み合わせると、いずれか 1 つを個別に使用した場合や、3 つのサンプル ベースラインの中で最も優れたものを大幅に上回るパフォーマンスが得られることがわかりました。
 - The Tokenizer Playground
 	- https://huggingface.co/spaces/Xenova/the-tokenizer-playground
-	- After watching, if you want to learn more about how different models (e.g., GPT4, Llama, T5, BERT) tokenize text, check out "The Tokenizer Playground": a web-app I built a few months ago with Transformer.js
-- Gemini AdvancedでAIによって提案されたpythonコードを直接実行して動作確認できるインタフェースが追加された
-	- https://x.com/webbigdata/status/1760129585994432916?s=20
-	- Gemini 1.5 proで「githubから直接全コードと全issuesを取得させる事」と「最も緊急度の高いissuesを特定し、修正を実装させる事」が出来た
-- K
+	- After watching, if you want to learn more about how different models (e.g., GPT4, Llama, T5, BERT) tokenize text, check out "The Tokenizer Playground": a web-app I built a few m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MD
-k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
-MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2NDMsMTgxOD
-A1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3
-LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLT
-EyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4ODQ0NSw2Nzky
-MjgyODZdfQ==
+eyJoaXN0b3J5IjpbLTE0NTE5MzAwMzQsNTQ5OTQ0Mzg0LDkzOT
+c5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4
+NTk1LDE5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2OD
+U0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5
+MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LD
+ExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1
+MzY4ODQ0NV19
 -->
