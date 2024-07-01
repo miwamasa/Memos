@@ -38,7 +38,10 @@
 -  三菱電機がClaude 3活用で「工数4割減」、仕様書の図表解析にマルチモーダルが威力
 	- https://xtech.nikkei.com/atcl/nxt/column/18/02875/062000004/
 	- すごいね、実際どうなのか気になる / “三菱電機がClaude 3活用で「工数4割減」、仕様書の図表解析にマルチモーダルが威力”
-- 
+- 「NVIDIA最新GPUの20倍速い」史上最速を謳うAIチップ「Sohu」
+	- https://ascii.jp/elem/000/004/206/4206328/
+	- **Transformerアーキテクチャーのみに特化した設計を採用した**ことだ。この専門化により、Sohuは汎用GPUと比べて大幅な性能向上を実現
+	- 
 
 ## 24/6/24
 
@@ -3561,11 +3564,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 1. GPT-4/3.5で検証 
 		- 2. モデルが知らないインターネットミームを教え込ませた 
 		- 3. GPT-4で88.2%、GPT-3.5でも84.5%の正確さを達成した
--  GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements
-	- https://huggingface.co/papers/2402.10963
-	- 結果ベースの報酬モデル (ORM) をリランカーとして使用して、グローバルとローカルの改良を組み合わせると、いずれか 1 つ
+-  GLoRe: When, Where, and How to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTc0NDExOCw1NDk5NDQzODQsOTM5Nz
+eyJoaXN0b3J5IjpbMTM1NDk0NTEwNyw1NDk5NDQzODQsOTM5Nz
 k3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1
 OTUsMTkwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NT
 Q3OTY0MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0Mzky
