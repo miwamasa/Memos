@@ -100,7 +100,14 @@
 - Self-Play models finally got released! | SPPO Llama-3-8B finetune performs extremely strong strong on AlpacaEval 2.0
 	- https://www.reddit.com/r/LocalLLaMA/comments/1doxvdi/selfplay_models_finally_got_released_sppo/?onetap_auto=true&one_tap=true
 	- SPPO論文で「SPPOしたLlama-3-8Bの勝率がGPT-4超え！」とか主張してて「ウソ付け！だったらモデル出せや！」みたいな話だったのがついにモデルがお出しされたらしい
-- 人にとって言語は思考よりもコミュニケーションの道具であるという主張　by おか
+- 人にとって言語は思考よりもコミュニケーションの道具であるという主張　by 岡野原さん
+	- https://www.nature.com/articles/s41586-024-07522-w
+	- 失語症や言語を獲得していない場合でも思考能力は獲得でき、逆に言語能力が完全にあっても思考能力に問題がある場合があり、言語は思考にとって十分条件でも必要条件でもない。 
+	- 言語は単なるコミュニケーションシステムであり、学習可能にできるように単純であることと、多くの情報を効率的に伝えられるようにすることのトレードオフで進化してきた。
+	- 様々な言語処理、思考処理の脳内活動をみても言語と思考は脳内で別々のネットワークで処理されている。LLMからも言語能力をたとえ獲得できたとしても思考能力の改善には必ずしも繋がらないという示唆が得られている。
+	- 人で特に発達した連合皮質は言語領域も含むがそれ以外の思考能力（例えばmultiple demand network）も同時に発達しており、言語か何か由来でというより、これらが同時並列で発達したと考えられる
+-  Efficient Evolutionary Search Over Chemical Space with Large Language Models
+	- 
 
 ## 24/6/24
 
@@ -3556,19 +3563,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 【論文丁寧解説】BitNet b1.58とは一体何者なのか
 	- https://qiita.com/tech-Mira/items/67dec9c5a5f025d2727a?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share
 	- BitNet b1.58は、その名の通り、各パラメータが、、[−1、0、1]という3つの値での動作を実現した1bitのLLMです。つまり、膨大な計算リソースを必要とする従来のモデルとは異なり、非常に効率的に動作します。加えて、この記事で示されている結果では驚くべきことに、性能は従来の高精度モデルを上回ります。
-	- BitNet b1.58とFP16 LLaMA LLMを様々なサイズで比較しました。公平な比較を保証するために、モデルをRedPajamaデータセットで1000億トークンに対して事前学習しました。
-- Google AI 進化的 で つくよみちゃんの会話テキストデータセット による Gemini の チューニングを試す by npakaさん
-	- https://note.com/npaka/n/n8b03a58abb2c?sub_rt=share_h
-	- 「Google AI 進化的」で「つくよみちゃんの会話テキストデータセット」による「Gemini」のチューニングを試したので、まとめました。
--  Towards Long Context RAG by llamaindex
-	- https://www.llamaindex.ai/blog/towards-long-context-rag
-	- We did a deep dive into Gemini, and consolidated our thinking about long-context LLM benefits, challenges, and new architectur
+	- BitNet b1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzM1NTQyNjYsNzI2NjM4ODkwLDE0Nj
-U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
-MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
-E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
-NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsOD
-g4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcw
-MzQ3MjNdfQ==
+eyJoaXN0b3J5IjpbLTE0NjgzMzE1OSw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyM119
 -->
