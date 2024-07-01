@@ -113,6 +113,10 @@
 	- LLMの使い方がうまい。
 - Gemini Nano、及びWebGUI、過小評価してました
 	- https://x.com/webbigdata/status/1806222156852052478
+	- ChromeのCanary版と言って、毎晩のように更新されるα版をダウンロードして、ちょっとした設定をすれば即使えました
+	- 注意点は少なくとも必要条件としてディスクに22GBの空き容量が必要との事です。現時点では実際にはそこまで占有されませんが、将来的にもう少し大きなモデルを見据えているのかもしれません
+- Gemini 1.5 で、出力を JSON に固定することができるようになった
+	- https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/control-generated-output
 	- 
 
 ## 24/6/24
@@ -3562,18 +3566,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.jst.go.jp/crds/report/CRDS-FY2023-RR-06.html
 	- 所属組織が発行している数十冊・計数千ページの報告書を40ページくらいに圧縮したレポート作成にかかわりました。
 - Qwen1.5-72B 日本語能力も高くて良いが生成物でデータセットは作れない規約で残念。
-	- https://x.com/alexweberk/status/1763905106674954324?s=20
-- 『論文の結論を学習させたら性能が下がった。』
-	- https://newswitch.jp/p/40657
-	- ６万５０００報の論文データセットを構築した。学習データでは、論文の要約よりもイントロダクションが性能向上に役立った。論文の結論の学習は、性能面でネガティブに働いた。小さなＬＬＭにとっては結論の内容が専門的過ぎた可能性がある。専門知識を備えたＬＬＭを構築するための知見になる。
-- 【論文丁寧解説】BitNet b1.58とは一体何者なのか
-	- https://qiita.com/tech-Mira
+	- https://x.com/alexweberk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzEyODI3MjUsNzI2NjM4ODkwLDE0Nj
-U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
-MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
-E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
-NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsOD
-g4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcw
-MzQ3MjNdfQ==
+eyJoaXN0b3J5IjpbMTA4NjIwNjkzOSw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyM119
 -->
