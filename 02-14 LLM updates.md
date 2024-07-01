@@ -41,6 +41,9 @@
 - 「NVIDIA最新GPUの20倍速い」史上最速を謳うAIチップ「Sohu」
 	- https://ascii.jp/elem/000/004/206/4206328/
 	- **Transformerアーキテクチャーのみに特化した設計を採用した**ことだ。この専門化により、Sohuは汎用GPUと比べて大幅な性能向上を実現
+	- 8台のSohuサーバー１台で160台のH100をリプレイスできるんだって！！Sohux8サーバーはLlama-70Bを50万tpsで超爆速処理！B200x8の10倍の速度！しかもB200より安い
+-  自民党AIの進化と実装に関するプロジェクトチームに anthoropicのプレゼン
+	- https://x.com/sirap_kuro/status/1805646378187866377
 	- 
 
 ## 24/6/24
@@ -3558,19 +3561,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ■メソッド 
 		- 1. 使用例（コンテキスト）とフレーズを直接入力する 
 		- 2. フレーズをコンテキスト内で隠して、意味を評価させる 
-		- 3. コンテキスト内のエンティティ（固有名詞や出来事など）を変更し、異なるエンティティがフレーズの解釈に与える影響を調べる 
-		- 4. 上記の結果、モデルが新しい言葉の理解に至ったのかを評価する 
-	- ■実験と結果 
-		- 1. GPT-4/3.5で検証 
-		- 2. モデルが知らないインターネットミームを教え込ませた 
-		- 3. GPT-4で88.2%、GPT-3.5でも84.5%の正確さを達成した
--  GLoRe: When, Where, and How to 
+		- 3. コンテキスト内のエンティティ（固有名詞や出来事など）を変更し、異なるエンティティ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDk0NTEwNyw1NDk5NDQzODQsOTM5Nz
-k3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1
-OTUsMTkwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NT
-Q3OTY0MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0Mzky
-MCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMT
-EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
-Njg4NDQ1XX0=
+eyJoaXN0b3J5IjpbMjYxNTA3NjcxLDU0OTk0NDM4NCw5Mzk3OT
+cyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5
+NSwxOTAzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1ND
+c5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIw
+LDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMT
+A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
+ODg0NDVdfQ==
 -->
