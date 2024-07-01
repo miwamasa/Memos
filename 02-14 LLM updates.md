@@ -171,6 +171,10 @@ Microsoftが提案しているGraphRAG
 	- 仮想マシン上でNumPyやSimPyなどのライブラリを使用できますが、追加のライブラリをインストールすることはできません。コード実行はモデルまたはリクエストレベルで有効化でき、チャットでも利用可能です。実行環境には30秒のタイムアウトなどの制限があります。
 - メタがLlamaベースのLLMコンパイラをオープンリリース。
 	- https://x.com/umiyuki_ai/status/1806380265041973349
+	- https://prompthub.info/21476/
+	- Meta Large Language Model Compilerを導入し、コード最適化タスクに特化。
+	- LLVM中間表現（IR）とアセンブリコードの5460億トークンのデータセットで詳細にトレーニングされており、コードサイズ最適化やアセンブリコードの正確な変換を実行。
+	- 伝統的な自動チューニング方法の77%の最適化潜在能力を達成し、特定のタスクでCode LlamaやGPT-4 Turboよりも優れた性能を発揮。
 - Gemma 2 is officially here!
 	- https://blog.google/technology/developers/google-gemma-2/
 - gemman2 demo on HF
@@ -3562,16 +3566,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 機械学習ベースでの、不要な文字列の削除
 		- 重複の削除
 - 【最強になった】Googleの最大1000万トークン入力可能なGemini 1.5 Proがヤバすぎる。《概要、他LLMとの比較、ビジネスシーンでの活用方法5選を徹底解説》
-	- https://note.com/chaen_channel/n/necaf27db79ae
--  LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens
-	- https://arxiv.org/abs/2402.13753
-	- It looks like the problem of long contexts in open LLMs is close to being solved.
-- ​”話したいことも、話せないことも。” 音声会話型おしゃべりAIアプリ「Cotomo」を提供開始
-	- https://prtimes.jp/main/html/rd/p/000000007.000123714.html
-- たくさんのお客様がCotomoとおしゃべりしていることで、動作が不安定になる事象が発生しております
-	- https://x.com/starley_jp/status/17617
+	- https://note.com/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA3Nzg1NTYsNzI2NjM4ODkwLDE0Nj
+eyJoaXN0b3J5IjpbLTE3MzczNTY2NzMsNzI2NjM4ODkwLDE0Nj
 U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
 MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
 E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
