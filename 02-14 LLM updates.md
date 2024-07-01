@@ -97,7 +97,9 @@
 	- Boys, I think I've found a locally run model that can replace ChatGPT for me. It's sooo fast and passed my esoteric coding suggestion capability test.
 - How LLMs work, explained with visuals:
 	- https://x.com/akshay_pachaar/status/1805586547527631181
-- # Self-Play models finally got released! | SPPO Llama-3-8B finetune performs extremely strong strong on AlpacaEval 2.0
+- Self-Play models finally got released! | SPPO Llama-3-8B finetune performs extremely strong strong on AlpacaEval 2.0
+	- https://www.reddit.com/r/LocalLLaMA/comments/1doxvdi/selfplay_models_finally_got_released_sppo/?onetap_auto=true&one_tap=true
+	- SPPO論文で「SPPOしたLlama-3-8Bの勝率がGPT-4超え！」とか主張してて「ウソ付け！だったらモデル出せや！」みたいな話だったのがついにモデルがお出しされたらしい
 - 
 
 ## 24/6/24
@@ -3561,15 +3563,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  Towards Long Context RAG by llamaindex
 	- https://www.llamaindex.ai/blog/towards-long-context-rag
 	- We did a deep dive into Gemini, and consolidated our thinking about long-context LLM benefits, challenges, and new architectures
-	- Long-context LLMs will help alleviate the need to do precise chunking and retrieval, and RAG over small sets of documents
-	- Long-context LLMs still don’t resolve the issue of RAG over big knowledge bases (present in most organizations/enterprises)
-- G
+	- Long-context LLMs will help alle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3NjcxOTIyLDcyNjYzODg5MCwxNDY1OD
-M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEs
-LTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOT
-AzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQz
-LDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4OD
-gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
-NzIzXX0=
+eyJoaXN0b3J5IjpbLTQyOTk4OTg3MSw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyM119
 -->
