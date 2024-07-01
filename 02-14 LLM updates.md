@@ -156,8 +156,10 @@
 	- Community is most welcome to do the vibe evals themselves at:
 - Google's Gemma 2 models are here! Available in 2 sizes: by ollama
 	- https://x.com/ollama/status/1806342805905616983
-- ollama で Gemma-7B を試す。
-	- 
+- AISI Japanのホームページが完成している
+	- https://aisi.go.jp/international/
+- Microsoftが提案しているGraphRAG
+- 
 
 ## 24/6/24
 
@@ -3567,10 +3569,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/1amageek/status/1762422935376302226?s=20
 -  The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits
 	- https://huggingface.co/papers/2402.17764
-	- Microsoft presents The Era of 1-bit LLMs 
-	- All Large Language Models are i
+	- Microsoft p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjM3Mjk1OSw3MjY2Mzg4OTAsMTQ2NT
+eyJoaXN0b3J5IjpbMTQ0NDcyOTcxNyw3MjY2Mzg4OTAsMTQ2NT
 gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
 LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
 kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
