@@ -123,7 +123,12 @@
 	- ChatGPT以来初のナンバーシリーズではない変化球なGPTの発表で，LLMの強化学習に利用するGPTのようです．
 	-  Finding GPT-4’s mistakes with GPT-4
 	- https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/
-- 
+- AIが人間よりもはるかに賢くなっても、正しい行動に報酬を与えることを保証するスケーラブルな監視が今後必要になる。
+	- https://x.com/bioshok3/status/1806378837334503786
+	- OpenAIは今回その一歩となるGPT-4ベースのCriticGPTを開発。 ChatGPTのコード出力のエラーを検出できるように訓練されている。
+- 製造現場で継続的なデータ活用を推進するために必要なこと
+	- https://x.com/Nurruttan/status/1806098781542437239
+	- 業務プロセスを変えるためにデータサイエンスを活用しようとする取り組みは多々あるよ。 そのために必要なのは「データサイエンス力」だけでなくて、「業務知見に詳しい人」も必ず必要になるよ。 実際にどのように業務を変えるか？そこにデータサイエンスをどう使うか？をセットで考えることが必要だからね。
 
 ## 24/6/24
 
@@ -3561,16 +3566,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Beyond Natural Language: LLMs Leveraging Alternative Formats for Enhanced Reasoning and Communication
 	- https://arxiv.org/abs/2402.18439
 	- 「自然言語を超えて」と題して、LLMにタスク実行時の思考を人間の自然言語とは異なるフォーマットで行わせるプロンプト手法『AutoForm（オートフォーム）』が考案されました。
-	- LLMの思考は必ずしも人間と同じフォーマットに沿う必要はない、といった結論になります。LLMエージェント同士でコミュニケーションする際にはこの方が効率的かもしれないとのこと。
-	- 自然言語に固有の曖昧さを排除し、明確性を高めるために、ステップバイステップの解決策には、より構造化されて簡潔なコミュニケーションの形式を検討してください。適切なフォーマットには、コード、擬似コード、JSON、マークダウン表、論理演算子、または数学方程式が含まれます。回答の最後には、〜〜という形式で答えを示さなければなりません。簡潔かつ正確であることを忘れないでください。
-- ChatGPTは数学を解く時に厳密に計算するためにADA（Advanced Data Analitics, Code Interpreter）をデフォルトで使用する様に変わってます
-	- https://x.com/ai_syacho/status/1763308074503422008?
+	- LLMの思考は必
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDgwNjksNzI2NjM4ODkwLDE0NjU4Mz
-k3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwt
-OTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MD
-M2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2NDMs
-MTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsODg4OD
-A2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3
-MjNdfQ==
+eyJoaXN0b3J5IjpbLTEzMTU0ODY1Nyw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyM119
 -->
