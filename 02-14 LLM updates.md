@@ -12,13 +12,17 @@ KARAKURI-LMモデルの評価などもありましたが、Llama-3-ELYZA-JPが�
 
 GoogleからはGemma-2の27B & 9Bがリリース、27BってLlama-3-70B越えとか、9Bは Qwen-2-72B並みの性能とか、性能爆上がりに何かがある。
 
-Gemini 1.5 で、出力を JSON に固定することができるようになったとか、Google AI Studioでコードが実行できるようになったとか、Artifactを
+Gemini 1.5 で、出力を JSON に固定することができるようになったとか、Google AI StudioやGemini APIでコードが実行できるようになったとか、Artifactをだいぶ意識してきたようだ。
 
 Gemini NanoのChrome搭載はCanary版を使えばだれでも22GB空きディスクさえあれば、だれでも使えるとのこと.
 
 メタがLlamaベースのLLMコンパイラ
 
 Florence-2,
+Microsoftが提案しているGraphRAG
+
+
+「NVIDIA最新GPUの20倍速い」史上最速を謳うAIチップ「Sohu」
 
 - 小町先生の、「言語系AIプロジェクトの進め方」がよいらしい
 	- https://x.com/mr_bay_area/status/1804689914291957983
@@ -3567,9 +3571,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Qwen1.5 速いし日本語完璧だしすごい by shi3z
 	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
 - ku-nlp/gpt2-large-japanese-char
-	- 弊研のhuggingfaceリポジトリで charcter vocabulary の日本語 gpt2-large（A100 1枚で訓練8か月!）が公開されているので、何かの興味で
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzMTUzMjM3LDcyNjYzODg5MCwxNDY1OD
+eyJoaXN0b3J5IjpbNTA4MDIzNjU5LDcyNjYzODg5MCwxNDY1OD
 M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEs
 LTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOT
 AzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQz
