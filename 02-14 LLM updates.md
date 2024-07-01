@@ -191,7 +191,8 @@
 	- langchainのembeddingsって「gpt4all」と「ollama」に対応してた。。。
 - ollamaのGemma2を使って「呪術廻戦」のwikipedia情報をNeo4Jに入れてみた！結構いい感じに入ってると思う！！
 	- https://x.com/hAru_mAki_ch/status/1807318938675814506
-- 
+- Googleさんのgemma-2-27b-itの日本語imatrix量子化ggufが完成しました！
+	- 
 
 ## 24/6/24
 
@@ -3565,14 +3566,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Qwen1.5-72B-Chatをお試し中。
 	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
 	- もう全部Qwen-72Bでいいんじゃないかな
-	- https://x.com/alfredplpl/status/1762277261435347424?s=20
-- Same Task, More Tokens: the 
+	- https://x.com/alfredplpl/status/176
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4NTAyMTY1LDcyNjYzODg5MCwxNDY1OD
-M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEs
-LTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOT
-AzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQz
-LDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4OD
-gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
-NzIzXX0=
+eyJoaXN0b3J5IjpbMTQxMjU0NjQwOCw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyM119
 -->
