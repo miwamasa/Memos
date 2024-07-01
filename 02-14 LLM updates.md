@@ -60,6 +60,10 @@
 	- https://arxiv.org/abs/2405.09818
 - GPT-4oボイスモードのアルファ版ローンチ、延期が確定
 	- https://x.com/ctgptlb/status/1805734395833467342
+-  KARAKURI-LMモデル（karakuri-lm-8x7b-instruct-v0.1-Q4_K_M.gguf）のELYZA-tasks-100パフォーマンス分析
+	- https://hamaruki.com/llama-cpp-wandb-karakuri-lm-elyza-tasks-performance/
+- シーズンが数ヶ月ごとにリセットされ、前例が全部なくなる環境大好き　 by 深津さん
+	- https://x.com/fladdict/status/1805421726001774745
 	- 
 
 ## 24/6/24
@@ -3557,17 +3561,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Groqとか言う会社のLPU（Language Processing Unit）って新しいチップはLLM推論速度が爆速なんだと。NVidiaとかのGPUと違って高品質なVRAMが要らんから低コストらしい。70BのLLMを動かす時に300tpsという超爆速で推論できる。
 	- M3Maxだと6tps、RTX4090+PowerInferだと4tpsしか出ないから50～100倍の速度差。GPUがオワコンの時代来たか？
 - The Shift from Models to Compound AI Systems
-	- https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/
-	- Berkeleyの人々による、「コンパウンドAI」のレビュー記事。
-	- LLM単体で勝負するよりも、LLMを含む各種AI／非AIモジュールを組み合わせて作る「コンパウンドAI」の方がより良いシステムを作りやすい、
-- Introducing LlamaCloud  and　LlamaParse
-	- https://blog.llamaindex.ai/introducing-llamacloud-and-llamapar
+	- https://bair.berkel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExMTQzNjM3LC0xMTM4NTA3NjY3LDU0OT
-k0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYy
-MiwtMTczODI4ODU5NSwxOTAzNjEyODEzLDI4MzYyMzkxLDE0OD
-A0MjM1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3
-OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMT
-Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
-NzU0MDBdfQ==
+eyJoaXN0b3J5IjpbMTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1ND
+k5NDQzODQsOTM5Nzk3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2
+MjIsLTE3MzgyODg1OTUsMTkwMzYxMjgxMywyODM2MjM5MSwxND
+gwNDIzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1
+NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLT
+E2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2
+Njc1NDAwXX0=
 -->
