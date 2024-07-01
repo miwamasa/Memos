@@ -151,6 +151,12 @@
 	- https://x.com/umiyuki_ai/status/1806380265041973349
 - Gemma 2 is officially here!
 	- https://blog.google/technology/developers/google-gemma-2/
+- gemman2 demo on HF
+	- https://huggingface.co/spaces/huggingface-projects/gemma-2-9b-it
+	- Community is most welcome to do the vibe evals themselves at:
+- Google's Gemma 2 models are here! Available in 2 sizes: by ollama
+	- https://x.com/ollama/status/1806342805905616983
+- ollama で Gemma-7B を試す。
 	- 
 
 ## 24/6/24
@@ -3562,19 +3568,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits
 	- https://huggingface.co/papers/2402.17764
 	- Microsoft presents The Era of 1-bit LLMs 
-	- All Large Language Models are in 1.58 Bits
-	- これ本当ならタイトル通り生成AIの新時代かもしれない
--  1ビットLLMの衝撃! 70Bで8.9倍高速　全ての推論を加算のみで!GPU不要になる可能性も by shi3zさｎ
-	- https://wirelesswire.jp/2024/02/86094/
-	- いずれにせよ、　この論文が本当だとしたら、とんでもないことが起きることになる。
-- Microsoftが「1ビットLLM時代の到来」という衝撃的なタイトルで論文を公開し、GPUが不要になるかもしれないとの話も出てきているので従来の手法との違いをまとめました
-	- https://x.com/web
+	- All Large Language Models are i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjI5OTI3MzksNzI2NjM4ODkwLDE0Nj
-U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
-MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
-E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
-NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsOD
-g4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcw
-MzQ3MjNdfQ==
+eyJoaXN0b3J5IjpbMjA5NjM3Mjk1OSw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyM119
 -->
