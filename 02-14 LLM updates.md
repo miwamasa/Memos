@@ -164,6 +164,10 @@
 	- LLMでデータからナレッジグラフ作成 
 	- 複雑な質問にも対応可能 
 	- ベースラインより一貫して良い性能を発揮
+- Buried in 10 years of Jensen Huang's Stanford talks are the secrets to building the most valuable tech company in the world.
+	- https://x.com/JasonShen/status/1806357605343691053
+- Colab Pro and Pro+ now support Workspace organizations!
+	- https://x.com/GoogleColab/status/1806099465604046928
 - 
 
 ## 24/6/24
@@ -3565,14 +3569,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - PDFがスルスル読める！話題のLlamaParseとは
 	- https://zenn.dev/yokina_kaoto/articles/563f7d75673c2e
 	- LlamaParseはLlamaIndexの新しい製品で、再帰検索を実行することで複雑なPDFのテーブルをきれいに抽出することができ、しばしば悩まされる複雑なドキュメントのより正確な解析を約束します
-	- LlamaParseでPDFをパースし、AstraDBで**非構造化データ**を検索することで精度が向上するとのこと。
-- 新Kaggleコンペ： LLMで生成された文章からプロンプトを復元するタスク
-	- https://www.kaggle.com/competitions/llm-prompt-recovery
-	- LLMで生成された文章からプロンプトを復元するタスク。
-	- データはGoogle Gemmaで作成。評価がsentence-t5-baseの埋め込みベクタとのコサイン類似度なのが時代を感じる。もうJaccardスコアとかの時代じゃないらしい
-- iOS17.4のソースコードにOpenAIの何かを含む部分
+	- LlamaParseでPDFをパースし、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODc2ODE4Miw3MjY2Mzg4OTAsMTQ2NT
+eyJoaXN0b3J5IjpbMTY1MDM3MDIyNSw3MjY2Mzg4OTAsMTQ2NT
 gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
 LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
 kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
