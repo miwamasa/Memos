@@ -44,6 +44,9 @@
 	- 8台のSohuサーバー１台で160台のH100をリプレイスできるんだって！！Sohux8サーバーはLlama-70Bを50万tpsで超爆速処理！B200x8の10倍の速度！しかもB200より安い
 -  自民党AIの進化と実装に関するプロジェクトチームに anthoropicのプレゼン
 	- https://x.com/sirap_kuro/status/1805646378187866377
+	- 私たちは、6～18 ヶ月 以内に最先端のモデルが 新しい能力で産業を 急速に変革すると 予想しています
+	- 私たちのお客様は、 将来の画期的な進歩に 備えて最大限の準備を するため、ユースケース を急速に構築しています
+	- 新しい画期的な進歩を待ち 立ち止まっている企業は、 すでに 4～8 ヶ月遅れて いる可能性があります
 	- 
 
 ## 24/6/24
@@ -3557,17 +3560,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Google presents Learning to Learn Faster from Human Feedback with Language Model Predictive Control
 - SLANG: New Concept Comprehension of Large Language Models
 	- https://arxiv.org/abs/2401.12585
-	- GPT-4などに対してプロンプトのみから「新しい言葉の概念」を学習させるためのフレームワーク『FOCUS』をカリフォルニア大学などの研究者らが考案
-	- ■メソッド 
-		- 1. 使用例（コンテキスト）とフレーズを直接入力する 
-		- 2. フレーズをコンテキスト内で隠して、意味を評価させる 
-		- 3. コンテキスト内のエンティティ（固有名詞や出来事など）を変更し、異なるエンティティ
+	- GPT-4などに対してプロンプトのみから「新しい言葉の概念
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxNTA3NjcxLDU0OTk0NDM4NCw5Mzk3OT
-cyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5
-NSwxOTAzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1ND
-c5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIw
-LDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMT
-A3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2
-ODg0NDVdfQ==
+eyJoaXN0b3J5IjpbLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOT
+c5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4
+NTk1LDE5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2OD
+U0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5
+MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LD
+ExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1
+MzY4ODQ0NV19
 -->
