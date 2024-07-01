@@ -22,7 +22,7 @@
 	- https://x.com/mortenjust/status/1805190952358650251
 -  Claude’s Constitution
 	- https://www.anthropic.com/news/claudes-constitution
-	- Anthropic Constitutional AI （憲法的AI）を導入　by AIXさとしさん
+	- Anthropic Constitutional AI （憲法的AI）を導入　by   AI𝕏サトシさん
 		- https://x.com/AiXsatoshi/status/1804999143586402460
 		- 「Constitutional AI」は、AIモデルが自己評価と調整を行う新しいトレーニング手法
 		- 国連の世界人権宣言などに基づく原則を参照、人間の介入を減らすことで有害な出力を避けるAIを構築。これにより、トレーニング効率とモデルの信頼性が向上する
@@ -3558,15 +3558,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Gemini AdvancedでAIによって提案されたpythonコードを直接実行して動作確認できるインタフェースが追加された
 	- https://x.com/webbigdata/status/1760129585994432916?s=20
 	- Gemini 1.5 proで「githubから直接全コードと全issuesを取得させる事」と「最も緊急度の高いissuesを特定し、修正を実装させる事」が出来た
-- Kotomamba: mamba-2.8B 学習知見
-	- https://zenn.dev/kotoba_tech/articles/f15b2495d44c4f
-	- Kotoba TechnologiesはNLPと分散並列学習に関する技術を用いて、日本及び非英語圏におけるLLMやマルチモ
+- K
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTIwNTg5MCw5Mzk3OTcyMTEsLTkxNT
-A5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEy
-ODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQzLDE4MT
-gwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAy
-NywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC
-0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2ODg0NDUsNjc5
-MjI4Mjg2XX0=
+eyJoaXN0b3J5IjpbNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MD
+k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
+MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2NDMsMTgxOD
+A1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3
+LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLT
+EyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4ODQ0NSw2Nzky
+MjgyODZdfQ==
 -->
