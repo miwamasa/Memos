@@ -12,7 +12,14 @@
 	- https://arxiv.org/abs/2406.13163
 	- LLMによるAIエージェントの論文
 	- バンドギャップの計算データを学習したモデルとLLMからAIエージェントを構築。「バンドギャップ1.4eVの材料は？」だけでなく「Baを使用しないで指定の材料を1.4eVになるよう改良して」などの指示もうまくいくようです。
-- 
+- Can Long-Context Language Models Subsume Retrieval, RAG, SQL, and More?
+	- https://arxiv.org/abs/2406.13121
+	- Google DeepMindによる報告。
+	- 「巨大なコンテキストウィンドウのLLMはRAGを不要にするのか？」といった議論が活発化する中、Geminiに長いコンテキストを挿入してRAGと性能を比較する実験が行われました。
+	- その結果、やはりロングコンテキストLLMは一定のパラダイムシフトをもたらす可能性を示唆しています。 
+	- さらにRAGだけでなくText to SQLタスクのパフォーマンスも調査されています。
+- This is fast. Chrome running Gemini locally on my laptop. 2 lines of code.
+	- 
 
 ## 24/6/24
 
@@ -3554,20 +3561,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Gemini 1.5 ProのYoutube３本セット
 	- Reasoning across a 402-page transcript
 	- https://www.youtube.com/watch?v=LHKL_210CcU
-	- Multimodal prompting with a 44-minute movie
-	- https://www.youtube.com/watch?v=wa0MT8OwHuk
-	- Problem solving across 100,633 lines of code
-	- https://www.youtube.com/watch?v=SSnsmqIj1MI
-- KARAKURI LM を ELYZA-tasks-100 で評価してみた
-	- https://qiita.com/wayama_ryousuke/items/f4f384b89e9b40a2d794
-	- 実際にどの程度の性能があるのか、[ELYZA](https://elyza.ai/) が公開しているベンチマーク用データセット **ELYZA-tasks-100** で評価してみました。
-	- 前回記事で最高スコアをマークした X
+	- Mult
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzAxMzg2NCw5Mzk3OTcyMTEsLTkxNT
-A5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEy
-ODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQzLDE4MT
-gwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAy
-NywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC
-0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2ODg0NDUsNjc5
-MjI4Mjg2XX0=
+eyJoaXN0b3J5IjpbNjIzMTc0NTcwLDkzOTc5NzIxMSwtOTE1MD
+k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
+MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2NDMsMTgxOD
+A1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3
+LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLT
+EyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1MzY4ODQ0NSw2Nzky
+MjgyODZdfQ==
 -->
