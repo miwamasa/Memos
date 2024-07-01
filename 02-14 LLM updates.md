@@ -94,7 +94,11 @@
 	- Once loaded, the model (340 MB) will be cached and reused when you revisit the page.
 - NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF
 	- https://x.com/laniusdev/status/1805658195450380557
-	- 
+	- Boys, I think I've found a locally run model that can replace ChatGPT for me. It's sooo fast and passed my esoteric coding suggestion capability test.
+- How LLMs work, explained with visuals:
+	- https://x.com/akshay_pachaar/status/1805586547527631181
+- # Self-Play models finally got released! | SPPO Llama-3-8B finetune performs extremely strong strong on AlpacaEval 2.0
+- 
 
 ## 24/6/24
 
@@ -3559,18 +3563,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- We did a deep dive into Gemini, and consolidated our thinking about long-context LLM benefits, challenges, and new architectures
 	- Long-context LLMs will help alleviate the need to do precise chunking and retrieval, and RAG over small sets of documents
 	- Long-context LLMs still don’t resolve the issue of RAG over big knowledge bases (present in most organizations/enterprises)
-- Gemini 1.5 Proが遂にきました！！！！
-	- https://x.com/masahirochaen/status/1763639557457899963?s=20
-- GoogleのGemma、2Bの方が7Bより性能が良いとかおかしな事が報告されている
-	- https://x.com/webbigdata/status/1763730996455973098?s=20
-	- Jeremyさんの言っている通り、fine tuningはHugging Faceに掲載されているTransformers実装ではなくて、githubのgoogle-deepmind/gemmaを参考にした方が良いのかもしれません
-	- https://x.com/jeremyphoward/status/1763679390968455185?s=20
+- G
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjAxOTAxNiw3MjY2Mzg4OTAsMTQ2NT
-gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
-LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
-kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
-MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
-g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
-NDcyM119
+eyJoaXN0b3J5IjpbMjI3NjcxOTIyLDcyNjYzODg5MCwxNDY1OD
+M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEs
+LTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOT
+AzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQz
+LDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4OD
+gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
+NzIzXX0=
 -->
