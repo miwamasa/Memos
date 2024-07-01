@@ -10,7 +10,7 @@ Anthropic、Artifactを作ったのはインスタグラム共同創業者がjoi
 
 KARAKURI-LMモデルの評価などもありましたが、Llama-3-ELYZA-JPがリリース、70Bモデルは日本語の生成能力において「GPT-4」超え、8BはGPT-3.5 turboを上回る性能とのこと。
 
-GoogleからはGemma2、
+GoogleからはGemma-2の27B & 9Bがリリース、27BってLlama-3-70B越えとか、9BはW
 Gemini NanoのChrome搭載はCanary版を使えばだれでも22GB空きディスクさえあれば、だれでも使えるとのこと.
 
 
@@ -3566,10 +3566,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 弊研のhuggingfaceリポジトリで charcter vocabulary の日本語 gpt2-large（A100 1枚で訓練8か月!）が公開されているので、何かの興味で日本語の文字レベルの言語モデルが欲しい方は是非使ってみてください
 - ローカルで気軽にRAGを使って会話することが簡単すぎてビビった。
 	- https://qiita.com/mitsumizo/items/469d79c5e81d9189a9e4
-- 日本のオープンデータ情報一覧・まとめ
-	- https://github.com/japan-openda
+- 日本のオープンデータ情報一
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDI4NTg4OCw3MjY2Mzg4OTAsMTQ2NT
+eyJoaXN0b3J5IjpbMTk3NDkyNjY1Miw3MjY2Mzg4OTAsMTQ2NT
 gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
 LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
 kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
