@@ -74,6 +74,12 @@
 	- https://www.watch.impress.co.jp/docs/news/1603370.html
 	- 「Llama 3」をベースとした700億パラメータの「Llama-3-ELYZA-JP-70B」と80億パラメータの「Llama-3-ELYZA-JP-8B」を開発し、性能を公開した。70Bモデルは、日本語の生成能力において「GPT-4」超えを達成したという。
 	- 8Bモデルは、MetaのLlama-3-8Bをベースに事後学習(日本語追加事前学習・指示学習)を実施。「GPT-3.5 turboを上回る性能
+- 「GPT-4」を上回る日本語性能のLLM「Llama-3-ELYZA-JP」を開発しました
+	- https://note.com/elyza/n/n360b6084fdbd
+	- 70Bデモ
+		- https://elyza.ai/lp/elyza-llm-for-jp
+	- 8Bモデル
+		- https://huggingface.co/collections/elyza/llama-3-elyza-jp-667a311d51c8952e07778ecc
 - 
 
 ## 24/6/24
@@ -3558,13 +3564,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 2/26
 
-先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が垣間見れてきた。Googleは引き続きGemini 1.5 proベースのOSSであるGemma(“貴重な石”、ラテン語)をリリース、同パラメーターサイズであればLlama2やMistralより優れているとの事。Gemmaは軽量であるとともに、embeddingの工夫、安全なAIアプリケーションを作成するためのガイダンスと必須ツールの提供、Kera3.0サポートなど、かなりの量と質のソフトウエアスタックが一気に公開されたことになる。OSS戦略として、安全性に関するコミュニティとの共創という意味でも、MetaのOSS戦略と丸被り。早速、量子化gguf版や、KaggleでGemmaをつかったコンペの開催、embeddingの解析（日本語語彙は貧弱？）、npakaさんによるファインチューニング試行、MLXを使ったファインチューニングなど、コミュニティの活動が盛んに。LPU（Language Processing Unit）を引っ提げるGroq、推論時の高速さが半端ない、専用チップ開発でも戦いは続く、日本のMN-core早く！llamaindexもLlamaCloudとLlamaParseをリリース、テーブルや図表などの埋め込まれたオブジェクトを含む複雑な文書のための独自のパーシングや、RAGの構築がより高性能に、かつ容易になった。日本語LLMでは、 KARAKURI LM (70B)のELYZA-tasks-100による性能評価や、東工大と東北大によるKotomambaの構築等。フレームワークでは、BCGXからagentkitのOSSリリース、DXの手段としてのAIというシナリオでのコンサル系の新たなビジネスモデル。基礎研究では、プロンプトのみから「新しい言葉の概念」を学習させるためのフレームワーク『FOCUS』や、Mambaとtransformerとのcolabを使った速度比較とか、そもそも状態空間モデルの解説とか。DeepMindとCMUによる、LLMをつかった数値回
+先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が垣間見れてきた。Googleは引き続きGemini 1.5 proベースのOSSであるGemma(“貴重な石”、ラテン語)をリリース、同パラメーターサイズであればLlama2やMistralより優れているとの事。Gemmaは軽量であるとともに、embeddingの工夫、安全なAIアプリケーションを作成するためのガイダンスと必須ツールの提供、Kera3.0サポートなど、かなりの量と質のソフトウエアスタックが一気に公開されたことになる。OSS戦略として、安全性に関するコミュニティとの共創という意味でも、MetaのOSS戦略と丸被り。早速、量子化gguf版や、KaggleでGemmaをつかったコンペの開催、embeddingの解析（日本語語彙は貧弱？）、npakaさんによるファインチューニング試行、MLXを使ったファインチューニングなど、コミュニティの活動が盛んに。LPU（Language Processing Unit）を引っ提げるGroq、推論時の高速さが半端ない、専用チップ開発でも戦いは続く、日本のMN-core早く！llamaindexもLlamaCloudとLlamaParseをリリース、テーブルや図表などの埋め込まれたオブジェクトを含む複雑な文書のための独自のパーシングや、RAGの構築がより高性能に、かつ容易になった。日本語LLMでは、 KARAKURI LM (70B)のELYZA-tasks
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDEzNTMzNiwxNDY1ODM5Nzg5LC0xMT
-M4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4
-MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEyODEzLD
-I4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQzLDE4MTgwNTgz
-MTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMT
-I3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgz
-ODk3NDQ3XX0=
+eyJoaXN0b3J5IjpbLTEzMDM0MzM5MjIsMTQ2NTgzOTc4OSwtMT
+EzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MTUwOTc2
+ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYxMjgxMy
+wyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0MywxODE4MDU4
+MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLT
+EyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4
+Mzg5NzQ0N119
 -->
