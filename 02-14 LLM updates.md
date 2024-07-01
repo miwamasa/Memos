@@ -4,7 +4,9 @@
 
 ## 24/7/1
 
-今週もいろいろありました。「巨大なコンテキストウィンドウのLLMはRAGを不要にするのか？」というdeepmindの論文
+今週もいろいろありました。「巨大なコンテキストウィンドウのLLMはRAGを不要にするのか？」というdeepmindの論文、RAG不要論争にとどめか。材料系でのエージェント活用やLLMの活用で見るべきものがあった。
+
+Anthropic
 
 - 小町先生の、「言語系AIプロジェクトの進め方」がよいらしい
 	- https://x.com/mr_bay_area/status/1804689914291957983
@@ -3563,14 +3565,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://note.com/o_ob/n/n27edbebf17af?sub_rt=share_h
 	- ・敬意を持って接する  、「話すの楽しい」設定 、過去の会話をキャッシュする  、相手の速度に合わせて早口になる  、一度言った話は2回目は早口  、お別れを名残惜しむ
 - Mistral announces Mistral Large, a new flagship model.
-	- https://x.com/omarsar0/status/1762140818654064721?s=20
-		- 32K tokens context w
+	- https://x.com/omarsar0/s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU4OTI2OTIsNzI2NjM4ODkwLDE0Nj
-U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
-MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
-E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
-NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsOD
-g4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcw
-MzQ3MjNdfQ==
+eyJoaXN0b3J5IjpbOTgxNDQ4OTM4LDcyNjYzODg5MCwxNDY1OD
+M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEs
+LTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOT
+AzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQz
+LDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4OD
+gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
+NzIzXX0=
 -->
