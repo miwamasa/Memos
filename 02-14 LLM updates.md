@@ -175,7 +175,15 @@
 	- LangChainと決別し独自の道を選んだDifyの判断は正しかったと思う。Difyが目指してる世界は表に出てることよりずーっと大きい。
 - カカクコムが公開している「Difyの導入事例紹介」資料が有益
 	- https://speakerdeck.com/tokita_kakaku/quan-she-de-nasheng-cheng-aihuo-yong-puratutohuomutositeno-difynodao-ru-shi-li-shao-jie
-	- 全社導入に至るまでの活用フェイズごとのユースケースや企業目線の課題、実際に作成したアプリのワークフローまで掲載しており少しでも活用に興味がある人は非常に勉強になる。
+	- 全社導入に至るまでの活用フェイズごとのユースケースや企業目線の課題、実際に作成したアプリのワークフローまで掲載しており少しでも活用に興味がある人は非常に勉強になる
+- みんな地獄で日本は意外にましな地獄
+	- https://x.com/narita_yusuke/status/1803050919304781958
+	- ここ5年弱のG7諸国を比べてみる 
+	- 1) 日本はインフレ率が圧倒的に低い 
+	- 2) 実質GDP成長率は真ん中くらい。ドイツ・イギリス・フランスより上
+- ソフト開発者の求人がアメリカで激減。
+	- https://x.com/hiyori13/status/1806698946531872982
+- 
 
 ## 24/6/24
 
@@ -3564,18 +3572,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://zenn.dev/knowledgesense/articles/47de9ead8029ba
 - NVIDIAがノートパソコン用のGPUを新たに発表
 	- https://x.com/webbigdata/status/1762645658266468393?s=20
-	- RTX 500 GPUは4GBのGPUメモリ 
-	- RTX 1000 GPUは6GBのGPUメモ
-- LangChainに便利な機能が誕生してまし
-	- https://x.com/MLBear2/status/1762623474034790886?s=20
-	- Pydanticで構造体を定義した上で `with_structrured_output` を図のように使えば、Function Callingを簡単に呼べるようになりました。 
-	- ChatGPTだけではなく、G
+	- RTX 5
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjMxMDE0Niw3MjY2Mzg4OTAsMTQ2NT
-gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
-LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
-kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
-MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
-g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
-NDcyM119
+eyJoaXN0b3J5IjpbLTE1NzY2MjA4MTAsNzI2NjM4ODkwLDE0Nj
+U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
+MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
+E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
+NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsOD
+g4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcw
+MzQ3MjNdfQ==
 -->
