@@ -89,7 +89,8 @@
 - claude 3.5 makes my graphs from excel screenshots.
 	- https://x.com/RubenHssd/status/1805609472582144201
 	- You just turn on "Artifacts", and prompt it to stick to your brand color. Here's how:
-- 
+- Florence-2, the new vision foundation model by Microsoft, can now run 100% locally in your browser on WebGPU, thanks to Transformers.js!
+	- 
 
 ## 24/6/24
 
@@ -3564,18 +3565,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://note.com/npaka/n/n0b17244bae47?sub_rt=share_h
 	- 「Gemini 1.5 Pro」の機能をプレビューすることができ、それを試してみることで、ロングコンテキストLLMを適切に使用するには、RAGがどのように進化するのかについてのまとめました。
 	- **Gemini は特定の詳細を見事に思い出すことができる**
-	- **Gemini は素晴らしい要約能力を持つ**
-	- **10Mトークンは大規模な文書コーパスには十分ではない**
-	- **埋め込みモデルはコンテキスト長の点で遅れている**
-	- RAGの新アーキテクチャ
-		- 「**Small-to-Big Retrieval**」
-		-  レイテン
+	- **Gemini 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODU0NTg4NiwxNDY1ODM5Nzg5LC0xMT
-M4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4
-MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEyODEzLD
-I4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQzLDE4MTgwNTgz
-MTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMT
-I3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgz
-ODk3NDQ3XX0=
+eyJoaXN0b3J5IjpbNzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMz
+g1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3Njgw
+LC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4MTMsMj
+gzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMx
+MSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMj
+cxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4
+OTc0NDddfQ==
 -->
