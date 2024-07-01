@@ -134,9 +134,13 @@
 - Google AI Studioでコードが実行できるようになっている
 	- https://x.com/YoheiN2023/status/1806238104979644481
 	- 右下のCode executionのチェックを入れると試せます。全然気づかなかった…
-- Gemma-2 27B & 9B release! by [](https://x.com/lmsysorg)
-
-lmsys.org
+- Gemma-2 27B & 9B release! by lmsys.org
+	- https://x.com/lmsysorg/status/1806369224895647757
+	- Gemma-2 was tested in the Arena under the codename "*late-june-chatbots" and now out of stealth. Its early result matches the best open models (Llama-3-70B, Nemotron-340B) with only 27B parameters!
+	- Impressively, Gemma-2-9B is ranked as high as Qwen-2-72B. The rate of improvement is fast.
+- Google AI Studio で Gemma 2 をお試し中。
+	- https://aistudio.google.com/app/prompts/new_chat
+- 
 
 ## 24/6/24
 
@@ -3563,21 +3567,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Mixtral 250MのpretrainingからInstruction Tuningまで
 	- https://zenn.dev/if001/articles/9bb90e0d8c201f
 	- MoEを持つMixtralがhuggingface/transformersで公開されているので、これを利用しつつ、250Mの小さいサイズとして日本語と英語でpretraining、finetuningを行います。
-	- 250MのMixtralをpretrainingからfinetuningまでを行いました。小さいサイズなりにうっすら日本語を理解してそう。入力から正確に情報を抽出とそれらを使った出力はさすがに難しそう。あとは、推論時のexpertの選択のされかたや同サイズのモデルとの比較をしてみたいところ
-- プログラマーなら全員BitNet試してみるべき by shi3zさん、
-	- https://github.com/kyegomez/BitNet
-- gemma-7b、英日翻訳タスクに関しては微調整に成功すると私の翻訳モデルALMA-7B-Ja-V2より一段階レベルが上の性能でした
-	- https://x.com/webbigdata/status/1762791697212375111?s=20
-	- 周辺モジュールにバグが残っていて、英語圏ではあきらめる勢が多いみたい。
-- LlamaIndexとGroqの統合
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/groq.ipynb
-- Beyond Natural Language: 
+	- 250MのMixtralをpretrainingからfinetuningまでを行いました。小さいサイズなりにうっすら日本語を理解してそう。入力から正確に情報を抽出とそれらを使った出力はさすがに難しそう。あとは、推論時の
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDU1ODQ4Nyw3MjY2Mzg4OTAsMTQ2NT
-gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
-LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
-kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
-MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
-g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
-NDcyM119
+eyJoaXN0b3J5IjpbLTE1MTIxODY2MzksNzI2NjM4ODkwLDE0Nj
+U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
+MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
+E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
+NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsOD
+g4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcw
+MzQ3MjNdfQ==
 -->
