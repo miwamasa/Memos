@@ -10,7 +10,7 @@ Anthropic、Artifactを作ったのはインスタグラム共同創業者がjoi
 
 KARAKURI-LMモデルの評価などもありましたが、Llama-3-ELYZA-JPがリリース、70Bモデルは日本語の生成能力において「GPT-4」超え、8BはGPT-3.5 turboを上回る性能とのこと。
 
-GoogleからはGemma-2の27B & 9Bがリリース、27BってLlama-3-70B越えとか、9Bは Qwen-2-72B並みの性能とか、性能爆上がりに何かがある。
+GoogleからはGemma-2の27B & 9Bがリリース、27BってLlama-3-70B越えとか、9Bは Qwen-2-72B並みの性能とか、性能爆上がりの背後に何らかのブレークスルーがある、 しっかり情報追った方が良さそう。
 
 Gemini 1.5 で、出力を JSON に固定することができるようになったとか、Google AI StudioやGemini APIでコードが実行できるようになったとか、Artifactをだいぶ意識してきたようだ。
 
@@ -24,7 +24,7 @@ Microsoftが提案しているGraphRAG
 
 「NVIDIA最新GPUの20倍速い」史上最速を謳うAIチップ「Sohu」
 
- IB製造現場で継続的なデータ活用を推進
+ IBMによる、製造現場で継続的なデータ活用を推進するには、業務知識のある人の協力が必要とか、価格コムでDifyを現場に
 
 岡野原さんが紹介した、言語は思考よりもコミュニケーションの道具であるという主張の論文、言語が思考を形作るという考え方と真逆なんだけど、LLMってどう頑張っても機械人形(Anthropic)ということなのか。
 
@@ -3571,7 +3571,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 【最強になった】Googleの最大1000万トークン入力可能なGemini 1.5 Proがヤバすぎる。《概要、他LLMとの比較、ビジネスシーンでの活用方法5選を徹底解説》
 	- https://note.com/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDA5Mjg5MSw3MjY2Mzg4OTAsMTQ2NT
+eyJoaXN0b3J5IjpbMTY0NDA3MTYwNCw3MjY2Mzg4OTAsMTQ2NT
 gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
 LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
 kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
