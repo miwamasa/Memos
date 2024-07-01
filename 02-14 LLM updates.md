@@ -107,6 +107,12 @@
 	- 様々な言語処理、思考処理の脳内活動をみても言語と思考は脳内で別々のネットワークで処理されている。LLMからも言語能力をたとえ獲得できたとしても思考能力の改善には必ずしも繋がらないという示唆が得られている。
 	- 人で特に発達した連合皮質は言語領域も含むがそれ以外の思考能力（例えばmultiple demand network）も同時に発達しており、言語か何か由来でというより、これらが同時並列で発達したと考えられる
 -  Efficient Evolutionary Search Over Chemical Space with Large Language Models
+	- https://arxiv.org/abs/2406.16976
+	- LLMによる最適化の論文。　by 横山さん
+	- 遺伝的アルゴリズムにおける交差と突然変異を化学知識で微調整したLLMで分子設計を行うと、従来より早く最適解にたどり着くことが分かったそうです。ランダムでなく化学を考慮し最適化操作ができる点がポイント。
+	- LLMの使い方がうまい。
+- Gemini Nano、及びWebGUI、過小評価してました
+	- https://x.com/webbigdata/status/1806222156852052478
 	- 
 
 ## 24/6/24
@@ -3561,15 +3567,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://newswitch.jp/p/40657
 	- ６万５０００報の論文データセットを構築した。学習データでは、論文の要約よりもイントロダクションが性能向上に役立った。論文の結論の学習は、性能面でネガティブに働いた。小さなＬＬＭにとっては結論の内容が専門的過ぎた可能性がある。専門知識を備えたＬＬＭを構築するための知見になる。
 - 【論文丁寧解説】BitNet b1.58とは一体何者なのか
-	- https://qiita.com/tech-Mira/items/67dec9c5a5f025d2727a?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share
-	- BitNet b1.58は、その名の通り、各パラメータが、、[−1、0、1]という3つの値での動作を実現した1bitのLLMです。つまり、膨大な計算リソースを必要とする従来のモデルとは異なり、非常に効率的に動作します。加えて、この記事で示されている結果では驚くべきことに、性能は従来の高精度モデルを上回ります。
-	- BitNet b1
+	- https://qiita.com/tech-Mira
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjgzMzE1OSw3MjY2Mzg4OTAsMTQ2NT
-gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
-LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
-kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
-MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
-g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
-NDcyM119
+eyJoaXN0b3J5IjpbLTExMzEyODI3MjUsNzI2NjM4ODkwLDE0Nj
+U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
+MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
+E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
+NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsOD
+g4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcw
+MzQ3MjNdfQ==
 -->
