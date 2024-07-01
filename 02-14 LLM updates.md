@@ -128,7 +128,15 @@
 	- OpenAIは今回その一歩となるGPT-4ベースのCriticGPTを開発。 ChatGPTのコード出力のエラーを検出できるように訓練されている。
 - 製造現場で継続的なデータ活用を推進するために必要なこと
 	- https://x.com/Nurruttan/status/1806098781542437239
-	- 業務プロセスを変えるためにデータサイエンスを活用しようとする取り組みは多々あるよ。 そのために必要なのは「データサイエンス力」だけでなくて、「業務知見に詳しい人」も必ず必要になるよ。 実際にどのように業務を変えるか？そこにデータサイエンスをどう使うか？をセットで考えることが必要だからね。
+	- 業務プロセスを変えるためにデータサイエンスを活用しようとする取り組みは多々あるよ。 
+	- そのために必要なのは「データサイエンス力」だけでなくて、「業務知見に詳しい人」も必ず必要になるよ。 
+	- 実際にどのように業務を変えるか？そこにデータサイエンスをどう使うか？をセットで考えることが必要だからね。
+- Google AI Studioでコードが実行できるようになっている
+	- https://x.com/YoheiN2023/status/1806238104979644481
+	- 右下のCode executionのチェックを入れると試せます。全然気づかなかった…
+- Gemma-2 27B & 9B release! by [](https://x.com/lmsysorg)
+
+lmsys.org
 
 ## 24/6/24
 
@@ -3563,12 +3571,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 周辺モジュールにバグが残っていて、英語圏ではあきらめる勢が多いみたい。
 - LlamaIndexとGroqの統合
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/groq.ipynb
-- Beyond Natural Language: LLMs Leveraging Alternative Formats for Enhanced Reasoning and Communication
-	- https://arxiv.org/abs/2402.18439
-	- 「自然言語を超えて」と題して、LLMにタスク実行時の思考を人間の自然言語とは異なるフォーマットで行わせるプロンプト手法『AutoForm（オートフォーム）』が考案されました。
-	- LLMの思考は必
+- Beyond Natural Language: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTU0ODY1Nyw3MjY2Mzg4OTAsMTQ2NT
+eyJoaXN0b3J5IjpbMTM4NDU1ODQ4Nyw3MjY2Mzg4OTAsMTQ2NT
 gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
 LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
 kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
