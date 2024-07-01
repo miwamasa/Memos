@@ -64,7 +64,10 @@
 	- https://hamaruki.com/llama-cpp-wandb-karakuri-lm-elyza-tasks-performance/
 - シーズンが数ヶ月ごとにリセットされ、前例が全部なくなる環境大好き　 by 深津さん
 	- https://x.com/fladdict/status/1805421726001774745
-	- 
+-  PATIENT-Ψ: Using Large Language Models to Simulate Patients for Training Mental Health Professionals
+	- https://arxiv.org/abs/2405.19660
+	- We introduce Patient-Ψ🤖, where we integrate cognitive modeling with LLMs to simulate patients for training mental health professionals.
+- 
 
 ## 24/6/24
 
@@ -3558,16 +3561,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Hyena Hierarchyについて、状態空間モデル（SSM）の基礎から解説したスライド
 - GroqのLPUについて
 	- https://x.com/umiyuki_ai/status/1759740311335739784?s=20
-	- Groqとか言う会社のLPU（Language Processing Unit）って新しいチップはLLM推論速度が爆速なんだと。NVidiaとかのGPUと違って高品質なVRAMが要らんから低コストらしい。70BのLLMを動かす時に300tpsという超爆速で推論できる。
-	- M3Maxだと6tps、RTX4090+PowerInferだと4tpsしか出ないから50～100倍の速度差。GPUがオワコンの時代来たか？
-- The Shift from Models to Compound AI Systems
-	- https://bair.berkel
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1ND
-k5NDQzODQsOTM5Nzk3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2
-MjIsLTE3MzgyODg1OTUsMTkwMzYxMjgxMywyODM2MjM5MSwxND
-gwNDIzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1
-NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLT
-E2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2
-Njc1NDAwXX0=
+eyJoaXN0b3J5IjpbLTU0MDQyNzU3NywxNDY1ODM5Nzg5LC0xMT
+M4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4
+MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEyODEzLD
+I4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQzLDE4MTgwNTgz
+MTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMT
+I3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgz
+ODk3NDQ3XX0=
 -->
