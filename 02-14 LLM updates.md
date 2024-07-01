@@ -8,7 +8,9 @@
 
 Anthropic、Artifactを作ったのはインスタグラム共同創業者がjoinして２か月で作成とのこと、日本への進出も、AWS展示会でアピールしてたり、自民党AI戦略会議でも、いま準備しないと死にまっせと脅したりと大忙し。 Claudeのproject機能も相当やばいらしい。
 
-KARAKURI-LMモデルの評価などもありましたが、Llama-3-ELYZA-JPがリリース、70Bモデルは、「GPT-4」超え（を達成したという。
+KARAKURI-LMモデルの評価などもありましたが、Llama-3-ELYZA-JPがリリース、70Bモデルは日本語の生成能力において「GPT-4」超え、8BはGPT-3.5 turboを上回る性能とのこと。
+
+GemmaのChromeとうさい
 
 - 小町先生の、「言語系AIプロジェクトの進め方」がよいらしい
 	- https://x.com/mr_bay_area/status/1804689914291957983
@@ -3563,10 +3565,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 日本のオープンデータ情報一覧・まとめ
 	- https://github.com/japan-opendata/awesome-japan-opendata
 	- PLATEAU AWARD 2023でグランプリを受賞した方のGitHubらしい
--  AITuberのブレイクスルーは音声雑談から始まった Cotomo
-	- https
+-  AITube
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTg4MzUxMCw3MjY2Mzg4OTAsMTQ2NT
+eyJoaXN0b3J5IjpbMTE3NDUzMzk1NSw3MjY2Mzg4OTAsMTQ2NT
 gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
 LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
 kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
