@@ -16,7 +16,7 @@ Gemini 1.5 で、出力を JSON に固定することができるようになっ
 
 Gemini NanoのChrome搭載はCanary版を使えばだれでも22GB空きディスクさえあれば、だれでも使えるとのこと.
 
-メタがLlamaベースのLLMコンパイラ
+メタがLlamaベースのLLMコンパイラってのも、驚いた、
 
 Florence-2,
 Microsoftが提案しているGraphRAG
@@ -3569,13 +3569,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - ​”話したいことも、話せないことも。” 音声会話型おしゃべりAIアプリ「Cotomo」を提供開始
 	- https://prtimes.jp/main/html/rd/p/000000007.000123714.html
 - たくさんのお客様がCotomoとおしゃべりしていることで、動作が不安定になる事象が発生しております
-	- https://x.com/starley_jp/status/176175363278835
+	- https://x.com/starley_jp/status/17617
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjIwOTMwMiw3MjY2Mzg4OTAsMTQ2NT
-gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
-LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
-kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
-MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
-g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
-NDcyM119
+eyJoaXN0b3J5IjpbLTE5NTA3Nzg1NTYsNzI2NjM4ODkwLDE0Nj
+U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
+MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
+E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
+NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsOD
+g4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcw
+MzQ3MjNdfQ==
 -->
