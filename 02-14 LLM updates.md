@@ -1,6 +1,11 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+
+## 24/7/1
+
+- 
+
 ## 24/6/24
 
 今週はすべてを吹っ飛ばして、Anthropicが突然発表したClaude 3.5 Sonnetでしょう。Claude 3 Opusの2倍の速度でこれまでの5分の1のコストというのもすごいのですが、新しいアプリ開発環境Artifactsを使って、人間と対話しながらあっという間に、 スライド生成 、webUI生成 、スマホUI生成 、フローチャート生成、簡易ゲーム生成、ほぼ完ぺきなシフト管理システムの作成、WebGLをつかたった可視化プログラムの生成、様々な事例が発表されお祭り状態に。無料でArtiffactsは試せて、例えば、この文章からスライドを作ったり、LLMに関する知識グラフを生成したりとか、空から降ってくるトピックワードを打ち落とすゲームさえできる。生産性向上とか改善とか、もう全部、Claude 3.5 Sonnetで上書きされる感じ、逆に、これが使いこなせる人材しか残らない。でもこれSonnetなんですよ、Opusってどうなるんでしょうか。Googleからは、患者とのやり取りで人間の医師を超えるというAMIE(Articulate Medical Intelligence Explorer )の発表や、高精度天気予報「ナウキャスト」を日本でウェザーニュースのデータで学習して提供とか、Gemini1.5ProとGemini1.5FlashのAPIでコンテキストキャッシュ機能のリリース等がありました。Geminiの公式 noteシリーズ開始とか、着実にすそ野も広めてて好感が持てる。傘下のDeepMindからvideo-to-audio (V2A)が発表され、先週のLuma AIと合わせれば、ショートフィルムは作れそうな勢い。さて、Metaからは、ミックスモーダルなChameleonや、音声がAI製かどうかを見破れるモデルなどの複数のモデルの発表、どのような評価や方向性になるのか来週以降期待。先週話題となった、Nemotron-4-340B-Instruct、評価などがぼちぼち、うみゆきさんがShaberi3ベンチにかけてみたら、平均スコア8.05で、Gemini1.5Pro（8.01）以上、GPT-4o（8.16）以下とのこと。またテクニカルノートによると98%の事後学習のデータは合成データをつかっているとのこと、さすが合成データを作るのが得意なNemotronの面目躍如、いや、そのデモだったのかも。無料のPlaygroundで合成データをコチコチ作るという手もありそうだ。ローカルLLMでは、AIエージェントとして使える「KARAKURI LM 8x7B Instruct v0.1」が、製作費75万円ということで話題になりましたが、なんといっても、Chrome で動く Gemini Nano、Chrome開発版では利用可能になっているとのこと、さっそくnpakaさんが動作事例を紹介。ブラウザ組み込みでっせ、javascriptからたたけるんでっせ。shi3zさんの解説によると、KARAKURIが低予算でLLMを作れたからくりは、AWS Trainiumの利用とのことで、また、先週紹介のあった、MoA(Mixture of Agent)や、LLMのマージ技術により、手軽に誰でも高性能なLLMを構築できるようになった、確変の時代きたるという記事はしびれる、そうか、データはNemotronで合成されればよいのか、どんなLLMがshi3zさんのGPUマシンから出てくるのか楽しみです。理論面では、LLMが事前学習時に事実的知識を獲得する様子の分析論文や、Transformer のコンポーネントか始まって最終的な表現型に近い現象挙動までつながる様子をほぼ明らかとする解説記事とか、LLMの振る舞いの理論的な解析も着実にすすんでいます、説明性の向上に期待。応用面のRAGも忘れてませんよ、知識グラフとの統合とか、「KARAKURI LM 8x7B Instruct v0.1」ってRAGに対応と明示してあったりと、今週もいろいろありましたが、ここは基本戻って、 LangChain で RAGのハイブリッド検索なんかやらせてみて、正気を取り戻しましょう。さて、Claude 3.5 Sonnetの能力を見てると、「まだLLMで驚けるんだ」という(メタな）驚きから、それって、人ってそんなに沢山いらないかも、というのが確信になりつつあります。BBCで紹介された、60人いたライターと編集者が職を失い、ChatGPTの出力を手直しする一人のテクニカルライターに置き換えられたという話題もインパクトありましたが、Claude 3.5 SonnetやGPT-4o級ならそうなるかも。いや、バージニア大学の先生のいう「生産的に愚かになる」ってのは、LLMにはまだ無理かな、と信じたいところです。
@@ -3552,13 +3557,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 日本発の 70B モデルは [Japanese-StableLM](https://huggingface.co/collections/stabilityai/japanese-stable-lm-654063a381a8731a1c0f13cc) などごく一部に限られ、ELYZA-tasks-100 での平均スコアも海外モデルが優位に立っている状況でした。  KARAKURI LM の公開により、その状況が大きく変わったと言えそうです。
 - Mambaを動かして速度をtransformerと比較するメモ
 	- https://note.com/kan_hatakeyama/n/na911120f4ffb?sub_rt=share_pb
-	- 話題のmambaをcolabで動かしてみました｡ 同等サイズのtransformerよりも､2倍くらいは推
+	- 話題のmambaをcolabで動かしてみました｡ 同等サイズのtransform
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5Nzk3MjExLC05MTUwOTc2ODAsLTEwOD
-Q4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYxMjgxMywyODM2MjM5
-MSwxNDgwNDIzNTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OT
-I0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4
-MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMywtMTI4Mzg5NzQ0Ny
-wxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3OTIyODI4NiwxOTA2
-OTI1MDU1XX0=
+eyJoaXN0b3J5IjpbMjAwOTQ3ODQ1MSw5Mzk3OTcyMTEsLTkxNT
+A5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEy
+ODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQzLDE4MT
+gwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAy
+NywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC
+0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2ODg0NDUsNjc5
+MjI4Mjg2XX0=
 -->
