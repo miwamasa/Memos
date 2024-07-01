@@ -23,7 +23,7 @@ OpenAIのCriticGPT、ChatGPTの出力結果の評価という話だから、同�
 Microsoftからは、visonの基盤モデルで、WebGPUを使ってローカルに動くFlorence-2が発表、こりゃ、監視カメラにローカルに載るわー。MicrosoftのGraphRAGの記事、graphを使わないベースラインとの比較が面白い、やってみたい。
 
 
-NVIDIA「NVIDIA最新GPUの20倍速い」史上最速を謳うAIチップ「Sohu」
+NVIDIA、ファンCEO、10年もスタンフォードで講演をつづけたのか。「NVIDIA最新GPUの20倍速い」史上最速を謳うAIチップ「Sohu」というのは、
 
  IBMによる、製造現場で継続的なデータ活用を推進するには、「業務知見に詳しい人」も必要とか、価格コムでDifyを現場に展開する話も参考になりそう。
 
@@ -3562,9 +3562,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://note.com/tatsuyashirakawa/n/n9f5b57ce1aa6?sub_rt=share_pb
 	- μTransfer は、μP （Maximal Update Parametrization）という理論的に導出された NN のパラメータ付けにより実現される、サイズの異なる NN 間のハイパーパラメータ転移です。
 	- （知らなかった読者にとって）大規模モデルの学習をおそらく圧倒的に効率化できる汎用的かつシンプルなパラメータ付け μP の存在と使い方を知ることができる。
-	- Neural Networks に対してかなり一貫性のある理解が得られそうな気分になる。学習率やパラメータの初期化のスケールに関する話がなんでも 
+	- Neural Networks に対してかなり一貫性のある理解が得られそ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDA1Mzk2MCwtMjA2ODI2Nzk4LDcyNj
+eyJoaXN0b3J5IjpbLTg1MzYwODMyMCwtMjA2ODI2Nzk4LDcyNj
 YzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4
 NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMT
 czODI4ODU5NSwxOTAzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1
