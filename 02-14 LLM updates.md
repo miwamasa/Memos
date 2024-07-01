@@ -192,7 +192,11 @@
 - ollamaのGemma2を使って「呪術廻戦」のwikipedia情報をNeo4Jに入れてみた！結構いい感じに入ってると思う！！
 	- https://x.com/hAru_mAki_ch/status/1807318938675814506
 - Googleさんのgemma-2-27b-itの日本語imatrix量子化ggufが完成しました！
-	- 
+	- https://huggingface.co/grapevine-AI/gemma-2-27b-it-gguf
+	- 軽量なのにとんでもなく賢い、現状最強のローカルLLMだと思います
+- Perplexity APIにはいくつかのLLMがあって、検索＋LLMを体験するなら「llama-3-sonar-large-32k-online」がオススメ。
+	- https://x.com/gijigae/status/1807355566169432125
+- 
 
 ## 24/6/24
 
@@ -3561,14 +3565,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- has native multilingual capacities
 		- strong abilities in reasoning, knowledge, maths, and coding benchmarks
 		- function calling and JSON format natively supported
-		- available through Microsoft Azure
-		- a low-latency model called Mistral Small was also released
-- Qwen1.5-72B-Chatをお試し中。
-	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
-	- もう全部Qwen-72Bでいいんじゃないかな
-	- https://x.com/alfredplpl/status/176
+		- available t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjU0NjQwOCw3MjY2Mzg4OTAsMTQ2NT
+eyJoaXN0b3J5IjpbMTczNjg3MjcxMCw3MjY2Mzg4OTAsMTQ2NT
 gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
 LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
 kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
