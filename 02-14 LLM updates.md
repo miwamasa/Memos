@@ -67,6 +67,13 @@
 -  PATIENT-Ψ: Using Large Language Models to Simulate Patients for Training Mental Health Professionals
 	- https://arxiv.org/abs/2405.19660
 	- We introduce Patient-Ψ🤖, where we integrate cognitive modeling with LLMs to simulate patients for training mental health professionals.
+- Claude 3.5 SonnetのBreaking News from Chatbot Arena
+	- https://x.com/lmsysorg/status/1805329822748655837
+	- Claude 3.5 Sonnet has just made a huge leap, securing the #1 spot in Coding Arena, Hard Prompts Arena, and #2 in the Overall leaderboard.
+-  ELYZA、GPT-4を上回る性能の日本語LLMを開発
+	- https://www.watch.impress.co.jp/docs/news/1603370.html
+	- 「Llama 3」をベースとした700億パラメータの「Llama-3-ELYZA-JP-70B」と80億パラメータの「Llama-3-ELYZA-JP-8B」を開発し、性能を公開した。70Bモデルは、日本語の生成能力において「GPT-4」超えを達成したという。
+	- 8Bモデルは、MetaのLlama-3-8Bをベースに事後学習(日本語追加事前学習・指示学習)を実施。「GPT-3.5 turboを上回る性能
 - 
 
 ## 24/6/24
@@ -3551,19 +3558,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 2/26
 
-先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が垣間見れてきた。Googleは引き続きGemini 1.5 proベースのOSSであるGemma(“貴重な石”、ラテン語)をリリース、同パラメーターサイズであればLlama2やMistralより優れているとの事。Gemmaは軽量であるとともに、embeddingの工夫、安全なAIアプリケーションを作成するためのガイダンスと必須ツールの提供、Kera3.0サポートなど、かなりの量と質のソフトウエアスタックが一気に公開されたことになる。OSS戦略として、安全性に関するコミュニティとの共創という意味でも、MetaのOSS戦略と丸被り。早速、量子化gguf版や、KaggleでGemmaをつかったコンペの開催、embeddingの解析（日本語語彙は貧弱？）、npakaさんによるファインチューニング試行、MLXを使ったファインチューニングなど、コミュニティの活動が盛んに。LPU（Language Processing Unit）を引っ提げるGroq、推論時の高速さが半端ない、専用チップ開発でも戦いは続く、日本のMN-core早く！llamaindexもLlamaCloudとLlamaParseをリリース、テーブルや図表などの埋め込まれたオブジェクトを含む複雑な文書のための独自のパーシングや、RAGの構築がより高性能に、かつ容易になった。日本語LLMでは、 KARAKURI LM (70B)のELYZA-tasks-100による性能評価や、東工大と東北大によるKotomambaの構築等。フレームワークでは、BCGXからagentkitのOSSリリース、DXの手段としてのAIというシナリオでのコンサル系の新たなビジネスモデル。基礎研究では、プロンプトのみから「新しい言葉の概念」を学習させるためのフレームワーク『FOCUS』や、Mambaとtransformerとのcolabを使った速度比較とか、そもそも状態空間モデルの解説とか。DeepMindとCMUによる、LLMをつかった数値回帰OmniPred論文も面白い、その性能の理論的解析が待たれる。Stable Diffusion 3のリリースやsentencepiece v0.2.0リリースなどの基盤ソフトの重要な更新も進んだ。
-
-- BCGXから、agentkit
-	- https://agentkit.infra.x.bcg.com/
-	- BCG Xから大規模言語モデルを使ったAgentを楽に作るためのフレームワークAgentKitがOSSとして出ました〜。 Nextjs, FastAPI, Langchainのモダンなテックスタックです
--  Hyena Hierarchy: Towards Larger Convolutional Language Models
-	- https://speakerdeck.com/hpprc/hyena-hierarchy-towards-larger-convolutional-language-models
-	- Hyena Hierarchyについて、状態空間モデル（SSM）の基礎から解説したスライド
-- GroqのLPUについて
-	- https://x.com/umiyuki_ai/status/1759740311335739784?s=20
-	
+先週、soraの発表で少し霞んだGemini 1.5 pro 、402ページの文書、44分間の映画、10万行のコードに対する推論など、その能力の一旦が垣間見れてきた。Googleは引き続きGemini 1.5 proベースのOSSであるGemma(“貴重な石”、ラテン語)をリリース、同パラメーターサイズであればLlama2やMistralより優れているとの事。Gemmaは軽量であるとともに、embeddingの工夫、安全なAIアプリケーションを作成するためのガイダンスと必須ツールの提供、Kera3.0サポートなど、かなりの量と質のソフトウエアスタックが一気に公開されたことになる。OSS戦略として、安全性に関するコミュニティとの共創という意味でも、MetaのOSS戦略と丸被り。早速、量子化gguf版や、KaggleでGemmaをつかったコンペの開催、embeddingの解析（日本語語彙は貧弱？）、npakaさんによるファインチューニング試行、MLXを使ったファインチューニングなど、コミュニティの活動が盛んに。LPU（Language Processing Unit）を引っ提げるGroq、推論時の高速さが半端ない、専用チップ開発でも戦いは続く、日本のMN-core早く！llamaindexもLlamaCloudとLlamaParseをリリース、テーブルや図表などの埋め込まれたオブジェクトを含む複雑な文書のための独自のパーシングや、RAGの構築がより高性能に、かつ容易になった。日本語LLMでは、 KARAKURI LM (70B)のELYZA-tasks-100による性能評価や、東工大と東北大によるKotomambaの構築等。フレームワークでは、BCGXからagentkitのOSSリリース、DXの手段としてのAIというシナリオでのコンサル系の新たなビジネスモデル。基礎研究では、プロンプトのみから「新しい言葉の概念」を学習させるためのフレームワーク『FOCUS』や、Mambaとtransformerとのcolabを使った速度比較とか、そもそも状態空間モデルの解説とか。DeepMindとCMUによる、LLMをつかった数値回
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDQyNzU3NywxNDY1ODM5Nzg5LC0xMT
+eyJoaXN0b3J5IjpbMTU0MDEzNTMzNiwxNDY1ODM5Nzg5LC0xMT
 M4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4
 MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEyODEzLD
 I4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQzLDE4MTgwNTgz
