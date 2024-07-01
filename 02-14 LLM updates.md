@@ -4,7 +4,7 @@
 
 ## 24/7/1
 
-今週もいろいろありました。「巨大なコンテキストウィンドウのLLMはRAGを不要にするのか？」というdeepmindの論文、RAG不要論争にとどめか。材料系でのエージェント活用やLLMの活用で見るべきものがあった。
+今週もいろいろありました。「巨大なコンテキストウィンドウのLLMはRAGを不要にするのか？」というdeepmindの論文、RAG不要論争にとどめか。材料系でのエージェント活用や交差と突然変異を化学知識で微調整したLLMで分子設計などのLLMの活用で見るべきものがあった。
 
 Anthropic、Artifactを作ったのはインスタグラム共同創業者がjoinして２か月で作成とのこと、日本への進出も、AWS展示会でアピールしてたり、自民党AI戦略会議でも、いま準備しないと死にまっせと脅したりと大忙し。 Claudeのproject機能も相当やばいらしい。
 
@@ -24,7 +24,7 @@ Microsoftが提案しているGraphRAG
 
 「NVIDIA最新GPUの20倍速い」史上最速を謳うAIチップ「Sohu」
 
-岡野原さんが紹介した、言語は思考よりもコミュニケーションの道具であるという主張の論文、言語が思考を形作るという考え方と真逆なんだけど、LLMってどうがｎ
+岡野原さんが紹介した、言語は思考よりもコミュニケーションの道具であるという主張の論文、言語が思考を形作るという考え方と真逆なんだけど、LLMってどう頑張っても機械人形(Anthropic)ということなのか。
 
 - 小町先生の、「言語系AIプロジェクトの進め方」がよいらしい
 	- https://x.com/mr_bay_area/status/1804689914291957983
@@ -3569,15 +3569,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - ​”話したいことも、話せないことも。” 音声会話型おしゃべりAIアプリ「Cotomo」を提供開始
 	- https://prtimes.jp/main/html/rd/p/000000007.000123714.html
 - たくさんのお客様がCotomoとおしゃべりしていることで、動作が不安定になる事象が発生しております
-	- https://x.com/starley_jp/status/1761753632788357611?s=20
-- Qwen1.5 速いし日本語完璧だしすごい by shi3z
-	- https://hug
+	- https://x.com/starley_jp/status/176175363278835
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjI0NDAwLDcyNjYzODg5MCwxNDY1OD
-M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEs
-LTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOT
-AzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQz
-LDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4OD
-gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
-NzIzXX0=
+eyJoaXN0b3J5IjpbLTkwMjIwOTMwMiw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyM119
 -->
