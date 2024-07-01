@@ -117,7 +117,13 @@
 	- 注意点は少なくとも必要条件としてディスクに22GBの空き容量が必要との事です。現時点では実際にはそこまで占有されませんが、将来的にもう少し大きなモデルを見据えているのかもしれません
 - Gemini 1.5 で、出力を JSON に固定することができるようになった
 	- https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/control-generated-output
-	- 
+	- 今までのプロンプトの中で指定するような手法とは違い、以下のようにリクエストの中で指定をして投げる。これにより出力が確実に指定されたフォーマットになる。 "responseMimeType": "application/json"
+- OpenAIが新型のGPT「CriticGPT」を公開しました by 今井さん
+	- https://x.com/ImAI_Eruel/status/1806376950455554092
+	- ChatGPT以来初のナンバーシリーズではない変化球なGPTの発表で，LLMの強化学習に利用するGPTのようです．
+	-  Finding GPT-4’s mistakes with GPT-4
+	- https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/
+- 
 
 ## 24/6/24
 
@@ -3558,21 +3564,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- LLMの思考は必ずしも人間と同じフォーマットに沿う必要はない、といった結論になります。LLMエージェント同士でコミュニケーションする際にはこの方が効率的かもしれないとのこと。
 	- 自然言語に固有の曖昧さを排除し、明確性を高めるために、ステップバイステップの解決策には、より構造化されて簡潔なコミュニケーションの形式を検討してください。適切なフォーマットには、コード、擬似コード、JSON、マークダウン表、論理演算子、または数学方程式が含まれます。回答の最後には、〜〜という形式で答えを示さなければなりません。簡潔かつ正確であることを忘れないでください。
 - ChatGPTは数学を解く時に厳密に計算するためにADA（Advanced Data Analitics, Code Interpreter）をデフォルトで使用する様に変わってます
-	- https://x.com/ai_syacho/status/1763308074503422008?s=20
-	- しかも数学計算の計画も立てる事ができる。
-- オリジナルのBitNetを1.58bの論文に従って3値にするように修正しました
-	- https://github.com/frodo821/BitNet-Transformers
-- Beyond Disciplines「Beyond Disciplines ～CRDSが注目する研究開発の潮流2024～」
-	- https://www.jst.go.jp/crds/report/CRDS-FY2023-RR-06.html
-	- 所属組織が発行している数十冊・計数千ページの報告書を40ページくらいに圧縮したレポート作成にかかわりました。
-- Qwen1.5-72B 日本語能力も高くて良いが生成物でデータセットは作れない規約で残念。
-	- https://x.com/alexweberk
+	- https://x.com/ai_syacho/status/1763308074503422008?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjIwNjkzOSw3MjY2Mzg4OTAsMTQ2NT
-gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
-LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
-kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
-MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
-g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
-NDcyM119
+eyJoaXN0b3J5IjpbLTYyNDgwNjksNzI2NjM4ODkwLDE0NjU4Mz
+k3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwt
+OTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MD
+M2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2NDMs
+MTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsODg4OD
+A2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcwMzQ3
+MjNdfQ==
 -->
