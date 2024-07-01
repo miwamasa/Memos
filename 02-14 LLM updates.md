@@ -183,7 +183,12 @@
 	- 2) 実質GDP成長率は真ん中くらい。ドイツ・イギリス・フランスより上
 - ソフト開発者の求人がアメリカで激減。
 	- https://x.com/hiyori13/status/1806698946531872982
-- 
+	- もちろんGPTが理由。予想通りなんだけど、日本でももうすぐこうなるはず。エンジニアはGPTを使いこなして「自分が学習をしていない言語」を使いこなすスキルを覚えたほうがいい。こっちが今後重要。そして、コンピューター言語はこれからどんどん減っていくはず。
+- OllamaベースでGraphRAGできた！
+	- https://x.com/hAru_mAki_ch/status/1807092967574028398
+-  Ollama Embeddings 完全ガイド API 不要のローカル環境で実現する 高性能テキスト解析
+	- https://hamaruki.com/ollama-embeddings/
+	- 
 
 ## 24/6/24
 
@@ -3562,23 +3567,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2402.14848
 	- プロンプトの入力が長くなるにつれて、推論性能に顕著な低下が見られることが示唆
 	- ■実験結果
-		- 入力が長くなると推論の精度が低くなる
-		- 失敗モードは主に4つで、入力が長くなるほど顕著になる 
-			- 1. 回答拒否 
-			- 2. 偏った判断 
-			- 3. 頭から答えを言う（推論ステップを辿らない）、 
-			- 4. 入力テキストを適切に使わない
-- RAGでの回答精度向上のためのテクニック集（基礎編）
-	- https://zenn.dev/knowledgesense/articles/47de9ead8029ba
-- NVIDIAがノートパソコン用のGPUを新たに発表
-	- https://x.com/webbigdata/status/1762645658266468393?s=20
-	- RTX 5
+		- 入力が長くなると推
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY2MjA4MTAsNzI2NjM4ODkwLDE0Nj
-U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
-MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
-E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
-NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsOD
-g4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcw
-MzQ3MjNdfQ==
+eyJoaXN0b3J5IjpbLTU2NjY1NDYxOSw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyM119
 -->
