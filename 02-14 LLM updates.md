@@ -26,7 +26,7 @@ Microsoftが提案しているGraphRAG
 
 「NVIDIA最新GPUの20倍速い」史上最速を謳うAIチップ「Sohu」
 
- IBMによる、製造現場で継続的なデータ活用を推進するには、業務知識のある人の協力が必要とか、価格コムでDifyを現場に
+ IBMによる、製造現場で継続的なデータ活用を推進するには、「業務知見に詳しい人」も必要とか、価格コムでDifyを現場に展開する話も参考になりそう。
 
 岡野原さんが紹介した、言語は思考よりもコミュニケーションの道具であるという主張の論文、言語が思考を形作るという考え方と真逆なんだけど、LLMってどう頑張っても機械人形(Anthropic)ということなのか。
 
@@ -3570,14 +3570,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- ルールベースでの、不要な文字列の削除
 		- 機械学習ベースでの、不要な文字列の削除
 		- 重複の削除
-- 【最強になった】Googleの最大1000万トークン入力可能なGemini 1.5 Proがヤバすぎる。《概要、他LLMとの比較、ビジネスシーンでの活用方法5選を徹底解説》
-	-
+- 【最強になった】Googleの最大1000万トークン入力可能なGemini 1.5 Proがヤバすぎる。《概要、他LLMとの比較、ビジネスシーンでの活
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTgyNjAzLDcyNjYzODg5MCwxNDY1OD
-M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEs
-LTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOT
-AzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQz
-LDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4OD
-gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
-NzIzXX0=
+eyJoaXN0b3J5IjpbLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyM119
 -->
