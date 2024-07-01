@@ -168,7 +168,14 @@
 	- https://x.com/JasonShen/status/1806357605343691053
 - Colab Pro and Pro+ now support Workspace organizations!
 	- https://x.com/GoogleColab/status/1806099465604046928
-- 
+- Dive into llama-agents with this notebook showing how to build an agentic RAG service!
+	- https://github.com/run-llama/llama-agents/blob/main/examples/agentic_rag_toolservice.ipynb
+- いよいよLangChainもワークフローが作れるLangGraphを発表↓
+	- https://x.com/gijigae/status/1806701809269866990
+	- LangChainと決別し独自の道を選んだDifyの判断は正しかったと思う。Difyが目指してる世界は表に出てることよりずーっと大きい。
+- カカクコムが公開している「Difyの導入事例紹介」資料が有益
+	- https://speakerdeck.com/tokita_kakaku/quan-she-de-nasheng-cheng-aihuo-yong-puratutohuomutositeno-difynodao-ru-shi-li-shao-jie
+	- 全社導入に至るまでの活用フェイズごとのユースケースや企業目線の課題、実際に作成したアプリのワークフローまで掲載しており少しでも活用に興味がある人は非常に勉強になる。
 
 ## 24/6/24
 
@@ -3562,16 +3569,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - LangChainに便利な機能が誕生してまし
 	- https://x.com/MLBear2/status/1762623474034790886?s=20
 	- Pydanticで構造体を定義した上で `with_structrured_output` を図のように使えば、Function Callingを簡単に呼べるようになりました。 
-	- ChatGPTだけではなく、GeminiなどFunction Callingに対応する他のLLMでももちろん使えるとのこと。
-- Function Calling Cookbook with Open-source models (LlamaIndex+FIREWORKS)
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/fireworks_cookbook.ipynb
-	- We’re excited to present a series of cookbooks showing you how to use LlamaIndex with Fireworks, including function calling and RAG with FireFunction-v1.
-- PDFがスルスル読める！話題のLlamaParseとは
-	- https://zenn.dev/yokina_kaoto/articles/563f7d75673c2e
-	- LlamaParseはLlamaIndexの新しい製品で、再帰検索を実行することで複雑なPDFのテーブルをきれいに抽出することができ、しばしば悩まされる複雑なドキュメントのより正確な解析を約束します
-	- LlamaParseでPDFをパースし、
+	- ChatGPTだけではなく、G
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDM3MDIyNSw3MjY2Mzg4OTAsMTQ2NT
+eyJoaXN0b3J5IjpbMTIyNjMxMDE0Niw3MjY2Mzg4OTAsMTQ2NT
 gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
 LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
 kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
