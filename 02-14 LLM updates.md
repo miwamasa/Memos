@@ -4,7 +4,7 @@
 
 ## 24/7/1
 
-- 
+- ko
 
 ## 24/6/24
 
@@ -3557,13 +3557,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 日本発の 70B モデルは [Japanese-StableLM](https://huggingface.co/collections/stabilityai/japanese-stable-lm-654063a381a8731a1c0f13cc) などごく一部に限られ、ELYZA-tasks-100 での平均スコアも海外モデルが優位に立っている状況でした。  KARAKURI LM の公開により、その状況が大きく変わったと言えそうです。
 - Mambaを動かして速度をtransformerと比較するメモ
 	- https://note.com/kan_hatakeyama/n/na911120f4ffb?sub_rt=share_pb
-	- 話題のmambaをcolabで動かしてみました｡ 同等サイズのtransform
+	- 話題のmambaをcolabで動かしてみました｡ 同等サイズのtransfo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTQ3ODQ1MSw5Mzk3OTcyMTEsLTkxNT
-A5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEy
-ODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQzLDE4MT
-gwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4ODgwNjAy
-NywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0NzIzLC
-0xMjgzODk3NDQ3LDE3NDY2NzU0MDAsLTIwNTM2ODg0NDUsNjc5
-MjI4Mjg2XX0=
+eyJoaXN0b3J5IjpbLTEzNTk1MzA5NTgsOTM5Nzk3MjExLC05MT
+UwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYx
+MjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0MywxOD
+E4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4ODg4MDYw
+MjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAzNDcyMy
+wtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUzNjg4NDQ1LDY3
+OTIyODI4Nl19
 -->
