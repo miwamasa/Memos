@@ -58,7 +58,9 @@
 	- The 7B & 34B safety tuned models we’ve released can take any combination of text and images as input and produce text outputs using a new early fusion approach.
 	- While some LLMs have separate image and text encoders or decoders, **Chameleon is one of the first publicly released approaches using a single unified architecture.**
 	- https://arxiv.org/abs/2405.09818
-- 
+- GPT-4oボイスモードのアルファ版ローンチ、延期が確定
+	- https://x.com/ctgptlb/status/1805734395833467342
+	- 
 
 ## 24/6/24
 
@@ -3559,10 +3561,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Berkeleyの人々による、「コンパウンドAI」のレビュー記事。
 	- LLM単体で勝負するよりも、LLMを含む各種AI／非AIモジュールを組み合わせて作る「コンパウンドAI」の方がより良いシステムを作りやすい、
 - Introducing LlamaCloud  and　LlamaParse
-	- https://blog.llamaindex.ai/introducing-llamacloud-and-llamaparse-af8cedf9006b
-	- Today is a big day for the LlamaIndex ecosystem: we are announci
+	- https://blog.llamaindex.ai/introducing-llamacloud-and-llamapar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0MTU4MjU4LC0xMTM4NTA3NjY3LDU0OT
+eyJoaXN0b3J5IjpbMzExMTQzNjM3LC0xMTM4NTA3NjY3LDU0OT
 k0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYy
 MiwtMTczODI4ODU5NSwxOTAzNjEyODEzLDI4MzYyMzkxLDE0OD
 A0MjM1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3
