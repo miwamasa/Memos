@@ -16,7 +16,7 @@ Gemini 1.5 で、出力を JSON に固定することができるようになっ
 
 Gemini NanoのChrome搭載はCanary版を使えばだれでも22GB空きディスクさえあれば、だれでも使えるとのこと.
 
-OpenAIのCriticGPT、
+OpenAIのCriticGPT、ChatGPTの出力結果の評価という話だから、同社が出したLLMの振る舞いを規定する仕様書Model Specとも関連するきもするが、"AIが人間よりもはるかに賢くなっても、正しい行動に報酬を与えることを保証するスケーラブルな監視"の第１段だとすると、がくがくブルブルである。
 
 メタがLlamaベースのLLMコンパイラってのも、驚いた、コード最適化タスクを行えるらしい。
 
@@ -3566,17 +3566,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Neural Networks に対してかなり一貫性のある理解が得られそうな気分になる。学習率やパラメータの初期化のスケールに関する話がなんでも TP/μP で取り扱うべき事項に見えてくる。
 - ウェブの日本語テキストをクリーニングするための基本的な処理コードと課題
 	- https://note.com/kan_hatakeyama/n/n331bda7d77c1?sub_rt=share_pb
-		- 文字列の正規化　(変な文字コードを消す)
-		- ルールベースでの、不要な文字列の削除
-		- 機械学習ベースでの、不要な文字列の削除
-		- 重複の削除
-- 【最強になった】Googleの最大1000万トークン入力可能なGemini 1.5 Proがヤバすぎる。《概要、他LLMとの比較、ビジネスシーンでの活
+		- 文字列の正規化　(変な文字コード
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NT
-gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
-LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
-kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
-MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
-g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
-NDcyM119
+eyJoaXN0b3J5IjpbNjYyOTY0OTY2LC0yMDY4MjY3OTgsNzI2Nj
+M4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0
+LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNz
+M4Mjg4NTk1LDE5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4
+OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MT
+cyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2
+MTk4XX0=
 -->
