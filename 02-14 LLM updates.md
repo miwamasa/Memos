@@ -140,7 +140,14 @@
 	- Impressively, Gemma-2-9B is ranked as high as Qwen-2-72B. The rate of improvement is fast.
 - Google AI Studio で Gemma 2 をお試し中。
 	- https://aistudio.google.com/app/prompts/new_chat
-- 
+- ところてんさん、経産省に呼び出される。
+	- https://www.meti.go.jp/shingikai/mono_info_service/digital_jinzai/021.html
+	- https://x.com/tokoroten/status/1806576954692530385
+-  Gemini API の Code Execution by うみゆきさん
+	- https://note.com/npaka/n/n7fff64088a9e?sub_rt=share_h
+	- 「**Code Execution**」は、モデルがPythonコードを生成して実行することを可能にします。「Google AI Studio」や「Gemini API」で利用可能です。
+	- 仮想マシン上でNumPyやSimPyなどのライブラリを使用できますが、追加のライブラリをインストールすることはできません。コード実行はモデルまたはリクエストレベルで有効化でき、チャットでも利用可能です。実行環境には30秒のタイムアウトなどの制限があります。
+	- 
 
 ## 24/6/24
 
@@ -3561,15 +3568,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  驚異の1ビットLLMを試す。果たして本当に学習できるのか? by shi3zさん
 	- https://note.com/shi3zblog/n/n58b0a2252727?sub_rt=share_pb
 	- 試したのはこちら
-		- https://github.com/Beomi/BitNet-Transformers/tree/main
-	- なんかそれっぽいこと言ってる!!!!!!  しかも小さいから当たり前なのだが推論は超速いのである。
-	- モデルサイズは200MB。GBじゃないよ。  僕は小さい言語モデルも大きい言語モデルもそこそこ触って来た方だと思うが、このサイズ
-- Mixtral 250MのpretrainingからInstruction Tuningまで
-	- https://zenn.dev/if001/articles/9bb90e0d8c201f
-	- MoEを持つMixtralがhuggingface/transformersで公開されているので、これを利用しつつ、250Mの小さいサイズとして日本語と英語でpretraining、finetuningを行います。
-	- 250MのMixtralをpretrainingからfinetuningまでを行いました。小さいサイズなりにうっすら日本語を理解してそう。入力から正確に情報を抽出とそれらを使った出力はさすがに難しそう。あとは、推論時の
+		- https://github.co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTIxODY2MzksNzI2NjM4ODkwLDE0Nj
+eyJoaXN0b3J5IjpbLTE2MTAwNTMwNDMsNzI2NjM4ODkwLDE0Nj
 U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
 MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
 E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
