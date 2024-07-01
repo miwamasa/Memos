@@ -42,20 +42,15 @@
 	- https://ascii.jp/elem/000/004/206/4206328/
 	- **Transformerアーキテクチャーのみに特化した設計を採用した**ことだ。この専門化により、Sohuは汎用GPUと比べて大幅な性能向上を実現
 	- 8台のSohuサーバー１台で160台のH100をリプレイスできるんだって！！Sohux8サーバーはLlama-70Bを50万tpsで超爆速処理！B200x8の10倍の速度！しかもB200より安い
--  自民党AIの進化と実装に関するプロジェクトチームに anthoropicのプレゼン
-	- https://x.com/sirap_kuro/status/1805646378187866377
-	- 私たちは、6～18 ヶ月 以内に最先端のモデルが 新しい能力で産業を 急速に変革すると 予想しています
-	- 私たちのお客様は、 将来の画期的な進歩に 備えて最大限の準備を するため、ユースケース を急速に構築しています
-	- 新しい画期的な進歩を待ち 立ち止まっている企業は、 すでに 4～8 ヶ月遅れて いる可能性があります
-	
 - Anthropicは日本政府へ6-18ヶ月位内、つまり2024年末から2025年末までに最先端のモデルが産業を急速に変革すると予想しているとプレゼン。
 	- これは大きなこと。政府へ言うということは相当自信がある証拠だと感じる。
 	- https://x.com/bioshok3/status/1805649281938018318
 	- 自民党AIの進化と実装に関するプロジェクトチームに anthoropicのプレゼン
 		- https://note.com/komori_takuo/n/n8433de4720a0
 		- 私たちは、6～18 ヶ月 以内に最先端のモデルが 新しい能力で産業を 急速に変革すると 予想しています
-- 私たちのお客様は、 将来の画期的な進歩に 備えて最大限の準備を するため、ユースケース を急速に構築しています
-	- 新しい画期的な進歩を待ち 立ち止まっている企業は、 すでに 4～8 ヶ月遅れて いる可能性があります
+		- 私たちのお客様は、 将来の画期的な進歩に 備えて最大限の準備を するため、ユースケース を急速に構築しています
+		- 新しい画期的な進歩を待ち 立ち止まっている企業は、 すでに 4～8 ヶ月遅れて いる可能性があります
+- 
 
 ## 24/6/24
 
@@ -3560,13 +3555,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Today is a big day for the LlamaIndex ecosystem: we are announcing LlamaCloud, a new generation of managed parsing, ingestion, and retrieval services, designed to bring **production-grade**  **context-augmentation** to your LLM and RAG applications.
 - MolTailor: Tailoring Chemical Molecular Representation to Specific Tasks via Text Prompts
 	- https://arxiv.org/abs/2401.11403
-	- 機械学習応用には分子の物性予測から分類までさまざまなタスクがありますが、LLMによりそれぞれのタスクごとに最適な
+	- 機械学習応用には分子の物性予測から分類までさまざまなタスクがありますが、LLMによりそれぞれのタスクごとに最
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxMzUzMzA3LC0xMTM4NTA3NjY3LDU0OT
-k0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYy
-MiwtMTczODI4ODU5NSwxOTAzNjEyODEzLDI4MzYyMzkxLDE0OD
-A0MjM1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3
-OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMT
-Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
-NzU0MDBdfQ==
+eyJoaXN0b3J5IjpbLTExNTU1NzgzMTksLTExMzg1MDc2NjcsNT
+Q5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0
+NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4MTMsMjgzNjIzOTEsMT
+Q4MDQyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1
+NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC
+0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0
+NjY3NTQwMF19
 -->
