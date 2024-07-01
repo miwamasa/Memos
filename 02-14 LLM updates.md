@@ -12,9 +12,11 @@ KARAKURI-LMモデルの評価などもありましたが、Llama-3-ELYZA-JPが�
 
 GoogleからはGemma-2の27B & 9Bがリリース、27BってLlama-3-70B越えとか、9Bは Qwen-2-72B並みの性能とか、性能爆上がりに何かがある。
 
+Gemini 1.5 で、出力を JSON に固定することができるようになったとか、Google AI Studioでコードが実行できるようになったとか、Artifactを
 
 Gemini NanoのChrome搭載はCanary版を使えばだれでも22GB空きディスクさえあれば、だれでも使えるとのこと.
 
+メタがLlamaベースのLLMコンパイラ
 
 Florence-2,
 
@@ -3565,15 +3567,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Qwen1.5 速いし日本語完璧だしすごい by shi3z
 	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
 - ku-nlp/gpt2-large-japanese-char
-	- 弊研のhuggingfaceリポジトリで charcter vocabulary の日本語 gpt2-large（A100 1枚で訓練8か月!）が公開されているので、何かの興味で日本語の文字レベルの言語モデルが欲しい方は是非使ってみてください
-- ローカルで気軽にRAGを使って会話することが簡単すぎてビビった。
-	- https://qiita.com/mitsumizo/items/469
+	- 弊研のhuggingfaceリポジトリで charcter vocabulary の日本語 gpt2-large（A100 1枚で訓練8か月!）が公開されているので、何かの興味で
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDkwNzU4NCw3MjY2Mzg4OTAsMTQ2NT
-gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
-LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
-kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
-MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
-g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
-NDcyM119
+eyJoaXN0b3J5IjpbOTQzMTUzMjM3LDcyNjYzODg5MCwxNDY1OD
+M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEs
+LTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOT
+AzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQz
+LDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtODE3MjQzOTIwLDg4OD
+gwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1NjE5OCwxMTA3MDM0
+NzIzXX0=
 -->
