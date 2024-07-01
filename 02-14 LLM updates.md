@@ -100,7 +100,7 @@
 - Self-Play models finally got released! | SPPO Llama-3-8B finetune performs extremely strong strong on AlpacaEval 2.0
 	- https://www.reddit.com/r/LocalLLaMA/comments/1doxvdi/selfplay_models_finally_got_released_sppo/?onetap_auto=true&one_tap=true
 	- SPPO論文で「SPPOしたLlama-3-8Bの勝率がGPT-4超え！」とか主張してて「ウソ付け！だったらモデル出せや！」みたいな話だったのがついにモデルがお出しされたらしい
-- 
+- 人にとって言語は思考よりもコミュニケーションの道具であるという主張　by おか
 
 ## 24/6/24
 
@@ -3562,14 +3562,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「Google AI 進化的」で「つくよみちゃんの会話テキストデータセット」による「Gemini」のチューニングを試したので、まとめました。
 -  Towards Long Context RAG by llamaindex
 	- https://www.llamaindex.ai/blog/towards-long-context-rag
-	- We did a deep dive into Gemini, and consolidated our thinking about long-context LLM benefits, challenges, and new architectures
-	- Long-context LLMs will help alle
+	- We did a deep dive into Gemini, and consolidated our thinking about long-context LLM benefits, challenges, and new architectur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTk4OTg3MSw3MjY2Mzg4OTAsMTQ2NT
-gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
-LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
-kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
-MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
-g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
-NDcyM119
+eyJoaXN0b3J5IjpbLTE1NzM1NTQyNjYsNzI2NjM4ODkwLDE0Nj
+U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
+MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
+E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
+NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsOD
+g4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcw
+MzQ3MjNdfQ==
 -->
