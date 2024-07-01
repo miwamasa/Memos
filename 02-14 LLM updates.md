@@ -32,7 +32,13 @@
 	- https://huggingface.co/datasets/HachiML/Timeseries-QA
 - インスタの共同創業者がClaudeプロダクトチームを率いた結果、Artifactが誕生。その間わずか2ヶ月
 	- https://x.com/Haruki_Sonehara/status/1805111108748886440
-	- 
+	- チャットUIは自由すぎる分使い手の負荷が高い。良い質問ができる人はいいが、世の中そう多くない。 
+	- Anthropicはそのことに気づいて、インスタの共同創業者をCPOとしてヘッドハントした。 
+	- チャットとは違う切り口のLLMプロダクトがもっと増える。プロダクトマネージャーの皆さん未来を作る出番です！
+-  三菱電機がClaude 3活用で「工数4割減」、仕様書の図表解析にマルチモーダルが威力
+	- https://xtech.nikkei.com/atcl/nxt/column/18/02875/062000004/
+	- すごいね、実際どうなのか気になる / “三菱電機がClaude 3活用で「工数4割減」、仕様書の図表解析にマルチモーダルが威力”
+- 
 
 ## 24/6/24
 
@@ -3557,16 +3563,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 3. GPT-4で88.2%、GPT-3.5でも84.5%の正確さを達成した
 -  GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements
 	- https://huggingface.co/papers/2402.10963
-	- 結果ベースの報酬モデル (ORM) をリランカーとして使用して、グローバルとローカルの改良を組み合わせると、いずれか 1 つを個別に使用した場合や、3 つのサンプル ベースラインの中で最も優れたものを大幅に上回るパフォーマンスが得られることがわかりました。
-- The Tokenizer Playground
-	- https://huggingface.co/spaces/Xenova/the-tokenizer-playground
-	- After watching, if you want to learn more about how different models (e.g., GPT4, Llama, T5, BERT) tokenize text, check out "The Tokenizer Playground": a web-app I built a few m
+	- 結果ベースの報酬モデル (ORM) をリランカーとして使用して、グローバルとローカルの改良を組み合わせると、いずれか 1 つ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE5MzAwMzQsNTQ5OTQ0Mzg0LDkzOT
-c5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4
-NTk1LDE5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2OD
-U0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5
-MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LD
-ExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0NjY3NTQwMCwtMjA1
-MzY4ODQ0NV19
+eyJoaXN0b3J5IjpbMTg1OTc0NDExOCw1NDk5NDQzODQsOTM5Nz
+k3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1
+OTUsMTkwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NT
+Q3OTY0MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0Mzky
+MCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMT
+EwNzAzNDcyMywtMTI4Mzg5NzQ0NywxNzQ2Njc1NDAwLC0yMDUz
+Njg4NDQ1XX0=
 -->
