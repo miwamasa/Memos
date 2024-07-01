@@ -4,15 +4,15 @@
 
 ## 24/7/1
 
-今週もいろいろありました。「巨大なコンテキストウィンドウのLLMはRAGを不要にするのか？」というdeepmindの論文、RAG不要論争にとどめか。材料系でのエージェント活用や交差と突然変異を化学知識で微調整したLLMで分子設計などのLLMの活用で見るべきものがあった。
+今週もいろいろありました。「巨大なコンテキストウィンドウのLLMはRAGを不要にするのか？」というdeepmindの論文、RAG不要論争にとどめか、なんらかのパラダイムシフトの予感。材料系でのエージェント活用や交差と突然変異を化学知識で微調整したLLMで分子設計など、材料や化学系でのLLMの活用ってアプローチがいつも面白い。
 
-Anthropic、Artifactを作ったのはインスタグラム共同創業者がjoinして２か月で作成とのこと、日本への進出も、AWS展示会でアピールしてたり、自民党AI戦略会議でも、いま準備しないと死にまっせと脅したりと大忙し。 Claudeのproject機能も相当やばいらしい。
+Anthropic、Artifactを作ったのはインスタグラム共同創業者がjoinして２か月で作成とのこと、日本への進出も、AWS展示会でアピールしてたり、自民党AI戦略会議でも、いま準備しないと死にまっせと脅したりと大忙し。 Claudeのproject機能も相当やばいらしい。Googleも、Gemini 1.5 で、出力を JSON に固定することができるようになったとか、Google AI StudioやGemini APIでコードが実行できるようになったとか、Artifactをだいぶ意識してきたようだ。
 
-KARAKURI-LMモデルの評価などもありましたが、Llama-3-ELYZA-JPがリリース、70Bモデルは日本語の生成能力において「GPT-4」超え、8BはGPT-3.5 turboを上回る性能とのこと。
+日本のLLM開発では、KARAKURI-LMモデルの評価などもありましたが、Llama-3-ELYZA-JPがリリース、70Bモデルは日本語の生成能力において「GPT-4」超え、8BはGPT-3.5 turboを上回る性能とのこと。
 
 GoogleからはGemma-2の27B & 9Bがリリース、27BってLlama-3-70B越えとか、9Bは Qwen-2-72B並みの性能とか、性能爆上がりの背後に何らかのブレークスルーがある、 しっかり情報追った方が良さそう。
 
-Gemini 1.5 で、出力を JSON に固定することができるようになったとか、Google AI StudioやGemini APIでコードが実行できるようになったとか、Artifactをだいぶ意識してきたようだ。
+
 
 Gemini NanoのChrome搭載はCanary版を使えばだれでも22GB空きディスクさえあれば、だれでも使えるとのこと.
 
@@ -3565,14 +3565,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- （知らなかった読者にとって）大規模モデルの学習をおそらく圧倒的に効率化できる汎用的かつシンプルなパラメータ付け μP の存在と使い方を知ることができる。
 	- Neural Networks に対してかなり一貫性のある理解が得られそうな気分になる。学習率やパラメータの初期化のスケールに関する話がなんでも TP/μP で取り扱うべき事項に見えてくる。
 - ウェブの日本語テキストをクリーニングするための基本的な処理コードと課題
-	- https://note.com/kan_hatakeyama/n/n331bda7d77c1?sub_rt=share_pb
-		- 文字列の正規化　(変な文字コード
+	- https://note.com/kan_hatakeyama/n/n331
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyOTY0OTY2LC0yMDY4MjY3OTgsNzI2Nj
-M4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0
-LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNz
-M4Mjg4NTk1LDE5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4
-OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MT
-cyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2
-MTk4XX0=
+eyJoaXN0b3J5IjpbMjAyMjYwOTU1OSwtMjA2ODI2Nzk4LDcyNj
+YzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4
+NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMT
+czODI4ODU5NSwxOTAzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1
+ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtOD
+E3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1
+NjE5OF19
 -->
