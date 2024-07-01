@@ -20,8 +20,7 @@ OpenAIのCriticGPT、ChatGPTの出力結果の評価という話だから、同�
 
 メタがLlamaベースのLLMコンパイラってのも、驚いた、コード最適化タスクを行えるらしい。
 
-Florence-2,
-Microsoftが提案しているGraphRAG
+Microsoftからは、visonの基盤モデルで、WebGPUを使ってローカルに動くFlorence-2が発表、こりゃ、監視カメラにローカルに載るわー。MicrosoftのGraphRAGの記事、graphを使わないベースラインとの比較が面白い、やってみたい。
 
 
 「NVIDIA最新GPUの20倍速い」史上最速を謳うAIチップ「Sohu」
@@ -3563,15 +3562,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://note.com/tatsuyashirakawa/n/n9f5b57ce1aa6?sub_rt=share_pb
 	- μTransfer は、μP （Maximal Update Parametrization）という理論的に導出された NN のパラメータ付けにより実現される、サイズの異なる NN 間のハイパーパラメータ転移です。
 	- （知らなかった読者にとって）大規模モデルの学習をおそらく圧倒的に効率化できる汎用的かつシンプルなパラメータ付け μP の存在と使い方を知ることができる。
-	- Neural Networks に対してかなり一貫性のある理解が得られそうな気分になる。学習率やパラメータの初期化のスケールに関する話がなんでも TP/μP で取り扱うべき事項に見えてくる。
-- ウェブの日本語テキストをクリーニングするための基本的な処理コードと課題
-	- https://note.com/kan_hatakeyama/n/n331
+	- Neural Networks に対してかなり一貫性のある理解が得られそうな気分になる。学習率やパラメータの初期化のスケールに関する話がなんでも TP/μP で
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjYwOTU1OSwtMjA2ODI2Nzk4LDcyNj
-YzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4
-NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMT
-czODI4ODU5NSwxOTAzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1
-ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3OSwtOD
-E3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMTY3MjQ1
-NjE5OF19
+eyJoaXN0b3J5IjpbLTExNzM1NDkxMDEsLTIwNjgyNjc5OCw3Mj
+Y2Mzg4OTAsMTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQz
+ODQsOTM5Nzk3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLT
+E3MzgyODg1OTUsMTkwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIz
+NTg5LDY4NTQ3OTY0MywxODE4MDU4MzExLC00OTI0MTU1NzksLT
+gxNzI0MzkyMCw4ODg4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0
+NTYxOThdfQ==
 -->
