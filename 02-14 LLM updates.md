@@ -24,6 +24,8 @@ Microsoftが提案しているGraphRAG
 
 「NVIDIA最新GPUの20倍速い」史上最速を謳うAIチップ「Sohu」
 
+岡野原さんが紹介した、言語は思考よりもコミュニケーションの道具であるという主張の論文、言語が思考を形作るという考え方と真逆なんだけど、LLMってどうがｎ
+
 - 小町先生の、「言語系AIプロジェクトの進め方」がよいらしい
 	- https://x.com/mr_bay_area/status/1804689914291957983
 - Questions at academic conferences
@@ -3569,11 +3571,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - たくさんのお客様がCotomoとおしゃべりしていることで、動作が不安定になる事象が発生しております
 	- https://x.com/starley_jp/status/1761753632788357611?s=20
 - Qwen1.5 速いし日本語完璧だしすごい by shi3z
-	- https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
-- ku-nlp/gpt2-large-japanese-char
-	
+	- https://hug
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4MDIzNjU5LDcyNjYzODg5MCwxNDY1OD
+eyJoaXN0b3J5IjpbLTk1MjI0NDAwLDcyNjYzODg5MCwxNDY1OD
 M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEs
 LTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOT
 AzNjEyODEzLDI4MzYyMzkxLDE0ODA0MjM1ODksNjg1NDc5NjQz
