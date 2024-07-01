@@ -50,6 +50,14 @@
 		- 私たちは、6～18 ヶ月 以内に最先端のモデルが 新しい能力で産業を 急速に変革すると 予想しています
 		- 私たちのお客様は、 将来の画期的な進歩に 備えて最大限の準備を するため、ユースケース を急速に構築しています
 		- 新しい画期的な進歩を待ち 立ち止まっている企業は、 すでに 4～8 ヶ月遅れて いる可能性があります
+- Claudeのproject機能やばい。
+	- https://x.com/onokoro48/status/1805810323473203366
+	- はじめて教育に使えそう。 教科書を読み込ませておいて、 ポン出しで問題演習マシンができた。 勝手にArtifactsと連動してるし。
+- Meta Chameleon: a new mixed-modal research model from Meta FAIR.
+	- https://x.com/AIatMeta/status/1805705668567220261
+	- The 7B & 34B safety tuned models we’ve released can take any combination of text and images as input and produce text outputs using a new early fusion approach.
+	- While some LLMs have separate image and text encoders or decoders, **Chameleon is one of the first publicly released approaches using a single unified architecture.**
+	- https://arxiv.org/abs/2405.09818
 - 
 
 ## 24/6/24
@@ -3552,16 +3560,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- LLM単体で勝負するよりも、LLMを含む各種AI／非AIモジュールを組み合わせて作る「コンパウンドAI」の方がより良いシステムを作りやすい、
 - Introducing LlamaCloud  and　LlamaParse
 	- https://blog.llamaindex.ai/introducing-llamacloud-and-llamaparse-af8cedf9006b
-	- Today is a big day for the LlamaIndex ecosystem: we are announcing LlamaCloud, a new generation of managed parsing, ingestion, and retrieval services, designed to bring **production-grade**  **context-augmentation** to your LLM and RAG applications.
-- MolTailor: Tailoring Chemical Molecular Representation to Specific Tasks via Text Prompts
-	- https://arxiv.org/abs/2401.11403
-	- 機械学習応用には分子の物性予測から分類までさまざまなタスクがありますが、LLMによりそれぞれのタスクごとに最
+	- Today is a big day for the LlamaIndex ecosystem: we are announci
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU1NzgzMTksLTExMzg1MDc2NjcsNT
-Q5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0
-NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4MTMsMjgzNjIzOTEsMT
-Q4MDQyMzU4OSw2ODU0Nzk2NDMsMTgxODA1ODMxMSwtNDkyNDE1
-NTc5LC04MTcyNDM5MjAsODg4ODA2MDI3LC0xMjcxMjc0ODM3LC
-0xNjcyNDU2MTk4LDExMDcwMzQ3MjMsLTEyODM4OTc0NDcsMTc0
-NjY3NTQwMF19
+eyJoaXN0b3J5IjpbMzE0MTU4MjU4LC0xMTM4NTA3NjY3LDU0OT
+k0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYy
+MiwtMTczODI4ODU5NSwxOTAzNjEyODEzLDI4MzYyMzkxLDE0OD
+A0MjM1ODksNjg1NDc5NjQzLDE4MTgwNTgzMTEsLTQ5MjQxNTU3
+OSwtODE3MjQzOTIwLDg4ODgwNjAyNywtMTI3MTI3NDgzNywtMT
+Y3MjQ1NjE5OCwxMTA3MDM0NzIzLC0xMjgzODk3NDQ3LDE3NDY2
+NzU0MDBdfQ==
 -->
