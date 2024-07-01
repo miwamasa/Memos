@@ -16,13 +16,15 @@ Gemini 1.5 で、出力を JSON に固定することができるようになっ
 
 Gemini NanoのChrome搭載はCanary版を使えばだれでも22GB空きディスクさえあれば、だれでも使えるとのこと.
 
-メタがLlamaベースのLLMコンパイラってのも、驚いた、
+メタがLlamaベースのLLMコンパイラってのも、驚いた、コード最適化タスクを行えるらしい。
 
 Florence-2,
 Microsoftが提案しているGraphRAG
 
 
 「NVIDIA最新GPUの20倍速い」史上最速を謳うAIチップ「Sohu」
+
+ IB製造現場で継続的なデータ活用を推進
 
 岡野原さんが紹介した、言語は思考よりもコミュニケーションの道具であるという主張の論文、言語が思考を形作るという考え方と真逆なんだけど、LLMってどう頑張っても機械人形(Anthropic)ということなのか。
 
@@ -171,6 +173,7 @@ Microsoftが提案しているGraphRAG
 	- 仮想マシン上でNumPyやSimPyなどのライブラリを使用できますが、追加のライブラリをインストールすることはできません。コード実行はモデルまたはリクエストレベルで有効化でき、チャットでも利用可能です。実行環境には30秒のタイムアウトなどの制限があります。
 - メタがLlamaベースのLLMコンパイラをオープンリリース。
 	- https://x.com/umiyuki_ai/status/1806380265041973349
+	- プログラムコードを入力すると最適化オプションを提案してくれるとか。あとバイナリから逆コンパイルできる（精度45%）とか。
 	- https://prompthub.info/21476/
 	- Meta Large Language Model Compilerを導入し、コード最適化タスクに特化。
 	- LLVM中間表現（IR）とアセンブリコードの5460億トークンのデータセットで詳細にトレーニングされており、コードサイズ最適化やアセンブリコードの正確な変換を実行。
@@ -3568,11 +3571,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 【最強になった】Googleの最大1000万トークン入力可能なGemini 1.5 Proがヤバすぎる。《概要、他LLMとの比較、ビジネスシーンでの活用方法5選を徹底解説》
 	- https://note.com/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzczNTY2NzMsNzI2NjM4ODkwLDE0Nj
-U4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIx
-MSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LD
-E5MDM2MTI4MTMsMjgzNjIzOTEsMTQ4MDQyMzU4OSw2ODU0Nzk2
-NDMsMTgxODA1ODMxMSwtNDkyNDE1NTc5LC04MTcyNDM5MjAsOD
-g4ODA2MDI3LC0xMjcxMjc0ODM3LC0xNjcyNDU2MTk4LDExMDcw
-MzQ3MjNdfQ==
+eyJoaXN0b3J5IjpbLTg4NDA5Mjg5MSw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
+kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
+MywxODE4MDU4MzExLC00OTI0MTU1NzksLTgxNzI0MzkyMCw4OD
+g4MDYwMjcsLTEyNzEyNzQ4MzcsLTE2NzI0NTYxOTgsMTEwNzAz
+NDcyM119
 -->
