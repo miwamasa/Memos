@@ -159,6 +159,11 @@
 - AISI Japanのホームページが完成している
 	- https://aisi.go.jp/international/
 - Microsoftが提案しているGraphRAG
+	- https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/
+	- https://x.com/A7_data/status/1806231239147364485
+	- LLMでデータからナレッジグラフ作成 
+	- 複雑な質問にも対応可能 
+	- ベースラインより一貫して良い性能を発揮
 - 
 
 ## 24/6/24
@@ -3565,13 +3570,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.kaggle.com/competitions/llm-prompt-recovery
 	- LLMで生成された文章からプロンプトを復元するタスク。
 	- データはGoogle Gemmaで作成。評価がsentence-t5-baseの埋め込みベクタとのコサイン類似度なのが時代を感じる。もうJaccardスコアとかの時代じゃないらしい
-- iOS17.4のソースコードにOpenAIの何かを含む部分が見つかっていて、おそらく数ヶ月以内にSiriが強力にアップデートされます。
-	- https://x.com/1amageek/status/1762422935376302226?s=20
--  The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits
-	- https://huggingface.co/papers/2402.17764
-	- Microsoft p
+- iOS17.4のソースコードにOpenAIの何かを含む部分
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDcyOTcxNyw3MjY2Mzg4OTAsMTQ2NT
+eyJoaXN0b3J5IjpbMTU5ODc2ODE4Miw3MjY2Mzg4OTAsMTQ2NT
 gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
 LC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMT
 kwMzYxMjgxMywyODM2MjM5MSwxNDgwNDIzNTg5LDY4NTQ3OTY0
