@@ -34,7 +34,10 @@
 - 『AI時代の質問力 プロンプトリテラシー 「問い」と「指示」が生成AIの可能性を最大限に引き出す』
 	- https://www.shoeisha.co.jp/book/detail/9784798183459
 	- 本書は、大規模言語モデルの仕組みと「プロンプトエンジニアリング」の基本を理解するところから、AIに適切な質問をし、AIとより効果的な対話をするための「プロンプトパターン」「トリガープロンプト」、さらに進んだ発展的な技術、また最先端の「AIエージェント」にいたるまで、AIとのやりとりを最適化するための知識とノウハウが学べます
-- 
+-  Investigating How Large Language Models Leverage Internal Knowledge to Perform Complex Reasoning
+	- https://arxiv.org/abs/2406.19502
+	- Excited to share our latest paper on the reasoning capabilities of LLMs! Our research dives into how these models recall and utilize factual knowledge during solving complex questions
+	- 
 
 ## 24/7/1
 
@@ -3537,14 +3540,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 神経科学の実験結果をLLM (Llama2・Mistral・Falcon・Galactica) で予測する研究
 	- 論文アブストの背景と方法部分から二択で結果を予想する問題セット「BrainBench」を作り，LLM vs 専門家で比較
 	- 基本的に専門家よりLLMが強い LoRAで神経科学用にfine-tuningすると性能がさらに上がる
-- Claude 3 Cookbook by llamaindex
-	- https://colab.research.google.com/drive/11HzzDd6fAiH2s8nDjZMRY5nx2Licl_tF?usp=sharing
-	- we go through a comprehensive cookbook to show how Claude 3 can be used in a variety of different application use cases with
-- GaLoreってのは事前学習がメッチャ省メモリでできるテクノロジーらしい
-	- https://x.com/umiyuki_ai/status/1765927780263633236?s=20
-	-
+- Claude 3 Cookbook by llamai
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjkzNjM2NCwtMjYyMDk5NjEsMTQ0ND
+eyJoaXN0b3J5IjpbLTQ5NjI0MjA5MCwtMjYyMDk5NjEsMTQ0ND
 A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
 LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
 gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
