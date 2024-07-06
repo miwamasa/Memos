@@ -17,7 +17,16 @@
 	- https://huggingface.co/tokyotech-llm/Llama-3-Swallow-70B-Instruct-v0.1
 -  Imperative Learning: A Self-supervised Neural-Symbolic Learning Framework for Robot Autonomy
 	- https://arxiv.org/abs/2406.16087
+	- What is Neural-Symbolic AI? How do we use it for Robot Autonomy? How to overcome the generalization challenge of RL and Imitation Learning? In this article (https://arxiv.org/abs/2406.16087), we introduce Imperative Learning, a Self-supervised Neural-Symbolic  Framework as our answer.
+- NICTとKDDI、大規模言語モデルに関する共同研究を開始
+	- https://newsroom.kddi.com/news/detail/kddi_nr-154_3422.html
+- gemma-2-27b-itの日本語imatrix量子化gguf
 	- 
+- gemma-2-27b-itのElyza tasks 100のスコア
+	- https://x.com/2022_technology/status/1807302310114267186
+	- どのモデルよりも高い3.88点です！驚異のジャイアントキリング！
+	- https://huggingface.co/grapevine-AI/gemma-2-27b-it-gguf
+	- Googleさんのgemma-2-27b-itの日本語imatrix量子化ggufが完成しました！ 軽量なのにとんでもなく賢い、現状最強のローカルLLMだと思います
 
 ## 24/7/1
 
@@ -3533,26 +3542,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- At the request of the open source community, we're now releasing a 7B model for offensive and defensive cybersecurity. This can be run locally in most computers with less GPU VRAM.
 - プロのライターが「仕事には、GPT-4は言うほど大して使えないけどClaude3はそこそこ使える」
 	- https://x.com/umiyuki_ai/status/1766284320208212472?s=20
-	- たぶん、https://x.com/yukatan/status/1766610634832306408?s=20
-	- ようやっとclaude3を試しましたが、たしかに「リリース起こし」については「え、私の仕事やばいかも」と思うレベルに近づいている。
-- cyzgab/catch-me-if-you-can
-	- https://huggingface.co/spaces/cyzgab/catch-me-if-you-can
-	- GroqInc just added support for Gemma 7B. 
-	- なんかリアルタイムに質問に答えて（打鍵毎に予測して回答を生成している）
-	- まさに、catch me if you canとは。
-- ヒントン氏、AIは言葉を理解していると、、、（日経）
-	- https://www.nikkei.com/article/DGXZQOGN143CZ0U4A210C2000000/?n_cid=nk_chart_qr
-	- 「…大規模言語モデルは、我々と同じように言葉を理解していると思う。…AIが言葉を理解していないという人の大半は、人間がどう理解しているかという理論を持っていない」
-	- ポイント
-		- 人類存続の危機をもたらす恐れがAIにある  
-		- 自律的に人を殺すロボット兵器が10年以内に登場  
-		- 大規模言語モデルは脳より効率的に学習できる
-- 「統計学の極意」
-	- https://www.soshisha.com/book_wadai/books/2692.html
-	- 数式は最小限、面白い実例は満載。統計学入門書最新決定版
-	- 本書は
+	- たぶん、https://x.com/yukat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTk3MTI1NSwtMjYyMDk5NjEsMTQ0ND
+eyJoaXN0b3J5IjpbMTk0OTY2Mzk5NiwtMjYyMDk5NjEsMTQ0ND
 A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
 LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
 gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
