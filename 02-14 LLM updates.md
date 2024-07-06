@@ -9,7 +9,15 @@
 - Gemma-2のSelf-Play Preference Optimization (SPPO) を適用版
 	- https://huggingface.co/UCLA-AGI/Gemma-2-9B-It-SPPO-Iter3
 	- AlpacaEval 2.0 で 53.27%と驚異的 たった9BでGPT-4と肩を並べるレベルは新時代か by AIXサトシ
-- 
+- NICT内にGPAI（AIに関するグローバル・パートナーシップ ）東京専門家支援センター。
+	- https://x.com/ikegai/status/1807668045302857856
+	- 日本政府は、GPAI議長国として、生成AIの政策立案のためのエビデンスを蓄積するプロジェクト等の活動を推進し、GPAIへのさらなる貢献を果たすため、
+	- https://www.soumu.go.jp/menu_news/s-news/01tsushin06_02000292.html
+- Llama3から継続事前学習をしたLlama-3-Swallowモデルのリリース
+	- https://huggingface.co/tokyotech-llm/Llama-3-Swallow-70B-Instruct-v0.1
+-  Imperative Learning: A Self-supervised Neural-Symbolic Learning Framework for Robot Autonomy
+	- https://arxiv.org/abs/2406.16087
+	- 
 
 ## 24/7/1
 
@@ -3542,13 +3550,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 「統計学の極意」
 	- https://www.soshisha.com/book_wadai/books/2692.html
 	- 数式は最小限、面白い実例は満載。統計学入門書最新決定版
-	- 本書は、入門者が知るべき統計学の現代的論点を網羅しており、まさに待ち望まれた「統計学入門書最新決定版」と言えるでしょう
-
-## 3/4
-
-今週は、1ビットLLMの衝撃!マイクロソフトの発表(The Era of 1-bit LLMs)、 70Bで8.9倍高速ということで、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン現象が起きているのか。さて、先週公開されたgemma、ollamaでサポート、やれ周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっとリリース急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出
+	- 本書は
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDMzNzQ5OSwtMjYyMDk5NjEsMTQ0ND
+eyJoaXN0b3J5IjpbMTU3NTk3MTI1NSwtMjYyMDk5NjEsMTQ0ND
 A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
 LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
 gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
