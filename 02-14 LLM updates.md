@@ -21,12 +21,16 @@
 - NICTとKDDI、大規模言語モデルに関する共同研究を開始
 	- https://newsroom.kddi.com/news/detail/kddi_nr-154_3422.html
 - gemma-2-27b-itの日本語imatrix量子化gguf
-	- 
+	- https://huggingface.co/grapevine-AI/gemma-2-27b-it-gguf
+	- Googleさんのgemma-2-27b-itの日本語imatrix量子化ggufが完成しました！ 軽量なのにとんでもなく賢い、現状最強のローカルLLMだと思います
+	- https://x.com/2022_technology/status/1807301685276217458
 - gemma-2-27b-itのElyza tasks 100のスコア
 	- https://x.com/2022_technology/status/1807302310114267186
 	- どのモデルよりも高い3.88点です！驚異のジャイアントキリング！
-	- https://huggingface.co/grapevine-AI/gemma-2-27b-it-gguf
-	- Googleさんのgemma-2-27b-itの日本語imatrix量子化ggufが完成しました！ 軽量なのにとんでもなく賢い、現状最強のローカルLLMだと思います
+-  ClaudeのArtifacts機能でマインクラフトを作ろう！
+	- https://note.com/yoshi8__/n/n0d2816815fba?sub_rt=share_pb
+	- 今回は、Three.jsという３Dモデルが作れるJavaScriptライブラリを使って、簡単なマインクラフト風の3Dゲームを作成する方法をトライしました。
+	- 
 
 ## 24/7/1
 
@@ -3539,12 +3543,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/papers/2403.04642
 - WhiteRabbitNeo/WhiteRabbitNeo-7B-v1.5a
 	- https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-7B-v1.5a
-	- At the request of the open source community, we're now releasing a 7B model for offensive and defensive cybersecurity. This can be run locally in most computers with less GPU VRAM.
-- プロのライターが「仕事には、GPT-4は言うほど大して使えないけどClaude3はそこそこ使える」
-	- https://x.com/umiyuki_ai/status/1766284320208212472?s=20
-	- たぶん、https://x.com/yukat
+	- At the request of the open source community, we're now releasing a 7B model for of
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTY2Mzk5NiwtMjYyMDk5NjEsMTQ0ND
+eyJoaXN0b3J5IjpbLTUxMjY2NjU2NCwtMjYyMDk5NjEsMTQ0ND
 A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
 LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
 gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
