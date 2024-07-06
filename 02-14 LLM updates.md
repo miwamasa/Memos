@@ -51,7 +51,10 @@
 -  Semiautomated experiment with a robotic system and data generation by foundation models for synthesis of polyamic acid particle
 	- https://www.nature.com/articles/s41428-024-00930-9
 	- ポリマー微粒子のロボット合成実験 + マルチモーダルGPT-4で実験観察、解析、自省などがどれくらいできるかを調べてみた論文がpublishされました(polymer journal)。
-	- 
+- 「ゴミを食べ、ゴミを吐く」、ベゾスも出資するAI検索エンジンの品質問題
+	- https://forbesjapan.com/articles/detail/72055?read_more=1
+	- GPTZeroの研究で、パープレキシティのユーザーは平均3回のプロンプト（命令文）の入力でAIが生成した情報源に遭遇することが判明した。「彼らのサービスの質は、その引用元の質に依存している。情報源がAIのハルシネーションによって生み出されたものであるなら、その出力も同様だ」
+	-  ニュース記事の「盗用」
 - 
 
 ## 24/7/1
@@ -3527,15 +3530,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 部分グラフ抽出を賞金集めSteiner木問題(PCST)で解いている。
 - スクショからコード生成！MicrosoftとDeepMindが共著した論文
 	- https://github.com/NoviScl/Design2Code
-	- -The Design2Code benchmark dataset for the task of converting visual design (screenshot) into code implementation, which consists of 484 real-world webpages from C4 (examples shown below).
-- Claude3の開発者が示した、システムプロンプト、シンプル
-	- https://x.com/AmandaAskell/status/17652078429
+	- -The Design2Code 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzI5OTAwNCwtMjYyMDk5NjEsMTQ0ND
-A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
-LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
-gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
-LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEsLTkxNT
-A5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEy
-ODEzXX0=
+eyJoaXN0b3J5IjpbMTI1Nzc3NTA5LC0yNjIwOTk2MSwxNDQ0MD
+Y0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAs
+LTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczOD
+M5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODks
+LTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MD
+k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
+MTNdfQ==
 -->
