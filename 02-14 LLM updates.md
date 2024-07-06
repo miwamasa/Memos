@@ -43,7 +43,15 @@
 	- https://arxiv.org/abs/2406.20094
 	- It's easy to generate synthetic data but hard to scale up its diversity which is essential for its application.
 	- This paper proposes a novel persona-driven data synthesis methodology to generate diverse and distinct data covering a wide range of perspectives.
-- Llama3-Swallow-8B-Instruct-v0.1のShaberi3ベンチスコアは6.78。by う
+- Llama3-Swallow-8B-Instruct-v0.1のShaberi3ベンチスコアは6.78。by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1807840130016989601
+	- モデル公開してくれるのはありがたいんだけどちょっと擁護が難しいパフォーマンス。ベースになったLlama8-8B（6.91）にも負けてんだけど、
+- たったいま一般公開された『Gen-3』 実際に作ってみたけどヤバすぎるわ
+	- https://x.com/ryo_kun0811/status/1807829970577920352
+-  Semiautomated experiment with a robotic system and data generation by foundation models for synthesis of polyamic acid particle
+	- https://www.nature.com/articles/s41428-024-00930-9
+	- ポリマー微粒子のロボット合成実験 + マルチモーダルGPT-4で実験観察、解析、自省などがどれくらいできるかを調べてみた論文がpublishされました(polymer journal)。
+	- 
 - 
 
 ## 24/7/1
@@ -3521,20 +3529,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://github.com/NoviScl/Design2Code
 	- -The Design2Code benchmark dataset for the task of converting visual design (screenshot) into code implementation, which consists of 484 real-world webpages from C4 (examples shown below).
 - Claude3の開発者が示した、システムプロンプト、シンプル
-	- https://x.com/AmandaAskell/status/1765207842993434880?s=20
-- はじめての統計的因果推論
-	- https://x.com/takehikohayashi/status/1765268689367265668?s=20
-	- 開始3ページ目で「統計的因果推論最強論」にいきなり冷や水をぶっかける
-- Qwen-Agent
-	- https://github.com/QwenLM/Qwen-Agent
-	- Agent framework and applications built upon Qwen1.5, featuring Function Calling, Code Interpreter, RAG, and Chrome extension
-- Yoshua Benjio氏の来日東大講演
-	- https://www.youtube.com/watch?v=8aTkuvbd_jU
-	- 思いっきりAIのもたらす壊滅的なリスクやアライメントの話をコアにしている
-- toshi456/llava-bench-in-the-wild-ja
-	- multilingual-llava-bench-in-the-wildの日本語データの翻訳ミスや未翻
+	- https://x.com/AmandaAskell/status/17652078429
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzM0OTA3NCwtMjYyMDk5NjEsMTQ0ND
+eyJoaXN0b3J5IjpbLTgxNzI5OTAwNCwtMjYyMDk5NjEsMTQ0ND
 A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
 LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
 gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
