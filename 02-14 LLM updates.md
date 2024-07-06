@@ -37,7 +37,9 @@
 -  Investigating How Large Language Models Leverage Internal Knowledge to Perform Complex Reasoning
 	- https://arxiv.org/abs/2406.19502
 	- Excited to share our latest paper on the reasoning capabilities of LLMs! Our research dives into how these models recall and utilize factual knowledge during solving complex questions
-	- 
+	- Take this question as an example: "Why does ReLU training take less time than sigmoid or tanh training?". One must not only *recall* what an activation function is, but also *compare*
+	- we propose breaking down complex questions into a graph structure, with each node representing a specific depth of understanding: recall (D1), application (D2), and strategic thinking (D3). Our approach emphasizes accumulating and integrating knowledge to
+- 
 
 ## 24/7/1
 
@@ -3533,16 +3535,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 対話系はClaudeが抜きん出て強い
 	- https://x.com/reasan_mirasan/status/1765513422504890417?s=20
 - LangChain Text Splitters
-	- https://x.com/LangChainAI/status/1765418125569491233?s=20
-	- One of the most popular parts of LangChain is our text splitters - simple yet necessary for any RAG app
--  Large language models surpass human experts in predicting neuroscience results
-	- https://arxiv.org/abs/2403.03230
-	- 神経科学の実験結果をLLM (Llama2・Mistral・Falcon・Galactica) で予測する研究
-	- 論文アブストの背景と方法部分から二択で結果を予想する問題セット「BrainBench」を作り，LLM vs 専門家で比較
-	- 基本的に専門家よりLLMが強い LoRAで神経科学用にfine-tuningすると性能がさらに上がる
-- Claude 3 Cookbook by llamai
+	- https://x.com/LangChainAI/status/1765418125
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjI0MjA5MCwtMjYyMDk5NjEsMTQ0ND
+eyJoaXN0b3J5IjpbMjA5Mjc5MjIzNiwtMjYyMDk5NjEsMTQ0ND
 A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
 LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
 gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
