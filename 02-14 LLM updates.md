@@ -3,7 +3,13 @@
 
 ## 24/7/8
 
--
+-  Self-Play Preference Optimization for Language Model Alignment
+	- https://huggingface.co/papers/2405.00675
+	- SPO論文
+- Gemma-2のSelf-Play Preference Optimization (SPPO) を適用版
+	- https://huggingface.co/UCLA-AGI/Gemma-2-9B-It-SPPO-Iter3
+	- AlpacaEval 2.0 で 53.27%と驚異的 たった9BでGPT-4と肩を並べるレベルは新時代か by AIXサトシ
+- 
 
 ## 24/7/1
 
@@ -3540,13 +3546,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 3/4
 
-今週は、1ビットLLMの衝撃!マイクロソフトの発表(The Era of 1-bit LLMs)、 70Bで8.9倍高速ということで、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン現象が起きているのか。さて、先週公開されたgemma、ollamaでサポート、やれ周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっとリリース急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがあるとのこと。マネフォOBが立ち上げたスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切がよくわかる。Mistral Large、「Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得」って本当か？LLMには自然言語よりも最適な形式があるのでは？という野心的な『AutoForm（オートフォーム）』、そういえば先輩の三つ子ちゃんは、独自の言語でコミュニケーションしていたって言ってたな。東工大の、『論文の結論を学習させたら性能が下がった。』という話、イントロの
+今週は、1ビットLLMの衝撃!マイクロソフトの発表(The Era of 1-bit LLMs)、 70Bで8.9倍高速ということで、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン現象が起きているのか。さて、先週公開されたgemma、ollamaでサポート、やれ周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっとリリース急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0NTk5ODY5LC0yNjIwOTk2MSwxNDQ0MD
-Y0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAs
-LTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczOD
-M5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODks
-LTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MD
-k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
-MTNdfQ==
+eyJoaXN0b3J5IjpbLTkwMDMzNzQ5OSwtMjYyMDk5NjEsMTQ0ND
+A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
+LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
+gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
+LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEsLTkxNT
+A5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEy
+ODEzXX0=
 -->
