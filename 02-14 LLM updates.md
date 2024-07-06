@@ -40,7 +40,11 @@
 	- Take this question as an example: "Why does ReLU training take less time than sigmoid or tanh training?". One must not only *recall* what an activation function is, but also *compare*
 	- we propose breaking down complex questions into a graph structure, with each node representing a specific depth of understanding: recall (D1), application (D2), and strategic thinking (D3). Our approach emphasizes accumulating and integrating knowledge to
 -  Scaling Synthetic Data Creation with 1,000,000,000 Persona
-	- 
+	- https://arxiv.org/abs/2406.20094
+	- It's easy to generate synthetic data but hard to scale up its diversity which is essential for its application.
+	- This paper proposes a novel persona-driven data synthesis methodology to generate diverse and distinct data covering a wide range of perspectives.
+- Llama3-Swallow-8B-Instruct-v0.1のShaberi3ベンチスコアは6.78。by う
+- 
 
 ## 24/7/1
 
@@ -3528,20 +3532,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.youtube.com/watch?v=8aTkuvbd_jU
 	- 思いっきりAIのもたらす壊滅的なリスクやアライメントの話をコアにしている
 - toshi456/llava-bench-in-the-wild-ja
-	- multilingual-llava-bench-in-the-wildの日本語データの翻訳ミスや未翻訳のデータをDeepL+手動で修正したデータを公開しました。 
-	- 先日Turingさんが公開したLLaVA-Bench-JA(COCO)と合わせて日本語VLMの評価にご活用ください。
-- Claude-3がAIで初めてIQ100超えを達成したと主張
-	- https://www.maximumtruth.org/p/ais-ranked-by-iq-ai-passes-100-iq
-	- 「現在の成長率を単純に外挿すると、4～10年後にはClaude-6がIQの質問にすべて正解し、誰よりも賢くなることが示唆された」
-- 対話系はClaudeが抜きん出て強い
-	- https://x.com/reasan_mirasan/status/1765513422504890417?s=20
-- LangChai
+	- multilingual-llava-bench-in-the-wildの日本語データの翻訳ミスや未翻
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAxMjY2MDEsLTI2MjA5OTYxLDE0ND
-QwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYy
-MCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2Nz
-M4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4
-OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MT
-UwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYx
-MjgxM119
+eyJoaXN0b3J5IjpbLTQxMzM0OTA3NCwtMjYyMDk5NjEsMTQ0ND
+A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
+LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
+gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
+LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEsLTkxNT
+A5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEy
+ODEzXX0=
 -->
