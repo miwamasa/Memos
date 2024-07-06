@@ -1,6 +1,8 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
+## 24/7/8
+
 
 ## 24/7/1
 
@@ -3537,13 +3539,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 3/4
 
-今週は、1ビットLLMの衝撃!マイクロソフトの発表(The Era of 1-bit LLMs)、 70Bで8.9倍高速ということで、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン現象が起きているのか。さて、先週公開されたgemma、ollamaでサポート、やれ周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっとリリース急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがあるとのこと。マネフォOBが立ち上げたスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切がよくわかる。Mistral Large、「Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得」って本当か？LLMには自然言語よりも最適な形式があるのでは？という野心的な『AutoForm（オートフォーム）』、そういえば先輩の三つ子ちゃんは、独自の言語でコミュニケーションしていたって言ってたな。東工大の、『論文の結論を学習させたら性能が下がった。』という話、イントロのほうがよい
+今週は、1ビットLLMの衝撃!マイクロソフトの発表(The Era of 1-bit LLMs)、 70Bで8.9倍高速ということで、勝手実装、追試も続々、200Mでそれなりに動くというshi3zさんの評価も、shi3zさんによると、「プログラマーなら全員BitNet試してみるべき」だそうだ。小さく試すという意味では、250MのMixtralをpretrainingからfinetuningを試した事例も。てっぺんが高いところにあると周辺も拾うところがたくさんあるという、LLM界隈でのトリクルダウン現象が起きているのか。さて、先週公開されたgemma、ollamaでサポート、やれ周辺モジュールにバグが多いとか、いやファインチューニングで使えたとか、いろいろ評価がある、2bのほうが7bより性能よいと謎の報告も、ちょっとリリース急ぎすぎたか。一方Qwenは、Qwen1.5最高とか、もはやQwen-72Bでいいのではないのか、という評価も出ているが、実は出力をデータセットようには使えないなどの縛りがあるとのこと。マネフォOBが立ち上げたスタートアップstarleyの音声会話型おしゃべりAIアプリ「Cotomo」、UXを考えてちゃんと使える商品に落とすこむことの大切がよくわかる。Mistral Large、「Gemini Proなどのクローズドモデルよりも高いベンチマークスコアを獲得」って本当か？LLMには自然言語よりも最適な形式があるのでは？という野心的な『AutoForm（オートフォーム）』、そういえば先輩の三つ子ちゃんは、独自の言語でコミュニケーションしていたって言ってたな。東工大の、『論文の結論を学習させたら性能が下がった。』という話、イントロのほう
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4MDQxNjIsLTI2MjA5OTYxLDE0NDQwNj
-Q4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYyMCwt
-MzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2NzM4Mz
-kwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4OSwt
-MTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MTUwOT
-c2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYxMjgx
-M119
+eyJoaXN0b3J5IjpbLTE2MDYyODkyNTEsLTI2MjA5OTYxLDE0ND
+QwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYy
+MCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2Nz
+M4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4
+OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MT
+UwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYx
+MjgxM119
 -->
