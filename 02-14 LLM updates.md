@@ -39,7 +39,8 @@
 	- Excited to share our latest paper on the reasoning capabilities of LLMs! Our research dives into how these models recall and utilize factual knowledge during solving complex questions
 	- Take this question as an example: "Why does ReLU training take less time than sigmoid or tanh training?". One must not only *recall* what an activation function is, but also *compare*
 	- we propose breaking down complex questions into a graph structure, with each node representing a specific depth of understanding: recall (D1), application (D2), and strategic thinking (D3). Our approach emphasizes accumulating and integrating knowledge to
-- 
+-  Scaling Synthetic Data Creation with 1,000,000,000 Persona
+	- 
 
 ## 24/7/1
 
@@ -3534,14 +3535,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「現在の成長率を単純に外挿すると、4～10年後にはClaude-6がIQの質問にすべて正解し、誰よりも賢くなることが示唆された」
 - 対話系はClaudeが抜きん出て強い
 	- https://x.com/reasan_mirasan/status/1765513422504890417?s=20
-- LangChain Text Splitters
-	- https://x.com/LangChainAI/status/1765418125
+- LangChai
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Mjc5MjIzNiwtMjYyMDk5NjEsMTQ0ND
-A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
-LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
-gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
-LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEsLTkxNT
-A5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEy
-ODEzXX0=
+eyJoaXN0b3J5IjpbLTEyMzAxMjY2MDEsLTI2MjA5OTYxLDE0ND
+QwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYy
+MCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2Nz
+M4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4
+OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MT
+UwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYx
+MjgxM119
 -->
