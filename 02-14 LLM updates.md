@@ -30,7 +30,11 @@
 -  ClaudeのArtifacts機能でマインクラフトを作ろう！
 	- https://note.com/yoshi8__/n/n0d2816815fba?sub_rt=share_pb
 	- 今回は、Three.jsという３Dモデルが作れるJavaScriptライブラリを使って、簡単なマインクラフト風の3Dゲームを作成する方法をトライしました。
-	- 
+	- ゲーム開発経験がない僕でも、Claudeを使って簡単なWebゲームを作ることができました！「追加して欲しい機能をうまく伝えること」が鍵かなって思っています。
+- 『AI時代の質問力 プロンプトリテラシー 「問い」と「指示」が生成AIの可能性を最大限に引き出す』
+	- https://www.shoeisha.co.jp/book/detail/9784798183459
+	- 本書は、大規模言語モデルの仕組みと「プロンプトエンジニアリング」の基本を理解するところから、AIに適切な質問をし、AIとより効果的な対話をするための「プロンプトパターン」「トリガープロンプト」、さらに進んだ発展的な技術、また最先端の「AIエージェント」にいたるまで、AIとのやりとりを最適化するための知識とノウハウが学べます
+- 
 
 ## 24/7/1
 
@@ -3538,14 +3542,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- we go through a comprehensive cookbook to show how Claude 3 can be used in a variety of different application use cases with
 - GaLoreってのは事前学習がメッチャ省メモリでできるテクノロジーらしい
 	- https://x.com/umiyuki_ai/status/1765927780263633236?s=20
-	- VRAM24GBで7BモデルのLLMの事前学習ができてしまうらしい
-- Meta announces Teaching Large Language Models to Reason with Reinforcement Learning
-	- https://huggingface.co/papers/2403.04642
-- WhiteRabbitNeo/WhiteRabbitNeo-7B-v1.5a
-	- https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-7B-v1.5a
-	- At the request of the open source community, we're now releasing a 7B model for of
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjY2NjU2NCwtMjYyMDk5NjEsMTQ0ND
+eyJoaXN0b3J5IjpbLTk2NjkzNjM2NCwtMjYyMDk5NjEsMTQ0ND
 A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
 LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
 gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
