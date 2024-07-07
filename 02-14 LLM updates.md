@@ -3,6 +3,9 @@
 
 ## 24/7/8
 
+
+SPOってのは、aligmentなんだけど、
+
 -  Self-Play Preference Optimization for Language Model Alignment
 	- https://huggingface.co/papers/2405.00675
 	- SPO論文
@@ -3522,10 +3525,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - With OpenAI, Figure 01 can now have full conversations with people
 	- https://x.com/Figure_robot/status/1767913661253984474?s=20
 	- ChatGPT、ついにロボットに宿る
-	- 2週間前、OpenAIとロボット開発のFigureが提携を発表しました。
-	- 今回、F
+	- 2週間前、OpenAIとロボット開発のF
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTI4NDE0MiwzOTY1OTI2NDEsMjcxNT
+eyJoaXN0b3J5IjpbLTc1MzM5NTY4MywzOTY1OTI2NDEsMjcxNT
 UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
 MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
 U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
