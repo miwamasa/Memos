@@ -8,6 +8,8 @@ gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3
 
 SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用した学習と最適化手法だそうで、alignmentとも相性が良い模様。Gemma-2にSPPOを適用したLLMがあちらこちらのベンチマークで高得点をマーク。
 
+まあといｔ
+
 テキストから動画、画像から動画、テキストから画像でRunwayのGen-3が話題になった、人の顔って動くと不自然さがわかるはずなのに、もはや識別不能。メタも「Meta 3D Gen」を発表、評価を待とう。
 
 RAGでは、先週話題となったMicrosoftのGraphRAG論文、発表直後に実装がgithubに公開、ollamaでも試せる模様。RAG survey論文、Naive RAG", "Advanced RAG", "Modular RAG"という歴史的な視点から、細かい技術まで徹底的に網羅、いやこんな手法があるのかと大変参考になる。TJOさんも絶賛、というか後出しじゃんけんぽくてみっともないな。
@@ -19,7 +21,8 @@ Llama3-Swallow-
 
 BM42とか、RetrievaBERTとか、FastEmbed、とか文書検索やエンベディングなどの基盤も着実に進化がある、成果に期待。
 
-LLMの基本的な性質に対して物申すKey Claims 論文、確かにLLMの特徴って、とか、エコノミストのAI革命は今のところ経済的インパクトがほとんど確認できないとい記事をみても、
+LLMの基本的な性質に対して物申すKey Claims 論文、確かにLLMの特徴ってそれが発言する条件を備考に乗せると長くなるよな。経済的な視点では、エコノミストのAI革命は今のところ経済的インパクトがほとんど確認できないとい記事も、確かに、誰が開発やGPUを動かすお金を払ってるんだろうと冷静な分析。
+
 
 「Moshi」
 
@@ -3519,7 +3522,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Mjg5MTMxMSw1MzA4NDY1NTMsLTkxOT
+eyJoaXN0b3J5IjpbLTQ0MjU5NjU5Nyw1MzA4NDY1NTMsLTkxOT
 cyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQx
 LDI3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzND
 g2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcs
