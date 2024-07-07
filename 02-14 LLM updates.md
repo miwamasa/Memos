@@ -6,6 +6,10 @@
 
 SPOってのは、aligmentなんだけど、
 
+RunwayのGen-3で
+
+RAGでは、MicrosoftのGraphRAG、発表直後にgithubに公開、
+
 -  Self-Play Preference Optimization for Language Model Alignment
 	- https://huggingface.co/papers/2405.00675
 	- SPO論文
@@ -3523,15 +3527,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Claude 3 Haiku, the fastest and most affordable model in its intelligence class.
 	- https://x.com/AnthropicAI/status/1768018310615151002?s=20
 - With OpenAI, Figure 01 can now have full conversations with people
-	- https://x.com/Figure_robot/status/1767913661253984474?s=20
-	- ChatGPT、ついにロボットに宿る
-	- 2週間前、OpenAIとロボット開発のF
+	- https://x.com/Figure_robot/status/176791366125
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzM5NTY4MywzOTY1OTI2NDEsMjcxNT
-UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
-MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
-U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
-NzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OT
-Q0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIy
-XX0=
+eyJoaXN0b3J5IjpbLTEwNTE5NDQ3ODgsMzk2NTkyNjQxLDI3MT
+U1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUs
+MTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3OD
+k1NzMzLC0xNDA5MjE4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4
+LDcyNjYzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OT
+k0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYy
+Ml19
 -->
