@@ -17,6 +17,27 @@ ClaudeのArtifacts機能でマインクラフト
 
 Llama3-Swallow-
 
+LLMの最新動向として、さまざまな構想や技術的な進展が続々と報告されています。特に目立つのは、自己演算による好み最適化（SPPO）、Neural-Symbolic AI、Retrieval-Augmented Generation（RAG）、LLMの量子化、新しいトレーニング手法などが挙げられます。これらの革新がそれぞれ異なる側面からモデルの性能や応用範囲を大きく拡張しています。
+
+最近、SPPOを用いたGemma-2がリリースされ、軽量ながらもGPT-4クラスの性能を示していると報告されています。これに伴い、AlpacaEval 2.0での高評価やShaberi3ベンチマークでの驚異的なスコアなど、実際に優れたパフォーマンスを発揮している証拠が挙げられています。
+
+また、NICTとKDDIは、生成AIの政策立案をサポートするための専門家支援センターを設立し、日本もGPAI（AIに関するグローバル・パートナーシップ）への貢献を強化しています。この取り組みは、生成AIの社会的受容やエビデンスの蓄積に寄与するでしょう。
+
+一方、Llama3-SwallowモデルやGemma 2:27Bなど、新しいLLMモデルが続々と発表され、各種ベンチマークでの評価が進んでいます。特にLlama3-Swallow-8BがShaberi3ベンチマークで6.78のスコアを記録しました。この結果を受けて、一部の評価者はそのパフォーマンスに疑問を感じつつも、その存在に注目しています。
+
+Neural-Symbolic AIの分野では、「Imperative Learning」や「Retrieval-Augmented Generation」の手法が取り入れられ、特にロボット自律システムへの応用が期待されています。これらの手法は、複雑な推論と知識の統合に関する新しいアプローチを提供しています。
+
+さらに、Metaが公開したLLMコンパイラは、プログラミングの常識を変える可能性を秘めています。LLVM-IRとアセンブリコードを理解することで、コードサイズの最適化に目覚ましい成果を上げており、特に生成AIによるプログラミング支援の分野で注目されています。
+
+Microsoftやサイバーエージェントからも新しいLLM技術が報告されており、NMISTなどの大型モデルに基づくアプローチが進展しています。特にMicrosoftのGraphRAGやBM42のように、RAG技術を応用したデータ検索やクエリの多様性を高める手法が発表されています。
+
+また、最新の研究として、ポリマー逆設計に用いるVAE（Variational Autoencoder）なども紹介されています。このモデルは、ポリマーの物性を広範囲から逆設計する能力を持つため、材料科学分野での多様な応用が期待されています。
+
+AI技術の実用化に関しては、現在、投資と実装のギャップが指摘されています。巨大テック企業による莫大な資金投入が行われている一方で、実際の経済的インパクトがまだ限定的だという報告もあります。その背景には、データの安全性やアルゴリズムのバイアス、技術の進展速度があるとされています。
+
+このように、最新のLLM動向は非常に多岐に渡り、それぞれの技術革新が新たな応用分野を切り拓く一方で、その実用化に向けた課題も明らかになってきています。これからの進展がどのように社会や産業に影響を与えるのか、非常に興味深い状況が続いています。
+
+
 -  Self-Play Preference Optimization for Language Model Alignment
 	- https://huggingface.co/papers/2405.00675
 	- SPPO論文
@@ -3511,31 +3532,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- How quickly have the algorithms behind language models like GPT-4 been improving over time?
 - Talk like a graph: Encoding graphs for large language models
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
-	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a kitchen, parts of a bike, or a group of friends. Learn about our latest work that explores how to encode graphs in a format that an LLM can understand:
-- GPT-4.5 Turbo possible release in June, 256k token context window
-	- https://x.com/AiBreakfast/status/1767612026925277424?s=20
-	- This OpenAI blog search result shows up in a DuckDuckGo search of “OpenAI GPT-4.5 Turbo” link, then goes to an OpenAI Error 404 page.
-- 企業が求める主体性とはなにか？
-	- https://www.amazon.co.jp/dp/4798918431/ref=cm_sw_r_as_gl_api_gl_i_294DJF3GFDESXD5WSRBV?linkCode=ml1&tag=regista13-22
-	- 企業が期待する「主体性」はかつては行動力だったのが今は思考力と協調・協働できる力になってるとのこと。コミュ力の時代の反映。
--  いま「新しい数学」が必要だ。助けて数学者! by shi3z さん
-	- https://note.com/shi3zblog/n/nafa1cee6ada2?sub_rt=share_pw
-	- たぶんAI以後の世界で最も価値を持つのは「数学者」である。しかも「高次元幾何学」ないし、それを上回るくらいの概念を発明する数学者だろう
-- Devin, the first AI software engineer.
-	- https://x.com/cognition_labs/status/1767548763134964000?s=20
-	- Devin is the new state-of-the-art on the SWE-Bench coding benchmark, has successfully passed practical engineering interviews from leading AI companies, and has even completed real jobs on Upwork.
-	- AIのソフトウェアエンジニア（Devin）が人間レベルに達した初めてのデモだと思う。AIの導入で課題となってたのが長期的な推論と計画。ところが、Devinは計画→実行→評価→再計画を繰り返し、目標達成へと導くシステムを実現している
--  速報：Claude 3に判例評釈を自動生成させてみた（Coinhive事件最高裁判決の巻）
-	- https://takagi-hiromitsu.jp/diary/20240313.html
-	- 「これだけLLMが長文の意味内容を「理解」するようになったとなると、もはや、書評や論文紹介、判例批評など、定形的なスタイルを持つ学術記事は、…」
-	- ひろみちゅ先生絶賛
-- Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニング
+	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODUyMDU3NiwzOTY1OTI2NDEsMjcxNT
-UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
-MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
-U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
-NzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OT
-Q0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIy
-XX0=
+eyJoaXN0b3J5IjpbLTEyMjE4NDg4MTAsMzk2NTkyNjQxLDI3MT
+U1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUs
+MTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3OD
+k1NzMzLC0xNDA5MjE4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4
+LDcyNjYzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OT
+k0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYy
+Ml19
 -->
