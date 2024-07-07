@@ -275,7 +275,10 @@
 	- DPSy performed 40% better on a novel classification benchmark.
 - extracted the full ~5000 token claude3.5sonnet
 	- https://x.com/rahulgs/status/1809313740275454352
-	- 
+	- this is a great template for function calling / tool use
+	- https://gist.github.com/1rgs/b31a1de86df9b9f1b295647d4d29dd45
+	- artifacts: seem to be a fully in-context abstraction, model not finetuned for it
+- 
 
 ## 24/7/1
 
@@ -3520,18 +3523,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/Figure_robot/status/1767913661253984474?s=20
 	- ChatGPT、ついにロボットに宿る
 	- 2週間前、OpenAIとロボット開発のFigureが提携を発表しました。
-	- 今回、Figureは、ChatGPTの技術をロボットに搭載したことを発表しました。
-	- 遠隔操作なしの100%エンドツーエンドのシステム 
-	- OpenAIのモデルが高レベルの視覚と言語の知性を提供
-	- Figureのニューラルネットワークが動画のようなロボットの動作を実現しています
--  Claude 3 Haiku の概要 by npakaさん
-	- https://note.com/npaka/n/n71f1e
+	- 今回、F
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMDQyODkwLDM5NjU5MjY0MSwyNzE1NT
-A4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEw
-NjQ4Nzg0NDgsMTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NT
-czMywtMTQwOTIxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3
-MjY2Mzg4OTAsMTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5ND
-QzODQsOTM5Nzk3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjJd
-fQ==
+eyJoaXN0b3J5IjpbMTM0OTI4NDE0MiwzOTY1OTI2NDEsMjcxNT
+UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
+MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
+U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
+NzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OT
+Q0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIy
+XX0=
 -->
