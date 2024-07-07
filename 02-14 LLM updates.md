@@ -247,8 +247,24 @@
 	- https://note.com/361yohen/n/nbc4957231fe1
 - The Transformers architecture clearly explained
 	- https://x.com/rfeers/status/1809150250688639209
-- # Many-Shot In-Context Learning
-- 
+-  Many-Shot In-Context Learning
+	- https://arxiv.org/abs/2404.11018
+	- Should you finetune your LLM or just give relevant examples in the prompt? How many examples should you give for best performance?? If you give more will it hurt perf?? Does order of the examples matter!?
+	- Large performance jumps when going from providing very few(1-5) examples(few-shot in-context learning - ICL) to providing many(100s-1000s) examples(many-shot ICL)
+	- Show that many-shot ICL can overcome pre-training biases, perform comparably to supervised fine-tuning, and learn non-NLP prediction tasks.
+- CodeInterpreter君勝手に必要なライブラリ自分でインストールするようになってる
+	- https://x.com/lemilemilemio/status/1809250242468188288
+- GraphRAG Advanced: Avoid Overspending with These Tips　by MervinPraison
+	- https://x.com/MervinPraison/status/1809279522891604249
+- 今後数カ月でAssistants APIのファイル検索に来る予定の機能が書かれてるじゃん！
+	- https://x.com/super_bonochin/status/1809355949565702542
+	- ベクトルだけでなくメタデータを利用したフィルタリング（Azure AI search使ってるもんね）
+	- いわゆる画像RAG（図表の内容もふまえたRAG）
+	- csvやjsonl等の構造化データに対するクエリ
+-  Grokked Transformers are Implicit Reasoners: A Mechanistic Journey to the Edge of Generalization
+	- https://arxiv.org/abs/2405.15071
+	- They found that the critical factor isn't the amount of data, but the ratio (ϕ) of inferred facts to atomic facts. Figure 2(a) illustrates this beautifully - higher ϕ values correlate with faster generalization. This challenges a lot of conventional wisdom about data requirements in deep learning.
+	- 
 
 ## 24/7/1
 
@@ -3511,33 +3527,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2402.18679
 	- Data Interpreter has achieved state-of-the-art scores in machine learning, mathematical reasoning, and open-ended tasks, and can analyze stocks, imitate websites, and train models.
 	- https://docs.deepwisdom.ai/main/en/DataInterpreter/
-- 松田先生が、なぜ1.58bitのbitnetが上手く行くのか考えた話
-	- https://x.com/umiyuki_ai/status/1768109605148848322?s=20
-	- まず、LLMが何を計算してるか？というと、広大な言語空間の中から次の単語を当てるゲーム。最近のLLMの言語空間は4096次元とかあって、我々の物理空間が3次元しかないのに比べて有り得ん広さ。その中にトークナイザのトークン語彙はたったの3万種類とかしかないわけで、つまり一つの単語あたりに割り当てられた空間もメチャクチャ広い。だから1.58bitに量子化されて計算が雑になってもちゃんと当たる。
--  Artificial intelligence and illusions of understanding in scientific research
-	- https://www.nature.com/articles/s41586-024-07146-0
-	- 「AIは科学を促進するが、『理解の錯覚』を生み出す危険性がある」、というパースペクティブ論文。
-- すべての無料版CopilotユーザーがOpenAIの「**[GPT-4 Turbo](https://gigazine.net/news/20231107-openai-gpt-4-turbo/)**」にアクセスできるようになったことが、Microsoftの広報担当責任者から発表されました。
-	- https://gigazine.net/news/20240314-copilot-gpt-4-turbo-free/
--  Artificial Intelligence Controller Interface (AICI)
-	- https://github.com/microsoft/aici
-	- 大規模言語モデルの出力制御をカンタンにするオープンソースのインターフェース。Microsoft 製。開発者はコントローラーと呼ばれるカスタムロジックを用いて、LLM の生成プロセスをリアルタイムで制御可能。…
-- 国産LLMが抱える“開発コスト”の課題　海外勢に安さで勝てるか、ELYZA代表の危機感
-	- https://www.itmedia.co.jp/aiplus/articles/2403/13/news167.html
-	- 国産随一の精度のLLMを開発したELYZA 。マイクロソフトやAWSが後押しする競合とどう棲み分けていくのか。曽根岡代表の発言をまとめました。
-- alfredplpl/suzume-poc
-	- https://huggingface.co/alfredplpl/suzume-poc
-	- GoogleのGemma-2Bを日本語で使えるように継続事前学習を施した、商用利用可能なベースモデルSuzumeを公開しました。 小型なのでスマホや家電などに向いています
-- 世田谷区がAI botを内製　非エンジニア職員がローコードで開発　ChatGPT活用「ヒデキ」
-	- https://www.itmedia.co.jp/news/articles/2403/13/news123.html
-	- 非エンジニアの職員チームが、ローコードツールなどを駆使して3カ月で完成させたという。
-	- 職員が普段から使っているTeamsのチャットツールでヒデキに質問でき、ChatGP
+- 松
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2NTkyNjQxLDI3MTU1MDg2OCwtMjYyMD
-k5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwx
-NDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5Mj
-E4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwx
-NDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OT
-cyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5
-NV19
+eyJoaXN0b3J5IjpbMTgzNzk3MjE3MCwzOTY1OTI2NDEsMjcxNT
+UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
+MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
+U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
+NzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OT
+Q0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIy
+XX0=
 -->
