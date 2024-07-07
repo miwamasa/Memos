@@ -165,6 +165,12 @@
 	- https://www.nature.com/articles/s41524-024-01328-0
 	- VAEによるポリマー逆設計の論文　by 横山さん
 	- 従来の逆設計はあるトポロジーのポリマーに限定さていたのに対し、環状・櫛形・星形など様々なトポロジーのポリマーデータを構築、狙いの物性をもつポリマーを広範囲から逆設計できたそうです。
+- BM42: The combination of semantic and keyword search
+	- https://x.com/qdrant_engine/status/1808498752107241949
+	- https://qdrant.tech/articles/bm42/
+	- For 40 years, BM25 has been the standard for search engines. However, it falls short for modern RAG applications.
+	- We propose a new approach for exact keyword search based on Sparse Vectors and Attention from Transformers.
+	- We can leverage the intelligence of the transformer to score the importance of each word in a sentence, while still being able to combine it with collection-wide statistics like IDF.
 - 
 
 ## 24/7/1
@@ -3523,20 +3529,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 今週は、AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロもうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力で旋風を巻き起こしている。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは(humanityの)終わりの始まりか。Groqは、gemma-7bベースのデモを公開、リアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたらalignmentを強調するわけもわかるわ。分割統治式でタスクを分解するNVIDIAのAgent、Qwen-AgentとかAgent周りも当然進む。一方、日本のサブカルに強いgemma-7bベースの日英・英日翻訳モデルとか日本語モデルやデータセットの進展もある。 「はじめての統計的因果推論」、ゆるめの表紙の割には辛口なのが面白い。「統計学の極意」の邦訳版、日本のAIリテラシー向上に寄与できるか。Benjoさんの東大講演、Hintonさんの日経インタビュー、いづれもAIが人を超えることによる脅威について語っている感じなのは興味深い。さて、Appleが生成AIに注力と発表、M3 MacBook Airを突然発表し、なんか不気味な感じがしますね。
 
 - Apple、パワフルなM3チップを搭載した新しい13インチと15インチMacBook Airを発表
-	- https://www.apple.com/jp/newsroom/2024/03/apple-unveils-the-new-13-and-15-inch-macbook-air-with-the-powerful-m3-chip/
--  WSL2でSwallow-7b-plus-hfを試してみる
-	- https://note.com/ngc_shj/n/n80871f8e4e24?sub_rt=share_h
-	- 使用するPCはドスパラさんの「GALLERIA UL9C-R49」
-	- chat(instruct)モデルではないので、--no-chatとして起動します
-	- これは、なかなかいい感じである。いままで最高かもしれない
-- Awesome-Graph-LLM
-	- https://github.com/XiaoxinHe/Awesome-Graph-LLM
-	- グラフベースの手法とLLMの双方が関連している研究論文のキュレーションリストレポジトリ
-- Jurafsky-MartのSpeech and Language Processing  (3rd ed. draft)
-	- https://web.stanford.edu/~jurafsky/slp3/
-	- In-Context LearningやInstruction
+	- https://www.apple.c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Nzk3MDU3NywyNzE1NTA4NjgsLTI2Mj
+eyJoaXN0b3J5IjpbMTYxNTU4OTQzNCwyNzE1NTA4NjgsLTI2Mj
 A5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgs
 MTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOT
 IxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAs
