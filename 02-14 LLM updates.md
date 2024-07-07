@@ -17,11 +17,11 @@ RAGでは、先週話題となったMicrosoftのGraphRAG論文、発表直後に
 ClaudeのArtifacts機能でマインクラフト
 
 
-Llama3-Swallow8Bとか、CALM3-22B-Chatとか、
+Llama3-Swallow-8Bとか、CALM3-22B-Chatとか、日本のLLMも検討してますが、ちょっと厳しいなあ。
 
 BM42とか、RetrievaBERTとか、FastEmbed、とか文書検索やエンベディングなどの基盤も着実に進化がある、成果に期待。
 
-LLMの基本的な性質に対して物申すKey Claims 論文、確かにLLMの特徴ってそれが発言する条件を備考に乗せると長くなるよな。経済的な視点では、エコノミストのAI革命は今のところ経済的インパクトがほとんど確認できないとい記事も、確かに、誰が開発やGPUを動かすお金を払ってるんだろうと冷静な分析。
+LLMの基本的な性質に対して物申すKey Claims 論文、確かにLLMの特徴ってそれが発言する条件を備考に乗せると長くなるよな。経済的な視点では、エコノミストのAI革命は今のところ経済的インパクトがほとんど確認できないとい記事も、確かに、誰が開発やGPUを動かすお金を払ってるんだろうと冷静な分析。GPTZeroの報告にあったように、パープレキシティのユーザーは平均3回のプロンプ
 
 
 「Moshi」
@@ -3522,11 +3522,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDE0NDEyOCw1MzA4NDY1NTMsLTkxOT
-cyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQx
-LDI3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzND
-g2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcs
-NTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3MzgzOTA5NCwtMjA2OD
-I2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3
-XX0=
+eyJoaXN0b3J5IjpbLTE2MDc4MjAxNjUsNTMwODQ2NTUzLC05MT
+k3MjEyMTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0
+MSwyNzE1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5Mz
+Q4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYyMCwtMzM1NjgzOTA3
+LDUwNzg5NTczMywtMTQwOTIxODUwMiw2NzM4MzkwOTQsLTIwNj
+gyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4OSwtMTEzODUwNzY2
+N119
 -->
