@@ -6,7 +6,7 @@
 gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、 スライディングウィンドウのアテンション、知識蒸留、ソフトキャッピングによるトレーニングの安定性、WARPと呼ばれる新しいマージング技術などがてんこ盛りの模様。gemma-2-27b-itのElyzaベンチもいいし、gemma-2-27b-itの日本語imatrix量子化ggufもあります。
 
 
-SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用した学習と最適化手法だそうで、alignmentとも相性が良い模様。Gemma-2にSPPOを適用したLLMがあちらこちらのベンチマークで高得点をマーク。
+SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用した学習と最適化手法だそうで、alignmentとも相性が良い模様。Gemma-2にSPPOを適用したGemma2-9B-it-SPPO-Iter3なんかも、ベンチマークで高得点をマーク。
 
 まあといっても、Sonnet3.5をShaberi3ベンチで評価したら8.39といううみゆきさんの報告のように、依然横砂はSonnet3.5か。
 
@@ -3522,7 +3522,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc4MjAxNjUsNTMwODQ2NTUzLC05MT
+eyJoaXN0b3J5IjpbLTEwMDA1OTMwNDIsNTMwODQ2NTUzLC05MT
 k3MjEyMTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0
 MSwyNzE1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5Mz
 Q4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYyMCwtMzM1NjgzOTA3
