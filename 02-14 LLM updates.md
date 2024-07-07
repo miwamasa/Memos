@@ -161,7 +161,7 @@ RAGでは、MicrosoftのGraphRAG、発表直後にgithubに公開、RAG survey�
 	- WARPは、3段階でモデルをマージ 
 		- ・EMAを利用したRLHF 
 		- ・複数のポリシーでRLHFされたモデルをSLERPマージ
-	-  	・初期モデルと線形補完 
+		-  	・初期モデルと線形補完 
 	- これを繰り返すことで、段階的に改善し、最終的により優れたパフォーマンスとアラインメントを実現
 - 「アップルでアップストア事業を統括するフィル・シラー氏がオープンＡＩ取締役会のオブザーバーに選ばれた。」
 	- https://x.com/bioshok3/status/1808284141173330407
@@ -3528,11 +3528,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Claude 3 Haiku, the fastest and most affordable model in its intelligence class.
 	- https://x.com/AnthropicAI/sta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MDYwNDI3LDM5NjU5MjY0MSwyNzE1NT
-A4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEw
-NjQ4Nzg0NDgsMTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NT
-czMywtMTQwOTIxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3
-MjY2Mzg4OTAsMTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5ND
-QzODQsOTM5Nzk3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjJd
-fQ==
+eyJoaXN0b3J5IjpbMTI1MzgyMzAxMSwzOTY1OTI2NDEsMjcxNT
+UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
+MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
+U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
+NzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OT
+Q0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIy
+XX0=
 -->
