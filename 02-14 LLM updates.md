@@ -268,7 +268,14 @@
 -  FastEmbed
 	- https://github.com/qdrant/fastembed
 	- Fast, Accurate, Lightweight Python library to make State of the Art Embedding
-- 
+- What is a "cognitive architecture"?
+	- https://blog.langchain.dev/what-is-a-cognitive-architecture/
+- Human Prompt Engineer VS AI Prompt Engineer? Who wins?
+	- https://x.com/learnprompting/status/1809301301760537021
+	- DPSy performed 40% better on a novel classification benchmark.
+- extracted the full ~5000 token claude3.5sonnet
+	- https://x.com/rahulgs/status/1809313740275454352
+	- 
 
 ## 24/7/1
 
@@ -3518,20 +3525,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- OpenAIのモデルが高レベルの視覚と言語の知性を提供
 	- Figureのニューラルネットワークが動画のようなロボットの動作を実現しています
 -  Claude 3 Haiku の概要 by npakaさん
-	- https://note.com/npaka/n/n71f1ef5f5e06?sub_rt=share_h
-	- 本日 (2024年3月14日)、最速かつ最も低価格なモデル「Claude 3 Haiku」がリリースされました。「Claude API」および「claude.ai」のClaude Proサブスクリプションで利用可能です。
-	- 速度
-		- 「Claude 3 Haiku」 は、32,000トークン未満のプロンプトに対して1秒あたり 21,000 トークン (約 30 ページ) [1] を処理します
-	- 低価格、
-		- 「Claude 3 Haiku」の価格の**入出力トークンの比率は 1:5** です。わずか**1ドル**で **400 件の最高裁判例** [2] または **2,500 枚の画像** [3] を処理および分析できます。
-- Claude3 × Googleスプレッドシート
-	- Cla
+	- https://note.com/npaka/n/n71f1e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY0NTUyODUsMzk2NTkyNjQxLDI3MTU1MD
-g2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2
-NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1Nz
-MzLC0xNDA5MjE4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcy
-NjYzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0ND
-M4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMl19
-
+eyJoaXN0b3J5IjpbMzAyMDQyODkwLDM5NjU5MjY0MSwyNzE1NT
+A4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEw
+NjQ4Nzg0NDgsMTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NT
+czMywtMTQwOTIxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3
+MjY2Mzg4OTAsMTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5ND
+QzODQsOTM5Nzk3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjJd
+fQ==
 -->
