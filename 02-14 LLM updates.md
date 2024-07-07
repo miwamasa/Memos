@@ -264,7 +264,11 @@
 -  Grokked Transformers are Implicit Reasoners: A Mechanistic Journey to the Edge of Generalization
 	- https://arxiv.org/abs/2405.15071
 	- They found that the critical factor isn't the amount of data, but the ratio (ϕ) of inferred facts to atomic facts. Figure 2(a) illustrates this beautifully - higher ϕ values correlate with faster generalization. This challenges a lot of conventional wisdom about data requirements in deep learning.
-	- 
+	- The best part? They showed their fully grokked transformer outperforming state-of-the-art models like GPT-4-Turbo and Gemini-1.5-Pro on a complex reasoning task with a large search space. We're talking near-perfect accuracy where the big models barely beat random guessing.
+-  FastEmbed
+	- https://github.com/qdrant/fastembed
+	- Fast, Accurate, Lightweight Python library to make State of the Art Embedding
+- 
 
 ## 24/7/1
 
@@ -3521,19 +3525,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 低価格、
 		- 「Claude 3 Haiku」の価格の**入出力トークンの比率は 1:5** です。わずか**1ドル**で **400 件の最高裁判例** [2] または **2,500 枚の画像** [3] を処理および分析できます。
 - Claude3 × Googleスプレッドシート
-	- Claude-in-Sheets guide
-	- どうやら、AnthropicとGoogleが協力して、Google SheetsからClaude3を呼べるらしい。
--  Data Interpreter: An LLM Agent For Data Science
-	- https://arxiv.org/abs/2402.18679
-	- Data Interpreter has achieved state-of-the-art scores in machine learning, mathematical reasoning, and open-ended tasks, and can analyze stocks, imitate websites, and train models.
-	- https://docs.deepwisdom.ai/main/en/DataInterpreter/
-- 松
+	- Cla
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzk3MjE3MCwzOTY1OTI2NDEsMjcxNT
-UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
-MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
-U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
-NzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OT
-Q0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIy
-XX0=
+eyJoaXN0b3J5IjpbMzY0NTUyODUsMzk2NTkyNjQxLDI3MTU1MD
+g2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2
+NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1Nz
+MzLC0xNDA5MjE4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcy
+NjYzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0ND
+M4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMl19
+
 -->
