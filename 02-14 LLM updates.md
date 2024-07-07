@@ -88,7 +88,17 @@
 	- やはり世界最強、王者の性能を叩き出してGPT-4TやOpusに勝利しました。お前がナンバーワンだ
 - GraphRAG from Microsoft is just open sourced
 	- https://github.com/microsoft/graphrag
-- 
+- GraphRAG from MS
+	- https://www.microsoft.com/en-us/research/blog/graphrag-new-tool-for-complex-data-discovery-now-on-github/
+	- GraphRAG, a graph-based approach to retrieval-augmented generation (RAG) that significantly improves question-answering over private or previously unseen datasets, is now available on GitHub. Learn more
+	-  Advantages of community summaries for “global questions”
+	- The results show that GraphRAG, when using community summaries at any level of the community hierarchy, outperforms naive RAG on comprehensiveness and diversity (~70–80% win rate). 
+	- GraphRAG using intermediate- and low-level community summaries also performed better than source text summarization on these metrics at lower token costs (~20–70% token use per query). 
+	- Performance was competitive with hierarchical source text summarization for the highest-level communities at substantially lower token costs (~2–3% token use per query).
+-  Retrieval-Augmented Generation for Large Language Models: A Survey
+	- 
+- # [RAGのSurvey論文からRAG関連技術を俯瞰する](https://sue124.hatenablog.com/entry/2024/07/02/233616)
+	- 
 
 ## 24/7/1
 
@@ -3523,27 +3533,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 野村総研による生成AIレポート
 	- https://www.nri.com/-/media/Corporate/jp/Files/PDF/knowledge/publication/chitekishisan/2024/01/cs20240104.pdf?la=ja-JP&hash=ED42BFF77381C8AD102B7792B56D2654AD7BC6D5
 	- 生成AIで影響を受ける職種のリストが載ってるのは最近よく見るけれど、一位が水族館飼育員なのが斬新さを感じた。あとファンドマネージャーが上位にいるのも面白い
-- Claude 3の技術レポートによれば、大学院レベルの物理学・化学・生物学の知識と推論に焦点を当てたGPQAベンチマークで最高性能（0 shot CoTで50.4%、多数決利用で59.5%）
-	- https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf
-- Build a Large Language Model (From Scratch)
-	- https://github.com/rasbt/LLMs-from-scratch
-	- Manning社（日本だとよくオライリーの皮を被る出版社）からフルスクラッチで大規模言語モデルを作る本が出る模様。GitHubに公開あり
-- Tokanizer playgroundがClaude3に対応
-	- https://huggingface.co/spaces/Xenova/the-tokenizer-playground
-	- If you want to calculate how many tokens you're sending to the API, check out The Tokenizer Playground, which we recently updated to include the Claude 3 tokenizer!
-- Claude 3 is impressively good at OCR and structured extraction
-	- https://x.com/jerryjliu0/status/1765101841535336929?s=20
-	- We fed it this complex Excalidraw diagram about the Prometheus model - contains subsections, and interleaving text and diagrams
-	- Claude 3 is able to provide a summary of each section and also determine the positions of the diagrams!
-	- https://github.com/run-llama/llama_index/blob/main/docs/examples/multi_modal/anthropic_multi_modal.ipynb
-- AnthropicのClaude Proまとめ
-	- 月額
+- Claude 3の技術レポートによれば、大学院
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MDMzMTE0LC0yNjIwOTk2MSwxNDQ0MD
-Y0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAs
-LTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczOD
-M5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODks
-LTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MD
-k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
-MTNdfQ==
+eyJoaXN0b3J5IjpbLTE0MjQwMjcxODQsLTI2MjA5OTYxLDE0ND
+QwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYy
+MCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2Nz
+M4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4
+OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MT
+UwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYx
+MjgxM119
 -->
