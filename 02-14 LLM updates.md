@@ -189,6 +189,9 @@
 	- 🏆 Claude 3 Opus achieved the highest Coverage; Gemini-1.5-pro highest citation
 	- 🎯 Gemini-1.5-pro is the best LLM without RAG with 37.8; Claude 3 Sonnet 18.3; GPT-4o 11.4;
 	- ⚙️ Gemini-1.5-pro + Oracle RAG achieves 44.6, whereas humans achieved 56.1.
+- **Multi-token prediction models and baselines**
+	- https://huggingface.co/facebook/multi-token-prediction
+	- In April we published a paper on a new training approach for better & faster LLMs using multi-token prediction. To enable further exploration by researchers, we’ve released pre-trained models for code completion using this approach on
 - 
 
 ## 24/7/1
@@ -3524,23 +3527,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  OpenAI Grok Curve Experiments
 	- https://twitter.com/i/bookmarks
 	- This is the code for the paper [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/abs/2201.02177) by Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, and Vedant Misra
-	- XからGroqがオープンソース化とのアナウンスが出たが、なんかOpenAIが別実装を公開！
-- Claude 3 Opusを使って世界経済を分析するデモ動画
-	- https://twitter.com/i/bookmarks?post_id=1769351991665594465
-	- Claude 3デモの何が凄いかというと国別の経済動向を調べさせるため、
-		- ①10個のSub-agentを作る 
-		- ②必要なプロンプトを生成 
-		- ③仕事を外注（笑） 
-		- ④結果を集めレポートを書く と、
-	- 自分の仕事をSub-agentにデリゲート（委任）できたこと。仕事を与えると一番効率のいい方法で進められるのがホント凄い。
-- VCの後押しを受け、AI従業員を開発するスタートアップが流行の兆し
-	- https://x.com/gijigae/stat
+	- XからGroqがオープンソース化とのアナウンスが出たが、なんかOpenAIが別実装を公
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Nzg2OTIzMiwyNzE1NTA4NjgsLTI2Mj
-A5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgs
-MTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOT
-IxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAs
-MTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nz
-k3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1
-OTVdfQ==
+eyJoaXN0b3J5IjpbODYxMTAxNTEsMjcxNTUwODY4LC0yNjIwOT
+k2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0
+NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMT
+g1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0
+NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5Nz
+IxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1
+XX0=
 -->
