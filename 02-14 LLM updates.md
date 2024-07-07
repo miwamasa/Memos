@@ -104,6 +104,8 @@
 	- The results show that GraphRAG, when using community summaries at any level of the community hierarchy, outperforms naive RAG on comprehensiveness and diversity (~70–80% win rate). 
 	- GraphRAG using intermediate- and low-level community summaries also performed better than source text summarization on these metrics at lower token costs (~20–70% token use per query). 
 	- Performance was competitive with hierarchical source text summarization for the highest-level communities at substantially lower token costs (~2–3% token use per query).
+-  GraphRAG Ollama: 100% Local Setup, Keeping your Data Private
+	- https://www.youtube.com/watch?v=BLyGDTNdad0
 -  Retrieval-Augmented Generation for Large Language Models: A Survey
 	- https://arxiv.org/abs/2312.10997
 	- [RAGのSurvey論文からRAG関連技術を俯瞰する](https://sue124.hatenablog.com/entry/2024/07/02/233616)
@@ -3501,11 +3503,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/cl-nagoya/shioriha-large-pt
 	- 東北大BERT-largeに対し、batch size 8192, 系列長 256で、日本語WikipediaやMMARCOといった弱教師データによる対照事前学習を行ったモデルであるshioriha-large-ptを公開しました
 - Tour of Modern LLMs
-	- https://phontron.com/class/anlp2024/assets/slides/anlp-15-tourofllms.pdf
-	- CMUの講義資料、
-	- I made some new class slides on “a tour of modern LMs” that has s
+	- https://phontron.com/class/anlp2024/assets/slid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTg5NDU2OCwtMTM0OTY0NzE0NSwtMT
+eyJoaXN0b3J5IjpbMTAwNTE0MzU2NiwtMTM0OTY0NzE0NSwtMT
 E0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2
 NTUzLC05MTk3MjEyMTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LD
 M5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4
