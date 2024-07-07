@@ -6,7 +6,7 @@
 gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、 スライディングウィンドウのアテンション、知識蒸留、ソフトキャッピングによるトレーニングの安定性、WARPと呼ばれる新しいマージング技術などがてんこ盛りの模様。
 
 
-SPOってのは、aligmentなんだけど、Gemma-2にSPOを適用したLLMがあちらこちらのベンチマークで高得点をマーク。
+SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用したaligmentなんだけど、Gemma-2にSPPOを適用したLLMがあちらこちらのベンチマークで高得点をマーク。
 
 RunwayのGen-3で
 
@@ -14,7 +14,7 @@ RAGでは、MicrosoftのGraphRAG、発表直後にgithubに公開、RAG survey�
 
 -  Self-Play Preference Optimization for Language Model Alignment
 	- https://huggingface.co/papers/2405.00675
-	- SPO論文
+	- SPPO論文
 - Gemma-2のSelf-Play Preference Optimization (SPPO) を適用版
 	- https://huggingface.co/UCLA-AGI/Gemma-2-9B-It-SPPO-Iter3
 	- AlpacaEval 2.0 で 53.27%と驚異的 たった9BでGPT-4と肩を並べるレベルは新時代か by AIXサトシ
@@ -3524,11 +3524,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://takagi-hiromitsu.jp/diary/20240313.html
 	- 「これだけLLMが長文の意味内容を「理解」するようになったとなると、もはや、書評や論文紹介、判例批評など、定形的なスタイルを持つ学術記事は、…」
 	- ひろみちゅ先生絶賛
-- Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングの練習。500ステップ(0.2エポック : 20分) のお試しだけど、きれいに回答してくれてる
-	- https://x.com/npaka123/status/1767807910925545892?s=20
-- Claude 3 Haiku, the
+- Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングの練習。500ステップ(0.2エポック : 20分) のお試しだけど、きれいに回答してくれて
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjQ2MzE0MCwzOTY1OTI2NDEsMjcxNT
+eyJoaXN0b3J5IjpbMTk0MDU3MzEwMSwzOTY1OTI2NDEsMjcxNT
 UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
 MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
 U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
