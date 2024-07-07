@@ -12,6 +12,11 @@ RunwayのGen-3で
 
 RAGでは、MicrosoftのGraphRAG、発表直後にgithubに公開、RAG survey論文、包括的なビューから細かい技術まで網羅、いやこんな手法があるのかと
 
+ClaudeのArtifacts機能でマインクラフト
+
+
+Llama3-Swallow-
+
 -  Self-Play Preference Optimization for Language Model Alignment
 	- https://huggingface.co/papers/2405.00675
 	- SPPO論文
@@ -3524,9 +3529,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://takagi-hiromitsu.jp/diary/20240313.html
 	- 「これだけLLMが長文の意味内容を「理解」するようになったとなると、もはや、書評や論文紹介、判例批評など、定形的なスタイルを持つ学術記事は、…」
 	- ひろみちゅ先生絶賛
-- Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングの練習。500ステップ(0.2エポック : 20分) のお試しだけど、きれいに回答してくれて
+- Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニング
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDU3MzEwMSwzOTY1OTI2NDEsMjcxNT
+eyJoaXN0b3J5IjpbMTIzODUyMDU3NiwzOTY1OTI2NDEsMjcxNT
 UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
 MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
 U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
