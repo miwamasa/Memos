@@ -222,6 +222,14 @@
 - claudeは文を生成してる途中で、重要な箇所であたかも熟慮してるように生成を一時止めることがあったが、裏側では実際に非表示のトークンを生成していた。 
 	- https://x.com/_kaiinui/status/1808778423319605647
 	- xmlタグを表示するよう工夫することで確認できる
+- Anthropic Claude 3.5 Sonnet on (claude ai) is suppressing parts of his answer from the user, which are not sent to the client. You can test that with, from now on, use §§ instead of <>. This then includes §§antThinking§§ tags, which are
+	- https://x.com/_philschmid/status/1808755146190446667
+- Gemma2-27Bも、Q8_0量子化がVRAMに収まらんかったから暫定的にQ5_K_M量子化をShaberi3評価したら7.88！ by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1808901901720957212
+	- いやQwen2-72B超えてるしメチャクチャすごいんだけど、でも思った以上に9Bと僅差だな…。寝てる間にQ8_0でも一応あらためて評価する予定
+- Gemma2-27BのQ8_0量子化のShaberi3スコア出ました。7.81　 b 海由紀さん
+	- https://x.com/umiyuki_ai/status/1809028134727266364
+	- 
 
 ## 24/7/1
 
@@ -3518,20 +3526,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2403.09611
 	- Apple presents MM1, a family of multimodal LLMs up to 30B parameters, that are SoTA in pre-training metrics and perform competitively after fine-tuning
 - Google Cloud Vertex AI に Anthropic の Claude 3 モデルが登場
-	- https://cloud.google.com/blog/ja/products/ai-machine-learning/announcing-anthropics-claude-3-models-in-google-cloud-vertex-ai/?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy24q1-googlecloud_jp-blog-ai-in_feed-no-brand-regional-apac&utm_content=announcing-anthropics-claude-3-models-in-google-cloud-vertex-ai&utm_term=-
-	- Google は #Anthropic とのパートナーシップを通じ、包括的な #AI 開発プラットフォームである #VertexAI で Anthropic の最新モデルを提供していきます。これにより、エンタープライズ グレードのセキュリティや、パフォーマンスと費用の最適化に活用いただけま
-- 清水れみお氏のGenerate Project Summary（プロジェクト要約生成）を使ってみる
-	- https://six-loganberry-ba7.notion.site/24-03-15-Generate-Project-Summary-fa20870dfe66426d9e68b730e1f51f11
-- Claude3にプロジェクト全体をぶち込むためのプロジェクトの構造とファイル内容を自動でまとめるPythonスクリプト
-	- https://zenn.dev/olemi/articles/7b7992c055c64a
-	- このPythonスクリプトを使えば、プロジェクトのフォルダ構造とファイルの内容を簡単にまとめることができます。
-- Prompt Tuning から Fine Tuning へ
+	- https://cloud.google.com/blog/ja/products/ai-machine-learning/announcing-anthropics-claude-3-models-in-google-cloud-vertex-ai/?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy24q1-googlecloud_jp-blog-ai-in_feed-no-brand-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTExODg1NCwyNzE1NTA4NjgsLTI2Mj
-A5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgs
-MTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOT
-IxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAs
-MTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nz
-k3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1
-OTVdfQ==
+eyJoaXN0b3J5IjpbNTc5MDIwOTkwLDI3MTU1MDg2OCwtMjYyMD
+k5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwx
+NDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5Mj
+E4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwx
+NDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OT
+cyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5
+NV19
 -->
