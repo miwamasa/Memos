@@ -16,7 +16,7 @@ Llama3-Swallow-8Bとか、CALM3-22B-Chatとか、日本のLLMも検討してま�
 
 BM42とか、RetrievaBERTとか、FastEmbed、とか文書検索やエンベディングなどの基盤も着実に進化がある、成果に期待。
 
-LLMの基本的な性質に対して物申すKey Claims 論文、確かにLLMの特徴ってそれが発言する条件を備考に乗せると長くなるよな。経済的な視点では、エコノミストのAI革命は今のところ経済的インパクトがほとんど確認できないとい記事も、確かに、誰が開発やGPUを動かすお金を払ってるんだろうと冷静な分析。GPTZeroの報告にあったように、パープレキシティのユーザーは平均3回のプロンプト試行で生成されたソースに遭遇するとい
+今週はLLMの進歩に対する冷静な記事も目立った。LLMの基本的な性質に対して物申すKey Claims 論文、確かにLLMの特徴ってそれが発言する条件を備考に乗せると長くなるよな。経済的な視点では、エコノミストのAI革命は今のところ経済的インパクトがほとんど確認できないとい記事も、確かに、誰が開発やGPUを動かすお金を払ってるんだろうと冷静な分析。GPTZeroの報告にあったように、パープレキシティのユーザーは平均3回のプロンプト試行で生成されたソースに遭遇するというのだから、データの枯渇感も半端ない。
 
 
 「Moshi」
@@ -3517,11 +3517,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTM3NzM1Niw1MzA4NDY1NTMsLTkxOT
-cyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQx
-LDI3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzND
-g2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcs
-NTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3MzgzOTA5NCwtMjA2OD
-I2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3
-XX0=
+eyJoaXN0b3J5IjpbMzI5NTczMDgyLDUzMDg0NjU1MywtOTE5Nz
+IxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEs
+MjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0OD
+Y0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1
+MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4Mj
+Y3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2Njdd
+fQ==
 -->
