@@ -148,7 +148,17 @@
 	- https://www.jstage.jst.go.jp/article/essfr/18/1/18_42/_article/-char/ja
 - 高校からの、データサイエンス・統計活用、上級編
 	- https://www.soumu.go.jp/main_content/000607858.pdf#page=1.00
-- 
+- Gemma 2ではWARPと呼ばれる新しいマージング技術が使用されている by AIXサトシさん
+	- https://x.com/AiXsatoshi/status/1808346577700069697
+	- WARPは、3段階でモデルをマージ 
+		- ・EMAを利用したRLHF 
+		- ・複数のポリシーでRLHFされたモデルをSLERPマージ
+	-  	・初期モデルと線形補完 
+	- これを繰り返すことで、段階的に改善し、最終的により優れたパフォーマンスとアラインメントを実現
+- 「アップルでアップストア事業を統括するフィル・シラー氏がオープンＡＩ取締役会のオブザーバーに選ばれた。」
+	- https://x.com/bioshok3/status/1808284141173330407
+- 突如Kyutaiという組織がGPT-4oかそれより応答速いと感じるSpeech2Speechリアルタイムマルチモーダル基盤モデルの「Moshi」を発表
+	- 
 
 ## 24/7/1
 
@@ -3527,21 +3537,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- 両者の長所を生かすため、ツールの呼び出し指示をテキスト化し外部ツールの使い方を自己学習する言語モデルToolformerを提案
 -  Learning and Leveraging World Models in Visual Representation Learning
 	- https://arxiv.org/abs/2403.00504
-	- MetaのJEPAの論文、Meta presents Image World Model
-- Build an LLM-Powered API Agent for Task Execution
-	- https://developer.nvidia.com/blog/build-an-llm-powered-api-agent-for-task-execution/
-	- NVIDIAより。LLM使ったAPI Agent
-	- ユーザーのクエリに対して、LLMがあらかじめ定義しておいたテンプレを使って子モジュールのLLM用のプロンプトを生成し、子モジュールLLMがそれぞれのタスクをこなして結果を返す
-- AnthropicAI、Claude3をリリース
-	- https://x.com/AnthropicAI/status/1764653830468428150?s=20
-- llamaindex、さっそく Claude3サポート
-	- https://docs.llamaindex.ai/en/latest/
+	- MetaのJEPAの論文、Meta presents I
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5MDM4OTgwLDI3MTU1MDg2OCwtMjYyMD
-k5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwx
-NDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5Mj
-E4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwx
-NDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OT
-cyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5
-NV19
+eyJoaXN0b3J5IjpbLTE5OTI5OTkyNywyNzE1NTA4NjgsLTI2Mj
+A5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgs
+MTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOT
+IxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAs
+MTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nz
+k3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1
+OTVdfQ==
 -->
