@@ -58,6 +58,13 @@
 - Position: Key Claims in LLM Research Have a Long Tail of Footnotes
 	- https://arxiv.org/abs/2308.07120
 	- LLMに関する”一般的な主張”を批判的に検討してまとめています。LLMの定義、特性、影響力について分析を行い、多くの主張がもしかすると十分な根拠を欠いている可能性があることを指摘しています。
+	- 例えば以下は鵜呑みにできないとのこと。
+		- 新しい問題にも柔軟に取り組める 
+		- 自然言語処理でベストなツール 
+		- 性能向上は単にスケーリングによるもの 
+		- 歴史的な汎用技術
+		- 創発的な特性がある
+- 
 	- 
 
 ## 24/7/1
@@ -3527,14 +3534,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- How good is AnthropicAI's Claude 3 Opus at being an agent? Pretty darn good! Check out this quick notebook in which Claude answers a complex, multi-source question by reading a PDF table and using the answer to do math on the contents of a CSV!
 - Knowledge-Augmented Planning for LLM Agents
 	- https://arxiv.org/abs/2403.03101
-	- Proposes an approach to enhance the planning capabilities of LLMs through explicit action knowledge.
-- 大学・MetaAIからハルシネーション低減に有効な
+	- Proposes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2NDM5NjUzLC0yNjIwOTk2MSwxNDQ0MD
-Y0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAs
-LTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczOD
-M5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODks
-LTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MD
-k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
-MTNdfQ==
+eyJoaXN0b3J5IjpbLTE5NDI0OTkzMjcsLTI2MjA5OTYxLDE0ND
+QwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYy
+MCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2Nz
+M4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4
+OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MT
+UwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYx
+MjgxM119
 -->
