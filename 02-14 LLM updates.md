@@ -200,6 +200,10 @@
 	- 54,000 GenAI-related inventions (patent families) were filed and more than 75,000 scientific publications published between 2014 and 2023.
 	- The growth is rapid, with the number of GenAI patents increasing eightfold since the 2017 introduction of the deep neural network architecture behind the Large Language Models that have become synonymous with GenAI.
 	- n 2023 alone over 25% of all GenAI patents globally were published, and over 45% of all GenAI scientific papers were published.
+	- GenAI patents still currently only represent 6% of all AI patents globally.
+- Claude 3.5 Sonnet, Gemini 1.5 Pro, GPT-4o 頂上決戦　by 元木さん
+	- https://x.com/ai_syacho/status/1808708033989525886
+	- 開発における能力順位を元木の感覚値で並べました。
 	- 
 
 ## 24/7/1
@@ -3520,18 +3524,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/ryota39/bilingual-gpt-neox-4b-instruction-sft-en-ja-84k
 	- rinna/bilingual-gpt-neox-4b-instruction-sftに英日翻訳データセット84,300件をフルパラメータチューニングしました。商用利用可能なライセンス(cc-by-sa-4.0)ですので皆様お気軽にお試しください
 - Researcher2Vec: ニューラル線形モデル による自然言語処理研究者の可視化と推薦
-	- http://chasen.org/~daiti-m/paper/nlp2021researcher2vec-slides.pdf
-	- 学振の後ろで動いてるらしい
--  日本語も理解できたCohereForAIのオープンソースのLLMモデルを試してみる。
-	- https://note.com/masayuki_abe/n/n0e5e48fc4cc3?sub_rt=share_pb
-	- CohereForAIのLLMをGoogle ColabのA100で実行したので紹介していきます
-	- フリーのLLMなのに文章生成、数値計算、英
+	- http://chasen.org/~daiti-m/paper/nlp2021researcher2v
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzgxNTY1NzEsMjcxNTUwODY4LC0yNj
-IwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4
-LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MD
-kyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkw
-LDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOT
-c5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4
-NTk1XX0=
+eyJoaXN0b3J5IjpbMzIxNzA3OTQ2LDI3MTU1MDg2OCwtMjYyMD
+k5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwx
+NDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5Mj
+E4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwx
+NDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OT
+cyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5
+NV19
 -->
