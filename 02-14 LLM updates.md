@@ -146,7 +146,9 @@
 	- 物体検出をこれまで研究してきたこと自体は間違いではなく、それにより知識をためて進んできたのは確かだが、さらに進むためには、より良い物体検出を作るのではなく本当に解きたい問題は何かを考えるのが必要とのこと。物体検出タスクはあまりに限定的で脆く、データに制約がある。50年~60年当然と思われていた考え方に疑問をもつこと、（各人が）本当に解きたいタスクは何かを考えることが重要。
 - Decentralized Identifiers (DID) とVerifiable Credentials (VC) の現況
 	- https://www.jstage.jst.go.jp/article/essfr/18/1/18_42/_article/-char/ja
-	- 
+- 高校からの、データサイエンス・統計活用、上級編
+	- https://www.soumu.go.jp/main_content/000607858.pdf#page=1.00
+- 
 
 ## 24/7/1
 
@@ -3533,14 +3535,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - AnthropicAI、Claude3をリリース
 	- https://x.com/AnthropicAI/status/1764653830468428150?s=20
 - llamaindex、さっそく Claude3サポート
-	- https://docs.llamaindex.ai/en/latest/examples/llm/anthropic.html
-	- Like Gemini and Mistral's latest offerings, Claude 3 comes 
+	- https://docs.llamaindex.ai/en/latest/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTQ1MDE4MiwyNzE1NTA4NjgsLTI2Mj
-A5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgs
-MTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOT
-IxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAs
-MTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nz
-k3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1
-OTVdfQ==
+eyJoaXN0b3J5IjpbNzE5MDM4OTgwLDI3MTU1MDg2OCwtMjYyMD
+k5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwx
+NDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5Mj
+E4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwx
+NDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OT
+cyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5
+NV19
 -->
