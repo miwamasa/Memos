@@ -3,7 +3,8 @@
 
 ## 24/7/8
 
-gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、 スライディングウィンドウのアテンション、知識蒸留、ソフトキャッピングによるとか、WARPと呼ばれる新しいマージング技術を使ってる
+gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、 スライディングウィンドウのアテンション、知識蒸留、ソフトキャッピングによるトレーニングの安定性、WARPと呼ばれる新しいマージング技術などがてんこ盛りの模様。
+
 
 SPOってのは、aligmentなんだけど、
 
@@ -3525,13 +3526,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ひろみちゅ先生絶賛
 - Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングの練習。500ステップ(0.2エポック : 20分) のお試しだけど、きれいに回答してくれてる
 	- https://x.com/npaka123/status/1767807910925545892?s=20
-- Claude 3 Haiku, the fastest and most affordable model in its intelligence cl
+- Claude 3 Haiku, the fastest and most affordable model in its 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1NzQ5MjEzLDM5NjU5MjY0MSwyNzE1NT
-A4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEw
-NjQ4Nzg0NDgsMTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NT
-czMywtMTQwOTIxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3
-MjY2Mzg4OTAsMTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5ND
-QzODQsOTM5Nzk3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjJd
-fQ==
+eyJoaXN0b3J5IjpbLTE3ODc5Mjg0NTgsMzk2NTkyNjQxLDI3MT
+U1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUs
+MTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3OD
+k1NzMzLC0xNDA5MjE4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4
+LDcyNjYzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OT
+k0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYy
+Ml19
 -->
