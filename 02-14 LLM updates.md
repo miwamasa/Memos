@@ -3,7 +3,7 @@
 
 ## 24/7/8
 
-先週きら星のように登場したgemma-2の評価、DeepMind自身によるgemma-2論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、 スライディングウィンドウのアテンション、知識蒸留、ソフトキャッピングによるトレーニングの安定性、WARPと呼ばれる新しいマージング技術などがてんこ盛りの模様、9Bと27Bでは作り方も変えてきた。gemma-2-27b-itのElyzaベンチの結果もいいし、gemma-2-27b-itの日本語imatrix量子化ggufも上がってる。SPPOってのは、人間の選好を正確に反映するために、LLMの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用した学習と最適化手法だそうで、alignmentとも相性が良いそうなんですが、Gemma-2にSPPOを適用したGemma2-9B-it-SPPO-Iter3なんかがベンチマークで高得点をマークしたとの報告もあり、性能にも効くみたいだ。まあ、といっても、うみゆきさんの報告のように、Sonnet3.5をShaberi3ベンチで評価したら8.39というように、依然横綱はSonnet3.5か。今週もClaudeのArtifacts機能でマインクラフト作った例が報告され、わくわくが止まらない。プロンプトClaude の "Generate a prompt" に代表されるように、LLMをdogfoodとして自ら使いこなし、イノベーションを加速させているのは、AnthropicとOpenAIで、その他Googleなどが進めるLLMの進化は、もはや従来のやり方の想像可能なべスプラ・SOTAにしか見えない。Llama3-Swallow-8Bとか、CALM3-22B-Chatとか、日本のLLMも検討してますが、ちょっと厳しいなあ。Runwayからテキストから動画、画像から動画、テキストから画像を生成するGen-3が話題になった、人の顔って動くと不自然さがわかるはずなのに、Gen-3の生成する動画では、もはや識別不能、不気味の壁を越えたか。メタも人知れず「Meta 3D Gen」を発表、評価を待とう。非営利団体Kyutaiが突然発表したリアルタイムマルチーモーダル基盤モデル「Moshi」、自然な対話がgpt-4oとそん色ないんだけど、オープンソース化されると、詐欺LLMが誰でも作れちゃう、ちょっと不安だ。RAG関連では、先週話題となったMicrosoftのGraphRAG論文、発表したばかりなのに実装がgithubに公開、ollamaでも試せる模様。RAG survey論文、"Naive RAG", "Advanced RAG", "Modular RAG"という歴史的な視点から、細かい技術まで徹底的に網羅、いやこんな手法があるのかと大変参考になる。TJOさんも絶賛、というか後出しじゃんけんぽくてみっともないな。基盤技術も、BM42とか、RetrievaBERTとか、FastEmbed、とか文書検索やエンベディングなどの基礎となる技術も着実に進化がある、今後の発展に期待。一方、今週はLLMの進歩に対する冷静な記事も目立った。LLMの基本的な性質に対して物申すKey Claims 論文、LLMがあんなことできた、こんなことできたというのは、所詮、汎化性のないSOTAの集まりみたいな感じか、確かにLLMの特徴ってそれが発現する条件を備考に乗せると長くなる気がする、でもClaudeなんかを見てると、LLMによるイノベーションの実現って作者が知らないところで起きているのかもしれない。汎化性はGrokked Transformersに期待。経済的な視点では、「エコノミスト」誌のAI革命は今のところ経済的インパクトがほとんど確認できないとい記事も、確かに、誰が開発やGPUを動かすお金を払ってるんだろうと冷静な分析。GPTZeroの報告にあったように、パープレキシティのユーザーは平均3回のプロンプト試行で生成されたソースに遭遇するというのだから、データの枯渇もそろそろLLMの発展に影響し始めるのか。明るいような暗いようなそういう話題の混ざった週でした。
+先週きら星のように登場したgemma-2の評価、DeepMind自身によるgemma-2論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、 スライディングウィンドウのアテンション、知識蒸留、ソフトキャッピングによるトレーニングの安定性、WARPと呼ばれる新しいマージング技術などがてんこ盛りの模様、9Bと27Bでは作り方も変えてきた。gemma-2-27b-itのElyzaベンチの結果もいいし、gemma-2-27b-itの日本語imatrix量子化ggufも上がってる。SPPOってのは、人間の選好を正確に反映するために、LLMの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用した学習と最適化手法だそうで、alignmentとも相性が良いそうなんですが、Gemma-2にSPPOを適用したGemma2-9B-it-SPPO-Iter3なんかがベンチマークで高得点をマークしたとの報告もあり、性能にも効くみたいだ。まあ、といっても、うみゆきさんの報告のように、Sonnet3.5をShaberi3ベンチで評価したら8.39というように、依然横綱はSonnet3.5か。今週もClaudeのArtifacts機能でマインクラフト作った例が報告され、わくわくが止まらない。Artifactsのプロンプトも見つかり、function callingのお手本のようだという。プロンプトを自動生成するClaude の "Generate a prompt" に代表されるように、LLMをdogfoodとして自ら使いこなし、イノベーションを加速させているのは、AnthropicとOpenAIで、その他Googleなどが進めるLLMの進化は、もはや従来のやり方の想像可能なべスプラ・SOTAにしか見えない。Llama3-Swallow-8Bとか、CALM3-22B-Chatとか、日本のLLMも健闘してますが、ちょっと厳しいなあ。Runwayからテキストから動画、画像から動画、テキストから画像を生成するGen-3が話題になった、人の顔って動くと不自然さがわかるはずなのに、Gen-3の生成する動画では、もはや識別不能、不気味の壁を越えたか。メタも人知れず「Meta 3D Gen」を発表、評価を待とう。非営利団体Kyutaiが突然発表したリアルタイムマルチーモーダル基盤モデル「Moshi」、自然な対話がgpt-4oとそん色ないんだけど、オープンソース化されると、詐欺LLMが誰でも作れちゃう、ちょっと不安だ。RAG関連では、先週話題となったMicrosoftのGraphRAG論文、発表したばかりなのに実装がgithubに公開、ollamaでも試せる模様。RAG survey論文、"Naive RAG", "Advanced RAG", "Modular RAG"という歴史的な視点から、細かい技術まで徹底的に網羅、いやこんな手法があるのかと大変参考になる。TJOさんも絶賛、というか後出しじゃんけんぽくてみっともないな。基盤技術も、BM42とか、RetrievaBERTとか、FastEmbed、とか文書検索やエンベディングなどの基礎となる技術も着実に進化がある、今後の発展に期待。一方、今週はLLMの進歩に対する冷静な記事も目立った。LLMの基本的な性質に対して物申すKey Claims 論文、LLMがあんなことできた、こんなことできたというのは、所詮、汎化性のないSOTAの集まりみたいな感じか、確かにLLMの特徴ってそれが発現する条件を備考に乗せると長くなる気がする、でもClaudeなんかを見てると、LLMによるイノベーションの実現って作者が知らないところで起きているのかもしれない。汎化性はGrokked Transformersに期待。経済的な視点では、「エコノミスト」誌のAI革命は今のところ経済的インパクトがほとんど確認できないとい記事も、確かに、誰が開発やGPUを動かすお金を払ってるんだろうと冷静な分析。GPTZeroの報告にあったように、パープレキシティのユーザーは平均3回のプロンプト試行で生成されたソースに遭遇するというのだから、データの枯渇もそろそろLLMの発展に影響し始めるのか。明るいような暗いようなそういう話題の混ざった週でした。
 
 
 -  Self-Play Preference Optimization for Language Model Alignment
@@ -3503,14 +3503,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Tour of Modern LLMs
 	- https://phontron.com/class/anlp2024/assets/slides/anlp-15-tourofllms.pdf
 	- CMUの講義資料、
-	- I made some new class slides on “a tour of modern LMs” that has some observations about characteristics of recent LLMs, mostly focusing on open LLMs where we know their details
--  Algorithmic progress 
+	- I made some new class slides on “a tour of modern LMs” that has some observations about characteristics of recent LLMs, mostly focusing on open LLMs w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODE4MDA5MjcsNjIyNjc4NTY3LDUzMD
-g0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4
-OCwzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MD
-Y0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAs
-LTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczOD
-M5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODld
-fQ==
+eyJoaXN0b3J5IjpbOTMxMDU5ODk3LDYyMjY3ODU2Nyw1MzA4ND
+Y1NTMsLTkxOTcyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgs
+Mzk2NTkyNjQxLDI3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2ND
+g1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0z
+MzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3MzgzOT
+A5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5XX0=
+
 -->
