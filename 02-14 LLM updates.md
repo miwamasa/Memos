@@ -6,7 +6,7 @@
 gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、 スライディングウィンドウのアテンション、知識蒸留、ソフトキャッピングによるトレーニングの安定性、WARPと呼ばれる新しいマージング技術などがてんこ盛りの模様。
 
 
-SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用したaligmentだそうで、Gemma-2にSPPOを適用したLLMがあちらこちらのベンチマークで高得点をマーク。
+SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用した学習と最適化手法だそうで、alignmentとも相性が良い模様。Gemma-2にSPPOを適用したLLMがあちらこちらのベンチマークで高得点をマーク。
 
 テキストから動画、画像から動画、テキストから画像でRunwayのGen-3が話題になった、人の顔って動くと不自然さがわかるはずなのに、もはや識別不能。メタも、
 
@@ -3516,11 +3516,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE5MTAwODksMTk5NTM2NDg5OCwyMD
-AyNjI1Mzg4LDM5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5OTYx
-LDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MT
-kxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUw
-Miw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NT
-gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
-XX0=
+eyJoaXN0b3J5IjpbLTkxOTcyMTIxNywxOTk1MzY0ODk4LDIwMD
+I2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2OCwtMjYyMDk5NjEs
+MTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOT
+E4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAy
+LDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1OD
+M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTFd
+fQ==
 -->
