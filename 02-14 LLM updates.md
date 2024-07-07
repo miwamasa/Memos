@@ -158,7 +158,14 @@
 - 「アップルでアップストア事業を統括するフィル・シラー氏がオープンＡＩ取締役会のオブザーバーに選ばれた。」
 	- https://x.com/bioshok3/status/1808284141173330407
 - 突如Kyutaiという組織がGPT-4oかそれより応答速いと感じるSpeech2Speechリアルタイムマルチモーダル基盤モデルの「Moshi」を発表
-	- 
+	- https://x.com/bioshok3/status/1808529863621652596
+- OpenContracts - a fully open-source, AI-powered Document Analytics Too
+	- https://x.com/llama_index/status/1808528869252812902
+-  Property-guided generation of complex polymer topologies using variational autoencoders
+	- https://www.nature.com/articles/s41524-024-01328-0
+	- VAEによるポリマー逆設計の論文　by 横山さん
+	- 従来の逆設計はあるトポロジーのポリマーに限定さていたのに対し、環状・櫛形・星形など様々なトポロジーのポリマーデータを構築、狙いの物性をもつポリマーを広範囲から逆設計できたそうです。
+- 
 
 ## 24/7/1
 
@@ -3527,19 +3534,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- グラフベースの手法とLLMの双方が関連している研究論文のキュレーションリストレポジトリ
 - Jurafsky-MartのSpeech and Language Processing  (3rd ed. draft)
 	- https://web.stanford.edu/~jurafsky/slp3/
-	- In-Context LearningやInstruction Tuningの章も追加
-- Toolformer: Language Models Can Teach Themselves to Use Tools
-	- https://arxiv.org/abs/2302.04761
-	- Metaがツールの使い方を覚える言語モデルToolformerを開発
-	- 要点
-		- 大規模言語モデルはわずかな例示や指示だけから課題解決を行う驚くべき能力を持つ
-		- 一方で、計算や事実チェックはより単純なツールの方が優れた性能を発揮する
-		- 両者の長所を生かすため、ツールの呼び出し指示をテキスト化し外部ツールの使い方を自己学習する言語モデルToolformerを提案
--  Learning and Leveraging World Models in Visual Representation Learning
-	- https://arxiv.org/abs/2403.00504
-	- MetaのJEPAの論文、Meta presents I
+	- In-Context LearningやInstruction
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI5OTkyNywyNzE1NTA4NjgsLTI2Mj
+eyJoaXN0b3J5IjpbMTU1Nzk3MDU3NywyNzE1NTA4NjgsLTI2Mj
 A5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgs
 MTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOT
 IxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAs
