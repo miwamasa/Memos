@@ -64,8 +64,17 @@
 		- 性能向上は単にスケーリングによるもの 
 		- 歴史的な汎用技術
 		- 創発的な特性がある
+- Gemma 2: Improving Open Language Models at a Practical Size
+	- https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf
+	- 軽量なオープンソースLLMのGemma 2の性能は、
+	- 2倍以上大きなサイズのLlama 3に匹敵することが示されています。 
+	- 安全性評価ではGPT-4oと同等以上の結果も。 
+	- また、使い心地の評価（Chatbot Arena）では既に多くのモデルを上回っています。
+- Microsoft 生成AI活用事例と評価方法について
+	- https://speakerdeck.com/daikikanemitsu/microsoft-sheng-cheng-aihuo-yong-shi-li-toping-jia-fang-fa-nituite
+	- Microsoftが公開している「生成AI活用事例」が有益。
+	- 一人当たり"月17時間の業務時間削減" を達成した内訳を定性的・定量的に効果測定している。
 - 
-	- 
 
 ## 24/7/1
 
@@ -3528,19 +3537,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Claude 3を使いまくってみて，コードレビューが秀逸，日本語性能が良い（gpt4-0613も良いが），pdfなどの扱いが便利．この辺りすでにchatGPTからの移行が起こっている．快適すぎる
 	- https://x.com/ochyai/status/1765209291517210816?s=20
 - LLMの能力について語る人間の思考力が問われているのではないか　by shi3zさん
-	- https://x.com/shi3z/status/1765310307994611798?s=20
-- Claude 3 Opus structured query agent
-	- https://colab.research.google.com/drive/1hkwipueVyi2Jzo58Z8jfdZ_9rSscfGxd
-	- How good is AnthropicAI's Claude 3 Opus at being an agent? Pretty darn good! Check out this quick notebook in which Claude answers a complex, multi-source question by reading a PDF table and using the answer to do math on the contents of a CSV!
-- Knowledge-Augmented Planning for LLM Agents
-	- https://arxiv.org/abs/2403.03101
-	- Proposes
+	- https://x.c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI0OTkzMjcsLTI2MjA5OTYxLDE0ND
-QwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYy
-MCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2Nz
-M4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4
-OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MT
-UwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYx
-MjgxM119
+eyJoaXN0b3J5IjpbMjMzNjg1NTgyLC0yNjIwOTk2MSwxNDQ0MD
+Y0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAs
+LTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczOD
+M5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODks
+LTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MD
+k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
+MTNdfQ==
 -->
