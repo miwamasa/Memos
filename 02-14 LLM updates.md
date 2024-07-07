@@ -99,8 +99,10 @@
 	- https://arxiv.org/abs/2312.10997
 	- [RAGのSurvey論文からRAG関連技術を俯瞰する](https://sue124.hatenablog.com/entry/2024/07/02/233616)
 	- 「教師なしFine-tuningが（Fine-tuning前のモデルと比較して）若干の改善を示す一方で、RAGは、事前学習中に遭遇した既存の知識と全く新しい知識の両方に対して、一貫してFine-tuningのモデルの性能を上回ることを明らかにした」
-	- 
-	- 
+	- RAGは下図のように "Naive RAG", "Advanced RAG", "Modular RAG" のように変遷してきました
+- サイバーエージェントからCALM3-22B-Chatってのが公開
+	- https://huggingface.co/cyberagent/calm3-22b-chat
+- Swallow-8Bに、本家MetaのInstructモデルとBaseモデルの差分ベクトルを加算しました
 
 ## 24/7/1
 
@@ -3530,12 +3532,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Claudeの文字起こしやばいな　領収書、形式も含めて完璧に読み取れた
 	- https://x.com/SuguruKun_ai/status/1764918827769606393?s=20
 - Wikipedia で雑なQAデータセットを作りました。
-	- https://huggingface.co/datasets/alfredplpl/wikipedia-qa-ja-500k
-	- 50万件以上あります。Instruction tuning用では日本で一番件数があるので適当に使ってください
-- 野村総研による生成AIレポート
-	- https://www.nri.com/-/media/Corporate/jp/Files/PDF/knowledge/publication/chitekishisan/2024/01/cs20240104.pd
+	- https://huggingface.co/datasets/alfredplpl/wiki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzUwNDcxMywtMjYyMDk5NjEsMTQ0ND
+eyJoaXN0b3J5IjpbMTY2MjY0MjQ0MiwtMjYyMDk5NjEsMTQ0ND
 A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
 LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
 gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
