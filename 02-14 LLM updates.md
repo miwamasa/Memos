@@ -102,7 +102,16 @@
 	- RAGは下図のように "Naive RAG", "Advanced RAG", "Modular RAG" のように変遷してきました
 - サイバーエージェントからCALM3-22B-Chatってのが公開
 	- https://huggingface.co/cyberagent/calm3-22b-chat
-- Swallow-8Bに、本家MetaのInstructモデルとBaseモデルの差分ベクトルを加算しました
+- Swallow-8Bに、本家MetaのInstructモデルとBaseモデルの差分ベクトルを加算しました by AIXサトシさん
+	- https://x.com/AiXsatoshi/status/1808063295259304286
+- gen3 スゴいっす。日本人も普通に出せる。 破綻も少ない
+	- https://x.com/br_d/status/1807986683226599806
+	- 映像とかに1カットぱっと出されたら、判断つかないレベル
+- パナソニックHDは、ストックマークと1,000億パラメータの自社専用 [#LLM](https://x.com/hashtag/LLM?src=hashtag_click) "Panasonic-LLM-100b" の開発で協業
+	- https://x.com/panasonic_ai/status/1808007439922745561
+- # RetrievaBERTの公開
+- “Sentence Representationで用いるためのBERTとして系列長が2048まで対応しているBERTを構築しました
+	- 
 
 ## 24/7/1
 
@@ -3523,22 +3532,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - RAGでの回答精度向上のためのテクニック集（応用編-A）
 	- https://zenn.dev/knowledgesense/articles/cec1cd43244524
 	- 「応用編-A」では、特に1つ目の「ユーザーの質問に回答するために最も必要な（最も関連している）ドキュメント群を抽出する」ための具体的なテクニックについて見ていきます。
-- Claude 3 Opus、Danbooru Taggerの機能もある
-	- https://x.com/alfredplpl/status/1764951315636158535?s=20
-	- アニメの話らしい
-- BASED: Simple linear attention language models balance the recall-throughput tradeoff
-	- https://www.together.ai/blog/based
-	- Transformerの24倍のスループットを持つLLM
-- Claudeの文字起こしやばいな　領収書、形式も含めて完璧に読み取れた
-	- https://x.com/SuguruKun_ai/status/1764918827769606393?s=20
-- Wikipedia で雑なQAデータセットを作りました。
-	- https://huggingface.co/datasets/alfredplpl/wiki
+- Cl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjY0MjQ0MiwtMjYyMDk5NjEsMTQ0ND
-A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
-LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
-gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
-LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEsLTkxNT
-A5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEy
-ODEzXX0=
+eyJoaXN0b3J5IjpbMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MD
+Y0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAs
+LTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczOD
+M5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODks
+LTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MD
+k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
+MTNdfQ==
 -->
