@@ -235,7 +235,12 @@
 	- 神宮外苑再開発めぐり伊藤忠商事が異例の長文の声明を発表
 - Gemma2-9BのSPPOモデル、AlpacaEvalでもメチャクチャ勝率高くてGPT-4Tに匹敵してるくらいだからまあShaberi3ベンチで7.9取れてもおかしくないけど異常すぎる　 by うみゆきさん
 	- https://tatsu-lab.github.io/alpaca_eval/
-- 
+- AI’s $600B Question
+	- https://www.sequoiacap.com/article/ais-600b-question/
+	- the tech industry needs $600B in AI revenue to justify the money spent on GPUs and data centers.
+	- OpenAI is the biggest AI pure play and is at $3.4B annual run rate. This feels like a bubble unless products worth buying show up.
+- Gemma2-9B-it-SPPO-Iter3をShaberi3評価したらなんとスコア7.90！！ by うみゆきさん
+	- 
 
 ## 24/7/1
 
@@ -3524,19 +3529,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Cappy, a small pre-trained scorer model that enhances and surpasses the performance of large multi-task language models.
 -  BitNet&BitNet b158の実装 by はち さん
 	- https://note.com/hatti8/n/nc6890e79a19a
-	- 一旦自身の理解のためにもBitNetの処理やBitNet b158の想像される実装、不明瞭な点を色々な方々の実装をもとに文字に書き起こしていこうと思います
-- 岡野原さんの、「大規模言語モデル開発の展望と今後の課題」
-	- https://hillbig.github.io/NLP2024_WS_okanohara.pdf
-	- 様々なトピック（学習データ整備、MoE、Mamba、LongContext、推論効率化）などを紹介
--  MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training
-	- https://arxiv.org/abs/2403.09611
-	- Apple presents MM1, a family of multimodal LLMs up to 30B parameters, that are SoTA in pre-t
+	- 一旦自身の理解のためにもBitNetの処理やBitNet b158の想像される実装、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODk0OTI0NTUsMjcxNTUwODY4LC0yNj
-IwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4
-LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MD
-kyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkw
-LDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOT
-c5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4
-NTk1XX0=
+eyJoaXN0b3J5IjpbNjE5NTkzMjAwLDI3MTU1MDg2OCwtMjYyMD
+k5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwx
+NDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5Mj
+E4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwx
+NDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OT
+cyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5
+NV19
 -->
