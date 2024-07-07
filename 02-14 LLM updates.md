@@ -3,6 +3,7 @@
 
 ## 24/7/8
 
+gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、
 
 SPOってのは、aligmentなんだけど、
 
@@ -3526,14 +3527,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/npaka123/status/1767807910925545892?s=20
 - Claude 3 Haiku, the fastest and most affordable model in its intelligence class.
 	- https://x.com/AnthropicAI/status/1768018310615151002?s=20
-- With OpenAI, Figure 01 can now have full conversations with people
-	- ht
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTA3MjgyLDM5NjU5MjY0MSwyNzE1NT
-A4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEw
-NjQ4Nzg0NDgsMTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NT
-czMywtMTQwOTIxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3
-MjY2Mzg4OTAsMTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5ND
-QzODQsOTM5Nzk3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjJd
-fQ==
+eyJoaXN0b3J5IjpbMjAyOTIxNTg4OSwzOTY1OTI2NDEsMjcxNT
+UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
+MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
+U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
+NzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OT
+Q0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIy
+XX0=
 -->
