@@ -81,7 +81,14 @@
 	- 異種データを混ぜる際にはご注意を。by 横山さん
 - # [Meta、LLMコンパイラを公開——AIがプログラミングの常識を変えるかも](https://thebridge.jp/2024/07/metas-llm-compiler-is-the-latest-ai-breakthrough-to-change-the-way-we-code)
 	- https://huggingface.co/collections/facebook/llm-compiler-667c5b05557fe99a9edd25cb
-	- 
+	- LLVM-IR とアセンブリコードの5,460億トークンからなる膨大なコーパスでモデルをトレーニングすることで、コンパイラの中間表現、アセンブリ言語、最適化テクニックを理解できるようになった。
+	- LLM コンパイラは、コードサイズの最適化において目覚ましい成果を上げた。このモデルはテストにおいて、オートチューニング探索の最適化ポテンシャルの77%に達した
+- Sonnet3.5をShaberi3ベンチで評価したら、8.39！！　by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1808203661623058684
+	- やはり世界最強、王者の性能を叩き出してGPT-4TやOpusに勝利しました。お前がナンバーワンだ
+- GraphRAG from Microsoft is just open sourced
+	- https://github.com/microsoft/graphrag
+- 
 
 ## 24/7/1
 
@@ -3530,20 +3537,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Claude 3 is able to provide a summary of each section and also determine the positions of the diagrams!
 	- https://github.com/run-llama/llama_index/blob/main/docs/examples/multi_modal/anthropic_multi_modal.ipynb
 - AnthropicのClaude Proまとめ
-	- 月額$20(USドル)で最高モデルのClaude Opusとチャット出来るサブスクサービス 
-	- chatGPT Proが40メッセージ/3時間の制限があるのと同様に使用量制限はあるが目安しか明記されていない 
-	- 無料版と比較して少なくとも5倍の利用枠。短めの(約200単語の英語の文章)であれば8時間ごとに少なくとも100のメッセージを送信可との事 
-	- 無料版は1日あたりのメッセージ枠制限だが、有料版は8時間毎に枠がリセット 
-	- 『華麗なるギャツビー』のコピーをアップロードした場合(訳注：おそらく1MB未満)8時間以内に送信できるメッセージは20件になるとの事 
-	- アップロードできるファイルは文章(doc)か画像(image)で最大5ファイル各10MBまで ・zipはアップロードできないのでソースコード一式をアップロードして解析みたいな事は難しそう 
-	- 2023年8月までのデータでトレーニングされている
-	- デフォルトで
+	- 月額
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3MDgyNzcsLTI2MjA5OTYxLDE0NDQwNj
-Q4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYyMCwt
-MzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2NzM4Mz
-kwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4OSwt
-MTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MTUwOT
-c2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYxMjgx
-M119
+eyJoaXN0b3J5IjpbNjY2MDMzMTE0LC0yNjIwOTk2MSwxNDQ0MD
+Y0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAs
+LTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczOD
+M5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODks
+LTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MD
+k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
+MTNdfQ==
 -->
