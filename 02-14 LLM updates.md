@@ -240,7 +240,15 @@
 	- the tech industry needs $600B in AI revenue to justify the money spent on GPUs and data centers.
 	- OpenAI is the biggest AI pure play and is at $3.4B annual run rate. This feels like a bubble unless products worth buying show up.
 - Gemma2-9B-it-SPPO-Iter3をShaberi3評価したらなんとスコア7.90！！ by うみゆきさん
-	- 
+	- https://x.com/umiyuki_ai/status/1809215562008179163
+	- カガミカミさんに試してって言われた
+	- 9B程度のモデルでは絶対辿り着けないハズの境地に到達してしまってる！スコア上はQwen2-72B（7.76）超え、Gemma2-27B（7.88）超え！Gemini1.5Pro（8.01）のチョイ下！流石にたまげた
+-  非公式クライアントライブラリClaudiaを使って、Claude3とFunction CallingをUnityで動かす
+	- https://note.com/361yohen/n/nbc4957231fe1
+- The Transformers architecture clearly explained
+	- https://x.com/rfeers/status/1809150250688639209
+- # Many-Shot In-Context Learning
+- 
 
 ## 24/7/1
 
@@ -3523,15 +3531,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 世田谷区がAI botを内製　非エンジニア職員がローコードで開発　ChatGPT活用「ヒデキ」
 	- https://www.itmedia.co.jp/news/articles/2403/13/news123.html
 	- 非エンジニアの職員チームが、ローコードツールなどを駆使して3カ月で完成させたという。
-	- 職員が普段から使っているTeamsのチャットツールでヒデキに質問でき、ChatGPTを業務に活用できる
-- Cappy: Outperforming and boosting large multi-task language models with a small scorer
-	- https://blog.research.google/2024/03/cappy-outperforming-and-boosting-large.html
-	- Cappy, a small pre-trained scorer model that enhances and surpasses the performance of large multi-task language models.
--  BitNet&BitNet b158の実装 by はち さん
-	- https://note.com/hatti8/n/nc6890e79a19a
-	- 一旦自身の理解のためにもBitNetの処理やBitNet b158の想像される実装、
+	- 職員が普段から使っているTeamsのチャットツールでヒデキに質問でき、ChatGP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5NTkzMjAwLDI3MTU1MDg2OCwtMjYyMD
+eyJoaXN0b3J5IjpbMzk2NTkyNjQxLDI3MTU1MDg2OCwtMjYyMD
 k5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwx
 NDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5Mj
 E4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwx
