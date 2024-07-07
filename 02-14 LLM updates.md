@@ -96,8 +96,10 @@
 	- GraphRAG using intermediate- and low-level community summaries also performed better than source text summarization on these metrics at lower token costs (~20–70% token use per query). 
 	- Performance was competitive with hierarchical source text summarization for the highest-level communities at substantially lower token costs (~2–3% token use per query).
 -  Retrieval-Augmented Generation for Large Language Models: A Survey
+	- https://arxiv.org/abs/2312.10997
+	- [RAGのSurvey論文からRAG関連技術を俯瞰する](https://sue124.hatenablog.com/entry/2024/07/02/233616)
+	- 「教師なしFine-tuningが（Fine-tuning前のモデルと比較して）若干の改善を示す一方で、RAGは、事前学習中に遭遇した既存の知識と全く新しい知識の両方に対して、一貫してFine-tuningのモデルの性能を上回ることを明らかにした」
 	- 
-- # [RAGのSurvey論文からRAG関連技術を俯瞰する](https://sue124.hatenablog.com/entry/2024/07/02/233616)
 	- 
 
 ## 24/7/1
@@ -3531,15 +3533,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/datasets/alfredplpl/wikipedia-qa-ja-500k
 	- 50万件以上あります。Instruction tuning用では日本で一番件数があるので適当に使ってください
 - 野村総研による生成AIレポート
-	- https://www.nri.com/-/media/Corporate/jp/Files/PDF/knowledge/publication/chitekishisan/2024/01/cs20240104.pdf?la=ja-JP&hash=ED42BFF77381C8AD102B7792B56D2654AD7BC6D5
-	- 生成AIで影響を受ける職種のリストが載ってるのは最近よく見るけれど、一位が水族館飼育員なのが斬新さを感じた。あとファンドマネージャーが上位にいるのも面白い
-- Claude 3の技術レポートによれば、大学院
+	- https://www.nri.com/-/media/Corporate/jp/Files/PDF/knowledge/publication/chitekishisan/2024/01/cs20240104.pd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQwMjcxODQsLTI2MjA5OTYxLDE0ND
-QwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYy
-MCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2Nz
-M4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4
-OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MT
-UwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYx
-MjgxM119
+eyJoaXN0b3J5IjpbLTkwNzUwNDcxMywtMjYyMDk5NjEsMTQ0ND
+A2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIw
+LC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3Mz
+gzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5
+LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTEsLTkxNT
+A5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5NSwxOTAzNjEy
+ODEzXX0=
 -->
