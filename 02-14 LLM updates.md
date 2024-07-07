@@ -176,6 +176,12 @@
 	- SIGGRAPH'24論文。勾配計算不可能なブラックボックス関数からの非常に少数のサンプリングで微分可能な代替関数 (勾配法で最適化可能) を作成。かなりの高次元でも効率的に動作する。
 	- https://x.com/SupervisedAi/status/1808462332479107542
 	- これすごいですね。応用例として元VAEからスプラインの座標位置を決めて画像生成するという微分不可能な生成モデルでも近似した勾配法結果により生成モデルの構築に成功してます
+- Llama3-ArrowSE-8B-v0.1のShaberi3スコアは7.14。かなり性能すごいですね　by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1808536639574266293
+- This AI-powered Juypter implementation has huge potential.
+	- https://x.com/omarsar0/status/1808527461736485229
+	- They have added Mistral's Codestral and GPT4-o for inline AI Copilot auto-complete, code generation, editing, error fixing, and sidebar chat.
+	- https://github.com/pretzelai/pretzelai
 - 
 
 ## 24/7/1
@@ -3531,13 +3537,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 3/11
 
-今週は、AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロもうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力で旋風を巻き起こしている。大学院レベルのGPQAベンチマークで最高性能さらには、IQ100相当であるという評価も出てきて、日本のプロのライターももはやClaude3でいいのではないかという話に。Langchain、llmaindexも激速でClaude3対応。Claude3の回答を観察すると、人の知識とか、聞きたいことをおもんばかって、人の心に差し込むように答えを入れてくる感じで、まさにLLM版の「不気味の谷」、これは(humanityの)終わりの始まりか。Groqは、gemma-7bベースのデモを公開、リアルタイムに、打鍵に合わせて、いや打ち込みの予測もしながら即回答、これは経験しないとすごさがわからない。Claude3が示した高い能力と合わせて見ると、人の心の状態をリアルタイムに推定して、それに応じた回答をする、場合によっては状態を変更するかもしれない、それってやばいよね。来日した、Benjio氏がやたらalignmentを強調するわけもわかるわ。分割統治式でタスク
+今週は、AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロもうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力で旋風を巻き起こしている。大学院レベルのG
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzAwNDg1NzgsMjcxNTUwODY4LC0yNj
-IwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4
-LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MD
-kyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkw
-LDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOT
-c5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4
-NTk1XX0=
+eyJoaXN0b3J5IjpbLTE1NjIzODY5MiwyNzE1NTA4NjgsLTI2Mj
+A5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgs
+MTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOT
+IxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAs
+MTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nz
+k3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1
+OTVdfQ==
 -->
