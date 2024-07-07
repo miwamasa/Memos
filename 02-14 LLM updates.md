@@ -204,7 +204,16 @@
 - Claude 3.5 Sonnet, Gemini 1.5 Pro, GPT-4o 頂上決戦　by 元木さん
 	- https://x.com/ai_syacho/status/1808708033989525886
 	- 開発における能力順位を元木の感覚値で並べました。
-	- 
+- BM25のtfidfでいうtfに相当する項（BM25だとテキストの長さに応じた補正が掛けられてる項）の代わりに、transformerモデルに入れた時の最終層のCLSトークンのattensionの値を使うBM42が良いらしい。
+	- https://x.com/s_tat1204/status/1808896746837455249
+	- BM25資産をそのまま使えそうで良いですね
+-  So far the technology has had almost no economic impact
+	- https://www.economist.com/finance-and-economics/2024/07/02/what-happened-to-the-artificial-intelligence-revolution
+	- AI革命は今のところ経済的インパクトがほとんど確認できないないという記事。by 小林さん
+	- https://x.com/yohei_econ/status/1808503287617851876
+	- GAFAM等の巨大テック企業は今年4000億ドル（60兆円兆）のAI関連資本支出を予定している。
+	- しかしAIの利用率はまだ低い
+	- 75％の知識労働者は既にAIを使っていると答えているが、アメリカで企業として使っているのは５％程度。データの安全性やアルゴリズムのバイアスが懸念点。 ・またAIは進歩が速いので、パイロットを始めようとしても、それがすぐに時代遅れになるリスクがあり、大規模プロジェクトに着手しにくい。
 
 ## 24/7/1
 
@@ -3514,23 +3523,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - JST戦略的創造研究推進事業「自律駆動による研究革新」が来年度から始まります
 	- https://www.mext.go.jp/b_menu/houdou/2023/mext_000010.html
 	- 研究プロセスそのものを AI やロボット で加速する自律駆動型の研究アプローチ
--  LocalMamba: Visual State Space Model with Windowed Selective Scan
-	- https://huggingface.co/papers/2403.09338
--  AI escape velocity: A conversation with Ray Kurzweil
-	- https://www.bvp.com/atlas/ai-escape-velocity-a-conversation-with-ray-kurzweil
-	- インタビュアー「私たちの大脳新皮質を、十分に高い帯域幅で計算機につなぐことができるようになるのはいつでしょうか？」 
-	- カーツワイル「2030年代初頭です。その時点で、大規模言語モデルの全容量を脳内に持つ人間が存在することになるでしょう」
-- ryota39/bilingual-gpt-neox-4b-instruction-sft-en-ja-84k
-	- https://huggingface.co/ryota39/bilingual-gpt-neox-4b-instruction-sft-en-ja-84k
-	- rinna/bilingual-gpt-neox-4b-instruction-sftに英日翻訳データセット84,300件をフルパラメータチューニングしました。商用利用可能なライセンス(cc-by-sa-4.0)ですので皆様お気軽にお試しください
-- Researcher2Vec: ニューラル線形モデル による自然言語処理研究者の可視化と推薦
-	- http://chasen.org/~daiti-m/paper/nlp2021researcher2v
+-  LocalMamba: Visual State Space Model with Windowed Selec
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxNzA3OTQ2LDI3MTU1MDg2OCwtMjYyMD
-k5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwx
-NDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5Mj
-E4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwx
-NDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OT
-cyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5
-NV19
+eyJoaXN0b3J5IjpbLTE4NDIwODUzNTAsMjcxNTUwODY4LC0yNj
+IwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4
+LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MD
+kyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkw
+LDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOT
+c5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4
+NTk1XX0=
 -->
