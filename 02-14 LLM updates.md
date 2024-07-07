@@ -73,6 +73,12 @@
 	- 2倍以上大きなサイズのLlama 3に匹敵することが示されています。 
 	- 安全性評価ではGPT-4oと同等以上の結果も。 
 	- また、使い心地の評価（Chatbot Arena）では既に多くのモデルを上回っています。
+-  Googleが公開した新しいオープンLLM、Gemma 2へようこそ！
+	- https://hamaruki.com/welcome-to-gemma-2-googles-new-open-llm-2/
+	- スライディングウィンドウアテンション：高品質な生成のために、スライディングウィンドウと完全な二次アテンションを交互に配置します。
+対数 ソフトキャッピング：ロジットを一定の範囲にスケーリングすることで、ロジットが過度に大きくなるのを防ぎ、学習を改善します。
+蒸留：より大きな教師モデルを活用して、より小さなモデル（9Bモデルの場合）を学習します。
+モデルマージ：2つ以上のLLMを組み合わせて、単一の新しいモデルを作成します。
 - Microsoft 生成AI活用事例と評価方法について
 	- https://speakerdeck.com/daikikanemitsu/microsoft-sheng-cheng-aihuo-yong-shi-li-toping-jia-fang-fa-nituite
 	- Microsoftが公開している「生成AI活用事例」が有益。
@@ -3502,7 +3508,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzODU1NjQ3LDUzMDg0NjU1MywtOTE5Nz
+eyJoaXN0b3J5IjpbMjc0NjIxMTk0LDUzMDg0NjU1MywtOTE5Nz
 IxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEs
 MjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0OD
 Y0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1
