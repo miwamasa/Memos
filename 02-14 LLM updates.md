@@ -3,23 +3,14 @@
 
 ## 24/7/8
 
-gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、 スライディングウィンドウのアテンション、知識蒸留、ソフトキャッピングによるトレーニングの安定性、WARPと呼ばれる新しいマージング技術などがてんこ盛りの模様。gemma-2-27b-itのElyzaベンチもいいし、gemma-2-27b-itの日本語imatrix量子化ggufもあります。SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用した学習と最適化手法だそうで、alignmentとも相性が良い模様。Gemma-2にSPPOを適用したGemma2-9B-it-SPPO-Iter3なんかも、ベンチマークで高得点をマーク。まあといっても、Sonnet3.5をShaberi3ベンチで評価したら8.39といううみゆきさんの報告のように、依然横砂はSonnet3.5か、今週もClaudeのArtifacts機能でマインクラフト作った例が報告される。
+gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、 スライディングウィンドウのアテンション、知識蒸留、ソフトキャッピングによるトレーニングの安定性、WARPと呼ばれる新しいマージング技術などがてんこ盛りの模様。gemma-2-27b-itのElyzaベンチもいいし、gemma-2-27b-itの日本語imatrix量子化ggufもあります。SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用した学習と最適化手法だそうで、alignmentとも相性が良い模様。Gemma-2にSPPOを適用したGemma2-9B-it-SPPO-Iter3なんかも、ベンチマークで高得点をマーク。まあといっても、Sonnet3.5をShaberi3ベンチで評価したら8.39といううみゆきさんの報告のように、依然横砂はSonnet3.5か、今週もClaudeのArtifacts機能でマインクラフト作った例が報告される。Llama3-Swallow-8Bとか、CALM3-22B-Chatとか、日本のLLMも検討してますが、ちょっと厳しいなあ。
 
-テキストから動画、画像から動画、テキストから画像でRunwayのGen-3が話題になった、人の顔って動くと不自然さがわかるはずなのに、もはや識別不能とは。メタも人知れず「Meta 3D Gen」を発表、評価を待とう。
+テキストから動画、画像から動画、テキストから画像でRunwayのGen-3が話題になった、人の顔って動くと不自然さがわかるはずなのに、もはや識別不能とは。メタも人知れず「Meta 3D Gen」を発表、評価を待とう。自然な対話をする「Moshi」も、RAG関連では、先週話題となったMicrosoftのGraphRAG論文、発表直後に実装がgithubに公開、ollamaでも試せる模様。RAG survey論文、Naive RAG", "Advanced RAG", "Modular RAG"という歴史的な視点から、細かい技術まで徹底的に網羅、いやこんな手法があるのかと大変参考になる。TJOさんも絶賛、というか後出しじゃんけんぽくてみっともないな。基盤技術も、BM42とか、RetrievaBERTとか、FastEmbed、とか文書検索やエンベディングなどの基礎となる技術も着実に進化がある、今後の発展に期待。
 
-RAG関連では、先週話題となったMicrosoftのGraphRAG論文、発表直後に実装がgithubに公開、ollamaでも試せる模様。RAG survey論文、Naive RAG", "Advanced RAG", "Modular RAG"という歴史的な視点から、細かい技術まで徹底的に網羅、いやこんな手法があるのかと大変参考になる。TJOさんも絶賛、というか後出しじゃんけんぽくてみっともないな。
-
-
+一方、今週はLLMの進歩に対する冷静な記事も目立った。LLMの基本的な性質に対して物申すKey Claims 論文、確かにLLMの特徴ってそれが発言する条件を備考に乗せると長くなるよな。経済的な視点では、エコノミストのAI革命は今のところ経済的インパクトがほとんど確認できないとい記事も、確かに、誰が開発やGPUを動かすお金を払ってるんだろうと冷静な分析。GPTZeroの報告にあったように、パープレキシティのユーザーは平均3回のプロンプト試行で生成されたソースに遭遇するというのだから、データの枯渇感も半端ない。
 
 
-Llama3-Swallow-8Bとか、CALM3-22B-Chatとか、日本のLLMも検討してますが、ちょっと厳しいなあ。
 
-BM42とか、RetrievaBERTとか、FastEmbed、とか文書検索やエンベディングなどの基盤も着実に進化がある、成果に期待。
-
-今週はLLMの進歩に対する冷静な記事も目立った。LLMの基本的な性質に対して物申すKey Claims 論文、確かにLLMの特徴ってそれが発言する条件を備考に乗せると長くなるよな。経済的な視点では、エコノミストのAI革命は今のところ経済的インパクトがほとんど確認できないとい記事も、確かに、誰が開発やGPUを動かすお金を払ってるんだろうと冷静な分析。GPTZeroの報告にあったように、パープレキシティのユーザーは平均3回のプロンプト試行で生成されたソースに遭遇するというのだから、データの枯渇感も半端ない。
-
-
-「Moshi」
 
 -  Self-Play Preference Optimization for Language Model Alignment
 	- https://huggingface.co/papers/2405.00675
@@ -3517,11 +3508,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5NTczMDgyLDUzMDg0NjU1MywtOTE5Nz
-IxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEs
-MjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0OD
-Y0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1
-MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4Mj
-Y3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2Njdd
-fQ==
+eyJoaXN0b3J5IjpbLTE2ODQ2OTEzMSw1MzA4NDY1NTMsLTkxOT
+cyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQx
+LDI3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzND
+g2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcs
+NTA3ODk1NzMzLC0xNDA5MjE4NTAyLDY3MzgzOTA5NCwtMjA2OD
+I2Nzk4LDcyNjYzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3
+XX0=
 -->
