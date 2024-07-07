@@ -6,7 +6,7 @@
 gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、 スライディングウィンドウのアテンション、知識蒸留、ソフトキャッピングによるトレーニングの安定性、WARPと呼ばれる新しいマージング技術などがてんこ盛りの模様。
 
 
-SPOってのは、aligmentなんだけど、
+SPOってのは、aligmentなんだけど、Gemma-2にSPOを適用したLLMがあちらこちらのベンチマークで高得点をマーク。
 
 RunwayのGen-3で
 
@@ -3526,13 +3526,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ひろみちゅ先生絶賛
 - Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングの練習。500ステップ(0.2エポック : 20分) のお試しだけど、きれいに回答してくれてる
 	- https://x.com/npaka123/status/1767807910925545892?s=20
-- Claude 3 Haiku, the fastest and most affordable model in its 
+- Claude 3 Haiku, the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODc5Mjg0NTgsMzk2NTkyNjQxLDI3MT
-U1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUs
-MTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3OD
-k1NzMzLC0xNDA5MjE4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4
-LDcyNjYzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OT
-k0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYy
-Ml19
+eyJoaXN0b3J5IjpbLTU2MjQ2MzE0MCwzOTY1OTI2NDEsMjcxNT
+UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
+MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
+U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
+NzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OT
+Q0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIy
+XX0=
 -->
