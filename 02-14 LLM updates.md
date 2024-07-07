@@ -17,25 +17,7 @@ ClaudeのArtifacts機能でマインクラフト
 
 Llama3-Swallow-
 
-LLMの最新動向として、さまざまな構想や技術的な進展が続々と報告されています。特に目立つのは、自己演算による好み最適化（SPPO）、Neural-Symbolic AI、Retrieval-Augmented Generation（RAG）、LLMの量子化、新しいトレーニング手法などが挙げられます。これらの革新がそれぞれ異なる側面からモデルの性能や応用範囲を大きく拡張しています。
 
-最近、SPPOを用いたGemma-2がリリースされ、軽量ながらもGPT-4クラスの性能を示していると報告されています。これに伴い、AlpacaEval 2.0での高評価やShaberi3ベンチマークでの驚異的なスコアなど、実際に優れたパフォーマンスを発揮している証拠が挙げられています。
-
-また、NICTとKDDIは、生成AIの政策立案をサポートするための専門家支援センターを設立し、日本もGPAI（AIに関するグローバル・パートナーシップ）への貢献を強化しています。この取り組みは、生成AIの社会的受容やエビデンスの蓄積に寄与するでしょう。
-
-一方、Llama3-SwallowモデルやGemma 2:27Bなど、新しいLLMモデルが続々と発表され、各種ベンチマークでの評価が進んでいます。特にLlama3-Swallow-8BがShaberi3ベンチマークで6.78のスコアを記録しました。この結果を受けて、一部の評価者はそのパフォーマンスに疑問を感じつつも、その存在に注目しています。
-
-Neural-Symbolic AIの分野では、「Imperative Learning」や「Retrieval-Augmented Generation」の手法が取り入れられ、特にロボット自律システムへの応用が期待されています。これらの手法は、複雑な推論と知識の統合に関する新しいアプローチを提供しています。
-
-さらに、Metaが公開したLLMコンパイラは、プログラミングの常識を変える可能性を秘めています。LLVM-IRとアセンブリコードを理解することで、コードサイズの最適化に目覚ましい成果を上げており、特に生成AIによるプログラミング支援の分野で注目されています。
-
-Microsoftやサイバーエージェントからも新しいLLM技術が報告されており、NMISTなどの大型モデルに基づくアプローチが進展しています。特にMicrosoftのGraphRAGやBM42のように、RAG技術を応用したデータ検索やクエリの多様性を高める手法が発表されています。
-
-また、最新の研究として、ポリマー逆設計に用いるVAE（Variational Autoencoder）なども紹介されています。このモデルは、ポリマーの物性を広範囲から逆設計する能力を持つため、材料科学分野での多様な応用が期待されています。
-
-AI技術の実用化に関しては、現在、投資と実装のギャップが指摘されています。巨大テック企業による莫大な資金投入が行われている一方で、実際の経済的インパクトがまだ限定的だという報告もあります。その背景には、データの安全性やアルゴリズムのバイアス、技術の進展速度があるとされています。
-
-このように、最新のLLM動向は非常に多岐に渡り、それぞれの技術革新が新たな応用分野を切り拓く一方で、その実用化に向けた課題も明らかになってきています。これからの進展がどのように社会や産業に影響を与えるのか、非常に興味深い状況が続いています。
 
 
 -  Self-Play Preference Optimization for Language Model Alignment
@@ -3534,11 +3516,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE4NDg4MTAsMzk2NTkyNjQxLDI3MT
-U1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUs
-MTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3OD
-k1NzMzLC0xNDA5MjE4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4
-LDcyNjYzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OT
-k0NDM4NCw5Mzk3OTcyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYy
-Ml19
+eyJoaXN0b3J5IjpbMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNT
+UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
+MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
+U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
+NzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OT
+Q0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIy
+XX0=
 -->
