@@ -8,9 +8,9 @@ gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3
 
 SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用した学習と最適化手法だそうで、alignmentとも相性が良い模様。Gemma-2にSPPOを適用したLLMがあちらこちらのベンチマークで高得点をマーク。
 
-テキストから動画、画像から動画、テキストから画像でRunwayのGen-3が話題になった、人の顔って動くと不自然さがわかるはずなのに、もはや識別不能。メタも、
+テキストから動画、画像から動画、テキストから画像でRunwayのGen-3が話題になった、人の顔って動くと不自然さがわかるはずなのに、もはや識別不能。メタも「Meta 3D Gen」を発表、評価を待とう。
 
-RAGでは、先週話題となったMicrosoftのGraphRAG論文、発表直後に実装がgithubに公開、ollamaでも試せる模様。RAG survey論文、Naive RAG", "Advanced RAG", "Modular RAG"という歴史的な視点から、細かい技術まで徹底的に網羅、いやこんな手法があるのかと大変参考になる。TJOさんも絶賛。
+RAGでは、先週話題となったMicrosoftのGraphRAG論文、発表直後に実装がgithubに公開、ollamaでも試せる模様。RAG survey論文、Naive RAG", "Advanced RAG", "Modular RAG"という歴史的な視点から、細かい技術まで徹底的に網羅、いやこんな手法があるのかと大変参考になる。TJOさんも絶賛、というか後出しじゃんけんぽくてみっともないな。
 
 ClaudeのArtifacts機能でマインクラフト
 
@@ -3516,11 +3516,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTcyMTIxNywxOTk1MzY0ODk4LDIwMD
-I2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2OCwtMjYyMDk5NjEs
-MTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOT
-E4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5MjE4NTAy
-LDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwxNDY1OD
-M5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OTcyMTFd
-fQ==
+eyJoaXN0b3J5IjpbMTM4MzM3NDQ0OCwtOTE5NzIxMjE3LDE5OT
+UzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4
+LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0OD
+c4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzMs
+LTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgsNzI2Nj
+M4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0
+XX0=
 -->
