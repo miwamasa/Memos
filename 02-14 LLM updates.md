@@ -192,7 +192,15 @@
 - **Multi-token prediction models and baselines**
 	- https://huggingface.co/facebook/multi-token-prediction
 	- In April we published a paper on a new training approach for better & faster LLMs using multi-token prediction. To enable further exploration by researchers, we’ve released pre-trained models for code completion using this approach on
-- 
+- unslothがgemma 2の微調整に対応
+	- https://x.com/webbigdata/status/1808698905774993771
+	- 各ライブラリだけアップデートすればgemma 1の微調整時に使った設定をほぼ変えずにGPUメモリ16GBで動いてくれました、
+- "Patent Landscape Report on Generative AI,"
+	- https://x.com/LuizaJarovsky/status/1808835305232839159
+	- 54,000 GenAI-related inventions (patent families) were filed and more than 75,000 scientific publications published between 2014 and 2023.
+	- The growth is rapid, with the number of GenAI patents increasing eightfold since the 2017 introduction of the deep neural network architecture behind the Large Language Models that have become synonymous with GenAI.
+	- n 2023 alone over 25% of all GenAI patents globally were published, and over 45% of all GenAI scientific papers were published.
+	- 
 
 ## 24/7/1
 
@@ -3517,23 +3525,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  日本語も理解できたCohereForAIのオープンソースのLLMモデルを試してみる。
 	- https://note.com/masayuki_abe/n/n0e5e48fc4cc3?sub_rt=share_pb
 	- CohereForAIのLLMをGoogle ColabのA100で実行したので紹介していきます
-	- フリーのLLMなのに文章生成、数値計算、英訳、日本語理解力がChatGPTみたく回答されているのに驚きました。
--  第2回　AIと人間の未来を決める鍵「アライメント」――ちょっとだけマニアックなAIの話
-	- https://bcg-jp.com/article/2230/
-	- 今年はAIの発展がさらに加速すると予想されます。AIアライメントはAIと人間との未来を決める鍵となるでしょう。次回もお楽しみに
--  Genomic data in the All of Us Research Program
-	- https://www.nature.com/articles/s41586-023-06957-x
-	- 今週のNatureにAll of usのサマリーデータが出ている。約25万人（半数近くがマイノリティ）のゲノム解読で、10億もの多様体を検出、117個の疾患に関連する3724個の変異を同定、まとめデータも公開されているらしい
--  OpenAI Grok Curve Experiments
-	- https://twitter.com/i/bookmarks
-	- This is the code for the paper [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/abs/2201.02177) by Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, and Vedant Misra
-	- XからGroqがオープンソース化とのアナウンスが出たが、なんかOpenAIが別実装を公
+	- フリーのLLMなのに文章生成、数値計算、英
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxMTAxNTEsMjcxNTUwODY4LC0yNjIwOT
-k2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0
-NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMT
-g1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0
-NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5Nz
-IxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1
-XX0=
+eyJoaXN0b3J5IjpbLTE4NzgxNTY1NzEsMjcxNTUwODY4LC0yNj
+IwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4
+LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MD
+kyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkw
+LDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOT
+c5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4
+NTk1XX0=
 -->
