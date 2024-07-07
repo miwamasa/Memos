@@ -17,7 +17,7 @@ ClaudeのArtifacts機能でマインクラフト
 
 Llama3-Swallow-
 
-
+BM42とか、RetrievaBERTとか、FastEmbed、ｔ
 
 
 -  Self-Play Preference Optimization for Language Model Alignment
@@ -3516,11 +3516,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzM3NDQ0OCwtOTE5NzIxMjE3LDE5OT
-UzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4
-LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0OD
-c4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzMs
-LTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgsNzI2Nj
-M4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0
-XX0=
+eyJoaXN0b3J5IjpbLTE4NzQxMzkzOTgsLTkxOTcyMTIxNywxOT
+k1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2
+OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2ND
+g3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMz
+LC0xNDA5MjE4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNj
+YzODg5MCwxNDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4
+NF19
 -->
