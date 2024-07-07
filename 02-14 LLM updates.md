@@ -74,7 +74,14 @@
 	- https://speakerdeck.com/daikikanemitsu/microsoft-sheng-cheng-aihuo-yong-shi-li-toping-jia-fang-fa-nituite
 	- Microsoftが公開している「生成AI活用事例」が有益。
 	- 一人当たり"月17時間の業務時間削減" を達成した内訳を定性的・定量的に効果測定している。
-- 
+-  Impact of Data Bias on Machine Learning for Crystal Compound Synthesizability Predictions
+	- https://arxiv.org/abs/2406.17956
+	- データ偏りの影響を調査した論文。
+	- 学習データ偏りから意図しない相関を学習することがありますが、実構造と仮想構造を混ぜた偏りの強いデータとDFT緩和構造の偏りの弱いデータを使いこの影響を比較、前者は信頼性が低かったとのこと。
+	- 異種データを混ぜる際にはご注意を。by 横山さん
+- # [Meta、LLMコンパイラを公開——AIがプログラミングの常識を変えるかも](https://thebridge.jp/2024/07/metas-llm-compiler-is-the-latest-ai-breakthrough-to-change-the-way-we-code)
+	- https://huggingface.co/collections/facebook/llm-compiler-667c5b05557fe99a9edd25cb
+	- 
 
 ## 24/7/1
 
@@ -3530,20 +3537,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 『華麗なるギャツビー』のコピーをアップロードした場合(訳注：おそらく1MB未満)8時間以内に送信できるメッセージは20件になるとの事 
 	- アップロードできるファイルは文章(doc)か画像(image)で最大5ファイル各10MBまで ・zipはアップロードできないのでソースコード一式をアップロードして解析みたいな事は難しそう 
 	- 2023年8月までのデータでトレーニングされている
-	- デフォルトではClaude Proに入力された会話はモデルのトレーニングに使用されない(親指アップ/ダウン機能を通じてフィードバックを送信すると使われる) 
-	- 無料版については微妙な書き方なので良く分からない(当社の消費者サービスまたはベータ/評価サービスを使用する場合、当社は、お客様のプロンプトや会話を使用して、モデルをより安全にするための利用規約の監視と強制など、信頼性と安全性の作業に関連するモデルをトレーニングすることもあります、との事) 
-	- アップロードしたPDFを要約して貰おうとしたら出力は一気にされず「続きを」と促す必要があった
-- Claude3はよい、by　落合陽一
-	- Claude 3を使いまくってみて，コードレビューが秀逸，日本語性能が良い（gpt4-0613も良いが），pdfなどの扱いが便利．この辺りすでにchatGPTからの移行が起こっている．快適すぎる
-	- https://x.com/ochyai/status/1765209291517210816?s=20
-- LLMの能力について語る人間の思考力が問われているのではないか　by shi3zさん
-	- https://x.c
+	- デフォルトで
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzNjg1NTgyLC0yNjIwOTk2MSwxNDQ0MD
-Y0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAs
-LTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczOD
-M5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODks
-LTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MD
-k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
-MTNdfQ==
+eyJoaXN0b3J5IjpbNTI3MDgyNzcsLTI2MjA5OTYxLDE0NDQwNj
+Q4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYyMCwt
+MzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2NzM4Mz
+kwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4OSwt
+MTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MTUwOT
+c2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1OTUsMTkwMzYxMjgx
+M119
 -->
