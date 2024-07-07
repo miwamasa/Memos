@@ -213,7 +213,15 @@
 	- https://x.com/yohei_econ/status/1808503287617851876
 	- GAFAM等の巨大テック企業は今年4000億ドル（60兆円兆）のAI関連資本支出を予定している。
 	- しかしAIの利用率はまだ低い
-	- 75％の知識労働者は既にAIを使っていると答えているが、アメリカで企業として使っているのは５％程度。データの安全性やアルゴリズムのバイアスが懸念点。 ・またAIは進歩が速いので、パイロットを始めようとしても、それがすぐに時代遅れになるリスクがあり、大規模プロジェクトに着手しにくい。
+	- 75％の知識労働者は既にAIを使っていると答えているが、アメリカで企業として使っているのは５％程度。データの安全性やアルゴリズムのバイアスが懸念点。 
+	- またAIは進歩が速いので、パイロットを始めようとしても、それがすぐに時代遅れになるリスクがあり、大規模プロジェクトに着手しにくい。
+	- ただし、カスタマーサービスやマーケティングの改善など、狭い領域に限ればAIの実装は進んでいる。 
+	- しかしながら、AI企業の株価は市場全体と比較すると低迷しており、統計上は生産性上昇は見られない。
+	- AIが進めば労働者に置き換わると言われたが、統計的にはそれも現れていない。
+	- トラクター、電力、PC等、過去の多くの技術進歩が広まるには時間を要した。AIもその可能性は高く、投資家もAIに起因する収益がテック企業もたらされるのは2032年以降と予想。
+- claudeは文を生成してる途中で、重要な箇所であたかも熟慮してるように生成を一時止めることがあったが、裏側では実際に非表示のトークンを生成していた。 
+	- https://x.com/_kaiinui/status/1808778423319605647
+	- xmlタグを表示するよう工夫することで確認できる
 
 ## 24/7/1
 
@@ -3517,19 +3525,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Claude3にプロジェクト全体をぶち込むためのプロジェクトの構造とファイル内容を自動でまとめるPythonスクリプト
 	- https://zenn.dev/olemi/articles/7b7992c055c64a
 	- このPythonスクリプトを使えば、プロジェクトのフォルダ構造とファイルの内容を簡単にまとめることができます。
-- Prompt Tuning から Fine Tuning への移行時期推定
-	- https://speakerdeck.com/icoxfog417/prompt-tuning-kara-fine-tuning-henoyi-xing-shi-qi-tui-ding
-	- ChatGPT や Claude のようなモデルに対し公開されている日本語言語モデルの利用は精度・コスト共に割に合わないと感じている方にとってパンチある内容かと思いま
-- JST戦略的創造研究推進事業「自律駆動による研究革新」が来年度から始まります
-	- https://www.mext.go.jp/b_menu/houdou/2023/mext_000010.html
-	- 研究プロセスそのものを AI やロボット で加速する自律駆動型の研究アプローチ
--  LocalMamba: Visual State Space Model with Windowed Selec
+- Prompt Tuning から Fine Tuning へ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDIwODUzNTAsMjcxNTUwODY4LC0yNj
-IwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4
-LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MD
-kyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkw
-LDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOT
-c5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4
-NTk1XX0=
+eyJoaXN0b3J5IjpbMTgxOTExODg1NCwyNzE1NTA4NjgsLTI2Mj
+A5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgs
+MTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOT
+IxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAs
+MTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nz
+k3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1
+OTVdfQ==
 -->
