@@ -182,6 +182,13 @@
 	- https://x.com/omarsar0/status/1808527461736485229
 	- They have added Mistral's Codestral and GPT4-o for inline AI Copilot auto-complete, code generation, editing, error fixing, and sidebar chat.
 	- https://github.com/pretzelai/pretzelai
+- How good are LLMs in a long context, and do we need RAG?
+	- https://x.com/_philschmid/status/1808420168558649479
+	- RAG always improves the performance of LLMs if correct information is retrieved
+	- 📊 Evaluated 10 LLMs and 50 RAG systems, including GPT-4o, Claude 3 Opus, and Gemini-1.5-pro
+	- 🏆 Claude 3 Opus achieved the highest Coverage; Gemini-1.5-pro highest citation
+	- 🎯 Gemini-1.5-pro is the best LLM without RAG with 37.8; Claude 3 Sonnet 18.3; GPT-4o 11.4;
+	- ⚙️ Gemini-1.5-pro + Oracle RAG achieves 44.6, whereas humans achieved 56.1.
 - 
 
 ## 24/7/1
@@ -3527,19 +3534,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- ④結果を集めレポートを書く と、
 	- 自分の仕事をSub-agentにデリゲート（委任）できたこと。仕事を与えると一番効率のいい方法で進められるのがホント凄い。
 - VCの後押しを受け、AI従業員を開発するスタートアップが流行の兆し
-	- https://x.com/gijigae/status/1767836153053618465?s=20
--  Open Release  of Grok-1
-	- https://x.ai/blog/grok-os
-	- ついに本家のGrokリリース(3/17)
-	- Base model trained on a large amount of text data, not fine-tuned for any particular task. 
-	- 314B parameter Mixture-of-Experts model with 25% of the weights active on a given token. 
-	- Trained from scratch by xAI using a custom training stack on top of JAX and Rust in October 2023.
-
-## 3/11
-
-今週は、AnthropicAIがリリースしたClaude3、GPT-4越えとか、自然な回答、エージェントなどの能力もありとか、落合氏やshi3z氏などLLMのプロもうならせる性能、レシート解析マルチモーダル性能、謎のアニメタグ付与性能、様々な能力で旋風を巻き起こしている。大学院レベルのG
+	- https://x.com/gijigae/stat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjIzODY5MiwyNzE1NTA4NjgsLTI2Mj
+eyJoaXN0b3J5IjpbMTQ1Nzg2OTIzMiwyNzE1NTA4NjgsLTI2Mj
 A5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgs
 MTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOT
 IxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAs
