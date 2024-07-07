@@ -229,7 +229,13 @@
 	- いやQwen2-72B超えてるしメチャクチャすごいんだけど、でも思った以上に9Bと僅差だな…。寝てる間にQ8_0でも一応あらためて評価する予定
 - Gemma2-27BのQ8_0量子化のShaberi3スコア出ました。7.81　 b 海由紀さん
 	- https://x.com/umiyuki_ai/status/1809028134727266364
-	- 
+	- Q5_K_M量子化（7.88）よりスコア下がったね？えーと…とりま、5bitまで量子化しても劣化はしないらしいねという事で…
+- Claude3にロジックが破綻している可能性がある部分について指摘してもらってみた。
+	- https://x.com/yukatan/status/1809114126746284492
+	- 神宮外苑再開発めぐり伊藤忠商事が異例の長文の声明を発表
+- Gemma2-9BのSPPOモデル、AlpacaEvalでもメチャクチャ勝率高くてGPT-4Tに匹敵してるくらいだからまあShaberi3ベンチで7.9取れてもおかしくないけど異常すぎる　 by うみゆきさん
+	- https://tatsu-lab.github.io/alpaca_eval/
+- 
 
 ## 24/7/1
 
@@ -3524,15 +3530,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 様々なトピック（学習データ整備、MoE、Mamba、LongContext、推論効率化）などを紹介
 -  MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training
 	- https://arxiv.org/abs/2403.09611
-	- Apple presents MM1, a family of multimodal LLMs up to 30B parameters, that are SoTA in pre-training metrics and perform competitively after fine-tuning
-- Google Cloud Vertex AI に Anthropic の Claude 3 モデルが登場
-	- https://cloud.google.com/blog/ja/products/ai-machine-learning/announcing-anthropics-claude-3-models-in-google-cloud-vertex-ai/?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy24q1-googlecloud_jp-blog-ai-in_feed-no-brand-
+	- Apple presents MM1, a family of multimodal LLMs up to 30B parameters, that are SoTA in pre-t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MDIwOTkwLDI3MTU1MDg2OCwtMjYyMD
-k5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0OCwx
-NDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMzLC0xNDA5Mj
-E4NTAyLDY3MzgzOTA5NCwtMjA2ODI2Nzk4LDcyNjYzODg5MCwx
-NDY1ODM5Nzg5LC0xMTM4NTA3NjY3LDU0OTk0NDM4NCw5Mzk3OT
-cyMTEsLTkxNTA5NzY4MCwtMTA4NDgyNDYyMiwtMTczODI4ODU5
-NV19
+eyJoaXN0b3J5IjpbLTE4ODk0OTI0NTUsMjcxNTUwODY4LC0yNj
+IwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4
+LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MD
+kyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkw
+LDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOT
+c5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4
+NTk1XX0=
 -->
