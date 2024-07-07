@@ -8,7 +8,7 @@ gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3
 
 SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用したaligmentなんだけど、Gemma-2にSPPOを適用したLLMがあちらこちらのベンチマークで高得点をマーク。
 
-RunwayのGen-3で
+テキストから動画、画像から動画、テキストから画像でRunwayのGen-3が話題になった、人の顔
 
 RAGでは、MicrosoftのGraphRAG、発表直後にgithubに公開、RAG survey論文、包括的なビューから細かい技術まで網羅、いやこんな手法があるのかと
 
@@ -3516,11 +3516,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNT
-UwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwx
-MDY0ODc4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OT
-U3MzMsLTE0MDkyMTg1MDIsNjczODM5MDk0LC0yMDY4MjY3OTgs
-NzI2NjM4ODkwLDE0NjU4Mzk3ODksLTExMzg1MDc2NjcsNTQ5OT
-Q0Mzg0LDkzOTc5NzIxMSwtOTE1MDk3NjgwLC0xMDg0ODI0NjIy
-XX0=
+eyJoaXN0b3J5IjpbLTkyNjAzNDY1OSwyMDAyNjI1Mzg4LDM5Nj
+U5MjY0MSwyNzE1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwt
+NzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYyMCwtMzM1Nj
+gzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2NzM4MzkwOTQs
+LTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4OSwtMTEzOD
+UwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MTUwOTc2ODBd
+fQ==
 -->
