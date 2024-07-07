@@ -6,11 +6,11 @@
 gemma-2、DeepMindによる論文では、2倍以上大きなサイズのLlama 3に匹敵する性能とGPT-4oに相当する安全性といっているが、 スライディングウィンドウのアテンション、知識蒸留、ソフトキャッピングによるトレーニングの安定性、WARPと呼ばれる新しいマージング技術などがてんこ盛りの模様。
 
 
-SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用したaligmentなんだけど、Gemma-2にSPPOを適用したLLMがあちらこちらのベンチマークで高得点をマーク。
+SPPOってのは、人間の選好を正確に反映するために、言語モデルの最適化を二人対戦型の定数和ゲームとして定式化し、その均衡点を近似的に求める自己対戦型の選好最適化手法を利用したaligmentだそうで、Gemma-2にSPPOを適用したLLMがあちらこちらのベンチマークで高得点をマーク。
 
 テキストから動画、画像から動画、テキストから画像でRunwayのGen-3が話題になった、人の顔って動くと不自然さがわかるはずなのに、もはや識別不能。メタも、
 
-RAGでは、MicrosoftのGraphRAG、発表直後にgithubに公開。RAG survey論文、Naive RAG", "Advanced RAG", "Modular RAG"という歴史的な視点から、細かい技術まで徹底的に網羅、いやこんな手法があるのかと大変参考になる。TJOさんも絶賛。
+RAGでは、先週話題となったMicrosoftのGraphRAG論文、発表直後に実装がgithubに公開、ollamaでも試せる模様。RAG survey論文、Naive RAG", "Advanced RAG", "Modular RAG"という歴史的な視点から、細かい技術まで徹底的に網羅、いやこんな手法があるのかと大変参考になる。TJOさんも絶賛。
 
 ClaudeのArtifacts機能でマインクラフト
 
@@ -3516,11 +3516,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 	- Graphs, structures that describe connections between objects, are everywhere — imagine the tools in a ki
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5Nj
-U5MjY0MSwyNzE1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwt
-NzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MTkxODYyMCwtMzM1Nj
-gzOTA3LDUwNzg5NTczMywtMTQwOTIxODUwMiw2NzM4MzkwOTQs
-LTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NTgzOTc4OSwtMTEzOD
-UwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjExLC05MTUwOTc2ODBd
-fQ==
+eyJoaXN0b3J5IjpbLTExNTE5MTAwODksMTk5NTM2NDg5OCwyMD
+AyNjI1Mzg4LDM5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5OTYx
+LDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgsMTQ0MT
+kxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOTIxODUw
+Miw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAsMTQ2NT
+gzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nzk3MjEx
+XX0=
 -->
