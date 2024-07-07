@@ -109,8 +109,43 @@
 	- 映像とかに1カットぱっと出されたら、判断つかないレベル
 - パナソニックHDは、ストックマークと1,000億パラメータの自社専用 [#LLM](https://x.com/hashtag/LLM?src=hashtag_click) "Panasonic-LLM-100b" の開発で協業
 	- https://x.com/panasonic_ai/status/1808007439922745561
-- # RetrievaBERTの公開
-- “Sentence Representationで用いるためのBERTとして系列長が2048まで対応しているBERTを構築しました
+- RetrievaBERTの公開
+	- https://note.com/retrieva/n/n715bea2c2cd1
+	- “Sentence Representationで用いるためのBERTとして系列長が2048まで対応しているBERTを構築しました
+	- 我々の知る限りでは現在公開されているBERTは系列長512までとなっているものがほとんどだと思います。そこで今回、Sentence Representationで用いるためのBERTとして系列長が2048まで対応しているBERTを構築しました。
+- プロンプト作るの苦手な人は全員 Claude の "Generate a prompt" を使った方が良い。
+	- https://x.com/sora19ai/status/1807950984741806191
+	- 今やプロンプトはAIに作らせることができて、Claude の Generate a prompt で作ったプロンプトを GPTs や Dify で使えば、出力の精度が10倍上がる。
+	- 現在 GPTs や Dify の需要が高まる中、今から ChatBot を量産しておこう。リプ欄にリンクを載せておくので試してみて！
+- DifyでVOICEVOXのTTSを使えるようにしたよ〜
+	- https://github.com/uezo/dify-voicevox-tts
+- 「アジア人ぽい複数の男性が、ひたすらに牛の餌のような草を食べている。手づかみで。ただし、服装はスーツであり、ホテルのような高級な場所である。背景では核戦争が起きている。」
+	- https://x.com/kensuu/status/1807972176005587070
+- RunwayのGen-3で盛り上がる中、Metaがしれっと高性能の3D生成AI「Meta 3D Gen」を発表
+	- https://x.com/masahirochaen/status/1808166498403602822
+- Launching GPT4All 3.0: The Open-Source Local LLM Desktop App
+	- https://x.com/nomic_ai/status/1808162955806097767
+		- Completely Private Experience 
+		- Supports 1000’s of models and all major operating systems 
+		- Major UI/UX Improvements 
+		- Local File Chat 
+		- MIT Licensed
+- Runway Gen-3で作ったシュールな動画15選！
+	- https://x.com/takamasa045/status/1807975062873792958
+	- 1時間でプロ枠を使い切り、アンリミテッドプランに即アップグレード 1.5万円吹っ飛んだ、、、
+- イラストのようなQRコードを生成したい人はQRBTFを使ったら良い
+	- https://x.com/satori_sz9/status/1807621893488623976
+- Gemini Nano running locally in Brave using MediaPipe
+	- https://x.com/rohanpaul_ai/status/1807763287599149557
+	- or Web, Android and iOS LLM Inference API, now you can run Gemini Nano locally not only in Google Chrome Canary, but in every web browser supporting WebGPU like Brave, through MediaPipe
+- ザッカーバーグ「日本の担当を解雇すれば日本人からMetaに対する詐欺広告のクレーム届かなくなるし人件費も浮くし一石二鳥やろ、ガッハッハ」
+	- https://x.com/makkinze/status/1807688392865624528
+- The parable of the parser、現代の物体検出を作ってきたGirshick氏による議論をよぶプレゼン。
+	- https://drive.google.com/file/d/1VodGljuEhBKwZIXQwN-ApH6g2wBAVAdK/view
+	- 画像処理において画像分類や物体検出は最終的なタスクを解くのに必要ないのでは
+	- 物体検出をこれまで研究してきたこと自体は間違いではなく、それにより知識をためて進んできたのは確かだが、さらに進むためには、より良い物体検出を作るのではなく本当に解きたい問題は何かを考えるのが必要とのこと。物体検出タスクはあまりに限定的で脆く、データに制約がある。50年~60年当然と思われていた考え方に疑問をもつこと、（各人が）本当に解きたいタスクは何かを考えることが重要。
+- Decentralized Identifiers (DID) とVerifiable Credentials (VC) の現況
+	- https://www.jstage.jst.go.jp/article/essfr/18/1/18_42/_article/-char/ja
 	- 
 
 ## 24/7/1
@@ -3499,46 +3534,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/AnthropicAI/status/1764653830468428150?s=20
 - llamaindex、さっそく Claude3サポート
 	- https://docs.llamaindex.ai/en/latest/examples/llm/anthropic.html
-	- Like Gemini and Mistral's latest offerings, Claude 3 comes in 3 "flavors" with the largest, Claude Opus, claiming better performance than GPT-4 across a wide range of benchmarks.
-- ZETA editing
-	- https://huggingface.co/spaces/hilamanor/audioEditing
-	- ZEro Shot Audio editing using DDPM inversion
-	- Edit Audio with Nothing but Prompts!
-- Meta’s AI Watermarking Plan Is Flimsy, at Best Watermarks are too easy to remove to offer any protection against disinformation
-	- https://spectrum.ieee.org/meta-ai-watermarks?share_id=8133421&utm_campaign=RebelMouse&utm_content=IEEE+Spectrum&utm_medium=social&utm_source=twitter
-- Claude3の評判
-	- Claude 3 Sonnet 、とにかく生成が早い！！！！！
-	- https://x.com/izutorishima/status/1764702243520208962?s=20
-	- Sonnet でも一部ベンチマークは GPT-4 と同等かそれ以上に達していて、この速さを無料アカウントで使えるのは普通に OpenAI さんピンチじゃないですか？
-	- Claude が賢くなって目もついた！モデルは三つで、Haiku / Sonnet / Opus の順に賢く、値段があがる
-	- 最高性能の Opus は 10 個のベンチマークで GPT-4 を 10 個とも超えている。Haiku のレスポンスはウェブ版で試してみたけどマルチモーダル（ここでは画像入力だけですが）については GPT-4-V より上で Gemini 1.0 Ultra と同程度。
-	- 200k トークンの長文入力は健在で、さらにすべてのモデルで 1 million トークンも入力できるモデルのよう。ただしこちらは一部のクライアントにのみ提供。
-	- 大量の文章の中から重要な情報を抜き出せるかの評価に用いる「Needle In A Haystack」では、精巧性能の Opus をもってすれば精度 99% を達成。今までの Claude 2.1 と比べてめちゃはやい。公称 2 倍。
-	- また、JSON 出力など構造化データの出力が得意になり、自然言語による分類や感情分析などもできるように。使ってみたのですが、かなり良い感じに構造化データに変換できました
-	- API は現時点で Opus と Sonnet は公開。Haiku は近日公開予定。
-- 今まで ChatGPT で書かせた文書って「それっぽさ」があったけど、Claude 3 は非常に丁寧な日本語でもう AI 製かどうかわからん
-	- https://x.com/izutorishima/status/1764890317302727114?s=20
-- LangchainのClaude3サポート
-	- https://python.langchain.com/docs/integrations/chat/anthropic
-- img2table
-	- https://github.com/xavctn/img2table
-	- 画像から表を抽出するPythonライブラリなんだけど、めっちゃいい。セル結合にも対応してて大変素晴らしい
-- 大規模言語モデルを用いたゼロショットテキスト分類によるTCFD推奨開示項目の自動判定」
-	- https://www.jpx.co.jp/corporate/research-study/working-paper/Summary_JPXWP_Vol43.pdf
-	- GPT-4により、92.8%のAccuracyで上場会社の有価証券報告書のテキストを判別できるという結果に
-- gemma-7bベースの日英・英日翻訳モデルをQLoRAアダプターの形式で公開しました
-	- https://huggingface.co/webbigdata/C3TR-Adapter
-	- 翻訳ベンチマークで多言語翻訳モデルであるGoogleのMadlad400やmetaのSeamless m4t v2 large、ALMA-Ja-V2 (私の以前のモデル)よりも大幅に優れており、サブカルチャー文脈に一部対応可能な事が特徴です
-- RAGでの回答精度向上のためのテクニック集（応用編-A）
-	- https://zenn.dev/knowledgesense/articles/cec1cd43244524
-	- 「応用編-A」では、特に1つ目の「ユーザーの質問に回答するために最も必要な（最も関連している）ドキュメント群を抽出する」ための具体的なテクニックについて見ていきます。
-- Cl
+	- Like Gemini and Mistral's latest offerings, Claude 3 comes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MD
-Y0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAs
-LTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczOD
-M5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODks
-LTExMzg1MDc2NjcsNTQ5OTQ0Mzg0LDkzOTc5NzIxMSwtOTE1MD
-k3NjgwLC0xMDg0ODI0NjIyLC0xNzM4Mjg4NTk1LDE5MDM2MTI4
-MTNdfQ==
+eyJoaXN0b3J5IjpbMjExNTQ1MDE4MiwyNzE1NTA4NjgsLTI2Mj
+A5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0NDgs
+MTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTczMywtMTQwOT
+IxODUwMiw2NzM4MzkwOTQsLTIwNjgyNjc5OCw3MjY2Mzg4OTAs
+MTQ2NTgzOTc4OSwtMTEzODUwNzY2Nyw1NDk5NDQzODQsOTM5Nz
+k3MjExLC05MTUwOTc2ODAsLTEwODQ4MjQ2MjIsLTE3MzgyODg1
+OTVdfQ==
 -->
