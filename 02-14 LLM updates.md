@@ -55,7 +55,10 @@
 	- https://forbesjapan.com/articles/detail/72055?read_more=1
 	- GPTZeroの研究で、パープレキシティのユーザーは平均3回のプロンプト（命令文）の入力でAIが生成した情報源に遭遇することが判明した。「彼らのサービスの質は、その引用元の質に依存している。情報源がAIのハルシネーションによって生み出されたものであるなら、その出力も同様だ」
 	-  ニュース記事の「盗用」
-- 
+- Position: Key Claims in LLM Research Have a Long Tail of Footnotes
+	- https://arxiv.org/abs/2308.07120
+	- LLMに関する”一般的な主張”を批判的に検討してまとめています。LLMの定義、特性、影響力について分析を行い、多くの主張がもしかすると十分な根拠を欠いている可能性があることを指摘しています。
+	- 
 
 ## 24/7/1
 
@@ -3525,14 +3528,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Knowledge-Augmented Planning for LLM Agents
 	- https://arxiv.org/abs/2403.03101
 	- Proposes an approach to enhance the planning capabilities of LLMs through explicit action knowledge.
-- 大学・MetaAIからハルシネーション低減に有効なグラフ拡張したRAG"G-Retriever"の提案
-	- https://arxiv.org/abs/2402.07630
-	- 部分グラフ抽出を賞金集めSteiner木問題(PCST)で解いている。
-- スクショからコード生成！MicrosoftとDeepMindが共著した論文
-	- https://github.com/NoviScl/Design2Code
-	- -The Design2Code 
+- 大学・MetaAIからハルシネーション低減に有効な
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Nzc3NTA5LC0yNjIwOTk2MSwxNDQ0MD
+eyJoaXN0b3J5IjpbNDM2NDM5NjUzLC0yNjIwOTk2MSwxNDQ0MD
 Y0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2MjAs
 LTMzNTY4MzkwNyw1MDc4OTU3MzMsLTE0MDkyMTg1MDIsNjczOD
 M5MDk0LC0yMDY4MjY3OTgsNzI2NjM4ODkwLDE0NjU4Mzk3ODks
