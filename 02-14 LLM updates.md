@@ -88,7 +88,8 @@
 	- データ偏りの影響を調査した論文。
 	- 学習データ偏りから意図しない相関を学習することがありますが、実構造と仮想構造を混ぜた偏りの強いデータとDFT緩和構造の偏りの弱いデータを使いこの影響を比較、前者は信頼性が低かったとのこと。
 	- 異種データを混ぜる際にはご注意を。by 横山さん
-- # [Meta、LLMコンパイラを公開——AIがプログラミングの常識を変えるかも](https://thebridge.jp/2024/07/metas-llm-compiler-is-the-latest-ai-breakthrough-to-change-the-way-we-code)
+-  Meta、LLMコンパイラを公開——AIがプログラミングの常識を変えるかも
+	- https://thebridge.jp/2024/07/metas-llm-compiler-is-the-latest-ai-breakthrough-to-change-the-way-we-code
 	- https://huggingface.co/collections/facebook/llm-compiler-667c5b05557fe99a9edd25cb
 	- LLVM-IR とアセンブリコードの5,460億トークンからなる膨大なコーパスでモデルをトレーニングすることで、コンパイラの中間表現、アセンブリ言語、最適化テクニックを理解できるようになった。
 	- LLM コンパイラは、コードサイズの最適化において目覚ましい成果を上げた。このモデルはテストにおいて、オートチューニング探索の最適化ポテンシャルの77%に達した
@@ -3505,7 +3506,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Tour of Modern LLMs
 	- https://phontron.com/class/anlp2024/assets/slid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDEzMTQxMiwtMTM0OTY0NzE0NSwtMT
+eyJoaXN0b3J5IjpbLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMT
 E0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2
 NTUzLC05MTk3MjEyMTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LD
 M5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4
