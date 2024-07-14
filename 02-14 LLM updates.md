@@ -3,7 +3,9 @@
 
 ## 24/7/14
 
-先週公開された、GraphRAG関連の、チュートリアルや評価がすすんでいます。Gemma
+先週公開された、GraphRAG関連の、チュートリアルや評価がすすんでいます。RAGとQFSのギャップをうめる一手法であるというのはなんか納得。
+
+Gemma2なのですが、GraphRAGでも動くと話題になってますが、tokenizerに不具合がある
 
 - GraphRAG: How to Develop AI That Thinks Like a Librarian
 	- https://x.com/IntuitMachine/status/1809903707535868260
@@ -3516,11 +3518,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 10Bのモデルですが、torch_dtypeを"auto"からtorch.bfloat16に変更すると、推論のスピードが改善しました。
 - RAG for long context LLMs: Video
 	- https://www.youtube.com/watch?v=SsHUNfhF32s
-	- https://docs.google.com/presentation/d/1mJUiPBdtf58NfuSEQ7pVSEQ2Oqmek7F1i4gBwR6JDss/edit#slide=id.g26c0cb8dc66_0_0
-- NVIDIAのフリーオンラインAIコース
-	- https
+	- https://docs.google.com/presentation/d/1mJUiPBdtf58NfuSEQ7pVSEQ2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjUzODk3MzEsLTIxMTA1NTAzNzksLT
+eyJoaXN0b3J5IjpbLTExNDIzNjUyODYsLTIxMTA1NTAzNzksLT
 kwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3
 OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLT
 EzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIy
