@@ -151,6 +151,12 @@
 	- https://developers.googleblog.com/en/gemini-15-pro-now-available-in-180-countries-with-native-audio-understanding-system-instructions-json-mode-and-more/
 - 批判家ゲイリーマーカス氏は、2016年にWSCで限界説を主張したが後に研究者たちによって突破され、2018年に深層学習の限界説を主張してAIの冬時代を予想したが外れて、2022年には深層学習は壁にぶつかっていると言ってから今回の生成AIブームがきてGPT-4が登場。その後も発展が継続中
 	- https://x.com/jaguring1/status/1810993416991559893
+- a16zがGPU(H100)2万個買い占めて安く投資先に使わせてるとか。VCの域を超えたパワープレイや
+	- https://x.com/kubotamas/status/1810985069131223355
+- BedrockにマネージドDify来たやんこれ
+	- https://x.com/minorun365/status/1811041517479547097
+- NotionはNotionをどう使っているか
+	- https://notion.notion.site/Notion-Notion-15c4497a18e54de7a7ca696bc8fe688a#65c847c6692f45898edc17912667d4db
 - 
 
 ## 24/7/8
@@ -3495,18 +3501,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/BrianRoemmele/status/1770959817815019857?s=20
 	- 昨年知的業務は終わりだ。人間は筋肉を鍛えるしかない。 とか言ってたけど、人工筋肉出来ちゃったよ
 	- https://www.youtube.com/watch?v=guDIwspRGJ8
--  Arcee's MergeKit: A Toolkit for Merging Large Language Models
-	- https://huggingface.co/papers/2403.13257
-	- Model Merging allows us to blend/stack multiple open LLMs into one—bigger or the same size—without extra training to extend skills and performance!
-- データセンター廃熱でプールを加温🏊 環境に優しくコストも節減 英国
-	- https://x.com/afpbbcom/status/1770586117449953488?s=20
-	- 敷地
+-  Arcee's MergeKit: A Toolkit for M
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczND
-Q2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1
-LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLT
-IwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIx
-MjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMj
-cxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0
-NV19
+eyJoaXN0b3J5IjpbLTE4NzQwMzk2MTIsLTkwMzAzNzI5NSwtMj
+k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
+OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
+ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
+NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OC
+wzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0
+ODVdfQ==
 -->
