@@ -51,6 +51,11 @@
 		- https://arxiv.org/abs/2406.14283
 		- これはLLMの多段推論をマルコフ決定過程でモデル化し、A-starサーチで探索するというシンプルなアルゴリズム。具体的には、マルコフ決定過程の行動価値関数（Q学習で用いられる関数）の最大値を、A-starサーチのヒューリスティクス関数として採用するというもの。
 -  Issue 17: Moshi Challenges OpenAI, Compare LLM pricing and better understand long context LLMs  -  July 7, 2024
+	- https://www.philschmid.de/cloud-attention/issue-17
+- 6-part video series on Property Graphs in LlamaIndex using mistralai, neo4j and ollama
+	- https://x.com/llama_index/status/1810410943215710510
+	- https://www.youtube.com/playlist?list=PLTZkGHtR085ZYstpcTFWqP27D-SPZe6EZ
+	- 
 
 ## 24/7/8
 
@@ -3491,14 +3496,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Transformerの事前学習に人工言語を使ったらどうなるか、どの要素が事前学習に効くのか、という研究 係り受け関係に入れ子構造が含まれることが重要らしい
 - Llama.cpp で Swallow MX 8x7B をお試し中　by npakaさん
 	- https://x.com/npaka123/status/1767380241520173408?s=20
-- Stealing Part of a Production Language Model
-	- https://arxiv.org/abs/2403.06634
-	- GPT-4のようなClosedなブラックボックス大規模言語モデルでも,APIアクセスのみでモデルの一部の層のパラメータを特定できるModel-stealing attackを提案
-	- GoogleのOpenAIに対する逆襲の一手的な論文
-	- API経由でOpenAIのモデルにおける隠れ次元数を特定できることを示し、OpenAIがそれを受け対策を施したことを論文で報告しました。
-- 700億パラメータの日本語LLM「ELYZ
+- Stealing Part of a Pr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTA3NTIwNywtMTc3NzE3OTU3MywxNT
+eyJoaXN0b3J5IjpbMTU4ODM0NDk1NiwtMTc3NzE3OTU3MywxNT
 MxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcx
 NDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LD
 UzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYy
