@@ -120,8 +120,12 @@
 	- MobileLLMは125/350Mのモデル。携帯向けでは性能、バッテリー消費量の観点からモデルを小さくするのが重要。1B以下が有効 1) 幅より深さが重要。従来の12層より30~42層まで増やす 2) 埋め込み層は共有 3) パラメータ共有した層を2回ずつ繰り返す。メモリ転送量も抑えられる。by 岡野原さん
 - Claudeのライブプレビュー機能「Artifacts」にURL公開機能が搭載
 	- https://x.com/masahirochaen/status/1810722296501596237
-- 生成AIによるMOFの逆設計の論文。
-	- 
+- 生成AIによるMOFの逆設計の論文。by 横山さん
+	- https://chemrxiv.org/engage/chemrxiv/article-details/668775805101a2ffa871a56c
+	- 3Dモデリング技術を応用し符号付き距離関数を入力表現としたマルチモーダル拡散モデルを開発、物性やテキストから条件を満たすMOF構造を正確に生成できたそうです。
+-  GraphRAGシステムの使い方：初心者向け完全ガイド
+	- https://hamaruki.com/graphrag-beginners-guide/
+- 
 
 ## 24/7/8
 
@@ -3500,17 +3504,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/hpp_ricecake/status/1771138490589487602?s=20
 -  Googleが洪水を1週間前に予測し世界80カ国4億6000万人を水害から救えるAIを発表
 	- https://gigazine.net/news/20240322-google-ai-global-flood-forecasting/
-	- Google Researchのグレイ・ニアリング氏らの研究チームは、世界各国の流量計5680個が1980～2023年の間に集積したデータを用いてAIモデルをトレーニングしました。
-	- 洪水ナウキャストによる洪水の予測を0日前、つまり当日から平均5日前まで延ばし、最大で7日前まで予測することができます。
-- 立体言語
-	- 永田亮『立体言語』（自然言語処理31巻1号巻頭言）
-	- https://www.jstage.jst.go.jp/article/jnlp/31/1/31_1/_pdf/
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODg4OTY0LC0yOTkwODcwMiwxNzM0ND
-Y1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUs
-LTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMj
-A0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEy
-MTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNz
-E1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1
-XX0=
+eyJoaXN0b3J5IjpbMTE3OTA4NjgwNSwtMjk5MDg3MDIsMTczND
+Q2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1
+LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLT
+IwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIx
+MjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMj
+cxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0
+NV19
 -->
