@@ -10,8 +10,9 @@ NVIDIAからは、RankRAGが登場、context rankingという仕掛けをLLMに�
 
 Transformerの次のアーキテクチャの１つだとされる、Mamba-based Language Modelsの定量的な評価が出てきた、相当期待がもてそう。先週の自然な会話ができるオープンソースのMoshiもすごかったのだけど、TerifAI (terrify) ってのも、自分声をまねることができるなんて、もうオレオレ詐欺LLMの登場は時間の問題だ、最初に「オレオレだけど、、」と発する規制が必要。
 
- Unslothはgemma-2
+ Unslothはgemma-2(9b)でファインチューニングの速度が２倍になったと、、colabでも試せるのか？？
 
+岡野原さんの、非平衡熱力学と拡散モデルの接点の論文の紹介、
 
 
 - GraphRAG: How to Develop AI That Thinks Like a Librarian
@@ -3515,13 +3516,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- **EvoLLM-JP**：数学的推論が可能な日本語の大規模言語モデル（LLM）
 		- **EvoVLM-JP**：日本語で対話可能な画像言語モデル（VLM）
 		- **EvoSDXL-JP**：高速な日本語画像生成モデル
-	- _既存のモデルをマージして新しい基盤モデルを作成する過程の可視化。進化的アプローチは、モデルを組み合わせる際に、人間の直感だけでは見落とされがちな、効
+	- _既存の
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg5Mzg3MTMsLTIxMTA1NTAzNzksLT
-kwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3
-OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLT
-EzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIy
-Njc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OT
-gsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIw
-OTk2MV19
+eyJoaXN0b3J5IjpbNjQxMjgzNjQ3LC0yMTEwNTUwMzc5LC05MD
+MwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1
+NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMz
+Q5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4LDYyMjY3
+ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOTk1MzY0ODk4LD
+IwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2OCwtMjYyMDk5
+NjFdfQ==
 -->
