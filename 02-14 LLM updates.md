@@ -20,7 +20,7 @@ Transformerの次のアーキテクチャの１つだとされる、Mamba-based 
 
 MoEはエキスパートを小さく数を増やすほど性能が改善されるのか、それにしても100万のエキスパートってどうやって作るの？
 
-Artifactsで快進撃のClaude、今度は作ったArtifctsのライブプレビューにURL公開機能が搭載って、これはすごすぎでしょう、どういうエコシステムができるんだろうか？。ぷ
+Artifactsで快進撃のClaude、今度は作ったArtifctsのライブプレビューにURL公開機能が搭載って、これはすごすぎでしょう、どういうエコシステムができるんだろうか？。プロンプトの自動生成や評価機能を備えて、１世紀分のプログラミングの歴史をおそらく1年でトレース
 
 DeepMindのハサビス氏、「現時点での汎用AIは猫程度のIQしかない」と、歩調をあわせるように、OpenAIからは、人間の知能にどれだけ近づいたか」を評価する５段階のレベルの基準を公開、現在のAIはレベル1でもうすぐ「Reasoners」と呼ぶ第2レベルに到達できそうとのこと。猫でも十分な気もするが。。
 
@@ -3518,9 +3518,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - GaLore - 家庭用ハードウェアでの大規模モデルの学習
 	- https://note.com/npaka/n/n8e4537502e3e?sub_rt=share_h
 	- 「GaLore」は、「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にします。これは、学習プロセス中のオプティマイザの状態と勾配に従来関連付けられていたメモリ要件を大幅に削減することによって実現されます。
-	- 「GaLore」と「8bitオプティマイザ」を組み合わせることで、学習プロセスの整合性とパフォーマンスを維持しなが
+	- 「GaLore」と「8
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwNTgyNzkzLDExNDkyMDE4OTMsODI1NT
+eyJoaXN0b3J5IjpbMTkyNTQ4MjU2LDExNDkyMDE4OTMsODI1NT
 Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
 LDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMj
 k3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0
