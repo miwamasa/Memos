@@ -55,7 +55,13 @@
 - 6-part video series on Property Graphs in LlamaIndex using mistralai, neo4j and ollama
 	- https://x.com/llama_index/status/1810410943215710510
 	- https://www.youtube.com/playlist?list=PLTZkGHtR085ZYstpcTFWqP27D-SPZe6EZ
-	- 
+		- What’s a property graph and why is it useful?
+		- How to build a property graph in LlamaIndex
+		- Building graph data extractors and retrievers
+		- Using Neo4j with LlamaIndex
+		- Using Ollama with pre-defined schemas
+		- Building custom retrievers
+- 
 
 ## 24/7/8
 
@@ -3492,13 +3498,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Swallow-MX-8x7b-NVE-v0.1のggufあります
 	- https://huggingface.co/mmnga/tokyotech-llm-Swallow-MX-8x7b-NVE-v0.1-gguf
 - 人工言語による事前学習を用いた言語間転移可能な知識の分析
-	- https://www.jstage.jst.go.jp/article/jnlp/30/2/30_664/_article/-char/ja/
-	- Transformerの事前学習に人工言語を使ったらどうなるか、どの要素が事前学習に効くのか、という研究 係り受け関係に入れ子構造が含まれることが重要らしい
-- Llama.cpp で Swallow MX 8x7B をお試し中　by npakaさん
-	- https://x.com/npaka123/status/1767380241520173408?s=20
-- Stealing Part of a Pr
+	- https://www.jstage.jst.go.jp/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODM0NDk1NiwtMTc3NzE3OTU3MywxNT
+eyJoaXN0b3J5IjpbMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNT
 MxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcx
 NDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LD
 UzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYy
