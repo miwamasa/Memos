@@ -106,8 +106,14 @@
 	- ＞国内では当初、検索エンジンがデータをクローリングし、一時的にキャッシュとして保存する行為が「著作権法違反ではないかとの議論があった」と松尾教授は振り返る。 
 	- ↑ 松尾先生嘘はよくない 文化庁資料読むとそんな議論起こってない
 - Today Sam Altman and I published a piece in TIME sharing our vision for how AI-driven personalized behavior change can transform healthcare and announcing the launch of Thrive AI Health
-	- 
+	- https://x.com/ariannahuff/status/1810273407944040897
 	- https://time.com/6994739/ai-behavior-change-health-care/
+	- With AI-driven personalized behavior change, we have the chance to finally reverse the trend lines on chronic diseases like diabetes and cardiovascular diseases, which are directly related to daily behaviors but not distributed equally across demographics.
+- 新サービス「Dataplex Catalog」が公開
+	- https://x.com/y_sugi_it/status/1810446290330976501
+	- Google Cloud上の各種データに対するメタデータ管理。従来の「Data Catalog」よりDataplexとの統合が強化。Aspectという設定値によりメタデータを付与・管理。順次ロールアウトのため徐々に使えるようになる
+-  Mixture of A Million Experts
+	- https://arxiv.org/abs/2407.04153
 	- 
 
 ## 24/7/8
@@ -3499,20 +3505,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/jerryjliu0/status/1771262080944857469?s=20
 -  Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」を公開
 	- https://prtimes.jp/main/html/rd/p/000000057.000038247.html
-	- 東京大学発、最先端アルゴリズムの現場実装に取り組むAIスタートアップ 株式会社Lightblue（代表取締役：園田亜斗夢、本社：東京都千代田区、以下「Lightblue」）は720億パラメーターの日本語LLMモデル「ao-Karasu」を公開したことをお知らせします。「ao-Karasu」はStability AI社が提供する日本語性能のベンチマーク、Japanese MT-Benchの自動評価で国内最高水準の評価となっています。
-- 【Swin Transformer】今こそ押さえたいTransformer系画像認識モデル
-	- https://ai-scholar.tech/articles/image-recognition/swin-transformer
-	- 近年コンピュータビジョンの研究でベースラインとしてよく用いられているSwin Transformerを解説  
-	- すべてのパッチと関連性(Attention)を計算するVision Transformerとは異なり，近傍のパッチをまとめたwindow内でAttentionを計算する  
-	- 異なるパッチサイズでAttentionの計算を行うため，様々なスケールの特徴が得られる
--  [進化的アルゴリズムによる基盤モデルの構築](https://sakana.ai/evolutionary-model-merge-jp/)
-	- Sakana AIは進化や集合知などの自然界の原理を応用して基盤モデルを開発することを目指しています。私達の目標は、モデルを自ら訓
+	- 東京大学発、最先端アルゴリズムの現場実装に取り組むAIスタートアップ 株式会社Lightblue（代表取締役：園田亜斗夢、本社：東京都千代田区、以下「Lightblue」）は720億パラ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxODA3MDExLC0yOTkwODcwMiwxNzM0ND
-Y1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUs
-LTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMj
-A0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEy
-MTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNz
-E1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1
-XX0=
+eyJoaXN0b3J5IjpbMjA2MjQ4OTIwMCwtMjk5MDg3MDIsMTczND
+Q2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1
+LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLT
+IwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIx
+MjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMj
+cxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0
+NV19
 -->
