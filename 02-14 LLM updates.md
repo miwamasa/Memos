@@ -201,7 +201,12 @@
 	- https://x.com/perplexity_jp/status/1811555477588738436
 - OpenAIが「大規模言語モデルが人間の知能にどれだけ近づいたか」を評価する基準を作成
 	- https://gigazine.net/news/20240712-openai-super-intelligent-ai-scale/?utm_source=x&utm_medium=sns&utm_campaign=x_post&utm_content=20240712-openai-super-intelligent-ai-scale
-	- 
+	- OpenAIは記事作成時点での大規模言語モデルはレベル1であり、レベル2に近づいているとしています。OpenAIによれば、
+	- レベル2は博士レベルの教育を受けた人間と同等の基本的な問題解決能力を持つシステムと評価されるそうです。また、
+	- レベル3は「ユーザーに代わって行動できる」、
+	- レベル4は「新しいイノベーションを生み出せる」、
+	- 最高段階のレベル5は「組織全体の仕事を行うことができる」レベルに設定されているそうです。
+- 
 
 	- 
 
@@ -3508,13 +3513,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://github.com/run-llama/llama_index/tree/main/llama-index-packs/llama-index-packs-diff-private-simple-dataset/examples/symptom_2_disease
 	- Few-shot demonstrations are crucial to improve the performance of any LLM/RAG app. But the issue with very private datasets (e.g. patient clinical reports), is that they can easily be leaked/jailbroken by malicious users.
 - 内閣府「AI時代の知的財産権検討会（第６回）」の資料が公開
-	- https://www.kantei.go.jp/jp/singi/titeki2/ai_kentoukai/gijisidai/dai6/index.html
--  GitHub、脆弱性のあるコードの自動修正機能発表。AIボットが修正済みコードと解説をプルリクエスト
-	- https://www.publickey1.jp/blog/24/githubai.html
-	- GitHubは、脆弱性のあるコードをAIボットが自動的に発見、修正したコードとその解説をプルリクエストしてくれる「code scanning autofix」（コードスキャン自動修正機能）を発表しました
-- 音声基盤モデルKo
+	- https://www.kantei.go.jp/jp/singi/titeki2/ai_kentoukai/gijisidai/dai6/index.h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQwNjIzNywtOTAzMDM3Mjk1LC0yOT
+eyJoaXN0b3J5IjpbLTk0Njc5MjcwMCwtOTAzMDM3Mjk1LC0yOT
 kwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5
 MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMT
 E0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2
