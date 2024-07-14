@@ -114,6 +114,13 @@
 	- Google Cloud上の各種データに対するメタデータ管理。従来の「Data Catalog」よりDataplexとの統合が強化。Aspectという設定値によりメタデータを付与・管理。順次ロールアウトのため徐々に使えるようになる
 -  Mixture of A Million Experts
 	- https://arxiv.org/abs/2407.04153
+	- MoEはエキスパートを小さく数を増やすほど性能が改善される。PEERは各エキスパートが隠れ層に1ニューロンしか持たないほど小さくし、エキスパート数を100万まで増やす。キーを部分キーの積の形で表しTopKを効率的に探索できるようにし、従来MoEよりさらに性能を改善 by 岡野原さん
+-  MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases
+	- https://arxiv.org/abs/2402.14905
+	- MobileLLMは125/350Mのモデル。携帯向けでは性能、バッテリー消費量の観点からモデルを小さくするのが重要。1B以下が有効 1) 幅より深さが重要。従来の12層より30~42層まで増やす 2) 埋め込み層は共有 3) パラメータ共有した層を2回ずつ繰り返す。メモリ転送量も抑えられる。by 岡野原さん
+- Claudeのライブプレビュー機能「Artifacts」にURL公開機能が搭載
+	- https://x.com/masahirochaen/status/1810722296501596237
+- 生成AIによるMOFの逆設計の論文。
 	- 
 
 ## 24/7/8
@@ -3497,21 +3504,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 洪水ナウキャストによる洪水の予測を0日前、つまり当日から平均5日前まで延ばし、最大で7日前まで予測することができます。
 - 立体言語
 	- 永田亮『立体言語』（自然言語処理31巻1号巻頭言）
-	- https://www.jstage.jst.go.jp/article/jnlp/31/1/31_1/_pdf/-char/ja
-	- 言語の線状性（一つづつ順番に並べる制約）を超える、これまでとは異なった情報伝達の可能性。そして、そこにNLP技術が活かせるのではないかというお話。
-- Binary and Scalar Embedding Quantization for Significantly Faster & Cheaper Retrieval
-	- https://huggingface.co/blog/embedding-quantization
-- Excited for MistralAI+ llama_index collabs (and Colabs)
-	- https://x.com/jerryjliu0/status/1771262080944857469?s=20
--  Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」を公開
-	- https://prtimes.jp/main/html/rd/p/000000057.000038247.html
-	- 東京大学発、最先端アルゴリズムの現場実装に取り組むAIスタートアップ 株式会社Lightblue（代表取締役：園田亜斗夢、本社：東京都千代田区、以下「Lightblue」）は720億パラ
+	- https://www.jstage.jst.go.jp/article/jnlp/31/1/31_1/_pdf/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjQ4OTIwMCwtMjk5MDg3MDIsMTczND
-Q2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1
-LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLT
-IwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIx
-MjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMj
-cxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0
-NV19
+eyJoaXN0b3J5IjpbLTkyODg4OTY0LC0yOTkwODcwMiwxNzM0ND
+Y1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUs
+LTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMj
+A0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEy
+MTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNz
+E1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1
+XX0=
 -->
