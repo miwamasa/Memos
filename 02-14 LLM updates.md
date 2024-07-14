@@ -65,7 +65,11 @@
 	- https://x.com/rohanpaul_ai/status/1810340344158167066
 	- 8B-parameter Mamba-2-Hybrid exceeds the 8B-parameter Transformer on all 12 standard tasks we evaluated
 - 日本気象協会が予測誤差を最大40％改善、経済効果1800億円の商品需要予測に適用
-	- 
+	- https://xtech.nikkei.com/atcl/nxt/column/18/00001/09502/?n_cid=nbpnxt_twbn
+	- 生成AIで天気図を画像として〜みたいな話ではなく、説明変数に入れる海域を拡大→LASSO回帰で多重共線性を押さえて精度向上してるの、L1正則化推しとしてはグッと来る。
+- Introducing TerifAI (terrify) - the ai that steals your voice
+	- https://x.com/amanmibra/status/1810498609613553741
+	- It's an educational experience that shows why AI has become a catalyst to voice phishing
 - 
 
 ## 24/7/8
@@ -3490,16 +3494,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://tokyotech-llm.github.io/swallow-mistral
 	- Swallow-MS 7Bはオープンな7BのLLMの中で日本語最高性能を達成しました。
 -  Yi: Open Foundation Models by 01.AI
-	- https://arxiv.org/abs/2403.04652
-	- Super interesting paper - 10k data is all you need for finetuning LLM
-	- ファインチューニングには1万件のデータで充分なんだという論文。
-- Claude 3に例の「読了目安2時間」記事を解説させてみた - 高木浩光＠自宅の日記（2024年3月11日）
-	- https://takagi-hiromitsu.jp/diary/20240311.html
-	- ひろみちゅ先生絶賛
-	- 「Anthropicの先日出たばかりのClaude 3（Opus）が、ChatGPTのGPT-4を超えてきたと聞いて、自分の原稿を解説させてみたところ、確かに革新的な進歩が見られる。もはや内容…」
--  Is Cosine-Similarity of Embed
+	- https://arxiv.org/abs/2403
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDU3NzU5NSwxNzM0NDY1Mjc5LC0xNz
+eyJoaXN0b3J5IjpbLTUwMzc2MDYwMCwxNzM0NDY1Mjc5LC0xNz
 c3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgw
 MSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOC
 w2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEyMTcsMTk5NTM2
