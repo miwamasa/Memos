@@ -93,7 +93,10 @@
 	- https://x.com/jmorgan/status/1810486878799560765
 	- * Run different models side-by-side 
 	- * Process multiple requests in parallel
-- 
+-  RAGの次「AIエージェント」の威力、アンソロピック社員が国内AWSユーザーに力説
+	- https://xtech.nikkei.com/atcl/nxt/column/18/00001/09497/
+	- Vo氏がプレゼンで強調したのが、2024年5月31日にアンソロピックが発表したサービス「Tool Use」の活用方法だ。Tool Useは、AIが人の代わりとなって自律的にタスクを実行する「AIエージェント」を実装するためのサービスである。
+-  Language-Guided World Models: A Model-Based Approach to AI Control
 
 ## 24/7/8
 
@@ -3498,18 +3501,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Line社が開発した「japanese-large-lm-3.6b-instruction-sft」をウィキブックの内容をもとに中学範囲にてファインチューニングを行いました。
 - 「LOCAL AI HACKATHON」における、チームDataPilotの成果品第一弾である「ArrowSmart_1.7b_instant_sft」をリリースしました
 	- https://huggingface.co/DataPilot/ArrowSmart_1.7b_instant_sft
-	- Line社が開発した「japanese-large-lm-1.7b-instruction-sft」をウィキブックの内容をもとに地理、化学の分野でファインチューニングを行いました。
--  The Elements of Differentiable Programming
-	- https://arxiv.org/abs/2403.14606
-	- 新しいパラダイムである『微分可能プログラミング』の基本概念について Google DeepMind の研究者が383ページに渡るPDFを公開。論文より本という方が正しそう
-	- プログラムを微分可能にすることは本質的に確率分布によってその出力の不確実性を定量化すること、とは面白い
-	- **微分可能プログラミングとは**: プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決する
+	- Line社が開発した「japanese-large-lm-1.7b-instruction-sft」をウィキブックの内容をもとに地理、化学の分野でファインチューニングを行
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODg4OTkzOSwxNzM0NDY1Mjc5LC0xNz
-c3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgw
-MSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOC
-w2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEyMTcsMTk5NTM2
-NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNzE1NTA4NjgsLT
-I2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0
-NDhdfQ==
+eyJoaXN0b3J5IjpbLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3Nz
+cxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAx
+LC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4LD
+YyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOTk1MzY0
+ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2OCwtMj
+YyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0
+OF19
 -->
