@@ -180,6 +180,10 @@
 	- https://docs.unsloth.ai/tutorials/how-to-finetune-llama-3-and-export-to-ollama
 	- https://colab.research.google.com/drive/1WZDi7APtQ9VsvOrQSSC5DDtxq159j8iZ?usp=sharing
 - 統計的リテラシーの動向と課題―概念と学習指導に着目して―
+	- https://www.jstage.jst.go.jp/article/jssej/48/2/48_133/_article/-char/ja/
+	- 1 点目は，「実際にメディアから発信された統計情
+報を題材の中心としていること」
+
 	- 
 
 
@@ -3506,13 +3510,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- LoftQ(量子化誤差を最小化するようにLoRAを初期化してトレーニングできるようにする)もより使いやすくなったとの事
 - OpenAI Voice Engine. This is big
 	- https://x.com/SmokeAwayyy/status/1771052612051468668?s=20
-	- VOICE ENGINE™ trademark registration is intended to cover: - voice and speech recognition, processing voice commands, and converting between t
+	- VOICE ENGINE™ tradem
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQxMjY1MjUsLTkwMzAzNzI5NSwtMj
-k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
-OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
-ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
-NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OC
-wzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0
-ODVdfQ==
+eyJoaXN0b3J5IjpbMjA1MDgyNjI5MCwtOTAzMDM3Mjk1LC0yOT
+kwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5
+MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMT
+E0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2
+NTUzLC05MTk3MjEyMTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LD
+M5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4
+NV19
 -->
