@@ -80,7 +80,14 @@
 -  Speed-accuracy trade-off for the diffusion models: Wisdom from nonequilibrium thermodynamics and optimal transport
 	- https://arxiv.org/abs/2407.04495
 	- 池田さん、宇田さん、伊藤先生との共著です。非平衡熱力学と拡散モデルの接点をまとめると共に、その知見に基づき、生成品質と拡散過程におけるエントロピー生成率や最適輸送との関係、既存手法の妥当性を示しました。伊藤先生のスレッドに経緯やまとめがあります。様々な発展が考えられると思います
-- 
+- TTT could model long sequences with linear time complexity. It's a drop-in upgrade for any sequence modeling operators like self-attention.
+	- https://x.com/Jerry_XU_Jiarui/status/1810401509366181968
+	- It has been super fun to work on TTT with the amazing team!
+	- https://github.com/test-time-training/ttt-lm-jax
+- (*AMERICAN*) Football Analytics with Python and R — Learning DataScience Through the Lens of Sports: 
+	- https://www.amazon.com/gp/product/1492099627?&linkCode=sl1&tag=kirkdborne-20&linkId=114a75558fca86195c93513bf81a439d&language=en_US&ref_=as_li_ss_tl
+- Sam Altman and Arianna Huffington launch AI health company
+	- 
 
 ## 24/7/8
 
@@ -3497,13 +3504,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 3/18
 
-今週もいろいろありすぎて、目が回ります。東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングして、500ステップぐらいでいい感じとの報告も。「ELYZA-japanese-Llama-2-70b」が出たー、NHKでも紹介された、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる、リークなのか？。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAI＋マイクロオフト陣営も遅れるわけには行けない。企業が期待する今風の「主体性」って、思考力と協調・協働できる力という話だけど、この分野、生成AIが苦手とも言えなくなった気がするな。AIによるソフトウエアエンジニアDevin、なんかすごい、駆逐される人たちがたくさんいそうだ。どうもVC界隈では、AI従業員の開発の風が吹いているとのこと。JSTの「自律駆動による研究革新」は研究そのものをAIで自動化という話、ひえ！。Claude 3 Opusを使って世界経済を分析するデモ動
+今週もいろいろありすぎて、目が回ります。東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNzEwNzcsMTczNDQ2NTI3OSwtMTc3Nz
-E3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEs
-LTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNj
-IyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4
-OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC0yNj
-IwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4
-XX0=
+eyJoaXN0b3J5IjpbLTE0NjgyMDAxNjcsMTczNDQ2NTI3OSwtMT
+c3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4
+MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0Mj
+gsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUz
+NjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC
+0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4
+NDQ4XX0=
 -->
