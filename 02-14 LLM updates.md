@@ -16,17 +16,17 @@ Transformerの次のアーキテクチャの１つだとされる、Mamba-based 
 
 アルトマン氏とハフィントン氏によるThrive AI Health、行動を変えることにより健康になるというのは、なんか耳が痛いが、期待できそう。Ollama 0.2、gemma-2対応のバグとかも治ったみたいだど、複数のモデルを並列に動作可能とのこと、これって、モデルとLlamaGuardのようなLLMによるセーフガード実装を同時に動かすことができるということだ。
 
-強化学習の概念を取り入れたQ*アルゴリズム、またまた話題になる。
+強化学習の概念を取り入れたQ*アルゴリズム、またまた話題になる。LLMの多段推論をマルコフ決定過程でモデル化し、A-starサーチで探索するってどれだけ計算コストがかかるのか。
 
 MoEはエキスパートを小さく数を増やすほど性能が改善されるのか、それにしても100万のエキスパートってどうやって作るの？
 
-Artifactsで快進撃のClaude、今度は作ったArtifctsのライブプレビューにURL公開機能が搭載って、これはすごすぎでしょう、どういうエコシステムができるんだろうか？。プロンプトの自動生成や評価機能を備えて、１世紀分のプログラミングの歴史をおそらく1年でトレース
+Artifactsで快進撃のClaude、今度は作ったArtifctsのライブプレビューにURL公開機能が搭載って、これはすごすぎでしょう、どういうエコシステムができるんだろうか？。プロンプトの自動生成や評価機能を備えて、１世紀分のプログラミングの歴史をおそらく1年でトレースするというのも納得な動き。
 
 DeepMindのハサビス氏、「現時点での汎用AIは猫程度のIQしかない」と、歩調をあわせるように、OpenAIからは、人間の知能にどれだけ近づいたか」を評価する５段階のレベルの基準を公開、現在のAIはレベル1でもうすぐ「Reasoners」と呼ぶ第2レベルに到達できそうとのこと。猫でも十分な気もするが。。
 
 Pythonで学ぶ実験計画法入門、みなさんタイトルは控えめですが、ガウス過程回帰や、ベイズ最適化の本ですよ。
 
-llama-agents, 
+llamaindexからは、llama-agentsを発表、そういえば、 
 
 - GraphRAG: How to Develop AI That Thinks Like a Librarian
 	- https://x.com/IntuitMachine/status/1809903707535868260
@@ -3517,14 +3517,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://news.mynavi.jp/techplus/article/20240321-2911097/
 - GaLore - 家庭用ハードウェアでの大規模モデルの学習
 	- https://note.com/npaka/n/n8e4537502e3e?sub_rt=share_h
-	- 「GaLore」は、「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にします。これは、学習プロセス中のオプティマイザの状態と勾配に従来関連付けられていたメモリ要件を大幅に削減することによって実現されます。
-	- 「GaLore」と「8
+	- 「GaLore」は、「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTQ4MjU2LDExNDkyMDE4OTMsODI1NT
-Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
-LDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMj
-k3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0
-OTk4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLT
-kxOTcyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTky
-NjQxXX0=
+eyJoaXN0b3J5IjpbLTkxNjgzNDkzOSwxMTQ5MjAxODkzLDgyNT
+U2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcw
+MiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMj
+I5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3
+NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC
+05MTk3MjEyMTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5
+MjY0MV19
 -->
