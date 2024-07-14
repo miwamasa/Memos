@@ -3,14 +3,14 @@
 
 ## 24/7/14
 
-先週公開された、GraphRAG関連の、チュートリアル公表や評価がすすんでいます。RAGとQFSのギャップをうめる一手法であるというのはなんか納得。Gemma-2:9bでもGraphRA
+先週公開された、GraphRAG関連の、チュートリアル公表や評価がすすんでいます。RAGとQFSのギャップをうめる一手法であるというのはなんか納得。Gemma-2:9bでもGraphRAGが動くという報告も。
 
-Gemma2なのですが、GraphRAGでも動くと話題になってますが、tokenizerに不具合があるらしい。さてRAGの対抗馬？としてすぐに話題になるのは、ロングコンテキスト、マイクロソフトからは１Mトークン処理を１０倍とうたうMInference 1.0が登場、Dynamic Sparse Attentionって魔球のような技術を使うのね、デモサイトで試してみるのもよいかも。Interface 8月号特集は「生成AI」、LoRaもこれで手を動かして理解が進む。
-NVIDIAからは、RankRAGが登場、context rankingという仕掛けをLLMに埋め込んだということらしい。ローカルな知識を高精度で使えるから、オンプレでGPUどんどん買ってねということか。
+
+Gemma2は、tokenizerに不具合があるらしいが、AUTOMATIC1111さんが動いているなら、治るのは時間の問題。さてRAGの対抗馬？としてすぐに話題になるのは、ロングコンテキスト、マイクロソフトからは１Mトークン処理を１０倍とうたうMInference 1.0が登場、Dynamic Sparse Attentionって魔球のような技術を使うのね、デモサイトで試してみるのもよいかも。Interface 8月号特集は「生成AI」、LoRaもこれで手を動かして理解が進む。NVIDIAからは、RankRAGが登場、context rankingという仕掛けをLLMに埋め込んだということらしい。ローカルな知識を高精度で使えるから、オンプレでGPUどんどん買ってねということか。Unslothからはgemma-2(9b)でファインチューニングの速度が２倍になったと、、colabでも試せるのか？？
 
 Transformerの次のアーキテクチャの１つだとされる、Mamba-based Language Modelsの定量的な評価が出てきた、相当期待がもてそう。先週の自然な会話ができるオープンソースのMoshiもすごかったのだけど、TerifAI (terrify) ってのも、自分声をまねることができるなんて、もうオレオレ詐欺LLMの登場は時間の問題だ、最初に「オレオレだけど、、」と発する規制が必要。
 
- Unslothはgemma-2(9b)でファインチューニングの速度が２倍になったと、、colabでも試せるのか？？
+ 
 
 岡野原さんの、非平衡熱力学と拡散モデルの接点の論文の紹介、大学生（３年生）との共著というのが、驚きだ。
 
@@ -3516,13 +3516,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Google、PDF論文を劇的に読みやすくするChrome拡張「Google Scholar PDF Reader」
 	- https://news.mynavi.jp/techplus/article/20240321-2911097/
 - GaLore - 家庭用ハードウェアでの大規模モデルの学習
-	- https://note.com/npaka/n/n8e4537502e3e
+	- https://note.com/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzNDQzODkwLDExNDkyMDE4OTMsODI1NT
-Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
-LDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMj
-k3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0
-OTk4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLT
-kxOTcyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTky
-NjQxXX0=
+eyJoaXN0b3J5IjpbLTE4OTE4MjQ2OTMsMTE0OTIwMTg5Myw4Mj
+U1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3
+MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLD
+IyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgy
+NzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1My
+wtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1
+OTI2NDFdfQ==
 -->
