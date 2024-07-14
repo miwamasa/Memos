@@ -87,7 +87,13 @@
 - (*AMERICAN*) Football Analytics with Python and R — Learning DataScience Through the Lens of Sports: 
 	- https://www.amazon.com/gp/product/1492099627?&linkCode=sl1&tag=kirkdborne-20&linkId=114a75558fca86195c93513bf81a439d&language=en_US&ref_=as_li_ss_tl
 - Sam Altman and Arianna Huffington launch AI health company
-	- 
+	- https://x.com/HealthcareAIGuy/status/1810480678473232769
+	- The company is building an AI health coach to drive personalized behavior change to improve health outcomes.
+- Ollama 0.2 can now
+	- https://x.com/jmorgan/status/1810486878799560765
+	- * Run different models side-by-side 
+	- * Process multiple requests in parallel
+- 
 
 ## 24/7/8
 
@@ -3497,20 +3503,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2403.14606
 	- 新しいパラダイムである『微分可能プログラミング』の基本概念について Google DeepMind の研究者が383ページに渡るPDFを公開。論文より本という方が正しそう
 	- プログラムを微分可能にすることは本質的に確率分布によってその出力の不確実性を定量化すること、とは面白い
-	- **微分可能プログラミングとは**: プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイムです
-	- **目標と範囲**: 本書は、微分可能プログラミングの基礎を説明し、その理論と実践の両方をカバーすることを目指しています。
-- Sakana AIが、モデルマージを自動化・高度化する進化的モデルマージ（Evolutionary Model Merge）
-	- https://huggingface.co/SakanaAI
-
-## 3/18
-
-今週もいろいろありすぎて、目が回ります。東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-
+	- **微分可能プログラミングとは**: プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決する
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjgyMDAxNjcsMTczNDQ2NTI3OSwtMT
-c3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4
-MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0Mj
-gsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUz
-NjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC
-0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4
-NDQ4XX0=
+eyJoaXN0b3J5IjpbMTM4ODg4OTkzOSwxNzM0NDY1Mjc5LC0xNz
+c3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgw
+MSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOC
+w2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEyMTcsMTk5NTM2
+NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNzE1NTA4NjgsLT
+I2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0
+NDhdfQ==
 -->
