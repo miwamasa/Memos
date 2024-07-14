@@ -5,7 +5,7 @@
 
 先週公開された、GraphRAG関連の、チュートリアルや評価がすすんでいます。RAGとQFSのギャップをうめる一手法であるというのはなんか納得。
 
-Gemma2なのですが、GraphRAGでも動くと話題になってますが、tokenizerに不具合がある
+Gemma2なのですが、GraphRAGでも動くと話題になってますが、tokenizerに不具合があるらしい。さてRAGの対抗馬？としてすぐに話題になるのは、ロングコンテキスト。
 
 - GraphRAG: How to Develop AI That Thinks Like a Librarian
 	- https://x.com/IntuitMachine/status/1809903707535868260
@@ -3518,13 +3518,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 10Bのモデルですが、torch_dtypeを"auto"からtorch.bfloat16に変更すると、推論のスピードが改善しました。
 - RAG for long context LLMs: Video
 	- https://www.youtube.com/watch?v=SsHUNfhF32s
-	- https://docs.google.com/presentation/d/1mJUiPBdtf58NfuSEQ7pVSEQ2
+	- https://docs.google.com/pre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDIzNjUyODYsLTIxMTA1NTAzNzksLT
-kwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3
-OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLT
-EzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIy
-Njc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OT
-gsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIw
-OTk2MV19
+eyJoaXN0b3J5IjpbLTUwMzM4ODEyNywtMjExMDU1MDM3OSwtOT
+AzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5
+NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMT
+M0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2
+Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEyMTcsMTk5NTM2NDg5OC
+wyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5
+OTYxXX0=
 -->
