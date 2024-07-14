@@ -28,8 +28,12 @@
 	- > Google Cloud TPUs available on Spaces and Inference Endpoints > 3 options: 16GB to 128GB TPU memory (1x1, 2x2, 2x4 v5e TPU) > Use Spaces for ML demos or dev mode for easy training
 -  RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs
 	- https://arxiv.org/abs/2407.02485
-	- Llama3-RankRAG from nvidia
-  significantly outperforms GPT-4 models on 9 knowledge-intensive benchmarks
+	- Llama3-RankRAG from nvidia significantly outperforms GPT-4 models on 9 knowledge-intensive benchmarks
+	- The secret is a novel instruction fine-tuning framework, named RankRAG
+	- Llama3-RankRAG-8B and Llama3-RankRAG-70B outperforms Llama3-ChatQA-1.5-8B and Llama3-ChatQA-1.5-70B by a margin, respectively.
+	- The problem with traditional RAG was that LLM typically utilize the top-k contexts from a retriever.
+	- RankRAG instruction-tunes a single LLM for dual purposes: context ranking and answer generation in RAG. This unified approach allows the model to excel at both tasks simultaneously. The process incorporates a small fraction of ranking data (about 50k examples) alongside other task-specific datasets. Yields superior ranking performance compared to models trained on much larger ranking datasets.
+- 
 
 ## 24/7/8
 
@@ -3497,23 +3501,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2402.07630
 - ＪＰＸ総研は、生成AIプロバイダであるBridgewiseの技術を活用し、日本市場にかかる情報を発信する新サービス「JPX Market Explorer」のPoCを開始します。
 	- https://www.jpx.co.jp/corporate/news/news-releases/6020/20240312-01.html
-	- 東証に上場する会社について、個社のビジネス概要や直近の決算のサマリーを簡単に調べたり、財務状況についての分析や競合他社との比較を行うことができます。
-	- コンテンツや分析はBridgewiseの生成AIテクノロジーを利用して作成されます
-	- 生成AIを用いて各企業の概要、直近の決算サマリ、財務状況の簡単な分析や競合他社との比較を行うことができる
--  Integrating Phenotypic and Chemoproteomic Approaches to Identify Covalent Targets of Dietary Electrophiles in Platelets
-	- https://pubs.acs.org/doi/full/10.1021/acscentsci.3c00822
-	- ブロッコリーには強力な抗がん作用があることは知られているけれど、シドニー大学らの研究によれば、ブロッコリーは癌だけでなく、脳卒中を引き起こす可能性のある血栓症を予防し、血栓症の治療を補助する効果もあると示された。
-- Llama.cpp で Swallow MX 8x7B を試す
-	- https://note.com/npaka/n/n0a9b514756ae?sub_rt=share_b
-	- 「Swallow MX 8x7B」は、「Mixtral 8x7B」の日本語能力を強化した大規模言語モデルです
--  Adding NVMe SSDs to Enable and Accelerate 100B Model Fine-tuning on a Single GPU
-	- h
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3OTU3MTc1LDIyOTc1MDE1LC0zOTMyNj
-k4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0
-MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OT
-UzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4
-LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0OD
-c4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzNd
-fQ==
+eyJoaXN0b3J5IjpbLTIwODEwMDExNSwyMjk3NTAxNSwtMzkzMj
+Y5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3
+NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOT
+k1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2
+OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2ND
+g3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMz
+XX0=
 -->
