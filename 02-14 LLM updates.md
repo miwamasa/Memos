@@ -97,6 +97,8 @@
 	- https://xtech.nikkei.com/atcl/nxt/column/18/00001/09497/
 	- Vo氏がプレゼンで強調したのが、2024年5月31日にアンソロピックが発表したサービス「Tool Use」の活用方法だ。Tool Useは、AIが人の代わりとなって自律的にタスクを実行する「AIエージェント」を実装するためのサービスである。
 -  Language-Guided World Models: A Model-Based Approach to AI Control
+	- https://arxiv.org/abs/2402.01695
+	- 
 
 ## 24/7/8
 
@@ -3501,13 +3503,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Line社が開発した「japanese-large-lm-3.6b-instruction-sft」をウィキブックの内容をもとに中学範囲にてファインチューニングを行いました。
 - 「LOCAL AI HACKATHON」における、チームDataPilotの成果品第一弾である「ArrowSmart_1.7b_instant_sft」をリリースしました
 	- https://huggingface.co/DataPilot/ArrowSmart_1.7b_instant_sft
-	- Line社が開発した「japanese-large-lm-1.7b-instruction-sft」をウィキブックの内容をもとに地理、化学の分野でファインチューニングを行
+	- Line社が開発した「japanese-large-lm-1.7b-instruction-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3Nz
-cxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAx
-LC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4LD
-YyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOTk1MzY0
-ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2OCwtMj
-YyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2NDg3ODQ0
-OF19
+eyJoaXN0b3J5IjpbLTM3MzkwMTMyLC0yOTkwODcwMiwxNzM0ND
+Y1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUs
+LTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMj
+A0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEy
+MTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNz
+E1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1
+XX0=
 -->
