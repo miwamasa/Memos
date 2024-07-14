@@ -8,6 +8,7 @@
 Gemma2なのですが、GraphRAGでも動くと話題になってますが、tokenizerに不具合があるらしい。さてRAGの対抗馬？としてすぐに話題になるのは、ロングコンテキスト、マイクロソフトからは１Mトークン処理を１０倍とうたうMInference 1.0が登場、Dynamic Sparse Attentionって魔球のような技術を使うのね、デモサイトで試してみるのもよいかも。Interface 8月号特集は「生成AI」、LoRaもこれで手を動かして理解が進む。
 NVIDIAからは、RankRAGが登場、context rankingという仕掛けをLLMに埋め込んだということらしい。ローカルな知識を高精度で使えるから、オンプレでGPUどんどん買ってねということか。
 
+Transformerの次のアーキテクチャの１つだとされる、Mamba-based Language Modelsの定量的な評価が出てきた、相当期待がモデル。
 
 
 
@@ -3518,11 +3519,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  Evolutionary Optimization of Model Merging Recipes
 	- Sakana Aiの論文
 	- https://arxiv.org/abs/2403.13187
--  WSL2でSakana AIを試してみる
-	- https://note.com/ngc_shj/n/na9b41adb9131
-	- 「進化的モデルマージによ
+-  WS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2NDg5NTkxLC0yMTEwNTUwMzc5LC05MD
+eyJoaXN0b3J5IjpbLTkxNDQ1MDQxLC0yMTEwNTUwMzc5LC05MD
 MwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1
 NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMz
 Q5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4LDYyMjY3
