@@ -175,7 +175,13 @@
 - Magpieの手法を用いて様々なモデルから作成した日本語29647件、英語39560件、合計約69207件のコードSFT用データセットを公開しました
 	- https://x.com/Aratako_LM/status/1811418924472492470
 	- https://huggingface.co/datasets/Aratako/Synthetic-JP-EN-Coding-Dataset-Magpie-69k
-- 
+- We made a step-by-step tutorial on how to finetune Llama-3 with Google Colab & deploy it to Ollama
+	- https://x.com/UnslothAI/status/1811447913962438994
+	- https://docs.unsloth.ai/tutorials/how-to-finetune-llama-3-and-export-to-ollama
+	- https://colab.research.google.com/drive/1WZDi7APtQ9VsvOrQSSC5DDtxq159j8iZ?usp=sharing
+- 統計的リテラシーの動向と課題―概念と学習指導に着目して―
+	- 
+
 
 ## 24/7/8
 
@@ -3500,16 +3506,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- LoftQ(量子化誤差を最小化するようにLoRAを初期化してトレーニングできるようにする)もより使いやすくなったとの事
 - OpenAI Voice Engine. This is big
 	- https://x.com/SmokeAwayyy/status/1771052612051468668?s=20
-	- VOICE ENGINE™ trademark registration is intended to cover: - voice and speech recognition, processing voice commands, and converting between text and speech
-- Introducing the Chatbot Guardrails Arena
-	- https://huggingface.co/blog/arena-lighthouz
-	- Our vision behind the Chatbot Guardrails Arena is to establish the trusted benchmark for AI chatbot security, privacy, and guardrails. With a large-scale blind stress test by the community, this arena will offer an unbiased and practical assessment o
+	- VOICE ENGINE™ trademark registration is intended to cover: - voice and speech recognition, processing voice commands, and converting between t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTkzMDUxNSwtOTAzMDM3Mjk1LC0yOT
-kwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5
-MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMT
-E0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2
-NTUzLC05MTk3MjEyMTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LD
-M5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4
-NV19
+eyJoaXN0b3J5IjpbLTIwODQxMjY1MjUsLTkwMzAzNzI5NSwtMj
+k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
+OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
+ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
+NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OC
+wzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0
+ODVdfQ==
 -->
