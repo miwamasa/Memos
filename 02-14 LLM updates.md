@@ -218,6 +218,11 @@
 	- 最尤推定法は最も確からしい１つの回帰直線を算出でき、ベイズ推論は信頼できる幅を持った回帰直線を算出できる特徴があるね👍面白い！！
 - `statsmodels`と`sklearn`でのロジスティック回帰の挙動の違いについて
 	- https://zenn.dev/0_u0/articles/6a43ff43b02399
+	- `sklearn.linear_model.LogisticRegression`はデフォルトで正則化(L2=1)がついている
+	- `statsmodels.api.Logit`は正則化がついていない
+	- `sklearn`は機械学習の領域で広く使われるライブラリの1つであるから、統計モデリングをこれを使って実施する場面も多いだろうが、正則化項については気をつけた方が良い。
+- Statistics for Mathematicians by Victor M. Panaretos
+	- https://x.com/probnstat/status/1811833201612014073
 	- 
  
 
@@ -3513,17 +3518,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://courses.nvidia.com/courses/course-v1:DLI+T-FX-01+V1/
 - Claude 3 Opusより60倍安いHaikuをOpusの品質で運用する方法。
 	- https://github.com/mshumer/gpt-prompt-engineer
-	- gpt-prompt-engineerを使えば、プロンプトエンジニアリングの実験を自動化できる。自動で複数プロンプトを生成して、LLM別に評価も可能。
-- Binary and Scalar Embedding Quantization for Significantly Faster & Cheaper Retrieval
-	- https://huggingface.co/blog/embedding-quantization
-	- 25x speedup in retrieval; 32x reduction in memory usage; 4x reduction in disk space; 99.3% preservation of performance
-- LLM4Decompile: Decompiling Binary 
+	- gpt-prompt-engineerを使えば、プロンプトエンジニアリングの実験を自動化できる。自動で複数プロンプトを生成して、LLM別に評価も可
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzMjc2NDA5LC05MDMwMzcyOTUsLTI5OT
-A4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1Mzkz
-MywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMT
-Q4Mjc0OTk4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1
-NTMsLTkxOTcyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMz
-k2NTkyNjQxLDI3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1
-XX0=
+eyJoaXN0b3J5IjpbLTE1MzEyMDkxODAsLTkwMzAzNzI5NSwtMj
+k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
+OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
+ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
+NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OC
+wzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0
+ODVdfQ==
 -->
