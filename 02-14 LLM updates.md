@@ -12,8 +12,9 @@ Transformerの次のアーキテクチャの１つだとされる、Mamba-based 
 
  Unslothはgemma-2(9b)でファインチューニングの速度が２倍になったと、、colabでも試せるのか？？
 
-岡野原さんの、非平衡熱力学と拡散モデルの接点の論文の紹介、
+岡野原さんの、非平衡熱力学と拡散モデルの接点の論文の紹介、大学生（３年生）との共著というのが、驚きだ。
 
+Thrive AI Health
 
 - GraphRAG: How to Develop AI That Thinks Like a Librarian
 	- https://x.com/IntuitMachine/status/1809903707535868260
@@ -3515,14 +3516,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Sakana AIの最初の研究成果である、進化的計算による基盤モデル構築に関する論文を公開しました。多様な既存モデルを自動的に融合し優れた基盤モデルを構築するための方法を提案すると共に、それにより試作したモデルを公開しました。
 		- **EvoLLM-JP**：数学的推論が可能な日本語の大規模言語モデル（LLM）
 		- **EvoVLM-JP**：日本語で対話可能な画像言語モデル（VLM）
-		- **EvoSDXL-JP**：高速な日本語画像生成モデル
-	- _既存の
+		-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxMjgzNjQ3LC0yMTEwNTUwMzc5LC05MD
-MwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1
-NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMz
-Q5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4LDYyMjY3
-ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOTk1MzY0ODk4LD
-IwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2OCwtMjYyMDk5
-NjFdfQ==
+eyJoaXN0b3J5IjpbLTE4ODA3NDczNywtMjExMDU1MDM3OSwtOT
+AzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5
+NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMT
+M0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2
+Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEyMTcsMTk5NTM2NDg5OC
+wyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5
+OTYxXX0=
 -->
