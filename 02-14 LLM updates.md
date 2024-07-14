@@ -7,7 +7,12 @@
 	- https://x.com/IntuitMachine/status/1809903707535868260
 	-  Graph RAG is an innovative approach that bridges the gap between retrieval-augmented generation (RAG) and query-focused summarization (QFS) methods, addressing the limitations of existing techniques in handling global questions about extensive document collections.
 - Gemma2のtokenizerにまだ不具合があるとissuesが新しく登録されていたので見てみたらまさかのAUTOMATIC1111
-	- 
+	- https://x.com/webbigdata/status/1810143355013390779
+	- 画像生成AIで有名なツールstable-diffusion-webuiの作者の人です。ツール名称が一般的すぎるので、AUTOとかAUTOMATICとか作者名で呼んでる人が多いツールです
+- BM25S: Orders of magnitude faster lexical search via eager sparse scoring
+	- https://x.com/_reachsumit/status/1810157881536430178
+	- Introduces a fast Python implementation of BM25 that pre-computes scores during indexing using sparse matrices to achieve significant speed improvements
+- 
 
 ## 24/7/8
 
@@ -3497,20 +3502,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Microsoft presents a toolkit to integrate LLMs into recommender systems for explainability, conversation, and user control.
 -  臨床予測モデル検証の要点
 	- https://note.com/tadahiro_goto/n/n90128159a7fb?sub_rt=share_pb
-	- 2024年1月にBMJのResearch Methods & Reportingで予測モデルの評価と外的検証に関するreview
-	- Evaluation of clinical prediction models (part 1): from development to external validation.
-	- ポイント
-		- 臨床予測モデルは、**モデルがターゲットとなる対象集団を代表するデータセットで評価**すべき
-		- 開発用データセットでは優れているように見えたモデルも、別のデータセットで評価すると、（仮に同じ母集団からのデータであっても）性能が低くなることがほとんど。
-		-   **モデルを開発する時点でデータを分割(split)することは、信頼性の低いモデルにつながるため避けるべき**。
-		- 利用可能なすべてのデータを活用する努力をすべき（内的検証におけるresamplingや、内的-外的交差検証など）
-- Accelerate v0.28.0 ha
+	- 2024年1月にB
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Nzc0MTM1NSwyMjk3NTAxNSwtMzkzMj
-Y5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3
-NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOT
-k1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2
-OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2ND
-g3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMz
-XX0=
+eyJoaXN0b3J5IjpbODkyNTMxMTEwLDIyOTc1MDE1LC0zOTMyNj
+k4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0
+MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OT
+UzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4
+LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0OD
+c4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzNd
+fQ==
 -->
