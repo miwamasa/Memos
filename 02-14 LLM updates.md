@@ -206,7 +206,14 @@
 	- レベル3は「ユーザーに代わって行動できる」、
 	- レベル4は「新しいイノベーションを生み出せる」、
 	- 最高段階のレベル5は「組織全体の仕事を行うことができる」レベルに設定されているそうです。
-- 
+- Mixture of Agents on Groq
+	- https://x.com/KapadiaSoami/status/1811657156082712605
+	- Introducing a fully configurable, Mixture-of-Agents framework powered by GroqInc using LangChainAI
+- Pythonで学ぶ実験計画法入門
+	- https://x.com/mimikousi/status/1812071977441513954
+	- 
+	- https://github.com/mimikousi/regression_model/blob/main/gpr_regression.ipynb
+ 
 
 	- 
 
@@ -3510,16 +3517,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Suno AI unveiled V3
 	- https://x.com/heyBarsee/status/1771190753957470604?s=20
 - Doing In-Context Learning Without Leaking Private Data
-	- https://github.com/run-llama/llama_index/tree/main/llama-index-packs/llama-index-packs-diff-private-simple-dataset/examples/symptom_2_disease
-	- Few-shot demonstrations are crucial to improve the performance of any LLM/RAG app. But the issue with very private datasets (e.g. patient clinical reports), is that they can easily be leaked/jailbroken by malicious users.
-- 内閣府「AI時代の知的財産権検討会（第６回）」の資料が公開
-	- https://www.kantei.go.jp/jp/singi/titeki2/ai_kentoukai/gijisidai/dai6/index.h
+	- https://github.com/run-llama/llama_index/tree/main/llama-index-packs/llama-index-packs-diff-private-simple-dataset/examples/symptom_2_dis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Njc5MjcwMCwtOTAzMDM3Mjk1LC0yOT
-kwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5
-MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMT
-E0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2
-NTUzLC05MTk3MjEyMTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LD
-M5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4
-NV19
+eyJoaXN0b3J5IjpbLTE4OTQ5OTUzMTYsLTkwMzAzNzI5NSwtMj
+k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
+OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
+ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
+NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OC
+wzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0
+ODVdfQ==
 -->
