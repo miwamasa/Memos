@@ -23,7 +23,10 @@
 - 【Interface 8月号特集「生成AI」ちょっと記事紹介】
 	- https://x.com/If_CQ/status/1810282808587538468
 	- 第4部2章は「ローカルLLMを自分用にファイン・チューニング」です．「LoRA」が小コストで学習できる仕組みを解説し，実際に試します
-	- 
+- Google Cloud TPUs made available to Hugging Face users
+	- https://huggingface.co/blog/tpu-inference-endpoints-spaces
+	- > Google Cloud TPUs available on Spaces and Inference Endpoints > 3 options: 16GB to 128GB TPU memory (1x1, 2x2, 2x4 v5e TPU) > Use Spaces for ML demos or dev mode for easy training
+- 
 
 ## 24/7/8
 
@@ -3505,13 +3508,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 本論文中で紹介されているFuyouを使うと、なんと一般消費者向けのGPUであるRTX 4090上で175Bパラメーター、つまりGPT-3 を微調整可能なんですって！
 - Claude3の公式promptライブラリの英文校正prompt
 	- https://note.com/genkaijokyo/n/n3f82b191dfda
-	- Your task is to take the text provided and rewrite it into a clear, grammatically correct version while preserving the original meaning as closely as possible. Correct any spelling mistakes, punctuation errors, verb tense issues, word choice problems, and other grammatical mistakes. Use bold formatting in markdown to emp
+	- Your task is to ta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE5MjM0OTEsMjI5NzUwMTUsLTM5Mz
-I2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3
-NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEyMTcsMT
-k5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNzE1NTA4
-NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNj
-Q4Nzg0NDgsMTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTcz
-M119
+eyJoaXN0b3J5IjpbLTc4NDU5MzYzOSwyMjk3NTAxNSwtMzkzMj
+Y5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3
+NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOT
+k1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2
+OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2ND
+g3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMz
+XX0=
 -->
