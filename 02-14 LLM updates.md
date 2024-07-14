@@ -14,7 +14,7 @@ Transformerの次のアーキテクチャの１つだとされる、Mamba-based 
 
 岡野原さんの、非平衡熱力学と拡散モデルの接点の論文の紹介、大学生（３年生）との共著というのが、驚きだ。
 
-Thrive AI Health
+アルトマン氏とハフィントン氏によるThrive AI Health、行動を変えることにより健康になるというのは、なんか耳が痛いが、期待できそう。Ollama 0.2、gemma-2対応のバグとかも治ったみたいだど、複数のモデルを同時に動かす？
 
 - GraphRAG: How to Develop AI That Thinks Like a Librarian
 	- https://x.com/IntuitMachine/status/1809903707535868260
@@ -3513,16 +3513,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/drfeifei/status/17710132915083798大規模言語モデル「Grok-1」について by 今井
 	- https://x.com/ImAI_Eruel/status/1769487625994506294?s=20
 - 進化的アルゴリズムによる基盤モデルの構築 by sakana ai
-	- Sakana AIの最初の研究成果である、進化的計算による基盤モデル構築に関する論文を公開しました。多様な既存モデルを自動的に融合し優れた基盤モデルを構築するための方法を提案すると共に、それにより試作したモデルを公開しました。
-		- **EvoLLM-JP**：数学的推論が可能な日本語の大規模言語モデル（LLM）
-		- **EvoVLM-JP**：日本語で対話可能な画像言語モデル（VLM）
-		-
+	- Sakana AIの最初の研究成果である、進化的計算による基盤モデル構築に関する論文を公開しました。多様な既存モデルを自動的に融合し優れた基盤モデルを構築するための方法を提案すると共に、それによ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA3NDczNywtMjExMDU1MDM3OSwtOT
-AzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5
-NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMT
-M0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2
-Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEyMTcsMTk5NTM2NDg5OC
-wyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5
-OTYxXX0=
+eyJoaXN0b3J5IjpbLTE2MzMyNzI2OTUsLTIxMTA1NTAzNzksLT
+kwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3
+OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLT
+EzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIy
+Njc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OT
+gsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIw
+OTk2MV19
 -->
