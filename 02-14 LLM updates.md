@@ -181,11 +181,17 @@
 	- https://colab.research.google.com/drive/1WZDi7APtQ9VsvOrQSSC5DDtxq159j8iZ?usp=sharing
 - 統計的リテラシーの動向と課題―概念と学習指導に着目して―
 	- https://www.jstage.jst.go.jp/article/jssej/48/2/48_133/_article/-char/ja/
+	- これまでの実践研究を概観すると，学習指導の方法の特徴として以下 5 点が挙げられる
 	- 1 点目は，「実際にメディアから発信された統計情報を題材の中心としていること」
 	- 2 点目は，「統計情報の内容に対して問いを持つように，問いの例を示すこと」
 	- 3 点目は，「統計情報の内容を学習者同士で議論する活動を取り入れること」
 	- 4 点目は，「知識の習得や活用を意図した個人の活動が展開されていること」
 	- 5 点目は，「統計情報を適切に解釈するための読み方の習得を意図した個人の活動が展開されていること」
+- Temporal distances (expected number of time steps between states) in stochastic MDPs in general lack metric structure.
+	- https://x.com/svlevine/status/1811253559603888439
+	- we propose this metric. Intuitively, the difference between state s and goal g is given by log of probability ratio between reaching g from g (self-loop) and reaching g from s.
+	- https://arxiv.org/abs/2406.17098v1
+- 
 
 	- 
 
@@ -3503,20 +3509,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - The AI Mirror Test
 	- https://x.com/joshwhiton/status/1770870738863415500?s=20
 	- The "mirror test" is a classic test used to gauge whether animals are self-aware. I devised a version of it to test for self-awareness in multimodal AI. 4 of 5 AI that I tested passed, exhibiting apparent self-awareness as the test unfolded.
-	- Claude Opus passed the mirror test immediately. Like the other AI, it hardly identifies with its brand-name (Claude) and distinguishes itself from the interface’s stock elements. However it does identify with the prompt, which it knows is
-- PEFT 0.10.0 is out
-	- https://github.com/huggingface/peft/releases/tag/v0.10.0
-	- Fine-tune larger QLoRA models with DeepSpeed and FSDP, layer replication, enhance DoRA
-	- This allows you to fine-tune a 70B Llama model on two GPUs with 24GB memory each.
-	- 以前、ツイートした70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるお話が正式採用
-	- 加えて、DoRA(工夫したLoRA。ただしトレーニング時間は増える)が量子化済のモデルに対しても使えるようになって使いやすくなった模様
-	- Loft
+	- Claude Opus passed the mirror test immediately. Like the other AI, it hardly identifies with its brand-name (Claude) and distinguishes itself from the interface’s stock elements. However it does id
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTIyNDYwNjYsLTkwMzAzNzI5NSwtMj
-k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
-OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
-ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
-NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OC
-wzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0
-ODVdfQ==
+eyJoaXN0b3J5IjpbMjAzMjMxNzgwMCwtOTAzMDM3Mjk1LC0yOT
+kwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5
+MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMT
+E0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2
+NTUzLC05MTk3MjEyMTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LD
+M5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4
+NV19
 -->
