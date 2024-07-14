@@ -33,7 +33,12 @@
 	- Llama3-RankRAG-8B and Llama3-RankRAG-70B outperforms Llama3-ChatQA-1.5-8B and Llama3-ChatQA-1.5-70B by a margin, respectively.
 	- The problem with traditional RAG was that LLM typically utilize the top-k contexts from a retriever.
 	- RankRAG instruction-tunes a single LLM for dual purposes: context ranking and answer generation in RAG. This unified approach allows the model to excel at both tasks simultaneously. The process incorporates a small fraction of ranking data (about 50k examples) alongside other task-specific datasets. Yields superior ranking performance compared to models trained on much larger ranking datasets.
-- 
+-  Learning to (Learn at Test Time): RNNs with Expressive Hidden States
+	- https://arxiv.org/abs/2407.04620
+	- https://x.com/xiaolonw/status/1810387662060269668
+	- we have been developing a new LLM architecture, with linear complexity and expressive hidden states, for long-context modeling. The following plots show our model trained from Books scale better (from 125M to 1.3B) than Mamba and Transformer, and our 1.3B model works better and better with longer context.
+-  Intent-based Prompt Calibration: Enhancing Prompt Optimization
+	- 
 
 ## 24/7/8
 
@@ -3494,16 +3499,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://weblab.t.u-tokyo.ac.jp/2024-03-12/
 	- 当研究室が提供する講座の修了生および一般公募によって集まった有志の開発者のメンバーが500億パラメータサイズの大規模言語モデル開発を進めるものです。
 	- NEDOによる、国内の生成AIの開発力を強化するためのプロジェクト「GENIAC（Generative AI Accelerator Challenge）」において、基盤モデル開発に必要な計算資源の提供支援を受けています。
-	- 松尾教授からは「このプロジェクトの中で、試行錯誤しながら重要であるノウハウを共有することで良いモデルを作り、開発経験を積んでもらいたい。また、このプロジェクトを通して、より多くのLLM開発者を生み出し、参加者の皆さんが様々なところで活躍してもらうのが望みだ」とのコメントがありました。
-- Elyza70B、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩がある by shi3zさん
-	- https://x.com/shi3z/status/1767464684373082223?s=20
--  G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering
-	- https://arxiv.org/abs/2402.07630
-- ＪＰＸ総研は、生成AIプロバイダであるBridgewiseの技術を活用し、日本市場にかかる情報を発信する新サービス「JPX Market Explorer」のPoCを開始します。
-	- https://www.jpx.co.jp/corporate/news/news-releases/6020/20240312-01.html
-	
+	- 松尾教授からは「このプロジェクトの中で、試行錯誤しながら重要であるノウハウを共有することで良
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODEwMDExNSwyMjk3NTAxNSwtMzkzMj
+eyJoaXN0b3J5IjpbMTk4NzQzNjExOCwyMjk3NTAxNSwtMzkzMj
 Y5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3
 NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOT
 k1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2
