@@ -125,7 +125,10 @@
 	- 3Dモデリング技術を応用し符号付き距離関数を入力表現としたマルチモーダル拡散モデルを開発、物性やテキストから条件を満たすMOF構造を正確に生成できたそうです。
 -  GraphRAGシステムの使い方：初心者向け完全ガイド
 	- https://hamaruki.com/graphrag-beginners-guide/
-- 
+- 有識者取材の申し込みが、目撃者取材と同じ手法になってきたとか、世も末。
+	- https://x.com/HiromitsuTakagi/status/1810550259866910838
+	- テレ朝、ひろみちゅ先生に取材DM送る。。。
+	- 
 
 ## 24/7/8
 
@@ -3502,15 +3505,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- You will be able to upload your own environment to the metaverse:
 - マジか(NLP2024の岡崎先生、Knight先生の発表概要をSwallow-MXを翻訳タスクでQLoRA tuningしたモデルで日英/英日翻訳)
 	- https://x.com/hpp_ricecake/status/1771138490589487602?s=20
--  Googleが洪水を1週間前に予測し世界80カ国4億6000万人を水害から救えるAIを発表
-	- https://gigazine.net/news/20240322-google-ai-global-flood-forecasting/
-	
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTA4NjgwNSwtMjk5MDg3MDIsMTczND
-Q2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1
-LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLT
-IwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIx
-MjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMj
-cxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0
-NV19
+eyJoaXN0b3J5IjpbLTE1NTU0MTE3MjAsLTI5OTA4NzAyLDE3Mz
+Q0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAx
+NSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC
+0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcy
+MTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLD
+I3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2
+NDVdfQ==
 -->
