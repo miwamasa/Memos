@@ -138,7 +138,14 @@
 	- 単純な季節的な周期やトレンドを持つような時系列データではPropmtingによるアプローチは有効であるが、より複雑な時系列性を持つデータでは十分な性能が期待できないかもしれない
 	- そのため、十分な学習データを用意できる場合は、QuantizationまたはAligningベースの方法がより有効になるだろう
 	- Aligningは、時系列データと言語空間のモダリティ間を整合させるアプローチであるので、時系列データと言語がペアとなるようなデータを使ったタスクの有力な選択肢になると思われる。例えば、心電図シグナルとテキスト形式のレポートの二つのデータから対象者の診断カテゴリを分類するタスクを解いたETPや、対話中の脳波と自然言語の二つのデータから感情予測や関係検出のタスクを解いたMTAMがその例である。
-- 
+- 天気予報でLassoが使われたんですか？ 本当ならややびっくり
+	- https://x.com/Idesan/status/1810903568100077906
+- 多重共線性のある線形モデルに対しては、Lassoをやると汎化性能は上がっても必ずしも「本来削られるべき変数」が削られるわけではないとされていて、
+	- https://x.com/TJO_datasci/status/1810852746406604931
+- Artifacts made with Claude can now be published and shared.
+	- https://x.com/AnthropicAI/status/1810698780263563325
+- Open source AI model for semiconductor design.
+	- 
 
 ## 24/7/8
 
@@ -3495,19 +3502,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「Mistral AI社のオープンモデル「Mistral-7B-v0.1」を基に、継続的に大規模なデータを学習させて開発された70億パラメータの日本語基盤モデル」であるRakuten AI 7Bモデル
 	- 「インストラクションチューニング済モデルを基にファインチューニングを行ったチャットモデル」であるRakuten AI 7B Chatを試してみます。
 - Swallow-MX-8x7b-NVE-chatvector-Mixtral-instructのv2アップロードしました by AI さとし
-	- https://huggingface.co/aixsatoshi/Swallow-MX-8x7b-NVE-chatvector-Mixtral-instruct-v2
-	- 元モデルとinstructionベクトルのバランス調整で、日本語流暢性改善しています
-- Margaret Mitchel
-	- This Women's History Month, we celebrate Margaret Mitchell, the Chief AI Ethics Scientist at huggingface, an open source data science and machine learning platform and hub for AI experts. 
-- Transformers 4.39 is out,
-	- https://github.com/huggingface/transformers/releases/tag/v4.39.0
-	- New models: Mamb
+	- https://huggingface.co/aixsatoshi/Swallow-MX-8x7b-NVE-chatvector-Mixtral-i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc3MjUxMDAsLTI5OTA4NzAyLDE3Mz
-Q0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAx
-NSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC
-0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcy
-MTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLD
-I3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2
-NDVdfQ==
+eyJoaXN0b3J5IjpbMzQxNjkwMjgwLC0yOTkwODcwMiwxNzM0ND
+Y1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUs
+LTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMj
+A0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEy
+MTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNz
+E1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1
+XX0=
 -->
