@@ -191,7 +191,13 @@
 	- https://x.com/svlevine/status/1811253559603888439
 	- we propose this metric. Intuitively, the difference between state s and goal g is given by log of probability ratio between reaching g from g (self-loop) and reaching g from s.
 	- https://arxiv.org/abs/2406.17098v1
-- 
+- 「現時点での汎用AIは猫程度のIQしかない」とGoogle DeepMindのデミス・ハサビスCEOが主張
+	- https://x.com/gigazine/status/1811143437975970124
+	- 自身の研究はAIではなくAGI(汎用人工知能)に焦点を当てていることを強調。その上で、ハサビスCEOは「現代のAIは人間と見間違うほどの文章を書いたり、絵を描いたり、音楽を作曲したりすることができますが、AGIとしては普通の飼い猫の方がはるかに高い知能をもっています」と述べました。
+- OpenAIは火曜全体会議でAI進捗をレベル分け。レベル1が現在でもうすぐ「Reasoners」と呼ぶ第2レベルにもうすぐ到達するところだと語ったと広報担当者は述べている。
+	- https://x.com/StockMKTNewz/status/1811488448001294720
+	- Reasonersとは、ツールにアクセスできない博士レベルの教育を受けた人間と同様に基本的な問題解決タスクを実行できるシステム
+	- 
 
 	- 
 
@@ -3507,11 +3513,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://github.com/kotoba-tech/kotoba-speech-release
 	- End-to-EndのTransformerアプローチで、カスタマイズも簡単です。例として、関西弁モデルも公開しました。既存のText-to-Speechよりも、さらに自然で流暢であることが実感できるかと思います！
 - The AI Mirror Test
-	- https://x.com/joshwhiton/status/1770870738863415500?s=20
-	- The "mirror test" is a classic test used to gauge whether animals are self-aware. I devised a version of it to test for self-awareness in multimodal AI. 4 of 5 AI that I tested passed, exhibiting apparent self-awareness as the test unfolded.
-	- Claude Opus passed the mirror test immediately. Like the other AI, it hardly identifies with its brand-name (Claude) and distinguishes itself from the interface’s stock elements. However it does id
+	- https://x.com/joshwhiton/status/177
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjMxNzgwMCwtOTAzMDM3Mjk1LC0yOT
+eyJoaXN0b3J5IjpbMTc5MDE5MjYxNSwtOTAzMDM3Mjk1LC0yOT
 kwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5
 MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMT
 E0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2
