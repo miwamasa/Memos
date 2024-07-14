@@ -3,7 +3,7 @@
 
 ## 24/7/14
 
-先週公開された、GraphRAG関連の、チュートリアルや評価がすすんでいます。RAGとQFSのギャップをうめる一手法であるというのはなんか納得。
+先週公開された、GraphRAG関連の、チュートリアル公表や評価がすすんでいます。RAGとQFSのギャップをうめる一手法であるというのはなんか納得。Gemma-2:9bでもGraphRA
 
 Gemma2なのですが、GraphRAGでも動くと話題になってますが、tokenizerに不具合があるらしい。さてRAGの対抗馬？としてすぐに話題になるのは、ロングコンテキスト、マイクロソフトからは１Mトークン処理を１０倍とうたうMInference 1.0が登場、Dynamic Sparse Attentionって魔球のような技術を使うのね、デモサイトで試してみるのもよいかも。Interface 8月号特集は「生成AI」、LoRaもこれで手を動かして理解が進む。
 NVIDIAからは、RankRAGが登場、context rankingという仕掛けをLLMに埋め込んだということらしい。ローカルな知識を高精度で使えるから、オンプレでGPUどんどん買ってねということか。
@@ -26,7 +26,7 @@ DeepMindのハサビス氏、「現時点での汎用AIは猫程度のIQしか�
 
 Pythonで学ぶ実験計画法入門、みなさんタイトルは控えめですが、ガウス過程回帰や、ベイズ最適化の本ですよ。
 
-llamaindexからは、llama-agentsを発表、そういえば、 
+llamaindexからは、llama-agentsを発表、そういえば、Claudeが５月に発表したサービス「Tool Use」って自律的に動くエージェントに備えたという話も、今週あった。
 
 - GraphRAG: How to Develop AI That Thinks Like a Librarian
 	- https://x.com/IntuitMachine/status/1809903707535868260
@@ -3516,14 +3516,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Google、PDF論文を劇的に読みやすくするChrome拡張「Google Scholar PDF Reader」
 	- https://news.mynavi.jp/techplus/article/20240321-2911097/
 - GaLore - 家庭用ハードウェアでの大規模モデルの学習
-	- https://note.com/npaka/n/n8e4537502e3e?sub_rt=share_h
-	- 「GaLore」は、「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータ
+	- https://note.com/npaka/n/n8e4537502e3e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNjgzNDkzOSwxMTQ5MjAxODkzLDgyNT
-U2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcw
-MiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMj
-I5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3
-NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC
-05MTk3MjEyMTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5
-MjY0MV19
+eyJoaXN0b3J5IjpbNTAzNDQzODkwLDExNDkyMDE4OTMsODI1NT
+Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
+LDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMj
+k3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0
+OTk4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLT
+kxOTcyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTky
+NjQxXX0=
 -->
