@@ -101,6 +101,7 @@
 	- Our paper is perhaps the first to demonstrate compositional generalization with concepts that involve interactions among multiple entities.
 - GPT-4o Capabilities
 	- https://x.com/InterestingSTEM/status/1810387007312429094
+- これな．日本は検索技術について，著作権法とは関係なく，正々堂々と完全に技術力でGoogleに負けたの
 	- 
 
 ## 24/7/8
@@ -3503,13 +3504,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 複数のNNを重み・層レベルでマージする際の最適な組合せをEAで探索する進化的モデルマージを提案。数学と日本語など異なる領域に特化したLLMをうまくマージすることで性能を向上できる。
 - team DataPilot2つ目のモデルとして、「ArrowSmartPlus_3.6B_instant_sft_JSHVer」をリリースいたします
 	- https://huggingface.co/DataPilot/ArrowSmartPlus_3.6B_instant_sft_JHSVer
-	- Line社が開発した「japanese-large-lm-3.6b-instruction-sft」をウィキブックの内容をもとに
+	- Line社が開発した「
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzY1MjUzMCwtMjk5MDg3MDIsMTczND
-Q2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1
-LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLT
-IwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIx
-MjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMj
-cxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0
-NV19
+eyJoaXN0b3J5IjpbLTE0MTg2NDg1MDQsLTI5OTA4NzAyLDE3Mz
+Q0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAx
+NSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC
+0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcy
+MTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLD
+I3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2
+NDVdfQ==
 -->
