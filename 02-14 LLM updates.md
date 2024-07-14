@@ -26,7 +26,9 @@
 - Google Cloud TPUs made available to Hugging Face users
 	- https://huggingface.co/blog/tpu-inference-endpoints-spaces
 	- > Google Cloud TPUs available on Spaces and Inference Endpoints > 3 options: 16GB to 128GB TPU memory (1x1, 2x2, 2x4 v5e TPU) > Use Spaces for ML demos or dev mode for easy training
-- 
+-  RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs
+	- https://arxiv.org/abs/2407.02485
+	- 
 
 ## 24/7/8
 
@@ -3505,12 +3507,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「Swallow MX 8x7B」は、「Mixtral 8x7B」の日本語能力を強化した大規模言語モデルです
 -  Adding NVMe SSDs to Enable and Accelerate 100B Model Fine-tuning on a Single GPU
 	- https://arxiv.org/abs/2403.06504
-	- 本論文中で紹介されているFuyouを使うと、なんと一般消費者向けのGPUであるRTX 4090上で175Bパラメーター、つまりGPT-3 を微調整可能なんですって！
-- Claude3の公式promptライブラリの英文校正prompt
-	- https://note.com/genkaijokyo/n/n3f82b191dfda
-	- Your task is to ta
+	- 本論文中で紹介されているFuyouを使うと、なんと一般消費者向けのGPUであるRTX 4090上で175Bパラメーター、つまりGPT-3 を
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDU5MzYzOSwyMjk3NTAxNSwtMzkzMj
+eyJoaXN0b3J5IjpbMTI2MDQ0OTY3NCwyMjk3NTAxNSwtMzkzMj
 Y5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3
 NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOT
 k1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2
