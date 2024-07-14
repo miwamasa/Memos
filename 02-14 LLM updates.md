@@ -102,6 +102,12 @@
 - GPT-4o Capabilities
 	- https://x.com/InterestingSTEM/status/1810387007312429094
 - これな．日本は検索技術について，著作権法とは関係なく，正々堂々と完全に技術力でGoogleに負けたの
+	- https://x.com/yutakashino/status/1810190400487121282
+	- ＞国内では当初、検索エンジンがデータをクローリングし、一時的にキャッシュとして保存する行為が「著作権法違反ではないかとの議論があった」と松尾教授は振り返る。 
+	- ↑ 松尾先生嘘はよくない 文化庁資料読むとそんな議論起こってない
+- Today Sam Altman and I published a piece in TIME sharing our vision for how AI-driven personalized behavior change can transform healthcare and announcing the launch of Thrive AI Health
+	- 
+	- https://time.com/6994739/ai-behavior-change-health-care/
 	- 
 
 ## 24/7/8
@@ -3500,17 +3506,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- すべてのパッチと関連性(Attention)を計算するVision Transformerとは異なり，近傍のパッチをまとめたwindow内でAttentionを計算する  
 	- 異なるパッチサイズでAttentionの計算を行うため，様々なスケールの特徴が得られる
 -  [進化的アルゴリズムによる基盤モデルの構築](https://sakana.ai/evolutionary-model-merge-jp/)
-	- Sakana AIは進化や集合知などの自然界の原理を応用して基盤モデルを開発することを目指しています。私達の目標は、モデルを自ら訓練し開発することだけではありません。基盤モデルの開発を効率化、高度化、自動化するための新たな手法を生み出すことに挑戦しています。この目標に向けた第一歩として、私たちはプレプリント「Evolutionary Optimization of Model Merging Recipes （モデルマージの進化的最適化）」を公開しました。
-	- 複数のNNを重み・層レベルでマージする際の最適な組合せをEAで探索する進化的モデルマージを提案。数学と日本語など異なる領域に特化したLLMをうまくマージすることで性能を向上できる。
-- team DataPilot2つ目のモデルとして、「ArrowSmartPlus_3.6B_instant_sft_JSHVer」をリリースいたします
-	- https://huggingface.co/DataPilot/ArrowSmartPlus_3.6B_instant_sft_JHSVer
-	- Line社が開発した「
+	- Sakana AIは進化や集合知などの自然界の原理を応用して基盤モデルを開発することを目指しています。私達の目標は、モデルを自ら訓
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTg2NDg1MDQsLTI5OTA4NzAyLDE3Mz
-Q0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAx
-NSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC
-0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcy
-MTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLD
-I3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2
-NDVdfQ==
+eyJoaXN0b3J5IjpbNTQxODA3MDExLC0yOTkwODcwMiwxNzM0ND
+Y1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUs
+LTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMj
+A0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEy
+MTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNz
+E1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1
+XX0=
 -->
