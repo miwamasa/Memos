@@ -38,7 +38,8 @@
 	- https://x.com/xiaolonw/status/1810387662060269668
 	- we have been developing a new LLM architecture, with linear complexity and expressive hidden states, for long-context modeling. The following plots show our model trained from Books scale better (from 125M to 1.3B) than Mamba and Transformer, and our 1.3B model works better and better with longer context.
 -  Intent-based Prompt Calibration: Enhancing Prompt Optimization
-	- 
+	- https://x.com/IntuitMachine/status/1810258617473356140
+	- IPC works by iteratively refining prompts through the generation of synthetic, challenging boundary cases. This process eliminates the need for large pre-existing benchmarks, 
 
 ## 24/7/8
 
@@ -3497,11 +3498,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- イライザの曽根岡侑也社長は「昨年末時点ではオープンAIやグーグルなどのグローバルモデルと比べて日本のAIモデルは及ばない状態だった。今回ようやくスタートラインに立つことができ、日本が存在感を示せるようにしたい」と話していました。
 -  松尾研LLM開発プロジェクトのキックオフを開催しました
 	- https://weblab.t.u-tokyo.ac.jp/2024-03-12/
-	- 当研究室が提供する講座の修了生および一般公募によって集まった有志の開発者のメンバーが500億パラメータサイズの大規模言語モデル開発を進めるものです。
-	- NEDOによる、国内の生成AIの開発力を強化するためのプロジェクト「GENIAC（Generative AI Accelerator Challenge）」において、基盤モデル開発に必要な計算資源の提供支援を受けています。
-	- 松尾教授からは「このプロジェクトの中で、試行錯誤しながら重要であるノウハウを共有することで良
+	- 当研究室が提
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzQzNjExOCwyMjk3NTAxNSwtMzkzMj
+eyJoaXN0b3J5IjpbMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMj
 Y5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3
 NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOT
 k1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2
