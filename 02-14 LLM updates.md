@@ -169,6 +169,13 @@
 -  最適輸送入門
 	- https://speakerdeck.com/joisino/zui-shi-shu-song-ru-men
 	- 適輸送とKLダイバージェンスの違いの説明が分かりやすかったです！
+- DifySandbox がオープンソースになりました！
+	- https://x.com/DifyJapan/status/1811260209438101754
+	- DifySandbox は、Dify におけるエージェント型ワークフローの中核の一つです。ユーザーが書いたコードの実行環境として機能し、悪意のあるコードをブロックして、システムのセキュリティを確保します
+- Magpieの手法を用いて様々なモデルから作成した日本語29647件、英語39560件、合計約69207件のコードSFT用データセットを公開しました
+	- https://x.com/Aratako_LM/status/1811418924472492470
+	- https://huggingface.co/datasets/Aratako/Synthetic-JP-EN-Coding-Dataset-Magpie-69k
+- 
 
 ## 24/7/8
 
@@ -3496,20 +3503,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- VOICE ENGINE™ trademark registration is intended to cover: - voice and speech recognition, processing voice commands, and converting between text and speech
 - Introducing the Chatbot Guardrails Arena
 	- https://huggingface.co/blog/arena-lighthouz
-	- Our vision behind the Chatbot Guardrails Arena is to establish the trusted benchmark for AI chatbot security, privacy, and guardrails. With a large-scale blind stress test by the community, this arena will offer an unbiased and practical assessment of the reliability of current privacy guardrails.
-- 昨日SakanaAILabsからリリースした日本語画像言語モデルEvoVLM-JPは、誰でもすぐにお試しいただけます。
-	- https://huggingface.co/spaces/SakanaAI/EvoVLM-JP
-- Starling-LM-7B, has now upgraded to Beta
-	- https://huggingface.co/Nexusflow/Starling-LM-7B-beta
-	- It shows promising potential in our coming next generation benchmark.
-	- https://x.com/lmsysorg/status/1771252185205981426?s=20
--  Debates on the
+	- Our vision behind the Chatbot Guardrails Arena is to establish the trusted benchmark for AI chatbot security, privacy, and guardrails. With a large-scale blind stress test by the community, this arena will offer an unbiased and practical assessment o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDIyODI0MjQsLTkwMzAzNzI5NSwtMj
-k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
-OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
-ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
-NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OC
-wzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0
-ODVdfQ==
+eyJoaXN0b3J5IjpbMTY0OTkzMDUxNSwtOTAzMDM3Mjk1LC0yOT
+kwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5
+MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMT
+E0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2
+NTUzLC05MTk3MjEyMTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LD
+M5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4
+NV19
 -->
