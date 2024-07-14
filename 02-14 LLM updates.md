@@ -134,7 +134,11 @@
 	- https://www.anthropic.com/news/evaluate-prompts
 - 時系列データのための大規模言語モデル
 	- https://zenn.dev/tsurubee/articles/00446669b6c83a
-	- 
+	- まず、時系列データをテキストデータとして取り扱うPropmtingは、ファインチューニングを行うことなく事前学習したLLMの能力を活用できる。
+	- 単純な季節的な周期やトレンドを持つような時系列データではPropmtingによるアプローチは有効であるが、より複雑な時系列性を持つデータでは十分な性能が期待できないかもしれない
+	- そのため、十分な学習データを用意できる場合は、QuantizationまたはAligningベースの方法がより有効になるだろう
+	- Aligningは、時系列データと言語空間のモダリティ間を整合させるアプローチであるので、時系列データと言語がペアとなるようなデータを使ったタスクの有力な選択肢になると思われる。例えば、心電図シグナルとテキスト形式のレポートの二つのデータから対象者の診断カテゴリを分類するタスクを解いたETPや、対話中の脳波と自然言語の二つのデータから感情予測や関係検出のタスクを解いたMTAMがその例である。
+- 
 
 ## 24/7/8
 
@@ -3497,22 +3501,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- This Women's History Month, we celebrate Margaret Mitchell, the Chief AI Ethics Scientist at huggingface, an open source data science and machine learning platform and hub for AI experts. 
 - Transformers 4.39 is out,
 	- https://github.com/huggingface/transformers/releases/tag/v4.39.0
-	- New models: Mamba, Command-R, LLaVA-NeXT, MusicGen Melody, StarCoder2, SegGPT, ...
-	- GaLore optimizer for accessible pre-training
-	- Quanto integration and Exllama+AWQ
-	- MLX support
--  A Survey on Uncertainty Quantification for Deep Learning: An Uncertainty Source Perspective
-	- https://arxiv.org/abs/2302.13425
-	- ついにUQも深層学習の時代か
-- Estimating Causal Effects with Double Machine Learning -- A Method Evaluation
-	- https://arxiv.org/abs/2403.14385
-- 
+	- New models: Mamb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzM5MTgzMiwtMjk5MDg3MDIsMTczND
-Q2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1
-LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLT
-IwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIx
-MjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMj
-cxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0
-NV19
+eyJoaXN0b3J5IjpbLTE5NDc3MjUxMDAsLTI5OTA4NzAyLDE3Mz
+Q0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAx
+NSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC
+0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcy
+MTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLD
+I3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2
+NDVdfQ==
 -->
