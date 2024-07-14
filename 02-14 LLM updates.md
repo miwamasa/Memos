@@ -22,6 +22,7 @@ MoEはエキスパートを小さく数を増やすほど性能が改善され�
 
 Artifactsで快進撃のClaude、こんどは作ったArtifctsのライブプレビューにURL公開機能が搭載って、これはすごすぎでしょう、どういうエコシステムができるんだろうか？
 
+DeepMindの「現時点での汎用AIは猫程度のIQしかない」
 
 llama-agents, 
 
@@ -3518,10 +3519,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「GaLore」と「8bitオプティマイザ」を組み合わせることで、学習プロセスの整合性とパフォーマンスを維持しながらメモリ効率を最大化する相乗効果が得られます。
 - GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection
 	- https://arxiv.org/abs/2403.03507v1
-- StanfordのFei-Fei Li教授らのチームから、ロボットのシミュレーションのためのベンチマーク「BEHAVIOR-1K」がリリース
-	- ht
+- StanfordのFei-Fei Li教授らのチームから、ロボットのシミュレー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDU5MjY0OCw4MjU1Njc5MDIsLTIxMT
+eyJoaXN0b3J5IjpbMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMT
 A1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3
 OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOT
 MyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIz
