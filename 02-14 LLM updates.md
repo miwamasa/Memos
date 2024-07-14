@@ -211,8 +211,14 @@
 	- Introducing a fully configurable, Mixture-of-Agents framework powered by GroqInc using LangChainAI
 - Pythonで学ぶ実験計画法入門
 	- https://x.com/mimikousi/status/1812071977441513954
-	- 
+	- 書籍名からは想像できないが、「ガウス過程回帰」の解説もサンプルコードも掲載されている。 参考にしながらコードを書いてみたら、かなり簡単に実装できた。 取り急ぎ、GtiHubにアップしたけど、時間ができたらブログで解説記事を書きたいな。
 	- https://github.com/mimikousi/regression_model/blob/main/gpr_regression.ipynb
+- 【最尤推定による回帰直線 vs ベイズ推論による回帰直線】
+	- https://x.com/DS_school_1/status/1812280249763455444
+	- 最尤推定法は最も確からしい１つの回帰直線を算出でき、ベイズ推論は信頼できる幅を持った回帰直線を算出できる特徴があるね👍面白い！！
+- `statsmodels`と`sklearn`でのロジスティック回帰の挙動の違いについて
+	- https://zenn.dev/0_u0/articles/6a43ff43b02399
+	- 
  
 
 	- 
@@ -3511,19 +3517,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Binary and Scalar Embedding Quantization for Significantly Faster & Cheaper Retrieval
 	- https://huggingface.co/blog/embedding-quantization
 	- 25x speedup in retrieval; 32x reduction in memory usage; 4x reduction in disk space; 99.3% preservation of performance
-- LLM4Decompile: Decompiling Binary Code with Large Language Models
-	- https://arxiv.org/abs/2403.05286v1
-	- バイナリからリバースエンジニアリングできると
-- Suno AI unveiled V3
-	- https://x.com/heyBarsee/status/1771190753957470604?s=20
-- Doing In-Context Learning Without Leaking Private Data
-	- https://github.com/run-llama/llama_index/tree/main/llama-index-packs/llama-index-packs-diff-private-simple-dataset/examples/symptom_2_dis
+- LLM4Decompile: Decompiling Binary 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ5OTUzMTYsLTkwMzAzNzI5NSwtMj
-k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
-OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
-ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
-NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OC
-wzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0
-ODVdfQ==
+eyJoaXN0b3J5IjpbMjgzMjc2NDA5LC05MDMwMzcyOTUsLTI5OT
+A4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1Mzkz
+MywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMT
+Q4Mjc0OTk4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1
+NTMsLTkxOTcyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMz
+k2NTkyNjQxLDI3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1
+XX0=
 -->
