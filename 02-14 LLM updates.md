@@ -197,6 +197,10 @@
 - OpenAIは火曜全体会議でAI進捗をレベル分け。レベル1が現在でもうすぐ「Reasoners」と呼ぶ第2レベルにもうすぐ到達するところだと語ったと広報担当者は述べている。
 	- https://x.com/StockMKTNewz/status/1811488448001294720
 	- Reasonersとは、ツールにアクセスできない博士レベルの教育を受けた人間と同様に基本的な問題解決タスクを実行できるシステム
+- パープレの公式日本アカウントです！日本の皆さんと繋がることを楽しみにしています。
+	- https://x.com/perplexity_jp/status/1811555477588738436
+- OpenAIが「大規模言語モデルが人間の知能にどれだけ近づいたか」を評価する基準を作成
+	- https://gigazine.net/news/20240712-openai-super-intelligent-ai-scale/?utm_source=x&utm_medium=sns&utm_campaign=x_post&utm_content=20240712-openai-super-intelligent-ai-scale
 	- 
 
 	- 
@@ -3508,14 +3512,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  GitHub、脆弱性のあるコードの自動修正機能発表。AIボットが修正済みコードと解説をプルリクエスト
 	- https://www.publickey1.jp/blog/24/githubai.html
 	- GitHubは、脆弱性のあるコードをAIボットが自動的に発見、修正したコードとその解説をプルリクエストしてくれる「code scanning autofix」（コードスキャン自動修正機能）を発表しました
-- 音声基盤モデルKotoba-Speech v0.1の学習・推論コードをリリースしました！
-	- https://x.com/kotoba_tech/status/1771165553882964291?s=20
-	- https://github.com/kotoba-tech/kotoba-speech-release
-	- End-to-EndのTransformerアプローチで、カスタマイズも簡単です。例として、関西弁モデルも公開しました。既存のText-to-Speechよりも、さらに自然で流暢であることが実感できるかと思います！
-- The AI Mirror Test
-	- https://x.com/joshwhiton/status/177
+- 音声基盤モデルKo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDE5MjYxNSwtOTAzMDM3Mjk1LC0yOT
+eyJoaXN0b3J5IjpbLTE5OTQwNjIzNywtOTAzMDM3Mjk1LC0yOT
 kwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5
 MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMT
 E0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2
