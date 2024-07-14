@@ -3,6 +3,8 @@
 
 ## 24/7/14
 
+先週公開された、GraphRAG関連の、チュートリアルや評価がすすんでいます。Gemma
+
 - GraphRAG: How to Develop AI That Thinks Like a Librarian
 	- https://x.com/IntuitMachine/status/1809903707535868260
 	-  Graph RAG is an innovative approach that bridges the gap between retrieval-augmented generation (RAG) and query-focused summarization (QFS) methods, addressing the limitations of existing techniques in handling global questions about extensive document collections.
@@ -3516,13 +3518,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.youtube.com/watch?v=SsHUNfhF32s
 	- https://docs.google.com/presentation/d/1mJUiPBdtf58NfuSEQ7pVSEQ2Oqmek7F1i4gBwR6JDss/edit#slide=id.g26c0cb8dc66_0_0
 - NVIDIAのフリーオンラインAIコース
-	- https://courses.nvidia.com/courses/course-v1:DLI+T-
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMj
-k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
-OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
-ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
-NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OC
-wzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0
-ODVdfQ==
+eyJoaXN0b3J5IjpbLTEyMjUzODk3MzEsLTIxMTA1NTAzNzksLT
+kwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3
+OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLT
+EzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIy
+Njc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OT
+gsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIw
+OTk2MV19
 -->
