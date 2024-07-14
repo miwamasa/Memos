@@ -145,7 +145,13 @@
 - Artifacts made with Claude can now be published and shared.
 	- https://x.com/AnthropicAI/status/1810698780263563325
 - Open source AI model for semiconductor design.
-	- 
+	- https://x.com/pentagoniac/status/1810768232401473680
+	- Industry’s first-ever open-source Semiconductor domain-specific model “SemiKong”, being announced at　SEMICONWest by me (!)
+- gemini 1.5 pro の jsonモード、めちゃ便利。jsonであることだけでなく、任意のスキーマを指定できる。
+	- https://developers.googleblog.com/en/gemini-15-pro-now-available-in-180-countries-with-native-audio-understanding-system-instructions-json-mode-and-more/
+- 批判家ゲイリーマーカス氏は、2016年にWSCで限界説を主張したが後に研究者たちによって突破され、2018年に深層学習の限界説を主張してAIの冬時代を予想したが外れて、2022年には深層学習は壁にぶつかっていると言ってから今回の生成AIブームがきてGPT-4が登場。その後も発展が継続中
+	- https://x.com/jaguring1/status/1810993416991559893
+- 
 
 ## 24/7/8
 
@@ -3494,21 +3500,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Model Merging allows us to blend/stack multiple open LLMs into one—bigger or the same size—without extra training to extend skills and performance!
 - データセンター廃熱でプールを加温🏊 環境に優しくコストも節減 英国
 	- https://x.com/afpbbcom/status/1770586117449953488?s=20
-	- 敷地内に設置された装置がコンピューター群が放出する熱を取り込み、25ｍプールを設定温度まで温める。約65％をカバーしており、ガスボイラーの使用は抑えられている。
-- O1 LightはOpen Interpreterを搭載した小型デバイスです
-	- https://x.com/tegnike/status/1770851466665750758?s=20
--  WSL2でRakutenAI-7B-chatを試してみる
-	- https://note.com/ngc_shj/n/n413ababd3105?sub_rt=share_crp
-	- 「Mistral AI社のオープンモデル「Mistral-7B-v0.1」を基に、継続的に大規模なデータを学習させて開発された70億パラメータの日本語基盤モデル」であるRakuten AI 7Bモデル
-	- 「インストラクションチューニング済モデルを基にファインチューニングを行ったチャットモデル」であるRakuten AI 7B Chatを試してみます。
-- Swallow-MX-8x7b-NVE-chatvector-Mixtral-instructのv2アップロードしました by AI さとし
-	- https://huggingface.co/aixsatoshi/Swallow-MX-8x7b-NVE-chatvector-Mixtral-i
+	- 敷地
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxNjkwMjgwLC0yOTkwODcwMiwxNzM0ND
-Y1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUs
-LTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMj
-A0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEy
-MTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNz
-E1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1
-XX0=
+eyJoaXN0b3J5IjpbLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczND
+Q2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1
+LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLT
+IwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIx
+MjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMj
+cxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0
+NV19
 -->
