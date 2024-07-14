@@ -40,6 +40,10 @@
 -  Intent-based Prompt Calibration: Enhancing Prompt Optimization
 	- https://x.com/IntuitMachine/status/1810258617473356140
 	- IPC works by iteratively refining prompts through the generation of synthetic, challenging boundary cases. This process eliminates the need for large pre-existing benchmarks, 
+- MInference by Microsoft is released
+	- https://github.com/microsoft/MInference
+	- Milliontokens Inference achieves a 10x speedup for pre-filling and maintains accuracy with 1M tokens
+	- 
 
 ## 24/7/8
 
@@ -3495,16 +3499,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  東大発のスタートアップ企業 “国内最大規模 国産生成AI完成”
 	- https://www3.nhk.or.jp/news/html/20240312/k10014388011000.html
 	- オープンソースと呼ばれる公開技術をベースに、産業技術総合研究所が運営するデータセンター「ABCI」などを活用し、去年12月から短期間で開発を実現しました。
-	- イライザの曽根岡侑也社長は「昨年末時点ではオープンAIやグーグルなどのグローバルモデルと比べて日本のAIモデルは及ばない状態だった。今回ようやくスタートラインに立つことができ、日本が存在感を示せるようにしたい」と話していました。
--  松尾研LLM開発プロジェクトのキックオフを開催しました
-	- https://weblab.t.u-tokyo.ac.jp/2024-03-12/
-	- 当研究室が提
+	- イライザの曽根岡侑也社長
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMj
-Y5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3
-NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOT
-k1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2
-OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2ND
-g3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMz
-XX0=
+eyJoaXN0b3J5IjpbLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMj
+k3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0
+OTk4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLT
+kxOTcyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTky
+NjQxLDI3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03ND
+kzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5
+MDddfQ==
 -->
