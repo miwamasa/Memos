@@ -5,7 +5,9 @@
 
 先週公開された、GraphRAG関連の、チュートリアルや評価がすすんでいます。RAGとQFSのギャップをうめる一手法であるというのはなんか納得。
 
-Gemma2なのですが、GraphRAGでも動くと話題になってますが、tokenizerに不具合があるらしい。さてRAGの対抗馬？としてすぐに話題になるのは、ロングコンテキスト、マイクロソフトからは１Mトークン処理を１０倍とうたうMInference 1.0が登場、Dynamic Sparse Attentionって。
+Gemma2なのですが、GraphRAGでも動くと話題になってますが、tokenizerに不具合があるらしい。さてRAGの対抗馬？としてすぐに話題になるのは、ロングコンテキスト、マイクロソフトからは１Mトークン処理を１０倍とうたうMInference 1.0が登場、Dynamic Sparse Attentionって魔球のような技術を使うのね、デモサイトで試してみるのもよいかも。Interface 8月号特集は「生成AI」、LoRaもこれで手を動かして理解がすす
+
+
 
 
 
@@ -3517,15 +3519,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  WSL2でSakana AIを試してみる
 	- https://note.com/ngc_shj/n/na9b41adb9131
 	- 「進化的モデルマージにより日本語数学LLMとして構築したEvoLLM-JPは、数学のみならず、日本語の全般的な能力に長けている」らしいEvoLLM-JPを試してみます
-	- 10Bのモデルですが、torch_dtypeを"auto"からtorch.bfloat16に変更すると、推論のスピードが改善しました。
-- RAG for long context LLMs: Video
-	- h
+	- 10Bのモデルですが、torch_dtypeを"auto"からt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ3Mjc4OTksLTIxMTA1NTAzNzksLT
-kwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3
-OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLT
-EzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIy
-Njc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OT
-gsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIw
-OTk2MV19
+eyJoaXN0b3J5IjpbMTc1ODQzODMwMCwtMjExMDU1MDM3OSwtOT
+AzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5
+NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMT
+M0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2
+Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEyMTcsMTk5NTM2NDg5OC
+wyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNzE1NTA4NjgsLTI2MjA5
+OTYxXX0=
 -->
