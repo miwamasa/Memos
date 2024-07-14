@@ -20,7 +20,10 @@ Transformerの次のアーキテクチャの１つだとされる、Mamba-based 
 
 MoEはエキスパートを小さく数を増やすほど性能が改善されるのか、それにしても100万のエキスパートってどうやって作るの？
 
-Artifactsで快進撃のClaude、こんどは作ったArtifctsのプレビューコードをライブプレビュー機能「Artifacts」にURL公開機能が搭載
+Artifactsで快進撃のClaude、こんどは作ったArtifctsのライブプレビューにURL公開機能が搭載って、これはすごすぎでしょう、どういうエコシステムができるんだろうか？
+
+
+llama-agents, 
 
 - GraphRAG: How to Develop AI That Thinks Like a Librarian
 	- https://x.com/IntuitMachine/status/1809903707535868260
@@ -3516,9 +3519,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection
 	- https://arxiv.org/abs/2403.03507v1
 - StanfordのFei-Fei Li教授らのチームから、ロボットのシミュレーションのためのベンチマーク「BEHAVIOR-1K」がリリース
-	- https://x.com/drfeifei/status/17
+	- ht
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODk5MTcyMyw4MjU1Njc5MDIsLTIxMT
+eyJoaXN0b3J5IjpbLTc5NDU5MjY0OCw4MjU1Njc5MDIsLTIxMT
 A1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3
 OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOT
 MyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIz
