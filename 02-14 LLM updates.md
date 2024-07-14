@@ -28,7 +28,8 @@
 	- > Google Cloud TPUs available on Spaces and Inference Endpoints > 3 options: 16GB to 128GB TPU memory (1x1, 2x2, 2x4 v5e TPU) > Use Spaces for ML demos or dev mode for easy training
 -  RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs
 	- https://arxiv.org/abs/2407.02485
-	- 
+	- Llama3-RankRAG from nvidia
+  significantly outperforms GPT-4 models on 9 knowledge-intensive benchmarks
 
 ## 24/7/8
 
@@ -3506,14 +3507,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://note.com/npaka/n/n0a9b514756ae?sub_rt=share_b
 	- 「Swallow MX 8x7B」は、「Mixtral 8x7B」の日本語能力を強化した大規模言語モデルです
 -  Adding NVMe SSDs to Enable and Accelerate 100B Model Fine-tuning on a Single GPU
-	- https://arxiv.org/abs/2403.06504
-	- 本論文中で紹介されているFuyouを使うと、なんと一般消費者向けのGPUであるRTX 4090上で175Bパラメーター、つまりGPT-3 を
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDQ0OTY3NCwyMjk3NTAxNSwtMzkzMj
-Y5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3
-NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOT
-k1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2
-OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03NDkzNDg2NDUsMTA2ND
-g3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5MDcsNTA3ODk1NzMz
-XX0=
+eyJoaXN0b3J5IjpbMzA3OTU3MTc1LDIyOTc1MDE1LC0zOTMyNj
+k4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0
+MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OT
+UzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4
+LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0OD
+c4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzNd
+fQ==
 -->
