@@ -12,7 +12,18 @@
 - BM25S: Orders of magnitude faster lexical search via eager sparse scoring
 	- https://x.com/_reachsumit/status/1810157881536430178
 	- Introduces a fast Python implementation of BM25 that pre-computes scores during indexing using sparse matrices to achieve significant speed improvements
-- 
+- MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention
+	- https://x.com/schroneko/status/1810212258003480757
+	- https://hqjiang.com/minference.html
+	- Microsoft の Long-Context LLM の推論高速化手法
+	- Dynamic Sparse Attention を用いて精度維持＆高速化 
+	- A100 一台 x 1M tokens の処理で 10 倍 
+	- 既存の LLM にそのまま適用できて追加の学習は不要 
+	- マルチモーダルや encoder-decoder にも使えるっぽい
+- 【Interface 8月号特集「生成AI」ちょっと記事紹介】
+	- https://x.com/If_CQ/status/1810282808587538468
+	- 第4部2章は「ローカルLLMを自分用にファイン・チューニング」です．「LoRA」が小コストで学習できる仕組みを解説し，実際に試します
+	- 
 
 ## 24/7/8
 
@@ -3494,21 +3505,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 本論文中で紹介されているFuyouを使うと、なんと一般消費者向けのGPUであるRTX 4090上で175Bパラメーター、つまりGPT-3 を微調整可能なんですって！
 - Claude3の公式promptライブラリの英文校正prompt
 	- https://note.com/genkaijokyo/n/n3f82b191dfda
-	- Your task is to take the text provided and rewrite it into a clear, grammatically correct version while preserving the original meaning as closely as possible. Correct any spelling mistakes, punctuation errors, verb tense issues, word choice problems, and other grammatical mistakes. Use bold formatting in markdown to emphasize the edited portions of the English text.
-- Raspberry Pi 5に日本語LLM(ELYZA-Japanese-Llama-2-7b-fast-Instruct)を入れてみた
-	- https://arkouji.cocolog-nifty.com/blog/2024/03/post-e248e6.html
--  RecAI: Leveraging Large Language Models for Next-Generation Recommender Systems
-	- https://arxiv.org/abs/2403.06465
-	- Microsoft presents a toolkit to integrate LLMs into recommender systems for explainability, conversation, and user control.
--  臨床予測モデル検証の要点
-	- https://note.com/tadahiro_goto/n/n90128159a7fb?sub_rt=share_pb
-	- 2024年1月にB
+	- Your task is to take the text provided and rewrite it into a clear, grammatically correct version while preserving the original meaning as closely as possible. Correct any spelling mistakes, punctuation errors, verb tense issues, word choice problems, and other grammatical mistakes. Use bold formatting in markdown to emp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyNTMxMTEwLDIyOTc1MDE1LC0zOTMyNj
-k4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0
-MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OT
-UzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4
-LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0OD
-c4NDQ4LDE0NDE5MTg2MjAsLTMzNTY4MzkwNyw1MDc4OTU3MzNd
-fQ==
+eyJoaXN0b3J5IjpbLTIwNDE5MjM0OTEsMjI5NzUwMTUsLTM5Mz
+I2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3
+NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEyMTcsMT
+k5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNzE1NTA4
+NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNj
+Q4Nzg0NDgsMTQ0MTkxODYyMCwtMzM1NjgzOTA3LDUwNzg5NTcz
+M119
 -->
