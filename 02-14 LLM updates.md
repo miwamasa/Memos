@@ -5,7 +5,9 @@
 
 先週公開された、GraphRAG関連の、チュートリアルや評価がすすんでいます。RAGとQFSのギャップをうめる一手法であるというのはなんか納得。
 
-Gemma2なのですが、GraphRAGでも動くと話題になってますが、tokenizerに不具合があるらしい。さてRAGの対抗馬？としてすぐに話題になるのは、ロングコンテキスト、マイクロソフトからは１Mトークン処理を１０倍とうたうMInference 1.0が登場、Dynamic Sparse Attentionって魔球のような技術を使うのね、デモサイトで試してみるのもよいかも。Interface 8月号特集は「生成AI」、LoRaもこれで手を動かして理解がすす
+Gemma2なのですが、GraphRAGでも動くと話題になってますが、tokenizerに不具合があるらしい。さてRAGの対抗馬？としてすぐに話題になるのは、ロングコンテキスト、マイクロソフトからは１Mトークン処理を１０倍とうたうMInference 1.0が登場、Dynamic Sparse Attentionって魔球のような技術を使うのね、デモサイトで試してみるのもよいかも。Interface 8月号特集は「生成AI」、LoRaもこれで手を動かして理解が進む。
+NVIDIAからは、RankRAGが登場、context rankingって、rerankみたいなものか、
+
 
 
 
@@ -3518,10 +3520,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2403.13187
 -  WSL2でSakana AIを試してみる
 	- https://note.com/ngc_shj/n/na9b41adb9131
-	- 「進化的モデルマージにより日本語数学LLMとして構築したEvoLLM-JPは、数学のみならず、日本語の全般的な能力に長けている」らしいEvoLLM-JPを試してみます
-	- 10Bのモデルですが、torch_dtypeを"auto"からt
+	- 「進化的モデルマージにより日本語数学LLMとして構築したEvoLLM-JPは、数学のみならず、日本語の全般的な能力に長けている
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODQzODMwMCwtMjExMDU1MDM3OSwtOT
+eyJoaXN0b3J5IjpbMTA2NjM0ODE5MiwtMjExMDU1MDM3OSwtOT
 AzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5
 NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMT
 M0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2
