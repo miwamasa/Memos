@@ -61,6 +61,11 @@
 		- Using Neo4j with LlamaIndex
 		- Using Ollama with pre-defined schemas
 		- Building custom retrievers
+-  An Empirical Study of Mamba-based Language Models
+	- https://x.com/rohanpaul_ai/status/1810340344158167066
+	- 8B-parameter Mamba-2-Hybrid exceeds the 8B-parameter Transformer on all 12 standard tasks we evaluated
+- 日本気象協会が予測誤差を最大40％改善、経済効果1800億円の商品需要予測に適用
+	- 
 - 
 
 ## 24/7/8
@@ -3492,19 +3497,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://takagi-hiromitsu.jp/diary/20240311.html
 	- ひろみちゅ先生絶賛
 	- 「Anthropicの先日出たばかりのClaude 3（Opus）が、ChatGPTのGPT-4を超えてきたと聞いて、自分の原稿を解説させてみたところ、確かに革新的な進歩が見られる。もはや内容…」
--  Is Cosine-Similarity of Embeddings Really About Similarity?
-	- https://arxiv.org/abs/2403.05440
-	- コサイン類似度を疑っていけ！！
-- Swallow-MX-8x7b-NVE-v0.1のggufあります
-	- https://huggingface.co/mmnga/tokyotech-llm-Swallow-MX-8x7b-NVE-v0.1-gguf
-- 人工言語による事前学習を用いた言語間転移可能な知識の分析
-	- https://www.jstage.jst.go.jp/
+-  Is Cosine-Similarity of Embed
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNT
-MxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcx
-NDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LD
-UzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYy
-NTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxND
-Q0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2
-MjBdfQ==
+eyJoaXN0b3J5IjpbMTUxMDU3NzU5NSwxNzM0NDY1Mjc5LC0xNz
+c3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgw
+MSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOC
+w2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEyMTcsMTk5NTM2
+NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNzE1NTA4NjgsLT
+I2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1LDEwNjQ4Nzg0
+NDhdfQ==
 -->
