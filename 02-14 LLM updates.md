@@ -223,7 +223,8 @@
 	- `sklearn`は機械学習の領域で広く使われるライブラリの1つであるから、統計モデリングをこれを使って実施する場面も多いだろうが、正則化項については気をつけた方が良い。
 - Statistics for Mathematicians by Victor M. Panaretos
 	- https://x.com/probnstat/status/1811833201612014073
-	- 
+	- Presents a rigorous yet elementary introduction to the main concepts and methods of statistical inference
+	- Targets students of mathematics taking their first course in statistics
  
 
 	- 
@@ -3515,12 +3516,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.youtube.com/watch?v=SsHUNfhF32s
 	- https://docs.google.com/presentation/d/1mJUiPBdtf58NfuSEQ7pVSEQ2Oqmek7F1i4gBwR6JDss/edit#slide=id.g26c0cb8dc66_0_0
 - NVIDIAのフリーオンラインAIコース
-	- https://courses.nvidia.com/courses/course-v1:DLI+T-FX-01+V1/
-- Claude 3 Opusより60倍安いHaikuをOpusの品質で運用する方法。
-	- https://github.com/mshumer/gpt-prompt-engineer
-	- gpt-prompt-engineerを使えば、プロンプトエンジニアリングの実験を自動化できる。自動で複数プロンプトを生成して、LLM別に評価も可
+	- https://courses.nvidia.com/courses/course-v1:DLI+T-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzEyMDkxODAsLTkwMzAzNzI5NSwtMj
+eyJoaXN0b3J5IjpbLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMj
 k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
 OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
 ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
