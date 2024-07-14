@@ -43,7 +43,10 @@
 - MInference by Microsoft is released
 	- https://github.com/microsoft/MInference
 	- Milliontokens Inference achieves a 10x speedup for pre-filling and maintains accuracy with 1M tokens
-	- 
+	- https://huggingface.co/spaces/microsoft/MInference
+- 先月からこれはQ*かと考えられるような探索手法+LLMの論文がリリースされている。
+	- https://x.com/bioshok3/status/1810302795402408116
+	- 例えば以下はモンテカルロ法でGPT-4レベル付近に数学関連のデータセットでllama3 8bで到達
 
 ## 24/7/8
 
@@ -3495,17 +3498,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 日本語特化モデルの中では最大級です.大きさが正義のLLMということで,実際報告されている性能もかなり抜けています
 - ELYZA-japanese-Llama-2-70b をお試し中 by npakaさん
 	- https://x.com/npaka123/status/1767439590502326514?s=20
-	- デフォルトテンプレートの指示も効いてる
--  東大発のスタートアップ企業 “国内最大規模 国産生成AI完成”
-	- https://www3.nhk.or.jp/news/html/20240312/k10014388011000.html
-	- オープンソースと呼ばれる公開技術をベースに、産業技術総合研究所が運営するデータセンター「ABCI」などを活用し、去年12月から短期間で開発を実現しました。
-	- イライザの曽根岡侑也社長
+	- デフォルトテンプレートの指示も効い
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMj
-k3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0
-OTk4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLT
-kxOTcyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTky
-NjQxLDI3MTU1MDg2OCwtMjYyMDk5NjEsMTQ0NDA2NDg1LC03ND
-kzNDg2NDUsMTA2NDg3ODQ0OCwxNDQxOTE4NjIwLC0zMzU2ODM5
-MDddfQ==
+eyJoaXN0b3J5IjpbMTIxMDY4NTE1OSwtMTc3NzE3OTU3MywxNT
+MxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcx
+NDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LD
+UzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYy
+NTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC0yNjIwOTk2MSwxND
+Q0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4LDE0NDE5MTg2
+MjBdfQ==
 -->
