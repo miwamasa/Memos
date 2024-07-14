@@ -98,6 +98,9 @@
 	- Vo氏がプレゼンで強調したのが、2024年5月31日にアンソロピックが発表したサービス「Tool Use」の活用方法だ。Tool Useは、AIが人の代わりとなって自律的にタスクを実行する「AIエージェント」を実装するためのサービスである。
 -  Language-Guided World Models: A Model-Based Approach to AI Control
 	- https://arxiv.org/abs/2402.01695
+	- Our paper is perhaps the first to demonstrate compositional generalization with concepts that involve interactions among multiple entities.
+- GPT-4o Capabilities
+	- https://x.com/InterestingSTEM/status/1810387007312429094
 	- 
 
 ## 24/7/8
@@ -3500,16 +3503,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 複数のNNを重み・層レベルでマージする際の最適な組合せをEAで探索する進化的モデルマージを提案。数学と日本語など異なる領域に特化したLLMをうまくマージすることで性能を向上できる。
 - team DataPilot2つ目のモデルとして、「ArrowSmartPlus_3.6B_instant_sft_JSHVer」をリリースいたします
 	- https://huggingface.co/DataPilot/ArrowSmartPlus_3.6B_instant_sft_JHSVer
-	- Line社が開発した「japanese-large-lm-3.6b-instruction-sft」をウィキブックの内容をもとに中学範囲にてファインチューニングを行いました。
-- 「LOCAL AI HACKATHON」における、チームDataPilotの成果品第一弾である「ArrowSmart_1.7b_instant_sft」をリリースしました
-	- https://huggingface.co/DataPilot/ArrowSmart_1.7b_instant_sft
-	- Line社が開発した「japanese-large-lm-1.7b-instruction-
+	- Line社が開発した「japanese-large-lm-3.6b-instruction-sft」をウィキブックの内容をもとに
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzkwMTMyLC0yOTkwODcwMiwxNzM0ND
-Y1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUs
-LTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMj
-A0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEy
-MTcsMTk5NTM2NDg5OCwyMDAyNjI1Mzg4LDM5NjU5MjY0MSwyNz
-E1NTA4NjgsLTI2MjA5OTYxLDE0NDQwNjQ4NSwtNzQ5MzQ4NjQ1
-XX0=
+eyJoaXN0b3J5IjpbMTc1NzY1MjUzMCwtMjk5MDg3MDIsMTczND
+Q2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1
+LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLT
+IwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIx
+MjE3LDE5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMj
+cxNTUwODY4LC0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0
+NV19
 -->
