@@ -20,6 +20,8 @@ Transformerの次のアーキテクチャの１つだとされる、Mamba-based 
 
 MoEはエキスパートを小さく数を増やすほど性能が改善されるのか、それにしても100万のエキスパートってどうやって作るの？
 
+Artifactsで快進撃のClaude、こんどは作ったArtifctsのプレビューコードをライブプレビュー機能「Artifacts」にURL公開機能が搭載
+
 - GraphRAG: How to Develop AI That Thinks Like a Librarian
 	- https://x.com/IntuitMachine/status/1809903707535868260
 	-  Graph RAG is an innovative approach that bridges the gap between retrieval-augmented generation (RAG) and query-focused summarization (QFS) methods, addressing the limitations of existing techniques in handling global questions about extensive document collections.
@@ -3514,14 +3516,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection
 	- https://arxiv.org/abs/2403.03507v1
 - StanfordのFei-Fei Li教授らのチームから、ロボットのシミュレーションのためのベンチマーク「BEHAVIOR-1K」がリリース
-	- https://x.com/drfeifei/status/17710132915083798大規模言語モデル「Grok-1」について by 今井
-	- https://x.com/ImAI_Eruel/status/176
+	- https://x.com/drfeifei/status/17
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU3Nzg4MjgsODI1NTY3OTAyLC0yMT
-EwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUy
-NzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMz
-kzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQy
-Mzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNy
-wxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1
-MDg2OF19
+eyJoaXN0b3J5IjpbLTIyODk5MTcyMyw4MjU1Njc5MDIsLTIxMT
+A1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3
+OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOT
+MyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIz
+Nzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LD
+E5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUw
+ODY4XX0=
 -->
