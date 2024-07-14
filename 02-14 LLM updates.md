@@ -163,7 +163,12 @@
 	- https://www.youtube.com/watch?v=nEQCpSd5mx8
 - Microsoft のGraphRAGがgemma2:9bで動きそうな感じ！！
 	- https://x.com/hAru_mAki_ch/status/1811039029305233825
-- 
+- あまり話題になっていないが、Claudeにプロンプトの評価機能が実装されたのが個人的に超助かる。
+	- https://x.com/masahirochaen/status/1811311003084394517
+	- テスト用のプロンプトも自動で生成可能で、生成結果の評価点の入力も可能。
+-  最適輸送入門
+	- https://speakerdeck.com/joisino/zui-shi-shu-song-ru-men
+	- 適輸送とKLダイバージェンスの違いの説明が分かりやすかったです！
 
 ## 24/7/8
 
@@ -3498,11 +3503,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/Nexusflow/Starling-LM-7B-beta
 	- It shows promising potential in our coming next generation benchmark.
 	- https://x.com/lmsysorg/status/1771252185205981426?s=20
--  Debates on the nature of artificial general intelligence by nature
-	- https://www.science.org/doi/10.1126/science.ado7069
-	- "The history of AI has repeatedly disproved our intuitions about intelligence....At each step in the evolution of AI, human-level intellig
+-  Debates on the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ0MjE0ODIsLTkwMzAzNzI5NSwtMj
+eyJoaXN0b3J5IjpbLTExNDIyODI0MjQsLTkwMzAzNzI5NSwtMj
 k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
 OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
 ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
