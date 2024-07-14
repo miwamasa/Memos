@@ -75,6 +75,11 @@
 	- 静止画像を入力して、そのイメージの描画シーケンスを出力するモデルｗ lllyasvielさんまた面白いの考えるね！
 	- https://x.com/forasteran/status/1810595599173226582
 - Alpaca + Gemma2 9b Unsloth 2x faster finetuning.ipynb
+	- https://colab.research.google.com/drive/1vIrqH5uYDQwsJ4-OO3DErvuv4pBgVwk4?usp=sharing
+	- Fixed some bugs for DPO, saving to GGUF, Ollama auto modelfile creation, enabled RoPE scaling for Gemma-2, so >8192 context lengths now work & more!
+-  Speed-accuracy trade-off for the diffusion models: Wisdom from nonequilibrium thermodynamics and optimal transport
+	- https://arxiv.org/abs/2407.04495
+	- 池田さん、宇田さん、伊藤先生との共著です。非平衡熱力学と拡散モデルの接点をまとめると共に、その知見に基づき、生成品質と拡散過程におけるエントロピー生成率や最適輸送との関係、既存手法の妥当性を示しました。伊藤先生のスレッドに経緯やまとめがあります。様々な発展が考えられると思います
 - 
 
 ## 24/7/8
@@ -3492,13 +3497,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 3/18
 
-今週もいろいろありすぎて、目が回ります。東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングして、500ステップぐらいでいい感じとの報告も。「ELYZA-japanese-Llama-2-70b」が出たー、NHKでも紹介された、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる、リークなのか？。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAI＋マイクロオフト陣営も遅れるわけには行けない。企業が期待する今風の「主体性」って、思考力と協調・協働できる力という話だけど、この分野、生成AIが苦手とも言えなくなった気がするな。AIによるソフトウエアエンジニアDevin、なんかすごい、駆逐される人たちがたくさんいそうだ。どうもVC界隈では、AI従業員の開発の風が吹いているとのこと。JSTの「自律駆動による研究革新」は研究そのものをAIで自動化という話、ひえ！。Claude 3 Opusを使って世界経済を分析するデモ動画も、エージェント（AI従業員）をつくって調査を加速できるという話。ああ、人はいらなくなるのか？。Claude3の性能評価は続く、ひろみちゅ先生が、様々なな事例を試して絶賛、Coinhive事件最高裁判決の解釈など、使い方の参考にもなる。Claude3 × Googleスプレッドシート、スプレッドシートから普通にClaude3を使える、なんかちがうな。松田先生の考察のように、LLMって十分疎なのではないか、まだまだ量子化とか軽量化の余地がある。世田谷区のAI bot、非エンジニアがノーコードで開発と。NLP2024も開催、岡野原さんの「大規模言語モデル開発の展望と今後の課題」、話題としては本LLMアプデ読者にはなじみの深い話題。AIは科学を促進するが、『理解の錯覚』を生み出す危険性がある、と記事は新しい視点で興味深い。カーツワイルさん、大脳皮質と計算機がつながるのが2030年代初頭といって話題に。OpenAIとロボット開発のFigureの提携の結果の第１段Figure01、いやこれってなんかの映画（パッセンジャー）で見た世界。NatureのAll of usのサマリーデータ、117個の疾患に関連する3724個の変異を同定され、データも公開とのこと。最後に、Xが予
+今週もいろいろありすぎて、目が回ります。東工大からSwallow-MS 7BとSwallow-MX 8x7Bのリリース、前者は日本語最高性能とのこと。 量子化版も出て、Llama.cpp でSwallow-MX 8x7Bを動かした例も紹介された。Swallow-MS-7b-v0.1 を ichikara instruction で指示チューニングして、500ステップぐらいでいい感じとの報告も。「ELYZA-japanese-Llama-2-70b」が出たー、NHKでも紹介された、ABCIを12月から部分占有？、ようやくスタートラインというCEOの言葉が刺さる。Shi3zさんによると、Claude-3と比べると百人一首の知識が足りずまだ頑張れという感じだが従来のモデルと比べると格段の進歩があるとのこと。「JPX Market Explorer」、NISAで個別投資を考えているひとは必見。自社ビジネス＝株取引を活発にするための、生成AIの活用として面白い。256k token が扱えるGPT-4.5 Turbo が６月ごろにリリースといううわさが持ち上がる、リークなのか？。一般copilotからもGPT-4 Turboが使えるようになったらしい、OpenAI＋マイクロオフト陣営も遅れるわけには行けない。企業が期待する今風の「主体性」って、思考力と協調・協働できる力という話だけど、この分野、生成AIが苦手とも言えなくなった気がするな。AIによるソフトウエアエンジニアDevin、なんかすごい、駆逐される人たちがたくさんいそうだ。どうもVC界隈では、AI従業員の開発の風が吹いているとのこと。JSTの「自律駆動による研究革新」は研究そのものをAIで自動化という話、ひえ！。Claude 3 Opusを使って世界経済を分析するデモ動
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQyNzg1NTcsMTczNDQ2NTI3OSwtMT
-c3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4
-MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0Mj
-gsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUz
-NjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC
-0yNjIwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4
-NDQ4XX0=
+eyJoaXN0b3J5IjpbNjMzNzEwNzcsMTczNDQ2NTI3OSwtMTc3Nz
+E3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEs
+LTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNj
+IyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4
+OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUwODY4LC0yNj
+IwOTk2MSwxNDQ0MDY0ODUsLTc0OTM0ODY0NSwxMDY0ODc4NDQ4
+XX0=
 -->
