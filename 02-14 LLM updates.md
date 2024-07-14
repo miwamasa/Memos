@@ -22,7 +22,7 @@ MoEはエキスパートを小さく数を増やすほど性能が改善され�
 
 Artifactsで快進撃のClaude、こんどは作ったArtifctsのライブプレビューにURL公開機能が搭載って、これはすごすぎでしょう、どういうエコシステムができるんだろうか？
 
-DeepMindの「現時点での汎用AIは猫程度のIQしかない」
+DeepMindのハサビス氏、「現時点での汎用AIは猫程度のIQしかない」と、歩調をあわせるように、OpenAIからは、レベル1が現在でもうすぐ「Reasoners」と呼ぶ第2
 
 llama-agents, 
 
@@ -3518,14 +3518,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「GaLore」は、「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にします。これは、学習プロセス中のオプティマイザの状態と勾配に従来関連付けられていたメモリ要件を大幅に削減することによって実現されます。
 	- 「GaLore」と「8bitオプティマイザ」を組み合わせることで、学習プロセスの整合性とパフォーマンスを維持しながらメモリ効率を最大化する相乗効果が得られます。
 - GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection
-	- https://arxiv.org/abs/2403.03507v1
-- StanfordのFei-Fei Li教授らのチームから、ロボットのシミュレー
+	- https://arxiv.org/abs/24
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMT
-A1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3
-OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOT
-MyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIz
-Nzc0MjgsNjIyNjc4NTY3LDUzMDg0NjU1MywtOTE5NzIxMjE3LD
-E5OTUzNjQ4OTgsMjAwMjYyNTM4OCwzOTY1OTI2NDEsMjcxNTUw
-ODY4XX0=
+eyJoaXN0b3J5IjpbNjQ5OTg5NDk1LDExNDkyMDE4OTMsODI1NT
+Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
+LDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMj
+k3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0
+OTk4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLT
+kxOTcyMTIxNywxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTky
+NjQxXX0=
 -->
