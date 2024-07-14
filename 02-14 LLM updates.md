@@ -47,6 +47,10 @@
 - 先月からこれはQ*かと考えられるような探索手法+LLMの論文がリリースされている。
 	- https://x.com/bioshok3/status/1810302795402408116
 	- 例えば以下はモンテカルロ法でGPT-4レベル付近に数学関連のデータセットでllama3 8bで到達
+	- Q*という論文も出ている
+		- https://arxiv.org/abs/2406.14283
+		- これはLLMの多段推論をマルコフ決定過程でモデル化し、A-starサーチで探索するというシンプルなアルゴリズム。具体的には、マルコフ決定過程の行動価値関数（Q学習で用いられる関数）の最大値を、A-starサーチのヒューリスティクス関数として採用するというもの。
+-  Issue 17: Moshi Challenges OpenAI, Compare LLM pricing and better understand long context LLMs  -  July 7, 2024
 
 ## 24/7/8
 
@@ -3492,15 +3496,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- GPT-4のようなClosedなブラックボックス大規模言語モデルでも,APIアクセスのみでモデルの一部の層のパラメータを特定できるModel-stealing attackを提案
 	- GoogleのOpenAIに対する逆襲の一手的な論文
 	- API経由でOpenAIのモデルにおける隠れ次元数を特定できることを示し、OpenAIがそれを受け対策を施したことを論文で報告しました。
-- 700億パラメータの日本語LLM「ELYZA-japanese-Llama-2-70b」を開発し、デモを公開しました
-	- https://note.com/elyza/n/n0ea755ca3e7b
-	- https://elyza.ai/lp/elyza-llm-for-jp
-	- 日本語特化モデルの中では最大級です.大きさが正義のLLMということで,実際報告されている性能もかなり抜けています
-- ELYZA-japanese-Llama-2-70b をお試し中 by npakaさん
-	- https://x.com/npaka123/status/1767439590502326514?s=20
-	- デフォルトテンプレートの指示も効い
+- 700億パラメータの日本語LLM「ELYZ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDY4NTE1OSwtMTc3NzE3OTU3MywxNT
+eyJoaXN0b3J5IjpbMTU2OTA3NTIwNywtMTc3NzE3OTU3MywxNT
 MxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcx
 NDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LD
 UzMDg0NjU1MywtOTE5NzIxMjE3LDE5OTUzNjQ4OTgsMjAwMjYy
