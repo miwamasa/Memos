@@ -16,6 +16,10 @@ Transformerの次のアーキテクチャの１つだとされる、Mamba-based 
 
 アルトマン氏とハフィントン氏によるThrive AI Health、行動を変えることにより健康になるというのは、なんか耳が痛いが、期待できそう。Ollama 0.2、gemma-2対応のバグとかも治ったみたいだど、複数のモデルを並列に動作可能とのこと、これって、モデルとLlamaGuardのようなLLMによるセーフガード実装を同時に動かすことができるということだ。
 
+強化学習の概念を取り入れたQ*アルゴリズム、またまた話題になる。
+
+MoEはエキスパートを小さく数を増やすほど性能が改善されるのか、それにしても100万のエキスパートってどうやって作るの？
+
 - GraphRAG: How to Develop AI That Thinks Like a Librarian
 	- https://x.com/IntuitMachine/status/1809903707535868260
 	-  Graph RAG is an innovative approach that bridges the gap between retrieval-augmented generation (RAG) and query-focused summarization (QFS) methods, addressing the limitations of existing techniques in handling global questions about extensive document collections.
@@ -3511,15 +3515,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2403.03507v1
 - StanfordのFei-Fei Li教授らのチームから、ロボットのシミュレーションのためのベンチマーク「BEHAVIOR-1K」がリリース
 	- https://x.com/drfeifei/status/17710132915083798大規模言語モデル「Grok-1」について by 今井
-	- https://x.com/ImAI_Eruel/status/1769487625994506294?s=20
-- 進化的アルゴリズムによる基盤モデルの構築 by sakana ai
-	- Sakana AIの最初の研究成果である、進化的計算による基盤モデ
+	- https://x.com/ImAI_Eruel/status/176
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MD
-MwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1
-NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMz
-Q5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4LDYyMjY3
-ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNywxOTk1MzY0ODk4LD
-IwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1MDg2OCwtMjYyMDk5
-NjFdfQ==
+eyJoaXN0b3J5IjpbLTE0NjU3Nzg4MjgsODI1NTY3OTAyLC0yMT
+EwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUy
+NzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMz
+kzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQy
+Mzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkxOTcyMTIxNy
+wxOTk1MzY0ODk4LDIwMDI2MjUzODgsMzk2NTkyNjQxLDI3MTU1
+MDg2OF19
 -->
