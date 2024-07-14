@@ -157,6 +157,12 @@
 	- https://x.com/minorun365/status/1811041517479547097
 - NotionはNotionをどう使っているか
 	- https://notion.notion.site/Notion-Notion-15c4497a18e54de7a7ca696bc8fe688a#65c847c6692f45898edc17912667d4db
+- Last week we launched llama-agents, a brand new multi-agent deployment framework,
+	- https://x.com/llama_index/status/1811147950388916420
+	- @MervinPraison has a great walkthrough of how to use lllama-agents on YouTube, 
+	- https://www.youtube.com/watch?v=nEQCpSd5mx8
+- Microsoft のGraphRAGがgemma2:9bで動きそうな感じ！！
+	- https://x.com/hAru_mAki_ch/status/1811039029305233825
 - 
 
 ## 24/7/8
@@ -3494,16 +3500,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/lmsysorg/status/1771252185205981426?s=20
 -  Debates on the nature of artificial general intelligence by nature
 	- https://www.science.org/doi/10.1126/science.ado7069
-	- "The history of AI has repeatedly disproved our intuitions about intelligence....At each step in the evolution of AI, human-level intelligence turned out to be more complex than researchers expected."
-- lightblue/ao-karasu-72B
-	- https://huggingface.co/lightblue/ao-karasu-72B
-- Artificial muscle has arrived.
-	- https://x.com/BrianRoemmele/status/1770959817815019857?s=20
-	- 昨年知的業務は終わりだ。人間は筋肉を鍛えるしかない。 とか言ってたけど、人工筋肉出来ちゃったよ
-	- https://www.youtube.com/watch?v=guDIwspRGJ8
--  Arcee's MergeKit: A Toolkit for M
+	- "The history of AI has repeatedly disproved our intuitions about intelligence....At each step in the evolution of AI, human-level intellig
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQwMzk2MTIsLTkwMzAzNzI5NSwtMj
+eyJoaXN0b3J5IjpbLTE5NjQ0MjE0ODIsLTkwMzAzNzI5NSwtMj
 k5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUz
 OTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLT
 ExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUzMDg0
