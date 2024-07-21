@@ -108,6 +108,11 @@
 - 汎用機械学習ポテンシャル
 	-  MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures
 	- https://arxiv.org/abs/2405.04967
+	- Microsoftさんは1700万データでM3GNetを訓練した機械学習ポテンシャルを用いて有限温度・圧力下の自由エネルギーを正確に予測できたそうです。
+- OllamaがOpenAIのAPI互換のツール使用をサポートだって
+	- https://x.com/umiyuki_ai/status/1813096846656430429
+- Mistralが、数学モデルと、Mambaのコード生成モデル　by AIXサトシさん
+	- https://x.com/AiXsatoshi/status/1813315144254115987
 	- 
 
 
@@ -3532,11 +3537,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://internet.watch.impress.co.jp/docs/news/1578961.html
 - 楽天が日本語に最適化したMistralベースのLLMを公開、商用目的で使用可能(2023年3月21日)
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00440/
-	- 公開したのは基盤モデルの「Rakuten AI 7B」、同モデルを基にしたインストラクションチューニング済みモデルの「Rakuten AI 7B Instruct」、Rakuten AI 7B Instructを基にファインチューニングしたチャットモデル「Rakuten AI 7B Chat」の3種である。
-	- 文章の要約や質問応答、一般的な文章の理解、対話システムの構築などに商用目的で使用でき、Rakuten AI 7Bは他のモデルの基盤としても使えるという。
-	- Rakuten AI 7BはフランスのAI（人工知能）スタートアップMistral AIのオープンモデル「Mistral-7B-v0.1」を基に、継続的に大規模なデータを学習させて開発した日本語基盤
+	- 公開したのは基盤モデルの「Rakuten AI 7B」、同モデルを基にしたインストラクションチューニング済みモデルの「Rakuten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODc1NDU3NSwtMTI2MDQwODMyMiwtMT
+eyJoaXN0b3J5IjpbLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMT
 E2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2
 ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMz
 c5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3
