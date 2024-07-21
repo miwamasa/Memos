@@ -102,6 +102,9 @@
 	- レポーターは、**3.69点(+0.03 / -0.03)**
 - 深層学習の数理
 	- https://ibis.t.u-tokyo.ac.jp/suzuki/lecture/2023/TohokuUniv/%E6%9D%B1%E5%8C%97%E5%A4%A7%E5%AD%A62023.pdf
+		- 線形モデル→カーネルモデル→深層モデル
+		- 訓練誤差と汎化誤差
+		- 
 	- Deep Learningについて深く理解したい人は、東北大学の集中講義「深層学習の数理」を読んだ方がいいです。
 	- 深層学習の「よくわからないけど、精度がよい」という認識を超え、一歩深い理解ができるように、原理を解明しようとしている資料です。
 	- 特に「深層学習の解釈可能性」は、ビジネスサイドでも必見です。
@@ -3537,13 +3540,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://internet.watch.impress.co.jp/docs/news/1578961.html
 - 楽天が日本語に最適化したMistralベースのLLMを公開、商用目的で使用可能(2023年3月21日)
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00440/
-	- 公開したのは基盤モデルの「Rakuten AI 7B」、同モデルを基にしたインストラクションチューニング済みモデルの「Rakuten
+	- 公開したのは基盤モデルの「Rakuten AI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMT
-E2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2
-ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMz
-c5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3
-NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5OD
-AxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4
-LDYyMjY3ODU2N119
+eyJoaXN0b3J5IjpbLTE5NDgzNzk4MDQsLTEzNDEzNzM4MCwtMT
+I2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5
+NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OT
+AyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3
+MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NT
+AxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4
+LC0yMDQyMzc3NDI4XX0=
 -->
