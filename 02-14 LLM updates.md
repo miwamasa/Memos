@@ -125,9 +125,12 @@
 	- https://x.com/umiyuki_ai/status/1813096846656430429
 - Mistralが、数学モデルと、Mambaのコード生成モデル　by AIXサトシさん
 	- https://x.com/AiXsatoshi/status/1813315144254115987
+	- https://mistral.ai/news/codestral-mamba/
+	- https://mistral.ai/news/mathstral/
 - ollama runs mathtral
 	- https://ollama.com/library/mathstral
-- 
+- 9.11 > 9.9? Someone suspected this is learned from version numbers. Here's some concrete proof.
+	- 
 
 
 
@@ -3545,14 +3548,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  NTTが独自LLMのtsuzumiを提供開始、日本語性能で「GPT-3.5超え」(2024年3月25日)
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00458/
 	- NTTは2024年3月25日、独自LLM（大規模言語モデル）である「tsuzumi」のサービス提供を始めた
-	- tsuzumiは日本語と英語に対応し、パラメーター数は70億とOpenAIの「GPT-3」の1750億と比べて25分の1と軽量だ。LLMの日本語処理性能に関するベンチマークテスト「Rakuda Benchmark」の結果では、GPT-3.5や同規模の国産LLMを上回ったという。tsuzumiは言語に加え、図表や画像の解析などにも対応する。
-	- うみゆきさん、LLMの学習コスト感ってよく知らんけど、Tsuzumiの資料によればAWSで7Bモデルを
+	- tsuzumiは日本語と英語に対応し、パラメーター数は70億とOpenAIの「GPT-3」
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTE3Njg5LC0xMzQxMzczODAsLTEyNj
-A0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYy
-NzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMi
-wtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0
-NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMT
-UsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwt
-MjA0MjM3NzQyOF19
+eyJoaXN0b3J5IjpbLTE5ODQ2MTE4NSwtMTM0MTM3MzgwLC0xMj
+YwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2
+Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MD
+IsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTcz
+NDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MD
+E1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgs
+LTIwNDIzNzc0MjhdfQ==
 -->
