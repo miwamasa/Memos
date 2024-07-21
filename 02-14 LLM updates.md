@@ -135,6 +135,9 @@
 	- https://x.com/llama_index/status/1813249175817232782
 	- compared to gpt-4o it’s much better at inferring chart values into a structured table.
 	- Thanks to our brand-new LlamaParse release 💫 you can easily use SOTA multimodal models like
+- Math Olympiad Solver
+	- https://huggingface.co/spaces/AI-MO/math-olympiad-solver
+	- Demo of the [Numina-Math-7B-TIR](https://huggingface.co/AI-MO/NuminaMath-7B-TIR). Example data are drawn randomly from AMC12, year 2022-2023.
 - 
 
 
@@ -3544,16 +3547,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/OpenAI/status/1773760852153299024?s=20
 - OpenAIとMicrosoftが最大1000億ドルを投じて「Stargate」というスーパーコンピューターを2028年までに建設予定。AI開発加速のため、数100万のAI専用チップを搭載。
 	- https://qz.com/microsoft-openai-stargate-supercomputer-1851375309
--  langchainとDatabricksで(私が)学ぶRAG : BGE-M3を使った埋め込み
-	- https://qiita.com/isanakamishiro2/items/e4f67586b4cb5f171ea9
-	- BAAI(Beijing Academy of Artificial Intelligence)から、BGE-M3というEmbedding用のモデルが公開されました。
-	- 日本語RAGにおける新たな埋め込みのスタンダードモデルになるかもしれないなと思い、このモデルを
+-  langchainとDatabrick
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMT
-I2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5
-NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OT
-AyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3
-MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NT
-AxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4
-LC0yMDQyMzc3NDI4XX0=
+eyJoaXN0b3J5IjpbLTExNTg3NzEyNjUsLTE0NTkxMTIwNzUsLT
+EzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4
+MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMD
+E4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUs
+LTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMT
+c1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1
+LC0xMTQ4Mjc0OTk4XX0=
 -->
