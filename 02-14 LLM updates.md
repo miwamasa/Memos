@@ -26,6 +26,9 @@
 	- https://arxiv.org/pdf/2407.01449
 	- Repurposing PaliGemma as multimodal multi-vector encoder
 	- ColPali, a ColBERT-inspired multimodal multi-vector encoder using PaliGemma as a basis for document retrieval.
+- a knowledge graph agent into the 🐫 CAMEL framework.
+	- https://x.com/CamelAIOrg/status/1812168079712895059
+	- 
 
 ## 24/7/14
 
@@ -3500,15 +3503,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.llamaindex.ai/blog/llamaindex-accelerates-enterprise-generative-ai-with-nvidia-nim
 	- LlamaIndex  is integrated with NVIDIA NIM inference microservices to help enterprises seamlessly deploy generative AI at scale
 - 1x GPU Blackwell - 192GB VRAM 2x GPU 
-	- Blackwell with CPU - 384 GB VRAM
-	- https://x.com/migtissera/status/1769824889102348366?s=20
--  NVIDIAがヒューマノイド開発プラットフォーム提供を発表　ディズニーの
+	- Blackwell with CPU
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMj
-A0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2
-NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMi
-wxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5
-NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3ND
-k5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05
-MTk3MjEyMTddfQ==
+eyJoaXN0b3J5IjpbLTE0OTc5MDI0NTcsLTExNjU4MjExMzYsMT
+Y4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5
+MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mj
+k1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1
+MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0Nz
+E0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1Njcs
+NTMwODQ2NTUzXX0=
 -->
