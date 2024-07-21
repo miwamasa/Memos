@@ -138,7 +138,10 @@
 - Math Olympiad Solver
 	- https://huggingface.co/spaces/AI-MO/math-olympiad-solver
 	- Demo of the [Numina-Math-7B-TIR](https://huggingface.co/AI-MO/NuminaMath-7B-TIR). Example data are drawn randomly from AMC12, year 2022-2023.
-- 
+- InternVL2-Llama3-76B
+	- https://huggingface.co/OpenGVLab/InternVL2-Llama3-76B
+- Codestral Mamba 7B is a Code LLM based on the Mamba2 architecture. Released under Apache 2.0 and achieves 75% on HumanEval for Python Coding.
+	- 
 
 
 
@@ -3544,16 +3547,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Transformerのスケーリング則は線形じゃなくてべき乗則だから、トレーニングの計算量を10倍にしてもLossは12%しか減らない（性能が10倍になるわけじゃない）
 	- https://x.com/umiyuki_ai/status/1773917004464103563?s=20
 - a small-scale preview of Voice Engine
-	- https://x.com/OpenAI/status/1773760852153299024?s=20
-- OpenAIとMicrosoftが最大1000億ドルを投じて「Stargate」というスーパーコンピューターを2028年までに建設予定。AI開発加速のため、数100万のAI専用チップを搭載。
-	- https://qz.com/microsoft-openai-stargate-supercomputer-1851375309
--  langchainとDatabrick
+	- https://x.com/OpenA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTg3NzEyNjUsLTE0NTkxMTIwNzUsLT
-EzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4
-MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMD
-E4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUs
-LTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMT
-c1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1
-LC0xMTQ4Mjc0OTk4XX0=
+eyJoaXN0b3J5IjpbMTk0NTEzNjE2MSwtMTQ1OTExMjA3NSwtMT
+M0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgw
+Njg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMT
+g5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwt
+Mjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNz
+UzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUs
+LTExNDgyNzQ5OThdfQ==
 -->
