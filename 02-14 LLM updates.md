@@ -7,7 +7,9 @@
 	- https://arxiv.org/abs/2403.04706
 	- his paper employs this straightforward approach achieves an accuracy of 82.6% on GSM8K and 40.6% on MATH using LLaMA-2 7B models, surpassing previous models by 14.2% and 20.8%, respectively.
 	- 7Bクラスで数学的な能力70パー越え。見たことないレベル。
-- 
+-  マリオカートのER図について考える
+	- https://qiita.com/assu_ming/items/9d80320e6f778d83c61f
+	- 
 
 ## 24/7/14
 
@@ -3493,14 +3495,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - TacticAI: an AI assistant for football tactics
 	- https://deepmind.google/discover/blog/tacticai-ai-assistant-for-football-tactics/?utm_source=twitter&utm_medium=social&utm_campaign=TacticAI/
 	- We're announcing TacticAI: an AI assistant capable of offering insights to football experts on corner kicks.
-	- it can help teams sample alternative player setups to evaluate possible outcomes, and achieves state-of-the-art results.
-	- TacticAIはGoogleとリヴァプールの複数年にわたる協力関係の一環として開発されたもので、「コーナーキックについてアドバイス
+	- it can help teams sample alternative player setups to evaluate possible outcomes, and achieves state-of-the-art
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTM0MTc2MCwxNjg4MDY4NjEwLC0yMD
-Q5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3
-OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLD
-E3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3
-NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OT
-k4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkx
-OTcyMTIxN119
+eyJoaXN0b3J5IjpbLTExNzMwNzUzNjQsMTY4ODA2ODYxMCwtMj
+A0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2
+NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMi
+wxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5
+NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3ND
+k5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05
+MTk3MjEyMTddfQ==
 -->
