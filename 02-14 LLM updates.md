@@ -5,7 +5,7 @@
 
 今週もいろいろありました、
 
-Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。数学モデルMathtraをリリース、OSSで数学モデルをというプロジェクト Numinaと関連している
+Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。数学モデルMathtraをリリース、OSSで数学モデルをというプロジェクト Numinaと関連している。AI-MOがリリースしたNuminaMath-7B-TIRは、数学お
 
 
 ローカルLLMでGraphRAGを実装して「
@@ -3575,11 +3575,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - NTTのTsuzumi、7Bパラのマルチモーダルで、RakudaベンチマークでGPT-3.5を上回るんだと。
 	- https://x.com/umiyuki_ai/status/17725
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0NTkzNTc2LC0xMTcxNDcxNTc0LDEwND
-AyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIw
-NzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNi
-wxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDEx
-NDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMz
-cyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMs
-MTUzMTc1MzkzM119
+eyJoaXN0b3J5IjpbNDc1NTAwMDIsLTExNzE0NzE1NzQsMTA0MD
+IwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3
+NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LD
+E2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0
+OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNz
+I5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3Mywx
+NTMxNzUzOTMzXX0=
 -->
