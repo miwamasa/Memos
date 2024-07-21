@@ -5,6 +5,9 @@
 
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
+	- his paper employs this straightforward approach achieves an accuracy of 82.6% on GSM8K and 40.6% on MATH using LLaMA-2 7B models, surpassing previous models by 14.2% and 20.8%, respectively.
+	- 7Bクラスで数学的な能力70パー越え。見たことないレベル。
+- 
 
 ## 24/7/14
 
@@ -3491,17 +3494,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://deepmind.google/discover/blog/tacticai-ai-assistant-for-football-tactics/?utm_source=twitter&utm_medium=social&utm_campaign=TacticAI/
 	- We're announcing TacticAI: an AI assistant capable of offering insights to football experts on corner kicks.
 	- it can help teams sample alternative player setups to evaluate possible outcomes, and achieves state-of-the-art results.
-	- TacticAIはGoogleとリヴァプールの複数年にわたる協力関係の一環として開発されたもので、「コーナーキックについてアドバイスできる完全なAIシステム」としてアピールされています
-- 500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトル(control vectors)用ライブラリ
-	- https://github.com/vgel/repeng
-	- LoRAのように特定タスクに特化するのではなく例えば 「陽キャなチャットボット」ｖｓ「陰キャなチャットボット」 など、モデルの出力に全体的な方向性を与える感じですね
-- Google、PDF論文を劇的
+	- TacticAIはGoogleとリヴァプールの複数年にわたる協力関係の一環として開発されたもので、「コーナーキックについてアドバイス
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMT
-A5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1
-MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC
-0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2
-OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3Nz
-QyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05MTk3MjEyMTcsMTk5
-NTM2NDg5OF19
+eyJoaXN0b3J5IjpbLTQ4NTM0MTc2MCwxNjg4MDY4NjEwLC0yMD
+Q5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3
+OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLD
+E3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3
+NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OT
+k4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkx
+OTcyMTIxN119
 -->
