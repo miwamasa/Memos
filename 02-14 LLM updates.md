@@ -206,6 +206,12 @@
 	- Japan’s massive public investments in codifying technical knowledge explain why it was unique among non-Western countries in industrializing in the 19th and early 20th centuries,
 	- 現在、世界には4種類の高所得国しかない。1) 英語圏、2) イギリスに近い国、3) 資源に恵まれた国、そして4) 日本とその旧植民地である。」 1〜3まではよく研究されているが、なぜ4なのか？
 	- 産業革命がなぜ日本に最初に広がり、他の非西洋諸国には広がらなかったのかに関するデータドリブンの研究。
+-  GPT-4o mini の概要 by npakaさん
+	- https://note.com/npaka/n/nd985687d6cb1?sub_rt=share_h
+	- 「GPT-4o mini」は、インテリジェンスをより手頃な価格にすることで、AIで構築されるアプリの範囲を大幅に拡大すると期待しているモデルです。
+	- 2. 優れたテキストインテリジェンスとマルチモーダル推論を備えた小型モデル
+	- 3. 組み込みの安全対策
+	- ChatGPTでは、Free、Plus、Team ユーザーは、GPT-3.5 の代わりに、本日より「GPT-4o mini」にアクセスできるようになります。
 - 
 
 
@@ -3538,19 +3544,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - DBRX is super cool, but research and reading too! Especially if you can combine RAG + COT.
 	- https://x.com/_philschmid/status/1773024623589736949?s=20
 - we're connecting Adobe Experience Cloud with Microsoft Copilot to reimagine how marketers approach their daily work
-	- https://x.com/satyanadella/status/1773063169138671984?s=20
--  LISA: Layerwise Importance Sampling for Memory-Efficient Large Language Model Fine-Tuning
-	- https://arxiv.org/abs/2403.17919
-	- LISA algorithm in two lines: 
-		- always activate embedding and linear head layer 
-		- randomly sample intermediate layers to unfreeze
-	- 岡野原さん、LISAはLLMのファインチューニング
+	- https://x.com/satyanadella/status/17730631691386719
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2OTI1NTI1LDEzNzE3MjQ4ODgsLTE0NT
-kxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgy
-MTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1Mz
-AxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05
-MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNz
-k1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0x
-MzQ5NjQ3MTQ1XX0=
+eyJoaXN0b3J5IjpbLTExMDQ4NzgyMjMsMTM3MTcyNDg4OCwtMT
+Q1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1
+ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NT
+UzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzks
+LTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3Nz
+E3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEs
+LTEzNDk2NDcxNDVdfQ==
 -->
