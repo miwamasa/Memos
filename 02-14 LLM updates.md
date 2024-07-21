@@ -158,7 +158,8 @@
 	- https://x.com/phill__1/status/1813307823570157899
 -  Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models
 	- https://www.arxiv.org/abs/2407.07086
-	- 
+	- LLMに対して「心の理論」を実装したエージェントは、そうでないLLMエージェントや強化学習エージェントと比べて様々な競争で優位に立つことを示す実験結果が報告されています。
+- 
 
 
 
@@ -3544,15 +3545,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  Perplexityをもとに､複数の大規模言語モデルを切り替えて推論するシステムの簡単なコード実装
 	- https://note.com/kan_hatakeyama/n/nb5625d6411a8?sub_rt=share_pw
 	- モデルの事前訓練をする余裕がないので、今回は試しに、英語が得意なLLama2-7bと、日本語でファインチューニングしたElyza-7bを統合（merge）したシステムを作ってみようと思います。
-	- 英語の質問にはllama、日本語の質問にはelyzaで答えることができればコンセプト実証に成功です。
-- Generative Flow Networks by Yoshua Bengio
-	- https://mila.quebec/en/
+	- 英語の質問にはllama、日本語の質問にはelyzaで答えること
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwODAyMTgsLTE0NTkxMTIwNzUsLTEzND
-EzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4
-NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OT
-MsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5
-OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1Mz
-kzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0x
-MTQ4Mjc0OTk4XX0=
+eyJoaXN0b3J5IjpbMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMT
+M0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgw
+Njg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMT
+g5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwt
+Mjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNz
+UzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUs
+LTExNDgyNzQ5OThdfQ==
 -->
