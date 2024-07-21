@@ -3,21 +3,22 @@
 
 ## 24/7/22
 
-今週もいろいろありました、
+今週もいろいろありました、gpt-AI数学オリンピック関連が目立ちました、
 
-Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。数学モデルMathtraをリリース、OSSで数学モデルをというプロジェクト Numinaと関連している。AI-MOがリリースしたNuminaMath-7B-TIRは、AI数学オリンピックで優勝したもの、デモもあるが、量子化版はllmcppでも動くらしい。Kaggleには数学モデル用のデータ自身がLLM
+Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。数学モデルMathtraをリリース、OSSで数学モデルをというプロジェクト Numinaと関連している。AI-MOがリリースしたNuminaMath-7B-TIRは、AI数学オリンピックで優勝したもの、デモもあるが、量子化版はllmcppでも動くらしい。Kaggleには数学モデル用のデータの整備の記事がLLM活用のお手本のような感じ。
+
+GPT-4o miniは、GPT-4よりも賢く、GPT-4oより約30倍も安い、語彙数128KのTekkenトークナイザーの採用で日本語への効果も期待されるす、量子化を想定した学習ってどういうこと？
+
+OpenAI、つよつよAIにアホAIでも理解できるように説明しろ！って訓練をさせたら
 
 
 ローカルLLMでGraphRAGを実装して「
 
 
-Kaggle のAI数学オリンピックコンペのfirst solution、 TIR (Tool Integrated Reasoning)、NuminaMath-7B-TIR-Q8_0-GGUF、 Demoもあるよ模様。
-
-
-NuminaMath-7B-TIR-Q8_0-GGUF
 
 
 LLMの現在 by いもす
+深層学習の数理 by 鈴木大慈
 
 「フェッショナル経営参謀」
 
@@ -26,7 +27,7 @@ LLMの現在 by いもす
 
 ELYZA-tasks-100を人間が解くと何点取れるのか
 
-深層学習の数理 by 鈴木大慈
+
 
 
 反応予測の専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できたそうです。 By My Eyes:可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測する。
@@ -39,9 +40,8 @@ Googleの研究者らが「自己複製するプログラム」の「Brainfuck F
 
 LLMに対して「心の理論」を実装したエージェントは
 
-GPT-4o miniは、GPT-4よりも賢く、GPT-4oより約30倍も安い、語彙数128KのTekkenトークナイザーの採用で日本語への効果も期待されるす、量子化を想定した学習ってどういうこと？
 
-OpenAI、つよつよAIにアホAIでも理解できるように説明しろ！って訓練をさせたら
+
 
 Q-Sparse、Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらない
 
@@ -3575,11 +3575,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - NTTのTsuzumi、7Bパラのマルチモーダルで、RakudaベンチマークでGPT-3.5を上回るんだと。
 	- https://x.com/umiyuki_ai/status/17725
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjIxNzIzMDcsLTExNzE0NzE1NzQsMT
-A0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTEx
-MjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMT
-M2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEs
-MTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMz
-AzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3
-MywxNTMxNzUzOTMzXX0=
+eyJoaXN0b3J5IjpbMjI4MzE4NzY2LC0xMTcxNDcxNTc0LDEwND
+AyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIw
+NzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNi
+wxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDEx
+NDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMz
+cyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMs
+MTUzMTc1MzkzM119
 -->
