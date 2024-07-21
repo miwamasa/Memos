@@ -146,8 +146,14 @@
 - By My Eyes: Grounding Multimodal Large Language Models with Sensor Data via Visual Prompting
 	- https://x.com/sei_shinagawa/status/1813189318392885311
 	- センサデータをMLLMで処理する方法として、可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測する。すべてを画像にしてやるぜという意欲作再びだ・・
-- # Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction
-	- 
+-  Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction
+	- https://arxiv.org/abs/2406.19108
+	- Googleの研究者らが「自己複製するプログラム」の自然発生を確認
+	- この研究の中心となったのは、「Brainfuck」（BF）という極めて単純な言語を拡張した「Brainfuck Family」（BFF）と呼ばれる言語環境である。
+	- BFFでは、_**64バイトの長さを持つ131,072個のランダムなプログラムによって、「原始スープ」（Primordial-soup）と呼ばれる環境を形成する**_。
+	- 言語BrainfuckやZ80の原始スープ環境を構築。2の17乗のプログラムが相互作用し自己修正するだけで自己複製プログラムが出現。これらが環境を支配し競争し共生する生命に似た振る舞いを見せた
+- 
+- 
 
 
 
@@ -3541,14 +3547,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.ai21.com/blog/announcing-jamba
 	- 岡野原さん、JambaはMambaとTransformerをあわせた52B LLM。MoEで有効パラメータは12B、1GPUでコンテキスト長140Kまで扱え、複数GPUでは256Kまで扱える。コンテキストが長くなった時は3倍近いスループット。1/8の割合でTransformerを使う。Mambaを採用したLLMで初めての大きなモデル。
 -   LMFlowによる日本語LISAトレーニング　 by shi3zさん
-	- https://www.free-ai.ltd/post/lmflow-ja-lisa
-	- メモリ消費がLoRAと同等に低く、なおかつパフォーマンスはフルパラメータのファインチューニングに匹敵もしくは上回る効果を持つと言われています。
--  LoRAよりいいらしいLISA by shi3zさん
-	- https://note.com/shi3zblog/n/ndf165df51f04?sub_rt=share_pb
-	- 学習も速いし推論も速い。  こんないいことずくめのことがあっていいのか。  しかしそんないいことずくめのことが時々起きるのがこの業界の面白いところである。
--  Accelerating Scientific Discovery with Generative Knowledge Ex
+	- https://w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTAzMDMyMCwtMTQ1OTExMjA3NSwtMT
+eyJoaXN0b3J5IjpbMjAyNDk1MzM5NSwtMTQ1OTExMjA3NSwtMT
 M0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgw
 Njg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMT
 g5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwt
