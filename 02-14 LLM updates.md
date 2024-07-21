@@ -10,6 +10,13 @@ Mistralからは、mambaを採用したCode
 
 Kaggle のAI数学オリンピックコンペのfirst solution TIR (Tool Integrated Reasoning)
 
+NuminaMath-7B-TIR-Q8_0-GGUF
+
+
+LLMの現在 by いもす
+
+「フェッショナル経営参謀」
+
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
 	- his paper employs this straightforward approach achieves an accuracy of 82.6% on GSM8K and 40.6% on MATH using LLaMA-2 7B models, surpassing previous models by 14.2% and 20.8%, respectively.
@@ -3550,11 +3557,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.deeplearning.ai/short-courses/javascript-rag-web-apps-with-llamaindex/
 	- JavaScript RAG Web Apps with LlamaIndex,
 - LoRaより優れたLISA
-	- https://x.com/Rui45898440/status/1772996453557997924?s=20
-	- Excited to share LISA, which enables
-	- 7
+	- https://x.com/Rui45898440/status/177299645
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDMzMTA5OCwyOTAwMTIxNDIsMTM3MT
+eyJoaXN0b3J5IjpbMTY4MjgwMDcwNSwyOTAwMTIxNDIsMTM3MT
 cyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4
 MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1ND
 QsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIx
