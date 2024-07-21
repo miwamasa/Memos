@@ -3,11 +3,18 @@
 
 ## 24/7/22
 
-今週もいろいろありました、gpt-4o miniの発表のほかにAI数学オリンピック関連が目立ちました。OpenAIから出たGPT-4o mini、GPT-4よりも賢く、GPT-4oより約30倍も安いということですが、語彙数128KのTekkenトークナイザーの採用で日本語への効果も期待されるとのこと、量子化を想定した学習ってどういうこと？。OpenAIは強いAIの出力が人間が理解するために弱いAIに説明させるという論文も発表。LLMを取り扱うLLMというメタな活動が増えてきた感じ。
+今週もいろいろありました、gpt-4o miniの発表のほかにAI数学オリンピック関連が目立ちました。OpenAIから出たGPT-4o mini、GPT-4よりも賢く、GPT-4oより約30倍も安いということですが、語彙数128KのTekkenトークナイザーの採用で日本語への効果も期待されるとのこと、量子化を想定した学習ってどういうこと？。OpenAIは強いAIの出力が人間が理解するために弱いAIに説明させるという論文も発表。まあLLMに対して「心の理論」を実装したエージェントの優秀性とか、Claudeにも考える時間をあげると良いという<thinking>タグの話とか、LLMの深層で何が起きているかはもはや人にはわからないなあ。
+
+
+LLMを取り扱うLLMというメタな活動が増えてきた感じ。
 
 Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。数学モデルMathtraをリリース、OSSで数学モデルをというプロジェクト Numinaと関連している。AI-MOがリリースしたNuminaMath-7B-TIRは、AI数学オリンピックで優勝したもの、デモもあるが、量子化版はllmcppでも動くらしい。Kaggleには数学モデル用のデータの整備の記事がLLM活用のお手本のような感じ。
 
-マイクロソフトからは、エクセルを対象としたLLMである、「SpreadsheetLLM」、シートコンプレッサーってのが肝の技術だったのか。マイクロソフトのQ-Sparse、Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらない。ローカルLLMでGraphRAGを実装する例なども出てきて、GraphRAG
+マイクロソフトからは、エクセルを対象としたLLMである、「SpreadsheetLLM」、シートコンプレッサーってのが肝の技術だったのか。マイクロソフトのQ-Sparse、Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらない。ローカルLLMでGraphRAGを実装する例なども出てきて、GraphRAGのブームも続く。
+
+材料系・化学系だと、反応予測の機械学習モデル、専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できるとか、 By My Eyes論文のように可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測するとか、もはやマルチモーダル機能を使えば下手な人間による前処理が不要なのか？マイクロソフトからは、汎用機械学習ポテンシャル、新しい機能性材料の探索や、地球内部での元素の分布予測、効率的な化学プロセスの設計などが期待できる。それにしても、Googleの「自己複製するプログラム」の論文、「Brainfuck Family」（BFF）と呼ばれる言語環境というのは、創発を狙っているのか。
+
+いもす氏の「LLMの現在」や、鈴木大慈先生の「深層学習の数理 」を読めば、最新のLLMの理論的動向に追いつけそう。BCGの、「フェッショナル経営参謀」、これをＬＬＭに教えると、いやコンサルＬＬＭが爆誕しそうだ。言語資源というか、日本語による技術知識が公共財となり日本の発展を支えたという論文、レアな良質な知識がそこにあるからという理由ならば、今のマルチ言語の世界では新しい方向性を見つけなければ、世界に埋もれてしまう気がする。
 
 ELYZA-tasks-100を人間が解くと何点取れるのかという記事も面白かった、問題がいまいちという感じもするが、これからデータサイエンティストの採用試験にしたらどうか。。
 
@@ -17,31 +24,20 @@ ELYZA-tasks-100を人間が解くと何点取れるのかという記事も面�
 
 
 
-いもす氏の「LLMの現在」や、鈴木大慈先生の「深層学習の数理 」を読めば、最新のLLMの理論的動向に追いつけそう
-
-BCGの、「フェッショナル経営参謀」、これをＬＬＭに教えると、いやコンサルＬＬＭが爆誕しそうだ。
-
-
-言語資源というか、日本語による技術知識が公共財となり日本の発展を支えたという論文、レアな良質な知識がそこにあるからという理由ならば、今のマルチ言語の世界では新しい方向性を見つけなければ、世界に埋もれてしまう気がする。
 
 
 
 
 
 
-材料系・化学系だと、反応予測の機械学習モデル、専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できるとか、 By My Eyes論文のように可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測するとか、もはやマルチモーダル機能を使えば下手な人間による前処理が不要なのか？マイクロソフトからは、汎用機械学習ポテンシャル、新しい機能性材料の探索や、地球内部での元素の分布予測、効率的な化学プロセスの設計などが期待できる。それにしても、Googleの「自己複製するプログラム」の論文、「Brainfuck Family」（BFF）と呼ばれる言語環境というのは、創発を狙っているのか。
-
-
-
-
-LLMに対して「心の理論」を実装したエージェントは
 
 
 
 
 
 
-Claudeにも考える時間をあげると良いんだ…<thinking>タグ
+
+
 
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
@@ -3565,10 +3561,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2403.10131
 	- RAFT offers a method to fine-tune pre-trained LLMs for specific domain RAG settings.
 	- Conventional RAG is like an open-book exam, retrieving documents from an index to provide context for answering queries. This makes it more effective than the closed-book exam setting where LLMs rely solely on their pre-training and fine-tuning to respond to prompts, but doesn't allow the LLM to learn the domain beforehand.
-- NatCom誌【ビールの風味とおいしさ（飲んだ人の評価）を決定する物質を250のビールに対する18万のレビューから機械学習で解明。
-	- http
+- NatCom誌【ビールの風味とおいしさ（飲んだ人の
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxODY0NDM4LC0xMTcxNDcxNTc0LDEwND
+eyJoaXN0b3J5IjpbMjM2Nzk1MzEyLC0xMTcxNDcxNTc0LDEwND
 AyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIw
 NzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNi
 wxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDEx
