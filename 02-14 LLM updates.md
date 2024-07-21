@@ -3,6 +3,11 @@
 
 ## 24/7/22
 
+
+
+
+
+
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
 	- his paper employs this straightforward approach achieves an accuracy of 82.6% on GSM8K and 40.6% on MATH using LLaMA-2 7B models, surpassing previous models by 14.2% and 20.8%, respectively.
@@ -3548,13 +3553,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 7B tuning on a 24GB GPU 
 	- 70B tuning on 4x80GB GPUs
 - Databricks introduces DBRX, a new 132B parameter open LLM
-	- https
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NT
-kxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgy
-MTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1Mz
-AxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05
-MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNz
-k1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0x
-MzQ5NjQ3MTQ1XX0=
+eyJoaXN0b3J5IjpbODg4NDc4ODkxLDI5MDAxMjE0MiwxMzcxNz
+I0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgz
+MjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NC
+wtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjEx
+MDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mj
+c5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5
+MzI2OTgwMV19
 -->
