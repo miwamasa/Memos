@@ -3,9 +3,7 @@
 
 ## 24/7/22
 
-今週もいろいろありました、GPT-4o miniの発表のほかにAI数学オリンピック関連が目立ちました。OpenAIから出たGPT-4o mini、GPT-4よりも賢く、GPT-4oより約30倍も安いということですが、語彙数128KのTekkenトークナイザーの採用で日本語への効果も期待されるとのこと、量子化を想定した学習ってどういうこと？。OpenAIの「Prover-Verifier Games」は強いAIの出力が人間が理解するために弱いAIに説明させるという論文。まあ、LLMに対して「心の理論」を実装したエージェントの優秀性とか、Claudeにも考える時間をあげると良いという<thinking>タグの話とか、LLMの深層で何が起きているかはもはや人にはわからないのか。OpenAIの最近の活動は、Anthropicもそうだけど、LLMを取り扱うLLMというメタな活動が増えてきた感じ。Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。同時に数学モデルMathtraをリリース、OSSで数学モデルをというプロジェクト Numinaと関連している。AI-MOがリリースしたNuminaMath-7B-TIRは、AI数学オリンピックで優勝したもの、デモもあるが、量子化版はllmcppでも動くらしい。Kaggleには数学モデル用のデータの整備の記事がLLM活用のお手本のような感じ。マイクロソフトからは、エクセルを対象としたLLMである、「SpreadsheetLLM」、シートコンプレッサーってのが肝の技術だったのか。マイクロソフトのQ-Sparse、Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらないとのこと、これはすごい。ローカルLLMでGraphRAGを実装する例なども出てきて、GraphRAGのブームも続く。材料系・化学系だと、反応予測の機械学習モデル、専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できるとか、 By My Eyes論文のように可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測するとか、もはやマルチモーダル機能を使えば下手な人間による前処理が不要なのか？マイクロソフトからは、汎用機械学習ポテンシャル、新しい機能性材料の探索や、地球内部での元素の分布予測、効率的な化学プロセスの設計などが期待できる。それにしても、Googleの「自己複製するプログラム」の論文、「Brainfuck Family」（BFF）と呼ばれる言語環境というのは、創発というか計算機科学世界の創生の再現を狙っているのか。いもす氏の「LLMの現在」や、鈴木大慈先生の「深層学習の数理 」を読めば、最新のLLMの理論的動向に追いつけそう。BCGの、「フェッショナル経営参謀」、これをＬＬＭに教えると、いやコンサルＬＬＭが爆誕しそうだ。言語資源というか、日本語による技術知識が公共財となり日本の発展を支えたという論文、レアな良質な知識がそこにあるからという理由ならば、今のマルチ言語の世界では新しい方向性を見つけなければ、世界に埋もれてしまう気がする。
-
-ELYZA-tasks-100を人間が解くと何点取れるのかという記事も面白かった、問題が人用にいまいちという感じもするが、これからデータサイエンティストの採用試験にしたらどうか。。
+今週もいろいろありました、GPT-4o miniの発表のほかにAI数学オリンピック関連が目立ちました。OpenAIから出たGPT-4o mini、GPT-4よりも賢く、GPT-4oより約30倍も安いということですが、語彙数128KのTekkenトークナイザーの採用で日本語への効果も期待されるとのこと、量子化を想定した学習ってどういうこと？。OpenAIの「Prover-Verifier Games」は強いAIの出力が人間が理解するために弱いAIに説明させるという論文。まあ、LLMに対して「心の理論」を実装したエージェントの優秀性とか、Claudeにも考える時間をあげると良いという<thinking>タグの話とか、LLMの深層で何が起きているかはもはや人にはわからないのか。OpenAIの最近の活動は、Anthropicもそうだけど、LLMを取り扱うLLMというメタな活動が増えてきた感じ。Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。同時に数学モデルMathtraをリリース、OSSで数学モデルをというプロジェクト Numinaと関連している。AI-MOがリリースしたNuminaMath-7B-TIRは、AI数学オリンピックで優勝したもの、デモもあるが、量子化版はllmcppでも動くらしい。Kaggleには数学モデル用のデータの整備の記事がLLM活用のお手本のような感じ。マイクロソフトからは、エクセルを対象としたLLMである、「SpreadsheetLLM」、シートコンプレッサーってのが肝の技術だったのか。マイクロソフトのQ-Sparse、Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらないとのこと、これはすごい。ローカルLLMでGraphRAGを実装する例なども出てきて、GraphRAGのブームも続く。材料系・化学系だと、反応予測の機械学習モデル、専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できるとか、 By My Eyes論文のように可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測するとか、もはやマルチモーダル機能を使えば下手な人間による前処理が不要なのか？マイクロソフトからは、汎用機械学習ポテンシャル、新しい機能性材料の探索や、地球内部での元素の分布予測、効率的な化学プロセスの設計などが期待できる。それにしても、Googleの「自己複製するプログラム」の論文、「Brainfuck Family」（BFF）と呼ばれる言語環境というのは、創発というか計算機科学世界の創生の再現を狙っているのか。いもす氏の「LLMの現在」や、鈴木大慈先生の「深層学習の数理 」を読めば、最新のLLMの理論的動向に追いつけそう。BCGの、「フェッショナル経営参謀」、これをＬＬＭに教えると、いやコンサルＬＬＭが爆誕しそうだ。言語資源というか、日本語による技術知識が公共財となり日本の発展を支えたという論文、レアな良質な知識がそこにあるからという理由ならば、今のマルチ言語の世界では新しい方向性を見つけなければ、世界に埋もれてしまう気がする。MITのアセモグル先生による、AIが労働者の生産性に対して「わずか」な改善効果しかもたらさず、今後10年間の米国の経済成長への寄与率は1％未満だと予測ってのは、世の中の大勢の予測の逆張りで興味深い。ELYZA-tasks-100を人間が解くと何点取れるのかという記事も面白かった、こういう地に着いた活動ができる人が強いね、問題が人用にいまいちという感じもするが、これからデータサイエンティストの採用試験にしたらどうか。。
 
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
@@ -3528,13 +3526,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  RAFT: Adapting Language Model to Domain Specific RAG
 	- https://arxiv.org/abs/2403.10131
 	- RAFT offers a method to fine-tune pre-trained LLMs for specific domain RAG settings.
-	- Conventional RAG is like an open-book exam, retrieving documents from an index to provide context for answering queries. This makes it more effective than the closed-book exam setting where LLMs rely solely on their pre-training and fine-tuning to respond to prompts, but doesn't allow the L
+	- Conventional RAG is like an open-book exam, retrieving documents from an index to provide context for answering queries. This makes it more effe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxMjYxNjMwLDE2NTg3MzcxMDUsLTExNz
-E0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4
-OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC
-0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEw
-OTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NT
-AzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwt
-MTc3NzE3OTU3M119
+eyJoaXN0b3J5IjpbLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMT
+E3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0
+ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMj
+IsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwt
+MTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMD
+U1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5
+LC0xNzc3MTc5NTczXX0=
 -->
