@@ -117,15 +117,17 @@
 	- Deep Learningについて深く理解したい人は、東北大学の集中講義「深層学習の数理」を読んだ方がいいです。
 	- 深層学習の「よくわからないけど、精度がよい」という認識を超え、一歩深い理解ができるように、原理を解明しようとしている資料です。
 	- 特に「深層学習の解釈可能性」は、ビジネスサイドでも必見です。
-- 汎用機械学習ポテンシャル
-	-  MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures
+- MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures
 	- https://arxiv.org/abs/2405.04967
+	- 汎用機械学習ポテンシャル
 	- Microsoftさんは1700万データでM3GNetを訓練した機械学習ポテンシャルを用いて有限温度・圧力下の自由エネルギーを正確に予測できたそうです。
 - OllamaがOpenAIのAPI互換のツール使用をサポートだって
 	- https://x.com/umiyuki_ai/status/1813096846656430429
 - Mistralが、数学モデルと、Mambaのコード生成モデル　by AIXサトシさん
 	- https://x.com/AiXsatoshi/status/1813315144254115987
-	- 
+- ollama runs mathtral
+	- https://ollama.com/library/mathstral
+- 
 
 
 
@@ -3544,13 +3546,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00458/
 	- NTTは2024年3月25日、独自LLM（大規模言語モデル）である「tsuzumi」のサービス提供を始めた
 	- tsuzumiは日本語と英語に対応し、パラメーター数は70億とOpenAIの「GPT-3」の1750億と比べて25分の1と軽量だ。LLMの日本語処理性能に関するベンチマークテスト「Rakuda Benchmark」の結果では、GPT-3.5や同規模の国産LLMを上回ったという。tsuzumiは言語に加え、図表や画像の解析などにも対応する。
-	- うみゆきさん、LLMの学習コスト感ってよく知らんけど、Tsuzumiの資料によればAWSで7Bモデルを300Bトークン学習させると1900万円かかるらしい。300Bじゃ少ないから1.2Tくらいは学習させたいよね。そ
+	- うみゆきさん、LLMの学習コスト感ってよく知らんけど、Tsuzumiの資料によればAWSで7Bモデルを
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODM4MTUzNjEsLTEzNDEzNzM4MCwtMT
-I2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5
-NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OT
-AyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3
-MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NT
-AxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4
-LC0yMDQyMzc3NDI4XX0=
+eyJoaXN0b3J5IjpbMTMxOTE3Njg5LC0xMzQxMzczODAsLTEyNj
+A0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYy
+NzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMi
+wtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0
+NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMT
+UsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwt
+MjA0MjM3NzQyOF19
 -->
