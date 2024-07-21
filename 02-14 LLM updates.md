@@ -86,7 +86,15 @@
 - BM42が現れてBM25から新時代に移行する雰囲気出た直後にBM25Sとかいう亜種出てきてるし、そもそもBM42の性能も新時代と言えるか怪しいしカオス
 	- https://x.com/goto_yuta_/status/1812861309534564516
 - We've doubled the max output token limit for Claude 3.5 Sonnet from 4096 to 8192 in the Anthropic API.
-	- 
+	- https://x.com/alexalbert__/status/1812921642143900036
+- Claude Sonnet 3.5 Coding System Prompt.
+	- https://x.com/rohanpaul_ai/status/1812973162906460460
+- Agentic RAG, explained visually
+	- https://x.com/jerryjliu0/status/1812991904268849343
+	- Check out nicolaygerold's full thread + diagrams below on agentic RAG + multi-agent architecture concepts, which we talked about during our aiDotEngineer talk 👇
+	- https://www.youtube.com/watch?v=zeAyuLc_f3Q
+- 
+
 
 
 ## 24/7/14
@@ -3519,13 +3527,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 3/25
 
-先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 H100の５倍の性能！新GPUであるB200、DGX GB200 NVL72とか、NIMの発表とか、一人勝ちってこういうこと。早速llamaindexがNVIDIA NIMで動くようになった。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステム」。500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になるのか。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKitってのも忘れてはいけない。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。[huggingface](https://github.com/huggingface)からPEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。huggingfaceはTransformers 4.39もリリース、GaLoreをサポートしてるらしい。「GaLore」、「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの
+先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 H100の５倍の性能！新GPUであるB200、DGX GB200 NVL72とか、NIMの発表とか、一人勝ちってこういうこと。早速llamaindexがNVIDIA NIMで動くようになった。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステム」。500程度のサンプルで数分学習させてLLMの出力を方向付ける
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODY3Mjk1LC0xMjYwNDA4MzIyLC0xMT
-Y1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4
-NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNz
-ksLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3
-NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MD
-EsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0Mjgs
-NjIyNjc4NTY3XX0=
+eyJoaXN0b3J5IjpbMTcwNTM1Mjg4OCwtMTI2MDQwODMyMiwtMT
+E2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2
+ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMz
+c5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3
+NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5OD
+AxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4
+LDYyMjY3ODU2N119
 -->
