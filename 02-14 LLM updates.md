@@ -8,7 +8,7 @@
 Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。数学モデルMathtraをリリース、OSSで数学モデルをというプロジェクト Numinaと関連している。AI-MOがリリースしたNuminaMath-7B-TIRは、AI数学オリンピックで優勝したもの、デモもあるが、量子化版はllmcppでも動くらしい。Kaggleには数学モデル用のデータの整備の記事がLLM活用のお手本のような感じ。
 
 
-
+ELYZA-tasks-100を人間が解くと何点取れるのかという記事も面白かった、問題がいまいちという感じもするが、これからデータサイエンティストの採用試験にしたらどうか。。
 
 
 ローカルLLMでGraphRAGを実装して「
@@ -24,12 +24,12 @@ LLMの現在 by いもす
 
 外国からの技術的な知識を日本語に翻訳して公共財として普及
 
-ELYZA-tasks-100を人間が解くと何点取れるのか
 
 
 
 
-反応予測の専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できたそうです。 By My Eyes:可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測する。
+
+材料系・化学系だと、反応予測の機械学習モデル反応予測の専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できたそうです。 By My Eyes:可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測する。
 マイクロソフトからは、汎用機械学習ポテンシャル、新しい機能性材料の探索や、地球内部での元素の分布予測、効率的な化学プロセスの設計など
 
 Googleの研究者らが「自己複製するプログラム」の「Brainfuck Family」（BFF）と呼ばれる言語環境
@@ -3574,7 +3574,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - NTTのTsuzumi、7Bパラのマルチモーダルで、RakudaベンチマークでGPT-3.5を上回るんだと。
 	- https://x.com/umiyuki_ai/status/17725
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDQ5OTk3MCwtMTE3MTQ3MTU3NCwxMD
+eyJoaXN0b3J5IjpbLTUzNTIyMTY4NCwtMTE3MTQ3MTU3NCwxMD
 QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
 MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
 YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
