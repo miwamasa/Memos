@@ -5,16 +5,13 @@
 
 今週もいろいろありました、
 
-Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。数学モデルMathtra
-- Mistralが、数学モデルと、Mambaのコード生成モデル　by AIXサトシさん
-- 	- https://mistral.ai/news/codestral-mamba/
-	- https://mistral.ai/news/mathstral/
-	- 75% on HumanEval for Python Coding.
+Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。数学モデルMathtraをリリース、OSSで数学モデルをというプロジェクト Numinaと関連している
+
 
 ローカルLLMでGraphRAGを実装して「
 
 
-Kaggle のAI数学オリンピックコンペのfirst solution TIR (Tool Integrated Reasoning)、NuminaMath-7B-TIR-Q8_0-GGUF、 Demoもあるよ模様。
+Kaggle のAI数学オリンピックコンペのfirst solution、 TIR (Tool Integrated Reasoning)、NuminaMath-7B-TIR-Q8_0-GGUF、 Demoもあるよ模様。
 
 
 NuminaMath-7B-TIR-Q8_0-GGUF
@@ -3576,14 +3573,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.nature.com/articles/s41467-024-46346-0
 	- 複雑な心理現象について、大規模データと機械学習を用いて仮説フリーで当たりをつけ、それを「仮説」として実験室で検証実験を行う。うらやましいほどお手本のような現代的研究。ビールを対象としているところも粋でオモロいし！
 - NTTのTsuzumi、7Bパラのマルチモーダルで、RakudaベンチマークでGPT-3.5を上回るんだと。
-	- https://x.com/umiyuki_ai/status/1772588308537000101?s=20
-- OpenAIが「VOICE ENG
+	- https://x.com/umiyuki_ai/status/17725
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzg1OTI5MTksLTExNzE0NzE1NzQsMT
-A0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTEx
-MjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMT
-M2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEs
-MTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMz
-AzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3
-MywxNTMxNzUzOTMzXX0=
+eyJoaXN0b3J5IjpbNzU0NTkzNTc2LC0xMTcxNDcxNTc0LDEwND
+AyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIw
+NzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNi
+wxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDEx
+NDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMz
+cyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMs
+MTUzMTc1MzkzM119
 -->
