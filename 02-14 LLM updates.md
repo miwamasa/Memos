@@ -22,8 +22,10 @@
 	- https://x.com/corochann/status/1812447716410281986
 	- 数学の問題を解くLLMの学習データセット生成をするためにTIR (Tool Integrated Reasoning)でCode execution feedbackをいれたり、Self-Consistencyとして複数生成させた結果のMajority votingとったりしている
 	- https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/discussion/519303
-- Repurposing PaliGemma as multimodal multi-vector encoder
-	- 
+- ColPali: Efficient Document Retrieval with Vision Language Models
+	- https://arxiv.org/pdf/2407.01449
+	- Repurposing PaliGemma as multimodal multi-vector encoder
+	- ColPali, a ColBERT-inspired multimodal multi-vector encoder using PaliGemma as a basis for document retrieval.
 
 ## 24/7/14
 
@@ -3500,15 +3502,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 1x GPU Blackwell - 192GB VRAM 2x GPU 
 	- Blackwell with CPU - 384 GB VRAM
 	- https://x.com/migtissera/status/1769824889102348366?s=20
--  NVIDIAがヒューマノイド開発プラットフォーム提供を発表　ディズニーの二足歩行ロボットが登壇　Jetson Orinから次世代Thorへ
-	- https://robotstart.info/2024/03/19/nvidia-humanoid-jetson-thor.html
-	- NVIDIAは「GTC 2024」の創業者/CEOのジェンスン・フアン氏による基調講演で、ヒューマノイドロボット(ヒト型ロボット)を開発するためのプラットフォーム「GR00T」(ジーアールゼロゼロティー)を発表した
+-  NVIDIAがヒューマノイド開発プラットフォーム提供を発表　ディズニーの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDUxNTk0NywxNjg4MDY4NjEwLC0yMD
-Q5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3
-OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLD
-E3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3
-NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OT
-k4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkx
-OTcyMTIxN119
+eyJoaXN0b3J5IjpbLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMj
+A0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2
+NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMi
+wxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5
+NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3ND
+k5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05
+MTk3MjEyMTddfQ==
 -->
