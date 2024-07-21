@@ -181,8 +181,13 @@
 	- https://x.com/yoko_materialDX/status/1813891469880459534
 	- 従来は主生成物しか予測しなかったのに対し、専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できたそうです。
 	- 現状の課題は誤差蓄積と保存則を破ってしまうことらしい。なるほど。
-- # Taming the chaos gently: a Predictive Alignment learning rule in recurrent neural networks
-	- 
+-  Taming the chaos gently: a Predictive Alignment learning rule in recurrent neural networks
+	- https://www.biorxiv.org/content/10.1101/2024.07.14.603423v1
+	- How can a biologically plausible synaptic plasticity rule tame the chaos in recurrent neural networks?
+- new GPT-4o mini release!
+	- https://x.com/OpenAI/status/1813991706083340798
+	- Introducing GPT-4o mini! It’s our most intelligent and affordable small model, available today in the API. GPT-4o mini is significantly smarter and cheaper than GPT-3.5 Turbo.
+- 
 
 
 
@@ -3541,15 +3546,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  Intel® Neural Compressor
 	- https://github.com/intel/neural-compressor
 	- All your need is Intel Neural Compressor (INC) for INT4 LLMs. INC v2.5 released with SOTA INT4 LLM quantization (AutoRound) across platforms incl. Intel Gaudi2, Xeon, and GPU.
-	- Models: Llama2, Mistral, Mixtral-MOE, Gemma, Mistral-v0.2, Phi2, Qwen,
-- Masked Autoencoders are PDE Learners
-	- https://arxiv.org/abs/2403.17728
-	- Masked autoencoders can learn useful latent representations for PDEs through self-supervised pretraining on unlabeled spatiotemporal data. This allows them to improve
-- 4-bit quantized DBRX runs nicely in MLX on an M2 Ultra
-	- https://github.com/ml-explore/mlx-examples/pull/628
-- 国・地方共通相談チャットボット「
+	- Models: Llama2, Mistr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDgyMTE1NiwxMzcxNzI0ODg4LC0xND
+eyJoaXN0b3J5IjpbMTYzNjYwMTk0OSwxMzcxNzI0ODg4LC0xND
 U5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4
 MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NT
 MwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwt
