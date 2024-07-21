@@ -28,6 +28,8 @@ ELYZA-tasks-100を人間が解くと何点取れるのか
 
 深層学習の数理 by 鈴木大慈
 
+汎用機械学習ポテンシャル、
+
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
 	- his paper employs this straightforward approach achieves an accuracy of 82.6% on GSM8K and 40.6% on MATH using LLaMA-2 7B models, surpassing previous models by 14.2% and 20.8%, respectively.
@@ -147,6 +149,7 @@ ELYZA-tasks-100を人間が解くと何点取れるのか
 	- https://arxiv.org/abs/2405.04967
 	- 汎用機械学習ポテンシャル
 	- Microsoftさんは1700万データでM3GNetを訓練した機械学習ポテンシャルを用いて有限温度・圧力下の自由エネルギーを正確に予測できたそうです。
+	- 広範な元素・温度・圧力条件に対応できる汎用的なモデルを構築したことです。
 - OllamaがOpenAIのAPI互換のツール使用をサポートだって
 	- https://x.com/umiyuki_ai/status/1813096846656430429
 - Mistralが、数学モデルと、Mambaのコード生成モデル　by AIXサトシさん
@@ -3563,13 +3566,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - The Unreasonable Ineffectiveness of the Deeper Layers
 	- https://huggingface.co/papers/2403.17887
 	- We empirically study a simple layer-pruning strategy for popular families of open-weight pretrained LLMs, finding minimal degradation of performance on different question-answering benchmarks until after a large fraction
-	- 岡野原さん、学習済みのLLMから、層毎に入力と出力間のcos類似度が大きい層（変化が少ない層）を間引いても精度は落ちない。特に最後の層だけ除いて深い側の層を2~4割間引いても質問応答などの精度は変わらず、知識の大部分が低い
+	- 岡野原さん、学習済みのLLMから、層毎に入力と出力間のcos類似度が大きい層（変化が少ない層）を間引いても精度は
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOT
-AwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3
-MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MT
-AsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4
-MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MD
-g3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMz
-LDIyOTc1MDE1XX0=
+eyJoaXN0b3J5IjpbLTUzOTI5OTUwOCwtMTE3MTQ3MTU3NCwxMD
+QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
+MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
+YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
+MTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwtOTAzMD
+M3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTcz
+LDE1MzE3NTM5MzNdfQ==
 -->
