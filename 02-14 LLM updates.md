@@ -174,6 +174,14 @@
 	- https://www.asahi.com/articles/ASS7J33L5S7JUHMC003M.html
 	- アセモグル教授はこう結論づける。AIは労働者の生産性に対して「わずか」な改善効果しかもたらさず、今後10年間の米国の経済成長への寄与率は1％未満しかない、と。
 - very glad President Trump is safe!　by Sam Altman
+	- https://x.com/sama/status/1812325941647233057
+-  Reproducing Reaction Mechanisms with Machine Learning Models Trained on a Large-Scale Mechanistic Dataset
+	- https://onlinelibrary.wiley.com/doi/10.1002/anie.202411296
+	- 機械学習による反応予測の論文 by 横山さん
+	- https://x.com/yoko_materialDX/status/1813891469880459534
+	- 従来は主生成物しか予測しなかったのに対し、専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できたそうです。
+	- 現状の課題は誤差蓄積と保存則を破ってしまうことらしい。なるほど。
+- # Taming the chaos gently: a Predictive Alignment learning rule in recurrent neural networks
 	- 
 
 
@@ -3539,18 +3547,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Masked autoencoders can learn useful latent representations for PDEs through self-supervised pretraining on unlabeled spatiotemporal data. This allows them to improve
 - 4-bit quantized DBRX runs nicely in MLX on an M2 Ultra
 	- https://github.com/ml-explore/mlx-examples/pull/628
-- 国・地方共通相談チャットボット「Govbot（ガボット）」があまりにひどいと、、
-	- https://x.com/HiromitsuTakagi/status/1772918656210743594?s=20
-- Google presents Long-form factuality in large language models
-	- https://arxiv.org/abs/2403.18802
-	- Proposes that LLM agents can be used as automated evaluators for longform factuality
-	- Shows that **LLM agents can achieve superhuman rating performance**
-- GovBot担当者はなにも理解してないとの疑惑が、、by ひろみちゅ先生
-	- https://x.com/HiromitsuTakagi/status/1773148382820778280?s=20
-	- それ、GovBotはAIではないので学習と呼ぶのは異常だし、ここで人間が学習するなんて話をするのは滑稽と言う他ないですね
--
+- 国・地方共通相談チャットボット「
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzQ5NjQyMiwxMzcxNzI0ODg4LC0xND
+eyJoaXN0b3J5IjpbLTI4MDgyMTE1NiwxMzcxNzI0ODg4LC0xND
 U5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4
 MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NT
 MwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwt
