@@ -100,7 +100,15 @@
 	- 解くにあたって難しかった問題や、LLMの立場でプロンプトはどうあってほしいかを解説する
 	- Sonnet3.5は、**4.42点(+0.02 / -0.02)**
 	- レポーターは、**3.69点(+0.03 / -0.03)**
-- 
+- 深層学習の数理
+	- https://ibis.t.u-tokyo.ac.jp/suzuki/lecture/2023/TohokuUniv/%E6%9D%B1%E5%8C%97%E5%A4%A7%E5%AD%A62023.pdf
+	- Deep Learningについて深く理解したい人は、東北大学の集中講義「深層学習の数理」を読んだ方がいいです。
+	- 深層学習の「よくわからないけど、精度がよい」という認識を超え、一歩深い理解ができるように、原理を解明しようとしている資料です。
+	- 特に「深層学習の解釈可能性」は、ビジネスサイドでも必見です。
+- 汎用機械学習ポテンシャル
+	-  MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures
+	- https://arxiv.org/abs/2405.04967
+	- 
 
 
 
@@ -3526,21 +3534,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00440/
 	- 公開したのは基盤モデルの「Rakuten AI 7B」、同モデルを基にしたインストラクションチューニング済みモデルの「Rakuten AI 7B Instruct」、Rakuten AI 7B Instructを基にファインチューニングしたチャットモデル「Rakuten AI 7B Chat」の3種である。
 	- 文章の要約や質問応答、一般的な文章の理解、対話システムの構築などに商用目的で使用でき、Rakuten AI 7Bは他のモデルの基盤としても使えるという。
-	- Rakuten AI 7BはフランスのAI（人工知能）スタートアップMistral AIのオープンモデル「Mistral-7B-v0.1」を基に、継続的に大規模なデータを学習させて開発した日本語基盤モデル。
-- govbotをとりあえず試してみたら死んだ人間を『ゴミ』と認識している説が出てきた
-	- https://x.com/judo5001/status/1773196373686411292?s=20
-- GovBotの開発に8525万かかったと聞いて調べたら本当だった🤯！しかも、調達機関はデジタル庁で開発業者は日本電気
-	- https://x.com/gijigae/status/1773557153317437824?s=20
-
-## 3/25
-
-先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを
+	- Rakuten AI 7BはフランスのAI（人工知能）スタートアップMistral AIのオープンモデル「Mistral-7B-v0.1」を基に、継続的に大規模なデータを学習させて開発した日本語基盤
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDE0ODYyODEsLTEyNjA0MDgzMjIsLT
-ExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5
-Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MD
-M3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0x
-Nzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OT
-gwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQy
-OCw2MjI2Nzg1NjddfQ==
+eyJoaXN0b3J5IjpbMTQyODc1NDU3NSwtMTI2MDQwODMyMiwtMT
+E2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2
+ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMz
+c5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3
+NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5OD
+AxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4
+LDYyMjY3ODU2N119
 -->
