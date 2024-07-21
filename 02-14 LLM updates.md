@@ -218,6 +218,13 @@
 	- LLMをスパース化させて推論時に使うパラ数減らせて処理効率爆上がるらしい！Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらないらしい　by うみゆきさん
 	- https://x.com/umiyuki_ai/status/1813974577187537074
 - 早稲田大学内のWi-Fi経由でchatGPTやDeepLが使えなくなりました。
+	- https://x.com/aisa_rizapuro/status/1813900610946957600
+	- テスト期間限定の制限かもしれませんが、今この時代に生成AIツールを禁止するのはいかがなものかと思います
+	- 一方でchatGPTを推奨する先生もいらっしゃるので教授会の中でも意見が割れてそうです…
+- 深層NNもTransformerも結局はカーネル法なのです．すべてはカーネル法のためにあるのです
+	- https://x.com/btreetaiji/status/1814319983150932222
+- Claudeにも考える時間をあげると良いんだ…
+	- https://x.com/shiranui_it/status/1814580977576124535
 	- 
 
 
@@ -3540,14 +3547,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 7B tuning on a 24GB GPU 
 	- 70B tuning on 4x80GB GPUs
 - Databricks introduces DBRX, a new 132B parameter open LLM
-	- https://huggingface.co/databricks/dbrx-base
-	- fine-grained mixture-of-experts (MoE) with 132B of which 36B active 
-	- a larger number of smaller experts. DBRX has 16 experts and chooses 4 
-	- It was pre-trained on 12T tokens of text and code data
-	- DBRX outperforms all the established open-source models on common benchmarks like MMLU and GSM8K.
-	- Its inference is up to 2x faster than L
+	- https://huggingface.co/databricks/dbrx-bas
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDA3MTQ2NywxMzcxNzI0ODg4LC0xND
+eyJoaXN0b3J5IjpbMTkxODQ3Nzk2NywxMzcxNzI0ODg4LC0xND
 U5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4
 MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NT
 MwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwt
