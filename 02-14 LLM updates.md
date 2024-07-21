@@ -3,10 +3,12 @@
 
 ## 24/7/22
 
+Mistralからは、mambaを採用したCode
+
+ローカルLLMでGraphRAGを実装して「
 
 
-
-
+Kaggle のAI数学オリンピックコンペのfirst solution TIR (Tool Integrated Reasoning)
 
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
@@ -3550,16 +3552,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - LoRaより優れたLISA
 	- https://x.com/Rui45898440/status/1772996453557997924?s=20
 	- Excited to share LISA, which enables
-	- 7B tuning on a 24GB GPU 
-	- 70B tuning on 4x80GB GPUs
-- Databricks introduces DBRX, a new 132B parameter open LLM
-	- h
+	- 7
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4NDc4ODkxLDI5MDAxMjE0MiwxMzcxNz
-I0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgz
-MjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NC
-wtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjEx
-MDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mj
-c5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5
-MzI2OTgwMV19
+eyJoaXN0b3J5IjpbLTgyMDMzMTA5OCwyOTAwMTIxNDIsMTM3MT
+cyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4
+MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1ND
+QsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIx
+MTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NT
+I3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0z
+OTMyNjk4MDFdfQ==
 -->
