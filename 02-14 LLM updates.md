@@ -18,10 +18,10 @@ ELYZA-tasks-100を人間が解くと何点取れるのかという記事も面�
 
 いもす氏の「LLMの現在」や、鈴木大慈先生の「深層学習の数理 」を読めば、最新のLLMの理論的動向に追いつけそう
 
-「フェッショナル経営参謀」
+BCGの、「フェッショナル経営参謀」、これをＬＬＭに教えると、いやコンサルＬＬＭが爆誕しそうだ。
 
 
-外国からの技術的な知識を日本語に翻訳して公共財として普及
+言語資源というか、日本語による技術知識が公共財であるという論文、マルチ言語の世界
 
 
 
@@ -3566,13 +3566,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Conventional RAG is like an open-book exam, retrieving documents from an index to provide context for answering queries. This makes it more effective than the closed-book exam setting where LLMs rely solely on their pre-training and fine-tuning to respond to prompts, but doesn't allow the LLM to learn the domain beforehand.
 - NatCom誌【ビールの風味とおいしさ（飲んだ人の評価）を決定する物質を250のビールに対する18万のレビューから機械学習で解明。
 	- https://www.nature.com/articles/s41467-024-46346-0
-	- 複雑な心理現象について、大規模データと機械学習を用いて仮説フリーで当たりをつけ、それを「仮説」として実験室で検証実験を行う。うらやましいほどお手本のような現代的研
+	- 複雑な心理現象について
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDQ1OTY2MCwtMTE3MTQ3MTU3NCwxMD
-QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
-MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
-YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
-MTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwtOTAzMD
-M3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTcz
-LDE1MzE3NTM5MzNdfQ==
+eyJoaXN0b3J5IjpbNTMyNjIxNDk4LC0xMTcxNDcxNTc0LDEwND
+AyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIw
+NzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNi
+wxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDEx
+NDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMz
+cyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMs
+MTUzMTc1MzkzM119
 -->
