@@ -65,16 +65,17 @@
 			- 論点自体も変わってくる。あくまで解くべき点は進化する
 		- 10.そのプロセスを経て深めていくものか？
 			- 一つの事象だがシンプルで、広い見通しを持っているか？
-	- BCGのレポートでは、世界の地政学的な秩序の変化によって貿易活動がどのような影響を受けるのかが、スッキリ整理されている
-		- https://x.com/Collie_Collie_/status/1812155080268984486
-		- 例えば、ASEANが新たな輸出のプラットフォームとして浮上しているとのこと。
-		- https://www.bcg.com/ja-jp/publications/2024/jobs-national-security-and-the-future-of-trade
-	- AI Math Olympiad Winner - Running on Mac! 100% local
-		- https://x.com/reach_vb/status/1812916171902976256
+- BCGのレポートでは、世界の地政学的な秩序の変化によって貿易活動がどのような影響を受けるのかが、スッキリ整理されている
+	- https://x.com/Collie_Collie_/status/1812155080268984486
+	- 例えば、ASEANが新たな輸出のプラットフォームとして浮上しているとのこと。
+	- https://www.bcg.com/ja-jp/publications/2024/jobs-national-security-and-the-future-of-trade
+- AI Math Olympiad Winner - Running on Mac! 100% local
+	- https://x.com/reach_vb/status/1812916171902976256
 		- llama-cli
 		- NuminaMath-7B-TIR-Q8_0-GGUF
 		- "For how many values of the constant $ k $ will the polynomial $ x^{2}+kx+36$ have two distinct integer roots?"
-	- 
+- Deploy llama-agents running entirely self-hosted agents using arcee_ai, MistralAI and ollama!
+	- https://x.com/llama_index/status/1812884178616406422
 
 
 ## 24/7/14
@@ -3519,14 +3520,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ダウンロードはacademictorrentsかhuggingfaceのxai-org/grok-1 
 	- ライセンスはApache 2.0 ライセンス 
 	- 公表済みベンチマークによればgpt-3.5を上回るが、Claude 2やGPT-4は下回る
-- Apple in talks with Google for using Gemini to bring generative AI features to iPhones
-	- https://www.livemint.com/technology/tech-news/googles-gemini-could-power-generative-ai-features-on-
+- Apple in talks with Google for using Ge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTA2NjI3LC0xMjYwNDA4MzIyLC0xMT
-Y1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4
-NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNz
-ksLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3
-NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MD
-EsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0Mjgs
-NjIyNjc4NTY3XX0=
+eyJoaXN0b3J5IjpbMTI5MDU3MTI1NywtMTI2MDQwODMyMiwtMT
+E2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2
+ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMz
+c5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3
+NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5OD
+AxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4
+LDYyMjY3ODU2N119
 -->
