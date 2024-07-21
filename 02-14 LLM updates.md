@@ -32,7 +32,11 @@
 	- https://x.com/guohao_li/status/1812406721547256100
 - ローカルLLMでGraphRAGを実装して「クリスマスキャロル」を分析してみた
 	- https://hamaruki.com/analyzing-christmas-carol-with-local-llm-graphrag-2/
-- 
+- llama3 8B (not quantized) running on an heterogeneous home cluster made of:
+	- https://x.com/evilsocket/status/1812110504531259900
+-  Context Embeddings for Efficient Answer Generation in RAG
+	- https://arxiv.org/abs/2407.09252
+	- 
 
 ## 24/7/14
 
@@ -3502,15 +3506,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/_ksasaki/status/1769829822946001353?s=20
 - 生成AIアプリの展開を数分に、NVIDIAが新マイクロサービス「NIM」を発表
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00424/
-	- NIMは、生成AIの推論に必要となる各種ソフトウエアがインストール済みのコンテナ（マイクロサービス）を提供する仕組みである。具体的には、エヌビディアが開発した推論ワークフローを最適化するフレームワークである「Triton Inference Server」やツールキット「TensorRT-LLM」などがインストールされ、エヌビディアやパートナー企業が提供する20以上のAIモデルに最適化されている。
--  LlamaIndex Accelerates Enterprise Generative AI with NVIDIA NIM
-	- https://www.llamaindex.ai/blog/llamaindex-accelerates-enterprise-generative-a
+	- NIMは、生成AIの推論に必要となる各種ソフトウエアがインストール済みのコンテナ（マイクロサービス）を提供する仕組みである。具体的には、エヌビディアが開発した推論ワークフローを最適化するフレームワークである「Triton Inferenc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTc5OTkwNjksLTExNjU4MjExMzYsMT
-Y4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5
-MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mj
-k1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1
-MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0Nz
-E0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1Njcs
-NTMwODQ2NTUzXX0=
+eyJoaXN0b3J5IjpbNzIxNTE1ODcxLC0xMTY1ODIxMTM2LDE2OD
+gwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIw
+MTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NS
+wtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMx
+NzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxND
+UsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUz
+MDg0NjU1M119
 -->
