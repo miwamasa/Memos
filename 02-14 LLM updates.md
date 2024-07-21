@@ -14,6 +14,9 @@
 	- 3.時系列で並べる
 	- 4.データのかたまり毎に分類してみる
 	- 5.エンティティ同士の関係性を線でつなぐ
+	- 6.それらしいカッコイイ項目名を付けてあげる（英語）
+	- 7.図に落とし込む
+- Incredible things are happening on my bag of legumes
 	- 
 
 ## 24/7/14
@@ -3499,10 +3502,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Claude 3に聞いてみた。微妙にけっこう間違うが、そこはスルーして、大変参考になる。ここまでわずか1時間程度の作業だった
 - TacticAI: an AI assistant for football tactics
 	- https://deepmind.google/discover/blog/tacticai-ai-assistant-for-football-tactics/?utm_source=twitter&utm_medium=social&utm_campaign=TacticAI/
-	- We're announcing TacticAI: an AI assistant capable of offering insights to football experts on corner kicks.
-	- it can he
+	- We're announcing Tactic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzY0Mjg3NiwxNjg4MDY4NjEwLC0yMD
+eyJoaXN0b3J5IjpbLTcwNzEwMDYwMiwxNjg4MDY4NjEwLC0yMD
 Q5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3
 OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLD
 E3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3
