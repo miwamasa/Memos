@@ -159,7 +159,15 @@
 -  Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models
 	- https://www.arxiv.org/abs/2407.07086
 	- LLMに対して「心の理論」を実装したエージェントは、そうでないLLMエージェントや強化学習エージェントと比べて様々な競争で優位に立つことを示す実験結果が報告されています。
-- 
+- Anthropic APIのClaude 3.5 Sonnetの最大出力トークン数が4096から8192に倍増。
+	- https://x.com/masahirochaen/status/1813333555185164637
+	- GPT-4oも4K程度なので2倍に 8KだとGemini 1.5 Proレベル
+-  Prover-Verifier Games improve legibility of language model outputs by OpenAI
+	- https://openai.com/index/prover-verifier-games-improve-legibility/
+	- We trained advanced language models to generate text that weaker models can easily verify, and found it also made these texts easier for human evaluation. 
+	- This research could help AI systems be more verifiable and trustworthy in the real world.
+	- OpenAIが作ってるAIが賢くなりすぎてて、AIがいくら正確な回答しても人間はアホだから内容を理解できないのがもはや問題になってるらしい。by うみゆきさん
+	- 
 
 
 
@@ -3538,20 +3546,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「風の谷のナウシカ」は、宮崎駿監督による日本のアニメ映画です。ナウシカは、風の谷の王女であり、森と深い関係性を持っています。森の人は、森に住む原始的な部族のことです。ナウシカは、森とその住人を尊重し、森と共存することを望んでいます。彼女は、森とその住人が持つ力を理解しており、それを使って、風の谷と森の間の紛争を解決しようとします。しかし、森の人は、風の谷や他の王国との関係性について、より懐疑的であり、ナウシカの考えに反対することもあります。
 - PFN初のゲーム『Omega Crafter』
 	- https://x.com/imos/status/1773254326003139023?s=20
-	- ほにゃらら回路で自動化するみたいななんちゃってプログラミングではなく、ちゃんとした構造を持つプログラミングができる珍しい(?)ゲームなので、特にエンジニアの方にはオススメしたいです。是非買ってプレイしてください！
-- Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
-	- https://speakerdeck.com/shunk031/stable-diffusion-3
-	- Stable Diffusion 3 の元論文を読みました！拡散モデルから Flow ベースモデル (Rectified Flow)、UNet から DiT へ切り替え、CLIP x 2 と T5-XXL を使ったてんこ盛りモデルで、生成画像の品質・プロンプトに対する生成画像の忠実性・文字の描画性能が飛躍的に向上しています
--  Perplexityをもとに､複数の大規模言語モデルを切り替えて推論するシステムの簡単なコード実装
-	- https://note.com/kan_hatakeyama/n/nb5625d6411a8?sub_rt=share_pw
-	- モデルの事前訓練をする余裕がないので、今回は試しに、英語が得意なLLama2-7bと、日本語でファインチューニングしたElyza-7bを統合（merge）したシステムを作ってみようと思います。
-	- 英語の質問にはllama、日本語の質問にはelyzaで答えること
+	- ほにゃらら回路で自動化す
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMT
-M0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgw
-Njg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMT
-g5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwt
-Mjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNz
-UzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUs
-LTExNDgyNzQ5OThdfQ==
+eyJoaXN0b3J5IjpbLTE1ODI1ODMzOSwxMzcxNzI0ODg4LC0xND
+U5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4
+MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NT
+MwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwt
+OTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MT
+c5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwt
+MTM0OTY0NzE0NV19
 -->
