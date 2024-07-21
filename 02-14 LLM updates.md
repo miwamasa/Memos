@@ -141,6 +141,12 @@
 - InternVL2-Llama3-76B
 	- https://huggingface.co/OpenGVLab/InternVL2-Llama3-76B
 - Codestral Mamba 7B is a Code LLM based on the Mamba2 architecture. Released under Apache 2.0 and achieves 75% on HumanEval for Python Coding.
+	- https://x.com/_philschmid/status/1813222276617412943
+	- https://mistral.ai/news/codestral-mamba/
+- By My Eyes: Grounding Multimodal Large Language Models with Sensor Data via Visual Prompting
+	- https://x.com/sei_shinagawa/status/1813189318392885311
+	- センサデータをMLLMで処理する方法として、可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測する。すべてを画像にしてやるぜという意欲作再びだ・・
+- # Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction
 	- 
 
 
@@ -3540,16 +3546,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  LoRAよりいいらしいLISA by shi3zさん
 	- https://note.com/shi3zblog/n/ndf165df51f04?sub_rt=share_pb
 	- 学習も速いし推論も速い。  こんないいことずくめのことがあっていいのか。  しかしそんないいことずくめのことが時々起きるのがこの業界の面白いところである。
--  Accelerating Scientific Discovery with Generative Knowledge Extraction, Graph-Based Representation, and Multimodal Intelligent Graph Reasoning
-	- https://arxiv.org/abs/2403.11996
-	- 言語モデルによる科学知識抽出の論文
-	- 1000件の論文のデータを言語モデルにより抽出し知識グラフに変換、グラフ解析によりバイオ材料とベートーベンの第 9 交響曲の構造的類似点など分野を超えた関係性を明らかにできたそうです。
-- Transformerのスケーリング則は線形じゃなくてべき乗則だから、トレーニングの計算量を10倍にしてもLossは12%しか減らない（性能が10倍になるわけじゃない）
-	- https://x.com/umiyuki_ai/status/1773917004464103563?s=20
-- a small-scale preview of Voice Engine
-	- https://x.com/OpenA
+-  Accelerating Scientific Discovery with Generative Knowledge Ex
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTEzNjE2MSwtMTQ1OTExMjA3NSwtMT
+eyJoaXN0b3J5IjpbLTc1MTAzMDMyMCwtMTQ1OTExMjA3NSwtMT
 M0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgw
 Njg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMT
 g5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwt
