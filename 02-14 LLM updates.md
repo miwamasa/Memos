@@ -17,6 +17,12 @@
 	- 6.それらしいカッコイイ項目名を付けてあげる（英語）
 	- 7.図に落とし込む
 - Incredible things are happening on my bag of legumes
+	- https://x.com/stackofbears/status/1811837627357622398
+- Kaggle のAI数学オリンピックコンペのfirst solution面白かった。
+	- https://x.com/corochann/status/1812447716410281986
+	- 数学の問題を解くLLMの学習データセット生成をするためにTIR (Tool Integrated Reasoning)でCode execution feedbackをいれたり、Self-Consistencyとして複数生成させた結果のMajority votingとったりしている
+	- https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/discussion/519303
+- Repurposing PaliGemma as multimodal multi-vector encoder
 	- 
 
 ## 24/7/14
@@ -3496,15 +3502,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/migtissera/status/1769824889102348366?s=20
 -  NVIDIAがヒューマノイド開発プラットフォーム提供を発表　ディズニーの二足歩行ロボットが登壇　Jetson Orinから次世代Thorへ
 	- https://robotstart.info/2024/03/19/nvidia-humanoid-jetson-thor.html
-	- NVIDIAは「GTC 2024」の創業者/CEOのジェンスン・フアン氏による基調講演で、ヒューマノイドロボット(ヒト型ロボット)を開発するためのプラットフォーム「GR00T」(ジーアールゼロゼロティー)を発表した。NVIDIAは新世代GPUと生成AIを含むヒューマノイド開発用のSDKやライブラリ、プラットフォームを提供し、全面的に支援していく。
-- 法制局も真っ青？Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック
-	- https://takagi-hiromitsu.jp/diary/20240319.html
-	- Claude 3に聞いてみた。微妙にけっこう間違うが、そこはスルーして、大変参考になる。ここまでわずか1時間程度の作業だった
-- TacticAI: an AI assistant for football tactics
-	- https://deepmind.google/discover/blog/tacticai-ai-assistant-for-football-tactics/?utm_source=twitter&utm_medium=social&utm_campaign=TacticAI/
-	- We're announcing Tactic
+	- NVIDIAは「GTC 2024」の創業者/CEOのジェンスン・フアン氏による基調講演で、ヒューマノイドロボット(ヒト型ロボット)を開発するためのプラットフォーム「GR00T」(ジーアールゼロゼロティー)を発表した
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzEwMDYwMiwxNjg4MDY4NjEwLC0yMD
+eyJoaXN0b3J5IjpbLTMwNDUxNTk0NywxNjg4MDY4NjEwLC0yMD
 Q5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3
 OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLD
 E3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3
