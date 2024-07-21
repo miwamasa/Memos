@@ -9,6 +9,11 @@
 	- 7Bクラスで数学的な能力70パー越え。見たことないレベル。
 -  マリオカートのER図について考える
 	- https://qiita.com/assu_ming/items/9d80320e6f778d83c61f
+	-  1.最終的に出したいイメージを考える
+	- 2.どんなデータが必要か列挙する
+	- 3.時系列で並べる
+	- 4.データのかたまり毎に分類してみる
+	- 5.エンティティ同士の関係性を線でつなぐ
 	- 
 
 ## 24/7/14
@@ -3495,13 +3500,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - TacticAI: an AI assistant for football tactics
 	- https://deepmind.google/discover/blog/tacticai-ai-assistant-for-football-tactics/?utm_source=twitter&utm_medium=social&utm_campaign=TacticAI/
 	- We're announcing TacticAI: an AI assistant capable of offering insights to football experts on corner kicks.
-	- it can help teams sample alternative player setups to evaluate possible outcomes, and achieves state-of-the-art
+	- it can he
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzMwNzUzNjQsMTY4ODA2ODYxMCwtMj
-A0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2
-NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMi
-wxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5
-NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0NzE0NSwtMTE0ODI3ND
-k5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1NjcsNTMwODQ2NTUzLC05
-MTk3MjEyMTddfQ==
+eyJoaXN0b3J5IjpbMTg4NzY0Mjg3NiwxNjg4MDY4NjEwLC0yMD
+Q5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3
+OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLD
+E3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3
+NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OT
+k4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1MzA4NDY1NTMsLTkx
+OTcyMTIxN119
 -->
