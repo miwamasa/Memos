@@ -199,7 +199,13 @@
 - 128k長文対応、12BモデルMistral NeMo Apache 2.0でリリース！　 by AIXサトシさん
 	- https://x.com/AiXsatoshi/status/1814012421889216576
 	- 語彙数128KのTekkenトークナイザーで、多言語、コード生成、マルチターン会話に強い Gemma 2 9BおよびLlama 3 8Bと比較して高い精度 FP8推論で性能低下しないよう学習している
+	- 日本語1.56倍圧縮するトークナイザ
 	- https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407
+-  Codification, Technology Absorption, and the Globalization of the Industrial Revolution
+	- https://x.com/nberpubs/status/1813589839951868033
+	- Japan’s massive public investments in codifying technical knowledge explain why it was unique among non-Western countries in industrializing in the 19th and early 20th centuries,
+	- 現在、世界には4種類の高所得国しかない。1) 英語圏、2) イギリスに近い国、3) 資源に恵まれた国、そして4) 日本とその旧植民地である。」 1〜3まではよく研究されているが、なぜ4なのか？
+	- 産業革命がなぜ日本に最初に広がり、他の非西洋諸国には広がらなかったのかに関するデータドリブンの研究。
 - 
 
 
@@ -3538,24 +3544,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- LISA algorithm in two lines: 
 		- always activate embedding and linear head layer 
 		- randomly sample intermediate layers to unfreeze
-	- 岡野原さん、LISAはLLMのファインチューニングの際に、各層を確率的にサンプリングし、選択された層のみ更新する。全パラメータ更新しながらLoRAよりもメモリ使用量、計算量とも効率的に計算できる（通常学習でもできそう）。最初の層と最後の層のみ採択する確率は高くしておく
-- DBRXまとめ
-	- https://x.com/webbigdata/status/1772981844839207206?s=20
-	- ・Databricks社が新たに公開したオープンなMoEモデル 
-	- ・自社調べでGPT-3.5 を上回り、Gemini 1.0 Pro と競合 
-	- ・コード能力で特化モデルCodeLLaMA-70Bを上回る 
-	- ・推論は LLaMA2-70B よりも最大 2 倍高速 
-	- ・16人のエキスパートの中で4 人を選択して推論を実行 
-	- ・パラメータ数はGrok-1の約40%だが性能は上回る 
-	- ・テキスト データとコード データを合計した12Tトークンで事前トレーニング 
-	- ・3072 台の NVIDIA H100を使って約3か月でトレーニング 
-	- ・ファイルサイズは 263.07(約4.4 GB x 6
+	- 岡野原さん、LISAはLLMのファインチューニング
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY4NzQ2MDgsMTM3MTcyNDg4OCwtMT
-Q1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1
-ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NT
-UzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzks
-LTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3Nz
-E3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEs
-LTEzNDk2NDcxNDVdfQ==
+eyJoaXN0b3J5IjpbNTM2OTI1NTI1LDEzNzE3MjQ4ODgsLTE0NT
+kxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgy
+MTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1Mz
+AxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05
+MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNz
+k1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0x
+MzQ5NjQ3MTQ1XX0=
 -->
