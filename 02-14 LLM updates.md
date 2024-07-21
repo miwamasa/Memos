@@ -36,7 +36,16 @@
 	- https://x.com/evilsocket/status/1812110504531259900
 -  Context Embeddings for Efficient Answer Generation in RAG
 	- https://arxiv.org/abs/2407.09252
-	- 
+	- Speeds up generation time while improving answer quality by compressing multiple contexts into a small number of embeddings, offering flexible compression rates.
+- LLMの現在 by いもす
+	- https://speakerdeck.com/pfn/llmnoxian-zai
+	- 生成AIに関わるなら教養として読んでおきたい資料。 この資料からわかることとしては、 
+		- 長いスパンで見た現在の生成AIブームの立ち位置 
+		- 事前学習からfine tuning,推論の仕組みなど 
+		- 開発における課題など LLMに関する一歩踏み込んだ内容を体系的に理解できます！ 
+	- G検定でも生成AI周りの出題は増えてきているし、ここまでまとまった資料が無料で見れるのはありがたい。
+	- https://x.com/blue_statistics/status/1812785366925218181
+- 
 
 ## 24/7/14
 
@@ -3500,19 +3509,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.youtube.com/watch?v=Y2F8yisiS6E
 - NVIDIA、GPUプラットフォーム「Blackwell」発表　「兆パラメータ規模のAIモデル実現」
 	- https://www.itmedia.co.jp/news/articles/2403/19/news092.html
-	- プラットフォームに搭載する「GB200 Grace Blackwell Superchip」は、新GPU「B200」（2080億個のトランジスタを搭載し、現行の「H100」と比較して、AI向けの作業で5倍の処理能力を発揮するGPU）を2基と1基のGrace CPUを組み合わせたもの。
-	- NVIDIAによると、1兆8000億パラメータのAIモデルをトレーニングするには、Hopper GPUでは8000個のGPUで15メガワットの電力が必要だったが、新スーパーチップであれば2000個で可能で、消費電力は4メガワットで済むという。
-- DGX GB200 NVL72は、GB200 Superchipを72基NVLinkで接続したクラスタ
-	- https://x.com/_ksasaki/status/1769829822946001353?s=20
-- 生成AIアプリの展開を数分に、NVIDIAが新マイクロサービス「NIM」を発表
-	- https://xtech.nikkei.com/atcl/nxt/news/24/00424/
-	- NIMは、生成AIの推論に必要となる各種ソフトウエアがインストール済みのコンテナ（マイクロサービス）を提供する仕組みである。具体的には、エヌビディアが開発した推論ワークフローを最適化するフレームワークである「Triton Inferenc
+	- プラットフォームに搭載する「GB200 Grace Blackwell Superchip」は、新GPU「B200」（2080億個のトランジスタを搭載し、現行の「H100」と比較して、AI向けの作業で5倍の
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxNTE1ODcxLC0xMTY1ODIxMTM2LDE2OD
-gwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIw
-MTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NS
-wtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMx
-NzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxND
-UsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUz
-MDg0NjU1M119
+eyJoaXN0b3J5IjpbMTI2MzI0MDg5MywtMTE2NTgyMTEzNiwxNj
+g4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDky
+MDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOT
+UsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUz
+MTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MT
+Q1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1
+MzA4NDY1NTNdfQ==
 -->
