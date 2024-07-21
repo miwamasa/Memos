@@ -76,6 +76,7 @@
 		- "For how many values of the constant $ k $ will the polynomial $ x^{2}+kx+36$ have two distinct integer roots?"
 - Deploy llama-agents running entirely self-hosted agents using arcee_ai, MistralAI and ollama!
 	- https://x.com/llama_index/status/1812884178616406422
+- 
 
 
 ## 24/7/14
@@ -3522,11 +3523,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 公表済みベンチマークによればgpt-3.5を上回るが、Claude 2やGPT-4は下回る
 - Apple in talks with Google for using Ge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDU3MTI1NywtMTI2MDQwODMyMiwtMT
-E2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2
-ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMz
-c5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3
-NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5OD
-AxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4
-LDYyMjY3ODU2N119
+eyJoaXN0b3J5IjpbLTIwMjMyMDg1ODgsLTEyNjA0MDgzMjIsLT
+ExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5
+Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MD
+M3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0x
+Nzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OT
+gwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQy
+OCw2MjI2Nzg1NjddfQ==
 -->
