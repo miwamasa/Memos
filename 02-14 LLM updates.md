@@ -7,11 +7,12 @@
 
 Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。数学モデルMathtraをリリース、OSSで数学モデルをというプロジェクト Numinaと関連している。AI-MOがリリースしたNuminaMath-7B-TIRは、AI数学オリンピックで優勝したもの、デモもあるが、量子化版はllmcppでも動くらしい。Kaggleには数学モデル用のデータの整備の記事がLLM活用のお手本のような感じ。
 
+マイクロソフトからは、エクセルを対象としたLLMである、「SpreadsheetLLM」、シートコンプレッサーってのが肝の技術だったのか。マイクロソフトのQ-Sparse、Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらない。ローカルLLMでGraphRAGを実装する例なども出てきて、GraphRAG
 
 ELYZA-tasks-100を人間が解くと何点取れるのかという記事も面白かった、問題がいまいちという感じもするが、これからデータサイエンティストの採用試験にしたらどうか。。
 
 
-ローカルLLMでGraphRAGを実装して「
+
 
 
 
@@ -21,7 +22,7 @@ ELYZA-tasks-100を人間が解くと何点取れるのかという記事も面�
 BCGの、「フェッショナル経営参謀」、これをＬＬＭに教えると、いやコンサルＬＬＭが爆誕しそうだ。
 
 
-言語資源というか、日本語による技術知識が公共財であるという論文、マルチ言語の世界
+言語資源というか、日本語による技術知識が公共財となり日本の発展を支えたという論文、レアな良質な知識がそこにあるからという理由ならば、今のマルチ言語の世界では新しい方向性を見つけなければ、世界に埋もれてしまう気がする。
 
 
 
@@ -31,7 +32,7 @@ BCGの、「フェッショナル経営参謀」、これをＬＬＭに教え�
 材料系・化学系だと、反応予測の機械学習モデル、専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できるとか、 By My Eyes論文のように可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測するとか、もはやマルチモーダル機能を使えば下手な人間による前処理が不要なのか？マイクロソフトからは、汎用機械学習ポテンシャル、新しい機能性材料の探索や、地球内部での元素の分布予測、効率的な化学プロセスの設計などが期待できる。それにしても、Googleの「自己複製するプログラム」の論文、「Brainfuck Family」（BFF）と呼ばれる言語環境というのは、創発を狙っているのか。
 
 
-マイクロソフトからは、エクセルを対象としたLLMである、「SpreadsheetLLM」、シートコンプレッサーってのが肝の技術だったのか。マイクロソフトのQ-Sparse、Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらない
+
 
 LLMに対して「心の理論」を実装したエージェントは
 
@@ -3565,10 +3566,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- RAFT offers a method to fine-tune pre-trained LLMs for specific domain RAG settings.
 	- Conventional RAG is like an open-book exam, retrieving documents from an index to provide context for answering queries. This makes it more effective than the closed-book exam setting where LLMs rely solely on their pre-training and fine-tuning to respond to prompts, but doesn't allow the LLM to learn the domain beforehand.
 - NatCom誌【ビールの風味とおいしさ（飲んだ人の評価）を決定する物質を250のビールに対する18万のレビューから機械学習で解明。
-	- https://www.nature.com/articles/s41467-024-46346-0
-	- 複雑な心理現象について
+	- http
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNjIxNDk4LC0xMTcxNDcxNTc0LDEwND
+eyJoaXN0b3J5IjpbODgxODY0NDM4LC0xMTcxNDcxNTc0LDEwND
 AyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIw
 NzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNi
 wxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDEx
