@@ -3,9 +3,9 @@
 
 ## 24/7/22
 
+今週もいろいろありました、
 
-
-Mistralからは、mambaを採用したCode
+Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。数学モデルMathtra
 - Mistralが、数学モデルと、Mambaのコード生成モデル　by AIXサトシさん
 - 	- https://mistral.ai/news/codestral-mamba/
 	- https://mistral.ai/news/mathstral/
@@ -3577,15 +3577,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 複雑な心理現象について、大規模データと機械学習を用いて仮説フリーで当たりをつけ、それを「仮説」として実験室で検証実験を行う。うらやましいほどお手本のような現代的研究。ビールを対象としているところも粋でオモロいし！
 - NTTのTsuzumi、7Bパラのマルチモーダルで、RakudaベンチマークでGPT-3.5を上回るんだと。
 	- https://x.com/umiyuki_ai/status/1772588308537000101?s=20
-- OpenAIが「VOICE ENGINE」の名前で商標を出願
-	- https://x.com/ctgptlb/status/1771005259948986562?s=20
--  Rakuten
+- OpenAIが「VOICE ENG
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjkzMjE2OSwtMTE3MTQ3MTU3NCwxMD
-QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
-MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
-YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
-MTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwtOTAzMD
-M3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTcz
-LDE1MzE3NTM5MzNdfQ==
+eyJoaXN0b3J5IjpbLTEyNzg1OTI5MTksLTExNzE0NzE1NzQsMT
+A0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTEx
+MjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMT
+M2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEs
+MTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMz
+AzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3
+MywxNTMxNzUzOTMzXX0=
 -->
