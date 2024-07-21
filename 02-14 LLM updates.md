@@ -167,6 +167,13 @@
 	- We trained advanced language models to generate text that weaker models can easily verify, and found it also made these texts easier for human evaluation. 
 	- This research could help AI systems be more verifiable and trustworthy in the real world.
 	- OpenAIが作ってるAIが賢くなりすぎてて、AIがいくら正確な回答しても人間はアホだから内容を理解できないのがもはや問題になってるらしい。by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1813635128570311037
+	- そこで、しょうがねえから人間の代わりにアホなAIを用意して、つよつよAIにアホAIでも理解できるように説明しろ！って訓練をさせたらしい。
+	- 結果、人間にも分かりやすく説明してくれるようになりました！だってさ。
+- AIは生産性を大きく高めない 議論を呼ぶMIT教授の悲観論
+	- https://www.asahi.com/articles/ASS7J33L5S7JUHMC003M.html
+	- アセモグル教授はこう結論づける。AIは労働者の生産性に対して「わずか」な改善効果しかもたらさず、今後10年間の米国の経済成長への寄与率は1％未満しかない、と。
+- very glad President Trump is safe!　by Sam Altman
 	- 
 
 
@@ -3541,14 +3548,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - GovBot担当者はなにも理解してないとの疑惑が、、by ひろみちゅ先生
 	- https://x.com/HiromitsuTakagi/status/1773148382820778280?s=20
 	- それ、GovBotはAIではないので学習と呼ぶのは異常だし、ここで人間が学習するなんて話をするのは滑稽と言う他ないですね
-- DBRXは試せる模様
-	- https://huggingface.co/spaces/databricks/dbrx-instruct
-	- 「風の谷のナウシカ」は、宮崎駿監督による日本のアニメ映画です。ナウシカは、風の谷の王女であり、森と深い関係性を持っています。森の人は、森に住む原始的な部族のことです。ナウシカは、森とその住人を尊重し、森と共存することを望んでいます。彼女は、森とその住人が持つ力を理解しており、それを使って、風の谷と森の間の紛争を解決しようとします。しかし、森の人は、風の谷や他の王国との関係性について、より懐疑的であり、ナウシカの考えに反対することもあります。
-- PFN初のゲーム『Omega Crafter』
-	- https://x.com/imos/status/1773254326003139023?s=20
-	- ほにゃらら回路で自動化す
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI1ODMzOSwxMzcxNzI0ODg4LC0xND
+eyJoaXN0b3J5IjpbLTcyMzQ5NjQyMiwxMzcxNzI0ODg4LC0xND
 U5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4
 MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NT
 MwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwt
