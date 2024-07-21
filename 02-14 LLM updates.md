@@ -152,8 +152,13 @@
 	- この研究の中心となったのは、「Brainfuck」（BF）という極めて単純な言語を拡張した「Brainfuck Family」（BFF）と呼ばれる言語環境である。
 	- BFFでは、_**64バイトの長さを持つ131,072個のランダムなプログラムによって、「原始スープ」（Primordial-soup）と呼ばれる環境を形成する**_。
 	- 言語BrainfuckやZ80の原始スープ環境を構築。2の17乗のプログラムが相互作用し自己修正するだけで自己複製プログラムが出現。これらが環境を支配し競争し共生する生命に似た振る舞いを見せた
-- 
-- 
+-  Microsoftがスプレッドシートを理解できる言語モデル「SpreadsheetLLM」を発表、Excelの仕事もAIがこなす時代に
+	- https://gigazine.net/news/20240716-microsofts-ai-spreadsheetllm/
+- Google accidentally updated their website with Gemini 2.0 and Bing indexing caught it
+	- https://x.com/phill__1/status/1813307823570157899
+-  Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models
+	- https://www.arxiv.org/abs/2407.07086
+	- 
 
 
 
@@ -3541,19 +3546,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- モデルの事前訓練をする余裕がないので、今回は試しに、英語が得意なLLama2-7bと、日本語でファインチューニングしたElyza-7bを統合（merge）したシステムを作ってみようと思います。
 	- 英語の質問にはllama、日本語の質問にはelyzaで答えることができればコンセプト実証に成功です。
 - Generative Flow Networks by Yoshua Bengio
-	- https://mila.quebec/en/article/generative-flow-networks/
-	- https://www.youtube.com/watch?v=ggYoJp0b3Oo
--  Introducing Jamba: AI21's Groundbreaking SSM-Transformer Model
-	- https://www.ai21.com/blog/announcing-jamba
-	- 岡野原さん、JambaはMambaとTransformerをあわせた52B LLM。MoEで有効パラメータは12B、1GPUでコンテキスト長140Kまで扱え、複数GPUでは256Kまで扱える。コンテキストが長くなった時は3倍近いスループット。1/8の割合でTransformerを使う。Mambaを採用したLLMで初めての大きなモデル。
--   LMFlowによる日本語LISAトレーニング　 by shi3zさん
-	- https://w
+	- https://mila.quebec/en/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDk1MzM5NSwtMTQ1OTExMjA3NSwtMT
-M0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgw
-Njg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMT
-g5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwt
-Mjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNz
-UzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUs
-LTExNDgyNzQ5OThdfQ==
+eyJoaXN0b3J5IjpbOTYwODAyMTgsLTE0NTkxMTIwNzUsLTEzND
+EzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4
+NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OT
+MsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5
+OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1Mz
+kzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0x
+MTQ4Mjc0OTk4XX0=
 -->
