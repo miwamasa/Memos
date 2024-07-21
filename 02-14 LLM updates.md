@@ -28,7 +28,11 @@
 	- ColPali, a ColBERT-inspired multimodal multi-vector encoder using PaliGemma as a basis for document retrieval.
 - a knowledge graph agent into the 🐫 CAMEL framework.
 	- https://x.com/CamelAIOrg/status/1812168079712895059
-	- 
+- Camel AIのKnowlegeGraphを抽出するプロンプト
+	- https://x.com/guohao_li/status/1812406721547256100
+- ローカルLLMでGraphRAGを実装して「クリスマスキャロル」を分析してみた
+	- https://hamaruki.com/analyzing-christmas-carol-with-local-llm-graphrag-2/
+- 
 
 ## 24/7/14
 
@@ -3500,12 +3504,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://xtech.nikkei.com/atcl/nxt/news/24/00424/
 	- NIMは、生成AIの推論に必要となる各種ソフトウエアがインストール済みのコンテナ（マイクロサービス）を提供する仕組みである。具体的には、エヌビディアが開発した推論ワークフローを最適化するフレームワークである「Triton Inference Server」やツールキット「TensorRT-LLM」などがインストールされ、エヌビディアやパートナー企業が提供する20以上のAIモデルに最適化されている。
 -  LlamaIndex Accelerates Enterprise Generative AI with NVIDIA NIM
-	- https://www.llamaindex.ai/blog/llamaindex-accelerates-enterprise-generative-ai-with-nvidia-nim
-	- LlamaIndex  is integrated with NVIDIA NIM inference microservices to help enterprises seamlessly deploy generative AI at scale
-- 1x GPU Blackwell - 192GB VRAM 2x GPU 
-	- Blackwell with CPU
+	- https://www.llamaindex.ai/blog/llamaindex-accelerates-enterprise-generative-a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTc5MDI0NTcsLTExNjU4MjExMzYsMT
+eyJoaXN0b3J5IjpbLTExOTc5OTkwNjksLTExNjU4MjExMzYsMT
 Y4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5
 MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mj
 k1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1
