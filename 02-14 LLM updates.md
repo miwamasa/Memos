@@ -187,8 +187,13 @@
 - new GPT-4o mini release!
 	- https://x.com/OpenAI/status/1813991706083340798
 	- Introducing GPT-4o mini! It’s our most intelligent and affordable small model, available today in the API. GPT-4o mini is significantly smarter and cheaper than GPT-3.5 Turbo.
-- 
-
+	- GPT-4o mini's early version "upcoming-gpt-mini" was tested in Arena in the past week. by lmsysorg
+		- https://x.com/lmsysorg/status/1813999088758673875
+- MistralがNVidiaと強力タッグを組んで12BパラのMistral-Nemoをオープンリリース by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1813961423653077246
+	- コンテキストウインドウ128k！
+	- 量子化認識でトレーニングされており、パフォーマンスを損なうことなく FP8 推論できる！
+	- 
 
 
 ## 24/7/14
@@ -3541,14 +3546,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Exploration—not work—could be key to a vibrant local economy
 	- https://phys.org/news/2024-03-exploration-key-vibrant-local-economy.html
 	- Cities and the surprising finding from mobility data analysis that it's more in how we spend and explore in our free time that drives the economic vibrancy of cities, over where we work and go to school.
-- Monitoring AI-Modified Content at Scale:A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews
-	- https://arxiv.org/pdf/2403.07183.pdf
--  Intel® Neural Compressor
-	- https://github.com/intel/neural-compressor
-	- All your need is Intel Neural Compressor (INC) for INT4 LLMs. INC v2.5 released with SOTA INT4 LLM quantization (AutoRound) across platforms incl. Intel Gaudi2, Xeon, and GPU.
-	- Models: Llama2, Mistr
+- Monitoring AI-Modified Content at Scale:A Case Study on the Impact of ChatGPT on AI 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjYwMTk0OSwxMzcxNzI0ODg4LC0xND
+eyJoaXN0b3J5IjpbLTEzODI0ODczMSwxMzcxNzI0ODg4LC0xND
 U5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4
 MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NT
 MwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwt
