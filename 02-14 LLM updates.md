@@ -30,7 +30,7 @@ ELYZA-tasks-100を人間が解くと何点取れるのか
 深層学習の数理 by 鈴木大慈
 
 
-反応予測の専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できたそうです。
+反応予測の専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できたそうです。 By My Eyes:可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測する。
 マイクロソフトからは、汎用機械学習ポテンシャル、新しい機能性材料の探索や、地球内部での元素の分布予測、効率的な化学プロセスの設計など
 
 -  Common 7B Language Models Already Possess Strong Math Capabilities
@@ -3569,13 +3569,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- H100を10万台以上配備しているらしく、電力的に一つのDCに収まらなくなってきている (※10万台 = 70メガワット)
 - The Unreasonable Ineffectiveness of the Deeper Layers
 	- https://huggingface.co/papers/2403.17887
-	- We empirically study a simple layer-pruning strategy for popular f
+	- We empirica
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5MjkwMjYxLC0xMTcxNDcxNTc0LDEwND
-AyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIw
-NzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNi
-wxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDEx
-NDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMz
-cyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMs
-MTUzMTc1MzkzM119
+eyJoaXN0b3J5IjpbMTY5NzEzMDAzNiwtMTE3MTQ3MTU3NCwxMD
+QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
+MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
+YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
+MTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwtOTAzMD
+M3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTcz
+LDE1MzE3NTM5MzNdfQ==
 -->
