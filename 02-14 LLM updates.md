@@ -104,7 +104,25 @@
 	- https://ibis.t.u-tokyo.ac.jp/suzuki/lecture/2023/TohokuUniv/%E6%9D%B1%E5%8C%97%E5%A4%A7%E5%AD%A62023.pdf
 		- 線形モデル→カーネルモデル→深層モデル
 		- 訓練誤差と汎化誤差
-		- 
+		- 深層学習はなぜうまくいくのか？ [世界的課題]
+		- 数学による深層学習の原理究明
+		  - 「表現能力」、「汎化能力」、「最適化」
+	  - **学習**
+		- カーネル法、スパース推定、テンソル分解、特徴抽出
+- 深層学習の理論
+
+#### 数学
+- Besov空間
+- 連続方程式
+- 関数近似理論
+- 確率集中不等式
+- Wasserstein幾何
+- 確率過程
+
+---
+
+理論により深層学習を"謎の技術"から"制御可能な技術"へ  
+深層学習を超える方法論の構築へ
 	- Deep Learningについて深く理解したい人は、東北大学の集中講義「深層学習の数理」を読んだ方がいいです。
 	- 深層学習の「よくわからないけど、精度がよい」という認識を超え、一歩深い理解ができるように、原理を解明しようとしている資料です。
 	- 特に「深層学習の解釈可能性」は、ビジネスサイドでも必見です。
@@ -3536,13 +3554,8 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- NTTは2024年3月25日、独自LLM（大規模言語モデル）である「tsuzumi」のサービス提供を始めた
 	- tsuzumiは日本語と英語に対応し、パラメーター数は70億とOpenAIの「GPT-3」の1750億と比べて25分の1と軽量だ。LLMの日本語処理性能に関するベンチマークテスト「Rakuda Benchmark」の結果では、GPT-3.5や同規模の国産LLMを上回ったという。tsuzumiは言語に加え、図表や画像の解析などにも対応する。
 	- うみゆきさん、LLMの学習コスト感ってよく知らんけど、Tsuzumiの資料によればAWSで7Bモデルを300Bトークン学習させると1900万円かかるらしい。300Bじゃ少ないから1.2Tくらいは学習させたいよね。そしたら7600万円か。
--  NTTが開発したLLM「tsuzumi」、NTT Comより商用生成AIサービスとして提供開始
-	- https://internet.watch.impress.co.jp/docs/news/1578961.html
-- 楽天が日本語に最適化したMistralベースのLLMを公開、商用目的で使用可能(2023年3月21日)
-	- https://xtech.nikkei.com/atcl/nxt/news/24/00440/
-	- 公開したのは基盤モデルの「Rakuten AI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDgzNzk4MDQsLTEzNDEzNzM4MCwtMT
+eyJoaXN0b3J5IjpbLTEwOTc2NTQ5OTksLTEzNDEzNzM4MCwtMT
 I2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5
 NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OT
 AyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3
