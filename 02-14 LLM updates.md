@@ -40,7 +40,9 @@ Googleの研究者らが「自己複製するプログラム」の「Brainfuck F
 
 LLMに対して「心の理論」を実装したエージェントは
 
-GPT-4o miniは、GPT-4よりも賢く、GPT-4oより約30倍も安い、
+GPT-4o miniは、GPT-4よりも賢く、GPT-4oより約30倍も安い、語彙数128KのTekkenトークナイザーの採用で日本語への効果も期待されるす、量子化を想定した学習ってどういうこと？
+
+OpenAI、つよつよAIにアホAIでも理解できるように説明しろ！って訓練をさせたら
 
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
@@ -3573,11 +3575,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/ctgptlb/status/1771005259948986562?s=20
 -  RakutenAI-7B: Extending Large Language Models for Japanese
 	- https://huggingface.co/papers/2403.15484
-- MSのエンジニアがGPT-6クラスタの構築に取り組んでる
-	- https://x.com/_kaiinui/status/1772455514489672080?s=20
-	- H100を10万台以上配備しているら
+- MSのエン
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTQ3MzcyOSwtMTE3MTQ3MTU3NCwxMD
+eyJoaXN0b3J5IjpbLTc2OTQyNDk3NywtMTE3MTQ3MTU3NCwxMD
 QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
 MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
 YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
