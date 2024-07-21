@@ -11,7 +11,7 @@ Mistralからは、mambaを採用したCode
 ローカルLLMでGraphRAGを実装して「
 
 
-Kaggle のAI数学オリンピックコンペのfirst solution TIR (Tool Integrated Reasoning)、NuminaMath-7B-TIR-Q8_0-GGUF
+Kaggle のAI数学オリンピックコンペのfirst solution TIR (Tool Integrated Reasoning)、NuminaMath-7B-TIR-Q8_0-GGUF、 Demoもあるよ模様。
 
 
 NuminaMath-7B-TIR-Q8_0-GGUF
@@ -28,7 +28,7 @@ ELYZA-tasks-100を人間が解くと何点取れるのか
 
 深層学習の数理 by 鈴木大慈
 
-汎用機械学習ポテンシャル、
+マイクロソフトからは、汎用機械学習ポテンシャル、新しい機能性材料の探索や、地球内部での元素の分布予測、効率的な化学プロセスの設計など
 
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
@@ -150,6 +150,7 @@ ELYZA-tasks-100を人間が解くと何点取れるのか
 	- 汎用機械学習ポテンシャル
 	- Microsoftさんは1700万データでM3GNetを訓練した機械学習ポテンシャルを用いて有限温度・圧力下の自由エネルギーを正確に予測できたそうです。
 	- 広範な元素・温度・圧力条件に対応できる汎用的なモデルを構築したことです。
+	- 新しい機能性材料の探索や、地球内部での元素の分布予測、効率的な化学プロセスの設計など
 - OllamaがOpenAIのAPI互換のツール使用をサポートだって
 	- https://x.com/umiyuki_ai/status/1813096846656430429
 - Mistralが、数学モデルと、Mambaのコード生成モデル　by AIXサトシさん
@@ -3565,10 +3566,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- H100を10万台以上配備しているらしく、電力的に一つのDCに収まらなくなってきている (※10万台 = 70メガワット)
 - The Unreasonable Ineffectiveness of the Deeper Layers
 	- https://huggingface.co/papers/2403.17887
-	- We empirically study a simple layer-pruning strategy for popular families of open-weight pretrained LLMs, finding minimal degradation of performance on different question-answering benchmarks until after a large fraction
-	- 岡野原さん、学習済みのLLMから、層毎に入力と出力間のcos類似度が大きい層（変化が少ない層）を間引いても精度は
+	- We empirically study a simple layer-pruning strategy for popular families of open-weight pretrained LLMs, finding minimal degradation of performance on different questi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTI5OTUwOCwtMTE3MTQ3MTU3NCwxMD
+eyJoaXN0b3J5IjpbMTI4NDk4NzUxMCwtMTE3MTQ3MTU3NCwxMD
 QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
 MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
 YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
