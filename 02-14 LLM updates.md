@@ -94,6 +94,7 @@
 	- Check out nicolaygerold's full thread + diagrams below on agentic RAG + multi-agent architecture concepts, which we talked about during our aiDotEngineer talk 👇
 	- https://www.youtube.com/watch?v=zeAyuLc_f3Q
 - ELYZA-tasks-100を人間が解くと何点取れるのか？
+	- https://zenn.dev/yuki127/articles/2496cd8383c84c
 	- 
 
 
@@ -3528,13 +3529,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 3/25
 
-先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 H100の５倍の性能！新GPUであるB200、DGX GB200 NVL72とか、NIMの発表とか、一人勝ちってこういうこと。早速llamaindexがNVIDIA NIMで動くようになった。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステ
+先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 H100の５倍の性能！新GPUであるB200、DGX GB200 NVL72とか、NIMの発表とか、一人勝ちってこういうこと。早速llamaindexがNVIDIA NIMで動くようになった。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTAyMDAxNTksLTEyNjA0MDgzMjIsLT
-ExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5
-Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MD
-M3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0x
-Nzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OT
-gwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQy
-OCw2MjI2Nzg1NjddfQ==
+eyJoaXN0b3J5IjpbMTk5MzY2OTAxNiwtMTI2MDQwODMyMiwtMT
+E2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2
+ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMz
+c5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3
+NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5OD
+AxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4
+LDYyMjY3ODU2N119
 -->
