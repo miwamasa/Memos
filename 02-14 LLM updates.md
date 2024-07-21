@@ -193,7 +193,14 @@
 	- https://x.com/umiyuki_ai/status/1813961423653077246
 	- コンテキストウインドウ128k！
 	- 量子化認識でトレーニングされており、パフォーマンスを損なうことなく FP8 推論できる！
-	- 
+	- ベンチスコアはMMLU以外はGemma2-9Bを圧倒！Tekkenトークナイザで日本語のトークン効率爆上がり！
+- GPT-4o miniは、GPT-4よりも賢く、GPT-4oより約30倍も安い、革命的なAIモデルです
+	- https://x.com/ctgptlb/status/1813998168931192843
+- 128k長文対応、12BモデルMistral NeMo Apache 2.0でリリース！　 by AIXサトシさん
+	- https://x.com/AiXsatoshi/status/1814012421889216576
+	- 語彙数128KのTekkenトークナイザーで、多言語、コード生成、マルチターン会話に強い Gemma 2 9BおよびLlama 3 8Bと比較して高い精度 FP8推論で性能低下しないよう学習している
+	- https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407
+- 
 
 
 ## 24/7/14
@@ -3542,17 +3549,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ・パラメータ数はGrok-1の約40%だが性能は上回る 
 	- ・テキスト データとコード データを合計した12Tトークンで事前トレーニング 
 	- ・3072 台の NVIDIA H100を使って約3か月でトレーニング 
-	- ・ファイルサイズは 263.07(約4.4 GB x 61safetensors)
-- Exploration—not work—could be key to a vibrant local economy
-	- https://phys.org/news/2024-03-exploration-key-vibrant-local-economy.html
-	- Cities and the surprising finding from mobility data analysis that it's more in how we spend and explore in our free time that drives the economic vibrancy of cities, over where we work and go to school.
-- Monitoring AI-Modified Content at Scale:A Case Study on the Impact of ChatGPT on AI 
+	- ・ファイルサイズは 263.07(約4.4 GB x 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI0ODczMSwxMzcxNzI0ODg4LC0xND
-U5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4
-MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NT
-MwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwt
-OTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MT
-c5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwt
-MTM0OTY0NzE0NV19
+eyJoaXN0b3J5IjpbLTE4ODY4NzQ2MDgsMTM3MTcyNDg4OCwtMT
+Q1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1
+ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NT
+UzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzks
+LTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3Nz
+E3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEs
+LTEzNDk2NDcxNDVdfQ==
 -->
