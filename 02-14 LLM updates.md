@@ -18,6 +18,11 @@ LLMの現在 by いもす
 
 「フェッショナル経営参謀」
 
+
+外国からの技術的な知識を日本語に翻訳して公共財として普及
+
+ELYZA-tasks-100を人間が解くと何点取れるのか
+
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
 	- his paper employs this straightforward approach achieves an accuracy of 82.6% on GSM8K and 40.6% on MATH using LLaMA-2 7B models, surpassing previous models by 14.2% and 20.8%, respectively.
@@ -115,7 +120,7 @@ LLMの現在 by いもす
 	- 解くにあたって難しかった問題や、LLMの立場でプロンプトはどうあってほしいかを解説する
 	- Sonnet3.5は、**4.42点(+0.02 / -0.02)**
 	- レポーターは、**3.69点(+0.03 / -0.03)**
-- 深層学習の数理
+- 深層学習の数理 by 鈴木大慈
 	- https://ibis.t.u-tokyo.ac.jp/suzuki/lecture/2023/TohokuUniv/%E6%9D%B1%E5%8C%97%E5%A4%A7%E5%AD%A62023.pdf
 		- 線形モデル→カーネルモデル→深層モデル
 		- 訓練誤差と汎化誤差
@@ -3556,11 +3561,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- まあ有名な映画、小説の題名のもじり
 - DeepLearningAIから、新しいRAGのコースが
 	- https://www.deeplearning.ai/short-courses/javascript-rag-web-apps-with-llamaindex/
-	- JavaScript RAG Web Apps with LlamaIndex,
-- LoRaより優れたLISA
-	- https://x.com
+	- Jav
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzI0MzUwNCwyOTAwMTIxNDIsMTM3MT
+eyJoaXN0b3J5IjpbMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MT
 cyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4
 MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1ND
 QsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIx
