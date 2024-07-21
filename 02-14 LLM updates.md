@@ -33,6 +33,11 @@ ELYZA-tasks-100を人間が解くと何点取れるのか
 反応予測の専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できたそうです。 By My Eyes:可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測する。
 マイクロソフトからは、汎用機械学習ポテンシャル、新しい機能性材料の探索や、地球内部での元素の分布予測、効率的な化学プロセスの設計など
 
+Googleの研究者らが「自己複製するプログラム」の「Brainfuck Family」（BFF）と呼ばれる言語環境
+
+
+シートコンプレッサー
+
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
 	- his paper employs this straightforward approach achieves an accuracy of 82.6% on GSM8K and 40.6% on MATH using LLaMA-2 7B models, surpassing previous models by 14.2% and 20.8%, respectively.
@@ -3567,15 +3572,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - MSのエンジニアがGPT-6クラスタの構築に取り組んでる
 	- https://x.com/_kaiinui/status/1772455514489672080?s=20
 	- H100を10万台以上配備しているらしく、電力的に一つのDCに収まらなくなってきている (※10万台 = 70メガワット)
-- The Unreasonable Ineffectiveness of the Deeper Layers
-	- https://huggingface.co/papers/2403.17887
-	- We empirica
+- The Unreasonable Ineffectiveness of the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzEzMDAzNiwtMTE3MTQ3MTU3NCwxMD
-QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
-MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
-YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
-MTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwtOTAzMD
-M3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTcz
-LDE1MzE3NTM5MzNdfQ==
+eyJoaXN0b3J5IjpbNjQ5MjE1MjU2LC0xMTcxNDcxNTc0LDEwND
+AyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIw
+NzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNi
+wxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDEx
+NDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMz
+cyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMs
+MTUzMTc1MzkzM119
 -->
