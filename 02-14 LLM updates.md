@@ -130,7 +130,12 @@
 - ollama runs mathtral
 	- https://ollama.com/library/mathstral
 - 9.11 > 9.9? Someone suspected this is learned from version numbers. Here's some concrete proof.
-	- 
+	- https://x.com/liujc1998/status/1813244909501182310
+- An underrated capability of sonnet-3.5 is that it’s really good at chart understanding from llamaindex
+	- https://x.com/llama_index/status/1813249175817232782
+	- compared to gpt-4o it’s much better at inferring chart values into a structured table.
+	- Thanks to our brand-new LlamaParse release 💫 you can easily use SOTA multimodal models like
+- 
 
 
 
@@ -3542,19 +3547,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  langchainとDatabricksで(私が)学ぶRAG : BGE-M3を使った埋め込み
 	- https://qiita.com/isanakamishiro2/items/e4f67586b4cb5f171ea9
 	- BAAI(Beijing Academy of Artificial Intelligence)から、BGE-M3というEmbedding用のモデルが公開されました。
-	- 日本語RAGにおける新たな埋め込みのスタンダードモデルになるかもしれないなと思い、このモデルを使った検索を試してみました。
-	- LangChainには`HuggingFaceBgeEmbeddings`というBAAIのBGE系埋め込みモデルを利用するための専用クラスた用意されており、そちらを利用します。
-	- RAGの性能を高める上で埋め込みに関する工夫は重要であり、今後もこういった高性能なモデルが公開されていくと（素人的に使う側にとっては）ありがたいですね。
--  NTTが独自LLMのtsuzumiを提供開始、日本語性能で「GPT-3.5超え」(2024年3月25日)
-	- https://xtech.nikkei.com/atcl/nxt/news/24/00458/
-	- NTTは2024年3月25日、独自LLM（大規模言語モデル）である「tsuzumi」のサービス提供を始めた
-	- tsuzumiは日本語と英語に対応し、パラメーター数は70億とOpenAIの「GPT-3」
+	- 日本語RAGにおける新たな埋め込みのスタンダードモデルになるかもしれないなと思い、このモデルを
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ2MTE4NSwtMTM0MTM3MzgwLC0xMj
-YwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2
-Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MD
-IsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTcz
-NDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MD
-E1LC0zOTMyNjk4MDEsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgs
-LTIwNDIzNzc0MjhdfQ==
+eyJoaXN0b3J5IjpbLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMT
+I2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5
+NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OT
+AyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3
+MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NT
+AxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4
+LC0yMDQyMzc3NDI4XX0=
 -->
