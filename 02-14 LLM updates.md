@@ -3,9 +3,7 @@
 
 ## 24/7/22
 
-今週もいろいろありました、gpt-4o miniの発表のほかにAI数学オリンピック関連が目立ちました。OpenAIから出たGPT-4o mini、GPT-4よりも賢く、GPT-4oより約30倍も安いということですが、語彙数128KのTekkenトークナイザーの採用で日本語への効果も期待されるとのこと、量子化を想定した学習ってどういうこと？。OpenAIは強いAIの出力が人間が理解するために弱いAIに説明させるという論文も発表。LLMｗ
-
-OpenAI、つよつよAIにアホAIでも理解できるように説明しろ！って訓練をさせたら
+今週もいろいろありました、gpt-4o miniの発表のほかにAI数学オリンピック関連が目立ちました。OpenAIから出たGPT-4o mini、GPT-4よりも賢く、GPT-4oより約30倍も安いということですが、語彙数128KのTekkenトークナイザーの採用で日本語への効果も期待されるとのこと、量子化を想定した学習ってどういうこと？。OpenAIは強いAIの出力が人間が理解するために弱いAIに説明させるという論文も発表。LLMを取り扱うLLMというメタな活動が増えてきた感じ。
 
 Mistralからは、mambaを採用したcodestral-mambaをリリース、HumanEvalのPythonコーディングテストで人間の75%を達しただと。数学モデルMathtraをリリース、OSSで数学モデルをというプロジェクト Numinaと関連している。AI-MOがリリースしたNuminaMath-7B-TIRは、AI数学オリンピックで優勝したもの、デモもあるが、量子化版はllmcppでも動くらしい。Kaggleには数学モデル用のデータの整備の記事がLLM活用のお手本のような感じ。
 
@@ -3576,7 +3574,7 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - NTTのTsuzumi、7Bパラのマルチモーダルで、RakudaベンチマークでGPT-3.5を上回るんだと。
 	- https://x.com/umiyuki_ai/status/17725
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTk2MTMxNywtMTE3MTQ3MTU3NCwxMD
+eyJoaXN0b3J5IjpbMTE0MDQ5OTk3MCwtMTE3MTQ3MTU3NCwxMD
 QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
 MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
 YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
