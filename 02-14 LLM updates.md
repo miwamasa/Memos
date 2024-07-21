@@ -36,7 +36,11 @@ ELYZA-tasks-100を人間が解くと何点取れるのか
 Googleの研究者らが「自己複製するプログラム」の「Brainfuck Family」（BFF）と呼ばれる言語環境
 
 
-シートコンプレッサー
+「SpreadsheetLLM」シートコンプレッサー
+
+LLMに対して「心の理論」を実装したエージェントは
+
+GPT-4o miniは、GPT-4よりも賢く、GPT-4oより約30倍も安い、
 
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
@@ -3571,14 +3575,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/papers/2403.15484
 - MSのエンジニアがGPT-6クラスタの構築に取り組んでる
 	- https://x.com/_kaiinui/status/1772455514489672080?s=20
-	- H100を10万台以上配備しているらしく、電力的に一つのDCに収まらなくなってきている (※10万台 = 70メガワット)
-- The Unreasonable Ineffectiveness of the
+	- H100を10万台以上配備しているら
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5MjE1MjU2LC0xMTcxNDcxNTc0LDEwND
-AyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIw
-NzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNi
-wxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDEx
-NDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMz
-cyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMs
-MTUzMTc1MzkzM119
+eyJoaXN0b3J5IjpbMTEwOTQ3MzcyOSwtMTE3MTQ3MTU3NCwxMD
+QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
+MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
+YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
+MTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwtOTAzMD
+M3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTcz
+LDE1MzE3NTM5MzNdfQ==
 -->
