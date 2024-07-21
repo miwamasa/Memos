@@ -45,7 +45,35 @@
 		- 開発における課題など LLMに関する一歩踏み込んだ内容を体系的に理解できます！ 
 	- G検定でも生成AI周りの出題は増えてきているし、ここまでまとまった資料が無料で見れるのはありがたい。
 	- https://x.com/blue_statistics/status/1812785366925218181
-- 
+- BCGの元日本代表の杉田さんの「フェッショナル経営参謀」
+	- https://x.com/akino2425/status/1812627073913217357
+	- 解くべき課題　論点設定のチェックリスト
+		- 1. 解くべき課題は自社のものか？
+			- どの企業に置き換えても同じような課題設定になっていないか？
+		- 2. それが解けたら次に進むべき「次の課題」は見えているか？
+		   - 自社にとって意味のある大きな境変を意識できているか？
+
+3. そこから得られるものが見えているか？
+   - 何かを内包する、はて争上の観点が芽吹くのか？
+
+4. AかBかの究極の選択を迫るものではないか？
+   - あるいは新たな局面を切り開くものか？
+
+5. 「この問題に対処するためにこんなことができますよ」と自信を持って言える具体性を持っているか？
+
+6. 具体性がなくてもよいので「例えば」の仮説を提示できるか？
+
+7. それが真の課題の設定と言えるか？
+   - 真の課題は、問題点と事象に明確な因果関係があるのが、真の問題
+
+8. その判断が今できるか？今、解ける課題か？
+
+9. 解くべき論点の仮設は初期に作るが、その仮設も含めて、進化しているか？
+   - 論点自体も変わってくる。あくまで解くべき点は進化する
+
+10.そのプロセスを経て深めていくものか？
+   - 一つの事象だがシンプルで、広い見通しを持っているか？
+
 
 ## 24/7/14
 
@@ -3498,24 +3526,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- MM1はすべてのコンポーネントに関して、そのアーキテクチャーから、データセットの内容、事前学習・ファインチューニングの詳細、モデルサイズに至るまで、詳細な情報（MLLMsの開発レシピ）を公開している。
 -  Stability AIとアニメチェーンがアニメ業界向け生成系AIの共同研究を検討開始
 	- https://prtimes.jp/main/html/rd/p/000000003.000135092.html
-	-  既存のアニメ制作工程をそのままに「協議会」を通じて制作現場の声を伺いながらアニメ作品の品質向上を目標とした支援ツールの共同研究を目指す
--  Fully  Client-Side  Chat Over Documents
-	- https://webml-demo.vercel.app/
-	- So I revisited WebLLM and was able to add browser-only mode!
-- KDDI、東大発AIベンチャー・ELYZAを連結子会社化　春以降、生成AI関連サービスを提供
-	- https://www.itmedia.co.jp/news/articles/2403/18/news140.html
-	- 生成AIを活用したDX支援・AI SaaS
-- NVIDIA GTC2024で次世代のロボティクスはヒューマノイド
-	- https://www.youtube.com/watch?v=Y2F8yisiS6E
-- NVIDIA、GPUプラットフォーム「Blackwell」発表　「兆パラメータ規模のAIモデル実現」
-	- https://www.itmedia.co.jp/news/articles/2403/19/news092.html
-	- プラットフォームに搭載する「GB200 Grace Blackwell Superchip」は、新GPU「B200」（2080億個のトランジスタを搭載し、現行の「H100」と比較して、AI向けの作業で5倍の
+	-  既存のアニメ制作工程をそのままに「協議会」を通じて制作現場
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzI0MDg5MywtMTE2NTgyMTEzNiwxNj
-g4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDky
-MDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOT
-UsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNzk1NzMsMTUz
-MTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0xMzQ5NjQ3MT
-Q1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4LDYyMjY3ODU2Nyw1
-MzA4NDY1NTNdfQ==
+eyJoaXN0b3J5IjpbMzExMDcxOTk5LC0xMTY1ODIxMTM2LDE2OD
+gwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIw
+MTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NS
+wtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMx
+NzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxND
+UsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUz
+MDg0NjU1M119
 -->
