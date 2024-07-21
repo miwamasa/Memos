@@ -16,8 +16,7 @@ ELYZA-tasks-100を人間が解くと何点取れるのかという記事も面�
 
 
 
-LLMの現在 by いもす
-深層学習の数理 by 鈴木大慈
+いもす氏の「LLMの現在」や、鈴木大慈先生の「深層学習の数理 」を読めば、最新のLLMの理論的動向に追いつけそう
 
 「フェッショナル経営参謀」
 
@@ -32,14 +31,14 @@ LLMの現在 by いもす
 材料系・化学系だと、反応予測の機械学習モデル、専門家が選定した素反応データをグラフ・文字列ベースのモデルで学習するこで、中間体や副生成物も予測できるとか、 By My Eyes論文のように可視化ツールをMLLMに選ばせてセンサデータを二次元画像化してからMLLMで予測するとか、もはやマルチモーダル機能を使えば下手な人間による前処理が不要なのか？マイクロソフトからは、汎用機械学習ポテンシャル、新しい機能性材料の探索や、地球内部での元素の分布予測、効率的な化学プロセスの設計などが期待できる。それにしても、Googleの「自己複製するプログラム」の論文、「Brainfuck Family」（BFF）と呼ばれる言語環境というのは、創発を狙っているのか。
 
 
-「SpreadsheetLLM」シートコンプレッサー
+マイクロソフトからは、エクセルを対象としたLLMである、「SpreadsheetLLM」、シートコンプレッサーってのが肝の技術だったのか。マイクロソフトのQ-Sparse、Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらない
 
 LLMに対して「心の理論」を実装したエージェントは
 
 
 
 
-Q-Sparse、Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらない
+
 
 Claudeにも考える時間をあげると良いんだ…<thinking>タグ
 
@@ -3567,10 +3566,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Conventional RAG is like an open-book exam, retrieving documents from an index to provide context for answering queries. This makes it more effective than the closed-book exam setting where LLMs rely solely on their pre-training and fine-tuning to respond to prompts, but doesn't allow the LLM to learn the domain beforehand.
 - NatCom誌【ビールの風味とおいしさ（飲んだ人の評価）を決定する物質を250のビールに対する18万のレビューから機械学習で解明。
 	- https://www.nature.com/articles/s41467-024-46346-0
-	- 複雑な心理現象について、大規模データと機械学習を用いて仮説フリーで当たりをつけ、それを「仮説」として実験室で検証実験を行う。うらやましいほどお手本のような現代的研究。ビールを対象としているところも粋でオモロいし！
-- NTTのTsuzumi、7Bパラのマルチモーダルで、RakudaベンチマークでGPT-3.5を上回るんだ
+	- 複雑な心理現象について、大規模データと機械学習を用いて仮説フリーで当たりをつけ、それを「仮説」として実験室で検証実験を行う。うらやましいほどお手本のような現代的研
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDIzMzYxMiwtMTE3MTQ3MTU3NCwxMD
+eyJoaXN0b3J5IjpbLTQwNDQ1OTY2MCwtMTE3MTQ3MTU3NCwxMD
 QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
 MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
 YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
