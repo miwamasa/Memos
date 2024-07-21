@@ -64,7 +64,12 @@
 		- 9. 解くべき論点の仮設は初期に作るが、その仮設も含めて、進化しているか？
 			- 論点自体も変わってくる。あくまで解くべき点は進化する
 		- 10.そのプロセスを経て深めていくものか？
-一つの事象だがシンプルで、広い見通しを持っているか？
+			- 一つの事象だがシンプルで、広い見通しを持っているか？
+	- BCGのレポートでは、世界の地政学的な秩序の変化によって貿易活動がどのような影響を受けるのかが、スッキリ整理されている
+		- https://x.com/Collie_Collie_/status/1812155080268984486
+		- 例えば、ASEANが新たな輸出のプラットフォームとして浮上しているとのこと。
+		- https://www.bcg.com/ja-jp/publications/2024/jobs-national-security-and-the-future-of-trade
+	- 
 
 
 ## 24/7/14
@@ -3514,17 +3519,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - アップル、高度な言語理解を持つ新型AIモデル「MM1」を発表
 	- https://ascii.jp/elem/000/004/189/4189761/
 	- https://arxiv.org/pdf/2403.09611.pdf
-	- 複数（30億、70億、300億）のパラメータサイズを備えるMM1は、10億以上の画像および30兆語以上のテキスト、GitHubのコード例などの多様なデータセットを用い、教師なし学習と教師あり学習を組み合わせる独自の方法で学習され、多様なタスクに対して高い精度を示す
-	- MM1はすべてのコンポーネントに関して、そのアーキテクチャーから、データセットの内容、事前学習・ファインチューニングの詳細、モデルサイズに至るまで、詳細な情報（MLLMsの開発レシピ）を公開している。
--  Stability AIとアニメチェーンがアニメ業界向け生成系AIの共同研究を検討開始
-	- https://prtimes.jp/main/html/rd/p/000000003.000135092.html
-	-  既存のアニメ
+	- 複数（30億、70億、300億）のパラメータサイズを備えるMM1は、10億以上の画像および30兆語以上のテキスト、GitHubのコード例などの多様なデータセットを用い、教師なし学習と
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODUzMDkzLC0xMTY1ODIxMTM2LDE2OD
-gwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIw
-MTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NS
-wtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3NzE3OTU3MywxNTMx
-NzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEsLTEzNDk2NDcxND
-UsLTExNDgyNzQ5OTgsLTIwNDIzNzc0MjgsNjIyNjc4NTY3LDUz
-MDg0NjU1M119
+eyJoaXN0b3J5IjpbLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMT
+Y4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5
+MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mj
+k1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1
+MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0Nz
+E0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1Njcs
+NTMwODQ2NTUzXX0=
 -->
