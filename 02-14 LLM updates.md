@@ -69,6 +69,11 @@
 		- https://x.com/Collie_Collie_/status/1812155080268984486
 		- 例えば、ASEANが新たな輸出のプラットフォームとして浮上しているとのこと。
 		- https://www.bcg.com/ja-jp/publications/2024/jobs-national-security-and-the-future-of-trade
+	- AI Math Olympiad Winner - Running on Mac! 100% local
+		- https://x.com/reach_vb/status/1812916171902976256
+		- llama-cli
+		- NuminaMath-7B-TIR-Q8_0-GGUF
+		- "For how many values of the constant $ k $ will the polynomial $ x^{2}+kx+36$ have two distinct integer roots?"
 	- 
 
 
@@ -3515,17 +3520,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- ライセンスはApache 2.0 ライセンス 
 	- 公表済みベンチマークによればgpt-3.5を上回るが、Claude 2やGPT-4は下回る
 - Apple in talks with Google for using Gemini to bring generative AI features to iPhones
-	- https://www.livemint.com/technology/tech-news/googles-gemini-could-power-generative-ai-features-on-iphone-16-tim-cook-heres-what-we-know-11710739843784.html
-- アップル、高度な言語理解を持つ新型AIモデル「MM1」を発表
-	- https://ascii.jp/elem/000/004/189/4189761/
-	- https://arxiv.org/pdf/2403.09611.pdf
-	- 複数（30億、70億、300億）のパラメータサイズを備えるMM1は、10億以上の画像および30兆語以上のテキスト、GitHubのコード例などの多様なデータセットを用い、教師なし学習と
+	- https://www.livemint.com/technology/tech-news/googles-gemini-could-power-generative-ai-features-on-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMT
-Y4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5
-MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mj
-k1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MTc5NTczLDE1
-MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwtMTM0OTY0Nz
-E0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQyOCw2MjI2Nzg1Njcs
-NTMwODQ2NTUzXX0=
+eyJoaXN0b3J5IjpbLTgyNTA2NjI3LC0xMjYwNDA4MzIyLC0xMT
+Y1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4
+NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNz
+ksLTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3
+NzE3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MD
+EsLTEzNDk2NDcxNDUsLTExNDgyNzQ5OTgsLTIwNDIzNzc0Mjgs
+NjIyNjc4NTY3XX0=
 -->
