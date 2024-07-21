@@ -225,7 +225,8 @@
 	- https://x.com/btreetaiji/status/1814319983150932222
 - Claudeにも考える時間をあげると良いんだ…
 	- https://x.com/shiranui_it/status/1814580977576124535
-	- 
+	- <thinking></thinking>ないで考えてください。。
+- 
 
 
 ## 24/7/14
@@ -3547,13 +3548,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 7B tuning on a 24GB GPU 
 	- 70B tuning on 4x80GB GPUs
 - Databricks introduces DBRX, a new 132B parameter open LLM
-	- https://huggingface.co/databricks/dbrx-bas
+	- https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODQ3Nzk2NywxMzcxNzI0ODg4LC0xND
-U5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4
-MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NT
-MwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwt
-OTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MT
-c5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwt
-MTM0OTY0NzE0NV19
+eyJoaXN0b3J5IjpbMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NT
+kxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgy
+MTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1Mz
+AxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMzc5LC05
+MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3NzcxNz
+k1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5ODAxLC0x
+MzQ5NjQ3MTQ1XX0=
 -->
