@@ -3,6 +3,8 @@
 
 ## 24/7/22
 
+
+
 Mistralからは、mambaを採用したCode
 - Mistralが、数学モデルと、Mambaのコード生成モデル　by AIXサトシさん
 - 	- https://mistral.ai/news/codestral-mamba/
@@ -43,6 +45,10 @@ LLMに対して「心の理論」を実装したエージェントは
 GPT-4o miniは、GPT-4よりも賢く、GPT-4oより約30倍も安い、語彙数128KのTekkenトークナイザーの採用で日本語への効果も期待されるす、量子化を想定した学習ってどういうこと？
 
 OpenAI、つよつよAIにアホAIでも理解できるように説明しろ！って訓練をさせたら
+
+Q-Sparse、Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらない
+
+Claudeにも考える時間をあげると良いんだ…<thinking>タグ
 
 -  Common 7B Language Models Already Possess Strong Math Capabilities
 	- https://arxiv.org/abs/2403.04706
@@ -269,7 +275,7 @@ OpenAI、つよつよAIにアホAIでも理解できるように説明しろ！�
 	- https://x.com/btreetaiji/status/1814319983150932222
 - Claudeにも考える時間をあげると良いんだ…
 	- https://x.com/shiranui_it/status/1814580977576124535
-	- <thinking></thinking>ないで考えてください。。
+	- <thinking></thinking>内で考えてください。。
 - 
 
 
@@ -3573,11 +3579,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/umiyuki_ai/status/1772588308537000101?s=20
 - OpenAIが「VOICE ENGINE」の名前で商標を出願
 	- https://x.com/ctgptlb/status/1771005259948986562?s=20
--  RakutenAI-7B: Extending Large Language Models for Japanese
-	- https://huggingface.co/papers/2403.15484
-- MSのエン
+-  Rakuten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTQyNDk3NywtMTE3MTQ3MTU3NCwxMD
+eyJoaXN0b3J5IjpbLTIzNjkzMjE2OSwtMTE3MTQ3MTU3NCwxMD
 QwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEy
 MDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMz
 YsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwx
