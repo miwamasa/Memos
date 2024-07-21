@@ -76,7 +76,12 @@
 		- "For how many values of the constant $ k $ will the polynomial $ x^{2}+kx+36$ have two distinct integer roots?"
 - Deploy llama-agents running entirely self-hosted agents using arcee_ai, MistralAI and ollama!
 	- https://x.com/llama_index/status/1812884178616406422
-- 
+- CEE’s new online graduate certificate, civil engineers can learn how to merge AI with digital twins to improve the predictive capabilities of their organization.
+	- https://www.cmu.edu/online/aie-dta/rfi/index.html?utm_source=cee&utm_medium=social&utm_campaign=none&utm_content=fa24
+-  Codification, Technology Absorption, and the Globalization of the Industrial Revolution
+	- https://www.nber.org/papers/w32667
+	- 外国からの技術的な知識を日本語に翻訳して公共財として普及させたことが明治時代の西欧へのキャッチアップにつながった必要条件だった。明治の日本がなんでうまく行ったのかの要因を説明する一つ。
+	- 
 
 
 ## 24/7/14
@@ -3509,25 +3514,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 3/25
 
-先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 H100の５倍の性能！新GPUであるB200、DGX GB200 NVL72とか、NIMの発表とか、一人勝ちってこういうこと。早速llamaindexがNVIDIA NIMで動くようになった。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステム」。500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になるのか。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKitってのも忘れてはいけない。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。[huggingface](https://github.com/huggingface)からPEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。huggingfaceはTransformers 4.39もリリース、GaLoreをサポートしてるらしい。「GaLore」、「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする技術、元論文は2023年の5月にMetaが発表。Artificial muscleというのもすごいな、NVIDIAのロボットに組み込むと、いよいよ人間らしいロボットが実現するのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。LINEの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイムなんだけど、”プログラムを微分可能にすることは本質的に確率分布によってその出力の不確実性を定量化すること”とはUQ、Uncertainty Quantification;不確かさの定量化、に通じて面白い
-
-- grok-1まとめ
-	- https://x.com/webbigdata/status/1769503166528458822?s=20
-	- リリースされたモデルは314Bパラメーター 
-	- ファイルサイズでいえば318.24GB 
-	- MoE(2/8 experts)でactiveパラメーターだけでも86B 
-	- 2023/10月時点で学習を完了していたベースモデルのみ公開 
-	- githubのxai-orgで推論コードも公開(JAX) 
-	- ダウンロードはacademictorrentsかhuggingfaceのxai-org/grok-1 
-	- ライセンスはApache 2.0 ライセンス 
-	- 公表済みベンチマークによればgpt-3.5を上回るが、Claude 2やGPT-4は下回る
-- Apple in talks with Google for using Ge
+先週xAIより公開されたgrok-1、gpt-3.5を上回るが、Claude 2やGPT-4は下回るという性能らしい。さて生成AIでは出遅れ感もあるApple、geminiをiPhoneに入れるとのうわさが出たり、30BのMM1を論文発表したりと、にわかに活発化。Stability AIのアニメ業界向け生成系AI、ついに現場にAIが入りだすのか。KDDI、ELYZAを連結子会社化ってのも驚いた、「生成AIを活用したDX支援・AI SaaS」ってのが春以降でるらしい。NVIDIA がGTC2024で発表した、ヒューマノイド開発プラットフォーム「GR00T」、 H100の５倍の性能！新GPUであるB200、DGX GB200 NVL72とか、NIMの発表とか、一人勝ちってこういうこと。早速llamaindexがNVIDIA NIMで動くようになった。ひろみちゅ先生、Claude 3を用いた新規提出法案の立法技術上の矛盾点チェック、法制局も真っ青レベルとのこと。DeepMindのTacticAI、「コーナーキックについてアドバイスできる完全なAIシステム」。500程度のサンプルで数分学習させてLLMの出力を方向付ける事が出来る制御ベクトルってのは面白い、キャラ分けなんかが簡単になるのか。「Google Scholar PDF Reader」、こういう応用がどんどん出てほしい。Sakana.aiの進化的計算による基盤モデル構築って、複数のLLMをマージするという新たな方向性を示した。日本語画像言語モデルEvoVLM-JPはすぐに試すことができる。LLMのマージでは、Arcee's MergeKitってのも忘れてはいけない。Embedding の量子化というのがあるのか、高速化の工夫の余地はまだまだある。[huggingface](https://github.com/huggingface)からPEFT 0.10.0のリリース、70B Llama 2モデルを24GBメモリを搭載したGPU2基でQLoRA可能になるとのこと。huggingfaceはTransformers 4.39もリリース、GaLoreをサポートしてるらしい。「GaLore」、「NVIDIA RTX 4090」などの家庭用GPU上で、Llamaなどの最大7Bパラメータを持つモデルの学習を容易にする技術、元論文は2023年の5月にMetaが発表。Artificial muscleというのもすごいな、NVIDIAのロボットに組み込むと、いよいよ人間らしいロボットが実現するのか。Lightblue、国内最高水準の日本語LLMモデル「ao-Karasu」リリース、７２Bだそうだ、もう何が何だか。LINEの「japanese-large-lm-1.7b-instruction-sft」から派生したLLMがたくさんリリース、ローカルAIハッカソンの成果らしい。『微分可能プログラミング』、プログラムのパラメータを微分可能な方法で最適化することにより、機械学習タスクを解決するプログラミングパラダイム
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMyMDg1ODgsLTEyNjA0MDgzMjIsLT
-ExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5
-Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MD
-M3OSwtOTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0x
-Nzc3MTc5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OT
-gwMSwtMTM0OTY0NzE0NSwtMTE0ODI3NDk5OCwtMjA0MjM3NzQy
-OCw2MjI2Nzg1NjddfQ==
+eyJoaXN0b3J5IjpbMTAyMjg2MzcyOCwtMTI2MDQwODMyMiwtMT
+E2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2
+ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAyLC0yMTEwNTUwMz
+c5LC05MDMwMzcyOTUsLTI5OTA4NzAyLDE3MzQ0NjUyNzksLTE3
+NzcxNzk1NzMsMTUzMTc1MzkzMywyMjk3NTAxNSwtMzkzMjY5OD
+AxLC0xMzQ5NjQ3MTQ1LC0xMTQ4Mjc0OTk4LC0yMDQyMzc3NDI4
+LDYyMjY3ODU2N119
 -->
