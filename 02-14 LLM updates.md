@@ -212,7 +212,13 @@
 	- 2. 優れたテキストインテリジェンスとマルチモーダル推論を備えた小型モデル
 	- 3. 組み込みの安全対策
 	- ChatGPTでは、Free、Plus、Team ユーザーは、GPT-3.5 の代わりに、本日より「GPT-4o mini」にアクセスできるようになります。
-- 
+-  Q-Sparse: All Large Language Models can be Fully Sparsely-Activated
+	- https://arxiv.org/abs/2407.10969
+	- Microsoft Research is excited to introduce Q-Sparse: a breakthrough in training fully sparsely-activated LLMs. Q-Sparse supports both full-precision and 1-bit LLMs. Its synergy with BitNet b1.58 advances LLM efficiency, including cost and energy use.
+	- LLMをスパース化させて推論時に使うパラ数減らせて処理効率爆上がるらしい！Mistral7Bベースで試したら、活性化パラ数を2.8Bくらいまで切り詰めてもあんまベンチスコア下がらないらしい　by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1813974577187537074
+- 早稲田大学内のWi-Fi経由でchatGPTやDeepLが使えなくなりました。
+	- 
 
 
 ## 24/7/14
@@ -3539,18 +3545,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- a larger number of smaller experts. DBRX has 16 experts and chooses 4 
 	- It was pre-trained on 12T tokens of text and code data
 	- DBRX outperforms all the established open-source models on common benchmarks like MMLU and GSM8K.
-	- Its inference is up to 2x faster than LLaMA2-70B and is about 40% of the size of Grok-1 in terms of both total and active parameter counts.
-	- While DBRX is trained as a general-purpose LLM, it still surpasses CodeLLaMa-70 Instruct, a model built explicitly for code generation.
-- DBRX is super cool, but research and reading too! Especially if you can combine RAG + COT.
-	- https://x.com/_philschmid/status/1773024623589736949?s=20
-- we're connecting Adobe Experience Cloud with Microsoft Copilot to reimagine how marketers approach their daily work
-	- https://x.com/satyanadella/status/17730631691386719
+	- Its inference is up to 2x faster than L
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQ4NzgyMjMsMTM3MTcyNDg4OCwtMT
-Q1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1
-ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NT
-UzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzks
-LTkwMzAzNzI5NSwtMjk5MDg3MDIsMTczNDQ2NTI3OSwtMTc3Nz
-E3OTU3MywxNTMxNzUzOTMzLDIyOTc1MDE1LC0zOTMyNjk4MDEs
-LTEzNDk2NDcxNDVdfQ==
+eyJoaXN0b3J5IjpbLTU4MDA3MTQ2NywxMzcxNzI0ODg4LC0xND
+U5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4
+MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NT
+MwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3OSwt
+OTAzMDM3Mjk1LC0yOTkwODcwMiwxNzM0NDY1Mjc5LC0xNzc3MT
+c5NTczLDE1MzE3NTM5MzMsMjI5NzUwMTUsLTM5MzI2OTgwMSwt
+MTM0OTY0NzE0NV19
 -->
