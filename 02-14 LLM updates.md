@@ -8,7 +8,8 @@ Mistralからは、mambaを採用したCode
 ローカルLLMでGraphRAGを実装して「
 
 
-Kaggle のAI数学オリンピックコンペのfirst solution TIR (Tool Integrated Reasoning)
+Kaggle のAI数学オリンピックコンペのfirst solution TIR (Tool Integrated Reasoning)、NuminaMath-7B-TIR-Q8_0-GGUF
+
 
 NuminaMath-7B-TIR-Q8_0-GGUF
 
@@ -3557,9 +3558,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.deeplearning.ai/short-courses/javascript-rag-web-apps-with-llamaindex/
 	- JavaScript RAG Web Apps with LlamaIndex,
 - LoRaより優れたLISA
-	- https://x.com/Rui45898440/status/177299645
+	- https://x.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MjgwMDcwNSwyOTAwMTIxNDIsMTM3MT
+eyJoaXN0b3J5IjpbLTk3NzI0MzUwNCwyOTAwMTIxNDIsMTM3MT
 cyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4
 MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1ND
 QsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIsLTIx
