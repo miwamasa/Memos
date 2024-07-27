@@ -14,7 +14,12 @@
 		- 既存の推定値を用いて、今後10年間の総要素生産性（TFP）への影響は0.71％を超えないと論文は結論づけています。
 		- さらに、初期の証拠は「学習しやすい」タスクからのものであるため、この推定値は誇張されている可能性があると主張しています。
 		- 将来の影響の一部は、「学習しにくい」タスクからもたらされるため、TFPの増加はさらに控えめになると予想されます。
-		- 
+		- AIが特定のタスクにおいて低スキル労働者の生産性を向上させたとしても（彼らに新しいタスクを生み出すことなく）、不平等を減少させるどころか増加させる可能性があることを理論的に示しています。
+		- AIによって生み出される新しいタスクの中には、オンライン操作のためのアルゴリズム設計など、社会的に負の価値を持つものがあるかもしれないと指摘しています
+-  Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies
+	- https://arxiv.org/abs/2407.13623
+	- 語彙数も考慮に入れたスケール則を導出。異なる語彙数間で比較するためUnigram分を引いた損失で評価。非語彙埋め込みパラメータ数の0.83乗に比例するペースで語彙を増やすと良い。学習データが増えるほど最適な語彙数は増加する。既存LLMの語彙数は最適よりも数倍少ない。
+- 
 - 
 
 ## 24/7/22
@@ -3527,15 +3532,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 4/1
 
-今週は年度末、日本企業のLLMが年度末工事よろしく次々発表。先週取りこぼした、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は日本語と英語に対応する70億パラメータのLLM。LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、生成AIのビジネス応用元年になるのか。Databricksから公開された「DBRX」は、132億パラメータを持つ大規模なMoE(Mixture of Experts)モデルで、既存のオープンソースモデルを上回る性能を発揮。LLaMA2-70Bよりも高速な推論が可能で、Grok-1よりもコンパクトなモデルサイズながら高い性能を実現。NTTのtsuzumiの資料によると、AWSで7Bモデルを300Bトークン学習させると1900万円かかとのことであるが、そもそもLLMのスケール測からすると、投資に対するリターン（精度向上）が見合わなくなるともっぱら話題に。とはいえ、OpenAIとMicrosoftが最大1000億ドルを投じて「Stargate」というスーパーコンピューターを2028年までにつくるとか、パワープレイは続く。一方、推論の効率化では、Intel Neural Compressorは4ビット量子化技術で、LLMの高速推論と効率的な計算資源利用が可能に。LoRAに代わる「LISA」が出てきた。LISAはメモリ使用量を大幅に削減しながら、従来手法と同等以上のパフォーマンスを実現できる。OpenAIが「Voice Engine」を限定ユーザーに発表、安全性と性能を鑑みると、オープンソースでLLMというのも、限定されてくるのかもしれない。個別の話題では、Googleの「CRAG(Corrective Retrieval Augmented Generation)」、従来の検索拡張生成(RAG)手法を改良し、RAGシステムで取得したドキュメントをLLMに渡す前に、そのドキュメントの内容が正しいかどうかを自動でチェックする機能つけることでハルシネーションを抑制。BGE-M3というEmbedding用モデルが、検索タスクの評価はmE5よりかなり良い数値とか、日本語RAGに使えるとか、中華LLMは日本語が得意。Mambaを採用したLLMで初めての大きなモデルであるJamba、評価が待たれる。SD3の論文では、拡散モデルから Flow ベースモデル へということだが、Reflective Flowというノイズとデータのつなぎ方の話が興味深い。なおBenjio先生のGenerative Flow Networkとは別物らしい。行政系で華々しく登場した行政手続きＱ＆ＡサービスであるGovBot、使い物にならないという評価が次々に、人の死体をゴミと認識？、どうも担当者が正しくAIを理解してないという悲しい事情も、ひろみちゅ先生により明らかに。8,525万でデジ庁からNECが受注したんだよね、ここまでハリボテとは。
-
-- RAGの新しい手法「CRAG」を3分で理解する
-	- https://zenn.dev/knowledgesense/articles/bb5e15abb3c547
-	- 「Corrective Retrieval Augmented Generation (CRAG)」
-	- RAGの性能を高めるための新しい手法です。Googleなどの研究者によって2024年2月に提案されました。CRAG（日本語にすると「修正型検索拡張生成」）という手法を使うメリットは、ハルシネーション（幻覚）を減らせることです。CRAGが従来の「RAG」よりもハルシネーションを減らせる理由は、RAGシステムで取得してきたドキュメントをLLMに渡す前に、「そのドキュメントの内容が正しいものなのか」自動でチェックするという機能を取り入れているからです。
--  AIセーフ
+今週は年度末、日本企業のLLMが年度末工事よろしく次々発表。先週取りこぼした、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は日本語と英語に対応する70億パラメータのLLM。LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、生成AIのビジネス応用元年になるのか。Databricksから公開された「DBRX」は、132億パラメータを持つ大規模なMoE(Mixture of Experts)モデルで、既存のオープンソースモデルを上回る性能を発揮。LLaMA2-70Bよりも高速な推論が可能で、Grok-1よりもコンパクトなモデルサイズながら高い性能を実現。NTTのtsuzumiの資料によると、AWSで7Bモデルを300Bトークン学習させると1900万円かかとのことであるが、そもそもLLMのスケール測からすると、投資に対するリターン（精度向上）が見合わなくなるともっぱら話題に。とはいえ、OpenAIとMicrosoftが最大1000億ドルを投じて「Stargate」というスーパーコンピューターを2028年までにつくるとか、パワープレイは続く。一方、推論の効率化では、Intel Neural Compressorは4ビット量子化技術で、LLMの高速推論と効率的な計算資源利用が可能に。LoRAに代わる「LISA」が出てきた。LISAはメモリ使用量を大幅に削減しながら、従来手法と同等以上のパフォーマンスを実現できる。OpenAIが「Voice Engine」を限定ユーザーに発表、安全性と性能を鑑みると、オープンソースでLLMというのも、限定されてくるのかもしれない。個別の話題では、Googleの「CRAG(Corrective Retrieval Augmented Generation)」、従来の検索拡張生成(RAG)手法を改良し、RAGシステムで取得したドキュメントをLLMに渡す前に、そのドキュメントの内容が正しいかどうかを自動でチェックする機能つけることでハルシネーションを抑制。BGE-M3というEmbedding用モデルが、検索タスクの評価はmE5よりかなり良い数値とか、日本語RAGに使えるとか、中華LLMは日本語が得意。Mambaを採用したLLMで初めての大きなモデルであるJamba、評価が待たれる。SD3の論文では、拡散モデルから Flow ベースモデル へということだが、Reflective Flowというノイズとデータのつなぎ方の話が興味深い。なおBenjio先生のGenerative Flow Networkとは別物らしい。行政系で華々しく登場した行政手続きＱ＆ＡサービスであるGovBot、使い物にならないという評価が次々に、人の死体をゴミと認識？、どうも担当者が正しくAIを理解してないという悲しい事情も、ひろみち
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4NTAzNzAyLC0xNzk1MTAyODYzLDE2NT
+eyJoaXN0b3J5IjpbMjcxMDIwNTU5LC0xNzk1MTAyODYzLDE2NT
 g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
 NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
 0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
