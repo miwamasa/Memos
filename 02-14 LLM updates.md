@@ -127,7 +127,8 @@
 	- https://x.com/umiyuki_ai/status/1816154383211770096
 - 特許番号を入れるとAIが自動的に特許に基づくアイディアを考えてくれる
 	- https://chizaizukan.com/property/ideaflow/
-- 
+- ベイズ統計入門　by 渡辺澄夫
+	- 
 
 ## 24/7/22
 
@@ -3547,13 +3548,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://qiita.com/jovyan/items/ee6affa5ee5bdaada6b4
 	- Chat Vector: A Simple Approach to Equip LLMs with Instruction Following and Model Alignment in New Languages
 	- LLMの学習済み重みパラメータの足し引きによって、事前学習済みモデルに対話能力を与えることができるという結果が示されています。
-	- 具体的には、英語で事前学習されたモデル（以下ではベースモデルと呼びます）と、ベースモデルを指示チューニング (instruction tuning)してチャット形式の対話ができるようにしたモデル（英語チャットモデル）、ベースモデルを英語以外の言語で継続事前学習したモデルの
+	- 具体的には、英語で事前学習されたモデル（以下ではベースモデルと呼びます）と、ベースモデルを指示チューニング (instruction tuning)してチャット形式の対話ができるようにしたモデル（英語チャットモデル）、ベースモデルを英語
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDM4NzgxLC0xNzk1MTAyODYzLDE2NT
-g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
-NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
-0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
-NDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Nj
-c5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIs
-MTczNDQ2NTI3OV19
+eyJoaXN0b3J5IjpbMjEzNDM2Mzc1NSwtMTc5NTEwMjg2MywxNj
+U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
+MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
+wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
+MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
+Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
+LDE3MzQ0NjUyNzldfQ==
 -->
