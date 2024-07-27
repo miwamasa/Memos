@@ -50,6 +50,13 @@
 	-  AIとの対話を長期記録してLLMの応答をパーソナライズする「Mem0」
 - IMO questions only need high school level math knowledge and first one is the easiest so best humans can solve it in <60 mins
 	- https://x.com/sytelus/status/1815203516941766757
+- カーネル法とTransformerの論文とか本当に胸熱
+	- https://x.com/m0chi_kokeshi/status/1815015579453133180
+- Mistral-Nemo-Instruct-2407のggufあります
+	- https://huggingface.co/mmnga/Mistral-Nemo-Instruct-2407-gguf
+	- imatrixのデータはTFMC/imatrix-dataset-for-japanese-llmを使用して作成しました
+- Llama 3.1 70B seems like the most interesting model launching tomorrow. HumanEval jumped from 39% to 79% between llama 3 and 3.1 70B
+	- 
 
 ## 24/7/22
 
@@ -3537,18 +3544,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://github.com/QwenLM/Qwen1.5
 	- Qwen1.5 72B has been the best open model on Chatbot Arena leaderboard. Very excited to see how the 32B performs!
 - ジェフ・ベゾスがPerplexityに投資
-	- https://x.com/npaka123/status/1776352622704042408
-- llama.cpp量子化：重要度行列(Importance Matrix)計算に使うテキストについて
-	- https://sc-bakushu.hatenablog.com/entry/2024/03/30/195557
-	- 現在のllama.cppでは重要度行列(Importance Matrix)計算を利用することで[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)精度が改善できます。
-	- 特に4bit以下の低bit[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)を行う場合は、このiMatrix版の[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)が推奨されます
-- 
+	- https://x.com/npaka123/status/177635262270404
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4NDc0NjQxLC0xNzk1MTAyODYzLDE2NT
-g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
-NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
-0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
-NDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Nj
-c5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIs
-MTczNDQ2NTI3OV19
+eyJoaXN0b3J5IjpbLTcxNTg2NjEwNywtMTc5NTEwMjg2MywxNj
+U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
+MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
+wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
+MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
+Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
+LDE3MzQ0NjUyNzldfQ==
 -->
