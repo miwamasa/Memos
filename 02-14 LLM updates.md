@@ -100,7 +100,13 @@
 	- his is based on our theoretical results that demonstrate the primal-dual connection between optimal covariate balancing and self-attention,
 - Metaは先陣を切って明確に「EUをハブる」方向に舵を切り,他機関も続きそうです
 	- https://x.com/ImAI_Eruel/status/1815935567680659803
-	- 今日のLlama3.1ですが，論文（https://ai.meta.com/research/publications/the-llama-3-herd-of-models/）を見てみると，総計算量が3.8x1025で，EUが定めた規制対象「systemic risk」の基準である1.0x10^25を超えています．これを超えるとEU内で色々と厄介な扱いを受けるはずなのですが，LeCun自身はこの話題に関して「EUは自ら最新モデルにアクセスできないように首を絞めている」というツイートもRTしており，意図的に踏み越えている感じです
+	- EUは厳しいAI規制をしようと動いており，EU圏外の生成AI開発が「EUに合わせる」のか「EUをハブる」のか動向が注視されていた
+	- 今日のLlama3.1ですが，論文（https://ai.meta.com/research/publications/the-llama-3-herd-of-models/）を見てみると，総計算量が3.8x10^25 で，EUが定めた規制対象「systemic risk」の基準である1.0x10^25を超えています．これを超えるとEU内で色々と厄介な扱いを受けるはずなのですが，LeCun自身はこの話題に関して「EUは自ら最新モデルにアクセスできないように首を絞めている」というツイートもRTしており，意図的に踏み越えている感じです
+- Fine-tuning gpt-4o-mini is *free* for up to 2M tok/day??
+	- https://x.com/moyix/status/1815840634013639086
+- Llama-3.1-8B-Instructに、Llama3時代のSwallowブランチ差分をマージし日本語圏の知識を学習させる実験
+	- https://huggingface.co/aixsatoshi/Meta-Llama-3.1-8B-Instruct-plus-Swallow
+- 
 
 ## 24/7/22
 
@@ -3535,17 +3541,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models
 	- https://huggingface.co/papers/2404.02575
 	- This paper presents Think-and-Execute, a novel framework that decomposes the reasoning process of language models into two steps.
-	- (1) In Think, we discover a task-level logic that is shared across all instances for solving a given task and then express the logic with pseudocode; 
-	- (2) In Execute, we further tailor the generated pseudocode to each instance and simulate the execution of the code.
-- Mixture-of-Depths: Dynamically allocating compute in transformer-based language models
-	- https://arxiv.org/abs/2404.02258
-	- Dynamical
+	- (1) In Think, we discover a task-level logic that is shared across all instances
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0NzcyODkzLC0xNzk1MTAyODYzLDE2NT
-g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
-NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
-0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
-NDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Nj
-c5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIs
-MTczNDQ2NTI3OV19
+eyJoaXN0b3J5IjpbLTEwMDk0MzUxNywtMTc5NTEwMjg2MywxNj
+U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
+MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
+wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
+MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
+Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
+LDE3MzQ0NjUyNzldfQ==
 -->
