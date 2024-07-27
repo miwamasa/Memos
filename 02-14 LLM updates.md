@@ -66,7 +66,10 @@
 - LazyLLM:Dynamic Token Pruning for Efficient Long Context LLM Inference
 	- https://huggingface.co/papers/2407.14057
 	- Apple presents LazyLLM
-	- 
+- 著者らの実装よりも効率的なKANのバージョンが公開されている
+	- https://github.com/Blealtan/efficient-kan
+	-  An Efficient Implementation of Kolmogorov-Arnold Network
+- 
 
 ## 24/7/22
 
@@ -3544,14 +3547,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Mistral 7Bベースの日本語チャットモデル ChatNTQ-JA-7B を試す
 	- https://sc-bakushu.hatenablog.com/entry/2024/04/04/091521
 	- 「chatntq_chatvector-MoE-Antler_chatvector-2x7Bchatntq_chatvector-MoE-Antler_chatvector-2x7B」という呪文のような日本語MoEモデル
-	- https://huggingface.co/Sdff-Ltba/LightChatAssistant-2x7B
-	- Mistral 7Bベースの「Japanese Stable LM Base Gamma」をファインチューンした2つの異なるモデル（Antler 7B, Cha
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxMDk5Mzk0LC0xNzk1MTAyODYzLDE2NT
-g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
-NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
-0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
-NDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Nj
-c5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIs
-MTczNDQ2NTI3OV19
+eyJoaXN0b3J5IjpbLTE1Njc2NDIyNTIsLTE3OTUxMDI4NjMsMT
+Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
+MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
+AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
+MjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNT
+U2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcw
+MiwxNzM0NDY1Mjc5XX0=
 -->
