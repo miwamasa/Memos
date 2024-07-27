@@ -89,7 +89,14 @@
 	-  LLama 3.1 70BはほとんどのベンチマークでGPT-3.5 turboを上回る 
 	- LLama 3.1 405BはほとんどのベンチマークでGPT-4を上回る 
 	- LLama 3.1 405BはGPT-4 Omni、Claude 3.5 sonnetとほぼ互角
-- # The Llama 3 Herd of Models
+-  The Llama 3 Herd of Models
+	- https://ai.meta.com/research/publications/the-llama-3-herd-of-models/
+- Tool calling with Ollama by LangChin
+	- https://x.com/LangChainAI/status/1815860475441393845
+	- https://github.com/langchain-ai/langchain/blob/master/docs/docs/integrations/chat/ollama.ipynb
+-  Towards Causal Foundation Model: on Duality between Causal Inference and Attention
+	- https://arxiv.org/abs/2310.00809
+	- 本当なら凄い。
 	- 
 
 ## 24/7/22
@@ -3538,17 +3545,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- b1.58論文の中身について解説してきましたが，いかがでしたでしょうか．個人的には，この論文には賛否両論があると考えています．
 	- 肯定的な見地からは，精度の逆転現象が本当ならば大きな発見であり，自然言語処理分野への大きな貢献となり得る
 - Cohere's latest LLM, Command R+ がAzureにのる by Nadera
-	- https://x.com/satyanadella/status/1775988939079450886
-- Anthropic Tool Calling by langchain
-	- https://python.langchain.com/docs/integrations/chat/anthropic/#beta-tool-calling
-- Command R+オープン系としては洒落にならんほど知性を感じる
-	- https://x.com/_kaiinui/status/1775928745775534189
--  OpenAI の ファイチューニングAPI の新機能 by npakaさん
-	- https://note.com/npaka/n/ne41cba4111a0?sub_rt=share_h
-	- 2024年4月4日、ファインチューニングAPIに新機能が導入されました。
-	- Ope
+	- https://x.c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI0ODc5MjksLTE3OTUxMDI4NjMsMT
+eyJoaXN0b3J5IjpbLTEzMDc2Mjk5OTUsLTE3OTUxMDI4NjMsMT
 Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
 MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
 AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
