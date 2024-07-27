@@ -1,7 +1,9 @@
 # ひたすらLLM関連情報を追う、
 これは、個人のtwitter bookmarkを毎週おさらいしている。
 
-## 24/7/
+## 24/7/29
+
+
 
 ## 24/7/22
 
@@ -3530,11 +3532,11 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- RAFT offers a method to fine-tune pre-trained LLMs for specific domain RAG settings.
 	- Conventional RAG is like an open-book exam, retrieving documents from an index to provide context for answering queries. This makes it more effe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc5MDA3NzQsLTE3OTUxMDI4NjMsMT
-Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
-MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
-AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
-MjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNT
-U2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcw
-MiwxNzM0NDY1Mjc5XX0=
+eyJoaXN0b3J5IjpbMTgyMTQ5NDA4NSwtMTc5NTEwMjg2MywxNj
+U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
+MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
+wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
+MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
+Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
+LDE3MzQ0NjUyNzldfQ==
 -->
