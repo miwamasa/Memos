@@ -69,6 +69,13 @@
 - 著者らの実装よりも効率的なKANのバージョンが公開されている
 	- https://github.com/Blealtan/efficient-kan
 	-  An Efficient Implementation of Kolmogorov-Arnold Network
+- Advanced RAG service
+	- https://techcommunity.microsoft.com/t5/modern-work-app-consult-blog/exploring-the-advanced-rag-retrieval-augmented-generation/ba-p/4197836
+	- 話題のMicrosoft ResearchのGraphRAGをはじめ、様々なRAGの構成技術を簡易なWebアプリ上で簡単に試せるAdvanced RAG AI Service。
+- With our new InteractiveSheet feature you can create and edit Google Sheets from a Colab notebook!
+	- https://x.com/GoogleColab/status/1815500302277394779
+- Google、アプリ実行時に生成AIが適切なUIを構成し動的生成する「AI Generated UI」発表
+	- https://x.com/publickey/status/1815596621586891029
 - 
 
 ## 24/7/22
@@ -3537,23 +3544,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/awnihannun/status/1776081238467768493
 - Command R の 概要 by npakaさん
 	- https://note.com/npaka/n/naa6add7a892f?sub_rt=share_h
-	- 「Command R」は、「RAG」や「Tool」などの長いコンテキストタスク向けに最適化されたLLMです。CohereのEmbeddingおよびRerankと連携して動作するように設計されており、RAGアプリケーションに最高クラスの統合を提供し、エンタープライズユース ケースで優れています。
-	- ・RAGとToolの使用に関する高い精度
-	- ・低遅延、高スループット
-	- ・128Kコンテキスト長、価格が安い
-	- ・10の主要言語に対応 (日本語含む)
-	- ・研究・評価のためにHuggingFaceでウェイトを公開
-	- https://huggingface.co/CohereForAI
-- Mistral 7Bベースの日本語チャットモデル ChatNTQ-JA-7B を試す
-	- https://sc-bakushu.hatenablog.com/entry/2024/04/04/091521
-	- 「chatntq_chatvector-MoE-Antler_chatvector-2x7Bchatntq_chatvector-MoE-Antler_chatvector-2x7B」という呪文のような日本語MoEモデル
-	- h
+	- 「Com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc2NDIyNTIsLTE3OTUxMDI4NjMsMT
-Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
-MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
-AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
-MjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNT
-U2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcw
-MiwxNzM0NDY1Mjc5XX0=
+eyJoaXN0b3J5IjpbMTg2NTE3MDk2NCwtMTc5NTEwMjg2MywxNj
+U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
+MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
+wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
+MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
+Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
+LDE3MzQ0NjUyNzldfQ==
 -->
