@@ -31,7 +31,9 @@
 	- コーディングはLLMが得意な領域だから、自然言語でSQLを書いてもらうことはいい使い方だね。
 	- ただ、品質担保が仕切れるかどうかはまだわからないから、SQL生成をしてユーザーがチェックできる仕組みにしているように見えるね。
 	- 効率化される側ではなくて、効率化する側になることが大事だね。
-	- 
+- UnslothでLlamaのQLoRA finetuning試してみましたが最高ですね
+	- https://x.com/arumaekawa/status/1814995731972755787
+- Transformer Dissection: A Unified Understanding of Transformer’s Attention via the Lens of Kernel
 - 
 
 ## 24/7/22
@@ -3544,13 +3546,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 4/1
 
-今週は年度末、日本企業のLLMが年度末工事よろしく次々発表。先週取りこぼした、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は日本語と英語に対応する70億パラメータのLLM。LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、生成AIのビジネス応用元年になるのか。Databricksから公開された「DBRX」は、132億パラメータを持つ大規模なMoE(Mixture of Experts)モデルで、既存のオープンソースモデルを上回る性能を発揮。LLaMA2-70Bよりも高速な推論が可能で、Grok-1よりもコンパクトなモデルサイズながら高い性能を実現。NTTのtsuzumiの資料によると、AWSで7Bモデルを300Bトークン学習させると
+今週は年度末、日本企業のLLMが年度末工事よろしく次々発表。先週取りこぼした、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は日本語と英語に対応する70億パラメータのLLM。LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、生成AIのビジネス応用元
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY2NTY2OTQsLTE3OTUxMDI4NjMsMT
-Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
-MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
-AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
-MjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNT
-U2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcw
-MiwxNzM0NDY1Mjc5XX0=
+eyJoaXN0b3J5IjpbLTUyMTQzNjEzMiwtMTc5NTEwMjg2MywxNj
+U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
+MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
+wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
+MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
+Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
+LDE3MzQ0NjUyNzldfQ==
 -->
