@@ -48,7 +48,8 @@
 - 「How is Mem0 different from RAG?」
 	- https://x.com/Harappa80/status/1815358200826462272
 	-  AIとの対話を長期記録してLLMの応答をパーソナライズする「Mem0」
-- 
+- IMO questions only need high school level math knowledge and first one is the easiest so best humans can solve it in <60 mins
+	- https://x.com/sytelus/status/1815203516941766757
 
 ## 24/7/22
 
@@ -3541,11 +3542,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://sc-bakushu.hatenablog.com/entry/2024/03/30/195557
 	- 現在のllama.cppでは重要度行列(Importance Matrix)計算を利用することで[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)精度が改善できます。
 	- 特に4bit以下の低bit[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)を行う場合は、このiMatrix版の[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)が推奨されます
-- Apple MLX: Qwen-32B is out and now converted for MLX in 4 and 8 bits flavors.
-	- https://x.com/ivanfioravanti/status/1776327090452738315
-- ReFT: Representation Finetuning for L
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyNzEzOTIwLC0xNzk1MTAyODYzLDE2NT
+eyJoaXN0b3J5IjpbNjY4NDc0NjQxLC0xNzk1MTAyODYzLDE2NT
 g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
 NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
 0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
