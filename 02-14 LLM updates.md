@@ -83,7 +83,14 @@
 - LLMによって専門的な心理テストをRPG風などのゲームに変換し、楽しませながら測定するアプローチが検証されました。
 	- https://arxiv.org/abs/2402.12326
 	- LLM Agents for Psychology: A Study on Gamified Assessments
-- 
+- 寝る前に頑張ったLLama 3.1気になる部分まとめ
+	- https://x.com/webbigdata/status/1815784455413612734
+	- LLama 3.1 8BはほとんどのベンチマークでGemma 2 9Bを上回る
+	-  LLama 3.1 70BはほとんどのベンチマークでGPT-3.5 turboを上回る 
+	- LLama 3.1 405BはほとんどのベンチマークでGPT-4を上回る 
+	- LLama 3.1 405BはGPT-4 Omni、Claude 3.5 sonnetとほぼ互角
+- # The Llama 3 Herd of Models
+	- 
 
 ## 24/7/22
 
@@ -3539,18 +3546,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  OpenAI の ファイチューニングAPI の新機能 by npakaさん
 	- https://note.com/npaka/n/ne41cba4111a0?sub_rt=share_h
 	- 2024年4月4日、ファインチューニングAPIに新機能が導入されました。
-	- OpenAIを利用すると、ほとんどの組織はセルフサービスのファインチューニングAPI を使用して、有意義な結果をすぐに確認できます。
-- Appleが開発、スマホのスクリーンを理解してユーザーと対話できる『ReALM』端末上で動く軽量モデル
-	- https://ai-data-base.com/archives/66828
-	- Appleは、ユーザーとの対話やスマホ画面を高度に理解する言語モデル『ReALM』を発表しています。Siriなどのアシスタントを進化させる技術としての位置付けです
-- Command Rはローカル実行ては初めて文章クリーニングできたかもしれん
-	- https://x.c
+	- Ope
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjc1NTE0NywtMTc5NTEwMjg2MywxNj
-U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
-MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
-wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
-MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
-Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
-LDE3MzQ0NjUyNzldfQ==
+eyJoaXN0b3J5IjpbLTE1ODI0ODc5MjksLTE3OTUxMDI4NjMsMT
+Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
+MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
+AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
+MjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNT
+U2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcw
+MiwxNzM0NDY1Mjc5XX0=
 -->
