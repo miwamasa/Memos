@@ -3,7 +3,7 @@
 
 ## 24/7/29
 
-
+- 日本の企業活動は、初等・中等教育までの知識で成り立っているのに対して、アメリカの企業活動は、大学院教育に基づいて成り立っている
 
 ## 24/7/22
 
@@ -3530,13 +3530,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  RAFT: Adapting Language Model to Domain Specific RAG
 	- https://arxiv.org/abs/2403.10131
 	- RAFT offers a method to fine-tune pre-trained LLMs for specific domain RAG settings.
-	- Conventional RAG is like an open-book exam, retrieving documents from an index to provide context for answering queries. This makes it more effe
+	- Conventional RAG is like an open-book exam, retrieving documents from an index to provide context for 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTQ5NDA4NSwtMTc5NTEwMjg2MywxNj
-U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
-MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
-wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
-MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
-Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
-LDE3MzQ0NjUyNzldfQ==
+eyJoaXN0b3J5IjpbLTExMjk1MDIzMTQsLTE3OTUxMDI4NjMsMT
+Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
+MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
+AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
+MjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNT
+U2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcw
+MiwxNzM0NDY1Mjc5XX0=
 -->
