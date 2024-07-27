@@ -40,6 +40,8 @@
 -  Mixture of LoRA Experts
 	- https://arxiv.org/abs/2404.13628
 	- 複数のLoRAをマージするにあたり、ただ足し合わせたりといった方法だと各LoRAの性質が失われる課題があった。本研究ではLoRAの各層ごとにGating Functionを学習することで、低コストで複数のLoRAの性質を引き継ぐ手法を提案。V&LやNLPにおいて、既存手法を上回る性能となった
+- Anthropic CEOは、人類に脅威を与えるAI(ASL-4水準)の到来は、2025年から2028年と予想
+	- https://x.com/0317_hiroya/status/1815237370935136299
 - 
 - 
 
@@ -3541,10 +3543,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- LoRAのようにweightに介入する fine tuning ではなく、潜在（中間）表現に介入する fine tuning である、ReFT (Representation Finetuning) というフレームワークとその一つの実現例である Low-rank Linear Subspace ReFT (LoReFT) の提案。
 - google/gemma-1.1-7b-it
 	- https://huggingface.co/google/gemma-1.1-7b-it
-	- This is Gemma 1.1 7B (IT), an update over the original instruction-tuned Gemma release.
-- HachiML/Swallow-MS-7b-v0.1-MathSkill-Ope
+	- This is Gemma 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTM3NzU0NywtMTc5NTEwMjg2MywxNj
+eyJoaXN0b3J5IjpbLTEzNjM2ODMxNCwtMTc5NTEwMjg2MywxNj
 U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
 MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
 wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
