@@ -56,7 +56,11 @@
 	- https://huggingface.co/mmnga/Mistral-Nemo-Instruct-2407-gguf
 	- imatrixのデータはTFMC/imatrix-dataset-for-japanese-llmを使用して作成しました
 - Llama 3.1 70B seems like the most interesting model launching tomorrow. HumanEval jumped from 39% to 79% between llama 3 and 3.1 70B
-	- 
+	- https://x.com/phill__1/status/1815426904289312788
+-  深津式プロンプトを超える、ロング コンテキスト時代のテクニック指南
+	- https://note.com/google_gemini/n/nbbe40969c653?sub_rt=share_h
+	- これから必要なのは「プロンプトの暗記」ではない
+	- 考え方としては大きく 2 種類あります。ひとつが、問題の適正なフレームを作ること。
 
 ## 24/7/22
 
@@ -3541,16 +3545,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/pfnet/nekomata-14b-pfn-qfin
 	- rinna社のnekomata-14bを金融向けにチューニングしたLLMを公開しました！ これは、まだまだ金融分野へのLLM応用につながる第一歩でしかないと思うので、もっと研究開発を進めていきたいと思います。
 - Qwen1.5-32B release
-	- https://github.com/QwenLM/Qwen1.5
-	- Qwen1.5 72B has been the best open model on Chatbot Arena leaderboard. Very excited to see how the 32B performs!
-- ジェフ・ベゾスがPerplexityに投資
-	- https://x.com/npaka123/status/177635262270404
+	-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTg2NjEwNywtMTc5NTEwMjg2MywxNj
-U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
-MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
-wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
-MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
-Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
-LDE3MzQ0NjUyNzldfQ==
+eyJoaXN0b3J5IjpbLTU0MzM2NzA1LC0xNzk1MTAyODYzLDE2NT
+g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
+NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
+0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
+NDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Nj
+c5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIs
+MTczNDQ2NTI3OV19
 -->
