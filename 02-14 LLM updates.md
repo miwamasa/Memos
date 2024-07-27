@@ -34,6 +34,13 @@
 - UnslothでLlamaのQLoRA finetuning試してみましたが最高ですね
 	- https://x.com/arumaekawa/status/1814995731972755787
 - Transformer Dissection: A Unified Understanding of Transformer’s Attention via the Lens of Kernel
+	- https://arxiv.org/pdf/1908.11775
+	- https://x.com/myamada0/status/1814793268074586460
+	- Transformerはカーネル法使って早くなる論文読んで、カーネル法こんな使い方あったか、面白い！！！って思ったけど、共著論文書いてたの思い出した。(引用されてた)
+-  Mixture of LoRA Experts
+	- https://arxiv.org/abs/2404.13628
+	- 複数のLoRAをマージするにあたり、ただ足し合わせたりといった方法だと各LoRAの性質が失われる課題があった。本研究ではLoRAの各層ごとにGating Functionを学習することで、低コストで複数のLoRAの性質を引き継ぐ手法を提案。V&LやNLPにおいて、既存手法を上回る性能となった
+- 
 - 
 
 ## 24/7/22
@@ -3535,20 +3542,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - google/gemma-1.1-7b-it
 	- https://huggingface.co/google/gemma-1.1-7b-it
 	- This is Gemma 1.1 7B (IT), an update over the original instruction-tuned Gemma release.
-- HachiML/Swallow-MS-7b-v0.1-MathSkill-OpenMath
-	- https://huggingface.co/HachiML/Swallow-MS-7b-v0.1-MathSkill-OpenMath
-	- Chat Vectorの理論で作ったMath強化モデル、HuggingFaceに置きました
-- 
-
-.
-
-
-
-## 4/1
-
-今週は年度末、日本企業のLLMが年度末工事よろしく次々発表。先週取りこぼした、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は日本語と英語に対応する70億パラメータのLLM。LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、生成AIのビジネス応用元
+- HachiML/Swallow-MS-7b-v0.1-MathSkill-Ope
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTQzNjEzMiwtMTc5NTEwMjg2MywxNj
+eyJoaXN0b3J5IjpbLTc4OTM3NzU0NywtMTc5NTEwMjg2MywxNj
 U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
 MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
 wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
