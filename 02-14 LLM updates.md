@@ -23,6 +23,14 @@
 	- https://x.com/SakanaAILabs/status/1815192991453401092
 - NVIDIA proposes ChatQA 2, a Llama3-based model for enhanced long-context understanding and RAG capabilities.
 	- https://x.com/omarsar0/status/1815219911276580951
+	- The idea is to bridge the gap between open-access and leading proprietary models like GPT-4-Turbo.
+	- Results demonstrate that the Llama3-ChatQA-2-70B model achieves accuracy comparable to GPT-4-Turbo2024-0409 on many long-context understanding tasks and surpasses it on the RAG benchmark.
+-  データマネジメントと生成AI
+	- https://qiita.com/moritata9/items/f1f8538b559a007217af
+	- データを見つける際のデータ抽出を自然言語で行うユースケースが多いね。
+	- コーディングはLLMが得意な領域だから、自然言語でSQLを書いてもらうことはいい使い方だね。
+	- ただ、品質担保が仕切れるかどうかはまだわからないから、SQL生成をしてユーザーがチェックできる仕組みにしているように見えるね。
+	- 効率化される側ではなくて、効率化する側になることが大事だね。
 	- 
 - 
 
@@ -3536,13 +3544,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 4/1
 
-今週は年度末、日本企業のLLMが年度末工事よろしく次々発表。先週取りこぼした、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は日本語と英語に対応する70億パラメータのLLM。LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、生成AIのビジネス応用元年になるのか。Databricksから公開された「DBRX」は、132億パラメータを持つ大規模なMoE(Mixture of Experts)モデルで、既存のオープンソースモデルを上回る性能を発揮。LLaMA2-70Bよりも高速な推論が可能で、Grok-1よりもコンパクトなモデルサイズながら高い性能を実現。NTTのtsuzumiの資料によると、AWSで7Bモデルを300Bトークン学習させると1900万円かかとのことであるが、そもそもLLMのスケール測からすると、投資に対するリターン（精度向上）が見合わなくなるともっぱら話題に。とはいえ、OpenAIとMicrosoftが最大1000億ドルを投じて「Stargate」というスーパーコンピューターを2028年までにつくるとか、パワープレイは続く。一方、推論の効率化では、Intel Neural Compressorは4ビット量子化技術で、LLMの高速推論と効率的な計算資源利用が可能に。LoRAに代わる「LISA」が出てきた。LISAはメモリ使用量を大幅に削減しながら、従来手法と同等以上のパフォーマンスを実現できる。OpenAIが「Voice Engine」を限定ユーザーに発表、安全性と性能を鑑みると、オープンソースでLLMというのも、限定されてくるのかもしれない。個別の話題では、Googleの「CRAG(Corrective Retrieval Augmented Generation)」、従来の検索拡張生成(RAG)手法を改良し、RAGシステムで取得したドキュメントをLLMに渡す前に、そのドキュメントの内容が正しいかどうかを自動でチェックする機能つけることでハルシネーションを抑制。BGE-M3というEmbedding用モデルが、検索タスク
+今週は年度末、日本企業のLLMが年度末工事よろしく次々発表。先週取りこぼした、RakuteのMistral AIベースのRakutenAI 7B等に加え、今週はNTTが開発した「tsuzumi」は日本語と英語に対応する70億パラメータのLLM。LLMの日本語処理能力を評価するベンチマーク「Rakuda Benchmark」において、GPT-3.5やその他の国産LLMを上回る性能で、図表や画像の解析にも対応とのこと、NTT comが生成AIサービスを展開ということなので、生成AIのビジネス応用元年になるのか。Databricksから公開された「DBRX」は、132億パラメータを持つ大規模なMoE(Mixture of Experts)モデルで、既存のオープンソースモデルを上回る性能を発揮。LLaMA2-70Bよりも高速な推論が可能で、Grok-1よりもコンパクトなモデルサイズながら高い性能を実現。NTTのtsuzumiの資料によると、AWSで7Bモデルを300Bトークン学習させると
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzAyMDYzMSwtMTc5NTEwMjg2MywxNj
-U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
-MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
-wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
-MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
-Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
-LDE3MzQ0NjUyNzldfQ==
+eyJoaXN0b3J5IjpbLTE5ODY2NTY2OTQsLTE3OTUxMDI4NjMsMT
+Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
+MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
+AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
+MjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNT
+U2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcw
+MiwxNzM0NDY1Mjc5XX0=
 -->
