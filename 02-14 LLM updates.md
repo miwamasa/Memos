@@ -7,9 +7,14 @@
 	- https://x.com/yukionoguchi10/status/1814670633277792779
 - MITダロン・アセモグル教授
 	- https://x.com/kiyoshi_shin/status/1813799795221471701
-	- AIの登場は、新市場を作り出すのではなく、既存市場の効率化に向かうので、市場規模全体が広がるわけではないので、経済成長が起きるという点には懐疑的。
-	- 権力はGAFAMに集中していく
-	- 国家はなぜ衰退するのか』は読んでいたが、自由主義民主主義制度がなければ富の再分配やイノベーションが阻害され国家が成長できなくなるという内容
+	- 元論文もあった。発表は今年4月
+		- https://economics.mit.edu/sites/default/files/2024-04/The%20Simple%20Macroeconomics%20of%20AI.pdf
+		- AIの登場は、新市場を作り出すのではなく、既存市場の効率化に向かうので、市場規模全体が広がるわけではないので、経済成長が起きるという点には懐疑的。
+		- AIのミクロ経済効果がタスクレベルでのコスト削減（または生産性向上）によってもたらされる場合、そのマクロ経済への影響はハルテンの定理の一種によって示されると主張しています。つまり、GDPと総生産性の向上は、AIの影響を受けるタスクの割合とタスクレベルでの平均コスト削減によって推定できるというものです。
+		- 既存の推定値を用いて、今後10年間の総要素生産性（TFP）への影響は0.71％を超えないと論文は結論づけています。
+		- さらに、初期の証拠は「学習しやすい」タスクからのものであるため、この推定値は誇張されている可能性があると主張しています。
+		- 将来の影響の一部は、「学習しにくい」タスクからもたらされるため、TFPの増加はさらに控えめになると予想されます。
+		- 
 - 
 
 ## 24/7/22
@@ -3528,18 +3533,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://zenn.dev/knowledgesense/articles/bb5e15abb3c547
 	- 「Corrective Retrieval Augmented Generation (CRAG)」
 	- RAGの性能を高めるための新しい手法です。Googleなどの研究者によって2024年2月に提案されました。CRAG（日本語にすると「修正型検索拡張生成」）という手法を使うメリットは、ハルシネーション（幻覚）を減らせることです。CRAGが従来の「RAG」よりもハルシネーションを減らせる理由は、RAGシステムで取得してきたドキュメントをLLMに渡す前に、「そのドキュメントの内容が正しいものなのか」自動でチェックするという機能を取り入れているからです。
--  AIセーフティ技術学会
-	- https://tais2024.cc/ja-jp/
-	- AI Safety，AI Alignment，特異学習理論，自由エネルギー原理，AIの自律性（エージェント性）等々のトークとポスター発表．ほとんど自分が聞きたいテーマだけで構成された魅力的な国際学会
-- 日本語版：AIOS LLM Agent Operating System
-	- https://hamaruki.com/japanese-version-aios-llm-agent-operating-system/
-	- この論文では、LLMをオペレーティングシステム(OS)に組み込んだ「LLMエージェントオペレーティングシステム(AIOS)」を提案しています。 AISOは、エージェントのリソース割り当て最適化、コンテキストスイッチ、並列実行、ツールサービス提供
+-  AIセーフ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg1NTYzNDcsLTE3OTUxMDI4NjMsMT
-Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
-MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
-AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
-MjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNT
-U2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcw
-MiwxNzM0NDY1Mjc5XX0=
+eyJoaXN0b3J5IjpbNzk4NTAzNzAyLC0xNzk1MTAyODYzLDE2NT
+g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
+NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
+0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
+NDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Nj
+c5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIs
+MTczNDQ2NTI3OV19
 -->
