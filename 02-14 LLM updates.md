@@ -106,6 +106,13 @@
 	- https://x.com/moyix/status/1815840634013639086
 - Llama-3.1-8B-Instructに、Llama3時代のSwallowブランチ差分をマージし日本語圏の知識を学習させる実験
 	- https://huggingface.co/aixsatoshi/Meta-Llama-3.1-8B-Instruct-plus-Swallow
+- GPT-4o miniが200万トークンまでだと無料でファインチューニングできるとのこと👏。早速、Govbotのデータを使って、ファインチューニングを実施中↓😇。RAGとの精度を比較してみたい。用途に合わせたモデルがこれほど簡単に作れるのがホントすごい。しかも、無料！
+	- https://x.com/gijigae/status/1815966274511348157
+- I made the closed-source vs. open-weight models figure for this moment.
+	- https://x.com/maximelabonne/status/1816008591934922915
+	-  **閉源モデルとオープンウェイトモデルの性能差の縮小:** 2022年頃から、オープンウェイトモデルの性能が急速に向上しており、閉源モデルとの差が縮小していることがわかります。特に、Llama 3.1 405Bの登場により、初めて閉源モデルに匹敵する性能が実現されました。
+	-   **モデルのパラメータ数と性能の関係:** 一般的に、モデルのパラメータ数が増えるほど性能が向上する傾向が見られます。しかし、必ずしもパラメータ数が多いモデルが常に高い性能を示すとは限りません。
+	- **モデルの進化のスピード:** 自然言語処理モデルの性能向上は非常に速く、数ヶ月ごとに新しいモデルが登場し、
 - 
 
 ## 24/7/22
@@ -3536,14 +3543,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  ReALM: Reference Resolution As Language Modeling
 	- https://arxiv.org/abs/2403.20329
 	- Apple's 3B LLM(ReALM ) Outperforms GPT-4
-	- ReALM significantly improves how conversational assistants like Siri or Alexa can understand the way humans naturally talk. Imagine you're looking at a list of restaurants on your smartphone and you say "direct me to the one on Main Street" -
-	-  ReALM is able to understand which restaurant you're referring to, even though you didn't specify the exact name.
--  Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models
-	- https://huggingface.co/papers/2404.02575
-	- This paper presents Think-and-Execute, a novel framework that decomposes the reasoning process of language models into two steps.
-	- (1) In Think, we discover a task-level logic that is shared across all instances
+	- ReALM significantly improves how conversational assistants like Siri or Alexa can understand the way humans n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk0MzUxNywtMTc5NTEwMjg2MywxNj
+eyJoaXN0b3J5IjpbMTY2MjYwODU0NSwtMTc5NTEwMjg2MywxNj
 U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
 MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
 wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
