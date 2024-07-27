@@ -130,7 +130,10 @@
 - ベイズ統計入門　by 渡辺澄夫
 	- https://warp.ndl.go.jp/info:ndljp/pid/12364128/watanabe-www.math.dis.titech.ac.jp/users/swatanab/joho-gakushu6.html
 	- もう主義も論争もいりません
-- 
+	- 現代の統計学において「主義」が無意味であることは、わかっている人はみなわかっているが、「導入本」「ＳＮＳ上」「また聞き」には「ベイズ主義」、「頻度主義」という言葉や論争をあおる説明が書かれている場合が多く、これを読んだユーザーが「どちらが正しいか」という問いかけを始めてしまいやすい。
+- Llama 3.1 performing multi-step planning, reasoning, and tool calling. This is without an agent framework!
+	- https://x.com/tom_doerr/status/1816118804541329533
+	- 
 
 ## 24/7/22
 
@@ -3545,17 +3548,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://python.langchain.com/docs/modules/model_io/chat/structured_output/#groq
 	- GroqInc just dropped tool calling!
 	- We've added LangChain support (including the popular `withStructuredOutput` method!) so you can try it in your favorite chains and apps.
-	- It supports MistralAI, Mixtral, Llama 70B, and Google Gemma.
--  Chat Vectorを使って日本語LLMをチャットモデルに改造する
-	- https://qiita.com/jovyan/items/ee6affa5ee5bdaada6b4
-	- Chat Vector: A Simple Approach to Equip LLMs with Instruction Following and Model Alignment in New Languages
-	- LLMの学習済み重みパラメータの足し引きによって、事前学習済みモデルに対話能力を与えることができる
+	- It suppor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1OTAxNjkxLC0xNzk1MTAyODYzLDE2NT
-g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
-NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
-0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
-NDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Nj
-c5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIs
-MTczNDQ2NTI3OV19
+eyJoaXN0b3J5IjpbLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNj
+U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
+MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
+wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
+MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
+Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
+LDE3MzQ0NjUyNzldfQ==
 -->
