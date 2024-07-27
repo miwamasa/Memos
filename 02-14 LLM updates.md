@@ -113,7 +113,14 @@
 	-  **閉源モデルとオープンウェイトモデルの性能差の縮小:** 2022年頃から、オープンウェイトモデルの性能が急速に向上しており、閉源モデルとの差が縮小していることがわかります。特に、Llama 3.1 405Bの登場により、初めて閉源モデルに匹敵する性能が実現されました。
 	-   **モデルのパラメータ数と性能の関係:** 一般的に、モデルのパラメータ数が増えるほど性能が向上する傾向が見られます。しかし、必ずしもパラメータ数が多いモデルが常に高い性能を示すとは限りません。
 	- **モデルの進化のスピード:** 自然言語処理モデルの性能向上は非常に速く、数ヶ月ごとに新しいモデルが登場し、
-- 
+- 機械学習ハミルトニアンの論文。by 横山さん
+	-  Deep learning density functional theory Hamiltonian in real space
+	- https://arxiv.org/abs/2407.14379
+	- 従来の機械学習によるハミルトニアン予測は基底関数の選択が結果に大きく影響したのに対し、実空間のポテンシャルを直接予測することで基底関数に依存せず正確に電子状態を予測できたそうです。
+- llama3.1を日本語対応させたLlama3.1-ArrowSE-v0.4を公開します。しっかり日本語で応答します。
+	- https://huggingface.co/DataPilot/Llama3.1-ArrowSE-v0.4
+- Fully local agents with Llama3.1
+	- 
 
 ## 24/7/22
 
@@ -3539,13 +3546,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://ia902707.us.archive.org/view_archive.php?archive=/2/items/enc-97-enc/ENC97ENC.iso
 -  JetMoE: Reaching LLaMA2 Performance with 0.1M Dollars
 	- https://research.myshell.ai/jetmoe
-	- JetMoE-8B is trained with less than $ 0.1 million cost but outperforms LLaMA2-7B from Meta AI, who has multi-billion-dollar training resources. LLM training can be much cheaper than people generally thought.
--  ReALM: Reference Resolution As Language Modeling
-	- https://arxiv.org/abs/2403.20329
-	- Apple's 3B LLM(ReALM ) Outperforms GPT-4
-	- ReALM significantly improves how conversational assistants like Siri or Alexa can understand the way humans n
+	- JetMoE-8B is trained with less than $ 0.1 million cost but outperforms L
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjYwODU0NSwtMTc5NTEwMjg2MywxNj
+eyJoaXN0b3J5IjpbMTQxMTAyOTMwOSwtMTc5NTEwMjg2MywxNj
 U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
 MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
 wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
