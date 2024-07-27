@@ -4,6 +4,13 @@
 ## 24/7/29
 
 - 日本の企業活動は、初等・中等教育までの知識で成り立っているのに対して、アメリカの企業活動は、大学院教育に基づいて成り立っている
+	- https://x.com/yukionoguchi10/status/1814670633277792779
+- MITダロン・アセモグル教授
+	- https://x.com/kiyoshi_shin/status/1813799795221471701
+	- AIの登場は、新市場を作り出すのではなく、既存市場の効率化に向かうので、市場規模全体が広がるわけではないので、経済成長が起きるという点には懐疑的。
+	- 権力はGAFAMに集中していく
+	- 国家はなぜ衰退するのか』は読んでいたが、自由主義民主主義制度がなければ富の再分配やイノベーションが阻害され国家が成長できなくなるという内容
+- 
 
 ## 24/7/22
 
@@ -3526,13 +3533,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- AI Safety，AI Alignment，特異学習理論，自由エネルギー原理，AIの自律性（エージェント性）等々のトークとポスター発表．ほとんど自分が聞きたいテーマだけで構成された魅力的な国際学会
 - 日本語版：AIOS LLM Agent Operating System
 	- https://hamaruki.com/japanese-version-aios-llm-agent-operating-system/
-	- この論文では、LLMをオペレーティングシステム(OS)に組み込んだ「LLMエージェントオペレーティングシステム(AIOS)」を提案しています。 AISOは、エージェントのリソース割り当て最適化、コンテキストスイッチ、並列実行、ツールサービス提供、アクセス制御などの機能を持っています。
--  RAFT: Adapting Language Model to Domain Specific RAG
-	- https://arxiv.org/abs/2403.10131
-	- RAFT offers a method to fine-tune pre-trained LLMs for specific domain RAG settings.
-	- Conventional RAG is like an open-book exam, retrieving documents from an index to provide context for 
+	- この論文では、LLMをオペレーティングシステム(OS)に組み込んだ「LLMエージェントオペレーティングシステム(AIOS)」を提案しています。 AISOは、エージェントのリソース割り当て最適化、コンテキストスイッチ、並列実行、ツールサービス提供
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjk1MDIzMTQsLTE3OTUxMDI4NjMsMT
+eyJoaXN0b3J5IjpbLTIwMjg1NTYzNDcsLTE3OTUxMDI4NjMsMT
 Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
 MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
 AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
