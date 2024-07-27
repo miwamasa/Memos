@@ -61,6 +61,12 @@
 	- https://note.com/google_gemini/n/nbbe40969c653?sub_rt=share_h
 	- これから必要なのは「プロンプトの暗記」ではない
 	- 考え方としては大きく 2 種類あります。ひとつが、問題の適正なフレームを作ること。
+	- もうひとつが、問題を簡単に解決できるであろう方法を指定することです。
+	- ロング コンテキストの活用法というと大量の情報の要約と言われがちでそれももちろんなのですが、でもそれだけでなく、ビジネスデータの分析、対話履歴の分析、コード生成など、幅広い活用が可能です。僕的には特に分析力を活用することで、新たな価値を生み出すことができると考えているんです。
+- LazyLLM:Dynamic Token Pruning for Efficient Long Context LLM Inference
+	- https://huggingface.co/papers/2407.14057
+	- Apple presents LazyLLM
+	- 
 
 ## 24/7/22
 
@@ -3539,15 +3545,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://sc-bakushu.hatenablog.com/entry/2024/04/04/091521
 	- 「chatntq_chatvector-MoE-Antler_chatvector-2x7Bchatntq_chatvector-MoE-Antler_chatvector-2x7B」という呪文のような日本語MoEモデル
 	- https://huggingface.co/Sdff-Ltba/LightChatAssistant-2x7B
-	- Mistral 7Bベースの「Japanese Stable LM Base Gamma」をファインチューンした2つの異なるモデル（Antler 7B, ChatNTQ-JA-7B）を2x7BのMoEにしたモデルだそうです。
-	- このMoEモデルを早速試してみたところ、確かに賢そうな印象を受けました。ただ、そもそもベースにされている2つのモデルを聞いたことがありませんでした。
-- pfnet/nekomata-14b-pfn-qfin
-	- https://huggingface.co/pfnet/nekomata-14b-pfn-qfin
-	- rinna社のnekomata-14bを金融向けにチューニングしたLLMを公開しました！ これは、まだまだ金融分野へのLLM応用につながる第一歩でしかないと思うので、もっと研究開発を進めていきたいと思います。
-- Qwen1.5-32B release
-	-
+	- Mistral 7Bベースの「Japanese Stable LM Base Gamma」をファインチューンした2つの異なるモデル（Antler 7B, Cha
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzM2NzA1LC0xNzk1MTAyODYzLDE2NT
+eyJoaXN0b3J5IjpbMzQxMDk5Mzk0LC0xNzk1MTAyODYzLDE2NT
 g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
 NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
 0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
