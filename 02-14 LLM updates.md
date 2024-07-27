@@ -120,7 +120,14 @@
 - llama3.1を日本語対応させたLlama3.1-ArrowSE-v0.4を公開します。しっかり日本語で応答します。
 	- https://huggingface.co/DataPilot/Llama3.1-ArrowSE-v0.4
 - Fully local agents with Llama3.1
-	- 
+	- https://x.com/LangChainAI/status/1816150605318304166
+- Mistral large2、123Bパラメーターで日本語に正式対応
+	- https://x.com/AiXsatoshi/status/1816135011294404767
+- Mistralからまたしても新モデル投下！！Mistral-Large2！！前のMistral-Largeはクローズモデルだったのに今回はオープン公開！！パラ数は123B！！405Bほどじゃないけどでかい。コンテキスト長128k！多言語対応で日本語もイン！！MT-Benchで8.63でSonnet3.5やGPT-4o並みらしい！！　 by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1816154383211770096
+- 特許番号を入れるとAIが自動的に特許に基づくアイディアを考えてくれる
+	- https://chizaizukan.com/property/ideaflow/
+- 
 
 ## 24/7/22
 
@@ -3540,19 +3547,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://qiita.com/jovyan/items/ee6affa5ee5bdaada6b4
 	- Chat Vector: A Simple Approach to Equip LLMs with Instruction Following and Model Alignment in New Languages
 	- LLMの学習済み重みパラメータの足し引きによって、事前学習済みモデルに対話能力を与えることができるという結果が示されています。
-	- 具体的には、英語で事前学習されたモデル（以下ではベースモデルと呼びます）と、ベースモデルを指示チューニング (instruction tuning)してチャット形式の対話ができるようにしたモデル（英語チャットモデル）、ベースモデルを英語以外の言語で継続事前学習したモデルの３つのモデルを用います。
-	- 英語チャットモデルの重みからベースモデルの重みを引いたものは、チャット形式で対話ができる能力を表したベクトルであり、そのベクトルを他言語の継続事前学習モデルの重みに加えることで他言語のモデルにチャット形式の対話能力を付与できるという
-- Microsoft Encarta '97 (including MindMaze) has been open-sourced on
-	- https://ia902707.us.archive.org/view_archive.php?archive=/2/items/enc-97-enc/ENC97ENC.iso
--  JetMoE: Reaching LLaMA2 Performance with 0.1M Dollars
-	- https://research.myshell.ai/jetmoe
-	- JetMoE-8B is trained with less than $ 0.1 million cost but outperforms L
+	- 具体的には、英語で事前学習されたモデル（以下ではベースモデルと呼びます）と、ベースモデルを指示チューニング (instruction tuning)してチャット形式の対話ができるようにしたモデル（英語チャットモデル）、ベースモデルを英語以外の言語で継続事前学習したモデルの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTAyOTMwOSwtMTc5NTEwMjg2MywxNj
-U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
-MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
-wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
-MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
-Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
-LDE3MzQ0NjUyNzldfQ==
+eyJoaXN0b3J5IjpbLTM2MDM4NzgxLC0xNzk1MTAyODYzLDE2NT
+g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
+NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
+0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
+NDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Nj
+c5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIs
+MTczNDQ2NTI3OV19
 -->
