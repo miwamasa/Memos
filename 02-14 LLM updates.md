@@ -76,6 +76,13 @@
 	- https://x.com/GoogleColab/status/1815500302277394779
 - Google、アプリ実行時に生成AIが適切なUIを構成し動的生成する「AI Generated UI」発表
 	- https://x.com/publickey/status/1815596621586891029
+- MacStudioでさえローカルLLMの電気代とGPT-4ominiのAPIコストがトントンだとしたらGPUでのローカルLLMなんて完全敗北確定じゃないですか～ by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1815620439940727067
+- Build a mixture of agents with llama_index and ollama
+	- https://x.com/jerryjliu0/status/1815534962785071442
+- LLMによって専門的な心理テストをRPG風などのゲームに変換し、楽しませながら測定するアプローチが検証されました。
+	- https://arxiv.org/abs/2402.12326
+	- LLM Agents for Psychology: A Study on Gamified Assessments
 - 
 
 ## 24/7/22
@@ -3537,16 +3544,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://ai-data-base.com/archives/66828
 	- Appleは、ユーザーとの対話やスマホ画面を高度に理解する言語モデル『ReALM』を発表しています。Siriなどのアシスタントを進化させる技術としての位置付けです
 - Command Rはローカル実行ては初めて文章クリーニングできたかもしれん
-	- https://x.com/Meteor_Eternal/status/1775877913952518608
-- Claude Function Calling Agent by langchain
-	- https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/agent/anthropic_agent.ipynb
-- Generating text with 4-bit 104B ⌘R+ in MLX on an M2 Ultra. Runs pretty well:
-	- https://x.com/awnihannun/status/1776081238467768493
-- Command R の 概要 by npakaさん
-	- https://note.com/npaka/n/naa6add7a892f?sub_rt=share_h
-	- 「Com
+	- https://x.c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTE3MDk2NCwtMTc5NTEwMjg2MywxNj
+eyJoaXN0b3J5IjpbMTkxMjc1NTE0NywtMTc5NTEwMjg2MywxNj
 U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
 MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
 wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
