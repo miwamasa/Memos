@@ -97,7 +97,10 @@
 -  Towards Causal Foundation Model: on Duality between Causal Inference and Attention
 	- https://arxiv.org/abs/2310.00809
 	- 本当なら凄い。
-	- 
+	- his is based on our theoretical results that demonstrate the primal-dual connection between optimal covariate balancing and self-attention,
+- Metaは先陣を切って明確に「EUをハブる」方向に舵を切り,他機関も続きそうです
+	- https://x.com/ImAI_Eruel/status/1815935567680659803
+	- 今日のLlama3.1ですが，論文（https://ai.meta.com/research/publications/the-llama-3-herd-of-models/）を見てみると，総計算量が3.8x1025で，EUが定めた規制対象「systemic risk」の基準である1.0x10^25を超えています．これを超えるとEU内で色々と厄介な扱いを受けるはずなのですが，LeCun自身はこの話題に関して「EUは自ら最新モデルにアクセスできないように首を絞めている」というツイートもRTしており，意図的に踏み越えている感じです
 
 ## 24/7/22
 
@@ -3536,22 +3539,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- (2) In Execute, we further tailor the generated pseudocode to each instance and simulate the execution of the code.
 - Mixture-of-Depths: Dynamically allocating compute in transformer-based language models
 	- https://arxiv.org/abs/2404.02258
-	- Dynamically allocating compute in transformer-based language models
-	- Same performance w/ a fraction of the FLOPs per forward pass
--  1bit LLM の時代は来るのか，来ないのか，どっちなんだい？
-	- https://note.com/ipsj/n/ncbe5746f71fb
-	- 三値のBitNetについて、情報処理学会の会誌に解説を書かせていただきました
-	- 「モデルを大きくすると精度の逆転現象が起こるのだとすると，量子化というのはこれまで想定されていたよりもかなり優れたアイディアなのではないか？」
-	- b1.58論文の中身について解説してきましたが，いかがでしたでしょうか．個人的には，この論文には賛否両論があると考えています．
-	- 肯定的な見地からは，精度の逆転現象が本当ならば大きな発見であり，自然言語処理分野への大きな貢献となり得る
-- Cohere's latest LLM, Command R+ がAzureにのる by Nadera
-	- https://x.c
+	- Dynamical
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc2Mjk5OTUsLTE3OTUxMDI4NjMsMT
-Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
-MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
-AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
-MjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNT
-U2NzkwMiwtMjExMDU1MDM3OSwtOTAzMDM3Mjk1LC0yOTkwODcw
-MiwxNzM0NDY1Mjc5XX0=
+eyJoaXN0b3J5IjpbNjc0NzcyODkzLC0xNzk1MTAyODYzLDE2NT
+g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
+NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
+0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
+NDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Nj
+c5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIs
+MTczNDQ2NTI3OV19
 -->
