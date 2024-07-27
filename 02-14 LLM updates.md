@@ -42,7 +42,12 @@
 	- 複数のLoRAをマージするにあたり、ただ足し合わせたりといった方法だと各LoRAの性質が失われる課題があった。本研究ではLoRAの各層ごとにGating Functionを学習することで、低コストで複数のLoRAの性質を引き継ぐ手法を提案。V&LやNLPにおいて、既存手法を上回る性能となった
 - Anthropic CEOは、人類に脅威を与えるAI(ASL-4水準)の到来は、2025年から2028年と予想
 	- https://x.com/0317_hiroya/status/1815237370935136299
-- 
+- DCLM 7B is based on OpenELM, trained on 2.5T tokens with 63.72 MMLU.
+	- https://x.com/AlphaSignalAI/status/1815425975926006036
+	- Apple just released a 7B model that beats Mistral 7B.
+- 「How is Mem0 different from RAG?」
+	- https://x.com/Harappa80/status/1815358200826462272
+	-  AIとの対話を長期記録してLLMの応答をパーソナライズする「Mem0」
 - 
 
 ## 24/7/22
@@ -3538,18 +3543,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 特に4bit以下の低bit[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)を行う場合は、このiMatrix版の[量子化](https://d.hatena.ne.jp/keyword/%CE%CC%BB%D2%B2%BD)が推奨されます
 - Apple MLX: Qwen-32B is out and now converted for MLX in 4 and 8 bits flavors.
 	- https://x.com/ivanfioravanti/status/1776327090452738315
-- ReFT: Representation Finetuning for Language Model
-	- https://arxiv.org/abs/2404.03592
-	- LoRAのようにweightに介入する fine tuning ではなく、潜在（中間）表現に介入する fine tuning である、ReFT (Representation Finetuning) というフレームワークとその一つの実現例である Low-rank Linear Subspace ReFT (LoReFT) の提案。
-- google/gemma-1.1-7b-it
-	- https://huggingface.co/google/gemma-1.1-7b-it
-	- This is Gemma 1.
+- ReFT: Representation Finetuning for L
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjM2ODMxNCwtMTc5NTEwMjg2MywxNj
-U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
-MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
-wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
-MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
-Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
-LDE3MzQ0NjUyNzldfQ==
+eyJoaXN0b3J5IjpbODYyNzEzOTIwLC0xNzk1MTAyODYzLDE2NT
+g3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIx
+NDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC
+0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIw
+NDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Nj
+c5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5NSwtMjk5MDg3MDIs
+MTczNDQ2NTI3OV19
 -->
