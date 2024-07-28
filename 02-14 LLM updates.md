@@ -155,7 +155,11 @@
 - Robert Tibshiraniさん、Lasso論文について、息子から質問を受ける
 	- https://x.com/umaruyama/status/1816250649530765477
 	- インタビューをする側だった Robert Tibshirani さんが受ける側になって，息子 Ryan（UCB 統計学科）が Lasso 論文について質問する動画が公開されていますね。
-- 
+- Lucan先生やたら、マスク氏をディする
+	- https://x.com/ylecun/status/1816425693380481249
+-  Masked Attention is All You Need for Graphs
+	- https://arxiv.org/abs/2402.10793
+	- 
 
 
 ## 24/7/22
@@ -3545,16 +3549,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - RankZephyr is a nice 7B model 
 	- https://arxiv.org/pdf/2312.02724.pdf
 	- that is optimized for list-wise zero-shot reranking
-	- https://docs.llamaindex.ai/en/stable/examples/node_postprocessor/rankLLM/?h=rankllm
-- intelligent notetaking by https://iki.ai/
-	- https://iki.ai/
-	- a cool example of an AI-enabled notetaking interface th
+	- https://docs.llamaindex.ai/en/stable/examples/n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTEyMTA4NDUsLTI2MDkyMjU4NCwtMz
-g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
-NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
-wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
-NjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OT
-YyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2Nzkw
-MiwtMjExMDU1MDM3OV19
+eyJoaXN0b3J5IjpbMTUwNTA0OTE2OSwtMjYwOTIyNTg0LC0zOD
+cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
+MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
+EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
+MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
+I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
+LC0yMTEwNTUwMzc5XX0=
 -->
