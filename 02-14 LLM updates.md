@@ -174,7 +174,7 @@
 	- より高いレベルで価値を発揮しなければ生き残れなくなってしまったのは事実だろう
 	- 今の若者の一部は素人が作った低品質のコンテンツを浴びるように消費することになんの問題も見出していない
 	- 質の高いものに触れるということは、価値観を形成することにもつながる。本物 (actual) にふれる経験を経なければ、「自分はなにをしたいのか・何が好きなのか・なにを「いい」と思うのか」といったことに答えることができない。だからこそ、消費層にとどまることは怖いのだ
-- 
+-  Longhorn: State Space Models are Amortized Online Learners
 
 
 ## 24/7/22
@@ -3549,13 +3549,12 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「化学分野の幅広い 7,000 以上の質問と回答のペアを厳選し、主要なLLM を評価しました。その結果、私たちの研究では、最良のモデルが平均して最良の人間の化学者を上回るパフォーマンスを示した」
 -  LlamaIndex の Reranker を試す by npakaさん
 	- https://note.com/npaka/n/n8f9ee8533896?sub_rt=share_h
-	- RAGにおける「Reranker」は、取得したチャンクの中から、質問に対して最も関連性の高い情報を持つチャンクを
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDUwMDE0NjIsLTI2MDkyMjU4NCwtMz
-g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
-NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
-wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
-NjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OT
-YyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2Nzkw
-MiwtMjExMDU1MDM3OV19
+eyJoaXN0b3J5IjpbOTMyMDAzNjIwLC0yNjA5MjI1ODQsLTM4Nz
+E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
+MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
+M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
+NDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mj
+c1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIs
+LTIxMTA1NTAzNzldfQ==
 -->
