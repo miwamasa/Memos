@@ -10,7 +10,7 @@ Fine-tuning gpt-4o-mini is *free* for up to 2M tok/day??
 
 Transformerはカーネル法使って早くなる論文
 
-匿名ブログでの「AIバブルが弾けようが国はもはや政治的にAI開発をストップできない」というのも話題になった、アセモグル教授が指摘するような、AI（主に生成AI)により経済成長は懐疑的という以前に、バブルは崩壊するという悲観論もあるが、弾けようがどうなろうが、AI開発はストップできないというもはや脅迫状態。Zuckerberg も、AIにここで投資しないと、あと５～１０年、技術での先行できなくなるといってたな。誰も怖くて降りれなくなった先は、歴史は繰り返すのか（17世紀のオランダで起きたチューリップバブルの崩壊）。
+匿名ブログでの「AIバブルが弾けようが国はもはや政治的にAI開発をストップできない」というのも話題になった、アセモグル教授が指摘するような、AI（主に生成AI)により経済成長は懐疑的という以前に、バブルは崩壊するという悲観論もあるが、弾けようがどうなろうが、AI開発はストップできないというもはや脅迫状態。Zuckerberg も、インタビューで、いまAIにここで投資しないと、あと５～１０年、会社として技術での先行が保てなくなるでといってたな。誰も怖くて降りれなくなった先は、ゆるや
 
 - 日本の企業活動は、初等・中等教育までの知識で成り立っているのに対して、アメリカの企業活動は、大学院教育に基づいて成り立っている
 	- https://x.com/yukionoguchi10/status/1814670633277792779
@@ -3554,13 +3554,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 4/8
 
-今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな傾向に拍車がかかるのでは。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動
+今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな傾向に拍車がかかるのでは。AppleからはReALM発表
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODg2Mzc2MSwtMjg0MTA2Mzg5LC0yNj
-A5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAy
-ODYzLDE2NTg3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2Ny
-wyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0
-MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNj
-g2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5
-Myw4MjU1Njc5MDJdfQ==
+eyJoaXN0b3J5IjpbODU3NTc3MTg4LC0yODQxMDYzODksLTI2MD
+kyMjU4NCwtMzg3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4
+NjMsMTY1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LD
+I5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQx
+MzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2OD
+YxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkz
+LDgyNTU2NzkwMl19
 -->
