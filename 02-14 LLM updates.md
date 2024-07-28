@@ -168,7 +168,10 @@
 	- https://x.com/akshay_pachaar/status/1816452939244081521
 	- 1. Define a Pydantic object. 
 	- 2. Attach it to your LLM using `as_structured_llm(…)`.
-- 
+-  生成 AI 時代の創造性についての考察―最後に残るものはなにか
+	- https://note.com/kiriem/n/na11aaf3d25f8?sub_rt=share_pw
+	- 僕はこれまで趣味でビートメイクをやっていたが、僕が3-4年かけて習得した技術はあっという間に生成 AI に取って代わられてしまった。
+	- より高いレベルで価値を発揮しなければ生き残れなくなってしまったのは事実だろう
 
 
 ## 24/7/22
@@ -3547,15 +3550,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 今回は、多言語のRerankerモデル「**BAAI/bge-reranker-v2-m3**」を使います。top_n=5で関連性の高い5件に絞ります。
 -  Semantic Routerを試す
 	- https://zenn.dev/kun432/scraps/73b098e774bd21
-	- LLMやエージェントの意思決定のルーティングを行うSemantic Routerを試してみた。ルーティングだけじゃなく、セマンティックなチャンク分割にも使える。 ベクトル検索の使い方はいろいろな可能性がありそう。
-	- クエリで処理を分岐させたいようなケースは、Function Callingを使ってLLMにルーティングさせるとかがあると思うのだけど、事前にクエリのサンプルを用意しておいてベクトル検索でルーティングさせるというようなもの。
-	- La
+	- LLMやエージェントの意思決定のルーティングを行う
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzMzMzMxMjksLTI2MDkyMjU4NCwtMz
-g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
-NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
-wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
-NjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OT
-YyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2Nzkw
-MiwtMjExMDU1MDM3OV19
+eyJoaXN0b3J5IjpbMTU4OTg5MjE1MSwtMjYwOTIyNTg0LC0zOD
+cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
+MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
+EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
+MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
+I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
+LC0yMTEwNTUwMzc5XX0=
 -->
