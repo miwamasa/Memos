@@ -184,6 +184,12 @@
 	-  I created a Human Feedback Collector based on Gradio that directly logs data to the huggingface Hub.
 - iPhone 15 Pro上でLlama 3.1が機内モードにしてちゃんと動いた
 	- https://x.com/ytiskw/status/1816372036156985731
+	- 使っているとスマホは熱くなる
+	- 8Bはハルシネーションする 
+	- localchatというアプリを使用
+	- Macでも使える模様。作者の方こちら
+	- https://localchat.co/
+- Llama3.1 405Bのトレーニングに使われた計算資源は約3.8×10^25 FLOPSらしい。ちょうど米国が規制対象としようとしている10^26FLOPSよりも小さく、欧州がハイリスクAIと位置づけようとしている10^25FLOPSよりは大きく、Llama派生モデルが欧州委に行列をなしたらどうなるんだろう？という意地の悪い興味
 	- 
 
 
@@ -3541,17 +3547,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/Meteor_Eternal/status/1775096408435216766
 - OSS Models + LangGraph.js
 	- LangGraph helps you create LLM apps that closely match the logical flows used to solve a problem.
-	- https://github.com/langchain-ai/langgraphjs/blob/main/examples/chatbots/customer_support_mistral.ipynb
--  Mamba Explained
-	- https://thegradient.pub/mamba-explained/
-	- Mambaの選択機構を注意機構との比較やアナロジーを用いながら直感的に説明した記事。 
-	- 文脈内学習ではTransformerのようにプロンプトに全ての情報を入れる必要がなく、状態（システムプロンプトなどを圧縮
+	- h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQwOTkyMDMsLTI2MDkyMjU4NCwtMz
-g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
-NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
-wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
-NjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OT
-YyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2Nzkw
-MiwtMjExMDU1MDM3OV19
+eyJoaXN0b3J5IjpbMTk4NzQ1NTMzLC0yNjA5MjI1ODQsLTM4Nz
+E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
+MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
+M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
+NDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mj
+c1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIs
+LTIxMTA1NTAzNzldfQ==
 -->
