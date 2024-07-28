@@ -213,6 +213,9 @@
 	- AlphaProofは形式言語Leanで数学的なステートメントを証明するために自己トレーニングするシステム
 	- AlphaGeometry 2 は過去 25 年間の IMO 幾何学問題全体の 83% を解くことができたが、これは前身の 53% の達成率を上回っている。
 - Ollama 0.3 with tool support!
+	- https://ollama.com/blog/tool-support
+- Mark Zuckerberg shared mind-blowing new insights on AI.
+	- https://x.com/sairahul1/status/1816449865981075694
 	- 
 
 
@@ -3541,16 +3544,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Googleから、Gecko組み込みモデル、LLMを蒸留した？？謎
 	- LLMを使って学習用のペアデータを作ってEmbedding Modelの学習をした後、このモデルに寄り得られた関連パッセージに同じLLMでPositive/Hard Negativeのラベルを振り直して追加学習しているらしい。
 - LMFlowでLlama2-70BのLISAファインチューニングがあっさり動いた by shi3zさん
-	- https://x.com/shi3z/status/1774710763007119735
-	- 大体30GBあれば学習できるとすればA6000でも可能ということか?
--  Google Colab で BAAI/bge-reranker-v2-m3 を試す by npakaさん
-	- https://not
+	- http
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0MDMwNTI2LC0yNjA5MjI1ODQsLTM4Nz
-E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
-MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
-M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
-NDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mj
-c1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIs
-LTIxMTA1NTAzNzldfQ==
+eyJoaXN0b3J5IjpbLTUzNzAxMjI0NywtMjYwOTIyNTg0LC0zOD
+cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
+MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
+EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
+MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
+I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
+LC0yMTEwNTUwMzc5XX0=
 -->
