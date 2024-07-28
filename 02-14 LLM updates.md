@@ -60,6 +60,15 @@
 	- imatrixのデータはTFMC/imatrix-dataset-for-japanese-llmを使用して作成しました
 - Llama 3.1 70B seems like the most interesting model launching tomorrow. HumanEval jumped from 39% to 79% between llama 3 and 3.1 70B
 	- https://x.com/phill__1/status/1815426904289312788
+-  Llama 3.1 の新機能と使い方 by npakaさん
+	- https://note.com/npaka/n/n26cf1242bc93
+	- **8B、70B、405B**の3つのサイズがあり、それぞれにベースモデルと指示モデルがあります。
+	- **128Kトークンのコンテキスト長**
+	- 「**Llama Guard 3**」と「**Prompt Gard**」も提供されています。
+	- **他のLLMの改善にモデル出力を使用できる**
+	- **派生モデルの名前の先頭に「Llama」を含める**必要があり、**派生作品やサービスには「Built with Llama」と記載**する必要があります。
+	- 
+- 
 -  深津式プロンプトを超える、ロング コンテキスト時代のテクニック指南
 	- https://note.com/google_gemini/n/nbbe40969c653?sub_rt=share_h
 	- これから必要なのは「プロンプトの暗記」ではない
@@ -3539,17 +3548,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 4/8
 
-今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな傾向に拍車がかかるのでは。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量なモデル、そういえばSiriの人員が解雇されたというニュースもあった。スタンフォードやCMUの一流大学でもCSの修士の就職率が２割とのこと、まあ10年でCS修士取得者が10倍になったという要因もあるようだが、LLMをコンパイラとして使うっていう時代、普通のCS修士程度ではもやは、お呼びではないということか。OpenAIは、日本にアジア初の拠点を開設、なぜか住所は西新橋の雑居ビル。Gemmaの1.1のリリースとかQwen1.5-32B のリリースなど、重要な改良リリースも進む。RAGではReranker が話題に、類似度の高いチャンクを選択したはずなのに、そのあとにRerankするのか。。対応するLLMもいくつか出てる。日本語モデルでは、Swallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルという話もあったが、Mistral 7Bベースの２つの日本語LLMをChat Vector法で強化したものをMoEした、とても長い名前のモデルが話題に、寿限無か。大規模言語モデル開発のための日本語 Instruction データセット作成とか、NLP2024のチュートリアルから、作って学ぶ日本語大規模言語モデル - 環境構築手順と実験ソースコードの公開とか、日本のLLM層の底上げも進む。 アマゾンのBezos氏も投資していると話題となったPerplexity、AI検索が次のビッグウエーブということらしい、GoogleのAI検索も確かにPerplexity風になっているし、GoogleのAI検索は有料化という報道も。もともとBingってPerplexityのような仕組みじゃなかったか。Mixture-of-Depthsとか、ファインチューニングのReFTとか、GRIFFIN とか、新しいLLM最適化の知見が次々にでてきたが、なんといっても、今週はChat VectorというLLMの足し算引き算ができる技術、word2vecのようなベクトル計算がLLMでもできるなんてすごすぎる。Chat Vectorで強化してMoEで、、みたいなのが主流になるかも。Claude3でfunction callingがサポート、さっそくlangchainから、Claude3をつかったエージェント実装が出た、まあ能力からしてそうなるわな。BAAIのMetaWorm論文、線虫を研究して、身体性の謎を解決？Reranker でもBAAI出てきたし、もう中国も、力任せで優れたLLMを出すだけではなく、理論でも、ということか。三値のBitNetの情処の解説、「精度の逆転」というのがあるのか、もし本当ならば、たしかにこれはゲームチェンジャーだな。
-
-
-- ビジネスの実務で「因果」を推測するということ by TJOさん
-	- https://tjo.hatenablog.com/entry/2024/02/28/
+今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな傾向に拍車がかかるのでは。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量なモデル、そういえばSiriの人員が解雇されたというニュースもあった。スタンフォードやCMUの一流大学でもCSの修士の就職率が２割とのこと、まあ10年でCS修士取得者が10倍になったという要因もあるようだが、LLMをコンパイラとして使うっていう時代、普通のCS修士程度ではもやは、お呼びではないということか。OpenAIは、日本にアジア初の拠点を開設、なぜか住所は西新橋の雑居ビル。Gemmaの1.1のリリースとかQwen1.5-32B のリリースなど、重要な改良リリースも進む。RAGではReranker が話題に、類似度の高いチャンクを選択したはずなのに、そのあとにRerankするのか。。対応するLLMもいくつか出てる。日本語モデルでは、Swallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルという話もあったが、Mistral 7Bベースの２つの日本語LLMをChat Vector法で強化したものをMoEした、とても長い名前のモデルが話題に、寿限無か。大規模言語モデル開発のための日本語 Instruction データセット作成とか、NLP2024のチュートリアルから、作って学ぶ日本語大規模言語モデル - 環境構築手順と実験ソースコードの公開とか、日本のLLM層の底上げも進む。 アマゾンのBezos氏も投資していると話題となったPerplexity、AI検索が次のビッグウエーブということらしい、GoogleのAI検索も確かにPerplexity風になっているし、GoogleのAI検索は有料化という報道も。もともとBingってPerplexityのような仕組みじゃなかったか。Mixture-of-Depthsとか、ファインチューニングのReFTとか、GRIFFIN とか、新しいLLM最適化の知見が次々にでてきたが、なんといっても、今週はChat VectorというLLMの足し算引き算ができる技術、word2vecのようなベクトル計算がLLMでもできるなんてすごすぎる。Chat Vectorで強化してMoEで、、みたいなのが主流になるかも。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zOD
-cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
-MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
-EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
-MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
-I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
-LC0yMTEwNTUwMzc5XX0=
+eyJoaXN0b3J5IjpbMzMyODk1MDEyLC0yODQxMDYzODksLTI2MD
+kyMjU4NCwtMzg3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4
+NjMsMTY1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LD
+I5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQx
+MzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2OD
+YxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkz
+LDgyNTU2NzkwMl19
 -->
