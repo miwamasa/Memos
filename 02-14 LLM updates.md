@@ -7,8 +7,7 @@
 
 さて、その欧州のスタートアップMstralからは、Mistral Large2がリリース、こっちもファンクションコールに対応し、そして多言語対応というのがすごい。
 
-安全性という観点からは、Llama3.1のリリースに伴い、LlamaGuardも更新され、またPromptGuardというのもリリース
-
+安全性という観点からは、Metaは、Llama3.1のリリースに伴い、LlamaGuardも更新され、またPromptGuardというのもリリース、OpenAＩもアライメントの高度化ということで、RLHFを自動化するRule-Based Rewardsを発表、どう考えてもLLMの安全性はLLMでしか守れないみたいな感じになってきた。
 
 Llama3学習データは、ネットにある人間の作りしデータはいい加減なので、Llama2が生成したものを利用したとか。OpenAIのRule-Based Rewardsのように、LLM開発の仕上げのRLHFを人間でやるかわりにルールで自動化したらいい感じだったとか、もはや人間のいい加減さがLLMの発展を阻んでいる感がある、しかし、LLMが生成したデータのみで再帰的に学習すると、現実世界に存在する情報に含まれていた微妙なニュアンスが失われていくということだし、
 
@@ -3550,16 +3549,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/microsoft/rho-math-7b-v0.1
 - GeminiによるRAGの実践例
 	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/use-cases/retrieval-augmented-generation
-- Gemini API の ファインチューニング を試す by npakaさん
-	- https://note.com/npaka/n/n6609bcbbdd30?sub_rt=share_h
-- 「カルマンフィルターをQR分解で解く手法」
-	- https://github
+- Gemini API の ファインチューニング を試す by npakaさ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2MjU0MzAwLC0xMzQ3MzM5OTU2LC0yOD
-QxMDYzODksLTI2MDkyMjU4NCwtMzg3MTk0NDUwLC0yMjcwNzc2
-MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMTE3MTQ3MTU3NC
-wxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5
-MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4Mj
-ExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMw
-MSwxMTQ5MjAxODkzXX0=
+eyJoaXN0b3J5IjpbLTE0MDMwOTgwOTYsLTEzNDczMzk5NTYsLT
+I4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3
+NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNT
+c0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0
+NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NT
+gyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1
+MzAxLDExNDkyMDE4OTNdfQ==
 -->
