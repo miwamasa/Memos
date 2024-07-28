@@ -142,7 +142,11 @@
 - OpenAIが今年度7700億円の損失、増資しないと資金が向こう12ヶ月で尽きる可能性あり
 	- https://x.com/Haruki_Sonehara/status/1816230832849465415
 	- モデルのトレーニングで1兆円ほどコストがかかり、人材の維持確保に2000億円。
-- 動いた Meta-Llama-3.1-405B running on A100x8
+-  Llama3.1-405Bを継之助で動かす by shi3zさん
+	- https://www.free-ai.ltd/post/llama3-1-405b
+	- 動いた Meta-Llama-3.1-405B running on A100x8
+	- 仮にFP8(8ビット浮動小数点数)モデルであったとしてもFP8に対応していないAmpare世代のA100 80GBx8しか持ってない当社の社長、継之助(AIスーパーコンピュータ)では動かせそうもないと諦めていました
+	- vllmではA100でFP8をエミュレートする機能が備わっているので、A100x8でもLlama-3.1-405Bが動作するとのこと!!マジかよ!
 	- 
 
 ## 24/7/22
@@ -3542,15 +3546,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- クエリと文章の準備と、スコアの計算。
 - Anthropic Messages API
 	- https://x.com/AnthropicAI/status/1775979799644934281
-	-  Claude3にfunction callが来たという話
-- Cohereのパラメータ公開LLMのCommand R+
-	- https://x.com/_kaiinui/status/1775920565720949090
-	- たしかにGPT4-Turboと比較してもよいレベルのLLMに見える
-	- サイズは104B、CC-BY-NCだがパラメータはHFで公開 104B動かせるマシンがあれば、だれでも知能(らしきもの)を保有できるってやばいな
-- Command R+ by Cohere
-	- https://txt.cohere.com/comm
+	-  Claude3に
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTYyMTgxMSwtMzg3MTk0NDUwLC0yMj
+eyJoaXN0b3J5IjpbLTI2MDkyMjU4NCwtMzg3MTk0NDUwLC0yMj
 cwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMTE3MTQ3
 MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC
 0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTEx
