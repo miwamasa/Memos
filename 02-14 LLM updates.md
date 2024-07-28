@@ -3,14 +3,16 @@
 
 ## 24/7/29
 
-なんてたってLlama3.1！、今週はLlama3.1の登場が、すべての話題をかっさらった。ツールコーリングの正式サポートとか、70Bでも、突然、HumanEval の結果が39% から 79% に爆上がりしたとか、405Bモデルに至っては、frontier-level model（最先端のLLMという意味)に相当し、EUのAI法の最も厳しいGPAI with systemic riskの性能指標を、**わざわざ**上回ったことを公表し、EU委員会に喧嘩を吹っ掛けたとか話題に事欠かないが、手法としてはまっとうなことを愚直に積み重ねたようで、岡野原さんによると、スケール則の改良だけでなくデータ品質や学習手法の改善で1年間で同じ性能あたりの提供コストは数十分の1になっている、とのこと。学習データは、ネットのデータはいい加減なので、Llama2が生成したものを利用したとか。
+なんてたってLlama3.1！、今週はLlama3.1の登場が、すべての話題をかっさらった。ツールコーリングの正式サポートとか、70Bでも、突然、HumanEval の結果が39% から 79% に爆上がりしたとか、405Bモデルに至っては、frontier-level model（最先端のLLMという意味)に相当し、EUのAI法の最も厳しいGPAI with systemic riskの性能指標を、**わざわざ**上回ったことを公表し、EU委員会に喧嘩を吹っ掛けたとか話題に事欠かないが、手法としてはまっとうなことを愚直に積み重ねたようで、岡野原さんによると、スケール則の改良だけでなくデータ品質や学習手法の改善で1年間で同じ性能あたりの提供コストは数十分の1になっている、とのこと。
+
+lla学習データは、ネットのデータはいい加減なので、Llama2が生成したものを利用したとか。
 
 ローカルLLMの電気代とGPT-4ominiのAPIコストがトントンだ
 Fine-tuning gpt-4o-mini is *free* for up to 2M tok/day??
 
 Transformerはカーネル法使って早くなる論文
 
-匿名ブログでの「AIバブルが弾けようが国はもはや政治的にAI開発をストップできない」というのも話題になった、アセモグル教授が指摘するような、AI（主に生成AI)による経済成長は懐疑的という以前に、投資回収の観点からもAIバブルは崩壊するという悲観論もあるが、弾けようがどうなろうが、AI開発はストップできないというもはや脅迫状態。Zuckerberg も、インタビューで、いまAIにここで投資しないと、あと５～１０年、会社として技術での先行が保てなくなるでといってたな。誰も怖くて降りれなくなった先にあるのは、核弾頭管理並みの協力な国際規制か、さもなくば、緩やかな文明の死なのかもしれない。
+匿名ブログでの「AIバブルが弾けようが国はもはや政治的にAI開発をストップできない」というのも話題になった、アセモグル教授が指摘するような、AI（主に生成AI)による経済成長は懐疑的という以前に、投資回収の観点からもAIバブルは崩壊するという悲観論もあるが、弾けようがどうなろうが、AI開発はストップできないというもはや脅迫状態。Zuckerberg も、インタビューで、いまAIにここで投資しないと、あと５～１０年、会社として技術での先行が保てなくなるでといってたな。誰も怖くて降りれなくなった先にあるのは、核弾頭管理並みの強力な国際規制か、さもなくば、緩やかな文明の死なのかもしれない。
 
 - 日本の企業活動は、初等・中等教育までの知識で成り立っているのに対して、アメリカの企業活動は、大学院教育に基づいて成り立っている
 	- https://x.com/yukionoguchi10/status/1814670633277792779
@@ -3554,13 +3556,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 4/8
 
-今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな傾向に拍車がかか
+今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIzNzEyNDQsLTI4NDEwNjM4OSwtMj
-YwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEw
-Mjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2Nj
-csMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEz
-NDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MD
-Y4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4
-OTMsODI1NTY3OTAyXX0=
+eyJoaXN0b3J5IjpbMTQwOTIxOTQ2NywtMjg0MTA2Mzg5LC0yNj
+A5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAy
+ODYzLDE2NTg3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2Ny
+wyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0
+MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNj
+g2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5
+Myw4MjU1Njc5MDJdfQ==
 -->
