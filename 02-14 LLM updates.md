@@ -3,7 +3,7 @@
 
 ## 24/7/29
 
-なんたたって、Llama3.1の登場が、すべての話題をかっさらった。
+なんたたって、Llama3.1の登場が、すべての話題をかっさらった。ツールコーリングの正式サポートとか、
 
 
 - 日本の企業活動は、初等・中等教育までの知識で成り立っているのに対して、アメリカの企業活動は、大学院教育に基づいて成り立っている
@@ -67,8 +67,8 @@
 	- 「**Llama Guard 3**」と「**Prompt Gard**」も提供されています。
 	- **他のLLMの改善にモデル出力を使用できる**
 	- **派生モデルの名前の先頭に「Llama」を含める**必要があり、**派生作品やサービスには「Built with Llama」と記載**する必要があります。
-	- 
-- 
+	- **ipython** : 「Llama 3.1」で導入された新しいロール。LLM に返されるときに「Tool Calling」の出力として使用される
+	- 「**Environment: ipython**」を含めると、コード インタープリター モードがオンになり、モデルは実行が予想される Python コードを生成できます
 -  深津式プロンプトを超える、ロング コンテキスト時代のテクニック指南
 	- https://note.com/google_gemini/n/nbbe40969c653?sub_rt=share_h
 	- これから必要なのは「プロンプトの暗記」ではない
@@ -3548,13 +3548,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 4/8
 
-今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな傾向に拍車がかかるのでは。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量なモデル、そういえばSiriの人員が解雇されたというニュースもあった。スタンフォードやCMUの一流大学でもCSの修士の就職率が２割とのこと、まあ10年でCS修士取得者が10倍になったという要因もあるようだが、LLMをコンパイラとして使うっていう時代、普通のCS修士程度ではもやは、お呼びではないということか。OpenAIは、日本にアジア初の拠点を開設、なぜか住所は西新橋の雑居ビル。Gemmaの1.1のリリースとかQwen1.5-32B のリリースなど、重要な改良リリースも進む。RAGではReranker が話題に、類似度の高いチャンクを選択したはずなのに、そのあとにRerankするのか。。対応するLLMもいくつか出てる。日本語モデルでは、Swallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルという話もあったが、Mistral 7Bベースの２つの日本語LLMをChat Vector法で強化したものをMoEした、とても長い名前のモデルが話題に、寿限無か。大規模言語モデル開発のための日本語 Instruction データセット作成とか、NLP2024のチュートリアルから、作って学ぶ日本語大規模言語モデル - 環境構築手順と実験ソースコードの公開とか、日本のLLM層の底上げも進む。 アマゾンのBezos氏も投資していると話題となったPerplexity、AI検索が次のビッグウエーブということらしい、GoogleのAI検索も確かにPerplexity風になっているし、GoogleのAI検索は有料化という報道も。もともとBingってPerplexityのような仕組みじゃなかったか。Mixture-of-Depthsとか、ファインチューニングのReFTとか、GRIFFIN とか、新しいLLM最適化の知見が次々にでてきたが、なんといっても、今週はChat VectorというLLMの足し算引き算ができる技術、word2vecのようなベクトル計算がLLMでもできるなんてすごすぎる。Chat Vectorで強化してMoEで、、みたいなのが主流になるかも。
+今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな傾向に拍車がかかるのでは。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量なモデル、そういえばSiriの人員が解雇されたというニュースもあった。スタンフォードやCMUの一流大学でもCSの修士の就職率が２割とのこと、まあ10年でCS修士取得者が10倍になったという要因もあるようだが、LLMをコンパイラとして使うっていう時代、普通のCS修士程度ではもやは、お呼びではないということか。OpenAIは、日本にアジア初の拠点を開設、なぜか住所は西新橋の雑居ビル。Gemmaの1.1のリリースとかQwen1.5-32B のリリースなど、重要な改良リリースも進む。RAGではReranker が話題に、類似度の高いチャンクを選択したはずなのに、そのあとにRerankするのか。。対応するLLMもいくつか出てる。日本語モデルでは、Swallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルという話もあったが、Mistral 7Bベースの２つの日本語LLMをChat Vector法で強化したものをMoEした、とても長い名前のモデルが話題に、寿限無か。大規模言語モデル開発のための日本語 Instruction データセット作成とか、NLP2024のチュートリアルから、作って学ぶ日本語大規模言語モデル - 環境構築手順と実験ソースコードの公開とか、日本のLLM層の底上げも進む。 アマゾンのBezos氏も投資していると話題となったPerplexity、AI検索が次のビッグウエーブということらしい、GoogleのAI検索も確かにPerplexity風になっているし、GoogleのAI検索は有料化という報道も。もともとBingってPerplexityのような仕組みじゃなかったか。Mixtur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyODk1MDEyLC0yODQxMDYzODksLTI2MD
-kyMjU4NCwtMzg3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4
-NjMsMTY1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LD
-I5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQx
-MzczODAsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2OD
-YxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkz
-LDgyNTU2NzkwMl19
+eyJoaXN0b3J5IjpbLTE5NTYxMDAwOTIsLTI4NDEwNjM4OSwtMj
+YwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEw
+Mjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2Nj
+csMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEz
+NDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MD
+Y4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4
+OTMsODI1NTY3OTAyXX0=
 -->
