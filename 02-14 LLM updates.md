@@ -5,7 +5,7 @@
 
 なんてたってLlama3.1！、今週はLlama3.1の登場が、すべての話題をかっさらった。ツールコーリングの正式サポートとか、70Bでも、突然、HumanEval の結果が39% から 79% に爆上がりしたとか、405Bモデルに至っては、frontier-level model（最先端のLLMという意味)に相当し、EUのAI法の最も厳しいGPAI with systemic riskの性能指標を、**わざわざ**上回ったことを公表し、EU委員会に喧嘩を吹っ掛けたとか話題に事欠かないが、手法としてはまっとうなことを愚直に積み重ねたようで、岡野原さんによると、スケール則の改良だけでなくデータ品質や学習手法の改善で1年間で同じ性能あたりの提供コストは数十分の1になっている、とのこと。
 
-lla学習データは、ネットのデータはいい加減なので、Llama2が生成したものを利用したとか。
+Llama3学習データは、ネットにある人間の作りしデータはいい加減なので、Llama2が生成したものを利用したとか。OpenAIのRule-Based Rewardsのように、LLM開発の仕上げのRLHFを人間でやる
 
 ローカルLLMの電気代とGPT-4ominiのAPIコストがトントンだ
 Fine-tuning gpt-4o-mini is *free* for up to 2M tok/day??
@@ -3556,9 +3556,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 4/8
 
-今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな
+今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTIxOTQ2NywtMjg0MTA2Mzg5LC0yNj
+eyJoaXN0b3J5IjpbLTQxNTEyOTc1MywtMjg0MTA2Mzg5LC0yNj
 A5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAy
 ODYzLDE2NTg3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2Ny
 wyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0
