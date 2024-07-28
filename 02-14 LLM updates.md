@@ -175,6 +175,10 @@
 	- 今の若者の一部は素人が作った低品質のコンテンツを浴びるように消費することになんの問題も見出していない
 	- 質の高いものに触れるということは、価値観を形成することにもつながる。本物 (actual) にふれる経験を経なければ、「自分はなにをしたいのか・何が好きなのか・なにを「いい」と思うのか」といったことに答えることができない。だからこそ、消費層にとどまることは怖いのだ
 -  Longhorn: State Space Models are Amortized Online Learners
+	- https://huggingface.co/papers/2407.14207
+	- https://x.com/cranialxix/status/1816505312498852159
+	- How to design State Space Models (SSM) from principles? We propose to view SSM's recurrence as the per-step closed-form solution to an online learning problem. To this end, we present Longhorn, a novel SSM that achieves 1.8x better sampling efficiency against Mamba.
+- 
 
 
 ## 24/7/22
@@ -3543,18 +3547,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- LLM への入力ごとに、LLMの各レイヤーでのアクティベーションの相対的な大きさが、トークン位置によらず一部の次元に偏る flocking という現象を発見し、これをもとに、
 	-  (1) prompt 入力次点でアクティベーションが相対的に大きい次元を特定
 	-  (2) その次元のみを使って近似的/効率的に Decode を行う、
-	- GRIFFIN (Gating by Repetition In Feedf orward Intermediate Neurons) を提案。 タスクに依存するが、学習不要な方法で精度をあまり落とさず生成を高速化できる。
--  Are large language models superhuman chemists?
-	- https://arxiv.org/abs/2404.01475
-	- 「化学分野の幅広い 7,000 以上の質問と回答のペアを厳選し、主要なLLM を評価しました。その結果、私たちの研究では、最良のモデルが平均して最良の人間の化学者を上回るパフォーマンスを示した」
--  LlamaIndex の Reranker を試す by npakaさん
-	- https://note.com/npaka/n/n8f9ee8533896?sub_rt=share_h
+	- GRIFFIN (Gating by Repet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMDAzNjIwLC0yNjA5MjI1ODQsLTM4Nz
-E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
-MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
-M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
-NDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mj
-c1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIs
-LTIxMTA1NTAzNzldfQ==
+eyJoaXN0b3J5IjpbMTc4NDMzMDcyNSwtMjYwOTIyNTg0LC0zOD
+cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
+MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
+EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
+MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
+I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
+LC0yMTEwNTUwMzc5XX0=
 -->
