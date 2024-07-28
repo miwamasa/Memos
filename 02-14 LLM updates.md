@@ -179,7 +179,11 @@
 	- https://x.com/cranialxix/status/1816505312498852159
 	- How to design State Space Models (SSM) from principles? We propose to view SSM's recurrence as the per-step closed-form solution to an online learning problem. To this end, we present Longhorn, a novel SSM that achieves 1.8x better sampling efficiency against Mamba.
 - davidberenstein1957/llm-human-feedback-collector-chat-interface-dpo
+	- https://x.com/davidberenstei/status/1816419520447127728
 	- The Meta Llama-3.1 model series can be used for distilling and fine-tuning but this requires annotated preference data 
+	-  I created a Human Feedback Collector based on Gradio that directly logs data to the huggingface Hub.
+- iPhone 15 Pro上でLlama 3.1が機内モードにしてちゃんと動いた
+	- https://x.com/ytiskw/status/1816372036156985731
 	- 
 
 
@@ -3541,18 +3545,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  Mamba Explained
 	- https://thegradient.pub/mamba-explained/
 	- Mambaの選択機構を注意機構との比較やアナロジーを用いながら直感的に説明した記事。 
-	- 文脈内学習ではTransformerのようにプロンプトに全ての情報を入れる必要がなく、状態（システムプロンプトなどを圧縮したもの）と質問を渡すだけで良い。
-- Bigger is not Always Better: Scaling Properties of Latent Diffusion Models by Google
-	- https://huggingface.co/papers/2404.01367
-- Prompt-prompted Mixture of Experts for Efficient LLM Generation
-	- https://arxiv.org/abs/2404.01365
-	- LLM 
+	- 文脈内学習ではTransformerのようにプロンプトに全ての情報を入れる必要がなく、状態（システムプロンプトなどを圧縮
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDkyMDg4MywtMjYwOTIyNTg0LC0zOD
-cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
-MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
-EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
-MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
-I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
-LC0yMTEwNTUwMzc5XX0=
+eyJoaXN0b3J5IjpbLTE5MjQwOTkyMDMsLTI2MDkyMjU4NCwtMz
+g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
+NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
+wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
+NjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OT
+YyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2Nzkw
+MiwtMjExMDU1MDM3OV19
 -->
