@@ -11,9 +11,10 @@
 
 DeepMindのAlphaProof、AlphaGeometry2、二つ組み合あせれば数学オリンピックで銀メダルレベルと発表、2025年までに銅メダルという賭けを完全に吹っ飛ばした感じ、
 
-先週話題になった、（ずっと前の気がする）gpt-4o-mini、200万トークンまでだと無料でファインチューニングできることが発表され、RAGとの比較でも
-ローカルLLMの電気代とGPT-4ominiのAPIコストがトントンだ
-Fine-tuning gpt-4o-mini is *free* for up to 2M tok/day??
+先週話題になった、（ずっと前の気がする）gpt-4o-mini、200万トークンまでだと無料でファインチューニングできることが発表され、RAGとの比較でも良好な性能を示した、そもそも低コストすぎて、もはやローカルLLMの電気代とAPI使用料がコンパラという話に。。。。
+
+
+
 
 Transformerはカーネル法使って早くなる論文
 
@@ -3546,10 +3547,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- LLMにプロンプトを与える際、「推論ステップの流れに沿う順序」で文脈を与えないと30%以上精度が落ちる恐れがあることをDeepMindが報告しています。
 -  Heron-Bench: A Benchmark for Evaluating Vision Language Models in Japanese
 	- https://arxiv.org/abs/2404.07824
-	- 画像-言語モデルの日本語ベンチマークとして、新しく「Heron-Bench」を公開しました！日本の画像で、日本に関する知識を総合的に問います
-- Rho-1: Not All Tokens 
+	- 画像-言語モデルの日本語ベンチマークとして、新しく「Heron-Bench」
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzk5ODgzNSwtMTMwNzg2MTIsLTEzND
+eyJoaXN0b3J5IjpbLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzND
 czMzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0
 NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC
 0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3
