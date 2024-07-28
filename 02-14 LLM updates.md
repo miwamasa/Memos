@@ -3,7 +3,7 @@
 
 ## 24/7/29
 
-
+なんたたって、Llama3.1の登場が、すべての話題をかっさらった。
 
 
 - 日本の企業活動は、初等・中等教育までの知識で成り立っているのに対して、アメリカの企業活動は、大学院教育に基づいて成り立っている
@@ -3543,10 +3543,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 
 - ビジネスの実務で「因果」を推測するということ by TJOさん
-	- https://tjo.hatenablog.com/entry/2024/02/28/174811
-	- 「とりあえずマーケットの中にふんわりと存在する」
+	- https://tjo.hatenablog.com/entry/2024/02/28/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Nzk5OTQyNywtMjYwOTIyNTg0LC0zOD
+eyJoaXN0b3J5IjpbLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zOD
 cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
 MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
 EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
