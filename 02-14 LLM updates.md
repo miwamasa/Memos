@@ -10,7 +10,7 @@ Fine-tuning gpt-4o-mini is *free* for up to 2M tok/day??
 
 Transformerはカーネル法使って早くなる論文
 
-匿名ブログでの「AIバブルが弾けようが国はもはや政治的にAI開発をストップできない」というのも話題になった、アセモグル教授が指摘するような、AI（主に生成AI)により経済成長は懐疑的という以前に、バブルは崩壊するという悲観論もあるが、弾けようがどうなろうが、AI開発はストップできないというもはや脅迫状態。Zuckerberg も、AIにここで投資しないと、あと５～１０年、技術での先行できなくなるといってたな。誰も怖くて降りれなくなった先は、歴史は
+匿名ブログでの「AIバブルが弾けようが国はもはや政治的にAI開発をストップできない」というのも話題になった、アセモグル教授が指摘するような、AI（主に生成AI)により経済成長は懐疑的という以前に、バブルは崩壊するという悲観論もあるが、弾けようがどうなろうが、AI開発はストップできないというもはや脅迫状態。Zuckerberg も、AIにここで投資しないと、あと５～１０年、技術での先行できなくなるといってたな。誰も怖くて降りれなくなった先は、歴史は繰り返すのか（17世紀のオランダで起きたチューリップバブルの崩壊）。
 
 - 日本の企業活動は、初等・中等教育までの知識で成り立っているのに対して、アメリカの企業活動は、大学院教育に基づいて成り立っている
 	- https://x.com/yukionoguchi10/status/1814670633277792779
@@ -3554,9 +3554,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 4/8
 
-今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな傾向に拍車がかかるのでは。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量なモデル、そういえばSiriの人員が解雇されたというニュース
+今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな傾向に拍車がかかるのでは。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTk5MzMzOCwtMjg0MTA2Mzg5LC0yNj
+eyJoaXN0b3J5IjpbMTc2ODg2Mzc2MSwtMjg0MTA2Mzg5LC0yNj
 A5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAy
 ODYzLDE2NTg3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2Ny
 wyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0
