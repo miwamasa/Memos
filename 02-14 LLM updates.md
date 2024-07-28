@@ -204,7 +204,12 @@
 -  数学・物理学の知識を理解するための「足りない知識」を「ツリー構造」で掘り下げていける学習サイト「コグニカル」
 	- https://gigazine.net/news/20210725-cognicull/
 	- 分野が広く、さまざまな知識を求められる数学や物理学。これらの知識を**[ツリー構造](https://ja.wikipedia.org/wiki/%E6%9C%A8%E6%A7%8B%E9%80%A0_(%E3%83%87%E3%83%BC%E3%82%BF%E6%A7%8B%E9%80%A0))**により分からないところまでひたすら掘り下げて、基礎の基礎から学ぶことができる学習サイトが「**コグニカル**
-- 合成データセットを使って再帰的にトレーニングし続け、ベンチマーク結果を優先してモデルを改善しようとしているけれど、徐々に硬直化して、もしかしてすでに現実世界に存在する情報に含まれていた微妙なニュアンスが失われているのかもね
+-  AI produces gibberish when trained on too much AI-generated data
+	- https://www.nature.com/articles/d41586-024-02355-z#Echobox=1721836112
+	- 合成データセットを使って再帰的にトレーニングし続け、ベンチマーク結果を優先してモデルを改善しようとしているけれど、徐々に硬直化して、もしかしてすでに現実世界に存在する情報に含まれていた微妙なニュアンスが失われているのかもね by AIXサトシさん
+- GoogleDeepMindが数学推論のためのAlphaProofと幾何学問題のためのAlphaGeometry2を発表
+	- 
+	- 
 
 
 ## 24/7/22
@@ -3538,17 +3543,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://note.com/npaka/n/n7d251f76ce25?sub_rt=share_h
 	- 「BAAI/bge-reranker-v2-m3」は、「bge-m3」ベースの「Reranker」モデルです。「Reranker」モデルは、従来の「埋め込み」モデルとは異なり、質問とドキュメントを入力として受け取り、類似度を出力します。
 	- 「パンダとは？」の質問には「パンダは中国南西部の山岳地帯に生息する哺乳類の一種です。」のドキュメントが関連していることがわかります。
-- Building a RAG application using open-source models by langchain
-	- https://x.com/LangChainAI/status/1774821270900629950
-	- https://github.com/svpino/llm/blob/main/local.ipynb
-	- https://www.youtube.com/watch?v=HRvyei7vFSM
-- Claudeだと本当に一
+- Building a R
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1OTAwMDkxLC0yNjA5MjI1ODQsLTM4Nz
-E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
-MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
-M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
-NDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mj
-c1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIs
-LTIxMTA1NTAzNzldfQ==
+eyJoaXN0b3J5IjpbLTQyMjEwODI0MiwtMjYwOTIyNTg0LC0zOD
+cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
+MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
+EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
+MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
+I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
+LC0yMTEwNTUwMzc5XX0=
 -->
