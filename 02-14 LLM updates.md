@@ -172,6 +172,9 @@
 	- https://note.com/kiriem/n/na11aaf3d25f8?sub_rt=share_pw
 	- 僕はこれまで趣味でビートメイクをやっていたが、僕が3-4年かけて習得した技術はあっという間に生成 AI に取って代わられてしまった。
 	- より高いレベルで価値を発揮しなければ生き残れなくなってしまったのは事実だろう
+	- 今の若者の一部は素人が作った低品質のコンテンツを浴びるように消費することになんの問題も見出していない
+	- 質の高いものに触れるということは、価値観を形成することにもつながる。本物 (actual) にふれる経験を経なければ、「自分はなにをしたいのか・何が好きなのか・なにを「いい」と思うのか」といったことに答えることができない。だからこそ、消費層にとどまることは怖いのだ
+- 
 
 
 ## 24/7/22
@@ -3546,17 +3549,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 「化学分野の幅広い 7,000 以上の質問と回答のペアを厳選し、主要なLLM を評価しました。その結果、私たちの研究では、最良のモデルが平均して最良の人間の化学者を上回るパフォーマンスを示した」
 -  LlamaIndex の Reranker を試す by npakaさん
 	- https://note.com/npaka/n/n8f9ee8533896?sub_rt=share_h
-	- RAGにおける「Reranker」は、取得したチャンクの中から、質問に対して最も関連性の高い情報を持つチャンクを選択する役割を担っています。
-	- 今回は、多言語のRerankerモデル「**BAAI/bge-reranker-v2-m3**」を使います。top_n=5で関連性の高い5件に絞ります。
--  Semantic Routerを試す
-	- https://zenn.dev/kun432/scraps/73b098e774bd21
-	- LLMやエージェントの意思決定のルーティングを行う
+	- RAGにおける「Reranker」は、取得したチャンクの中から、質問に対して最も関連性の高い情報を持つチャンクを
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTg5MjE1MSwtMjYwOTIyNTg0LC0zOD
-cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
-MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
-EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
-MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
-I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
-LC0yMTEwNTUwMzc5XX0=
+eyJoaXN0b3J5IjpbLTIxNDUwMDE0NjIsLTI2MDkyMjU4NCwtMz
+g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
+NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
+wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
+NjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OT
+YyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2Nzkw
+MiwtMjExMDU1MDM3OV19
 -->
