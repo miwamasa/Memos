@@ -245,7 +245,12 @@
 	- NVIDIAのGPUを導入した企業はその金額以上にROIを上げないとAI事業が縮小する
 - ollama llama3.1サポート by llamaindex
 	- https://docs.llamaindex.ai/en/latest/examples/llm/ollama/
-- 
+-  Gemini’s big upgrade: Faster responses with 1.5 Flash, expanded access and more
+	- https://blog.google/products/gemini/google-gemini-new-features-july-2024/
+- Googleの無料版「Gemini AI」、「Flash 1.5」にアップグレード
+	- https://www.itmedia.co.jp/news/articles/2407/26/news094.html
+	- Flash 1.5は、Webとモバイルの両方で日本語を含む40以上の言語と230以上の国と地域で、すべてのGeminiユーザーに提供される。
+	- 
 
 
 ## 24/7/22
@@ -3538,17 +3543,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 一つの考え方として「時系列的な因果性」をふわっとした代用品として用いるという方法もあり得ると思っています。そう、VARモデルです
 	- 即ち実際の因果は「落雷→雷鳴」だが、時系列的には「（落雷→）稲光→雷鳴」が成立するので代用品になり得る、という
 - 翻訳モデルHonyaku-7b by AIXサトシ
-	- aixsatoshi/Honyaku-Multi-Translator-Swallow-ms7b
-	- 数百〜数千tokenの文章翻訳 
-	- 英日、日英翻訳機能がメイン
-	- XML like instruction
-	- 一部の多言語も対応
-	- Swallow-ms-7b baseで日本語堪能
-- 大規模言語モデル開発のための日本語 Instruction データセット作成の取り組み
-	- https://speakerdeck.com/kunishou/da-gui-mo-yan-yu-moderukai-fa-notamenori-ben-yu-instruction-detasetutozuo-cheng-noqu-rizu-mi
-- 【OpenAI】日本にアジア初の拠点を開設、法人向けサービス提供へ
+	- aixsatoshi/Honyaku-M
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTU0MDMwLC0yNjA5MjI1ODQsLTM4Nz
+eyJoaXN0b3J5IjpbMTU2NjAyMTMwLC0yNjA5MjI1ODQsLTM4Nz
 E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
 MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
 M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
