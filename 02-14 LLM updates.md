@@ -147,7 +147,13 @@
 	- 動いた Meta-Llama-3.1-405B running on A100x8
 	- 仮にFP8(8ビット浮動小数点数)モデルであったとしてもFP8に対応していないAmpare世代のA100 80GBx8しか持ってない当社の社長、継之助(AIスーパーコンピュータ)では動かせそうもないと諦めていました
 	- vllmではA100でFP8をエミュレートする機能が備わっているので、A100x8でもLlama-3.1-405Bが動作するとのこと!!マジかよ!
-	- 
+- Llama 3.1 405BはFrontier modelに匹敵する性能。by 岡野原さん
+	- https://x.com/hillbig/status/1816240268749988211
+	- Dense（MoEは学習が不安定で不採用）で15.6Tトークン、16K H100で学習。Llama 2の50倍の投入計算量。事後学習ではRLは使わず安定なSFT, RS, DPOを利用し、異なるハイパーパラメータの複数のモデルの平均を使う。
+	- 事前学習では新しいアーキテクチャや学習手法を使わず、既存の確立された良い技術の組み合わせ、良い大量のデータを作り、安定した学習でスケールさせている。スケールさせることが難しい。このスケールで40%近い実行効率を達成。
+	- スケール則だけでなくデータ品質や学習手法の改善で1年間で同じ性能あたりの提供コストは数十分の1になっている。1年後に8Bで405Bぐらいの性能がでていてもおかしくはない（個別タスクなら既に出ている）。
+- 
+
 
 ## 24/7/22
 
@@ -3539,20 +3545,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://docs.llamaindex.ai/en/stable/examples/node_postprocessor/rankLLM/?h=rankllm
 - intelligent notetaking by https://iki.ai/
 	- https://iki.ai/
-	- a cool example of an AI-enabled notetaking interface that epitomizes the core value prop of RAG - dump in a ton of your messy, unstructured data (files, links, notes), and have the application organize and surface information for you instead of you having to do it yourself.
--  Google Colab で japanese-reranker-cross-encoder-large-v1 を試す by npakaさん
-	- https://note.com/npaka/n/n906b23636ac8?sub_rt=share_h
-	- 「 japanese-reranker-cross-encoder-large-v1」は、日本語に特化した形で学習した「Reranker」です。xsmallからlargeまで複数のサイズが提供されており、「large」は多言語Rerankerで最も人気のある「bge-reranker-v2-m3」をベンチマークで上回っています。
-	- クエリと文章の準備と、スコアの計算。
-- Anthropic Messages API
-	- https://x.com/AnthropicAI/status/1775979799644934281
-	-  Claude3に
+	- a cool example of an AI-enabled notetaking interface that epitomizes the core value prop of RAG - dump in a ton of your messy, unstructured data (files, links, notes), and have the application organize and surface information for you instead of you 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDkyMjU4NCwtMzg3MTk0NDUwLC0yMj
-cwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMTE3MTQ3
-MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC
-0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTEx
-NjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Nj
-g1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3
-OSwtOTAzMDM3Mjk1XX0=
+eyJoaXN0b3J5IjpbNTM0MjAzMjczLC0yNjA5MjI1ODQsLTM4Nz
+E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
+MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
+M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
+NDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mj
+c1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIs
+LTIxMTA1NTAzNzldfQ==
 -->
