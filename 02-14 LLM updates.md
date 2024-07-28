@@ -236,7 +236,13 @@
 - Llama 3.1 is impressive as a Data analyst Agent!
 	- https://huggingface.co/spaces/m-ric/agent-data-analyst
 	- Drop it your data as a csv, let it do the work, and you will get cool insights and plots in a matter of seconds!
-- 
+- Ollama — Building tool calling agents with local models like Llama 3.1 is now simple with Ollama.
+	- https://github.com/langchain-ai/langgraph/blob/main/examples/tutorials/tool-calling-agent-local.ipynb
+- Semantic Chunking is one of the most interesting!
+	- https://x.com/aestheticedwar1/status/1816516316683264230
+- AIバブルは1度崩壊する
+	- https://x.com/loxoninpap/status/1816511854258082035
+	- 
 
 
 ## 24/7/22
@@ -3540,15 +3546,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 【OpenAI】日本にアジア初の拠点を開設、法人向けサービス提供へ
 	- https://www.nikkei.com/article/DGXZQOUC29A7U0Z20C24A3000000/?n_cid=SNSTW001&n_tw=1711923970
 	- OpenAIが4月中に東京都内にアジア初の拠点を立ち上げ、日本での事業活動を本格化させる
-	- 事務所は西新橋の雑居ビル？？
--  Mechanistic Design and Scaling of Hybrid Architectures
-	- https://arxiv.org/abs/2403.17844
-	- LLMのモデル設計は時間とコストがかかる。これを解決するため人工的なベンチマークタスク MAD（in-context recall, compression等）を設計。小規模MADで評価した結果を元に有望な手法を絞りスケールさせる。多くが小規模MADの性能とスケール後の性能に相関がみられた
-- LLMの現在
-	- https://speakerdeck.com/pfn/llmnoxian-zai
--  MetaWorm: A Complete Model Bridging Brain, Body and Environment of  _C.
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU1MTE3NzcsLTI2MDkyMjU4NCwtMz
+eyJoaXN0b3J5IjpbLTE2OTA1Nzc4NTksLTI2MDkyMjU4NCwtMz
 g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
 NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
 wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
