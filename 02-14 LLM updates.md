@@ -242,7 +242,10 @@
 	- https://x.com/aestheticedwar1/status/1816516316683264230
 - AIバブルは1度崩壊する
 	- https://x.com/loxoninpap/status/1816511854258082035
-	- 
+	- NVIDIAのGPUを導入した企業はその金額以上にROIを上げないとAI事業が縮小する
+- ollama llama3.1サポート by llamaindex
+	- https://docs.llamaindex.ai/en/latest/examples/llm/ollama/
+- 
 
 
 ## 24/7/22
@@ -3544,15 +3547,12 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 大規模言語モデル開発のための日本語 Instruction データセット作成の取り組み
 	- https://speakerdeck.com/kunishou/da-gui-mo-yan-yu-moderukai-fa-notamenori-ben-yu-instruction-detasetutozuo-cheng-noqu-rizu-mi
 - 【OpenAI】日本にアジア初の拠点を開設、法人向けサービス提供へ
-	- https://www.nikkei.com/article/DGXZQOUC29A7U0Z20C24A3000000/?n_cid=SNSTW001&n_tw=1711923970
-	- OpenAIが4月中に東京都内にアジア初の拠点を立ち上げ、日本での事業活動を本格化させる
-	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA1Nzc4NTksLTI2MDkyMjU4NCwtMz
-g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
-NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
-wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
-NjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OT
-YyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2Nzkw
-MiwtMjExMDU1MDM3OV19
+eyJoaXN0b3J5IjpbLTg3MTU0MDMwLC0yNjA5MjI1ODQsLTM4Nz
+E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
+MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
+M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
+NDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mj
+c1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIs
+LTIxMTA1NTAzNzldfQ==
 -->
