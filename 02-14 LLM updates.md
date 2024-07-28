@@ -201,7 +201,10 @@
 	- https://x.com/wacha_yuma/status/1816096571664261315
 	- Llama2 とLlama3 のトレーニングを主導したメタのAI 研究者トーマスシャロム氏による
 	- だから、Llama 3 のトレーニングでは人間が書いた回答は一切使用せず、Llama 2 によって生成された純粋な合成データに完全に依存しているとのこと。
-- 
+-  数学・物理学の知識を理解するための「足りない知識」を「ツリー構造」で掘り下げていける学習サイト「コグニカル」
+	- https://gigazine.net/news/20210725-cognicull/
+	- 分野が広く、さまざまな知識を求められる数学や物理学。これらの知識を**[ツリー構造](https://ja.wikipedia.org/wiki/%E6%9C%A8%E6%A7%8B%E9%80%A0_(%E3%83%87%E3%83%BC%E3%82%BF%E6%A7%8B%E9%80%A0))**により分からないところまでひたすら掘り下げて、基礎の基礎から学ぶことができる学習サイトが「**コグニカル**
+- 合成データセットを使って再帰的にトレーニングし続け、ベンチマーク結果を優先してモデルを改善しようとしているけれど、徐々に硬直化して、もしかしてすでに現実世界に存在する情報に含まれていた微妙なニュアンスが失われているのかもね
 
 
 ## 24/7/22
@@ -3539,20 +3542,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/LangChainAI/status/1774821270900629950
 	- https://github.com/svpino/llm/blob/main/local.ipynb
 	- https://www.youtube.com/watch?v=HRvyei7vFSM
-- Claudeだと本当に一瞬で以下のようなアーキテクチャ図を作ってくれる。
-	- https://x.com/ai_syacho/status/1774677348807483788
-- Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians
-	- https://github.com/city-super/Octree-GS
-	- https://x.com/janusch_patas/status/1774717184238883237
-- 『Google検索を超える衝撃の生成AI型新検索エンジン：Perplexity Proが情報収集を変える！』
-	- https://x.com/tetumemo/status/1774632484648730889
-	- Perplexity のようなAI検索が、つぎのビッグウエーブというか、active perso
+- Claudeだと本当に一
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDEyNjc1NiwtMjYwOTIyNTg0LC0zOD
-cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
-MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
-EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
-MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
-I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
-LC0yMTEwNTUwMzc5XX0=
+eyJoaXN0b3J5IjpbMzY1OTAwMDkxLC0yNjA5MjI1ODQsLTM4Nz
+E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
+MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
+M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
+NDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mj
+c1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIs
+LTIxMTA1NTAzNzldfQ==
 -->
