@@ -139,7 +139,11 @@
 - OpenAIのRBRの記事、Sonnetに読んでもろうた by うみゆきさん
 	- https://x.com/umiyuki_ai/status/1816165449136267352
 	- OpenAIは今までLLM開発の仕上げにRLHFで大量の人間によるフィードバックで調教していたけど、イチイチ大勢でRLHFするのいい加減ダルくなってきたので「せや！AIにAIのフィードバックやらせたろ！」と思った。そんで評価AIにルールを与えてフィードバックさせたらいい感じの結果だった。
-- 
+- OpenAIが今年度7700億円の損失、増資しないと資金が向こう12ヶ月で尽きる可能性あり
+	- https://x.com/Haruki_Sonehara/status/1816230832849465415
+	- モデルのトレーニングで1兆円ほどコストがかかり、人材の維持確保に2000億円。
+- 動いた Meta-Llama-3.1-405B running on A100x8
+	- 
 
 ## 24/7/22
 
@@ -3544,17 +3548,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- たしかにGPT4-Turboと比較してもよいレベルのLLMに見える
 	- サイズは104B、CC-BY-NCだがパラメータはHFで公開 104B動かせるマシンがあれば、だれでも知能(らしきもの)を保有できるってやばいな
 - Command R+ by Cohere
-	- https://txt.cohere.com/command-r-plus-microsoft-azure/
-	- https://huggingface.co/spaces/CohereForAI/c4ai-command-r-plus
-	- だだものではない。
--  LlamaIndex <> MistralAI Cookbooks
-	- https://github.com/mistralai/cookbook/tree/main/t
+	- https://txt.cohere.com/comm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNz
-k1MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIw
-NTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NS
-wtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2
-ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OT
-IwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5
-NSwtMjk5MDg3MDJdfQ==
+eyJoaXN0b3J5IjpbMTE2NTYyMTgxMSwtMzg3MTk0NDUwLC0yMj
+cwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMTE3MTQ3
+MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC
+0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTEx
+NjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Nj
+g1NTMwMSwxMTQ5MjAxODkzLDgyNTU2NzkwMiwtMjExMDU1MDM3
+OSwtOTAzMDM3Mjk1XX0=
 -->
