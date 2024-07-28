@@ -10,6 +10,8 @@
 
 Llama3学習データは、ネットにある人間の作りしデータはいい加減なので、Llama2が生成したものを利用したとか。OpenAIのRule-Based Rewardsのように、LLM開発の仕上げのRLHFを人間でやるかわりにルールで自動化したらいい感じだったとか、もはや人間のいい加減さがLLMの発展を阻んでいる感がある、しかし、LLMが生成したデータのみで再帰的に学習すると、現実世界に存在する情報に含まれていた微妙なニュアンスが失われていくということだし、
 
+DeepMindのAlphaProof、AlphaGeometry2、ふたつくｍ
+
 ローカルLLMの電気代とGPT-4ominiのAPIコストがトントンだ
 Fine-tuning gpt-4o-mini is *free* for up to 2M tok/day??
 
@@ -230,7 +232,7 @@ Transformerはカーネル法使って早くなる論文
 -  AI produces gibberish when trained on too much AI-generated data
 	- https://www.nature.com/articles/d41586-024-02355-z#Echobox=1721836112
 	- 合成データセットを使って再帰的にトレーニングし続け、ベンチマーク結果を優先してモデルを改善しようとしているけれど、徐々に硬直化して、もしかしてすでに現実世界に存在する情報に含まれていた微妙なニュアンスが失われているのかもね by AIXサトシさん
-- GoogleDeepMindが数学推論のためのAlphaProofと幾何学問題のためのAlphaGeometry2を発表
+- Google DeepMindが数学推論のためのAlphaProofと幾何学問題のためのAlphaGeometry2を発表
 	- https://x.com/GoogleDeepMind/status/1816498082860667086
 	- 双方を用いて数学オリンピック銀賞レベル
 	- AlphaProofは形式言語Leanで数学的なステートメントを証明するために自己トレーニングするシステム
@@ -3555,13 +3557,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2207.00669
 - Can Gemini 1.5 actually read all the Harry Potter books at once?
 	- https://x.com/deedydas/status/1778621375592485076
-	- All the books have ~1M words (1.6M tokens). Gemini fits about 5.7 books out of 7. I used it to generate a g
+	- All the books have ~1M words (1.6M tokens). Gemini fi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDE3NjY5NzYsLTEzNDczMzk5NTYsLT
-I4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3
-NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNT
-c0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0
-NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NT
-gyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1
-MzAxLDExNDkyMDE4OTNdfQ==
+eyJoaXN0b3J5IjpbOTMyNzg3MzgxLC0xMzQ3MzM5OTU2LC0yOD
+QxMDYzODksLTI2MDkyMjU4NCwtMzg3MTk0NDUwLC0yMjcwNzc2
+MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMTE3MTQ3MTU3NC
+wxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5
+MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4Mj
+ExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMw
+MSwxMTQ5MjAxODkzXX0=
 -->
