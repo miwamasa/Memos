@@ -3,6 +3,9 @@
 
 ## 24/7/29
 
+
+
+
 - 日本の企業活動は、初等・中等教育までの知識で成り立っているのに対して、アメリカの企業活動は、大学院教育に基づいて成り立っている
 	- https://x.com/yukionoguchi10/status/1814670633277792779
 - MITダロン・アセモグル教授
@@ -250,7 +253,9 @@
 - Googleの無料版「Gemini AI」、「Flash 1.5」にアップグレード
 	- https://www.itmedia.co.jp/news/articles/2407/26/news094.html
 	- Flash 1.5は、Webとモバイルの両方で日本語を含む40以上の言語と230以上の国と地域で、すべてのGeminiユーザーに提供される。
-	- 
+- Anthropic Courses に Anthropic API の基本的な使い方を解説したノートブックが追加
+	- https://github.com/anthropics/courses/tree/master/AnthropicAPIFundamentals
+	- API Key の発行から SDK のインストール、フォーマットの書き方、モデルの違い、パラメータの指定方法、ストリーミング、画像入力などそのまま動作する形で公開
 
 
 ## 24/7/22
@@ -3539,17 +3544,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 - ビジネスの実務で「因果」を推測するということ by TJOさん
 	- https://tjo.hatenablog.com/entry/2024/02/28/174811
-	- 「とりあえずマーケットの中にふんわりと存在する」系の指標に対して、そのようなきちんとした因果推論を行うのは結構難しい印象があります。
-	- 一つの考え方として「時系列的な因果性」をふわっとした代用品として用いるという方法もあり得ると思っています。そう、VARモデルです
-	- 即ち実際の因果は「落雷→雷鳴」だが、時系列的には「（落雷→）稲光→雷鳴」が成立するので代用品になり得る、という
-- 翻訳モデルHonyaku-7b by AIXサトシ
-	- aixsatoshi/Honyaku-M
+	- 「とりあえずマーケットの中にふんわりと存在する」
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjAyMTMwLC0yNjA5MjI1ODQsLTM4Nz
-E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
-MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
-M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
-NDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mj
-c1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIs
-LTIxMTA1NTAzNzldfQ==
+eyJoaXN0b3J5IjpbLTc5Nzk5OTQyNywtMjYwOTIyNTg0LC0zOD
+cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
+MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
+EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
+MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
+I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
+LC0yMTEwNTUwMzc5XX0=
 -->
