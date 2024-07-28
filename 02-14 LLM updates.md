@@ -226,6 +226,13 @@
 	- https://x.com/Tsubame33785667/status/1816640555016946086
 	- 「AIは2025年までに、国際数学オリンピックで少なくとも銅メダルを獲得するか？」
 	- あと1点で金メダルだったという衝撃。DeepMindのWebでの解説を見た限り、学習期間の短さや学習方法からすれば、この1点はもう誤差レベルだと思います。
+- 「AIバブルが弾けようが国はもはや政治的にAI開発をストップできない」と匿名ブログの記事 by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1816778649192006090
+	- なんか匿名ブログで「AIバブルが弾けようが国はもはや政治的にAI開発をストップできない」みたいな記事見たけど、サム氏も「米国はロシアや中国に対してAIで勝たないとヤバい」みたいな記事投下。そのための4つのポイント。
+	- ①ハッカーにAIモデル盗まれたりしないようにセキュリティ対策を頑張る
+	- ②インフラを頑張る。データセンターや発電所をモリモリ建てる。AI人材を育成する
+	- ③チップやデータの国外への輸出について、ルールを決めてちゃんと管理する
+	- ④AIの進化と開発について、グローバルにルールを定めて取り締まる国際機関を世界で作る
 - 
 
 
@@ -3540,15 +3547,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.biorxiv.org/content/10.1101/2024.02.22.581686v1
 	- BAAIの研究、生物の脳、身体、環境の間の複雑な相互作用を線虫（C. elegan）を材料に解析
 - 「Babylon.js 7.0」正式リリース。
-	- https://www.publickey1.jp/blog/24/web3dbabylonjs_70mmdmikumikudanceapple_vision_pro.html
-	- マイクロソフトは、Webブラウザ上で2Dや3Dモデルの高速なレンダリングなどを可能にするオープンソースのJavaScriptライブラリ「Babylon.js」の最新版「Babylon.js 7.0」正式版をリリースしました。
-	- MMD（MikuMikuDance）のインポートと利用を可能にするMMDローダーとランタイムが追加されました。IKソルバ、オーディオ同期再生、プレイヤーコントロールなどの機能も用意されています。
-- CMUもStanfordもColumbiaもCS修士のインターン内定率2割
-	- https://x.com/fzw1212/status/1774218929100988506
--  LLaMA Now Goes Faster on CPUs
-	- https://justine.lol/matmu
+	- https://www.publickey1.jp/blog/24/web3dbabylonjs_70mmdmikumikudanceapp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Mzc1ODk2NywtMjYwOTIyNTg0LC0zOD
+eyJoaXN0b3J5IjpbMTgwMDM2NDk0NiwtMjYwOTIyNTg0LC0zOD
 cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
 MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
 EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
