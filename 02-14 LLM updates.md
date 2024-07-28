@@ -149,6 +149,10 @@ Transformerはカーネル法使って早くなる論文
 	- https://x.com/AiXsatoshi/status/1816135011294404767
 - Mistralからまたしても新モデル投下！！Mistral-Large2！！前のMistral-Largeはクローズモデルだったのに今回はオープン公開！！パラ数は123B！！405Bほどじゃないけどでかい。コンテキスト長128k！多言語対応で日本語もイン！！MT-Benchで8.63でSonnet3.5やGPT-4o並みらしい！！　 by うみゆきさん
 	- https://x.com/umiyuki_ai/status/1816154383211770096
+-  Mistral Large 2 の概要　by npakaさん
+	- https://note.com/npaka/n/n17aba7c23bc0
+	- **128kのコンテキストウィンドウ**
+	- 
 - 特許番号を入れるとAIが自動的に特許に基づくアイディアを考えてくれる
 	- https://chizaizukan.com/property/ideaflow/
 - ベイズ統計入門　by 渡辺澄夫
@@ -3546,13 +3550,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Microsoftお得意の高品質テキストで効率よく事前学習するアプローチの最新論文、トークン単位のlossの推移を高いまま・低いまま・減少傾向・増加傾向の4タイプに分類していて面白そう。実際に学習トークンを選ぶ部分を勉強しよう。
 	- https://huggingface.co/microsoft/rho-math-7b-v0.1
 - GeminiによるRAGの実践例
-	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/use-cases/retrieval-augmented-genera
+	- ht
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc4NjEyLC0xMzQ3MzM5OTU2LC0yOD
-QxMDYzODksLTI2MDkyMjU4NCwtMzg3MTk0NDUwLC0yMjcwNzc2
-MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMTE3MTQ3MTU3NC
-wxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5
-MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4Mj
-ExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMw
-MSwxMTQ5MjAxODkzXX0=
+eyJoaXN0b3J5IjpbNzI2NDAzNiwtMTMwNzg2MTIsLTEzNDczMz
+k5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAs
+LTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMT
+cxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4
+ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMi
+wtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0x
+MDk2ODU1MzAxXX0=
 -->
