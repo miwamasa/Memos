@@ -197,7 +197,11 @@
 	- https://x.com/yanosen_jp/status/1816235485741867250
 	- 128kコンテクストウィンドウで日本語に公式対応してるの良いですね
 	- 源氏物語に関する質問も、クオリティ高い解答してくれます
-- インターネット上のテキストは基本的にでたらめで、トレーニングするのは計算の無駄らしい
+- インターネット上のテキストは基本的にでたらめで、トレーニングするのは計算の無駄
+	- https://x.com/wacha_yuma/status/1816096571664261315
+	- Llama2 とLlama3 のトレーニングを主導したメタのAI 研究者トーマスシャロム氏による
+	- だから、Llama 3 のトレーニングでは人間が書いた回答は一切使用せず、Llama 2 によって生成された純粋な合成データに完全に依存しているとのこと。
+- 
 
 
 ## 24/7/22
@@ -3542,17 +3546,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/janusch_patas/status/1774717184238883237
 - 『Google検索を超える衝撃の生成AI型新検索エンジン：Perplexity Proが情報収集を変える！』
 	- https://x.com/tetumemo/status/1774632484648730889
-	- Perplexity のようなAI検索が、つぎのビッグウエーブというか、active personal noteだよな。AI検索を有料にするという動きもある。
-- BItNet-Transformerの学習済みモデルが公開されている
-	- 1bitLLM/bitnet_b1_58-large
-- NLP2024 チュートリアル３: 作って学ぶ日本語大規模言語モデル - 環境構築手順と実験ソースコード
-	- https://github.com/hiroshi-matsu
+	- Perplexity のようなAI検索が、つぎのビッグウエーブというか、active perso
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTgxNjIzLC0yNjA5MjI1ODQsLTM4Nz
-E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
-MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
-M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
-NDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mj
-c1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIs
-LTIxMTA1NTAzNzldfQ==
+eyJoaXN0b3J5IjpbLTUyMDEyNjc1NiwtMjYwOTIyNTg0LC0zOD
+cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
+MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
+EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
+MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
+I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
+LC0yMTEwNTUwMzc5XX0=
 -->
