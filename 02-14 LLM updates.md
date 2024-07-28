@@ -152,7 +152,8 @@ Transformerはカーネル法使って早くなる論文
 -  Mistral Large 2 の概要　by npakaさん
 	- https://note.com/npaka/n/n17aba7c23bc0
 	- **128kのコンテキストウィンドウ**
-	- 
+	- MMLU では事前学習済みバージョンが 84.0% の精度を達成
+	- 解決策が見つからない場合や、確信を持って答えを出すのに十分な情報がない場合にそれを認識するように学習
 - 特許番号を入れるとAIが自動的に特許に基づくアイディアを考えてくれる
 	- https://chizaizukan.com/property/ideaflow/
 - ベイズ統計入門　by 渡辺澄夫
@@ -3547,16 +3548,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 画像-言語モデルの日本語ベンチマークとして、新しく「Heron-Bench」を公開しました！日本の画像で、日本に関する知識を総合的に問います
 - Rho-1: Not All Tokens Are What You Need
 	- https://arxiv.org/abs/2404.07965
-	- Microsoftお得意の高品質テキストで効率よく事前学習するアプローチの最新論文、トークン単位のlossの推移を高いまま・低いまま・減少傾向・増加傾向の4タイプに分類していて面白そう。実際に学習トークンを選ぶ部分を勉強しよう。
-	- https://huggingface.co/microsoft/rho-math-7b-v0.1
-- GeminiによるRAGの実践例
-	- ht
+	- Microsoftお得意の高品質テキストで効率よく事前学習するアプローチの最新論文、トークン単位のlossの推移を高いまま・低いまま・減少傾向・増加傾向の4タイプに分類していて面白そう。実際に学習トー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2NDAzNiwtMTMwNzg2MTIsLTEzNDczMz
-k5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAs
-LTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMT
-cxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4
-ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMi
-wtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0x
-MDk2ODU1MzAxXX0=
+eyJoaXN0b3J5IjpbLTE5MzkyNDM0MDIsLTEzMDc4NjEyLC0xMz
+Q3MzM5OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3MTk0
+NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNS
+wtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcx
+NzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MD
+gzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0
+NCwtMTA5Njg1NTMwMV19
 -->
