@@ -233,6 +233,9 @@
 	- ②インフラを頑張る。データセンターや発電所をモリモリ建てる。AI人材を育成する
 	- ③チップやデータの国外への輸出について、ルールを決めてちゃんと管理する
 	- ④AIの進化と開発について、グローバルにルールを定めて取り締まる国際機関を世界で作る
+- Llama 3.1 is impressive as a Data analyst Agent!
+	- https://huggingface.co/spaces/m-ric/agent-data-analyst
+	- Drop it your data as a csv, let it do the work, and you will get cool insights and plots in a matter of seconds!
 - 
 
 
@@ -3543,17 +3546,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- LLMのモデル設計は時間とコストがかかる。これを解決するため人工的なベンチマークタスク MAD（in-context recall, compression等）を設計。小規模MADで評価した結果を元に有望な手法を絞りスケールさせる。多くが小規模MADの性能とスケール後の性能に相関がみられた
 - LLMの現在
 	- https://speakerdeck.com/pfn/llmnoxian-zai
--  MetaWorm: A Complete Model Bridging Brain, Body and Environment of  _C. elegans_
-	- https://www.biorxiv.org/content/10.1101/2024.02.22.581686v1
-	- BAAIの研究、生物の脳、身体、環境の間の複雑な相互作用を線虫（C. elegan）を材料に解析
-- 「Babylon.js 7.0」正式リリース。
-	- https://www.publickey1.jp/blog/24/web3dbabylonjs_70mmdmikumikudanceapp
+-  MetaWorm: A Complete Model Bridging Brain, Body and Environment of  _C.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDM2NDk0NiwtMjYwOTIyNTg0LC0zOD
-cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
-MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
-EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
-MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
-I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
-LC0yMTEwNTUwMzc5XX0=
+eyJoaXN0b3J5IjpbLTExNzU1MTE3NzcsLTI2MDkyMjU4NCwtMz
+g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
+NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
+wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
+NjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OT
+YyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2Nzkw
+MiwtMjExMDU1MDM3OV19
 -->
