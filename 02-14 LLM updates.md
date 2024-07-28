@@ -208,7 +208,11 @@
 	- https://www.nature.com/articles/d41586-024-02355-z#Echobox=1721836112
 	- 合成データセットを使って再帰的にトレーニングし続け、ベンチマーク結果を優先してモデルを改善しようとしているけれど、徐々に硬直化して、もしかしてすでに現実世界に存在する情報に含まれていた微妙なニュアンスが失われているのかもね by AIXサトシさん
 - GoogleDeepMindが数学推論のためのAlphaProofと幾何学問題のためのAlphaGeometry2を発表
-	- 
+	- https://x.com/GoogleDeepMind/status/1816498082860667086
+	- 双方を用いて数学オリンピック銀賞レベル
+	- AlphaProofは形式言語Leanで数学的なステートメントを証明するために自己トレーニングするシステム
+	- AlphaGeometry 2 は過去 25 年間の IMO 幾何学問題全体の 83% を解くことができたが、これは前身の 53% の達成率を上回っている。
+- Ollama 0.3 with tool support!
 	- 
 
 
@@ -3540,16 +3544,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/shi3z/status/1774710763007119735
 	- 大体30GBあれば学習できるとすればA6000でも可能ということか?
 -  Google Colab で BAAI/bge-reranker-v2-m3 を試す by npakaさん
-	- https://note.com/npaka/n/n7d251f76ce25?sub_rt=share_h
-	- 「BAAI/bge-reranker-v2-m3」は、「bge-m3」ベースの「Reranker」モデルです。「Reranker」モデルは、従来の「埋め込み」モデルとは異なり、質問とドキュメントを入力として受け取り、類似度を出力します。
-	- 「パンダとは？」の質問には「パンダは中国南西部の山岳地帯に生息する哺乳類の一種です。」のドキュメントが関連していることがわかります。
-- Building a R
+	- https://not
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjEwODI0MiwtMjYwOTIyNTg0LC0zOD
-cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
-MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
-EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
-MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
-I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
-LC0yMTEwNTUwMzc5XX0=
+eyJoaXN0b3J5IjpbNDY0MDMwNTI2LC0yNjA5MjI1ODQsLTM4Nz
+E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
+MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
+M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
+NDA4MzIyLC0xMTY1ODIxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mj
+c1NDQsLTEwOTY4NTUzMDEsMTE0OTIwMTg5Myw4MjU1Njc5MDIs
+LTIxMTA1NTAzNzldfQ==
 -->
