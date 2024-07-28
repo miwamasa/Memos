@@ -10,7 +10,7 @@
 
 Llama3学習データは、ネットにある人間の作りしデータはいい加減なので、Llama2が生成したものを利用したとか。OpenAIのRule-Based Rewardsのように、LLM開発の仕上げのRLHFを人間でやるかわりにルールで自動化したらいい感じだったとか、もはや人間のいい加減さがLLMの発展を阻んでいる感がある、しかし、LLMが生成したデータのみで再帰的に学習すると、現実世界に存在する情報に含まれていた微妙なニュアンスが失われていくということだし、
 
-DeepMindのAlphaProof、AlphaGeometry2、ふたつくｍ
+DeepMindのAlphaProof、AlphaGeometry2、二つ組み合あせれば数学オリンピックで銀メダルレベルと発表、2025年までに銅メダルという賭けを完全に吹っ飛ばした感じ、
 
 ローカルLLMの電気代とGPT-4ominiのAPIコストがトントンだ
 Fine-tuning gpt-4o-mini is *free* for up to 2M tok/day??
@@ -3557,13 +3557,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://arxiv.org/abs/2207.00669
 - Can Gemini 1.5 actually read all the Harry Potter books at once?
 	- https://x.com/deedydas/status/1778621375592485076
-	- All the books have ~1M words (1.6M tokens). Gemini fi
+	- All the bo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyNzg3MzgxLC0xMzQ3MzM5OTU2LC0yOD
-QxMDYzODksLTI2MDkyMjU4NCwtMzg3MTk0NDUwLC0yMjcwNzc2
-MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMTE3MTQ3MTU3NC
-wxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5
-MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4Mj
-ExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMw
-MSwxMTQ5MjAxODkzXX0=
+eyJoaXN0b3J5IjpbLTEwNDg3Njc4MDUsLTEzNDczMzk5NTYsLT
+I4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3
+NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNT
+c0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0
+NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwtMTE2NT
+gyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0LC0xMDk2ODU1
+MzAxLDExNDkyMDE4OTNdfQ==
 -->
