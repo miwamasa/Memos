@@ -5,12 +5,13 @@
 
 なんてたってLlama3.1！、今週はLlama3.1の登場が、すべての話題をかっさらった。ツールコーリングの正式サポートとか、70Bで、HumanEval の結果がllama3の39% から 79% に爆上がりしたとか、405Bモデルに至っては、frontier-level model（最先端のLLMという意味)に相当し、EUのAI法の最も厳しいカテゴリーであるGPAI with systemic riskの「学習量」という謎の判断指標を、**わざわざ**上回ったことを公表し、EU委員会に喧嘩を吹っ掛けた形になっている、とか話題に事欠かない。学習手法としてはまっとうなことを愚直に積み重ねたようで、岡野原さんによると、スケール則の改良だけでなくデータ品質や学習手法の改善で1年間で同じ性能あたりの提供コストは数十分の1になっている、とのこと。早速、日本語対応派生モデルが出てきた、ライセンスが変わり出力を学習につうかってもよいが、派生モデルにはllama3がつくことになった。csvなどのデータ分析の能力も高く、データサイエンティストはもはや。llama3.1のツールコーリングに対応したかのようにollamaもツールコーリングに対応しエージェント系も一気に盛り上がる、405Bモデルをvllmなどの助けによりローカルに動かす人もできたし、iphoneでローカルに動くという報告もあった。このエコシステムに欧州が乗り遅れるってのは確かに欧州の企業は危機感を抱くだろうなあ。
 
-さて、その欧州のスタートアップMstralからは、Mistral Large2がリリース、ロングコンテキストアプリを念頭に置いた単一ノード推論用に設計されたということで、こっちもファンクションコールに対応し、そして多言語対応、ライセンスを取得すれば商用利用も可能とのこと、論文タイトルがLarge Enoughっても面白い。
+さて、その欧州のスタートアップMstralからは、Mistral Large2がリリース、ロングコンテキストアプリを念頭に置いた単一ノード推論用に設計されたということで、こっちもファンクションコールに対応し、そして多言語対応、ライセンスを取得すれば商用利用も可能とのこと、論文タイトルが"Large Enough"っても面白い。
 
 安全性という観点からは、Metaは、Llama3.1のリリースに伴い、LlamaGuardも更新され、またPromptGuardというのもリリース、OpenAＩもアライメントの高度化ということで、RLHFを自動化するRule-Based Rewardsを発表、どう考えてもLLMの安全性はLLMでしか守れないみたいな感じになってきた。Llama3学習データは、ネットにある人間の作りしデータはいい加減なので、Llama2が生成したものを利用したとか。OpenAIのRule-Based Rewardsのように、LLM開発の仕上げのRLHFを人間でやるかわりにルールで自動化したらいい感じだったとか、もはや人間のいい加減さがLLMの発展を阻んでいる感がある、しかし、LLMが生成したデータのみで再帰的に学習すると、現実世界に存在する情報に含まれていた微妙なニュアンスが失われていくという論文もあって、まだ人間の活躍の余地が期待できるが、「微妙なニュアンス」って軽々超えられてしまうきもする。
 
 DeepMindのAlphaProof、AlphaGeometry2、二つ組み合あせれば数学オリンピックで銀メダルレベルと発表、2025年までに銅メダルという賭けを完全に吹っ飛ばした感じ、
 
+先週話題になった、（ずっと前の気がする）gpt-4o-mini、200万トークンまでだと無料でファインチューニングできることが発表され、RAGとの比較でも
 ローカルLLMの電気代とGPT-4ominiのAPIコストがトントンだ
 Fine-tuning gpt-4o-mini is *free* for up to 2M tok/day??
 
@@ -3546,15 +3547,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  Heron-Bench: A Benchmark for Evaluating Vision Language Models in Japanese
 	- https://arxiv.org/abs/2404.07824
 	- 画像-言語モデルの日本語ベンチマークとして、新しく「Heron-Bench」を公開しました！日本の画像で、日本に関する知識を総合的に問います
-- Rho-1: Not All Tokens Are What You Need
-	- https://arxiv.org/abs/2404.07965
-	- Microsoftお得意の高品質テキストで効率よく
+- Rho-1: Not All Tokens 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjc0MDAxMTksLTEzMDc4NjEyLC0xMz
-Q3MzM5OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3MTk0
-NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNS
-wtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcx
-NzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MD
-gzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0
-NCwtMTA5Njg1NTMwMV19
+eyJoaXN0b3J5IjpbLTgxMzk5ODgzNSwtMTMwNzg2MTIsLTEzND
+czMzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0
+NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC
+0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3
+MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwOD
+MyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5NjI3NTQ0
+LC0xMDk2ODU1MzAxXX0=
 -->
