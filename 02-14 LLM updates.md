@@ -159,7 +159,12 @@
 	- https://x.com/ylecun/status/1816425693380481249
 -  Masked Attention is All You Need for Graphs
 	- https://arxiv.org/abs/2402.10793
-	- 
+- 奇跡の水素貯蔵物質・アンモニア固体を常温で安定化
+	- https://x.com/tjmlab/status/1816429059619827873
+	- 「このことを分かり易く水に例えますと,100℃の沸騰したお湯に投入しても溶けない氷を見出したことに相当し,奇跡的事実の発見と言えます.｣
+- rinnaはLlama 3 8B, 70Bの日本語継続事前学習モデル、指示学習モデル、量子化モデルからなる「Llama 3 Youko」シリーズを公開しました
+	- https://huggingface.co/collections/rinna/youko-669d18da5bd3f749a3e7ff95
+- 
 
 
 ## 24/7/22
@@ -3545,17 +3550,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/iwiwi/status/1775367258040410519
 - 2x7Bの日本語チャット・ノベル専用高性能モデル。
 	- https://huggingface.co/Sdff-Ltba/LightChatAssistant-2x7B
-	- Antler-7Bとchatntq-ja-7b-v1.0という、Japanese Stable LM Base Gamma 7B（Mistral 7Bベース）をinstructionチューニングしたモデルを各々ChatVector法で強化し、MoEでマージしたのだそうだ
-- RankZephyr is a nice 7B model 
-	- https://arxiv.org/pdf/2312.02724.pdf
-	- that is optimized for list-wise zero-shot reranking
-	- https://docs.llamaindex.ai/en/stable/examples/n
+	- Antler-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTA0OTE2OSwtMjYwOTIyNTg0LC0zOD
-cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
-MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
-EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
-MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0yMDQ5Nj
-I3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NTY3OTAy
-LC0yMTEwNTUwMzc5XX0=
+eyJoaXN0b3J5IjpbLTE5NTIxMTk0MTcsLTI2MDkyMjU4NCwtMz
+g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
+NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
+wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
+NjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwtMjA0OT
+YyNzU0NCwtMTA5Njg1NTMwMSwxMTQ5MjAxODkzLDgyNTU2Nzkw
+MiwtMjExMDU1MDM3OV19
 -->
