@@ -3,9 +3,9 @@
 
 ## 24/7/29
 
-なんてたってLlama3.1！、今週はLlama3.1の登場が、すべての話題をかっさらった。ツールコーリングの正式サポートとか、70Bでも、突然、HumanEval の結果が39% から 79% に爆上がりしたとか、405Bモデルに至っては、frontier-level model（最先端のLLMという意味)に相当し、EUのAI法の最も厳しいGPAI with systemic riskの性能指標を、**わざわざ**上回ったことを公表し、EU委員会に喧嘩を吹っ掛けたとか話題に事欠かない。学習手法としてはまっとうなことを愚直に積み重ねたようで、岡野原さんによると、スケール則の改良だけでなくデータ品質や学習手法の改善で1年間で同じ性能あたりの提供コストは数十分の1になっている、とのこと。csvなどのデータ分析の能力も高く、llama3.1のツールコーリングに対応したかのようにollamaもツールコーリングに対応しエージェント系も一気に盛り上がる、405Bモデルをvllmなどの助けによりローカルに動かす人もできた。このエコシステムに欧州が乗り遅れるってのは確かに欧州の企業は危機感を抱くだろうなあ。早速、日本語対応派生モデルが出てきた、ライセンスが変わり出力を学習につうかってもよいが、派生モデルにはllama3がつくことになった。
+なんてたってLlama3.1！、今週はLlama3.1の登場が、すべての話題をかっさらった。ツールコーリングの正式サポートとか、70Bで、HumanEval の結果がllama3の39% から 79% に爆上がりしたとか、405Bモデルに至っては、frontier-level model（最先端のLLMという意味)に相当し、EUのAI法の最も厳しいGPAI with systemic riskの判断指標を、**わざわざ**上回ったことを公表し、EU委員会に喧嘩を吹っ掛けたとか話題に事欠かない。学習手法としてはまっとうなことを愚直に積み重ねたようで、岡野原さんによると、スケール則の改良だけでなくデータ品質や学習手法の改善で1年間で同じ性能あたりの提供コストは数十分の1になっている、とのこと。csvなどのデータ分析の能力も高く、llama3.1のツールコーリングに対応したかのようにollamaもツールコーリングに対応しエージェント系も一気に盛り上がる、405Bモデルをvllmなどの助けによりローカルに動かす人もできた。このエコシステムに欧州が乗り遅れるってのは確かに欧州の企業は危機感を抱くだろうなあ。早速、日本語対応派生モデルが出てきた、ライセンスが変わり出力を学習につうかってもよいが、派生モデルにはllama3がつくことになった。
 
-さ
+さて、その欧州のスタートアップMstralからは、Mistral Large2がリリース。
 
 
 
@@ -3555,15 +3555,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - 「カルマンフィルターをQR分解で解く手法」
 	- https://github.com/kevin-tracy/QRKalmanFilter
 	- Square root Kalman Filter using only QR decompositions.
-	- related paper: Differentiable Collision Detection for a Set of Convex Primitives
-	- https://arxiv.org/abs/2207.00669
-- C
+	- related paper: Differentiable Collision Detection for a Set of Con
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzA4OTU2LC0xMzQ3MzM5OTU2LC0yOD
-QxMDYzODksLTI2MDkyMjU4NCwtMzg3MTk0NDUwLC0yMjcwNzc2
-MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMTE3MTQ3MTU3NC
-wxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5
-MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIsLTExNjU4Mj
-ExMzYsMTY4ODA2ODYxMCwtMjA0OTYyNzU0NCwtMTA5Njg1NTMw
-MSwxMTQ5MjAxODkzXX0=
+eyJoaXN0b3J5IjpbLTUzMzU0NjY1NiwtMTM0NzMzOTk1NiwtMj
+g0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3MDc3
+NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0NzE1Nz
+QsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1
+OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1OD
+IxMTM2LDE2ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUz
+MDEsMTE0OTIwMTg5M119
 -->
