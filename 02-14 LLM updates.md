@@ -133,7 +133,13 @@
 	- 現代の統計学において「主義」が無意味であることは、わかっている人はみなわかっているが、「導入本」「ＳＮＳ上」「また聞き」には「ベイズ主義」、「頻度主義」という言葉や論争をあおる説明が書かれている場合が多く、これを読んだユーザーが「どちらが正しいか」という問いかけを始めてしまいやすい。
 - Llama 3.1 performing multi-step planning, reasoning, and tool calling. This is without an agent framework!
 	- https://x.com/tom_doerr/status/1816118804541329533
-	- 
+-  Improving Model Safety Behavior with Rule-Based Rewards
+	- https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards/
+	- We’ve developed Rule-Based Rewards (RBRs) to align AI behavior safely by OpenAI
+- OpenAIのRBRの記事、Sonnetに読んでもろうた by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1816165449136267352
+	- OpenAIは今までLLM開発の仕上げにRLHFで大量の人間によるフィードバックで調教していたけど、イチイチ大勢でRLHFするのいい加減ダルくなってきたので「せや！AIにAIのフィードバックやらせたろ！」と思った。そんで評価AIにルールを与えてフィードバックさせたらいい感じの結果だった。
+- 
 
 ## 24/7/22
 
@@ -3542,19 +3548,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/spaces/CohereForAI/c4ai-command-r-plus
 	- だだものではない。
 -  LlamaIndex <> MistralAI Cookbooks
-	- https://github.com/mistralai/cookbook/tree/main/third_party/LlamaIndex
-	- Here’s a definitive set of cookbooks to build simple-to-advanced RAG, agentic RAG, and agents in general with MistralAI
-- Groq tool calling + structured output by langchain
-	- https://python.langchain.com/docs/modules/model_io/chat/structured_output/#groq
-	- GroqInc just dropped tool calling!
-	- We've added LangChain support (including the popular `withStructuredOutput` method!) so you can try it in your favorite chains and apps.
-	- It suppor
+	- https://github.com/mistralai/cookbook/tree/main/t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNj
-U4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEy
-MTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MC
-wtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEwLC0y
-MDQ5NjI3NTQ0LC0xMDk2ODU1MzAxLDExNDkyMDE4OTMsODI1NT
-Y3OTAyLC0yMTEwNTUwMzc5LC05MDMwMzcyOTUsLTI5OTA4NzAy
-LDE3MzQ0NjUyNzldfQ==
+eyJoaXN0b3J5IjpbLTM4NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNz
+k1MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIw
+NTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NS
+wtMTM0MTM3MzgwLC0xMjYwNDA4MzIyLC0xMTY1ODIxMTM2LDE2
+ODgwNjg2MTAsLTIwNDk2Mjc1NDQsLTEwOTY4NTUzMDEsMTE0OT
+IwMTg5Myw4MjU1Njc5MDIsLTIxMTA1NTAzNzksLTkwMzAzNzI5
+NSwtMjk5MDg3MDJdfQ==
 -->
