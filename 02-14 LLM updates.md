@@ -190,7 +190,14 @@
 	- Macでも使える模様。作者の方こちら
 	- https://localchat.co/
 - Llama3.1 405Bのトレーニングに使われた計算資源は約3.8×10^25 FLOPSらしい。ちょうど米国が規制対象としようとしている10^26FLOPSよりも小さく、欧州がハイリスクAIと位置づけようとしている10^25FLOPSよりは大きく、Llama派生モデルが欧州委に行列をなしたらどうなるんだろう？という意地の悪い興味
-	- 
+	- https://x.com/masanork/status/1816420429114089925
+- Mistral Large 2, 日本語ならLlama 3.1 70Bより圧倒的に上で、ほぼLlama 3.1 405Bレベル。
+	- https://x.com/yanosen_jp/status/1816236758843212267
+- Mistral Large 2, ダウンロードしてOllamaで走らせてみました
+	- https://x.com/yanosen_jp/status/1816235485741867250
+	- 128kコンテクストウィンドウで日本語に公式対応してるの良いですね
+	- 源氏物語に関する質問も、クオリティ高い解答してくれます
+- インターネット上のテキストは基本的にでたらめで、トレーニングするのは計算の無駄らしい
 
 
 ## 24/7/22
@@ -3539,17 +3546,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - BItNet-Transformerの学習済みモデルが公開されている
 	- 1bitLLM/bitnet_b1_58-large
 - NLP2024 チュートリアル３: 作って学ぶ日本語大規模言語モデル - 環境構築手順と実験ソースコード
-	- https://github.com/hiroshi-matsuda-rit/NLP2024-tutorial-3
-	- 日本語LLMの学習・評価に用いられる技術とデータセットについて広く取り上げています。是非ご覧ください。
-	- 講演スライドと実験環境構築手順・ソースコードはGitHubリポジトリで公開しています
-	- リクルートの松田寛さん
-- 東工大のSwallow MX 8x7bは現状ローカルLLMでは日本語最高のモデルだろうね…
-	- https://x.com/Meteor_Eternal/status/1775096408435216766
-- OSS Models + LangGraph.js
-	- LangGraph helps you create LLM apps that closely match the logical flows used to solve a problem.
-	- h
+	- https://github.com/hiroshi-matsu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzQ1NTMzLC0yNjA5MjI1ODQsLTM4Nz
+eyJoaXN0b3J5IjpbMTE4NTgxNjIzLC0yNjA5MjI1ODQsLTM4Nz
 E5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mzcx
 MDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMT
 M3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYw
