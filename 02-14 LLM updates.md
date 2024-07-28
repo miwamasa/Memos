@@ -216,7 +216,13 @@
 	- https://ollama.com/blog/tool-support
 - Mark Zuckerberg shared mind-blowing new insights on AI.
 	- https://x.com/sairahul1/status/1816449865981075694
-	- 
+	- 5 key highlights you can't miss
+		- On open-source Al
+		- Intelligence and consciousness.
+		- Hundreds of millions or billions of AI agents
+		- About Llama 3.1 open source Al model capabilities
+		- Upcoming tools for Llama 3.1
+- 
 
 
 ## 24/7/22
@@ -3540,13 +3546,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 84 new matrix multiplication kernels for llamafile
 	- between 30% and 500% faster when using F16 and Q8_0 weights on CPU. 
 - Gecko: Versatile Text Embeddings Distilled from Large Language Models
-	- https://huggingface.co/papers/2403.20327
-	- Googleから、Gecko組み込みモデル、LLMを蒸留した？？謎
-	- LLMを使って学習用のペアデータを作ってEmbedding Modelの学習をした後、このモデルに寄り得られた関連パッセージに同じLLMでPositive/Hard Negativeのラベルを振り直して追加学習しているらしい。
-- LMFlowでLlama2-70BのLISAファインチューニングがあっさり動いた by shi3zさん
-	- http
+	- https://huggingface.co/pape
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzAxMjI0NywtMjYwOTIyNTg0LC0zOD
+eyJoaXN0b3J5IjpbMTI3MTI1NTg5MywtMjYwOTIyNTg0LC0zOD
 cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
 MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
 EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
