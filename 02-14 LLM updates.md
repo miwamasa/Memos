@@ -5,7 +5,7 @@
 
 なんてたってLlama3.1！、今週はLlama3.1の登場が、すべての話題をかっさらった。ツールコーリングの正式サポートとか、70Bで、HumanEval の結果がllama3の39% から 79% に爆上がりしたとか、405Bモデルに至っては、frontier-level model（最先端のLLMという意味)に相当し、EUのAI法の最も厳しいカテゴリーであるGPAI with systemic riskの「学習量」という謎の判断指標を、**わざわざ**上回ったことを公表し、EU委員会に喧嘩を吹っ掛けた形になっている、とか話題に事欠かない。学習手法としてはまっとうなことを愚直に積み重ねたようで、岡野原さんによると、スケール則の改良だけでなくデータ品質や学習手法の改善で1年間で同じ性能あたりの提供コストは数十分の1になっている、とのこと。早速、日本語対応派生モデルが出てきた、ライセンスが変わり出力を学習につうかってもよいが、派生モデルにはllama3がつくことになった。csvなどのデータ分析の能力も高く、データサイエンティストはもはや。llama3.1のツールコーリングに対応したかのようにollamaもツールコーリングに対応しエージェント系も一気に盛り上がる、405Bモデルをvllmなどの助けによりローカルに動かす人もできたし、iphoneでローカルに動くという報告もあった。このエコシステムに欧州が乗り遅れるってのは確かに欧州の企業は危機感を抱くだろうなあ。
 
-さて、その欧州のスタートアップMstralからは、Mistral Large2がリリース、ロングコンテキストアプリを念頭に置いた単一ノード推論用に設計されたということで、こっちもファンクションコールに対応し、そして多言語対応、ライセンスを取得すれば商用利用も可能とのこと、論文タイトルが"Large Enough"っても面白い。
+さて、その欧州のスタートアップMstralからは、Mistral Large2がリリース、ロングコンテキストアプリを念頭に置いた単一ノード推論用に設計されたということで、こっちもファンクションコールに対応し、そして多言語対応、ライセンスを取得すれば商用利用も可能とのこと、論文タイトルが"Large Enough"っても面白い。Llama3.1やMistral Large2のようなロングコンテキストって、深津さんがいうよう
 
 先週話題になった、（ずっと前の気がする）gpt-4o-mini、200万トークンまでだと無料でファインチューニングできることが発表され、RAGとの比較でも良好な性能を示した、そもそも低コストすぎて、もはやローカルLLMの電気代とAPI使用料がコンパラという話に。。。。
 
@@ -14,7 +14,7 @@
 DeepMindのAlphaProof、AlphaGeometry2、二つ組み合あせれば数学オリンピックで銀メダルレベルと発表、2025年までに銅メダルという賭けを完全に吹っ飛ばした感じ、数学オリンピックの次は何が目標になるのか？
 
 
-Transformerはカーネル法使って早くなる論文とか、KANの効率的な実装とか、
+Transformerはカーネル法使って早くなる論文とか、KANの効率的な実装とか、新しいState Space ModelであるLonghornとか、
 
 
 
@@ -3549,13 +3549,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- LLMにプロンプトを与える際、「推論ステップの流れに沿う順序」で文脈を与えないと30%以上精度が落ちる恐れがあることをDeepMindが報告しています。
 -  Heron-Bench: A Benchmark for Evaluating Vision Language Models in Japanese
 	- https://arxiv.org/abs/2404.07824
-	- 画像-言語モデルの日本語ベンチマークとして、新しく「Heron-Bench」
+	- 画像-言語モデルの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA3NjEzMDEsLTg3NTA5ODIxOCwtMT
-MwNzg2MTIsLTEzNDczMzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIy
-NTg0LC0zODcxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2My
-wxNjU4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkw
-MDEyMTQyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNz
-M4MCwtMTI2MDQwODMyMiwtMTE2NTgyMTEzNiwxNjg4MDY4NjEw
-LC0yMDQ5NjI3NTQ0XX0=
+eyJoaXN0b3J5IjpbLTgxMjYyMzc4LC04NzUwOTgyMTgsLTEzMD
+c4NjEyLC0xMzQ3MzM5OTU2LC0yODQxMDYzODksLTI2MDkyMjU4
+NCwtMzg3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMT
+Y1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAx
+MjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczOD
+AsLTEyNjA0MDgzMjIsLTExNjU4MjExMzYsMTY4ODA2ODYxMCwt
+MjA0OTYyNzU0NF19
 -->
