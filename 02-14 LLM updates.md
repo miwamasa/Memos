@@ -152,7 +152,10 @@
 	- Dense（MoEは学習が不安定で不採用）で15.6Tトークン、16K H100で学習。Llama 2の50倍の投入計算量。事後学習ではRLは使わず安定なSFT, RS, DPOを利用し、異なるハイパーパラメータの複数のモデルの平均を使う。
 	- 事前学習では新しいアーキテクチャや学習手法を使わず、既存の確立された良い技術の組み合わせ、良い大量のデータを作り、安定した学習でスケールさせている。スケールさせることが難しい。このスケールで40%近い実行効率を達成。
 	- スケール則だけでなくデータ品質や学習手法の改善で1年間で同じ性能あたりの提供コストは数十分の1になっている。1年後に8Bで405Bぐらいの性能がでていてもおかしくはない（個別タスクなら既に出ている）。
-- Robert Tibshiraniさん、Lasso論文について、息子から
+- Robert Tibshiraniさん、Lasso論文について、息子から質問を受ける
+	- https://x.com/umaruyama/status/1816250649530765477
+	- インタビューをする側だった Robert Tibshirani さんが受ける側になって，息子 Ryan（UCB 統計学科）が Lasso 論文について質問する動画が公開されていますね。
+- 
 
 
 ## 24/7/22
@@ -3545,9 +3548,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://docs.llamaindex.ai/en/stable/examples/node_postprocessor/rankLLM/?h=rankllm
 - intelligent notetaking by https://iki.ai/
 	- https://iki.ai/
-	- a cool example of an AI-enabled notetaking interface that epitomizes the core value prop of RAG - dump in a ton of your messy, unstructured data (files, links, notes), and have the application organize and surface 
+	- a cool example of an AI-enabled notetaking interface th
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjUxMDQ2NzksLTI2MDkyMjU4NCwtMz
+eyJoaXN0b3J5IjpbLTE1NTEyMTA4NDUsLTI2MDkyMjU4NCwtMz
 g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
 NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
 wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
