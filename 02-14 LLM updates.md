@@ -10,7 +10,7 @@ Fine-tuning gpt-4o-mini is *free* for up to 2M tok/day??
 
 Transformerはカーネル法使って早くなる論文
 
-匿名ブログでの「AIバブルが弾けようが国はもはや政治的にAI開発をストップできない」というのも話題になった、アセモグル教授が指摘するような、AI（主に生成AI)により経済成長が起きるという点
+匿名ブログでの「AIバブルが弾けようが国はもはや政治的にAI開発をストップできない」というのも話題になった、アセモグル教授が指摘するような、AI（主に生成AI)により経済成長は懐疑的という以前に、バブルは崩壊するという悲観論もあるが、弾けようがどうなろうが、AI開発はストップできないというもはや脅迫状態。Zuckerberg も、ここで投資しないと、
 
 - 日本の企業活動は、初等・中等教育までの知識で成り立っているのに対して、アメリカの企業活動は、大学院教育に基づいて成り立っている
 	- https://x.com/yukionoguchi10/status/1814670633277792779
@@ -3554,9 +3554,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 
 ## 4/8
 
-今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな傾向に拍車がかかるのでは。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量なモデル、そういえばSiriの人員が解雇されたというニュースもあった。スタンフォードやCMUの一流大学でもCSの修士の就職率が２割とのこと、まあ10年でCS修士取得者が10倍になったという要因もあるようだが、LLMをコンパイラとして使うっていう時代、普通のCS修士程度ではもやは、お呼びではないということか。OpenAIは
+今週も情報が早すぎて大過ぎて、もやは追いつけません。RAG向けのベクトルDBのベンダーかと思っていたCohereから、オープンソースのCommand R+ がリリース、まあ成り立ちから当然、RAGとかロングコンテキストに最適化さている。104Bでパラメータも公開、テスト版がhuggingfaceで試すこともできる、GPT-4並みの性能でOSSってやばくないか。早速量子化したり、MLXで動かしたりと、やばくないか。ある性能以上のLLMのオープンソース化禁止みたいな傾向に拍車がかかるのでは。AppleからはReALM発表、どうもSiriの代わりにiPhoneでも動く軽量なモデル、そういえばSiriの人員が解雇されたというニュースもあった。スタンフォードやCMUの一流大学でもCSの修士の就職率が２割とのこと、まあ10年でCS修
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5MTY4NzEwLC0yODQxMDYzODksLTI2MD
+eyJoaXN0b3J5IjpbNDg5MTY2ODg0LC0yODQxMDYzODksLTI2MD
 kyMjU4NCwtMzg3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4
 NjMsMTY1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LD
 I5MDAxMjE0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQx
