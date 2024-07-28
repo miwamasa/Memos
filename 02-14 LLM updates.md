@@ -7,9 +7,7 @@
 
 さて、その欧州のスタートアップMstralからは、Mistral Large2がリリース、こっちもファンクションコールに対応し、そして多言語対応というのがすごい。
 
-安全性という観点からは、Metaは、Llama3.1のリリースに伴い、LlamaGuardも更新され、またPromptGuardというのもリリース、OpenAＩもアライメントの高度化ということで、RLHFを自動化するRule-Based Rewardsを発表、どう考えてもLLMの安全性はLLMでしか守れないみたいな感じになってきた。
-
-Llama3学習データは、ネットにある人間の作りしデータはいい加減なので、Llama2が生成したものを利用したとか。OpenAIのRule-Based Rewardsのように、LLM開発の仕上げのRLHFを人間でやるかわりにルールで自動化したらいい感じだったとか、もはや人間のいい加減さがLLMの発展を阻んでいる感がある、しかし、LLMが生成したデータのみで再帰的に学習すると、現実世界に存在する情報に含まれていた微妙なニュアンスが失われていくということだし、
+安全性という観点からは、Metaは、Llama3.1のリリースに伴い、LlamaGuardも更新され、またPromptGuardというのもリリース、OpenAＩもアライメントの高度化ということで、RLHFを自動化するRule-Based Rewardsを発表、どう考えてもLLMの安全性はLLMでしか守れないみたいな感じになってきた。Llama3学習データは、ネットにある人間の作りしデータはいい加減なので、Llama2が生成したものを利用したとか。OpenAIのRule-Based Rewardsのように、LLM開発の仕上げのRLHFを人間でやるかわりにルールで自動化したらいい感じだったとか、もはや人間のいい加減さがLLMの発展を阻んでいる感がある、しかし、LLMが生成したデータのみで再帰的に学習すると、現実世界に存在する情報に含まれていた微妙なニュアンスが失われていくという論文もあって、まだ人間の活躍の余地が期待できるが、「微妙なニュアンス」って軽々超えられてしまうきもする。
 
 DeepMindのAlphaProof、AlphaGeometry2、二つ組み合あせれば数学オリンピックで銀メダルレベルと発表、2025年までに銅メダルという賭けを完全に吹っ飛ばした感じ、
 
@@ -3548,10 +3546,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Microsoftお得意の高品質テキストで効率よく事前学習するアプローチの最新論文、トークン単位のlossの推移を高いまま・低いまま・減少傾向・増加傾向の4タイプに分類していて面白そう。実際に学習トークンを選ぶ部分を勉強しよう。
 	- https://huggingface.co/microsoft/rho-math-7b-v0.1
 - GeminiによるRAGの実践例
-	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/use-cases/retrieval-augmented-generation
-- Gemini API の ファインチューニング を試す by npakaさ
+	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/use-cases/retrieval-augmented-genera
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDMwOTgwOTYsLTEzNDczMzk5NTYsLT
+eyJoaXN0b3J5IjpbLTEyNDY4NDM5MjIsLTEzNDczMzk5NTYsLT
 I4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3
 NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNT
 c0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0
