@@ -164,6 +164,10 @@
 	- 「このことを分かり易く水に例えますと,100℃の沸騰したお湯に投入しても溶けない氷を見出したことに相当し,奇跡的事実の発見と言えます.｣
 - rinnaはLlama 3 8B, 70Bの日本語継続事前学習モデル、指示学習モデル、量子化モデルからなる「Llama 3 Youko」シリーズを公開しました
 	- https://huggingface.co/collections/rinna/youko-669d18da5bd3f749a3e7ff95
+- Structured outputs for LLM-powered ETL, RAG, and agent pipelines!　by llamaindex
+	- https://x.com/akshay_pachaar/status/1816452939244081521
+	- 1. Define a Pydantic object. 
+	- 2. Attach it to your LLM using `as_structured_llm(…)`.
 - 
 
 
@@ -3545,14 +3549,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://zenn.dev/kun432/scraps/73b098e774bd21
 	- LLMやエージェントの意思決定のルーティングを行うSemantic Routerを試してみた。ルーティングだけじゃなく、セマンティックなチャンク分割にも使える。 ベクトル検索の使い方はいろいろな可能性がありそう。
 	- クエリで処理を分岐させたいようなケースは、Function Callingを使ってLLMにルーティングさせるとかがあると思うのだけど、事前にクエリのサンプルを用意しておいてベクトル検索でルーティングさせるというようなもの。
-	- LangChainのエージェントと組み合わせた例。
-- 4/23(火)に、Sakana AI初のイベントやります！Grow-AI、Arayaの方々と我々のトークがあります
-	- https://x.com/iwiwi/status/1775367258040410519
-- 2x7Bの日本語チャット・ノベル専用高性能モデル。
-	- https://huggingface.co/Sdff-Ltba/LightChatAssistant-2x7B
-	- Antler-
+	- La
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTIxMTk0MTcsLTI2MDkyMjU4NCwtMz
+eyJoaXN0b3J5IjpbLTE1NzMzMzMxMjksLTI2MDkyMjU4NCwtMz
 g3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODcz
 NzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Mi
 wxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEy
