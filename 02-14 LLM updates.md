@@ -178,7 +178,7 @@
 	- https://huggingface.co/papers/2407.14207
 	- https://x.com/cranialxix/status/1816505312498852159
 	- How to design State Space Models (SSM) from principles? We propose to view SSM's recurrence as the per-step closed-form solution to an online learning problem. To this end, we present Longhorn, a novel SSM that achieves 1.8x better sampling efficiency against Mamba.
-- 
+- The Meta Llama-3.1 model series can be used for distilling and fine-tuning but this requires annotated preference data 
 
 
 ## 24/7/22
@@ -3544,12 +3544,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/papers/2404.01367
 - Prompt-prompted Mixture of Experts for Efficient LLM Generation
 	- https://arxiv.org/abs/2404.01365
-	- LLM への入力ごとに、LLMの各レイヤーでのアクティベーションの相対的な大きさが、トークン位置によらず一部の次元に偏る flocking という現象を発見し、これをもとに、
-	-  (1) prompt 入力次点でアクティベーションが相対的に大きい次元を特定
-	-  (2) その次元のみを使って近似的/効率的に Decode を行う、
-	- GRIFFIN (Gating by Repet
+	- LLM への入力ごとに、LLMの各レイヤーでのアクティベーションの相対的な大きさが、トークン位置によらず一部の次元に偏る flocking という現象
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDMzMDcyNSwtMjYwOTIyNTg0LC0zOD
+eyJoaXN0b3J5IjpbLTQ4MzYxNDUyMywtMjYwOTIyNTg0LC0zOD
 cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
 MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
 EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
