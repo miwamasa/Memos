@@ -222,6 +222,10 @@
 		- Hundreds of millions or billions of AI agents
 		- About Llama 3.1 open source Al model capabilities
 		- Upcoming tools for Llama 3.1
+- DeepMindの「銀メダル」レベルのAIシステム発表を受け、予測市場が突如暴騰。
+	- https://x.com/Tsubame33785667/status/1816640555016946086
+	- 「AIは2025年までに、国際数学オリンピックで少なくとも銅メダルを獲得するか？」
+	- あと1点で金メダルだったという衝撃。DeepMindのWebでの解説を見た限り、学習期間の短さや学習方法からすれば、この1点はもう誤差レベルだと思います。
 - 
 
 
@@ -3542,13 +3546,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - CMUもStanfordもColumbiaもCS修士のインターン内定率2割
 	- https://x.com/fzw1212/status/1774218929100988506
 -  LLaMA Now Goes Faster on CPUs
-	- https://justine.lol/matmul/
-	- 84 new matrix multiplication kernels for llamafile
-	- between 30% and 500% faster when using F16 and Q8_0 weights on CPU. 
-- Gecko: Versatile Text Embeddings Distilled from Large Language Models
-	- https://huggingface.co/pape
+	- https://justine.lol/matmu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTI1NTg5MywtMjYwOTIyNTg0LC0zOD
+eyJoaXN0b3J5IjpbLTY3Mzc1ODk2NywtMjYwOTIyNTg0LC0zOD
 cxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3
 MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLD
 EzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2
