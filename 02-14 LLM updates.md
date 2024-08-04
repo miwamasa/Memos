@@ -162,7 +162,14 @@
 -  Google Colab で FLUX.1 を試す by npakaさん
 	- https://note.com/npaka/n/na511bcd91cb9?sub_rt=share_h
 	- 「FLUX.1」は、「Stable Diffusion」の開発者たちが立ち上げた「Black Forest Labs」が発表した最新の画像生成AIモデルです。
-	- 
+- 平泳ぎ200m 金メダリスト, 🇺🇸ヴァージニア大学で統計学を専攻している大学院生ケイト・ダグラスさん(22歳).
+	- https://x.com/SpringerJapan/status/1819522584494723528
+- GitHub AI Model Playground with Llama 3.1 405B, GPT-4o, Mistral Large, Phi-3 and other opensource models for RAG. (100% free right in GitHub).
+	- https://x.com/Saboo_Shubham_/status/1819560639104536842
+- 無料のオープンソース版のClaude Artifactsが登場
+	- https://x.com/masahirochaen/status/1819494975157293508
+	- Llama 3.1 405BでClaude Artifactsのようにコード生成→アプリ、サイト開発ができる「Llama Coder」が登場。
+- 
 
 ## 24/7/29　
 
@@ -3503,20 +3510,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Chat VectorならぬMath Vectorは作れるのか
 	- https://note.com/hatti8/n/n0000353355cb
 - LangChain x DSPy
-	- https://www.youtube.com/watch?v=4EXOmWeqXRc
-- JetMoEってなんじゃ？ by うみゆきさん、
-	- https://x.com/umiyuki_ai/status/1777014403197788280
-	- Mixture of Attention heads（MoA）とMixture of MLP Experts（MoE）の二つのレイヤーに、それぞれ４人ずつエキスパートがいて、推論時は各レイヤー２人ずつが活性化する。
-	- 活性化パラ数は2.2Bで、合計パラ数は8Bだって。何だか知らんけどこのアーキテクチャによってトレーニング効率が爆上がって、H100が96台で２週間、1200万円しかトレーニング費用かけてないのに、数千億かけたはずのLlama-7BやLlama-13にベンチで勝利した
-- μTransfer: 小規模モデルでのハイパラ探索を大規模モデルに転移し学習を効率化する
-	- https://note.com/tatsuyashirakawa/n/n9f5b57ce1aa6?sub_rt=share_b&d=s4cpuSjMMAw
-	- μP（Maxim
+	- https://www.youtube.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjAzODQxNTksLTIxMzg0NDcxMDIsLT
-E3OTE4ODk2NywyMDYyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIx
-MzA1MCwtMTcwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMi
-wtMTM0NzMzOTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4
-NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mz
-cxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIs
-MTM3MTcyNDg4OF19
+eyJoaXN0b3J5IjpbLTUyMjA5OTM2MywtMjEzODQ0NzEwMiwtMT
+c5MTg4OTY3LDIwNjI2NDg4NDUsOTA0MzMyNjQwLC0xMzcwMjEz
+MDUwLC0xNzA5MDU0NTExLC04NzUwOTgyMTgsLTEzMDc4NjEyLC
+0xMzQ3MzM5OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3
+MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNz
+EwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Miwx
+MzcxNzI0ODg4XX0=
 -->
