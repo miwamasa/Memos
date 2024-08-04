@@ -6,7 +6,9 @@
 - ollamaとllama3.1でツールコーリングの例
 	- integrations/llm-frameworks/ollama/Ollama-Weaviate-Agents.ipynb
 -  Masked Attention is All You Need for Graphs
-	- 
+	- https://arxiv.org/abs/2402.10793
+	- The paper proposes Masked Attention for Graphs (MAG), a simple yet effective graph learning approach based solely on attention instead of message passing.
+- 
 
 
 ## 24/7/29　
@@ -3534,12 +3536,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 物理環境に対する AI エージェントの理解度を測定
 - A Square-Root Kalman Filter Using Only QR Decompositions
 	- https://arxiv.org/abs/2208.06452
-	- QR分解でカルマンフィルター？
-	- 正定値行列の和の平方根が平方根のブロック行列のQR分解で計算できることを利用して、数値的安定性の高いカルマンフィルタ（平方根フィルタ）のアルゴリズムをQR分解でシンプルに書けるのか
-- Premise Order Matters in Reasoning with Large Language Models
-	- LLMにプロンプトを与える際、「推論ステッ
+	- QR分解で
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzM5MDExNSwtMTM3MDIxMzA1MCwtMT
+eyJoaXN0b3J5IjpbMjExNTk3MjUxOSwtMTM3MDIxMzA1MCwtMT
 cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
 OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
 wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
