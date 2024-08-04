@@ -62,7 +62,14 @@
 	- https://x.com/MervinPraison/status/1818523644441559399
 	- https://www.youtube.com/@MervinPraison
 - Llama3.1-405BをまさかのM2UltraのMacStudioを2台（192GBと128GB）使って4bit量子化で動かしちゃった人
-	- 
+	- https://x.com/umiyuki_ai/status/1818583975356743772
+-  Small Molecule Optimization with Large Language Models
+	- https://arxiv.org/abs/2407.18897
+	- 言語モデルによる分子最適化の論文。by　横山さん
+	- 遺伝的アルゴリズム、リジェクト・サンプリング、プロンプト最適化を融合したLLMベースのアルゴリズムを提案、様々なタスクでほしい物性を持つ分子を正確に予測できたそうです。
+- HODACHIさんが公開しているLlama-3.1-8B-EZO-1.1-itのggufあります
+	- https://huggingface.co/mmnga/Llama-3.1-8B-EZO-1.1-it-gguf
+- 
 
 ## 24/7/29　
 
@@ -3515,21 +3522,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 -  Command R+ GPTQをローカルLLMとしてvllmでOpenAI API互換サーバ動作させてみた話
 	- https://note.com/junzokamahara/n/n9235af7a6dc1?sub_rt=share_h
 	- vllmもCommand Rに対応しているとのことで、vllmで動かしてみることにしました。なお、動かすのはGPUメモリの関係でGPTQで量子化されたモデル。
-	- 使用するモデルのはHugging FaceにあるGPTQに変換したCommand R+
-		- client = OpenAI(base_url="http://<仮想マシンのIP>:8888/v1")
-		- response = client.chat.completions.create(model='alpindale/c4ai-command-r-plus-GPTQ',
-	- Command R plus GPTQのA100 80GBでの実行例
-		- 18.3 tokens/sと出ている
-- Geminiの新機能「System Instructions」を使ってみる。 
-	- https://x.com/npaka123/status/1777969149651906927
-	- ChatGPTではおなじみな機能だけど、今までGeminiにはシステムメッセージもなかったのでうれしい。
-- 『すずめの戸締ま
+	- 使用するモデルのはHugging FaceにあるGPTQに変換したComm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY4ODY5NjYsOTA0MzMyNjQwLC0xMz
-cwMjEzMDUwLC0xNzA5MDU0NTExLC04NzUwOTgyMTgsLTEzMDc4
-NjEyLC0xMzQ3MzM5OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NC
-wtMzg3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1
-ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMj
-E0MiwxMzcxNzI0ODg4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAs
-LTEyNjA0MDgzMjJdfQ==
+eyJoaXN0b3J5IjpbLTkyODkxMzczLDkwNDMzMjY0MCwtMTM3MD
+IxMzA1MCwtMTcwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYx
+MiwtMTM0NzMzOTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLT
+M4NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3
+MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxND
+IsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0x
+MjYwNDA4MzIyXX0=
 -->
