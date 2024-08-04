@@ -44,7 +44,14 @@
 - Retrieval Augmented Generation or Long-Context LLMs? A Comprehensive Study and Hybrid Approach
 	- https://www.arxiv.org/abs/2407.16833
 	- RAG vs ロングコンテキスト　実は両方を使用するハイブリッド手法が最も効果が高い
-- 
+- Apple Intelligence の基盤モデルのテクニカルレポート　by ぬこぬこさん
+	- https://x.com/schroneko/status/1818316228697763915
+	- モデルとしてはふたつで、デバイス上で推論する 3B のモデル（AFM-on-device）と高性能なサーバー上で動くモデル（AFM-server）を開発（AFM: Apple Foundation Model）。
+	- アーキテクチャは Transformer ベースの dense な decoder-only モデルに GQA、SwiGLU、RoPE などを採用。
+	- 事前学習のデータセットには、ライセンス許可済みの出版社のもの・公開データセット・Applebot によるウェブクロールデータを利用。
+	- AFM-server はフルスクラッチでコア -> 継続事前学習 -> Context Length 拡張の順に学習。AFM-on-device はプルーニング（6.4B to 3B）も蒸留も。事後学習においては Math や Tool Use、Coding などのドメインで合成データを生成し、SFT と RLHF（Apple の MDLOO が使われているよう）でチューニング。
+	- LoRA を用いて特定タスクに動的かつ柔軟にアダプタを切り替え。量子化で平均 4bit 以下に、性能劣化を補う accuracy recovery adapter を導入。
+	- 
 
 ## 24/7/29　
 
@@ -3517,23 +3524,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- This notebook shows how to get started using MLX LLM’s as chat models.
 - Google Colab で RecurrentGemma を試す
 	- https://note.com/npaka/n/n0018d60fb8b7?sub_rt=share_h
-	- 「RecurrentGemma」は、Google で開発された新しいリカレントアーキテクチャに基づいて構築されたオープンモデルです。 事前学習済みモデルと指示チューニングモデルの両方が英語で利用可能です
-	- 新しいアーキテクチャにより、「Gemma」よりも必要なメモリが少なく、長いシーケンスを生成する際に高速な推論を実現します。
-	- 今回は、「**google/recurrentgemma-2b-it**」を使います
-- LightChatAssistant-2x7Bで行われている最適化をOptuneで
-	- https://github.com/Aratako/Task-Vector-Merge-Optimzier
-	- Sdff-Ltba/LightChatAssistant-2x7Bで行われているようなLLMにおけるTask Vectorの加算によるマージにおいて、その加算割合の最適化をOptunaを用いて行うスクリプトです
-- Infini-attention
-	https://x.com/umiyuki_ai/status/1778459568424784194
-	- Googleが出した論文なんだね。で、「この技術のおかげでGemini1.5では100万コンテキストウインドウが可能になったのか！」
-- Safeguarded AI: 
-	- https://www.aria.org.uk/wp-content/uploads/2024/04/ARIA-Safeguarded-AI
+	- 「RecurrentGem
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDU1ODExOSwtMTM3MDIxMzA1MCwtMT
-cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
-OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
-wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
-NzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyND
-g4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIy
-LC0xMTY1ODIxMTM2XX0=
+eyJoaXN0b3J5IjpbLTE0NTIyNzc1MjMsLTEzNzAyMTMwNTAsLT
+E3MDkwNTQ1MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDcz
+Mzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NT
+AsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0x
+MTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3Mj
+Q4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMy
+MiwtMTE2NTgyMTEzNl19
 -->
