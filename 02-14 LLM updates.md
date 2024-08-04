@@ -150,6 +150,12 @@
 	- https://x.com/satori_sz9/status/1819173494565097525
 	- 8/1に登場したGeminiの新モデルがChatGPTを超えた。さらに書籍17冊分の情報が入力できるので高度な分析や大量のデータ処理が捗る。リプ欄にGeminiの分かりやすい使い方のYouTube動画を貼ったから30秒だけでも見てみて。
 - AIで人間の生活・常識・行動様式・価値観は大きく変わる Preferred Networks岡野原氏が話すLLMの最前線
+	- https://x.com/fladdict/status/1819356396581986724
+- My open source Claude Artifacts app using Llama 3.1 405B is dropping in 24 hours!
+	- https://x.com/nutlope/status/1819116840565575856
+	- https://llamacoder.together.ai/
+	- An open source Claude Artifacts app that can generate full React apps and components with Llama 3.1 405B. 100% free and open source.
+- 
 
 ## 24/7/29　
 
@@ -3503,14 +3509,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Leveraging language representation for materials exploration and discovery
 	- https://www.nature.com/articles/s41524-024-01231-8
 	- 言語モデルによる材料探索の論文。
-	- 結晶材料をテキスト表現にし言語モデルにより既存材料に似た新熱電材料を探索
-	- 特に、GPTのようなデコーダ専用モデルより、BERTのようなエンコーダ専用モデルのほうが汎用性が高くMIタスクに向いている、という点が興味深かったで
-- μトランスファーとは by うみゆきさん、
-	- https://x.com/umiyuki_ai/status/1777204816059711692
-	- MiniCPMはミュートランスファーというテクニックが使われてるらしい。これが何か？というと、でかいLLMをトレーニングする時の最適パラメータを探るテクらしい。
-	- でかいLLMを学習する時に、ハイパーパラメータをどう弄れば最強になるのか、イチイチ色々試して最適解を試行錯誤するのはメチャクチャ大変だ。そこで、同じアーキテクチャのちっちゃい版で実験すればサクサクと最適なパラメータを試行錯
+	- 結晶材料をテキスト表現にし言語モデルにより既存材料に似た新
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTUzOTk3MzQsLTIxMzg0NDcxMDIsLT
+eyJoaXN0b3J5IjpbLTE2MjE0MjYyNjksLTIxMzg0NDcxMDIsLT
 E3OTE4ODk2NywyMDYyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIx
 MzA1MCwtMTcwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMi
 wtMTM0NzMzOTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4
