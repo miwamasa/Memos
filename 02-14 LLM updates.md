@@ -15,6 +15,8 @@
 - すでにLLMの知能ではなく、使う人間の能力がボトルネックになっている。
 	- https://x.com/kenn/status/1817941117113073685
 	- これは、AIが「なんでも聞いて、聞かれたら答えるから」という殿様のようなエラそうな態度を取っているからだ。そうではなく、AIのほうから人間にたずねることでポジティブなループの会話が続くようにしなければならない。
+- Llama-3.1-70BをFTして、GPT-4o-miniをElyzaTasksでは超えられたー by ホーダチさん
+	- https://x.com/hokazuya/status/1817874813480022038
 - 
 
 
@@ -3533,15 +3535,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- そのため、LangChainは各LLMのTool Callingを統一的に扱えるインターフェースを準備しており、先日、最後のピースがハマって遂に完成したという話です。
 - LangChain の Tool Calling 標準インタフェース の概要　by npakaさん
 	- https://note.com/npaka/n/ne6fd5929bfa1?sub_rt=share_h
-	- 「Tool Calling」の標準インターフェイスの構成は、次のとおりです。
-		- ChatModel.bind_tools()ツール定義をモデルにアタッチするメソッド
-		- AIMessage.tool_callsモデルが決定したツールの情報を伝えるプロパ
+	- 「Tool Calling」の標
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDM3NTgsLTEzNzAyMTMwNTAsLTE3MD
-kwNTQ1MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDczMzk5
-NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLT
-IyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcx
-NDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4OD
-gsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwt
-MTE2NTgyMTEzNl19
+eyJoaXN0b3J5IjpbMTQ3NDY2MTI1NSwtMTM3MDIxMzA1MCwtMT
+cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
+OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
+wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
+NzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyND
+g4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIy
+LC0xMTY1ODIxMTM2XX0=
 -->
