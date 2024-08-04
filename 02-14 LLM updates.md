@@ -132,6 +132,12 @@
 	- 結果4: 実際、設計された手法でモデル内部状態を調べると、問題を解く前に既に問題解決にはどの要素を順番に解くべきかが求まっていることがわかった 
 	- 結果5: さらにモデルは問題解決には必要のないスキル、具体的には全ペア間の依存関係も求めている。これは事前学習によって将来役に立つかもしれないスキルを身につけている初めての具体的な証拠ともいえる 
 	- 結果6: 一方答えを間違える場合は、問題を読んだ時点で誤った内部状態を持っている
+- googleさんが公開しているgemma-2-2b-itのggufあります
+	- https://huggingface.co/mmnga/gemma-2-2b-it-gguf
+- Google presents ShieldGemma: Generative AI Content Moderation Based on Gemma
+	- https://arxiv.org/abs/2407.21772
+	- Opensources Gemma2-based content moderation models 
+	- Outperform Llama Guard (+10.8% AU-PRC on public benchmarks) and WildCard (+4.3%)
 - 
 
 ## 24/7/29　
@@ -3504,16 +3510,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html
 	- 180カ国サポート、「統一モデル」音声・動画認識、ファイルAPI、System Instructionカスタマイズ機能、 JSONモードなどが加わりました、以下で試せる
 	- https://ai進化的.google.com/app/prompts/new_chat
-- Imagen 2 by DeepMind
-	- https://x.com/GoogleDeepMind/status/1777747320945234422
-	- Imagen 2 can now create short, 4-second live images from a single prompt.
-- GPT-4 Turbo launch
-	- https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4
-	- previewが取れた
-- UNESCOがAI Ethicで人集めしている by　神嶌さん
-	- https://careers.unesco.org/job/Other-cities-Consult
+- I
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDIyOTEwNywtMjEzODQ0NzEwMiwtMT
+eyJoaXN0b3J5IjpbMTA1Mjk1MDgxOCwtMjEzODQ0NzEwMiwtMT
 c5MTg4OTY3LDIwNjI2NDg4NDUsOTA0MzMyNjQwLC0xMzcwMjEz
 MDUwLC0xNzA5MDU0NTExLC04NzUwOTgyMTgsLTEzMDc4NjEyLC
 0xMzQ3MzM5OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3
