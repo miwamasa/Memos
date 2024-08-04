@@ -109,8 +109,14 @@
 	- 昨日リリースのgoogle/gemma-2-2b-itをベースに、日本語性能向上を目的とした継続事前学習を行ったLLMをリリースいたしました。
 	- 2Bモデルながら、元のgemma-2-2bからかなり性能を上げ、Japanese MT Bench/ElyzaTasks100にて、Command R+など、はるかにパラメータ数の多いモデルよりも高いスコアを実現しています。
 - Can LLMs be Fooled? Investigating Vulnerabilities in LLMs
-- マイクロソフトから、LLMの脆弱性の網羅的な調査結果が出た
-	- 
+	- https://arxiv.org/abs/2407.20529
+	- マイクロソフトから、LLMの脆弱性の網羅的な調査結果が出た
+	- 脆弱性の項目の中には、利用側が予め考慮すべき点もある。
+	- 特に、”言い換え攻撃”は注意で、あの手この手の言い換えでセーフガードを回避し、言ってはいけない事を言わせるなどだ。
+- 内閣府が世界経済を分析した資料「AIで変わる労働市場」が神
+	- https://www5.cao.go.jp/j-j/sekai_chouryuu/sh24-01/index-pdf.html
+	- AIに駆逐されたくない人は必見。今後どの職業がなくなり、新たにどんな職業や職能が求められるようになるのかが詳細にまとめられている。リプ欄にリンク置いたから5秒だけでも見てみて。
+- 
 
 ## 24/7/29　
 
@@ -3509,17 +3515,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- Q3_XXSは38GBだけど、ここまでなら精度的にも全然大丈夫ちゃうか？って予感はする。IQ2_XXSなら26.6GBで、ちょっとアホになってそう。IQ1_Sなら21.6GBだけど、さすがに実用性ヤバそう。
 - Perplexity Proに課金してGoogleのGemini UltraやGenerative Experienceと比較してみると、何かとんでもないことが起こっている気がする by 楠さん
 	- https://x.com/masanork/status/1777478951465779344
-- 完全ローカルでRAGも使えるAIチャットアプリOpenWebUIを日本語LLMでセットアップする
-	- https://zenn.dev/firstautomation/articles/0b7a4b1bb2daf0
-- Command R+はちゃんと強かった訳だが、Command RもこれまでのOpen-source最強のQwen1.5-72bに匹敵する訳なのですごい
-	- https://x.com/Meteor_Eternal/status/1777635899204874704
-- Gemini 1.5 Proの新機能 - Native Audio Understanding、System Instructions、JSON Mode、新Embeddingモデル　 by npa
+- 完全ローカルでRAGも使えるAIチャットアプリOpenW
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyNzg1NzcyLC0xNzkxODg5NjcsMjA2Mj
-Y0ODg0NSw5MDQzMzI2NDAsLTEzNzAyMTMwNTAsLTE3MDkwNTQ1
-MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDczMzk5NTYsLT
-I4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3
-NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNT
-c0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0
-NTkxMTIwNzVdfQ==
+eyJoaXN0b3J5IjpbLTIxMzg0NDcxMDIsLTE3OTE4ODk2NywyMD
+YyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIxMzA1MCwtMTcwOTA1
+NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMzOTk1Ni
+wtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3
+MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0Nz
+E1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwt
+MTQ1OTExMjA3NV19
 -->
