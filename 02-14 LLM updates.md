@@ -57,7 +57,11 @@
 	- 70Bの方は、ElyzaTasks100において、GPT-4o-miniと同等(測定時はやや上)で、8Bは元のモデルからかなり上がっています
 - Llama3.1-70B-AWQ が、vLLMで爆速、ヤバシ
 	- https://x.com/AiXsatoshi/status/1818282849440821361
-	- 
+	- Marlin kernelとやら対応で、1.5-2倍速になったらしい
+- Create Synthetic Dataset for Instruction Finetuning by Mervinさん
+	- https://x.com/MervinPraison/status/1818523644441559399
+	- https://www.youtube.com/@MervinPraison
+- 
 
 ## 24/7/29　
 
@@ -3519,17 +3523,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/npaka123/status/1777969149651906927
 	- ChatGPTではおなじみな機能だけど、今までGeminiにはシステムメッセージもなかったのでうれしい。
 - 『すずめの戸締まり』に登場する3本脚の椅子を再現したロボット設計
-	- https://x.com/shin0805__/status/1777992583396131246
-	- 強化学習による歩容生成の論文を公開しました！ 来週アメリカで開催されるRoboSoft2024にて発表します！
-	- https://shin0805.github.io/chair-type-tripedal-robot/
-- mistral-community/Mixtral-8x22B-v0.1
-	- The Mixtral-8x22B Large Language Model 
+	- https://x.com/shin0805__/status/1777992583396
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjQwMDMyMCwtMTM3MDIxMzA1MCwtMT
-cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
-OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
-wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
-NzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyND
-g4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIy
-LC0xMTY1ODIxMTM2XX0=
+eyJoaXN0b3J5IjpbOTA0MzMyNjQwLC0xMzcwMjEzMDUwLC0xNz
+A5MDU0NTExLC04NzUwOTgyMTgsLTEzMDc4NjEyLC0xMzQ3MzM5
+OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3MTk0NDUwLC
+0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMTE3
+MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0OD
+g4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIs
+LTExNjU4MjExMzZdfQ==
 -->
