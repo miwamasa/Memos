@@ -29,6 +29,10 @@
 	- As Apple Intelligence is rolling out to our beta users today, we are proud to present a technical report on our Foundation Language Models that power these features on devices and cloud
 - Open Source project - June - a local voice chatbot powered by ollama , huggingface Transformers, and Coqui TTS Toolkit using local Llama - Looks quite good.
 	- https://x.com/rohanpaul_ai/status/1817706514792013895
+- Apple Intelligence Preview
+	- https://www.apple.com/apple-intelligence/
+-  SAM 2: Segment Anything in Images and Videos
+	- https://github.com/facebookresearch/segment-anything-2
 - 
 
 
@@ -3525,13 +3529,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://group.ntt/jp/newsrelease/2024/04/12/240412b.html
 - Embeddingsを使ってローカルでテキストをクラスタリングする（Multilingual-E5）
 	- https://zenn.dev/libratech/articles/afe9c5b30668bb
-- Mixtral-8x22B、LightblueさんのkarasuチューニングモデルとAWQ
-	- https://huggingface.co/lightblue/Karasu-Mixtral-8x22B-v0.1
-	- 強い！これは間違いなくエース級　 by AIXさとし
-		- https://x.com/AiXsatoshi/status/1778489953279951132
-- Introducing Mistral-
+- Mixtral-8x22B、Lightblueさんのkarasuチューニ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODM4Mzk4MSwtMTM3MDIxMzA1MCwtMT
+eyJoaXN0b3J5IjpbMjA3NTI4MzExMSwtMTM3MDIxMzA1MCwtMT
 cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
 OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
 wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
