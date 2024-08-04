@@ -138,6 +138,12 @@
 	- https://arxiv.org/abs/2407.21772
 	- Opensources Gemma2-based content moderation models 
 	- Outperform Llama Guard (+10.8% AU-PRC on public benchmarks) and WildCard (+4.3%)
+- Gemma Scope: helping the safety community shed light on the inner workings of language models
+	- https://deepmind.google/discover/blog/gemma-scope-helping-the-safety-community-shed-light-on-the-inner-workings-of-language-models/
+	- Enter Gemma Scope: a set of open tools made up of sparse autoencoders to help decode the inner workings of Gemma 2 models, and better address safety issues.
+- gemma 2 27bのggufの更新を行いました！
+	- https://huggingface.co/grapevine-AI/gemma-2-27b-it-gguf
+	- 最新のllama.cppによって細かな挙動が修正され、またモデル本来のコンテキスト長をフル活用できるようになりました！
 - 
 
 ## 24/7/29　
@@ -3502,21 +3508,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/umiyuki_ai/status/1777023943121256637
 	- Komatsuzaki氏の見解によれば、JetMoEのトレーニング効率上がったのは、たしかにMoEアーキテクチャによって２～３倍に効率化したけど、それより何よりMiniCPMに倣った2段階トレーニングの手法のおかげでバキバキに効率化したとの事。
 	- 1万倍の内、MoEの貢献が３倍なら残りの3333倍はMiniCPMトレーニングのおかげなのか
-- The Physics of Language Models
-	- https://arxiv.org/abs/2404.05405
-	- 「言語モデルは、int8 に量子化された場合でも、パラメータごとに 2 ビットの知識しか保存できません。また、そのような知識は、下流のアプリケーション用に柔軟に抽出できます。その結果、7B モデルは 14B ビットの知識を保存でき、これは私たちの推定に基づくと、英語版 Wikipedia と教科書を合わせた量を超えます。」
-	- 回転埋め込みを備えた GPT-2 アーキテクチャは、知識の保存において LLaMA/Mistral アーキテクチャに匹敵するか、それを上回ります。
-- Gemini 1.5 Pro
-	- https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html
-	- 180カ国サポート、「統一モデル」音声・動画認識、ファイルAPI、System Instructionカスタマイズ機能、 JSONモードなどが加わりました、以下で試せる
-	- https://ai進化的.google.com/app/prompts/new_chat
-- I
+- The Physics of Language M
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Mjk1MDgxOCwtMjEzODQ0NzEwMiwtMT
-c5MTg4OTY3LDIwNjI2NDg4NDUsOTA0MzMyNjQwLC0xMzcwMjEz
-MDUwLC0xNzA5MDU0NTExLC04NzUwOTgyMTgsLTEzMDc4NjEyLC
-0xMzQ3MzM5OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3
-MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNz
-EwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Miwx
-MzcxNzI0ODg4XX0=
+eyJoaXN0b3J5IjpbLTIwNzQ3ODY0MjgsLTIxMzg0NDcxMDIsLT
+E3OTE4ODk2NywyMDYyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIx
+MzA1MCwtMTcwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMi
+wtMTM0NzMzOTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4
+NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3Mz
+cxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIs
+MTM3MTcyNDg4OF19
 -->
