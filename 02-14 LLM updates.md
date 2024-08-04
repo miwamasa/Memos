@@ -102,6 +102,10 @@
 	- というかなんらかのプロジェクト、施策がはじまると、まずCursor開いて"[http://yarukoto.md](https://t.co/cnAgwTX7A2)"とか適当にファイルを作成し、そこに、今考えていること、やるべきこと、もやもやしてることをばーっとはきだす。とりあえず書き出す。LLM
 - 【生成AI】AIで人間の生活・常識・行動様式・価値観は大きく変わる　by 岡野原さん
 	- https://logmi.jp/tech/articles/330802
+	- AIはもともとは基本的には比較的単純な労働をサポートするような考え方だったのですが、逆に高い教育水準が必要な仕事をサポートするというのが先に来ています。例えばプログラミングがわかりやすい例で、AIのサポートによってプログラマの生産性が40パーセントとか何十パーセント改善するということが出ています。
+	- こうしたことは確かに脅威なのですが、現実的に考えると、今まで知的労働ではやはりいろいろな制約がありました。例えばある専門的な知識を必要とするタスクを解こうと思ったら、そういった人たちを長年かけて教育する、もしくは自分でも勉強して集めてやらなければいけなかったのが、AIによってツールとして使えるようになると思います。これによって生産総量は劇的に増えます。
+- 【gemma-2-2b 最速日本語追加学習モデル公開のお知らせ】by ホーダチさん
+	- https://huggingface.co/HODACHI/EZO-Common-T2-2B-gemma-2-it
 	- 
 
 ## 24/7/29　
@@ -3510,20 +3514,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Stable LM 2 12B
 	- https://stability.ai/news/introducing-stable-lm-2-12b
 	- Stable LM 2 12B は、英語、スペイン語、ドイツ語、イタリア語、フランス語、ポルトガル語、オランダ語の多言語データでトレーニングされされた、120億パラメータを持つ強力な言語モデルです。 ベースモデルと指示学習済みモデルを備えています。
-- GoogleDocにgeminiが統合される？
-	- https://x.com/GoogleWorkspace/status/1777807449652662508
-- TPU v5p, our most powerful and scalable TPU, is now generally available
-	- https://x.com/GoogleCloudTech/status/1777732890471625162
-- Gemma-1.1 also shows great improvement in terms of reduced hallucinations in the updated HHEM leaderbod
-	- https://x.com/ofermend/status/1777695633455108478
-- LLaMA 3's will start to drop next week.
-	- https://x.com/mattshumer_/status/177
+- GoogleDocにgeminiが統
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1ODkwNzg5LC0xNzkxODg5NjcsMjA2Mj
-Y0ODg0NSw5MDQzMzI2NDAsLTEzNzAyMTMwNTAsLTE3MDkwNTQ1
-MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDczMzk5NTYsLT
-I4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3
-NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNT
-c0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0
-NTkxMTIwNzVdfQ==
+eyJoaXN0b3J5IjpbLTEyMjI4NDY3ODYsLTE3OTE4ODk2NywyMD
+YyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIxMzA1MCwtMTcwOTA1
+NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMzOTk1Ni
+wtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3
+MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0Nz
+E1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwt
+MTQ1OTExMjA3NV19
 -->
