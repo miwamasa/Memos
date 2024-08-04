@@ -76,6 +76,9 @@
 - Congrats　GoogleDeepMind on the Gemma-2-2B release by lmsys.orgｎｎ
 	- https://x.com/lmsysorg/status/1818694982980845685
 	- Gemma-2-2B has been tested in the Arena under "guava-chatbot". With just 2B parameters, it achieves an impressive score 1130 on par with models 10x its size! (For reference: GPT-3.5-Turbo-0613: 1117, Mixtral-8x7b: 1114).
+- Generative AI in Real-World Workplaces
+	- https://www.microsoft.com/en-us/research/uploads/prodnew/2024/07/Generative-AI-in-Real-World-Workplaces.pdf
+	- The new set of Microsoft studies on AI at work really shows getting value from Copilots at the firm level requires thinking about how work is done inside organizations.
 - 
 
 ## 24/7/29　
@@ -3513,17 +3516,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://www.itmedia.co.jp/news/articles/2403/28/news105.html#utm_term=share_sp
 - A Generative Symbolic Music Pretrained Transformer
 	- https://huggingface.co/papers/2404.06393
-	- In this paper, we explore the application of Large Language Models (LLMs) to the pre-training of music. While the prevalent use of MIDI in music modeling is well-established, our findings suggest that LLMs are
-- We just released Mixtral 8x22B. Super excited for this release
-	- https://x.com/sophiamyang/status/1777945947764297845
-- 日本語LLM 9種を量子化して回答内容を比較調査してみた
-	- https://qiita.com/wayama_ryousuke/items/50e36d0dcb37f
+	- In this paper, we explore the application of Large Language Models (LLMs) to the pre-training
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjY0ODg0NSw5MDQzMzI2NDAsLTEzNz
-AyMTMwNTAsLTE3MDkwNTQ1MTEsLTg3NTA5ODIxOCwtMTMwNzg2
-MTIsLTEzNDczMzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC
-0zODcxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4
-NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMT
-QyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwt
-MTI2MDQwODMyMl19
+eyJoaXN0b3J5IjpbLTE3OTE4ODk2NywyMDYyNjQ4ODQ1LDkwND
+MzMjY0MCwtMTM3MDIxMzA1MCwtMTcwOTA1NDUxMSwtODc1MDk4
+MjE4LC0xMzA3ODYxMiwtMTM0NzMzOTk1NiwtMjg0MTA2Mzg5LC
+0yNjA5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1
+MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNT
+Y2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwt
+MTM0MTM3MzgwXX0=
 -->
