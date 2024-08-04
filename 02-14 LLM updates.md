@@ -172,9 +172,14 @@
 - Dark Matter of Neural Network?
 	- https://x.com/rohanpaul_ai/status/1819448650986066199
 	- It's basically saying that current interpretability methods may be scratching the surface of neural network internals, with vast "dark matter" of rare features and complex superposition phenomena still eluding our understanding 
-- Buddha, What makes us human?
+- "Buddha, What makes us human?"
 	- https://x.com/ZainHasan6/status/1819710278340112727
-	- "Selecting All images with trafic lights
+	- "Selecting All images with traffic lights"
+- Gemma2-2BのQ6_K量子化をCPUだけで動かすと、プロンプト処理が100tps、推論が12tpsくらい出る
+	- https://x.com/umiyuki_ai/status/1819822969746862407
+	- つまり普通にチャットするだけならGPU無しでできてしまう速度。まあ16コアCPUでの場合だけど
+- Gemma 2 2B running in a free Google Colab!
+	- https://x.com/reach_vb/status/1819469088890261748
 
 ## 24/7/29　
 
@@ -3498,13 +3503,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 20億パラメータを持つエッジデバイス上で機能するオンデバイスAIモデル「Octopus v2」
 - Google Colab で Octopus V2 を試す by npakaさん、
 	- https://note.com/npaka/n/n706bde979ed8
-	- Gemma-2Bを追加学習したモデルで、学習ステージと推論ステージの両方に独自のFunctionトークン戦略を導入することで、「Function Calling」において「GPT-4」に匹敵する性能を達成したとのことです。
-	- ユースケースとしては、「カレンダーにリマインダー追加」「メッセージ送信」「Youtube検索」の指示などが挙げられています
-- Chat VectorとMath Vectorは併用できるのか by はちさｎ
-	- https://note.com/hatti8/n/n2d6d86d6f05a?sub_rt=share_h
-	- Chat+Math能力の両方を日本語ベースモデルに付与したら、どちらの効果も得られるのか
+	- Gemma-2Bを追加学習したモデルで、学習ステージと推論ステージの両方に独自のFunctionトークン
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Nzg3MDYzNCwtMjEzODQ0NzEwMiwtMT
+eyJoaXN0b3J5IjpbMjA3Njc0MjM3MCwtMjEzODQ0NzEwMiwtMT
 c5MTg4OTY3LDIwNjI2NDg4NDUsOTA0MzMyNjQwLC0xMzcwMjEz
 MDUwLC0xNzA5MDU0NTExLC04NzUwOTgyMTgsLTEzMDc4NjEyLC
 0xMzQ3MzM5OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3
