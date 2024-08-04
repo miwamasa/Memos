@@ -93,6 +93,10 @@
 	- Almost equivalent performance to Claude 3.5 Sonnet.
 - Build a multi-agent AI software engineer using Llama 3.1 running locally on your computer with Ollama (100% free and without internet)
 	- https://github.com/Doriandarko/claude-engineer/tree/main
+- Gemma2-2Bの4bit量子化モデルはiPhone15Proでサクサク生成　 by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1818725963662049366
+- 現状最強のローカルLLMは70Bクラスではなくgemma-2-27b-itだと思ってる。
+	- https://x.com/gosrum/status/1818618749659873562
 - 
 
 ## 24/7/29　
@@ -3515,16 +3519,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://note.com/nyosubro/n/n07afba435ef6
 	- 個人的な感想としては、Whisperレベル（あるいはそれ以上？）の文字起こし品質と論文ではありましたが、確かにそうかも！と言う感じでした。
 	- またWhisperとは異なり、プロンプトレベルで様々な文字起こしタスクに柔軟に対応できる点で、結構面白さを感じてます。
-- Llama.cpp で Command R+ を試す by npakaさん
-	- https://note.com/npaka/n/n9136a2ebc7f9?sub_rt=share_h
-	- M3 Max (128GB)
-	- 「Command R+」は、「RAG」や「Tool」などの長いコンテキストタスク向けに最適化された104BのLLMです。CohereのEmbeddingおよびRerankと連携して動作するように設
+- Llama.cp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyOTM2MjAyLC0xNzkxODg5NjcsMjA2Mj
-Y0ODg0NSw5MDQzMzI2NDAsLTEzNzAyMTMwNTAsLTE3MDkwNTQ1
-MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDczMzk5NTYsLT
-I4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3
-NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNT
-c0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0
-NTkxMTIwNzVdfQ==
+eyJoaXN0b3J5IjpbLTE4NDMzOTc1ODQsLTE3OTE4ODk2NywyMD
+YyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIxMzA1MCwtMTcwOTA1
+NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMzOTk1Ni
+wtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3
+MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0Nz
+E1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwt
+MTQ1OTExMjA3NV19
 -->
