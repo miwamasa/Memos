@@ -3,7 +3,9 @@
 
 ## 24/8/5
 
-出ましたGemma-2 2b、GPT-3.5-Turbo-0613越えって、どういうこと？
+出ましたGemma-2 2b、GPT-3.5-Turbo-0613越えって、どういうこと？量子化耐性も高く、iPhone15Proで
+
+
 
 - ollamaとllama3.1でツールコーリングの例
 	- integrations/llm-frameworks/ollama/Ollama-Weaviate-Agents.ipynb
@@ -3504,10 +3506,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」
 	- 20億パラメータを持つエッジデバイス上で機能するオンデバイスAIモデル「Octopus v2」
 - Google Colab で Octopus V2 を試す by npakaさん、
-	- https://note.com/npaka/n/n706bde979ed8
-	- Gemma-2Bを
+	- https://note.com/npaka/n/n7
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODA5MTExNCwyMDc2NzQyMzcwLC0yMT
+eyJoaXN0b3J5IjpbMjEyNzM0Mzc3MywyMDc2NzQyMzcwLC0yMT
 M4NDQ3MTAyLC0xNzkxODg5NjcsMjA2MjY0ODg0NSw5MDQzMzI2
 NDAsLTEzNzAyMTMwNTAsLTE3MDkwNTQ1MTEsLTg3NTA5ODIxOC
 wtMTMwNzg2MTIsLTEzNDczMzk5NTYsLTI4NDEwNjM4OSwtMjYw
