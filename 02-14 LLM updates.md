@@ -121,6 +121,17 @@
 - We are increasing the rate limits for the new Gemini 1.5 Pro model in Google AI Studio. Keep the feedback coming
 	- https://x.com/GoogleDeepMind/status/1819086666847736276
 	- https://aistudio.google.com/app/prompts/new_chat
+- 【速報】GoogleのAIが性能トップに
+	- https://x.com/ctgptlb/status/1819058918381048243
+	- 本日、Chatbot Arenaに「gemini-1.5-pro-exp-0801」が登場し、GPT-4oを抑えて全体トップに躍り出ました。また、日本語性能、VisionでもNo.1の座を押さえています。さらにこのモデルは200万トークンという驚異的なコンテキスト長を保持。
+-  Physics of Language Models: Part 2.1, Grade-School Math and the Hidden Reasoning Process
+	- https://arxiv.org/abs/2407.20311
+	- Physics of LMの最新版（part 2.1）。小学校レベルの算数をLLMがどのように解いているかを調べるため慎重に設計された学習問題と評価方法を設計。発見した重要な結果↓
+	- 結果2: LLMは学習した時よりも長い問題を扱うことができ、パターン暗記ではなく解く方法を学習し汎化している 
+	- 結果3: モデルはもっとも短い解決法を見つけ、無駄な解き方をしない。これは問題を解きはじめる前に、解く方法の計画が立っていることを示す 
+	- 結果4: 実際、設計された手法でモデル内部状態を調べると、問題を解く前に既に問題解決にはどの要素を順番に解くべきかが求まっていることがわかった 
+	- 結果5: さらにモデルは問題解決には必要のないスキル、具体的には全ペア間の依存関係も求めている。これは事前学習によって将来役に立つかもしれないスキルを身につけている初めての具体的な証拠ともいえる 
+	- 結果6: 一方答えを間違える場合は、問題を読んだ時点で誤った内部状態を持っている
 - 
 
 ## 24/7/29　
@@ -3500,29 +3511,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4
 	- previewが取れた
 - UNESCOがAI Ethicで人集めしている by　神嶌さん
-	- https://careers.unesco.org/job/Other-cities-Consultant/791818302/d
-- Llama.cpp で Command R+ をお試し中 by npakaさん
-	- https://x.com/npaka123/status/1777802956571889969
-	- Q4_K_M・M3 Max (128GB) 5.22 tokens per second
-- mmnga/codegemma-7b-it-gguf
-	- https://huggingface.co/mmnga/codegemma-7b-it-gguf
-	- gemma-1.1-7bとcodegemma-7b-itのgguf
-- 【LangChainゆる勉強会#3】LangChainのAgentはどれを使う？
-	- https://www.youtube.com/watch?v=07TuBmm67sU
-	- LangChainを使ったAgent実装を概説してくださってる勉強会のアーカイブ動画。
-	- 最近はLCELで組んでAgent Excutorに投げる以外の実装しないので、なんか色々あるんだなと勉強になりました
-	- XML Agentとか誰が使うん？って思ってたけど、Claudeと相性良いらしい。へぇ〜！
-- rinna/youri-7b-chat-gptqとintfloat/multilingual-e5-largeでRAGするだけでもcolabよりrtx3060の方がかなり速い
-	- https://x.com/rsimd_/status/1747614320878555175
-	- vramが足りればって話だけど，一応faiss-cpuを使えばメモリ足りてる．
-- Command R+の量子化PPLを計測してくれてる
-	- https://github.com/ggerganov/llama.cpp/pull/6491#
+	- https://careers.unesco.org/job/Other-cities-Consult
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzMzY2Nzc3LC0yMTM4NDQ3MTAyLC0xNz
-kxODg5NjcsMjA2MjY0ODg0NSw5MDQzMzI2NDAsLTEzNzAyMTMw
-NTAsLTE3MDkwNTQ1MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLT
-EzNDczMzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcx
-OTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MT
-A1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEz
-NzE3MjQ4ODhdfQ==
+eyJoaXN0b3J5IjpbMTY4NDIyOTEwNywtMjEzODQ0NzEwMiwtMT
+c5MTg4OTY3LDIwNjI2NDg4NDUsOTA0MzMyNjQwLC0xMzcwMjEz
+MDUwLC0xNzA5MDU0NTExLC04NzUwOTgyMTgsLTEzMDc4NjEyLC
+0xMzQ3MzM5OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3
+MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNz
+EwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Miwx
+MzcxNzI0ODg4XX0=
 -->
