@@ -51,6 +51,12 @@
 	- 事前学習のデータセットには、ライセンス許可済みの出版社のもの・公開データセット・Applebot によるウェブクロールデータを利用。
 	- AFM-server はフルスクラッチでコア -> 継続事前学習 -> Context Length 拡張の順に学習。AFM-on-device はプルーニング（6.4B to 3B）も蒸留も。事後学習においては Math や Tool Use、Coding などのドメインで合成データを生成し、SFT と RLHF（Apple の MDLOO が使われているよう）でチューニング。
 	- LoRA を用いて特定タスクに動的かつ柔軟にアダプタを切り替え。量子化で平均 4bit 以下に、性能劣化を補う accuracy recovery adapter を導入。
+	- 12 カテゴリ 51 サブカテゴリの安全性分類を作成、事前学習時点、事後学習時点、推論時点のそれぞれで評価。社内外で組んだレッドチーミングプロジェクトで脆弱性を検出、改善。
+- llama-3.1ベースで、70Bと、8Bの日本語性能をかなりあげたモデルをリリースしました　by　ホーダチさん
+	- https://x.com/hokazuya/status/1818098307211911324
+	- 70Bの方は、ElyzaTasks100において、GPT-4o-miniと同等(測定時はやや上)で、8Bは元のモデルからかなり上がっています
+- Llama3.1-70B-AWQ が、vLLMで爆速、ヤバシ
+	- https://x.com/AiXsatoshi/status/1818282849440821361
 	- 
 
 ## 24/7/29　
@@ -3517,20 +3523,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 強化学習による歩容生成の論文を公開しました！ 来週アメリカで開催されるRoboSoft2024にて発表します！
 	- https://shin0805.github.io/chair-type-tripedal-robot/
 - mistral-community/Mixtral-8x22B-v0.1
-	- The Mixtral-8x22B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts.
-	- おい、これApache-2.0だぞ！GPT-4クラスが商用利用可能らしい
-- MLX with LangChain
-	- https://python.langchain.com/docs/integrations/chat/mlx/
-	- This notebook shows how to get started using MLX LLM’s as chat models.
-- Google Colab で RecurrentGemma を試す
-	- https://note.com/npaka/n/n0018d60fb8b7?sub_rt=share_h
-	- 「RecurrentGem
+	- The Mixtral-8x22B Large Language Model 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTIyNzc1MjMsLTEzNzAyMTMwNTAsLT
-E3MDkwNTQ1MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDcz
-Mzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NT
-AsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0x
-MTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3Mj
-Q4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMy
-MiwtMTE2NTgyMTEzNl19
+eyJoaXN0b3J5IjpbMTUwMjQwMDMyMCwtMTM3MDIxMzA1MCwtMT
+cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
+OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
+wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
+NzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyND
+g4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIy
+LC0xMTY1ODIxMTM2XX0=
 -->
