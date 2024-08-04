@@ -106,6 +106,10 @@
 	- こうしたことは確かに脅威なのですが、現実的に考えると、今まで知的労働ではやはりいろいろな制約がありました。例えばある専門的な知識を必要とするタスクを解こうと思ったら、そういった人たちを長年かけて教育する、もしくは自分でも勉強して集めてやらなければいけなかったのが、AIによってツールとして使えるようになると思います。これによって生産総量は劇的に増えます。
 - 【gemma-2-2b 最速日本語追加学習モデル公開のお知らせ】by ホーダチさん
 	- https://huggingface.co/HODACHI/EZO-Common-T2-2B-gemma-2-it
+	- 昨日リリースのgoogle/gemma-2-2b-itをベースに、日本語性能向上を目的とした継続事前学習を行ったLLMをリリースいたしました。
+	- 2Bモデルながら、元のgemma-2-2bからかなり性能を上げ、Japanese MT Bench/ElyzaTasks100にて、Command R+など、はるかにパラメータ数の多いモデルよりも高いスコアを実現しています。
+- Can LLMs be Fooled? Investigating Vulnerabilities in LLMs
+- マイクロソフトから、LLMの脆弱性の網羅的な調査結果が出た
 	- 
 
 ## 24/7/29　
@@ -3509,18 +3513,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://zenn.dev/firstautomation/articles/0b7a4b1bb2daf0
 - Command R+はちゃんと強かった訳だが、Command RもこれまでのOpen-source最強のQwen1.5-72bに匹敵する訳なのですごい
 	- https://x.com/Meteor_Eternal/status/1777635899204874704
-- Gemini 1.5 Proの新機能 - Native Audio Understanding、System Instructions、JSON Mode、新Embeddingモデル　 by npakaさん
-	- https://note.com/npaka/n/n0254081ebc23?sub_rt=share_h
-- Stable LM 2 12B
-	- https://stability.ai/news/introducing-stable-lm-2-12b
-	- Stable LM 2 12B は、英語、スペイン語、ドイツ語、イタリア語、フランス語、ポルトガル語、オランダ語の多言語データでトレーニングされされた、120億パラメータを持つ強力な言語モデルです。 ベースモデルと指示学習済みモデルを備えています。
-- GoogleDocにgeminiが統
+- Gemini 1.5 Proの新機能 - Native Audio Understanding、System Instructions、JSON Mode、新Embeddingモデル　 by npa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjI4NDY3ODYsLTE3OTE4ODk2NywyMD
-YyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIxMzA1MCwtMTcwOTA1
-NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMzOTk1Ni
-wtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3
-MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0Nz
-E1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwt
-MTQ1OTExMjA3NV19
+eyJoaXN0b3J5IjpbMjYyNzg1NzcyLC0xNzkxODg5NjcsMjA2Mj
+Y0ODg0NSw5MDQzMzI2NDAsLTEzNzAyMTMwNTAsLTE3MDkwNTQ1
+MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDczMzk5NTYsLT
+I4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3
+NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNT
+c0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0
+NTkxMTIwNzVdfQ==
 -->
