@@ -79,6 +79,13 @@
 - Generative AI in Real-World Workplaces
 	- https://www.microsoft.com/en-us/research/uploads/prodnew/2024/07/Generative-AI-in-Real-World-Workplaces.pdf
 	- The new set of Microsoft studies on AI at work really shows getting value from Copilots at the firm level requires thinking about how work is done inside organizations.
+- My analysis+updates for Gemma-2 2b
+	- https://x.com/danielhanchen/status/1818706474404921580
+	- 1. 2T tokens distilled from an unnamed model?! 
+	- 2. Flash Attention has softcapping support! O(N) memory instead of O(N^2) for bf16 
+	- 3. Reminder - edit head_dim to 256 from 224 
+	- 4. Distillation +7% acc in ablations 
+	- 5. Scope + Shield
 - 
 
 ## 24/7/29　
@@ -3511,18 +3518,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		-   [intfloat/multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large)
 		-   [elyza/ELYZA-japanese-Llama-2-13b-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b-instruct)
 - Command R plus推論速度、知見まとめ by AIXさとし
-	- https://x.com/AiXsatoshi/status/1777867323552190876
-- Amazon、「Claude 3」のAnthropicに27億5000万ドルの追加投資
-	- https://www.itmedia.co.jp/news/articles/2403/28/news105.html#utm_term=share_sp
-- A Generative Symbolic Music Pretrained Transformer
-	- https://huggingface.co/papers/2404.06393
-	- In this paper, we explore the application of Large Language Models (LLMs) to the pre-training
+	- https://x.com/AiXsatoshi/statu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTE4ODk2NywyMDYyNjQ4ODQ1LDkwND
-MzMjY0MCwtMTM3MDIxMzA1MCwtMTcwOTA1NDUxMSwtODc1MDk4
-MjE4LC0xMzA3ODYxMiwtMTM0NzMzOTk1NiwtMjg0MTA2Mzg5LC
-0yNjA5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1
-MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNT
-Y2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwt
-MTM0MTM3MzgwXX0=
+eyJoaXN0b3J5IjpbLTEwNjc2MDI3OTUsLTE3OTE4ODk2NywyMD
+YyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIxMzA1MCwtMTcwOTA1
+NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMzOTk1Ni
+wtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3
+MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0Nz
+E1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwt
+MTQ1OTExMjA3NV19
 -->
