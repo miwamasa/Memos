@@ -97,7 +97,12 @@
 	- https://x.com/umiyuki_ai/status/1818725963662049366
 - 現状最強のローカルLLMは70Bクラスではなくgemma-2-27b-itだと思ってる。
 	- https://x.com/gosrum/status/1818618749659873562
-- 
+- 最近は本当に全てのPM系のドキュメントは全部Cursorで書いてる。
+	- https://x.com/miyatti/status/1818837531758411794
+	- というかなんらかのプロジェクト、施策がはじまると、まずCursor開いて"[http://yarukoto.md](https://t.co/cnAgwTX7A2)"とか適当にファイルを作成し、そこに、今考えていること、やるべきこと、もやもやしてることをばーっとはきだす。とりあえず書き出す。LLM
+- 【生成AI】AIで人間の生活・常識・行動様式・価値観は大きく変わる　by 岡野原さん
+	- https://logmi.jp/tech/articles/330802
+	- 
 
 ## 24/7/29　
 
@@ -3512,20 +3517,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Gemma-1.1 also shows great improvement in terms of reduced hallucinations in the updated HHEM leaderbod
 	- https://x.com/ofermend/status/1777695633455108478
 - LLaMA 3's will start to drop next week.
-	- https://x.com/mattshumer_/status/1777465835834970189
-- Ride with GeminiというLLM＋RCカーのデモ
-	- https://x.com/kazunori_279/status/1777846216950456658
--  Gemini 1.5 Proで文字起こしを試してみた
-	- https://note.com/nyosubro/n/n07afba435ef6
-	- 個人的な感想としては、Whisperレベル（あるいはそれ以上？）の文字起こし品質と論文ではありましたが、確かにそうかも！と言う感じでした。
-	- またWhisperとは異なり、プロンプトレベルで様々な文字起こしタスクに柔軟に対応できる点で、結構面白さを感じてます。
-- Llama.cp
+	- https://x.com/mattshumer_/status/177
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDMzOTc1ODQsLTE3OTE4ODk2NywyMD
-YyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIxMzA1MCwtMTcwOTA1
-NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMzOTk1Ni
-wtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3
-MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0Nz
-E1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwt
-MTQ1OTExMjA3NV19
+eyJoaXN0b3J5IjpbNDM1ODkwNzg5LC0xNzkxODg5NjcsMjA2Mj
+Y0ODg0NSw5MDQzMzI2NDAsLTEzNzAyMTMwNTAsLTE3MDkwNTQ1
+MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDczMzk5NTYsLT
+I4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3
+NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNT
+c0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0
+NTkxMTIwNzVdfQ==
 -->
