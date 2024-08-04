@@ -69,7 +69,12 @@
 	- 遺伝的アルゴリズム、リジェクト・サンプリング、プロンプト最適化を融合したLLMベースのアルゴリズムを提案、様々なタスクでほしい物性を持つ分子を正確に予測できたそうです。
 - HODACHIさんが公開しているLlama-3.1-8B-EZO-1.1-itのggufあります
 	- https://huggingface.co/mmnga/Llama-3.1-8B-EZO-1.1-it-gguf
-- 
+- We’re welcoming a new 2 billion parameter model to the Gemma 2 family.
+	- https://x.com/GoogleDeepMind/status/1818681376323096994
+	- 
+- Congrats　GoogleDeepMind on the Gemma-2-2B release by lmsys.orgｎｎ
+	- https://x.com/lmsysorg/status/1818694982980845685
+	- Gemma-2-2B has been tested in the Arena under "guava-chatbot". With just 2B parameters, it achieves an impressive score 1130 on par with models 10x its size! (For reference: GPT-3.5-Turbo-0613: 1117, Mixtral-8x7b: 1114).
 
 ## 24/7/29　
 
@@ -3516,19 +3521,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 量子化によって回答が短くなる度合いは、量子化前モデルの回答の長さと相関がある可能性がある
 	- 個別：
 		- **ELYZA-japanese-Llama-2-7B**は、量子化後もほぼ同等の性能を維持し、0.10点のスコア低下に留まりました。
-		-  **Swallow-7B**では、量子化前後で成績に変化はなかった一方、**Swallow-13B**では平均スコアが 0.28 点低下しました。
-		- **CALM2**  や  **StableLM-Beta**  は、量子化後のスコアが高い結果（それぞれ 0.28 点/ 0.21 点向上）となりました。
-		-   **Xwin**  モデル同士を比較すると、**Xwin 7B**は0.36点の低下を示している一方、**Xwin 13B**では0.11点の向上が見られ、同じモデルファミリー内でも異なる振る舞いが確認されました。
--  Command R+ GPTQをローカルLLMとしてvllmでOpenAI API互換サーバ動作させてみた話
-	- https://note.com/junzokamahara/n/n9235af7a6dc1?sub_rt=share_h
-	- vllmもCommand Rに対応しているとのことで、vllmで動かしてみることにしました。なお、動かすのはGPUメモリの関係でGPTQで量子化されたモデル。
-	- 使用するモデルのはHugging FaceにあるGPTQに変換したComm
+		-  **Swallow-7B**では、量子化前後で成績に変化はなかった一方、**Swa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODkxMzczLDkwNDMzMjY0MCwtMTM3MD
-IxMzA1MCwtMTcwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYx
-MiwtMTM0NzMzOTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLT
-M4NzE5NDQ1MCwtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3
-MzcxMDUsLTExNzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxND
-IsMTM3MTcyNDg4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0x
-MjYwNDA4MzIyXX0=
+eyJoaXN0b3J5IjpbLTk2NDczMzM0MCw5MDQzMzI2NDAsLTEzNz
+AyMTMwNTAsLTE3MDkwNTQ1MTEsLTg3NTA5ODIxOCwtMTMwNzg2
+MTIsLTEzNDczMzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC
+0zODcxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4
+NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMT
+QyLDEzNzE3MjQ4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwt
+MTI2MDQwODMyMl19
 -->
