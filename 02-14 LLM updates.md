@@ -144,7 +144,12 @@
 - gemma 2 27bのggufの更新を行いました！
 	- https://huggingface.co/grapevine-AI/gemma-2-27b-it-gguf
 	- 最新のllama.cppによって細かな挙動が修正され、またモデル本来のコンテキスト長をフル活用できるようになりました！
-- 
+- 無料でも使える便利な生成AIサービス
+	- https://zenn.dev/karaage0703/articles/256c79babaf28d
+- ChatGPTの性能に満足できてない人は全員GoogleのGeminiを使った方が良い。
+	- https://x.com/satori_sz9/status/1819173494565097525
+	- 8/1に登場したGeminiの新モデルがChatGPTを超えた。さらに書籍17冊分の情報が入力できるので高度な分析や大量のデータ処理が捗る。リプ欄にGeminiの分かりやすい使い方のYouTube動画を貼ったから30秒だけでも見てみて。
+- AIで人間の生活・常識・行動様式・価値観は大きく変わる Preferred Networks岡野原氏が話すLLMの最前線
 
 ## 24/7/29　
 
@@ -3503,14 +3508,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - μトランスファーとは by うみゆきさん、
 	- https://x.com/umiyuki_ai/status/1777204816059711692
 	- MiniCPMはミュートランスファーというテクニックが使われてるらしい。これが何か？というと、でかいLLMをトレーニングする時の最適パラメータを探るテクらしい。
-	- でかいLLMを学習する時に、ハイパーパラメータをどう弄れば最強になるのか、イチイチ色々試して最適解を試行錯誤するのはメチャクチャ大変だ。そこで、同じアーキテクチャのちっちゃい版で実験すればサクサクと最適なパラメータを試行錯誤できる。で、ちっちゃいモデルで見つけた最強パラメータが、でかいLLMにそんままコピペしてもちゃんと最強になる事が判明したらしい！
-- JetMoEのトレーニング効率上がったのは　 by うみゆきさん、
-	- https://x.com/umiyuki_ai/status/1777023943121256637
-	- Komatsuzaki氏の見解によれば、JetMoEのトレーニング効率上がったのは、たしかにMoEアーキテクチャによって２～３倍に効率化したけど、それより何よりMiniCPMに倣った2段階トレーニングの手法のおかげでバキバキに効率化したとの事。
-	- 1万倍の内、MoEの貢献が３倍なら残りの3333倍はMiniCPMトレーニングのおかげなのか
-- The Physics of Language M
+	- でかいLLMを学習する時に、ハイパーパラメータをどう弄れば最強になるのか、イチイチ色々試して最適解を試行錯誤するのはメチャクチャ大変だ。そこで、同じアーキテクチャのちっちゃい版で実験すればサクサクと最適なパラメータを試行錯
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ3ODY0MjgsLTIxMzg0NDcxMDIsLT
+eyJoaXN0b3J5IjpbLTEwMTUzOTk3MzQsLTIxMzg0NDcxMDIsLT
 E3OTE4ODk2NywyMDYyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIx
 MzA1MCwtMTcwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMi
 wtMTM0NzMzOTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4
