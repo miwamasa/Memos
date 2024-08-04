@@ -22,6 +22,10 @@
 	- Half a year ago, we started studying how response formats impact AI. We found that just changing the format boosts both readability and mathematical reasoning.
 - 『問いが世界をつくりだす』
 	- https://x.com/t_interrogatif/status/1817857429293633580
+	- 東京大学に提出した博論をベースにした単著『問いが世界をつくりだす』が8月27日に青土社さんから発売します。
+	- メルロ=ポンティの認識論・行為論・存在論的な議論はそれぞれ「曖昧なスタイルで存在する世界」との関わり方の表現として理解できる、と書かれている気がします
+-  Apple Intelligence Foundation Language Models
+	- https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models
 	- 
 
 
@@ -3529,19 +3533,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- mixtralのexpertsをマージしてmistralにしたやつ
 - Vezoraさんが公開されているMistral-22B-v0.1のggufあります
 	- https://huggingface.co/mmnga/Vezora-Mistral-22B-v0.1-gguf
-- Swallowシリーズのinstruct改良版ですが、本当は2023年度中を目指していたのですが、もろもろ多忙で遅れてしまっています。
-	- https://x.com/okoge_kaz/status/1778396705156943985
-- mixtral 8x22bを軽くloraでファインチューニングしたら、少し、会話しやすくなりました
-	- https://x.com/kanhatakeyama/status/1778417221100028061
-	- 現状､mixtral 8x22bは事前学習のみのモデルですが､わりと会話できそうです｡
--  Tool Calling with LangChain
-	- https://blog.langchain.dev/too
+- Swallowシリーズのinstruct改良版ですが、本当は2023年度中を目指していたのですが、もろもろ多忙で遅れてしまっています
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2OTA5Nzk4LC0xMzcwMjEzMDUwLC0xNz
-A5MDU0NTExLC04NzUwOTgyMTgsLTEzMDc4NjEyLC0xMzQ3MzM5
-OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3MTk0NDUwLC
-0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMTE3
-MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0OD
-g4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIs
-LTExNjU4MjExMzZdfQ==
+eyJoaXN0b3J5IjpbMTg3NTYyNzk0MywtMTM3MDIxMzA1MCwtMT
+cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
+OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
+wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
+NzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyND
+g4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIy
+LC0xMTY1ODIxMTM2XX0=
 -->
