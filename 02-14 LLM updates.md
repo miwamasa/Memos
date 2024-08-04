@@ -12,6 +12,9 @@
 	- https://x.com/gijigae/status/1817858766077063652
 - GraphRAG in LlamaIndex!
 	- https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/cookbooks/GraphRAG_v1.ipynb
+- すでにLLMの知能ではなく、使う人間の能力がボトルネックになっている。
+	- https://x.com/kenn/status/1817941117113073685
+	- これは、AIが「なんでも聞いて、聞かれたら答えるから」という殿様のようなエラそうな態度を取っているからだ。そうではなく、AIのほうから人間にたずねることでポジティブなループの会話が続くようにしなければならない。
 - 
 
 
@@ -3532,16 +3535,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://note.com/npaka/n/ne6fd5929bfa1?sub_rt=share_h
 	- 「Tool Calling」の標準インターフェイスの構成は、次のとおりです。
 		- ChatModel.bind_tools()ツール定義をモデルにアタッチするメソッド
-		- AIMessage.tool_callsモデルが決定したツールの情報を伝えるプロパティ
-		- create_tool_calling_agent()Tool Callingを利用するエージェントのコンストラクタ
-- OpenEQA (オープン語彙の具体化された質問応答ベンチマーク)
-	- https://ai.meta.com/blog/openeqa-embodied-question-answering-robotics-ar-glasses/?utm_sourc
+		- AIMessage.tool_callsモデルが決定したツールの情報を伝えるプロパ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg5NTc4NjMsLTEzNzAyMTMwNTAsLT
-E3MDkwNTQ1MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDcz
-Mzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NT
-AsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0x
-MTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3Mj
-Q4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMy
-MiwtMTE2NTgyMTEzNl19
+eyJoaXN0b3J5IjpbMTYxMDM3NTgsLTEzNzAyMTMwNTAsLTE3MD
+kwNTQ1MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDczMzk5
+NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLT
+IyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcx
+NDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4OD
+gsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMyMiwt
+MTE2NTgyMTEzNl19
 -->
