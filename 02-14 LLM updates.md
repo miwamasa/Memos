@@ -26,7 +26,10 @@
 	- メルロ=ポンティの認識論・行為論・存在論的な議論はそれぞれ「曖昧なスタイルで存在する世界」との関わり方の表現として理解できる、と書かれている気がします
 -  Apple Intelligence Foundation Language Models
 	- https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models
-	- 
+	- As Apple Intelligence is rolling out to our beta users today, we are proud to present a technical report on our Foundation Language Models that power these features on devices and cloud
+- Open Source project - June - a local voice chatbot powered by ollama , huggingface Transformers, and Coqui TTS Toolkit using local Llama - Looks quite good.
+	- https://x.com/rohanpaul_ai/status/1817706514792013895
+- 
 
 
 ## 24/7/29　
@@ -3526,16 +3529,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://huggingface.co/lightblue/Karasu-Mixtral-8x22B-v0.1
 	- 強い！これは間違いなくエース級　 by AIXさとし
 		- https://x.com/AiXsatoshi/status/1778489953279951132
-- Introducing Mistral-22b-V.01 A breakthrough in AI
-	- https://huggingface.co/Vezora/Mistral-22B-v0.1
-	- First-ever MOE to Dense model conversion
-	- This model is not an moe, it is infact a 22B parameter dense model!
-	- mixtralのexpertsをマージしてmistralにしたやつ
-- Vezoraさんが公開されているMistral-22B-v0.1のggufあります
-	- https://huggingface.co/mmnga/Vezora-Mistral-22B-v0.1-gguf
-- Swallowシリーズのinstruct改良版ですが、本当は2023年度中を目指していたのですが、もろもろ多忙で遅れてしまっています
+- Introducing Mistral-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTYyNzk0MywtMTM3MDIxMzA1MCwtMT
+eyJoaXN0b3J5IjpbLTYwODM4Mzk4MSwtMTM3MDIxMzA1MCwtMT
 cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
 OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
 wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
