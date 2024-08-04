@@ -3,6 +3,8 @@
 
 ## 24/8/5
 
+Gemma-2 2b
+
 - ollamaとllama3.1でツールコーリングの例
 	- integrations/llm-frameworks/ollama/Ollama-Weaviate-Agents.ipynb
 -  Masked Attention is All You Need for Graphs
@@ -3503,13 +3505,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 20億パラメータを持つエッジデバイス上で機能するオンデバイスAIモデル「Octopus v2」
 - Google Colab で Octopus V2 を試す by npakaさん、
 	- https://note.com/npaka/n/n706bde979ed8
-	- Gemma-2Bを追加学習したモデルで、学習ステージと推論ステージの両方に独自のFunctionトークン
+	- Gemma-2Bを追加学習したモデルで、学習ステージと推論ステージの両方に独自のFunc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Njc0MjM3MCwtMjEzODQ0NzEwMiwtMT
-c5MTg4OTY3LDIwNjI2NDg4NDUsOTA0MzMyNjQwLC0xMzcwMjEz
-MDUwLC0xNzA5MDU0NTExLC04NzUwOTgyMTgsLTEzMDc4NjEyLC
-0xMzQ3MzM5OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3
-MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNz
-EwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0Miwx
-MzcxNzI0ODg4XX0=
+eyJoaXN0b3J5IjpbNjM3NjEzNzAsMjA3Njc0MjM3MCwtMjEzOD
+Q0NzEwMiwtMTc5MTg4OTY3LDIwNjI2NDg4NDUsOTA0MzMyNjQw
+LC0xMzcwMjEzMDUwLC0xNzA5MDU0NTExLC04NzUwOTgyMTgsLT
+EzMDc4NjEyLC0xMzQ3MzM5OTU2LC0yODQxMDYzODksLTI2MDky
+MjU4NCwtMzg3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4Nj
+MsMTY1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5
+MDAxMjE0Ml19
 -->
