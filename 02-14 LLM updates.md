@@ -40,7 +40,11 @@
 - Beautiful visual guide to quantization
 	- https://x.com/omarsar0/status/1818326822938931613
 	- which is becoming a super important technique for compressing LLMs.
-	- 
+	- This is such a fun guide with lots of visuals to build intuition about quantization. Highly recommended!
+- Retrieval Augmented Generation or Long-Context LLMs? A Comprehensive Study and Hybrid Approach
+	- https://www.arxiv.org/abs/2407.16833
+	- RAG vs ロングコンテキスト　実は両方を使用するハイブリッド手法が最も効果が高い
+- 
 
 ## 24/7/29　
 
@@ -3523,13 +3527,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	https://x.com/umiyuki_ai/status/1778459568424784194
 	- Googleが出した論文なんだね。で、「この技術のおかげでGemini1.5では100万コンテキストウインドウが可能になったのか！」
 - Safeguarded AI: 
-	- https://www.aria.org.uk/wp-content/uploads/2024/04/ARIA-Safeguarded-AI-TA1.1-Theory-Call-for-proposals.pdf
-	- ARIAのDavidad氏の安全保証付きAIの研究プログラムの全貌が見えてきた。彼が何をしようとしているのか、それにどれほどのfeasiblityがあるのか、誰かに解説してほしい。形式証明とか、ソフトウェア工学、計算機理論のバックグランドが必要そう。
-	- 今回の公募では土台となるセマンティクス、「言語」づくりを目指すとのことで、その方法論として圏論が名指しされています
-- Mixtral8x22チューニング版
-	- HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1
+	- https://www.aria.org.uk/wp-content/uploads/2024/04/ARIA-Safeguarded-AI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTU4NTIwNiwtMTM3MDIxMzA1MCwtMT
+eyJoaXN0b3J5IjpbMTM4MDU1ODExOSwtMTM3MDIxMzA1MCwtMT
 cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
 OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
 wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
