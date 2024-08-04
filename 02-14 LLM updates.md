@@ -157,6 +157,11 @@
 	- An open source Claude Artifacts app that can generate full React apps and components with Llama 3.1 405B. 100% free and open source.
 - ノームシェザー氏が出戻りするくらい最近のGoogleのLLMの勢いがえげつないという事。 by うみゆきさん
 	- https://x.com/umiyuki_ai/status/1819572029139624027
+	- まずGemini1.5Proはチャットボットアリーナ全一で事実上の王者。（クローズモデルでAnthropic、OpenAIに勝利。
+	- コンテキスト長も他社を圧倒）オープンモデルでもGemma2がメチャクチャすごい（Gemma2-9BはLlama3.1-8Bを圧倒。オープンモデルでメタに勝利）し、Gemini1.5FlashはもうすぐAPI価格が8割引きになってGPT-4ominiの半額とかになるらしい（低コストAPIでOpenAIに勝利）という全方位勝利
+-  Google Colab で FLUX.1 を試す by npakaさん
+	- https://note.com/npaka/n/na511bcd91cb9?sub_rt=share_h
+	- 「FLUX.1」は、「Stable Diffusion」の開発者たちが立ち上げた「Black Forest Labs」が発表した最新の画像生成AIモデルです。
 	- 
 
 ## 24/7/29　
@@ -3505,12 +3510,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 活性化パラ数は2.2Bで、合計パラ数は8Bだって。何だか知らんけどこのアーキテクチャによってトレーニング効率が爆上がって、H100が96台で２週間、1200万円しかトレーニング費用かけてないのに、数千億かけたはずのLlama-7BやLlama-13にベンチで勝利した
 - μTransfer: 小規模モデルでのハイパラ探索を大規模モデルに転移し学習を効率化する
 	- https://note.com/tatsuyashirakawa/n/n9f5b57ce1aa6?sub_rt=share_b&d=s4cpuSjMMAw
-	- μP（Maximal Update Parametrization）というのは、 Tensor Programs (TP)というフレームワークにおいて理論的に導出されたパラメータ付け（パラメータのスケーリングなど）の方法です
-	- TP は、 Neural Networks （NN）の解析をするために、線形変換や非線形活性化関数などの NN の構築で頻出する操作をリストアップし、その枠組みで成立する事象や性質を追求するフレームワークです。
-	- https://www.microsoft.com/en-us/research/blog/%C2%B5transfer-a-technique-for-hyperparameter-tuning-of-enormous-neural-networks/
-- Leveraging language representation for materials exploration and dis
+	- μP（Maxim
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTgxOTMwNzUsLTIxMzg0NDcxMDIsLT
+eyJoaXN0b3J5IjpbLTE4NjAzODQxNTksLTIxMzg0NDcxMDIsLT
 E3OTE4ODk2NywyMDYyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIx
 MzA1MCwtMTcwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMi
 wtMTM0NzMzOTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4
