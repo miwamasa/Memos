@@ -8,6 +8,10 @@
 -  Masked Attention is All You Need for Graphs
 	- https://arxiv.org/abs/2402.10793
 	- The paper proposes Masked Attention for Graphs (MAG), a simple yet effective graph learning approach based solely on attention instead of message passing.
+- 1000個のデータに対し、ファインチューニング（FT）で消費したトークン数は150万、かかった時間は30分
+	- https://x.com/gijigae/status/1817858766077063652
+- GraphRAG in LlamaIndex!
+	- https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/cookbooks/GraphRAG_v1.ipynb
 - 
 
 
@@ -3531,18 +3535,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 		- AIMessage.tool_callsモデルが決定したツールの情報を伝えるプロパティ
 		- create_tool_calling_agent()Tool Callingを利用するエージェントのコンストラクタ
 - OpenEQA (オープン語彙の具体化された質問応答ベンチマーク)
-	- https://ai.meta.com/blog/openeqa-embodied-question-answering-robotics-ar-glasses/?utm_source=twitter&utm_medium=organic_social&utm_content=video&utm_campaign=dataset
-	- バッジをどこに置いたか?」などのオープン語彙の質問
-	- 物理環境に対する AI エージェントの理解度を測定
-- A Square-Root Kalman Filter Using Only QR Decompositions
-	- https://arxiv.org/abs/2208.06452
-	- QR分解で
+	- https://ai.meta.com/blog/openeqa-embodied-question-answering-robotics-ar-glasses/?utm_sourc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTk3MjUxOSwtMTM3MDIxMzA1MCwtMT
-cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
-OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
-wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
-NzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyND
-g4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIy
-LC0xMTY1ODIxMTM2XX0=
+eyJoaXN0b3J5IjpbLTE4Njg5NTc4NjMsLTEzNzAyMTMwNTAsLT
+E3MDkwNTQ1MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDcz
+Mzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NT
+AsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0x
+MTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3Mj
+Q4ODgsLTE0NTkxMTIwNzUsLTEzNDEzNzM4MCwtMTI2MDQwODMy
+MiwtMTE2NTgyMTEzNl19
 -->
