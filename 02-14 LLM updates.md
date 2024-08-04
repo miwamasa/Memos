@@ -17,7 +17,12 @@
 	- これは、AIが「なんでも聞いて、聞かれたら答えるから」という殿様のようなエラそうな態度を取っているからだ。そうではなく、AIのほうから人間にたずねることでポジティブなループの会話が続くようにしなければならない。
 - Llama-3.1-70BをFTして、GPT-4o-miniをElyzaTasksでは超えられたー by ホーダチさん
 	- https://x.com/hokazuya/status/1817874813480022038
-- 
+- Why does GPT-4o Mini Outperform Claude 3.5 Sonnet on LMSys? Formatting is important.
+	- https://x.com/Vfrz525_/status/1817813081554288650
+	- Half a year ago, we started studying how response formats impact AI. We found that just changing the format boosts both readability and mathematical reasoning.
+- 『問いが世界をつくりだす』
+	- https://x.com/t_interrogatif/status/1817857429293633580
+	- 
 
 
 ## 24/7/29　
@@ -3530,18 +3535,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/kanhatakeyama/status/1778417221100028061
 	- 現状､mixtral 8x22bは事前学習のみのモデルですが､わりと会話できそうです｡
 -  Tool Calling with LangChain
-	- https://blog.langchain.dev/tool-calling-with-langchain/
-	- 最近はChatGPT以外にも Function Calling (最近は Tool Calling と呼ばれることが多い) に対応するLLMが増えてきました。選択肢が増えて便利ではあるものの、各社で少しづつインターフェースが違うので実装が面倒という課題がありました。
-	- そのため、LangChainは各LLMのTool Callingを統一的に扱えるインターフェースを準備しており、先日、最後のピースがハマって遂に完成したという話です。
-- LangChain の Tool Calling 標準インタフェース の概要　by npakaさん
-	- https://note.com/npaka/n/ne6fd5929bfa1?sub_rt=share_h
-	- 「Tool Calling」の標
+	- https://blog.langchain.dev/too
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDY2MTI1NSwtMTM3MDIxMzA1MCwtMT
-cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
-OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
-wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
-NzE0NzE1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyND
-g4OCwtMTQ1OTExMjA3NSwtMTM0MTM3MzgwLC0xMjYwNDA4MzIy
-LC0xMTY1ODIxMTM2XX0=
+eyJoaXN0b3J5IjpbMjk2OTA5Nzk4LC0xMzcwMjEzMDUwLC0xNz
+A5MDU0NTExLC04NzUwOTgyMTgsLTEzMDc4NjEyLC0xMzQ3MzM5
+OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3MTk0NDUwLC
+0yMjcwNzc2MTgsLTE3OTUxMDI4NjMsMTY1ODczNzEwNSwtMTE3
+MTQ3MTU3NCwxMDQwMjA1NjY3LDI5MDAxMjE0MiwxMzcxNzI0OD
+g4LC0xNDU5MTEyMDc1LC0xMzQxMzczODAsLTEyNjA0MDgzMjIs
+LTExNjU4MjExMzZdfQ==
 -->
