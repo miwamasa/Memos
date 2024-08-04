@@ -86,6 +86,8 @@
 	- 3. Reminder - edit head_dim to 256 from 224 
 	- 4. Distillation +7% acc in ablations 
 	- 5. Scope + Shield
+- 最近作ったのこれしかない by 米利菓さん
+	- https://x.com/torako778/status/1818506335883079981
 - 
 
 ## 24/7/29　
@@ -3516,15 +3518,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://github.com/lawofcycles/wikipedia-japanese-open-rag/tree/master
 	- 使ったもの
 		-   [intfloat/multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large)
-		-   [elyza/ELYZA-japanese-Llama-2-13b-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b-instruct)
-- Command R plus推論速度、知見まとめ by AIXさとし
-	- https://x.com/AiXsatoshi/statu
+		-   [elyza/ELYZA-japanese-Llama-2-13b-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b-in
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc2MDI3OTUsLTE3OTE4ODk2NywyMD
-YyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIxMzA1MCwtMTcwOTA1
-NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMzOTk1Ni
-wtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3
-MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0Nz
-E1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwt
-MTQ1OTExMjA3NV19
+eyJoaXN0b3J5IjpbNjk4OTgwMTQwLC0xNzkxODg5NjcsMjA2Mj
+Y0ODg0NSw5MDQzMzI2NDAsLTEzNzAyMTMwNTAsLTE3MDkwNTQ1
+MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDczMzk5NTYsLT
+I4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3
+NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MTA1LC0xMTcxNDcxNT
+c0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEzNzE3MjQ4ODgsLTE0
+NTkxMTIwNzVdfQ==
 -->
