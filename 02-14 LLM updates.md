@@ -71,10 +71,12 @@
 	- https://huggingface.co/mmnga/Llama-3.1-8B-EZO-1.1-it-gguf
 - We’re welcoming a new 2 billion parameter model to the Gemma 2 family.
 	- https://x.com/GoogleDeepMind/status/1818681376323096994
-	- 
+	- We’re also introducing **ShieldGemma**: a series of state-of-the-art safety classifiers designed to filter harmful content.
+	- Finally, we’re announcing **Gemma Scope**, a set of tools to help researchers examine how Gemma 2 makes decisions.
 - Congrats　GoogleDeepMind on the Gemma-2-2B release by lmsys.orgｎｎ
 	- https://x.com/lmsysorg/status/1818694982980845685
 	- Gemma-2-2B has been tested in the Arena under "guava-chatbot". With just 2B parameters, it achieves an impressive score 1130 on par with models 10x its size! (For reference: GPT-3.5-Turbo-0613: 1117, Mixtral-8x7b: 1114).
+- 
 
 ## 24/7/29　
 
@@ -3515,15 +3517,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - We just released Mixtral 8x22B. Super excited for this release
 	- https://x.com/sophiamyang/status/1777945947764297845
 - 日本語LLM 9種を量子化して回答内容を比較調査してみた
-	- https://qiita.com/wayama_ryousuke/items/50e36d0dcb37f8fb7dd8
-	- 量子化しても成績が下がりにくいモデルと、大きく下がるモデルがある
-	- 一部のモデルは量子化すると回答が極端に短くなる
-	- 量子化によって回答が短くなる度合いは、量子化前モデルの回答の長さと相関がある可能性がある
-	- 個別：
-		- **ELYZA-japanese-Llama-2-7B**は、量子化後もほぼ同等の性能を維持し、0.10点のスコア低下に留まりました。
-		-  **Swallow-7B**では、量子化前後で成績に変化はなかった一方、**Swa
+	- https://qiita.com/wayama_ryousuke/items/50e36d0dcb37f
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDczMzM0MCw5MDQzMzI2NDAsLTEzNz
+eyJoaXN0b3J5IjpbMjA2MjY0ODg0NSw5MDQzMzI2NDAsLTEzNz
 AyMTMwNTAsLTE3MDkwNTQ1MTEsLTg3NTA5ODIxOCwtMTMwNzg2
 MTIsLTEzNDczMzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC
 0zODcxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4
