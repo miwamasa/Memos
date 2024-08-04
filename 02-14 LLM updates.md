@@ -171,7 +171,10 @@
 	- Llama 3.1 405BでClaude Artifactsのようにコード生成→アプリ、サイト開発ができる「Llama Coder」が登場。
 - Dark Matter of Neural Network?
 	- https://x.com/rohanpaul_ai/status/1819448650986066199
-	- 
+	- It's basically saying that current interpretability methods may be scratching the surface of neural network internals, with vast "dark matter" of rare features and complex superposition phenomena still eluding our understanding 
+- Buddha, What makes us human?
+	- https://x.com/ZainHasan6/status/1819710278340112727
+	- "Selecting All images with trafic lights
 
 ## 24/7/29　
 
@@ -3500,18 +3503,8 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Chat VectorとMath Vectorは併用できるのか by はちさｎ
 	- https://note.com/hatti8/n/n2d6d86d6f05a?sub_rt=share_h
 	- Chat+Math能力の両方を日本語ベースモデルに付与したら、どちらの効果も得られるのか
-	- Math強化モデルに先ほど作ったChat Vectorを重ねがけしていきます
-	- Math強化モデル：Swallow-MS-7b-v0.1-MathSkill-OpenMath
-	- Chat Vector：SkillTree-Chat-Mistral-7B-v0.1
-	- Math+Chat強化モデル
-		- https://huggingface.co/HachiML/Swallow-MS-7b-v0.1-ChatMathSkill
-	- 結論
-		-  **モデルが壊れることはない**
-		- **数学能力をある程度維持しつつ、Chat能力も強化することができる**
-		-  **一方、英語で回答しやすくなる傾向が出てくる**
-- Chat VectorならぬMath Vectorは作れるの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjM4OTEyNiwtMjEzODQ0NzEwMiwtMT
+eyJoaXN0b3J5IjpbMTE0Nzg3MDYzNCwtMjEzODQ0NzEwMiwtMT
 c5MTg4OTY3LDIwNjI2NDg4NDUsOTA0MzMyNjQwLC0xMzcwMjEz
 MDUwLC0xNzA5MDU0NTExLC04NzUwOTgyMTgsLTEzMDc4NjEyLC
 0xMzQ3MzM5OTU2LC0yODQxMDYzODksLTI2MDkyMjU4NCwtMzg3
