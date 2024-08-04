@@ -3,7 +3,7 @@
 
 ## 24/8/5
 
-Gemma-2 2b
+出ましたGemma-2 2b、GPT-3.5-Turbo-0613越えって、どういうこと？
 
 - ollamaとllama3.1でツールコーリングの例
 	- integrations/llm-frameworks/ollama/Ollama-Weaviate-Agents.ipynb
@@ -3505,13 +3505,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 20億パラメータを持つエッジデバイス上で機能するオンデバイスAIモデル「Octopus v2」
 - Google Colab で Octopus V2 を試す by npakaさん、
 	- https://note.com/npaka/n/n706bde979ed8
-	- Gemma-2Bを追加学習したモデルで、学習ステージと推論ステージの両方に独自のFunc
+	- Gemma-2Bを
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3NjEzNzAsMjA3Njc0MjM3MCwtMjEzOD
-Q0NzEwMiwtMTc5MTg4OTY3LDIwNjI2NDg4NDUsOTA0MzMyNjQw
-LC0xMzcwMjEzMDUwLC0xNzA5MDU0NTExLC04NzUwOTgyMTgsLT
-EzMDc4NjEyLC0xMzQ3MzM5OTU2LC0yODQxMDYzODksLTI2MDky
-MjU4NCwtMzg3MTk0NDUwLC0yMjcwNzc2MTgsLTE3OTUxMDI4Nj
-MsMTY1ODczNzEwNSwtMTE3MTQ3MTU3NCwxMDQwMjA1NjY3LDI5
-MDAxMjE0Ml19
+eyJoaXN0b3J5IjpbLTY1ODA5MTExNCwyMDc2NzQyMzcwLC0yMT
+M4NDQ3MTAyLC0xNzkxODg5NjcsMjA2MjY0ODg0NSw5MDQzMzI2
+NDAsLTEzNzAyMTMwNTAsLTE3MDkwNTQ1MTEsLTg3NTA5ODIxOC
+wtMTMwNzg2MTIsLTEzNDczMzk5NTYsLTI4NDEwNjM4OSwtMjYw
+OTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMj
+g2MywxNjU4NzM3MTA1LC0xMTcxNDcxNTc0LDEwNDAyMDU2Njcs
+MjkwMDEyMTQyXX0=
 -->
