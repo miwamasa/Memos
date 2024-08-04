@@ -88,6 +88,11 @@
 	- 5. Scope + Shield
 - 最近作ったのこれしかない by 米利菓さん
 	- https://x.com/torako778/status/1818506335883079981
+- Playing around Llama-3.1 405B with some logical prompts, and it's working great.
+	- https://x.com/rohanpaul_ai/status/1818339761364377934
+	- Almost equivalent performance to Claude 3.5 Sonnet.
+- Build a multi-agent AI software engineer using Llama 3.1 running locally on your computer with Ollama (100% free and without internet)
+	- https://github.com/Doriandarko/claude-engineer/tree/main
 - 
 
 ## 24/7/29　
@@ -3513,14 +3518,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 - Llama.cpp で Command R+ を試す by npakaさん
 	- https://note.com/npaka/n/n9136a2ebc7f9?sub_rt=share_h
 	- M3 Max (128GB)
-	- 「Command R+」は、「RAG」や「Tool」などの長いコンテキストタスク向けに最適化された104BのLLMです。CohereのEmbeddingおよびRerankと連携して動作するように設計されており、RAGアプリケーションに最高クラスの統合を提供し、エンタープライズユースケースで優れています。
-- Wikipediaの日本語記事を元に、ユーザの質問に回答するGradioベースのRAGのサンプル。
-	- https://github.com/lawofcycles/wikipedia-japanese-open-rag/tree/master
-	- 使ったもの
-		-   [intfloat/multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large)
-		-   [elyza/ELYZA-japanese-Llama-2-13b-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b-in
+	- 「Command R+」は、「RAG」や「Tool」などの長いコンテキストタスク向けに最適化された104BのLLMです。CohereのEmbeddingおよびRerankと連携して動作するように設
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4OTgwMTQwLC0xNzkxODg5NjcsMjA2Mj
+eyJoaXN0b3J5IjpbMzMyOTM2MjAyLC0xNzkxODg5NjcsMjA2Mj
 Y0ODg0NSw5MDQzMzI2NDAsLTEzNzAyMTMwNTAsLTE3MDkwNTQ1
 MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLTEzNDczMzk5NTYsLT
 I4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcxOTQ0NTAsLTIyNzA3
