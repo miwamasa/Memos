@@ -155,7 +155,9 @@
 	- https://x.com/nutlope/status/1819116840565575856
 	- https://llamacoder.together.ai/
 	- An open source Claude Artifacts app that can generate full React apps and components with Llama 3.1 405B. 100% free and open source.
-- 
+- ノームシェザー氏が出戻りするくらい最近のGoogleのLLMの勢いがえげつないという事。 by うみゆきさん
+	- https://x.com/umiyuki_ai/status/1819572029139624027
+	- 
 
 ## 24/7/29　
 
@@ -3506,12 +3508,9 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- μP（Maximal Update Parametrization）というのは、 Tensor Programs (TP)というフレームワークにおいて理論的に導出されたパラメータ付け（パラメータのスケーリングなど）の方法です
 	- TP は、 Neural Networks （NN）の解析をするために、線形変換や非線形活性化関数などの NN の構築で頻出する操作をリストアップし、その枠組みで成立する事象や性質を追求するフレームワークです。
 	- https://www.microsoft.com/en-us/research/blog/%C2%B5transfer-a-technique-for-hyperparameter-tuning-of-enormous-neural-networks/
-- Leveraging language representation for materials exploration and discovery
-	- https://www.nature.com/articles/s41524-024-01231-8
-	- 言語モデルによる材料探索の論文。
-	- 結晶材料をテキスト表現にし言語モデルにより既存材料に似た新
+- Leveraging language representation for materials exploration and dis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE0MjYyNjksLTIxMzg0NDcxMDIsLT
+eyJoaXN0b3J5IjpbLTE1NTgxOTMwNzUsLTIxMzg0NDcxMDIsLT
 E3OTE4ODk2NywyMDYyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIx
 MzA1MCwtMTcwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMi
 wtMTM0NzMzOTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4
