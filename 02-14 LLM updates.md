@@ -116,6 +116,11 @@
 - 内閣府が世界経済を分析した資料「AIで変わる労働市場」が神
 	- https://www5.cao.go.jp/j-j/sekai_chouryuu/sh24-01/index-pdf.html
 	- AIに駆逐されたくない人は必見。今後どの職業がなくなり、新たにどんな職業や職能が求められるようになるのかが詳細にまとめられている。リプ欄にリンク置いたから5秒だけでも見てみて。
+- Gemini 1.5 Pro Exp0801、日本語でも1位
+	- https://x.com/itnavi2022/status/1819058309351325962
+- We are increasing the rate limits for the new Gemini 1.5 Pro model in Google AI Studio. Keep the feedback coming
+	- https://x.com/GoogleDeepMind/status/1819086666847736276
+	- https://aistudio.google.com/app/prompts/new_chat
 - 
 
 ## 24/7/29　
@@ -3511,17 +3516,13 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- https://x.com/rsimd_/status/1747614320878555175
 	- vramが足りればって話だけど，一応faiss-cpuを使えばメモリ足りてる．
 - Command R+の量子化PPLを計測してくれてる
-	- https://github.com/ggerganov/llama.cpp/pull/6491#issuecomment-2043633791
-	- Q3_XXSは38GBだけど、ここまでなら精度的にも全然大丈夫ちゃうか？って予感はする。IQ2_XXSなら26.6GBで、ちょっとアホになってそう。IQ1_Sなら21.6GBだけど、さすがに実用性ヤバそう。
-- Perplexity Proに課金してGoogleのGemini UltraやGenerative Experienceと比較してみると、何かとんでもないことが起こっている気がする by 楠さん
-	- https://x.com/masanork/status/1777478951465779344
-- 完全ローカルでRAGも使えるAIチャットアプリOpenW
+	- https://github.com/ggerganov/llama.cpp/pull/6491#
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg0NDcxMDIsLTE3OTE4ODk2NywyMD
-YyNjQ4ODQ1LDkwNDMzMjY0MCwtMTM3MDIxMzA1MCwtMTcwOTA1
-NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMzOTk1Ni
-wtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MCwtMjI3
-MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTExNzE0Nz
-E1NzQsMTA0MDIwNTY2NywyOTAwMTIxNDIsMTM3MTcyNDg4OCwt
-MTQ1OTExMjA3NV19
+eyJoaXN0b3J5IjpbODQzMzY2Nzc3LC0yMTM4NDQ3MTAyLC0xNz
+kxODg5NjcsMjA2MjY0ODg0NSw5MDQzMzI2NDAsLTEzNzAyMTMw
+NTAsLTE3MDkwNTQ1MTEsLTg3NTA5ODIxOCwtMTMwNzg2MTIsLT
+EzNDczMzk5NTYsLTI4NDEwNjM4OSwtMjYwOTIyNTg0LC0zODcx
+OTQ0NTAsLTIyNzA3NzYxOCwtMTc5NTEwMjg2MywxNjU4NzM3MT
+A1LC0xMTcxNDcxNTc0LDEwNDAyMDU2NjcsMjkwMDEyMTQyLDEz
+NzE3MjQ4ODhdfQ==
 -->
