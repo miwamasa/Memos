@@ -33,8 +33,14 @@
 	- https://www.apple.com/apple-intelligence/
 -  SAM 2: Segment Anything in Images and Videos
 	- https://github.com/facebookresearch/segment-anything-2
-- 
-
+	- - real time - tracking - Apache2.0
+- ホーダチさんが本日リリースされたLlama-3.1-70B-EZO-1.1-itのQ8_0量子化版
+	- https://x.com/gosrum/status/1818279597550837806
+	- 早速Shaberi3ベンチマークで評価しました。結果はなんと、gpt-4o-mini、gemni-1.5-pro超えのスコアでした！！
+- Beautiful visual guide to quantization
+	- https://x.com/omarsar0/status/1818326822938931613
+	- which is becoming a super important technique for compressing LLMs.
+	- 
 
 ## 24/7/29　
 
@@ -3522,16 +3528,8 @@ Google I/Oで発表されたgoogleの検索x生成AIが、とても不評とい�
 	- 今回の公募では土台となるセマンティクス、「言語」づくりを目指すとのことで、その方法論として圏論が名指しされています
 - Mixtral8x22チューニング版
 	- HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1
-	- ORPOという新しいアライメントアルゴリズムを使用
-	- ORPOは、SFTステップを必要としないため、DPOやPPOのような方法よりも計算効率が良い 
-	- オープン、合成、マルチターン、LLMを介して採点さたDPOデータセット使用
-- LLMによる視覚読解技術を確立～グラフィカルな文書を理解する「tsuzumi」実現に向けて～
-	- https://group.ntt/jp/newsrelease/2024/04/12/240412b.html
-- Embeddingsを使ってローカルでテキストをクラスタリングする（Multilingual-E5）
-	- https://zenn.dev/libratech/articles/afe9c5b30668bb
-- Mixtral-8x22B、Lightblueさんのkarasuチューニ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTI4MzExMSwtMTM3MDIxMzA1MCwtMT
+eyJoaXN0b3J5IjpbMTA1MTU4NTIwNiwtMTM3MDIxMzA1MCwtMT
 cwOTA1NDUxMSwtODc1MDk4MjE4LC0xMzA3ODYxMiwtMTM0NzMz
 OTk1NiwtMjg0MTA2Mzg5LC0yNjA5MjI1ODQsLTM4NzE5NDQ1MC
 wtMjI3MDc3NjE4LC0xNzk1MTAyODYzLDE2NTg3MzcxMDUsLTEx
